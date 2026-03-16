@@ -560,12 +560,12 @@
             ).join('');
             document.getElementById('articleTags').innerHTML = tagsHtml;
             
-            // 填充股票
+            // 填充股票（先显示静态数据，然后异步获取实时价格）
             if (article.stocks && article.stocks.length > 0) {
                 document.getElementById('stockSection').style.display = 'block';
-                const stockHtml = article.stocks.map(stock => {
+                const stockHtml = article.stocks.map((stock, index) => {
                     const trendClass = stock.trend === 'up' ? 'up' : 'down';
-                    return `<div class="stock-item" onclick="window.location.href='stock.html?code=${stock.code}'" style="cursor: pointer;"
+                    return `<div class="stock-item" data-index="${index}" onclick="window.location.href='stock.html?code=${stock.code}'" style="cursor: pointer;"
                          onmouseover="this.style.background='#f0f0f0'" onmouseout="this.style.background='var(--bg)'">
                         <div class="stock-info">
                             <span class="stock-name">${stock.name}</span>
@@ -578,6 +578,11 @@
                     </div>`;
                 }).join('');
                 document.getElementById('stockList').innerHTML = stockHtml;
+                
+                // 异步获取实时价格（延迟1秒后执行，避免页面加载时的资源竞争）
+                setTimeout(() => {
+                    updateStockPrices(article.stocks);
+                }, 1000);
             }
             
             // 加载相关推荐
@@ -607,7 +612,66 @@
             });
         }
         
-        // 分享功能
+        const API_KEY = '2F0RW04NVUB5KYXF';
+        const API_BASE = 'https://www.alphavantage.co/query';
+        
+        // 获取实时股价
+        async function fetchStockPrice(symbol) {
+            try {
+                const url = `${API_BASE}?function=GLOBAL_QUOTE&symbol=${symbol}&apikey=${API_KEY}`;
+                const response = await fetch(url);
+                const data = await response.json();
+                
+                if (data['Note']) {
+                    console.warn('API频率限制:', data['Note']);
+                    return null;
+                }
+                
+                if (data['Global Quote'] && data['Global Quote']['05. price']) {
+                    const quote = data['Global Quote'];
+                    const price = parseFloat(quote['05. price']);
+                    const change = parseFloat(quote['09. change'] || 0);
+                    const changePercent = quote['10. change percent'] ? quote['10. change percent'].replace('%', '') : '0';
+                    
+                    return {
+                        price: price.toFixed(2),
+                        change: (change >= 0 ? '+' : '') + change.toFixed(2),
+                        changePercent: (change >= 0 ? '+' : '') + parseFloat(changePercent).toFixed(2) + '%',
+                        trend: change >= 0 ? 'up' : 'down'
+                    };
+                }
+                return null;
+            } catch (error) {
+                console.error('获取股价失败:', error);
+                return null;
+            }
+        }
+        
+        // 更新股票显示
+        async function updateStockPrices(stocks) {
+            for (let i = 0; i < stocks.length; i++) {
+                const stock = stocks[i];
+                const realData = await fetchStockPrice(stock.code);
+                
+                if (realData) {
+                    // 更新DOM
+                    const stockItems = document.querySelectorAll('.stock-item');
+                    if (stockItems[i]) {
+                        const priceEl = stockItems[i].querySelector('.stock-current');
+                        const changeEl = stockItems[i].querySelector('.stock-change');
+                        
+                        if (priceEl) priceEl.textContent = '$' + realData.price;
+                        if (changeEl) {
+                            changeEl.textContent = realData.changePercent;
+                            changeEl.className = 'stock-change ' + realData.trend;
+                        }
+                    }
+                }
+                
+                // 延迟1.2秒，避免API频率限制
+                await new Promise(resolve => setTimeout(resolve, 1200));
+            }
+        }
         function shareArticle() {
             if (navigator.share) {
                 navigator.share({
