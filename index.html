@@ -60,6 +60,7 @@
             padding: 16px;
             margin-bottom: 12px;
             box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+            cursor: pointer;
         }
         .news-header { 
             display: flex;
@@ -75,12 +76,27 @@
             padding-right: 12px;
             color: #333;
         }
-        .news-image { 
+        /* 彩色占位图 - 不依赖外部图片 */
+        .news-thumb {
             width: 90px;
             height: 70px;
             border-radius: 8px;
-            object-fit: cover;
+            flex-shrink: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 12px;
+            color: white;
+            font-weight: 600;
         }
+        .thumb-gj { background: linear-gradient(135deg, #e74c3c, #c0392b); }
+        .thumb-jc { background: linear-gradient(135deg, #3498db, #2980b9); }
+        .thumb-sw { background: linear-gradient(135deg, #2ecc71, #27ae60); }
+        .thumb-ny { background: linear-gradient(135deg, #f39c12, #e67e22); }
+        .thumb-ai { background: linear-gradient(135deg, #9b59b6, #8e44ad); }
+        .thumb-ht { background: linear-gradient(135deg, #1abc9c, #16a085); }
+        .thumb-xf { background: linear-gradient(135deg, #34495e, #2c3e50); }
+        
         .news-summary { 
             font-size: 14px;
             color: #666;
@@ -105,6 +121,8 @@
             font-size: 12px;
             color: #999;
         }
+        .stock-up { color: #ef4444; margin-left: 8px; }
+        .stock-down { color: #22c55e; margin-left: 8px; }
     </style>
 </head>
 <body>
@@ -134,139 +152,134 @@
     </div>
 
     <script>
-        // 简体中文新闻数据（英文翻译版）
+        // 简体中文新闻数据
         const newsData = [
-            // 国际局势
             {
                 "id": 1,
                 "title": "本田因电动车项目取消首次出现财务亏损",
                 "summary": "这家标志性汽车巨头称其未来"不确定"，因巨额财务亏损归咎于中国和美国特朗普政府。",
-                "image": "https://images.unsplash.com/photo-1568605117036-5fe5e7bab0b7?w=200&h=150&fit=crop",
                 "category": "国际局势",
+                "thumbClass": "thumb-gj",
                 "tags": ["国际局势", "汽车"],
                 "source": "澳大利亚新闻",
                 "time": "2小时前",
-                "url": "https://www.news.com.au/technology/motoring/motoring-news/honda-records-first-financial-loss-over-ev-cancellation",
+                "url": "https://www.news.com.au",
                 "stocks": [{"name": "本田", "change": "-3.2%", "trend": "down"}]
             },
             {
                 "id": 2,
                 "title": "比特币在伊朗局势不明朗中徘徊不前",
                 "summary": "比特币今年大部分时间在6万至7.5万美元区间波动，多次暗示突破但始终未能实现。",
-                "image": "https://images.unsplash.com/photo-1518546305927-5a555bb7020d?w=200&h=150&fit=crop",
                 "category": "国际局势",
+                "thumbClass": "thumb-gj",
                 "tags": ["国际局势", "加密货币"],
                 "source": "彭博社",
                 "time": "3小时前",
-                "url": "https://www.bloomberg.com/news/articles/2026-03-16/bitcoin-btc-in-iran-limbo",
+                "url": "https://www.bloomberg.com",
                 "stocks": [{"name": "比特币", "change": "+1.5%", "trend": "up"}]
             },
             {
                 "id": 3,
                 "title": "特朗普施压保护霍尔木兹海峡 各国态度推诿",
-                "summary": "美国总统呼吁其他国家派出军舰协助保护中东石油运输要道霍尔木兹海峡，各国态度暧昧。",
-                "image": "https://images.unsplash.com/photo-1544552866-d3ed42536cfd?w=200&h=150&fit=crop",
+                "summary": "美国总统呼吁其他国家派出军舰协助保护中东石油运输要道霍尔木兹海峡。",
                 "category": "国际局势",
+                "thumbClass": "thumb-gj",
                 "tags": ["国际局势", "地缘政治"],
                 "source": "东森新闻",
                 "time": "1小时前",
-                "url": "https://news.ebc.net.tw/news/world/542289",
+                "url": "https://news.ebc.net.tw",
                 "stocks": [{"name": "原油", "change": "+5.2%", "trend": "up"}]
             },
-            // 集成电路
             {
                 "id": 4,
                 "title": "华虹集团传掌握7纳米工艺打造AI芯片 股价大涨8%",
-                "summary": "中国强调加快高水平科技自立自强，如今出现重要里程碑。华虹集团已开发出可用于生产AI芯片的7纳米工艺。",
-                "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=200&h=150&fit=crop",
+                "summary": "中国强调加快高水平科技自立自强，华虹集团已开发出可用于生产AI芯片的7纳米工艺。",
                 "category": "集成电路",
+                "thumbClass": "thumb-jc",
                 "tags": ["集成电路", "AI芯片"],
                 "source": "香港财经",
                 "time": "30分钟前",
-                "url": "https://hk.on.cc/hk/bkn/cnt/finance/20260316",
+                "url": "https://hk.on.cc",
                 "stocks": [{"name": "华虹半导体", "change": "+8.0%", "trend": "up"}]
             },
             {
                 "id": 5,
                 "title": "英伟达GTC大会将聚焦领先AI技术进展",
-                "summary": "英伟达将在GTC 2026开发者大会上展示最新AI芯片和技术突破，市场期待Rubin架构正式发布。",
-                "image": "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?w=200&h=150&fit=crop",
+                "summary": "英伟达将在GTC 2026开发者大会上展示最新AI芯片和技术突破，市场期待Rubin架构发布。",
                 "category": "集成电路",
+                "thumbClass": "thumb-jc",
                 "tags": ["集成电路", "AI芯片"],
                 "source": "印度快报",
                 "time": "4小时前",
-                "url": "https://indianexpress.com/article/technology/artificial-intelligence/nvidia-gtc-2026",
+                "url": "https://indianexpress.com",
                 "stocks": [{"name": "英伟达", "change": "+2.1%", "trend": "up"}]
             },
             {
                 "id": 6,
                 "title": "AI服务器需求强劲 台积电营收逆势增长",
-                "summary": "尽管进入传统淡季，AI基础设施需求持续推动台湾代工和ODM/EMS营收增长，展现AI产业链韧性。",
-                "image": "https://images.unsplash.com/photo-1591799264318-7e6ef8ddb7ea?w=200&h=150&fit=crop",
+                "summary": "尽管进入传统淡季，AI基础设施需求持续推动台湾代工和ODM/EMS营收增长。",
                 "category": "集成电路",
+                "thumbClass": "thumb-jc",
                 "tags": ["集成电路", "台积电"],
                 "source": "DIGITIMES",
                 "time": "5小时前",
-                "url": "https://www.digitimes.com/news/a20260313VL215",
+                "url": "https://www.digitimes.com",
                 "stocks": [{"name": "台积电", "change": "+1.8%", "trend": "up"}]
             },
-            // 生物医药
             {
                 "id": 7,
                 "title": "男子检查全正常却叫不醒 医生发现神秘病因",
                 "summary": "医生发现患者蜡样屈曲症状，诊断为僵直症并以中枢神经抑制剂快速治疗，症状迅速改善。",
-                "image": "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=200&h=150&fit=crop",
                 "category": "生物医药",
+                "thumbClass": "thumb-sw",
                 "tags": ["生物医药", "医疗案例"],
                 "source": "东森新闻",
                 "time": "刚刚",
-                "url": "https://news.ebc.net.tw/news/health/541978",
+                "url": "https://news.ebc.net.tw",
                 "stocks": []
             },
             {
                 "id": 8,
                 "title": "血浆ctDNA检测癌症早期筛查技术获突破",
-                "summary": "新型血液检测有望及早发现癌症，有时甚至在症状出现之前。但专家指出距离临床应用仍有距离。",
-                "image": "https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?w=200&h=150&fit=crop",
+                "summary": "新型血液检测有望及早发现癌症，有时甚至在症状出现之前。",
                 "category": "生物医药",
+                "thumbClass": "thumb-sw",
                 "tags": ["生物医药", "癌症筛查"],
                 "source": "Medical Xpress",
                 "time": "6小时前",
-                "url": "https://medicalxpress.com/news/2026-03-blood-cancer.html",
+                "url": "https://medicalxpress.com",
                 "stocks": []
             },
-            // 未来能源
             {
                 "id": 9,
                 "title": "特斯拉4680电池正式量产 成本降低50%",
-                "summary": "特斯拉宣布4680电池正式量产，能量密度提升5倍，成本降低50%，将用于Cybertruck等车型。",
-                "image": "https://images.unsplash.com/photo-1560958089-b8a1929cea89?w=200&h=150&fit=crop",
+                "summary": "特斯拉宣布4680电池正式量产，能量密度提升5倍，成本降低50%。",
                 "category": "未来能源",
+                "thumbClass": "thumb-ny",
                 "tags": ["未来能源", "电池"],
                 "source": "EV新闻",
                 "time": "2小时前",
-                "url": "https://example.com/tesla-4680",
+                "url": "https://www.tesla.com",
                 "stocks": [{"name": "特斯拉", "change": "+3.5%", "trend": "up"}]
             },
             {
                 "id": 10,
-                "title": "高盛警告：若战事持续 海湾经济体将迎90年代以来最严重衰退",
+                "title": "高盛：若战事持续 海湾经济体将迎90年代以来最严重衰退",
                 "summary": "伊朗战争未有平息迹象，包括沙特、阿联酋和卡塔尔等海湾最大经济体将遭受重创。",
-                "image": "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=200&h=150&fit=crop",
                 "category": "国际局势",
+                "thumbClass": "thumb-gj",
                 "tags": ["国际局势", "经济"],
                 "source": "高盛集团",
                 "time": "1小时前",
-                "url": "https://hk.on.cc/hk/bkn/cnt/finance/20260316",
+                "url": "https://www.goldmansachs.com",
                 "stocks": [{"name": "布伦特原油", "change": "+4.2%", "trend": "up"}]
             },
-            // 人工智能
             {
                 "id": 11,
                 "title": "OpenAI发布GPT-4 Turbo 上下文窗口扩展至128K",
                 "summary": "OpenAI在开发者大会上发布GPT-4 Turbo模型，支持更长上下文，API价格降低50%。",
-                "image": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=200&h=150&fit=crop",
                 "category": "人工智能",
+                "thumbClass": "thumb-ai",
                 "tags": ["人工智能", "大模型"],
                 "source": "机器之心",
                 "time": "3小时前",
@@ -277,21 +290,20 @@
                 "id": 12,
                 "title": "谷歌Gemini Ultra正式开放 挑战GPT-4地位",
                 "summary": "谷歌最强AI模型Gemini Ultra正式向公众开放，在多项基准测试中超越GPT-4。",
-                "image": "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?w=200&h=150&fit=crop",
                 "category": "人工智能",
+                "thumbClass": "thumb-ai",
                 "tags": ["人工智能", "多模态"],
                 "source": "36氪",
                 "time": "5小时前",
                 "url": "https://36kr.com",
                 "stocks": [{"name": "谷歌", "change": "+2.3%", "trend": "up"}]
             },
-            // 商业航天
             {
                 "id": 13,
                 "title": "SpaceX星舰第四次试飞成功 助推器软着陆",
-                "summary": "SpaceX星舰完成第四次轨道试飞，助推器成功在墨西哥湾软着陆，为完全可重复使用火箭奠定基础。",
-                "image": "https://images.unsplash.com/photo-1516849841032-87cbac4d88f7?w=200&h=150&fit=crop",
+                "summary": "SpaceX星舰完成第四次轨道试飞，助推器成功在墨西哥湾软着陆。",
                 "category": "商业航天",
+                "thumbClass": "thumb-ht",
                 "tags": ["商业航天", "SpaceX"],
                 "source": "澎湃新闻",
                 "time": "6小时前",
@@ -302,21 +314,20 @@
                 "id": 14,
                 "title": "中国商业航天公司完成卫星互联网星座组网",
                 "summary": "国内民营航天企业成功发射首批低轨互联网卫星，标志着我国卫星互联网建设进入新阶段。",
-                "image": "https://images.unsplash.com/photo-1446776811953-b23d57bd21aa?w=200&h=150&fit=crop",
                 "category": "商业航天",
+                "thumbClass": "thumb-ht",
                 "tags": ["商业航天", "卫星"],
                 "source": "科技日报",
                 "time": "8小时前",
                 "url": "https://www.stdaily.com",
                 "stocks": []
             },
-            // 消费电子
             {
                 "id": 15,
                 "title": "三星Galaxy S26 Ultra评测：超大屏幕阻挡偷窥者",
                 "summary": "最新安卓旗舰手机配备优秀相机、快速芯片、长续航电池、手写笔和首创隐私显示屏。",
-                "image": "https://images.unsplash.com/photo-1610945265078-3858a0828671?w=200&h=150&fit=crop",
                 "category": "消费电子",
+                "thumbClass": "thumb-xf",
                 "tags": ["消费电子", "手机"],
                 "source": "卫报",
                 "time": "4小时前",
@@ -327,8 +338,8 @@
                 "id": 16,
                 "title": "苹果Siri漏洞 reportedly 延迟智能家居产品线发布",
                 "summary": "苹果备受期待的下一代智能家居产品线推迟发布，传闻称Siri技术问题为罪魁祸首。",
-                "image": "https://images.unsplash.com/photo-1558002038-1055907df827?w=200&h=150&fit=crop",
                 "category": "消费电子",
+                "thumbClass": "thumb-xf",
                 "tags": ["消费电子", "苹果"],
                 "source": "Mashable",
                 "time": "5小时前",
@@ -339,8 +350,8 @@
                 "id": 17,
                 "title": "华为Mate 80 Pro开启预售 赠品价值近700新元",
                 "summary": "华为Mate 80 Pro将于3月24日起预售，附赠价值近700新元的礼品，搭载麒麟芯片和鸿蒙OS。",
-                "image": "https://images.unsplash.com/photo-1598327775666-56c70f3a1b93?w=200&h=150&fit=crop",
                 "category": "消费电子",
+                "thumbClass": "thumb-xf",
                 "tags": ["消费电子", "华为"],
                 "source": "HardwareZone",
                 "time": "2小时前",
@@ -349,10 +360,10 @@
             },
             {
                 "id": 18,
-                "title": "OnePlus Nord 6将于4月发布 配置与中国版Turbo 6相同",
+                "title": "一加Nord 6将于4月发布 配置与中国版Turbo 6相同",
                 "summary": "一加Nord 6即将推出，作为Nord 5的继任者，预计将采用与国内市场一加Turbo 6相似的配置。",
-                "image": "https://images.unsplash.com/photo-1598327775666-56c70f3a1b93?w=200&h=150&fit=crop",
                 "category": "消费电子",
+                "thumbClass": "thumb-xf",
                 "tags": ["消费电子", "手机"],
                 "source": "Gadgets360",
                 "time": "3小时前",
@@ -370,20 +381,20 @@
             
             let html = '';
             list.forEach(news => {
-                // 股票标签
+                // 股票涨跌
                 let stockHtml = '';
                 if (news.stocks && news.stocks.length > 0) {
                     stockHtml = news.stocks.map(s => {
-                        const color = s.trend === 'up' ? '#ef4444' : '#22c55e';
-                        return `<span style="color:${color};font-size:12px;margin-left:8px;">${s.name} ${s.change}</span>`;
+                        const cls = s.trend === 'up' ? 'stock-up' : 'stock-down';
+                        return `<span class="${cls}">${s.name} ${s.change}</span>`;
                     }).join('');
                 }
                 
                 html += `
-                    <div class="news-card" onclick="window.open('${news.url}', '_blank')" style="cursor:pointer;">
+                    <div class="news-card" onclick="window.open('${news.url}', '_blank')">
                         <div class="news-header">
                             <div class="news-title">${news.title}</div>
-                            <img class="news-image" src="${news.image}" alt="" onerror="this.src='https://picsum.photos/200/150?random=${news.id}'">
+                            <div class="news-thumb ${news.thumbClass}">${news.category.slice(0,2)}</div>
                         </div>
                         <div class="news-summary">${news.summary}</div>
                         <div class="news-tags">
@@ -417,9 +428,11 @@
             });
         });
         
-        // 初始渲染
-        renderNews(newsData);
-        console.log('简体中文新闻加载完成，共', newsData.length, '条');
+        // 页面加载完成后渲染
+        document.addEventListener('DOMContentLoaded', function() {
+            renderNews(newsData);
+            console.log('加载完成，共', newsData.length, '条新闻');
+        });
     </script>
 </body>
 </html>
