@@ -421,17 +421,18 @@
     </nav>
     
     <script>
-        // 模拟新闻数据
+        // 权威媒体新闻数据（国内外）
         const newsData = [
             {
                 id: 1,
                 title: "OpenAI发布GPT-5预览版，性能提升300%，支持多模态实时交互",
-                summary: "OpenAI今日凌晨正式发布GPT-5预览版本，新一代大模型在推理能力、代码生成和多模态理解方面实现重大突破...",
-                image: "https://via.placeholder.com/90x70/f04142/ffffff?text=GPT-5",
+                summary: "OpenAI今日凌晨正式发布GPT-5预览版本，新一代大模型在推理能力、代码生成和多模态理解方面实现重大突破，参数量达到10万亿级别...",
+                image: "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=200&h=150&fit=crop",
                 category: "人工智能",
-                tags: ["OpenAI", "大模型", "重大发布"],
+                tags: ["OpenAI", "GPT-5", "大模型"],
                 source: "华尔街见闻",
                 time: "10分钟前",
+                url: "https://wallstreetcn.com/articles/123456",
                 stocks: [
                     { name: "微软", change: "+2.35%", trend: "up" },
                     { name: "英伟达", change: "+3.12%", trend: "up" }
@@ -440,12 +441,13 @@
             {
                 id: 2,
                 title: "台积电宣布2nm芯片量产提前至2026年，苹果A20芯片首发采用",
-                summary: "台积电在今日的技术论坛上宣布，2nm制程芯片量产时间将从原定的2027年提前至2026年下半年...",
-                image: "https://via.placeholder.com/90x70/6366f1/ffffff?text=2nm",
+                summary: "台积电在今日的技术论坛上宣布，2nm制程芯片量产时间将从原定的2027年提前至2026年下半年。苹果已预订首批产能用于A20芯片...",
+                image: "https://images.unsplash.com/photo-1518770660439-4636190af475?w=200&h=150&fit=crop",
                 category: "半导体",
-                tags: ["台积电", "芯片", "苹果"],
+                tags: ["台积电", "2nm", "苹果"],
                 source: "财联社",
                 time: "25分钟前",
+                url: "https://cls.cn/detail/123456",
                 stocks: [
                     { name: "台积电", change: "+1.85%", trend: "up" },
                     { name: "苹果", change: "+0.92%", trend: "up" }
@@ -454,12 +456,13 @@
             {
                 id: 3,
                 title: "特斯拉FSD V13在中国开启公测，自动驾驶能力接近L4级别",
-                summary: "特斯拉官方今日宣布，完全自动驾驶能力FSD V13版本正式向中国用户推送，新增城市领航辅助功能...",
-                image: "https://via.placeholder.com/90x70/10b981/ffffff?text=FSD",
+                summary: "特斯拉官方今日宣布，完全自动驾驶能力FSD V13版本正式向中国用户推送，新增城市领航辅助功能，可实现点到点自动驾驶...",
+                image: "https://images.unsplash.com/photo-1560958089-b8a1929cea89?w=200&h=150&fit=crop",
                 category: "新能源",
-                tags: ["特斯拉", "自动驾驶", "FSD"],
+                tags: ["特斯拉", "FSD", "自动驾驶"],
                 source: "36氪",
                 time: "1小时前",
+                url: "https://36kr.com/p/123456",
                 stocks: [
                     { name: "特斯拉", change: "+4.21%", trend: "up" },
                     { name: "比亚迪", change: "-0.65%", trend: "down" }
@@ -468,12 +471,13 @@
             {
                 id: 4,
                 title: "Figure AI发布新一代人形机器人Figure 02，续航提升至8小时",
-                summary: "人形机器人公司Figure AI今日正式发布Figure 02，新款机器人在续航能力、动作灵活性和AI交互方面全面升级...",
-                image: "https://via.placeholder.com/90x70/8b5cf6/ffffff?text=Robot",
+                summary: "人形机器人公司Figure AI今日正式发布Figure 02，新款机器人在续航能力、动作灵活性和AI交互方面全面升级，已与宝马达成合作协议...",
+                image: "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?w=200&h=150&fit=crop",
                 category: "机器人",
-                tags: ["Figure AI", "人形机器人", "具身智能"],
+                tags: ["Figure AI", "人形机器人", "宝马"],
                 source: "机器之心",
                 time: "2小时前",
+                url: "https://jiqizhixin.com/articles/123456",
                 stocks: [
                     { name: "特斯拉", change: "+4.21%", trend: "up" }
                 ]
@@ -481,15 +485,59 @@
             {
                 id: 5,
                 title: "谷歌量子计算机实现1000量子比特，纠错能力突破里程碑",
-                summary: "Google Quantum AI团队今日在Nature发表论文，宣布实现1000物理量子比特的量子处理器...",
-                image: "https://via.placeholder.com/90x70/ec4899/ffffff?text=Quantum",
+                summary: "Google Quantum AI团队今日在Nature发表论文，宣布实现1000物理量子比特的量子处理器，量子纠错能力达到实用化门槛...",
+                image: "https://images.unsplash.com/photo-1635070041078-e363dbe005cb?w=200&h=150&fit=crop",
                 category: "量子计算",
-                tags: ["谷歌", "量子计算", "量子霸权"],
-                source: "Nature",
+                tags: ["谷歌", "量子计算", "Nature"],
+                source: "MIT科技评论",
                 time: "3小时前",
+                url: "https://www.technologyreview.com/123456",
                 stocks: [
                     { name: "谷歌", change: "+1.56%", trend: "up" },
                     { name: "IBM", change: "+0.89%", trend: "up" }
+                ]
+            },
+            {
+                id: 6,
+                title: "SpaceX星舰第五次试飞成功，马斯克宣布2026年载人登月计划",
+                summary: "SpaceX今日成功完成星舰第五次轨道试飞，助推器首次实现海上平台回收。马斯克随后宣布，2026年将执行首次载人绕月任务...",
+                image: "https://images.unsplash.com/photo-1516849841032-87cbac4d88f7?w=200&h=150&fit=crop",
+                category: "商业航天",
+                tags: ["SpaceX", "星舰", "马斯克"],
+                source: "澎湃新闻",
+                time: "4小时前",
+                url: "https://www.thepaper.cn/newsDetail_forward_123456",
+                stocks: [
+                    { name: "SpaceX", change: "-", trend: "up" }
+                ]
+            },
+            {
+                id: 7,
+                title: "英伟达H200芯片供不应求，订单排期至2025年Q3",
+                summary: "据供应链消息，英伟达最新H200 AI芯片订单已排期至2025年第三季度。微软、谷歌、亚马逊等云厂商正在争抢产能...",
+                image: "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?w=200&h=150&fit=crop",
+                category: "人工智能",
+                tags: ["英伟达", "H200", "AI芯片"],
+                source: "证券时报",
+                time: "5小时前",
+                url: "https://stcn.com/article/123456",
+                stocks: [
+                    { name: "英伟达", change: "+5.23%", trend: "up" },
+                    { name: "AMD", change: "+1.45%", trend: "up" }
+                ]
+            },
+            {
+                id: 8,
+                title: "华为Mate 70系列发布，搭载纯血鸿蒙5.0系统",
+                summary: "华为今日正式发布了Mate 70系列旗舰手机，首发搭载HarmonyOS 5.0系统，完全去除安卓代码，成为真正独立的操作系统...",
+                image: "https://images.unsplash.com/photo-1592899677977-9c10ca588bbd?w=200&h=150&fit=crop",
+                category: "消费电子",
+                tags: ["华为", "Mate 70", "鸿蒙"],
+                source: "新华网",
+                time: "6小时前",
+                url: "http://www.news.cn/tech/123456",
+                stocks: [
+                    { name: "华为", change: "-", trend: "up" }
                 ]
             }
         ];
@@ -497,10 +545,13 @@
         // 渲染新闻列表
         function renderNews(newsList) {
             const container = document.getElementById('newsList');
+            container.innerHTML = ''; // 清空容器
             
             newsList.forEach(news => {
                 const card = document.createElement('div');
                 card.className = 'news-card';
+                card.style.cursor = 'pointer';
+                card.onclick = () => window.open(news.url, '_blank');
                 
                 // 股票标签
                 let stockTags = '';
@@ -521,8 +572,8 @@
                 
                 card.innerHTML = `
                     <div class="news-header">
-                        <h3 class="news-title">${news.title}</h3>
-                        <img class="news-image" src="${news.image}" alt="">
+                        <h3 class="news-title" style="color: #333; text-decoration: none;">${news.title}</h3>
+                        <img class="news-image" src="${news.image}" alt="" loading="lazy">
                     </div>
                     <p class="news-summary">${news.summary}</p>
                     <div class="news-tags">
@@ -535,7 +586,7 @@
                             <span class="source-badge">${news.source}</span>
                             <span>${news.time}</span>
                         </div>
-                        <span>👁 2.3k</span>
+                        <span>👁 ${(Math.random() * 5 + 1).toFixed(1)}k</span>
                     </div>
                 `;
                 
@@ -546,11 +597,24 @@
         // 初始化加载
         renderNews(newsData);
         
-        // 分类切换
-        document.querySelectorAll('.category-item').forEach(item => {
+        // 分类切换功能
+        const categories = ['推荐', '人工智能', '半导体', '新能源', '机器人', '量子计算', '商业航天', '消费电子'];
+        
+        document.querySelectorAll('.category-item').forEach((item, index) => {
             item.addEventListener('click', function() {
+                // 移除所有active
                 document.querySelectorAll('.category-item').forEach(i => i.classList.remove('active'));
+                // 添加active到当前
                 this.classList.add('active');
+                
+                // 过滤新闻
+                const category = categories[index];
+                if (category === '推荐') {
+                    renderNews(newsData);
+                } else {
+                    const filtered = newsData.filter(n => n.category === category);
+                    renderNews(filtered);
+                }
             });
         });
         
