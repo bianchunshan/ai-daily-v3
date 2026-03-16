@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>测试2 - 更多数据</title>
+    <style>
+        body { font-family: Arial; padding: 20px; background: #f5f5f5; }
+        .card { background: white; padding: 15px; margin: 10px 0; border-radius: 8px; }
+        img { width: 100%; max-width: 200px; height: 150px; object-fit: cover; border-radius: 4px; }
+        .loading { text-align: center; padding: 50px; color: #666; }
+    </style>
+</head>
+<body>
+    <h1>测试页面2 - 10条新闻</h1>
+    <div id="loading" class="loading">加载中...</div>
+    <div id="newsList"></div>
+    
+    <script>
+        // 使用index.html中的前10条真实数据
+        const newsData = [
+  {
+    "title": "Honda records first financial loss over EV cancellation",
+    "summary": "An iconic automotive giant claims its future is 'uncertain' after a huge financial loss it blames on China and Donald Tr...",
+    "image": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMDAiIGhlaWdodD0iMTUwIj48cmVjdCB3aWR0aD0iMjAwIiBoZWlnaHQ9IjE1MCIgZmlsbD0iI2U3NGMzYyI+PC9yZWN0Pjx0ZXh0IHg9IjUwJSIgeT0iNTAlIiBmb250LXNpemU9IjE0IiBmaWxsPSJ3aGl0ZSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZG9taW5hbnQtYmFzZWxpbmU9Im1pZGRsZSIgZm9udC1mYW1pbHk9IkFyaWFsIj7lm73pmYXlsYDlir88L3RleHQ+PC9zdmc+",
+    "category": "国际局势",
+    "tags": ["国际局势", "科技"],
+    "source": "news",
+    "time": "刚刚",
+    "id": 1
+  },
+  {
+    "title": "Bitcoin in Iran Limbo as 'Old Economy' Assets Steal Limelight",
+    "summary": "Bitcoin has spent most of this year trapped between $60,000 and $75,000, repeatedly teasing a breakout but never quite d...",
+    "image": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMDAiIGhlaWdodD0iMTUwIj48cmVjdCB3aWR0aD0iMjAwIiBoZWlnaHQ9IjE1MCIgZmlsbD0iI2U3NGMzYyI+PC9yZWN0Pjx0ZXh0IHg9IjUwJSIgeT0iNTAlIiBmb250LXNpemU9IjE0IiBmaWxsPSJ3aGl0ZSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZG9taW5hbnQtYmFzZWxpbmU9Im1pZGRsZSIgZm9udC1mYW1pbHk9IkFyaWFsIj7lm73pmYXlsYDlir88L3RleHQ+PC9zdmc+",
+    "category": "国际局势",
+    "tags": ["国际局势", "科技"],
+    "source": "bloomberg",
+    "time": "刚刚",
+    "id": 2
+  },
+  {
+    "title": "OnePlus Nord 6 Tipped to Have Same Specifications as China-exclusive OnePlus Turbo 6",
+    "summary": "The OnePlus Nord 6 is rumoured to launch soon as the successor to the Nord 5...",
+    "image": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMDAiIGhlaWdodD0iMTUwIj48cmVjdCB3aWR0aD0iMjAwIiBoZWlnaHQ9IjE1MCIgZmlsbD0iI2U3NGMzYyI+PC9yZWN0Pjx0ZXh0IHg9IjUwJSIgeT0iNTAlIiBmb250LXNpemU9IjE0IiBmaWxsPSJ3aGl0ZSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZG9taW5hbnQtYmFzZWxpbmU9Im1pZGRsZSIgZm9udC1mYW1pbHk9IkFyaWFsIj7lm73pmYXlsYDlir88L3RleHQ+PC9zdmc+",
+    "category": "国际局势",
+    "tags": ["国际局势", "科技"],
+    "source": "gadgets360",
+    "time": "刚刚",
+    "id": 3
+  }
+];
+        
+        function renderNews(list) {
+            console.log('开始渲染，新闻数:', list.length);
+            const container = document.getElementById('newsList');
+            const loading = document.getElementById('loading');
+            
+            try {
+                container.innerHTML = '';
+                
+                if (list.length === 0) {
+                    container.innerHTML = '<p>暂无新闻</p>';
+                    loading.style.display = 'none';
+                    return;
+                }
+                
+                list.forEach((news, index) => {
+                    console.log('渲染第', index + 1, '条:', news.title);
+                    const card = document.createElement('div');
+                    card.className = 'card';
+                    card.innerHTML = `
+                        <h3>${news.title}</h3>
+                        <img src="${news.image}" alt="" onerror="this.style.display='none'">
+                        <p>${news.summary}</p>
+                        <small>${news.source} · ${news.time}</small>
+                    `;
+                    container.appendChild(card);
+                });
+                
+                loading.style.display = 'none';
+                console.log('渲染完成');
+            } catch (e) {
+                console.error('渲染错误:', e);
+                loading.innerHTML = '加载出错: ' + e.message;
+            }
+        }
+        
+        // 页面加载完成后渲染
+        window.onload = function() {
+            console.log('页面加载完成');
+            renderNews(newsData);
+        };
+    </script>
+</body>
+</html>
