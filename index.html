@@ -370,12 +370,16 @@
         </div>
         <nav class="category-nav">
             <div class="category-item active">推荐</div>
-            <div class="category-item">AI</div>
+            <div class="category-item">国际局势</div>
+            <div class="category-item">人工智能</div>
             <div class="category-item">半导体</div>
             <div class="category-item">新能源</div>
             <div class="category-item">机器人</div>
+            <div class="category-item">生物科技</div>
             <div class="category-item">量子计算</div>
-            <div class="category-item">航天</div>
+            <div class="category-item">商业航天</div>
+            <div class="category-item">核聚变</div>
+            <div class="category-item">消费电子</div>
             <div class="category-item">游戏</div>
         </nav>
     </header>
@@ -586,7 +590,6 @@
                             <span class="source-badge">${news.source}</span>
                             <span>${news.time}</span>
                         </div>
-                        <span>👁 ${(Math.random() * 5 + 1).toFixed(1)}k</span>
                     </div>
                 `;
                 
@@ -598,7 +601,7 @@
         renderNews(newsData);
         
         // 分类切换功能
-        const categories = ['推荐', '人工智能', '半导体', '新能源', '机器人', '量子计算', '商业航天', '消费电子'];
+        const categories = ['推荐', '国际局势', '人工智能', '半导体', '新能源', '机器人', '生物科技', '量子计算', '商业航天', '核聚变', '消费电子', '游戏'];
         
         document.querySelectorAll('.category-item').forEach((item, index) => {
             item.addEventListener('click', function() {
