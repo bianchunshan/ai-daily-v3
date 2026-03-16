@@ -551,7 +551,7 @@
                 const card = document.createElement('div');
                 card.className = 'news-card';
                 card.style.cursor = 'pointer';
-                card.onclick = () => window.open(news.url, '_blank');
+                card.onclick = () => window.location.href = `detail.html?id=${news.id}`;
                 
                 // 股票标签
                 let stockTags = '';

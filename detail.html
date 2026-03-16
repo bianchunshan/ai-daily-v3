@@ -1,0 +1,633 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="theme-color" content="#f04142">
+    <title>资讯详情 - 前沿科技日报</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            -webkit-tap-highlight-color: transparent;
+        }
+        
+        :root {
+            --primary: #f04142;
+            --primary-dark: #d9363e;
+            --bg: #f5f5f5;
+            --card-bg: #ffffff;
+            --text-primary: #333333;
+            --text-secondary: #666666;
+            --text-tertiary: #999999;
+            --border: #e8e8e8;
+            --tag-bg: #f0f0f0;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif;
+            background: var(--bg);
+            color: var(--text-primary);
+            line-height: 1.6;
+        }
+        
+        /* 顶部导航 */
+        .header {
+            background: var(--primary);
+            color: white;
+            padding: 12px 16px;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+        
+        .back-btn {
+            font-size: 20px;
+            cursor: pointer;
+            padding: 4px;
+        }
+        
+        .header-title {
+            font-size: 18px;
+            font-weight: 600;
+            flex: 1;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+        }
+        
+        .header-actions {
+            display: flex;
+            gap: 16px;
+            font-size: 20px;
+        }
+        
+        /* 内容区域 */
+        .content {
+            padding: 16px;
+        }
+        
+        /* 文章标题 */
+        .article-title {
+            font-size: 22px;
+            font-weight: 700;
+            line-height: 1.4;
+            margin-bottom: 16px;
+            color: var(--text-primary);
+        }
+        
+        /* 文章元信息 */
+        .article-meta {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            margin-bottom: 16px;
+            font-size: 13px;
+            color: var(--text-secondary);
+        }
+        
+        .source-badge {
+            background: rgba(240, 65, 66, 0.1);
+            color: var(--primary);
+            padding: 4px 10px;
+            border-radius: 4px;
+            font-weight: 500;
+        }
+        
+        /* 大图 */
+        .article-image {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 12px;
+            margin-bottom: 16px;
+        }
+        
+        /* 标签 */
+        .article-tags {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+            margin-bottom: 20px;
+        }
+        
+        .tag {
+            font-size: 13px;
+            padding: 6px 12px;
+            background: var(--tag-bg);
+            border-radius: 4px;
+            color: var(--text-secondary);
+        }
+        
+        .tag.primary {
+            background: rgba(240, 65, 66, 0.1);
+            color: var(--primary);
+        }
+        
+        /* 文章内容 */
+        .article-content {
+            background: var(--card-bg);
+            border-radius: 12px;
+            padding: 20px;
+            margin-bottom: 16px;
+            font-size: 16px;
+            line-height: 1.8;
+            color: var(--text-primary);
+        }
+        
+        .article-content p {
+            margin-bottom: 16px;
+        }
+        
+        .article-content h3 {
+            font-size: 18px;
+            font-weight: 600;
+            margin: 20px 0 12px;
+            color: var(--text-primary);
+        }
+        
+        /* 股票关联 */
+        .stock-section {
+            background: var(--card-bg);
+            border-radius: 12px;
+            padding: 16px;
+            margin-bottom: 16px;
+        }
+        
+        .section-title {
+            font-size: 16px;
+            font-weight: 600;
+            margin-bottom: 12px;
+            display: flex;
+            align-items: center;
+            gap: 6px;
+        }
+        
+        .stock-list {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+        
+        .stock-item {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 12px;
+            background: var(--bg);
+            border-radius: 8px;
+        }
+        
+        .stock-info {
+            display: flex;
+            flex-direction: column;
+            gap: 4px;
+        }
+        
+        .stock-name {
+            font-weight: 600;
+            font-size: 15px;
+        }
+        
+        .stock-code {
+            font-size: 12px;
+            color: var(--text-tertiary);
+        }
+        
+        .stock-price {
+            text-align: right;
+        }
+        
+        .stock-current {
+            font-size: 18px;
+            font-weight: 600;
+        }
+        
+        .stock-change {
+            font-size: 13px;
+            font-weight: 500;
+        }
+        
+        .stock-change.up {
+            color: #ef4444;
+        }
+        
+        .stock-change.down {
+            color: #22c55e;
+        }
+        
+        /* 操作按钮 */
+        .action-bar {
+            background: var(--card-bg);
+            border-radius: 12px;
+            padding: 16px;
+            display: flex;
+            gap: 12px;
+        }
+        
+        .action-btn {
+            flex: 1;
+            padding: 12px;
+            border-radius: 8px;
+            border: none;
+            font-size: 15px;
+            font-weight: 500;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 6px;
+        }
+        
+        .action-btn.primary {
+            background: var(--primary);
+            color: white;
+        }
+        
+        .action-btn.secondary {
+            background: var(--bg);
+            color: var(--text-primary);
+        }
+        
+        /* 相关推荐 */
+        .related-section {
+            margin-top: 24px;
+        }
+        
+        .related-title {
+            font-size: 18px;
+            font-weight: 600;
+            margin-bottom: 12px;
+            padding: 0 16px;
+        }
+        
+        .related-list {
+            padding: 0 16px;
+        }
+        
+        .related-item {
+            background: var(--card-bg);
+            border-radius: 12px;
+            padding: 16px;
+            margin-bottom: 12px;
+            display: flex;
+            gap: 12px;
+            cursor: pointer;
+        }
+        
+        .related-thumb {
+            width: 80px;
+            height: 60px;
+            border-radius: 8px;
+            object-fit: cover;
+            flex-shrink: 0;
+        }
+        
+        .related-content {
+            flex: 1;
+        }
+        
+        .related-item-title {
+            font-size: 15px;
+            font-weight: 500;
+            line-height: 1.4;
+            margin-bottom: 6px;
+            display: -webkit-box;
+            -webkit-line-clamp: 2;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+        }
+        
+        .related-meta {
+            font-size: 12px;
+            color: var(--text-tertiary);
+        }
+        
+        /* 底部占位 */
+        .bottom-space {
+            height: 40px;
+        }
+    </style>
+</head>
+<body>
+    <!-- 顶部导航 -->
+    <header class="header">
+        <span class="back-btn" onclick="history.back()">←</span>
+        <span class="header-title">资讯详情</span>
+        <div class="header-actions">
+            <span>⋮</span>
+        </div>
+    </header>
+    
+    <!-- 内容区域 -->
+    <div class="content">
+        <!-- 标题 -->
+        <h1 class="article-title" id="articleTitle">加载中...</h1>
+        
+        <!-- 元信息 -->
+        <div class="article-meta">
+            <span class="source-badge" id="articleSource">-</span>
+            <span id="articleTime">-</span>
+            <span>👁 <span id="articleViews">-</span>次阅读</span>
+        </div>
+        
+        <!-- 大图 -->
+        <img class="article-image" id="articleImage" src="" alt="">
+        
+        <!-- 标签 -->
+        <div class="article-tags" id="articleTags"></div>
+        
+        <!-- 文章内容 -->
+        <div class="article-content" id="articleContent">
+            <p>加载中...</p>
+        </div>
+        
+        <!-- 股票关联 -->
+        <div class="stock-section" id="stockSection" style="display: none;">
+            <div class="section-title">📈 相关股票</div>
+            <div class="stock-list" id="stockList"></div>
+        </div>
+        
+        <!-- 操作按钮 -->
+        <div class="action-bar">
+            <button class="action-btn secondary" onclick="shareArticle()">
+                <span>📤</span>
+                <span>分享</span>
+            </button>
+            <button class="action-btn primary" onclick="openOriginal()">
+                <span>🔗</span>
+                <span>查看原文</span>
+            </button>
+        </div>
+    </div>
+    
+    <!-- 相关推荐 -->
+    <div class="related-section">
+        <div class="related-title">相关推荐</div>
+        <div class="related-list" id="relatedList">
+            <!-- 动态加载 -->
+        </div>
+    </div>
+    
+    <div class="bottom-space"></div>
+    
+    <script>
+        // 新闻数据库（与首页相同）
+        const newsData = [
+            {
+                id: 1,
+                title: "OpenAI发布GPT-5预览版，性能提升300%，支持多模态实时交互",
+                summary: "OpenAI今日凌晨正式发布GPT-5预览版本，新一代大模型在推理能力、代码生成和多模态理解方面实现重大突破，参数量达到10万亿级别...",
+                content: `<p>OpenAI今日凌晨正式发布GPT-5预览版本，新一代大模型在推理能力、代码生成和多模态理解方面实现重大突破。</p>
+                <h3>核心升级</h3>
+                <p>1. <strong>参数量提升</strong>：从GPT-4的1.8万亿参数提升至10万亿参数，模型容量增长超过5倍。</p>
+                <p>2. <strong>多模态能力</strong>：支持文本、图像、音频、视频实时输入输出，延迟降低至100毫秒以内。</p>
+                <p>3. <strong>推理能力</strong>：在数学推理、代码生成等任务上准确率提升300%，接近人类专家水平。</p>
+                <h3>商业化进展</h3>
+                <p>OpenAI CEO Sam Altman表示，GPT-5将于2025年Q2正式商用，API价格将与GPT-4持平。微软已宣布将在Azure平台优先部署。</p>`,
+                image: "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+                category: "人工智能",
+                tags: ["OpenAI", "GPT-5", "大模型"],
+                source: "华尔街见闻",
+                time: "10分钟前",
+                views: "12.5k",
+                url: "https://wallstreetcn.com/articles/123456",
+                stocks: [
+                    { name: "微软", code: "MSFT", price: "425.80", change: "+2.35%", trend: "up" },
+                    { name: "英伟达", code: "NVDA", price: "875.30", change: "+3.12%", trend: "up" }
+                ]
+            },
+            {
+                id: 2,
+                title: "台积电宣布2nm芯片量产提前至2026年，苹果A20芯片首发采用",
+                summary: "台积电在今日的技术论坛上宣布，2nm制程芯片量产时间将从原定的2027年提前至2026年下半年...",
+                content: `<p>台积电在今日的技术论坛上宣布，2nm制程芯片量产时间将从原定的2027年提前至2026年下半年。苹果已预订首批产能用于A20芯片。</p>
+                <h3>技术突破</h3>
+                <p>2nm工艺采用全新GAAFET晶体管架构，相比3nm工艺：</p>
+                <p>• 性能提升15%<br>• 功耗降低30%<br>• 晶体管密度提升1.8倍</p>
+                <h3>客户排队</h3>
+                <p>除苹果外，英伟达、AMD、高通均已预订2nm产能，订单排期至2027年。</p>`,
+                image: "https://images.unsplash.com/photo-1518770660439-4636190af475?w=800&h=400&fit=crop",
+                category: "半导体",
+                tags: ["台积电", "2nm", "苹果"],
+                source: "财联社",
+                time: "25分钟前",
+                views: "8.3k",
+                url: "https://cls.cn/detail/123456",
+                stocks: [
+                    { name: "台积电", code: "TSM", price: "142.50", change: "+1.85%", trend: "up" },
+                    { name: "苹果", code: "AAPL", price: "195.20", change: "+0.92%", trend: "up" }
+                ]
+            },
+            {
+                id: 3,
+                title: "特斯拉FSD V13在中国开启公测，自动驾驶能力接近L4级别",
+                summary: "特斯拉官方今日宣布，完全自动驾驶能力FSD V13版本正式向中国用户推送...",
+                content: `<p>特斯拉官方今日宣布，完全自动驾驶能力FSD V13版本正式向中国用户推送，新增城市领航辅助功能。</p>`,
+                image: "https://images.unsplash.com/photo-1560958089-b8a1929cea89?w=800&h=400&fit=crop",
+                category: "新能源",
+                tags: ["特斯拉", "FSD", "自动驾驶"],
+                source: "36氪",
+                time: "1小时前",
+                views: "15.2k",
+                url: "https://36kr.com/p/123456",
+                stocks: [
+                    { name: "特斯拉", code: "TSLA", price: "195.30", change: "+4.21%", trend: "up" },
+                    { name: "比亚迪", code: "BYD", price: "245.80", change: "-0.65%", trend: "down" }
+                ]
+            },
+            {
+                id: 4,
+                title: "Figure AI发布新一代人形机器人Figure 02，续航提升至8小时",
+                summary: "人形机器人公司Figure AI今日正式发布Figure 02...",
+                content: `<p>人形机器人公司Figure AI今日正式发布Figure 02，新款机器人在续航能力、动作灵活性和AI交互方面全面升级。</p>`,
+                image: "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?w=800&h=400&fit=crop",
+                category: "机器人",
+                tags: ["Figure AI", "人形机器人", "宝马"],
+                source: "机器之心",
+                time: "2小时前",
+                views: "6.8k",
+                url: "https://jiqizhixin.com/articles/123456",
+                stocks: [
+                    { name: "特斯拉", code: "TSLA", price: "195.30", change: "+4.21%", trend: "up" }
+                ]
+            },
+            {
+                id: 5,
+                title: "谷歌量子计算机实现1000量子比特，纠错能力突破里程碑",
+                summary: "Google Quantum AI团队今日在Nature发表论文...",
+                content: `<p>Google Quantum AI团队今日在Nature发表论文，宣布实现1000物理量子比特的量子处理器。</p>`,
+                image: "https://images.unsplash.com/photo-1635070041078-e363dbe005cb?w=800&h=400&fit=crop",
+                category: "量子计算",
+                tags: ["谷歌", "量子计算", "Nature"],
+                source: "MIT科技评论",
+                time: "3小时前",
+                views: "5.4k",
+                url: "https://www.technologyreview.com/123456",
+                stocks: [
+                    { name: "谷歌", code: "GOOGL", price: "165.80", change: "+1.56%", trend: "up" },
+                    { name: "IBM", code: "IBM", price: "198.50", change: "+0.89%", trend: "up" }
+                ]
+            },
+            {
+                id: 6,
+                title: "SpaceX星舰第五次试飞成功，马斯克宣布2026年载人登月计划",
+                summary: "SpaceX今日成功完成星舰第五次轨道试飞...",
+                content: `<p>SpaceX今日成功完成星舰第五次轨道试飞，助推器首次实现海上平台回收。</p>`,
+                image: "https://images.unsplash.com/photo-1516849841032-87cbac4d88f7?w=800&h=400&fit=crop",
+                category: "商业航天",
+                tags: ["SpaceX", "星舰", "马斯克"],
+                source: "澎湃新闻",
+                time: "4小时前",
+                views: "22.1k",
+                url: "https://www.thepaper.cn/newsDetail_forward_123456",
+                stocks: []
+            },
+            {
+                id: 7,
+                title: "英伟达H200芯片供不应求，订单排期至2025年Q3",
+                summary: "据供应链消息，英伟达最新H200 AI芯片订单已排期至2025年第三季度...",
+                content: `<p>据供应链消息，英伟达最新H200 AI芯片订单已排期至2025年第三季度。</p>`,
+                image: "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?w=800&h=400&fit=crop",
+                category: "人工智能",
+                tags: ["英伟达", "H200", "AI芯片"],
+                source: "证券时报",
+                time: "5小时前",
+                views: "9.7k",
+                url: "https://stcn.com/article/123456",
+                stocks: [
+                    { name: "英伟达", code: "NVDA", price: "875.30", change: "+5.23%", trend: "up" },
+                    { name: "AMD", code: "AMD", price: "165.40", change: "+1.45%", trend: "up" }
+                ]
+            },
+            {
+                id: 8,
+                title: "华为Mate 70系列发布，搭载纯血鸿蒙5.0系统",
+                summary: "华为今日正式发布了Mate 70系列旗舰手机...",
+                content: `<p>华为今日正式发布了Mate 70系列旗舰手机，首发搭载HarmonyOS 5.0系统。</p>`,
+                image: "https://images.unsplash.com/photo-1592899677977-9c10ca588bbd?w=800&h=400&fit=crop",
+                category: "消费电子",
+                tags: ["华为", "Mate 70", "鸿蒙"],
+                source: "新华网",
+                time: "6小时前",
+                views: "28.5k",
+                url: "http://www.news.cn/tech/123456",
+                stocks: []
+            }
+        ];
+        
+        let currentArticle = null;
+        
+        // 获取URL参数
+        function getUrlParam(param) {
+            const urlParams = new URLSearchParams(window.location.search);
+            return urlParams.get(param);
+        }
+        
+        // 加载文章
+        function loadArticle() {
+            const articleId = getUrlParam('id');
+            
+            if (!articleId) {
+                document.getElementById('articleTitle').textContent = '文章不存在';
+                return;
+            }
+            
+            const article = newsData.find(n => n.id === parseInt(articleId));
+            
+            if (!article) {
+                document.getElementById('articleTitle').textContent = '文章不存在';
+                return;
+            }
+            
+            currentArticle = article;
+            
+            // 填充内容
+            document.getElementById('articleTitle').textContent = article.title;
+            document.getElementById('articleSource').textContent = article.source;
+            document.getElementById('articleTime').textContent = article.time;
+            document.getElementById('articleViews').textContent = article.views;
+            document.getElementById('articleImage').src = article.image;
+            document.getElementById('articleContent').innerHTML = article.content || `<p>${article.summary}</p>`;
+            
+            // 填充标签
+            const tagsHtml = article.tags.map(tag => 
+                `<span class="tag ${tag === article.tags[0] ? 'primary' : ''}">${tag}</span>`
+            ).join('');
+            document.getElementById('articleTags').innerHTML = tagsHtml;
+            
+            // 填充股票
+            if (article.stocks && article.stocks.length > 0) {
+                document.getElementById('stockSection').style.display = 'block';
+                const stockHtml = article.stocks.map(stock => {
+                    const trendClass = stock.trend === 'up' ? 'up' : 'down';
+                    return `<div class="stock-item">
+                        <div class="stock-info">
+                            <span class="stock-name">${stock.name}</span>
+                            <span class="stock-code">${stock.code}</span>
+                        </div>
+                        <div class="stock-price">
+                            <div class="stock-current">$${stock.price}</div>
+                            <div class="stock-change ${trendClass}">${stock.change}</div>
+                        </div>
+                    </div>`;
+                }).join('');
+                document.getElementById('stockList').innerHTML = stockHtml;
+            }
+            
+            // 加载相关推荐
+            loadRelated(article);
+        }
+        
+        // 加载相关推荐
+        function loadRelated(currentArticle) {
+            const related = newsData
+                .filter(n => n.id !== currentArticle.id && n.category === currentArticle.category)
+                .slice(0, 3);
+            
+            const container = document.getElementById('relatedList');
+            
+            related.forEach(item => {
+                const div = document.createElement('div');
+                div.className = 'related-item';
+                div.onclick = () => window.location.href = `detail.html?id=${item.id}`;
+                div.innerHTML = `
+                    <img class="related-thumb" src="${item.image}" alt="">
+                    <div class="related-content">
+                        <div class="related-item-title">${item.title}</div>
+                        <div class="related-meta">${item.source} · ${item.time}</div>
+                    </div>
+                `;
+                container.appendChild(div);
+            });
+        }
+        
+        // 分享功能
+        function shareArticle() {
+            if (navigator.share) {
+                navigator.share({
+                    title: currentArticle.title,
+                    text: currentArticle.summary,
+                    url: window.location.href
+                });
+            } else {
+                alert('链接已复制到剪贴板');
+            }
+        }
+        
+        // 查看原文
+        function openOriginal() {
+            if (currentArticle && currentArticle.url) {
+                window.open(currentArticle.url, '_blank');
+            }
+        }
+        
+        // 初始化
+        loadArticle();
+    </script>
+</body>
+</html>
