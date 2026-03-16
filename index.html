@@ -371,16 +371,14 @@
         <nav class="category-nav">
             <div class="category-item active">推荐</div>
             <div class="category-item">国际局势</div>
-            <div class="category-item">人工智能</div>
-            <div class="category-item">半导体</div>
-            <div class="category-item">新能源</div>
-            <div class="category-item">机器人</div>
-            <div class="category-item">生物科技</div>
-            <div class="category-item">量子计算</div>
-            <div class="category-item">商业航天</div>
-            <div class="category-item">核聚变</div>
-            <div class="category-item">消费电子</div>
-            <div class="category-item">游戏</div>
+            <div class="category-item">集成电路</div>
+            <div class="category-item">航空航天</div>
+            <div class="category-item">生物医药</div>
+            <div class="category-item">低空经济</div>
+            <div class="category-item">未来能源</div>
+            <div class="category-item">量子科技</div>
+            <div class="category-item">具身智能</div>
+            <div class="category-item">脑机接口</div>
         </nav>
     </header>
     
@@ -601,7 +599,7 @@
         renderNews(newsData);
         
         // 分类切换功能
-        const categories = ['推荐', '国际局势', '人工智能', '半导体', '新能源', '机器人', '生物科技', '量子计算', '商业航天', '核聚变', '消费电子', '游戏'];
+        const categories = ['推荐', '国际局势', '集成电路', '航空航天', '生物医药', '低空经济', '未来能源', '量子科技', '具身智能', '脑机接口'];
         
         document.querySelectorAll('.category-item').forEach((item, index) => {
             item.addEventListener('click', function() {
@@ -616,7 +614,7 @@
                     renderNews(newsData);
                 } else {
                     const filtered = newsData.filter(n => n.category === category);
-                    renderNews(filtered);
+                    renderNews(filtered.length > 0 ? filtered : newsData);
                 }
             });
         });
