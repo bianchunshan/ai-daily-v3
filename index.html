@@ -16,16 +16,7 @@
         .info-bar { background: #fff8f0; padding: 8px 16px; font-size: 12px; color: #666; display: flex; justify-content: space-between; }
         .content { padding: 12px; }
         .card { background: white; border-radius: 12px; padding: 16px; margin-bottom: 12px; box-shadow: 0 1px 3px rgba(0,0,0,0.08); }
-        .card-header { display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 8px; }
-        .card-title { font-size: 16px; font-weight: 600; color: #333; line-height: 1.5; flex: 1; padding-right: 12px; }
-        .card-thumb { width: 80px; height: 60px; border-radius: 6px; flex-shrink: 0; display: flex; align-items: center; justify-content: center; font-size: 12px; color: white; font-weight: 600; }
-        .thumb-red { background: linear-gradient(135deg, #e74c3c, #c0392b); }
-        .thumb-blue { background: linear-gradient(135deg, #3498db, #2980b9); }
-        .thumb-green { background: linear-gradient(135deg, #2ecc71, #27ae60); }
-        .thumb-orange { background: linear-gradient(135deg, #f39c12, #e67e22); }
-        .thumb-purple { background: linear-gradient(135deg, #9b59b6, #8e44ad); }
-        .thumb-cyan { background: linear-gradient(135deg, #1abc9c, #16a085); }
-        .thumb-gray { background: linear-gradient(135deg, #34495e, #2c3e50); }
+        .card-title { font-size: 16px; font-weight: 600; color: #333; line-height: 1.5; margin-bottom: 8px; }
         .card-summary { font-size: 14px; color: #666; line-height: 1.5; margin-bottom: 10px; }
         .card-footer { font-size: 12px; color: #999; }
         .tag { display: inline-block; font-size: 11px; padding: 2px 8px; background: #f0f0f0; border-radius: 4px; color: #666; margin-right: 6px; }
@@ -85,12 +76,7 @@
             var html = '';
             for (var i = 0; i < list.length; i++) {
                 var n = list[i];
-                html += '<div class="card" onclick="window.open(\'' + n.url + '\', \'_blank\')" style="cursor:pointer;">';
-                html += '<div class="card-header">';
-                html += '<div class="card-title">' + n.title + '</div>';
-                html += '<div class="card-thumb ' + n.thumb + '" style="font-size:10px;">' + n.category.substring(0,2) + '</div>';
-                html += '</div>';
-                html += '<div class="card-summary">' + n.summary + '</div>';
+                html += '<div class="card" onclick="window.open(\'' + n.url + '\', \'_blank\')" style="cursor:pointer;">';                html += '<div class="card-title">' + n.title + '</div>';                html += '<div class="card-summary">' + n.summary + '</div>';
                 html += '<div class="card-footer">';
                 html += '<span class="tag tag-red">' + n.category + '</span>';
                 for (var j = 0; j < n.tags.length; j++) {
