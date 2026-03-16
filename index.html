@@ -3,629 +3,216 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <meta name="theme-color" content="#f04142">
-    <meta name="apple-mobile-web-app-capable" content="yes">
-    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-    <title>前沿科技日报 - 科技前沿资讯</title>
+    <title>前沿科技日报</title>
     <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-            -webkit-tap-highlight-color: transparent;
-        }
-        
-        :root {
-            --primary: #f04142;
-            --primary-dark: #d9363e;
-            --bg: #f5f5f5;
-            --card-bg: #ffffff;
-            --text-primary: #333333;
-            --text-secondary: #666666;
-            --text-tertiary: #999999;
-            --border: #e8e8e8;
-            --tag-bg: #f0f0f0;
-        }
-        
-        body {
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { 
             font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif;
-            background: var(--bg);
-            color: var(--text-primary);
-            line-height: 1.5;
+            background: #f5f5f5; 
             padding-bottom: 60px;
         }
-        
-        /* 顶部导航 */
-        .header {
-            background: var(--primary);
-            color: white;
-            padding: 12px 16px;
-            position: sticky;
-            top: 0;
+        .header { 
+            background: #f04142; 
+            color: white; 
+            padding: 12px 16px; 
+            position: sticky; 
+            top: 0; 
             z-index: 100;
-            box-shadow: 0 2px 8px rgba(240, 65, 66, 0.3);
         }
-        
-        .header-top {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            margin-bottom: 12px;
-        }
-        
-        .logo {
-            font-size: 20px;
-            font-weight: 700;
-            display: flex;
-            align-items: center;
-            gap: 6px;
-        }
-        
-        .logo-icon {
-            width: 28px;
-            height: 28px;
-            background: white;
-            border-radius: 6px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            color: var(--primary);
-            font-size: 14px;
-            font-weight: bold;
-        }
-        
-        .header-actions {
-            display: flex;
-            gap: 16px;
-            font-size: 18px;
-        }
-        
-        /* 分类标签 */
-        .category-nav {
-            display: flex;
-            gap: 20px;
-            overflow-x: auto;
+        .header-top { display: flex; justify-content: space-between; align-items: center; margin-bottom: 12px; }
+        .logo { font-size: 20px; font-weight: 700; }
+        .category-nav { 
+            display: flex; 
+            gap: 20px; 
+            overflow-x: auto; 
             scrollbar-width: none;
-            -webkit-overflow-scrolling: touch;
+        }
+        .category-nav::-webkit-scrollbar { display: none; }
+        .category-item { 
+            white-space: nowrap; 
+            font-size: 15px; 
+            opacity: 0.85; 
             padding-bottom: 4px;
-        }
-        
-        .category-nav::-webkit-scrollbar {
-            display: none;
-        }
-        
-        .category-item {
-            white-space: nowrap;
-            font-size: 15px;
-            opacity: 0.85;
-            padding-bottom: 4px;
-            border-bottom: 2px solid transparent;
-            transition: all 0.2s;
-        }
-        
-        .category-item.active {
-            opacity: 1;
-            font-weight: 600;
-            border-bottom-color: white;
-        }
-        
-        /* 刷新时间 */
-        .refresh-bar {
-            background: #fff8f0;
-            border-bottom: 1px solid var(--border);
-            padding: 8px 16px;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            font-size: 12px;
-            color: var(--text-secondary);
-        }
-        
-        .refresh-btn {
-            color: var(--primary);
-            display: flex;
-            align-items: center;
-            gap: 4px;
             cursor: pointer;
         }
-        
-        /* 内容区域 */
-        .content {
-            padding: 12px;
+        .category-item.active { 
+            opacity: 1; 
+            font-weight: 600; 
+            border-bottom: 2px solid white;
         }
-        
-        /* 新闻卡片 */
-        .news-card {
-            background: var(--card-bg);
-            border-radius: 12px;
-            padding: 16px;
-            margin-bottom: 12px;
-            box-shadow: 0 1px 3px rgba(0,0,0,0.08);
-            transition: transform 0.2s, box-shadow 0.2s;
-        }
-        
-        .news-card:active {
-            transform: scale(0.98);
-        }
-        
-        .news-header {
-            display: flex;
+        .refresh-bar { 
+            background: #fff8f0; 
+            border-bottom: 1px solid #e8e8e8; 
+            padding: 8px 16px; 
+            display: flex; 
             justify-content: space-between;
-            align-items: flex-start;
+            font-size: 12px; 
+            color: #666;
+        }
+        .content { padding: 12px; }
+        .news-card { 
+            background: white; 
+            border-radius: 12px; 
+            padding: 16px; 
+            margin-bottom: 12px; 
+            box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+        }
+        .news-header { 
+            display: flex; 
+            justify-content: space-between; 
+            align-items: flex-start; 
             margin-bottom: 10px;
         }
-        
-        .news-title {
-            font-size: 17px;
-            font-weight: 600;
-            line-height: 1.5;
-            flex: 1;
+        .news-title { 
+            font-size: 17px; 
+            font-weight: 600; 
+            line-height: 1.5; 
+            flex: 1; 
             padding-right: 12px;
+            color: #333;
         }
-        
-        .news-image {
-            width: 90px;
-            height: 70px;
-            border-radius: 8px;
+        .news-image { 
+            width: 90px; 
+            height: 70px; 
+            border-radius: 8px; 
             object-fit: cover;
-            flex-shrink: 0;
         }
-        
-        .news-summary {
-            font-size: 14px;
-            color: var(--text-secondary);
-            line-height: 1.6;
+        .news-summary { 
+            font-size: 14px; 
+            color: #666; 
+            line-height: 1.6; 
             margin-bottom: 12px;
             display: -webkit-box;
             -webkit-line-clamp: 2;
             -webkit-box-orient: vertical;
             overflow: hidden;
         }
-        
-        /* 标签区域 */
-        .news-tags {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 8px;
-            margin-bottom: 10px;
+        .news-tags { display: flex; gap: 8px; margin-bottom: 10px; }
+        .tag { 
+            font-size: 12px; 
+            padding: 4px 10px; 
+            background: #f0f0f0; 
+            border-radius: 4px; 
+            color: #666;
         }
-        
-        .tag {
-            font-size: 12px;
-            padding: 4px 10px;
-            background: var(--tag-bg);
-            border-radius: 4px;
-            color: var(--text-secondary);
+        .tag.primary { 
+            background: rgba(240, 65, 66, 0.1); 
+            color: #f04142;
         }
-        
-        .tag.primary {
-            background: rgba(240, 65, 66, 0.1);
-            color: var(--primary);
+        .news-footer { 
+            display: flex; 
+            justify-content: space-between; 
+            font-size: 12px; 
+            color: #999;
         }
-        
-        .tag.stock-bull {
-            background: rgba(239, 68, 68, 0.1);
-            color: #ef4444;
-        }
-        
-        .tag.stock-bear {
-            background: rgba(34, 197, 94, 0.1);
-            color: #22c55e;
-        }
-        
-        /* 底部信息 */
-        .news-footer {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            font-size: 12px;
-            color: var(--text-tertiary);
-        }
-        
-        .news-meta {
-            display: flex;
-            gap: 12px;
-            align-items: center;
-        }
-        
-        .source-badge {
-            display: flex;
-            align-items: center;
-            gap: 4px;
-        }
-        
-        .source-badge::before {
-            content: '';
-            width: 6px;
-            height: 6px;
-            background: #22c55e;
-            border-radius: 50%;
-        }
-        
-        /* 股票关联 */
-        .stock-bar {
-            background: linear-gradient(135deg, #fef3f2 0%, #fff5f5 100%);
-            border-radius: 8px;
-            padding: 10px 12px;
-            margin-top: 10px;
-            display: flex;
-            gap: 12px;
-            overflow-x: auto;
-            scrollbar-width: none;
-        }
-        
-        .stock-bar::-webkit-scrollbar {
-            display: none;
-        }
-        
-        .stock-item {
-            display: flex;
-            align-items: center;
-            gap: 6px;
-            font-size: 13px;
-            white-space: nowrap;
-        }
-        
-        .stock-name {
-            font-weight: 600;
-            color: var(--text-primary);
-        }
-        
-        .stock-change {
-            padding: 2px 6px;
-            border-radius: 4px;
-            font-weight: 600;
-        }
-        
-        .stock-change.up {
-            background: #fef2f2;
-            color: #ef4444;
-        }
-        
-        .stock-change.down {
-            background: #f0fdf4;
-            color: #22c55e;
-        }
-        
-        /* 底部导航 */
-        .bottom-nav {
-            position: fixed;
-            bottom: 0;
-            left: 0;
-            right: 0;
-            background: white;
-            border-top: 1px solid var(--border);
-            display: flex;
-            justify-content: space-around;
+        .bottom-nav { 
+            position: fixed; 
+            bottom: 0; 
+            left: 0; 
+            right: 0; 
+            background: white; 
+            border-top: 1px solid #e8e8e8;
+            display: flex; 
+            justify-content: space-around; 
             padding: 8px 0;
             z-index: 100;
-            padding-bottom: env(safe-area-inset-bottom);
         }
-        
-        .nav-item {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            gap: 4px;
-            font-size: 11px;
-            color: var(--text-tertiary);
-            cursor: pointer;
+        .nav-item { 
+            display: flex; 
+            flex-direction: column; 
+            align-items: center; 
+            font-size: 11px; 
+            color: #999;
             padding: 4px 16px;
-            transition: color 0.2s;
         }
-        
-        .nav-item.active {
-            color: var(--primary);
-        }
-        
-        .nav-icon {
-            font-size: 22px;
-        }
-        
-        /* 加载更多 */
-        .load-more {
-            text-align: center;
-            padding: 20px;
-            color: var(--text-tertiary);
-            font-size: 14px;
-        }
-        
-        .loading-spinner {
-            display: inline-block;
-            width: 20px;
-            height: 20px;
-            border: 2px solid var(--border);
-            border-top-color: var(--primary);
-            border-radius: 50%;
-            animation: spin 1s linear infinite;
-            margin-right: 8px;
-        }
-        
-        @keyframes spin {
-            to { transform: rotate(360deg); }
-        }
-        
-        /* 响应式适配 */
-        @media (min-width: 768px) {
-            body {
-                max-width: 414px;
-                margin: 0 auto;
-                box-shadow: 0 0 20px rgba(0,0,0,0.1);
-            }
-        }
+        .nav-item.active { color: #f04142; }
+        .loading { text-align: center; padding: 50px; color: #666; }
     </style>
 </head>
 <body>
-    <!-- 顶部导航 -->
-    <header class="header">
+    <div class="header">
         <div class="header-top">
-            <div class="logo">
-                <div class="logo-icon">AI</div>
-                <span>前沿科技日报</span>
-            </div>
-            <div class="header-actions">
-                <span>🔍</span>
-                <span>⚙️</span>
-            </div>
+            <div class="logo">📱 前沿科技日报</div>
         </div>
-        <nav class="category-nav">
-            <div class="category-item active">推荐</div>
-            <div class="category-item">国际局势</div>
-            <div class="category-item">集成电路</div>
-            <div class="category-item">商业航天</div>
-            <div class="category-item">生物医药</div>
-            <div class="category-item">低空经济</div>
-            <div class="category-item">人工智能</div>
-            <div class="category-item">具身智能</div>
-            <div class="category-item">未来能源</div>
-            <div class="category-item">量子科技</div>
-        </nav>
-    </header>
+        <div class="category-nav" id="categoryNav">
+            <div class="category-item active" data-cat="推荐">推荐</div>
+            <div class="category-item" data-cat="国际局势">国际局势</div>
+            <div class="category-item" data-cat="集成电路">集成电路</div>
+            <div class="category-item" data-cat="商业航天">商业航天</div>
+            <div class="category-item" data-cat="生物医药">生物医药</div>
+            <div class="category-item" data-cat="人工智能">人工智能</div>
+            <div class="category-item" data-cat="未来能源">未来能源</div>
+            <div class="category-item" data-cat="消费电子">消费电子</div>
+        </div>
+    </div>
     
-    <!-- 刷新栏 -->
     <div class="refresh-bar">
         <span>最后更新：刚刚</span>
-        <span class="refresh-btn">
-            <span>🔄</span>
-            <span>刷新</span>
-        </span>
+        <span style="color: #f04142;">🔄 刷新</span>
     </div>
     
-    <!-- 内容区域 -->
-    <main class="content" id="newsList">
-        <!-- 新闻内容由JS动态加载 -->
-    </main>
-    
-    <!-- 加载更多 -->
-    <div class="load-more" id="loadMore">
-        <div class="loading-spinner"></div>
-        <span>加载中...</span>
+    <div class="content" id="newsList">
+        <div class="loading">加载中...</div>
     </div>
     
-    <!-- 底部导航 -->
-    <nav class="bottom-nav">
-        <div class="nav-item active">
-            <span class="nav-icon">📰</span>
-            <span>资讯</span>
-        </div>
-        <div class="nav-item">
-            <span class="nav-icon">📊</span>
-            <span>行情</span>
-        </div>
-        <div class="nav-item">
-            <span class="nav-icon">⭐</span>
-            <span>收藏</span>
-        </div>
-        <div class="nav-item">
-            <span class="nav-icon">👤</span>
-            <span>我的</span>
-        </div>
-    </nav>
-    
+    <div class="bottom-nav">
+        <div class="nav-item active">📰 首页</div>
+        <div class="nav-item">📈 行情</div>
+        <div class="nav-item">⭐ 自选</div>
+        <div class="nav-item">👤 我的</div>
+    </div>
+
     <script>
-        // 权威媒体新闻数据（国内外）
-        const newsData = [
-            {
-                id: 1,
-                title: "OpenAI发布GPT-5预览版，性能提升300%，支持多模态实时交互",
-                summary: "OpenAI今日凌晨正式发布GPT-5预览版本，新一代大模型在推理能力、代码生成和多模态理解方面实现重大突破，参数量达到10万亿级别...",
-                image: "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=200&h=150&fit=crop",
-                category: "人工智能",
-                tags: ["OpenAI", "GPT-5", "大模型"],
-                source: "华尔街见闻",
-                time: "10分钟前",
-                url: "https://wallstreetcn.com/articles/123456",
-                stocks: [
-                    { name: "微软", change: "+2.35%", trend: "up" },
-                    { name: "英伟达", change: "+3.12%", trend: "up" }
-                ]
-            },
-            {
-                id: 2,
-                title: "台积电宣布2nm芯片量产提前至2026年，苹果A20芯片首发采用",
-                summary: "台积电在今日的技术论坛上宣布，2nm制程芯片量产时间将从原定的2027年提前至2026年下半年。苹果已预订首批产能用于A20芯片...",
-                image: "https://images.unsplash.com/photo-1518770660439-4636190af475?w=200&h=150&fit=crop",
-                category: "半导体",
-                tags: ["台积电", "2nm", "苹果"],
-                source: "财联社",
-                time: "25分钟前",
-                url: "https://cls.cn/detail/123456",
-                stocks: [
-                    { name: "台积电", change: "+1.85%", trend: "up" },
-                    { name: "苹果", change: "+0.92%", trend: "up" }
-                ]
-            },
-            {
-                id: 3,
-                title: "特斯拉FSD V13在中国开启公测，自动驾驶能力接近L4级别",
-                summary: "特斯拉官方今日宣布，完全自动驾驶能力FSD V13版本正式向中国用户推送，新增城市领航辅助功能，可实现点到点自动驾驶...",
-                image: "https://images.unsplash.com/photo-1560958089-b8a1929cea89?w=200&h=150&fit=crop",
-                category: "新能源",
-                tags: ["特斯拉", "FSD", "自动驾驶"],
-                source: "36氪",
-                time: "1小时前",
-                url: "https://36kr.com/p/123456",
-                stocks: [
-                    { name: "特斯拉", change: "+4.21%", trend: "up" },
-                    { name: "比亚迪", change: "-0.65%", trend: "down" }
-                ]
-            },
-            {
-                id: 4,
-                title: "Figure AI发布新一代人形机器人Figure 02，续航提升至8小时",
-                summary: "人形机器人公司Figure AI今日正式发布Figure 02，新款机器人在续航能力、动作灵活性和AI交互方面全面升级，已与宝马达成合作协议...",
-                image: "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?w=200&h=150&fit=crop",
-                category: "机器人",
-                tags: ["Figure AI", "人形机器人", "宝马"],
-                source: "机器之心",
-                time: "2小时前",
-                url: "https://jiqizhixin.com/articles/123456",
-                stocks: [
-                    { name: "特斯拉", change: "+4.21%", trend: "up" }
-                ]
-            },
-            {
-                id: 5,
-                title: "谷歌量子计算机实现1000量子比特，纠错能力突破里程碑",
-                summary: "Google Quantum AI团队今日在Nature发表论文，宣布实现1000物理量子比特的量子处理器，量子纠错能力达到实用化门槛...",
-                image: "https://images.unsplash.com/photo-1635070041078-e363dbe005cb?w=200&h=150&fit=crop",
-                category: "量子计算",
-                tags: ["谷歌", "量子计算", "Nature"],
-                source: "MIT科技评论",
-                time: "3小时前",
-                url: "https://www.technologyreview.com/123456",
-                stocks: [
-                    { name: "谷歌", change: "+1.56%", trend: "up" },
-                    { name: "IBM", change: "+0.89%", trend: "up" }
-                ]
-            },
-            {
-                id: 6,
-                title: "SpaceX星舰第五次试飞成功，马斯克宣布2026年载人登月计划",
-                summary: "SpaceX今日成功完成星舰第五次轨道试飞，助推器首次实现海上平台回收。马斯克随后宣布，2026年将执行首次载人绕月任务...",
-                image: "https://images.unsplash.com/photo-1516849841032-87cbac4d88f7?w=200&h=150&fit=crop",
-                category: "商业航天",
-                tags: ["SpaceX", "星舰", "马斯克"],
-                source: "澎湃新闻",
-                time: "4小时前",
-                url: "https://www.thepaper.cn/newsDetail_forward_123456",
-                stocks: [
-                    { name: "SpaceX", change: "-", trend: "up" }
-                ]
-            },
-            {
-                id: 7,
-                title: "英伟达H200芯片供不应求，订单排期至2025年Q3",
-                summary: "据供应链消息，英伟达最新H200 AI芯片订单已排期至2025年第三季度。微软、谷歌、亚马逊等云厂商正在争抢产能...",
-                image: "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?w=200&h=150&fit=crop",
-                category: "人工智能",
-                tags: ["英伟达", "H200", "AI芯片"],
-                source: "证券时报",
-                time: "5小时前",
-                url: "https://stcn.com/article/123456",
-                stocks: [
-                    { name: "英伟达", change: "+5.23%", trend: "up" },
-                    { name: "AMD", change: "+1.45%", trend: "up" }
-                ]
-            },
-            {
-                id: 8,
-                title: "华为Mate 70系列发布，搭载纯血鸿蒙5.0系统",
-                summary: "华为今日正式发布了Mate 70系列旗舰手机，首发搭载HarmonyOS 5.0系统，完全去除安卓代码，成为真正独立的操作系统...",
-                image: "https://images.unsplash.com/photo-1592899677977-9c10ca588bbd?w=200&h=150&fit=crop",
-                category: "消费电子",
-                tags: ["华为", "Mate 70", "鸿蒙"],
-                source: "新华网",
-                time: "6小时前",
-                url: "http://www.news.cn/tech/123456",
-                stocks: [
-                    { name: "华为", change: "-", trend: "up" }
-                ]
-            }
-        ];
+        const newsData = [{"title":"Honda records first financial loss over EV cancellation","summary":"An iconic automotive giant claims its future is 'uncertain' after a huge financial loss it blames on China and Donald Tr...","image":"https://via.placeholder.com/200x150/f04142/ffffff?text=国际","category":"国际局势","tags":["国际局势","科技"],"source":"news","time":"刚刚","url":"https://www.news.com.au/technology/motoring/motoring-news/honda-records-first-financial-loss-over-ev-cancellation/news-story/9dbc6a44c44c824c22d029f46882adee","stocks":[],"id":1},{"title":"Bitcoin in Iran Limbo as 'Old Economy' Assets Steal Limelight","summary":"Bitcoin has spent most of this year trapped between $60,000 and $75,000, repeatedly teasing a breakout but never quite d...","image":"https://via.placeholder.com/200x150/f04142/ffffff?text=国际","category":"国际局势","tags":["国际局势","科技"],"source":"bloomberg","time":"刚刚","url":"https://www.bloomberg.com/news/articles/2026-03-16/bitcoin-btc-in-iran-limbo-as-old-economy-assets-steal-limelight","stocks":[],"id":2},{"title":"OnePlus Nord 6 Tipped to Have Same Specifications as China-exclusive OnePlus Turbo 6; May Launch in April","summary":"The OnePlus Nord 6 is rumoured to launch soon as the successor to the Nord 5, which was introduced in July 2025 in India...","image":"https://via.placeholder.com/200x150/f04142/ffffff?text=国际","category":"国际局势","tags":["国际局势","科技"],"source":"gadgets360","time":"刚刚","url":"https://www.gadgets360.com/mobiles/news/oneplus-nord-6-specifications-leak-turbo-6-launch-date-11220902#rss-gadgets-mobiles","stocks":[],"id":3},{"title":"Oscars 2026 winners and recap: 'One Battle After Another' named Best Picture; Jessie Buckley and Michael B. Jordan take home acting awards","summary":"Live\nOscars 2026 winners and recap: 'One Battle After Another' named Best Picture; Jessie Buckley and Michael B. Jordan ...","image":"https://via.placeholder.com/200x150/f04142/ffffff?text=国际","category":"国际局势","tags":["国际局势","科技"],"source":"Yahoo News Malaysia","time":"刚刚","url":"https://malaysia.news.yahoo.com/live/oscars-2026-winners-and-recap-one-battle-after-another-named-best-picture-jessie-buckley-and-michael-b-jordan-take-home-acting-awards-140057491.html","stocks":[],"id":4},{"title":"Standard Kernel, which is making AI-powered GPU optimization software, raised a $20M seed led by Jump Capital, with General Catalyst and others participating","summary":"By Clinton Nwachukwu / Ventureburn. View the full context on Techmeme.","image":"https://ventureburn.com/wp-content/uploads/2026/03/create-a-futuristic-neon-lit-poster-elem_YevT1lXJRfezy5iG_WC9kA_bhmumzzRRFWacUYlANTbpA.png","category":"国际局势","tags":["国际局势","科技"],"source":"techmeme","time":"刚刚","url":"https://www.techmeme.com/260315/p10","stocks":[],"id":5},{"title":"Precision strike: China targets US, Japan stranglehold on photoresist supply","summary":"Essential material for advanced semiconductor processes expected to enter stage of accelerated breakthroughs, major Chin...","image":"https://cdn.i-scmp.com/sites/default/files/styles/og_image_scmp_generic/public/d8/images/canvas/2026/03/13/2d6d5352-a864-4462-9dc3-73bf761e733a_43a33600.jpg?itok=yu9d8Cgf&v=1773410817","category":"国际局势","tags":["国际局势","科技"],"source":"Ann Cao","time":"刚刚","url":"https://www.scmp.com/tech/article/3346555/precision-strike-china-targets-us-japan-stranglehold-photoresist-supply","stocks":[],"id":6},{"title":"Visionox starts 8.6-gen OLED equipment orders, intensifying China–Korea race for IT displays","summary":"Credit: Visionox...","image":"https://via.placeholder.com/200x150/f04142/ffffff?text=国际","category":"国际局势","tags":["国际局势","科技"],"source":"Levi Li","time":"刚刚","url":"https://www.digitimes.com/news/a20260311PD230/visionox-equipment-production-sdc-panel.html","stocks":[],"id":7},{"title":"Global PMX shifts revenue mix toward semiconductor and medical businesses, projecting stronger profits in 2026","summary":"Credit: DIGITIMES...","image":"https://via.placeholder.com/200x150/f04142/ffffff?text=国际","category":"国际局势","tags":["国际局势","科技"],"source":"Jingyue Hsiao","time":"刚刚","url":"https://www.digitimes.com/news/a20260313PD205/global-pmx-ai-server-medical-revenue-2026.html","stocks":[],"id":8},{"title":"2026 Oscar winners: Updating live","summary":"Who took home the night's biggest awards?","image":"https://helios-i.mashable.com/imagery/articles/05QfdgZxR8Jduq7A1QSEJdE/hero-image.fill.size_1200x675.v1772814977.png","category":"国际局势","tags":["国际局势","科技"],"source":"Kristy Puchko","time":"刚刚","url":"https://mashable.com/article/oscars-2026-winners-academy-awards","stocks":[],"id":9},{"title":"Want to watch the Oscars for free? Here are the apps you'll need to stream the Academy Awards","summary":"The 98th Academy Awards have arrived. We'll show you where to watch the Oscars online, no matter where you are.","image":"https://i.insider.com/69b45075a96e437d6eb84a56?width=1200&format=jpeg","category":"国际局势","tags":["国际局势","科技"],"source":"Lillian Brown","time":"刚刚","url":"https://www.businessinsider.com/guides/streaming/where-to-watch-oscars-live-streams-2026","stocks":[],"id":10},{"title":"Huawei Enjoy 90 Pro Max, Enjoy 90 Plus Launch Date Announced; Confirmed to Feature Kirin Processors","summary":"Huawei has confirmed that the Huawei Enjoy 90 Pro Max and Huawei Enjoy 90 Plus will launch in China on March 23. The lau...","image":"https://via.placeholder.com/200x150/f04142/ffffff?text=集成","category":"集成电路","tags":["集成电路","科技"],"source":"gadgets360","time":"刚刚","url":"https://www.gadgets360.com/mobiles/news/huawei-enjoy-90-series-launch-date-design-teaser-pre-orders-specifications-11221837#rss-gadgets-mobiles","stocks":[],"id":11},{"title":"AI writes buggy code. A Silicon Valley startup wants to fix it.","summary":"text/html...","image":"https://via.placeholder.com/200x150/f04142/ffffff?text=集成","category":"集成电路","tags":["集成电路","科技"],"source":"科技媒体","time":"刚刚","url":"https://indianexpress.com/article/technology/artificial-intelligence/ai-writes-buggy-code-a-silicon-valley-startup-wants-to-fix-it-10584219/","stocks":[],"id":12},{"title":"Nvidia to focus on competition-beating AI advances at megaconference","summary":"text/html...","image":"https://via.placeholder.com/200x150/f04142/ffffff?text=集成","category":"集成电路","tags":["集成电路","科技"],"source":"科技媒体","time":"刚刚","url":"https://indianexpress.com/article/technology/artificial-intelligence/nvidia-to-focus-on-competition-beating-ai-advances-at-megaconference-10584213/","stocks":[],"id":13},{"title":"AI server supply chain tracker: AI infrastructure demand lifts Taiwan foundry and ODM/EMS revenues despite seasonal dip","summary":"Credit: AFP...","image":"https://via.placeholder.com/200x150/f04142/ffffff?text=集成","category":"集成电路","tags":["集成电路","科技"],"source":"DIGITIMES","time":"刚刚","url":"https://www.digitimes.com/news/a20260313VL215/taiwan-revenue-demand-supply-chain-ai-server.html","stocks":[],"id":14},{"title":"India roundup: A reality check of chipmaking dream","summary":"Credit: AFP...","image":"https://via.placeholder.com/200x150/f04142/ffffff?text=集成","category":"集成电路","tags":["集成电路","科技"],"source":"DIGITIMES","time":"刚刚","url":"https://www.digitimes.com/news/a20260313VL213/india-roundup-ic-manufacturing-osat-production-smartphone-2026.html","stocks":[],"id":15},{"title":"HyperLight, UMC, and Wavetek form foundry partnership for high-volume TFLN chiplet production","summary":"Credit: UMC...","image":"https://via.placeholder.com/200x150/f04142/ffffff?text=集成","category":"集成电路","tags":["集成电路","科技"],"source":"DIGITIMES","time":"刚刚","url":"https://www.digitimes.com/news/a20260313VL200/umc-production-partnership-manufacturing-infrastructure.html","stocks":[],"id":16},{"title":"Intellexa's founder says his firm sells surveillance tech exclusively to governments, reviving claims of state spying in Greece after being sentenced last month","summary":"By Eliza Triantafillou / OCCRP. View the full context on Techmeme.","image":"https://www.occrp.org/processed/containers/assets/news/phone-hacking-hands.jpg/c3c400e32933267040cea72e3c699e99/phone-hacking-hands.jpg","category":"集成电路","tags":["集成电路","科技"],"source":"techmeme","time":"刚刚","url":"https://www.techmeme.com/260315/p8","stocks":[],"id":17},{"title":"NVIDIA May Finally Abandon Its \"One GPU Does Everything\" Mantra at GTC 2026, and Here's What to Expect","summary":"We are heading towards NVIDIA's GTC 2026, one of the most important events, and this year, we are expecting a massive sh...","image":"https://cdn.wccftech.com/wp-content/uploads/2026/01/NVIDIA-Rubin-Vera-_8-scaled.png","category":"集成电路","tags":["集成电路","科技"],"source":"Muhammad Zuhair","time":"刚刚","url":"https://wccftech.com/nvidia-may-finally-abandon-its-one-gpu-does-everything-mantra-at-gtc-2026/","stocks":[],"id":18},{"title":"Report: Meta could lay off 20% of its staff and replace many of them with AI workers - SiliconANGLE","summary":"Report: Meta could lay off 20% of its staff and replace many of them with AI workers - SiliconANGLE","image":"https://d15shllkswkct0.cloudfront.net/wp-content/blogs.dir/1/files/2026/03/meta-1-1.jpg","category":"集成电路","tags":["集成电路","科技"],"source":"@SiliconANGLE","time":"刚刚","url":"https://siliconangle.com/2026/03/15/report-meta-lay-off-20-staff-replace-many-ai-workers/","stocks":[],"id":19},{"title":"'Life is a miracle,' but learning from disasters isn't: Lessons from Japan's 2011 earthquake and tsunami","summary":"In April 2012, a Harley-Davidson motorcycle was found on Graham Island in the Haida Gwaii archipelago off the coast of B...","image":"https://via.placeholder.com/200x150/f04142/ffffff?text=集成","category":"集成电路","tags":["集成电路","科技"],"source":"phys","time":"刚刚","url":"https://phys.org/news/2026-03-life-miracle-disasters-isnt-lessons.html","stocks":[],"id":20},{"title":"OnePlus Nord 6 Series India Launch Teased; OnePlus Nord CE 6 Reportedly Visits BIS Database","summary":"OnePlus has teased the launch of its new Nord series phones, which are expected to be the OnePlus Nord 6 and Nord CE 6. ...","image":"https://via.placeholder.com/200x150/f04142/ffffff?text=商业","category":"商业航天","tags":["商业航天","科技"],"source":"gadgets360","time":"刚刚","url":"https://www.gadgets360.com/mobiles/news/oneplus-nord-ce-6-india-launch-soon-bis-certification-specifications-features-11221582#rss-gadgets-mobiles","stocks":[],"id":21},{"title":"Samsung Galaxy A37, Galaxy A57 Design Surfaces via Hands-on Videos Ahead of Launch","summary":"Samsung Galaxy A57 and Galaxy A37 could launch soon. Ahead of the formal launch, unboxing videos of the phones have gone...","image":"https://via.placeholder.com/200x150/f04142/ffffff?text=商业","category":"商业航天","tags":["商业航天","科技"],"source":"gadgets360","time":"刚刚","url":"https://www.gadgets360.com/mobiles/news/samsung-galaxy-a37-a57-hands-on-video-design-features-specifications-unboxing-leak-11221423#rss-gadgets-mobiles","stocks":[],"id":22},{"title":"Realme 16T 5G India Launch Seems Imminent as Smartphone Surfaces on BIS Certification Database","summary":"Realme is reportedly preparing to launch the Realme 16T 5G in India. The handset is said to have appeared on the BIS cer...","image":"https://via.placeholder.com/200x150/f04142/ffffff?text=商业","category":"商业航天","tags":["商业航天","科技"],"source":"gadgets360","time":"刚刚","url":"https://www.gadgets360.com/mobiles/news/realme-16t-5g-bis-listing-india-launch-expected-features-report-11221029#rss-gadgets-mobiles","stocks":[],"id":23},{"title":"Interview: Filtronic's GBP47.3 million SpaceX contract underscores scaling and regional partnership ambitions","summary":"Credit: DIGITIMES...","image":"https://via.placeholder.com/200x150/f04142/ffffff?text=商业","category":"商业航天","tags":["商业航天","科技"],"source":"Jingyue Hsiao","time":"刚刚","url":"https://www.digitimes.com/news/a20260313PD208/spacex-2025-partnership-technology-wafer.html","stocks":[],"id":24},{"title":"Space-age photo frame displays your family pictures as holograms","summary":"Looking Glass has been in the holographic display business for years now, perfecting its tech for magically bringing ima...","image":"https://assets.newatlas.com/dims4/default/ee35267/2147483647/strip/true/crop/1200x675+0+63/resize/1200x675!/quality/90/?url=https%3A%2F%2Fnewatlas-brightspot.s3.amazonaws.com%2F01%2Fd3%2F03cf1b4546ab9f529f63aa65711d%2Flooking-glass-picture-frame-can-display-any-of-your-photos-and-videos-as-mind-bending-holograms.jpg","category":"商业航天","tags":["商业航天","科技"],"source":"Abhimanyu Ghoshal","time":"刚刚","url":"https://newatlas.com/consumer-tech/looking-glass-musubi-photo-frame-hologram/","stocks":[],"id":25},{"title":"New microscope offers sharper view into momentum space","summary":"Electrons are tiny and constantly in motion. How they behave in a crystal lattice determines key material properties: el...","image":"https://via.placeholder.com/200x150/f04142/ffffff?text=商业","category":"商业航天","tags":["商业航天","科技"],"source":"phys","time":"刚刚","url":"https://phys.org/news/2026-03-microscope-sharper-view-momentum-space.html","stocks":[],"id":26},{"title":"Off-grid tiny office has two separate workspaces and even a bed","summary":"This interesting \"tiny house\" isn't actually a house at all. Instead, it's a mobile off-grid office that squeezes two se...","image":"https://assets.newatlas.com/dims4/default/f4d9b25/2147483647/strip/true/crop/1920x1080+0+100/resize/1200x675!/quality/90/?url=https%3A%2F%2Fnewatlas-brightspot.s3.amazonaws.com%2Fe1%2F83%2F8b091ee541ebb40629ac57a15b25%2Foff-grid-luxury-mobile-double-v7oepsdskw-01.jpg","category":"商业航天","tags":["商业航天","科技"],"source":"Adam Williams","time":"刚刚","url":"https://newatlas.com/tiny-houses/off-grid-luxury-mobile-double-office/","stocks":[],"id":27},{"title":"TESS discovers a super-Earth exoplanet orbiting nearby star","summary":"Using the Transiting Exoplanet Survey Satellite (TESS), astronomers have discovered a new super-Earth exoplanet orbiting...","image":"https://via.placeholder.com/200x150/f04142/ffffff?text=商业","category":"商业航天","tags":["商业航天","科技"],"source":"phys","time":"刚刚","url":"https://phys.org/news/2026-03-tess-super-earth-exoplanet-orbiting.html","stocks":[],"id":28},{"title":"The hot AI video generator that got everyone talking may now take a while to arrive","summary":"ByteDance has reportedly delayed the launch of its viral Seedance 2.0 AI video generator following copyright disputes wi...","image":"https://www.digitaltrends.com/tachyon/2026/03/Seedance-2.0-Bytedance-Official.jpg?resize=800%2C418","category":"生物医药","tags":["生物医药","科技"],"source":"Varun Mirchandani","time":"刚刚","url":"https://www.digitaltrends.com/cool-tech/the-hot-ai-video-generator-that-got-everyone-talking-may-now-take-a-while-to-arrive/","stocks":[],"id":29},{"title":"ARC Raiders opts to replace AI-generated dialogue with professional voice actors","summary":"In a rare win for humans, Embark Studios replaces AI dialogue with human voice actors, even after the game's mega-succes...","image":"https://sm.mashable.com/t/mashable_sea/news/a/arc-raider/arc-raiders-opts-to-replace-ai-generated-dialogue-with-profe_5ucu.1200.jpg","category":"生物医药","tags":["生物医药","科技"],"source":"Jack Dawes","time":"刚刚","url":"https://sea.mashable.com/games/42800/arc-raiders-opts-to-replace-ai-generated-dialogue-with-professional-voice-actors","stocks":[],"id":30},{"title":"Maternal race and immigration linked to obstetric trauma, finds study","summary":"Asian parents experience a 1.5-fold higher rate of obstetric trauma than white parents, and Black economic immigrant and...","image":"https://via.placeholder.com/200x150/f04142/ffffff?text=生物","category":"生物医药","tags":["生物医药","科技"],"source":"medicalxpress","time":"刚刚","url":"https://medicalxpress.com/news/2026-03-maternal-immigration-linked-obstetric-trauma.html","stocks":[],"id":31},{"title":"Blood tests for cancer? We're still a way off","summary":"A new kind of blood test promises to find cancer early—sometimes even before symptoms appear. The pitch is compelling: a...","image":"https://via.placeholder.com/200x150/f04142/ffffff?text=生物","category":"生物医药","tags":["生物医药","科技"],"source":"medicalxpress","time":"刚刚","url":"https://medicalxpress.com/news/2026-03-blood-cancer.html","stocks":[],"id":32},{"title":"What pet cats can tell us about human cancer","summary":"They live in our houses, drink our water and even sleep in our beds. Cats have become an integral part of many household...","image":"https://via.placeholder.com/200x150/f04142/ffffff?text=生物","category":"生物医药","tags":["生物医药","科技"],"source":"medicalxpress","time":"刚刚","url":"https://medicalxpress.com/news/2026-03-pet-cats-human-cancer.html","stocks":[],"id":33},{"title":"Inside the new salmon sperm skincare that reduces wrinkles by 135%","summary":"A new skincare product using salmon sperm is designed to boost skin health by delivering DNA fragments and nutrients tha...","image":"https://i.dailymail.co.uk/1s/2026/03/13/21/107117517-0-Clinical_studies_cited_by_the_brand_have_shown_the_key_ingredien-a-30_1773436993806.jpg","category":"生物医药","tags":["生物医药","科技"],"source":"Stacy Liberatore","time":"刚刚","url":"https://www.dailymail.co.uk/sciencetech/article-15642411/salmon-dna-skincare-rodial-wrinkles.html?ns_mchannel=rss","stocks":[],"id":34},{"title":"Remote ketogenic therapy linked to 62% lower depression scores in 12 weeks","summary":"A new study is offering a potential lifeline for the estimated 1.7 million people currently on mental health waiting lis...","image":"https://via.placeholder.com/200x150/f04142/ffffff?text=生物","category":"生物医药","tags":["生物医药","科技"],"source":"medicalxpress","time":"刚刚","url":"https://medicalxpress.com/news/2026-03-remote-ketogenic-therapy-linked-depression.html","stocks":[],"id":35},{"title":"Physicists break longstanding high-temperature superconductivity record at ambient pressure","summary":"Researchers from the Texas Center for Superconductivity (TcSUH) and the department of physics at the University of Houst...","image":"https://via.placeholder.com/200x150/f04142/ffffff?text=生物","category":"生物医药","tags":["生物医药","科技"],"source":"phys","time":"刚刚","url":"https://phys.org/news/2026-03-ceramic-shatters-longstanding-high-temperature.html","stocks":[],"id":36},{"title":"'Bugs delivering drugs': A new approach to colorectal cancer treatment using common food-borne bacteria","summary":"Baylor University researchers have developed a novel approach to fight colorectal cancer, using modified bacteria as a c...","image":"https://via.placeholder.com/200x150/f04142/ffffff?text=生物","category":"生物医药","tags":["生物医药","科技"],"source":"medicalxpress","time":"刚刚","url":"https://medicalxpress.com/news/2026-03-bugs-drugs-approach-colorectal-cancer.html","stocks":[],"id":37},{"title":"Study: Additional radiation for liver cancer does not increase toxicity","summary":"New research from a University of Cincinnati Cancer Center study found external beam radiation therapy (EBRT) is safe to...","image":"https://via.placeholder.com/200x150/f04142/ffffff?text=生物","category":"生物医药","tags":["生物医药","科技"],"source":"medicalxpress","time":"刚刚","url":"https://medicalxpress.com/news/2026-03-additional-liver-cancer-toxicity.html","stocks":[],"id":38},{"title":"Pokémon Go's AR data has been turned into centimeter-accurate navigation for delivery robots","summary":"Niantic Spatial, an AI spinout formed in 2025, has turned years of mobile gaming data into what it describes as a high-p...","image":"https://via.placeholder.com/200x150/f04142/ffffff?text=低空","category":"低空经济","tags":["低空经济","科技"],"source":"Skye Jacobs","time":"刚刚","url":"https://www.techspot.com/news/111690-pokmon-go-ar-data-has-turned-centimeter-accurate.html","stocks":[],"id":39},{"title":"'Dirty': Albo's big fuel move kicks in","summary":"Emergency measures from the Albanese Government aimed at tackling Australia's fuel crisis are beginning to take effect.","image":"https://via.placeholder.com/200x150/f04142/ffffff?text=人工","category":"人工智能","tags":["人工智能","科技"],"source":"news","time":"刚刚","url":"https://www.news.com.au/technology/motoring/on-the-road/government-allows-dirtier-fuel-into-australia-to-fight-crippling-supply-shortages/news-story/90c7fe737b2ac9c92f8a693a86de9bd7","stocks":[],"id":40},{"title":"The smart tech to track your pets and teens","summary":"A tracking app which was instrumental in the Pheobe Bishop case is now being used to track people's wandering pets.","image":"https://via.placeholder.com/200x150/f04142/ffffff?text=人工","category":"人工智能","tags":["人工智能","科技"],"source":"news","time":"刚刚","url":"https://www.news.com.au/technology/gadgets/is-the-life360-pet-tracker-a-smart-investment-for-your-wandering-dog/news-story/ba33227760815944534f0a46fbd2a00c","stocks":[],"id":41},{"title":"Young girl dies, major car recall ordered","summary":"A popular Aussie car is the subject of an urgent recall after the tragic death of a two-year-old child.","image":"https://via.placeholder.com/200x150/f04142/ffffff?text=人工","category":"人工智能","tags":["人工智能","科技"],"source":"news","time":"刚刚","url":"https://www.news.com.au/technology/motoring/motoring-news/tragic-child-death-triggers-hyundai-palisade-recall/news-story/ebbd803c4ac256d44e56bd0501dd97df","stocks":[],"id":42},{"title":"Thousands brace for cyclone, flood threat","summary":"Australia's north is facing a double blow as a developing cyclone prepares to unleash heavy rain on thousands still reel...","image":"https://via.placeholder.com/200x150/f04142/ffffff?text=人工","category":"人工智能","tags":["人工智能","科技"],"source":"news","time":"刚刚","url":"https://www.news.com.au/technology/environment/cyclone-forecast-to-cross-far-north-queensland-coast-within-days-flood-warnings-issued-for-thousands/news-story/bc5b251cfb2a28432ca5c6d6cfc4c81a","stocks":[],"id":43},{"title":"‘100 Video Calls Per Day’: Models Are Applying to Be the Face of AI Scams","summary":"Dozens of Telegram channels reviewed by WIRED include job listings for “AI face models.” The (mostly) women who land the...","image":"https://media.wired.com/photos/699f5d34a7cb1833c2431617/191:100/w_1280,c_limit/Models-Applying-to-Be-Face-of-AI-Scams-Security-115921890.jpg","category":"人工智能","tags":["人工智能","科技"],"source":"Matt Burgess","time":"刚刚","url":"https://www.wired.com/story/models-are-applying-to-be-the-face-of-ai-scams/","stocks":[],"id":44},{"title":"See which jobs are most threatened by AI and who may be able to adapt","summary":"Most web designers will be fine. Many secretaries won't. Women largely hold the most vulnerable occupations. Look up you...","image":"https://via.placeholder.com/200x150/f04142/ffffff?text=人工","category":"人工智能","tags":["人工智能","科技"],"source":"Kevin Schaul, Shira Ovide","time":"刚刚","url":"https://www.washingtonpost.com/technology/interactive/2026/jobs-most-affected-ai-automation/","stocks":[],"id":45},{"title":"Motorola Razr 70 Reportedly Appears on 3C Certification Website; Could Arrive With Minor Charging Upgrade","summary":"Motorola Razr 70 has appeared on China's 3C certification database with model number XT2657-2, revealing support for 33W...","image":"https://via.placeholder.com/200x150/f04142/ffffff?text=人工","category":"人工智能","tags":["人工智能","科技"],"source":"gadgets360","time":"刚刚","url":"https://www.gadgets360.com/mobiles/news/motorola-razr-70-3c-listing-charging-speed-expected-features-launch-timeline-11221965#rss-gadgets-mobiles","stocks":[],"id":46},{"title":"Huawei Mate 80 Pro: Pre-orders and freebies","summary":"Pre-orders for the Huawei Mate 80 Pro start from 24 March and come with almost S$700 worth of freebies!","image":"https://cassette.sphdigital.com.sg/image/hardwarezone/a91f7c2375584bb91b5ba4b850c72cb021d19482f7ad9e2712dc388ac9687019","category":"人工智能","tags":["人工智能","科技"],"source":"Shawn Tan","time":"刚刚","url":"https://www.hardwarezone.com.sg/mobile/smartphones/huawei-mate-80-pro-singapore-preorder-launch-price","stocks":[],"id":47},{"title":"AI to narrow China's rural-urban economic divide","summary":"China is counting on artificial intelligence (AI) to help the 450 million people living in rural areas left behind by th...","image":"https://via.placeholder.com/200x150/f04142/ffffff?text=人工","category":"人工智能","tags":["人工智能","科技"],"source":"Wency Chen,Zhang Tong","time":"刚刚","url":"https://www.scmp.com/plus/tech/tech-trends/article/3346713/ai-narrow-chinas-rural-urban-economic-divide","stocks":[],"id":48},{"title":"Big Tech purchases of carbon credits explode amid AI race, with Microsoft leading the way","summary":"Carbon credit purchases by Amazon, Google, Meta and Microsoft skyrocketed in 2023, based on tracked purchases. ","image":"https://image.cnbcfm.com/api/v1/image/106849436-1614887156067-Climeworks_direct_air_capture_plant_in_Hinwil_Copyright_Climeworks.jpg?v=1626982515&w=1920&h=1080","category":"人工智能","tags":["人工智能","科技"],"source":"Tasmin Lockwood","time":"刚刚","url":"https://www.cnbc.com/2026/03/16/microsoft-carbon-credits-ai-tech-google-meta.html","stocks":[],"id":49},{"title":"The next robotics battleground is in the fingertips","summary":"Credit: AFP...","image":"https://via.placeholder.com/200x150/f04142/ffffff?text=具身","category":"具身智能","tags":["具身智能","科技"],"source":"Levi Li","time":"刚刚","url":"https://www.digitimes.com/news/a20260313PD234/robotics-robot-chairman-taiwan-manufacturing.html","stocks":[],"id":50},{"title":"Aurotek's robotics pivot drives record revenue, targets double-digit growth","summary":"Aurotek chairman (R) and vice chairman (L). Credit: DIGITIMES...","image":"https://via.placeholder.com/200x150/f04142/ffffff?text=具身","category":"具身智能","tags":["具身智能","科技"],"source":"Jingyue Hsiao","time":"刚刚","url":"https://www.digitimes.com/news/a20260313PD209/revenue-robotics-2026-2025-growth.html","stocks":[],"id":51},{"title":"10 Common Mistakes Robot Vacuum Owners Should Try To Avoid - BGR","summary":"Mistakes that robot vacuum owners must try to avoid include foregoing maintenance, using the wrong cleaning agents, and ...","image":"https://www.bgr.com/img/gallery/10-common-mistakes-robot-vacuum-owners-should-try-to-avoid/l-intro-1773217886.jpg","category":"具身智能","tags":["具身智能","科技"],"source":"Sydney Louw Butler","time":"刚刚","url":"https://www.bgr.com/2120691/common-mistakes-robot-vacuums/","stocks":[],"id":52},{"title":"iQOO Z11x 5G With 7,200mAh Battery, 50-Megapixel Camera Goes on Sale in India: Price, Offers","summary":"iQOO Z11x 5G is now on sale in India via Amazon, the iQOO online store, and the Vivo exclusive offline stores, the Vivo ...","image":"https://via.placeholder.com/200x150/f04142/ffffff?text=未来","category":"未来能源","tags":["未来能源","科技"],"source":"gadgets360","time":"刚刚","url":"https://www.gadgets360.com/mobiles/news/iqoo-z11x-5g-price-in-india-goes-on-sale-offers-specifications-features-11221875#rss-gadgets-mobiles","stocks":[],"id":53},{"title":"TNB Electron deploys 200kW DC Charger at KFC Tanjung Rambutan Drive-Thru - SoyaCincau","summary":"TNB Electron has deployed a 200kW DC Charger at Tanjung Rambutan, Perak. The location has a 7-Eleven and a KFC Drive-Thr...","image":"https://soyacincau.com/wp-content/uploads/2026/03/260316-TNB-Electron-Tanjung-Rambutan-Ipoh-Perak-EV-Charger-03.jpg","category":"未来能源","tags":["未来能源","科技"],"source":"@alexwnl","time":"刚刚","url":"https://soyacincau.com/2026/03/16/tnb-electron-200kw-dc-charger-at-kfc-tanjung-rambutan-drive-thru-perak/","stocks":[],"id":54},{"title":"Samsung Galaxy S26 Ultra review: its huge screen blocks shoulder surfers from spying on you","summary":"Latest Android superphone packs great cameras, fast chips, long battery, a stylus and first-of-its-kind privacy display","image":"https://i.guim.co.uk/img/media/f7cbf7e62f167905bfa6bc2ed52c24d60a74d7fb/664_274_5312_4250/master/5312.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctcmV2aWV3LTUucG5n&s=8db673fec7afe8b5179f5c8b46dd7818","category":"未来能源","tags":["未来能源","科技"],"source":"Samuel Gibbs","time":"刚刚","url":"https://www.theguardian.com/technology/2026/mar/16/samsung-galaxy-s26-ultra-review","stocks":[],"id":55},{"title":"The Infinity Machine by Sebastian Mallaby review – the story of the man who changed the world","summary":"A journalist charts the progress of AI pioneer Demis Hassabis from child chess prodigy to Nobel prize winner","image":"https://i.guim.co.uk/img/media/b58b1333bf989358ca5f665da63aef6927fdbbad/29_665_5894_4715/master/5894.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&s=ced05b78d0fa68befb96dc8649f76080","category":"未来能源","tags":["未来能源","科技"],"source":"Tim Clare","time":"刚刚","url":"https://www.theguardian.com/books/2026/mar/16/the-infinity-machine-by-sebastian-mallaby-review-the-story-of-the-man-who-changed-the-world","stocks":[],"id":56},{"title":"Realme P4 Lite 5G India Launch Date Announced; Company Reveals Design and Battery Capacity","summary":"Realme P4 Lite 5G will be launched in India on March 19 at 12 pm IST, the Chinese smartphone maker announced on Monday. ...","image":"https://via.placeholder.com/200x150/f04142/ffffff?text=未来","category":"未来能源","tags":["未来能源","科技"],"source":"gadgets360","time":"刚刚","url":"https://www.gadgets360.com/mobiles/news/realme-p4-lite-5g-india-launch-date-announced-design-battery-revealed-specifications-features-11221259#rss-gadgets-mobiles","stocks":[],"id":57},{"title":"Today's NYT Connections: Sports Edition Hints, Answers for March 16 #539","summary":"Here's today's Connections: Sports Edition answer and hints for groups. These clues will help you solve The New York Tim...","image":"https://www.cnet.com/a/img/resize/b6a176556f33d8a7a6d33d6575c828a27a02cb83/hub/2024/10/16/c34cfc41-01f2-4b1a-80a8-f6479c50c02e/connections-sports-edition-6859.jpg?auto=webp&fit=crop&height=675&width=1200","category":"未来能源","tags":["未来能源","科技"],"source":"See full bio","time":"刚刚","url":"https://www.cnet.com/tech/gaming/todays-nyt-connections-sports-edition-hints-and-answers-for-march-16-539/","stocks":[],"id":58},{"title":"HDB EV fast-charging hubs ready by 2027","summary":"Singapore's first HDB EV fast-charging hub to be ready by early 2027, supporting the rise of electric vehicles.","image":"https://cassette.sphdigital.com.sg/image/hardwarezone/0188c706350b14c332fb4608496977dfcdb50d936f5933ef0f30c478a97e0de4","category":"未来能源","tags":["未来能源","科技"],"source":"Kenny Yeo","time":"刚刚","url":"https://www.hardwarezone.com.sg/lifestyle/cars/singapores-first-hdb-ev-fast-charging-hub-be-ready-early-2027","stocks":[],"id":59},{"title":"Has there ever been a tie at the Oscars?","summary":"Yes, it's possible. Yes, it just happened.","image":"https://helios-i.mashable.com/imagery/articles/00J2VP7qZZpWQ7FsQ7ejrW0/hero-image.fill.size_1200x675.v1773621691.jpg","category":"未来能源","tags":["未来能源","科技"],"source":"Belen Edwards","time":"刚刚","url":"https://mashable.com/article/oscars-ties-academy-awards","stocks":[],"id":60},{"title":"'KPop Demon Hunters’ director delivers emotional Oscars speech about representation","summary":"\"This is for Korea and for Koreans everywhere.\"","image":"https://helios-i.mashable.com/imagery/articles/07hnBVoIeJUULLyXh5sMxzu/hero-image.fill.size_1200x675.v1773627116.png","category":"未来能源","tags":["未来能源","科技"],"source":"Amanda Yeo","time":"刚刚","url":"https://mashable.com/article/oscars-kpop-demon-hunters-best-animation-win-acceptance-speech","stocks":[],"id":61},{"title":"Y.S. Tech expects Renwu plant ramp to boost 2026 capacity and high-end IT revenue","summary":"Y.S. Tech president Hsien-Wen Liu. Credit: DIGITIMES...","image":"https://via.placeholder.com/200x150/f04142/ffffff?text=未来","category":"未来能源","tags":["未来能源","科技"],"source":"Jingyue Hsiao","time":"刚刚","url":"https://www.digitimes.com/news/a20260313PD228/yen-sun-automotive-electronics-liquid-cooling-revenue-2026.html","stocks":[],"id":62},{"title":"Samsung Galaxy Wide Fold Tipped to Feature 7.6-Inch Display, Snapdragon 8 Elite Gen 5 SoC","summary":"Samsung's rumoured Galaxy Wide Fold may introduce a wider, tablet-like design to the company's foldable lineup. The hand...","image":"https://via.placeholder.com/200x150/f04142/ffffff?text=消费","category":"消费电子","tags":["消费电子","科技"],"source":"gadgets360","time":"刚刚","url":"https://www.gadgets360.com/mobiles/news/samsung-galaxy-wide-fold-display-size-expected-battery-capacity-soc-features-weibo-leak-11221494#rss-gadgets-mobiles","stocks":[],"id":63},{"title":"iPhone to support 5G SA for Yes 5G, U Mobile and Maxis via iOS 26.4 - SoyaCincau","summary":"Apple’s iOS 26.4 update is expected to enable 5G Standalone (5G SA) support for iPhone users in Malaysia. We managed to ...","image":"https://soyacincau.com/wp-content/uploads/2026/03/260316-yes-5g-iphone-SA-iphone-air-1024x742.jpg","category":"消费电子","tags":["消费电子","科技"],"source":"@alexwnl","time":"刚刚","url":"https://soyacincau.com/2026/03/16/iphone-5g-sa-yes-5g-u-mobile-maxis-ios-26-4-beta/","stocks":[],"id":64},{"title":"iOS 27, iPadOS 27 to Reportedly Skip Major Liquid Glass Changes; to Bring iPhone Fold Features","summary":"Apple is expected to unveil the next iterations of its operating systems for iPhone, iPad, and other devices at the upco...","image":"https://via.placeholder.com/200x150/f04142/ffffff?text=消费","category":"消费电子","tags":["消费电子","科技"],"source":"gadgets360","time":"刚刚","url":"https://www.gadgets360.com/mobiles/news/ios-27-ipados-27-liquid-glass-changes-iphone-fold-features-apple-wwdc-2026-mark-gurman-report-11220753#rss-gadgets-mobiles","stocks":[],"id":65},{"title":"The 'Sinners' cast and Misty Copeland bring the house down with 'I Lied to You' Oscars performance","summary":"Watch Miles Caton, Raphael Saadiq, Shaboozey, and more perform at the Oscars.","image":"https://helios-i.mashable.com/imagery/videos/02uGfKU1fFOG9Wh8TdiYVl6/hero-image.fill.size_1200x675.v1773619265.jpg","category":"消费电子","tags":["消费电子","科技"],"source":"Belen Edwards","time":"刚刚","url":"https://mashable.com/video/sinners-oscar-performance-i-lied-to-you","stocks":[],"id":66},{"title":"5 Android Flagships With Better Battery Life Than The iPhone 17 Pro - BGR","summary":"The best Android alternatives to the iPhone 17 Pro for battery life include Samsung, OnePlus, Honor, Oppo, and Vivo flag...","image":"https://www.bgr.com/img/gallery/5-android-flagships-with-better-battery-life-than-the-iphone-17-pro/l-intro-1773255572.jpg","category":"消费电子","tags":["消费电子","科技"],"source":"José Adorno","time":"刚刚","url":"https://www.bgr.com/2121193/android-flagships-with-better-battery-life-than-iphone-17-pro/","stocks":[],"id":67},{"title":"Siri bug reportedly delays Apple's smart home lineup","summary":"Apple's much-anticipated, next-gen smart home lineup is delayed, and rumors claim Siri is to blame.","image":"https://sm.mashable.com/t/mashable_sea/news/s/siri-bug-r/siri-bug-reportedly-delays-apples-smart-home-lineup_un5m.1200.jpg","category":"消费电子","tags":["消费电子","科技"],"source":"Jack Dawes","time":"刚刚","url":"https://sea.mashable.com/tech/42801/siri-bug-reportedly-delays-apples-smart-home-lineup","stocks":[],"id":68},{"title":"Siri bug reportedly delays Apple's smart home lineup","summary":"Apple's much-anticipated, next-gen smart home lineup is delayed, and rumors claim Siri is to blame.","image":"https://helios-i.mashable.com/imagery/articles/04phipBBDbyp6sxYtRMgZSR/hero-image.fill.size_1200x675.v1773606372.png","category":"消费电子","tags":["消费电子","科技"],"source":"Jack Dawes","time":"刚刚","url":"https://mashable.com/article/apple-delays-smart-home-products-2026","stocks":[],"id":69}];
         
-        // 渲染新闻列表
-        function renderNews(newsList) {
+        function renderNews(list) {
             const container = document.getElementById('newsList');
-            container.innerHTML = ''; // 清空容器
+            if (!list || list.length === 0) {
+                container.innerHTML = '<div class="loading">暂无新闻</div>';
+                return;
+            }
             
-            newsList.forEach(news => {
-                const card = document.createElement('div');
-                card.className = 'news-card';
-                card.style.cursor = 'pointer';
-                card.onclick = () => window.location.href = `detail.html?id=${news.id}`;
-                
-                // 股票标签
-                let stockTags = '';
-                if (news.stocks) {
-                    stockTags = news.stocks.map(stock => {
-                        const trendClass = stock.trend === 'up' ? 'stock-bull' : 'stock-bear';
-                        return `<div class="stock-item">
-                            <span class="stock-name">${stock.name}</span>
-                            <span class="stock-change ${trendClass}">${stock.change}</span>
-                        </div>`;
-                    }).join('');
-                }
-                
-                // 标签
-                const tagsHtml = news.tags.map(tag => 
-                    `<span class="tag ${tag === news.tags[0] ? 'primary' : ''}">${tag}</span>`
-                ).join('');
-                
-                card.innerHTML = `
-                    <div class="news-header">
-                        <h3 class="news-title" style="color: #333; text-decoration: none;">${news.title}</h3>
-                        <img class="news-image" src="${news.image}" alt="" loading="lazy">
-                    </div>
-                    <p class="news-summary">${news.summary}</p>
-                    <div class="news-tags">
-                        <span class="tag primary">${news.category}</span>
-                        ${tagsHtml}
-                    </div>
-                    ${news.stocks ? `<div class="stock-bar">${stockTags}</div>` : ''}
-                    <div class="news-footer">
-                        <div class="news-meta">
-                            <span class="source-badge">${news.source}</span>
+            let html = '';
+            list.forEach(news => {
+                html += `
+                    <div class="news-card" onclick="window.open('${news.url}', '_blank')">
+                        <div class="news-header">
+                            <div class="news-title">${news.title}</div>
+                            <img class="news-image" src="${news.image}" alt="">
+                        </div>
+                        <div class="news-summary">${news.summary}</div>
+                        <div class="news-tags">
+                            <span class="tag primary">${news.category}</span>
+                        </div>
+                        <div class="news-footer">
+                            <span>${news.source}</span>
                             <span>${news.time}</span>
                         </div>
                     </div>
                 `;
-                
-                container.appendChild(card);
             });
+            container.innerHTML = html;
         }
         
-        // 初始化加载
-        renderNews(newsData);
-        
-        // 分类切换功能
-        const categories = ['推荐', '国际局势', '集成电路', '商业航天', '生物医药', '低空经济', '人工智能', '具身智能', '未来能源', '量子科技'];
-        
-        document.querySelectorAll('.category-item').forEach((item, index) => {
+        // 分类切换
+        document.querySelectorAll('.category-item').forEach(item => {
             item.addEventListener('click', function() {
-                // 移除所有active
                 document.querySelectorAll('.category-item').forEach(i => i.classList.remove('active'));
-                // 添加active到当前
                 this.classList.add('active');
                 
-                // 过滤新闻
-                const category = categories[index];
-                if (category === '推荐') {
+                const cat = this.dataset.cat;
+                if (cat === '推荐') {
                     renderNews(newsData);
                 } else {
-                    const filtered = newsData.filter(n => n.category === category);
+                    const filtered = newsData.filter(n => n.category === cat);
                     renderNews(filtered.length > 0 ? filtered : newsData);
                 }
             });
         });
         
-        // 底部导航切换
-        document.querySelectorAll('.nav-item').forEach(item => {
-            item.addEventListener('click', function() {
-                document.querySelectorAll('.nav-item').forEach(i => i.classList.remove('active'));
-                this.classList.add('active');
-            });
-        });
+        // 初始加载
+        renderNews(newsData);
+        console.log('加载完成，共', newsData.length, '条新闻');
     </script>
 </body>
 </html>
