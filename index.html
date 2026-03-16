@@ -1,0 +1,566 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="theme-color" content="#f04142">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <title>AI日报 - 科技前沿资讯</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            -webkit-tap-highlight-color: transparent;
+        }
+        
+        :root {
+            --primary: #f04142;
+            --primary-dark: #d9363e;
+            --bg: #f5f5f5;
+            --card-bg: #ffffff;
+            --text-primary: #333333;
+            --text-secondary: #666666;
+            --text-tertiary: #999999;
+            --border: #e8e8e8;
+            --tag-bg: #f0f0f0;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif;
+            background: var(--bg);
+            color: var(--text-primary);
+            line-height: 1.5;
+            padding-bottom: 60px;
+        }
+        
+        /* 顶部导航 */
+        .header {
+            background: var(--primary);
+            color: white;
+            padding: 12px 16px;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            box-shadow: 0 2px 8px rgba(240, 65, 66, 0.3);
+        }
+        
+        .header-top {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 12px;
+        }
+        
+        .logo {
+            font-size: 20px;
+            font-weight: 700;
+            display: flex;
+            align-items: center;
+            gap: 6px;
+        }
+        
+        .logo-icon {
+            width: 28px;
+            height: 28px;
+            background: white;
+            border-radius: 6px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: var(--primary);
+            font-size: 14px;
+            font-weight: bold;
+        }
+        
+        .header-actions {
+            display: flex;
+            gap: 16px;
+            font-size: 18px;
+        }
+        
+        /* 分类标签 */
+        .category-nav {
+            display: flex;
+            gap: 20px;
+            overflow-x: auto;
+            scrollbar-width: none;
+            -webkit-overflow-scrolling: touch;
+            padding-bottom: 4px;
+        }
+        
+        .category-nav::-webkit-scrollbar {
+            display: none;
+        }
+        
+        .category-item {
+            white-space: nowrap;
+            font-size: 15px;
+            opacity: 0.85;
+            padding-bottom: 4px;
+            border-bottom: 2px solid transparent;
+            transition: all 0.2s;
+        }
+        
+        .category-item.active {
+            opacity: 1;
+            font-weight: 600;
+            border-bottom-color: white;
+        }
+        
+        /* 刷新时间 */
+        .refresh-bar {
+            background: #fff8f0;
+            border-bottom: 1px solid var(--border);
+            padding: 8px 16px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-size: 12px;
+            color: var(--text-secondary);
+        }
+        
+        .refresh-btn {
+            color: var(--primary);
+            display: flex;
+            align-items: center;
+            gap: 4px;
+            cursor: pointer;
+        }
+        
+        /* 内容区域 */
+        .content {
+            padding: 12px;
+        }
+        
+        /* 新闻卡片 */
+        .news-card {
+            background: var(--card-bg);
+            border-radius: 12px;
+            padding: 16px;
+            margin-bottom: 12px;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+        
+        .news-card:active {
+            transform: scale(0.98);
+        }
+        
+        .news-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            margin-bottom: 10px;
+        }
+        
+        .news-title {
+            font-size: 17px;
+            font-weight: 600;
+            line-height: 1.5;
+            flex: 1;
+            padding-right: 12px;
+        }
+        
+        .news-image {
+            width: 90px;
+            height: 70px;
+            border-radius: 8px;
+            object-fit: cover;
+            flex-shrink: 0;
+        }
+        
+        .news-summary {
+            font-size: 14px;
+            color: var(--text-secondary);
+            line-height: 1.6;
+            margin-bottom: 12px;
+            display: -webkit-box;
+            -webkit-line-clamp: 2;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+        }
+        
+        /* 标签区域 */
+        .news-tags {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+            margin-bottom: 10px;
+        }
+        
+        .tag {
+            font-size: 12px;
+            padding: 4px 10px;
+            background: var(--tag-bg);
+            border-radius: 4px;
+            color: var(--text-secondary);
+        }
+        
+        .tag.primary {
+            background: rgba(240, 65, 66, 0.1);
+            color: var(--primary);
+        }
+        
+        .tag.stock-bull {
+            background: rgba(239, 68, 68, 0.1);
+            color: #ef4444;
+        }
+        
+        .tag.stock-bear {
+            background: rgba(34, 197, 94, 0.1);
+            color: #22c55e;
+        }
+        
+        /* 底部信息 */
+        .news-footer {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-size: 12px;
+            color: var(--text-tertiary);
+        }
+        
+        .news-meta {
+            display: flex;
+            gap: 12px;
+            align-items: center;
+        }
+        
+        .source-badge {
+            display: flex;
+            align-items: center;
+            gap: 4px;
+        }
+        
+        .source-badge::before {
+            content: '';
+            width: 6px;
+            height: 6px;
+            background: #22c55e;
+            border-radius: 50%;
+        }
+        
+        /* 股票关联 */
+        .stock-bar {
+            background: linear-gradient(135deg, #fef3f2 0%, #fff5f5 100%);
+            border-radius: 8px;
+            padding: 10px 12px;
+            margin-top: 10px;
+            display: flex;
+            gap: 12px;
+            overflow-x: auto;
+            scrollbar-width: none;
+        }
+        
+        .stock-bar::-webkit-scrollbar {
+            display: none;
+        }
+        
+        .stock-item {
+            display: flex;
+            align-items: center;
+            gap: 6px;
+            font-size: 13px;
+            white-space: nowrap;
+        }
+        
+        .stock-name {
+            font-weight: 600;
+            color: var(--text-primary);
+        }
+        
+        .stock-change {
+            padding: 2px 6px;
+            border-radius: 4px;
+            font-weight: 600;
+        }
+        
+        .stock-change.up {
+            background: #fef2f2;
+            color: #ef4444;
+        }
+        
+        .stock-change.down {
+            background: #f0fdf4;
+            color: #22c55e;
+        }
+        
+        /* 底部导航 */
+        .bottom-nav {
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background: white;
+            border-top: 1px solid var(--border);
+            display: flex;
+            justify-content: space-around;
+            padding: 8px 0;
+            z-index: 100;
+            padding-bottom: env(safe-area-inset-bottom);
+        }
+        
+        .nav-item {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 4px;
+            font-size: 11px;
+            color: var(--text-tertiary);
+            cursor: pointer;
+            padding: 4px 16px;
+            transition: color 0.2s;
+        }
+        
+        .nav-item.active {
+            color: var(--primary);
+        }
+        
+        .nav-icon {
+            font-size: 22px;
+        }
+        
+        /* 加载更多 */
+        .load-more {
+            text-align: center;
+            padding: 20px;
+            color: var(--text-tertiary);
+            font-size: 14px;
+        }
+        
+        .loading-spinner {
+            display: inline-block;
+            width: 20px;
+            height: 20px;
+            border: 2px solid var(--border);
+            border-top-color: var(--primary);
+            border-radius: 50%;
+            animation: spin 1s linear infinite;
+            margin-right: 8px;
+        }
+        
+        @keyframes spin {
+            to { transform: rotate(360deg); }
+        }
+        
+        /* 响应式适配 */
+        @media (min-width: 768px) {
+            body {
+                max-width: 414px;
+                margin: 0 auto;
+                box-shadow: 0 0 20px rgba(0,0,0,0.1);
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- 顶部导航 -->
+    <header class="header">
+        <div class="header-top">
+            <div class="logo">
+                <div class="logo-icon">AI</div>
+                <span>AI日报</span>
+            </div>
+            <div class="header-actions">
+                <span>🔍</span>
+                <span>⚙️</span>
+            </div>
+        </div>
+        <nav class="category-nav">
+            <div class="category-item active">推荐</div>
+            <div class="category-item">AI</div>
+            <div class="category-item">半导体</div>
+            <div class="category-item">新能源</div>
+            <div class="category-item">机器人</div>
+            <div class="category-item">量子计算</div>
+            <div class="category-item">航天</div>
+            <div class="category-item">游戏</div>
+        </nav>
+    </header>
+    
+    <!-- 刷新栏 -->
+    <div class="refresh-bar">
+        <span>最后更新：刚刚</span>
+        <span class="refresh-btn">
+            <span>🔄</span>
+            <span>刷新</span>
+        </span>
+    </div>
+    
+    <!-- 内容区域 -->
+    <main class="content" id="newsList">
+        <!-- 新闻内容由JS动态加载 -->
+    </main>
+    
+    <!-- 加载更多 -->
+    <div class="load-more" id="loadMore">
+        <div class="loading-spinner"></div>
+        <span>加载中...</span>
+    </div>
+    
+    <!-- 底部导航 -->
+    <nav class="bottom-nav">
+        <div class="nav-item active">
+            <span class="nav-icon">📰</span>
+            <span>资讯</span>
+        </div>
+        <div class="nav-item">
+            <span class="nav-icon">📊</span>
+            <span>行情</span>
+        </div>
+        <div class="nav-item">
+            <span class="nav-icon">⭐</span>
+            <span>收藏</span>
+        </div>
+        <div class="nav-item">
+            <span class="nav-icon">👤</span>
+            <span>我的</span>
+        </div>
+    </nav>
+    
+    <script>
+        // 模拟新闻数据
+        const newsData = [
+            {
+                id: 1,
+                title: "OpenAI发布GPT-5预览版，性能提升300%，支持多模态实时交互",
+                summary: "OpenAI今日凌晨正式发布GPT-5预览版本，新一代大模型在推理能力、代码生成和多模态理解方面实现重大突破...",
+                image: "https://via.placeholder.com/90x70/f04142/ffffff?text=GPT-5",
+                category: "人工智能",
+                tags: ["OpenAI", "大模型", "重大发布"],
+                source: "华尔街见闻",
+                time: "10分钟前",
+                stocks: [
+                    { name: "微软", change: "+2.35%", trend: "up" },
+                    { name: "英伟达", change: "+3.12%", trend: "up" }
+                ]
+            },
+            {
+                id: 2,
+                title: "台积电宣布2nm芯片量产提前至2026年，苹果A20芯片首发采用",
+                summary: "台积电在今日的技术论坛上宣布，2nm制程芯片量产时间将从原定的2027年提前至2026年下半年...",
+                image: "https://via.placeholder.com/90x70/6366f1/ffffff?text=2nm",
+                category: "半导体",
+                tags: ["台积电", "芯片", "苹果"],
+                source: "财联社",
+                time: "25分钟前",
+                stocks: [
+                    { name: "台积电", change: "+1.85%", trend: "up" },
+                    { name: "苹果", change: "+0.92%", trend: "up" }
+                ]
+            },
+            {
+                id: 3,
+                title: "特斯拉FSD V13在中国开启公测，自动驾驶能力接近L4级别",
+                summary: "特斯拉官方今日宣布，完全自动驾驶能力FSD V13版本正式向中国用户推送，新增城市领航辅助功能...",
+                image: "https://via.placeholder.com/90x70/10b981/ffffff?text=FSD",
+                category: "新能源",
+                tags: ["特斯拉", "自动驾驶", "FSD"],
+                source: "36氪",
+                time: "1小时前",
+                stocks: [
+                    { name: "特斯拉", change: "+4.21%", trend: "up" },
+                    { name: "比亚迪", change: "-0.65%", trend: "down" }
+                ]
+            },
+            {
+                id: 4,
+                title: "Figure AI发布新一代人形机器人Figure 02，续航提升至8小时",
+                summary: "人形机器人公司Figure AI今日正式发布Figure 02，新款机器人在续航能力、动作灵活性和AI交互方面全面升级...",
+                image: "https://via.placeholder.com/90x70/8b5cf6/ffffff?text=Robot",
+                category: "机器人",
+                tags: ["Figure AI", "人形机器人", "具身智能"],
+                source: "机器之心",
+                time: "2小时前",
+                stocks: [
+                    { name: "特斯拉", change: "+4.21%", trend: "up" }
+                ]
+            },
+            {
+                id: 5,
+                title: "谷歌量子计算机实现1000量子比特，纠错能力突破里程碑",
+                summary: "Google Quantum AI团队今日在Nature发表论文，宣布实现1000物理量子比特的量子处理器...",
+                image: "https://via.placeholder.com/90x70/ec4899/ffffff?text=Quantum",
+                category: "量子计算",
+                tags: ["谷歌", "量子计算", "量子霸权"],
+                source: "Nature",
+                time: "3小时前",
+                stocks: [
+                    { name: "谷歌", change: "+1.56%", trend: "up" },
+                    { name: "IBM", change: "+0.89%", trend: "up" }
+                ]
+            }
+        ];
+        
+        // 渲染新闻列表
+        function renderNews(newsList) {
+            const container = document.getElementById('newsList');
+            
+            newsList.forEach(news => {
+                const card = document.createElement('div');
+                card.className = 'news-card';
+                
+                // 股票标签
+                let stockTags = '';
+                if (news.stocks) {
+                    stockTags = news.stocks.map(stock => {
+                        const trendClass = stock.trend === 'up' ? 'stock-bull' : 'stock-bear';
+                        return `<div class="stock-item">
+                            <span class="stock-name">${stock.name}</span>
+                            <span class="stock-change ${trendClass}">${stock.change}</span>
+                        </div>`;
+                    }).join('');
+                }
+                
+                // 标签
+                const tagsHtml = news.tags.map(tag => 
+                    `<span class="tag ${tag === news.tags[0] ? 'primary' : ''}">${tag}</span>`
+                ).join('');
+                
+                card.innerHTML = `
+                    <div class="news-header">
+                        <h3 class="news-title">${news.title}</h3>
+                        <img class="news-image" src="${news.image}" alt="">
+                    </div>
+                    <p class="news-summary">${news.summary}</p>
+                    <div class="news-tags">
+                        <span class="tag primary">${news.category}</span>
+                        ${tagsHtml}
+                    </div>
+                    ${news.stocks ? `<div class="stock-bar">${stockTags}</div>` : ''}
+                    <div class="news-footer">
+                        <div class="news-meta">
+                            <span class="source-badge">${news.source}</span>
+                            <span>${news.time}</span>
+                        </div>
+                        <span>👁 2.3k</span>
+                    </div>
+                `;
+                
+                container.appendChild(card);
+            });
+        }
+        
+        // 初始化加载
+        renderNews(newsData);
+        
+        // 分类切换
+        document.querySelectorAll('.category-item').forEach(item => {
+            item.addEventListener('click', function() {
+                document.querySelectorAll('.category-item').forEach(i => i.classList.remove('active'));
+                this.classList.add('active');
+            });
+        });
+        
+        // 底部导航切换
+        document.querySelectorAll('.nav-item').forEach(item => {
+            item.addEventListener('click', function() {
+                document.querySelectorAll('.nav-item').forEach(i => i.classList.remove('active'));
+                this.classList.add('active');
+            });
+        });
+    </script>
+</body>
+</html>
