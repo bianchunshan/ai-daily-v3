@@ -565,8 +565,7 @@
                 document.getElementById('stockSection').style.display = 'block';
                 const stockHtml = article.stocks.map(stock => {
                     const trendClass = stock.trend === 'up' ? 'up' : 'down';
-                    const stockUrl = `https://quote.eastmoney.com/us/${stock.code}.html`;
-                    return `<div class="stock-item" onclick="window.open('${stockUrl}', '_blank')" style="cursor: pointer;"
+                    return `<div class="stock-item" onclick="window.location.href='stock.html?code=${stock.code}'" style="cursor: pointer;"
                          onmouseover="this.style.background='#f0f0f0'" onmouseout="this.style.background='var(--bg)'">
                         <div class="stock-info">
                             <span class="stock-name">${stock.name}</span>

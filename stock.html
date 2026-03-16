@@ -1,0 +1,807 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="theme-color" content="#f04142">
+    <title>股票详情 - 前沿科技日报</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            -webkit-tap-highlight-color: transparent;
+        }
+        
+        :root {
+            --primary: #f04142;
+            --primary-dark: #d9363e;
+            --bg: #f5f5f5;
+            --card-bg: #ffffff;
+            --text-primary: #333333;
+            --text-secondary: #666666;
+            --text-tertiary: #999999;
+            --border: #e8e8e8;
+            --up: #ef4444;
+            --down: #22c55e;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif;
+            background: var(--bg);
+            color: var(--text-primary);
+            line-height: 1.6;
+        }
+        
+        /* 顶部导航 */
+        .header {
+            background: var(--primary);
+            color: white;
+            padding: 12px 16px;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+        
+        .back-btn {
+            font-size: 20px;
+            cursor: pointer;
+            padding: 4px;
+        }
+        
+        .header-title {
+            font-size: 18px;
+            font-weight: 600;
+            flex: 1;
+        }
+        
+        /* 股票头部信息 */
+        .stock-header {
+            background: var(--card-bg);
+            padding: 20px 16px;
+            border-bottom: 1px solid var(--border);
+        }
+        
+        .stock-main {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            margin-bottom: 16px;
+        }
+        
+        .stock-info-left {
+            flex: 1;
+        }
+        
+        .stock-name {
+            font-size: 24px;
+            font-weight: 700;
+            margin-bottom: 4px;
+        }
+        
+        .stock-code {
+            font-size: 14px;
+            color: var(--text-secondary);
+        }
+        
+        .stock-price-section {
+            text-align: right;
+        }
+        
+        .stock-current-price {
+            font-size: 32px;
+            font-weight: 700;
+            margin-bottom: 4px;
+        }
+        
+        .stock-current-price.up {
+            color: var(--up);
+        }
+        
+        .stock-current-price.down {
+            color: var(--down);
+        }
+        
+        .stock-change-box {
+            display: flex;
+            gap: 8px;
+            justify-content: flex-end;
+        }
+        
+        .stock-change-value, .stock-change-percent {
+            font-size: 14px;
+            font-weight: 600;
+            padding: 4px 10px;
+            border-radius: 4px;
+        }
+        
+        .stock-change-value.up, .stock-change-percent.up {
+            background: rgba(239, 68, 68, 0.1);
+            color: var(--up);
+        }
+        
+        .stock-change-value.down, .stock-change-percent.down {
+            background: rgba(34, 197, 94, 0.1);
+            color: var(--down);
+        }
+        
+        /* 市场数据 */
+        .market-data {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 12px;
+            padding-top: 16px;
+            border-top: 1px solid var(--border);
+        }
+        
+        .market-item {
+            text-align: center;
+        }
+        
+        .market-label {
+            font-size: 12px;
+            color: var(--text-tertiary);
+            margin-bottom: 4px;
+        }
+        
+        .market-value {
+            font-size: 14px;
+            font-weight: 600;
+        }
+        
+        /* 走势图 */
+        .chart-section {
+            background: var(--card-bg);
+            margin-top: 12px;
+            padding: 16px;
+        }
+        
+        .chart-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 16px;
+        }
+        
+        .chart-title {
+            font-size: 16px;
+            font-weight: 600;
+        }
+        
+        .chart-tabs {
+            display: flex;
+            gap: 8px;
+        }
+        
+        .chart-tab {
+            font-size: 13px;
+            padding: 4px 12px;
+            background: var(--bg);
+            border-radius: 4px;
+            color: var(--text-secondary);
+            cursor: pointer;
+        }
+        
+        .chart-tab.active {
+            background: var(--primary);
+            color: white;
+        }
+        
+        #stockChart {
+            width: 100%;
+            height: 200px;
+            background: linear-gradient(180deg, rgba(240, 65, 66, 0.05) 0%, transparent 100%);
+            border-radius: 8px;
+        }
+        
+        /* 公司信息 */
+        .company-section {
+            background: var(--card-bg);
+            margin-top: 12px;
+            padding: 16px;
+        }
+        
+        .section-title {
+            font-size: 16px;
+            font-weight: 600;
+            margin-bottom: 12px;
+            display: flex;
+            align-items: center;
+            gap: 6px;
+        }
+        
+        .company-desc {
+            font-size: 14px;
+            line-height: 1.8;
+            color: var(--text-secondary);
+        }
+        
+        .company-info-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 12px;
+            margin-top: 16px;
+        }
+        
+        .company-info-item {
+            background: var(--bg);
+            padding: 12px;
+            border-radius: 8px;
+        }
+        
+        .company-info-label {
+            font-size: 12px;
+            color: var(--text-tertiary);
+            margin-bottom: 4px;
+        }
+        
+        .company-info-value {
+            font-size: 14px;
+            font-weight: 600;
+        }
+        
+        /* 相关新闻 */
+        .news-section {
+            background: var(--card-bg);
+            margin-top: 12px;
+            padding: 16px;
+        }
+        
+        .news-list {
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+        }
+        
+        .news-item {
+            display: flex;
+            gap: 12px;
+            padding: 12px;
+            background: var(--bg);
+            border-radius: 8px;
+            cursor: pointer;
+            transition: background 0.2s;
+        }
+        
+        .news-item:active {
+            background: #e8e8e8;
+        }
+        
+        .news-thumb {
+            width: 80px;
+            height: 60px;
+            border-radius: 6px;
+            object-fit: cover;
+            flex-shrink: 0;
+        }
+        
+        .news-content {
+            flex: 1;
+        }
+        
+        .news-title {
+            font-size: 14px;
+            font-weight: 500;
+            line-height: 1.4;
+            margin-bottom: 6px;
+            display: -webkit-box;
+            -webkit-line-clamp: 2;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+        }
+        
+        .news-meta {
+            font-size: 12px;
+            color: var(--text-tertiary);
+        }
+        
+        /* 操作按钮 */
+        .action-bar {
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background: white;
+            border-top: 1px solid var(--border);
+            padding: 12px 16px;
+            display: flex;
+            gap: 12px;
+            padding-bottom: calc(12px + env(safe-area-inset-bottom));
+        }
+        
+        .action-btn {
+            flex: 1;
+            padding: 12px;
+            border-radius: 8px;
+            border: none;
+            font-size: 15px;
+            font-weight: 500;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 6px;
+        }
+        
+        .action-btn.primary {
+            background: var(--primary);
+            color: white;
+        }
+        
+        .action-btn.secondary {
+            background: var(--bg);
+            color: var(--text-primary);
+        }
+        
+        .bottom-space {
+            height: 80px;
+        }
+    </style>
+</head>
+<body>
+    <!-- 顶部导航 -->
+    <header class="header">
+        <span class="back-btn" onclick="history.back()">←</span>
+        <span class="header-title">股票详情</span>
+    </header>
+    
+    <!-- 股票头部信息 -->
+    <div class="stock-header">
+        <div class="stock-main">
+            <div class="stock-info-left">
+                <div class="stock-name" id="stockName">--</div>
+                <div class="stock-code" id="stockCode">--</div>
+            </div>
+            <div class="stock-price-section">
+                <div class="stock-current-price" id="currentPrice">--</div>
+                <div class="stock-change-box">
+                    <span class="stock-change-value" id="changeValue">--</span>
+                    <span class="stock-change-percent" id="changePercent">--</span>
+                </div>
+            </div>
+        </div>
+        
+        <div class="market-data">
+            <div class="market-item">
+                <div class="market-label">今开</div>
+                <div class="market-value" id="openPrice">--</div>
+            </div>
+            <div class="market-item">
+                <div class="market-label">最高</div>
+                <div class="market-value" id="highPrice">--</div>
+            </div>
+            <div class="market-item">
+                <div class="market-label">最低</div>
+                <div class="market-value" id="lowPrice">--</div>
+            </div>
+            <div class="market-item">
+                <div class="market-label">市值</div>
+                <div class="market-value" id="marketCap">--</div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- 走势图 -->
+    <div class="chart-section">
+        <div class="chart-header">
+            <div class="chart-title">📈 走势图</div>
+            <div class="chart-tabs">
+                <div class="chart-tab active">日K</div>
+                <div class="chart-tab">周K</div>
+                <div class="chart-tab">月K</div>
+            </div>
+        </div>
+        <canvas id="stockChart"></canvas>
+    </div>
+    
+    <!-- 公司信息 -->
+    <div class="company-section">
+        <div class="section-title">🏢 公司简介</div>
+        <div class="company-desc" id="companyDesc">
+            加载中...
+        </div>
+        
+        <div class="company-info-grid">
+            <div class="company-info-item">
+                <div class="company-info-label">成立时间</div>
+                <div class="company-info-value" id="foundDate">--</div>
+            </div>
+            <div class="company-info-item">
+                <div class="company-info-label">总部所在地</div>
+                <div class="company-info-value" id="hqLocation">--</div>
+            </div>
+            <div class="company-info-item">
+                <div class="company-info-label">CEO</div>
+                <div class="company-info-value" id="ceoName">--</div>
+            </div>
+            <div class="company-info-item">
+                <div class="company-info-label">员工数</div>
+                <div class="company-info-value" id="employeeCount">--</div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- 相关新闻 -->
+    <div class="news-section">
+        <div class="section-title">📰 相关新闻</div>
+        <div class="news-list" id="relatedNews">
+            <!-- 动态加载 -->
+        </div>
+    </div>
+    
+    <div class="bottom-space"></div>
+    
+    <!-- 操作按钮 -->
+    <div class="action-bar">
+        <button class="action-btn secondary" onclick="addToWatchlist()">
+            <span>⭐</span>
+            <span>加入自选</span>
+        </button>
+        <button class="action-btn primary" onclick="shareStock()">
+            <span>📤</span>
+            <span>分享</span>
+        </button>
+    </div>
+    
+    <script>
+        // 股票数据库
+        const stockDatabase = {
+            'MSFT': {
+                name: '微软',
+                code: 'MSFT',
+                price: '425.80',
+                change: '+9.78',
+                changePercent: '+2.35%',
+                trend: 'up',
+                open: '418.50',
+                high: '428.20',
+                low: '416.80',
+                marketCap: '3.16万亿',
+                desc: '微软公司是全球领先的科技巨头，主要从事软件开发、云计算服务、人工智能研究等业务。旗下拥有Windows操作系统、Office办公软件、Azure云服务平台、Xbox游戏机等知名产品。近年来在AI领域大力投资，与OpenAI深度合作。',
+                foundDate: '1975年',
+                hqLocation: '美国华盛顿州雷德蒙德',
+                ceo: 'Satya Nadella',
+                employees: '22.1万'
+            },
+            'NVDA': {
+                name: '英伟达',
+                code: 'NVDA',
+                price: '875.30',
+                change: '+26.50',
+                changePercent: '+3.12%',
+                trend: 'up',
+                open: '855.00',
+                high: '882.50',
+                low: '848.20',
+                marketCap: '2.18万亿',
+                desc: '英伟达是全球领先的GPU和AI芯片设计公司，其产品广泛应用于游戏、数据中心、自动驾驶、人工智能等领域。是AI算力时代的最大受益者，其GPU芯片在深度学习训练中占据主导地位。',
+                foundDate: '1993年',
+                hqLocation: '美国加利福尼亚州圣克拉拉',
+                ceo: '黄仁勋',
+                employees: '2.9万'
+            },
+            'TSLA': {
+                name: '特斯拉',
+                code: 'TSLA',
+                price: '195.30',
+                change: '+7.89',
+                changePercent: '+4.21%',
+                trend: 'up',
+                open: '188.50',
+                high: '198.20',
+                low: '186.00',
+                marketCap: '6200亿',
+                desc: '特斯拉是全球领先的电动汽车制造商，也是自动驾驶技术和能源存储解决方案的先驱。公司致力于推动可持续能源发展，产品包括Model S/3/X/Y系列电动车、Cybertruck、Semi卡车、Solar Roof等。',
+                foundDate: '2003年',
+                hqLocation: '美国德克萨斯州奥斯汀',
+                ceo: 'Elon Musk',
+                employees: '14.0万'
+            },
+            'AAPL': {
+                name: '苹果',
+                code: 'AAPL',
+                price: '195.20',
+                change: '+1.78',
+                changePercent: '+0.92%',
+                trend: 'up',
+                open: '194.00',
+                high: '196.80',
+                low: '192.50',
+                marketCap: '3.02万亿',
+                desc: '苹果公司是全球最有价值的科技公司之一，设计、制造和销售消费电子产品、计算机软件和在线服务。主要产品包括iPhone、iPad、Mac、Apple Watch、AirPods等，拥有庞大的生态系统和忠实的用户群体。',
+                foundDate: '1976年',
+                hqLocation: '美国加利福尼亚州库比蒂诺',
+                ceo: 'Tim Cook',
+                employees: '16.1万'
+            },
+            'GOOGL': {
+                name: '谷歌',
+                code: 'GOOGL',
+                price: '165.80',
+                change: '+2.55',
+                changePercent: '+1.56%',
+                trend: 'up',
+                open: '163.50',
+                high: '167.20',
+                low: '162.80',
+                marketCap: '2.08万亿',
+                desc: '谷歌母公司Alphabet是全球最大的互联网公司之一，业务涵盖搜索引擎、在线广告、云计算、移动操作系统、人工智能等领域。旗下拥有Google搜索、YouTube、Android、Chrome、Google Cloud等核心产品。',
+                foundDate: '1998年',
+                hqLocation: '美国加利福尼亚州山景城',
+                ceo: 'Sundar Pichai',
+                employees: '18.2万'
+            },
+            'TSM': {
+                name: '台积电',
+                code: 'TSM',
+                price: '142.50',
+                change: '+2.59',
+                changePercent: '+1.85%',
+                trend: 'up',
+                open: '140.20',
+                high: '144.80',
+                low: '139.50',
+                marketCap: '7400亿',
+                desc: '台积电是全球最大的半导体代工制造商，为苹果、英伟达、AMD等科技巨头生产芯片。拥有最先进的制程技术，在3nm、2nm等先进工艺上处于行业领先地位。',
+                foundDate: '1987年',
+                hqLocation: '中国台湾新竹',
+                ceo: '魏哲家',
+                employees: '7.3万'
+            },
+            'AMD': {
+                name: 'AMD',
+                code: 'AMD',
+                price: '165.40',
+                change: '+2.37',
+                changePercent: '+1.45%',
+                trend: 'up',
+                open: '163.50',
+                high: '168.20',
+                low: '161.80',
+                marketCap: '2670亿',
+                desc: 'AMD是全球领先的半导体公司，主要生产CPU、GPU等处理器产品。近年来凭借Ryzen处理器和EPYC数据中心芯片在PC和服务器市场取得重大突破，是英特尔和英伟达的主要竞争对手。',
+                foundDate: '1969年',
+                hqLocation: '美国加利福尼亚州圣克拉拉',
+                ceo: '苏姿丰',
+                employees: '2.6万'
+            },
+            'IBM': {
+                name: 'IBM',
+                code: 'IBM',
+                price: '198.50',
+                change: '+1.75',
+                changePercent: '+0.89%',
+                trend: 'up',
+                open: '196.80',
+                high: '200.20',
+                low: '195.50',
+                marketCap: '1820亿',
+                desc: 'IBM是全球历史最悠久的科技公司之一，业务涵盖云计算、人工智能、量子计算、企业咨询等领域。近年来成功转型，专注于混合云和AI业务，其Watson AI平台在企业级市场有广泛应用。',
+                foundDate: '1911年',
+                hqLocation: '美国纽约州阿蒙克',
+                ceo: 'Arvind Krishna',
+                employees: '28.8万'
+            }
+        };
+        
+        // 新闻数据库
+        const newsData = [
+            {
+                id: 1,
+                title: "OpenAI发布GPT-5预览版，性能提升300%，支持多模态实时交互",
+                image: "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=200&h=150&fit=crop",
+                source: "华尔街见闻",
+                time: "10分钟前",
+                stocks: ['MSFT', 'NVDA']
+            },
+            {
+                id: 2,
+                title: "台积电宣布2nm芯片量产提前至2026年，苹果A20芯片首发采用",
+                image: "https://images.unsplash.com/photo-1518770660439-4636190af475?w=200&h=150&fit=crop",
+                source: "财联社",
+                time: "25分钟前",
+                stocks: ['TSM', 'AAPL']
+            },
+            {
+                id: 3,
+                title: "特斯拉FSD V13在中国开启公测，自动驾驶能力接近L4级别",
+                image: "https://images.unsplash.com/photo-1560958089-b8a1929cea89?w=200&h=150&fit=crop",
+                source: "36氪",
+                time: "1小时前",
+                stocks: ['TSLA']
+            },
+            {
+                id: 7,
+                title: "英伟达H200芯片供不应求，订单排期至2025年Q3",
+                image: "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?w=200&h=150&fit=crop",
+                source: "证券时报",
+                time: "5小时前",
+                stocks: ['NVDA', 'AMD']
+            }
+        ];
+        
+        let currentStock = null;
+        
+        // 获取URL参数
+        function getUrlParam(param) {
+            const urlParams = new URLSearchParams(window.location.search);
+            return urlParams.get(param);
+        }
+        
+        // 加载股票信息
+        function loadStock() {
+            const stockCode = getUrlParam('code');
+            
+            if (!stockCode || !stockDatabase[stockCode]) {
+                document.getElementById('stockName').textContent = '股票不存在';
+                return;
+            }
+            
+            currentStock = stockDatabase[stockCode];
+            
+            // 填充基本信息
+            document.getElementById('stockName').textContent = currentStock.name;
+            document.getElementById('stockCode').textContent = currentStock.code;
+            document.getElementById('currentPrice').textContent = '$' + currentStock.price;
+            document.getElementById('changeValue').textContent = currentStock.change;
+            document.getElementById('changePercent').textContent = currentStock.changePercent;
+            
+            // 设置颜色
+            const trend = currentStock.trend;
+            document.getElementById('currentPrice').className = 'stock-current-price ' + trend;
+            document.getElementById('changeValue').className = 'stock-change-value ' + trend;
+            document.getElementById('changePercent').className = 'stock-change-percent ' + trend;
+            
+            // 市场数据
+            document.getElementById('openPrice').textContent = '$' + currentStock.open;
+            document.getElementById('highPrice').textContent = '$' + currentStock.high;
+            document.getElementById('lowPrice').textContent = '$' + currentStock.low;
+            document.getElementById('marketCap').textContent = currentStock.marketCap;
+            
+            // 公司信息
+            document.getElementById('companyDesc').textContent = currentStock.desc;
+            document.getElementById('foundDate').textContent = currentStock.foundDate;
+            document.getElementById('hqLocation').textContent = currentStock.hqLocation;
+            document.getElementById('ceoName').textContent = currentStock.ceo;
+            document.getElementById('employeeCount').textContent = currentStock.employees;
+            
+            // 绘制走势图
+            drawChart(trend);
+            
+            // 加载相关新闻
+            loadRelatedNews(stockCode);
+        }
+        
+        // 绘制走势图
+        function drawChart(trend) {
+            const canvas = document.getElementById('stockChart');
+            const ctx = canvas.getContext('2d');
+            
+            // 设置画布大小
+            canvas.width = canvas.offsetWidth * 2;
+            canvas.height = canvas.offsetHeight * 2;
+            ctx.scale(2, 2);
+            
+            const width = canvas.offsetWidth;
+            const height = canvas.offsetHeight;
+            
+            // 生成模拟数据
+            const dataPoints = 50;
+            const data = [];
+            let price = 100;
+            
+            for (let i = 0; i < dataPoints; i++) {
+                const change = (Math.random() - 0.5) * 4;
+                price += change;
+                data.push(price);
+            }
+            
+            // 清除画布
+            ctx.clearRect(0, 0, width, height);
+            
+            // 找出最大最小值
+            const minPrice = Math.min(...data);
+            const maxPrice = Math.max(...data);
+            const range = maxPrice - minPrice;
+            
+            // 绘制渐变背景
+            const gradient = ctx.createLinearGradient(0, 0, 0, height);
+            const colorStart = trend === 'up' ? 'rgba(239, 68, 68, 0.2)' : 'rgba(34, 197, 94, 0.2)';
+            const colorEnd = trend === 'up' ? 'rgba(239, 68, 68, 0)' : 'rgba(34, 197, 94, 0)';
+            gradient.addColorStop(0, colorStart);
+            gradient.addColorStop(1, colorEnd);
+            
+            // 绘制填充区域
+            ctx.beginPath();
+            ctx.moveTo(0, height);
+            data.forEach((price, i) => {
+                const x = (i / (dataPoints - 1)) * width;
+                const y = height - ((price - minPrice) / range) * (height - 40) - 20;
+                ctx.lineTo(x, y);
+            });
+            ctx.lineTo(width, height);
+            ctx.closePath();
+            ctx.fillStyle = gradient;
+            ctx.fill();
+            
+            // 绘制线条
+            ctx.beginPath();
+            ctx.strokeStyle = trend === 'up' ? '#ef4444' : '#22c55e';
+            ctx.lineWidth = 2;
+            data.forEach((price, i) => {
+                const x = (i / (dataPoints - 1)) * width;
+                const y = height - ((price - minPrice) / range) * (height - 40) - 20;
+                if (i === 0) {
+                    ctx.moveTo(x, y);
+                } else {
+                    ctx.lineTo(x, y);
+                }
+            });
+            ctx.stroke();
+            
+            // 绘制数据点
+            data.forEach((price, i) => {
+                if (i % 10 === 0) {
+                    const x = (i / (dataPoints - 1)) * width;
+                    const y = height - ((price - minPrice) / range) * (height - 40) - 20;
+                    ctx.beginPath();
+                    ctx.arc(x, y, 3, 0, Math.PI * 2);
+                    ctx.fillStyle = trend === 'up' ? '#ef4444' : '#22c55e';
+                    ctx.fill();
+                }
+            });
+        }
+        
+        // 加载相关新闻
+        function loadRelatedNews(stockCode) {
+            const related = newsData.filter(n => n.stocks.includes(stockCode));
+            const container = document.getElementById('relatedNews');
+            
+            if (related.length === 0) {
+                container.innerHTML = '<div style="text-align: center; color: #999; padding: 20px;">暂无相关新闻</div>';
+                return;
+            }
+            
+            related.forEach(news => {
+                const div = document.createElement('div');
+                div.className = 'news-item';
+                div.onclick = () => window.location.href = `detail.html?id=${news.id}`;
+                div.innerHTML = `
+                    <img class="news-thumb" src="${news.image}" alt="">
+                    <div class="news-content">
+                        <div class="news-title">${news.title}</div>
+                        <div class="news-meta">${news.source} · ${news.time}</div>
+                    </div>
+                `;
+                container.appendChild(div);
+            });
+        }
+        
+        // 加入自选
+        function addToWatchlist() {
+            if (currentStock) {
+                alert(`已将 ${currentStock.name}(${currentStock.code}) 加入自选`);
+            }
+        }
+        
+        // 分享
+        function shareStock() {
+            if (navigator.share && currentStock) {
+                navigator.share({
+                    title: `${currentStock.name}(${currentStock.code}) - $${currentStock.price}`,
+                    text: `${currentStock.name}当前股价$${currentStock.price}，${currentStock.changePercent}`,
+                    url: window.location.href
+                });
+            } else {
+                alert('链接已复制');
+            }
+        }
+        
+        // 初始化
+        loadStock();
+    </script>
+</body>
+</html>
