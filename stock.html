@@ -577,40 +577,64 @@
             try {
                 const url = `${API_BASE}?function=GLOBAL_QUOTE&symbol=${symbol}&apikey=${API_KEY}`;
                 
+                console.log('请求URL:', url);
                 document.getElementById('currentPrice').textContent = '加载中...';
                 
                 const response = await fetch(url);
                 const data = await response.json();
                 
-                if (data['Global Quote'] && data['Global Quote']['05. price']) {
-                    const quote = data['Global Quote'];
-                    const price = parseFloat(quote['05. price']);
-                    const change = parseFloat(quote['09. change']);
-                    const changePercent = quote['10. change percent'].replace('%', '');
-                    
-                    return {
-                        price: price.toFixed(2),
-                        change: (change >= 0 ? '+' : '') + change.toFixed(2),
-                        changePercent: (change >= 0 ? '+' : '') + parseFloat(changePercent).toFixed(2) + '%',
-                        trend: change >= 0 ? 'up' : 'down',
-                        open: parseFloat(quote['02. open']).toFixed(2),
-                        high: parseFloat(quote['03. high']).toFixed(2),
-                        low: parseFloat(quote['04. low']).toFixed(2),
-                        volume: parseInt(quote['06. volume']).toLocaleString(),
-                        latestTradingDay: quote['07. latest trading day']
-                    };
-                } else if (data['Note']) {
-                    console.warn('API频率限制:', data['Note']);
-                    showError('API请求频率限制，请稍后刷新');
-                    return null;
-                } else {
-                    console.error('API返回异常:', data);
-                    showError('获取数据失败');
+                console.log('API返回:', data);
+                
+                // 检查错误信息
+                if (data['Error Message']) {
+                    console.error('API错误:', data['Error Message']);
+                    showError('API错误: ' + data['Error Message']);
                     return null;
                 }
+                
+                // 检查频率限制
+                if (data['Note']) {
+                    console.warn('API频率限制:', data['Note']);
+                    showError('API请求频率限制，请1分钟后刷新');
+                    return null;
+                }
+                
+                // 检查数据是否存在
+                if (!data['Global Quote']) {
+                    console.error('无数据返回:', data);
+                    showError('暂无该股票数据');
+                    return null;
+                }
+                
+                const quote = data['Global Quote'];
+                
+                // 检查价格字段
+                if (!quote['05. price']) {
+                    console.error('价格字段缺失:', quote);
+                    showError('数据格式错误');
+                    return null;
+                }
+                
+                const price = parseFloat(quote['05. price']);
+                const change = parseFloat(quote['09. change'] || 0);
+                const changePercent = quote['10. change percent'] ? quote['10. change percent'].replace('%', '') : '0';
+                
+                console.log('解析成功:', { price, change, changePercent });
+                
+                return {
+                    price: price.toFixed(2),
+                    change: (change >= 0 ? '+' : '') + change.toFixed(2),
+                    changePercent: (change >= 0 ? '+' : '') + parseFloat(changePercent).toFixed(2) + '%',
+                    trend: change >= 0 ? 'up' : 'down',
+                    open: parseFloat(quote['02. open'] || price).toFixed(2),
+                    high: parseFloat(quote['03. high'] || price).toFixed(2),
+                    low: parseFloat(quote['04. low'] || price).toFixed(2),
+                    volume: parseInt(quote['06. volume'] || 0).toLocaleString(),
+                    latestTradingDay: quote['07. latest trading day'] || '-'
+                };
             } catch (error) {
                 console.error('获取股价失败:', error);
-                showError('网络错误，请检查连接');
+                showError('网络错误: ' + error.message);
                 return null;
             }
         }
@@ -792,10 +816,10 @@
         
         // 分享
         function shareStock() {
-            if (navigator.share && currentStock) {
+            if (navigator.share && currentStock && currentStockPrice) {
                 navigator.share({
-                    title: `${currentStock.name}(${currentStock.code}) - $${currentStock.price}`,
-                    text: `${currentStock.name}当前股价$${currentStock.price}，${currentStock.changePercent}`,
+                    title: `${currentStock.name}(${currentStock.code}) - $${currentStockPrice.price}`,
+                    text: `${currentStock.name}当前股价$${currentStockPrice.price}，${currentStockPrice.changePercent}`,
                     url: window.location.href
                 });
             } else {
