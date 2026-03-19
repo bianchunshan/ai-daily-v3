@@ -27,8 +27,29 @@ SECTIONS = {
     '量子科技': {'keywords': 'quantum computing OR quantum OR qubit', 'category': 'science'},
 }
 
-def fetch_news(section_name, config, limit=20):
-    """获取新闻"""
+# 权威媒体域名白名单
+AUTHORITY_DOMAINS = [
+    'reuters.com', 'apnews.com', 'bloomberg.com', 'ft.com', 'wsj.com',
+    'nytimes.com', 'washingtonpost.com', 'cnn.com', 'bbc.com',
+    'techcrunch.com', 'wired.com', 'theverge.com', 'ars technica',
+    'nature.com', 'science.org', 'scientificamerican.com',
+    'cnbc.com', 'bloomberg.com', 'businessinsider.com',
+    'mit.edu', 'stanford.edu', 'edu', 'ac.uk',
+    'bloomberg.com', 'ft.com', 'economist.com'
+]
+
+def is_authority_source(url):
+    """判断是否是权威来源"""
+    if not url:
+        return False
+    url_lower = url.lower()
+    for domain in AUTHORITY_DOMAINS:
+        if domain in url_lower:
+            return True
+    return False
+
+def fetch_news(section_name, config, limit=30):
+    """获取新闻，只保留权威来源"""
     try:
         # 构建请求URL
         params = {
@@ -55,20 +76,25 @@ def fetch_news(section_name, config, limit=20):
             if data.get('status') == 'ok':
                 news_list = []
                 for item in data.get('news', []):
+                    # 只保留权威来源
+                    url = item.get('url', '')
+                    if not is_authority_source(url):
+                        continue
+                    
                     news = {
                         'title': item.get('title', ''),
                         'summary': item.get('description', '')[:150] + '...' if len(item.get('description', '')) > 150 else item.get('description', ''),
                         'image': item.get('image', 'https://via.placeholder.com/200x150/f04142/ffffff?text=News'),
                         'category': section_name,
                         'tags': [section_name, '科技'],
-                        'source': item.get('author', 'Currents API'),
+                        'source': item.get('author', item.get('source', '权威媒体')) if item.get('author') or item.get('source') else '权威媒体',
                         'time': format_time(item.get('published', '')),
                         'url': item.get('url', ''),
                         'stocks': []
                     }
                     news_list.append(news)
                 
-                print(f"  ✅ 获取到 {len(news_list)} 条新闻")
+                print(f"  ✅ 获取到 {len(news_list)} 条权威来源新闻")
                 return news_list
             else:
                 print(f"  ❌ API错误: {data.get('message', 'Unknown error')}")
