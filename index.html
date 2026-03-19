@@ -109,7 +109,7 @@
                 for (var k = 0; k < n.stocks.length; k++) {
                     var s = n.stocks[k];
                     var cls = s.trend === 'up' ? 'stock-up' : 'stock-down';
-                    html += '<span class="' + cls + '" style="font-size:11px;">' + s.name + ' ' + s.change + '</span>';
+                    html += '<a href="stock.html?symbol=' + s.symbol + '" style="text-decoration:none;"><span class="' + cls + '" style="font-size:11px; cursor: pointer;">' + s.name + ' ' + s.change + '</span></a>';
                 }
                 html += ' · ' + n.time;
                 html += '</div>';
