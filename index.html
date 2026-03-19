@@ -148,8 +148,25 @@
             items[index].classList.add('active');
         }
 
-        // 初始渲染
-        renderNews(newsData);
+    </script>
+    <script>
+        // 优先加载最新更新的新闻，加载失败使用静态数据
+        document.addEventListener('DOMContentLoaded', function() {
+            var script = document.createElement('script');
+            script.src = 'news_data_latest.js?' + new Date().getTime(); // 加时间戳避免缓存
+            script.onload = function() {
+                // 加载成功，用最新新闻渲染
+                if (typeof newsData !== 'undefined' && newsData.length > 0) {
+                    renderNews(newsData);
+                }
+            };
+            script.onerror = function() {
+                // 加载失败，用默认静态数据
+                console.log('加载最新新闻失败，使用静态数据');
+                renderNews(newsData);
+            };
+            document.body.appendChild(script);
+        });
     </script>
 </body>
 </html>
