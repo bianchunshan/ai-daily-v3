@@ -9,6 +9,7 @@ const ALPHA_VANTAGE_CONFIG = {
 
 // 股票代码映射
 const stockSymbols = {
+    // 美股
     'MSFT': { name: '微软', chineseName: '微软公司' },
     'NVDA': { name: '英伟达', chineseName: '英伟达' },
     'TSLA': { name: '特斯拉', chineseName: '特斯拉' },
@@ -22,7 +23,21 @@ const stockSymbols = {
     'NFLX': { name: '奈飞', chineseName: '奈飞' },
     'INTC': { name: '英特尔', chineseName: '英特尔' },
     'QCOM': { name: '高通', chineseName: '高通' },
-    'AVGO': { name: '博通', chineseName: '博通' }
+    'AVGO': { name: '博通', chineseName: '博通' },
+    // A股 沪市
+    '600519.SH': { name: '贵州茅台', chineseName: '贵州茅台' },
+    '601318.SH': { name: '中国平安', chineseName: '中国平安' },
+    '600036.SH': { name: '招商银行', chineseName: '招商银行' },
+    '600276.SH': { name: '恒瑞医药', chineseName: '恒瑞医药' },
+    '601899.SH': { name: '紫金矿业', chineseName: '紫金矿业' },
+    // A股 深市/创业板
+    '000858.SZ': { name: '五粮液', chineseName: '五粮液' },
+    '002594.SZ': { name: '比亚迪', chineseName: '比亚迪' },
+    '300750.SZ': { name: '宁德时代', chineseName: '宁德时代' },
+    '300059.SZ': { name: '东方财富', chineseName: '东方财富' },
+    '300496.SZ': { name: '中科创达', chineseName: '中科创达' },
+    '002415.SZ': { name: '海康威视', chineseName: '海康威视' },
+    '300677.SZ': { name: '英科医疗', chineseName: '英科医疗' }
 };
 
 // 获取实时股价
