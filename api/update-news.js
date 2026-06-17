@@ -21,7 +21,7 @@ module.exports = async (req, res) => {
         console.log(result);
         
         // 检查是否生成了新的新闻数据
-        const newsPath = path.join(__dirname, '..', 'news_data_api.js');
+        const newsPath = path.join(__dirname, '..', 'news_data_latest.js');
         if (!fs.existsSync(newsPath)) {
             throw new Error('新闻数据生成失败');
         }

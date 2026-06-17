@@ -1,0 +1,100 @@
+/* ===== 前沿科技日报 · 共享逻辑 ===== */
+(function (global) {
+  'use strict';
+
+  // 分类 -> 封面配色 + 图标。未知分类用 default。
+  var CATS = {
+    '人工智能': { icon: '🤖', from: '#6a5cff', to: '#9b4dff' },
+    '集成电路': { icon: '🔩', from: '#0ea5a5', to: '#1e88e5' },
+    '商业航天': { icon: '🚀', from: '#4f46e5', to: '#7c3aed' },
+    '国际局势': { icon: '🌐', from: '#334155', to: '#0f766e' },
+    '量子科技': { icon: '⚛️', from: '#d946ef', to: '#7c3aed' },
+    '具身智能': { icon: '🦾', from: '#f97316', to: '#ef4444' },
+    '生物医药': { icon: '🧬', from: '#10b981', to: '#0891b2' },
+    '未来能源': { icon: '⚡', from: '#f59e0b', to: '#ef4444' },
+    '消费电子': { icon: '📱', from: '#ec4899', to: '#8b5cf6' },
+    '前沿科技': { icon: '🔬', from: '#2563eb', to: '#06b6d4' }
+  };
+  var DEFAULT_CAT = { icon: '📰', from: '#64748b', to: '#475569' };
+
+  function catMeta(name) { return CATS[name] || DEFAULT_CAT; }
+
+  // 生成纯 CSS 封面 HTML（无版权风险）。同分类保持色系+图标，按 id 做确定性微变化，避免千篇一律
+  function coverHTML(news, opts) {
+    opts = opts || {};
+    var c = catMeta(news.category);
+    var showLabel = opts.label !== false;
+    var seed = hashStr((news.title || '') + news.id);
+    var angle = 95 + (seed % 90);                 // 95~184deg
+    var hx = 15 + (seed % 70);                     // 高光横向 15%~85%
+    var hy = 10 + ((seed >> 3) % 50);              // 高光纵向 10%~60%
+    var bg =
+      'background:' +
+        'radial-gradient(circle at ' + hx + '% ' + hy + '%, rgba(255,255,255,.28), rgba(255,255,255,0) 55%),' +
+        'linear-gradient(' + angle + 'deg,' + c.from + ' 0%,' + c.to + ' 100%);';
+    var html = '<div class="cover" style="' + bg + '">';
+    html += '<span class="glyph">' + c.icon + '</span>';
+    if (showLabel) html += '<span class="ct">' + esc(news.category) + '</span>';
+    html += '</div>';
+    return html;
+  }
+
+  // 稳定的"热度/评论数"——同一条新闻每次一致，纯 UI 装饰
+  function hashStr(s) {
+    var h = 5381;
+    for (var i = 0; i < s.length; i++) h = ((h << 5) + h + s.charCodeAt(i)) >>> 0;
+    return h;
+  }
+  function heat(news) {
+    var base = hashStr((news.title || '') + news.id);
+    return (base % 900) + 100; // 100~999
+  }
+  function comments(news) {
+    var base = hashStr('c' + (news.title || '') + news.id);
+    return base % 320;
+  }
+
+  function esc(s) {
+    return String(s == null ? '' : s)
+      .replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;')
+      .replace(/"/g, '&quot;').replace(/'/g, '&#39;');
+  }
+
+  function getParam(name) {
+    var m = new RegExp('[?&]' + name + '=([^&#]*)').exec(global.location.href);
+    return m ? decodeURIComponent(m[1]) : null;
+  }
+
+  // 主题：初始跟随系统，可切换并记忆
+  function initTheme() {
+    var saved = null;
+    try { saved = localStorage.getItem('theme'); } catch (e) {}
+    var dark = saved ? saved === 'dark'
+      : (global.matchMedia && global.matchMedia('(prefers-color-scheme: dark)').matches);
+    document.documentElement.setAttribute('data-theme', dark ? 'dark' : 'light');
+  }
+  function toggleTheme() {
+    var cur = document.documentElement.getAttribute('data-theme');
+    var next = cur === 'dark' ? 'light' : 'dark';
+    document.documentElement.setAttribute('data-theme', next);
+    try { localStorage.setItem('theme', next); } catch (e) {}
+    return next;
+  }
+
+  // 加载新闻数据：优先外部 news_data_latest.js（cron 更新），失败用内置兜底
+  function loadNews(fallback, cb) {
+    var s = document.createElement('script');
+    s.src = 'news_data_latest.js?t=' + Date.now();
+    s.onload = function () {
+      cb(typeof newsData !== 'undefined' && newsData.length ? newsData : fallback);
+    };
+    s.onerror = function () { cb(fallback); };
+    document.body.appendChild(s);
+  }
+
+  global.AID = {
+    catMeta: catMeta, coverHTML: coverHTML, heat: heat, comments: comments,
+    esc: esc, getParam: getParam, initTheme: initTheme, toggleTheme: toggleTheme,
+    loadNews: loadNews
+  };
+})(window);

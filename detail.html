@@ -1,135 +1,86 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>资讯详情</title>
-    <style>
-        * { margin: 0; padding: 0; box-sizing: border-box; }
-        body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Microsoft YaHei', sans-serif; background: #f5f5f5; }
-        .header { background: #f04142; color: white; padding: 12px 16px; display: flex; align-items: center; }
-        .back { font-size: 20px; margin-right: 12px; cursor: pointer; }
-        .title { font-size: 18px; font-weight: 600; }
-        .content { padding: 16px; }
-        .card { background: white; border-radius: 12px; padding: 20px; margin-bottom: 16px; }
-        .news-title { font-size: 20px; font-weight: 700; color: #333; line-height: 1.6; margin-bottom: 16px; }
-        .news-meta { font-size: 13px; color: #999; margin-bottom: 20px; padding-bottom: 16px; border-bottom: 1px solid #eee; }
-        .news-content { font-size: 16px; color: #333; line-height: 1.8; }
-        .news-content p { margin-bottom: 16px; }
-        .tag { display: inline-block; font-size: 12px; padding: 4px 12px; background: rgba(240, 65, 66, 0.1); border-radius: 4px; color: #f04142; margin-right: 8px; }
-        .stock-bar { background: #f8f9fa; border-radius: 8px; padding: 16px; margin-top: 20px; }
-        .stock-title { font-size: 14px; color: #666; margin-bottom: 12px; }
-        .stock-item { display: flex; justify-content: space-between; align-items: center; padding: 10px 0; border-bottom: 1px solid #eee; }
-        .stock-item:last-child { border-bottom: none; }
-        .stock-name { font-size: 15px; font-weight: 600; color: #333; }
-        .stock-price { font-size: 15px; font-weight: 600; }
-        .stock-change { font-size: 13px; }
-        .up { color: #ef4444; }
-        .down { color: #22c55e; }
-        .source-link { margin-top: 24px; padding-top: 20px; border-top: 1px solid #eee; }
-        .source-link a { color: #f04142; text-decoration: none; font-size: 14px; }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <meta name="theme-color" content="#e60012">
+  <title>资讯详情 · 前沿科技日报</title>
+  <link rel="stylesheet" href="assets/theme.css">
+  <script>
+    (function () {
+      try {
+        var s = localStorage.getItem('theme');
+        var d = s ? s === 'dark' : matchMedia('(prefers-color-scheme: dark)').matches;
+        document.documentElement.setAttribute('data-theme', d ? 'dark' : 'light');
+      } catch (e) {}
+    })();
+  </script>
 </head>
 <body>
-    <div class="header">
-        <div class="back" onclick="history.back()">←</div>
-        <div class="title">资讯详情</div>
-    </div>
-    
-    <div class="content">
-        <div class="card">
-            <div class="news-title" id="newsTitle">加载中...</div>
-            <div class="news-meta" id="newsMeta"></div>
-            <div class="news-content" id="newsContent"></div>
-            <div id="stockSection"></div>
-            <div class="source-link" id="sourceLink"></div>
-        </div>
-    </div>
+  <header class="detail-head">
+    <div class="back" onclick="history.length > 1 ? history.back() : location.href='index.html'">←</div>
+    <div class="ht">资讯详情</div>
+  </header>
 
-    <script>
-        // 新闻数据（与主页面相同）
-        var newsData = [
-            { id: 1, title: "本田因电动车项目取消首次出现财务亏损", summary: "这家标志性汽车巨头称其未来不确定，因巨额财务亏损归咎于中国和美国特朗普政府。", category: "国际局势", tags: ["汽车"], source: "澳大利亚新闻", time: "2小时前", url: "https://www.news.com.au/technology/motoring/motoring-news/honda-records-first-financial-loss-over-ev-cancellation", stocks: [{name: "本田", change: "-3.2%", trend: "down", price: "78.50"}] },
-            { id: 2, title: "比特币在伊朗局势不明朗中徘徊不前", summary: "比特币今年大部分时间在6万至7.5万美元区间波动，多次暗示突破但始终未能实现。", category: "国际局势", tags: ["加密货币"], source: "彭博社", time: "3小时前", url: "https://www.bloomberg.com/news/articles/2026-03-16/bitcoin", stocks: [{name: "比特币", change: "+1.5%", trend: "up", price: "68,420"}] },
-            { id: 3, title: "特朗普施压保护霍尔木兹海峡 各国态度推诿", summary: "美国总统呼吁其他国家派出军舰协助保护中东石油运输要道霍尔木兹海峡。", category: "国际局势", tags: ["地缘政治"], source: "东森新闻", time: "1小时前", url: "https://news.ebc.net.tw/news/world/542289", stocks: [{name: "原油", change: "+5.2%", trend: "up", price: "102.30"}] },
-            { id: 4, title: "华虹集团传掌握7纳米工艺打造AI芯片 股价大涨8%", summary: "中国强调加快高水平科技自立自强，华虹集团已开发出可用于生产AI芯片的7纳米工艺。", category: "集成电路", tags: ["AI芯片"], source: "香港财经", time: "30分钟前", url: "https://hk.on.cc/hk/bkn/cnt/finance/20260316", stocks: [{name: "华虹半导体", change: "+8.0%", trend: "up", price: "24.80"}] },
-            { id: 5, title: "英伟达GTC大会将聚焦领先AI技术进展", summary: "英伟达将在GTC 2026开发者大会上展示最新AI芯片和技术突破，市场期待Rubin架构发布。", category: "集成电路", tags: ["AI芯片"], source: "印度快报", time: "4小时前", url: "https://indianexpress.com/article/technology/artificial-intelligence/nvidia-gtc-2026", stocks: [{name: "英伟达", change: "+2.1%", trend: "up", price: "142.50"}] },
-            { id: 6, title: "AI服务器需求强劲 台积电营收逆势增长", summary: "尽管进入传统淡季，AI基础设施需求持续推动台湾代工和ODM/EMS营收增长。", category: "集成电路", tags: ["台积电"], source: "DIGITIMES", time: "5小时前", url: "https://www.digitimes.com/news/a20260313VL215", stocks: [{name: "台积电", change: "+1.8%", trend: "up", price: "185.20"}] },
-            { id: 7, title: "男子检查全正常却叫不醒 医生发现神秘病因", summary: "医生发现患者蜡样屈曲症状，诊断为僵直症并以中枢神经抑制剂快速治疗，症状迅速改善。", category: "生物医药", tags: ["医疗案例"], source: "东森新闻", time: "刚刚", url: "https://news.ebc.net.tw/news/health/541978", stocks: [] },
-            { id: 8, title: "血浆ctDNA检测癌症早期筛查技术获突破", summary: "新型血液检测有望及早发现癌症，有时甚至在症状出现之前。", category: "生物医药", tags: ["癌症筛查"], source: "Medical Xpress", time: "6小时前", url: "https://medicalxpress.com/news/2026-03-blood-cancer", stocks: [] },
-            { id: 9, title: "特斯拉4680电池正式量产 成本降低50%", summary: "特斯拉宣布4680电池正式量产，能量密度提升5倍，成本降低50%。", category: "未来能源", tags: ["电池"], source: "EV新闻", time: "2小时前", url: "https://www.tesla.com", stocks: [{name: "特斯拉", change: "+3.5%", trend: "up", price: "285.40"}] },
-            { id: 10, title: "高盛：若战事持续 海湾经济体将迎90年代以来最严重衰退", summary: "伊朗战争未有平息迹象，包括沙特、阿联酋和卡塔尔等海湾最大经济体将遭受重创。", category: "国际局势", tags: ["经济"], source: "高盛集团", time: "1小时前", url: "https://www.goldmansachs.com", stocks: [{name: "布伦特原油", change: "+4.2%", trend: "up", price: "105.80"}] },
-            { id: 11, title: "OpenAI发布GPT-4 Turbo 上下文窗口扩展至128K", summary: "OpenAI在开发者大会上发布GPT-4 Turbo模型，支持更长上下文，API价格降低50%。", category: "人工智能", tags: ["大模型"], source: "机器之心", time: "3小时前", url: "https://www.jiqizhixin.com", stocks: [{name: "微软", change: "+1.2%", trend: "up", price: "428.50"}] },
-            { id: 12, title: "谷歌Gemini Ultra正式开放 挑战GPT-4地位", summary: "谷歌最强AI模型Gemini Ultra正式向公众开放，在多项基准测试中超越GPT-4。", category: "人工智能", tags: ["多模态"], source: "36氪", time: "5小时前", url: "https://36kr.com", stocks: [{name: "谷歌", change: "+2.3%", trend: "up", price: "175.80"}] },
-            { id: 13, title: "SpaceX星舰第四次试飞成功 助推器软着陆", summary: "SpaceX星舰完成第四次轨道试飞，助推器成功在墨西哥湾软着陆。", category: "商业航天", tags: ["SpaceX"], source: "澎湃新闻", time: "6小时前", url: "https://www.thepaper.cn", stocks: [] },
-            { id: 14, title: "中国商业航天公司完成卫星互联网星座组网", summary: "国内民营航天企业成功发射首批低轨互联网卫星，标志着我国卫星互联网建设进入新阶段。", category: "商业航天", tags: ["卫星"], source: "科技日报", time: "8小时前", url: "https://www.stdaily.com", stocks: [] },
-            { id: 15, title: "三星Galaxy S26 Ultra评测：超大屏幕阻挡偷窥者", summary: "最新安卓旗舰手机配备优秀相机、快速芯片、长续航电池、手写笔和首创隐私显示屏。", category: "消费电子", tags: ["手机"], source: "卫报", time: "4小时前", url: "https://www.theguardian.com", stocks: [{name: "三星电子", change: "+0.8%", trend: "up", price: "68.20"}] },
-            { id: 16, title: "苹果Siri漏洞 reportedly 延迟智能家居产品线发布", summary: "苹果备受期待的下一代智能家居产品线推迟发布，传闻称Siri技术问题为罪魁祸首。", category: "消费电子", tags: ["苹果"], source: "Mashable", time: "5小时前", url: "https://mashable.com", stocks: [{name: "苹果", change: "-0.5%", trend: "down", price: "225.40"}] },
-            { id: 17, title: "华为Mate 80 Pro开启预售 赠品价值近700新元", summary: "华为Mate 80 Pro将于3月24日起预售，附赠价值近700新元的礼品，搭载麒麟芯片和鸿蒙OS。", category: "消费电子", tags: ["华为"], source: "HardwareZone", time: "2小时前", url: "https://www.hardwarezone.com.sg", stocks: [] },
-            { id: 18, title: "一加Nord 6将于4月发布 配置与中国版Turbo 6相同", summary: "一加Nord 6即将推出，作为Nord 5的继任者，预计将采用与国内市场一加Turbo 6相似的配置。", category: "消费电子", tags: ["手机"], source: "Gadgets360", time: "3小时前", url: "https://www.gadgets360.com", stocks: [] }
-        ];
+  <article class="article" id="article">
+    <div class="empty">加载中…</div>
+  </article>
 
-        // 获取URL参数
-        function getParam(name) {
-            var url = window.location.href;
-            var regex = new RegExp('[?&]' + name + '=([^&#]*)');
-            var result = regex.exec(url);
-            return result ? decodeURIComponent(result[1]) : null;
-        }
+  <script src="assets/app.js"></script>
+  <script>
+    var FALLBACK_NEWS = [
+      { id: 1, title: "本田因电动车项目取消首次出现财务亏损", summary: "这家标志性汽车巨头称其未来不确定，巨额财务亏损归咎于中国和美国市场。", category: "国际局势", tags: ["汽车"], source: "澳大利亚新闻", time: "2小时前", url: "#", stocks: [{ name: "本田", change: "-3.2%", trend: "down", price: "78.50" }] }
+    ];
+    var A = window.AID;
 
-        // 渲染详情
-        function renderDetail() {
-            var id = getParam('id');
-            if (!id) {
-                document.getElementById('newsTitle').innerText = '参数错误';
-                return;
-            }
+    function fmtPrice(s) { return s.price ? s.price : '—'; }
 
-            var news = null;
-            for (var i = 0; i < newsData.length; i++) {
-                if (newsData[i].id == id) {
-                    news = newsData[i];
-                    break;
-                }
-            }
+    function render(list) {
+      var id = A.getParam('id');
+      var el = document.getElementById('article');
+      var news = null;
+      for (var i = 0; i < list.length; i++) { if (String(list[i].id) === String(id)) { news = list[i]; break; } }
+      if (!news) { el.innerHTML = '<div class="empty">未找到这条新闻<br><br><a class="srclink" href="index.html" style="color:var(--brand-ink)">← 返回首页</a></div>'; return; }
 
-            if (!news) {
-                document.getElementById('newsTitle').innerText = '新闻不存在';
-                return;
-            }
+      document.title = news.title + ' · 前沿科技日报';
 
-            document.getElementById('newsTitle').innerText = news.title;
-            document.getElementById('newsMeta').innerHTML = '<span class="tag">' + news.category + '</span> ' + news.source + ' · ' + news.time;
-            
-            // 生成正文内容（基于摘要扩展）
-            var content = '<p>' + news.summary + '</p>';
-            content += '<p>【详细报道】</p>';
-            content += '<p>据' + news.source + '报道，' + news.summary + '这一事件引发了业界广泛关注。</p>';
-            content += '<p>分析人士指出，此举将对相关行业产生深远影响。专家建议投资者密切关注后续发展。</p>';
-            content += '<p>截至发稿时，相关各方尚未对此作出进一步回应。本频道将持续关注事件进展。</p>';
-            document.getElementById('newsContent').innerHTML = content;
+      var html = A.coverHTML(news, { label: true });
+      html += '<h1>' + A.esc(news.title) + '</h1>';
+      html += '<div class="article-meta"><span class="chip">' + A.esc(news.category) + '</span>' +
+        (news.source ? '<span>' + A.esc(news.source) + '</span>' : '') +
+        (news.time ? '<span class="dot"></span><span>' + A.esc(news.time) + '</span>' : '') +
+        '<span class="dot"></span><span>💬 ' + A.comments(news) + '</span>' +
+        '<span class="dot"></span><span>🔥 ' + A.heat(news) + '°</span></div>';
 
-            // 股票信息
-            if (news.stocks && news.stocks.length > 0) {
-                var stockHtml = '<div class="stock-bar">';
-                stockHtml += '<div class="stock-title">📈 关联股票</div>';
-                for (var j = 0; j < news.stocks.length; j++) {
-                    var s = news.stocks[j];
-                    var cls = s.trend === 'up' ? 'up' : 'down';
-                    stockHtml += '<div class="stock-item">';
-                    stockHtml += '<span class="stock-name">' + s.name + '</span>';
-                    stockHtml += '<div><span class="stock-price">' + s.price + '</span> <span class="stock-change ' + cls + '">' + s.change + '</span></div>';
-                    stockHtml += '</div>';
-                }
-                stockHtml += '</div>';
-                document.getElementById('stockSection').innerHTML = stockHtml;
-            }
+      var body = '<div class="article-body">';
+      body += '<p>' + A.esc(news.summary || '') + '</p>';
+      if (news.tags && news.tags.length) {
+        body += '<p>本则资讯涉及：' + news.tags.map(A.esc).join('、') + '。</p>';
+      }
+      body += '<p>据' + A.esc(news.source || '相关媒体') + '报道，该事件已引发业界关注。完整内容请通过文末原文链接查看权威来源。</p>';
+      body += '</div>';
+      html += body;
 
-            // 原文链接
-            document.getElementById('sourceLink').innerHTML = '<a href="' + news.url + '" target="_blank">查看原文 →</a>';
-        }
+      if (news.stocks && news.stocks.length) {
+        html += '<div class="stockbox"><h3>📈 关联标的</h3>';
+        news.stocks.forEach(function (s) {
+          var cls = s.trend === 'up' ? 'up' : 'down';
+          html += '<div class="row"><span class="nm">' + A.esc(s.name) + '</span>' +
+            '<span class="stock-pill ' + cls + '">' + fmtPrice(s) + ' · ' + A.esc(s.change) + '</span></div>';
+        });
+        html += '</div>';
+      }
 
-        renderDetail();
-    </script>
+      if (news.url && news.url !== '#') {
+        html += '<div class="srclink"><a href="' + A.esc(news.url) + '" target="_blank" rel="noopener">查看原文报道 →</a></div>';
+      }
+
+      el.innerHTML = html;
+      var cov = el.querySelector('.cover');
+      if (cov) { cov.style.height = '190px'; cov.style.borderRadius = '14px'; cov.style.marginBottom = '18px'; }
+    }
+
+    A.loadNews(FALLBACK_NEWS, render);
+  </script>
 </body>
 </html>

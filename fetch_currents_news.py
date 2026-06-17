@@ -150,13 +150,13 @@ def save_to_js(news_data):
     for i, news in enumerate(news_data, 1):
         news['id'] = i
     
-    # 保存为JS文件
-    with open('news_data_api.js', 'w', encoding='utf-8') as f:
+    # 保存为前端实际加载的数据文件（index.html / detail.html 读取 news_data_latest.js）
+    with open('news_data_latest.js', 'w', encoding='utf-8') as f:
         f.write('const newsData = ')
         json.dump(news_data, f, ensure_ascii=False, indent=2)
         f.write(';\n')
-    
-    print(f"\n✅ 已保存到 news_data_api.js ({len(news_data)} 条新闻)")
+
+    print(f"\n✅ 已保存到 news_data_latest.js ({len(news_data)} 条新闻)")
 
 if __name__ == '__main__':
     news = generate_all_news()

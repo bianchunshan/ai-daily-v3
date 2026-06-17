@@ -1,172 +1,175 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>前沿科技日报</title>
-    <style>
-        * { margin: 0; padding: 0; box-sizing: border-box; }
-        body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Microsoft YaHei', sans-serif; background: #f5f5f5; padding-bottom: 70px; }
-        .header { background: #f04142; color: white; padding: 12px 16px; position: sticky; top: 0; z-index: 100; }
-        .logo { font-size: 20px; font-weight: 700; margin-bottom: 12px; }
-        .nav { display: flex; gap: 16px; overflow-x: auto; scrollbar-width: none; }
-        .nav::-webkit-scrollbar { display: none; }
-        .nav-item { white-space: nowrap; font-size: 14px; padding-bottom: 4px; cursor: pointer; opacity: 0.85; }
-        .nav-item.active { opacity: 1; font-weight: 600; border-bottom: 2px solid white; }
-        .info-bar { background: #fff8f0; padding: 8px 16px; font-size: 12px; color: #666; display: flex; justify-content: space-between; }
-        .content { padding: 12px; }
-        .card { background: white; border-radius: 12px; padding: 16px; margin-bottom: 12px; box-shadow: 0 1px 3px rgba(0,0,0,0.08); }
-        .card-title { font-size: 16px; font-weight: 600; color: #333; line-height: 1.5; margin-bottom: 8px; }
-        .card-summary { font-size: 14px; color: #666; line-height: 1.5; margin-bottom: 10px; }
-        .card-footer { font-size: 12px; color: #999; }
-        .tag { display: inline-block; font-size: 11px; padding: 2px 8px; background: #f0f0f0; border-radius: 4px; color: #666; margin-right: 6px; }
-        .tag-red { background: rgba(240, 65, 66, 0.1); color: #f04142; }
-        .stock-up { color: #ef4444; margin-left: 6px; }
-        .stock-down { color: #22c55e; margin-left: 6px; }
-        .bottom-nav { position: fixed; bottom: 0; left: 0; right: 0; background: white; border-top: 1px solid #e8e8e8; display: flex; justify-content: space-around; padding: 8px 0; z-index: 100; }
-        .nav-btn { display: flex; flex-direction: column; align-items: center; font-size: 11px; color: #999; cursor: pointer; padding: 4px 16px; }
-        .nav-btn.active { color: #f04142; }
-        .nav-icon { font-size: 20px; margin-bottom: 2px; }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <meta name="theme-color" content="#e60012">
+  <title>前沿科技日报</title>
+  <link rel="stylesheet" href="assets/theme.css">
+  <script>
+    // 预绘制主题，避免暗色闪屏
+    (function () {
+      try {
+        var s = localStorage.getItem('theme');
+        var d = s ? s === 'dark' : matchMedia('(prefers-color-scheme: dark)').matches;
+        document.documentElement.setAttribute('data-theme', d ? 'dark' : 'light');
+      } catch (e) {}
+    })();
+  </script>
 </head>
 <body>
-    <div class="header">
-        <div class="logo">📱 前沿科技日报</div>
-        <div class="nav">
-            <div class="nav-item active" onclick="showAll()">推荐</div>
-            <div class="nav-item" onclick="showCat('国际局势')">国际局势</div>
-            <div class="nav-item" onclick="showCat('集成电路')">集成电路</div>
-            <div class="nav-item" onclick="showCat('生物医药')">生物医药</div>
-            <div class="nav-item" onclick="showCat('未来能源')">未来能源</div>
-            <div class="nav-item" onclick="showCat('人工智能')">人工智能</div>
-            <div class="nav-item" onclick="showCat('商业航天')">商业航天</div>
-            <div class="nav-item" onclick="showCat('消费电子')">消费电子</div>
-        </div>
+  <header class="topbar">
+    <div class="topbar-main">
+      <div class="logo"><span class="mark">前沿</span><span class="name">科技日报</span></div>
+      <div class="topbar-actions">
+        <button class="icon-btn" id="searchBtn" aria-label="搜索">🔍</button>
+        <button class="icon-btn" id="themeBtn" aria-label="切换主题">🌙</button>
+      </div>
     </div>
-    
-    <div class="info-bar">
-        <span>最后更新：刚刚</span>
-        <span style="color:#f04142;">🔄 刷新</span>
+    <nav class="tabs" id="tabs"></nav>
+  </header>
+
+  <main class="wrap" id="main">
+    <div class="skeleton" id="skeleton">
+      <div class="hero" style="cursor:default"><div class="cover sk" style="height:200px;border-radius:0"></div></div>
+      <div class="feed">
+        <div class="item" style="cursor:default">
+          <div class="item-body"><div class="sk sk-line" style="width:90%"></div><div class="sk sk-line" style="width:70%"></div><div class="sk sk-line" style="width:40%;margin-top:14px"></div></div>
+          <div class="cover sk" style="width:112px;height:84px"></div>
+        </div>
+        <div class="item" style="cursor:default">
+          <div class="item-body"><div class="sk sk-line" style="width:85%"></div><div class="sk sk-line" style="width:60%"></div><div class="sk sk-line" style="width:40%;margin-top:14px"></div></div>
+          <div class="cover sk" style="width:112px;height:84px"></div>
+        </div>
+      </div>
     </div>
-    
-    <div class="content" id="newsList">
-        <div style="text-align:center;padding:50px;color:#999;">加载中...</div>
-    </div>
+    <div id="view"></div>
+  </main>
 
-    <div class="bottom-nav">
-        <div class="nav-btn active" onclick="location.href='index.html'">
-            <div class="nav-icon">📰</div>
-            <div class="nav-text">首页</div>
-        </div>
-        <div class="nav-btn" onclick="location.href='stock.html'">
-            <div class="nav-icon">📈</div>
-            <div class="nav-text">行情</div>
-        </div>
-        <div class="nav-btn" onclick="location.href='#'">
-            <div class="nav-icon">⭐</div>
-            <div class="nav-text">自选</div>
-        </div>
-        <div class="nav-btn" onclick="location.href='#'">
-            <div class="nav-icon">👤</div>
-            <div class="nav-text">我的</div>
-        </div>
-    </div>
+  <nav class="tabbar">
+    <a class="tabbar-btn active" href="index.html"><span class="ti">📰</span><span>首页</span></a>
+    <a class="tabbar-btn" href="stock.html"><span class="ti">📈</span><span>行情</span></a>
+    <div class="tabbar-btn" id="topBtn"><span class="ti">⭐</span><span>回顶</span></div>
+    <div class="tabbar-btn" id="themeBtn2"><span class="ti">🌓</span><span>主题</span></div>
+  </nav>
 
-    <script>
-        var newsData = [
-            { id: 1, title: "本田因电动车项目取消首次出现财务亏损", summary: "这家标志性汽车巨头称其未来不确定，因巨额财务亏损归咎于中国和美国特朗普政府。", category: "国际局势", tags: ["汽车"], source: "澳大利亚新闻", time: "2小时前", url: "https://www.news.com.au/technology/motoring/motoring-news/honda-records-first-financial-loss-over-ev-cancellation", stocks: [{name: "本田", change: "-3.2%", trend: "down"}] },
-            { id: 2, title: "比特币在伊朗局势不明朗中徘徊不前", summary: "比特币今年大部分时间在6万至7.5万美元区间波动，多次暗示突破但始终未能实现。", category: "国际局势", tags: ["加密货币"], source: "彭博社", time: "3小时前", url: "https://www.bloomberg.com/news/articles/2026-03-16/bitcoin", stocks: [{name: "比特币", change: "+1.5%", trend: "up"}] },
-            { id: 3, title: "特朗普施压保护霍尔木兹海峡 各国态度推诿", summary: "美国总统呼吁其他国家派出军舰协助保护中东石油运输要道霍尔木兹海峡。", category: "国际局势", tags: ["地缘政治"], source: "东森新闻", time: "1小时前", url: "https://news.ebc.net.tw/news/world/542289", stocks: [{name: "原油", change: "+5.2%", trend: "up"}] },
-            { id: 4, title: "华虹集团传掌握7纳米工艺打造AI芯片 股价大涨8%", summary: "中国强调加快高水平科技自立自强，华虹集团已开发出可用于生产AI芯片的7纳米工艺。", category: "集成电路", tags: ["AI芯片"], source: "香港财经", time: "30分钟前", url: "https://hk.on.cc/hk/bkn/cnt/finance/20260316", stocks: [{name: "华虹半导体", change: "+8.0%", trend: "up"}] },
-            { id: 5, title: "英伟达GTC大会将聚焦领先AI技术进展", summary: "英伟达将在GTC 2026开发者大会上展示最新AI芯片和技术突破，市场期待Rubin架构发布。", category: "集成电路", tags: ["AI芯片"], source: "印度快报", time: "4小时前", url: "https://indianexpress.com/article/technology/artificial-intelligence/nvidia-gtc-2026", stocks: [{name: "英伟达", change: "+2.1%", trend: "up"}] },
-            { id: 6, title: "AI服务器需求强劲 台积电营收逆势增长", summary: "尽管进入传统淡季，AI基础设施需求持续推动台湾代工和ODM/EMS营收增长。", category: "集成电路", tags: ["台积电"], source: "DIGITIMES", time: "5小时前", url: "https://www.digitimes.com/news/a20260313VL215", stocks: [{name: "台积电", change: "+1.8%", trend: "up"}] },
-            { id: 7, title: "男子检查全正常却叫不醒 医生发现神秘病因", summary: "医生发现患者蜡样屈曲症状，诊断为僵直症并以中枢神经抑制剂快速治疗，症状迅速改善。", category: "生物医药", tags: ["医疗案例"], source: "东森新闻", time: "刚刚", url: "https://news.ebc.net.tw/news/health/541978", stocks: [] },
-            { id: 8, title: "血浆ctDNA检测癌症早期筛查技术获突破", summary: "新型血液检测有望及早发现癌症，有时甚至在症状出现之前。", category: "生物医药", tags: ["癌症筛查"], source: "Medical Xpress", time: "6小时前", url: "https://medicalxpress.com/news/2026-03-blood-cancer", stocks: [] },
-            { id: 9, title: "特斯拉4680电池正式量产 成本降低50%", summary: "特斯拉宣布4680电池正式量产，能量密度提升5倍，成本降低50%。", category: "未来能源", tags: ["电池"], source: "EV新闻", time: "2小时前", url: "https://www.tesla.com", stocks: [{name: "特斯拉", change: "+3.5%", trend: "up"}] },
-            { id: 10, title: "高盛：若战事持续 海湾经济体将迎90年代以来最严重衰退", summary: "伊朗战争未有平息迹象，包括沙特、阿联酋和卡塔尔等海湾最大经济体将遭受重创。", category: "国际局势", tags: ["经济"], source: "高盛集团", time: "1小时前", url: "https://www.goldmansachs.com", stocks: [{name: "布伦特原油", change: "+4.2%", trend: "up"}] },
-            { id: 11, title: "OpenAI发布GPT-4 Turbo 上下文窗口扩展至128K", summary: "OpenAI在开发者大会上发布GPT-4 Turbo模型，支持更长上下文，API价格降低50%。", category: "人工智能", tags: ["大模型"], source: "机器之心", time: "3小时前", url: "https://www.jiqizhixin.com", stocks: [{name: "微软", change: "+1.2%", trend: "up"}] },
-            { id: 12, title: "谷歌Gemini Ultra正式开放 挑战GPT-4地位", summary: "谷歌最强AI模型Gemini Ultra正式向公众开放，在多项基准测试中超越GPT-4。", category: "人工智能", tags: ["多模态"], source: "36氪", time: "5小时前", url: "https://36kr.com", stocks: [{name: "谷歌", change: "+2.3%", trend: "up"}] },
-            { id: 13, title: "SpaceX星舰第四次试飞成功 助推器软着陆", summary: "SpaceX星舰完成第四次轨道试飞，助推器成功在墨西哥湾软着陆。", category: "商业航天", tags: ["SpaceX"], source: "澎湃新闻", time: "6小时前", url: "https://www.thepaper.cn", stocks: [] },
-            { id: 14, title: "中国商业航天公司完成卫星互联网星座组网", summary: "国内民营航天企业成功发射首批低轨互联网卫星，标志着我国卫星互联网建设进入新阶段。", category: "商业航天", tags: ["卫星"], source: "科技日报", time: "8小时前", url: "https://www.stdaily.com", stocks: [] },
-            { id: 15, title: "三星Galaxy S26 Ultra评测：超大屏幕阻挡偷窥者", summary: "最新安卓旗舰手机配备优秀相机、快速芯片、长续航电池、手写笔和首创隐私显示屏。", category: "消费电子", tags: ["手机"], source: "卫报", time: "4小时前", url: "https://www.theguardian.com", stocks: [{name: "三星电子", change: "+0.8%", trend: "up"}] },
-            { id: 16, title: "苹果Siri漏洞 reportedly 延迟智能家居产品线发布", summary: "苹果备受期待的下一代智能家居产品线推迟发布，传闻称Siri技术问题为罪魁祸首。", category: "消费电子", tags: ["苹果"], source: "Mashable", time: "5小时前", url: "https://mashable.com", stocks: [{name: "苹果", change: "-0.5%", trend: "down"}] },
-            { id: 17, title: "华为Mate 80 Pro开启预售 赠品价值近700新元", summary: "华为Mate 80 Pro将于3月24日起预售，附赠价值近700新元的礼品，搭载麒麟芯片和鸿蒙OS。", category: "消费电子", tags: ["华为"], source: "HardwareZone", time: "2小时前", url: "https://www.hardwarezone.com.sg", stocks: [] },
-            { id: 18, title: "一加Nord 6将于4月发布 配置与中国版Turbo 6相同", summary: "一加Nord 6即将推出，作为Nord 5的继任者，预计将采用与国内市场一加Turbo 6相似的配置。", category: "消费电子", tags: ["手机"], source: "Gadgets360", time: "3小时前", url: "https://www.gadgets360.com", stocks: [] }
-        ];
+  <script src="assets/app.js"></script>
+  <script>
+    var FALLBACK_NEWS = [
+      { id: 1, title: "本田因电动车项目取消首次出现财务亏损", summary: "这家标志性汽车巨头称其未来不确定，巨额财务亏损归咎于中国和美国市场。", category: "国际局势", tags: ["汽车"], source: "澳大利亚新闻", time: "2小时前", url: "#", stocks: [{ name: "本田", change: "-3.2%", trend: "down" }] },
+      { id: 2, title: "英伟达GTC大会聚焦Rubin架构 AI算力再跃升", summary: "英伟达展示最新AI芯片与技术突破，市场期待新一代架构发布。", category: "集成电路", tags: ["AI芯片"], source: "印度快报", time: "4小时前", url: "#", stocks: [{ name: "英伟达", change: "+2.1%", trend: "up" }] },
+      { id: 3, title: "SpaceX星舰第四次试飞成功 助推器软着陆", summary: "星舰完成第四次轨道试飞，助推器成功在墨西哥湾软着陆。", category: "商业航天", tags: ["SpaceX"], source: "澎湃新闻", time: "6小时前", url: "#", stocks: [] }
+    ];
 
-        function renderNews(list) {
-            var container = document.getElementById('newsList');
-            var html = '';
-            for (var i = 0; i < list.length; i++) {
-                var n = list[i];
-                html += '<div class="card" onclick="location.href=\'detail.html?id=' + n.id + '\'" style="cursor:pointer;">';                html += '<div class="card-title">' + n.title + '</div>';                html += '<div class="card-summary">' + n.summary + '</div>';
-                html += '<div class="card-footer">';
-                html += '<span class="tag tag-red">' + n.category + '</span>';
-                for (var j = 0; j < n.tags.length; j++) {
-                    html += '<span class="tag">' + n.tags[j] + '</span>';
-                }
-                html += '<br>' + n.source;
-                for (var k = 0; k < n.stocks.length; k++) {
-                    var s = n.stocks[k];
-                    var cls = s.trend === 'up' ? 'stock-up' : 'stock-down';
-                    html += '<a href="stock.html?symbol=' + s.symbol + '" style="text-decoration:none;"><span class="' + cls + '" style="font-size:11px; cursor: pointer;">' + s.name + ' ' + s.change + '</span></a>';
-                }
-                html += ' · ' + n.time;
-                html += '</div>';
-                html += '</div>';
-            }
-            container.innerHTML = html;
-        }
+    var A = window.AID;
+    var ALL = [], CURRENT = '推荐';
 
-        function showAll() {
-            setActive(0);
-            renderNews(newsData);
-        }
+    function metaRow(n) {
+      var h = '<span class="chip">' + A.esc(n.category) + '</span>';
+      if (n.source) h += '<span>' + A.esc(n.source) + '</span>';
+      if (n.time) h += '<span class="dot"></span><span>' + A.esc(n.time) + '</span>';
+      h += '<span class="dot"></span><span class="cmt">💬 ' + A.comments(n) + '</span>';
+      if (n.stocks && n.stocks.length) {
+        var s = n.stocks[0], cls = s.trend === 'up' ? 'up' : 'down';
+        h += '<span class="stock-pill ' + cls + '">' + A.esc(s.name) + ' ' + A.esc(s.change) + '</span>';
+      }
+      return h;
+    }
 
-        function showCat(cat) {
-            var navItems = document.querySelectorAll('.nav-item');
-            for (var i = 0; i < navItems.length; i++) {
-                if (navItems[i].innerText === cat) {
-                    setActive(i);
-                    break;
-                }
-            }
-            var filtered = [];
-            for (var j = 0; j < newsData.length; j++) {
-                if (newsData[j].category === cat) {
-                    filtered.push(newsData[j]);
-                }
-            }
-            renderNews(filtered);
-        }
+    function heroHTML(n) {
+      return '<div class="hero" onclick="go(' + n.id + ')">' +
+        A.coverHTML(n, { label: false }) +
+        '<div class="hero-scrim"></div>' +
+        '<div class="hero-text">' +
+          '<span class="hero-badge">🔥 头条 · ' + A.esc(n.category) + '</span>' +
+          '<div class="hero-title">' + A.esc(n.title) + '</div>' +
+          '<div class="hero-meta">' + A.esc(n.source || '') + (n.time ? ' · ' + A.esc(n.time) : '') + ' · 💬 ' + A.comments(n) + '</div>' +
+        '</div></div>';
+    }
 
-        function setActive(index) {
-            var items = document.querySelectorAll('.nav-item');
-            for (var i = 0; i < items.length; i++) {
-                items[i].classList.remove('active');
-            }
-            items[index].classList.add('active');
-        }
+    function itemHTML(n) {
+      return '<div class="item" onclick="go(' + n.id + ')">' +
+        '<div class="item-body">' +
+          '<div class="item-title">' + A.esc(n.title) + '</div>' +
+          (n.summary ? '<div class="item-summary">' + A.esc(n.summary) + '</div>' : '') +
+          '<div class="item-meta">' + metaRow(n) + '</div>' +
+        '</div>' +
+        A.coverHTML(n) +
+      '</div>';
+    }
 
-    </script>
-    <script>
-        // 优先加载最新更新的新闻，加载失败使用静态数据
-        document.addEventListener('DOMContentLoaded', function() {
-            var script = document.createElement('script');
-            script.src = 'news_data_latest.js?' + new Date().getTime(); // 加时间戳避免缓存
-            script.onload = function() {
-                // 加载成功，用最新新闻渲染
-                if (typeof newsData !== 'undefined' && newsData.length > 0) {
-                    renderNews(newsData);
-                }
-            };
-            script.onerror = function() {
-                // 加载失败，用默认静态数据
-                console.log('加载最新新闻失败，使用静态数据');
-                renderNews(newsData);
-            };
-            document.body.appendChild(script);
-        });
-    </script>
+    function hotHTML(list) {
+      var top = list.slice().sort(function (a, b) { return A.heat(b) - A.heat(a); }).slice(0, 6);
+      var h = '<div class="hot"><div class="hot-head">🔥 24小时热榜</div>';
+      top.forEach(function (n, i) {
+        h += '<div class="hot-row" onclick="go(' + n.id + ')">' +
+          '<span class="hot-rank">' + (i + 1) + '</span>' +
+          '<span class="hot-title">' + A.esc(n.title) + '</span>' +
+          '<span class="hot-heat">' + A.heat(n) + '°</span></div>';
+      });
+      return h + '</div>';
+    }
+
+    function render() {
+      var list = CURRENT === '推荐' ? ALL : ALL.filter(function (n) { return n.category === CURRENT; });
+      var view = document.getElementById('view');
+      if (!list.length) { view.innerHTML = '<div class="empty">该分类暂无内容</div>'; return; }
+
+      var html = '';
+      if (CURRENT === '推荐') {
+        html += heroHTML(list[0]);
+        html += hotHTML(list);
+        html += '<div class="section-title"><span class="bar"></span>最新资讯</div>';
+        html += '<div class="feed">' + list.slice(1).map(itemHTML).join('') + '</div>';
+      } else {
+        html += '<div class="section-title"><span class="bar"></span>' + A.esc(CURRENT) + '</div>';
+        html += '<div class="feed">' + list.map(itemHTML).join('') + '</div>';
+      }
+      view.innerHTML = html;
+      window.scrollTo(0, 0);
+    }
+
+    function buildTabs() {
+      var cats = ['推荐'];
+      ALL.forEach(function (n) { if (cats.indexOf(n.category) < 0) cats.push(n.category); });
+      var el = document.getElementById('tabs');
+      el.innerHTML = cats.map(function (c) {
+        return '<div class="tab' + (c === CURRENT ? ' active' : '') + '" data-cat="' + A.esc(c) + '">' + A.esc(c) + '</div>';
+      }).join('');
+      el.querySelectorAll('.tab').forEach(function (t) {
+        t.onclick = function () {
+          CURRENT = t.getAttribute('data-cat');
+          el.querySelectorAll('.tab').forEach(function (x) { x.classList.remove('active'); });
+          t.classList.add('active');
+          render();
+        };
+      });
+    }
+
+    window.go = function (id) { location.href = 'detail.html?id=' + id; };
+
+    // 主题切换（两个入口）
+    function bindTheme(btn) { if (btn) btn.onclick = function () { A.toggleTheme(); }; }
+    bindTheme(document.getElementById('themeBtn'));
+    bindTheme(document.getElementById('themeBtn2'));
+    document.getElementById('topBtn').onclick = function () { window.scrollTo({ top: 0, behavior: 'smooth' }); };
+    document.getElementById('searchBtn').onclick = function () {
+      var q = prompt('搜索新闻关键词：');
+      if (q == null) return;
+      q = q.trim();
+      if (!q) { CURRENT = '推荐'; buildTabs(); render(); return; }
+      var hits = ALL.filter(function (n) { return (n.title + n.summary).indexOf(q) >= 0; });
+      document.getElementById('view').innerHTML =
+        '<div class="section-title"><span class="bar"></span>“' + A.esc(q) + '” · ' + hits.length + ' 条</div>' +
+        (hits.length ? '<div class="feed">' + hits.map(itemHTML).join('') + '</div>' : '<div class="empty">没有匹配的新闻</div>');
+    };
+
+    A.loadNews(FALLBACK_NEWS, function (data) {
+      ALL = data;
+      document.getElementById('skeleton').style.display = 'none';
+      buildTabs();
+      render();
+    });
+  </script>
 </body>
 </html>
