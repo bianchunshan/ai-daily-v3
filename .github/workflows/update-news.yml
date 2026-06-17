@@ -1,0 +1,49 @@
+name: 每日更新新闻
+
+on:
+  schedule:
+    - cron: '0 0 * * *'      # 每天 UTC 00:00（北京时间 08:00）运行
+  workflow_dispatch: {}        # 支持在 Actions 页面手动触发
+
+permissions:
+  contents: write              # 允许工作流 push 回仓库
+
+concurrency:
+  group: update-news
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 检出代码
+        uses: actions/checkout@v4
+
+      - name: 安装 Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: 抓取最新新闻（仅用标准库，无需 pip 依赖）
+        run: python3 fetch_currents_news.py
+
+      - name: 校验数据非空（防止把线上覆盖成空白）
+        run: |
+          COUNT=$(grep -c '"id"' news_data_latest.js || echo 0)
+          echo "本次抓到 $COUNT 条新闻"
+          if [ "$COUNT" -lt 10 ]; then
+            echo "::warning::抓取结果少于 10 条，放弃本次更新，保留旧数据"
+            git checkout -- news_data_latest.js
+          fi
+
+      - name: 有变化才提交并推送（push 会触发 Vercel 重新部署）
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          if git diff --quiet -- news_data_latest.js; then
+            echo "数据无变化，跳过提交"
+          else
+            git add news_data_latest.js
+            git commit -m "chore: 每日自动更新新闻"
+            git push
+          fi
