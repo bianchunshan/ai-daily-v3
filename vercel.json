@@ -1,4 +1,0 @@
-{
-  "$schema": "https://openapi.vercel.sh/vercel.json",
-  "comment": "新闻自动更新已改用 GitHub Action (.github/workflows/update-news.yml)，原 Vercel cron 在 serverless 只读文件系统下无法持久化写入，已移除。"
-}
