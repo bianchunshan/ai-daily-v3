@@ -1,8 +1,8 @@
-name: 每日更新新闻
+name: 每小时更新新闻
 
 on:
   schedule:
-    - cron: '0 0 * * *'      # 每天 UTC 00:00（北京时间 08:00）运行
+    - cron: '0 * * * *'        # 每小时运行一次（RSS 免费无配额；只富化新条目）
   workflow_dispatch: {}        # 支持在 Actions 页面手动触发
 
 permissions:

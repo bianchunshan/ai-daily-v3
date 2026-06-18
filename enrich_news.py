@@ -12,7 +12,10 @@ import json
 import time
 import urllib.request
 
-from fetch_currents_news import generate_all_news  # 复用现有抓取逻辑(英文源)
+from fetch_rss import fetch_all  # RSS 抓取(免费、无配额,英文国际源)
+
+KEEP = 40   # 数据文件保留最新多少条
+CAP = 20    # 单次最多富化多少条新条目(封顶 Qwen 成本)
 
 QWEN_KEY = os.environ.get('QWEN_KEY', '')
 QWEN_URL = "https://token-plan.cn-beijing.maas.aliyuncs.com/apps/anthropic/v1/messages"
@@ -94,7 +97,7 @@ def enrich_one(n):
                 stocks.append({'name': s.get('name', ''), 'ticker': s.get('ticker', ''),
                                'reason': s.get('reason', '')})
         return {
-            'id': n['id'],
+            'id': n.get('id'),
             'title': out.get('title') or n.get('title', ''),
             'summary': out.get('summary') or n.get('summary', ''),
             'body': out.get('body', ''),
@@ -106,7 +109,7 @@ def enrich_one(n):
             'stocks': stocks,
         }
     except Exception as e:
-        print(f"  ⚠️ 第{n['id']}条富化失败,保留英文兜底: {e}")
+        print(f"  ⚠️ 富化失败,保留英文兜底「{n.get('title','')[:30]}」: {e}")
         n.setdefault('body', '')
         n.setdefault('stocks', [])
         return n
@@ -133,30 +136,84 @@ def make_digest(items):
         return {'text': '', 'highlights': []}
 
 
-def main():
-    raw = generate_all_news()
-    for i, n in enumerate(raw, 1):
-        n['id'] = i
-    print(f"\n抓到 {len(raw)} 条英文新闻,开始 Qwen 富化...")
+def _extract_array(txt, varname):
+    """从 const <varname> = [...] 里提取数组文本(括号配对,容忍字符串内的括号)。"""
+    start = txt.find('const ' + varname)
+    if start < 0:
+        return None
+    i = txt.find('[', start)
+    if i < 0:
+        return None
+    depth, in_str, esc, q = 0, False, False, ''
+    for j in range(i, len(txt)):
+        c = txt[j]
+        if in_str:
+            if esc:
+                esc = False
+            elif c == '\\':
+                esc = True
+            elif c == q:
+                in_str = False
+        elif c in '"\'':
+            in_str, q = True, c
+        elif c == '[':
+            depth += 1
+        elif c == ']':
+            depth -= 1
+            if depth == 0:
+                return txt[i:j + 1]
+    return None
 
-    enriched = []
-    for n in raw:
-        print(f"  [{n['id']}/{len(raw)}] {n.get('title','')[:40]}")
-        enriched.append(enrich_one(n))
 
-    print("\n生成今日综述...")
-    digest = make_digest(enriched)
+def read_existing():
+    """读取已有 news_data_latest.js 的 newsData,用于去重与保留最近条目。"""
+    if not os.path.exists('news_data_latest.js'):
+        return []
+    try:
+        arr = _extract_array(open('news_data_latest.js', encoding='utf-8').read(), 'newsData')
+        return json.loads(arr) if arr else []
+    except Exception as e:
+        print('读取旧数据失败,当作空:', e)
+        return []
 
+
+def write_data(items, digest):
     with open('news_data_latest.js', 'w', encoding='utf-8') as f:
         f.write('const newsData = ')
-        json.dump(enriched, f, ensure_ascii=False, indent=2)
+        json.dump(items, f, ensure_ascii=False, indent=2)
         f.write(';\n')
         f.write('const newsDigest = ')
         json.dump(digest, f, ensure_ascii=False, indent=2)
         f.write(';\n')
 
-    zh = sum(1 for n in enriched if n.get('body'))
-    print(f"\n✅ 已写入 news_data_latest.js:共 {len(enriched)} 条,其中 {zh} 条成功中文富化")
+
+def main():
+    existing = read_existing()
+    seen = {n.get('url') for n in existing if n.get('url')}
+    print(f"已有 {len(existing)} 条,开始抓取 RSS...")
+
+    raw = fetch_all()
+    new = [n for n in raw if n.get('url') and n['url'] not in seen]
+    print(f"\n去重后新条目:{len(new)} 条")
+    if not new:
+        print("无新条目,数据文件保持不变(不会触发提交/部署)")
+        return
+
+    new = new[:CAP]
+    print(f"开始 Qwen 富化 {len(new)} 条新条目(单次封顶 {CAP})...")
+    enriched_new = [enrich_one(n) for n in new]
+
+    # 新条目在前 + 旧条目,保留最新 KEEP 条,重排 id
+    merged = (enriched_new + existing)[:KEEP]
+    for i, n in enumerate(merged, 1):
+        n['id'] = i
+        n.pop('_ts', None)
+
+    print("生成今日综述...")
+    digest = make_digest(merged)
+    write_data(merged, digest)
+
+    print(f"\n✅ 已写入:新增 {len(enriched_new)} 条,合计 {len(merged)} 条")
 
 
 if __name__ == '__main__':

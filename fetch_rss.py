@@ -1,0 +1,134 @@
+#!/usr/bin/env python3
+"""
+RSS 抓取(免费、无配额、无 key)。解析国际科技媒体 RSS/Atom,返回英文新闻列表。
+仅用标准库。供 enrich_news.py 调用(再交给 Qwen 翻译富化)。
+"""
+
+import re
+import html
+import urllib.request
+import xml.etree.ElementTree as ET
+from datetime import datetime, timezone
+from email.utils import parsedate_to_datetime
+
+# 国际科技 RSS 源(source 名 + 默认分类兜底,真正分类由 Qwen 判定)
+FEEDS = [
+    ("TechCrunch", "https://techcrunch.com/feed/", "人工智能"),
+    ("The Verge", "https://www.theverge.com/rss/index.xml", "消费电子"),
+    ("Ars Technica", "https://feeds.arstechnica.com/arstechnica/index", "前沿科技"),
+    ("Wired", "https://www.wired.com/feed/rss", "前沿科技"),
+    ("MIT Tech Review", "https://www.technologyreview.com/feed/", "人工智能"),
+    ("Engadget", "https://www.engadget.com/rss.xml", "消费电子"),
+    ("Hacker News", "https://hnrss.org/frontpage", "前沿科技"),
+]
+
+PER_FEED = 10        # 每个源最多取多少条
+UA = "Mozilla/5.0 (compatible; ai-daily-bot/1.0; +https://ai-daily-v3.vercel.app)"
+TAG_RE = re.compile(r"<[^>]+>")
+
+
+def clean_text(s, limit=240):
+    if not s:
+        return ""
+    s = TAG_RE.sub("", s)
+    s = html.unescape(s).strip()
+    s = re.sub(r"\s+", " ", s)
+    return s[:limit]
+
+
+def relative_time(dt):
+    if not dt:
+        return "刚刚"
+    if dt.tzinfo is None:
+        dt = dt.replace(tzinfo=timezone.utc)
+    delta = datetime.now(timezone.utc) - dt
+    mins = int(delta.total_seconds() // 60)
+    if mins < 1:
+        return "刚刚"
+    if mins < 60:
+        return f"{mins}分钟前"
+    if mins < 1440:
+        return f"{mins // 60}小时前"
+    return f"{mins // 1440}天前"
+
+
+def parse_date(text):
+    if not text:
+        return None
+    text = text.strip()
+    try:
+        return parsedate_to_datetime(text)           # RFC822 (RSS pubDate)
+    except Exception:
+        pass
+    try:
+        return datetime.fromisoformat(text.replace("Z", "+00:00"))  # ISO (Atom)
+    except Exception:
+        return None
+
+
+def strip_ns(tag):
+    return tag.split("}", 1)[1] if "}" in tag else tag
+
+
+def fetch_feed(source, url, default_cat):
+    req = urllib.request.Request(url, headers={"User-Agent": UA, "Accept": "application/rss+xml, application/atom+xml, */*"})
+    with urllib.request.urlopen(req, timeout=30) as r:
+        root = ET.fromstring(r.read())
+
+    items = []
+    # RSS 2.0: channel/item ; Atom: entry
+    nodes = root.iter()
+    entries = [n for n in root.iter() if strip_ns(n.tag) in ("item", "entry")]
+    for e in entries[:PER_FEED]:
+        d = {strip_ns(c.tag): c for c in e}
+        title = clean_text(d["title"].text if "title" in d else "", 200)
+        # 链接:RSS <link>文本;Atom <link href=...>
+        link = ""
+        if "link" in d:
+            link = (d["link"].text or "").strip() or d["link"].get("href", "")
+        if not link:
+            for c in e:
+                if strip_ns(c.tag) == "link" and c.get("href"):
+                    link = c.get("href"); break
+        summary_node = d.get("description") or d.get("summary") or d.get("content")
+        summary = clean_text(summary_node.text if summary_node is not None else "")
+        date_node = d.get("pubDate") or d.get("updated") or d.get("published")
+        dt = parse_date(date_node.text if date_node is not None else None)
+        if not title or not link:
+            continue
+        items.append({
+            "title": title,
+            "summary": summary,
+            "url": link,
+            "source": source,
+            "time": relative_time(dt),
+            "_ts": dt.isoformat() if dt else "",
+            "category": default_cat,
+            "tags": [],
+        })
+    return items
+
+
+def fetch_all():
+    per_feed = []
+    for source, url, cat in FEEDS:
+        try:
+            got = fetch_feed(source, url, cat)
+            got.sort(key=lambda x: x.get("_ts", ""), reverse=True)  # 各源内部按新→旧
+            print(f"  ✅ {source}: {len(got)} 条")
+            per_feed.append(got)
+        except Exception as e:
+            print(f"  ⚠️ {source} 抓取失败: {e}")
+    # 各源轮流取(round-robin),避免高频源刷屏,首页来源更均衡
+    all_items = []
+    for i in range(max((len(f) for f in per_feed), default=0)):
+        for f in per_feed:
+            if i < len(f):
+                all_items.append(f[i])
+    print(f"总计 RSS 抓到 {len(all_items)} 条")
+    return all_items
+
+
+if __name__ == "__main__":
+    for n in fetch_all()[:10]:
+        print(f"[{n['source']}] {n['title']}  ({n['time']})")
