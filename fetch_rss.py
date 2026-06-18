@@ -11,8 +11,9 @@ import xml.etree.ElementTree as ET
 from datetime import datetime, timezone
 from email.utils import parsedate_to_datetime
 
-# 国际科技 RSS 源(source 名 + 默认分类兜底,真正分类由 Qwen 判定)
+# RSS 源(source 名 + 默认分类兜底,真正分类由 Qwen 判定)。国际源需翻译,中文源直接用。
 FEEDS = [
+    # 国际源
     ("TechCrunch", "https://techcrunch.com/feed/", "人工智能"),
     ("The Verge", "https://www.theverge.com/rss/index.xml", "消费电子"),
     ("Ars Technica", "https://feeds.arstechnica.com/arstechnica/index", "前沿科技"),
@@ -20,6 +21,10 @@ FEEDS = [
     ("MIT Tech Review", "https://www.technologyreview.com/feed/", "人工智能"),
     ("Engadget", "https://www.engadget.com/rss.xml", "消费电子"),
     ("Hacker News", "https://hnrss.org/frontpage", "前沿科技"),
+    # 中文源(本身中文,Qwen 跳过翻译只做整理/分类/标的)
+    ("36氪", "https://36kr.com/feed", "前沿科技"),
+    ("量子位", "https://www.qbitai.com/feed", "人工智能"),
+    ("IT之家", "https://www.ithome.com/rss/", "消费电子"),
 ]
 
 PER_FEED = 10        # 每个源最多取多少条
