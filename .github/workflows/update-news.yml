@@ -24,8 +24,10 @@ jobs:
         with:
           python-version: '3.11'
 
-      - name: 抓取最新新闻（仅用标准库，无需 pip 依赖）
-        run: python3 fetch_currents_news.py
+      - name: 抓取 + Qwen 中文 AI 富化（仅用标准库，无需 pip 依赖）
+        env:
+          QWEN_KEY: ${{ secrets.QWEN_KEY }}
+        run: python3 enrich_news.py
 
       - name: 校验数据非空（防止把线上覆盖成空白）
         run: |

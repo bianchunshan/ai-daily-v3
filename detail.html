@@ -33,8 +33,6 @@
     ];
     var A = window.AID;
 
-    function fmtPrice(s) { return s.price ? s.price : '—'; }
-
     function render(list) {
       var id = A.getParam('id');
       var el = document.getElementById('article');
@@ -52,21 +50,19 @@
         '<span class="dot"></span><span>💬 ' + A.comments(news) + '</span>' +
         '<span class="dot"></span><span>🔥 ' + A.heat(news) + '°</span></div>';
 
+      var paras = (news.body && news.body.trim()) ? news.body.split(/\n+/) : [news.summary || ''];
       var body = '<div class="article-body">';
-      body += '<p>' + A.esc(news.summary || '') + '</p>';
-      if (news.tags && news.tags.length) {
-        body += '<p>本则资讯涉及：' + news.tags.map(A.esc).join('、') + '。</p>';
-      }
-      body += '<p>据' + A.esc(news.source || '相关媒体') + '报道，该事件已引发业界关注。完整内容请通过文末原文链接查看权威来源。</p>';
+      paras.forEach(function (p) { if (p.trim()) body += '<p>' + A.esc(p.trim()) + '</p>'; });
       body += '</div>';
       html += body;
 
       if (news.stocks && news.stocks.length) {
-        html += '<div class="stockbox"><h3>📈 关联标的</h3>';
+        html += '<div class="stockbox"><h3>📈 关联标的 · AI 推断</h3>';
         news.stocks.forEach(function (s) {
-          var cls = s.trend === 'up' ? 'up' : 'down';
-          html += '<div class="row"><span class="nm">' + A.esc(s.name) + '</span>' +
-            '<span class="stock-pill ' + cls + '">' + fmtPrice(s) + ' · ' + A.esc(s.change) + '</span></div>';
+          var t = s.ticker ? ' <span class="stock-pill rel">' + A.esc(s.ticker) + '</span>' : '';
+          html += '<div class="row"><div><span class="nm">' + A.esc(s.name) + '</span>' + t +
+            (s.reason ? '<div style="font-size:12.5px;color:var(--text-3);margin-top:4px;line-height:1.5">' + A.esc(s.reason) + '</div>' : '') +
+            '</div></div>';
         });
         html += '</div>';
       }

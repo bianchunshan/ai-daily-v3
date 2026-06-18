@@ -62,17 +62,14 @@
     ];
 
     var A = window.AID;
-    var ALL = [], CURRENT = '推荐';
+    var ALL = [], CURRENT = '推荐', DIGEST = null;
 
     function metaRow(n) {
       var h = '<span class="chip">' + A.esc(n.category) + '</span>';
       if (n.source) h += '<span>' + A.esc(n.source) + '</span>';
       if (n.time) h += '<span class="dot"></span><span>' + A.esc(n.time) + '</span>';
       h += '<span class="dot"></span><span class="cmt">💬 ' + A.comments(n) + '</span>';
-      if (n.stocks && n.stocks.length) {
-        var s = n.stocks[0], cls = s.trend === 'up' ? 'up' : 'down';
-        h += '<span class="stock-pill ' + cls + '">' + A.esc(s.name) + ' ' + A.esc(s.change) + '</span>';
-      }
+      if (n.stocks && n.stocks.length) h += A.stockTag(n.stocks[0]);
       return h;
     }
 
@@ -110,6 +107,24 @@
       return h + '</div>';
     }
 
+    function digestHTML() {
+      if (!DIGEST || !DIGEST.text) return '';
+      var h = '<div class="digest"><div class="digest-head">🤖 今日综述 · AI 生成</div>' +
+        '<div class="digest-text">' + A.esc(DIGEST.text) + '</div>';
+      var hls = (DIGEST.highlights || []).map(function (id) {
+        return ALL.filter(function (x) { return x.id === id; })[0];
+      }).filter(Boolean);
+      if (hls.length) {
+        h += '<div class="digest-hl">';
+        hls.forEach(function (n, i) {
+          h += '<a href="javascript:void(0)" onclick="go(' + n.id + ')">' +
+            '<span class="n">' + (i + 1) + '</span><span class="t">' + A.esc(n.title) + '</span></a>';
+        });
+        h += '</div>';
+      }
+      return h + '</div>';
+    }
+
     function render() {
       var list = CURRENT === '推荐' ? ALL : ALL.filter(function (n) { return n.category === CURRENT; });
       var view = document.getElementById('view');
@@ -117,6 +132,7 @@
 
       var html = '';
       if (CURRENT === '推荐') {
+        html += digestHTML();
         html += heroHTML(list[0]);
         html += hotHTML(list);
         html += '<div class="section-title"><span class="bar"></span>最新资讯</div>';
@@ -164,8 +180,9 @@
         (hits.length ? '<div class="feed">' + hits.map(itemHTML).join('') + '</div>' : '<div class="empty">没有匹配的新闻</div>');
     };
 
-    A.loadNews(FALLBACK_NEWS, function (data) {
+    A.loadNews(FALLBACK_NEWS, function (data, digest) {
       ALL = data;
+      DIGEST = digest;
       document.getElementById('skeleton').style.display = 'none';
       buildTabs();
       render();

@@ -168,6 +168,23 @@ img { display: block; }
 }
 .stock-pill.up { color: var(--up); background: rgba(239,68,68,.1); }
 .stock-pill.down { color: var(--down); background: rgba(22,163,74,.1); }
+.stock-pill.rel { color: var(--brand-ink); background: var(--brand-soft); text-decoration: none; }
+
+/* ---------- 今日综述（AI） ---------- */
+.digest {
+  margin: 12px 12px 4px; padding: 16px;
+  border-radius: var(--radius); box-shadow: var(--shadow);
+  background:
+    radial-gradient(circle at 90% 0%, rgba(255,255,255,.18), rgba(255,255,255,0) 50%),
+    linear-gradient(135deg, #6a5cff 0%, #9b4dff 100%);
+  color: #fff;
+}
+.digest-head { display: flex; align-items: center; gap: 7px; font-size: 14px; font-weight: 800; margin-bottom: 8px; opacity: .95; }
+.digest-text { font-size: 15px; line-height: 1.7; }
+.digest-hl { margin-top: 12px; display: flex; flex-direction: column; gap: 6px; }
+.digest-hl a { display: flex; gap: 8px; align-items: baseline; font-size: 13px; color: #fff; background: rgba(255,255,255,.14); padding: 7px 10px; border-radius: 8px; }
+.digest-hl .n { font-weight: 800; font-style: italic; opacity: .85; }
+.digest-hl .t { flex: 1; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
 
 .item .cover { width: 112px; height: 84px; border-radius: var(--radius-sm); flex-shrink: 0; }
 .item .cover .glyph { font-size: 46px; }

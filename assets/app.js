@@ -81,20 +81,32 @@
     return next;
   }
 
-  // 加载新闻数据：优先外部 news_data_latest.js（cron 更新），失败用内置兜底
+  // 加载数据：优先外部 news_data_latest.js（每日 Action 更新），失败用内置兜底。
+  // 回调 cb(newsList, digest)，digest 可能为 null。
   function loadNews(fallback, cb) {
     var s = document.createElement('script');
     s.src = 'news_data_latest.js?t=' + Date.now();
     s.onload = function () {
-      cb(typeof newsData !== 'undefined' && newsData.length ? newsData : fallback);
+      var data = (typeof newsData !== 'undefined' && newsData.length) ? newsData : fallback;
+      var digest = (typeof newsDigest !== 'undefined') ? newsDigest : null;
+      cb(data, digest);
     };
-    s.onerror = function () { cb(fallback); };
+    s.onerror = function () { cb(fallback, null); };
     document.body.appendChild(s);
+  }
+
+  // 关联标的标签：只展示 名称(+代码)，鼠标悬停看关联理由；绝不显示价格/涨跌
+  function stockTag(s) {
+    if (!s || !s.name) return '';
+    var label = esc(s.name) + (s.ticker ? ' ' + esc(s.ticker) : '');
+    var href = s.ticker ? 'stock.html?symbol=' + encodeURIComponent(s.ticker) : 'stock.html';
+    var title = s.reason ? ' title="' + esc(s.reason) + '"' : '';
+    return '<a class="stock-pill rel" href="' + href + '"' + title + '>📈 ' + label + '</a>';
   }
 
   global.AID = {
     catMeta: catMeta, coverHTML: coverHTML, heat: heat, comments: comments,
     esc: esc, getParam: getParam, initTheme: initTheme, toggleTheme: toggleTheme,
-    loadNews: loadNews
+    loadNews: loadNews, stockTag: stockTag
   };
 })(window);
