@@ -177,6 +177,24 @@ def read_existing():
         return []
 
 
+SEEN_FILE = 'seen_urls.json'
+SEEN_MAX = 800   # 持久化记忆最近见过的 URL 上限
+
+
+def read_seen(existing):
+    """已见 URL 清单(持久化)。首次无文件时用现有数据的 URL 播种。"""
+    if os.path.exists(SEEN_FILE):
+        try:
+            return list(json.load(open(SEEN_FILE, encoding='utf-8')))
+        except Exception:
+            pass
+    return [n.get('url') for n in existing if n.get('url')]
+
+
+def write_seen(seen):
+    json.dump(seen[-SEEN_MAX:], open(SEEN_FILE, 'w', encoding='utf-8'), ensure_ascii=False)
+
+
 def write_data(items, digest):
     with open('news_data_latest.js', 'w', encoding='utf-8') as f:
         f.write('const newsData = ')
@@ -189,8 +207,9 @@ def write_data(items, digest):
 
 def main():
     existing = read_existing()
-    seen = {n.get('url') for n in existing if n.get('url')}
-    print(f"已有 {len(existing)} 条,开始抓取 RSS...")
+    seen_list = read_seen(existing)
+    seen = set(seen_list)
+    print(f"已有 {len(existing)} 条,已见 URL {len(seen)} 个,开始抓取 RSS...")
 
     raw = fetch_all()
     new = [n for n in raw if n.get('url') and n['url'] not in seen]
@@ -213,7 +232,10 @@ def main():
     digest = make_digest(merged)
     write_data(merged, digest)
 
-    print(f"\n✅ 已写入:新增 {len(enriched_new)} 条,合计 {len(merged)} 条")
+    # 记录本次处理过的 URL,避免它们滚出窗口后被重复富化
+    write_seen(seen_list + [n['url'] for n in new])
+
+    print(f"\n✅ 已写入:新增 {len(enriched_new)} 条,合计 {len(merged)} 条,已见 URL {len(seen_list)+len(new)} 个")
 
 
 if __name__ == '__main__':

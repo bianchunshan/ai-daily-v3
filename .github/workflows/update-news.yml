@@ -52,8 +52,8 @@ jobs:
             echo "数据无变化，跳过提交与部署"
             echo "changed=false" >> "$GITHUB_OUTPUT"
           else
-            git add news_data_latest.js
-            git commit -m "chore: 每日自动更新新闻（AI 中文富化）"
+            git add news_data_latest.js seen_urls.json
+            git commit -m "chore: 每小时自动更新新闻（AI 中文富化）"
             git push
             echo "changed=true" >> "$GITHUB_OUTPUT"
           fi
