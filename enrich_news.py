@@ -11,11 +11,28 @@ import sys
 import json
 import time
 import urllib.request
+from datetime import datetime, timezone
 
 from fetch_rss import fetch_all  # RSS 抓取(免费、无配额,英文国际源)
 
-KEEP = 40   # 数据文件保留最新多少条
-CAP = 20    # 单次最多富化多少条新条目(封顶 Qwen 成本)
+KEEP = 2000  # 累计上限(到顶才淘汰最旧的,约数月历史;为性能与文件大小设的天花板)
+CAP = 20     # 单次最多富化多少条新条目(封顶 Qwen 成本)
+
+
+def now_iso():
+    return datetime.now(timezone.utc).isoformat()
+
+
+def ts_key(it):
+    """把 ts(带时区的 ISO)转成可比较的时间戳,用于按真实时间排序。"""
+    t = it.get('ts', '')
+    try:
+        d = datetime.fromisoformat(str(t).replace('Z', '+00:00'))
+        if d.tzinfo is None:
+            d = d.replace(tzinfo=timezone.utc)
+        return d.timestamp()
+    except Exception:
+        return 0.0
 
 QWEN_KEY = os.environ.get('QWEN_KEY', '')
 QWEN_URL = "https://token-plan.cn-beijing.maas.aliyuncs.com/apps/anthropic/v1/messages"
@@ -108,6 +125,7 @@ def enrich_one(n):
             'tags': out.get('tags') or n.get('tags', []),
             'source': n.get('source', ''),
             'time': n.get('time', ''),
+            'ts': n.get('_ts') or now_iso(),
             'url': n.get('url', ''),
             'stocks': stocks,
         }
@@ -115,6 +133,7 @@ def enrich_one(n):
         print(f"  ⚠️ 富化失败,保留英文兜底「{n.get('title','')[:30]}」: {e}")
         n.setdefault('body', '')
         n.setdefault('stocks', [])
+        n['ts'] = n.get('_ts') or now_iso()
         return n
 
 
@@ -225,8 +244,10 @@ def main():
     print(f"开始 Qwen 富化 {len(new)} 条新条目(单次封顶 {CAP})...")
     enriched_new = [enrich_one(n) for n in new]
 
-    # 新条目在前 + 旧条目,保留最新 KEEP 条,重排 id
-    merged = (enriched_new + existing)[:KEEP]
+    # 累计:新条目并入历史,按真实时间倒序(最新在上),到 KEEP 上限才淘汰最旧
+    combined = enriched_new + existing
+    combined.sort(key=ts_key, reverse=True)
+    merged = combined[:KEEP]
     for i, n in enumerate(merged, 1):
         n['id'] = i
         n.pop('_ts', None)

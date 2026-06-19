@@ -46,7 +46,7 @@
       html += '<h1>' + A.esc(news.title) + '</h1>';
       html += '<div class="article-meta"><span class="chip">' + A.esc(news.category) + '</span>' +
         (news.source ? '<span>' + A.esc(news.source) + '</span>' : '') +
-        (news.time ? '<span class="dot"></span><span>' + A.esc(news.time) + '</span>' : '') +
+        ((A.relTime(news.ts) || news.time) ? '<span class="dot"></span><span>' + A.esc(A.relTime(news.ts) || news.time) + '</span>' : '') +
         '<span class="dot"></span><span>💬 ' + A.comments(news) + '</span>' +
         '<span class="dot"></span><span>🔥 ' + A.heat(news) + '°</span></div>';
 

@@ -63,11 +63,15 @@
 
     var A = window.AID;
     var ALL = [], CURRENT = '推荐', DIGEST = null;
+    var FEED = [], SHOWN = 0, PAGE = 60;   // 分页:累计后内容多,逐页渲染
+
+    function newsTime(n) { return A.relTime(n.ts) || n.time || ''; }
 
     function metaRow(n) {
       var h = '<span class="chip">' + A.esc(n.category) + '</span>';
       if (n.source) h += '<span>' + A.esc(n.source) + '</span>';
-      if (n.time) h += '<span class="dot"></span><span>' + A.esc(n.time) + '</span>';
+      var t = newsTime(n);
+      if (t) h += '<span class="dot"></span><span>' + A.esc(t) + '</span>';
       h += '<span class="dot"></span><span class="cmt">💬 ' + A.comments(n) + '</span>';
       if (n.stocks && n.stocks.length) h += A.stockTag(n.stocks[0]);
       return h;
@@ -80,7 +84,7 @@
         '<div class="hero-text">' +
           '<span class="hero-badge">🔥 头条 · ' + A.esc(n.category) + '</span>' +
           '<div class="hero-title">' + A.esc(n.title) + '</div>' +
-          '<div class="hero-meta">' + A.esc(n.source || '') + (n.time ? ' · ' + A.esc(n.time) : '') + ' · 💬 ' + A.comments(n) + '</div>' +
+          '<div class="hero-meta">' + A.esc(n.source || '') + (newsTime(n) ? ' · ' + A.esc(newsTime(n)) : '') + ' · 💬 ' + A.comments(n) + '</div>' +
         '</div></div>';
     }
 
@@ -125,6 +129,15 @@
       return h + '</div>';
     }
 
+    function renderFeed() {
+      document.getElementById('feed').innerHTML = FEED.slice(0, SHOWN).map(itemHTML).join('');
+      var more = document.getElementById('more');
+      more.innerHTML = SHOWN < FEED.length
+        ? '<div class="more-btn" onclick="loadMore()">加载更多(剩 ' + (FEED.length - SHOWN) + ' 条)</div>'
+        : (FEED.length > PAGE ? '<div class="more-end">— 到底了,共 ' + FEED.length + ' 条 —</div>' : '');
+    }
+    window.loadMore = function () { SHOWN += PAGE; renderFeed(); };
+
     function render() {
       var list = CURRENT === '推荐' ? ALL : ALL.filter(function (n) { return n.category === CURRENT; });
       var view = document.getElementById('view');
@@ -136,12 +149,15 @@
         html += heroHTML(list[0]);
         html += hotHTML(list);
         html += '<div class="section-title"><span class="bar"></span>最新资讯</div>';
-        html += '<div class="feed">' + list.slice(1).map(itemHTML).join('') + '</div>';
+        FEED = list.slice(1);
       } else {
-        html += '<div class="section-title"><span class="bar"></span>' + A.esc(CURRENT) + '</div>';
-        html += '<div class="feed">' + list.map(itemHTML).join('') + '</div>';
+        html += '<div class="section-title"><span class="bar"></span>' + A.esc(CURRENT) + ' · ' + list.length + ' 条</div>';
+        FEED = list;
       }
+      html += '<div class="feed" id="feed"></div><div id="more"></div>';
       view.innerHTML = html;
+      SHOWN = PAGE;
+      renderFeed();
       window.scrollTo(0, 0);
     }
 

@@ -54,6 +54,18 @@
     return base % 320;
   }
 
+  // 从 ISO 时间戳算新鲜的相对时间;无法解析时返回空(调用方回退到存储的 time 字符串)
+  function relTime(ts) {
+    if (!ts) return '';
+    var d = new Date(ts);
+    if (isNaN(d.getTime())) return '';
+    var mins = Math.floor((Date.now() - d.getTime()) / 60000);
+    if (mins < 1) return '刚刚';
+    if (mins < 60) return mins + '分钟前';
+    if (mins < 1440) return Math.floor(mins / 60) + '小时前';
+    return Math.floor(mins / 1440) + '天前';
+  }
+
   function esc(s) {
     return String(s == null ? '' : s)
       .replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;')
@@ -107,6 +119,6 @@
   global.AID = {
     catMeta: catMeta, coverHTML: coverHTML, heat: heat, comments: comments,
     esc: esc, getParam: getParam, initTheme: initTheme, toggleTheme: toggleTheme,
-    loadNews: loadNews, stockTag: stockTag
+    loadNews: loadNews, stockTag: stockTag, relTime: relTime
   };
 })(window);
