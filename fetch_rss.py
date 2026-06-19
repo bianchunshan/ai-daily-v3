@@ -34,7 +34,7 @@ FEEDS = [
     ("IT之家", "https://www.ithome.com/rss/", "消费电子"),
 ]
 
-PER_FEED = 10        # 每个源最多取多少条
+PER_FEED = 15        # 每个源最多取多少条
 UA = "Mozilla/5.0 (compatible; ai-daily-bot/1.0; +https://ai-daily-v3.vercel.app)"
 TAG_RE = re.compile(r"<[^>]+>")
 

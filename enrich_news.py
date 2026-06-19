@@ -15,8 +15,8 @@ from datetime import datetime, timezone
 
 from fetch_rss import fetch_all  # RSS 抓取(免费、无配额,英文国际源)
 
-KEEP = 2000  # 累计上限(到顶才淘汰最旧的,约数月历史;为性能与文件大小设的天花板)
-CAP = 20     # 单次最多富化多少条新条目(封顶 Qwen 成本)
+KEEP = int(os.environ.get('AID_KEEP', 2000))  # 累计上限(到顶才淘汰最旧;可用环境变量覆盖)
+CAP = int(os.environ.get('AID_CAP', 50))       # 单次最多富化多少条新条目(封顶 Qwen 成本;可覆盖)
 
 
 def now_iso():
