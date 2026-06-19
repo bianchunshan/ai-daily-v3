@@ -49,9 +49,23 @@
   <nav class="tabbar">
     <a class="tabbar-btn active" href="index.html"><span class="ti">📰</span><span>首页</span></a>
     <a class="tabbar-btn" href="stock.html"><span class="ti">📈</span><span>行情</span></a>
-    <div class="tabbar-btn" id="topBtn"><span class="ti">⭐</span><span>回顶</span></div>
+    <div class="tabbar-btn" id="chatBtn"><span class="ti">💬</span><span>问AI</span></div>
     <div class="tabbar-btn" id="themeBtn2"><span class="ti">🌓</span><span>主题</span></div>
   </nav>
+
+  <div class="chat-mask" id="chatMask"></div>
+  <div class="chat-panel" id="chatPanel">
+    <div class="chat-head">
+      <span class="t">🤖 问AI</span><span class="sub">基于今日资讯</span>
+      <span class="x" id="chatClose">×</span>
+    </div>
+    <div class="chat-msgs" id="chatMsgs"></div>
+    <div class="chat-sugs" id="chatSugs"></div>
+    <div class="chat-input">
+      <input id="chatInput" placeholder="问问今天的资讯…" maxlength="500" autocomplete="off">
+      <button id="chatSend">发送</button>
+    </div>
+  </div>
 
   <script src="assets/app.js"></script>
   <script>
@@ -184,7 +198,66 @@
     function bindTheme(btn) { if (btn) btn.onclick = function () { A.toggleTheme(); }; }
     bindTheme(document.getElementById('themeBtn'));
     bindTheme(document.getElementById('themeBtn2'));
-    document.getElementById('topBtn').onclick = function () { window.scrollTo({ top: 0, behavior: 'smooth' }); };
+    // ---------- AI 对话 ----------
+    var chatBusy = false;
+    function openChat() {
+      document.getElementById('chatMask').classList.add('open');
+      document.getElementById('chatPanel').classList.add('open');
+      if (!document.getElementById('chatMsgs').children.length) {
+        addMsg('ai', '我是「前沿科技日报」的 AI 助手,可以基于今天这 ' + ALL.length + ' 条资讯帮你问答、归纳或分析。试试下面的问题,或直接问我。');
+        renderSugs(['今天最值得关注的 3 件事', '芯片/AI 方向有什么新进展?', '美伊等国际局势怎么样了', '哪些利好标的值得留意?']);
+      }
+      setTimeout(function () { document.getElementById('chatInput').focus(); }, 250);
+    }
+    function closeChat() {
+      document.getElementById('chatMask').classList.remove('open');
+      document.getElementById('chatPanel').classList.remove('open');
+    }
+    function addMsg(cls, text) {
+      var d = document.createElement('div');
+      d.className = 'chat-msg ' + cls;
+      d.textContent = text;
+      var box = document.getElementById('chatMsgs');
+      box.appendChild(d); box.scrollTop = box.scrollHeight;
+      return d;
+    }
+    function renderSugs(list) {
+      document.getElementById('chatSugs').innerHTML = list.map(function (s) {
+        return '<span class="chat-sug">' + A.esc(s) + '</span>';
+      }).join('');
+      document.querySelectorAll('#chatSugs .chat-sug').forEach(function (el) {
+        el.onclick = function () { document.getElementById('chatInput').value = el.textContent; sendChat(); };
+      });
+    }
+    async function sendChat() {
+      if (chatBusy) return;
+      var inp = document.getElementById('chatInput');
+      var q = inp.value.trim();
+      if (!q) return;
+      document.getElementById('chatSugs').innerHTML = '';
+      addMsg('me', q); inp.value = '';
+      chatBusy = true; document.getElementById('chatSend').disabled = true;
+      var tip = addMsg('tip', '思考中…');
+      try {
+        var ctx = ALL.slice(0, 120).map(function (n) { return { title: n.title, summary: n.summary, category: n.category }; });
+        var r = await fetch('/api/chat', {
+          method: 'POST', headers: { 'content-type': 'application/json' },
+          body: JSON.stringify({ question: q, context: ctx })
+        });
+        var d = await r.json();
+        tip.remove();
+        addMsg('ai', r.ok && d.answer ? d.answer : '抱歉,出错了:' + (d.error || ('HTTP ' + r.status)));
+      } catch (e) {
+        tip.remove(); addMsg('ai', '请求失败:' + e);
+      }
+      chatBusy = false; document.getElementById('chatSend').disabled = false;
+    }
+    document.getElementById('chatBtn').onclick = openChat;
+    document.getElementById('chatClose').onclick = closeChat;
+    document.getElementById('chatMask').onclick = closeChat;
+    document.getElementById('chatSend').onclick = sendChat;
+    document.getElementById('chatInput').addEventListener('keydown', function (e) { if (e.key === 'Enter') sendChat(); });
+
     document.getElementById('searchBtn').onclick = function () {
       var q = prompt('搜索新闻关键词：');
       if (q == null) return;
@@ -202,6 +275,7 @@
       document.getElementById('skeleton').style.display = 'none';
       buildTabs();
       render();
+      if (A.getParam('chat') === '1') openChat();
     });
   </script>
 </body>

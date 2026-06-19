@@ -8,7 +8,7 @@
     '商业航天': { icon: '🚀', from: '#4f46e5', to: '#7c3aed' },
     '国际局势': { icon: '🌐', from: '#334155', to: '#0f766e' },
     '量子科技': { icon: '⚛️', from: '#d946ef', to: '#7c3aed' },
-    '具身智能': { icon: '🦾', from: '#f97316', to: '#ef4444' },
+    '机器人': { icon: '🦾', from: '#f97316', to: '#ef4444' },
     '生物医药': { icon: '🧬', from: '#10b981', to: '#0891b2' },
     '未来能源': { icon: '⚡', from: '#f59e0b', to: '#ef4444' },
     '消费电子': { icon: '📱', from: '#ec4899', to: '#8b5cf6' },
@@ -112,7 +112,8 @@
     var label = esc(s.name) + (s.ticker ? ' ' + esc(s.ticker) : '');
     var href = s.ticker ? 'stock.html?symbol=' + encodeURIComponent(s.ticker) : 'stock.html';
     var title = s.reason ? ' title="' + esc(s.reason) + '"' : '';
-    return '<a class="stock-pill rel" href="' + href + '"' + title + '>📈 ' + label + '</a>';
+    // stopPropagation:别让点击冒泡到新闻卡片的"进详情"
+    return '<a class="stock-pill rel" href="' + href + '" onclick="event.stopPropagation()"' + title + '>📈 ' + label + '</a>';
   }
 
   global.AID = {

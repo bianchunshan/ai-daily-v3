@@ -24,6 +24,10 @@ FEEDS = [
     ("Tom's Hardware", "https://www.tomshardware.com/feeds/all", "人工智能"),
     ("IEEE Spectrum", "https://spectrum.ieee.org/feeds/feed.rss", "人工智能"),
     ("SpaceNews", "https://spacenews.com/feed/", "商业航天"),
+    # 国际局势 / 世界新闻(补美伊、地缘等)
+    ("BBC World", "https://feeds.bbci.co.uk/news/world/rss.xml", "国际局势"),
+    ("Al Jazeera", "https://www.aljazeera.com/xml/rss/all.xml", "国际局势"),
+    ("BBC中文", "https://feeds.bbci.co.uk/zhongwen/simp/rss.xml", "国际局势"),
     # 中文源(本身中文,Qwen 跳过翻译只做整理/分类/标的)
     ("36氪", "https://36kr.com/feed", "前沿科技"),
     ("量子位", "https://www.qbitai.com/feed", "人工智能"),

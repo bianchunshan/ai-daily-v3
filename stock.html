@@ -49,7 +49,7 @@
   <nav class="tabbar">
     <a class="tabbar-btn" href="index.html"><span class="ti">📰</span><span>首页</span></a>
     <a class="tabbar-btn active" href="stock.html"><span class="ti">📈</span><span>行情</span></a>
-    <div class="tabbar-btn" id="topBtn"><span class="ti">⭐</span><span>回顶</span></div>
+    <a class="tabbar-btn" href="index.html?chat=1"><span class="ti">💬</span><span>问AI</span></a>
     <div class="tabbar-btn" id="themeBtn"><span class="ti">🌓</span><span>主题</span></div>
   </nav>
 
@@ -57,7 +57,6 @@
   <script>
     var A = window.AID;
     document.getElementById('themeBtn').onclick = function () { A.toggleTheme(); };
-    document.getElementById('topBtn').onclick = function () { window.scrollTo({ top: 0, behavior: 'smooth' }); };
 
     function chgCls(v) { return v >= 0 ? 'up' : 'down'; }
     function chgStr(v) { return (v >= 0 ? '+' : '') + v.toFixed(2) + '%'; }
