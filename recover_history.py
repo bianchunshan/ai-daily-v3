@@ -36,6 +36,7 @@ for line in lines:
         if u not in items_by_url and it.get('body'):   # 只收已中文富化的
             it = dict(it)
             it['ts'] = it.get('ts') or date            # 首次出现时间作为时间戳
+            it['category'] = E.CAT_MERGE.get(it.get('category', ''), it.get('category', ''))  # 旧分类归一
             items_by_url[u] = it
 
 # 最新在上(按真实时间,处理时区)
