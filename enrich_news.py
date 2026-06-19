@@ -39,8 +39,8 @@ QWEN_URL = "https://token-plan.cn-beijing.maas.aliyuncs.com/apps/anthropic/v1/me
 QWEN_MODEL = "qwen3.7-max"
 
 CATEGORIES = ['人工智能', '机器人', '商业航天', '国际局势', '量子科技',
-              '生物医药', '未来能源', '消费电子', '低空经济']
-CAT_MERGE = {'集成电路': '人工智能', '具身智能': '机器人'}  # 已废弃/改名分类的归并
+              '生物医药', '未来能源', '消费电子']
+CAT_MERGE = {'集成电路': '人工智能', '具身智能': '机器人', '低空经济': '机器人'}  # 已废弃/改名分类的归并
 
 
 def call_qwen(prompt, max_tokens=1500, system=None, retries=3):
