@@ -13,7 +13,7 @@ fetch_rss.py 抓 16 个源(13 国际 + 3 中文)
   → enrich_news.py:
       · 按 URL 对 seen_urls.json 去重,只处理没见过的新条目
       · 每条调 Qwen(qwen3.7-max)→ 中文标题/摘要/正文 + 分类 + 标签 + ≥1 利好标的
-      · 单次最多富化 50 条(CAP);累计并入历史、带 ts 时间戳按时间倒序、不滚动淘汰(KEEP=2000 才到顶)
+      · 单次最多富化 50 条(CAP);累计并入历史、带 ts 时间戳按时间倒序;每个板块各留最新 KEEP=2000 条(到顶才淘汰该板块最旧)
       · 生成今日综述 newsDigest
       · 写 news_data_latest.js
   → 抓到 <10 条则放弃(防覆盖)
@@ -43,7 +43,7 @@ fetch_rss.py 抓 16 个源(13 国际 + 3 中文)
 ## 怎么改
 
 - **加/删数据源**:`fetch_rss.py` 的 `FEEDS` 列表(每项 `(来源名, RSS地址, 默认分类)`)。每源取多少条改 `PER_FEED`。
-- **每小时富化上限 / 累计上限**:`enrich_news.py` 顶部 `CAP`(默认 50)、`KEEP`(默认 2000);也可用环境变量 `AID_CAP` / `AID_KEEP` 覆盖(如一次性补量:`AID_CAP=200 python3 enrich_news.py`)。
+- **每小时富化上限 / 每板块累计上限**:`enrich_news.py` 顶部 `CAP`(默认 50)、`KEEP`(默认 2000,**按板块**);也可用环境变量 `AID_CAP` / `AID_KEEP` 覆盖(如一次性补量:`AID_CAP=200 python3 enrich_news.py`)。
 - **更新频率**:`.github/workflows/update-news.yml` 的 `cron`。
 - **模型**:`enrich_news.py` 的 `QWEN_MODEL` / `QWEN_URL`(阿里云 Anthropic 兼容端点)。
 - **分类与封面配色**:`assets/app.js` 的 `CATS`;`enrich_news.py` 的 `CATEGORIES`(两处分类要一致)。

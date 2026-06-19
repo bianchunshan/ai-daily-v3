@@ -15,7 +15,7 @@ from datetime import datetime, timezone
 
 from fetch_rss import fetch_all  # RSS 抓取(免费、无配额,英文国际源)
 
-KEEP = int(os.environ.get('AID_KEEP', 2000))  # 累计上限(到顶才淘汰最旧;可用环境变量覆盖)
+KEEP = int(os.environ.get('AID_KEEP', 2000))  # 每个板块的累计上限(到顶才淘汰该板块最旧;可环境变量覆盖)
 CAP = int(os.environ.get('AID_CAP', 50))       # 单次最多富化多少条新条目(封顶 Qwen 成本;可覆盖)
 
 
@@ -246,11 +246,18 @@ def main():
     print(f"开始 Qwen 富化 {len(new)} 条新条目(单次封顶 {CAP})...")
     enriched_new = [enrich_one(n) for n in new]
 
-    # 累计:新条目并入历史,按真实时间倒序(最新在上),到 KEEP 上限才淘汰最旧
+    # 累计:新条目并入历史,按真实时间倒序(最新在上)
     combined = enriched_new + existing
     combined.sort(key=ts_key, reverse=True)
-    merged = combined[:KEEP]
-    for i, n in enumerate(merged, 1):
+    # 每个板块各留最新 KEEP 条(到顶才淘汰该板块最旧的),其余板块互不影响
+    per_cat = {}
+    merged = []
+    for n in combined:
+        c = n.get('category', '其他')
+        per_cat[c] = per_cat.get(c, 0) + 1
+        if per_cat[c] <= KEEP:
+            merged.append(n)
+    for i, n in enumerate(merged, 1):   # merged 仍是全局时间倒序
         n['id'] = i
         n.pop('_ts', None)
 
