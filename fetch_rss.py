@@ -21,8 +21,8 @@ FEEDS = [
     ("MIT Tech Review", "https://www.technologyreview.com/feed/", "人工智能"),
     ("Engadget", "https://www.engadget.com/rss.xml", "消费电子"),
     ("Hacker News", "https://hnrss.org/frontpage", "前沿科技"),
-    ("Tom's Hardware", "https://www.tomshardware.com/feeds/all", "集成电路"),
-    ("IEEE Spectrum", "https://spectrum.ieee.org/feeds/feed.rss", "集成电路"),
+    ("Tom's Hardware", "https://www.tomshardware.com/feeds/all", "人工智能"),
+    ("IEEE Spectrum", "https://spectrum.ieee.org/feeds/feed.rss", "人工智能"),
     ("SpaceNews", "https://spacenews.com/feed/", "商业航天"),
     # 中文源(本身中文,Qwen 跳过翻译只做整理/分类/标的)
     ("36氪", "https://36kr.com/feed", "前沿科技"),

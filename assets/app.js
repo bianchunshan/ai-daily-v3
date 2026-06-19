@@ -5,7 +5,6 @@
   // 分类 -> 封面配色 + 图标。未知分类用 default。
   var CATS = {
     '人工智能': { icon: '🤖', from: '#6a5cff', to: '#9b4dff' },
-    '集成电路': { icon: '🔩', from: '#0ea5a5', to: '#1e88e5' },
     '商业航天': { icon: '🚀', from: '#4f46e5', to: '#7c3aed' },
     '国际局势': { icon: '🌐', from: '#334155', to: '#0f766e' },
     '量子科技': { icon: '⚛️', from: '#d946ef', to: '#7c3aed' },

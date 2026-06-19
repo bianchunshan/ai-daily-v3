@@ -38,8 +38,9 @@ QWEN_KEY = os.environ.get('QWEN_KEY', '')
 QWEN_URL = "https://token-plan.cn-beijing.maas.aliyuncs.com/apps/anthropic/v1/messages"
 QWEN_MODEL = "qwen3.7-max"
 
-CATEGORIES = ['人工智能', '集成电路', '商业航天', '国际局势', '量子科技',
+CATEGORIES = ['人工智能', '商业航天', '国际局势', '量子科技',
               '具身智能', '生物医药', '未来能源', '消费电子', '低空经济']
+CAT_MERGE = {'集成电路': '人工智能'}  # 已废弃分类的归并(芯片并入人工智能)
 
 
 def call_qwen(prompt, max_tokens=1500, system=None, retries=3):
@@ -111,6 +112,7 @@ def enrich_one(n):
     try:
         out = extract_json(call_qwen(prompt, max_tokens=1500, system=ENRICH_SYS))
         cat = out.get('category', '').strip()
+        cat = CAT_MERGE.get(cat, cat)   # 废弃分类归并(如集成电路→人工智能)
         stocks = []
         for s in (out.get('stocks') or [])[:4]:
             if isinstance(s, dict) and s.get('name'):
