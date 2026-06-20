@@ -12,6 +12,7 @@ import json
 import time
 import urllib.request
 from datetime import datetime, timezone
+from concurrent.futures import ThreadPoolExecutor
 
 from fetch_rss import fetch_all  # RSS 抓取(免费、无配额,英文国际源)
 
@@ -43,7 +44,7 @@ CATEGORIES = ['人工智能', '机器人', '商业航天', '国际局势', '量�
 CAT_MERGE = {'集成电路': '人工智能', '具身智能': '机器人', '低空经济': '机器人'}  # 已废弃/改名分类的归并
 
 
-def call_qwen(prompt, max_tokens=1500, system=None, retries=3):
+def call_qwen(prompt, max_tokens=1500, system=None, retries=2):
     """调用 Qwen(Anthropic 协议),返回纯文本。失败抛异常。"""
     if not QWEN_KEY:
         raise RuntimeError('缺少环境变量 QWEN_KEY')
@@ -60,7 +61,7 @@ def call_qwen(prompt, max_tokens=1500, system=None, retries=3):
                 "anthropic-version": "2023-06-01",
                 "content-type": "application/json",
             })
-            with urllib.request.urlopen(req, timeout=90) as r:
+            with urllib.request.urlopen(req, timeout=45) as r:
                 d = json.loads(r.read().decode('utf-8'))
             return ''.join(b.get('text', '') for b in d.get('content', []) if isinstance(b, dict))
         except Exception as e:
@@ -244,8 +245,9 @@ def main():
         return
 
     new = new[:CAP]
-    print(f"开始 Qwen 富化 {len(new)} 条新条目(单次封顶 {CAP})...")
-    enriched_new = [enrich_one(n) for n in new]
+    print(f"开始 Qwen 富化 {len(new)} 条新条目(并发,单次封顶 {CAP})...")
+    with ThreadPoolExecutor(max_workers=6) as ex:   # 并发调用,避免顺序累加拖很久
+        enriched_new = list(ex.map(enrich_one, new))
 
     # 累计:新条目并入历史,按真实时间倒序(最新在上)
     combined = enriched_new + existing
