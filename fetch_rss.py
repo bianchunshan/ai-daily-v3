@@ -28,6 +28,13 @@ FEEDS = [
     ("BBC World", "https://feeds.bbci.co.uk/news/world/rss.xml", "国际局势"),
     ("Al Jazeera", "https://www.aljazeera.com/xml/rss/all.xml", "国际局势"),
     ("BBC中文", "https://feeds.bbci.co.uk/zhongwen/simp/rss.xml", "国际局势"),
+    # 小众板块对口源(补量子/机器人/能源/航天/生物)
+    ("Quanta", "https://api.quantamagazine.org/feed/", "量子科技"),
+    ("The Robot Report", "https://www.therobotreport.com/feed/", "机器人"),
+    ("Electrek", "https://electrek.co/feed/", "未来能源"),
+    ("Space.com", "https://www.space.com/feeds/all", "商业航天"),
+    ("ScienceDaily", "https://www.sciencedaily.com/rss/top/science.xml", "量子科技"),
+    ("MedicalXpress", "https://medicalxpress.com/rss-feed/", "生物医药"),
     # 中文源(本身中文,Qwen 跳过翻译只做整理/分类/标的)
     ("36氪", "https://36kr.com/feed", "前沿科技"),
     ("量子位", "https://www.qbitai.com/feed", "人工智能"),
