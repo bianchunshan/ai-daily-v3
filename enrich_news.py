@@ -129,6 +129,7 @@ def enrich_one(n):
             'time': n.get('time', ''),
             'ts': n.get('_ts') or now_iso(),
             'url': n.get('url', ''),
+            'image': n.get('image', ''),
             'stocks': stocks,
         }
     except Exception as e:

@@ -33,6 +33,8 @@
         'linear-gradient(' + angle + 'deg,' + c.from + ' 0%,' + c.to + ' 100%);';
     var html = '<div class="cover" style="' + bg + '">';
     html += '<span class="glyph">' + c.icon + '</span>';
+    // 有真实配图就叠在渐变封面之上;加载失败 onerror 移除 → 自动露出分类封面
+    if (news.image) html += '<img class="photo" loading="lazy" src="' + esc(news.image) + '" onerror="this.remove()" alt="">';
     if (showLabel) html += '<span class="ct">' + esc(news.category) + '</span>';
     html += '</div>';
     return html;

@@ -89,6 +89,28 @@ def strip_ns(tag):
     return tag.split("}", 1)[1] if "}" in tag else tag
 
 
+IMG_RE = re.compile(r'<img[^>]+src=["\']([^"\']+)["\']', re.I)
+IMG_EXT = ('.jpg', '.jpeg', '.png', '.webp', '.gif')
+
+
+def find_image(e, *html_texts):
+    """从条目里找一张配图:media:content/thumbnail、enclosure(image)、或正文首个 <img>。"""
+    for c in e:
+        t = strip_ns(c.tag)
+        u = c.get('url') or c.get('href') or ''
+        typ = (c.get('type') or '') + (c.get('medium') or '')
+        if t in ('content', 'thumbnail') and u and ('image' in typ or u.lower().split('?')[0].endswith(IMG_EXT)):
+            return u
+        if t == 'enclosure' and u and 'image' in (c.get('type') or ''):
+            return u
+    for h in html_texts:
+        if h:
+            m = IMG_RE.search(h)
+            if m and m.group(1).startswith('http'):
+                return m.group(1)
+    return ''
+
+
 def fetch_feed(source, url, default_cat):
     req = urllib.request.Request(url, headers={"User-Agent": UA, "Accept": "application/rss+xml, application/atom+xml, */*"})
     with urllib.request.urlopen(req, timeout=30) as r:
@@ -110,7 +132,11 @@ def fetch_feed(source, url, default_cat):
                 if strip_ns(c.tag) == "link" and c.get("href"):
                     link = c.get("href"); break
         summary_node = d.get("description") or d.get("summary") or d.get("content")
-        summary = clean_text(summary_node.text if summary_node is not None else "")
+        raw_html = (summary_node.text if summary_node is not None else "") or ""
+        enc_node = d.get("encoded")  # content:encoded
+        raw_html2 = (enc_node.text if enc_node is not None else "") or ""
+        summary = clean_text(raw_html)
+        image = find_image(e, raw_html, raw_html2)
         date_node = d.get("pubDate") or d.get("updated") or d.get("published")
         dt = parse_date(date_node.text if date_node is not None else None)
         if not title or not link:
@@ -119,6 +145,7 @@ def fetch_feed(source, url, default_cat):
             "title": title,
             "summary": summary,
             "url": link,
+            "image": image,
             "source": source,
             "time": relative_time(dt),
             "_ts": dt.isoformat() if dt else "",
