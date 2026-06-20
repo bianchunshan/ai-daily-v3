@@ -15,6 +15,7 @@ concurrency:
 jobs:
   update:
     runs-on: ubuntu-latest
+    timeout-minutes: 25        # 富化卡住时尽早失败,避免挂死堵住后续 run
     steps:
       - name: 检出代码
         uses: actions/checkout@v4
