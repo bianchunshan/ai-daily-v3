@@ -54,7 +54,15 @@ jobs:
           else
             git add news_data_latest.js seen_urls.json
             git commit -m "chore: 每小时自动更新新闻（AI 中文富化）"
-            git push
+            # 防并发:push 被拒就 rebase(本次数据为准)重试,避免两次 run 撞车失败
+            pushed=0
+            for i in 1 2 3 4 5; do
+              if git push; then pushed=1; break; fi
+              echo "push 被拒,rebase 重试 ($i)..."
+              git pull --rebase -X theirs origin main || git rebase --abort
+              sleep 2
+            done
+            if [ "$pushed" != "1" ]; then echo "::error::push 多次失败"; exit 1; fi
             echo "changed=true" >> "$GITHUB_OUTPUT"
           fi
 
