@@ -41,7 +41,7 @@ QWEN_MODEL = "qwen3.7-max"
 
 CATEGORIES = ['人工智能', '机器人', '商业航天', '国际局势', '量子科技',
               '生物医药', '未来能源', '消费电子']
-CAT_MERGE = {'集成电路': '人工智能', '具身智能': '机器人', '低空经济': '机器人'}  # 已废弃/改名分类的归并
+CAT_MERGE = {'集成电路': '人工智能', '具身智能': '机器人', '低空经济': '机器人', '前沿科技': '人工智能'}  # 已废弃/改名分类的归并
 
 
 def call_qwen(prompt, max_tokens=1500, system=None, retries=2):
@@ -124,7 +124,7 @@ def enrich_one(n):
             'title': out.get('title') or n.get('title', ''),
             'summary': out.get('summary') or n.get('summary', ''),
             'body': out.get('body', ''),
-            'category': cat if cat in CATEGORIES else n.get('category', '前沿科技'),
+            'category': cat if cat in CATEGORIES else CAT_MERGE.get(n.get('category', ''), '人工智能'),
             'tags': out.get('tags') or n.get('tags', []),
             'source': n.get('source', ''),
             'time': n.get('time', ''),

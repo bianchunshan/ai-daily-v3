@@ -11,8 +11,7 @@
     '机器人': { icon: '🦾', from: '#f97316', to: '#ef4444' },
     '生物医药': { icon: '🧬', from: '#10b981', to: '#0891b2' },
     '未来能源': { icon: '⚡', from: '#f59e0b', to: '#ef4444' },
-    '消费电子': { icon: '📱', from: '#ec4899', to: '#8b5cf6' },
-    '前沿科技': { icon: '🔬', from: '#2563eb', to: '#06b6d4' }
+    '消费电子': { icon: '📱', from: '#ec4899', to: '#8b5cf6' }
   };
   var DEFAULT_CAT = { icon: '📰', from: '#64748b', to: '#475569' };
 

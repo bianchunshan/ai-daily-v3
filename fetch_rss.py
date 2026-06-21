@@ -16,11 +16,11 @@ FEEDS = [
     # 国际源
     ("TechCrunch", "https://techcrunch.com/feed/", "人工智能"),
     ("The Verge", "https://www.theverge.com/rss/index.xml", "消费电子"),
-    ("Ars Technica", "https://feeds.arstechnica.com/arstechnica/index", "前沿科技"),
-    ("Wired", "https://www.wired.com/feed/rss", "前沿科技"),
+    ("Ars Technica", "https://feeds.arstechnica.com/arstechnica/index", "人工智能"),
+    ("Wired", "https://www.wired.com/feed/rss", "人工智能"),
     ("MIT Tech Review", "https://www.technologyreview.com/feed/", "人工智能"),
     ("Engadget", "https://www.engadget.com/rss.xml", "消费电子"),
-    ("Hacker News", "https://hnrss.org/frontpage", "前沿科技"),
+    ("Hacker News", "https://hnrss.org/frontpage", "人工智能"),
     ("Tom's Hardware", "https://www.tomshardware.com/feeds/all", "人工智能"),
     ("IEEE Spectrum", "https://spectrum.ieee.org/feeds/feed.rss", "人工智能"),
     ("SpaceNews", "https://spacenews.com/feed/", "商业航天"),
@@ -36,7 +36,7 @@ FEEDS = [
     ("ScienceDaily", "https://www.sciencedaily.com/rss/top/science.xml", "量子科技"),
     ("MedicalXpress", "https://medicalxpress.com/rss-feed/", "生物医药"),
     # 中文源(本身中文,Qwen 跳过翻译只做整理/分类/标的)
-    ("36氪", "https://36kr.com/feed", "前沿科技"),
+    ("36氪", "https://36kr.com/feed", "人工智能"),
     ("量子位", "https://www.qbitai.com/feed", "人工智能"),
     ("IT之家", "https://www.ithome.com/rss/", "消费电子"),
 ]
