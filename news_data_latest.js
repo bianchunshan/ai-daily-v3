@@ -3407,7 +3407,7 @@ const newsData = [
     "image": "",
     "source": "Hacker News",
     "time": "刚刚",
-    "category": "前沿科技",
+    "category": "人工智能",
     "tags": [],
     "body": "",
     "stocks": [],
