@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
   <meta name="theme-color" content="#e60012">
   <title>资讯详情 · 前沿科技日报</title>
-  <link rel="stylesheet" href="assets/theme.css">
+  <link rel="stylesheet" href="assets/theme.css?v=20260623b">
   <script>
     (function () {
       try {
@@ -26,7 +26,7 @@
     <div class="empty">加载中…</div>
   </article>
 
-  <script src="assets/app.js"></script>
+  <script src="assets/app.js?v=20260623b"></script>
   <script>
     var FALLBACK_NEWS = [
       { id: 1, title: "本田因电动车项目取消首次出现财务亏损", summary: "这家标志性汽车巨头称其未来不确定，巨额财务亏损归咎于中国和美国市场。", category: "国际局势", tags: ["汽车"], source: "澳大利亚新闻", time: "2小时前", url: "#", stocks: [{ name: "本田", change: "-3.2%", trend: "down", price: "78.50" }] }
@@ -47,10 +47,10 @@
       html += '<div class="article-meta"><span class="chip">' + A.esc(news.category) + '</span>' +
         (news.source ? '<span>' + A.esc(news.source) + '</span>' : '') +
         ((A.relTime(news.ts) || news.time) ? '<span class="dot"></span><span>' + A.esc(A.relTime(news.ts) || news.time) + '</span>' : '') +
-        '<span class="dot"></span><span>💬 ' + A.comments(news) + '</span>' +
-        '<span class="dot"></span><span>🔥 ' + A.heat(news) + '°</span></div>';
+        '<span class="dot"></span><span>热度指数 ' + A.heat(news) + '</span></div>';
 
-      var paras = (news.body && news.body.trim()) ? news.body.split(/\n+/) : [news.summary || ''];
+      var fallbackBody = news.summary || '这条资讯的正文暂未整理完成,可先查看原文报道。';
+      var paras = (news.body && news.body.trim()) ? news.body.split(/\n+/) : [fallbackBody];
       var body = '<div class="article-body">';
       paras.forEach(function (p) { if (p.trim()) body += '<p>' + A.esc(p.trim()) + '</p>'; });
       body += '</div>';
@@ -59,16 +59,19 @@
       if (news.stocks && news.stocks.length) {
         html += '<div class="stockbox"><h3>📈 关联标的 · AI 推断</h3>';
         news.stocks.forEach(function (s) {
-          var t = s.ticker ? ' <span class="stock-pill rel">' + A.esc(s.ticker) + '</span>' : '';
-          html += '<div class="row"><div><span class="nm">' + A.esc(s.name) + '</span>' + t +
+          var href = s.ticker ? 'stock.html?symbol=' + encodeURIComponent(s.ticker) : 'stock.html';
+          var conf = s.confidence ? ' · ' + A.esc(s.confidence) : '';
+          var t = s.ticker ? ' <span class="stock-pill rel">' + A.esc(s.ticker) + conf + '</span>' : '';
+          html += '<a class="row" href="' + href + '"><div><span class="nm">' + A.esc(s.name) + '</span>' + t +
             (s.reason ? '<div style="font-size:12.5px;color:var(--text-3);margin-top:4px;line-height:1.5">' + A.esc(s.reason) + '</div>' : '') +
-            '</div></div>';
+            '</div></a>';
         });
         html += '</div>';
       }
 
-      if (news.url && news.url !== '#') {
-        html += '<div class="srclink"><a href="' + A.esc(news.url) + '" target="_blank" rel="noopener">查看原文报道 →</a></div>';
+      var sourceUrl = A.safeUrl(news.url);
+      if (sourceUrl && sourceUrl !== '#') {
+        html += '<div class="srclink"><a href="' + A.esc(sourceUrl) + '" target="_blank" rel="noopener noreferrer">查看原文报道 →</a></div>';
       }
 
       el.innerHTML = html;

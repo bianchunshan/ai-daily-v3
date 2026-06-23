@@ -10,7 +10,9 @@ import os
 import sys
 import json
 import time
+import hashlib
 import urllib.request
+from urllib.parse import urlsplit, urlunsplit, parse_qsl, urlencode
 from datetime import datetime, timezone
 from concurrent.futures import ThreadPoolExecutor
 
@@ -42,6 +44,27 @@ QWEN_MODEL = "qwen3.7-max"
 CATEGORIES = ['人工智能', '机器人', '商业航天', '国际局势', '量子科技',
               '生物医药', '未来能源', '消费电子']
 CAT_MERGE = {'集成电路': '人工智能', '具身智能': '机器人', '低空经济': '机器人', '前沿科技': '人工智能'}  # 已废弃/改名分类的归并
+
+
+TRACKING_PARAMS = {'utm_source', 'utm_medium', 'utm_campaign', 'utm_term', 'utm_content', 'fbclid', 'gclid', 'mc_cid', 'mc_eid'}
+
+
+def canonical_url(url):
+    """用于去重和稳定 ID 的规范化 URL。"""
+    try:
+        p = urlsplit(str(url or '').strip())
+        if not p.scheme or not p.netloc:
+            return str(url or '').strip()
+        qs = [(k, v) for k, v in parse_qsl(p.query, keep_blank_values=True) if k.lower() not in TRACKING_PARAMS]
+        path = p.path.rstrip('/') or '/'
+        return urlunsplit((p.scheme.lower(), p.netloc.lower(), path, urlencode(qs), ''))
+    except Exception:
+        return str(url or '').strip()
+
+
+def stable_id(item):
+    key = canonical_url(item.get('url')) or item.get('title') or json.dumps(item, ensure_ascii=False, sort_keys=True)
+    return hashlib.sha1(key.encode('utf-8')).hexdigest()[:16]
 
 
 def call_qwen(prompt, max_tokens=1500, system=None, retries=2):
@@ -99,10 +122,11 @@ def enrich_one(n):
   "body": "中文正文,2-3段,基于给定信息客观转述,不编造未提供的细节,可点出意义与影响",
   "category": "从这些里选最贴切的一个:{'、'.join(CATEGORIES)}",
   "tags": ["2-4个中文标签"],
-  "stocks": [{{"name":"利好标的中文名","ticker":"准确股票代码","reason":"为何受益,一句话"}}]
+  "stocks": [{{"name":"利好标的中文名","ticker":"准确股票代码","reason":"为何受益,一句话","confidence":"high/medium/low"}}]
 }}
 关于 stocks(重要):
-- 必须给出至少 1 个最可能因这条新闻受益(利好)的上市公司/标的;若关联较弱也要给一个最相关的,并在 reason 里点明关联强弱。
+- 只有新闻和上市公司/标的存在明确业务关联时才填写;关联弱或只是泛泛行业影响时返回空数组 []。
+- confidence 表示关联置信度;low 只用于详情页参考,不要硬凑利好。
 - ticker 用真实准确代码,格式:美股直接用代码(如 NVDA、AAPL);港股用 代码.HK(如 0700.HK);A股用 代码.SH 或 代码.SZ(如 600519.SH、000001.SZ)。该代码会被系统用来查实时行情,务必准确。
 - 绝不编造价格、涨跌幅等任何行情数字(行情由系统实时获取)。
 
@@ -118,7 +142,7 @@ def enrich_one(n):
         for s in (out.get('stocks') or [])[:4]:
             if isinstance(s, dict) and s.get('name'):
                 stocks.append({'name': s.get('name', ''), 'ticker': s.get('ticker', ''),
-                               'reason': s.get('reason', '')})
+                               'reason': s.get('reason', ''), 'confidence': s.get('confidence', '')})
         return {
             'id': n.get('id'),
             'title': out.get('title') or n.get('title', ''),
@@ -204,7 +228,7 @@ def read_existing():
 
 
 SEEN_FILE = 'seen_urls.json'
-SEEN_MAX = 800   # 持久化记忆最近见过的 URL 上限
+SEEN_MAX = 5000  # 持久化记忆最近见过的 URL 上限
 
 
 def read_seen(existing):
@@ -214,7 +238,7 @@ def read_seen(existing):
             return list(json.load(open(SEEN_FILE, encoding='utf-8')))
         except Exception:
             pass
-    return [n.get('url') for n in existing if n.get('url')]
+    return [canonical_url(n.get('url')) for n in existing if n.get('url')]
 
 
 def write_seen(seen):
@@ -235,10 +259,11 @@ def main():
     existing = read_existing()
     seen_list = read_seen(existing)
     seen = set(seen_list)
+    seen.update(canonical_url(n.get('url')) for n in existing if n.get('url'))
     print(f"已有 {len(existing)} 条,已见 URL {len(seen)} 个,开始抓取 RSS...")
 
     raw = fetch_all()
-    new = [n for n in raw if n.get('url') and n['url'] not in seen]
+    new = [n for n in raw if n.get('url') and canonical_url(n['url']) not in seen]
     print(f"\n去重后新条目:{len(new)} 条")
     if not new:
         print("无新条目,数据文件保持不变(不会触发提交/部署)")
@@ -252,16 +277,21 @@ def main():
     # 累计:新条目并入历史,按真实时间倒序(最新在上)
     combined = enriched_new + existing
     combined.sort(key=ts_key, reverse=True)
-    # 每个板块各留最新 KEEP 条(到顶才淘汰该板块最旧的),其余板块互不影响
+    # 每个板块各留最新 KEEP 条(到顶才淘汰该板块最旧的),其余板块互不影响;同时按规范 URL 去重。
     per_cat = {}
+    seen_merged = set()
     merged = []
     for n in combined:
+        key = canonical_url(n.get('url')) or n.get('title', '')
+        if key in seen_merged:
+            continue
+        seen_merged.add(key)
         c = n.get('category', '其他')
         per_cat[c] = per_cat.get(c, 0) + 1
         if per_cat[c] <= KEEP:
             merged.append(n)
-    for i, n in enumerate(merged, 1):   # merged 仍是全局时间倒序
-        n['id'] = i
+    for n in merged:   # merged 仍是全局时间倒序;id 必须稳定,不能随排序漂移
+        n['id'] = stable_id(n)
         n.pop('_ts', None)
 
     print("生成今日综述...")
@@ -269,7 +299,7 @@ def main():
     write_data(merged, digest)
 
     # 记录本次处理过的 URL,避免它们滚出窗口后被重复富化
-    write_seen(seen_list + [n['url'] for n in new])
+    write_seen(seen_list + [canonical_url(n['url']) for n in new])
 
     print(f"\n✅ 已写入:新增 {len(enriched_new)} 条,合计 {len(merged)} 条,已见 URL {len(seen_list)+len(new)} 个")
 

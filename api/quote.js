@@ -34,6 +34,7 @@ function parseLine(market, payload) {
 }
 
 module.exports = async function handler(req, res) {
+  if (req.method !== 'GET') return res.status(405).json({ error: 'GET only' });
   const q = (req.query.symbol || '').trim();
   if (!q) return res.status(400).json({ error: 'missing symbol' });
 
@@ -42,9 +43,13 @@ module.exports = async function handler(req, res) {
 
   try {
     const list = reqs.map(r => r.sina).join(',');
+    const controller = new AbortController();
+    let timer = setTimeout(() => controller.abort(), 5000);
     const r = await fetch('https://hq.sinajs.cn/list=' + list, {
       headers: { 'Referer': 'https://finance.sina.com.cn', 'User-Agent': 'Mozilla/5.0' },
-    });
+      signal: controller.signal,
+    }).finally(() => { if (timer) { clearTimeout(timer); timer = null; } });
+    if (!r.ok) return res.status(502).json({ error: 'quote upstream bad status', status: r.status });
     const buf = await r.arrayBuffer();
     const text = new TextDecoder('gbk').decode(new Uint8Array(buf));
 

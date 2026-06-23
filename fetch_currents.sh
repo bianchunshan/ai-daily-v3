@@ -2,8 +2,13 @@
 # Currents API 批量获取脚本
 # 限制：20次/天，需要高效利用
 
-API_KEY="Zgk7l7N-kQp6UYGyZ6RXRmkv8TH1_Ohn7O7ai8AGLDXqzCiC"
+API_KEY="${CURRENTS_API_KEY:-}"
 BASE_URL="https://api.currentsapi.services/v1"
+
+if [ -z "$API_KEY" ]; then
+  echo "❌ 缺少环境变量 CURRENTS_API_KEY"
+  exit 1
+fi
 
 echo "=========================================="
 echo "Currents API 新闻获取"

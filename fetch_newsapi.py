@@ -7,10 +7,11 @@ News API 新闻获取脚本
 import urllib.request
 import urllib.parse
 import json
+import os
 from datetime import datetime, timedelta
 
 # API配置
-API_KEY = 'cf228ed495e34d38b04f15a16537c8d6'
+API_KEY = os.environ.get('NEWS_API_KEY', '')
 BASE_URL = 'https://newsapi.org/v2/everything'
 
 # 板块配置

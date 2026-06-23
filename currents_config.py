@@ -1,5 +1,7 @@
 # Currents API 配置
-API_KEY = 'Zgk7l7N-kQp6UYGyZ6RXRmkv8TH1_Ohn7O7ai8AGLDXqzCiC'
+import os
+
+API_KEY = os.environ.get('CURRENTS_API_KEY', '')
 
 # 分类映射（Currents API的category）
 CATEGORY_MAPPING = {

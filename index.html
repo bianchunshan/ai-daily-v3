@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
   <meta name="theme-color" content="#e60012">
   <title>前沿科技日报</title>
-  <link rel="stylesheet" href="assets/theme.css">
+  <link rel="stylesheet" href="assets/theme.css?v=20260623b">
   <script>
     // 预绘制主题，避免暗色闪屏
     (function () {
@@ -67,7 +67,7 @@
     </div>
   </div>
 
-  <script src="assets/app.js"></script>
+  <script src="assets/app.js?v=20260623b"></script>
   <script>
     var FALLBACK_NEWS = [
       { id: 1, title: "本田因电动车项目取消首次出现财务亏损", summary: "这家标志性汽车巨头称其未来不确定，巨额财务亏损归咎于中国和美国市场。", category: "国际局势", tags: ["汽车"], source: "澳大利亚新闻", time: "2小时前", url: "#", stocks: [{ name: "本田", change: "-3.2%", trend: "down" }] },
@@ -80,30 +80,31 @@
     var FEED = [], SHOWN = 0, PAGE = 60;   // 分页:累计后内容多,逐页渲染
 
     function newsTime(n) { return A.relTime(n.ts) || n.time || ''; }
+    function goCall(id) { return 'go(' + JSON.stringify(String(id)).replace(/"/g, '&quot;') + ')'; }
 
     function metaRow(n) {
       var h = '<span class="chip">' + A.esc(n.category) + '</span>';
       if (n.source) h += '<span>' + A.esc(n.source) + '</span>';
       var t = newsTime(n);
       if (t) h += '<span class="dot"></span><span>' + A.esc(t) + '</span>';
-      h += '<span class="dot"></span><span class="cmt">💬 ' + A.comments(n) + '</span>';
-      if (n.stocks && n.stocks.length) h += A.stockTag(n.stocks[0]);
+      var strongStock = (n.stocks || []).filter(function (s) { return s.confidence !== 'low'; })[0];
+      if (strongStock) h += A.stockTag(strongStock);
       return h;
     }
 
     function heroHTML(n) {
-      return '<div class="hero" onclick="go(' + n.id + ')">' +
+      return '<div class="hero" onclick="' + goCall(n.id) + '">' +
         A.coverHTML(n, { label: false }) +
         '<div class="hero-scrim"></div>' +
         '<div class="hero-text">' +
           '<span class="hero-badge">🔥 头条 · ' + A.esc(n.category) + '</span>' +
           '<div class="hero-title">' + A.esc(n.title) + '</div>' +
-          '<div class="hero-meta">' + A.esc(n.source || '') + (newsTime(n) ? ' · ' + A.esc(newsTime(n)) : '') + ' · 💬 ' + A.comments(n) + '</div>' +
+          '<div class="hero-meta">' + A.esc(n.source || '') + (newsTime(n) ? ' · ' + A.esc(newsTime(n)) : '') + '</div>' +
         '</div></div>';
     }
 
     function itemHTML(n) {
-      return '<div class="item" onclick="go(' + n.id + ')">' +
+      return '<div class="item" onclick="' + goCall(n.id) + '">' +
         '<div class="item-body">' +
           '<div class="item-title">' + A.esc(n.title) + '</div>' +
           (n.summary ? '<div class="item-summary">' + A.esc(n.summary) + '</div>' : '') +
@@ -115,9 +116,9 @@
 
     function hotHTML(list) {
       var top = list.slice().sort(function (a, b) { return A.heat(b) - A.heat(a); }).slice(0, 6);
-      var h = '<div class="hot"><div class="hot-head">🔥 24小时热榜</div>';
+      var h = '<div class="hot"><div class="hot-head">🔥 热度指数</div>';
       top.forEach(function (n, i) {
-        h += '<div class="hot-row" onclick="go(' + n.id + ')">' +
+        h += '<div class="hot-row" onclick="' + goCall(n.id) + '">' +
           '<span class="hot-rank">' + (i + 1) + '</span>' +
           '<span class="hot-title">' + A.esc(n.title) + '</span>' +
           '<span class="hot-heat">' + A.heat(n) + '°</span></div>';
@@ -135,7 +136,7 @@
       if (hls.length) {
         h += '<div class="digest-hl">';
         hls.forEach(function (n, i) {
-          h += '<a href="javascript:void(0)" onclick="go(' + n.id + ')">' +
+          h += '<a href="javascript:void(0)" onclick="' + goCall(n.id) + '">' +
             '<span class="n">' + (i + 1) + '</span><span class="t">' + A.esc(n.title) + '</span></a>';
         });
         h += '</div>';
@@ -239,12 +240,9 @@
       chatBusy = true; document.getElementById('chatSend').disabled = true;
       var tip = addMsg('tip', '思考中…');
       try {
-        var ctx = ALL.slice(0, 80).map(function (n) {
-          return { title: n.title, summary: n.summary, category: n.category, url: n.url };
-        });
         var r = await fetch('/api/chat', {
           method: 'POST', headers: { 'content-type': 'application/json' },
-          body: JSON.stringify({ question: q, context: ctx })
+          body: JSON.stringify({ question: q })
         });
         var raw = await r.text();
         var d = {};
@@ -267,7 +265,13 @@
       if (q == null) return;
       q = q.trim();
       if (!q) { CURRENT = '推荐'; buildTabs(); render(); return; }
-      var hits = ALL.filter(function (n) { return (n.title + n.summary).indexOf(q) >= 0; });
+      var needle = q.toLowerCase();
+      var hits = ALL.filter(function (n) {
+        var stocks = (n.stocks || []).map(function (s) { return (s.name || '') + ' ' + (s.ticker || '') + ' ' + (s.reason || ''); }).join(' ');
+        var tags = (n.tags || []).join(' ');
+        var hay = [n.title, n.summary, n.body, n.category, n.source, tags, stocks].join(' ').toLowerCase();
+        return hay.indexOf(needle) >= 0;
+      });
       document.getElementById('view').innerHTML =
         '<div class="section-title"><span class="bar"></span>“' + A.esc(q) + '” · ' + hits.length + ' 条</div>' +
         (hits.length ? '<div class="feed">' + hits.map(itemHTML).join('') + '</div>' : '<div class="empty">没有匹配的新闻</div>');

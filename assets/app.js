@@ -33,7 +33,8 @@
     var html = '<div class="cover" style="' + bg + '">';
     html += '<span class="glyph">' + c.icon + '</span>';
     // 有真实配图就叠在渐变封面之上;加载失败 onerror 移除 → 自动露出分类封面
-    if (news.image) html += '<img class="photo" loading="lazy" src="' + esc(news.image) + '" onerror="this.remove()" alt="">';
+    var img = safeUrl(news.image);
+    if (img) html += '<img class="photo" loading="lazy" src="' + esc(img) + '" onerror="this.remove()" alt="">';
     if (showLabel) html += '<span class="ct">' + esc(news.category) + '</span>';
     html += '</div>';
     return html;
@@ -72,9 +73,19 @@
       .replace(/"/g, '&quot;').replace(/'/g, '&#39;');
   }
 
+  function safeUrl(url) {
+    try {
+      var u = new URL(String(url || ''), global.location.href);
+      return (u.protocol === 'http:' || u.protocol === 'https:') ? u.href : '';
+    } catch (e) {
+      return '';
+    }
+  }
+
   function getParam(name) {
     var m = new RegExp('[?&]' + name + '=([^&#]*)').exec(global.location.href);
-    return m ? decodeURIComponent(m[1]) : null;
+    if (!m) return null;
+    try { return decodeURIComponent(m[1]); } catch (e) { return null; }
   }
 
   // 主题：初始跟随系统，可切换并记忆
@@ -97,13 +108,27 @@
   // 回调 cb(newsList, digest)，digest 可能为 null。
   function loadNews(fallback, cb) {
     var s = document.createElement('script');
-    s.src = 'news_data_latest.js?t=' + Date.now();
+    var done = false;
+    var timer = setTimeout(function () {
+      if (done) return;
+      done = true;
+      cb(fallback, null);
+    }, 12000);
+    s.src = 'news_data_latest.js';
     s.onload = function () {
+      if (done) return;
+      done = true;
+      clearTimeout(timer);
       var data = (typeof newsData !== 'undefined' && newsData.length) ? newsData : fallback;
       var digest = (typeof newsDigest !== 'undefined') ? newsDigest : null;
       cb(data, digest);
     };
-    s.onerror = function () { cb(fallback, null); };
+    s.onerror = function () {
+      if (done) return;
+      done = true;
+      clearTimeout(timer);
+      cb(fallback, null);
+    };
     document.body.appendChild(s);
   }
 
@@ -120,6 +145,6 @@
   global.AID = {
     catMeta: catMeta, coverHTML: coverHTML, heat: heat, comments: comments,
     esc: esc, getParam: getParam, initTheme: initTheme, toggleTheme: toggleTheme,
-    loadNews: loadNews, stockTag: stockTag, relTime: relTime
+    loadNews: loadNews, stockTag: stockTag, relTime: relTime, safeUrl: safeUrl
   };
 })(window);

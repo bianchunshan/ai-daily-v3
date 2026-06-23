@@ -7,10 +7,11 @@ GNews API 新闻获取脚本
 import urllib.request
 import urllib.parse
 import json
+import os
 from datetime import datetime, timedelta
 
 # API配置
-API_KEY = '391508fcda8085162db8c019f3d6e0f4'
+API_KEY = os.environ.get('GNEWS_API_KEY', '')
 BASE_URL = 'https://gnews.io/api/v4/search'
 
 # 板块配置

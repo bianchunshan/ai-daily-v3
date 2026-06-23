@@ -8,11 +8,15 @@ Currents API 新闻获取脚本
 import urllib.request
 import urllib.parse
 import json
+import os
 from datetime import datetime, timedelta
 
 # API配置
-API_KEY = 'Zgk7l7N-kQp6UYGyZ6RXRmkv8TH1_Ohn7O7ai8AGLDXqzCiC'
+API_KEY = os.environ.get('CURRENTS_API_KEY', '')
 BASE_URL = 'https://api.currentsapi.services/v1'
+
+if not API_KEY:
+    raise RuntimeError('缺少环境变量 CURRENTS_API_KEY')
 
 # 板块配置
 SECTIONS = {
