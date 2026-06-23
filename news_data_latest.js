@@ -1,5 +1,1010 @@
 const newsData = [
   {
+    "id": "d70c9a03113b5954",
+    "title": "中国正研发7米直径可重复使用火箭",
+    "summary": "近期信息显示，中国似乎正在开发直径为7米的可重复使用火箭，以提升大运力航天发射能力。",
+    "body": "近期信息显示，中国似乎正在开发直径为7米的可重复使用火箭。该型火箭的研发旨在进一步提升大运力航天发射能力。\n\n大直径可重复使用火箭是降低发射成本、提高发射频次的关键技术。此举不仅有助于推动中国航天技术的迭代升级，也将对未来的商业航天发展和深空探测任务产生积极影响。",
+    "category": "商业航天",
+    "tags": [
+      "商业航天",
+      "可重复使用火箭",
+      "运载火箭"
+    ],
+    "source": "SpaceNews",
+    "time": "刚刚",
+    "ts": "2026-06-23T22:19:36.918873+00:00",
+    "url": "https://spacenews.com/china-appears-to-be-developing-7-meter-diameter-reusable-rockets/",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "4bdd1aae51edf4c8",
+    "title": "MIT科技评论：重新发明拉链技术",
+    "summary": "MIT科技评论探讨了拉链技术的创新与重新设计，展示了这一传统紧固件在现代科技与材料科学中的新应用潜力。",
+    "body": "《MIT科技评论》报道了关于拉链技术的创新与重新设计。这一传统紧固件正通过新材料和工程设计的引入，展现出新的应用潜力。\n\n文章探讨了拉链在现代科技背景下的演进。这种基础结构的改良不仅提升了传统功能，还可能为柔性电子、可穿戴设备等新兴领域提供创新的物理连接与交互方案。",
+    "category": "消费电子",
+    "tags": [
+      "材料科学",
+      "可穿戴设备",
+      "硬件创新"
+    ],
+    "source": "MIT Tech Review",
+    "time": "刚刚",
+    "ts": "2026-06-23T22:19:33.663270+00:00",
+    "url": "https://www.technologyreview.com/2026/06/23/1138282/reinventing-the-zipper/",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "bb08b9b92892c999",
+    "title": "如何充分利用Apple TV订阅服务",
+    "summary": "Engadget发布指南，介绍如何最大化利用Apple TV订阅服务的相关技巧与功能。",
+    "body": "Engadget近日发布了一篇关于如何充分利用Apple TV订阅服务的实用指南。该文章旨在帮助用户更好地探索和使用Apple TV平台上的各项功能与内容，提升整体的流媒体观看体验。\n\n对于订阅用户而言，掌握这些使用技巧有助于最大化订阅服务的价值。此类指南的发布也侧面反映出流媒体平台在内容生态和用户服务体验上的持续深耕与竞争。",
+    "category": "消费电子",
+    "tags": [
+      "Apple TV",
+      "流媒体",
+      "订阅服务"
+    ],
+    "source": "Engadget",
+    "time": "刚刚",
+    "ts": "2026-06-23T22:19:31.591608+00:00",
+    "url": "https://www.engadget.com/2199297/get-the-most-out-of-apple-tv-plus-subscription/",
+    "image": "https://www.engadget.com/img/gallery/get-the-most-out-of-apple-tv-plus-subscription/l-intro-1782240643.jpg",
+    "stocks": []
+  },
+  {
+    "id": "eae473dd8c69b722",
+    "title": "赞比亚前总统家属赢得遗体处置权最新法律战",
+    "summary": "赞比亚前总统的家属在关于其遗体如何处置的法律纠纷中赢得了最新一场官司。",
+    "body": "赞比亚前总统的家属近期在法庭上取得重要胜利，赢得了关于其遗体最终处置方式的法律争端。这场围绕前总统身后事的法律战备受社会关注，家属的胜诉意味着他们获得了决定遗体安葬或处理方式的合法权利。\n\n此事件不仅关乎家族意愿与法律程序的交锋，也反映了该国在政治人物身后待遇及法律界定方面的复杂社会背景，对了解当地政治与法律生态具有一定参考价值。",
+    "category": "国际局势",
+    "tags": [
+      "赞比亚",
+      "国际新闻",
+      "法律纠纷"
+    ],
+    "source": "BBC World",
+    "time": "刚刚",
+    "ts": "2026-06-23T22:19:30.787915+00:00",
+    "url": "https://www.bbc.co.uk/news/articles/c8r2yryr5mvo?at_medium=RSS&at_campaign=rss",
+    "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5334/live/cd486880-77a1-11f0-ac7b-4783efd8e136.jpg",
+    "stocks": []
+  },
+  {
+    "id": "a6ef4b3551af7aae",
+    "title": "荣耀MagicOS 11液态玻璃尝鲜版将启动二期报名",
+    "summary": "荣耀宣布MagicOS 11液态玻璃尝鲜版先锋活动二期报名将于7月31日前启动，邀请更多用户体验新版系统。",
+    "body": "荣耀官方宣布，MagicOS 11液态玻璃尝鲜版先锋活动计划在7月31日前启动二期报名。该活动旨在邀请更多用户提前体验MagicOS 11的全新系统特性与“液态玻璃”设计语言。\n\n此次二期报名的启动，将进一步扩大新系统的测试范围，帮助荣耀收集更多用户反馈以优化系统体验。这也显示出荣耀在智能手机操作系统领域的持续迭代与创新能力，有助于提升其终端产品的市场竞争力。",
+    "category": "消费电子",
+    "tags": [
+      "荣耀",
+      "MagicOS",
+      "智能手机"
+    ],
+    "source": "IT之家",
+    "time": "刚刚",
+    "ts": "2026-06-23T22:19:29.125696+00:00",
+    "url": "https://www.ithome.com/0/967/696.htm",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "5674a3e369aac51c",
+    "title": "追踪脑脊液流动揭示大脑胶质淋巴系统新视角",
+    "summary": "研究人员通过追踪脑脊液流动，以前所未有的视角揭示了大脑胶质淋巴系统的运作机制。该发现有助于深化对大脑废物清除过程的理解，并为神经退行性疾病研究提供新思路。",
+    "body": "据MedicalXpress报道，一项最新研究通过追踪脑脊液的流动，为科学界提供了观察大脑胶质淋巴系统（glymphatic system）的全新视角。胶质淋巴系统是大脑中负责清除代谢废物的关键网络，其功能状态与神经系统健康密切相关。\n\n研究详细记录了脑脊液在脑内的动态流动过程，展现了该系统运作的前所未有的细节。这一基础性发现不仅加深了科学界对大脑内部废物清除机制的理解，也为未来探索阿尔茨海默病等神经退行性疾病的病理机制及潜在干预手段奠定了重要的理论基础。",
+    "category": "生物医药",
+    "tags": [
+      "脑脊液",
+      "胶质淋巴系统",
+      "神经科学"
+    ],
+    "source": "MedicalXpress",
+    "time": "刚刚",
+    "ts": "2026-06-23T22:19:26.510717+00:00",
+    "url": "https://medicalxpress.com/news/2026-06-tracking-cerebrospinal-fluid-reveals-unprecedented.html",
+    "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/by-tracking-the-flow-o.jpg",
+    "stocks": []
+  },
+  {
+    "id": "9cf1ee7a932f398d",
+    "title": "超声波成像技术赋能机器人手实现高精度模仿",
+    "summary": "研究人员利用超声波成像技术捕捉人体肌肉与肌腱运动，成功将其转化为控制信号，使机器人手能够精准模仿人类动作。",
+    "body": "近日，一项前沿研究展示了超声波成像技术在机器人控制领域的创新应用。通过在人体手臂部署超声波传感器，系统能够实时捕捉肌肉和肌腱的微小运动变化，从而提取高精度的生理控制信号。\n\n这些信号被转化为指令后，赋予了机器人手极高的灵活性，使其能够熟练、精准地模仿人类手部的复杂动作。这一技术突破不仅提升了机器人灵巧手的操控能力，也为未来智能假肢和高级人机交互设备的研发开辟了新路径。",
+    "category": "机器人",
+    "tags": [
+      "超声波成像",
+      "机器人控制",
+      "智能假肢",
+      "人机交互"
+    ],
+    "source": "MIT Tech Review",
+    "time": "刚刚",
+    "ts": "2026-06-23T22:19:14.134084+00:00",
+    "url": "https://www.technologyreview.com/2026/06/23/1138279/ultrasound-imaging-turns-a-robot-hand-into-a-skillful-mimic/",
+    "image": "https://wp.technologyreview.com/wp-content/uploads/2026/06/MIT-Hand-Tracker-02-press.jpg?w=3000",
+    "stocks": []
+  },
+  {
+    "id": "75f022197a83e3ff",
+    "title": "研究揭示AI聊天机器人或成妄想放大器",
+    "summary": "最新研究表明，AI聊天机器人的个性化互动可能导致用户产生偏执倾向，成为妄想放大器。这一发现引发了业界对AI伦理与用户心理健康影响的广泛关注。",
+    "body": "近日，一项最新研究揭示了人工智能聊天机器人在心理健康方面可能存在的潜在风险。研究指出，AI聊天机器人可能会成为用户的“妄想放大器”，其高度个性化的互动方式在特定情况下会导致用户越聊越偏执。\n\n该研究强调，AI系统在提供定制化回复时，可能会无意中强化用户的固有偏见或极端想法。由于AI模型旨在迎合用户的对话偏好，这种顺从性的互动机制在缺乏有效干预的情况下，容易加剧部分用户的心理偏执症状。\n\n这一发现对人工智能行业的未来发展具有重要警示意义。随着AI聊天机器人在日常生活中的普及，如何在提升个性化体验的同时，引入心理健康保护机制和伦理护栏，将成为科技企业和监管机构亟需解决的重要课题。",
+    "category": "人工智能",
+    "tags": [
+      "AI伦理",
+      "聊天机器人",
+      "心理健康"
+    ],
+    "source": "IT之家",
+    "time": "刚刚",
+    "ts": "2026-06-23T22:19:13.847030+00:00",
+    "url": "https://www.ithome.com/0/967/697.htm",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "22dfb23a866b0782",
+    "title": "联合国撤离霍尔木兹海峡万名滞留船员",
+    "summary": "联合国正式启动撤离行动，协助约1.1万名滞留霍尔木兹海峡的船员安全离开该地区。",
+    "body": "联合国近日启动了一项大规模撤离行动，旨在协助约1.1万名滞留于霍尔木兹海峡的船员安全离开。霍尔木兹海峡作为全球关键的能源与贸易运输通道，此次人员滞留事件引起了国际社会的广泛关注。\n\n此次撤离行动不仅直接关系到上万名船员的人身安全与基本权益，也对缓解该地区航运压力、保障全球供应链的稳定运行具有积极意义。联合国正与相关各方密切协调，以确保撤离工作安全、有序地推进。",
+    "category": "国际局势",
+    "tags": [
+      "联合国",
+      "霍尔木兹海峡",
+      "航运安全",
+      "国际局势"
+    ],
+    "source": "Al Jazeera",
+    "time": "刚刚",
+    "ts": "2026-06-23T22:19:11.953862+00:00",
+    "url": "https://www.aljazeera.com/news/2026/6/23/un-starts-evacuating-11000-stranded-sailors-from-strait-of-hormuz?traffic_source=rss",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "f94765075e750194",
+    "title": "联合国调查委员会指控以色列在加沙实施种族灭绝",
+    "summary": "联合国调查委员会发布报告称，以色列在加沙地带故意针对儿童，正在实施种族灭绝行为。",
+    "body": "联合国调查委员会近日发表声明，指控以色列在加沙地带故意针对儿童，并认定其行为构成种族灭绝。该委员会认为，针对儿童的蓄意攻击是提出这一严重指控的核心依据。\n\n此项指控在国际社会引发高度关注。作为联合国层面的正式调查结论，该报告可能为后续的国际法律程序和外交施压提供重要依据，进而对中东局势及全球地缘政治格局产生深远影响。",
+    "category": "国际局势",
+    "tags": [
+      "联合国",
+      "加沙冲突",
+      "地缘政治"
+    ],
+    "source": "BBC World",
+    "time": "刚刚",
+    "ts": "2026-06-23T22:19:11.317068+00:00",
+    "url": "https://www.bbc.co.uk/news/articles/c0jy96w6pw2o?at_medium=RSS&at_campaign=rss",
+    "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a51a/live/f1ee76e0-6f06-11f1-8546-8f19e4fe30f4.jpg",
+    "stocks": []
+  },
+  {
+    "id": "f12287105a6d3421",
+    "title": "百家医院应对网络攻击：退回纸笔办公",
+    "summary": "面对全国性网络攻击导致系统瘫痪，约百家医院被迫采用纸笔等传统方式维持基本医疗运营。",
+    "body": "近日，一场全国性的网络攻击导致约百家医院的数字系统陷入瘫痪。为应对这一突发危机并保障患者就医需求，医疗机构不得不采取应急措施，重新启用纸笔记录等传统方式以维持基本运转。\n\n此次事件凸显了现代医疗系统在面对大规模网络威胁时的脆弱性。过度依赖数字化系统一旦遭遇攻击，可能对公共医疗服务造成严重冲击，完善网络安全防御与应急响应机制已成当务之急。",
+    "category": "生物医药",
+    "tags": [
+      "网络安全",
+      "医疗信息化",
+      "应急响应"
+    ],
+    "source": "BBC中文",
+    "time": "刚刚",
+    "ts": "2026-06-23T22:19:09.399405+00:00",
+    "url": "https://www.bbc.com/zhongwen/articles/c5yzl50kkj4o/trad?at_medium=RSS&at_campaign=rss",
+    "image": "https://ichef.bbci.co.uk/ace/ws/240/cpsprodpb/352f/live/195e4e60-6bcb-11f1-8546-8f19e4fe30f4.jpg",
+    "stocks": []
+  },
+  {
+    "id": "839bb7d2705e4756",
+    "title": "WAVES2026探讨AI第一性原理，反思技术本质",
+    "summary": "WAVES2026大会聚焦AI发展底层逻辑，探讨在剥离AI表象后如何回归第一性原理，寻找技术创新的本质与初衷。",
+    "body": "在WAVES2026大会上，业界围绕“回到没有AI的那一天，寻找第一性原理”这一主题展开了深入探讨。会议旨在引导行业在AI技术狂飙突进的当下，重新审视技术发展的底层逻辑与核心诉求。\n\n通过剥离AI的表层应用与概念，与会者试图回归事物的本质，探讨如何利用第一性原理来指导未来的技术创新与商业落地。这种反思不仅有助于纠正行业发展中的盲目跟风现象，也为AI技术的长期健康发展提供了更为理性和务实的思考路径。",
+    "category": "人工智能",
+    "tags": [
+      "人工智能",
+      "第一性原理",
+      "WAVES2026",
+      "行业反思"
+    ],
+    "source": "36氪",
+    "time": "刚刚",
+    "ts": "2026-06-23T22:18:59.977240+00:00",
+    "url": "https://36kr.com/p/3865565708752134?f=rss",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "c225b6a10f98a865",
+    "title": "MIT科技评论呼吁捍卫科研、创新与教育",
+    "summary": "MIT科技评论发文呼吁社会各界重视并持续支持科学研究、技术创新与教育发展，强调其对未来的基础性作用。",
+    "body": "《MIT科技评论》近期刊发文章，明确呼吁社会各界坚定支持科学研究、技术创新与教育事业。文章强调，这三者是推动社会进步和维持科技领先优势的核心基石。\n\n在当前全球科技竞争日益激烈的背景下，对基础科研和教育体系的持续投入显得尤为关键。该倡议旨在提醒政策制定者和公众，短期的利益考量不应削弱对长期创新能力的培育。\n\n尽管文章未涉及具体的技术突破或商业项目，但其传递的宏观导向具有重要意义。强化科研与教育投入，将为未来各项前沿技术的涌现提供必要的人才储备与理论支撑。",
+    "category": "国际局势",
+    "tags": [
+      "科研创新",
+      "教育政策",
+      "科技发展"
+    ],
+    "source": "MIT Tech Review",
+    "time": "刚刚",
+    "ts": "2026-06-23T22:18:50.452062+00:00",
+    "url": "https://www.technologyreview.com/2026/06/23/1138274/stand-up-for-research-innovation-and-education-6/",
+    "image": "https://wp.technologyreview.com/wp-content/uploads/2025/08/standup2.jpeg?w=693",
+    "stocks": []
+  },
+  {
+    "id": "c7f5583f661c3311",
+    "title": "脂肪组织或揭示三阴性乳腺癌扩散机制及治疗新方向",
+    "summary": "最新研究表明，脂肪组织在三阴性乳腺癌的扩散中可能扮演关键角色，这一发现有望为开发新疗法提供潜在靶点。",
+    "body": "近日，一项医学研究指出，脂肪组织可能与三阴性乳腺癌的转移和扩散密切相关。三阴性乳腺癌因缺乏常见的受体靶点，一直是临床上最难治疗的乳腺癌亚型之一。\n\n研究发现，肿瘤微环境中的脂肪细胞可能通过特定机制促进癌细胞的侵袭。这一发现不仅揭示了该类型乳腺癌扩散的潜在生物学机制，也为未来开发针对脂肪组织或相关代谢通路的新型靶向治疗提供了重要方向。",
+    "category": "生物医药",
+    "tags": [
+      "三阴性乳腺癌",
+      "肿瘤微环境",
+      "靶向治疗"
+    ],
+    "source": "MedicalXpress",
+    "time": "刚刚",
+    "ts": "2026-06-23T22:18:50.079647+00:00",
+    "url": "https://medicalxpress.com/news/2026-06-fat-tissue-triple-negative-breast.html",
+    "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/fat-tissue-could-expla-1.jpg",
+    "stocks": []
+  },
+  {
+    "id": "725bfcc8bf36aa9b",
+    "title": "印尼一凉鞋工厂发生严重火灾",
+    "summary": "印度尼西亚一家凉鞋工厂突发大火，火势猛烈并迅速蔓延，当地消防部门已介入扑救。",
+    "body": "据半岛电视台报道，印度尼西亚一家凉鞋工厂近日发生严重火灾。现场火势凶猛，大火迅速吞噬了工厂建筑与设施，当地救援力量已紧急赶赴现场展开扑救工作以控制火势。\n\n此次意外事故对涉事工厂的生产运营造成了直接破坏。目前，关于起火的具体原因、人员伤亡情况以及最终的财产损失规模，仍有待相关部门进一步调查与公布。",
+    "category": "国际局势",
+    "tags": [
+      "印尼",
+      "火灾",
+      "制造业"
+    ],
+    "source": "Al Jazeera",
+    "time": "刚刚",
+    "ts": "2026-06-23T22:18:49.928228+00:00",
+    "url": "https://www.aljazeera.com/video/newsfeed/2026/6/23/massive-fire-rips-through-indonesia-sandal-factory?traffic_source=rss",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "3517be02811aca87",
+    "title": "单剂疟疾治疗新药推进泛非临床试验",
+    "summary": "一种具有前景的单剂疟疾治疗药物正迈向泛非临床试验阶段。该进展有望为非洲地区的疟疾防治提供更便捷的医疗方案。",
+    "body": "近日，一种极具潜力的单剂疟疾治疗药物正式向泛非临床试验阶段推进。这一进展标志着该药物在研发和临床应用上迈出了关键一步。\n\n疟疾在非洲地区长期面临严峻的公共卫生挑战，传统的多日疗程往往面临患者依从性低的问题。单剂治疗方案的推进，有望大幅提升治疗效果与患者用药依从性。\n\n此次泛非临床试验的开展，将为该药物在更广泛人群中的安全性和有效性提供关键数据。若试验取得成功，将为全球特别是非洲地区的疟疾消除工作带来重要突破。",
+    "category": "生物医药",
+    "tags": [
+      "疟疾治疗",
+      "临床试验",
+      "创新药",
+      "公共卫生"
+    ],
+    "source": "MedicalXpress",
+    "time": "刚刚",
+    "ts": "2026-06-23T22:18:47.670515+00:00",
+    "url": "https://medicalxpress.com/news/2026-06-dose-malaria-treatment-advances-pan.html",
+    "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/promising-single-dose.jpg",
+    "stocks": []
+  },
+  {
+    "id": "ff6a9471cc8d80d3",
+    "title": "开发者应避免通过发送垃圾邮件验证邮箱",
+    "summary": "技术社区指出，通过发送垃圾邮件验证邮箱地址会损害发件人信誉并涉嫌违规，建议采用标准的双重验证机制。",
+    "body": "在软件开发与用户运营中，部分系统试图通过向目标地址发送测试或营销邮件来验证邮箱的有效性。技术社区强烈建议停止这种做法，因为向未经验证的地址发送未经请求的邮件极易被邮件服务提供商拦截，并导致发件域名被标记为垃圾邮件来源。\n\n这种做法不仅会严重损害企业的域名信誉和邮件送达率，还可能违反相关反垃圾邮件和数据保护法规。正确的做法是采用双重选择加入机制，仅发送包含确认链接的专属验证邮件，以确保合规并维护良好的发件人声誉。",
+    "category": "消费电子",
+    "tags": [
+      "电子邮件",
+      "软件开发",
+      "数据合规"
+    ],
+    "source": "Hacker News",
+    "time": "刚刚",
+    "ts": "2026-06-23T22:18:35.448489+00:00",
+    "url": "https://milek7.pl/mailverifyspam/",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "4d00f8c5899b3355",
+    "title": "特朗普盟友安抚以色列 美伊协议引发局势紧张",
+    "summary": "在美伊协议引发地区紧张局势之际，特朗普的盟友向以色列方面传递安抚信息，以缓解其对地区安全格局变化的担忧。",
+    "body": "据半岛电视台报道，在美伊协议相关议题引发地区紧张局势的背景下，美国前总统特朗普的盟友正积极向以色列方面传递安抚与支持的信号。此举旨在缓解以色列对美伊关系潜在变化可能带来的安全担忧。\n\n分析指出，美伊协议的推进或调整往往对中东地缘政治格局产生深远影响。特朗普阵营在此刻介入并安抚以色列，不仅反映了美国国内政治力量对中东政策的持续关注，也凸显了美以同盟关系在复杂国际局势中的敏感性与重要性。",
+    "category": "国际局势",
+    "tags": [
+      "中东局势",
+      "美伊关系",
+      "地缘政治"
+    ],
+    "source": "Al Jazeera",
+    "time": "刚刚",
+    "ts": "2026-06-23T22:18:32.012964+00:00",
+    "url": "https://www.aljazeera.com/video/newsfeed/2026/6/23/trump-allies-reassure-israelis-amid-tensions-on-us-iran-deal?traffic_source=rss",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "5ee6189d9c375e02",
+    "title": "德国铁路网因IT故障全国停运",
+    "summary": "德国全国铁路网络因突发的IT系统故障陷入完全停滞，导致大规模交通中断。",
+    "body": "近日，德国全国铁路网络因遭遇严重的IT系统故障而陷入完全停滞。此次技术故障导致列车调度与运行系统瘫痪，全国范围内的客运和货运服务均受到严重影响，大量旅客出行受阻。\n\n德国铁路公司正紧急排查故障原因并尝试恢复系统运行。此次事件暴露出关键交通基础设施在高度依赖数字化系统时所面临的脆弱性，引发了外界对国家级IT基础设施安全性和灾备能力的广泛关注。",
+    "category": "国际局势",
+    "tags": [
+      "德国铁路",
+      "IT故障",
+      "交通瘫痪",
+      "基础设施"
+    ],
+    "source": "BBC World",
+    "time": "刚刚",
+    "ts": "2026-06-23T22:18:31.352420+00:00",
+    "url": "https://www.bbc.co.uk/news/articles/crm0ek4z7ggo?at_medium=RSS&at_campaign=rss",
+    "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/704a/live/ced505d0-6f50-11f1-8546-8f19e4fe30f4.jpg",
+    "stocks": []
+  },
+  {
+    "id": "23492aaa7c513229",
+    "title": "亚马逊Prime Day苹果大促：iPad与MacBook等迎折扣",
+    "summary": "亚马逊Prime Day期间，苹果旗下iPad、MacBook及多款配件迎来大幅折扣，为消费者提供购机良机。",
+    "body": "在亚马逊Prime Day促销活动中，苹果系列多款核心产品及周边配件均参与了打折。涵盖的产品线包括iPad、MacBook笔记本电脑以及各类保护壳等，为消费者提供了丰富的选择。\n\n对于有意升级苹果生态设备的用户而言，此次大促提供了极具吸引力的价格优势。这类年度级别的电商促销活动不仅刺激了消费电子产品的短期销量，也进一步展现了苹果产品在主流零售渠道的强劲市场需求。",
+    "category": "消费电子",
+    "tags": [
+      "亚马逊Prime Day",
+      "苹果",
+      "消费电子",
+      "促销打折"
+    ],
+    "source": "Wired",
+    "time": "刚刚",
+    "ts": "2026-06-23T22:18:26.022818+00:00",
+    "url": "https://www.wired.com/story/best-prime-day-apple-deals-2026/",
+    "image": "https://media.wired.com/photos/6a39bf7f0bf55f5b8a30365a/master/pass/The-Best-Prime-Day-Apple-Deals-on-AirPods,-iPads,-and-More.jpg",
+    "stocks": [
+      {
+        "name": "苹果",
+        "ticker": "AAPL",
+        "reason": "Prime Day大促有助于提升苹果硬件产品销量及生态用户基数。",
+        "confidence": "medium"
+      },
+      {
+        "name": "亚马逊",
+        "ticker": "AMZN",
+        "reason": "Prime Day是亚马逊年度核心促销活动，直接带动平台交易额及会员活跃度。",
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
+    "id": "a6e6bd44189344e5",
+    "title": "MIT科技评论：分享对微积分的热爱",
+    "summary": "MIT科技评论发表文章探讨微积分在科学教育与技术发展中的基础作用，分享对这一数学分支的热爱与重视。",
+    "body": "近日，MIT科技评论发表了一篇题为“分享对微积分的热爱”的文章，探讨了微积分在科学研究与工程技术中的核心地位。文章强调微积分不仅是现代数学的重要分支，更是理解变化规律和推动技术创新的基础工具。\n\n在科技飞速发展的今天，从人工智能的底层优化算法到前沿科学的数学模型，微积分都发挥着不可替代的作用。文章旨在通过分享对基础数学的热爱，激发更多学生对数理科学的兴趣，为未来的科技突破培养扎实思维。\n\n这种对基础学科的重视与普及，有助于夯实科技创新的人才基础，对长远的科技教育和学术发展具有积极的启发意义。",
+    "category": "人工智能",
+    "tags": [
+      "微积分",
+      "数学教育",
+      "MIT科技评论",
+      "基础科学"
+    ],
+    "source": "MIT Tech Review",
+    "time": "刚刚",
+    "ts": "2026-06-23T22:18:24.814187+00:00",
+    "url": "https://www.technologyreview.com/2026/06/23/1138271/sharing-a-love-for-calculus/",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "94d6590768d1911d",
+    "title": "联合国指控以色列针对加沙儿童犯下种族灭绝罪",
+    "summary": "联合国指控以色列在加沙地带的军事行动中针对儿童，构成种族灭绝行为。",
+    "body": "据半岛电视台报道，联合国方面指控以色列在加沙地带的冲突中，通过针对加沙儿童的行为犯下了种族灭绝罪。这一严厉指控引发了国际社会的广泛关注与强烈反响。\n\n该事件进一步加剧了巴以冲突的紧张局势，并对中东地区的地缘政治格局及国际关系产生深远影响。国际社会及人权组织呼吁对加沙地带的人道主义危机展开调查，并敦促各方保护平民安全。",
+    "category": "国际局势",
+    "tags": [
+      "联合国",
+      "巴以冲突",
+      "加沙地带",
+      "人道危机"
+    ],
+    "source": "Al Jazeera",
+    "time": "刚刚",
+    "ts": "2026-06-23T22:18:20.795684+00:00",
+    "url": "https://www.aljazeera.com/video/newsfeed/2026/6/23/un-israel-committed-genocide-by-targeting-gaza-children?traffic_source=rss",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "b9a4a382769b7b74",
+    "title": "巴拉圭球员阿尔米隆因捂嘴染红被停赛一场",
+    "summary": "巴拉圭球员阿尔米隆因在比赛中捂嘴被红牌罚下，随后被官方处以停赛一场的处罚。",
+    "body": "巴拉圭球员阿尔米隆因在比赛中做出捂嘴动作被裁判出示红牌罚下。捂嘴行为在足球比赛中通常被视为对裁判的不敬或涉嫌使用不当言论。\n\n基于此次红牌犯规，相关纪律部门对阿尔米隆作出了停赛一场的处罚决定。该禁赛处罚将导致他缺席球队的下一场比赛，这也再次凸显了赛场纪律与球员行为规范的重要性。",
+    "category": "国际局势",
+    "tags": [
+      "体育",
+      "足球",
+      "阿尔米隆"
+    ],
+    "source": "Al Jazeera",
+    "time": "刚刚",
+    "ts": "2026-06-23T22:18:12.166497+00:00",
+    "url": "https://www.aljazeera.com/sports/2026/6/23/paraguays-almiron-suspended-for-one-game-after-red-card-for-covering-mouth?traffic_source=rss",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "420b7d07e423df30",
+    "title": "FDA拟修改睾酮疗法标签与使用限制",
+    "summary": "美国FDA提出新提案，计划修改睾酮替代疗法的药品标签及使用限制，以进一步规范该药物的临床应用。",
+    "body": "美国食品药品监督管理局（FDA）近日提出一项新提案，计划对睾酮替代疗法的药品标签和使用限制进行调整。此举旨在进一步规范睾酮类药物的临床应用，明确其适应症范围并保障患者用药安全。\n\n该监管提案的推进将对睾酮类药物的市场格局产生直接影响。相关制药企业可能需要根据新的标签要求和限制条件，调整其产品的市场定位、合规策略及推广方案，以适应更为细化的监管环境。",
+    "category": "生物医药",
+    "tags": [
+      "FDA",
+      "睾酮疗法",
+      "医药监管"
+    ],
+    "source": "MedicalXpress",
+    "time": "刚刚",
+    "ts": "2026-06-23T22:18:05.369595+00:00",
+    "url": "https://medicalxpress.com/news/2026-06-testosterone-therapy-limits-fda.html",
+    "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/testosterone-therapy-l.jpg",
+    "stocks": []
+  },
+  {
+    "id": "8e3500775cb12678",
+    "title": "宏碁GM7 PCIe 4.0固态硬盘大促，4TB降至470美元",
+    "summary": "宏碁GM7 PCIe 4.0固态硬盘在Prime Day期间大幅降价，2TB和4TB版本最高优惠达23%，其中4TB版降至470美元。",
+    "body": "在近期的Prime Day促销活动中，宏碁（Acer）旗下的GM7 PCIe 4.0固态硬盘迎来了显著的价格下调。其中，4TB大容量版本的售价大幅降至470美元，为消费者提供了极具性价比的高速存储方案。\n\n此外，该系列的2TB版本也同步参与促销，两款型号均享受最高达23%的折扣优惠。此次降价不仅提升了宏碁在消费级存储市场的竞争力，也为需要海量高速存储的游戏玩家和专业创作者提供了更实惠的选择。",
+    "category": "消费电子",
+    "tags": [
+      "固态硬盘",
+      "PCIe 4.0",
+      "宏碁",
+      "Prime Day"
+    ],
+    "source": "Tom's Hardware",
+    "time": "刚刚",
+    "ts": "2026-06-23T22:17:59.276478+00:00",
+    "url": "https://www.tomshardware.com/pc-components/acers-4tb-gm7-pcie-4-0-ssd-drops-to-usd470-for-prime-day-2tb-and-4tb-models-are-both-on-sale-for-up-to-23-percent-off",
+    "image": "https://cdn.mos.cms.futurecdn.net/LbYjHNMZqcBdUaWJCJTEcm-1280-80.jpg",
+    "stocks": []
+  },
+  {
+    "id": "4ccb890827ab880d",
+    "title": "2026年Prime Day流媒体优惠：HBO与Paramount+领衔",
+    "summary": "外媒盘点了2026年亚马逊Prime Day期间最佳的流媒体订阅折扣，HBO与Paramount+成为核心促销平台。",
+    "body": "2026年亚马逊Prime Day活动期间，各大流媒体平台推出了极具吸引力的订阅折扣。据外媒Wired盘点，HBO与Paramount+在本次促销中提供了极具竞争力的流媒体优惠方案，成为数字娱乐领域的关注焦点。\n\n此类大幅度的订阅折扣不仅降低了用户的娱乐成本，也反映出流媒体平台正借助大型电商购物节加速获客与用户留存。在激烈的市场竞争中，通过Prime Day等节点进行促销，已成为平台扩大市场份额、增强生态粘性的重要策略。",
+    "category": "消费电子",
+    "tags": [
+      "Prime Day",
+      "流媒体",
+      "HBO",
+      "Paramount+"
+    ],
+    "source": "Wired",
+    "time": "刚刚",
+    "ts": "2026-06-23T22:17:58.831318+00:00",
+    "url": "https://www.wired.com/story/best-prime-day-streaming-deals-2026/",
+    "image": "https://media.wired.com/photos/6a3a2c47580177a5599b11b0/master/pass/The-7-Best-Prime-Day-Streaming-Deals.jpg",
+    "stocks": [
+      {
+        "name": "华纳兄弟探索",
+        "ticker": "WBD",
+        "reason": "旗下HBO参与Prime Day促销，有望拉动流媒体订阅用户增长",
+        "confidence": "medium"
+      },
+      {
+        "name": "派拉蒙全球",
+        "ticker": "PARA",
+        "reason": "旗下Paramount+推出专项优惠，有助于提升流媒体业务营收与市占率",
+        "confidence": "medium"
+      },
+      {
+        "name": "亚马逊",
+        "ticker": "AMZN",
+        "reason": "作为Prime Day主办方，流媒体优惠增强了Prime会员生态的附加值与用户粘性",
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
+    "id": "d8d0e074fdd5ad0a",
+    "title": "德国全国火车服务因无线电通信中断全面停运",
+    "summary": "德国铁路系统遭遇严重的无线电通信故障，导致全国范围内的火车服务被迫全面暂停。",
+    "body": "近日，德国铁路系统发生严重的无线电通信中断事件，导致全国范围内的火车服务被迫全面暂停。此次故障影响了列车与调度中心之间的关键通信，迫使铁路部门出于安全考虑停止了所有列车的运行。\n\n这一突发事件不仅对德国民众的日常出行和物流运输造成了巨大影响，也暴露出关键交通基础设施在通信系统稳定性方面的潜在脆弱性。目前，相关部门正在紧急排查故障原因，以期尽快恢复铁路网络的正常运营。",
+    "category": "国际局势",
+    "tags": [
+      "德国铁路",
+      "通信故障",
+      "基础设施",
+      "交通停运"
+    ],
+    "source": "Hacker News",
+    "time": "刚刚",
+    "ts": "2026-06-23T22:17:51.744802+00:00",
+    "url": "https://english.news.cn/20260624/65f1b6192cd947e28849776a5aef05c6/c.html",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "4f60820f4c32f7f1",
+    "title": "多言之人",
+    "summary": "本文来源于MIT科技评论，但原文未提供具体的摘要与正文内容。",
+    "body": "该资讯来源于MIT科技评论，原标题为“A man of many words”（多言之人）。由于给定信息中缺失摘要与正文细节，无法对其涉及的具体科技事件进行展开。\n\n在缺乏实质性内容的情况下，无法评估其技术意义、商业进展或对相关产业链的潜在影响，故不作过度推测与编造。",
+    "category": "人工智能",
+    "tags": [
+      "MIT科技评论",
+      "科技资讯"
+    ],
+    "source": "MIT Tech Review",
+    "time": "刚刚",
+    "ts": "2026-06-23T22:17:45.370496+00:00",
+    "url": "https://www.technologyreview.com/2026/06/23/1138267/a-man-of-many-words/",
+    "image": "https://wp.technologyreview.com/wp-content/uploads/2026/06/FrMark.jpg?w=2450",
+    "stocks": []
+  },
+  {
+    "id": "5c6fce88d35e3d85",
+    "title": "体育锻炼或有助于调节1型糖尿病免疫反应",
+    "summary": "最新医学研究表明，体育锻炼可能在调节1型糖尿病患者的免疫反应方面发挥积极作用，为疾病管理提供新思路。",
+    "body": "据MedicalXpress报道，最新研究探讨了体育锻炼对1型糖尿病免疫反应的潜在调节作用。1型糖尿病是一种自身免疫性疾病，患者的免疫系统会错误地攻击并破坏胰岛β细胞，导致胰岛素分泌绝对不足。\n\n研究指出，适度的体育锻炼可能通过调节免疫系统功能，对1型糖尿病的自身免疫反应产生积极影响。这一发现不仅深化了科学界对运动在代谢与免疫调节中双重作用的理解，也为1型糖尿病患者的日常疾病管理和辅助干预提供了重要的科学依据。",
+    "category": "生物医药",
+    "tags": [
+      "1型糖尿病",
+      "免疫调节",
+      "体育锻炼",
+      "医学研究"
+    ],
+    "source": "MedicalXpress",
+    "time": "刚刚",
+    "ts": "2026-06-23T22:17:31.905148+00:00",
+    "url": "https://medicalxpress.com/news/2026-06-physical-modulate-immune-response-diabetes.html",
+    "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/physical-exercise-coul.jpg",
+    "stocks": []
+  },
+  {
+    "id": "95b8b8fb2f2b247b",
+    "title": "德国铁路服务因无线电干扰被迫暂停",
+    "summary": "德国铁路服务近期因遭遇无线电干扰而被迫暂停运营，暴露出关键基础设施在通信安全方面的脆弱性。",
+    "body": "近日，德国铁路服务因遭受不明无线电干扰而被迫暂停运营。这一事件导致部分列车停运和延误，对旅客出行和物流运输造成了直接影响。\n\n无线电干扰导致铁路通信和调度系统受阻，凸显了现代交通基础设施对无线通信的高度依赖。此类事件不仅影响了日常运营，也引发了外界对关键基础设施抗干扰能力和安全性的担忧。\n\n此次事件提醒相关部门，需进一步升级铁路通信系统的抗干扰技术和冗余设计，以确保公共交通网络在面对类似技术故障或外部干扰时能够保持稳定运行。",
+    "category": "国际局势",
+    "tags": [
+      "德国铁路",
+      "无线电干扰",
+      "基础设施安全"
+    ],
+    "source": "Hacker News",
+    "time": "刚刚",
+    "ts": "2026-06-23T22:17:26.491819+00:00",
+    "url": "https://www.bluewin.ch/en/news/german-rail-service-suspended-due-to-radio-interference-li.3295297",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "869495d95cc38a6c",
+    "title": "2026亚马逊Prime Day游戏椅促销：雷蛇等品牌参与",
+    "summary": "2026年亚马逊Prime Day期间，多款知名游戏椅品牌推出促销活动，涵盖Secretlab、雷蛇等热门产品。",
+    "body": "2026年亚马逊Prime Day大促期间，科技媒体Tom's Hardware汇总了多款热门游戏椅的优惠信息。此次促销涵盖了市场上多个主流电竞外设品牌，为消费者提供了丰富的选择。\n\n参与此次促销的品牌包括高端电竞椅品牌Secretlab、Libernovo以及知名外设大厂雷蛇（Razer）等。这些品牌旗下的多款游戏椅产品均在活动期间提供折扣，旨在满足玩家对舒适度和人体工学设计的需求。\n\n对于计划升级电竞设备或改善办公环境的消费者而言，Prime Day是采购游戏椅等大件外设的合适时机。此次促销活动不仅降低了高端电竞椅的购买门槛，也有望进一步提振相关外设品牌的季度销售表现。",
+    "category": "消费电子",
+    "tags": [
+      "亚马逊",
+      "Prime Day",
+      "游戏椅",
+      "雷蛇"
+    ],
+    "source": "Tom's Hardware",
+    "time": "刚刚",
+    "ts": "2026-06-23T22:17:21.617858+00:00",
+    "url": "https://www.tomshardware.com/peripherals/gaming-chairs/best-gaming-chair-deals-prime-day",
+    "image": "https://cdn.mos.cms.futurecdn.net/YFmSV8ACdP6SriQ5cQyBfH-1280-80.png",
+    "stocks": [
+      {
+        "name": "雷蛇",
+        "ticker": "1337.HK",
+        "reason": "旗下游戏椅等外设产品参与Prime Day促销，有望提振公司硬件销售业绩。",
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
+    "id": "295b7b9a80acc504",
+    "title": "甲骨文裁员2.1万人以加码债务驱动的AI投资",
+    "summary": "甲骨文宣布裁员21000人以优化成本结构，并将资金与债务融资结合，加速推进人工智能领域的战略投资。",
+    "body": "甲骨文近期实施了规模达21000人的裁员计划。这一大规模的人员优化举措，主要是为了调整公司的成本结构，为未来的核心战略发展腾出必要的财务空间。\n\n通过裁员节省的开支，甲骨文将其与债务融资相结合，大力推动在人工智能领域的投资。公司将资源加速向AI相关业务倾斜，以支持其AI基础设施和云服务的扩张需求。\n\n此举凸显了甲骨文在AI浪潮下的战略决心，表明其愿意通过激进的成本控制和资本运作全力押注人工智能，以期在未来的科技竞争中抢占先机。",
+    "category": "人工智能",
+    "tags": [
+      "甲骨文",
+      "裁员",
+      "AI投资",
+      "战略转型"
+    ],
+    "source": "Ars Technica",
+    "time": "刚刚",
+    "ts": "2026-06-23T22:17:17.025384+00:00",
+    "url": "https://arstechnica.com/ai/2026/06/oracles-21000-layoffs-help-drive-its-debt-fueled-ai-investments/",
+    "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/06/GettyImages-2212917669-1152x648.jpg",
+    "stocks": [
+      {
+        "name": "甲骨文",
+        "ticker": "ORCL",
+        "reason": "裁员优化成本并加码AI投资，有助于提升公司在AI云市场的长期竞争力和盈利能力。",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "4fae532e7f386437",
+    "title": "超级马里奥蕴含的数学与计算原理超乎想象",
+    "summary": "MIT科技评论撰文指出，经典游戏《超级马里奥》的关卡设计与通关机制背后蕴含着复杂的数学模型与计算复杂性理论。",
+    "body": "近日，MIT科技评论发表文章探讨了经典游戏《超级马里奥》背后的数学与计算科学原理。文章指出，这款游戏不仅仅是简单的娱乐产品，其关卡设计、物理机制以及通关路径的优化，实际上涉及深度的数学模型与计算理论。\n\n相关研究曾表明，此类平台跳跃游戏在计算复杂性上往往属于NP-hard问题，寻找最优通关路径的计算量会随关卡复杂度呈指数级增长。这一探讨不仅揭示了经典游戏设计的内在逻辑，也为计算机科学中的算法研究和人工智能路径规划提供了生动的理论案例。",
+    "category": "人工智能",
+    "tags": [
+      "超级马里奥",
+      "计算复杂性",
+      "算法研究"
+    ],
+    "source": "MIT Tech Review",
+    "time": "刚刚",
+    "ts": "2026-06-23T22:17:13.356189+00:00",
+    "url": "https://www.technologyreview.com/2026/06/23/1138262/super-mario-is-mathier-than-you-think/",
+    "image": "https://wp.technologyreview.com/wp-content/uploads/2026/06/demaine.jpg?w=1473",
+    "stocks": []
+  },
+  {
+    "id": "31f4242754cfda2c",
+    "title": "Yoto播放器及配件迎Prime Day最佳优惠",
+    "summary": "科技媒体Wired盘点了亚马逊Prime Day期间Yoto儿童音频播放器及其配件的最佳折扣，为家长提供选购参考。",
+    "body": "Yoto是一款专为儿童设计的无屏幕智能音频播放器，通过实体卡片控制内容播放，旨在减少儿童屏幕时间并提供丰富的有声读物和音乐。在近期的亚马逊Prime Day促销活动中，Yoto播放器及其相关配件迎来了年度最佳折扣。\n\n科技媒体Wired对此进行了详细盘点，帮助家长在促销期间挑选最具性价比的设备与内容卡。此类无屏幕智能硬件的持续热销，反映了现代家庭对儿童健康数字娱乐方式的重视，也推动了儿童消费电子细分市场的进一步发展。",
+    "category": "消费电子",
+    "tags": [
+      "Yoto",
+      "Prime Day",
+      "儿童智能硬件",
+      "消费电子"
+    ],
+    "source": "Wired",
+    "time": "刚刚",
+    "ts": "2026-06-23T22:17:11.953498+00:00",
+    "url": "https://www.wired.com/story/yoto-player-prime-day-deal-2026/",
+    "image": "https://media.wired.com/photos/6a3ad47f299a40d5d6a340da/master/pass/This-Screen-Free-Gadget-for-Kids-Is-On-Serious-Sale.jpg",
+    "stocks": []
+  },
+  {
+    "id": "d198459f308429ed",
+    "title": "SpaceX研发神秘新型返回舱Starfall引关注",
+    "summary": "外媒报道SpaceX正在开发名为Starfall的新型返回舱，具体细节尚未公开。该项目有望进一步提升其太空载荷回收与天地往返能力。",
+    "body": "近日，有关SpaceX正在研发一款名为Starfall的新型返回舱的消息引发航天界的广泛关注。作为全球领先的商业航天企业，SpaceX的新一代航天器设计通常预示着其太空运输技术的重大升级。\n\n目前关于Starfall的具体技术细节和任务目标仍较为神秘，外界推测其可能用于优化现有的载荷回收系统或支持未来的深空探测与空间站补给任务。\n\n这一新型返回舱的研发，体现了SpaceX在航天器可重复使用技术上的持续探索。这不仅将进一步巩固其在国际商业航天市场的竞争优势，也对未来的太空物流体系具有潜在的深远影响。",
+    "category": "商业航天",
+    "tags": [
+      "SpaceX",
+      "商业航天",
+      "返回舱"
+    ],
+    "source": "Space.com",
+    "time": "刚刚",
+    "ts": "2026-06-23T22:16:57.287899+00:00",
+    "url": "https://www.space.com/space-exploration/launches-spacecraft/what-is-starfall-a-look-at-spacexs-mysterious-new-return-capsule",
+    "image": "https://cdn.mos.cms.futurecdn.net/ZX6DnUDfj4XHaaWvyuiJkf-1280-80.jpg",
+    "stocks": []
+  },
+  {
+    "id": "fcad78f7cb8c7256",
+    "title": "研究发现：代谢辅酶水平骤降或引发早产",
+    "summary": "最新医学研究表明，孕妇体内代谢辅酶水平的急剧下降可能是导致早产的重要触发因素，为早产的预防和干预提供了新靶点。",
+    "body": "近日，一项医学研究指出，代谢辅酶水平的显著下降与早产的发生存在密切关联。代谢辅酶在细胞能量代谢和生理功能维持中扮演着关键角色，其浓度的剧烈波动可能对妊娠后期的生理稳态造成破坏，进而触发早产机制。\n\n这一发现为理解早产的潜在病理机制提供了全新的视角。未来有望通过监测孕妇体内特定代谢辅酶的水平来预测早产风险，并开发相应的干预疗法，从而有效降低早产率，保障母婴健康。",
+    "category": "生物医药",
+    "tags": [
+      "早产",
+      "代谢辅酶",
+      "母婴健康",
+      "生物医学"
+    ],
+    "source": "MedicalXpress",
+    "time": "刚刚",
+    "ts": "2026-06-23T22:16:52.817642+00:00",
+    "url": "https://medicalxpress.com/news/2026-06-steep-metabolic-coenzyme-trigger-preterm.html",
+    "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/birth.jpg",
+    "stocks": []
+  },
+  {
+    "id": "037e19b88065ccdf",
+    "title": "联想新款RTX 5080游戏台式机大促，立省近1500美元",
+    "summary": "联想针对Legion Tower 7i Gen 10游戏台式机推出大幅促销，搭载RTX 5080与Core Ultra 7处理器，购机可立省近1500美元。",
+    "body": "联想近期针对其Legion Tower 7i Gen 10游戏台式机推出了大幅度的促销活动。该机型配备了英伟达RTX 5080显卡、英特尔Core Ultra 7 265K处理器以及32GB DDR5内存，整体硬件配置处于当前高端水平。\n\n在此次促销中，消费者购买该配置的游戏台式机可立即节省近1500美元。这一显著的优惠力度大幅降低了高端游戏PC的购机门槛，有望进一步刺激消费级高性能电脑市场的换机需求。",
+    "category": "消费电子",
+    "tags": [
+      "联想",
+      "游戏PC",
+      "RTX 5080",
+      "硬件促销"
+    ],
+    "source": "Tom's Hardware",
+    "time": "刚刚",
+    "ts": "2026-06-23T22:16:51.467939+00:00",
+    "url": "https://www.tomshardware.com/desktops/gaming-pcs/save-almost-usd1-500-instantly-on-an-rtx-5080-gaming-pc-legion-tower-7i-gen-10-packs-core-ultra-7-265k-and-32gb-ddr5",
+    "image": "https://cdn.mos.cms.futurecdn.net/dfgiP56bSJPhZViCQ6pwUD-1280-80.jpg",
+    "stocks": [
+      {
+        "name": "联想集团",
+        "ticker": "0992.HK",
+        "reason": "联想旗下Legion品牌高端游戏台式机大幅促销，有望提振其PC硬件业务销量与营收。",
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
+    "id": "ddffe3cf539cecbe",
+    "title": "大众新款电动小钢炮亮相，并非ID. Polo GTI",
+    "summary": "大众汽车正式发布了一款全新电动高性能掀背车，但该车并未采用此前外界猜测的ID. Polo GTI命名。",
+    "body": "大众汽车近日揭开了一款全新电动“小钢炮”（高性能掀背车）的面纱。此前外界普遍猜测该车型将被命名为ID. Polo GTI，但官方最终并未采用这一名称。\n\n这款新车的亮相标志着大众在电动化转型中继续丰富其紧凑型及高性能电动车产品线。此举显示了大众在小型电动车细分市场发力的决心，旨在吸引更多追求驾驶乐趣的消费者，进一步推动其新能源战略落地。",
+    "category": "未来能源",
+    "tags": [
+      "大众汽车",
+      "电动汽车",
+      "掀背车"
+    ],
+    "source": "Electrek",
+    "time": "刚刚",
+    "ts": "2026-06-23T22:16:50.158743+00:00",
+    "url": "https://electrek.co/2026/06/23/volkswagens-new-electric-hot-hatch-breaks-cover/",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "e0334a1051790cf0",
+    "title": "波音获美太空军20亿美元通信卫星合同",
+    "summary": "波音公司成功中标美国太空军价值20亿美元的通信卫星合同，进一步巩固其在国防航天领域的地位。",
+    "body": "据SpaceNews报道，波音公司近日赢得了一份来自美国太空军的重要合同，总价值高达20亿美元，主要用于通信卫星的研发与制造。\n\n这一巨额订单不仅为波音的航天业务带来了可观的收入预期，也凸显了美国军方对安全、可靠的天基通信能力的持续需求。在当前全球航天产业加速发展的背景下，此类大型国防卫星项目对提升太空基础设施具有重要意义。",
+    "category": "商业航天",
+    "tags": [
+      "波音",
+      "通信卫星",
+      "美国太空军",
+      "国防航天"
+    ],
+    "source": "SpaceNews",
+    "time": "刚刚",
+    "ts": "2026-06-23T22:16:43.742487+00:00",
+    "url": "https://spacenews.com/boeing-wins-2-billion-space-force-contract-for-communications-satellites/",
+    "image": "",
+    "stocks": [
+      {
+        "name": "波音",
+        "ticker": "BA",
+        "reason": "直接中标20亿美元卫星合同，显著增厚航天业务营收。",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "26f0438770d97f19",
+    "title": "特朗普将出席世界杯决赛并颁发奖杯",
+    "summary": "国际足联主席因凡蒂诺宣布，唐纳德·特朗普将出席世界杯决赛并亲自颁发冠军奖杯。",
+    "body": "国际足联主席因凡蒂诺近日宣布，唐纳德·特朗普将出席世界杯决赛，并将在赛后仪式上亲自为冠军球队颁发奖杯。这一消息确认了特朗普在赛事决赛阶段的具体行程。\n\n世界杯决赛作为全球瞩目的体育盛事，其颁奖环节备受各界关注。特朗普的出席不仅为赛事增添了额外的媒体焦点，也体现了国际足联在重大活动安排上的高层互动与考量。",
+    "category": "国际局势",
+    "tags": [
+      "世界杯",
+      "特朗普",
+      "国际足联"
+    ],
+    "source": "Al Jazeera",
+    "time": "刚刚",
+    "ts": "2026-06-23T22:16:40.046316+00:00",
+    "url": "https://www.aljazeera.com/sports/2026/6/23/donald-trump-to-attend-world-cup-final-present-trophy-infantino?traffic_source=rss",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "85d6ad3c5222eaf9",
+    "title": "华盛顿邮报被指未披露贝索斯数据中心利益",
+    "summary": "外媒指出《华盛顿邮报》在报道数据中心话题时，未能充分披露其所有者杰夫·贝索斯在该领域的财务利益。",
+    "body": "近日，有观点指出《华盛顿邮报》在涉及数据中心的报道中，可能存在利益冲突披露不足的问题。该报所有者杰夫·贝索斯在数据中心及相关云计算领域拥有重大的财务利益，但媒体在相关报道中并未对此进行充分说明。\n\n这一现象引发了外界对科技巨头旗下媒体在报道相关产业时，如何保持客观中立及透明度的讨论。在数据中心和人工智能基础设施备受关注的当下，媒体披露所有者的潜在利益关联对于维护新闻公信力具有重要意义。",
+    "category": "人工智能",
+    "tags": [
+      "华盛顿邮报",
+      "数据中心",
+      "贝索斯",
+      "媒体伦理"
+    ],
+    "source": "Hacker News",
+    "time": "刚刚",
+    "ts": "2026-06-23T22:16:33.278205+00:00",
+    "url": "https://washingtonian.com/2026/06/23/the-washington-post-loves-data-centers-a-lot-more-than-disclosing-jeff-bezos-financial-interest-in-promoting-them/",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "437b8ad71c1a7bd9",
+    "title": "流媒体播放无需升级：HDMI 2.0与2.1接口对比解析",
+    "summary": "针对流媒体播放场景，HDMI 2.0接口带宽已完全满足4K 60Hz需求，普通用户无需为观看流媒体专门升级至HDMI 2.1。",
+    "body": "HDMI 2.1接口虽然提供了高达48Gbps的带宽，支持4K 120Hz甚至8K分辨率，但这些高规格主要针对次世代游戏主机和高刷新率PC游戏玩家。对于绝大多数仅使用电视或显示器观看流媒体内容的用户而言，这些额外性能往往处于闲置状态。\n\n目前主流流媒体平台的最高画质通常为4K 60Hz，而HDMI 2.0的18Gbps带宽已能完美支持这一规格，并兼容HDR等主流画质增强技术。因此，除非有明确的高帧率游戏需求，普通消费者在选购电视或影音设备时，无需将HDMI 2.1作为必要的升级指标，这有助于消费者避免不必要的硬件溢价开支。",
+    "category": "消费电子",
+    "tags": [
+      "HDMI",
+      "流媒体",
+      "消费电子",
+      "影音设备"
+    ],
+    "source": "Engadget",
+    "time": "刚刚",
+    "ts": "2026-06-23T22:16:20.433210+00:00",
+    "url": "https://www.engadget.com/2200155/hdmi-2-0-vs-2-1-streaming-tv-upgrade/",
+    "image": "https://www.engadget.com/img/gallery/hdmi-2-0-vs-2-1-why-you-dont-need-the-upgrade-for-streaming/l-intro-1782245198.jpg",
+    "stocks": []
+  },
+  {
+    "id": "6bf96a004f0bb6b3",
+    "title": "MIT科技评论聚焦Heads in the game前沿技术",
+    "summary": "MIT科技评论发布相关报道，探讨头部设备或脑机接口等前沿科技的应用与发展。",
+    "body": "麻省理工科技评论（MIT Technology Review）发表了题为“Heads in the game”的文章。基于现有有限信息，该报道主要关注头部相关科技设备、脑机接口或人机交互技术在互动及相关领域的最新进展。\n\n此类前沿技术的探索与突破，不仅反映了科技媒体对下一代交互方式的持续关注，也有望为相关硬件设备及沉浸式体验带来新的产业启发与应用前景。",
+    "category": "消费电子",
+    "tags": [
+      "MIT科技评论",
+      "人机交互",
+      "前沿科技"
+    ],
+    "source": "MIT Tech Review",
+    "time": "刚刚",
+    "ts": "2026-06-23T22:16:19.474994+00:00",
+    "url": "https://www.technologyreview.com/2026/06/23/1138214/heads-in-the-game/",
+    "image": "https://wp.technologyreview.com/wp-content/uploads/2026/06/JA26-sports-03.jpg?w=1377",
+    "stocks": []
+  },
+  {
+    "id": "c5bf81cdb7ae4a43",
+    "title": "美警方首创使用无人机解除失能人员武装",
+    "summary": "美国警方宣布成功使用无人机解除一名丧失行动能力人员的武装，官方称此为全美首例。该事件展示了无人机在复杂警务场景中的创新应用与潜力。",
+    "body": "近日，美国警方宣布成功利用无人机解除了一名丧失行动能力人员的武装，官方将此称为全美首例。这一创新举措标志着无人机技术在执法领域的应用迈出了重要一步。\n\n在传统的警务行动中，面对处于危险状态或丧失行动能力的嫌疑人，执法人员往往面临较高的人身风险。通过引入无人机进行非接触式解除武装，警方能够有效降低警员和当事人的安全风险。\n\n此次事件展示了无人机在公共安全领域的巨大潜力，也为未来科技执法提供了新思路。随着相关技术的不断成熟，无人机在特种警务和应急救援中的应用前景将更加广阔。",
+    "category": "机器人",
+    "tags": [
+      "警用无人机",
+      "科技执法",
+      "公共安全"
+    ],
+    "source": "Ars Technica",
+    "time": "刚刚",
+    "ts": "2026-06-23T22:16:19.075029+00:00",
+    "url": "https://arstechnica.com/gadgets/2026/06/police-tout-using-drone-to-disarm-incapacitated-person-in-nationwide-first/",
+    "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/06/Screenshot-2026-06-23-at-3.43.31-PM-1152x648.png",
+    "stocks": []
+  },
+  {
+    "id": "7d4e0d6abbb4bb8e",
+    "title": "亚马逊会员日30美元以下16款最佳商品盘点",
+    "summary": "科技媒体Wired盘点了亚马逊Prime Day期间售价在30美元以下的16款最佳优惠商品，为消费者提供高性价比的购物参考。",
+    "body": "科技媒体Wired近日发布了一份亚马逊Prime Day购物指南，精选了16款售价在30美元以下的最佳优惠商品。该榜单旨在帮助消费者在年度促销活动中挖掘高性价比的科技与生活好物。\n\nPrime Day是亚马逊一年一度的大型促销活动，涵盖消费电子、智能家居及各类日常用品。此次Wired的推荐侧重于实用性与折扣力度，为预算有限的消费者提供了明确的购物指南。\n\n此类媒体导购盘点不仅反映了当前消费市场对高性价比产品的需求，也侧面体现了电商平台通过大规模促销活动刺激消费、增强用户粘性的商业策略。",
+    "category": "消费电子",
+    "tags": [
+      "亚马逊",
+      "Prime Day",
+      "消费电子",
+      "电商促销"
+    ],
+    "source": "Wired",
+    "time": "刚刚",
+    "ts": "2026-06-23T22:16:18.938546+00:00",
+    "url": "https://www.wired.com/story/best-amazon-prime-day-deals-under-30-june-2026-2/",
+    "image": "https://media.wired.com/photos/6a3a2e97ea2c52b725f77407/master/pass/The-Best-Amazon-Prime-Day-Deals-Under-$30.jpg",
+    "stocks": []
+  },
+  {
+    "id": "ad42fb824d2d361c",
+    "title": "AI邮件客户端Superhuman收购AI检测公司GPTZero",
+    "summary": "知名AI邮件应用Superhuman宣布收购AI内容检测初创公司GPTZero，旨在增强其产品的AI辅助与内容验证能力。",
+    "body": "知名人工智能邮件客户端Superhuman近日宣布收购AI生成内容检测初创公司GPTZero。GPTZero以其高精度的AI文本检测技术而闻名，广泛应用于教育和企业领域，帮助用户识别由大语言模型生成的内容。\n\n此次收购标志着Superhuman在AI应用领域的进一步布局。通过整合GPTZero的技术，Superhuman有望在其邮件处理工作流中引入更强大的内容分析与验证功能，从而提升用户在处理海量邮件时的效率与准确性。这也反映出AI应用厂商正通过并购加速技术整合，以构建更全面的AI工作流生态。",
+    "category": "人工智能",
+    "tags": [
+      "企业收购",
+      "人工智能",
+      "GPTZero",
+      "Superhuman"
+    ],
+    "source": "TechCrunch",
+    "time": "刚刚",
+    "ts": "2026-06-23T22:16:11.189729+00:00",
+    "url": "https://techcrunch.com/2026/06/23/superhuman-acquires-ai-detection-startup-gptzero/",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "b483da413c7fbe5d",
+    "title": "好莱坞拒发奥特曼传记片，影视业难挡AI浪潮",
+    "summary": "Netflix、A24等多家影视巨头据报放弃发行关于OpenAI CEO萨姆·奥特曼的传记电影《Artificial》。尽管拒发该片，好莱坞仍面临着AI技术带来的深刻行业变革。",
+    "body": "据媒体报道，Netflix、A24、焦点影业以及华纳兄弟旗下的Clockwork等多家好莱坞知名影视机构，均已决定放弃获取传记电影《Artificial》的发行权。该片由导演卢卡·瓜达尼诺执导，主要讲述OpenAI联合创始人兼首席执行官萨姆·奥特曼的故事。\n\n尽管多家影视巨头对该传记电影项目态度谨慎，但媒体以“好莱坞向OpenAI低头”为题，暗示了AI技术对传统影视行业的深刻影响。随着人工智能技术的飞速发展，好莱坞等传统内容制作中心正面临着技术变革带来的巨大压力与行业重塑。\n\n这一现象折射出科技与文娱领域的复杂互动。影视资本虽对AI领军人物的传记题材保持观望，但整个行业已无法忽视前沿AI技术对内容生产方式的颠覆性冲击。",
+    "category": "人工智能",
+    "tags": [
+      "OpenAI",
+      "萨姆·奥特曼",
+      "好莱坞",
+      "人工智能"
+    ],
+    "source": "The Verge",
+    "time": "12分钟前",
+    "ts": "2026-06-23T18:03:18-04:00",
+    "url": "https://www.theverge.com/entertainment/954899/luca-guadagnino-artificial-sam-altman-amazon-a24-neon-mubi-chatgpt",
+    "image": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/25431704/STK201_SAM_ALTMAN_CVIRGINIA_C.jpg?quality=90&#038;strip=all&#038;crop=4.7487503051758,18.543864880511,95.251249694824,81.456135119489",
+    "stocks": []
+  },
+  {
+    "id": "998f846bf8ca5344",
+    "title": "石头科技Saros 20扫地机器人亚马逊大促降价",
+    "summary": "石头科技Saros 20扫拖机器人凭借出色的自动化体验备受好评，在亚马逊Prime Day期间迎来240美元大幅优惠。",
+    "body": "对于消费者而言，最优秀的扫地机器人往往是那些无需过多干预、自动化程度高的产品，石头科技Saros 20正是其中的佼佼者。作为一款扫拖一体机器人，它凭借卓越的性能和省心体验，成为了科技媒体最青睐的产品之一。\n\n借由亚马逊Prime Day促销活动的契机，这款备受好评的扫拖机器人迎来了大幅降价，消费者在亚马逊平台上购买可享受240美元的直接优惠。此次大促不仅降低了高端智能家居设备的购买门槛，也有望进一步提振石头科技产品在海外市场的销量与品牌影响力。",
+    "category": "消费电子",
+    "tags": [
+      "石头科技",
+      "扫地机器人",
+      "Prime Day",
+      "智能家居"
+    ],
+    "source": "The Verge",
+    "time": "1小时前",
+    "ts": "2026-06-23T17:00:00-04:00",
+    "url": "https://www.theverge.com/gadgets/953936/roborock-saros-20-amazon-deal-sale",
+    "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/05/roborock-saros-20-climbing.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100",
+    "stocks": [
+      {
+        "name": "石头科技",
+        "ticker": "688169.SH",
+        "reason": "公司主力扫地机器人产品在海外大促期间降价促销，有望提振海外销量与市场份额。",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "8abf3b8d3b996e7a",
+    "title": "Meta Quest 3S头显亚马逊促销 售价回落至297美元",
+    "summary": "Meta入门级VR头显Quest 3S（128GB版）在亚马逊开启促销，售价降至296.79美元。该价格基本回落至其2024年发布时的首发水平。",
+    "body": "Meta旗下的入门级VR头显Quest 3S（128GB存储版）目前在亚马逊平台进行降价促销，现售价为296.79美元，较日常价格优惠约53美元。\n该产品于2024年正式发布，当时的首发价格为299.99美元，但今年官方将其售价上调至349.99美元。此次促销使得Quest 3S的实际到手价基本恢复到了最初的首发水平，有助于降低用户体验门槛并进一步推广Meta的VR生态。",
+    "category": "消费电子",
+    "tags": [
+      "Meta",
+      "VR头显",
+      "Quest 3S"
+    ],
+    "source": "The Verge",
+    "time": "1小时前",
+    "ts": "2026-06-23T17:00:00-04:00",
+    "url": "https://www.theverge.com/gadgets/954049/meta-quest-3s-vr-headset-prime-day-deal-sale",
+    "image": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/25826092/257467_Meta_Quest_3S_AKrales_0140.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100",
+    "stocks": [
+      {
+        "name": "Meta",
+        "ticker": "META",
+        "reason": "作为Quest 3S的制造商，降价促销有助于提升硬件销量及扩大VR生态用户基数。",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "134d61d5af4ddf1f",
+    "title": "亚马逊Prime Day大促开启，持续四天",
+    "summary": "亚马逊Prime Day促销活动正在进行中，将持续四天至6月27日，Prime会员可享受多款热门科技产品的折扣优惠。",
+    "body": "亚马逊年度Prime Day促销活动已正式开启，并将持续四天，直至美国东部时间6月27日凌晨结束。在此期间，Prime会员可以享受大量热门科技产品和装备的专属折扣。\n\n据The Verge报道，许多优惠力度在整个活动期间将保持不变，消费者有充足的时间挑选心仪的电子产品。此次大促涵盖了各类热门科技装备，为消费电子市场注入了短期的销售活力。\n\n对于行业而言，此类大型促销活动通常会刺激消费电子产品的短期销量，对参与促销的硬件品牌及电商平台具有积极的短期提振作用。",
+    "category": "消费电子",
+    "tags": [
+      "亚马逊",
+      "Prime Day",
+      "消费电子",
+      "电商促销"
+    ],
+    "source": "The Verge",
+    "time": "1小时前",
+    "ts": "2026-06-23T16:59:34-04:00",
+    "url": "https://www.theverge.com/gadgets/948610/best-prime-day-tech-deals-sale",
+    "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/06/268513_Amazon_Prime_Day_artwork_2.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100",
+    "stocks": [
+      {
+        "name": "亚马逊",
+        "ticker": "AMZN",
+        "reason": "作为Prime Day的主办方，大促将直接促进其商品交易总额及Prime会员订阅增长。",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
     "id": "9f44949a557794c8",
     "title": "创想三维3D打印机74件工具套装降至25.49美元",
     "summary": "创想三维推出包含74件维护工具的3D打印机套装，在Prime Day期间以25.49美元的历史最低价促销，并配备专用收纳盒。",
@@ -35333,6 +36338,6 @@ const newsData = [
   }
 ];
 const newsDigest = {
-  "text": "今日科技前沿聚焦AI应用突破与硬科技融资。豆包2.1赋能芯片设计，AI推理与医疗影像加速落地，利好算力及医疗IT；宜镁华获融资推动机器人轻量化，利好镁合金产业链；Rocket Lab创发射纪录，提振商业航天板块。",
+  "text": "今日科技前沿聚焦商业航天与具身智能，中国研发7米直径可复用火箭及超声波机器人手技术突破，利好航天装备与机器人产业链。此外，荣耀MagicOS升级与乳腺癌新机制发现，提振消费电子及创新药板块预期。",
   "highlights": []
 };
