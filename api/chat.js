@@ -2,7 +2,6 @@
 // 用 Qwen(阿里云 Anthropic 兼容端点),key 取 Vercel 环境变量 QWEN_KEY。
 const QWEN_URL = 'https://token-plan.cn-beijing.maas.aliyuncs.com/apps/anthropic/v1/messages';
 const QWEN_MODEL = 'qwen3.7-max';
-const QWEN_TIMEOUT_MS = 55000;
 
 function readBody(req) {
   return new Promise((resolve) => {
@@ -11,32 +10,6 @@ function readBody(req) {
     req.on('end', () => resolve(d));
     req.on('error', () => resolve(''));
   });
-}
-
-function fallbackAnswer(question, ctx) {
-  if (!ctx.length) return '暂时没有可用的今日资讯上下文。';
-  const used = {};
-  const picks = [];
-  ctx.forEach((n) => {
-    const c = n.category || '';
-    if (picks.length < 5 && !used[c]) {
-      used[c] = true;
-      picks.push(n);
-    }
-  });
-  ctx.forEach((n) => {
-    if (picks.length < 5 && !picks.includes(n)) picks.push(n);
-  });
-  const lines = picks.map((n, i) => `${i + 1}. ${n.title || '未命名资讯'}${n.category ? `（${n.category}）` : ''}`);
-  return [
-    'AI 这次响应超时了,没有生成完整回答。先给你列出和这个问题相关的资讯,可以稍后重试:',
-    '',
-    ...lines,
-    '',
-    question.includes('标的')
-      ? '关联标的需要模型进一步判断,这条兜底不直接给投资结论。'
-      : '这只是兜底结果,不是模型分析。'
-  ].join('\n');
 }
 
 module.exports = async function handler(req, res) {
@@ -63,24 +36,18 @@ module.exports = async function handler(req, res) {
     '不要编造资讯里没有的具体事实;若资讯里没有相关内容,如实说明,可做合理的常识性补充但要标明。中文回答,简洁有条理,控制在500字以内。';
   const prompt = `今日资讯列表(共${ctx.length}条):\n${ctxText}\n\n用户问题:${question}`;
 
-  let timer = null;
   try {
-    const controller = new AbortController();
-    timer = setTimeout(() => controller.abort(), QWEN_TIMEOUT_MS);
     const r = await fetch(QWEN_URL, {
       method: 'POST',
       headers: { 'x-api-key': key, 'anthropic-version': '2023-06-01', 'content-type': 'application/json' },
       body: JSON.stringify({ model: QWEN_MODEL, max_tokens: 700, system, messages: [{ role: 'user', content: prompt }] }),
-      signal: controller.signal,
     });
-    clearTimeout(timer);
-    timer = null;
     const d = await r.json();
+    if (!r.ok) return res.status(502).json({ error: d.error || `qwen HTTP ${r.status}` });
     const answer = (d.content || []).map((b) => (b && b.text) || '').join('').trim();
-    if (!answer) return res.status(200).json({ answer: fallbackAnswer(question, ctx), fallback: true });
+    if (!answer) return res.status(502).json({ error: 'no model answer' });
     return res.status(200).json({ answer });
   } catch (e) {
-    if (timer) clearTimeout(timer);
-    return res.status(200).json({ answer: fallbackAnswer(question, ctx), fallback: true, error: String(e) });
+    return res.status(502).json({ error: String(e) });
   }
 };
