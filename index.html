@@ -239,12 +239,14 @@
       chatBusy = true; document.getElementById('chatSend').disabled = true;
       var tip = addMsg('tip', '思考中…');
       try {
-        var ctx = ALL.slice(0, 120).map(function (n) { return { title: n.title, summary: n.summary, category: n.category }; });
+        var ctx = ALL.slice(0, 12).map(function (n) { return { title: n.title, summary: n.summary, category: n.category }; });
         var r = await fetch('/api/chat', {
           method: 'POST', headers: { 'content-type': 'application/json' },
           body: JSON.stringify({ question: q, context: ctx })
         });
-        var d = await r.json();
+        var raw = await r.text();
+        var d = {};
+        try { d = raw ? JSON.parse(raw) : {}; } catch (e) { d = { error: raw.slice(0, 120) }; }
         tip.remove();
         addMsg('ai', r.ok && d.answer ? d.answer : '抱歉,出错了:' + (d.error || ('HTTP ' + r.status)));
       } catch (e) {
