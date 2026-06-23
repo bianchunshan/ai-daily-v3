@@ -12,6 +12,58 @@ function readBody(req) {
   });
 }
 
+function stripHtml(s) {
+  return String(s || '')
+    .replace(/<[^>]+>/g, ' ')
+    .replace(/&quot;/g, '"')
+    .replace(/&#x27;/g, "'")
+    .replace(/&amp;/g, '&')
+    .replace(/&lt;/g, '<')
+    .replace(/&gt;/g, '>')
+    .replace(/\s+/g, ' ')
+    .trim();
+}
+
+function decodeDdgUrl(href) {
+  if (!href) return '';
+  try {
+    const url = new URL(href, 'https://duckduckgo.com');
+    const u = url.searchParams.get('uddg');
+    return u || url.href;
+  } catch (e) {
+    return href;
+  }
+}
+
+async function webSearch(query) {
+  const controller = new AbortController();
+  const timer = setTimeout(() => controller.abort(), 8000);
+  try {
+    const url = 'https://duckduckgo.com/html/?q=' + encodeURIComponent(query);
+    const r = await fetch(url, {
+      headers: { 'user-agent': 'Mozilla/5.0' },
+      signal: controller.signal,
+    });
+    const html = await r.text();
+    const blocks = html.split('result__body').slice(1, 6);
+    return blocks.map((b) => {
+      const href = /class="result__a"[^>]+href="([^"]+)"/.exec(b);
+      const title = /class="result__a"[^>]*>([\s\S]*?)<\/a>/.exec(b);
+      const snippet = /class="result__snippet"[^>]*>([\s\S]*?)<\/a>/.exec(b) ||
+        /class="result__snippet"[^>]*>([\s\S]*?)<\/div>/.exec(b);
+      return {
+        title: stripHtml(title && title[1]),
+        snippet: stripHtml(snippet && snippet[1]),
+        url: decodeDdgUrl(href && href[1]),
+      };
+    }).filter((x) => x.title || x.snippet);
+  } catch (e) {
+    return [];
+  } finally {
+    clearTimeout(timer);
+  }
+}
+
 module.exports = async function handler(req, res) {
   if (req.method !== 'POST') return res.status(405).json({ error: 'POST only' });
   const key = process.env.QWEN_KEY;
@@ -27,20 +79,26 @@ module.exports = async function handler(req, res) {
   const question = String((body && body.question) || '').trim().slice(0, 500);
   if (!question) return res.status(400).json({ error: 'empty question' });
 
-  const ctx = Array.isArray(body && body.context) ? body.context.slice(0, 12) : [];
+  const ctx = Array.isArray(body && body.context) ? body.context.slice(0, 80) : [];
   const ctxText = ctx
-    .map((n, i) => `${i + 1}. [${n.category || ''}] ${n.title || ''}｜${String(n.summary || '').slice(0, 60)}`)
+    .map((n, i) => `${i + 1}. [${n.category || ''}] ${n.title || ''}｜${String(n.summary || '').slice(0, 120)}${n.url ? `｜${n.url}` : ''}`)
     .join('\n');
 
-  const system = '你是「前沿科技日报」的 AI 助手。优先依据用户提供的今日资讯列表回答问题或做分析,' +
-    '不要编造资讯里没有的具体事实;若资讯里没有相关内容,如实说明,可做合理的常识性补充但要标明。中文回答,简洁有条理,控制在500字以内。';
-  const prompt = `今日资讯列表(共${ctx.length}条):\n${ctxText}\n\n用户问题:${question}`;
+  const searchResults = await webSearch(`${question} 最新 科技 新闻`);
+  const searchText = searchResults.length
+    ? searchResults.map((r, i) => `${i + 1}. ${r.title}｜${r.snippet}｜${r.url}`).join('\n')
+    : '无可用网页检索结果。';
+
+  const system = '你是「前沿科技日报」的 AI 助手。用户会给你站内资讯和网页检索结果。你应先判断问题需要什么信息,再决定如何回答。' +
+    '不要只机械复述列表;如果站内资讯不足,结合网页检索结果和常识补足,并明确哪些来自站内资讯、哪些来自检索或常识。' +
+    '中文回答。可以自然组织结构,但需要给出简短的“判断过程/依据”,说明你用了哪些信息、是否检索、还有什么不确定。';
+  const prompt = `站内资讯(共${ctx.length}条):\n${ctxText}\n\n网页检索结果:\n${searchText}\n\n用户问题:${question}`;
 
   try {
     const r = await fetch(QWEN_URL, {
       method: 'POST',
       headers: { 'x-api-key': key, 'anthropic-version': '2023-06-01', 'content-type': 'application/json' },
-      body: JSON.stringify({ model: QWEN_MODEL, max_tokens: 700, system, messages: [{ role: 'user', content: prompt }] }),
+      body: JSON.stringify({ model: QWEN_MODEL, max_tokens: 1600, system, messages: [{ role: 'user', content: prompt }] }),
     });
     const d = await r.json();
     if (!r.ok) return res.status(502).json({ error: d.error || `qwen HTTP ${r.status}` });
