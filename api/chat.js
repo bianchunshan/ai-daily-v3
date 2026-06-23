@@ -37,7 +37,7 @@ function decodeDdgUrl(href) {
 
 async function webSearch(query) {
   const controller = new AbortController();
-  const timer = setTimeout(() => controller.abort(), 8000);
+  const timer = setTimeout(() => controller.abort(), 12000);
   try {
     const url = 'https://duckduckgo.com/html/?q=' + encodeURIComponent(query);
     const r = await fetch(url, {
@@ -46,7 +46,7 @@ async function webSearch(query) {
     });
     const html = await r.text();
     const blocks = html.split('result__body').slice(1, 6);
-    return blocks.map((b) => {
+    const direct = blocks.map((b) => {
       const href = /class="result__a"[^>]+href="([^"]+)"/.exec(b);
       const title = /class="result__a"[^>]*>([\s\S]*?)<\/a>/.exec(b);
       const snippet = /class="result__snippet"[^>]*>([\s\S]*?)<\/a>/.exec(b) ||
@@ -55,6 +55,20 @@ async function webSearch(query) {
         title: stripHtml(title && title[1]),
         snippet: stripHtml(snippet && snippet[1]),
         url: decodeDdgUrl(href && href[1]),
+      };
+    }).filter((x) => x.title || x.snippet);
+    if (direct.length) return direct;
+
+    const jinaUrl = 'https://r.jina.ai/http://r.jina.ai/http://https://duckduckgo.com/html/?q=' + encodeURIComponent(query);
+    const jr = await fetch(jinaUrl, { signal: controller.signal });
+    const md = await jr.text();
+    const matches = [...md.matchAll(/## \[([^\]]+)\]\(([^)]+)\)([\s\S]*?)(?=\n## |\n\[Feedback\]|\n!\[|$)/g)].slice(0, 5);
+    return matches.map((m) => {
+      const snippet = /\n\[([^\]]{20,500})\]\([^)]+\)/.exec(m[3]);
+      return {
+        title: stripHtml(m[1]),
+        snippet: stripHtml(snippet && snippet[1]),
+        url: decodeDdgUrl(m[2]),
       };
     }).filter((x) => x.title || x.snippet);
   } catch (e) {
