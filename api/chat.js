@@ -2,7 +2,7 @@
 // 用 Qwen(阿里云 Anthropic 兼容端点),key 取 Vercel 环境变量 QWEN_KEY。
 const QWEN_URL = 'https://token-plan.cn-beijing.maas.aliyuncs.com/apps/anthropic/v1/messages';
 const QWEN_MODEL = 'qwen3.7-max';
-const QWEN_TIMEOUT_MS = 18000;
+const QWEN_TIMEOUT_MS = 10000;
 
 function readBody(req) {
   return new Promise((resolve) => {
@@ -15,7 +15,18 @@ function readBody(req) {
 
 function fallbackAnswer(question, ctx) {
   if (!ctx.length) return '暂时没有可用的今日资讯上下文。';
-  const picks = ctx.slice(0, 5);
+  const used = {};
+  const picks = [];
+  ctx.forEach((n) => {
+    const c = n.category || '';
+    if (picks.length < 5 && !used[c]) {
+      used[c] = true;
+      picks.push(n);
+    }
+  });
+  ctx.forEach((n) => {
+    if (picks.length < 5 && !picks.includes(n)) picks.push(n);
+  });
   const lines = picks.map((n, i) => `${i + 1}. ${n.title || '未命名资讯'}${n.category ? `（${n.category}）` : ''}`);
   return [
     'AI 响应较慢,先按最新资讯给你一个本地摘要:',

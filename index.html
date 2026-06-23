@@ -229,6 +229,36 @@
         el.onclick = function () { document.getElementById('chatInput').value = el.textContent; sendChat(); };
       });
     }
+    function pickChatContext(q) {
+      var pool = ALL;
+      var rules = [
+        { re: /AI|人工智能|大模型|OpenAI|英伟达|算力|芯片/i, cat: '人工智能' },
+        { re: /机器人|具身/i, cat: '机器人' },
+        { re: /航天|卫星|火箭|SpaceX/i, cat: '商业航天' },
+        { re: /能源|电池|核电|光伏/i, cat: '未来能源' },
+        { re: /量子/i, cat: '量子科技' },
+        { re: /医药|生物|医疗|药/i, cat: '生物医药' },
+        { re: /国际|局势|战争|欧盟|美国|中国/i, cat: '国际局势' },
+        { re: /手机|电脑|消费|硬件|设备/i, cat: '消费电子' }
+      ];
+      for (var i = 0; i < rules.length; i++) {
+        if (rules[i].re.test(q)) {
+          var hit = ALL.filter(function (n) { return n.category === rules[i].cat; });
+          if (hit.length) { pool = hit; break; }
+        }
+      }
+      var picked = [], seenCat = {};
+      pool.forEach(function (n) {
+        if (picked.length < 12 && !seenCat[n.category]) {
+          seenCat[n.category] = true;
+          picked.push(n);
+        }
+      });
+      pool.forEach(function (n) {
+        if (picked.length < 12 && picked.indexOf(n) < 0) picked.push(n);
+      });
+      return picked.map(function (n) { return { title: n.title, summary: n.summary, category: n.category }; });
+    }
     async function sendChat() {
       if (chatBusy) return;
       var inp = document.getElementById('chatInput');
@@ -239,7 +269,7 @@
       chatBusy = true; document.getElementById('chatSend').disabled = true;
       var tip = addMsg('tip', '思考中…');
       try {
-        var ctx = ALL.slice(0, 12).map(function (n) { return { title: n.title, summary: n.summary, category: n.category }; });
+        var ctx = pickChatContext(q);
         var r = await fetch('/api/chat', {
           method: 'POST', headers: { 'content-type': 'application/json' },
           body: JSON.stringify({ question: q, context: ctx })
