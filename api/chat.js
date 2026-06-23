@@ -60,7 +60,7 @@ module.exports = async function handler(req, res) {
     .join('\n');
 
   const system = '你是「前沿科技日报」的 AI 助手。优先依据用户提供的今日资讯列表回答问题或做分析,' +
-    '不要编造资讯里没有的具体事实;若资讯里没有相关内容,如实说明,可做合理的常识性补充但要标明。中文回答,简洁有条理。';
+    '不要编造资讯里没有的具体事实;若资讯里没有相关内容,如实说明,可做合理的常识性补充但要标明。中文回答,简洁有条理,控制在500字以内。';
   const prompt = `今日资讯列表(共${ctx.length}条):\n${ctxText}\n\n用户问题:${question}`;
 
   let timer = null;
@@ -70,7 +70,7 @@ module.exports = async function handler(req, res) {
     const r = await fetch(QWEN_URL, {
       method: 'POST',
       headers: { 'x-api-key': key, 'anthropic-version': '2023-06-01', 'content-type': 'application/json' },
-      body: JSON.stringify({ model: QWEN_MODEL, max_tokens: 450, system, messages: [{ role: 'user', content: prompt }] }),
+      body: JSON.stringify({ model: QWEN_MODEL, max_tokens: 700, system, messages: [{ role: 'user', content: prompt }] }),
       signal: controller.signal,
     });
     clearTimeout(timer);
