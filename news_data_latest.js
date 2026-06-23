@@ -1,5 +1,1027 @@
 const newsData = [
   {
+    "id": "8fc74c4c88eb89aa",
+    "title": "捷尼赛思超豪华SUV GV90确定上市时间",
+    "summary": "捷尼赛思旗下超豪华SUV车型GV90终于确定了上市时间，标志着该品牌在高端汽车市场的进一步布局。",
+    "body": "近日，据外媒报道，捷尼赛思（Genesis）旗下的超豪华SUV车型GV90终于迎来了明确的上市时间表。这款备受瞩目的车型旨在进军超豪华汽车市场，与顶级豪华品牌展开直接竞争。\n\nGV90的推出不仅是捷尼赛思品牌向上突破的重要战略步骤，也展示了其在高端出行领域的野心。随着发布日期的临近，市场对该车型的具体配置、动力系统以及豪华体验充满期待。\n\n该车型的正式亮相将进一步加剧超豪华SUV市场的竞争，并为高端消费者提供更多元化的选择。业界正密切关注其上市后的市场表现及对现有豪华车格局的影响。",
+    "category": "未来能源",
+    "tags": [
+      "捷尼赛思",
+      "GV90",
+      "豪华SUV",
+      "新能源汽车"
+    ],
+    "source": "Electrek",
+    "time": "刚刚",
+    "ts": "2026-06-23T18:02:20.279738+00:00",
+    "url": "https://electrek.co/2026/06/23/genesis-gv90-launch-date/",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "5d6c048cef9f0ea9",
+    "title": "索尼发布科幻电影《克拉拉与太阳》预告片",
+    "summary": "索尼影业正式发布了由塔伊加·维迪提执导的科幻电影《克拉拉与太阳》首支预告片。该片改编自诺贝尔文学奖得主石黑一雄的同名小说，聚焦人工智能与人类情感主题。",
+    "body": "索尼影业近日发布了科幻电影《克拉拉与太阳》的最新预告片。该片由知名导演塔伊加·维迪提执导，改编自诺贝尔文学奖得主石黑一雄的同名畅销小说。\n\n《克拉拉与太阳》以人工智能为背景，讲述了一个名为克拉拉的“人造朋友”观察并试图理解人类情感的故事。影片探讨了AI发展、机器人伦理以及人类意识的深刻命题。\n\n此次预告片的发布不仅展现了索尼在科幻影视内容上的持续布局，也引发了公众对人工智能与人类未来关系的广泛探讨。作为出品方，索尼有望借此进一步丰富其影视IP矩阵。",
+    "category": "人工智能",
+    "tags": [
+      "索尼影业",
+      "克拉拉与太阳",
+      "科幻电影",
+      "人工智能"
+    ],
+    "source": "Ars Technica",
+    "time": "刚刚",
+    "ts": "2026-06-23T18:02:17.338375+00:00",
+    "url": "https://arstechnica.com/culture/2026/06/taika-waititi-brings-more-dramatic-tone-to-klara-and-the-sun-trailer/",
+    "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/06/klara1-1152x648.jpg",
+    "stocks": [
+      {
+        "name": "索尼",
+        "ticker": "SONY",
+        "reason": "作为电影出品与发行方，有望通过票房及流媒体版权获得直接收益。",
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
+    "id": "bebd03d4d1826c2e",
+    "title": "中国可重复使用航天器在轨释放神秘物体",
+    "summary": "据外媒报道，中国可重复使用试验航天器近期在地球轨道上释放了一个未知物体，引发外界对其太空任务性质的广泛关注。",
+    "body": "据Space.com报道，中国的一架可重复使用航天器（空天飞机）近期在地球轨道上执行任务时，似乎释放了一个神秘物体。这一动态被太空追踪观测者捕捉到，引发了国际航天界的密切关注。\n\n虽然目前关于该释放物体的具体性质和任务目的尚未有官方详细披露，但此类在轨操作展示了中国在太空机动、在轨服务以及可重复使用航天技术方面的成熟能力。\n\n可重复使用航天器是未来太空探索和经济活动的重要载体。此次在轨释放物体的成功操作，不仅彰显了中国在前沿太空技术领域的持续突破，也为未来复杂的太空任务和在轨维护奠定了技术基础。",
+    "category": "商业航天",
+    "tags": [
+      "可重复使用航天器",
+      "太空探索",
+      "在轨释放",
+      "中国航天"
+    ],
+    "source": "Space.com",
+    "time": "刚刚",
+    "ts": "2026-06-23T18:02:12.164491+00:00",
+    "url": "https://www.space.com/space-exploration/launches-spacecraft/chinas-space-plane-appears-to-have-released-a-mystery-object-in-orbit",
+    "image": "https://cdn.mos.cms.futurecdn.net/QUg55LuvZjoEbWWeoedWJU-1280-80.jpg",
+    "stocks": []
+  },
+  {
+    "id": "fc2a584fa6cfe732",
+    "title": "阿里云赋能小鹏、Kimi与猎豹，算力底座助力AI与智驾",
+    "summary": "国内云计算龙头阿里云为小鹏汽车、Kimi及猎豹移动提供算力与云服务支持，助力其在智能驾驶与AI大模型领域的业务发展。",
+    "body": "作为国内云计算市场的领军者，阿里云近期与多家科技企业深化合作，为小鹏汽车、月之暗面（Kimi）以及猎豹移动等企业提供强大的底层算力与云服务支持。此举彰显了其在AI和智能驾驶等前沿领域的算力基础设施优势。\n\n在AI大模型与智能汽车快速发展的背景下，算力需求呈指数级增长。阿里云通过提供高效、稳定的云计算资源，有效助力Kimi提升大模型训练与推理效率，帮助小鹏汽车加速自动驾驶算法迭代，并支持猎豹移动在AI应用上的拓展。这种深度的算力赋能，正成为推动国内科技创新的重要引擎。",
+    "category": "人工智能",
+    "tags": [
+      "阿里云",
+      "AI算力",
+      "大模型",
+      "智能驾驶"
+    ],
+    "source": "量子位",
+    "time": "刚刚",
+    "ts": "2026-06-23T18:02:06.819969+00:00",
+    "url": "https://www.qbitai.com/2026/06/437672.html",
+    "image": "",
+    "stocks": [
+      {
+        "name": "阿里巴巴",
+        "ticker": "09988.HK",
+        "reason": "阿里云是其核心业务，算力需求增长及大客户合作深化将直接提升云业务营收。",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "3a4f9cda0d467093",
+    "title": "美伊达成协议，数十艘船只通过霍尔木兹海峡",
+    "summary": "美伊达成相关协议后，霍尔木兹海峡航运迅速恢复，数十艘船只顺利通过该重要水道。",
+    "body": "近日，随着美国与伊朗达成相关协议，中东地区的紧张局势有所缓解。作为全球最重要的石油运输通道之一，霍尔木兹海峡的航运活动迅速恢复。\n\n据多方消息证实，在协议达成后，已有数十艘船只顺利通过霍尔木兹海峡。这一进展不仅保障了国际能源供应链的稳定，也对全球航运和大宗商品市场产生了积极影响。\n\n霍尔木兹海峡的畅通对于全球能源安全至关重要。此次美伊协议的落实，为国际原油运输提供了重要保障，有助于平抑因地区冲突风险带来的能源价格波动，对全球宏观经济稳定具有深远意义。",
+    "category": "国际局势",
+    "tags": [
+      "国际局势",
+      "霍尔木兹海峡",
+      "美伊协议",
+      "能源运输"
+    ],
+    "source": "BBC World",
+    "time": "刚刚",
+    "ts": "2026-06-23T18:02:04.445150+00:00",
+    "url": "https://www.bbc.co.uk/news/articles/cx23rnzdgl8o?at_medium=RSS&at_campaign=rss",
+    "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/bd09/live/958bc530-6f09-11f1-8546-8f19e4fe30f4.png",
+    "stocks": []
+  },
+  {
+    "id": "76799dd2f062d6f5",
+    "title": "欧盟首次接待塔利班官员商讨遣返问题",
+    "summary": "欧盟首次接待塔利班官员，双方就阿富汗难民遣返问题展开会谈。",
+    "body": "欧盟首次正式接待塔利班官员，双方主要围绕阿富汗难民的遣返问题展开磋商。此举标志着欧盟与塔利班在务实层面的接触有所增加。\n\n这一会谈反映出欧洲在处理阿富汗移民和难民问题上面临的现实压力，同时也凸显了塔利班在国际外交舞台上寻求更多互动与认可的意图。未来双方在此类议题上的进展，将对相关地区局势及移民政策产生一定影响。",
+    "category": "国际局势",
+    "tags": [
+      "欧盟",
+      "塔利班",
+      "难民遣返",
+      "外交"
+    ],
+    "source": "Al Jazeera",
+    "time": "刚刚",
+    "ts": "2026-06-23T18:02:03.374917+00:00",
+    "url": "https://www.aljazeera.com/news/2026/6/23/eu-hosts-taliban-officials-for-the-first-time-in-talks-on-deportations?traffic_source=rss",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "b3d523be00ae9693",
+    "title": "2026年Prime Day Switch 2最佳配件推荐",
+    "summary": "Tom's Hardware发布了2026年Prime Day期间任天堂Switch 2的最佳配件推荐，涵盖手柄、摄像头、保护壳及屏幕保护膜等产品。",
+    "body": "知名科技媒体Tom's Hardware近日发布了2026年Prime Day购物节期间的任天堂Switch 2最佳配件推荐清单。该清单全面涵盖了玩家所需的多类周边产品，包括游戏手柄、摄像头、保护壳以及屏幕保护膜等。\n\n此次推荐旨在帮助消费者在促销期间挑选最具性价比和实用性的Switch 2配件。随着新一代主机的普及，丰富的配件生态将进一步提升玩家的游戏体验，同时也反映出游戏主机周边市场的持续繁荣。",
+    "category": "消费电子",
+    "tags": [
+      "任天堂",
+      "Switch 2",
+      "Prime Day",
+      "游戏配件"
+    ],
+    "source": "Tom's Hardware",
+    "time": "刚刚",
+    "ts": "2026-06-23T18:01:48.635104+00:00",
+    "url": "https://www.tomshardware.com/video-games/handheld-gaming/the-best-switch-2-accessories-prime-day-2026-controllers-cameras-cases-screen-protectors-and-more",
+    "image": "https://cdn.mos.cms.futurecdn.net/tCnAnNT9UBbH3QxQmuTooF-1280-80.jpg",
+    "stocks": []
+  },
+  {
+    "id": "7ddea3063827a319",
+    "title": "Claude 接管 Slack：AI 助手将取代传统 Slackbot",
+    "summary": "Anthropic 旗下 AI 模型 Claude 正深度整合至 Slack 平台，有望取代传统 Slackbot 提供更智能的交互体验。",
+    "body": "据 Engadget 报道，Anthropic 的 AI 模型 Claude 正在接管 Slack 平台中的传统机器人工作，逐步取代原有的 Slackbot。\n\n这一转变标志着企业级协作工具正加速向生成式人工智能演进。Claude 的引入有望大幅提升信息检索与任务自动化的效率，凸显大模型在企业办公场景的落地价值。",
+    "category": "人工智能",
+    "tags": [
+      "Claude",
+      "Slack",
+      "企业级AI",
+      "Anthropic"
+    ],
+    "source": "Engadget",
+    "time": "刚刚",
+    "ts": "2026-06-23T18:01:48.164477+00:00",
+    "url": "https://www.engadget.com/2199619/anthropic-announces-claude-tag-for-slack/",
+    "image": "https://www.engadget.com/img/gallery/anthropic-announces-claude-tag-for-slack/l-intro-1782235677.jpg",
+    "stocks": [
+      {
+        "name": "Salesforce",
+        "ticker": "CRM",
+        "reason": "作为 Slack 母公司，集成 Claude 将显著提升其企业协作产品的 AI 竞争力与用户粘性。",
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
+    "id": "8c141d92d7552f69",
+    "title": "扎克伯格指示Meta开发预测市场应用",
+    "summary": "据报道，Meta首席执行官马克·扎克伯格已指示团队开发一款预测市场应用程序，以探索新的用户互动模式。",
+    "body": "近日，据相关消息透露，Meta首席执行官马克·扎克伯格已指示公司开发一款全新的预测市场应用程序。此举表明Meta正试图在现有社交网络之外，探索更多高互动性的产品形态与用户参与模式。\n\n预测市场应用通常允许用户对现实世界中的各类事件结果进行预测。如果Meta成功推出该产品，凭借其庞大的全球用户基础，可能会对现有的预测市场平台形成有力竞争，并进一步提升用户在平台内的活跃度与停留时间。",
+    "category": "消费电子",
+    "tags": [
+      "Meta",
+      "预测市场",
+      "扎克伯格",
+      "社交应用"
+    ],
+    "source": "Hacker News",
+    "time": "刚刚",
+    "ts": "2026-06-23T18:01:47.400204+00:00",
+    "url": "https://www.nytimes.com/2026/06/23/technology/meta-prediction-markets-app.html",
+    "image": "",
+    "stocks": [
+      {
+        "name": "Meta Platforms",
+        "ticker": "META",
+        "reason": "预测市场应用有望依托Meta庞大的用户基数提升平台活跃度与用户停留时间，直接利好公司核心生态。",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "85f759931b148016",
+    "title": "Loft Orbital将在航天器上测试地球观测AI模型",
+    "summary": "Loft Orbital 计划在航天器上测试用于地球观测的人工智能模型，以提升在轨数据处理与分析能力。",
+    "body": "太空基础设施提供商 Loft Orbital 宣布，将在其航天器上测试用于地球观测的人工智能模型。此举旨在探索在太空中直接处理地球观测数据的能力，从而减少对地面数据传输的依赖并降低延迟。\n\n通过在轨运行AI模型，航天器能够更快速地分析和筛选海量观测数据，仅将高价值的信息传回地球。这不仅提高了地球观测任务的整体效率，也为未来商业航天和太空边缘计算的发展提供了重要的技术验证与应用前景。",
+    "category": "商业航天",
+    "tags": [
+      "商业航天",
+      "人工智能",
+      "地球观测",
+      "边缘计算"
+    ],
+    "source": "SpaceNews",
+    "time": "刚刚",
+    "ts": "2026-06-23T18:01:40.264650+00:00",
+    "url": "https://spacenews.com/loft-orbital-to-test-ai-models-on-spacecraft-for-earth-observation/",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "71d9286e6da159c7",
+    "title": "HaloBraid获700万美元融资，旨在缩短美发沙龙耗时",
+    "summary": "美发科技初创公司HaloBraid宣布获得Seven Seven Six基金700万美元融资，致力于通过技术创新大幅缩短传统美发沙龙的服务时间。",
+    "body": "近日，美发科技初创公司HaloBraid宣布完成700万美元融资，本轮投资由知名创投基金Seven Seven Six领投。该笔资金将主要用于技术研发和市场拓展，以推动其核心业务的落地与规模化。\n\nHaloBraid致力于解决传统美发沙龙中服务时间过长的问题，特别是针对耗时较长的编发等复杂项目。公司希望通过技术创新或优化服务流程，将原本可能长达六小时的沙龙预约时间大幅缩短，从而提升消费者体验与门店运营效率。\n\n此次融资体现了资本市场对美业科技化与效率化升级的认可，预示着未来线下个人护理服务有望借助科技手段实现高效化转型，为行业带来新的商业模式与增长空间。",
+    "category": "消费电子",
+    "tags": [
+      "美发科技",
+      "早期融资",
+      "消费科技"
+    ],
+    "source": "TechCrunch",
+    "time": "刚刚",
+    "ts": "2026-06-23T18:01:23.017827+00:00",
+    "url": "https://techcrunch.com/2026/06/23/halobraid-raises-7m-from-seven-seven-six-to-end-the-six-hour-hair-salon-appointment/",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "e272bd7c42a8c339",
+    "title": "Wired发布2026年6月最佳流媒体电影推荐",
+    "summary": "《连线》杂志发布了2026年6月的最佳流媒体电影推荐指南，为观众梳理本月值得观看的影视内容。",
+    "body": "《连线》（Wired）杂志近日发布了2026年6月的最佳流媒体电影推荐名单。该指南旨在帮助观众在各大流媒体平台上筛选出本月最具观看价值的影视作品。\n\n此类推荐涵盖了多种题材与类型，反映了当前流媒体平台在内容制作和版权引进方面的最新趋势。这不仅是娱乐消费指南，也侧面体现了流媒体服务在数字内容生态中的持续影响力。",
+    "category": "消费电子",
+    "tags": [
+      "流媒体",
+      "影视娱乐",
+      "数字内容"
+    ],
+    "source": "Wired",
+    "time": "刚刚",
+    "ts": "2026-06-23T18:01:16.905484+00:00",
+    "url": "https://www.wired.com/story/the-12-best-movies-to-stream-right-now/",
+    "image": "https://media.wired.com/photos/6a39b1cb9d6ce4c64a795287/master/pass/culture_I_am_Frankelda_still_Look.jpg",
+    "stocks": []
+  },
+  {
+    "id": "b40bc1f73ba1bc39",
+    "title": "FFmpeg曝高危漏洞：恶意视频可控制系统，官方已修复",
+    "summary": "开源多媒体框架FFmpeg被发现存在高危安全漏洞，攻击者可通过编解码恶意视频控制目标系统。目前官方已发布修复补丁。",
+    "body": "近日，广泛使用的开源多媒体框架FFmpeg被曝出存在高危安全漏洞。该漏洞允许攻击者通过构造恶意的视频文件，在目标设备上进行编解码操作时触发，进而可能导致整个系统被黑客完全控制。\n\nFFmpeg作为全球众多音视频播放器、流媒体服务和处理工具的底层核心组件，其安全性直接影响着海量终端设备与服务器。此次漏洞的暴露再次凸显了开源底层组件供应链安全的重要性。\n\n目前，FFmpeg官方已经针对该漏洞发布了修复补丁。安全专家建议所有使用FFmpeg的企业和开发者尽快更新至最新安全版本，以防范潜在的远程代码执行攻击风险。",
+    "category": "消费电子",
+    "tags": [
+      "FFmpeg",
+      "安全漏洞",
+      "开源软件",
+      "网络安全"
+    ],
+    "source": "IT之家",
+    "time": "刚刚",
+    "ts": "2026-06-23T18:01:16.886394+00:00",
+    "url": "https://www.ithome.com/0/967/699.htm",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "01a3cf7931370ae3",
+    "title": "DHL采用风力驱动船只跨大西洋运输货物",
+    "summary": "国际物流巨头DHL宣布使用风力驱动的货船进行跨大西洋运输，旨在降低碳排放并推动绿色航运发展。",
+    "body": "国际物流巨头DHL正致力于推进供应链的可持续发展，宣布将采用风力驱动的船只进行跨大西洋的货物运输。这一举措旨在大幅降低海运过程中的碳排放，积极响应全球减排目标。\n\n风力驱动船舶结合了现代航海技术与传统风能利用，代表了绿色航运的重要发展方向。DHL此举不仅有助于其实现自身的碳中和承诺，也为全球物流行业的绿色转型提供了示范效应，推动风能等清洁能源在重型运输领域的进一步应用。",
+    "category": "未来能源",
+    "tags": [
+      "DHL",
+      "绿色航运",
+      "风力船舶",
+      "碳中和"
+    ],
+    "source": "Electrek",
+    "time": "刚刚",
+    "ts": "2026-06-23T18:00:56.655959+00:00",
+    "url": "https://electrek.co/2026/06/23/dhl-vela-cargo-wind-powered-ships-atlantic/",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "a09d72c72ad23a39",
+    "title": "拼多多打破租赁惯例，在雄安新区购置整栋办公楼",
+    "summary": "一直以租赁办公为主的拼多多近期在雄安新区购置了一栋办公楼。此举标志着该公司在资产配置和区域战略布局上迈出实质性步伐。",
+    "body": "长期以来，拼多多在办公场地的选择上主要采取租赁模式，以维持轻资产运营的灵活性。近期，该公司打破惯例，在雄安新区购置了一栋办公楼，引发了市场关注。\n\n此举标志着拼多多在资产配置与区域战略上的重要调整。通过购置实体资产，公司不仅能为业务团队提供更稳定的办公环境，也显示出对雄安新区发展潜力及营商环境的认可。",
+    "category": "消费电子",
+    "tags": [
+      "拼多多",
+      "雄安新区",
+      "企业战略",
+      "资产配置"
+    ],
+    "source": "36氪",
+    "time": "刚刚",
+    "ts": "2026-06-23T18:00:56.471856+00:00",
+    "url": "https://36kr.com/p/3865625576297476?f=rss",
+    "image": "",
+    "stocks": [
+      {
+        "name": "拼多多",
+        "ticker": "PDD",
+        "reason": "作为购置办公楼的主体，此举有助于优化公司资产结构并深化区域战略布局。",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "9d3dd391bd619262",
+    "title": "夜空中或现“新星”：罕见恒星爆炸本周有望上演",
+    "summary": "受罕见的恒星爆炸影响，本周夜空中有望出现一颗肉眼可见的“新星”，为公众提供一生一次的观测机会。",
+    "body": "据Space.com报道，本周夜空中有望出现一颗罕见的“新星”。这一天文奇观源于一次极为罕见的恒星爆炸事件，其亮度预计足以让地球上的观测者直接观测到。\n\n这种被称为“一生一次”的爆炸现象，通常涉及恒星系统的剧烈活动与能量释放。此次事件不仅为公众提供了难得的星空观测机会，也将为天文学家研究恒星物理和宇宙演化提供重要的观测数据。",
+    "category": "商业航天",
+    "tags": [
+      "天文观测",
+      "新星爆发",
+      "太空探索"
+    ],
+    "source": "Space.com",
+    "time": "刚刚",
+    "ts": "2026-06-23T18:00:49.188781+00:00",
+    "url": "https://www.space.com/stargazing/a-new-star-could-finally-appear-in-the-night-sky-this-week-thanks-to-a-once-in-a-lifetime-explosion",
+    "image": "https://cdn.mos.cms.futurecdn.net/yTagv3APhFBG5xHJbaq97K-1280-80.jpg",
+    "stocks": []
+  },
+  {
+    "id": "17dd959009548933",
+    "title": "物理AI 2.0发展需回归理性与现实检验",
+    "summary": "业界指出物理AI 2.0正面临从概念到落地的挑战，呼吁行业发展回归现实检验与务实探索。",
+    "body": "物理AI（具身智能）2.0概念近期在科技界备受关注，被视为人工智能与物理世界交互的重要演进方向。然而，随着市场热度攀升，行业分析指出该领域亟需进行客观的现实检验。\n\n尽管物理AI在理论与实验室环境中展现出潜力，但在复杂真实场景中的规模化落地仍面临技术、成本与安全等多重挑战。业界呼吁，物理AI的发展应减少概念炒作，转向务实的商业化探索，聚焦解决具体场景痛点，以推动技术的长期健康发展。",
+    "category": "机器人",
+    "tags": [
+      "物理AI",
+      "具身智能",
+      "机器人",
+      "商业化"
+    ],
+    "source": "The Robot Report",
+    "time": "刚刚",
+    "ts": "2026-06-23T18:00:48.546936+00:00",
+    "url": "https://www.therobotreport.com/why-physical-ai-2-0-needs-reality-check/",
+    "image": "https://www.therobotreport.com/wp-content/uploads/2026/06/AdobeStock_1996095325-copy.jpg",
+    "stocks": []
+  },
+  {
+    "id": "e0d3d72534aef936",
+    "title": "大脑认知新发现：预测错误时学习效果最佳",
+    "summary": "最新神经科学研究表明，大脑通过预测外部世界来运作，而在预测出现偏差时，大脑的学习和适应能力提升最为显著。",
+    "body": "人类大脑在认知和交互过程中，会不断对外部世界进行预测以指导行为。神经科学领域的最新观点指出，大脑并非仅在预测正确时强化认知，反而在预测出现偏差时能够实现最大化的学习效果。\n\n当现实反馈与大脑的预期产生冲突时，这种“预测误差”会触发神经系统的深度调整。这一机制不仅深化了科学界对人类认知、记忆和学习过程的理解，也为未来认知障碍治疗、神经康复以及类脑计算的发展提供了重要的理论启示。",
+    "category": "生物医药",
+    "tags": [
+      "神经科学",
+      "认知机制",
+      "大脑学习"
+    ],
+    "source": "MedicalXpress",
+    "time": "刚刚",
+    "ts": "2026-06-23T18:00:48.339854+00:00",
+    "url": "https://medicalxpress.com/news/2026-06-brains-world-wrong.html",
+    "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/soccer-goalie-blurred.jpg",
+    "stocks": []
+  },
+  {
+    "id": "4c8a4d31e2d4b448",
+    "title": "以军在约旦河西岸烧毁橄榄树",
+    "summary": "据半岛电视台报道，以色列军队在约旦河西岸点燃橄榄树，进一步加剧了当地的紧张局势与人道主义担忧。",
+    "body": "根据半岛电视台报道，以色列军队在约旦河西岸地区采取了破坏性行动，点燃了当地的橄榄树。橄榄树不仅是该地区重要的农业经济来源，也对巴勒斯坦民众具有深厚的文化与历史意义。\n\n此类事件进一步加剧了约旦河西岸的紧张局势，引发了国际社会对当地平民生活及农业生态遭到破坏的广泛关注。这一行动凸显了该地区持续存在的地缘冲突与人道危机。",
+    "category": "国际局势",
+    "tags": [
+      "中东局势",
+      "约旦河西岸",
+      "地缘政治"
+    ],
+    "source": "Al Jazeera",
+    "time": "刚刚",
+    "ts": "2026-06-23T18:00:44.190355+00:00",
+    "url": "https://www.aljazeera.com/video/newsfeed/2026/6/23/israeli-forces-set-olive-trees-on-fire-in-occupied-west-bank?traffic_source=rss",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "909756623e600a7a",
+    "title": "AI正学会察言观色与感知环境情绪",
+    "summary": "IEEE Spectrum报道指出，人工智能正逐渐具备理解人类情绪与环境上下文的能力，推动人机交互向更具感知力的方向发展。",
+    "body": "据IEEE Spectrum报道，人工智能技术正在发展“察言观色”的能力，标志着AI在理解人类情绪与环境上下文方面取得重要进展。这意味着AI系统正从单纯的数据处理，向感知周围氛围和用户情感状态的方向演进。\n\n这一能力的提升主要依赖于情感计算与多模态感知技术的融合。通过分析语音语调、面部表情及环境背景等复杂信息，AI能够更精准地捕捉用户的真实意图，从而做出更符合当前情境的反应。\n\n该趋势对人机交互领域具有深远意义。具备情绪感知能力的AI未来将在智能客服、医疗辅助、教育及消费电子等场景中，提供更具同理心和个性化的服务体验，进一步提升人机协作的效率与自然度。",
+    "category": "人工智能",
+    "tags": [
+      "情感计算",
+      "人机交互",
+      "多模态AI"
+    ],
+    "source": "IEEE Spectrum",
+    "time": "刚刚",
+    "ts": "2026-06-23T18:00:26.288144+00:00",
+    "url": "https://spectrum.ieee.org/emotion-ai-context",
+    "image": "https://spectrum.ieee.org/media-library/pixel-art-figure-in-a-colorful-digital-cube-with-shadow-and-connected-emoji-faces.png?id=66966345&width=980",
+    "stocks": []
+  },
+  {
+    "id": "b47b2bd7e0830c91",
+    "title": "Prime Day CPU散热器大促，最高优惠33%",
+    "summary": "亚马逊Prime Day期间，多款CPU散热器迎来大幅促销，涵盖酷冷至尊、海盗船及超频三等品牌，最高折扣达33%。",
+    "body": "在近期的亚马逊Prime Day促销活动中，科技媒体盘点了一系列高性价比的CPU散热器优惠。此次促销涵盖了从入门级到高端水冷等多种预算需求的产品，最高折扣幅度达到33%。\n\n参与此次大促的知名品牌包括酷冷至尊、Arctic、Tryx、海盗船以及超频三。这些品牌旗下的热门风冷与水冷散热器均提供了不同程度的价格优惠，为PC装机爱好者和硬件升级用户提供了采购良机。\n\n此类大规模硬件促销活动不仅刺激了消费电子市场的短期需求，也反映了PC硬件品牌在重要购物节点争夺市场份额的激烈竞争。对于消费者而言，这是以更低成本构建或升级高性能计算平台的绝佳时机。",
+    "category": "消费电子",
+    "tags": [
+      "CPU散热器",
+      "Prime Day",
+      "PC硬件",
+      "消费电子"
+    ],
+    "source": "Tom's Hardware",
+    "time": "刚刚",
+    "ts": "2026-06-23T18:00:26.218716+00:00",
+    "url": "https://www.tomshardware.com/pc-components/these-are-the-best-cpu-cooler-deals-we-found-this-prime-day-up-to-33-percent-off-deals-from-cooler-master-arctic-tryx-corsair-and-pccooler-for-every-budget",
+    "image": "https://cdn.mos.cms.futurecdn.net/HavNxSZqaFw4qZLexH6C8Y-1280-80.png",
+    "stocks": []
+  },
+  {
+    "id": "404a771b034efdfa",
+    "title": "Sophia选用Apex卫星平台开展在轨计算演示",
+    "summary": "Sophia公司宣布选用Apex卫星平台，以支持其即将开展的在轨计算演示任务。",
+    "body": "据SpaceNews报道，Sophia公司已选择Apex卫星平台用于其未来的在轨计算演示任务。该演示旨在验证太空环境下的先进计算能力，为未来的空间数据处理和边缘计算提供技术支撑。\n\n通过采用Apex平台，Sophia能够利用其高可靠性和灵活的载荷集成能力，加速在轨计算技术的测试与应用。此举不仅有助于提升卫星在轨自主处理能力，也将为商业航天领域的太空计算服务带来新的技术突破。",
+    "category": "商业航天",
+    "tags": [
+      "商业航天",
+      "在轨计算",
+      "卫星平台",
+      "太空边缘计算"
+    ],
+    "source": "SpaceNews",
+    "time": "刚刚",
+    "ts": "2026-06-23T18:00:25.856417+00:00",
+    "url": "https://spacenews.com/sophia-selects-apex-bus-for-on-orbit-computing-demonstration/",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "2a799425b04b9199",
+    "title": "Anthropic Claude模型Tag特性引发开发者关注",
+    "summary": "Hacker News社区热议Anthropic旗下Claude模型的Tag相关特性与提示词优化，凸显大模型在复杂指令处理上的潜力。",
+    "body": "近日，科技社区Hacker News上关于Anthropic旗下Claude模型“Tag”相关特性的讨论引发开发者关注。该话题主要围绕Claude模型在处理标签及结构化提示词方面的表现与优化展开。\n\n此类技术讨论凸显了大语言模型在复杂指令解析和精细化控制方面的演进。通过优化标签与提示词结构，开发者能够进一步提升AI模型在实际应用中的准确性与效率，对人工智能技术的落地具有积极意义。",
+    "category": "人工智能",
+    "tags": [
+      "Claude",
+      "Anthropic",
+      "提示词工程",
+      "大语言模型"
+    ],
+    "source": "Hacker News",
+    "time": "刚刚",
+    "ts": "2026-06-23T18:00:23.266336+00:00",
+    "url": "https://www.anthropic.com/news/introducing-claude-tag",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "f3dd1a5f0de64942",
+    "title": "Netflix推新恐怖游戏，调用手机功能增强沉浸感",
+    "summary": "Netflix推出一款全新恐怖游戏，通过调用智能手机的硬件功能为玩家提供更深度的沉浸式体验。",
+    "body": "Netflix推出了一款全新的恐怖题材游戏，旨在通过创新的交互方式为玩家带来更深度的沉浸体验。该游戏的一大特色是深度调用智能手机的相关功能，打破了传统的屏幕交互限制。\n\n这种利用手机设备特性来增强游戏氛围的做法，展现了移动端游戏在沉浸感设计上的新探索。对于Netflix而言，此举不仅丰富了其互动娱乐内容矩阵，也体现了流媒体平台在游戏和互动体验领域的持续拓展。",
+    "category": "消费电子",
+    "tags": [
+      "Netflix",
+      "移动游戏",
+      "恐怖游戏",
+      "互动娱乐"
+    ],
+    "source": "Engadget",
+    "time": "刚刚",
+    "ts": "2026-06-23T18:00:20.880479+00:00",
+    "url": "https://www.engadget.com/2199931/netflixs-new-horror-game-taps-into-your-phone-for-deeper-immersion/",
+    "image": "https://www.engadget.com/img/gallery/netflixs-new-horror-game-aims-to-tap-into-your-phone-for-deeper-immersion/l-intro-1782234166.jpg",
+    "stocks": [
+      {
+        "name": "奈飞",
+        "ticker": "NFLX",
+        "reason": "推出创新互动游戏，有助于丰富平台内容生态并提升用户参与度。",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "904dae4b9a7d982a",
+    "title": "以军在黎巴嫩南部击毙两人，短暂停火后冲突再起",
+    "summary": "据当局通报，在短暂的战斗平息后，以色列军队在黎巴嫩南部再次采取军事行动并击毙两人。",
+    "body": "据相关当局消息，在经历了一段短暂的战斗平息期后，以色列军队在黎巴嫩南部地区再次采取军事行动，并击毙了两名人员。这一事件标志着该地区紧张局势的再度升级，打破了此前短暂的平静。\n\n此次冲突的再起引发了国际社会对黎以边境安全局势的担忧。分析指出，边境摩擦的持续可能对中东地区的整体稳定产生进一步的负面影响，并增加更大规模冲突的风险。",
+    "category": "国际局势",
+    "tags": [
+      "以色列",
+      "黎巴嫩",
+      "中东局势",
+      "军事冲突"
+    ],
+    "source": "BBC World",
+    "time": "刚刚",
+    "ts": "2026-06-23T18:00:18.237139+00:00",
+    "url": "https://www.bbc.co.uk/news/articles/c36ykpw0yego?at_medium=RSS&at_campaign=rss",
+    "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f126/live/8b76c460-6f1c-11f1-8546-8f19e4fe30f4.jpg",
+    "stocks": []
+  },
+  {
+    "id": "8472e8b789dd4a5a",
+    "title": "正行创新完成近亿美元天使轮融资，华勤技术等联合加持",
+    "summary": "正行创新宣布完成近亿美元天使轮融资，由正大集团、华勤技术等多家上市企业联合投资。",
+    "body": "近日，正行创新宣布完成近亿美元天使轮融资。本轮融资由正大集团、华勤技术等多家知名上市企业联合参与投资，显示出产业资本对该公司发展潜力的高度认可。\n\n此次近亿美元的大额天使轮融资，不仅为正行创新的后续技术研发和业务扩张提供了充足的资金保障，也标志着其技术路线与商业模式获得了产业龙头企业的背书。\n\n随着正大集团和华勤技术等产业巨头的入局，正行创新有望在供应链协同、市场渠道拓展及技术落地等方面获得深度赋能，进一步加速其商业化进程。",
+    "category": "人工智能",
+    "tags": [
+      "天使轮融资",
+      "华勤技术",
+      "正大集团",
+      "产业资本"
+    ],
+    "source": "量子位",
+    "time": "刚刚",
+    "ts": "2026-06-23T18:00:01.591646+00:00",
+    "url": "https://www.qbitai.com/2026/06/437694.html",
+    "image": "",
+    "stocks": [
+      {
+        "name": "华勤技术",
+        "ticker": "603296.SH",
+        "reason": "作为本轮融资的联合投资方，有望通过产业协同赋能被投企业并拓展自身业务边界。",
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
+    "id": "f5b39d5d34df15ba",
+    "title": "种子专利壁垒扼杀农业创新，全社会为此买单",
+    "summary": "报道指出，种子专利持有者通过知识产权壁垒限制了农业研发竞争，阻碍了行业创新，最终导致全社会承担高昂成本。",
+    "body": "Ars Technica报道指出，当前种子专利制度正日益成为农业技术创新的阻碍。少数专利持有者通过构筑知识产权壁垒，限制了其他研究机构和中小企业对关键种子资源的获取与改良，抑制了行业内的良性竞争。\n\n这种专利垄断不仅阻碍了农业生物技术的研发活力，还导致种子及相关农资价格居高不下。最终，这些因专利保护而产生的额外成本被转嫁给下游农民和终端消费者，让全社会为创新停滞付出了代价。\n\n该现象引发了对现有种子专利体系的反思，业界呼吁在保护知识产权与促进技术开放共享之间寻找平衡，以保障农业的长期可持续发展。",
+    "category": "生物医药",
+    "tags": [
+      "种子专利",
+      "农业创新",
+      "知识产权",
+      "生物技术"
+    ],
+    "source": "Ars Technica",
+    "time": "刚刚",
+    "ts": "2026-06-23T17:59:58.084549+00:00",
+    "url": "https://arstechnica.com/tech-policy/2026/06/everyone-pays-the-price-as-patent-holders-on-seeds-stifle-innovation/",
+    "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/06/crops-1152x648.jpg",
+    "stocks": []
+  },
+  {
+    "id": "77c228923b7aaf6a",
+    "title": "传音Tecno推Camon Slim新机：6.39mm厚配背屏",
+    "summary": "传音控股旗下品牌Tecno推出全新Camon Slim智能手机。该机主打极致轻薄设计，机身厚度仅为6.39mm，并配备了独特的背部副屏。",
+    "body": "传音控股旗下科技品牌Tecno近日正式推出全新智能手机Camon Slim。该款新机在设计上追求极致轻薄，机身厚度仅为6.39mm，展现了品牌在工业设计领域的创新能力。\n\n除了超薄的机身，Camon Slim还配备了独特的“背屏”设计。这一创新交互方式不仅提升了手机的辨识度，也为用户提供了更多元的使用场景和便捷的信息查看体验。\n\n此次新品的推出，进一步丰富了传音在智能手机市场的产品线，有助于提升其在海外新兴市场的品牌竞争力和市场份额，展现了国产手机厂商在差异化设计上的持续探索。",
+    "category": "消费电子",
+    "tags": [
+      "传音控股",
+      "智能手机",
+      "消费电子",
+      "Tecno"
+    ],
+    "source": "IT之家",
+    "time": "刚刚",
+    "ts": "2026-06-23T17:59:57.877158+00:00",
+    "url": "https://www.ithome.com/0/967/700.htm",
+    "image": "",
+    "stocks": [
+      {
+        "name": "传音控股",
+        "ticker": "688036.SH",
+        "reason": "公司旗下品牌Tecno推出差异化新机，有助于提升海外市场产品竞争力和份额。",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "8826bb2b6894eb4f",
+    "title": "LastPass称黑客借Klue漏洞窃取客户支持数据",
+    "summary": "密码管理器LastPass表示，黑客利用供应商Klue的系统漏洞，窃取了部分客户支持案例数据。",
+    "body": "密码管理器制造商LastPass近日披露了一起安全事件。该公司表示，黑客利用供应商Klue的系统漏洞，成功窃取了部分客户支持案例数据。\n\n此次事件暴露出第三方软件供应链中的安全隐患。Klue的系统漏洞被黑客利用，进而影响到了LastPass的客户支持业务数据，凸显了第三方工具被攻破带来的连锁反应。\n\n这一事件提醒企业在使用外部服务时需高度警惕供应链安全风险。加强对外部供应商的安全审计和数据访问管理，对于防范此类间接数据泄露具有重要意义。",
+    "category": "消费电子",
+    "tags": [
+      "LastPass",
+      "数据安全",
+      "供应链安全"
+    ],
+    "source": "TechCrunch",
+    "time": "刚刚",
+    "ts": "2026-06-23T17:59:57.477705+00:00",
+    "url": "https://techcrunch.com/2026/06/23/password-manager-maker-lastpass-says-hackers-stole-customer-support-case-data-during-klue-breach/",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "1f64507b4ef7ba56",
+    "title": "Oura Ring智能戒指迎来Prime Day大促",
+    "summary": "知名智能健康戒指Oura Ring在Prime Day期间推出促销活动，为消费者提供购买优惠。",
+    "body": "据Wired报道，备受关注的智能健康戒指Oura Ring在Prime Day期间迎来了期待已久的促销活动。此次大促为关注睡眠追踪和日常健康监测的消费者提供了以更优惠价格入手该设备的机会。\n\nOura Ring凭借其无感佩戴体验和专业级的健康数据分析功能，在可穿戴设备市场积累了良好的口碑。此次促销不仅有助于提升其市场渗透率，也反映出智能戒指这一细分品类在消费电子市场中的持续热度与消费潜力。",
+    "category": "消费电子",
+    "tags": [
+      "Oura Ring",
+      "智能戒指",
+      "可穿戴设备",
+      "Prime Day"
+    ],
+    "source": "Wired",
+    "time": "刚刚",
+    "ts": "2026-06-23T17:59:56.170399+00:00",
+    "url": "https://www.wired.com/story/oura-ring-prime-day-sale-2026/",
+    "image": "https://media.wired.com/photos/6994b4ab2ce5fe7768592bb9/master/pass/Oura%20Ring%204%20Ceramic%201%20SOURCE%20Simon%20Hill.png",
+    "stocks": []
+  },
+  {
+    "id": "2b0b474c385c2ab9",
+    "title": "实验性水凝胶助脊髓切断猪重新行走，损伤治疗迎新突破",
+    "summary": "研究人员利用一种实验性水凝胶疗法对切断的脊髓进行治疗，成功帮助实验猪恢复行走能力，为人类脊髓损伤治疗带来新希望。",
+    "body": "近日，一项针对脊髓损伤的实验性疗法取得重要进展。研究显示，通过应用一种实验性水凝胶对切断的脊髓进行治疗，成功帮助实验猪恢复了行走能力。\n\n脊髓损伤通常会导致严重的运动功能障碍甚至瘫痪，修复受损的神经通路一直是医学界的难题。此次水凝胶疗法在动物模型上展现出的显著疗效，为受损脊髓的修复提供了全新的干预手段。\n\n这一成果证明了水凝胶材料在促进脊髓神经功能恢复方面的巨大潜力，不仅为相关基础研究提供了重要参考，也为未来人类脊髓损伤的临床治疗带来了新的希望。",
+    "category": "生物医药",
+    "tags": [
+      "脊髓损伤",
+      "水凝胶",
+      "神经修复"
+    ],
+    "source": "MedicalXpress",
+    "time": "刚刚",
+    "ts": "2026-06-23T17:59:34.842627+00:00",
+    "url": "https://medicalxpress.com/news/2026-06-spinal-injuries-pigs-experimental-gel.html",
+    "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/hope-for-spinal-injuri.jpg",
+    "stocks": []
+  },
+  {
+    "id": "3bd07a794d30f3b1",
+    "title": "CreateMe携手Avalo等伙伴提升服装供应链韧性",
+    "summary": "自动化技术公司CreateMe宣布与Avalo及Laguna Fabrics达成合作，旨在通过技术创新增强服装供应链的韧性与效率。",
+    "body": "据The Robot Report报道，CreateMe近日宣布与Avalo和Laguna Fabrics建立合作伙伴关系。此次合作的核心目标是利用自动化与先进技术，为传统服装供应链注入更强的韧性与灵活性。\n\n服装制造业长期面临供应链脆弱等挑战。通过引入CreateMe的自动化解决方案，并结合Avalo与Laguna Fabrics的行业资源，各方有望推动服装生产环节的现代化转型，提升应对市场波动的能力。\n\n这一合作不仅有助于优化生产流程，也为整个服装供应链的自动化升级提供了新的行业范本，对推动传统制造业的智能化发展具有积极意义。",
+    "category": "机器人",
+    "tags": [
+      "机器人",
+      "供应链",
+      "自动化",
+      "服装制造"
+    ],
+    "source": "The Robot Report",
+    "time": "刚刚",
+    "ts": "2026-06-23T17:59:34.559524+00:00",
+    "url": "https://www.therobotreport.com/createme-partners-with-avalo-and-laguna-fabrics-to-bring-resilience-to-apparel-supply-chains/",
+    "image": "https://www.therobotreport.com/wp-content/uploads/2026/06/createme-featured.jpg",
+    "stocks": []
+  },
+  {
+    "id": "e8806aaae5824f46",
+    "title": "2026WAVES圆桌论坛探讨AI创投前瞻布局",
+    "summary": "2026WAVES活动举办圆桌论坛，聚焦人工智能领域的创投趋势与前瞻性投资布局。",
+    "body": "近日，2026WAVES活动举办了一场以“比共识更早一步 AI 创投的真实棋局”为主题的圆桌论坛。该论坛汇聚了业内投资人与行业专家，共同探讨人工智能领域的早期投资逻辑与未来发展趋势。\n\n在AI技术快速迭代的背景下，创投机构正致力于寻找超越市场共识的创新机会。论坛深入剖析了当前AI赛道的投资热点、商业化落地挑战以及资本市场的真实偏好，为行业提供了前瞻性的投资视角与战略参考。",
+    "category": "人工智能",
+    "tags": [
+      "AI创投",
+      "2026WAVES",
+      "圆桌论坛",
+      "投资趋势"
+    ],
+    "source": "36氪",
+    "time": "刚刚",
+    "ts": "2026-06-23T17:59:33.726597+00:00",
+    "url": "https://36kr.com/p/3865630193030145?f=rss",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "efeeddd0edd45e17",
+    "title": "亚马逊Prime Day乐高星战停产套装促销，售价不足百元",
+    "summary": "亚马逊Prime Day期间，一款已停产的乐高星球大战套装售价降至100美元以下，这可能是消费者最后的入手机会。",
+    "body": "在近期的亚马逊Prime Day促销活动中，一款已经停产的乐高星球大战主题套装迎来折扣，目前售价已降至100美元以下。对于乐高收藏者和星球大战粉丝而言，这可能是该产品彻底售罄前的最后入手机会。\n\n此类经典IP的停产套装通常在二级市场具有较高溢价，官方渠道的打折促销为消费者提供了以合理价格获取绝版产品的良机。这也反映出大型零售商在重要促销节点对经典消费类产品的清库存与营销策略。",
+    "category": "消费电子",
+    "tags": [
+      "乐高",
+      "星球大战",
+      "亚马逊",
+      "Prime Day"
+    ],
+    "source": "Space.com",
+    "time": "刚刚",
+    "ts": "2026-06-23T17:59:32.704263+00:00",
+    "url": "https://www.space.com/entertainment/space-toys-lego/this-might-be-your-last-chance-to-pick-up-a-retired-lego-star-wars-set-before-it-flies-off-forever-and-its-under-100-dollars-on-amazon-for-prime-day",
+    "image": "https://cdn.mos.cms.futurecdn.net/Xps6kYPajUpTrQwN92boN-1280-80.jpg",
+    "stocks": []
+  },
+  {
+    "id": "83f7cd0b1ee22525",
+    "title": "Monarc Tracer电单车发布：双电池与五年质保",
+    "summary": "Monarc推出全新Tracer通勤电动自行车，凭借双电池设计、高端技术配置及五年质保，致力于为城市通勤提供新体验。",
+    "body": "Monarc近日推出全新Tracer通勤电动自行车，凭借双电池设计与高端技术配置，致力于解决城市骑行者的续航焦虑并提升整体骑行体验。\n\n此外，该车型还配备了长达五年的质保服务。此举不仅展现了品牌对产品质量的信心，也有望在竞争激烈的微出行市场中树立新的服务标杆，推动行业消费升级。",
+    "category": "消费电子",
+    "tags": [
+      "电动自行车",
+      "微出行",
+      "双电池",
+      "智能通勤"
+    ],
+    "source": "Electrek",
+    "time": "刚刚",
+    "ts": "2026-06-23T17:59:28.194565+00:00",
+    "url": "https://electrek.co/2026/06/23/monarc-tracer/",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "622a592363f5e776",
+    "title": "英国十年更换六位首相原因探析",
+    "summary": "过去十年间英国经历了六次首相更迭，政治动荡引发广泛关注。本文探讨了导致英国首相频繁更换的深层原因及其影响。",
+    "body": "过去十年间，英国政坛经历了罕见的动荡，先后迎来了六位不同的首相。这种频繁的领导层更迭反映了英国国内政治的复杂性，以及其在重大政策上面临的巨大分歧与挑战。\n\n首相频繁更换的背后，交织着党派内部斗争、民意波动以及政策争议等多重因素。这种政治不稳定性影响了英国政府的决策效率，也引发了外界对英国政治体制和未来走向的深刻反思。",
+    "category": "国际局势",
+    "tags": [
+      "英国政治",
+      "首相更迭",
+      "国际局势"
+    ],
+    "source": "BBC中文",
+    "time": "刚刚",
+    "ts": "2026-06-23T17:59:21.851247+00:00",
+    "url": "https://www.bbc.com/zhongwen/articles/c33yrvd53ddo/trad?at_medium=RSS&at_campaign=rss",
+    "image": "https://ichef.bbci.co.uk/ace/ws/240/cpsprodpb/9964/live/a17b45e0-6e47-11f1-8546-8f19e4fe30f4.jpg",
+    "stocks": []
+  },
+  {
+    "id": "d0f893d104c9c2d2",
+    "title": "探究美国电网容量利用率仅半数的原因",
+    "summary": "IEEE Spectrum发文探讨美国电网容量利用率仅约50%的现象，分析了峰值规划、监管机制及可再生能源并网等因素的影响。",
+    "body": "近日，IEEE Spectrum发表文章，深入探讨了美国电网容量利用率仅约为50%这一现象背后的原因。尽管美国拥有庞大的电力基础设施，但大量输电与配电容量在日常运行中处于闲置状态。\n\n文章指出，电网利用率偏低受多种复杂因素交织影响。这不仅涉及电网基于极端峰值需求进行规划的传统模式，还与基础设施老化、监管环境复杂以及电力市场机制缺乏灵活性密切相关。同时，间歇性可再生能源的加速并网也迫使电网保留更多备用容量以应对波动。\n\n提升电网容量利用率对推动能源转型及降低用电成本至关重要。业界认为，通过引入智能电网技术、储能系统及需求响应机制，有望优化电网调度，从而更好地支持未来的电气化发展与清洁能源接入。",
+    "category": "未来能源",
+    "tags": [
+      "美国电网",
+      "能源转型",
+      "智能电网"
+    ],
+    "source": "IEEE Spectrum",
+    "time": "刚刚",
+    "ts": "2026-06-23T17:59:14.588153+00:00",
+    "url": "https://spectrum.ieee.org/united-states-power-grid-capacity",
+    "image": "https://spectrum.ieee.org/media-library/collage-of-obscured-person-with-power-grid-diagrams-and-demand-peak-shift-charts.png?id=66957832&width=980",
+    "stocks": []
+  },
+  {
+    "id": "04d6c5a744586da4",
+    "title": "Ubotica获1100万美元融资以扩展海事智能平台",
+    "summary": "Ubotica宣布完成1100万美元融资，资金将用于扩展其海事智能平台，提升海洋监测与数据分析能力。",
+    "body": "近日，海事智能平台开发商Ubotica宣布成功筹集1100万美元资金。本轮融资将主要用于扩大其海事智能平台的规模，进一步提升在海洋监测、数据分析及相关领域的服务能力。\n\n据SpaceNews报道，该平台致力于整合多源数据以提供海事领域的智能解决方案。此次资金的注入，将有助于Ubotica加速技术研发与市场拓展，为海事管理和海洋环境保护提供更强有力的数据支持。\n\n随着全球对海洋资源开发与环境保护的日益重视，海事智能监测市场迎来广阔发展空间。Ubotica的此次融资不仅彰显了资本市场对该领域的认可，也将推动相关数据与智能技术在海洋场景中的深度融合与应用。",
+    "category": "人工智能",
+    "tags": [
+      "Ubotica",
+      "海事智能",
+      "企业融资",
+      "海洋监测"
+    ],
+    "source": "SpaceNews",
+    "time": "刚刚",
+    "ts": "2026-06-23T17:59:10.780053+00:00",
+    "url": "https://spacenews.com/ubotica-raises-11-million-to-scale-maritime-intelligence-platform/",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "d45d57e0eebe28b3",
+    "title": "欧洲遭遇热浪高峰，法国溺水死亡人数激增",
+    "summary": "欧洲正经历极端热浪高峰期，受高温天气影响，法国溺水死亡人数出现显著激增。",
+    "body": "欧洲目前正遭遇极端热浪的高峰期，多地面临严峻的高温考验。受此影响，法国的溺水死亡人数出现显著激增。\n\n这一现象凸显了极端高温天气对公共安全和民众生命健康的直接威胁。在热浪持续的背景下，高温引发的次生灾害和意外事故风险正引起广泛关注。",
+    "category": "国际局势",
+    "tags": [
+      "极端天气",
+      "热浪",
+      "法国",
+      "公共安全"
+    ],
+    "source": "BBC World",
+    "time": "刚刚",
+    "ts": "2026-06-23T17:59:07.091668+00:00",
+    "url": "https://www.bbc.co.uk/news/articles/c79yvw3j114o?at_medium=RSS&at_campaign=rss",
+    "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2593/live/ebcebc30-6f05-11f1-8546-8f19e4fe30f4.jpg",
+    "stocks": []
+  },
+  {
+    "id": "73434c9e8ddc8c91",
+    "title": "亚马逊Prime Day游戏本大促：戴尔微星等推重磅折扣",
+    "summary": "2026年亚马逊Prime Day期间，戴尔、外星人、微星及ROG等知名品牌的游戏笔记本电脑迎来大幅折扣，为消费者提供极具性价比的购机选择。",
+    "body": "近日，科技媒体盘点了2026年亚马逊Prime Day期间最值得关注的游戏笔记本电脑优惠信息。此次大促涵盖了戴尔、外星人、微星（MSI）以及玩家国度（ROG）等众多一线PC品牌，推出了力度空前的折扣活动。\n\n对于游戏玩家和PC爱好者而言，此次Prime Day是升级硬件设备的绝佳时机。各大品牌的主力游戏本型号均参与了降价，不仅涵盖了入门级高性价比机型，也包括搭载高端配置的旗舰产品。\n\n此次促销活动进一步刺激了消费电子市场的终端需求，展现了电商平台与PC硬件厂商在重要销售节点上的紧密合作，有助于加速库存消化并提振品牌销量。",
+    "category": "消费电子",
+    "tags": [
+      "亚马逊Prime Day",
+      "游戏笔记本",
+      "消费电子",
+      "PC硬件"
+    ],
+    "source": "Tom's Hardware",
+    "time": "刚刚",
+    "ts": "2026-06-23T17:59:05.018796+00:00",
+    "url": "https://www.tomshardware.com/laptops/gaming-laptops/best-gaming-laptop-deals-discount",
+    "image": "https://cdn.mos.cms.futurecdn.net/bMbjYdCnwBnviVZJLZYQ4Q-1280-80.png",
+    "stocks": [
+      {
+        "name": "亚马逊",
+        "ticker": "AMZN",
+        "reason": "作为Prime Day的主办方，大促活动将直接提振其电商GMV及Prime会员订阅收入。",
+        "confidence": "high"
+      },
+      {
+        "name": "戴尔科技",
+        "ticker": "DELL",
+        "reason": "旗下戴尔与外星人品牌参与重磅折扣，有望借大促节点有效提振PC终端销量与库存周转。",
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
+    "id": "f2c83a43869ff9e5",
+    "title": "美行人死亡人数激增75%，巨型卡车与SUV成主因",
+    "summary": "数据显示自2009年以来行人死亡人数激增75%，研究指出巨型卡车和SUV的普及是导致该现象的重要原因。",
+    "body": "自2009年以来，行人交通事故死亡人数出现了大幅攀升，增幅高达75%。这一严峻的交通安全数据引发了社会各界对当前车辆设计趋势及其潜在风险的深刻反思。\n\n分析指出，巨型卡车和大型SUV的日益普及是导致行人死亡率上升的核心原因。这类大型车辆由于车头较高、质量更大且存在更广泛的视觉盲区，在发生碰撞时对行人造成的致命伤害显著高于传统低矮轿车。\n\n这一现象不仅可能促使监管机构重新审视并收紧车辆安全标准，也凸显了高级驾驶辅助系统（ADAS）、自动紧急制动及AI行人检测技术在弥补视觉盲区、提升道路安全方面的重要价值。",
+    "category": "人工智能",
+    "tags": [
+      "交通安全",
+      "汽车设计",
+      "ADAS"
+    ],
+    "source": "Hacker News",
+    "time": "刚刚",
+    "ts": "2026-06-23T17:59:04.743902+00:00",
+    "url": "https://www.thedrive.com/news/75-more-pedestrians-have-been-killed-since-2009-giant-trucks-and-suvs-are-why",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "fc0a1b0dc37ff951",
+    "title": "英国首相为何频繁辞职？",
+    "summary": "本文探讨了英国首相频繁辞职背后的政治与社会原因，分析了英国政坛的动荡现象。",
+    "body": "半岛电视台近期发表文章，深入探讨了英国首相频繁辞职这一引人瞩目的政治现象。近年来，英国政坛经历了多次领导人更迭，引发了国内外的广泛关注。\n\n该报道旨在分析英国政坛动荡背后的深层原因，包括党派分歧、政策争议以及社会情绪等因素。这一现象不仅影响了英国国内的政治稳定性，也对其国际形象和外交政策连续性产生了深远影响。",
+    "category": "国际局势",
+    "tags": [
+      "英国政治",
+      "首相辞职",
+      "国际局势"
+    ],
+    "source": "Al Jazeera",
+    "time": "刚刚",
+    "ts": "2026-06-23T17:59:00.926607+00:00",
+    "url": "https://www.aljazeera.com/video/inside-story/2026/6/23/why-do-the-uks-prime-ministers-keep-resigning?traffic_source=rss",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "bdff74dea4951bd6",
+    "title": "芯片制造未来趋势与Anthropic面临政府监管冲突",
+    "summary": "MIT科技评论探讨了下一代芯片制造技术的发展方向，并报道了AI公司Anthropic与政府之间的监管冲突。",
+    "body": "在芯片制造领域，行业正不断探索下一代半导体技术，以应对日益增长的算力需求和物理极限挑战，这关系到未来科技产业的基础设施演进。\n\n与此同时，人工智能公司Anthropic正面临与政府部门的摩擦。随着AI技术的快速发展，科技公司与政府在安全、合规及政策导向上的博弈日益凸显，反映出AI监管环境的复杂化。\n\n这两大议题分别代表了硬件算力底座的演进与软件算法层面的合规挑战，对全球科技产业链的长期发展具有重要指示意义。",
+    "category": "人工智能",
+    "tags": [
+      "芯片制造",
+      "Anthropic",
+      "AI监管"
+    ],
+    "source": "MIT Tech Review",
+    "time": "刚刚",
+    "ts": "2026-06-23T17:58:44.664413+00:00",
+    "url": "https://www.technologyreview.com/2026/06/23/1139483/the-download-chipmaking-future-asml-ai-anthropic-government-clash/",
+    "image": "https://wp.technologyreview.com/wp-content/uploads/2023/01/TRU1303330-crop.jpeg?w=2984",
+    "stocks": []
+  },
+  {
+    "id": "ee3f4df2bbe661d3",
+    "title": "Anthropic强化Claude Slack集成，深度学习企业内部消息",
+    "summary": "Anthropic的Claude通过Slack集成功能，持续学习企业内部聊天记录与上下文，以提升企业级AI助手的准确性和实用性。",
+    "body": "Anthropic正进一步深化其AI助手Claude在企业办公场景中的应用。通过强化Slack集成功能，Claude能够直接读取并学习企业内部的Slack聊天记录与上下文信息，从而更精准地理解公司的业务流程与团队沟通习惯。\n\n这一举措标志着生成式AI在企业级市场的落地正从通用问答向深度融入私有知识库转变。通过持续学习内部消息，Claude能提供更符合企业特定语境的回答，降低员工获取内部信息的门槛，提升办公效率。\n\n深度集成意味着AI助手将逐渐成为了解公司内部的数字员工，但这也对企业的数据隐私保护和权限管理提出了更高要求，需要在智能化与数据安全之间取得平衡。",
+    "category": "人工智能",
+    "tags": [
+      "Anthropic",
+      "Claude",
+      "Slack",
+      "企业级AI"
+    ],
+    "source": "TechCrunch",
+    "time": "刚刚",
+    "ts": "2026-06-23T17:58:41.951367+00:00",
+    "url": "https://techcrunch.com/2026/06/23/anthropics-claude-tag-is-learning-your-company-one-slack-message-at-a-time/",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "0f02f87b2ebc8ce3",
+    "title": "亚马逊Prime Day大促：Wired精选95款科技好物",
+    "summary": "知名科技媒体Wired在亚马逊Prime Day期间，精选了95款经过实测且值得购买的科技与数码产品折扣。",
+    "body": "在亚马逊Prime Day大促期间，知名科技媒体Wired发布了一份精选购物指南，推荐了95款经过编辑团队实测且值得自费购买的科技与数码装备折扣。这些产品涵盖了各类消费电子与智能硬件，旨在为消费者提供可靠的购物参考。\n\n此类权威媒体的导购推荐，侧面反映了电商年度大促对消费电子终端销售的显著拉动作用。Prime Day不仅是消费者采购科技好物的重要节点，也是各大科技品牌与电商平台冲刺业绩的关键契机。",
+    "category": "消费电子",
+    "tags": [
+      "亚马逊",
+      "Prime Day",
+      "消费电子",
+      "电商促销"
+    ],
+    "source": "Wired",
+    "time": "刚刚",
+    "ts": "2026-06-23T17:58:40.144577+00:00",
+    "url": "https://www.wired.com/story/amazon-prime-day-absolute-best-deals/",
+    "image": "https://media.wired.com/photos/6a396b1e518be327f36b3895/master/pass/PRIME-DEALS.jpg",
+    "stocks": [
+      {
+        "name": "亚马逊",
+        "ticker": "AMZN",
+        "reason": "Prime Day是亚马逊年度核心促销活动，直接拉动其零售销售额与Prime会员增长。",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "d59248fdc3a6c322",
+    "title": "Meta试水预测市场领域",
+    "summary": "据报道，Meta正涉足预测市场领域，探索在旗下平台引入相关互动功能。",
+    "body": "据外媒报道，Meta正涉足预测市场领域，探索相关业务的布局。预测市场通常允许用户对未来特定事件的结果进行预测，近年来在部分海外平台受到关注。\n\n此次试水预测市场，显示出Meta在拓展社交平台互动形式方面的尝试。若该功能顺利推进，有望为其现有产品矩阵增加新的用户参与维度，进一步丰富平台生态。",
+    "category": "消费电子",
+    "tags": [
+      "Meta",
+      "预测市场",
+      "社交平台"
+    ],
+    "source": "Engadget",
+    "time": "刚刚",
+    "ts": "2026-06-23T17:58:37.654009+00:00",
+    "url": "https://www.engadget.com/2199962/meta-reportedly-dips-its-pathetic-toes-into-the-prediction-market-space/",
+    "image": "https://www.engadget.com/img/gallery/meta-dips-its-pathetic-toes-into-the-prediction-market-space/l-intro-1782235280.jpg",
+    "stocks": [
+      {
+        "name": "Meta",
+        "ticker": "META",
+        "reason": "拓展社交平台功能，有望提升用户参与度与平台活跃度",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "236f15c876c6a7d8",
+    "title": "特朗普疑为79岁接受实验性减肥药神秘患者",
+    "summary": "媒体报道称，79岁的特朗普可能是一项实验性肥胖药物治疗特殊案例中的神秘患者。",
+    "body": "据Ars Technica报道，美国前总统特朗普可能是一项特殊医疗案例中的“神秘患者”。该案例涉及一名79岁老人接受实验性肥胖药物治疗，引发了外界的广泛关注与猜测。\n\n这一消息凸显了实验性减肥药物在老年群体中的潜在应用探索。不过，关于该实验性药物的具体成分、研发机构及临床进展等核心细节，目前尚未有进一步的确切披露。",
+    "category": "生物医药",
+    "tags": [
+      "特朗普",
+      "减肥药",
+      "生物医药"
+    ],
+    "source": "Ars Technica",
+    "time": "刚刚",
+    "ts": "2026-06-23T17:58:36.624572+00:00",
+    "url": "https://arstechnica.com/health/2026/06/trump-may-be-mystery-patient-in-odd-case-of-79yo-getting-experimental-obesity-drug/",
+    "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/06/GettyImages-2244838922-1152x648.jpg",
+    "stocks": []
+  },
+  {
+    "id": "9b3b21986c37ed87",
+    "title": "The Verge精选2026年Prime Day最佳优惠",
+    "summary": "The Verge编辑团队从数千款Prime Day折扣商品中，精选出编辑们最喜爱的优质优惠产品并进行推荐。",
+    "body": "2026年亚马逊Prime Day期间，虽然有数千款产品参与折扣促销，但其中大部分并非真正的超值之选。为了帮助消费者筛选，The Verge在主促销汇总之外，专门推出了编辑团队精选推荐页面。\n\n该页面集中展示了The Verge编辑们最喜爱且在此次Prime Day中享有大幅折扣的优质商品。通过专业团队的筛选，旨在为消费者提供更具参考价值的购物指南，避开无效促销，精准锁定真正值得购买的好物。",
+    "category": "消费电子",
+    "tags": [
+      "Prime Day",
+      "The Verge",
+      "促销导购"
+    ],
+    "source": "The Verge",
+    "time": "1小时前",
+    "ts": "2026-06-23T12:00:00-04:00",
+    "url": "https://www.theverge.com/gadgets/952503/best-prime-day-deals-verge-favorites-2026",
+    "image": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/25769556/sonosfive.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100",
+    "stocks": []
+  },
+  {
+    "id": "585422787f678053",
+    "title": "Netflix推进电视云游戏布局，试水恐怖题材",
+    "summary": "Netflix正大力推进电视端云游戏业务，最新实验项目将推出恐怖题材游戏以增强互动体验。",
+    "body": "作为其游戏战略的最新演进，Netflix正重点发力可在电视端直接游玩的云游戏，让用户获得类似观看流媒体内容的便捷体验。此前Netflix在电视端推出的游戏相对温和，但最新的实验项目将转向恐怖题材，旨在带来更具冲击力的游戏体验。\n\n这一举措标志着Netflix在云游戏领域的持续探索与深化。通过不断丰富游戏类型和提升互动体验，Netflix试图进一步拓展其流媒体生态边界，增强平台的用户粘性与整体吸引力。",
+    "category": "消费电子",
+    "tags": [
+      "Netflix",
+      "云游戏",
+      "电视游戏"
+    ],
+    "source": "The Verge",
+    "time": "1小时前",
+    "ts": "2026-06-23T12:00:00-04:00",
+    "url": "https://www.theverge.com/entertainment/953933/unhinged-netflix-horror-tv-game",
+    "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/06/Unhinged-gamescreen.png?quality=90&#038;strip=all&#038;crop=0,0,100,100",
+    "stocks": [
+      {
+        "name": "奈飞",
+        "ticker": "NFLX",
+        "reason": "公司自身发力电视云游戏业务，丰富流媒体生态，有望提升用户粘性与订阅价值。",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "1e27aee6505e5fad",
+    "title": "Midjourney转型人体扫描仪引质疑",
+    "summary": "以AI图像生成闻名的初创公司Midjourney被曝转型医疗人体扫描仪领域，但该举动的真实性与关联性引发外界质疑。",
+    "body": "上周，以AI图像生成器闻名的初创公司Midjourney被曝出一项不寻常的业务转型，进军医疗领域并涉足人体扫描仪业务。相关资料中展示了名为“Midjourney Medical”的成像体模扫描图像，用于验证受控条件下的结构分离效果。\n\n然而，媒体对这一转型举动提出了质疑，指出其中存在诸多疑点。这表明该医疗项目与知名AI绘图公司Midjourney之间的实际关联或业务真实性可能存在问题，引发了外界对科技企业跨界医疗领域的审慎关注。",
+    "category": "人工智能",
+    "tags": [
+      "Midjourney",
+      "医疗影像",
+      "业务转型"
+    ],
+    "source": "The Verge",
+    "time": "2小时前",
+    "ts": "2026-06-23T11:56:35-04:00",
+    "url": "https://www.theverge.com/report/954826/midjourney-medical-ai-ultrasound-body-scanner-lacks-evidence",
+    "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/06/ultrasound_phantom_segmentation-b254a71d083eb5c9.png?quality=90&#038;strip=all&#038;crop=0,0,100,100",
+    "stocks": []
+  },
+  {
     "id": "47be0bb6120d1ff7",
     "title": "三星990 Pro固态硬盘迎Prime Day大促，最高降价49%",
     "summary": "在亚马逊Prime Day促销期间，三星990 Pro系列固态硬盘价格降至今年2月以来的最低水平。其1TB、2TB和4TB版本均参与促销，最高折扣达49%。",
@@ -33296,6 +34318,6 @@ const newsData = [
   }
 ];
 const newsDigest = {
-  "text": "今日科技前沿聚焦AI基建与具身智能。特斯拉拟对外输出算力，英伟达发布机器人全栈系统，利好算力及机器人产业链；中国超算重返榜首，彰显国产算力崛起；AIGC加速商业落地，利好AI应用端。消费电子迎大促。",
+  "text": "今日科技前沿聚焦AI应用落地与商业航天突破。阿里云算力赋能智驾利好云计算及汽车板块；Claude重塑SaaS生态利好AI应用标的；中国可重复使用航天器进展提振商业航天产业链；物理AI与情感计算持续拓宽机器人边界。",
   "highlights": []
 };
