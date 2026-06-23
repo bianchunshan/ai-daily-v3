@@ -2,7 +2,7 @@
 // 用 Qwen(阿里云 Anthropic 兼容端点),key 取 Vercel 环境变量 QWEN_KEY。
 const QWEN_URL = 'https://token-plan.cn-beijing.maas.aliyuncs.com/apps/anthropic/v1/messages';
 const QWEN_MODEL = 'qwen3.7-max';
-const QWEN_TIMEOUT_MS = 28000;
+const QWEN_TIMEOUT_MS = 55000;
 
 function readBody(req) {
   return new Promise((resolve) => {
@@ -70,7 +70,7 @@ module.exports = async function handler(req, res) {
     const r = await fetch(QWEN_URL, {
       method: 'POST',
       headers: { 'x-api-key': key, 'anthropic-version': '2023-06-01', 'content-type': 'application/json' },
-      body: JSON.stringify({ model: QWEN_MODEL, max_tokens: 600, system, messages: [{ role: 'user', content: prompt }] }),
+      body: JSON.stringify({ model: QWEN_MODEL, max_tokens: 450, system, messages: [{ role: 'user', content: prompt }] }),
       signal: controller.signal,
     });
     clearTimeout(timer);
