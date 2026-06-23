@@ -1,5 +1,1020 @@
 const newsData = [
   {
+    "id": "9f44949a557794c8",
+    "title": "创想三维3D打印机74件工具套装降至25.49美元",
+    "summary": "创想三维推出包含74件维护工具的3D打印机套装，在Prime Day期间以25.49美元的历史最低价促销，并配备专用收纳盒。",
+    "body": "在Prime Day促销活动期间，创想三维（Creality）的一款3D打印机工具套件迎来了历史最低价，售价仅为25.49美元。该套件专为3D打印用户设计，旨在提供全面的设备维护支持。\n\n这套工具包含多达74件维护所需的各类工具，能够满足3D打印机日常保养和维修的多种需求。此外，该套装还配备了一个整洁的收纳盒，方便用户进行工具的分类存储与日常管理，提升了使用体验。",
+    "category": "消费电子",
+    "tags": [
+      "3D打印",
+      "创想三维",
+      "Prime Day",
+      "工具套件"
+    ],
+    "source": "Tom's Hardware",
+    "time": "刚刚",
+    "ts": "2026-06-23T20:22:23.803257+00:00",
+    "url": "https://www.tomshardware.com/pc-components/grab-this-creality-3d-printer-tool-kit-for-all-time-low-usd25-49-for-prime-day-74-piece-set-includes-everything-that-you-need-for-3d-printer-maintenance-and-comes-in-a-neat-organizer-for-storage-and-transport",
+    "image": "https://cdn.mos.cms.futurecdn.net/kPy4JLbuaRoM5bSgqtjdvA-1280-80.png",
+    "stocks": []
+  },
+  {
+    "id": "143e8837ead9648c",
+    "title": "Satellogic联手SynMax打造Merlin星座情报服务",
+    "summary": "卫星遥感公司Satellogic与地理空间情报企业SynMax达成合作，将围绕其即将发射的Merlin卫星星座开发全新的情报分析服务。",
+    "body": "近日，高分辨率地球观测公司Satellogic宣布与地理空间情报提供商SynMax建立战略合作伙伴关系。双方将围绕Satellogic即将推出的Merlin卫星星座，共同开发和构建先进的地理空间情报服务。\n\nMerlin星座是Satellogic下一代高分辨率卫星网络，旨在提供更高重访率和更丰富的数据维度。通过此次合作，SynMax将利用其强大的数据分析和人工智能算法，对Merlin星座获取的海量遥感数据进行深度挖掘，为政府及商业客户提供更具洞察力的情报产品。\n\n这一合作不仅将加速Satellogic从数据提供商向高附加值情报服务商的转型，也展示了商业航天领域遥感数据与AI分析深度融合的发展趋势，有望进一步提升地理空间情报市场的服务效能与商业价值。",
+    "category": "商业航天",
+    "tags": [
+      "商业航天",
+      "卫星遥感",
+      "地理空间情报"
+    ],
+    "source": "SpaceNews",
+    "time": "刚刚",
+    "ts": "2026-06-23T20:22:20.949142+00:00",
+    "url": "https://spacenews.com/satellogic-partners-with-synmax-to-build-intelligence-services-around-upcoming-merlin-constellation/",
+    "image": "",
+    "stocks": [
+      {
+        "name": "Satellogic",
+        "ticker": "SATL",
+        "reason": "作为合作方及Merlin星座的所有者，此举将提升其卫星数据的商业附加值，加速向高利润情报服务转型。",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "7613177bde550ab7",
+    "title": "Swift Package Index正式加入苹果",
+    "summary": "知名Swift包索引网站Swift Package Index宣布加入苹果公司，此举旨在进一步强化苹果的Swift开发者生态系统。",
+    "body": "Swift Package Index 是 Swift 社区中广泛使用的包搜索与发现平台，为开发者提供了丰富的包元数据和兼容性信息。该平台宣布加入苹果公司，标志着苹果对 Swift 开源生态系统的进一步重视与整合。\n\n这一举措预计将提升 Swift 包管理的官方支持水平，优化开发者的使用体验。通过将社区核心工具纳入官方体系，苹果有望加速 Swift 语言在服务端及跨平台领域的推广与应用，巩固其在开发者生态中的优势。",
+    "category": "消费电子",
+    "tags": [
+      "苹果",
+      "Swift",
+      "开发者生态"
+    ],
+    "source": "Hacker News",
+    "time": "刚刚",
+    "ts": "2026-06-23T20:22:03.299252+00:00",
+    "url": "https://swiftpackageindex.com/blog/swift-package-index-joins-apple",
+    "image": "",
+    "stocks": [
+      {
+        "name": "苹果",
+        "ticker": "AAPL",
+        "reason": "整合Swift社区核心工具，进一步强化其开发者生态和软件服务护城河。",
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
+    "id": "396c8d10fe18394c",
+    "title": "Engadget评测：勿因星战IP错过银河赛车",
+    "summary": "科技媒体Engadget对赛车游戏《Galactic Racer》给出积极评价，建议玩家不要因其《星球大战》的品牌标签而忽视该作。",
+    "body": "科技媒体Engadget近日对赛车游戏《Galactic Racer》发表评测文章。文章指出，尽管该游戏带有《星球大战》的品牌标签，可能会让部分非IP粉丝产生刻板印象，但其实际表现值得关注。\n\n评测建议玩家不要因星战IP的受众定位而对该作望而却步。这表明《Galactic Racer》在游戏机制和玩法设计上具备超越单纯粉丝向作品的吸引力，为更广泛的玩家群体提供了优质选择。",
+    "category": "消费电子",
+    "tags": [
+      "游戏评测",
+      "星球大战",
+      "Engadget"
+    ],
+    "source": "Engadget",
+    "time": "刚刚",
+    "ts": "2026-06-23T20:22:02.026433+00:00",
+    "url": "https://www.engadget.com/2199602/star-wars-galactic-racer-hands-on/",
+    "image": "https://www.engadget.com/img/gallery/dont-let-the-star-wars-branding-put-you-off-galactic-racer/l-intro-1782212560.jpg",
+    "stocks": []
+  },
+  {
+    "id": "a976be062f9cb406",
+    "title": "2026年亚马逊Prime Day精选13款百元以下好物",
+    "summary": "《连线》杂志评选出2026年亚马逊Prime Day期间13款售价低于100美元的最佳折扣商品，为消费者提供高性价比购物指南。",
+    "body": "科技媒体《连线》（Wired）近日发布了2026年亚马逊Prime Day的购物指南，重点推荐了13款售价在100美元以下的优质折扣商品。该榜单旨在帮助消费者在年度促销活动中寻找高性价比的科技与生活好物。\n\n此类精选榜单不仅反映了当前消费电子市场的热门趋势，也为预算有限的消费者提供了实用的参考。通过聚焦百元以下的高折扣商品，亚马逊Prime Day有望进一步刺激中低价位段产品的消费活力，提升平台整体交易规模。",
+    "category": "消费电子",
+    "tags": [
+      "亚马逊Prime Day",
+      "消费电子",
+      "购物指南",
+      "促销折扣"
+    ],
+    "source": "Wired",
+    "time": "刚刚",
+    "ts": "2026-06-23T20:21:54.640153+00:00",
+    "url": "https://www.wired.com/story/best-prime-day-deals-under-100-june-2026/",
+    "image": "https://media.wired.com/photos/6a3a2d6fb32bb5aac135070f/master/pass/The-Best-Amazon-Prime-Day-Deals-Under-$100.jpg",
+    "stocks": [
+      {
+        "name": "亚马逊",
+        "ticker": "AMZN",
+        "reason": "作为Prime Day的主办方，促销活动将直接带动其平台商品销量与Prime会员订阅增长。",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "e58392b90b188784",
+    "title": "小米MiMo-V2.5限时体验官宣延期",
+    "summary": "小米官方宣布MiMo-V2.5-Pro-UltraSpeed限时体验活动延期，具体下线时间将视资源情况另行安排。",
+    "body": "近日，小米官方宣布，原计划进行的 MiMo-V2.5-Pro-UltraSpeed 限时体验活动将延期。此次调整可能是为了更好地优化产品体验或进行相关技术与资源统筹。\n\n关于该体验活动的具体下线及后续安排，小米方面表示将根据实际资源调配情况另行发布通知，建议用户关注官方后续消息以获取最新进展。",
+    "category": "消费电子",
+    "tags": [
+      "小米",
+      "产品动态",
+      "体验延期"
+    ],
+    "source": "IT之家",
+    "time": "刚刚",
+    "ts": "2026-06-23T20:21:53.147373+00:00",
+    "url": "https://www.ithome.com/0/967/698.htm",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "3601c91666c06ca7",
+    "title": "宜镁华完成数千万元天使轮融资，镁合金切入机器人领域",
+    "summary": "镁合金材料研发企业“宜镁华”宣布完成数千万元天使轮融资。其产品主打高导热与高强韧特性，主要应用于机器人等高端制造领域。",
+    "body": "近日，专注于高性能镁合金材料研发的企业“宜镁华”宣布完成数千万元天使轮融资，该消息由36氪首发披露。此次融资将为公司后续的技术研发与产能扩张提供重要的资金支持。\n\n宜镁华的核心产品主打“高导热”与“高强韧”特性，旨在解决传统材料在轻量化与散热方面的痛点。凭借优异的物理性能，其镁合金材料已成功切入机器人及高端装备制造等前沿领域。\n\n随着人形机器人及高端制造业的快速发展，市场对轻量化、高强度且具备良好散热性能的材料需求日益增长。宜镁华的技术布局契合了行业升级趋势，有望推动镁合金材料在更多复杂场景下的商业化落地。",
+    "category": "机器人",
+    "tags": [
+      "镁合金",
+      "机器人",
+      "天使轮融资",
+      "高端制造"
+    ],
+    "source": "36氪",
+    "time": "刚刚",
+    "ts": "2026-06-23T20:21:53.052590+00:00",
+    "url": "https://36kr.com/p/3864082158785539?f=rss",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "97728e23aab45164",
+    "title": "亚马逊会员日前夕：正浩与安克储能产品迎大促",
+    "summary": "亚马逊Prime Day前夕，EcoFlow、Anker SOLIX等户外储能品牌及Lectric电动自行车推出大幅折扣，部分产品创下历史最低价。",
+    "body": "在亚马逊Prime Day正式开启前夕，多家知名消费电子与户外储能品牌提前推出了大力度的促销活动。其中，EcoFlow（正浩）与Anker SOLIX（安克创新旗下储能品牌）的便携式电源和家用储能产品迎来了大幅降价，部分型号创下历史最低价格，并提供额外优惠。\n\n此外，Lectric电动自行车也加入了此次促销阵营，进一步扩大了Prime Day前夕的优惠范围。这些折扣涵盖了高端户外电源以及日常通勤与休闲用的电动出行工具，为消费者提供了丰富的选择。\n\n此次大促反映出户外储能与微出行设备在消费市场的持续热度。对于相关品牌而言，借助亚马逊Prime Day这一全球性购物节，将有效刺激消费电子产品的销量，并加速新品的市场推广。",
+    "category": "消费电子",
+    "tags": [
+      "亚马逊会员日",
+      "户外储能",
+      "EcoFlow",
+      "安克创新"
+    ],
+    "source": "Electrek",
+    "time": "刚刚",
+    "ts": "2026-06-23T20:21:49.218989+00:00",
+    "url": "https://electrek.co/2026/06/23/prime-day-1-ecoflow-anker-solix-prime-day-sales-power-stations-lectric-e-bikes-more/",
+    "image": "",
+    "stocks": [
+      {
+        "name": "安克创新",
+        "ticker": "300866.SZ",
+        "reason": "旗下Anker SOLIX储能产品在Prime Day大促中创低价，有望提振公司海外营收。",
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
+    "id": "6250c13e4879734e",
+    "title": "WAVES 2026创投峰会举行，探讨行业前沿观点",
+    "summary": "36氪报道WAVES 2026活动，总结创投圈值得关注的行业观点与发展趋势。",
+    "body": "近日，WAVES 2026活动顺利举行，汇聚了众多创投圈人士展开深入讨论。本次活动留下了诸多值得反复回看的行业观点，反映了当前资本市场对前沿科技与商业模式的关注焦点。\n\n此类创投峰会通常为行业趋势、投资逻辑及未来赛道布局提供重要参考，有助于市场把握下一阶段的创新方向与投资机遇，对创投生态的建设具有积极意义。",
+    "category": "人工智能",
+    "tags": [
+      "创投",
+      "WAVES 2026",
+      "行业趋势"
+    ],
+    "source": "36氪",
+    "time": "刚刚",
+    "ts": "2026-06-23T20:21:39.150449+00:00",
+    "url": "https://36kr.com/p/3865596826768643?f=rss",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "fcc705c2c953ee14",
+    "title": "雌激素或可解释女性更易患克罗恩病",
+    "summary": "最新医学研究表明，雌激素与克罗恩病之间存在关联，这或可解释为何女性比男性更容易罹患该疾病。",
+    "body": "最新医学研究表明，雌激素与克罗恩病之间存在密切关联，这为解释为何女性比男性更容易罹患该疾病提供了重要线索。克罗恩病作为一种常见的炎症性肠病，其发病机制中的性别差异一直备受医学界关注。\n\n该研究指出，雌激素可能在肠道炎症反应或免疫调节中发挥了特定作用，从而影响了女性群体的发病率。这一发现不仅加深了对克罗恩病病理机制的理解，也为未来针对女性患者开发更具针对性的治疗策略和潜在药物靶点提供了理论基础。",
+    "category": "生物医药",
+    "tags": [
+      "克罗恩病",
+      "雌激素",
+      "女性健康",
+      "医学研究"
+    ],
+    "source": "MedicalXpress",
+    "time": "刚刚",
+    "ts": "2026-06-23T20:21:32.307112+00:00",
+    "url": "https://medicalxpress.com/news/2026-06-estrogen-link-women-crohn.html",
+    "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/research-highlighting.jpg",
+    "stocks": []
+  },
+  {
+    "id": "9c92df874c603347",
+    "title": "滴露中国广告因涉贞操话题引争议并道歉",
+    "summary": "滴露在中国发布的一则广告因涉及贞操话题引发公众不满，随后品牌方就此发布道歉声明。",
+    "body": "滴露在中国市场的一则广告因涉及“贞操”等不当话题引发公众争议，观察人士批评其营销策划存在严重失误。面对舆论压力，滴露官方随后对此事进行了公开道歉。\n\n此次广告争议事件暴露出品牌在营销中对文化敏感度与价值观把控的缺失。这不仅对滴露的品牌形象造成冲击，也提醒消费品企业在广告创意上需更加审慎。",
+    "category": "生物医药",
+    "tags": [
+      "滴露",
+      "广告争议",
+      "公关危机",
+      "品牌营销"
+    ],
+    "source": "BBC中文",
+    "time": "刚刚",
+    "ts": "2026-06-23T20:21:31.835513+00:00",
+    "url": "https://www.bbc.com/zhongwen/articles/c1dyq7evdv4o/trad?at_medium=RSS&at_campaign=rss",
+    "image": "https://ichef.bbci.co.uk/ace/ws/240/cpsprodpb/74d2/live/dc836e90-6ed0-11f1-8bcc-0dcbc11a720b.jpg",
+    "stocks": []
+  },
+  {
+    "id": "2217dcf623e68ade",
+    "title": "C罗梅开二度 葡萄牙5-0大胜乌兹别克斯坦",
+    "summary": "在2026年世界杯相关赛事中，C罗独中两元，帮助葡萄牙队以5-0大胜乌兹别克斯坦队。",
+    "body": "在2026年世界杯的赛场上，葡萄牙国家队展现出强大的竞技状态，以5-0的悬殊比分击败了乌兹别克斯坦队。球队核心C罗在比赛中发挥出色，个人独进两球，成为球队获胜的关键功臣。\n\n这场大胜不仅展现了葡萄牙队深厚的阵容底蕴和战术执行力，也为他们在世界杯征程中积累了宝贵的信心。乌兹别克斯坦队则在防守端暴露出明显问题，未能有效限制对手的猛烈攻势。",
+    "category": "国际局势",
+    "tags": [
+      "体育",
+      "世界杯",
+      "C罗"
+    ],
+    "source": "Al Jazeera",
+    "time": "刚刚",
+    "ts": "2026-06-23T20:21:28.903684+00:00",
+    "url": "https://www.aljazeera.com/sports/2026/6/23/ronaldo-scores-twice-as-portugal-thrash-uzbekistan-5-0-at-world-cup-2026?traffic_source=rss",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "cd65765a51ae5727",
+    "title": "Modal推出Auto Endpoints优化AI推理部署",
+    "summary": "云端计算平台Modal推出Auto Endpoints功能，旨在为开发者提供自主控制且高度优化的AI推理端点部署方案。",
+    "body": "云端计算平台Modal近日推出了Auto Endpoints功能，主打用户自主拥有的优化推理服务。该功能旨在为开发者提供更高效、灵活的AI模型推理部署方案。\n\n通过这一新端点功能，开发者能够在保持对推理服务完全控制的同时，获得底层架构的性能优化支持。这有助于简化AI应用的部署流程，提升推理效率并降低运维复杂度。\n\n此举反映了当前AI基础设施向自动化和Serverless化方向发展的趋势，进一步满足了开发者对高性价比和易用性AI推理算力的需求。",
+    "category": "人工智能",
+    "tags": [
+      "Modal",
+      "AI推理",
+      "Serverless",
+      "云计算"
+    ],
+    "source": "Hacker News",
+    "time": "刚刚",
+    "ts": "2026-06-23T20:21:15.233187+00:00",
+    "url": "https://modal.com/blog/introducing-auto-endpoints",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "53d80756fbc31241",
+    "title": "豆包2.1发布：Agent运行18小时搞定芯片设计代码",
+    "summary": "字节跳动发布豆包2.1大模型，其Agent展现出强大的长程任务执行能力，可自主运行18小时完成芯片设计代码。",
+    "body": "近日，字节跳动正式发布豆包2.1大模型。此次升级的一大亮点在于其Agent（智能体）能力的显著提升，展现出处理复杂长程任务的强大实力。\n\n据透露，豆包2.1的Agent能够自主连续运行长达18个小时，并成功完成复杂的芯片设计代码编写。这一突破标志着AI在垂直专业领域和长周期自动化任务中的应用迈出了重要一步。\n\n该进展不仅展示了国产大模型在代码生成与逻辑推理方面的进步，也为未来AI深度赋能半导体设计、提升芯片研发效率提供了新的技术路径与想象空间。",
+    "category": "人工智能",
+    "tags": [
+      "豆包大模型",
+      "AI Agent",
+      "芯片设计",
+      "字节跳动"
+    ],
+    "source": "量子位",
+    "time": "刚刚",
+    "ts": "2026-06-23T20:21:11.502893+00:00",
+    "url": "https://www.qbitai.com/2026/06/437503.html",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "d5c97da4b9ec5595",
+    "title": "Dialog称遭黑客攻击 实为网站配置错误致数据泄露",
+    "summary": "Dialog公司声称其系统遭到黑客攻击，但调查发现实际上是由于网站配置错误导致其成员信息暴露。",
+    "body": "近日，Dialog公司对外宣称其系统遭遇了黑客攻击，引发了外界对其数据安全的关注。然而，相关调查显示，该事件并非源于外部恶意入侵。\n\n事实上，导致其成员信息暴露的真正原因是Dialog自身的网站存在配置错误。这种内部安全管理的疏漏直接导致了数据泄露风险，暴露出公司在系统配置和网络安全审计方面的不足。\n\n此次事件凸显了企业在IT基础设施管理中的盲区，提醒科技公司在防范外部攻击的同时，必须加强内部系统配置审查，避免因基础设置错误引发严重的安全事故。",
+    "category": "消费电子",
+    "tags": [
+      "网络安全",
+      "数据泄露",
+      "企业管理"
+    ],
+    "source": "Wired",
+    "time": "刚刚",
+    "ts": "2026-06-23T20:21:10.669292+00:00",
+    "url": "https://www.wired.com/story/dialog-hack-website-misconfiguration/",
+    "image": "https://media.wired.com/photos/6a39b5c3580177a5599b11a3/master/pass/security_browser_GettyImages-114315029.jpg",
+    "stocks": []
+  },
+  {
+    "id": "dce2c6f670e5c3a5",
+    "title": "AI加速乳腺MRI成像：每秒一图且肿瘤追踪更清晰",
+    "summary": "人工智能技术显著提升了乳腺核磁共振成像的速度与精度，实现每秒生成一张图像，并大幅提高了肿瘤追踪的清晰度。",
+    "body": "人工智能技术在乳腺核磁共振成像（MRI）领域取得重要突破，大幅提升了医学影像的生成速度。通过AI算法的优化，该技术成功实现了每秒生成一张图像的高效成像能力。\n\n在提升成像速度的同时，AI还显著增强了图像的清晰度，使得肿瘤追踪变得更加精准。这一技术进步有望为乳腺癌的早期筛查与临床诊断提供更高效、更清晰的影像学支持，从而改善患者的诊疗体验与预后评估。",
+    "category": "人工智能",
+    "tags": [
+      "医疗AI",
+      "乳腺MRI",
+      "医学影像"
+    ],
+    "source": "MedicalXpress",
+    "time": "刚刚",
+    "ts": "2026-06-23T20:20:53.621499+00:00",
+    "url": "https://medicalxpress.com/news/2026-06-faster-breast-mri-ai-image.html",
+    "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/ai-enables-breakthroug.jpg",
+    "stocks": []
+  },
+  {
+    "id": "cf67f010d5b4a5eb",
+    "title": "法拉利因电动车发布争议更换营销主管",
+    "summary": "法拉利在旗下电动车项目发布引发负面反响后，宣布更换营销主管，以调整品牌营销策略应对市场反馈。",
+    "body": "近日，法拉利对其高管团队进行调整，更换了公司的营销主管。此次人事变动的直接原因是其电动车相关发布活动引发了外界与粉丝的负面反响及争议。\n作为传统超跑品牌，法拉利在向电动化转型的过程中面临着平衡品牌传承与技术创新的挑战。此次营销主管的更替，表明公司正积极审视并调整其市场沟通与品牌营销策略。\n这一举措反映了法拉利对消费者反馈的重视，也凸显了传统豪华车企在推进电动化战略时，在市场营销和品牌定位上所承受的压力与调整需求。",
+    "category": "未来能源",
+    "tags": [
+      "法拉利",
+      "电动汽车",
+      "高管变动",
+      "品牌营销"
+    ],
+    "source": "Electrek",
+    "time": "刚刚",
+    "ts": "2026-06-23T20:20:50.330283+00:00",
+    "url": "https://electrek.co/2026/06/23/ferrari-replaces-marketing-chief-luce-ev-backlash/",
+    "image": "",
+    "stocks": [
+      {
+        "name": "法拉利",
+        "ticker": "RACE",
+        "reason": "及时更换营销主管有助于修正电动车项目的市场推广策略，降低品牌声誉风险，护航电动化转型。",
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
+    "id": "4e99f83aa851e376",
+    "title": "Rocket Lab创纪录：不足17小时完成美太空军发射任务",
+    "summary": "火箭实验室（Rocket Lab）在接到通知后不到17小时内成功执行美国太空军发射任务，创下快速响应发射的新纪录。",
+    "body": "近日，商业航天公司Rocket Lab成功执行了一项美国太空军的发射任务。此次发射从接到通知到最终点火升空仅用了不到17个小时，创下了该公司快速响应发射的全新纪录。\n\n这一成就充分展示了Rocket Lab在商业航天领域卓越的运营效率与快速响应能力，凸显了其满足国防客户紧急发射需求的可靠实力。这种高效的发射能力有望进一步提升其在政府及商业航天市场的竞争力。",
+    "category": "商业航天",
+    "tags": [
+      "Rocket Lab",
+      "商业航天",
+      "美国太空军",
+      "快速响应"
+    ],
+    "source": "Space.com",
+    "time": "刚刚",
+    "ts": "2026-06-23T20:20:46.754183+00:00",
+    "url": "https://www.space.com/space-exploration/launches-spacecraft/rocket-lab-launches-us-space-force-mission-with-less-than-17-hours-notice-a-new-record",
+    "image": "https://cdn.mos.cms.futurecdn.net/N7zCZnvtwhDuE8s737gBeL-1280-80.jpg",
+    "stocks": [
+      {
+        "name": "Rocket Lab",
+        "ticker": "RKLB",
+        "reason": "作为任务直接执行方，创下快速响应发射纪录有望提升其在国防航天市场的竞争力与订单预期。",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "239378a84dae1708",
+    "title": "Jerry's Map项目登Hacker News引关注",
+    "summary": "名为Jerry's Map的项目在Hacker News社区引发开发者讨论，推测为一款地图或数据可视化工具。",
+    "body": "近日，一个名为“Jerry's Map”的项目在知名科技社区Hacker News上引发了开发者的关注与讨论。尽管目前缺乏关于该项目的详细背景信息，但从名称推测，它可能是一款与地理信息、数据可视化或特定网络拓扑相关的地图工具或开源项目。\n\n此类工具通常在开发者社区中具有较高的实用价值，能够为特定领域的数据展示与交互提供新的解决方案。随着社区讨论的深入，该项目的具体应用场景和技术细节有望进一步明晰，为相关领域的开发者提供技术参考与启发。",
+    "category": "人工智能",
+    "tags": [
+      "开源项目",
+      "Hacker News",
+      "数据可视化"
+    ],
+    "source": "Hacker News",
+    "time": "刚刚",
+    "ts": "2026-06-23T20:20:37.386921+00:00",
+    "url": "http://www.jerrysmap.com/the-map",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "e90b0047728b6575",
+    "title": "2026年Prime Day值得推荐的MacBook优惠盘点",
+    "summary": "知名科技媒体Wired发布了2026年亚马逊Prime Day期间的MacBook购买指南，为消费者推荐了多款高性价比的苹果笔记本电脑。",
+    "body": "近日，知名科技媒体Wired发布了针对2026年亚马逊Prime Day的MacBook购物指南，详细盘点并推荐了多款值得入手的苹果笔记本电脑优惠。文章旨在帮助消费者在年度大促期间挑选最具性价比的MacBook产品。\n\n此类媒体导购推荐反映了电商平台在大型促销节点的消费电子产品折扣力度。对于苹果及其零售合作伙伴而言，Prime Day等集中促销活动有助于刺激Mac产品线的短期销量，进一步巩固其在个人电脑市场的份额。",
+    "category": "消费电子",
+    "tags": [
+      "Prime Day",
+      "MacBook",
+      "苹果",
+      "电商促销"
+    ],
+    "source": "Wired",
+    "time": "刚刚",
+    "ts": "2026-06-23T20:20:36.755050+00:00",
+    "url": "https://www.wired.com/story/best-prime-day-macbook-deals-2026/",
+    "image": "https://media.wired.com/photos/6a3ad6cf98db7b4b438b19dc/master/pass/APD-macbook-deal-post.jpg",
+    "stocks": [
+      {
+        "name": "苹果",
+        "ticker": "AAPL",
+        "reason": "MacBook是苹果核心硬件产品，电商大促及媒体推荐有助于提振销量。",
+        "confidence": "low"
+      },
+      {
+        "name": "亚马逊",
+        "ticker": "AMZN",
+        "reason": "Prime Day是亚马逊年度核心促销活动，带动平台整体交易额及消费电子销量。",
+        "confidence": "low"
+      }
+    ]
+  },
+  {
+    "id": "75c8af87bcc0541a",
+    "title": "美国允许伊朗在埃及世界杯赛前停留两天",
+    "summary": "美国官方表示，允许伊朗相关人员在埃及世界杯比赛前获准停留两天。",
+    "body": "美国方面宣布，允许伊朗在埃及举行的世界杯相关赛事前停留两天。这一决定主要涉及双方在特定国际体育赛事期间的签证或入境豁免安排。\n\n此举反映了在复杂的国际背景下，体育交流仍能在一定程度上促成特殊的临时性政策调整。相关安排旨在保障国际赛事的顺利进行，同时也凸显了体育事务与地缘政治之间的微妙互动。",
+    "category": "国际局势",
+    "tags": [
+      "国际局势",
+      "美伊关系",
+      "体育赛事"
+    ],
+    "source": "Al Jazeera",
+    "time": "刚刚",
+    "ts": "2026-06-23T20:20:35.818735+00:00",
+    "url": "https://www.aljazeera.com/sports/2026/6/23/us-says-iran-can-stay-for-two-days-before-egypt-world-cup-game?traffic_source=rss",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "15abcbd3f1790901",
+    "title": "扎克伯格拟推动Meta推出自有预测市场",
+    "summary": "据报道，Meta创始人马克·扎克伯格计划在公司旗下推出自有的预测市场产品，以进一步丰富其社交生态。",
+    "body": "据TechCrunch报道，Meta首席执行官马克·扎克伯格有意推动公司推出自有的预测市场产品。预测市场允许用户对现实世界事件的结果进行交易，近年来在科技与金融圈备受关注。\n\n若该计划落地，Meta有望将其庞大的社交网络与预测机制相结合。这不仅能为用户提供全新的互动体验，还能通过群体智慧为平台带来高价值的数据反馈，从而进一步增强用户粘性与平台活跃度。",
+    "category": "人工智能",
+    "tags": [
+      "Meta",
+      "预测市场",
+      "扎克伯格"
+    ],
+    "source": "TechCrunch",
+    "time": "刚刚",
+    "ts": "2026-06-23T20:20:25.843409+00:00",
+    "url": "https://techcrunch.com/2026/06/23/mark-zuckerberg-wants-meta-to-launch-its-own-prediction-market/",
+    "image": "",
+    "stocks": [
+      {
+        "name": "Meta Platforms",
+        "ticker": "META",
+        "reason": "新闻直接提及的主体，推出预测市场有望丰富其社交生态并提升用户活跃度。",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "7aabeb34f667bb4d",
+    "title": "早期陆地动物演化跳过幼虫阶段",
+    "summary": "最新研究表明，早期陆地动物在演化过程中可能直接发育，跳过了类似蝌蚪的水生幼虫阶段。",
+    "body": "根据Ars Technica报道，关于早期陆地动物演化的研究指出，这些动物在从水生向陆生过渡的过程中，可能跳过了水生幼虫阶段。这一发现为理解四足动物的早期发育模式提供了新视角。\n\n该研究结果表明，直接发育可能是早期陆地动物适应陆地环境的关键演化策略。这不仅改变了学界对脊椎动物登陆过程的传统认知，也对探讨动物发育机制的演化具有深远的科学意义。",
+    "category": "生物医药",
+    "tags": [
+      "演化生物学",
+      "古生物学",
+      "早期陆地动物"
+    ],
+    "source": "Ars Technica",
+    "time": "刚刚",
+    "ts": "2026-06-23T20:20:24.627821+00:00",
+    "url": "https://arstechnica.com/science/2026/06/early-land-animals-skipped-the-tadpole-phase/",
+    "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/06/image-3-1152x648.jpeg",
+    "stocks": []
+  },
+  {
+    "id": "062faf398113df44",
+    "title": "现代汽车下一代N系列高性能电动车将推多项新技术",
+    "summary": "现代汽车透露其下一代“N”系列高性能电动汽车将引入多项创新技术，旨在进一步提升车辆的驾驶体验与性能表现。",
+    "body": "现代汽车（Hyundai）近日透露，其下一代“N”系列高性能电动汽车将引入多项未公开的创新技术与新亮点。作为品牌旗下的高性能产品线，“N”系列在电动化时代正积极探索提升车辆动态表现与驾驶乐趣的新方案。\n\n虽然现代汽车尚未披露这些“杀手锏”的具体细节，但此举释放出其持续深耕高性能电动车市场的强烈信号。通过不断迭代“N”系列电动车的核心技术，现代汽车旨在强化其在全球高性能新能源汽车领域的品牌影响力，并为消费者带来更具吸引力的电动出行体验。",
+    "category": "消费电子",
+    "tags": [
+      "现代汽车",
+      "高性能电动车",
+      "N系列"
+    ],
+    "source": "Electrek",
+    "time": "刚刚",
+    "ts": "2026-06-23T20:20:17.705384+00:00",
+    "url": "https://electrek.co/2026/06/23/hyundai-few-tricks-next-n-evs/",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "dbcb730305db3811",
+    "title": "非Prime促销活动加剧竞争，亚马逊面临挑战",
+    "summary": "各类非亚马逊Prime会员的促销活动正如火如荼，给亚马逊的传统促销优势带来显著竞争压力。",
+    "body": "近期，市场上涌现出大量针对亚马逊Prime会员日的“反Prime”促销活动。这些由其他零售商及科技媒体推广的优惠方案，正在对亚马逊的市场主导地位发起强有力的挑战。\n\n此类竞争不仅为消费者提供了更多元化的购物选择和价格优势，也迫使亚马逊在促销策略和会员服务上不断创新。对于零售和电商行业而言，这种多平台角逐的态势将进一步加剧市场竞争，重塑行业格局。",
+    "category": "消费电子",
+    "tags": [
+      "电商促销",
+      "亚马逊",
+      "市场竞争"
+    ],
+    "source": "Space.com",
+    "time": "刚刚",
+    "ts": "2026-06-23T20:20:13.760775+00:00",
+    "url": "https://www.space.com/stargazing/skywatching-kit/these-anti-prime-deals-are-giving-amazon-a-good-run-for-their-money",
+    "image": "https://cdn.mos.cms.futurecdn.net/zfNEB97qaEKn2E5mjvbMK-1280-80.jpg",
+    "stocks": []
+  },
+  {
+    "id": "831eada488de3f65",
+    "title": "社交媒体热议“食物噪音”助其科学定义",
+    "summary": "社交媒体上关于“食物噪音”的广泛讨论，正帮助医学界更好地定义和理解这一术语。",
+    "body": "近期，社交媒体上关于“食物噪音”（Food noise）的讨论日益增多。这一术语通常指代人们对食物的持续渴望，或是脑海中难以控制的关于食物的想法。\n\n这些广泛的公众讨论不仅提高了大众对该现象的认知，也为医学界提供了宝贵的现实参考。通过分析社交媒体上的用户反馈与经验分享，研究人员能够更科学、准确地界定“食物噪音”的临床内涵，进而为未来的相关健康干预和医学研究奠定基础。",
+    "category": "生物医药",
+    "tags": [
+      "食物噪音",
+      "社交媒体",
+      "医学研究",
+      "健康干预"
+    ],
+    "source": "MedicalXpress",
+    "time": "刚刚",
+    "ts": "2026-06-23T20:20:10.967442+00:00",
+    "url": "https://medicalxpress.com/news/2026-06-food-noise-discussion-social-media.html",
+    "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/unhealthy-food.jpg",
+    "stocks": []
+  },
+  {
+    "id": "e6780483fbe8dbe0",
+    "title": "美参议院投票阻止对伊军事行动，违背特朗普意愿",
+    "summary": "美国参议院投票通过决议，旨在阻止或限制对伊朗的军事行动，此举与特朗普的立场相左。",
+    "body": "美国参议院近日进行投票，通过了一项旨在阻止或限制对伊朗采取军事行动的决议。这一决定标志着国会在外交和军事政策上试图对行政权力进行制约。\n\n此举明显违背了特朗普的意愿，凸显了立法机构与行政分支在中东政策上的分歧。参议院的行动反映了部分议员对卷入中东新冲突的深切担忧。\n\n该决议的推进不仅对美国的中东战略产生直接影响，也可能对美伊关系及地区地缘政治格局带来深远影响，增加了未来美国对伊政策的复杂性与不确定性。",
+    "category": "国际局势",
+    "tags": [
+      "美国参议院",
+      "美伊关系",
+      "地缘政治"
+    ],
+    "source": "Al Jazeera",
+    "time": "刚刚",
+    "ts": "2026-06-23T20:20:03.333628+00:00",
+    "url": "https://www.aljazeera.com/news/2026/6/23/us-senate-votes-to-halt-iran-war-bucking-trump?traffic_source=rss",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "6cfb361eae19ad86",
+    "title": "联合国将撤离霍尔木兹海峡滞留船员，卢比奥警告勿收通行费",
+    "summary": "联合国宣布将撤离滞留在霍尔木兹海峡的船员，以保障人员安全。同时，美国政治人物卢比奥对在该海域征收通行费的行为发出警告。",
+    "body": "联合国近日宣布，将采取行动撤离目前滞留在霍尔木兹海峡的船员，以保障相关人员的生命安全。霍尔木兹海峡是全球关键的能源运输咽喉，其通航状况直接关系到国际供应链的稳定。\n\n与此同时，美国政治人物卢比奥针对在该海域征收通行费的企图发出明确警告。此次事件反映出关键国际航道正面临复杂的地缘政治博弈，引发了外界对全球航运安全和贸易畅通的担忧。",
+    "category": "国际局势",
+    "tags": [
+      "霍尔木兹海峡",
+      "联合国",
+      "地缘政治",
+      "国际航运"
+    ],
+    "source": "BBC World",
+    "time": "刚刚",
+    "ts": "2026-06-23T20:19:59.497389+00:00",
+    "url": "https://www.bbc.co.uk/news/articles/c24yr796emzo?at_medium=RSS&at_campaign=rss",
+    "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e62d/live/0661c170-6f2c-11f1-8b65-27158411943c.jpg",
+    "stocks": []
+  },
+  {
+    "id": "0ae6304be75faef3",
+    "title": "Space.com推出官方应用，聚焦太空探索资讯",
+    "summary": "知名太空资讯网站Space.com正式发布官方应用程序，为用户提供最新的太空探索新闻与深度内容。",
+    "body": "知名太空与天文资讯网站Space.com近日正式推出了其官方应用程序。该应用旨在为太空爱好者提供一个便捷的移动端平台，以获取最新的太空探索新闻、天文发现以及深度的行业分析。\n\n通过这款全新应用，用户可以随时随地浏览独家的太空资讯和内部报道。此举不仅提升了Space.com在移动端的内容分发能力，也有助于进一步巩固其在太空科普与新闻报道领域的领先地位，吸引更多对宇宙探索感兴趣的受众。",
+    "category": "商业航天",
+    "tags": [
+      "Space.com",
+      "移动应用",
+      "太空探索",
+      "科技媒体"
+    ],
+    "source": "Space.com",
+    "time": "刚刚",
+    "ts": "2026-06-23T20:19:52.335879+00:00",
+    "url": "https://www.space.com/space-exploration/space-com-just-launched-an-app-get-your-inside-scoop-on-space-exploration",
+    "image": "https://cdn.mos.cms.futurecdn.net/HMaptx62Cxt2JdNLcLhzFF-1280-80.jpg",
+    "stocks": []
+  },
+  {
+    "id": "b0b6250b5d11c8bc",
+    "title": "AI招聘工具被曝存在种族偏见与系统性拒绝",
+    "summary": "研究指出AI招聘工具存在种族偏见，导致黑人和亚洲求职者面临更高的系统性拒绝率，引发对算法公平性的担忧。",
+    "body": "近日，有关AI招聘工具的应用缺陷引发业界关注。数据显示，此类自动化招聘系统在处理简历时存在明显的种族偏见，导致26%的黑人求职者和15%的亚洲人求职者遭遇系统性拒绝。\n\n这一现象凸显了当前人工智能在人力资源领域应用时面临的算法公平性挑战。由于训练数据或模型设计的局限性，AI工具可能会无意中放大并固化现有的社会偏见。\n\n该事件进一步引发了对科技伦理的探讨，业界呼吁加强对AI招聘算法的监管与审计，确保决策透明度，避免因技术缺陷加剧就业市场的不平等。",
+    "category": "人工智能",
+    "tags": [
+      "AI招聘",
+      "算法偏见",
+      "科技伦理"
+    ],
+    "source": "Hacker News",
+    "time": "刚刚",
+    "ts": "2026-06-23T20:19:48.287690+00:00",
+    "url": "https://hai.stanford.edu/news/ai-hiring-tools-can-yield-racial-bias-and-systemic-rejection",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "6f366b779735d509",
+    "title": "ABC呼吁观众抗议FCC干预《The View》嘉宾选择",
+    "summary": "美国广播公司（ABC）呼吁观众抗议美国联邦通信委员会（FCC）试图干预其脱口秀节目《The View》的嘉宾选择，引发媒体监管争议。",
+    "body": "美国广播公司（ABC）近日公开呼吁观众，抗议美国联邦通信委员会（FCC）试图“控制谁被允许”出现在热门脱口秀节目《The View》上的行为。ABC认为，监管机构的此类干预涉嫌越权，可能对媒体的编辑独立性和言论自由构成直接威胁。\n\n《The View》作为一档具有较高政治影响力的日间脱口秀节目，其嘉宾阵容一直备受关注。FCC的介入意图引发了媒体界的强烈反弹，批评人士指出，政府机构不应利用监管权力来影响或控制广播电视节目的具体内容与人员安排。\n\n这一事件凸显了美国媒体与政府监管机构之间的紧张关系，引发了公众对于广播电视内容审查和言论自由边界的深入探讨。该争议的后续走向可能会对美国的媒体监管政策产生一定影响。",
+    "category": "国际局势",
+    "tags": [
+      "媒体监管",
+      "言论自由",
+      "FCC",
+      "ABC"
+    ],
+    "source": "Ars Technica",
+    "time": "刚刚",
+    "ts": "2026-06-23T20:19:44.922070+00:00",
+    "url": "https://arstechnica.com/tech-policy/2026/06/abc-asks-viewers-to-protest-fcc-attempt-to-control-who-is-allowed-on-the-view/",
+    "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/02/the-view-1152x648-1770666942.jpg",
+    "stocks": []
+  },
+  {
+    "id": "a1e018e53d98229d",
+    "title": "亚马逊会员日挂脖风扇促销来袭 助你清凉度夏",
+    "summary": "亚马逊Prime Day期间推出挂脖风扇优惠活动，为消费者提供夏日降温的高性价比便携设备选择。",
+    "body": "随着夏季高温的到来，便携降温设备成为消费者的关注焦点。科技媒体Wired关注了亚马逊Prime Day期间的挂脖风扇促销活动，旨在帮助消费者在炎热天气中保持清凉。\n\n挂脖风扇作为近年来备受欢迎的个人穿戴式消费电子产品，凭借其解放双手和便携的特性，在夏日出行和户外活动中表现出色。此次Prime Day的优惠折扣为有降温需求的用户提供了极佳的采购时机。\n\n此类促销活动不仅降低了消费者获取清凉设备的门槛，也进一步推动了个人便携式小家电市场的销售热潮，展现了夏日清凉经济在电商大促中的消费潜力。",
+    "category": "消费电子",
+    "tags": [
+      "亚马逊会员日",
+      "挂脖风扇",
+      "消费电子"
+    ],
+    "source": "Wired",
+    "time": "刚刚",
+    "ts": "2026-06-23T20:19:43.400499+00:00",
+    "url": "https://www.wired.com/story/jisulife-neck-fan-deal-prime-day-2026/",
+    "image": "https://media.wired.com/photos/6a3ad53c5cd2df501971a9c5/master/pass/My-Favorite-Neck-Fan-Is-Only-$25-Right-Now.jpg",
+    "stocks": []
+  },
+  {
+    "id": "6460bddf2fe109ac",
+    "title": "Klue确认黑客窃取旧凭证致客户数据泄露",
+    "summary": "竞争情报软件公司Klue证实，黑客利用窃取的2022年旧凭证成功入侵系统，导致部分客户数据遭到泄露。",
+    "body": "竞争情报SaaS平台Klue近日发布声明确认了一起数据安全事件。该公司表示，黑客通过窃取并使用2022年遗留的旧凭证，成功绕过了安全防线，进而导致了部分客户数据的泄露。\n\n此次事件凸显了企业凭证管理和长期访问权限控制的潜在风险。即使凭证年代久远，若未及时撤销或更新，仍可能成为黑客发起数据窃取的突破口，提醒企业需进一步加强身份验证与访问权限的动态管理。",
+    "category": "人工智能",
+    "tags": [
+      "数据安全",
+      "网络攻击",
+      "Klue"
+    ],
+    "source": "TechCrunch",
+    "time": "刚刚",
+    "ts": "2026-06-23T20:19:33.047641+00:00",
+    "url": "https://techcrunch.com/2026/06/23/klue-says-hackers-stole-credential-from-2022-that-led-to-customer-data-breaches/",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "0b5b5ebb0528187b",
+    "title": "雷电4与雷电5线缆价格高昂原因解析",
+    "summary": "Engadget发文探讨了Thunderbolt 4和5端口线缆售价较高的原因，主要受限于复杂的内部结构、高昂的制造成本与严格的官方认证标准。",
+    "body": "近日，科技媒体Engadget发表文章，探讨了Thunderbolt 4和Thunderbolt 5（雷电4/5）端口线缆售价普遍较高的原因。文章指出，这类高性能线缆需要支持极高的数据传输带宽和充电功率，对内部材料和制造工艺提出了严苛要求。\n\n为了实现雷电标准所要求的高速传输速率，线缆内部通常需要集成复杂的控制芯片以及多层高质量的信号屏蔽材料。此外，所有雷电配件都必须经过严格的官方测试与认证，这些研发、材料及认证成本最终都直接反映在了终端售价上。\n\n尽管雷电4/5线缆价格不菲，但其提供的全功能接口体验和多设备兼容性依然使其成为专业用户的首选。这也提醒消费者在选购时认准官方认证标志，以确保设备的性能发挥与使用安全。",
+    "category": "消费电子",
+    "tags": [
+      "雷电接口",
+      "消费电子",
+      "硬件配件"
+    ],
+    "source": "Engadget",
+    "time": "刚刚",
+    "ts": "2026-06-23T20:19:25.593681+00:00",
+    "url": "https://www.engadget.com/2200040/why-thunderbolt-4-5-port-cables-cost-so-much/",
+    "image": "https://www.engadget.com/img/gallery/heres-why-cables-for-thunderbolt-4-and-5-ports-cost-so-much/l-intro-1782238477.jpg",
+    "stocks": []
+  },
+  {
+    "id": "4f3f3924d656706d",
+    "title": "苹果发布watchOS 27.0开发者预览版Beta 2",
+    "summary": "苹果近日向开发者推送了watchOS 27.0的第二个预览版更新，供开发者进行测试与应用适配。",
+    "body": "苹果公司近日面向开发者推送了watchOS 27.0开发者预览版Beta 2。此次系统更新主要为开发者提供最新的API与功能测试环境，以便其提前适配Apple Watch应用。\n\n通过持续的Beta版本迭代，苹果正不断优化其智能手表操作系统的底层性能与交互体验。这有助于进一步巩固Apple Watch在可穿戴设备市场的生态优势，并为后续正式版的全面推送做好准备。",
+    "category": "消费电子",
+    "tags": [
+      "苹果",
+      "watchOS",
+      "智能手表",
+      "系统更新"
+    ],
+    "source": "IT之家",
+    "time": "刚刚",
+    "ts": "2026-06-23T20:19:13.147590+00:00",
+    "url": "https://www.ithome.com/0/967/702.htm",
+    "image": "",
+    "stocks": [
+      {
+        "name": "苹果",
+        "ticker": "AAPL",
+        "reason": "系统更新有助于提升Apple Watch产品生态体验与用户粘性，巩固其可穿戴设备市场优势。",
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
+    "id": "57800b5cb7a5455c",
+    "title": "Vention携手发那科与优傲推进软件定义自动化",
+    "summary": "自动化平台Vention宣布与发那科及优傲机器人达成合作，共同推进软件定义自动化技术的应用与落地。",
+    "body": "自动化技术平台Vention近日宣布，与全球工业机器人领导者发那科（FANUC）以及协作机器人先驱优傲机器人（Universal Robots）建立合作关系。此次合作旨在通过整合各方的软硬件优势，共同推进“软件定义自动化”技术的发展。\n\n通过这一合作，Vention的MachineBuilder平台将能够更无缝地集成发那科和优傲机器人的机械臂产品。工程师和制造企业可以借助软件平台更快速、便捷地进行机器人工作站的模拟、设计与部署，从而大幅降低自动化改造的门槛与周期。\n\n此举不仅提升了机器人系统的互操作性与编程效率，也标志着工业自动化正加速向软件驱动和模块化方向演进，有助于更多企业灵活引入机器人技术，推动智能制造的普及。",
+    "category": "机器人",
+    "tags": [
+      "Vention",
+      "发那科",
+      "优傲机器人",
+      "工业自动化"
+    ],
+    "source": "The Robot Report",
+    "time": "刚刚",
+    "ts": "2026-06-23T20:19:11.410998+00:00",
+    "url": "https://www.therobotreport.com/vention-collaborates-with-fanuc-universal-robots-software-defined-automation/",
+    "image": "https://www.therobotreport.com/wp-content/uploads/2026/06/Vention_Inc__Vention_and_FANUC_America_Join_Forces_to_Bring_Indu-1024x765.jpg",
+    "stocks": [
+      {
+        "name": "泰瑞达",
+        "ticker": "TER",
+        "reason": "旗下优傲机器人与Vention合作，拓展软件定义自动化生态，有望带动协作机器人销量增长。",
+        "confidence": "medium"
+      },
+      {
+        "name": "发那科",
+        "ticker": "FANUY",
+        "reason": "作为合作方之一，通过Vention平台降低其工业机器人集成门槛，进一步扩大应用场景与市场份额。",
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
+    "id": "7f3da95c0aaf78ab",
+    "title": "Lucid Gravity GT评测：驾驶极佳且续航超长",
+    "summary": "媒体对Lucid Gravity GT 2026款车型进行深度评测，高度赞扬其卓越的驾驶体验、行业领先的能效表现以及超长续航里程。",
+    "body": "知名科技媒体Electrek近日发布了针对Lucid Gravity GT 2026款车型的详细评测。评测指出，该车型在实际驾驶中表现出色，提供了极为顺滑且极具质感的驾驶体验，展现了Lucid在车辆底盘调校与动力系统匹配上的深厚功底。\n\n此外，Gravity GT在能效管理和电池续航方面展现了强大的技术实力。其不仅实现了同级最佳的能源利用效率，还具备超长的续航里程，有效缓解了纯电SUV用户的里程焦虑。\n\n这款车型的优异表现进一步巩固了Lucid在高端纯电SUV市场的竞争力。出色的媒体口碑有望提升品牌声誉，为其后续的市场推广和销量增长奠定良好基础。",
+    "category": "消费电子",
+    "tags": [
+      "Lucid",
+      "Gravity GT",
+      "电动汽车",
+      "汽车评测"
+    ],
+    "source": "Electrek",
+    "time": "刚刚",
+    "ts": "2026-06-23T20:19:11.253446+00:00",
+    "url": "https://electrek.co/2026/06/23/lucid-gravity-2026-review/",
+    "image": "",
+    "stocks": [
+      {
+        "name": "Lucid Group",
+        "ticker": "LCID",
+        "reason": "作为该车型制造商，优异的媒体评测有助于提升品牌声誉与潜在销量。",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "76aed2fb923a7e88",
+    "title": "美研究：各州青少年性侵检查同意权法律差异显著",
+    "summary": "一项最新研究指出，美国各州关于青少年在遭受性侵后进行医学检查的同意权法律存在广泛差异。",
+    "body": "近日发表的一项研究揭示了美国各州在青少年性侵检查同意权方面的法律现状。研究发现，不同州对于未成年人是否能够在没有父母或监护人同意的情况下，自行同意接受性侵法医检查的规定存在显著差异。\n\n这种法律上的不一致可能会对青少年受害者获得及时医疗和心理干预产生直接影响。研究人员指出，明确且保护受害者隐私和自主权的法律框架，对于确保青少年在遭遇创伤后能够得到妥善的医疗照护至关重要。\n\n该研究强调了优化相关医疗法律政策的必要性，以消除地域壁垒，更好地保护未成年受害者的合法权益与身心健康。",
+    "category": "生物医药",
+    "tags": [
+      "医疗政策",
+      "公共卫生",
+      "青少年健康"
+    ],
+    "source": "MedicalXpress",
+    "time": "刚刚",
+    "ts": "2026-06-23T20:19:07.851470+00:00",
+    "url": "https://medicalxpress.com/news/2026-06-state-laws-vary-widely-adolescent.html",
+    "image": "https://scx1.b-cdn.net/csz/news/tmb/2025/teen-girl-upset.jpg",
+    "stocks": []
+  },
+  {
+    "id": "1559f67e743f9cc3",
+    "title": "Prime Day电烙铁及创客工具促销，多款设备限时折扣",
+    "summary": "Tom's Hardware汇总了亚马逊Prime Day期间面向爱好者和创客的电烙铁及相关配件促销信息。活动涵盖数字电烙铁、优质焊锡及防热配件等限时折扣。",
+    "body": "近日，科技媒体Tom's Hardware整理发布了亚马逊Prime Day期间针对电子爱好者和创客的电烙铁及相关工具促销指南。此次活动涵盖了多款数字电烙铁、优质焊锡以及防热配件的限时折扣。\n\n对于热衷于硬件DIY和电子制作的创客而言，Prime Day是采购专业级焊接工具的理想时机。数字电烙铁等设备的降价不仅降低了创作者的硬件开发成本，也有助于进一步推动民间创客生态和开源硬件项目的发展。",
+    "category": "消费电子",
+    "tags": [
+      "Prime Day",
+      "电烙铁",
+      "创客工具",
+      "硬件DIY"
+    ],
+    "source": "Tom's Hardware",
+    "time": "刚刚",
+    "ts": "2026-06-23T20:18:49.091254+00:00",
+    "url": "https://www.tomshardware.com/maker-stem/soldering-irons/the-best-prime-day-soldering-iron-deals-for-hobbyists-and-makers-right-now-take-advantage-of-these-limited-time-sale-discounts-on-digital-irons-premium-solder-heat-proof-accessories-and-more",
+    "image": "https://cdn.mos.cms.futurecdn.net/vseyytXXX3TGDa8GcC62jQ-1280-80.png",
+    "stocks": []
+  },
+  {
+    "id": "dc14b6134f8c8dea",
+    "title": "商业航天联合会迎来新附属会员",
+    "summary": "商业航天联合会（CSF）宣布吸纳新的附属会员，进一步扩大其组织规模与行业代表性。",
+    "body": "商业航天联合会（CSF）近日宣布吸纳新的附属会员，进一步扩大其组织规模与行业代表性。作为致力于推动商业航天发展的行业组织，CSF通过吸收新成员来增强其在政策倡导与行业协调方面的影响力。\n\n新成员的加入体现了商业航天领域企业对行业协同与政策沟通的重视。这将有助于联合会更好地凝聚行业共识，为商业航天产业的持续发展与政策环境优化提供支持。",
+    "category": "商业航天",
+    "tags": [
+      "商业航天",
+      "CSF",
+      "行业组织"
+    ],
+    "source": "SpaceNews",
+    "time": "刚刚",
+    "ts": "2026-06-23T20:18:47.971796+00:00",
+    "url": "https://spacenews.com/commercial-space-federation-csf-welcomes-new-associate-member/",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "33a679000082336c",
+    "title": "伊朗总统抵达巴基斯坦进行和平谈判",
+    "summary": "伊朗总统近日抵达巴基斯坦展开访问，双方将进行和平谈判以推动地区稳定与双边合作。",
+    "body": "伊朗总统近日抵达巴基斯坦，开启旨在促进双边关系与地区和平的访问。此次访问的核心议程是进行和平谈判，双方预计将就地区安全、经济合作及反恐等共同关心的议题展开深入交流。\n\n此次高层互动不仅有助于深化伊朗与巴基斯坦的传统友好关系，也对维护中东及南亚地区的和平稳定具有重要意义。在当前复杂的国际局势下，两国的战略沟通与协调将为地区合作与局势缓和注入新的动力。",
+    "category": "国际局势",
+    "tags": [
+      "伊朗",
+      "巴基斯坦",
+      "和平谈判",
+      "地缘政治"
+    ],
+    "source": "Al Jazeera",
+    "time": "刚刚",
+    "ts": "2026-06-23T20:18:45.975941+00:00",
+    "url": "https://www.aljazeera.com/video/newsfeed/2026/6/23/irans-president-arrives-in-pakistan-for-peace-talks?traffic_source=rss",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "470d8ef03eaf18b6",
+    "title": "Anthropic更新服务条款：要求验证用户年龄或身份",
+    "summary": "人工智能公司Anthropic更新了其服务条款，新增对用户年龄或身份验证的要求，以加强平台合规与安全管理。",
+    "body": "人工智能公司Anthropic近期对其服务条款进行了更新，明确要求用户在使用过程中进行年龄或身份验证。这一举措表明公司正在进一步加强对平台用户的合规性管理与安全审查。\n\n在人工智能技术快速普及的背景下，防止未成年人滥用或确保用户身份真实性已成为各大AI厂商面临的重要监管课题。Anthropic此举不仅有助于降低潜在的合规风险，也反映出AI行业在安全与伦理规范方面正趋于严格。",
+    "category": "人工智能",
+    "tags": [
+      "Anthropic",
+      "人工智能",
+      "合规管理",
+      "身份验证"
+    ],
+    "source": "Hacker News",
+    "time": "刚刚",
+    "ts": "2026-06-23T20:18:43.790316+00:00",
+    "url": "https://www.anthropic.com/legal/privacy",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "1fa359f65f1eb744",
+    "title": "押注Anthropic获成功，Menlo募资30亿美元新基金",
+    "summary": "在成功押注人工智能初创公司Anthropic后，风险投资机构Menlo Ventures宣布完成30亿美元新基金的募集。",
+    "body": "风险投资机构Menlo Ventures近日宣布成功募集30亿美元的新基金。此次募资的顺利完成，很大程度上得益于该机构此前对人工智能独角兽Anthropic的早期押注，这笔成功的投资为其带来了丰厚的回报与卓越的市场声誉。\n\n新募集的资金将继续用于支持前沿科技领域的创新企业，重点聚焦人工智能等具有颠覆性潜力的赛道。此举不仅彰显了资本市场对AI领域持续高涨的投资热情，也进一步巩固了Menlo Ventures在科技风投领域的领先地位。\n\n随着生成式AI技术的快速演进，头部风投机构正加速布局相关产业链。此次大规模募资预示着未来将有更多资金涌入AI初创生态，进一步推动技术商业化落地与行业格局的重塑。",
+    "category": "人工智能",
+    "tags": [
+      "风险投资",
+      "Anthropic",
+      "人工智能",
+      "基金募集"
+    ],
+    "source": "TechCrunch",
+    "time": "刚刚",
+    "ts": "2026-06-23T20:18:29.671531+00:00",
+    "url": "https://techcrunch.com/2026/06/23/after-betting-the-firm-on-anthropic-menlo-ventures-raises-victorious-3b-fund/",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "7df90d083ea747a5",
+    "title": "丰田C-HR跨界车评测：奇特的跨界之作",
+    "summary": "Ars Technica发布丰田C-HR评测，探讨这款跨界车的独特设计与综合产品力。",
+    "body": "科技媒体Ars Technica近日对丰田C-HR进行了详细评测。作为一款定位独特的跨界车型，C-HR以其激进的外观设计和个性化的市场定位吸引了关注，评测主要探讨了该车型的驾驶体验与综合表现。\n\n尽管C-HR在外观设计上具有鲜明特点，但其跨界造型也在实用性上做出了一定妥协。此次评测为消费者提供了客观的参考，展现了车企在细分市场中的设计探索。",
+    "category": "消费电子",
+    "tags": [
+      "丰田",
+      "C-HR",
+      "汽车评测"
+    ],
+    "source": "Ars Technica",
+    "time": "刚刚",
+    "ts": "2026-06-23T20:18:27.266536+00:00",
+    "url": "https://arstechnica.com/cars/2026/06/a-curious-crossover-the-toyota-c-hr-review/",
+    "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/06/2026_Toyota_C-HR_XSE_Tandoori_108_NR-1152x648.jpg",
+    "stocks": []
+  },
+  {
+    "id": "d71cfe0ae9c6a030",
+    "title": "苹果Apple Watch获Wired最佳推荐 现享七折优惠",
+    "summary": "科技媒体Wired撰文推荐了当前最佳的Apple Watch型号，并指出该产品正提供30%的折扣优惠。",
+    "body": "科技媒体Wired近日发布了智能手表购买指南，评选出当前最值得入手的“最佳Apple Watch”型号，为消费者提供了选购参考。\n\n报道指出，这款获评最佳的Apple Watch目前正提供30%的折扣优惠。科技媒体的推荐背书结合大力度的促销活动，有望在短期内有效刺激消费者的购买需求，进一步巩固苹果在智能穿戴设备市场的领先地位。",
+    "category": "消费电子",
+    "tags": [
+      "Apple Watch",
+      "苹果公司",
+      "智能穿戴"
+    ],
+    "source": "Wired",
+    "time": "刚刚",
+    "ts": "2026-06-23T20:18:25.643319+00:00",
+    "url": "https://www.wired.com/story/apple-watch-series-11-deal-apd-2026/",
+    "image": "https://media.wired.com/photos/6a3ad7def7e798336e7de6d7/master/pass/The-Best-Apple-Watch-Is-the-Cheapest-Its-Been-This-Year.jpg",
+    "stocks": []
+  },
+  {
+    "id": "e9410b8707eff545",
+    "title": "MIT科技评论：在线心理健康援助开启新篇章",
+    "summary": "MIT科技评论报道了在线心理健康援助领域的最新进展，探讨了数字技术如何为心理干预提供新途径。",
+    "body": "MIT科技评论近日关注了在线心理健康援助的发展。随着数字技术的进步，在线平台正为心理健康干预和治疗提供新的途径。\n\n这种数字化的心理健康援助方式，有望打破传统医疗资源的地理和时间限制，让更多患者能够便捷地获取专业的心理支持。\n\n这一进展不仅提升了心理健康服务的可及性，也为未来数字医疗和远程心理干预的发展提供了重要参考。",
+    "category": "生物医药",
+    "tags": [
+      "心理健康",
+      "数字医疗",
+      "在线干预"
+    ],
+    "source": "MIT Tech Review",
+    "time": "刚刚",
+    "ts": "2026-06-23T20:18:23.586813+00:00",
+    "url": "https://www.technologyreview.com/2026/06/23/1138315/opening-a-door-to-mental-health-help-online/",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "09b3edca68d1ec8b",
+    "title": "Xteink小型电子阅读器亚马逊Prime Day八折促销",
+    "summary": "Xteink旗下X4与X3小型电子阅读器在亚马逊Prime Day期间迎来八折优惠，售价分别降至55.20美元和63.20美元。这两款设备以极致小巧和便携性为主要卖点。",
+    "body": "在近期的亚马逊Prime Day促销活动中，Xteink品牌的小型电子阅读器迎来了显著的折扣。其中，X4型号从原价69美元降至55.20美元，而尺寸更小的X3型号则从79美元优惠至63.20美元，两者均享受约20%的折扣。\n\n这两款电子阅读器的核心优势在于其紧凑的设计。与市场上主流的电子阅读器相比，Xteink X4和X3的体积显著缩小，具备更强的口袋便携性，非常适合喜欢在通勤或旅行中随时阅读的用户。\n\n此次降价进一步降低了紧凑型电子阅读器的入门门槛。对于追求极致便携体验的读者而言，Prime Day期间的促销活动提供了一个极具性价比的购入时机，同时也反映了细分市场对便携式阅读设备的持续需求。",
+    "category": "消费电子",
+    "tags": [
+      "电子阅读器",
+      "Prime Day",
+      "消费电子",
+      "便携设备"
+    ],
+    "source": "The Verge",
+    "time": "6分钟前",
+    "ts": "2026-06-23T16:11:24-04:00",
+    "url": "https://www.theverge.com/gadgets/955139/xteink-x3-x4-e-ink-reader-amazon-prime-day-deal-sale",
+    "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/04/xteink3_11.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100",
+    "stocks": []
+  },
+  {
+    "id": "25f987ae95b2b1db",
+    "title": "亚马逊Prime Day开启三大主机游戏大促",
+    "summary": "亚马逊Prime Day期间，针对任天堂Switch、PS5和Xbox平台的新老热门游戏推出大幅折扣，优惠主要以实体版为主。",
+    "body": "亚马逊一年一度的Prime Day促销活动为游戏玩家带来了丰厚福利。针对任天堂Switch、索尼PlayStation 5以及微软Xbox Series X/S三大主机平台，亚马逊推出了多款近几年新老热门游戏的显著折扣。\n\n此次促销的游戏产品绝大多数为实体版本，偶尔也会包含部分数字版优惠。对于主机玩家而言，这是补充实体游戏收藏和以更低成本体验大作的绝佳时机。\n\n此类大型电商促销活动不仅刺激了游戏软件的销量，也有助于进一步提升三大主机平台在消费市场的活跃度与用户粘性。",
+    "category": "消费电子",
+    "tags": [
+      "亚马逊",
+      "Prime Day",
+      "主机游戏",
+      "消费电子"
+    ],
+    "source": "The Verge",
+    "time": "17分钟前",
+    "ts": "2026-06-23T16:00:00-04:00",
+    "url": "https://www.theverge.com/gadgets/951901/prime-day-video-games-switch-playstation-xbox-pc-deal-sale",
+    "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/09/HadesUnseenUpdateWallpaper.png?quality=90&#038;strip=all&#038;crop=0,0,100,100",
+    "stocks": []
+  },
+  {
+    "id": "e34e5da014dfc608",
+    "title": "亚马逊Prime Day 4K电视大促，索尼A95L迎折扣",
+    "summary": "亚马逊Prime Day期间多款4K电视迎来大幅折扣，77英寸索尼A95L等高端产品也参与其中。一年中购买电视的最佳时机通常为超级碗前夕、黑五和Prime Day。",
+    "body": "近日，亚马逊Prime Day促销活动为多款4K电视带来了极具吸引力的折扣。其中，77英寸的索尼A95L作为过去几年中最出色的电视产品之一，也在此次活动中迎来了降价优惠。\n\n对于消费者而言，一年中购买新电视的最佳时机通常有三个：超级碗前夕、黑色星期五以及亚马逊Prime Day。此次大促活动为有换机需求的用户提供了绝佳的入手时机，进一步刺激了消费电子市场的终端需求。",
+    "category": "消费电子",
+    "tags": [
+      "亚马逊",
+      "Prime Day",
+      "4K电视",
+      "索尼"
+    ],
+    "source": "The Verge",
+    "time": "47分钟前",
+    "ts": "2026-06-23T15:30:00-04:00",
+    "url": "https://www.theverge.com/gadgets/952282/best-4k-tv-deals-amazon-prime-day-sale",
+    "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/07/Sony-XR-A95L.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100",
+    "stocks": []
+  },
+  {
+    "id": "5675fe237a5e3b6c",
+    "title": "特斯拉回应得州致命车祸：驾驶员手动干预了自动驾驶",
+    "summary": "特斯拉否认其全自动驾驶系统导致得州一起Model 3撞屋致人死亡的车祸。特斯拉AI负责人表示，事发时驾驶员手动覆盖了自动驾驶系统。",
+    "body": "近日，得克萨斯州发生了一起致命的交通事故，一辆超速行驶的特斯拉Model 3冲入民宅，导致屋内一名76岁的女性不幸身亡。外界质疑该事故是由特斯拉的全自动驾驶（FSD）系统故障引起的。\n\n对此，特斯拉方面予以否认。特斯拉AI负责人Ashok Elluswamy在社交平台X上回应称，数据显示事发时驾驶员手动覆盖了自动驾驶系统，暗示事故责任在于驾驶员的人工干预而非FSD系统本身。\n\n此次事故再次引发了公众和监管机构对自动驾驶技术安全性的关注。尽管车企不断推进自动驾驶技术的落地，但在复杂路况下的责任界定和技术可靠性仍是行业面临的重大挑战。",
+    "category": "人工智能",
+    "tags": [
+      "特斯拉",
+      "自动驾驶",
+      "FSD",
+      "交通安全"
+    ],
+    "source": "The Verge",
+    "time": "1小时前",
+    "ts": "2026-06-23T15:11:04-04:00",
+    "url": "https://www.theverge.com/transportation/955153/tesla-full-self-driving-texas-crash",
+    "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/06/gettyimages-2233586350.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100",
+    "stocks": []
+  },
+  {
     "id": "8fc74c4c88eb89aa",
     "title": "捷尼赛思超豪华SUV GV90确定上市时间",
     "summary": "捷尼赛思旗下超豪华SUV车型GV90终于确定了上市时间，标志着该品牌在高端汽车市场的进一步布局。",
@@ -34318,6 +35333,6 @@ const newsData = [
   }
 ];
 const newsDigest = {
-  "text": "今日科技前沿聚焦AI应用落地与商业航天突破。阿里云算力赋能智驾利好云计算及汽车板块；Claude重塑SaaS生态利好AI应用标的；中国可重复使用航天器进展提振商业航天产业链；物理AI与情感计算持续拓宽机器人边界。",
+  "text": "今日科技前沿聚焦AI应用突破与硬科技融资。豆包2.1赋能芯片设计，AI推理与医疗影像加速落地，利好算力及医疗IT；宜镁华获融资推动机器人轻量化，利好镁合金产业链；Rocket Lab创发射纪录，提振商业航天板块。",
   "highlights": []
 };
