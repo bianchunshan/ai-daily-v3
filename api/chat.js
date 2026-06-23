@@ -2,7 +2,7 @@
 // 用 Qwen(阿里云 Anthropic 兼容端点),key 取 Vercel 环境变量 QWEN_KEY。
 const QWEN_URL = 'https://token-plan.cn-beijing.maas.aliyuncs.com/apps/anthropic/v1/messages';
 const QWEN_MODEL = 'qwen3.7-max';
-const QWEN_TIMEOUT_MS = 10000;
+const QWEN_TIMEOUT_MS = 28000;
 
 function readBody(req) {
   return new Promise((resolve) => {
@@ -29,13 +29,13 @@ function fallbackAnswer(question, ctx) {
   });
   const lines = picks.map((n, i) => `${i + 1}. ${n.title || '未命名资讯'}${n.category ? `（${n.category}）` : ''}`);
   return [
-    'AI 响应较慢,先按最新资讯给你一个本地摘要:',
+    'AI 这次响应超时了,没有生成完整回答。先给你列出和这个问题相关的资讯,可以稍后重试:',
     '',
     ...lines,
     '',
     question.includes('标的')
-      ? '关联标的需要模型进一步判断,建议稍后再问一次。'
-      : '这不是模型完整分析,但可以先帮你快速扫到当前最靠前的重点。'
+      ? '关联标的需要模型进一步判断,这条兜底不直接给投资结论。'
+      : '这只是兜底结果,不是模型分析。'
   ].join('\n');
 }
 
