@@ -1,5 +1,1054 @@
 const newsData = [
   {
+    "id": "c708d64ae25612d0",
+    "title": "美国拉拢荷兰加入战略芯片联盟，法案限制仍存分歧",
+    "summary": "美国成功促使荷兰加入其主导的战略芯片联盟，取得半导体地缘博弈的关键胜利，但双方在《MATCH法案》限制条款上仍存分歧。",
+    "body": "近日，美国在推动全球半导体供应链重组与出口管制方面取得重要进展，成功促使荷兰加入其主导的战略芯片联盟。这一举措进一步巩固了美国在先进半导体设备领域的多边合作框架，对全球芯片产业格局产生深远影响。\n\n尽管联盟扩充取得关键胜利，但内部摩擦依然存在。报道指出，围绕《MATCH法案》的相关限制条款，各方仍面临紧张局势。该法案旨在进一步收紧技术出口限制，但严苛的条款引发了盟友对自身商业利益受损的担忧。\n\n荷兰在极紫外光刻机等核心半导体设备领域占据主导地位，其加入对美国实施半导体战略意义重大。然而，如何在国家安全诉求与盟友商业利益之间寻求平衡，将是该联盟未来运作面临的主要挑战。",
+    "category": "国际局势",
+    "tags": [
+      "半导体",
+      "芯片联盟",
+      "出口管制",
+      "地缘政治"
+    ],
+    "source": "Tom's Hardware",
+    "time": "刚刚",
+    "ts": "2026-06-24T19:52:38.015412+00:00",
+    "url": "https://www.tomshardware.com/tech-industry/us-secures-netherlands-for-pax-silica-alliance-in-key-win-for-strategic-chip-alliance-tension-remains-over-match-act-restrictions",
+    "image": "https://cdn.mos.cms.futurecdn.net/t8ySWP7zr8uebr6jzLvhjA-1280-80.jpg",
+    "stocks": [
+      {
+        "name": "应用材料",
+        "ticker": "AMAT",
+        "reason": "荷兰加入联盟统一了出口管制标准，缓解了美国半导体设备商因单边制裁面临的竞争劣势",
+        "confidence": "high"
+      },
+      {
+        "name": "泛林集团",
+        "ticker": "LRCX",
+        "reason": "盟国协同限制减少了美国本土半导体设备商的海外市场份额流失风险",
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
+    "id": "aa2688c8f122cbb0",
+    "title": "尼康Z8相机迎大幅折扣，原价购入者直呼心痛",
+    "summary": "尼康Z8全画幅微单相机近期推出大幅折扣活动，引发早期原价购买用户的感慨与关注。",
+    "body": "近期，尼康Z8相机迎来了力度可观的折扣促销活动。这一降价举措让不少早期以原价购入该相机的用户感到惋惜，甚至有科技媒体资深编辑戏称看到此次折扣“令人心痛”，因为自己刚以原价购入。\n\n此次尼康Z8的降价促销，为消费者提供了以更低成本入手这款高性能全画幅微单相机的绝佳机会。对于摄影爱好者和专业人士而言，这不仅降低了高端影像设备的门槛，也反映了当前消费电子市场中厂商通过价格策略刺激需求的常态。",
+    "category": "消费电子",
+    "tags": [
+      "尼康",
+      "数码相机",
+      "消费电子",
+      "降价促销"
+    ],
+    "source": "Space.com",
+    "time": "刚刚",
+    "ts": "2026-06-24T19:52:36.540629+00:00",
+    "url": "https://www.space.com/stargazing/skywatching-kit/seeing-this-nikon-z8-deal-is-painful-especially-since-i-bought-mine-at-full-price-our-senior-manager-took-the-hit-so-you-dont-have-to",
+    "image": "https://cdn.mos.cms.futurecdn.net/GDTJ5sDtS8cD68MJAfokjS-1280-80.jpg",
+    "stocks": []
+  },
+  {
+    "id": "b14ad50ec98f461c",
+    "title": "2026年世界杯直播：苏格兰对阵巴西",
+    "summary": "半岛电视台正在实时直播2026年世界杯苏格兰对阵巴西的足球比赛。",
+    "body": "半岛电视台（Al Jazeera）正在对2026年世界杯苏格兰对阵巴西的比赛进行实时直播。本场对决是本届世界杯赛事的重要场次，吸引了全球体育迷的广泛关注。\n\n作为全球瞩目的国际顶级体育盛会，世界杯不仅是参赛国家竞技水平的展示平台，也对推动国际文化交流与全球体育产业发展具有积极意义。观众可通过直播实时掌握赛况，见证两支球队的赛场表现。",
+    "category": "国际局势",
+    "tags": [
+      "世界杯",
+      "体育赛事",
+      "苏格兰",
+      "巴西"
+    ],
+    "source": "Al Jazeera",
+    "time": "刚刚",
+    "ts": "2026-06-24T19:52:28.539937+00:00",
+    "url": "https://www.aljazeera.com/sports/liveblog/2026/6/24/scotland-vs-brazil-live-world-cup-2026?traffic_source=rss",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "3d474647d63e7055",
+    "title": "华为擎云H3550商用手表发布：升级健康模组与星闪功能",
+    "summary": "华为推出擎云H3550商用智能手表，升级6 LED与6 PD PPG健康模组，并新增星闪查找及车钥匙功能。",
+    "body": "华为近日发布了擎云H3550商用智能手表，该产品在健康监测与互联体验上进行了显著升级。硬件方面，手表搭载了全新的6 LED加6 PD PPG模组，进一步提升了健康数据采集的精准度，能够更好地满足政企用户的健康管理需求。\n\n在智能互联方面，擎云H3550引入了星闪技术，支持星闪查找功能并具备车钥匙能力。这些新特性的加入丰富了手表的实用场景，展现了华为在商用穿戴设备领域持续深化生态互联的布局。",
+    "category": "消费电子",
+    "tags": [
+      "华为",
+      "智能手表",
+      "星闪技术",
+      "商用穿戴"
+    ],
+    "source": "IT之家",
+    "time": "刚刚",
+    "ts": "2026-06-24T19:52:27.625946+00:00",
+    "url": "https://www.ithome.com/0/968/214.htm",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "24b8dd5a1814c4f9",
+    "title": "小鼠成纤维细胞缺失超六成皮肤仍能再生，挑战传统认知",
+    "summary": "研究表明，小鼠在损失60%至70%的成纤维细胞后皮肤依然能够正常再生，这一发现颠覆了长期以来关于皮肤愈合机制的传统假设。",
+    "body": "近日，一项最新生物学研究揭示了一个令人惊讶的现象：小鼠在体内成纤维细胞减少60%至70%的情况下，其皮肤依然能够完成自我更新与再生。成纤维细胞长期以来被认为是皮肤结构维持和伤口愈合的核心细胞，负责分泌胶原蛋白等细胞外基质。\n\n这一发现直接挑战了科学界长期以来的传统假设，即成纤维细胞的数量和活性是皮肤再生的绝对必要条件。研究人员指出，皮肤组织可能具备比预期更强的代偿机制或其他未被充分认识的细胞途径来维持组织稳态。\n\n该成果对再生医学、抗衰老研究以及慢性伤口愈合治疗具有重要的启示意义。未来，科学家可能会重新评估皮肤修复的细胞学机制，从而为开发新型组织工程疗法和促愈合药物提供全新的理论依据。",
+    "category": "生物医药",
+    "tags": [
+      "再生医学",
+      "成纤维细胞",
+      "皮肤修复",
+      "生物学研究"
+    ],
+    "source": "MedicalXpress",
+    "time": "刚刚",
+    "ts": "2026-06-24T19:52:23.135996+00:00",
+    "url": "https://medicalxpress.com/news/2026-06-skin-renews-fibroblast-depletion-mice.html",
+    "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/skin-runs-deeper-than.jpg",
+    "stocks": []
+  },
+  {
+    "id": "db5b7c30873d6235",
+    "title": "以色列空袭加沙流离失所者帐篷致平民死亡",
+    "summary": "据半岛电视台报道，以色列对加沙地带一处流离失所者帐篷发动空袭，造成包括一名巴勒斯坦男孩在内的多人死亡。",
+    "body": "据半岛电视台报道，以色列军队对加沙地带的一处流离失所者帐篷发动了空袭。此次袭击造成了严重的人员伤亡，其中包括一名巴勒斯坦男孩在内的多名平民不幸遇难。\n\n这一事件再次凸显了加沙地带日益严峻的人道主义危机。针对平民和流离失所者营地的袭击引发了国际社会的广泛关注，进一步加剧了该地区的紧张局势与地缘政治的复杂性。",
+    "category": "国际局势",
+    "tags": [
+      "巴以冲突",
+      "加沙地带",
+      "中东局势"
+    ],
+    "source": "Al Jazeera",
+    "time": "刚刚",
+    "ts": "2026-06-24T19:52:14.533550+00:00",
+    "url": "https://www.aljazeera.com/video/newsfeed/2026/6/24/palestinian-boy-amongst-dead-in-israeli-strike-on-displaced-tent-in-gaza?traffic_source=rss",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "406644e730914697",
+    "title": "大型AI实验室纷纷聘请哲学家",
+    "summary": "随着人工智能技术的快速发展，大型AI实验室开始聘请哲学家，以应对AI发展带来的伦理和价值观挑战。",
+    "body": "近期，大型人工智能实验室开始招聘哲学家加入其研发团队。这一趋势反映出AI行业在追求技术突破的同时，越来越重视技术发展背后的深层逻辑与广泛的社会影响。\n\n哲学家的引入有助于AI实验室在算法对齐、伦理道德以及人类价值观整合等方面提供更专业的指导。这不仅能够提升AI系统的安全性和可靠性，也为应对未来通用人工智能可能带来的复杂社会问题奠定了理论基础。",
+    "category": "人工智能",
+    "tags": [
+      "人工智能",
+      "AI伦理",
+      "科技招聘"
+    ],
+    "source": "Hacker News",
+    "time": "刚刚",
+    "ts": "2026-06-24T19:52:04.457650+00:00",
+    "url": "https://www.economist.com/science-and-technology/2026/06/24/why-big-ai-labs-are-hiring-so-many-philosophers",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "a6a3e5494eca6788",
+    "title": "中国电动汽车出口再创纪录，东南亚加速电动化",
+    "summary": "随着东南亚地区加速推进交通电动化转型，中国电动汽车出口量再次打破历史纪录，展现出强劲的全球市场竞争力。",
+    "body": "随着东南亚地区加速推进交通电动化转型，中国电动汽车出口量再次打破历史纪录。东南亚市场正成为中国新能源汽车出海的重要增量引擎，展现出巨大的市场潜力与需求。\n\n中国车企凭借成熟的供应链与技术优势，正深度参与东南亚市场的电动化进程。这不仅大幅拉动了中国汽车出口的整体增长，也进一步巩固了中国在全球新能源汽车产业链中的竞争优势。",
+    "category": "未来能源",
+    "tags": [
+      "电动汽车",
+      "汽车出海",
+      "东南亚市场",
+      "新能源汽车"
+    ],
+    "source": "Electrek",
+    "time": "刚刚",
+    "ts": "2026-06-24T19:52:04.125617+00:00",
+    "url": "https://electrek.co/2026/06/24/china-ev-exports-southeast-asia/",
+    "image": "",
+    "stocks": [
+      {
+        "name": "比亚迪",
+        "ticker": "002594.SZ",
+        "reason": "全球新能源汽车龙头，在东南亚市场销量领先且正加速推进本地化建厂。",
+        "confidence": "high"
+      },
+      {
+        "name": "上汽集团",
+        "ticker": "600104.SH",
+        "reason": "旗下MG等品牌在东南亚等海外市场表现强劲，汽车出口量位居国内前列。",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "7edbda9626a3775c",
+    "title": "早产儿简单眼部扫描或可预测大脑发育",
+    "summary": "最新研究表明，通过对早产儿进行简单的眼部扫描，可能有助于预测其未来的大脑发育情况，为早期临床干预提供新途径。",
+    "body": "医学界在早产儿神经发育评估方面取得新进展。研究人员发现，一种简单的眼部扫描技术有望成为预测早产儿大脑发育情况的有效工具。\n\n这一发现具有重要的临床意义。早产儿的大脑发育评估通常较为复杂，而眼部扫描作为一种非侵入性、便捷的检测手段，能够帮助医生更早地发现潜在的神经发育问题。\n\n通过早期预测和识别，医疗团队可以及时制定针对性的干预措施，从而改善早产儿的长期神经发育结局，为新生儿重症监护提供了新的辅助诊断思路。",
+    "category": "生物医药",
+    "tags": [
+      "早产儿",
+      "眼部扫描",
+      "大脑发育",
+      "医疗诊断"
+    ],
+    "source": "MedicalXpress",
+    "time": "刚刚",
+    "ts": "2026-06-24T19:51:58.525487+00:00",
+    "url": "https://medicalxpress.com/news/2026-06-simple-eye-scan-preterm-infants.html",
+    "image": "https://scx1.b-cdn.net/csz/news/tmb/2023/eye-scan.jpg",
+    "stocks": []
+  },
+  {
+    "id": "8920bc1fc121ebcc",
+    "title": "Gemini新增计算机操作功能，AI代理自动化能力升级",
+    "summary": "Gemini模型新增计算机操作（Computer Use）功能，使AI代理能够直接控制电脑界面执行复杂任务，进一步提升自动化水平。",
+    "body": "近日，Gemini模型（Flash版本）引入“Computer Use”（计算机操作）功能的消息引发科技界关注。该功能允许AI代理像人类一样，通过视觉识别并模拟鼠标和键盘操作来直接控制计算机图形界面，从而跨应用执行复杂任务。\n\n这一进展标志着大语言模型向多模态AI代理迈出重要一步。赋予AI直接操作界面的能力，不仅大幅拓展了其在办公自动化、软件测试等场景的应用边界，也为下一代人机交互变革奠定了基础。",
+    "category": "人工智能",
+    "tags": [
+      "人工智能",
+      "AI代理",
+      "Gemini",
+      "自动化"
+    ],
+    "source": "Hacker News",
+    "time": "刚刚",
+    "ts": "2026-06-24T19:51:55.771992+00:00",
+    "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-computer-use-gemini-3-5-flash/",
+    "image": "",
+    "stocks": [
+      {
+        "name": "谷歌",
+        "ticker": "GOOGL",
+        "reason": "Gemini是谷歌的核心AI模型，新增计算机操作功能将显著提升其AI代理能力和云服务商业竞争力。",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "8566b5255fa525db",
+    "title": "哥伦比亚选举右翼获胜，塞佩达承认败选",
+    "summary": "哥伦比亚政治人物伊万·塞佩达承认在选举中落败，标志着右翼阵营在此次选举中锁定胜局。",
+    "body": "据半岛电视台报道，哥伦比亚政治人物伊万·塞佩达（Ivan Cepeda）已正式承认在选举中落败。这一表态标志着右翼阵营在此次选举中锁定胜局。\n\n此次选举结果确认了右翼势力的胜利，反映了哥伦比亚国内政治格局的最新变化。右翼阵营的胜出预计将对该国未来的政策走向和政治生态产生重要影响。",
+    "category": "国际局势",
+    "tags": [
+      "哥伦比亚",
+      "选举",
+      "右翼",
+      "国际政治"
+    ],
+    "source": "Al Jazeera",
+    "time": "刚刚",
+    "ts": "2026-06-24T19:51:52.752433+00:00",
+    "url": "https://www.aljazeera.com/news/2026/6/24/ivan-cepeda-concedes-defeat-in-colombia-election-sealing-right-wing-win?traffic_source=rss",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "823ec103e0aa6a95",
+    "title": "PC音箱迎Prime Day大促，漫步者等最高降价36%",
+    "summary": "亚马逊Prime Day期间多款知名PC音箱参与促销，漫步者、安桥及声擎等品牌产品最高可享36%的折扣。",
+    "body": "在亚马逊Prime Day购物节期间，多款知名PC音箱产品迎来大幅促销。其中，漫步者（Edifier）、安桥（Onkyo）和声擎（Audioengine）等品牌的音箱产品参与其中，部分型号最高可享受36%的折扣优惠。\n\n此次促销活动为有升级桌面音频设备需求的消费者提供了良好的购买契机。作为PC音频领域的知名品牌，漫步者等厂商参与此类国际大型购物节，不仅有助于刺激短期销量增长，也展现了消费电子品牌在海外市场的重要布局与活力。",
+    "category": "消费电子",
+    "tags": [
+      "PC音箱",
+      "Prime Day",
+      "漫步者"
+    ],
+    "source": "Tom's Hardware",
+    "time": "刚刚",
+    "ts": "2026-06-24T19:51:48.170820+00:00",
+    "url": "https://www.tomshardware.com/speakers/some-of-the-best-pc-speakers-weve-tested-are-on-sale-for-prime-day-save-up-to-36-percent-on-onkyo-edifier-and-audioengine-speakers",
+    "image": "https://cdn.mos.cms.futurecdn.net/KSi8GiP8BVZx2UnJzziMPP-1280-80.webp",
+    "stocks": [
+      {
+        "name": "漫步者",
+        "ticker": "002351.SZ",
+        "reason": "旗下PC音箱产品参与Prime Day大促，有望带动海外销量增长",
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
+    "id": "abff97bb2bdd13a5",
+    "title": "亚马逊大促：铂陆帝电源与九号割草机器人创历史低价",
+    "summary": "亚马逊Prime Day大促期间，Bluetti户外电源及九号公司旗下Navimow X4智能割草机器人等多款产品推出专属优惠，价格创历史新低。",
+    "body": "在近期的亚马逊Prime Day促销活动中，知名储能品牌Bluetti（铂陆帝）和智能短交通品牌九号公司旗下产品迎来大幅降价。其中，Bluetti多款便携式户外电源推出专属优惠，价格触及历史最低点，为户外露营和家庭备用电源需求提供了极具性价比的选择。\n\n同时，九号公司旗下的Navimow X4智能割草机器人也参与了此次大促，售价创下新低。随着智能家居和庭院自动化设备的普及，此类促销不仅刺激了消费者的购买需求，也进一步提升了相关品牌在海外市场的渗透率与品牌影响力。\n\n对于储能和智能割草机器人赛道而言，借助大型电商平台的促销节点扩大市场份额，是当前出海企业的重要营销策略，有望对相关公司的短期营收和长期市占率产生积极影响。",
+    "category": "消费电子",
+    "tags": [
+      "亚马逊大促",
+      "户外电源",
+      "割草机器人",
+      "出海营销"
+    ],
+    "source": "Electrek",
+    "time": "刚刚",
+    "ts": "2026-06-24T19:51:39.143228+00:00",
+    "url": "https://electrek.co/2026/06/24/bluetti-prime-day-power-stations-segway-navimow-robot-mower-more/",
+    "image": "",
+    "stocks": [
+      {
+        "name": "九号公司",
+        "ticker": "689009.SH",
+        "reason": "旗下Navimow X4割草机器人在亚马逊大促中创历史低价，有望刺激销量并提升海外市场份额。",
+        "confidence": "high"
+      },
+      {
+        "name": "华宝新能",
+        "ticker": "301327.SZ",
+        "reason": "旗下品牌Bluetti户外电源在Prime Day大促中推出历史低价，有望带动便携储能产品销量增长。",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "7fe0de7cdd60fb42",
+    "title": "Breville爆款意式浓缩咖啡机限时七折促销",
+    "summary": "科技媒体Wired推荐了Breville旗下最佳意式浓缩咖啡机，目前该产品正提供30%的折扣优惠。",
+    "body": "科技媒体Wired近日发文推荐了Breville（铂富）旗下表现最佳的意式浓缩咖啡机，并指出该产品目前正进行大幅度的促销活动。对于咖啡爱好者和追求高品质家庭咖啡体验的消费者而言，这提供了一个具有性价比的购买契机。\n\n此次促销提供了高达30%的折扣，显著降低了高端家用咖啡机的购买门槛。此类促销活动不仅有助于品牌在竞争激烈的家电市场中刺激消费需求，也反映出当前消费电子领域通过价格策略加速高端产品普及的行业趋势。",
+    "category": "消费电子",
+    "tags": [
+      "Breville",
+      "咖啡机",
+      "消费电子",
+      "促销"
+    ],
+    "source": "Wired",
+    "time": "刚刚",
+    "ts": "2026-06-24T19:51:38.151918+00:00",
+    "url": "https://www.wired.com/story/breville-deals-apd-6-24-2026/",
+    "image": "https://media.wired.com/photos/6a34781c9bab9b898fe10473/master/pass/Amazon%E2%80%99s-2-Best-Selling-Espresso-Machines-Are-Up-to-$200-Off.jpg",
+    "stocks": []
+  },
+  {
+    "id": "bb23751cffdc4e11",
+    "title": "亚马逊大促千元装机指南：RTX显卡配置性价比高",
+    "summary": "科技媒体发布基于亚马逊Prime Day促销零件的1000美元预算游戏PC装机指南，其配置与性价比超越了部分廉价预装机。",
+    "body": "知名科技媒体Tom's Hardware近日发布了一份基于亚马逊Prime Day促销零件的1000美元预算游戏PC装机指南。该方案旨在帮助玩家利用大促折扣，以较低成本组装出高性能的游戏电脑。\n\n在核心配置方面，这套装机方案配备了32GB内存和RTX 5060 Ti显卡，展现出强劲的游戏性能。文章强调，该DIY主机的综合体验与性价比均超越了Steam Machine以及市面上诸多廉价的预装整机。\n\n这一装机指南表明，在电商大促期间自主选购硬件进行组装，依然是预算有限的玩家获取高性能PC的有效途径，同时也凸显了DIY装机在性价比方面的独特优势。",
+    "category": "消费电子",
+    "tags": [
+      "游戏PC",
+      "电脑DIY",
+      "亚马逊大促",
+      "硬件导购"
+    ],
+    "source": "Tom's Hardware",
+    "time": "刚刚",
+    "ts": "2026-06-24T19:51:34.494129+00:00",
+    "url": "https://www.tomshardware.com/desktops/pc-building/you-can-still-build-a-great-usd1000-budget-gaming-pc-with-amazon-prime-day-parts-32gb-of-ram-and-rtx-5060-ti-power-beats-out-the-steam-machine-and-cheap-prebuilts",
+    "image": "https://cdn.mos.cms.futurecdn.net/WwkujpjzXu6MZjdALqq6mY-1280-80.jpg",
+    "stocks": []
+  },
+  {
+    "id": "7ea550498bb9c8a9",
+    "title": "以军突袭约旦河西岸，当地儿童生活遭重创",
+    "summary": "据半岛电视台报道，以色列军队在约旦河西岸的军事突袭严重破坏了当地儿童的正常生活与成长环境。",
+    "body": "据半岛电视台报道，以色列军队在约旦河西岸地区展开的军事突袭行动，正对当地儿童的成长环境造成严重破坏。报道指出，持续的军事行动使得当地儿童的正常生活被迫陷入停滞。\n\n此类军事冲突不仅直接威胁平民安全，也导致当地教育和日常社会秩序受到严重冲击。这一现状再次凸显了地缘冲突对弱势群体造成的深远人道主义影响，引发国际社会对当地局势的高度关注。",
+    "category": "国际局势",
+    "tags": [
+      "巴以冲突",
+      "约旦河西岸",
+      "人道危机"
+    ],
+    "source": "Al Jazeera",
+    "time": "刚刚",
+    "ts": "2026-06-24T19:51:18.951474+00:00",
+    "url": "https://www.aljazeera.com/features/2026/6/24/our-life-stops-west-bank-childhood-shattered-by-israeli-military-raids?traffic_source=rss",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "3cf95297732b0005",
+    "title": "发现驱动类风湿性关节炎关节组织生长的隐藏机制",
+    "summary": "研究人员揭示了驱动类风湿性关节炎中关节组织异常增生的潜在隐藏机制，为开发新疗法提供了重要靶点。",
+    "body": "近日，医学研究人员发现了驱动类风湿性关节炎中关节组织异常生长的隐藏机制。类风湿性关节炎是一种慢性自身免疫性疾病，其特征是关节滑膜过度增生并最终破坏软骨和骨骼。\n\n这一新发现的机制深入探讨了导致病理性组织生长的关键分子与细胞途径。该突破不仅加深了科学界对类风湿性关节炎发病机理的理解，也为未来研发更具针对性的靶向药物和干预策略提供了全新方向，有望显著改善患者的临床预后。",
+    "category": "生物医药",
+    "tags": [
+      "类风湿性关节炎",
+      "自身免疫疾病",
+      "病理机制",
+      "靶向治疗"
+    ],
+    "source": "MedicalXpress",
+    "time": "刚刚",
+    "ts": "2026-06-24T19:51:17.752567+00:00",
+    "url": "https://medicalxpress.com/news/2026-06-hidden-mechanism-joint-tissue-growth.html",
+    "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/hss-researchers-identi.jpg",
+    "stocks": []
+  },
+  {
+    "id": "7ca41dfbdac8a894",
+    "title": "OpenAI发布首款定制芯片，由博通协助打造",
+    "summary": "OpenAI正式推出其首款定制AI芯片，该芯片由半导体巨头博通合作开发制造，旨在提升算力效率并降低对通用GPU的依赖。",
+    "body": "OpenAI近日发布了其首款定制芯片，标志着该公司在优化AI算力成本、降低对英伟达等通用GPU依赖方面迈出重要一步。据悉，这款定制芯片由半导体巨头博通（Broadcom）合作开发与制造。\n\n随着大模型训练和推理需求的激增，算力成本和供应链瓶颈成为AI企业面临的核心挑战。OpenAI通过自研定制芯片并携手博通，能够针对自身算法架构进行底层硬件优化，有效提升能效比并保障算力供应的稳定性。\n\n此举表明头部AI大模型厂商正加速向产业链上游延伸，通过软硬件协同设计构建技术护城河，同时也为博通等具备先进定制芯片设计能力的半导体企业带来显著的业务增长空间。",
+    "category": "人工智能",
+    "tags": [
+      "OpenAI",
+      "定制芯片",
+      "博通",
+      "AI算力"
+    ],
+    "source": "Hacker News",
+    "time": "刚刚",
+    "ts": "2026-06-24T19:51:12.317162+00:00",
+    "url": "https://techcrunch.com/2026/06/24/openai-unveils-its-first-custom-chip-built-by-broadcom/",
+    "image": "",
+    "stocks": [
+      {
+        "name": "博通",
+        "ticker": "AVGO",
+        "reason": "作为OpenAI首款定制芯片的合作开发与制造方，直接受益于AI巨头自研芯片带来的定制硅片业务增长。",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "a8d25cfa8172c8cf",
+    "title": "马斯克否认特斯拉自动驾驶导致致死车祸",
+    "summary": "针对一起导致老年女性死亡的严重车祸，马斯克公开否认特斯拉Autopilot系统是事故原因，以回应外界对其自动驾驶安全性的质疑。",
+    "body": "近期发生一起涉及特斯拉车辆的致命车祸，导致一名老年女性遇难。对此，特斯拉CEO埃隆·马斯克明确否认车辆的Autopilot自动辅助驾驶系统导致了该起事故，反驳了外界关于系统缺陷引发悲剧的指控。\n\n特斯拉的自动驾驶技术一直备受市场关注，但也面临多起安全事故引发的法律诉讼与监管审查。马斯克的此次公开否认，旨在维护特斯拉的技术声誉与品牌形象。这一事件也凸显出，当前自动驾驶技术在事故责任界定、系统可靠性验证以及公众信任建立方面，依然面临复杂的行业挑战。",
+    "category": "人工智能",
+    "tags": [
+      "特斯拉",
+      "自动驾驶",
+      "马斯克"
+    ],
+    "source": "Ars Technica",
+    "time": "刚刚",
+    "ts": "2026-06-24T19:51:02.955551+00:00",
+    "url": "https://arstechnica.com/tech-policy/2026/06/elon-musk-denies-teslas-autopilot-caused-crash-that-killed-grandmother/",
+    "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/06/via-Barbour-complaint-1152x648.jpg",
+    "stocks": []
+  },
+  {
+    "id": "5f98c949a514aa9b",
+    "title": "对话中国顶尖AI专家：他们对AI现状同样深感焦虑",
+    "summary": "《连线》杂志记者与中国顶尖人工智能专家进行了深入交流，发现这些业内权威对当前AI领域的发展现状同样感到焦虑与担忧。",
+    "body": "《连线》杂志记者近期与多位中国顶尖的人工智能专家进行了交流，发现这些处于行业前沿的权威人士对当前AI的发展现状同样感到极度焦虑与担忧。\n\n这种情绪反映出在人工智能技术飞速迭代的背景下，全球顶尖研究者所面临的巨大心理压力与紧迫感，以及面对技术爆发时的真实反应。\n\n这一现象表明，AI技术的快速增长不仅带来了产业变革，也给科研人员带来了深层次的挑战，凸显了全球AI前沿探索中的不确定性与行业思考。",
+    "category": "人工智能",
+    "tags": [
+      "人工智能",
+      "AI专家",
+      "行业观察"
+    ],
+    "source": "Wired",
+    "time": "刚刚",
+    "ts": "2026-06-24T19:51:01.109750+00:00",
+    "url": "https://www.wired.com/story/ai-arms-race-china-us-cooperation/",
+    "image": "https://media.wired.com/photos/6a3af3bc66e0743c653aa81f/master/pass/AI-Lab-America-China-Have-No-Choice-But-to-Work-Together-to-Secure-AI-Open-Frontier-Business.jpg",
+    "stocks": []
+  },
+  {
+    "id": "c0ded4b5dd566191",
+    "title": "Lumysi推出伪装成手链的活动追踪器，主打时尚隐蔽",
+    "summary": "科技公司Lumysi推出了一款外观如普通手链的活动追踪器，旨在解决传统可穿戴设备缺乏时尚感的问题。",
+    "body": "Lumysi近日推出了一款全新的活动追踪设备，其独特之处在于将健康监测模块巧妙地隐藏在一条精美的手链之中。该公司认为，传统的智能手表和健身手环等可穿戴设备在设计上往往缺乏时尚感，因此致力于将科技功能与日常珠宝配饰相结合。\n\n这一设计理念为可穿戴设备市场提供了一种新的思路，即通过弱化科技产品的“数码感”，将其无缝融入用户的日常穿搭中。此举有望吸引更多注重时尚、品味以及隐蔽性需求的消费者，推动智能穿戴设备向饰品化方向发展。",
+    "category": "消费电子",
+    "tags": [
+      "可穿戴设备",
+      "智能穿戴",
+      "消费电子"
+    ],
+    "source": "Engadget",
+    "time": "刚刚",
+    "ts": "2026-06-24T19:50:58.582576+00:00",
+    "url": "https://www.engadget.com/2199703/lumsi-hid-an-activity-tracker-in-a-bracelet-because-wearables-are-gauche-darling/",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "97c1cf6da5ea55a5",
+    "title": "Deezer推新功能：粉丝获授权即可混音歌曲",
+    "summary": "法国音乐流媒体平台Deezer推出全新混音功能，允许粉丝在获得艺术家授权的情况下对歌曲进行重新混音创作。",
+    "body": "法国音乐流媒体平台Deezer宣布推出一项全新的互动功能，允许粉丝对平台上的歌曲进行重新混音。与以往未经授权的二次创作不同，该功能强调必须在获得原艺术家明确同意和授权的前提下进行。\n\n这一举措不仅为粉丝提供了更多参与音乐创作和互动的机会，也为艺术家提供了更好的版权保护机制。在数字创作工具日益普及的当下，此举有望在激发用户创作活力的同时，进一步探索创作者经济与版权管理的新模式。",
+    "category": "消费电子",
+    "tags": [
+      "Deezer",
+      "音乐流媒体",
+      "创作者经济",
+      "版权管理"
+    ],
+    "source": "TechCrunch",
+    "time": "刚刚",
+    "ts": "2026-06-24T19:50:57.548500+00:00",
+    "url": "https://techcrunch.com/2026/06/24/deezer-says-its-new-feature-lets-fans-remix-songs-with-artist-consent/",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "c73369c9c856a71e",
+    "title": "现代与起亚测试全球首创车内消毒技术",
+    "summary": "现代汽车与起亚正在其PV5车型上测试号称“全球首创”的车内消毒技术，旨在提升座舱环境卫生与乘客健康体验。",
+    "body": "现代汽车与起亚目前正在其PV5车型上测试一项被称为“全球首创”的车内消毒技术。此举旨在通过创新手段提升车内环境的卫生水平，为乘客提供更加健康、安全的出行体验。\n\nPV5是现代汽车集团推出的重要定制化车型，此次引入前沿的消毒技术，进一步拓展了该车型的功能边界与应用场景。该技术的测试标志着车企在座舱健康防护领域的持续探索与技术升级。\n\n随着公众对出行健康的日益重视，车内环境管理逐渐成为汽车科技的重要发展方向。现代与起亚在PV5上的这项技术测试，不仅有助于提升产品的市场竞争力，也为未来座舱健康管理功能提供了新的行业参考。",
+    "category": "消费电子",
+    "tags": [
+      "现代汽车",
+      "起亚",
+      "汽车电子",
+      "智能座舱"
+    ],
+    "source": "Electrek",
+    "time": "刚刚",
+    "ts": "2026-06-24T19:50:56.671321+00:00",
+    "url": "https://electrek.co/2026/06/24/hyundai-kia-test-worlds-first-in-car-sanitization-tech-in-pv5/",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "5673ae4b22b314ea",
+    "title": "新型基因组工具在罕见病诊断中展现高效性",
+    "summary": "最新研究表明，一种新型基因组工具在检测罕见病方面具有极高的有效性，为罕见病的精准诊断提供了新途径。",
+    "body": "近日，据MedicalXpress报道，一种新型基因组工具在罕见病诊断领域展现出卓越的有效性。罕见病由于发病率低且症状复杂，长期以来面临诊断困难的挑战，而该工具的应用显著提升了检测的准确率与效率。\n\n该基因组工具通过深入分析基因数据，能够更精准地识别导致罕见病的基因突变。这不仅有助于缩短患者的诊断周期，还能为后续的靶向治疗和个性化医疗提供关键的科学依据。\n\n这一突破对生物医药和基因测序行业具有重要意义。随着基因组学技术的不断进步，此类高效诊断工具有望在未来广泛应用于临床，推动罕见病诊疗水平的整体提升。",
+    "category": "生物医药",
+    "tags": [
+      "基因组学",
+      "罕见病",
+      "精准医疗",
+      "基因测序"
+    ],
+    "source": "MedicalXpress",
+    "time": "刚刚",
+    "ts": "2026-06-24T19:50:49.060014+00:00",
+    "url": "https://medicalxpress.com/news/2026-06-genomic-tool-highly-effective-rare.html",
+    "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/genomic-tool-highly-ef.jpg",
+    "stocks": []
+  },
+  {
+    "id": "de0e6396dd9dcce4",
+    "title": "FAULHABER推出新型GPT减速器，优化扭矩噪音与动力",
+    "summary": "知名驱动系统制造商FAULHABER发布全新GPT系列行星减速器，重点提升了扭矩、噪音控制与动力输出性能。",
+    "body": "知名微型电机与驱动系统制造商FAULHABER近日发布了全新的GPT系列行星减速器。该系列产品在研发设计上重点聚焦于扭矩、噪音控制以及动力输出等核心性能指标。\n\n此次推出的GPT减速器旨在为机器人及自动化设备提供更高效、更安静的动力传输解决方案。通过优化扭矩和功率表现并降低运行噪音，该新品有望进一步提升精密驱动系统在复杂应用场景下的可靠性与用户体验。",
+    "category": "机器人",
+    "tags": [
+      "FAULHABER",
+      "行星减速器",
+      "机器人零部件"
+    ],
+    "source": "The Robot Report",
+    "time": "刚刚",
+    "ts": "2026-06-24T19:50:38.277980+00:00",
+    "url": "https://www.therobotreport.com/faulhaber-focuses-torque-noise-power-new-gpt-gearheads/",
+    "image": "https://www.therobotreport.com/wp-content/uploads/2026/06/faulhaber-gptfamily-featured-1024x665-1.jpg",
+    "stocks": []
+  },
+  {
+    "id": "8c03cec2dab66472",
+    "title": "博通携手OpenAI发布首款定制推理芯片Jalapeño",
+    "summary": "博通与OpenAI联合推出名为Jalapeño的定制推理处理器，这是OpenAI首款专属芯片，采用超大尺寸ASIC设计，仅耗时9个月完成开发。",
+    "body": "博通（Broadcom）与OpenAI近日联合发布了名为“Jalapeño”的定制推理处理器。作为OpenAI的首款专属芯片，该产品采用超大掩模版尺寸的ASIC设计，专为高效的AI推理任务打造。\n\n值得注意的是，该芯片的研发周期仅为9个月，展现了双方极高的工程协同与开发效率。此举不仅有助于OpenAI优化推理算力成本并降低对通用GPU的依赖，同时也向市场证明了博通在高端定制AI芯片领域的卓越交付能力。",
+    "category": "人工智能",
+    "tags": [
+      "博通",
+      "OpenAI",
+      "AI芯片",
+      "ASIC"
+    ],
+    "source": "Tom's Hardware",
+    "time": "刚刚",
+    "ts": "2026-06-24T19:50:35.597734+00:00",
+    "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/broadcom-and-openai-unveil-custom-built-jalapeno-inference-processor-openais-first-chip-is-a-massive-reticle-sized-asic-built-in-an-ultra-fast-nine-month-development-cycle",
+    "image": "https://cdn.mos.cms.futurecdn.net/3Bym5bRSoc2XYC2CRstQM3-1280-80.jpg",
+    "stocks": [
+      {
+        "name": "博通",
+        "ticker": "AVGO",
+        "reason": "作为联合开发方，彰显其在定制AI ASIC领域的强大设计与交付能力，有望获得更多科技巨头的定制芯片订单。",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "9f64e96960473090",
+    "title": "开发者重写PostHog SQL解析器，性能提升70倍",
+    "summary": "一位开发者分享了重写开源产品分析平台PostHog的SQL解析器的经验，在极少参考原代码的情况下将解析速度提升了70倍。",
+    "body": "近日，一篇关于重写PostHog SQL解析器的技术文章在Hacker News上引发关注。作者表示，在几乎不查看原有代码的情况下，成功重构了该解析器，并实现了高达70倍的性能提升。\n\nPostHog作为一款知名的开源产品分析平台，其底层数据处理和查询效率至关重要。SQL解析器的性能优化不仅能大幅降低查询延迟，还能显著提升平台在处理海量数据时的整体吞吐量。\n\n此次重构展示了在系统优化中，跳出原有代码框架并采用全新思路进行重写，能够带来突破性的性能收益，为开源社区和数据库性能优化提供了宝贵的实践经验。",
+    "category": "人工智能",
+    "tags": [
+      "PostHog",
+      "SQL解析",
+      "性能优化",
+      "开源"
+    ],
+    "source": "Hacker News",
+    "time": "刚刚",
+    "ts": "2026-06-24T19:50:30.393056+00:00",
+    "url": "https://posthog.com/blog/sql-parser",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "f15286e5ccc99709",
+    "title": "荷兰首相揭幕马鲁古纪念碑反思殖民历史",
+    "summary": "荷兰首相近日为马鲁古纪念碑揭幕，以纪念和反思荷兰历史上的黑暗殖民篇章。",
+    "body": "近日，荷兰首相出席仪式，正式为马鲁古纪念碑揭幕。该纪念碑旨在纪念荷兰殖民历史中的黑暗篇章，特别是与马鲁古群岛相关的历史事件。\n\n这一举措体现了荷兰政府对历史殖民行为的反思与正视，有助于推动历史和解。同时，这也反映了欧洲国家在处理历史遗留问题和前殖民地关系方面的最新政治动向。",
+    "category": "国际局势",
+    "tags": [
+      "荷兰",
+      "殖民历史",
+      "国际关系"
+    ],
+    "source": "Al Jazeera",
+    "time": "刚刚",
+    "ts": "2026-06-24T19:50:27.383664+00:00",
+    "url": "https://www.aljazeera.com/video/newsfeed/2026/6/24/aje-onl-nf_dutch-pm-unveils-moluccan-monument-after-apology-240626?traffic_source=rss",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "d25da3c88a9430e3",
+    "title": "本田或将复活Element车型 推出平价混动版",
+    "summary": "据报道，本田计划重新推出Element车型，并将其定位为一款价格亲民的混合动力汽车。",
+    "body": "近日有消息称，本田正计划复活其经典车型Element。据悉，新款Element将被打造成一款价格亲民的混合动力汽车，以满足市场对高性价比新能源车型的需求。\n\nElement曾是本田旗下一款以实用性和多功能性著称的跨界车。此次将其以混动形式重新推向市场，不仅丰富了本田的混合动力产品线，也有望进一步降低消费者的购车门槛，助力其在竞争激烈的新能源市场中抢占更多份额。",
+    "category": "未来能源",
+    "tags": [
+      "本田",
+      "混合动力",
+      "Element",
+      "新能源汽车"
+    ],
+    "source": "Engadget",
+    "time": "刚刚",
+    "ts": "2026-06-24T19:50:26.663244+00:00",
+    "url": "https://www.engadget.com/2200882/honda-reportedly-bringing-back-element-as-affordable-hybrid/",
+    "image": "https://www.engadget.com/img/gallery/honda-reportedly-bringing-back-element-as-affordable-hybrid/l-intro-1782325027.jpg",
+    "stocks": [
+      {
+        "name": "本田",
+        "ticker": "HMC",
+        "reason": "本田计划推出平价混动版Element，有望提升其混动车型销量与市场份额。",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "c218c373ec104adb",
+    "title": "亚马逊Prime Day Kindle系列最高享36%折扣",
+    "summary": "亚马逊在Prime Day期间推出Kindle系列电子书阅读器促销活动，涵盖Paperwhite、Colorsoft及儿童版，最高折扣达36%。",
+    "body": "近日，据外媒报道，亚马逊在Prime Day购物节期间为旗下Kindle系列电子书阅读器提供了大幅优惠。此次促销涵盖了多款热门产品，包括经典的Kindle Paperwhite、彩色墨水屏版Kindle Colorsoft以及专为儿童设计的Kindle Kids版。\n\n活动期间，消费者购买上述Kindle设备最高可享受36%的折扣。这一促销举措不仅旨在刺激硬件设备的销量，同时也希望通过硬件入口进一步吸引和巩固亚马逊Prime会员生态，提升用户在平台上的数字阅读与内容消费体验。",
+    "category": "消费电子",
+    "tags": [
+      "亚马逊",
+      "Kindle",
+      "Prime Day",
+      "电子书阅读器"
+    ],
+    "source": "Wired",
+    "time": "刚刚",
+    "ts": "2026-06-24T19:50:22.713387+00:00",
+    "url": "https://www.wired.com/story/kindle-prime-day-deals-06-24-2026/",
+    "image": "https://media.wired.com/photos/6a39c0acf875943dad2ebda1/master/pass/The-Best-Kindle-Deals-Happening-for-Amazon-Prime-Day.jpg",
+    "stocks": [
+      {
+        "name": "亚马逊",
+        "ticker": "AMZN",
+        "reason": "Kindle为亚马逊旗下核心硬件产品，Prime Day促销有助于拉动硬件销量及Prime会员订阅增长。",
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
+    "id": "b7d31d54e92a863c",
+    "title": "Google降低Play商店费用，履行Epic和解协议",
+    "summary": "Google已开始降低Play商店的开发者抽成费用，以履行此前与Epic Games达成的反垄断和解协议。",
+    "body": "Google正式着手降低其Play商店的应用内购买和订阅费用，此举旨在履行与《堡垒之夜》开发商Epic Games达成的反垄断和解协议。通过调整抽成比例，Google试图缓解开发者对其应用商店垄断行为的长期担忧。\n\n这一费用调整将直接惠及广大Android应用开发者，有效降低其运营成本。对于Epic Games等长期批评应用商店高额抽成的企业而言，这是推动数字市场公平竞争的重要成果。\n\n该举措不仅改善了Android生态的开发者关系，也可能对苹果等其他平台的应用商店收费政策产生间接影响，促使整个科技行业重新审视平台与开发者之间的利益分配机制。",
+    "category": "消费电子",
+    "tags": [
+      "Google",
+      "Play商店",
+      "Epic Games",
+      "反垄断"
+    ],
+    "source": "Ars Technica",
+    "time": "刚刚",
+    "ts": "2026-06-24T19:50:11.175828+00:00",
+    "url": "https://arstechnica.com/google/2026/06/google-starts-lowering-play-store-fees-making-good-on-epic-games-settlement/",
+    "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/06/play-store-1152x648.jpg",
+    "stocks": []
+  },
+  {
+    "id": "da01789695a0a097",
+    "title": "Facebook推出面向创作者的AI伴侣应用",
+    "summary": "Facebook（Meta）推出一款专为内容创作者设计的AI伴侣应用，旨在利用人工智能技术辅助内容创作与互动。",
+    "body": "Facebook（Meta）近日宣布推出一款全新的AI伴侣应用，专门面向平台上的内容创作者。该应用旨在通过人工智能技术，帮助创作者更高效地生成内容、管理社区以及与粉丝进行互动。\n\n这一举措标志着Meta在生成式AI应用领域的进一步布局，通过将AI工具直接赋能创作者，有望提升平台内容的丰富度与用户粘性。这也反映出科技巨头正加速将AI技术向具体应用场景落地，以抢占创作者经济的市场份额。",
+    "category": "人工智能",
+    "tags": [
+      "Meta",
+      "人工智能",
+      "创作者经济",
+      "AI应用"
+    ],
+    "source": "TechCrunch",
+    "time": "刚刚",
+    "ts": "2026-06-24T19:50:07.442165+00:00",
+    "url": "https://techcrunch.com/2026/06/24/facebook-rolls-out-an-ai-companion-app-for-creators/",
+    "image": "",
+    "stocks": [
+      {
+        "name": "Meta Platforms",
+        "ticker": "META",
+        "reason": "作为Facebook母公司，推出该AI应用有望增强创作者生态并提升平台商业价值。",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "c67c25d672f4e0ff",
+    "title": "小脑衰老差异或揭示部分老年人保持思维敏捷之谜",
+    "summary": "最新研究表明，小脑不同区域衰老速度的差异，可能部分解释了为何部分老年人能长期保持认知敏锐。该发现为理解大脑衰老机制及神经退行性疾病提供了新视角。",
+    "body": "最新一项神经科学研究指出，人类小脑的衰老过程并非完全均匀同步。研究表明，小脑不同区域在老化过程中的差异，可能在一定程度上解释了为什么有些老年人在年迈时依然能够保持思维敏捷和认知清晰。\n\n这一发现为理解大脑衰老的复杂机制提供了重要线索。小脑不仅负责运动协调，还在认知功能中扮演关键角色。揭示小脑区域性衰老的差异性，有助于科学家进一步探索认知衰退及神经退行性疾病的发病机制。\n\n该研究成果加深了学界对健康衰老的认知，也为未来开发针对性的神经保护策略、延缓老年人认知功能衰退提供了潜在的理论基础与新视角。",
+    "category": "生物医药",
+    "tags": [
+      "神经科学",
+      "大脑衰老",
+      "认知健康"
+    ],
+    "source": "MedicalXpress",
+    "time": "刚刚",
+    "ts": "2026-06-24T19:50:03.799130+00:00",
+    "url": "https://medicalxpress.com/news/2026-06-uneven-cerebellum-aging-older-adults.html",
+    "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/could-the-cerebellum-h.jpg",
+    "stocks": []
+  },
+  {
+    "id": "d2107554157f1f21",
+    "title": "NASA毅力号在火星岩石中发现复杂碳，或存古代生命证据",
+    "summary": "NASA“毅力号”火星车在火星岩石中探测到复杂的碳分子，这一发现为火星可能存在古代生命提供了新的潜在证据。",
+    "body": "美国宇航局（NASA）的“毅力号”火星车在火星表面的岩石样本中检测到了复杂的碳结构。这一重要发现引发了科学界的广泛关注，因为复杂碳分子通常与生物过程密切相关，可能成为火星曾存在古代生命的关键线索。\n\n“毅力号”的主要任务之一是收集火星岩石和土壤样本，以便未来通过火星样本返回任务带回地球进行更深入的分析。此次原位探测到复杂碳，不仅提升了样本的科学价值，也为人类理解火星的地质历史和潜在宜居性提供了重要数据。\n\n尽管这一发现尚不能作为火星存在生命的最终确凿证据，但它极大地推进了天体生物学领域的研究进展，并为未来的深空探测任务指明了更具潜力的探索方向。",
+    "category": "商业航天",
+    "tags": [
+      "火星探测",
+      "NASA",
+      "毅力号",
+      "太空探索"
+    ],
+    "source": "Space.com",
+    "time": "刚刚",
+    "ts": "2026-06-24T19:50:02.028994+00:00",
+    "url": "https://www.space.com/astronomy/mars/did-nasa-just-find-evidence-of-ancient-life-on-mars-perseverance-rover-spots-complex-carbon-in-red-planet-rocks",
+    "image": "https://cdn.mos.cms.futurecdn.net/Xzfe6tgAbT4Kdbng84rWqA-1280-80.jpg",
+    "stocks": []
+  },
+  {
+    "id": "4527d8fd85ea4913",
+    "title": "特斯拉与Sunrun合建16GW虚拟电厂助力数据中心",
+    "summary": "特斯拉与住宅太阳能公司Sunrun宣布合作，共同建设规模达16GW的虚拟电厂。该项目旨在整合分布式储能资源，为耗电量巨大的数据中心提供稳定的电力支持。",
+    "body": "特斯拉与知名住宅太阳能及储能提供商Sunrun达成合作，计划共同打造一个规模高达16GW的虚拟电厂。该虚拟电厂将整合大量家庭用户的太阳能面板与储能电池，通过智能软件平台进行统一调度与管理。\n\n随着人工智能技术的爆发式增长，数据中心的电力需求正急剧攀升，给传统电网带来了巨大压力。此次合作建设的虚拟电厂，不仅能够有效缓解数据中心的用电焦虑，还能在电网用电高峰期提供削峰填谷的辅助服务。\n\n这一举措标志着分布式能源在应对算力基础设施高耗能挑战方面迈出了重要一步。通过虚拟电厂模式，双方不仅拓展了储能产品的应用场景，也为未来能源网络与高耗能产业的协同发展提供了创新解决方案。",
+    "category": "未来能源",
+    "tags": [
+      "虚拟电厂",
+      "特斯拉",
+      "储能",
+      "数据中心"
+    ],
+    "source": "Electrek",
+    "time": "刚刚",
+    "ts": "2026-06-24T19:49:59.036363+00:00",
+    "url": "https://electrek.co/2026/06/24/tesla-sunrun-16gw-vpp-data-centers/",
+    "image": "",
+    "stocks": [
+      {
+        "name": "特斯拉",
+        "ticker": "TSLA",
+        "reason": "作为合作方提供储能硬件及虚拟电厂调度软件平台，直接受益于项目落地与储能业务增长。",
+        "confidence": "high"
+      },
+      {
+        "name": "Sunrun",
+        "ticker": "RUN",
+        "reason": "作为合作方提供庞大的住宅太阳能与储能用户基础，直接参与虚拟电厂建设与运营。",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "595b4d09ec682cab",
+    "title": "MDA Space获Radarsat补充卫星建造合同",
+    "summary": "加拿大航天公司MDA Space赢得合同，将为加拿大建造Radarsat雷达卫星系统的补充卫星，以维持其地球观测能力。",
+    "body": "近日，加拿大航天技术公司MDA Space宣布赢得一项重要合同，负责建造Radarsat雷达卫星系统的补充卫星。该合同旨在确保加拿大在地球观测和雷达遥感领域的持续能力，为现有的Radarsat星座任务提供后续支持。\n\n此次中标巩固了MDA Space在卫星制造和航天技术领域的市场地位，也体现了加拿大对自主太空基础设施建设的持续投入。新卫星的部署将进一步提升该国在环境监测、海洋监视及灾害管理等关键领域的数据获取能力。",
+    "category": "商业航天",
+    "tags": [
+      "MDA Space",
+      "Radarsat",
+      "卫星制造",
+      "地球观测"
+    ],
+    "source": "SpaceNews",
+    "time": "刚刚",
+    "ts": "2026-06-24T19:49:46.214908+00:00",
+    "url": "https://spacenews.com/mda-space-wins-contract-for-radarsat-replenishment-satellite/",
+    "image": "",
+    "stocks": [
+      {
+        "name": "MDA Space",
+        "ticker": "MDA.TO",
+        "reason": "作为合同直接承包方负责建造卫星，将直接带来营收与业务增长。",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "732572f9681bf6ca",
+    "title": "Reservoir收购Contain以扩大农科初创企业规模",
+    "summary": "Reservoir宣布收购Contain，旨在加速并扩大农业科技初创企业的发展规模。",
+    "body": "Reservoir近日宣布完成对Contain的收购，旨在进一步加速并扩大农业科技初创企业的发展规模。通过此次战略整合，Reservoir期望为农业科技领域的创新项目提供更完善的资源与基础设施支持。\n\n此次收购不仅有助于提升相关农业技术的商业化落地效率，也将为现代农业的自动化与智能化升级注入新动力。业界认为，这将推动前沿农业技术的规模化应用，对农业科技产业的长期发展具有积极影响。",
+    "category": "机器人",
+    "tags": [
+      "农业科技",
+      "企业收购",
+      "自动化农业"
+    ],
+    "source": "The Robot Report",
+    "time": "刚刚",
+    "ts": "2026-06-24T19:49:45.125167+00:00",
+    "url": "https://www.therobotreport.com/reservoir-acquires-contain-to-scale-agtech-startups/",
+    "image": "https://www.therobotreport.com/wp-content/uploads/2026/06/reservoir-indoor-ag-featured.jpg",
+    "stocks": []
+  },
+  {
+    "id": "c2fd27c68c602e2d",
+    "title": "Prime Day消费级3D打印机迎史低折扣，拓竹等品牌大幅降价",
+    "summary": "亚马逊Prime Day期间，拓竹、创想三维等品牌的消费级3D打印机及耗材套装迎来大幅折扣，价格降至历史低点。",
+    "body": "在近期的亚马逊Prime Day促销活动中，消费级3D打印机市场迎来了大幅降价。Anycubic、Bambu Lab、Elegoo和Creality等头部品牌的多款高性价比机型均降至历史最低价格。\n\n除了3D打印机主机外，此次活动还涵盖了3D打印耗材套装的优惠，进一步降低了3D打印爱好者的使用成本。这些大幅度的折扣不仅刺激了消费级3D打印设备的普及，也为相关硬件和耗材制造商带来了显著的销量增长机遇。",
+    "category": "消费电子",
+    "tags": [
+      "3D打印",
+      "Prime Day",
+      "消费电子"
+    ],
+    "source": "Tom's Hardware",
+    "time": "刚刚",
+    "ts": "2026-06-24T19:49:42.008296+00:00",
+    "url": "https://www.tomshardware.com/3d-printing/prime-day-brings-huge-savings-on-affordable-3d-printers-top-value-picks-from-anycubic-bambu-lab-elegoo-and-creality-hit-rock-bottom-pricing-cant-miss-deals-on-filament-bundles",
+    "image": "https://cdn.mos.cms.futurecdn.net/6Vnn8JPufvRyNBrtgcJW4N-1280-80.jpg",
+    "stocks": []
+  },
+  {
+    "id": "d1019a1cc8bb128a",
+    "title": "以色列寻求减少对美国武器依赖的背后原因",
+    "summary": "半岛电视台报道探讨了以色列试图降低对美国武器系统依赖的战略考量与深层原因。",
+    "body": "半岛电视台报道探讨了以色列试图降低对美国武器系统依赖的战略考量。这一议题反映出以色列在国防安全领域寻求更高自主性与供应链韧性的趋势。\n\n减少对外部单一武器来源的依赖，旨在提升其应对复杂地缘政治环境的战略灵活性。此举不仅可能推动以色列本土国防工业的进一步发展，也将对美以长期的军事合作关系产生微妙影响。",
+    "category": "国际局势",
+    "tags": [
+      "以色列",
+      "美国武器",
+      "国防安全",
+      "地缘政治"
+    ],
+    "source": "Al Jazeera",
+    "time": "刚刚",
+    "ts": "2026-06-24T19:49:38.953957+00:00",
+    "url": "https://www.aljazeera.com/video/inside-story/2026/6/24/why-does-israel-want-to-be-less-dependent-on-us-weapons?traffic_source=rss",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "546726380cb3ce08",
+    "title": "IEEE获奖者Karen Panetta的工程学探索之路",
+    "summary": "IEEE Spectrum刊文讲述了IEEE获奖者Karen Panetta如何对工程学产生浓厚兴趣并在此领域深耕的故事。",
+    "body": "IEEE Spectrum近日刊文，讲述了IEEE获奖者Karen Panetta如何对工程学产生浓厚兴趣的故事。文章回顾了她被工程学吸引并在此领域不断探索的历程。\n\n作为工程领域的杰出学者，Panetta的学术经历展现了她对科学技术的热爱与执着。她的故事不仅彰显了工程学研究的魅力，也为相关领域的科研工作者提供了宝贵的启发与激励。",
+    "category": "人工智能",
+    "tags": [
+      "IEEE",
+      "人物专访",
+      "工程学"
+    ],
+    "source": "IEEE Spectrum",
+    "time": "刚刚",
+    "ts": "2026-06-24T19:49:35.616617+00:00",
+    "url": "https://spectrum.ieee.org/ieee-awardee-karen-panetta",
+    "image": "https://spectrum.ieee.org/media-library/a-white-brunette-woman-smiling-in-a-pink-cardigan.jpg?id=67020891&width=980",
+    "stocks": []
+  },
+  {
+    "id": "e599c04f9d4837f2",
+    "title": "挪威队世界杯进球引发卑尔根市微地震",
+    "summary": "挪威队在世界杯进球时，卑尔根市地震仪记录到明显震动，系大量球迷同时跳跃庆祝所致。",
+    "body": "在世界杯赛事期间，每当挪威国家队取得进球，挪威卑尔根市的地震监测设备便会记录到异常的震动信号。这一现象并非自然地质活动，而是由大量当地球迷在观赛时因激动而同时跳跃庆祝所引发的共振效应。\n\n该事件凸显了现代高灵敏度地震监测网络捕捉人类活动引发微小地表震动的能力。虽然此类“人为地震”不会对城市基础设施造成破坏，但为科学家研究人群动力学及传感器在城市环境监测中的应用提供了独特的观测案例。",
+    "category": "国际局势",
+    "tags": [
+      "地震监测",
+      "人群动力学",
+      "趣味科学"
+    ],
+    "source": "Wired",
+    "time": "刚刚",
+    "ts": "2026-06-24T19:49:25.172432+00:00",
+    "url": "https://www.wired.com/story/world-cup-norway-scores-city-of-bergen-trembles/",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "d049b48efab38669",
+    "title": "电动方程式公布GEN4首份赛历，增设多条传统专业赛道",
+    "summary": "国际汽联电动方程式锦标赛（Formula E）正式公布其第四代（GEN4）赛车的首个赛季日程。新赛历显著增加了传统专业赛道的比例，标志着赛事向更纯粹的竞速体验回归。",
+    "body": "国际汽联电动方程式锦标赛（Formula E）近日揭晓了其第四代（GEN4）赛车的首份官方赛历。与此前主要依赖城市街道赛不同，新赛历中包含了大量传统的专业赛车场，这一转变旨在为新一代赛车提供更广阔的发挥空间。\n\nGEN4赛车预计在动力、空气动力学及电池技术上实现全面升级。引入更多专业赛道不仅能让赛车在更高的速度和更复杂的弯道中展现其极限性能，也将为车迷带来更具观赏性的竞速体验。\n\n这一赛程调整反映了电动方程式在推动电动汽车技术发展的同时，正不断向传统赛车运动的硬核竞技属性靠拢。通过在专业赛道上的极限测试，相关的新能源与电池技术也有望加速向民用电动汽车领域转化。",
+    "category": "未来能源",
+    "tags": [
+      "电动方程式",
+      "GEN4赛车",
+      "新能源汽车",
+      "体育赛事"
+    ],
+    "source": "Ars Technica",
+    "time": "刚刚",
+    "ts": "2026-06-24T19:49:22.879255+00:00",
+    "url": "https://arstechnica.com/cars/2026/06/formula-e-reveals-first-calendar-for-gen4-with-lots-of-real-race-tracks/",
+    "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/06/m39421_COTA-American-Flag-Landscape-1152x648.jpg",
+    "stocks": []
+  },
+  {
+    "id": "aeaad231909d7130",
+    "title": "Hulu自动画质设置正悄悄降低观看画质",
+    "summary": "据Engadget报道，Hulu的自动画质调节功能会在用户不知情时降低视频分辨率，影响观看体验。",
+    "body": "据Engadget报道，流媒体平台Hulu的自动画质设置功能正在悄悄降低用户的视频观看画质。该功能在默认情况下会自动调整分辨率，导致许多用户在不知情时无法享受到设备或网络所支持的最高清画面。\n\n这种自动降级机制可能是平台为了优化缓冲速度和节省带宽成本而设计的，但直接影响了追求高质量视听体验的用户权益。文章提醒，用户需要手动进入设置菜单关闭自动选项，以确保获得与订阅服务相匹配的最佳观看效果。",
+    "category": "消费电子",
+    "tags": [
+      "Hulu",
+      "流媒体",
+      "视频画质"
+    ],
+    "source": "Engadget",
+    "time": "刚刚",
+    "ts": "2026-06-24T19:49:18.467500+00:00",
+    "url": "https://www.engadget.com/2200298/hulu-auto-quality-downgrading-picture-fix/",
+    "image": "https://www.engadget.com/img/gallery/hulu-auto-quality-settings-are-quietly-downgrading-your-picture-heres-why/l-intro-1782257012.jpg",
+    "stocks": []
+  },
+  {
+    "id": "c03ff3159a96265d",
+    "title": "欧洲乐器零售巨头Thomann对Fender提起法律诉讼",
+    "summary": "德国知名乐器零售商Thomann正式对乐器制造商Fender采取法律行动，双方主要涉及渠道与分销政策纠纷。",
+    "body": "近日，欧洲知名乐器零售商Thomann宣布对全球乐器制造巨头Fender采取法律行动。此次诉讼主要围绕产品分销政策与渠道管理展开，凸显了乐器制造商在调整销售网络时与大型零售商之间产生的利益摩擦。\n\n分析指出，随着乐器品牌方不断强化渠道控制并探索直销模式，传统经销商的利益受到挑战。该法律纠纷的最终结果，不仅将决定Fender在欧洲市场的分销策略走向，也可能为整个乐器及电子零售行业的渠道规范提供重要参考。",
+    "category": "消费电子",
+    "tags": [
+      "Thomann",
+      "Fender",
+      "渠道纠纷",
+      "乐器零售"
+    ],
+    "source": "Hacker News",
+    "time": "刚刚",
+    "ts": "2026-06-24T19:49:16.538807+00:00",
+    "url": "https://www.thomann.de/blog/en/inside/thomann-takes-legal-action-against-fender/",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "f93cd182267d66ff",
+    "title": "Slate更换廉价电动卡车电池方案",
+    "summary": "美国电动汽车初创公司Slate Auto宣布更改其廉价电动卡车项目的电池方案，以进一步优化成本与性能。",
+    "body": "美国电动汽车初创公司Slate Auto近期对其廉价电动卡车项目的电池方案进行了更改。此举主要是为了进一步优化产品的成本结构与整体性能表现。\n\n对于主打高性价比的电动商用车而言，电池系统的选择直接关系到最终的定价与市场竞争力。Slate Auto调整电池方案，意在确保其廉价电动卡车能够顺利推进量产，并在激烈的新能源汽车市场中保持价格优势。",
+    "category": "未来能源",
+    "tags": [
+      "Slate Auto",
+      "电动卡车",
+      "动力电池",
+      "新能源汽车"
+    ],
+    "source": "TechCrunch",
+    "time": "刚刚",
+    "ts": "2026-06-24T19:49:15.028899+00:00",
+    "url": "https://techcrunch.com/2026/06/24/heres-why-slate-changed-the-battery-in-its-cheap-ev-truck/",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "a7adc1e043b9236c",
+    "title": "美众议员否认用AI起草国防法案，称仅用于拼写检查",
+    "summary": "美国众议员安娜·保利娜·卢娜承认其团队在国防拨款修正案摘要中使用AI进行拼写检查，但坚决否认使用AI起草法案正文。",
+    "body": "近日，美国佛罗里达州共和党众议员安娜·保利娜·卢娜就其团队使用人工智能的争议作出回应。她承认工作人员在为一项重大国防拨款法案撰写修正案摘要时，使用了AI工具进行“拼写检查”。\n\n然而，卢娜坚决否认AI被用于撰写法案正文，并强调“没有任何立法是依靠AI起草的”。这一回应旨在澄清外界关于其办公室滥用生成式AI参与核心立法工作的质疑。\n\n随着AI技术在各行各业的渗透，其在政府公文和法律起草中的应用边界正引发广泛关注。此次事件凸显了立法机构在引入AI辅助工具时，如何平衡效率与严谨性、确保法律文本准确性的现实挑战。",
+    "category": "人工智能",
+    "tags": [
+      "人工智能",
+      "生成式AI",
+      "美国政治",
+      "立法合规"
+    ],
+    "source": "The Verge",
+    "time": "11分钟前",
+    "ts": "2026-06-24T15:36:46-04:00",
+    "url": "https://www.theverge.com/policy/956394/florida-anna-paulina-luna-anthropic-claude",
+    "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/01/STK481_STK432_CONGRESS_GOVERNMENT_CIVRGINIA_C.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100",
+    "stocks": []
+  },
+  {
+    "id": "25a659bedf5abfa1",
+    "title": "《GTA6》定价80美元且实体版无光盘引担忧",
+    "summary": "Rockstar Games公布《GTA VI》售价为79.99美元，并确认实体版不含光盘，引发对实体游戏未来的担忧。",
+    "body": "Rockstar Games正式公布了《侠盗猎车手VI》（GTA VI）的发售信息，游戏定价为79.99美元，计划于11月19日推出。然而官方同时确认，该游戏的实体版本将不再包含传统的游戏光盘。\n\n这一举措标志着大型3A游戏在数字化转型上迈出激进的一步。实体版不含光盘意味着玩家购买后仍需通过网络下载完整游戏，这不仅改变了传统的实体收藏体验，也引发了业界对实体游戏未来存续形式的深切担忧。",
+    "category": "消费电子",
+    "tags": [
+      "GTA VI",
+      "Rockstar Games",
+      "实体游戏",
+      "游戏产业"
+    ],
+    "source": "The Verge",
+    "time": "1小时前",
+    "ts": "2026-06-24T14:42:07-04:00",
+    "url": "https://www.theverge.com/games/956389/grand-theft-auto-6-gta-digital-code-in-box-physical-games",
+    "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/06/ULTIMATE_EDITION_01_de9b57.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100",
+    "stocks": [
+      {
+        "name": "Take-Two Interactive",
+        "ticker": "TTWO",
+        "reason": "作为《GTA VI》母公司，游戏定价与发售计划直接关乎其核心营收预期。",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "1ed2d484bee2db30",
+    "title": "谷歌宣布向外部支付系统开放Play商店",
+    "summary": "尽管法院尚未正式批准Epic诉谷歌反垄断案的和解协议，但谷歌宣布将开始对Play商店的支付政策进行改革，允许使用外部支付系统。",
+    "body": "谷歌宣布将逐步允许Android应用商店Google Play使用外部支付系统。这一举措旨在回应Epic Games此前针对谷歌在Android应用分发与支付领域垄断行为所提起的反垄断诉讼。\n\n尽管法院目前尚未正式签署批准双方达成的巨额和解协议，但这家科技巨头表示将率先开始推进相关支付政策的调整与落地。\n\n此举标志着移动应用生态系统的重大转变，打破了长期以来应用商店对应用内支付的封闭控制。这不仅有望降低广大应用开发者的渠道成本，也将对全球移动应用的分发与支付格局产生深远影响。",
+    "category": "消费电子",
+    "tags": [
+      "谷歌",
+      "Play商店",
+      "反垄断",
+      "外部支付"
+    ],
+    "source": "The Verge",
+    "time": "2小时前",
+    "ts": "2026-06-24T13:36:44-04:00",
+    "url": "https://www.theverge.com/policy/956296/google-play-app-store-alternative-billing-fee-antitrust",
+    "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/06/MM6_Offer-alt-billing.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100",
+    "stocks": []
+  },
+  {
+    "id": "81deec2e5cf78f97",
+    "title": "亚马逊Prime Day精选：50美元以下超值好物推荐",
+    "summary": "亚马逊Prime Day促销活动期间，多款热门产品折扣后价格降至50美元以下。消费者可在预算内选购任天堂Switch游戏、蓝牙音箱等各类高性价比商品。",
+    "body": "在亚马逊Prime Day促销活动期间，多款备受青睐的热门产品迎来了大幅折扣。对于不希望花费数百美元的消费者而言，此次降价将许多优质商品的价格拉低至50美元以下，提供了极具性价比的购物选择。\n\n在50美元以下的优惠清单中，涵盖了从任天堂Switch游戏到蓝牙音箱等多种实用数码产品。消费者可以在严格控制预算的前提下，轻松选购各类科技好物，满足日常娱乐与生活需求。",
+    "category": "消费电子",
+    "tags": [
+      "Prime Day",
+      "消费电子",
+      "打折促销",
+      "数码产品"
+    ],
+    "source": "The Verge",
+    "time": "2小时前",
+    "ts": "2026-06-24T13:28:08-04:00",
+    "url": "https://www.theverge.com/gadgets/951543/best-prime-day-deals-under-50",
+    "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/05/JBL-Go-4-Speaker-Lifestyle-Image.webp?quality=90&#038;strip=all&#038;crop=0,0,100,100",
+    "stocks": []
+  },
+  {
+    "id": "9670f0f233eba3d8",
+    "title": "耗资2700万美元的纽约国会AI代理人战争落幕",
+    "summary": "在纽约州第12国会选区选举中，亚历克斯·博雷斯承认败给迈卡·拉舍尔，这场被称为“AI代理人战争”的激烈竞选就此落幕。",
+    "body": "近日，纽约州第12国会选区的选举结果揭晓，这场耗资高达2700万美元、被外界称为“人工智能代理人战争”的激烈竞选落下帷幕。民主党候选人亚历克斯·博雷斯承认败选，迈卡·拉舍尔将赢得该席位，并计划于2026年接替现任众议员杰里·纳德勒。\n\n此次选举备受关注的原因在于其背后涉及人工智能监管政策的激烈博弈，各方科技利益集团投入巨资支持各自的代理人。这场高成本的选举不仅反映了美国政界对AI监管态度的分歧，也凸显了科技资本在政治选举中日益增长的影响力。",
+    "category": "人工智能",
+    "tags": [
+      "美国选举",
+      "AI监管",
+      "科技政治"
+    ],
+    "source": "The Verge",
+    "time": "2小时前",
+    "ts": "2026-06-24T13:25:00-04:00",
+    "url": "https://www.theverge.com/ai-artificial-intelligence/956263/alex-bores-new-york-12th-district-congressional-primary-results",
+    "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/06/gettyimages-2282522212.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100",
+    "stocks": []
+  },
+  {
     "id": "10909e9549939065",
     "title": "科学家称微软量子突破无效，指其存在基础Python错误",
     "summary": "一位研究人员声称微软近期宣称的量子计算重大突破存在缺陷，指出其相关代码中包含基础的Python错误。这一质疑引发了业界对微软量子技术进展的重新审视。",
@@ -42494,6 +43543,6 @@ const newsData = [
   }
 ];
 const newsDigest = {
-  "text": "今日科技前沿聚焦AI落地与底层技术博弈。亚马逊Zoox自动驾驶出租车加速商业化，Figma深度整合AI重塑设计工作流；同时微软量子计算突破遭学界质疑，引发技术路线反思。此外《GTA6》开启预购引爆数字娱乐市场。",
+  "text": "",
   "highlights": []
 };
