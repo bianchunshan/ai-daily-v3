@@ -1,5 +1,996 @@
 const newsData = [
   {
+    "id": "6093c3d81ff5cb90",
+    "title": "Slate Auto发布2.5万美元电动皮卡，续航205英里",
+    "summary": "Slate Auto推出一款起售价仅为24950美元的电动皮卡，续航里程达205英里，主打高性价比市场。",
+    "body": "近日，电动汽车制造商Slate Auto正式发布了一款全新电动皮卡。该车型起售价定为24950美元，在同类电动皮卡产品中展现出极强的价格竞争力。\n\n在性能方面，这款电动皮卡单次充电续航里程可达205英里，能够较好地满足日常通勤与轻度载货的实用需求。\n\n此次新车的发布，标志着Slate Auto正式进军平价电动皮卡市场。该车型有望通过高性价比策略在竞争激烈的新能源市场中占据一席之地，进一步推动电动汽车的普及。",
+    "category": "未来能源",
+    "tags": [
+      "电动皮卡",
+      "Slate Auto",
+      "新能源汽车"
+    ],
+    "source": "Electrek",
+    "time": "刚刚",
+    "ts": "2026-06-24T21:28:25.073333+00:00",
+    "url": "https://electrek.co/2026/06/24/slate-electric-truck-24950-price/",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "4dd5fd595ca8fabb",
+    "title": "哥伦比亚政客承诺恢复与以色列外交关系",
+    "summary": "哥伦比亚政治人物德·拉·埃斯普列拉承诺将恢复该国与以色列的外交关系，以修复近期受损的双边联系。",
+    "body": "据半岛电视台报道，哥伦比亚政治人物德·拉·埃斯普列拉（De la Espriella）公开承诺，将致力于恢复哥伦比亚与以色列之间的外交关系。此前，两国关系因地缘政治因素出现严重波折，双边互动降至冰点。\n\n此次表态释放出哥伦比亚内部寻求修复与以色列双边关系的明确信号。若该承诺未来得以落实，不仅有助于缓解两国当前的外交僵局，也将对拉美与中东地区的地缘政治格局产生一定影响，为双方后续的交流与合作提供转机。",
+    "category": "国际局势",
+    "tags": [
+      "哥伦比亚",
+      "以色列",
+      "外交关系"
+    ],
+    "source": "Al Jazeera",
+    "time": "刚刚",
+    "ts": "2026-06-24T21:28:22.301610+00:00",
+    "url": "https://www.aljazeera.com/news/2026/6/24/de-la-espriella-pledges-to-restore-colombias-relations-with-israel?traffic_source=rss",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "de428012dda3d0c3",
+    "title": "Prime Day便携显示器促销：最低39美元即可入手",
+    "summary": "亚马逊Prime Day期间多款便携式显示器参与促销，最低售价仅39美元，适合为PC或游戏机扩展双屏。",
+    "body": "在亚马逊Prime Day购物节期间，科技媒体推荐了四款正在打折的便携式显示器。这些产品旨在为个人电脑或游戏主机提供额外的屏幕扩展，最低起售价仅为39美元。\n\n便携式显示器近年来受到移动办公和游戏玩家的青睐，能够显著提升多任务处理效率。此次大促的折扣活动，为消费者以低成本升级桌面或移动工作站提供了良好契机。",
+    "category": "消费电子",
+    "tags": [
+      "便携显示器",
+      "Prime Day",
+      "消费电子"
+    ],
+    "source": "Tom's Hardware",
+    "time": "刚刚",
+    "ts": "2026-06-24T21:28:18.813093+00:00",
+    "url": "https://www.tomshardware.com/monitors/portable-monitors/these-four-portable-monitors-are-on-sale-for-prime-day-get-a-second-screen-for-your-pc-or-console-for-as-little-as-usd39",
+    "image": "https://cdn.mos.cms.futurecdn.net/zGKBnDaz9j6sq2g5PEKdrN-1280-80.jpg",
+    "stocks": []
+  },
+  {
+    "id": "f965e98d2b60004a",
+    "title": "华为鸿蒙小艺Claw全机型开放，支持HarmonyOS 5.0",
+    "summary": "华为鸿蒙系统中小艺Claw（“龙虾”）功能现已面向全机型开放，适用于搭载HarmonyOS 5.0及以上版本的设备。",
+    "body": "近日，华为鸿蒙系统迎来功能更新，小艺Claw（“龙虾”）正式面向全机型开放。此次更新进一步丰富了鸿蒙系统的智能交互体验，为用户带来更多系统级AI便利。\n\n该功能目前全面支持搭载HarmonyOS 5.0及以上版本的设备。随着HarmonyOS 5.0的持续推进，华为正不断优化系统级AI能力，提升多场景下的终端使用体验。\n\n此次全机型开放标志着华为在鸿蒙生态和原生智能建设上的进一步落地，有助于增强鸿蒙系统的用户粘性与生态竞争力。",
+    "category": "消费电子",
+    "tags": [
+      "华为",
+      "鸿蒙系统",
+      "小艺",
+      "HarmonyOS"
+    ],
+    "source": "IT之家",
+    "time": "刚刚",
+    "ts": "2026-06-24T21:28:17.935800+00:00",
+    "url": "https://www.ithome.com/0/968/211.htm",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "0343427dd8e46fb6",
+    "title": "辽宁舰编队完成远海实训，电子战系统成功反制侦察",
+    "summary": "海军辽宁舰编队圆满完成远海实训任务，期间依靠电子战系统等装备迅速摆脱了外部势力的抵近跟踪。",
+    "body": "近日，海军辽宁舰编队圆满完成远海实训任务。在实训期间，编队遭遇了外部势力的抵近侦察与跟踪。面对复杂的态势，辽宁舰编队迅速依托电子战系统等先进装备实施反制，成功甩掉“偷窥者”，有效保障了编队的行动安全。\n\n此次实训充分检验了航母编队在复杂电磁环境下的实战能力。电子战系统的成功应用，不仅彰显了中国海军装备技术的进步，也表明中国航母编队在远海体系作战和应对复杂安全局势方面具备了更强的实力与底气。",
+    "category": "国际局势",
+    "tags": [
+      "辽宁舰",
+      "电子战",
+      "远海实训",
+      "航母编队"
+    ],
+    "source": "IT之家",
+    "time": "刚刚",
+    "ts": "2026-06-24T21:28:03.229645+00:00",
+    "url": "https://www.ithome.com/0/968/212.htm",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "697908d9886db9db",
+    "title": "强生Web应用程序曝出安全漏洞遭利用",
+    "summary": "安全研究人员披露强生公司旗下Web应用程序存在多个安全漏洞，可能被攻击者利用以获取未授权访问或敏感数据。",
+    "body": "近日，安全研究人员披露了强生（Johnson & Johnson）公司旗下Web应用程序存在的多个安全漏洞。这些漏洞可能被恶意攻击者利用，从而获取未授权的系统访问权限或窃取敏感信息。\n\n对于强生这样的大型跨国医疗健康企业而言，Web应用的安全性直接关系到患者数据、医疗记录及公司内部机密的安全。此次漏洞的曝光凸显了大型医疗企业在数字化运营中面临的网络安全挑战与数据合规压力。",
+    "category": "生物医药",
+    "tags": [
+      "网络安全",
+      "强生",
+      "数据隐私"
+    ],
+    "source": "Hacker News",
+    "time": "刚刚",
+    "ts": "2026-06-24T21:28:02.334009+00:00",
+    "url": "https://eaton-works.com/2026/06/24/jnj-webapp-hacks/",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "e759ed93976a78c3",
+    "title": "卢比奥：美与海湾盟国在伊朗问题上完全一致",
+    "summary": "卢比奥表示，美国与海湾地区盟国在应对伊朗问题上保持高度一致，双方立场完全契合。",
+    "body": "卢比奥近日公开表示，美国与其在海湾地区的盟国在伊朗问题上保持着“完全一致”的立场。这一表态凸显了美国与海湾国家在应对伊朗相关地缘政治挑战时的紧密协调与战略协同。\n\n在当前复杂的中东局势下，美国与海湾盟国的立场统一将对地区安全格局产生深远影响。双方的紧密合作不仅有助于强化对伊朗的战略威慑，也将进一步巩固美国在中东地区的盟友体系，对未来的国际地缘政治博弈具有重要指标意义。",
+    "category": "国际局势",
+    "tags": [
+      "卢比奥",
+      "中东局势",
+      "伊朗",
+      "海湾国家"
+    ],
+    "source": "Al Jazeera",
+    "time": "刚刚",
+    "ts": "2026-06-24T21:28:01.105335+00:00",
+    "url": "https://www.aljazeera.com/video/newsfeed/2026/6/24/rubio-us-completely-aligned-with-gulf-allies-on-iran?traffic_source=rss",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "162e05764fe5daea",
+    "title": "2026年Prime Day窗式与便携空调优惠盘点",
+    "summary": "知名科技媒体Wired盘点了2026年亚马逊Prime Day期间窗式及便携式空调的最佳折扣，为消费者提供选购参考。",
+    "body": "近日，知名科技媒体Wired发布了2026年亚马逊Prime Day期间窗式与便携式空调的优惠指南。随着夏季制冷需求的增加，该指南旨在帮助消费者在众多促销活动中挑选出性价比最高的家用降温设备。\n\n文章梳理了多款热门窗式空调和便携式空调的折扣信息，涵盖不同制冷量和适用场景的产品。通过对比价格与性能，Wired为读者提供了直观的购买建议，助力消费者在Prime Day期间做出明智的消费决策。\n\n此类导购信息反映了当前消费电子市场对家用制冷设备的关注，也体现了大型电商促销节点对家电消费趋势的拉动作用。",
+    "category": "消费电子",
+    "tags": [
+      "Prime Day",
+      "空调",
+      "消费电子"
+    ],
+    "source": "Wired",
+    "time": "刚刚",
+    "ts": "2026-06-24T21:27:56.464327+00:00",
+    "url": "https://www.wired.com/story/amazon-prime-day-2026-window-portable-air-conditioners/",
+    "image": "https://media.wired.com/photos/6a3c34da0bf55f5b8a30397a/master/pass/WIRED%E2%80%99s-Favorite-Portable-and-Window-Air-Conditioners-Are-Prime-Day-Deals.jpg",
+    "stocks": []
+  },
+  {
+    "id": "66930283106c8031",
+    "title": "肠道归巢抗体可抵御诺如病毒，助力新疫苗与疗法研发",
+    "summary": "研究发现肠道归巢抗体在预防诺如病毒感染中发挥关键保护作用，为开发新型诺如病毒疫苗和靶向疗法提供了重要科学依据。",
+    "body": "近日，一项最新医学研究揭示了肠道归巢抗体在抵御诺如病毒感染中的关键保护机制。诺如病毒是引起急性胃肠炎的主要病原体，目前全球尚无获批的特效药或商业化疫苗。\n\n研究表明，能够特异性归巢至肠道黏膜的抗体在中和病毒、阻止其侵入肠道细胞方面具有显著效果。这一发现不仅加深了科学界对诺如病毒免疫反应的理解，也为未来开发更高效的黏膜疫苗和抗体疗法铺平了道路，有望填补该领域长期以来的临床空白。",
+    "category": "生物医药",
+    "tags": [
+      "诺如病毒",
+      "抗体研究",
+      "疫苗研发"
+    ],
+    "source": "MedicalXpress",
+    "time": "刚刚",
+    "ts": "2026-06-24T21:27:54.254289+00:00",
+    "url": "https://medicalxpress.com/news/2026-06-gut-homing-antibodies-norovirus-paving.html",
+    "image": "https://scx1.b-cdn.net/csz/news/tmb/2020/norovirus.jpg",
+    "stocks": []
+  },
+  {
+    "id": "fe8b6f3b157433e1",
+    "title": "分析师称《GTA 6》无实体光盘不影响销量",
+    "summary": "业内分析师指出，即使《GTA 6》取消实体光盘采用纯数字发行，也不会对其销量造成显著影响，玩家已普遍接受数字版游戏。",
+    "body": "近日，针对备受瞩目的游戏大作《GTA 6》可能取消实体光盘发行的传闻，业内分析师发表了看法。分析师认为，这一举措不会对游戏的最终销量产生实质性负面影响。\n\n随着数字分发平台的普及和主机网络环境的优化，玩家对纯数字版游戏的接受度正在不断提高。分析师指出，现代玩家已经习惯了数字购买和下载模式，因此《GTA 6》若采用全数字发行，市场依然会给予积极反馈。\n\n这一趋势反映出游戏行业数字化转型的深化。取消实体介质不仅有助于降低生产和物流成本，还能进一步提升游戏发行商的利润空间，推动整个行业向纯数字发行加速迈进。",
+    "category": "消费电子",
+    "tags": [
+      "GTA6",
+      "数字游戏",
+      "主机游戏"
+    ],
+    "source": "IT之家",
+    "time": "刚刚",
+    "ts": "2026-06-24T21:27:46.917852+00:00",
+    "url": "https://www.ithome.com/0/968/213.htm",
+    "image": "",
+    "stocks": [
+      {
+        "name": "Take-Two Interactive",
+        "ticker": "TTWO",
+        "reason": "作为《GTA 6》母公司，纯数字发行可降低实体制造与物流成本，提升利润率且不影响销量预期。",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "8582074a3630cd93",
+    "title": "2026年Prime Day吸尘器大促：戴森等最高降价42%",
+    "summary": "2026年亚马逊Prime Day期间，Shark、戴森和Bissell等知名吸尘器品牌推出大幅折扣，最高优惠达42%。",
+    "body": "在2026年的亚马逊Prime Day促销活动中，家用清洁电器成为消费者关注的焦点。其中，Shark、戴森（Dyson）以及Bissell等头部吸尘器品牌均推出了力度空前的优惠活动，部分核心产品折扣高达42%。\n\n此类大幅度的降价促销不仅有助于刺激消费者的购买需求，提升节日期间的平台零售销售额，也反映了家电品牌在激烈市场竞争中通过价格策略抢占市场份额的意图。对于相关消费电子及家电制造企业而言，大促期间的销量增长将对其短期营收产生积极的拉动作用。",
+    "category": "消费电子",
+    "tags": [
+      "Prime Day",
+      "吸尘器",
+      "消费电子",
+      "促销"
+    ],
+    "source": "Wired",
+    "time": "刚刚",
+    "ts": "2026-06-24T21:27:40.304414+00:00",
+    "url": "https://www.wired.com/story/prime-day-vacuum-deals-06-24-2026/",
+    "image": "https://media.wired.com/photos/6a39be772d4e45566000b82c/master/pass/The-Best-Vacuum-Cleaner-Deals-for-Amazon-Prime-Day.jpg",
+    "stocks": [
+      {
+        "name": "SharkNinja",
+        "ticker": "SN",
+        "reason": "作为Shark品牌母公司，Prime Day大促及高折扣有望显著拉动其吸尘器产品销量与短期营收。",
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
+    "id": "6dbe918eeb53f5f3",
+    "title": "哥伦比亚左翼总统候选人承认败选",
+    "summary": "哥伦比亚左翼总统候选人正式承认在总统选举中败选，标志着该国近期大选尘埃落定。",
+    "body": "据BBC新闻报道，哥伦比亚左翼总统候选人已正式承认在近期的总统选举中败选。这一声明标志着此次备受瞩目的选举尘埃落定。\n\n此次选举结果不仅反映了哥伦比亚国内选民的政治倾向，也将对该国未来的内政外交政策及经济社会发展方向产生深远影响。国际社会正密切关注哥伦比亚政局的后续走向。",
+    "category": "国际局势",
+    "tags": [
+      "哥伦比亚",
+      "总统选举",
+      "国际政治"
+    ],
+    "source": "BBC World",
+    "time": "刚刚",
+    "ts": "2026-06-24T21:27:39.004780+00:00",
+    "url": "https://www.bbc.co.uk/news/articles/cgrkqky5lzpo?at_medium=RSS&at_campaign=rss",
+    "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/32ca/live/7c140e90-6fe1-11f1-b763-7be8e457290d.jpg",
+    "stocks": []
+  },
+  {
+    "id": "5a4d47d0d1bcbea4",
+    "title": "俄控霍尔利夫卡遭无人机袭击致至少3死",
+    "summary": "俄罗斯控制的霍尔利夫卡地区遭遇无人机袭击，目前已造成至少三人死亡。",
+    "body": "据半岛电视台报道，俄罗斯控制的霍尔利夫卡地区遭到无人机袭击。此次袭击事件已确认造成至少三人死亡。\n\n该事件进一步反映了当前地区冲突的持续激烈程度。无人机等武器在局部冲突中的频繁使用，不仅加剧了当地的安全局势，也持续影响着更广泛的地缘政治格局。",
+    "category": "国际局势",
+    "tags": [
+      "俄乌冲突",
+      "无人机袭击",
+      "地缘政治"
+    ],
+    "source": "Al Jazeera",
+    "time": "刚刚",
+    "ts": "2026-06-24T21:27:36.684693+00:00",
+    "url": "https://www.aljazeera.com/video/newsfeed/2026/6/24/at-least-three-killed-in-drone-strikes-in-russian-controlled-horlivka?traffic_source=rss",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "568ac18dc2f46992",
+    "title": "Xteink推出X4电子墨水屏阅读器",
+    "summary": "Xteink正式发布新款X4电子墨水屏阅读器，为数字阅读市场带来新的硬件选择。",
+    "body": "近日，Xteink品牌推出了其最新款电子墨水屏阅读器X4。该产品致力于为用户提供专注且护眼的数字阅读体验，进一步丰富了现有的电子阅读器产品线。\n\n随着电子墨水屏技术的普及，专注于长续航与护眼功能的阅读设备受到越来越多消费者的青睐。Xteink X4的亮相，反映了细分阅读设备市场的持续活力，也为数字阅读爱好者提供了更多样化的选择。",
+    "category": "消费电子",
+    "tags": [
+      "电子阅读器",
+      "墨水屏",
+      "消费电子"
+    ],
+    "source": "Hacker News",
+    "time": "刚刚",
+    "ts": "2026-06-24T21:27:36.159422+00:00",
+    "url": "https://blog.omgmog.net/post/xteink-x4-e-ink-reader/",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "6219a8a01c75ae5b",
+    "title": "基因检测普及预计未来十年将增加渐冻症门诊量",
+    "summary": "随着基因检测技术的发展与普及，预计未来十年内肌萎缩侧索硬化症（ALS）专科诊所的就诊量将显著增加。",
+    "body": "医学界指出，基因检测在肌萎缩侧索硬化症（ALS）的诊断和风险评估中正发挥日益重要的作用。随着检测技术的进步和可及性的提高，越来越多的人群倾向于通过基因检测来了解自身的患病风险。\n\n这一趋势预计将在未来十年内直接推动ALS专科诊所就诊量的增长。更多的潜在患者和高危人群将寻求专业的医疗咨询、基因解读以及后续的干预指导。\n\n就诊量的增加不仅对现有的ALS医疗资源分配提出了新要求，也将促进相关神经退行性疾病诊疗体系的完善，推动精准医疗在罕见病领域的进一步落地。",
+    "category": "生物医药",
+    "tags": [
+      "基因检测",
+      "渐冻症",
+      "精准医疗"
+    ],
+    "source": "MedicalXpress",
+    "time": "刚刚",
+    "ts": "2026-06-24T21:27:32.340214+00:00",
+    "url": "https://medicalxpress.com/news/2026-06-genetic-als-clinic-decade.html",
+    "image": "https://scx1.b-cdn.net/csz/news/tmb/2022/genetic-testing.jpg",
+    "stocks": [
+      {
+        "name": "华大基因",
+        "ticker": "300676.SZ",
+        "reason": "国内基因检测行业龙头，直接受益于基因检测需求与普及率的增长。",
+        "confidence": "medium"
+      },
+      {
+        "name": "Biogen",
+        "ticker": "BIIB",
+        "reason": "拥有针对特定基因突变ALS的靶向药物，基因检测普及有助于精准筛选适用患者。",
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
+    "id": "a25c37862630e32a",
+    "title": "法国女子在巴基斯坦遭丈夫囚禁12年后获救",
+    "summary": "一名据称被丈夫囚禁长达12年的法国女子在巴基斯坦成功获救，相关执法部门已介入处理。",
+    "body": "近日，一名据称被丈夫非法囚禁长达12年的法国女子在巴基斯坦成功获救。该事件涉及跨国婚姻与人身自由等复杂问题，引发了相关机构的关注。\n\n随着救援行动的完成，当地执法部门已介入处理此案。后续的法律程序与调查工作预计将进一步展开，以厘清事件的具体细节与责任归属。",
+    "category": "国际局势",
+    "tags": [
+      "跨国案件",
+      "女性权益",
+      "巴基斯坦"
+    ],
+    "source": "BBC World",
+    "time": "刚刚",
+    "ts": "2026-06-24T21:27:19.413159+00:00",
+    "url": "https://www.bbc.co.uk/news/articles/cj0g71pnv3no?at_medium=RSS&at_campaign=rss",
+    "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/cea0/live/b3378670-6fcf-11f1-8546-8f19e4fe30f4.jpg",
+    "stocks": []
+  },
+  {
+    "id": "a242190ed91082b4",
+    "title": "新型丝绸贴片实现婴儿健康无创监测",
+    "summary": "研究人员开发出一种基于丝绸材料的柔性贴片，能够以无创方式监测婴儿的健康状况，为新生儿护理提供安全舒适的新方案。",
+    "body": "近日，科研人员开发出一种新型丝绸贴片，为监测婴儿健康提供了一种无创的新途径。相较于传统医疗监测设备，这种基于丝绸材料的贴片更加柔软透气，能够有效避免对婴儿娇嫩皮肤造成刺激或损伤。\n\n这项技术的问世对新生儿护理具有重要意义。它不仅提升了婴儿在健康监测过程中的舒适度与安全性，也为柔性可穿戴医疗设备在母婴健康及儿科临床护理中的进一步应用提供了新思路。",
+    "category": "生物医药",
+    "tags": [
+      "柔性电子",
+      "无创监测",
+      "母婴健康",
+      "生物材料"
+    ],
+    "source": "MedicalXpress",
+    "time": "刚刚",
+    "ts": "2026-06-24T21:27:18.265192+00:00",
+    "url": "https://medicalxpress.com/news/2026-06-silk-sticker-noninvasive-babies-health.html",
+    "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/a-noninvasive-way-to-m-1.jpg",
+    "stocks": []
+  },
+  {
+    "id": "fa16030593a8f938",
+    "title": "美法官叫停针对纽约医院跨性别医疗传票",
+    "summary": "美国一名法官裁定阻止针对纽约医院跨性别护理记录的法律传票，叫停了相关调查行动。",
+    "body": "近日，美国一名法官裁定，阻止针对纽约多家医院跨性别护理记录的法律传票。该传票旨在获取与跨性别医疗相关的患者信息和医院记录。\n\n法官的这一裁决叫停了相关调查行动，在一定程度上保护了患者的医疗隐私。此事件反映了美国国内在跨性别权益及医疗政策方面持续存在的政治与法律争议。",
+    "category": "国际局势",
+    "tags": [
+      "美国政治",
+      "跨性别权益",
+      "医疗隐私"
+    ],
+    "source": "Al Jazeera",
+    "time": "刚刚",
+    "ts": "2026-06-24T21:27:17.458590+00:00",
+    "url": "https://www.aljazeera.com/news/2026/6/24/us-judge-blocks-trump-subpoenas-into-transgender-care-at-new-york-hospitals?traffic_source=rss",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "26d52e4df2129bea",
+    "title": "科学家发现或助病毒传播的隐藏“死亡足迹”",
+    "summary": "科学家最新研究发现了一种隐藏的“死亡足迹”，这种细胞死亡过程中留下的痕迹可能有助于病毒的进一步传播。",
+    "body": "科学家近日发现了一种被称为“死亡足迹”的隐藏生物学痕迹，这些痕迹可能与病毒的传播机制密切相关。研究指出，在细胞死亡过程中产生的特定信号或物质残留，可能为病毒的扩散提供了便利条件。\n\n这一发现揭示了病毒在宿主体内传播的潜在新途径。病毒可能利用宿主细胞死亡后留下的“足迹”来规避宿主免疫系统的监测，或借此更有效地感染周围的健康细胞，从而加速感染进程。\n\n该基础研究为理解病毒致病机制提供了新的视角。未来，针对这些隐藏“死亡足迹”的深入研究，有望为开发阻断病毒传播的新型抗病毒策略和药物靶点提供重要的理论依据。",
+    "category": "生物医药",
+    "tags": [
+      "病毒学",
+      "细胞生物学",
+      "抗病毒研究"
+    ],
+    "source": "ScienceDaily",
+    "time": "刚刚",
+    "ts": "2026-06-24T21:27:13.180988+00:00",
+    "url": "https://www.sciencedaily.com/releases/2026/06/260623014028.htm",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "cec2ad62fbac31d7",
+    "title": "2026年Prime Day：市面最佳人造圣诞树半价促销",
+    "summary": "《连线》杂志盘点了市面上最优质的人造圣诞树，并指出这些产品在2026年Prime Day期间享有高达50%的折扣优惠。",
+    "body": "随着2026年Prime Day购物节的到来，各类消费品迎来大幅降价。据《连线》杂志报道，市面上评价最好的人造圣诞树在此次活动中推出了半价优惠，为消费者提供了极具性价比的节日装饰选择。\n\n人造圣诞树因其可重复使用、易于安装和免维护等特点，近年来在节日消费市场中备受青睐。此次Prime Day的大力度折扣，不仅有助于刺激消费者的节日提前采购需求，也进一步凸显了大型电商促销节点对零售市场的强劲拉动作用。",
+    "category": "消费电子",
+    "tags": [
+      "Prime Day",
+      "人造圣诞树",
+      "电商促销"
+    ],
+    "source": "Wired",
+    "time": "刚刚",
+    "ts": "2026-06-24T21:27:12.537884+00:00",
+    "url": "https://www.wired.com/story/balsam-hill-apd-june-2026/",
+    "image": "https://media.wired.com/photos/692a4f34a085970d68c19e32/master/pass/Best%20Black%20Friday%20Christmas%20Trees%20and%20Smart%20Light%20Deals.png",
+    "stocks": [
+      {
+        "name": "亚马逊",
+        "ticker": "AMZN",
+        "reason": "Prime Day是亚马逊主导的年度核心促销活动，直接带动其电商零售业务营收与会员订阅增长。",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "6501f7092429de70",
+    "title": "Wired发布2026年最佳红光治疗面罩Top5榜单",
+    "summary": "知名科技媒体Wired评选出2026年五款最佳红光治疗面罩，为消费者提供家用美容与健康护理设备的选购参考。",
+    "body": "知名科技媒体Wired近日发布了2026年最佳红光治疗面罩Top 5榜单，对市面上主流的红光美容与健康护理设备进行了综合评测与排名。红光治疗面罩作为近年来热门的消费电子与家用美容产品，主要通过特定波长的光线照射来辅助皮肤护理。\n\n该榜单的发布为消费者在选购家用红光治疗设备时提供了权威参考。随着家用美容科技的普及，此类产品正逐渐成为个人日常健康与护肤管理的重要工具，反映出消费者对科技赋能个人护理的持续需求。",
+    "category": "消费电子",
+    "tags": [
+      "红光治疗",
+      "家用美容仪",
+      "消费电子"
+    ],
+    "source": "Wired",
+    "time": "刚刚",
+    "ts": "2026-06-24T21:27:01.893653+00:00",
+    "url": "https://www.wired.com/story/led-face-masks-and-red-light-therapy/",
+    "image": "https://media.wired.com/photos/69e7bac18d228aa7f9797170/master/pass/How-the-Best-Red-Light-Therapy-Mask-Can-Save-You-Thousands-of-Dollars.jpg",
+    "stocks": []
+  },
+  {
+    "id": "09a3b2b59eeb73c3",
+    "title": "欧洲领导人在北约峰会前誓言强力支持乌克兰",
+    "summary": "北约峰会召开前夕，欧洲多国领导人承诺将继续为乌克兰提供强有力的支持。",
+    "body": "据半岛电视台报道，在北约峰会即将召开之际，欧洲主要国家领导人纷纷表态，誓言将对乌克兰提供强有力的支持。此举旨在向外界传递欧洲在当前地缘政治背景下团结一致的政治信号。\n\n这一表态凸显了欧洲国家在国际局势中的坚定立场，预计将对北约峰会的核心议程及后续对乌援助政策产生重要影响，进一步塑造欧洲的安全与外交格局。",
+    "category": "国际局势",
+    "tags": [
+      "北约峰会",
+      "俄乌冲突",
+      "欧洲政治"
+    ],
+    "source": "Al Jazeera",
+    "time": "刚刚",
+    "ts": "2026-06-24T21:26:59.701393+00:00",
+    "url": "https://www.aljazeera.com/news/2026/6/24/top-european-leaders-vow-strong-support-for-ukraine-ahead-of-nato-summit?traffic_source=rss",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "d93ebc9bcb5ff587",
+    "title": "斑马鱼或成攻克遗传性脑动脉病CADASIL治疗关键",
+    "summary": "最新研究表明，斑马鱼模型在探索遗传性脑动脉病CADASIL的发病机制及潜在疗法中展现出关键作用，为该疾病的治疗提供了新突破口。",
+    "body": "CADASIL（伴有皮质下梗死和白质脑病的常染色体显性遗传性脑动脉病）是一种严重的遗传性脑血管疾病，目前临床尚无有效治愈方法。研究人员正利用斑马鱼作为疾病模型，深入探索其背后的病理机制。\n\n斑马鱼因其基因与人类高度相似且繁殖周期短，成为研究遗传性疾病的理想活体模型。通过斑马鱼模型，科学家能够更直观地观察CADASIL相关基因突变对血管系统的影响，从而加速筛选和验证潜在的治疗药物。\n\n这一研究进展不仅为理解CADASIL的发病机制提供了新视角，也为未来开发针对该遗传性脑动脉病的靶向疗法奠定了重要基础，展现出重要的临床转化潜力。",
+    "category": "生物医药",
+    "tags": [
+      "斑马鱼",
+      "CADASIL",
+      "遗传病",
+      "疾病模型"
+    ],
+    "source": "MedicalXpress",
+    "time": "刚刚",
+    "ts": "2026-06-24T21:26:58.590560+00:00",
+    "url": "https://medicalxpress.com/news/2026-06-zebrafish-key-treatments-hereditary-disease.html",
+    "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/how-zebrafish-might-be.jpg",
+    "stocks": []
+  },
+  {
+    "id": "68bcb440cb42609a",
+    "title": "美国公共卫生机构结束汉坦病毒疫情应对",
+    "summary": "随着汉坦病毒疫情逐渐缓解，美国公共卫生机构已正式结束相关应急响应行动。",
+    "body": "美国公共卫生机构近日宣布，随着汉坦病毒疫情的持续缓解，针对该病毒的专项应急响应行动已正式结束。这一决定表明，相关地区的疫情传播已得到有效控制，公共卫生风险显著降低。\n\n此次应对行动的顺利收尾，标志着美国在汉坦病毒防控方面取得了阶段性成果。未来，相关卫生部门将转入常规监测阶段，继续追踪病毒动态，以防范潜在的公共卫生风险。",
+    "category": "生物医药",
+    "tags": [
+      "汉坦病毒",
+      "公共卫生",
+      "疫情防控"
+    ],
+    "source": "Al Jazeera",
+    "time": "刚刚",
+    "ts": "2026-06-24T21:26:51.116435+00:00",
+    "url": "https://www.aljazeera.com/news/2026/6/24/us-public-health-agency-concludes-hantavirus-response-as-outbreak-eases?traffic_source=rss",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "747ab92404c8bba9",
+    "title": "亚马逊Prime Day科技大促：手机手表等最高优惠280美元",
+    "summary": "2026年亚马逊Prime Day科技产品促销活动开启，涵盖智能手机、智能手表等多款消费电子，部分产品最高优惠达280美元。",
+    "body": "2026年亚马逊Prime Day年度促销活动正式拉开帷幕，为科技爱好者带来大量消费电子产品的折扣优惠。本次大促涵盖了智能手机、智能手表以及其他热门科技配件，部分精选产品最高可享受280美元的减免。\n\n此次促销活动不仅为消费者提供了以更低价格购入最新科技设备的机会，也进一步刺激了消费电子市场的短期需求。对于各大科技品牌而言，Prime Day是提升年度销量以及扩大市场份额的重要销售节点。",
+    "category": "消费电子",
+    "tags": [
+      "Prime Day",
+      "亚马逊",
+      "消费电子",
+      "科技促销"
+    ],
+    "source": "Wired",
+    "time": "刚刚",
+    "ts": "2026-06-24T21:26:49.948680+00:00",
+    "url": "https://www.wired.com/story/best-prime-day-tech-deals-06-24-2026/",
+    "image": "https://media.wired.com/photos/6a39c9f7579d715adc0866fe/master/pass/The-Best-Prime-Day-Tech-Deals-on-the-Gadgets-You-Actually-Want.jpg",
+    "stocks": []
+  },
+  {
+    "id": "8388a80bf05c2b12",
+    "title": "美FCC拟推身份验证新规，预付费匿名手机或遭禁用",
+    "summary": "美国联邦通信委员会计划实施新的身份验证强制要求，旨在限制预付费手机的匿名使用。",
+    "body": "美国联邦通信委员会（FCC）正计划推出一项新的身份识别强制规定。该规定要求用户在购买和激活预付费手机时提供真实的身份信息，从而限制俗称“一次性手机”的匿名使用。\n\n这一举措旨在打击利用匿名通信设备进行的非法活动，提升整体网络与通信安全。然而，该政策也引发了外界关于用户隐私保护与通信便利性的广泛讨论。\n\n若该规定最终落地，将对美国预付费手机市场及相关电信运营商的合规流程产生直接影响，匿名使用预付费手机的传统模式或将终结。",
+    "category": "消费电子",
+    "tags": [
+      "FCC",
+      "预付费手机",
+      "通信监管",
+      "隐私保护"
+    ],
+    "source": "Ars Technica",
+    "time": "刚刚",
+    "ts": "2026-06-24T21:26:46.382226+00:00",
+    "url": "https://arstechnica.com/tech-policy/2026/06/fcc-plans-id-mandate-that-could-block-anonymous-use-of-prepaid-burner-phones/",
+    "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/06/woman-using-phone-1152x648.jpg",
+    "stocks": []
+  },
+  {
+    "id": "7ebc85a3202d7cec",
+    "title": "个性化脑部成像有望改善难治性抑郁症疗效",
+    "summary": "最新研究表明，个性化脑部成像技术有望为难治性抑郁症患者提供更精准的评估，从而改善临床治疗效果。",
+    "body": "难治性抑郁症一直是临床治疗的难点，部分患者对常规疗法反应不佳。最新研究显示，个性化脑部成像技术有望为改善此类患者的治疗结果提供新途径。\n\n通过个性化的脑部影像学分析，医疗人员能够更精准地评估患者的大脑结构与功能特征。这种精准评估有助于揭示个体差异，从而指导更具针对性的干预措施。\n\n这一进展不仅为难治性抑郁症的精准诊疗提供了科学依据，也展现了脑成像技术在提升精神类疾病整体治疗效果方面的巨大潜力与临床意义。",
+    "category": "生物医药",
+    "tags": [
+      "脑部成像",
+      "抑郁症",
+      "精准医疗"
+    ],
+    "source": "MedicalXpress",
+    "time": "刚刚",
+    "ts": "2026-06-24T21:26:43.672417+00:00",
+    "url": "https://medicalxpress.com/news/2026-06-personalized-brain-imaging-outcomes-treatment.html",
+    "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/personalized-brain-ima.jpg",
+    "stocks": []
+  },
+  {
+    "id": "1152196beb7548cb",
+    "title": "津巴布韦参议院批准延长总统任期修正案",
+    "summary": "津巴布韦参议院正式批准一项宪法修正案，旨在延长现任总统的任期限制，引发国内外对该国政治走向的广泛关注。",
+    "body": "津巴布韦参议院近日正式批准了一项旨在延长总统任期的宪法修正案。该修正案的通过意味着现任总统的执政期限将得到进一步延长，这在该国政治进程中具有重大影响。\n\n此举引发了国内外各界的广泛关注与讨论。支持者认为这有助于保持国家政策的连续性和政治稳定，而反对者则担忧这可能削弱民主制度并加剧政治分歧。\n\n作为南部非洲的重要国家，津巴布韦的政治走向不仅关系到其国内的经济改革与社会发展，也可能对周边地区的地缘政治格局产生一定影响。国际社会正密切关注该修正案后续的实施情况及其带来的深远影响。",
+    "category": "国际局势",
+    "tags": [
+      "津巴布韦",
+      "国际政治",
+      "总统任期"
+    ],
+    "source": "Al Jazeera",
+    "time": "刚刚",
+    "ts": "2026-06-24T21:26:37.327416+00:00",
+    "url": "https://www.aljazeera.com/news/2026/6/24/zimbabwes-senate-approves-amendment-extending-presidential-term?traffic_source=rss",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "3433b66d7d07be1b",
+    "title": "实验性酒瓶可追踪氧气穿透软木塞过程",
+    "summary": "研究人员开发出一种实验性酒瓶，能够追踪氧气穿过软木塞进入瓶内的过程，有助于优化葡萄酒的保存与陈酿。",
+    "body": "据Ars Technica报道，研究人员推出了一款实验性酒瓶，该酒瓶具备追踪氧气穿过软木塞移动情况的能力。这一技术突破使得科学家和酿酒师能够更精确地了解氧气在葡萄酒陈酿过程中的渗透动态。\n\n氧气对葡萄酒的陈年和风味发展至关重要，但过量氧气会导致氧化变质。通过这种新型酒瓶的监测技术，可以获取软木塞的透气性能数据，从而为优化封装材料和提升葡萄酒保存质量提供科学依据。\n\n这项研究不仅对酿酒行业具有实际应用价值，也展示了微型传感器技术在传统食品包装和保存领域的创新潜力。",
+    "category": "消费电子",
+    "tags": [
+      "智能传感器",
+      "食品科技",
+      "包装技术"
+    ],
+    "source": "Ars Technica",
+    "time": "刚刚",
+    "ts": "2026-06-24T21:26:36.675888+00:00",
+    "url": "https://arstechnica.com/science/2026/06/experimental-wine-bottle-tracks-oxygen-moving-through-the-cork/",
+    "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/06/GettyImages-1366189228-1152x648.jpg",
+    "stocks": []
+  },
+  {
+    "id": "9603e4f5335dbb94",
+    "title": "A24与谷歌AI合作引发公众不满",
+    "summary": "知名影视公司A24与谷歌AI的合作引发公众争议与不满，A24方面已意识到外界的负面情绪。",
+    "body": "知名独立影视制作与发行公司A24近期与谷歌人工智能（Google AI）展开了合作项目。然而，这一跨界合作在公众和影迷群体中引发了广泛的争议与不满情绪。\n\n面对外界的负面反馈，A24方面已经意识到公众对此次AI合作的抵触态度。此次事件凸显了生成式AI技术在传统影视和创意产业应用时所面临的受众接受度挑战。\n\n尽管AI技术正在加速向内容创作领域渗透，但如何平衡技术创新与受众情感诉求，仍是科技与娱乐公司需要共同面对的重要课题。",
+    "category": "人工智能",
+    "tags": [
+      "A24",
+      "谷歌AI",
+      "人工智能",
+      "影视科技"
+    ],
+    "source": "Wired",
+    "time": "刚刚",
+    "ts": "2026-06-24T21:26:32.782861+00:00",
+    "url": "https://www.wired.com/story/a24-knows-youre-mad-about-the-google-ai-collab/",
+    "image": "https://media.wired.com/photos/6a3b30e85935a4d59defead5/master/pass/Google-A24-Taste-AI-Partnership-Culture.jpg",
+    "stocks": [
+      {
+        "name": "谷歌",
+        "ticker": "GOOGL",
+        "reason": "旗下Google AI与A24开展合作，探索AI在影视娱乐领域的应用场景。",
+        "confidence": "low"
+      }
+    ]
+  },
+  {
+    "id": "12d8738e98f1bad6",
+    "title": "世卫组织将在刚果启动两项埃博拉疗法临床试验",
+    "summary": "世界卫生组织宣布，下周将在刚果民主共和国启动两种埃博拉治疗方案的临床试验。",
+    "body": "世界卫生组织（WHO）近日宣布，将于下周在刚果民主共和国正式启动针对两种埃博拉治疗方法的临床试验。此举旨在评估相关疗法在实际疫情环境中的安全性和有效性。\n\n刚果民主共和国是埃博拉疫情的高发地区，在此开展临床试验对于验证治疗方案具有关键的现实意义。若试验取得积极成果，将为全球应对埃博拉病毒提供更强有力的医疗干预手段。",
+    "category": "生物医药",
+    "tags": [
+      "埃博拉",
+      "临床试验",
+      "世卫组织"
+    ],
+    "source": "MedicalXpress",
+    "time": "刚刚",
+    "ts": "2026-06-24T21:26:31.234308+00:00",
+    "url": "https://medicalxpress.com/news/2026-06-trials-ebola-treatments-drc-week.html",
+    "image": "https://scx1.b-cdn.net/csz/news/tmb/2023/ebola.jpg",
+    "stocks": []
+  },
+  {
+    "id": "3008b54a64af0ad4",
+    "title": "美家庭因自动驾驶致命车祸起诉特斯拉",
+    "summary": "美国得克萨斯州一家庭因一起涉及特斯拉Autopilot系统的致命车祸，对特斯拉提起不当致死诉讼。",
+    "body": "美国得克萨斯州一家庭近日对特斯拉公司提起诉讼，指控其Autopilot自动驾驶系统在一起致命车祸中负有责任，并要求特斯拉承担不当致死的法律后果。\n\n此类涉及自动驾驶系统的致命事故诉讼，通常会引发公众对智能驾驶安全性的广泛担忧。这不仅可能给特斯拉带来法律与财务上的压力，也可能促使监管机构进一步审视和收紧对自动驾驶辅助技术的监管标准，对行业未来发展产生深远影响。",
+    "category": "人工智能",
+    "tags": [
+      "特斯拉",
+      "自动驾驶",
+      "法律诉讼"
+    ],
+    "source": "Al Jazeera",
+    "time": "刚刚",
+    "ts": "2026-06-24T21:26:23.182003+00:00",
+    "url": "https://www.aljazeera.com/economy/2026/6/24/family-sues-tesla-for-wrongful-death-in-autopilot-crash-in-texas-us?traffic_source=rss",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "278c95f6797c1c55",
+    "title": "新型口服GLP-1药物36周减重达12%",
+    "summary": "一种新型口服GLP-1药物在36周的临床应用中展现出显著疗效，最高可帮助患者减轻12%的体重。",
+    "body": "据MedicalXpress报道，一种新型口服GLP-1药物在减重方面展现出显著疗效。数据显示，患者在使用该口服药物36周后，体重减轻幅度最高可达12%。\n\n这一积极结果凸显了口服GLP-1药物在代谢疾病治疗中的巨大潜力。相较于传统的注射剂型，口服药物在提升患者用药便利性和长期依从性方面具有明显优势，有望为肥胖及代谢疾病患者提供更易于接受的治疗方案。\n\n该临床进展不仅丰富了GLP-1类药物的产品管线，也进一步推动了全球减重药物市场向口服制剂方向的研发与商业化进程。",
+    "category": "生物医药",
+    "tags": [
+      "GLP-1",
+      "减肥药",
+      "口服药物",
+      "创新药"
+    ],
+    "source": "MedicalXpress",
+    "time": "刚刚",
+    "ts": "2026-06-24T21:26:22.018321+00:00",
+    "url": "https://medicalxpress.com/news/2026-06-oral-glp-drug-weight-loss.html",
+    "image": "https://scx1.b-cdn.net/csz/news/tmb/2024/weight-loss-drugs.jpg",
+    "stocks": []
+  },
+  {
+    "id": "f10810fcb72b8259",
+    "title": "迪士尼支付5000万美元和解直播流媒体涨价指控",
+    "summary": "迪士尼同意支付5000万美元和解金，以解决有关其推高直播电视流媒体服务价格的指控。",
+    "body": "近日，迪士尼公司同意支付5000万美元达成和解，以解决一项关于其涉嫌推高直播电视流媒体服务价格的指控。该和解协议旨在平息外界对其流媒体定价策略及市场竞争行为的争议。\n\n此次和解反映出流媒体行业在定价机制上正面临日益严格的审查。随着直播电视流媒体服务加速替代传统有线电视，科技与媒体巨头在拓展市场时需更加注重合规经营与消费者权益保护。",
+    "category": "消费电子",
+    "tags": [
+      "迪士尼",
+      "流媒体",
+      "和解",
+      "反垄断"
+    ],
+    "source": "Ars Technica",
+    "time": "刚刚",
+    "ts": "2026-06-24T21:26:18.430406+00:00",
+    "url": "https://arstechnica.com/tech-policy/2026/06/disney-agreed-to-50m-settlement-over-claims-it-made-live-tv-streaming-expensive/",
+    "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/06/GettyImages-2244978226-1152x648-1782330995.jpg",
+    "stocks": [
+      {
+        "name": "迪士尼",
+        "ticker": "DIS",
+        "reason": "支付和解金使相关诉讼靴子落地，消除法律不确定性，利于流媒体业务长期稳健发展。",
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
+    "id": "960f132462b18227",
+    "title": "银河系最大最详细图像发布：涵盖超6000万颗恒星",
+    "summary": "科学家发布了迄今最大且最详细的银河系图像，其中包含超过6000万颗恒星及50个系外行星系统。",
+    "body": "近日，天文学界公布了迄今为止规模最大、细节最丰富的银河系图像。该图像不仅展现了银河系的宏大结构，还精确记录了超过6000万颗恒星，为研究星系的形成与演化提供了极其宝贵的数据支持。\n\n同时，这幅详尽的星图还确认包含了50个系外行星系统。这一突破性的观测成果极大地拓展了人类对宇宙的认知边界，为未来寻找宜居行星和探索地外生命奠定了重要的科学基础，具有深远的天文研究意义。",
+    "category": "商业航天",
+    "tags": [
+      "天文观测",
+      "银河系",
+      "系外行星",
+      "太空探索"
+    ],
+    "source": "Space.com",
+    "time": "刚刚",
+    "ts": "2026-06-24T21:26:12.831484+00:00",
+    "url": "https://www.space.com/astronomy/galaxies/this-is-the-largest-and-most-detailed-image-of-our-milky-way-with-over-60-million-stars-and-50-exoplanet-systems",
+    "image": "https://cdn.mos.cms.futurecdn.net/XtTktTvUwgAxQCt4sNND38-1280-80.jpg",
+    "stocks": []
+  },
+  {
+    "id": "9a9377a8331f15c1",
+    "title": "Rust包管理平台拟降低对GitHub依赖",
+    "summary": "Rust开发者社区正探讨减少crates.io对GitHub的依赖，以提升开源生态的独立性与抗风险能力。",
+    "body": "近日，开发者社区围绕在crates.io上发布Rust包不应依赖GitHub的议题展开讨论。crates.io作为Rust语言官方的包管理平台，其当前的发布与验证工作流与GitHub等第三方代码托管平台存在较深绑定。\n\n开发者指出，过度依赖单一商业平台可能给开源生态带来单点故障风险及潜在的审查隐患。推动发布流程支持更多托管平台或实现去中心化，将有助于增强Rust生态的底层韧性与长期可持续发展。",
+    "category": "人工智能",
+    "tags": [
+      "Rust",
+      "开源生态",
+      "crates.io",
+      "GitHub"
+    ],
+    "source": "Hacker News",
+    "time": "刚刚",
+    "ts": "2026-06-24T21:26:03.575122+00:00",
+    "url": "https://infosec.exchange/@mttaggart/116806641273303255",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "59d05d7940452a13",
+    "title": "《蜘蛛侠·暗影》作曲家谈多元宇宙复古音乐风格",
+    "summary": "《蜘蛛侠·暗影》作曲家接受采访，分享如何将复古黑色电影风格融入超级英雄多元宇宙的音乐创作理念。",
+    "body": "近日，《蜘蛛侠·暗影》的作曲家在接受采访时，深入探讨了该剧集的音乐创作理念。他们表示，作品融合了50%的超级英雄元素与50%的黑色电影风格，旨在为观众呈现一种全新的视听体验。\n\n在创作过程中，作曲家们致力于将复古风格注入超级英雄多元宇宙中。通过独特的音乐编排和氛围营造，该剧集不仅保留了超级英雄题材的标志性特征，还深刻展现了黑色电影特有的悬疑与复古基调。\n\n这种跨界融合的音乐风格，丰富了超级英雄影视作品的艺术表达，也为多元宇宙题材的创新提供了新思路，有望为观众带来耳目一新的娱乐体验。",
+    "category": "消费电子",
+    "tags": [
+      "影视娱乐",
+      "蜘蛛侠",
+      "音乐创作"
+    ],
+    "source": "Space.com",
+    "time": "刚刚",
+    "ts": "2026-06-24T21:25:59.367681+00:00",
+    "url": "https://www.space.com/entertainment/space-movies-shows/50-percent-superhero-and-50-percent-noir-but-100-percent-totally-new-spider-noir-composers-on-injecting-retro-style-into-the-superhero-multiverse-interview",
+    "image": "https://cdn.mos.cms.futurecdn.net/V95j7pKZhi3kWabmEoPNpa-1280-80.jpg",
+    "stocks": []
+  },
+  {
+    "id": "a076651c592bf5db",
+    "title": "巴勒斯坦活动人士自以色列监狱获释后晕倒",
+    "summary": "一名巴勒斯坦活动人士在被以色列监狱释放后晕倒，引发外界对其健康状况的关注。",
+    "body": "据半岛电视台报道，一名巴勒斯坦活动人士在从以色列监狱获释后出现晕倒症状。该事件引起了外界对其健康状况和羁押期间待遇的关注。\n\n这一突发事件反映了当前巴以冲突背景下复杂的人道主义状况，相关事件的发生也对地区局势及国际社会的关注焦点产生了一定影响。",
+    "category": "国际局势",
+    "tags": [
+      "巴以冲突",
+      "中东局势",
+      "人道主义"
+    ],
+    "source": "Al Jazeera",
+    "time": "刚刚",
+    "ts": "2026-06-24T21:25:57.596478+00:00",
+    "url": "https://www.aljazeera.com/video/newsfeed/2026/6/24/palestinian-activist-faints-after-his-release-from-israeli-prison?traffic_source=rss",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "bbbe3b6d52c465c0",
+    "title": "企业争相管控AI成本，防范员工琐碎任务耗尽预算",
+    "summary": "随着生成式AI在企业内部普及，员工频繁调用AI处理琐碎任务导致预算超支，各大企业正紧急采取措施监控并限制AI使用成本。",
+    "body": "随着生成式人工智能工具在企业内部的广泛部署，越来越多的员工开始依赖AI来完成日常工作。然而，由于缺乏成本意识，许多员工在处理琐碎任务时频繁调用高级AI模型或API，导致企业的AI相关预算迅速见底甚至严重超支。\n\n面对这一现象，各大企业正争相寻找解决方案。管理层和技术团队开始引入AI网关、成本监控工具以及严格的使用配额，以追踪和优化AI资源的分配，确保高昂的算力与API费用能够真正用于核心业务创新，而非低价值的日常琐事。\n\n这一趋势凸显了企业在AI落地过程中面临的成本管控挑战。未来，提供AI成本管理、API网关及使用分析的企业级服务将迎来显著的市场需求增长，推动AI应用从粗放式扩张向精细化运营转变。",
+    "category": "人工智能",
+    "tags": [
+      "AI成本管控",
+      "企业级AI",
+      "API管理",
+      "生成式AI"
+    ],
+    "source": "TechCrunch",
+    "time": "刚刚",
+    "ts": "2026-06-24T21:25:54.400832+00:00",
+    "url": "https://techcrunch.com/2026/06/24/companies-are-scrambling-to-stop-employees-from-maxing-out-ai-budgets-with-small-tasks/",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "9343ed3ea370eb5c",
+    "title": "OpenAI联手博通推出首款AI芯片Jalapeño",
+    "summary": "OpenAI与半导体巨头博通合作推出其首款定制AI芯片Jalapeño，旨在优化大模型算力与运行效率。",
+    "body": "OpenAI与半导体巨头博通（Broadcom）合作，正式推出了名为“Jalapeño”的AI芯片。这是OpenAI参与研发的首款AI芯片产品，标志着其在底层算力硬件布局上迈出了重要一步。\n\n此次合作旨在通过定制化的芯片设计，进一步提升AI模型的运行效率与算力表现。借助博通在芯片设计领域的深厚积累，OpenAI能够针对自身的大模型架构进行硬件层面的深度优化，从而巩固其在人工智能领域的技术领先优势。",
+    "category": "人工智能",
+    "tags": [
+      "OpenAI",
+      "博通",
+      "AI芯片",
+      "半导体"
+    ],
+    "source": "Engadget",
+    "time": "刚刚",
+    "ts": "2026-06-24T21:25:52.114610+00:00",
+    "url": "https://www.engadget.com/2201045/openai-broadcom-jalapeno-inference-processor-ai-accelerator/",
+    "image": "https://www.engadget.com/img/gallery/openai-unveils-its-chip-for-llms-made-with-broadcom/l-intro-1782331537.jpg",
+    "stocks": [
+      {
+        "name": "博通",
+        "ticker": "AVGO",
+        "reason": "与OpenAI合作推出首款AI定制芯片，有望显著拓展其AI ASIC定制芯片业务收入。",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "d2357850d46f4632",
+    "title": "2.5万美元Slate电动车上手：低调承诺与超预期体验",
+    "summary": "科技媒体Ars Technica对售价24950美元的Slate电动汽车进行了上手体验，探讨其实际表现是否超出预期。",
+    "body": "近日，科技媒体Ars Technica对初创车企Slate Auto推出的一款售价仅为24950美元的电动汽车进行了实际上手体验。该车型以极具竞争力的平价定位切入市场，引发了业界对其产品力的关注。\n\n评测重点探讨了Slate汽车是否做到了“低调承诺、超预期交付”。在平价电动汽车市场竞争日益激烈的背景下，这款车型的实际体验与性价比表现，展现了新兴车企在推动电动车普及方面的创新尝试。",
+    "category": "未来能源",
+    "tags": [
+      "Slate汽车",
+      "电动汽车",
+      "平价电动车",
+      "新车评测"
+    ],
+    "source": "Ars Technica",
+    "time": "刚刚",
+    "ts": "2026-06-24T21:25:37.861385+00:00",
+    "url": "https://arstechnica.com/features/2026/06/we-take-a-ride-in-slates-24950-electric-pickup/",
+    "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/06/Slate-Truck-2-1152x648-1782328763.jpg",
+    "stocks": []
+  },
+  {
+    "id": "22a259d517f3165e",
+    "title": "美光科技2026财年Q3净利润大增1398%",
+    "summary": "美光科技发布2026财年第三财季财报，归母净利润达282.43亿美元，同比增长1398.30%。",
+    "body": "美光科技近日公布了其2026财年第三财季的财务业绩。数据显示，该公司在该财季实现归母净利润282.43亿美元，与去年同期相比大幅增长1398.30%，展现出强劲的盈利爆发力。\n\n此次业绩的巨幅增长，反映了美光科技在存储芯片市场的优异表现。随着人工智能、高性能计算等领域对高带宽内存及企业级存储需求的持续攀升，公司成功抓住了行业复苏与技术升级的红利。\n\n这一超预期的财务表现不仅大幅提升了公司的盈利能力，也进一步巩固了其在全球半导体存储市场的领先地位。未来，美光科技有望依托技术创新，在AI驱动的存储需求浪潮中持续受益。",
+    "category": "人工智能",
+    "tags": [
+      "美光科技",
+      "财报",
+      "存储芯片",
+      "人工智能"
+    ],
+    "source": "IT之家",
+    "time": "刚刚",
+    "ts": "2026-06-24T21:25:37.368114+00:00",
+    "url": "https://www.ithome.com/0/968/220.htm",
+    "image": "",
+    "stocks": [
+      {
+        "name": "美光科技",
+        "ticker": "MU",
+        "reason": "作为新闻主体，净利润同比暴增直接体现公司基本面大幅改善，利好其市场表现。",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "0857728a27dd8513",
+    "title": "调查：多数患者希望由医生亲自告知癌症诊断",
+    "summary": "一项最新调查显示，大多数患者更倾向于由医生亲自告知癌症诊断结果，而非通过在线医疗门户网站自行查看。",
+    "body": "近日发布的一项调查揭示了患者对获取重大疾病诊断结果的偏好。研究发现，在面对癌症等严重疾病时，大多数患者更希望由医生亲自传达诊断结果，而不是通过在线电子健康门户或患者自助平台自行查看。\n\n这一发现强调了在重大医疗事件中人际沟通和医患关系的重要性。尽管数字医疗平台在常规医疗信息管理中发挥着重要作用，但在涉及改变生活的重大诊断时，患者依然高度依赖医生的专业解读和情感支持。\n\n该研究对医疗机构和数字健康平台开发者具有指导意义，提示未来的医疗信息系统设计应在提供便捷数字服务的同时，确保重大诊断结果的传递方式符合患者的心理需求。",
+    "category": "生物医药",
+    "tags": [
+      "数字医疗",
+      "医患沟通",
+      "医疗信息化",
+      "癌症诊断"
+    ],
+    "source": "MedicalXpress",
+    "time": "刚刚",
+    "ts": "2026-06-24T21:25:18.825708+00:00",
+    "url": "https://medicalxpress.com/news/2026-06-patients-cancer-doctors-portals-survey.html",
+    "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/patient-with-doctor-1.jpg",
+    "stocks": []
+  },
+  {
+    "id": "4bddd5c5ab957419",
+    "title": "伊朗称助理教练塔雷米在机场遭美方扣留",
+    "summary": "伊朗方面表示，助理教练迈赫迪·塔雷米在机场遭到美国官员扣留。",
+    "body": "据半岛电视台报道，伊朗方面证实，助理教练迈赫迪·塔雷米在机场遭到美国官员的扣留。此次事件的具体原因及后续进展尚待进一步披露。\n\n该事件引发了外界对美伊之间人员往来限制的关注。作为涉及两国人员的突发状况，此事可能对相关领域的交流活动产生一定影响。",
+    "category": "国际局势",
+    "tags": [
+      "美伊关系",
+      "国际事件",
+      "人员扣留"
+    ],
+    "source": "Al Jazeera",
+    "time": "刚刚",
+    "ts": "2026-06-24T21:25:14.790429+00:00",
+    "url": "https://www.aljazeera.com/sports/2026/6/24/mehdi-taremi-assistant-coach-held-up-at-airport-by-us-officials-iran-says?traffic_source=rss",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "43a7dbd17b39f333",
+    "title": "Shield Space与ClearSpace合作防御卫星轨道威胁",
+    "summary": "Shield Space与ClearSpace达成合作，共同开发技术以保护在轨卫星免受太空碎片及其他轨道威胁的碰撞风险。",
+    "body": "近日，Shield Space与瑞士初创公司ClearSpace宣布建立合作伙伴关系，旨在共同应对日益严峻的太空轨道威胁。双方将结合各自在空间态势感知和主动碎片清除领域的技术优势，为在轨卫星提供防撞与防御解决方案。\n\n随着全球卫星星座的快速部署，太空碎片和轨道拥挤问题日益突出，对在轨资产的安全构成了重大挑战。此次合作不仅有助于提升卫星运营商的资产保护能力，也为商业航天领域的太空交通管理和可持续发展提供了新的技术路径。",
+    "category": "商业航天",
+    "tags": [
+      "商业航天",
+      "太空碎片",
+      "卫星安全"
+    ],
+    "source": "SpaceNews",
+    "time": "刚刚",
+    "ts": "2026-06-24T21:25:11.503667+00:00",
+    "url": "https://spacenews.com/shield-space-and-clearspace-partner-to-defend-satellites-from-orbital-threats/",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "1bb7a8aa4a2a5ba0",
+    "title": "石头科技获外媒评为Prime Day最佳优惠",
+    "summary": "知名科技媒体Wired报道了2026年亚马逊Prime Day期间石头科技产品的最佳优惠信息。这反映了该品牌在海外智能清洁设备市场的持续关注度与竞争力。",
+    "body": "据知名科技媒体Wired报道，在2026年亚马逊Prime Day促销活动期间，石头科技（Roborock）旗下的智能清洁产品推出了极具吸引力的优惠方案，并被该媒体评为活动期间的最佳交易之一。\n\nPrime Day作为全球重要的电商促销节点，是各大消费电子品牌争夺市场份额的关键舞台。石头科技产品能够获得国际主流科技媒体的重点推荐，表明其智能清洁设备在海外市场的品牌认可度与产品竞争力持续保持高位。\n\n此类海外大型促销活动不仅有助于直接拉动公司的短期销售业绩，也为品牌进一步渗透全球市场、扩大海外用户基础提供了重要契机，对公司全球化战略的推进具有积极意义。",
+    "category": "消费电子",
+    "tags": [
+      "石头科技",
+      "Prime Day",
+      "智能清洁",
+      "品牌出海"
+    ],
+    "source": "Wired",
+    "time": "刚刚",
+    "ts": "2026-06-24T21:25:05.819803+00:00",
+    "url": "https://www.wired.com/story/amazon-prime-day-roborock-deals-2026/",
+    "image": "https://media.wired.com/photos/6a3c36cecc32244df2188fca/master/pass/This-Is-the-Roborock-Vacuum-To-Buy-During-Prime-Day.jpg",
+    "stocks": [
+      {
+        "name": "石头科技",
+        "ticker": "688169.SH",
+        "reason": "公司主营智能扫地机器人，海外亚马逊渠道是其核心收入来源之一，大促活动有望直接拉动销量与品牌曝光。",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "74bc63812d5d381e",
+    "title": "Docker Compose实现零停机部署，无需K8s",
+    "summary": "本文探讨了如何在不使用Kubernetes的情况下，利用Docker Compose实现应用程序的零停机部署，为轻量级容器编排提供了实用方案。",
+    "body": "在容器化部署领域，Kubernetes通常被视为实现零停机部署和高级编排的标准工具，但其复杂性对许多中小型项目而言门槛过高。近期技术社区的讨论指出，通过合理配置Docker Compose，开发者同样可以实现平滑的零停机更新。\n\n该方案通过巧妙利用Docker的网络和容器生命周期管理，避免了引入庞大编排系统的运维成本。这对于资源受限或架构相对简单的团队来说，提供了一种轻量、高效且易于维护的替代方案，进一步拓展了Docker Compose在生产环境中的应用边界。",
+    "category": "人工智能",
+    "tags": [
+      "Docker Compose",
+      "零停机部署",
+      "DevOps",
+      "容器技术"
+    ],
+    "source": "Hacker News",
+    "time": "刚刚",
+    "ts": "2026-06-24T21:24:54.587960+00:00",
+    "url": "https://statusdude.com/blog/zero-downtime-docker-compose",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "d9acb4d53a442c7b",
+    "title": "全球联合行动重创网络犯罪产业链",
+    "summary": "多国执法机构展开全球联合行动，成功打击并破坏了网络犯罪的“流水线”作业模式。",
+    "body": "近日，一场全球范围的联合执法行动对网络犯罪集团发起了强力打击，成功破坏了其高度组织化的“流水线”作案模式。此次行动通过多国协作，精准切断了网络犯罪的基础设施与运营链条。\n\n这一“组合拳”不仅有效遏制了当前猖獗的网络攻击威胁，也向全球网络犯罪团伙释放了强烈信号。跨国执法合作的深化，将成为应对日益复杂的网络安全挑战、维护全球数字生态安全的重要手段。",
+    "category": "国际局势",
+    "tags": [
+      "网络安全",
+      "跨国执法",
+      "网络犯罪"
+    ],
+    "source": "Ars Technica",
+    "time": "刚刚",
+    "ts": "2026-06-24T21:24:54.463979+00:00",
+    "url": "https://arstechnica.com/security/2026/06/one-two-punch-delivered-in-global-operation-disrupts-cybercrime-assembly-line/",
+    "image": "https://cdn.arstechnica.net/wp-content/uploads/2024/09/GettyImages-459908461-1152x648.jpg",
+    "stocks": []
+  },
+  {
+    "id": "77e6a5b4db164801",
+    "title": "新网站点名批评未提供通行密钥企业",
+    "summary": "一个新网站公开点名批评尚未提供通行密钥（Passkeys）服务的公司，旨在通过公众监督推动无密码认证技术的普及与应用。",
+    "body": "近日，一个新上线的网站开始公开点名并批评那些尚未为用户提供通行密钥（Passkeys）无密码认证服务的公司。通行密钥作为一种更安全、便捷的替代传统密码的身份验证技术，正受到科技巨头的广泛推广。\n\n该网站的推出旨在通过公众监督的方式，向企业施加压力，加速无密码认证技术的普及。这不仅有助于提升用户的账户安全性，减少因密码泄露导致的网络攻击，也将进一步推动数字身份验证标准的行业统一与升级。",
+    "category": "消费电子",
+    "tags": [
+      "通行密钥",
+      "网络安全",
+      "身份验证",
+      "无密码认证"
+    ],
+    "source": "TechCrunch",
+    "time": "刚刚",
+    "ts": "2026-06-24T21:24:52.172637+00:00",
+    "url": "https://techcrunch.com/2026/06/24/new-website-names-and-shames-companies-that-still-dont-offer-passkeys-to-users/",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "4db9c575fed3226f",
+    "title": "新论文质疑微软量子突破，指其夸大技术声明",
+    "summary": "《自然》杂志发表的一篇评论文章对微软“突破性”量子计算芯片Majorana 1的基础技术提出质疑，认为其一年前的声明存在夸大。",
+    "body": "《自然》杂志周三发表了一篇评论文章，对微软一年前宣布的量子计算“突破”提出质疑。该文章指出，微软当时发布的Majorana 1量子芯片背后的基础技术存在争议，认为其夸大了相关技术成果。\n\n微软曾高调展示Majorana 1处理器，宣称其在拓扑量子计算领域取得重大进展。然而，最新发表的学术论文对这一基本技术的可行性与微软的声明提出了挑战，引发了业界对量子计算技术真实水平的重新审视。\n\n这一质疑不仅对微软在量子科技领域的声誉产生影响，也提醒业界在面对前沿科技突破时需保持审慎，凸显了量子计算技术从理论走向实际应用仍面临诸多挑战。",
+    "category": "量子科技",
+    "tags": [
+      "微软",
+      "量子计算",
+      "Majorana 1",
+      "自然杂志"
+    ],
+    "source": "The Verge",
+    "time": "29分钟前",
+    "ts": "2026-06-24T16:54:57-04:00",
+    "url": "https://www.theverge.com/tech/956450/nature-microsoft-quantum-computing-majorana-1-claims",
+    "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/02/Majorana-1-005-4000px.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100",
+    "stocks": []
+  },
+  {
     "id": "c708d64ae25612d0",
     "title": "美国拉拢荷兰加入战略芯片联盟，法案限制仍存分歧",
     "summary": "美国成功促使荷兰加入其主导的战略芯片联盟，取得半导体地缘博弈的关键胜利，但双方在《MATCH法案》限制条款上仍存分歧。",
@@ -43543,6 +44534,6 @@ const newsData = [
   }
 ];
 const newsDigest = {
-  "text": "",
+  "text": "今日科技焦点汇聚鸿蒙生态、新能源车与前沿医疗。华为鸿蒙5.0全面开放利好软件生态链；Slate发布平价电动皮卡提振新能源车出海预期；诺如病毒抗体突破及辽宁舰电子战演练，为创新药与国防电子板块注入催化。",
   "highlights": []
 };
