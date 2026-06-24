@@ -1,5 +1,1026 @@
 const newsData = [
   {
+    "id": "9a8667a6f3112875",
+    "title": "Xbox确认《战争机器：事变日》将参展2026科隆游戏展",
+    "summary": "微软Xbox官方确认，备受期待的《战争机器：事变日》将参展2026年科隆游戏展，并提供现场试玩体验。",
+    "body": "微软Xbox官方近日确认，旗下经典IP新作《战争机器：事变日》将正式亮相2026年科隆游戏展。展会期间，该游戏将开放现场试玩，为玩家提供抢先体验的机会。\n\n《战争机器》系列作为Xbox平台的标志性独占大作，对微软游戏生态具有重要战略意义。此次新作的展出与试玩，不仅展现了微软在3A游戏内容上的持续投入，也有望进一步巩固Xbox品牌在核心玩家群体中的影响力。",
+    "category": "消费电子",
+    "tags": [
+      "微软",
+      "Xbox",
+      "战争机器",
+      "科隆游戏展"
+    ],
+    "source": "IT之家",
+    "time": "刚刚",
+    "ts": "2026-06-24T14:38:45.514581+00:00",
+    "url": "https://www.ithome.com/0/968/192.htm",
+    "image": "",
+    "stocks": [
+      {
+        "name": "微软",
+        "ticker": "MSFT",
+        "reason": "作为Xbox母公司，重磅独占游戏参展有助于提升其游戏业务吸引力与生态价值。",
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
+    "id": "082fc02df79a4da9",
+    "title": "Slate Auto推出极简电动皮卡，起售价24950美元",
+    "summary": "电动汽车初创公司Slate Auto发布了一款设计极简的电动皮卡，起售价定为24950美元，主打高性价比与实用性。",
+    "body": "Slate Auto正式推出了一款全新电动皮卡，该车型以极简设计为核心理念，旨在满足基础的货运与出行需求。新车的起售价仅为24950美元，在当前电动汽车市场中展现出显著的价格竞争力。\n\n这款高性价比的电动皮卡有望吸引对价格敏感且注重实用性的消费者及商业车队用户。其极简的设计理念不仅有助于控制制造成本，也为新能源商用车市场提供了新的产品思路。",
+    "category": "未来能源",
+    "tags": [
+      "Slate Auto",
+      "电动皮卡",
+      "新能源汽车"
+    ],
+    "source": "TechCrunch",
+    "time": "刚刚",
+    "ts": "2026-06-24T14:38:44.460632+00:00",
+    "url": "https://techcrunch.com/2026/06/24/slate-autos-radically-simple-electric-truck-starts-at-24950/",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "159b45c775905b1b",
+    "title": "2026年美国痴呆症成本或达8180亿美元",
+    "summary": "研究预计2026年美国痴呆症相关成本将高达8180亿美元，其中无偿护理是加重社会经济负担的主要驱动因素。",
+    "body": "据MedicalXpress报道，研究指出到2026年美国因痴呆症产生的总成本可能高达8180亿美元。这一庞大的数字凸显了神经退行性疾病对国家医疗体系和宏观经济的巨大冲击。\n\n研究特别强调，无偿护理在总成本中占据重要比例，成为推动整体经济负担加剧的核心因素。这不仅反映了专业护理资源的短缺，也揭示了患者家庭所承受的沉重隐性成本。\n\n面对日益严峻的公共卫生挑战，该数据凸显了加大阿尔茨海默病等痴呆症领域药物研发、完善长期护理政策以及创新护理模式的迫切性。",
+    "category": "生物医药",
+    "tags": [
+      "痴呆症",
+      "医疗成本",
+      "公共卫生",
+      "创新药"
+    ],
+    "source": "MedicalXpress",
+    "time": "刚刚",
+    "ts": "2026-06-24T14:38:43.425779+00:00",
+    "url": "https://medicalxpress.com/news/2026-06-dementia-billion-unpaid-burden.html",
+    "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/dementia-will-cost-the.jpg",
+    "stocks": [
+      {
+        "name": "礼来",
+        "ticker": "LLY",
+        "reason": "公司在阿尔茨海默病等神经退行性疾病领域拥有多款重磅药物，痴呆症医疗需求增长直接利好其相关管线。",
+        "confidence": "high"
+      },
+      {
+        "name": "渤健",
+        "ticker": "BIIB",
+        "reason": "合作研发的阿尔茨海默病新药已获批上市，痴呆症负担加重将提升市场对其创新疗法的关注与商业化潜力。",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "17d8c1e8aa27a743",
+    "title": "科学家揭示蜂王形成的真正机制",
+    "summary": "科学家最新研究揭示了蜜蜂中蜂王形成的生物学机制，为理解昆虫发育和级型分化提供了新视角。",
+    "body": "科学家最新研究揭示了蜂王形成的真正生物学机制，解答了相同基因的蜜蜂幼虫如何发育为蜂王的科学谜题。该发现深入探讨了决定蜜蜂级型分化的关键因素。\n\n这一基础研究为理解昆虫发育、表观遗传学以及环境对基因表达的调控提供了重要依据。该科学突破不仅深化了生物学认知，也对未来的农业生态保护和昆虫学研究具有深远意义。",
+    "category": "生物医药",
+    "tags": [
+      "生物学",
+      "昆虫研究",
+      "发育机制"
+    ],
+    "source": "ScienceDaily",
+    "time": "刚刚",
+    "ts": "2026-06-24T14:38:34.906757+00:00",
+    "url": "https://www.sciencedaily.com/releases/2026/06/260623083101.htm",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "40b5992a71216043",
+    "title": "乐高星球大战多款套装即将停产，退市前享大幅折扣",
+    "summary": "乐高星球大战系列部分套装即将停产，消费者可在退市前享受大幅折扣。",
+    "body": "近日，乐高宣布其星球大战系列的多款经典套装即将停产退市。对于星战粉丝和乐高收藏者而言，这意味着部分热门产品将不再生产。\n\n不过，在这些套装正式停产之前，零售端出现了较大幅度的折扣促销活动。消费者和收藏家可以抓住最后的机会，以优惠的价格购入这些即将绝版的套装。\n\n此类停产促销不仅为爱好者提供了以更低成本购入的机会，也预示着这些套装在停产后的二级收藏市场价值可能会发生变化。",
+    "category": "消费电子",
+    "tags": [
+      "乐高",
+      "星球大战",
+      "潮玩收藏",
+      "零售促销"
+    ],
+    "source": "Space.com",
+    "time": "刚刚",
+    "ts": "2026-06-24T14:38:31.284375+00:00",
+    "url": "https://www.space.com/entertainment/space-toys-lego/its-a-crime-these-lego-star-wars-sets-are-being-retired-but-you-can-save-big-before-they-go",
+    "image": "https://cdn.mos.cms.futurecdn.net/deY2ncXo4XR8JLjWwiE8hk-1280-80.jpg",
+    "stocks": []
+  },
+  {
+    "id": "7269526d426e7bb8",
+    "title": "特斯拉因德州致命车祸致老妇身亡遭起诉",
+    "summary": "特斯拉在德克萨斯州发生一起冲入民宅的致命车祸，导致一名76岁女性死亡，目前公司正面临相关诉讼。",
+    "body": "近日，特斯拉在德克萨斯州面临一项新的法律诉讼。该诉讼源于一起严重的交通事故，一辆特斯拉汽车冲入当地一处民宅，导致一名76岁的女性不幸身亡。\n\n此类涉及特斯拉车辆的致命事故及随后的诉讼，通常会引发外界对其车辆安全性及自动驾驶辅助系统可靠性的质疑。这不仅可能给公司带来法律纠纷，也可能引起监管机构对智能驾驶安全的进一步关注。",
+    "category": "人工智能",
+    "tags": [
+      "特斯拉",
+      "自动驾驶",
+      "交通事故",
+      "法律诉讼"
+    ],
+    "source": "Electrek",
+    "time": "刚刚",
+    "ts": "2026-06-24T14:38:27.209796+00:00",
+    "url": "https://electrek.co/2026/06/24/tesla-sued-fatal-katy-fsd-crash/",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "ff8d0e3ff8e14bcd",
+    "title": "家庭宽带成5G出人意料的杀手级应用",
+    "summary": "IEEE Spectrum指出，固定无线接入正成为5G网络最成功的杀手级应用，为家庭宽带提供了传统有线网络的有效替代方案。",
+    "body": "据IEEE Spectrum报道，尽管5G技术在推出初期被期待在自动驾驶和工业物联网等领域催生革命性应用，但家庭宽带（固定无线接入，FWA）却出人意料地成为了5G首个真正的杀手级应用。\n\n5G FWA通过无线方式提供高速互联网连接，部署成本远低于传统光纤和电缆铺设，能为偏远地区或光纤难以覆盖的城市区域提供高质量宽带服务。\n\n这一趋势加速了全球家庭宽带的普及与升级，为电信运营商带来显著的营收增长，证明了5G在固定网络市场的巨大商业价值。",
+    "category": "消费电子",
+    "tags": [
+      "5G",
+      "家庭宽带",
+      "固定无线接入",
+      "通信设备"
+    ],
+    "source": "IEEE Spectrum",
+    "time": "刚刚",
+    "ts": "2026-06-24T14:38:20.266506+00:00",
+    "url": "https://spectrum.ieee.org/fixed-wireless-access",
+    "image": "https://spectrum.ieee.org/media-library/colorful-abstract-scene-with-stick-figures-lines-and-a-smiling-black-house.png?id=67006895&width=980",
+    "stocks": [
+      {
+        "name": "T-Mobile",
+        "ticker": "TMUS",
+        "reason": "美国5G FWA市场的领导者，通过5G家庭宽带业务获得大量新增用户与营收增长。",
+        "confidence": "high"
+      },
+      {
+        "name": "中兴通讯",
+        "ticker": "000063.SZ",
+        "reason": "全球领先的5G基站及CPE终端设备供应商，直接受益于全球5G FWA网络建设与终端需求。",
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
+    "id": "d1a740e968e17368",
+    "title": "太空天气或威胁AI繁荣，太阳风暴直击算力基础设施",
+    "summary": "极端太空天气可能破坏支撑AI数据中心运行的电网与通信等关键基础设施，从而对人工智能行业的持续繁荣构成潜在威胁。",
+    "body": "随着人工智能的爆发式增长，全球对算力的需求激增，大型数据中心的运行高度依赖稳定的电力与通信网络。然而，极端太空天气正成为威胁AI行业繁荣的潜在隐患。\n\n强烈的太阳风暴等地磁活动会引发磁场剧烈波动，可能对地面高压电网、海底电缆及卫星通信等关键基础设施造成严重干扰或损坏。若发生大规模停电或网络中断，AI算力中心将面临停摆风险。\n\n这一观点提醒科技与能源行业，在加速扩张AI算力的同时，必须重视底层基础设施的抗灾韧性，并加强对太空天气的监测与电网防护能力建设。",
+    "category": "人工智能",
+    "tags": [
+      "太空天气",
+      "人工智能",
+      "数据中心",
+      "基础设施"
+    ],
+    "source": "SpaceNews",
+    "time": "刚刚",
+    "ts": "2026-06-24T14:38:16.346670+00:00",
+    "url": "https://spacenews.com/how-space-weather-could-bust-the-ai-boom/",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "1a7d7d9747a6db1e",
+    "title": "联合国核负责人：核查人员将访问伊朗设施",
+    "summary": "联合国国际原子能机构负责人表示，作为相关协议的一部分，核查人员将对伊朗的设施进行访问。此举旨在推进对伊朗核计划的监督与核查工作。",
+    "body": "联合国国际原子能机构（IAEA）总干事近日宣布，该机构的核查人员将前往伊朗，对其相关设施进行实地访问。此次访问是落实双方达成相关协议的重要组成部分，旨在恢复和加强对伊朗核活动的监督。\n\n此次核查行动的推进，对于缓解国际社会对伊朗核计划的担忧具有重要意义。通过实地视察，国际原子能机构能够更准确地评估伊朗的核活动现状，确保其符合相关国际协议与防扩散要求。\n\n这一进展也反映出国际社会在通过外交途径解决伊朗核问题上取得的阶段性成果。核查人员的顺利访问将为后续的谈判与协议执行提供关键的事实依据，有助于维护中东地区的和平与稳定。",
+    "category": "国际局势",
+    "tags": [
+      "联合国",
+      "伊朗",
+      "核核查",
+      "地缘政治"
+    ],
+    "source": "BBC World",
+    "time": "刚刚",
+    "ts": "2026-06-24T14:38:12.413636+00:00",
+    "url": "https://www.bbc.co.uk/news/articles/cpd395zv81vo?at_medium=RSS&at_campaign=rss",
+    "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d75e/live/c4c807c0-6fc5-11f1-8e1d-bbbb1017d210.jpg",
+    "stocks": []
+  },
+  {
+    "id": "473ebd3b9f049c4a",
+    "title": "欧洲多地遭遇极端热浪：致死及社会停摆影响几何",
+    "summary": "欧洲多国正经历极端热浪天气，已导致人员死亡及广泛的交通与社会运行中断。",
+    "body": "近期，欧洲多国遭遇极端高温热浪侵袭，不仅造成人员伤亡，还引发了广泛的交通延误和社会运行中断。极端天气对当地民众健康、基础设施及日常经济活动构成了严峻挑战。\n\n此次热浪事件再次凸显了全球气候变化对区域社会经济的深远影响。随着极端天气频发，各国在应对气候危机、升级基础设施以及保障能源供应方面的压力正日益加剧。",
+    "category": "国际局势",
+    "tags": [
+      "极端天气",
+      "欧洲",
+      "气候变化"
+    ],
+    "source": "Al Jazeera",
+    "time": "刚刚",
+    "ts": "2026-06-24T14:38:12.244490+00:00",
+    "url": "https://www.aljazeera.com/news/2026/6/24/deaths-disruptions-across-europe-what-you-should-know-about-the-heatwave?traffic_source=rss",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "0b7b18052434e206",
+    "title": "罗技Prime Day大促：顶级游戏鼠标最高降价47%",
+    "summary": "在亚马逊Prime Day期间，罗技对其八款顶级游戏鼠标推出大幅折扣，最高优惠幅度达47%。",
+    "body": "外设巨头罗技在近期的亚马逊Prime Day促销活动中，针对旗下游戏鼠标产品线推出了极具吸引力的折扣。据悉，共有八款顶级游戏鼠标参与了此次大促，最高降价幅度达到47%。\n\n此次大幅降价涵盖了罗技的多款旗舰级电竞外设，为广大游戏玩家提供了以更低成本升级装备的良机。借助Prime Day的流量红利进行大力度促销，有助于罗技进一步抢占电竞外设市场份额并提升产品销量。",
+    "category": "消费电子",
+    "tags": [
+      "罗技",
+      "游戏鼠标",
+      "Prime Day",
+      "消费电子"
+    ],
+    "source": "Tom's Hardware",
+    "time": "刚刚",
+    "ts": "2026-06-24T14:38:07.306307+00:00",
+    "url": "https://www.tomshardware.com/pc-components/logitech-goes-off-the-rails-with-prime-day-gaming-mouse-savings-of-up-to-47-percent-upgrade-the-most-frequently-used-pc-peripheral-on-the-cheap",
+    "image": "https://cdn.mos.cms.futurecdn.net/Vs45dyffxVAiQ9Ex2gBisW-1280-80.png",
+    "stocks": [
+      {
+        "name": "罗技",
+        "ticker": "LOGI",
+        "reason": "作为产品直接制造商，Prime Day大幅促销有望提升其游戏鼠标销量与市场份额。",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "14fa725a9ec944b7",
+    "title": "Slate推出2.5万美元起售高性价比电动皮卡",
+    "summary": "Slate Auto公布其新款电动皮卡起售价为24950美元，主打高性价比与实用性。",
+    "body": "Slate Auto正式公布了其新款电动皮卡的定价信息，该车型起售价定为24950美元。这一极具竞争力的价格策略，旨在降低电动皮卡的购买门槛，为消费者和商用车队提供高性价比的出行选择。\n\n在电动皮卡市场竞争日益激烈的背景下，Slate通过亲民的价格切入市场，凸显了其在成本控制与产品定位上的差异化优势。这不仅有助于加速电动商用车的普及，也将对现有新能源皮卡市场的价格体系产生一定影响。",
+    "category": "未来能源",
+    "tags": [
+      "电动皮卡",
+      "Slate Auto",
+      "新能源汽车"
+    ],
+    "source": "Hacker News",
+    "time": "刚刚",
+    "ts": "2026-06-24T14:38:03.950477+00:00",
+    "url": "https://www.slate.auto/en",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "b7ebc1b7789df860",
+    "title": "Wired精选2026年Prime Day美妆促销Top21",
+    "summary": "科技媒体Wired从数百款商品中精选出21款2026年亚马逊Prime Day最佳美妆优惠，为消费者提供购物指南。",
+    "body": "科技媒体Wired近日发布了2026年亚马逊Prime Day美妆类目的最佳促销指南。编辑团队从数百款参与活动的商品中，精心挑选出21款最具性价比和实用性的美妆产品，旨在为消费者提供专业的购物参考。\n\n此类促销指南反映了电商平台在年度大促期间对细分品类的深度运营，同时也展现了消费者对高品质美妆产品的持续需求。通过专业媒体的筛选与推荐，有助于降低消费者的决策成本，提升大促期间的购物体验与平台转化率。",
+    "category": "消费电子",
+    "tags": [
+      "Prime Day",
+      "美妆促销",
+      "亚马逊",
+      "消费指南"
+    ],
+    "source": "Wired",
+    "time": "刚刚",
+    "ts": "2026-06-24T14:37:50.100040+00:00",
+    "url": "https://www.wired.com/story/best-prime-day-beauty-deals-2026/",
+    "image": "https://media.wired.com/photos/67cc8e3ff03aeba6ea4a8208/master/pass/GHD-Chronos-Max-Hair-Straightener-Abstract-Background-032025-SOURCE-Nordstrom.jpg",
+    "stocks": [
+      {
+        "name": "亚马逊",
+        "ticker": "AMZN",
+        "reason": "Prime Day是亚马逊年度核心促销活动，美妆等品类热销有助于提升平台GMV与Prime会员收入。",
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
+    "id": "d107ce21c1efc2af",
+    "title": "美国政府据报敦促Meta共享AI模型",
+    "summary": "据报道，美国政府正敦促科技巨头Meta分享其人工智能模型，此举引发业界对AI开源生态与技术战略的关注。",
+    "body": "据外媒Engadget报道，美国政府目前正在敦促Meta公司分享其人工智能模型。这一动向引起了科技界对AI技术开放与相关政策的广泛关注。\n\nMeta在人工智能大模型研发及开源生态建设方面具有重要地位。美国政府的此次敦促，或将对Meta未来的AI模型发布策略、开源进程以及政企合作方向产生一定影响。",
+    "category": "人工智能",
+    "tags": [
+      "Meta",
+      "人工智能",
+      "AI模型"
+    ],
+    "source": "Engadget",
+    "time": "刚刚",
+    "ts": "2026-06-24T14:37:49.466090+00:00",
+    "url": "https://www.engadget.com/2200490/us-government-reportedly-urging-meta-to-share-its-ai-models/",
+    "image": "https://www.engadget.com/img/gallery/us-government-reportedly-urging-meta-to-share-its-ai-models/l-intro-1782301851.jpg",
+    "stocks": [
+      {
+        "name": "Meta",
+        "ticker": "META",
+        "reason": "新闻直接提及该公司，政府敦促或影响其AI模型开源战略与政企合作。",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "ff5dfc0d1c9c07d5",
+    "title": "面向AI的网络数据基础设施层加速崛起",
+    "summary": "MIT科技评论指出，专为人工智能设计的网络数据基础设施层正在加速形成，为AI模型训练与应用提供关键数据支撑。",
+    "body": "据MIT科技评论报道，面向人工智能的网络数据基础设施层正在加速崛起。这一新兴基础设施专注于为AI系统提供高效、结构化的网络数据获取与处理能力，以应对大模型时代对海量高质量数据的迫切需求。\n\n该基础设施层的出现标志着AI产业重心的深化，从单纯的算力与算法比拼延伸至数据供应链的竞争。它不仅有望缓解当前高质量训练数据短缺的瓶颈，还将为检索增强生成和AI智能体等应用提供更坚实的数据底座，对推动AI技术的规模化落地具有深远影响。",
+    "category": "人工智能",
+    "tags": [
+      "人工智能",
+      "数据基础设施",
+      "大模型"
+    ],
+    "source": "MIT Tech Review",
+    "time": "刚刚",
+    "ts": "2026-06-24T14:37:48.466741+00:00",
+    "url": "https://www.technologyreview.com/2026/06/24/1139202/the-emergence-of-the-web-data-infrastructure-layer-for-ai/",
+    "image": "https://wp.technologyreview.com/wp-content/uploads/2026/06/iStock-1714934690.jpg",
+    "stocks": []
+  },
+  {
+    "id": "6d6775eb907704e0",
+    "title": "风投Valor拟募资25亿美元设第七期基金",
+    "summary": "据彭博社报道，私募股权公司Valor Equity Partners正寻求筹集25亿美元的第七期基金。",
+    "body": "据彭博社报道，知名私募股权与风险投资公司Valor Equity Partners目前正在寻求筹集规模达25亿美元的第七期基金。此次募资将为其未来的科技与创新领域投资提供充足的资金储备。\n\n作为一家在硬科技和颠覆性创新领域有着丰富投资经验的机构，新一期基金预计将继续聚焦前沿科技与高增长潜力的企业。在当前资本市场环境下，该机构的大规模募资动作也反映出其对科技赛道长期发展的信心。",
+    "category": "人工智能",
+    "tags": [
+      "私募股权",
+      "风险投资",
+      "基金募资"
+    ],
+    "source": "TechCrunch",
+    "time": "刚刚",
+    "ts": "2026-06-24T14:37:43.916534+00:00",
+    "url": "https://techcrunch.com/2026/06/24/valor-equity-partners-looks-to-raise-a-2-5b-fund-vii-per-bloomberg/",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "05d96f63538394c8",
+    "title": "OpenAI Codex CLI日志写入过量致SSD折寿，正紧急修复",
+    "summary": "OpenAI旗下的Codex CLI工具被发现存在日志过量写入缺陷，预计一年可写入640TB数据，严重影响SSD寿命，官方正紧急修复。",
+    "body": "近日，有开发者指出OpenAI旗下的Codex CLI工具存在严重的日志写入缺陷。据测算，该工具在运行中会产生海量日志，若持续使用，一年内可能向硬盘写入高达640TB的数据。\n\n这种极端的写入量会大幅消耗固态硬盘（SSD）的擦写寿命，导致硬件加速老化甚至提前报废，给开发者的设备安全带来隐患。\n\n针对此问题，OpenAI官方已确认并表示正在紧急修复中。在补丁发布前，建议用户谨慎使用或通过配置限制日志输出，以避免硬件受损。",
+    "category": "人工智能",
+    "tags": [
+      "OpenAI",
+      "Codex",
+      "SSD"
+    ],
+    "source": "IT之家",
+    "time": "刚刚",
+    "ts": "2026-06-24T14:37:39.722593+00:00",
+    "url": "https://www.ithome.com/0/968/193.htm",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "ce8f743424aeba7b",
+    "title": "南非豹子体型缩小至正常一半原因揭秘",
+    "summary": "科学研究探讨了南非豹子体型显著缩小的现象及其背后的生态原因，揭示了环境变化对野生动物生存的影响。",
+    "body": "据ScienceDaily报道，科学界正关注并研究南非豹子体型缩小至正常体型一半的现象及其背后原因。\n\n这一体型变化现象反映了野生动物在面对特定生态环境压力时可能产生的生理适应，通常与栖息地环境及食物链变化等因素密切相关。\n\n该研究不仅有助于了解大型猫科动物的生存现状，也为全球生态保护与生物多样性研究提供了重要的科学参考。",
+    "category": "生物医药",
+    "tags": [
+      "生态保护",
+      "野生动物",
+      "生物学研究"
+    ],
+    "source": "ScienceDaily",
+    "time": "刚刚",
+    "ts": "2026-06-24T14:37:23.399816+00:00",
+    "url": "https://www.sciencedaily.com/releases/2026/06/260623083113.htm",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "1c20b27a16bc4dcc",
+    "title": "ESA局长呼吁增强欧洲航天自主性，对美信任下降",
+    "summary": "欧洲航天局局长表示，随着对美国合作伙伴信任的削弱，欧洲亟需加强在太空领域的自主能力。",
+    "body": "欧洲航天局（ESA）局长近日发出呼吁，强调欧洲必须提升其在太空领域的自主性。这一表态的背景是，欧洲对美国在航天合作方面的信任度正逐渐下降。\n\n长期以来，欧洲在诸多重大太空项目中依赖与美国的合作。然而，随着国际局势的变化和合作中不确定性的增加，ESA高层认为欧洲需要减少对外部力量的依赖，确保自身太空战略的独立性和安全性。\n\n这一呼吁可能会对欧洲未来的航天政策和预算分配产生深远影响，推动欧洲本土航天产业链的发展，加速相关核心技术和项目的自主研发进程。",
+    "category": "商业航天",
+    "tags": [
+      "欧洲航天局",
+      "航天自主",
+      "太空探索",
+      "国际合作"
+    ],
+    "source": "Space.com",
+    "time": "刚刚",
+    "ts": "2026-06-24T14:37:22.990638+00:00",
+    "url": "https://www.space.com/space-exploration/esa-chief-calls-for-greater-european-space-autonomy-as-trust-in-us-partnership-erodes",
+    "image": "https://cdn.mos.cms.futurecdn.net/rtTiSjAkCbmLsXPSvRK9gR-1280-80.jpg",
+    "stocks": []
+  },
+  {
+    "id": "eacccecafe2627cc",
+    "title": "Mantis Robotics推出双臂无围栏协作机器人",
+    "summary": "Mantis Robotics正式发布一款双臂无围栏机器人，旨在提升复杂工业制造中的灵活性与安全性。",
+    "body": "Mantis Robotics近日推出了一款全新的双臂无围栏机器人。该机器人专为复杂的工业制造和装配任务设计，能够在没有传统安全围栏的环境下与人类工人安全协同作业。\n这款双臂机器人结合了先进的力控制技术，不仅提高了操作的精准度，还大幅增强了人机协作的安全性。其无围栏设计有助于企业优化生产空间，降低部署成本，提升生产线的整体灵活性。\n该产品的发布标志着协作机器人技术在复杂任务处理上的进一步突破，有望在各类制造和装配领域获得应用，推动智能制造的升级。",
+    "category": "机器人",
+    "tags": [
+      "协作机器人",
+      "双臂机器人",
+      "智能制造"
+    ],
+    "source": "The Robot Report",
+    "time": "刚刚",
+    "ts": "2026-06-24T14:37:20.421666+00:00",
+    "url": "https://www.therobotreport.com/mantis-robotics-launches-dual-arm-fenceless-robot/",
+    "image": "https://www.therobotreport.com/wp-content/uploads/2026/06/Mantis_Robotics-_The_new_Mantis_MR-X_dual-arm_fenceless_robot-featured.jpg",
+    "stocks": []
+  },
+  {
+    "id": "be3d31da67d177c1",
+    "title": "首例人体膀胱肾脏联合移植半年结果证实可行",
+    "summary": "医学界首例人体膀胱与肾脏联合移植手术的六个月随访结果公布，证实了该手术的可行性与早期临床成功。",
+    "body": "近日，MedicalXpress报道了一项具有里程碑意义的医学突破。首例人体膀胱与肾脏联合移植手术的六个月随访结果正式公布，数据证实了该联合移植手术的可行性，并取得了早期的临床成功。\n\n这一成果标志着器官移植领域的重要进展。对于同时面临膀胱和肾脏功能衰竭的复杂患者而言，联合移植有望减少多次手术带来的创伤与风险，并可能提高整体治疗效果和患者的生活质量。\n\n尽管目前仍处于早期成功阶段，但该研究为未来终末期泌尿系统及肾脏疾病的综合治疗提供了全新的临床路径，具有深远的医学意义。",
+    "category": "生物医药",
+    "tags": [
+      "器官移植",
+      "临床医学",
+      "医疗突破"
+    ],
+    "source": "MedicalXpress",
+    "time": "刚刚",
+    "ts": "2026-06-24T14:37:18.136889+00:00",
+    "url": "https://medicalxpress.com/news/2026-06-month-results-feasibility-early-success.html",
+    "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/first-bladder-transpla.jpg",
+    "stocks": []
+  },
+  {
+    "id": "4bb2aab7405290ce",
+    "title": "加州将起诉特朗普政府阻碍风电政策",
+    "summary": "加州政府宣布将对特朗普政府涉嫌阻碍风力发电发展的最新政策提起诉讼，以维护清洁能源产业。",
+    "body": "加州政府近日宣布，将对特朗普政府出台的最新政策提起诉讼。加州方面认为，该政策实质上是对传统能源行业的利益输送，旨在故意阻碍风力发电等清洁能源项目的推进。\n\n作为美国清洁能源发展的先锋，加州一直大力推动风电等可再生能源的建设。此次诉讼不仅反映了加州与联邦政府在能源转型方向上的深刻分歧，也凸显了风电产业在美国面临的复杂政策环境。\n\n这一法律行动可能会对全美风电项目的审批与建设产生深远影响，并进一步加剧围绕未来能源发展路线的政治博弈。",
+    "category": "未来能源",
+    "tags": [
+      "风力发电",
+      "能源政策",
+      "清洁能源"
+    ],
+    "source": "Electrek",
+    "time": "刚刚",
+    "ts": "2026-06-24T14:37:15.209310+00:00",
+    "url": "https://electrek.co/2026/06/24/california-will-sue-over-trumps-latest-bribe-to-block-wind-power/",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "f0d3568eb7c2f603",
+    "title": "巴黎气温超麦加：欧洲极端热浪全球对比",
+    "summary": "欧洲正经历极端热浪天气，巴黎气温甚至超过麦加，引发全球对气候变化及极端天气频发的广泛关注。",
+    "body": "近期，欧洲遭遇严重热浪侵袭，部分地区气温创下历史新高。数据显示，法国巴黎的气温甚至超过了沙特阿拉伯的麦加，凸显了此次欧洲高温事件的极端性与反常性。\n\n此次热浪不仅对当地民众生活、健康及城市基础设施造成严重影响，也引发了全球对气候变化加剧的担忧。极端天气的频发促使各国重新审视气候适应策略，并可能在短期内显著推高制冷设备及电力能源的需求。\n\n在全球气候变暖的背景下，此类极端高温事件或将成为常态。这不仅对全球各地的城市韧性提出挑战，也进一步凸显了推进能源转型与电网升级的长期现实意义。",
+    "category": "国际局势",
+    "tags": [
+      "极端天气",
+      "欧洲热浪",
+      "气候变化"
+    ],
+    "source": "Al Jazeera",
+    "time": "刚刚",
+    "ts": "2026-06-24T14:37:14.405220+00:00",
+    "url": "https://www.aljazeera.com/news/2026/6/24/when-paris-is-hotter-than-mecca-how-europes-heatwave-compares-globally?traffic_source=rss",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "31fa110f68184b3d",
+    "title": "AI设计射频芯片突破人类想象",
+    "summary": "人工智能正被应用于射频芯片设计，能够生成人类工程师难以构思的优化结构，大幅提升芯片性能与研发效率。",
+    "body": "传统射频芯片设计高度依赖人类工程师的经验，且面临复杂的电磁干扰与物理极限挑战。如今，人工智能技术正深度介入该领域，通过算法探索出人类难以构思的电路拓扑与布局方案，突破了传统设计的认知边界。\n\n这种由AI驱动的设计方法不仅能优化射频芯片的性能与功耗，还能大幅缩短研发周期。随着AI在电子设计自动化中的深入应用，半导体行业的设计范式正迎来颠覆性变革，为未来无线通信与物联网设备提供更强大的硬件基础。",
+    "category": "人工智能",
+    "tags": [
+      "人工智能",
+      "射频芯片",
+      "芯片设计",
+      "EDA"
+    ],
+    "source": "IEEE Spectrum",
+    "time": "刚刚",
+    "ts": "2026-06-24T14:36:59.410407+00:00",
+    "url": "https://spectrum.ieee.org/ai-radio-chip-design",
+    "image": "https://spectrum.ieee.org/media-library/abstract-rainbow-blocks-and-shapes-linked-by-flowing-blue-wave-lines-on-white-background.png?id=67001857&width=980",
+    "stocks": [
+      {
+        "name": "新思科技",
+        "ticker": "SNPS",
+        "reason": "全球EDA龙头，积极将AI技术融入芯片设计工具链，直接受益于AI设计射频芯片的趋势。",
+        "confidence": "high"
+      },
+      {
+        "name": "楷登电子",
+        "ticker": "CDNS",
+        "reason": "EDA行业巨头，已推出多款AI驱动的模拟与射频电路设计优化解决方案。",
+        "confidence": "high"
+      },
+      {
+        "name": "华大九天",
+        "ticker": "301269.SZ",
+        "reason": "国内EDA龙头企业，正加速探索AI技术在EDA工具中的应用以突破设计瓶颈。",
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
+    "id": "537a63185ded3d50",
+    "title": "法国创高温纪录，空调使用引发政治分歧",
+    "summary": "法国遭遇有记录以来最热的一天，极端高温天气下空调的使用问题在法国国内引发了显著的政治分歧。",
+    "body": "法国近日迎来了有记录以来最热的一天，极端高温天气给当地民众的生活带来了严峻考验。面对持续的高温，空调成为重要的降温工具。\n\n然而，空调的使用在法国国内引发了明显的政治分歧。各方围绕空调带来的能源消耗、环保影响及民生需求等议题产生了不同立场的争论，反映出极端气候对社会与政治层面的深远影响。",
+    "category": "国际局势",
+    "tags": [
+      "法国高温",
+      "政治分歧",
+      "气候变化"
+    ],
+    "source": "BBC World",
+    "time": "刚刚",
+    "ts": "2026-06-24T14:36:56.824273+00:00",
+    "url": "https://www.bbc.co.uk/news/articles/c4gyqldl3p5o?at_medium=RSS&at_campaign=rss",
+    "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8057/live/f19c7bb0-6fc9-11f1-8b2e-bdb65bec8399.jpg",
+    "stocks": []
+  },
+  {
+    "id": "e1a35204a1758e7d",
+    "title": "得州男子因运输宣传册获刑30年",
+    "summary": "一名得克萨斯州男子因运输宣传册被判处30年监禁，引发外界对相关法律适用及信息传播边界的关注。",
+    "body": "近日，一名得克萨斯州男子因涉及运输宣传册的活动，被法院正式判处30年监禁。这一严厉的量刑结果在法律界及相关社区引发了广泛讨论与关注。\n\n尽管案件的具体细节和宣传册的确切内容未在基础信息中详细展开，但如此重刑在涉及印刷品或信息载体的案件中较为罕见。分析指出，该判决可能对特定背景下的信息流通、跨境活动及相关法律的执行标准产生深远影响。\n\n此事件也促使公众与业界重新审视相关法律条款的边界，提醒相关参与者在从事信息传播或物资运输时，需充分评估潜在的法律风险与合规挑战。",
+    "category": "国际局势",
+    "tags": [
+      "法律判决",
+      "得克萨斯州",
+      "信息传播"
+    ],
+    "source": "Hacker News",
+    "time": "刚刚",
+    "ts": "2026-06-24T14:36:56.069027+00:00",
+    "url": "https://freedom.press/issues/texas-man-sentenced-to-30-years-for-transporting-pamphlets/",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "bafdaf05fd7ce87e",
+    "title": "台积电拟上调所有先进制程价格，英伟达苹果等成本将增",
+    "summary": "据报道，台积电计划提高占其晶圆业务74%的所有先进制程节点价格，英伟达、苹果等核心客户将面临成本上升。",
+    "body": "据外媒报道，台积电计划对其所有先进制程节点进行涨价。先进制程是台积电的核心收入来源，占其晶圆代工业务总营收的74%。此次调价意味着依赖先进制程的芯片设计巨头将承担更高的制造成本。\n\n英伟达、AMD、苹果和高通等科技巨头作为台积电的主要客户，将直接受到此次涨价的影响。随着人工智能和高性能计算需求的激增，先进制程产能持续紧缺，台积电凭借其在先进制程领域的绝对领先地位，拥有了更强的定价权。\n\n此次涨价不仅反映了先进制程研发和生产成本的不断攀升，也凸显了台积电在半导体供应链中的核心话语权。对于下游芯片设计公司而言，晶圆成本的增加可能会进一步传导至终端AI算力与消费电子产品市场。",
+    "category": "人工智能",
+    "tags": [
+      "台积电",
+      "先进制程",
+      "晶圆代工",
+      "半导体"
+    ],
+    "source": "Tom's Hardware",
+    "time": "刚刚",
+    "ts": "2026-06-24T14:36:56.024381+00:00",
+    "url": "https://www.tomshardware.com/tech-industry/semiconductors/tsmc-is-reportedly-hiking-prices-for-all-advanced-nodes-accounting-for-74-percent-of-the-companys-wafer-business-nvidia-amd-apple-qualcomm-and-others-will-face-higher-wafer-costs",
+    "image": "https://cdn.mos.cms.futurecdn.net/8zgJA77uoh59Cxe4w8tjBD-1280-80.jpg",
+    "stocks": [
+      {
+        "name": "台积电",
+        "ticker": "TSM",
+        "reason": "先进制程涨价将直接提升其毛利率与盈利能力，凸显其产业链定价权。",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "b9cd8363c6999235",
+    "title": "York卫星成功演示低轨双向UHF通信",
+    "summary": "York公司的卫星在低地球轨道成功完成双向特高频通信演示，验证了其星地数据传输能力。",
+    "body": "据SpaceNews报道，York公司的一颗卫星在低地球轨道成功演示了双向特高频（UHF）通信功能。此次测试验证了该卫星平台在轨通信的可靠性与数据交互能力。\n\nUHF频段广泛应用于军事、政府及商业物联网等领域。此次低轨双向通信的成功演示，展示了其卫星平台的技术成熟度，为未来低轨星座在窄带物联网、应急通信等场景的应用提供了技术支撑。\n\n随着低轨卫星网络的快速发展，高效的星地通信技术成为行业焦点。此次演示推动了商业航天在通信载荷与平台集成方面的技术进步，对低轨通信星座建设具有积极意义。",
+    "category": "商业航天",
+    "tags": [
+      "低轨卫星",
+      "UHF通信",
+      "商业航天"
+    ],
+    "source": "SpaceNews",
+    "time": "刚刚",
+    "ts": "2026-06-24T14:36:55.531827+00:00",
+    "url": "https://spacenews.com/york-satellite-demonstrates-two-way-uhf-communications-from-low-earth-orbit/",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "a0e5e2cb435da615",
+    "title": "Google Home音箱评测：Gemini时代的适度升级",
+    "summary": "Engadget评测了集成Gemini AI的Google Home音箱，认为其在AI时代带来了适度的体验更新。",
+    "body": "近日，Engadget对Google Home音箱进行了评测，探讨了其在Gemini人工智能时代的表现。评测指出，这款设备的更新幅度相对温和，主要侧重于将Gemini大模型能力融入现有的智能家居生态中。\n\n尽管硬件层面没有激进的颠覆，但Gemini的加入提升了语音交互的自然度与任务处理能力。这种适度的迭代策略表明，谷歌正稳步推进AI技术在消费级硬件中的落地，通过软件升级来优化用户体验并巩固生态壁垒。",
+    "category": "消费电子",
+    "tags": [
+      "Google",
+      "智能音箱",
+      "Gemini"
+    ],
+    "source": "Engadget",
+    "time": "刚刚",
+    "ts": "2026-06-24T14:36:47.805432+00:00",
+    "url": "https://www.engadget.com/2200116/google-home-speaker-review/",
+    "image": "https://www.engadget.com/img/gallery/google-home-speaker-review-a-modest-update-for-the-gemini-era/l-intro-1782242783.jpg",
+    "stocks": [
+      {
+        "name": "Alphabet",
+        "ticker": "GOOGL",
+        "reason": "Google Home音箱集成Gemini大模型，有助于提升其智能家居硬件竞争力及AI生态黏性。",
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
+    "id": "0f3ee78514d0f023",
+    "title": "Stripe、Anthropic与OpenAI支持抗击呼吸道感染",
+    "summary": "支付巨头Stripe与AI企业Anthropic、OpenAI共同宣布，支持一项旨在阻止呼吸道感染的新举措。",
+    "body": "支付科技公司Stripe与人工智能企业Anthropic及OpenAI近期宣布，共同支持一项旨在阻止呼吸道感染的举措。\n\n此次跨界合作显示了科技与支付领域的巨头正将资源延伸至公共卫生与医疗健康领域。尽管具体项目细节尚未完全披露，但此举有望为相关医疗研究或防疫工作提供重要支持，并彰显了科技企业在应对全球健康挑战中的积极作用。",
+    "category": "生物医药",
+    "tags": [
+      "医疗健康",
+      "人工智能",
+      "呼吸道感染"
+    ],
+    "source": "MIT Tech Review",
+    "time": "刚刚",
+    "ts": "2026-06-24T14:36:33.226179+00:00",
+    "url": "https://www.technologyreview.com/2026/06/24/1139621/stripe-anthropic-and-openai-are-backing-an-effort-to-stop-respiratory-infections/",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "72994f119947c29b",
+    "title": "三星990 Pro固态硬盘迎年内最低价促销",
+    "summary": "三星旗舰级990 Pro固态硬盘目前正在进行大幅打折促销，价格降至今年以来的最低水平。",
+    "body": "据外媒Wired报道，三星990 Pro固态硬盘近期迎来了大幅降价，其售价已跌至今年以来的最低点。对于有升级电脑存储或装机需求的消费者而言，这是一个极具性价比的入手时机。\n\n作为三星的旗舰级PCIe 4.0固态硬盘，990 Pro以其卓越的读写速度备受市场认可。此次价格下探不仅降低了高端存储设备的购买门槛，也反映出当前消费电子存储市场激烈的竞争态势。",
+    "category": "消费电子",
+    "tags": [
+      "三星",
+      "固态硬盘",
+      "消费电子",
+      "促销"
+    ],
+    "source": "Wired",
+    "time": "刚刚",
+    "ts": "2026-06-24T14:36:28.977650+00:00",
+    "url": "https://www.wired.com/story/the-best-prime-day-deal-on-memory-2026/",
+    "image": "https://media.wired.com/photos/669679425d2d61e4805c3177/master/pass/Lexar-128GB-Professional-2000x-SDXC-Memory-Card-Abstract-Background-SOURCE-Amazon.jpg",
+    "stocks": []
+  },
+  {
+    "id": "e1a783cba553c516",
+    "title": "白宫App自动安装至政府手机且无法卸载",
+    "summary": "美国政府官员的手机被强制自动下载一款白宫应用程序，且该应用无法被用户手动卸载。",
+    "body": "据报道，一款名为“白宫”的应用程序近期被发现会自动下载到美国政府官员的手机上。更引人关注的是，该应用程序在安装后无法被用户手动卸载，这一现象引发了关于政府设备管理权限及移动安全的广泛讨论。\n\n强制安装且不可卸载的应用程序通常用于政府或企业的移动设备管理（MDM）及安全监控，但也容易引发用户对设备控制权的担忧。目前相关机构尚未详细说明该应用的具体功能，但此举凸显了政府级移动设备在安全合规与用户体验之间的平衡难题。",
+    "category": "消费电子",
+    "tags": [
+      "白宫App",
+      "政府手机",
+      "移动安全",
+      "设备管理"
+    ],
+    "source": "Ars Technica",
+    "time": "刚刚",
+    "ts": "2026-06-24T14:36:23.769961+00:00",
+    "url": "https://arstechnica.com/tech-policy/2026/06/white-house-app-auto-downloads-to-government-phones-cant-be-uninstalled/",
+    "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/06/whitehouseapp-1086x648.png",
+    "stocks": []
+  },
+  {
+    "id": "67c5e425414e1ee8",
+    "title": "百度智能云发布千帆企业版，提供GLM-5.2等模型",
+    "summary": "百度智能云正式推出百度千帆Token Plan企业版，为企业提供包括GLM-5.2在内的多种大模型调用服务，助力企业级AI应用落地。",
+    "body": "近日，百度智能云正式发布了百度千帆Token Plan企业版。该版本旨在为企业级用户提供更全面、灵活的大模型调用与Token管理服务，进一步降低企业使用AI技术的门槛。\n\n据悉，此次发布的企业版平台提供了包括GLM-5.2在内的多种主流大模型。通过整合丰富的模型资源与完善的运营机制，百度千帆平台将有效助力企业加速智能化转型，推动大模型在各类商业场景中的深度应用。",
+    "category": "人工智能",
+    "tags": [
+      "百度智能云",
+      "大模型",
+      "千帆平台",
+      "企业级AI"
+    ],
+    "source": "量子位",
+    "time": "刚刚",
+    "ts": "2026-06-24T14:36:19.655540+00:00",
+    "url": "https://www.qbitai.com/2026/06/438174.html",
+    "image": "",
+    "stocks": [
+      {
+        "name": "百度",
+        "ticker": "BIDU",
+        "reason": "百度智能云母公司，千帆平台大模型服务的推出有望提升其云业务收入与市场份额。",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "de84b028573dfb67",
+    "title": "TechCrunch 2026创始人峰会门票优惠倒计时",
+    "summary": "TechCrunch 2026创始人峰会门票促销活动即将结束，参会者仍有三天时间可享受高达190美元的购票优惠。",
+    "body": "TechCrunch宣布其2026年创始人峰会的门票优惠活动进入最后倒计时，距离优惠结束仅剩3天时间。在此期间购票的参会者最高可享受190美元的折扣。\n\n作为科技与创投圈的重要盛会，该峰会汇聚了全球创业者与投资人。此次门票促销为希望参与前沿科技交流的从业者提供了更具性价比的参会机会，有助于促进行业内的创新与资源对接。",
+    "category": "人工智能",
+    "tags": [
+      "TechCrunch",
+      "创业者峰会",
+      "科技会议"
+    ],
+    "source": "TechCrunch",
+    "time": "刚刚",
+    "ts": "2026-06-24T14:36:18.655057+00:00",
+    "url": "https://techcrunch.com/2026/06/24/3-days-left-to-save-up-to-190-on-techcrunch-founder-summit-2026/",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "487e15b02da1d0cf",
+    "title": "早期人类180万年前已将火引入洞穴",
+    "summary": "最新考古研究表明，早期人类在180万年前就已掌握将火源带入洞穴的技术，大幅刷新了对古人类用火历史的认知。",
+    "body": "一项最新考古学研究指出，早期人类在距今约180万年前就已经开始将火带入洞穴中使用。这一发现大幅提前了人类控制和利用火源的时间线，展现了古人类在生存技能上的重大突破。\n\n研究团队通过对洞穴遗址的深入分析，确认了早期人类不仅能够在野外利用自然火，还能将其安全引入封闭的洞穴环境中。这表明古人类在认知能力、环境适应以及资源管理上达到了新的高度。\n\n这一发现对理解人类演化史具有重要意义。掌握洞穴用火技术不仅为早期人类提供了取暖和防御野兽的手段，还可能促进了熟食的发展，进而对人类大脑的进化和社交行为的演变产生了深远影响。",
+    "category": "生物医药",
+    "tags": [
+      "考古发现",
+      "人类演化",
+      "古人类学"
+    ],
+    "source": "ScienceDaily",
+    "time": "刚刚",
+    "ts": "2026-06-24T14:36:07.094950+00:00",
+    "url": "https://www.sciencedaily.com/releases/2026/06/260623083123.htm",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "075a966e81975674",
+    "title": "SpaceX增加数十亿美元债务同时削减利息支出",
+    "summary": "SpaceX在增加数十亿美元债务规模的同时，成功削减了利息支出，展现出高超的财务运作能力。",
+    "body": "据报道，SpaceX近期进行了一系列财务操作，在增加数十亿美元债务的同时，有效削减了整体的利息支出。马斯克此举被外界视为一场成功的“金融炼金术”。\n\n这种债务管理手段不仅优化了公司的债务结构，还显著降低了融资成本。此举有望为SpaceX未来的高昂研发和发射任务提供更稳健的财务支撑，进一步巩固其在商业航天领域的领先地位。",
+    "category": "商业航天",
+    "tags": [
+      "SpaceX",
+      "债务管理",
+      "商业航天"
+    ],
+    "source": "IT之家",
+    "time": "刚刚",
+    "ts": "2026-06-24T14:36:05.295368+00:00",
+    "url": "https://www.ithome.com/0/968/195.htm",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "bae153046c662c54",
+    "title": "留住女性医生或可缓解全科医疗压力",
+    "summary": "探讨指出，采取措施帮助女性医生留在医疗岗位，有望有效缓解全科医疗领域面临的压力。",
+    "body": "全科医疗领域目前面临较大压力，医生队伍的稳定性对缓解这一压力至关重要。相关探讨指出，帮助女性医生留在医疗岗位上是解决该问题的有效途径之一。\n\n通过关注并改善女性医生的职业发展环境，提升其留存率，可以为全科医疗系统提供更稳定的人才支持，从而有效减轻基层医疗服务的整体压力。",
+    "category": "生物医药",
+    "tags": [
+      "全科医疗",
+      "女性医生",
+      "医疗管理"
+    ],
+    "source": "MedicalXpress",
+    "time": "刚刚",
+    "ts": "2026-06-24T14:36:01.182514+00:00",
+    "url": "https://medicalxpress.com/news/2026-06-women-physicians-stay-ease-pressure.html",
+    "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/woman-health-provider.jpg",
+    "stocks": []
+  },
+  {
+    "id": "d45474ad757b3604",
+    "title": "三星P9存储卡限时六折，512GB售119美元",
+    "summary": "三星P9 microSD Express存储卡目前正在进行限时促销活动，512GB版本价格降至119美元，该存储卡可适配任天堂Switch 2。",
+    "body": "近日，三星旗下的P9 microSD Express存储卡开启了限时折扣活动。其中，512GB大容量版本的价格下调至119美元，为消费者提供了约40%的优惠幅度。\n\n这款存储卡支持microSD Express标准，具备更高的数据传输速度，非常适合对存储容量和读取速度有较高要求的游戏设备。报道指出，该存储卡能够适配任天堂即将推出的Switch 2游戏机。\n\n对于计划购买新一代Switch 2的玩家而言，此次促销提供了一个极具性价比的存储扩容方案。限时优惠不仅降低了玩家的硬件投入成本，也进一步推动了高性能存储卡在消费电子领域的普及。",
+    "category": "消费电子",
+    "tags": [
+      "三星",
+      "存储卡",
+      "任天堂",
+      "消费电子"
+    ],
+    "source": "Tom's Hardware",
+    "time": "刚刚",
+    "ts": "2026-06-24T14:36:01.147162+00:00",
+    "url": "https://www.tomshardware.com/pc-components/get-40-percent-off-samsungs-p9-microsd-express-card-for-nintendo-switch-2-512gb-of-storage-just-usd119-in-this-limited-time-deal",
+    "image": "https://cdn.mos.cms.futurecdn.net/vx3iHrMWE9p7QWvZBx8dmc-1280-80.png",
+    "stocks": []
+  },
+  {
+    "id": "430ece1b9efd0bfa",
+    "title": "人形机器人企业Agility拟借壳SPAC上市",
+    "summary": "知名人形机器人制造商Agility Robotics计划通过特殊目的收购公司（SPAC）合并方式实现上市。此举将为其后续研发与商业化扩张提供资金支持。",
+    "body": "据The Robot Report报道，人形机器人制造商Agility Robotics正计划通过SPAC合并的方式登陆资本市场。作为双足人形机器人领域的头部企业，Agility Robotics的上市计划备受业界关注。\n\n通过SPAC合并上市，公司能够更快速地获取资金，以支持其核心产品的量产、技术研发以及商业化落地。这也反映出资本市场对具身智能和人形机器人赛道商业化前景的持续看好。",
+    "category": "机器人",
+    "tags": [
+      "人形机器人",
+      "Agility Robotics",
+      "SPAC上市"
+    ],
+    "source": "The Robot Report",
+    "time": "刚刚",
+    "ts": "2026-06-24T14:35:45.804588+00:00",
+    "url": "https://www.therobotreport.com/humanoid-maker-agility-robotics-go-public-through-spac-merger/",
+    "image": "https://www.therobotreport.com/wp-content/uploads/2026/06/AgilityRobotics.031723-copy.jpg",
+    "stocks": []
+  },
+  {
+    "id": "89f884ca5f8739a7",
+    "title": "2026年Prime Day绿色促销：涵盖电动车与储能设备",
+    "summary": "亚马逊2026年Prime Day推出绿色环保产品促销，涵盖电动汽车、储能电站、电动工具及智能设备。",
+    "body": "近日，科技媒体Electrek盘点了2026年亚马逊Prime Day期间的绿色环保产品优惠活动。此次促销阵容丰富，重点聚焦于推动可持续生活方式的科技与硬件产品。\n\n活动涵盖了多个核心品类，包括电动汽车及相关配件、便携式储能电站、各类电动工具以及智能家居设备。这些绿色科技产品旨在为消费者提供更环保、高效的能源与出行解决方案。\n\n此类大型促销活动不仅有助于降低消费者获取绿色科技产品的门槛，也将进一步刺激清洁能源和智能硬件市场的消费需求，推动相关产业链的普及与发展。",
+    "category": "消费电子",
+    "tags": [
+      "Prime Day",
+      "绿色科技",
+      "储能设备",
+      "电动汽车"
+    ],
+    "source": "Electrek",
+    "time": "刚刚",
+    "ts": "2026-06-24T14:35:45.607362+00:00",
+    "url": "https://electrek.co/2026/06/24/prime-day-2026-green-deals-evs-power-stations-tools-smart-devices-and-much-more/",
+    "image": "",
+    "stocks": [
+      {
+        "name": "亚马逊",
+        "ticker": "AMZN",
+        "reason": "作为Prime Day主办方，大型促销活动有望带动平台商品交易总额及会员订阅收入增长。",
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
+    "id": "48881764a6e93097",
+    "title": "NASA探寻星际彗星3I/ATLAS起源",
+    "summary": "NASA发布每日太空照片，聚焦探寻星际彗星3I/ATLAS的起源与物理特征。",
+    "body": "美国宇航局（NASA）发布了2026年6月24日的“每日太空照片”，本次主题聚焦于星际彗星3I/ATLAS。科研团队正通过先进观测设备，致力于探寻这颗罕见星际天体的起源与演化历程。\n\n星际彗星为研究太阳系外的物质组成提供了宝贵的直接样本。对3I/ATLAS的深入观测不仅有助于揭示其母星系的特征，也将进一步深化人类对星际空间环境及天体物理过程的科学认知。",
+    "category": "商业航天",
+    "tags": [
+      "NASA",
+      "星际彗星",
+      "太空探索"
+    ],
+    "source": "Space.com",
+    "time": "刚刚",
+    "ts": "2026-06-24T14:35:45.018821+00:00",
+    "url": "https://www.space.com/astronomy/comets/nasa-looks-for-the-origins-of-interstellar-comet-3i-atlas-space-photo-of-the-day-for-june-24-2026",
+    "image": "https://cdn.mos.cms.futurecdn.net/npz7AA36BZ9sKRhoYanm9J-1280-80.png",
+    "stocks": []
+  },
+  {
+    "id": "1cbb7f8e7bd99939",
+    "title": "卢比奥就美伊协议细节安抚海湾盟国",
+    "summary": "美国政治人物卢比奥试图就美伊协议的具体细节向海湾地区盟国做出保证，以缓解其地缘安全担忧。",
+    "body": "据半岛电视台报道，美国政治人物卢比奥正试图就美伊协议的相关细节向海湾地区盟国做出保证与安抚。此举旨在沟通美国在与伊朗接触中的立场，以缓解海湾国家的地缘安全担忧。\n\n这一外交动向凸显了美国在中东地区平衡多方利益的考量。美伊协议的推进及海湾盟国的态度，将对中东地缘政治格局及区域稳定产生重要影响。",
+    "category": "国际局势",
+    "tags": [
+      "美伊关系",
+      "中东局势",
+      "地缘政治"
+    ],
+    "source": "Al Jazeera",
+    "time": "刚刚",
+    "ts": "2026-06-24T14:35:38.563547+00:00",
+    "url": "https://www.aljazeera.com/news/2026/6/24/rubio-tries-to-reassure-gulf-allies-on-us-iran-deal-details?traffic_source=rss",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "73864dbe116cca84",
+    "title": "Vast为商业空间站微重力研究签署新合作伙伴",
+    "summary": "Vast公司宣布为其商业空间站微重力研究项目引入更多合作伙伴，旨在推动太空科研与商业化发展。",
+    "body": "Vast公司近日宣布，已为其商业空间站的微重力研究项目签署了额外的合作伙伴。此举将进一步扩展其在太空科研领域的合作网络，提升项目的综合实力。\n\n通过引入更多合作伙伴，Vast旨在加速微重力环境下的科学实验与技术验证。这不仅有助于推动商业空间站的研发与运营进程，也将为未来的太空经济和相关科研应用奠定更坚实的基础。",
+    "category": "商业航天",
+    "tags": [
+      "商业航天",
+      "Vast",
+      "微重力研究",
+      "空间站"
+    ],
+    "source": "SpaceNews",
+    "time": "刚刚",
+    "ts": "2026-06-24T14:35:37.081764+00:00",
+    "url": "https://spacenews.com/vast-signs-additional-partners-for-commercial-space-station-microgravity-research/",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "c10c83e9c9fac35b",
+    "title": "极简设备Brick受关注：助你有效减少屏幕时间",
+    "summary": "科技媒体TechCrunch报道了一款名为Brick的设备，旨在帮助用户减少屏幕使用时间，倡导数字健康。",
+    "body": "近日，科技媒体TechCrunch关注到一款名为“Brick”的硬件设备，该产品主打帮助用户有效减少日常屏幕使用时间。在智能手机高度普及、人们普遍面临屏幕依赖困扰的当下，这类倡导数字健康的极简设备正逐渐进入大众视野。\n\n“Brick”通过限制传统智能设备的繁杂功能，引导用户降低对电子屏幕的依赖，回归现实生活。这种反其道而行之的硬件设计理念，反映了部分消费者对数字排毒和专注力提升的实际需求。\n\n从行业角度来看，尽管主流消费电子市场仍在追求功能叠加，但专注于细分场景和数字健康的极简电子产品正形成一股差异化趋势，为消费电子市场提供了新的发展思路。",
+    "category": "消费电子",
+    "tags": [
+      "消费电子",
+      "数字健康",
+      "极简设备"
+    ],
+    "source": "TechCrunch",
+    "time": "刚刚",
+    "ts": "2026-06-24T14:35:21.894955+00:00",
+    "url": "https://techcrunch.com/2026/06/24/if-you-want-to-cut-your-screen-time-just-get-a-brick/",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "d07392384d22e5f4",
+    "title": "奋进号航天飞机定于11月进行垂直展示",
+    "summary": "奋进号航天飞机计划于今年11月进行垂直竖立展示，向公众还原其在发射台上的宏伟姿态。",
+    "body": "根据Ars Technica报道，曾执行多次重要太空任务的奋进号航天飞机计划于今年11月进行一项特殊的“发射”任务，即进行垂直竖立展示。这一高耸展示项目旨在向公众直观还原航天飞机在发射台上的真实姿态。\n\n将庞大的航天飞机机体垂直竖立是一项复杂的工程挑战。通过这一极具视觉冲击力的展示方式，参观者能够以仰望的视角近距离感受这架传奇航天器的宏伟规模，从而进一步激发公众对航空航天探索历史的关注与热情。",
+    "category": "商业航天",
+    "tags": [
+      "奋进号",
+      "航天飞机",
+      "科普展览"
+    ],
+    "source": "Ars Technica",
+    "time": "刚刚",
+    "ts": "2026-06-24T14:35:21.001728+00:00",
+    "url": "https://arstechnica.com/space/2026/06/november-launch-set-for-space-shuttle-endeavours-towering-display/",
+    "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/06/news-062426a-lg-1152x648.jpg",
+    "stocks": []
+  },
+  {
+    "id": "ba1782d5c7083d16",
+    "title": "研究人员开发出新型折纸电路板技术",
+    "summary": "研究人员提出一种折纸电路板制造方法，为柔性电子和可穿戴设备提供了全新的三维硬件设计思路。",
+    "body": "近日，据IEEE Spectrum报道，研究人员提出了一种制造折纸电路板的新方法。该技术借鉴了传统折纸艺术的理念，将电路设计在可折叠的柔性基材上，使其能够通过折叠实现复杂的三维结构。\n\n这种折纸电路板技术为柔性电子、可穿戴设备以及微型机器人等领域提供了全新的硬件设计思路。它不仅能够大幅缩减电子设备的体积，还能提升其在复杂曲面或动态形变环境下的适应能力。\n\n该技术的突破有望推动下一代柔性电子元器件的发展，为智能医疗、物联网及新型消费电子产品的创新提供重要的底层硬件支持。",
+    "category": "消费电子",
+    "tags": [
+      "折纸电路板",
+      "柔性电子",
+      "可穿戴设备"
+    ],
+    "source": "IEEE Spectrum",
+    "time": "刚刚",
+    "ts": "2026-06-24T14:35:20.659044+00:00",
+    "url": "https://spectrum.ieee.org/origami-circuit-boards",
+    "image": "https://spectrum.ieee.org/media-library/a-selection-of-papercraft-objects-including-a-snowflake-with-leds-an-aeroplane-and-helicopter-with-lights-and-motorized-propel.png?id=66989986&width=980",
+    "stocks": []
+  },
+  {
+    "id": "5bab8fa55d58ffc6",
+    "title": "MIT科技评论推出工程专题特刊",
+    "summary": "《麻省理工科技评论》通过其专栏推出最新工程专题特刊，聚焦工程技术领域的前沿进展与深度分析。",
+    "body": "《麻省理工科技评论》（MIT Technology Review）通过其“The Download”栏目正式推出最新的工程专题特刊。该特刊旨在深入探讨当前工程技术领域的前沿趋势、核心议题以及创新实践。\n\n工程技术的进步是推动科技创新与产业发展的基石。此次专题的推出，不仅为读者提供了对复杂工程问题的深度解析，也展示了工程学在解决全球性挑战和推动未来技术发展中的关键作用，为行业从业者和科技爱好者提供了重要的参考视角。",
+    "category": "机器人",
+    "tags": [
+      "MIT科技评论",
+      "工程专题",
+      "科技前沿"
+    ],
+    "source": "MIT Tech Review",
+    "time": "刚刚",
+    "ts": "2026-06-24T14:35:17.938806+00:00",
+    "url": "https://www.technologyreview.com/2026/06/24/1139658/the-download-introducing-engineering-issue/",
+    "image": "https://wp.technologyreview.com/wp-content/uploads/2019/12/gamingaddictioneyesthumbnail-9.jpg?w=1000",
+    "stocks": []
+  },
+  {
+    "id": "d25141616ee20bf6",
+    "title": "无线充电比有线充电更耗电，原因揭秘",
+    "summary": "研究表明无线充电在能量传输过程中的损耗显著高于有线充电，导致其整体耗电量更大。",
+    "body": "无线充电技术虽然为用户带来了极大的便利，摆脱了线缆的束缚，但其在能源效率方面却存在明显劣势。相比传统的有线充电，无线充电在电能传输过程中会产生更多的能量损耗。\n\n这种能量浪费主要源于无线充电的工作原理。电磁感应在空气中传输能量时，不可避免地会产生热量散失和磁场泄漏，导致整体转换效率低于直接的物理线缆连接。\n\n随着无线充电设备的普及，这种额外的电力消耗在宏观层面上可能造成巨大的能源浪费。这提醒消费者和科技厂商在追求便利性的同时，也需关注充电技术的能效优化与环保影响。",
+    "category": "消费电子",
+    "tags": [
+      "无线充电",
+      "能源效率",
+      "消费电子"
+    ],
+    "source": "Engadget",
+    "time": "刚刚",
+    "ts": "2026-06-24T14:35:17.886084+00:00",
+    "url": "https://www.engadget.com/2200186/wireless-charging-wastes-electricity-why/",
+    "image": "https://www.engadget.com/img/gallery/wireless-charging-wastes-way-more-electricity-than-wired-heres-why/l-intro-1782244203.jpg",
+    "stocks": []
+  },
+  {
+    "id": "4f0e7fb0b5df568c",
+    "title": "笔记本价格居高不下，Prime Day推25款特惠机型",
+    "summary": "受内存、存储及零部件短缺影响，笔记本电脑价格近期普遍上涨。为此，亚马逊Prime Day精选了25款笔记本电脑优惠促销以缓解消费者购机压力。",
+    "body": "近期，受内存、存储设备以及核心零部件供应紧张的影响，笔记本电脑的价格出现明显上涨。不仅是上市数月的机型，部分在售超过一年的老款产品也未能幸免，价格均有所上调，同时许多新发布机型的定价也处于高位。\n\n面对居高不下的笔记本电脑价格，亚马逊在Prime Day期间推出了25款笔记本电脑的专属优惠。这些促销活动涵盖了多款机型，旨在通过折扣让利在一定程度上缓解消费者面临的购机成本压力，为近期有换机需求的用户提供了更具性价比的选择。",
+    "category": "消费电子",
+    "tags": [
+      "笔记本电脑",
+      "Prime Day",
+      "消费电子",
+      "硬件涨价"
+    ],
+    "source": "The Verge",
+    "time": "2分钟前",
+    "ts": "2026-06-24T10:32:25-04:00",
+    "url": "https://www.theverge.com/gadgets/951105/prime-day-laptop-keyboards-mice-accessories-deal-sale",
+    "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/03/268408_Apple_MacBook_Air_15_M5_laptop_ADiBenedetto_0020.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100",
+    "stocks": []
+  },
+  {
+    "id": "1d71b5cdb4f3baa8",
+    "title": "飞利浦Hue智能灯泡迎连接升级：将同时支持Zigbee与Thread",
+    "summary": "飞利浦Hue宣布为其智能灯泡推出连接性升级，最新产品将能够同时运行Zigbee和Thread协议，以提升智能家居生态兼容性。",
+    "body": "飞利浦Hue近日宣布对其智能照明产品线进行重要的连接性升级。此次升级主要针对其支持Matter-over-Thread标准的智能灯泡，旨在进一步提升设备的兼容性与网络连接体验。\n\n根据公布的信息，Hue最新推出的智能灯泡将具备同时运行Zigbee和Thread两种协议的能力。这一改进打破了以往单一协议的限制，使得智能灯泡能够更无缝地融入不同品牌的智能家居生态系统中，进一步优化了用户的跨平台智能家居体验。",
+    "category": "消费电子",
+    "tags": [
+      "飞利浦Hue",
+      "智能家居",
+      "Matter协议",
+      "智能照明"
+    ],
+    "source": "The Verge",
+    "time": "28分钟前",
+    "ts": "2026-06-24T10:06:10-04:00",
+    "url": "https://www.theverge.com/tech/955767/philips-hue-thread-matter-zigbee-update-silicon-labs",
+    "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/09/8A0A4076.jpeg?quality=90&#038;strip=all&#038;crop=0,0,100,100",
+    "stocks": []
+  },
+  {
     "id": "b7c0a67a0963f0d9",
     "title": "2026年亚马逊Prime Day最佳耳机促销盘点",
     "summary": "科技媒体Wired盘点了2026年亚马逊Prime Day期间的最佳耳机优惠，为消费者提供音频设备选购指南。",
@@ -40422,6 +41443,6 @@ const newsData = [
   }
 ];
 const newsDigest = {
-  "text": "今日科技聚焦AI算力与机器人商业化。英伟达A100黑市暴涨凸显算力紧缺，利好AI算力产业链；宇树机器人降价加速具身智能普及；华为鸿蒙生态持续迭代。此外，法国确诊首例埃博拉引发公卫警惕。",
+  "text": "今日聚焦AI基建安全、平价新能源及协作机器人创新。太阳风暴威胁算力与美政府施压Meta，利好AI数据中心与合规标的；Slate推平价电动皮卡及Mantis发布双臂机器人，利好新能源与机器人零部件企业。",
   "highlights": []
 };
