@@ -1,5 +1,1049 @@
 const newsData = [
   {
+    "id": "b7c0a67a0963f0d9",
+    "title": "2026年亚马逊Prime Day最佳耳机促销盘点",
+    "summary": "科技媒体Wired盘点了2026年亚马逊Prime Day期间的最佳耳机优惠，为消费者提供音频设备选购指南。",
+    "body": "知名科技媒体Wired近日发布了2026年亚马逊Prime Day期间的最佳耳机促销指南。文章针对市场上热门的耳机产品进行了梳理，帮助消费者在庞大的促销活动中筛选出最具性价比的音频设备。\n\nPrime Day作为亚马逊年度最大的促销活动之一，通常会带来包括降噪耳机、运动耳机及真无线耳机在内的多款音频产品的大幅折扣。此类导购文章不仅反映了消费者对高品质音频设备的需求，也体现了电商平台在消费电子领域的强大带货能力。\n\n对于消费者而言，参考专业媒体的促销盘点能够有效降低决策成本；而对于相关硬件厂商和电商平台来说，Prime Day的集中爆发也是提振销售业绩的重要契机。",
+    "category": "消费电子",
+    "tags": [
+      "亚马逊",
+      "Prime Day",
+      "耳机",
+      "消费电子"
+    ],
+    "source": "Wired",
+    "time": "刚刚",
+    "ts": "2026-06-24T11:51:02.263076+00:00",
+    "url": "https://www.wired.com/story/best-prime-day-headphone-deals-06-24-2026/",
+    "image": "https://media.wired.com/photos/6a39c6009d6ce4c64a7952e7/master/pass/The-Best-Amazon-Prime-Day-Deals-on-Headphones.jpg",
+    "stocks": [
+      {
+        "name": "亚马逊",
+        "ticker": "AMZN",
+        "reason": "Prime Day活动直接带动平台消费电子销量及会员订阅增长",
+        "confidence": "high"
+      },
+      {
+        "name": "苹果",
+        "ticker": "AAPL",
+        "reason": "AirPods等音频产品通常是Prime Day热销品类，促销有助于提振硬件销量",
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
+    "id": "7d560f6722def5ee",
+    "title": "宇树科技R1机器人直降1万元，2.99万元起现货开售",
+    "summary": "宇树科技宣布旗下R1机器人大幅降价1万元，起售价降至2.99万元，并同步开启现货销售。",
+    "body": "宇树科技近日宣布，旗下R1机器人产品价格直降1万元，最新起售价调整为2.99万元，并已同步开启现货开售。此次大幅降价显著降低了该产品的购买门槛，展现出公司在成本控制与规模化量产方面的优势。\n\n现货开售表明宇树科技在R1机器人的供应链管理和产能交付上已趋于成熟。此举不仅有助于加速该产品在科研、教育及消费市场的普及，也将进一步推动机器人行业的商业化落地与市场竞争。",
+    "category": "机器人",
+    "tags": [
+      "宇树科技",
+      "R1机器人",
+      "降价促销",
+      "现货交付"
+    ],
+    "source": "IT之家",
+    "time": "刚刚",
+    "ts": "2026-06-24T11:50:58.404723+00:00",
+    "url": "https://www.ithome.com/0/968/145.htm",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "f3824a135a1b437f",
+    "title": "Wired盘点2026年Prime Day运动相机优惠",
+    "summary": "科技媒体Wired盘点了2026年亚马逊Prime Day期间值得关注的运动相机优惠，主要涵盖GoPro、Insta360和大疆等主流品牌。",
+    "body": "据Wired报道，2026年亚马逊Prime Day活动期间，多款热门运动相机迎来了促销优惠。此次盘点主要聚焦于市场上最具代表性的三大品牌：GoPro、Insta360（影石）以及大疆（DJI）。\n\n运动相机市场近年来竞争日益激烈，各大品牌在防抖技术、全景拍摄及便携性上不断推陈出新。Prime Day作为年度重要的促销节点，为消费者提供了以更优价格购入最新或经典款运动相机的机会，同时也将进一步刺激相关消费电子产品的市场需求。",
+    "category": "消费电子",
+    "tags": [
+      "Prime Day",
+      "运动相机",
+      "GoPro",
+      "大疆"
+    ],
+    "source": "Wired",
+    "time": "刚刚",
+    "ts": "2026-06-24T11:50:55.166859+00:00",
+    "url": "https://www.wired.com/story/prime-day-camera-deals-06-24-2026/",
+    "image": "https://media.wired.com/photos/68b0b3aaaabb24a7fecf68ff/master/pass/Take%20$150%20off%20our%20Favorite%20GoPro.png",
+    "stocks": [
+      {
+        "name": "GoPro",
+        "ticker": "GPRO",
+        "reason": "作为全球知名运动相机品牌，直接受益于Prime Day促销活动带来的销量提振。",
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
+    "id": "e90526f23895fae0",
+    "title": "四名加沙援助船队活动人士在利比亚获释",
+    "summary": "据半岛电视台报道，四名参与加沙援助船队的活动人士已结束在利比亚的拘留并获释。",
+    "body": "据半岛电视台消息，四名参与加沙援助船队的活动人士已从利比亚的拘留中获释。此前，这些活动人士因参与向加沙地带运送人道主义援助物资的相关行动而在利比亚遭到扣留。\n\n此次获释事件引发了国际社会对加沙人道主义危机及援助通道受阻问题的持续关注。分析指出，复杂的地缘政治局势依然对国际人道主义救援行动构成深远影响。",
+    "category": "国际局势",
+    "tags": [
+      "加沙援助",
+      "利比亚",
+      "国际局势",
+      "人道主义"
+    ],
+    "source": "Al Jazeera",
+    "time": "刚刚",
+    "ts": "2026-06-24T11:50:52.369346+00:00",
+    "url": "https://www.aljazeera.com/news/2026/6/24/four-gaza-aid-flotilla-activists-released-from-libya-detention?traffic_source=rss",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "d1f54a1ff9dcb108",
+    "title": "Netgear促销Wi-Fi 7设备 最高享33%折扣",
+    "summary": "网络设备制造商Netgear在Prime Day期间推出Wi-Fi 7设备促销活动，涵盖路由器、Mesh系统及扩展器，最高折扣达33%。",
+    "body": "知名网络设备品牌Netgear借势Prime Day购物节，针对旗下Wi-Fi 7系列产品推出了大幅度的优惠活动。此次促销涵盖了Wi-Fi 7路由器、Mesh网状网络系统以及信号扩展器等核心网络设备，最高折扣幅度达到33%。\n\n随着Wi-Fi 7标准的逐步普及，相关硬件设备的市场需求正在升温。Netgear此次通过大幅降价策略，不仅有助于加速Wi-Fi 7技术在家庭用户中的渗透，也将进一步提升其在高端网络设备市场的份额与竞争力。",
+    "category": "消费电子",
+    "tags": [
+      "Netgear",
+      "Wi-Fi 7",
+      "Prime Day",
+      "路由器"
+    ],
+    "source": "Tom's Hardware",
+    "time": "刚刚",
+    "ts": "2026-06-24T11:50:42.681963+00:00",
+    "url": "https://www.tomshardware.com/networking/routers/netgear-rolls-out-stellar-prime-day-deals-on-wi-fi-7-gear-up-to-33-percent-off-for-routers-mesh-systems-and-range-extenders",
+    "image": "https://cdn.mos.cms.futurecdn.net/5h87V9jzGBF6PzpWcx46hQ-1280-80.jpg",
+    "stocks": [
+      {
+        "name": "Netgear",
+        "ticker": "NTGR",
+        "reason": "作为Wi-Fi 7设备制造商，Prime Day大促有望直接带动其产品销量与短期营收增长。",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "2ccc2a9d91c3629b",
+    "title": "法国确诊首例埃博拉病例",
+    "summary": "法国官方确认该国出现首例埃博拉确诊病例，引发公共卫生领域的高度关注。",
+    "body": "法国卫生部门近日确认，该国出现了首例埃博拉病毒感染病例。这是埃博拉病毒首次在法国被确诊，引起了当地医疗和公共卫生系统的高度警惕。\n\n此次病例的确诊凸显了全球传染病防控的复杂性。相关部门预计将迅速启动应急响应机制，开展流行病学调查与密切接触者追踪以防止病毒传播，这也可能进一步提升市场对防疫物资及相关抗病毒药物的关注。",
+    "category": "生物医药",
+    "tags": [
+      "埃博拉",
+      "公共卫生",
+      "传染病",
+      "法国"
+    ],
+    "source": "BBC World",
+    "time": "刚刚",
+    "ts": "2026-06-24T11:50:39.088734+00:00",
+    "url": "https://www.bbc.co.uk/news/articles/cj9gzr9rdjlo?at_medium=RSS&at_campaign=rss",
+    "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c26d/live/6fcbfc90-6fb1-11f1-b1db-af71d47507d6.jpg",
+    "stocks": []
+  },
+  {
+    "id": "21d3742fc3ea2130",
+    "title": "美团副总裁回应大众点评好评泛滥：团队已深刻反思",
+    "summary": "针对外界关于大众点评“好评泛滥、数据不准”的质疑，美团副总裁陶雪璇回应称团队已深刻反思。",
+    "body": "针对外界关于大众点评“好评泛滥、数据不准”的质疑，美团副总裁陶雪璇近日作出公开回应，表示团队已对此进行深刻反思。\n\n大众点评作为美团旗下的核心本地生活消费决策平台，其评价体系的真实性直接影响用户体验与平台公信力。高管的正面回应表明公司正视内容生态存在的问题。\n\n此举意味着美团后续有望加大对平台评价机制的治理力度，优化数据准确性。长期来看，这有助于维护消费者权益，促进本地生活业务的良性与健康发展。",
+    "category": "消费电子",
+    "tags": [
+      "美团",
+      "大众点评",
+      "平台治理"
+    ],
+    "source": "IT之家",
+    "time": "刚刚",
+    "ts": "2026-06-24T11:50:34.328994+00:00",
+    "url": "https://www.ithome.com/0/968/146.htm",
+    "image": "",
+    "stocks": [
+      {
+        "name": "美团",
+        "ticker": "3690.HK",
+        "reason": "大众点评为美团核心业务，积极整改评价机制有助于长期提升平台公信力与用户体验。",
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
+    "id": "e985ac1eaa4222ab",
+    "title": "打击走私致英伟达A100黑市价格暴涨三倍",
+    "summary": "受走私打击及海关冻结影响，中国市场英伟达芯片黑市价格飙升，五年前的A100服务器价格翻三倍至8.2万美元。",
+    "body": "近日，随着相关部门加大对走私行为的打击力度以及海关冻结措施的实施，国内英伟达（Nvidia）芯片的黑市价格出现大幅飙升。供需失衡导致高端AI算力硬件在灰色市场的溢价显著扩大。\n\n据报道，即便是发布已有五年的A100服务器，其黑市价格也已翻了三倍，目前单台售价最高可达8.2万美元。这一现象凸显了国内人工智能产业对高性能算力芯片的强劲需求，以及在正规渠道获取受限背景下的供给短缺。\n\n高端AI芯片获取难度的增加和成本的急剧上升，将进一步倒逼国内科技企业加速算力基础设施的国产化进程，为本土AI芯片及算力服务器厂商带来更大的市场空间与发展机遇。",
+    "category": "人工智能",
+    "tags": [
+      "英伟达",
+      "AI芯片",
+      "国产替代",
+      "算力"
+    ],
+    "source": "Tom's Hardware",
+    "time": "刚刚",
+    "ts": "2026-06-24T11:50:30.406292+00:00",
+    "url": "https://www.tomshardware.com/pc-components/gpu-drivers/five-year-old-nvidia-a100-servers-triple-in-price-in-china",
+    "image": "https://cdn.mos.cms.futurecdn.net/2Mu9zo58bjnNith76bmxng-1280-80.jpg",
+    "stocks": [
+      {
+        "name": "寒武纪",
+        "ticker": "688256.SH",
+        "reason": "海外高端AI芯片获取受限且黑市价格暴涨，加速国内客户转向国产AI算力芯片。",
+        "confidence": "high"
+      },
+      {
+        "name": "海光信息",
+        "ticker": "688041.SH",
+        "reason": "英伟达芯片供给短缺及成本飙升，利好国产高端处理器及协处理器厂商的市场份额提升。",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "7cf11bbe3c963a28",
+    "title": "华为MatePad Mini获鸿蒙更新 新增智感握姿接听",
+    "summary": "华为MatePad Mini平板推送鸿蒙6.1.0.125 SP20版本更新，新增智感握姿接听及个性化待机屏保等功能，进一步提升用户体验。",
+    "body": "近日，华为MatePad Mini平板电脑迎来了HarmonyOS 6.1.0.125 SP20版本的系统更新。此次升级主要聚焦于交互体验与个性化设置的优化，为用户带来更加便捷和智能的使用感受。\n\n在具体功能方面，新版本新增了“智感握姿接听”功能，用户在握持设备时可通过特定姿势直接接听电话，提升了操作的流畅度。同时，更新还加入了个性化待机屏保功能，允许用户根据个人喜好自定义设备待机时的显示画面。\n\n此次系统迭代体现了华为在鸿蒙生态上的持续深耕，通过不断细化智能终端的交互细节，进一步增强了旗下平板产品的市场竞争力与用户粘性。",
+    "category": "消费电子",
+    "tags": [
+      "华为",
+      "鸿蒙系统",
+      "平板电脑"
+    ],
+    "source": "IT之家",
+    "time": "刚刚",
+    "ts": "2026-06-24T11:50:21.300432+00:00",
+    "url": "https://www.ithome.com/0/968/147.htm",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "a74869c2247574fc",
+    "title": "2026年Prime Day最佳Mesh路由器限时优惠145美元",
+    "summary": "知名科技媒体Wired推荐了2026年亚马逊Prime Day期间的最佳Mesh路由器，该产品目前提供145美元的折扣优惠。",
+    "body": "近日，知名科技媒体Wired发布了2026年亚马逊Prime Day的购物指南，重点推荐了一款被评为“最佳”的Mesh路由器。据悉，该路由器在活动期间迎来了大幅降价，消费者可享受高达145美元的折扣优惠。\n\nMesh路由器因其出色的全屋Wi-Fi覆盖能力和无缝漫游体验，已成为现代家庭和智能设备的网络首选。此次Prime Day的大幅促销，不仅为消费者升级家庭网络提供了高性价比的选择，也反映出消费电子产品在大型电商促销节点中的激烈竞争与让利趋势。",
+    "category": "消费电子",
+    "tags": [
+      "Mesh路由器",
+      "Prime Day",
+      "消费电子",
+      "智能家居"
+    ],
+    "source": "Wired",
+    "time": "刚刚",
+    "ts": "2026-06-24T11:50:17.547651+00:00",
+    "url": "https://www.wired.com/story/amazon-prime-day-router-deals-06-24-2026/",
+    "image": "https://media.wired.com/photos/6923cb457986ae64be5848c8/master/pass/Unmissable%20Black%20Friday%20Netgear%20Mesh%20Router%20Deals.png",
+    "stocks": []
+  },
+  {
+    "id": "74f45927772a5611",
+    "title": "乌军袭击致克里米亚关键城市断电",
+    "summary": "乌克兰对俄罗斯控制的克里米亚地区发动袭击，导致当地关键城市电力供应中断。",
+    "body": "据BBC报道，乌克兰军队对俄罗斯占领的克里米亚半岛发动了袭击。此次打击直接导致该地区一座关键城市的电力供应被切断，对当地基础设施造成显著影响。\n\n这一事件凸显了乌克兰针对俄控区关键基础设施的持续打击行动。电力中断不仅影响当地居民的正常生活，也可能对俄罗斯在克里米亚的军事后勤与防御部署产生干扰作用。",
+    "category": "国际局势",
+    "tags": [
+      "克里米亚",
+      "俄乌冲突",
+      "地缘政治"
+    ],
+    "source": "BBC World",
+    "time": "刚刚",
+    "ts": "2026-06-24T11:50:16.926157+00:00",
+    "url": "https://www.bbc.co.uk/news/articles/c3ryv72pjqno?at_medium=RSS&at_campaign=rss",
+    "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e1c3/live/249bb360-6fba-11f1-8546-8f19e4fe30f4.jpg",
+    "stocks": []
+  },
+  {
+    "id": "4a973b53a7a9c6b3",
+    "title": "乌军袭击克里米亚致塞瓦斯托波尔停电",
+    "summary": "乌克兰对俄罗斯控制的克里米亚地区发动袭击，导致塞瓦斯托波尔市出现电力中断。",
+    "body": "据半岛电视台报道，乌克兰对俄罗斯控制的克里米亚地区发动袭击，导致塞瓦斯托波尔市出现电力中断。\n\n此次袭击直接影响了当地的基础设施运行，造成停电现象。这不仅对当地居民的正常生活造成冲击，也凸显了冲突双方在能源与基础设施领域的激烈博弈，进一步加剧了该地区的地缘紧张局势。",
+    "category": "国际局势",
+    "tags": [
+      "俄乌冲突",
+      "克里米亚",
+      "地缘政治"
+    ],
+    "source": "Al Jazeera",
+    "time": "刚刚",
+    "ts": "2026-06-24T11:50:15.533726+00:00",
+    "url": "https://www.aljazeera.com/news/2026/6/24/ukraine-attacks-on-russian-occupied-crimea-trigger-power-cuts-in-sevastopol?traffic_source=rss",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "72ded6c4ef1dae42",
+    "title": "热浪期间如何防暑降温及应对中暑",
+    "summary": "半岛电视台发布健康指南，介绍在热浪等极端高温天气下如何保持凉爽及正确治疗中暑。",
+    "body": "半岛电视台发布了关于热浪期间防暑降温与中暑治疗的科普指南。文章旨在为公众提供应对极端高温天气的实用建议，指导人们如何在热浪中采取有效措施保持凉爽。\n\n同时，该指南详细说明了中暑的识别与正确处理方法。在极端高温频发的背景下，普及此类健康防护知识对保障公众生命安全、降低高温引发的健康风险具有重要指导意义。",
+    "category": "生物医药",
+    "tags": [
+      "防暑降温",
+      "中暑急救",
+      "健康科普"
+    ],
+    "source": "Al Jazeera",
+    "time": "刚刚",
+    "ts": "2026-06-24T11:50:01.408157+00:00",
+    "url": "https://www.aljazeera.com/news/2026/6/24/how-to-stay-cool-and-treat-heatstroke-during-a-heatwave?traffic_source=rss",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "c00e9aafa1d941ea",
+    "title": "明基4100i投影仪评测：将影院级体验带入客厅",
+    "summary": "《连线》杂志对明基4100i投影仪进行了评测，认为其能为家庭客厅提供出色的影院级视听体验。",
+    "body": "科技媒体《连线》（Wired）近日发布了对明基（BenQ）4100i投影仪的详细评测。该评测重点探讨了这款设备如何打破传统家庭娱乐的局限，将专业影院级的视觉体验直接引入用户的客厅环境。\n\n随着家庭影院技术的不断演进，高性能投影仪正逐渐成为高端消费电子市场的重要组成部分。明基4100i凭借其在画质和沉浸式体验上的表现，展示了现代投影设备在提升家庭娱乐品质方面的巨大潜力，也为消费者升级居家视听设备提供了重要参考。",
+    "category": "消费电子",
+    "tags": [
+      "明基",
+      "投影仪",
+      "家庭影院"
+    ],
+    "source": "Wired",
+    "time": "刚刚",
+    "ts": "2026-06-24T11:49:57.984250+00:00",
+    "url": "https://www.wired.com/review/review-benq-w4100i-projector/",
+    "image": "https://media.wired.com/photos/6a3b0c452e97bc3be49b8d04/master/pass/Review--BenQ-W4100i-Projector.jpg",
+    "stocks": []
+  },
+  {
+    "id": "2f11799893740772",
+    "title": "亚马逊Prime Day OLED游戏显示器最高降价47%",
+    "summary": "亚马逊Prime Day活动期间，多款OLED游戏显示器迎来大幅促销，最高折扣可达47%。",
+    "body": "在近期的亚马逊Prime Day促销活动中，多款高性能OLED游戏显示器迎来大幅降价，部分热门型号折扣力度最高可达47%，显著降低了高端电竞设备的入手门槛。\n\n此次大促涵盖了市场上多款备受好评的OLED显示器，为追求极致画质与高刷新率的游戏玩家提供了绝佳的升级时机。\n\n随着OLED技术在消费电子领域的加速普及，相关产品价格正逐渐下探。此次集中促销不仅反映了市场竞争的加剧，也将进一步推动OLED显示器在高端游戏市场的渗透。",
+    "category": "消费电子",
+    "tags": [
+      "OLED显示器",
+      "亚马逊Prime Day",
+      "游戏外设"
+    ],
+    "source": "Tom's Hardware",
+    "time": "刚刚",
+    "ts": "2026-06-24T11:49:57.255891+00:00",
+    "url": "https://www.tomshardware.com/monitors/gaming-monitors/here-are-the-best-oled-gaming-monitor-deals-you-can-snag-for-amazon-prime-day-beautiful-monitors-up-to-47-percent-off",
+    "image": "https://cdn.mos.cms.futurecdn.net/ZFdju9BohLaFiNSyceB386-1280-80.jpg",
+    "stocks": []
+  },
+  {
+    "id": "b004a756166f78ab",
+    "title": "发现结核病早期免疫线索，有望实现早期干预",
+    "summary": "研究人员发现了决定个体是否发展为结核病的早期免疫线索。这一发现有望为结核病的早期干预和阻断提供全新策略。",
+    "body": "结核病（TB）的发病机制和个体易感性一直是医学界关注的重点。最新研究指出，科学家已经识别出能够决定个体是否会发展为活动性结核病的早期免疫系统线索。\n\n这些早期免疫标志物的发现具有重要的临床转化意义。通过识别这些关键线索，医疗人员有望在疾病全面爆发前进行精准评估，从而为结核病的早期干预和有效阻断开辟全新的预防与治疗途径。",
+    "category": "生物医药",
+    "tags": [
+      "结核病",
+      "免疫学",
+      "早期干预"
+    ],
+    "source": "MedicalXpress",
+    "time": "刚刚",
+    "ts": "2026-06-24T11:49:56.660252+00:00",
+    "url": "https://medicalxpress.com/news/2026-06-early-immune-clues-tb-ways.html",
+    "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/early-immune-clues-tha.jpg",
+    "stocks": []
+  },
+  {
+    "id": "bf5a750665647077",
+    "title": "剧版《三体》原班人马回归，《三体·大史》官宣",
+    "summary": "电视剧《三体·大史》正式官宣，剧版《三体》原班人马回归出演，继续拓展三体IP的影视化版图。",
+    "body": "近日，电视剧《三体·大史》正式官宣，该剧将由剧版《三体》的原班人马回归打造。作为《三体》IP的衍生剧集，《大史》将聚焦于深受观众喜爱的角色史强，进一步丰富和拓展三体宇宙的影视化内容。\n\n此次原班人马的回归，不仅保证了剧集制作水准和角色塑造的连贯性，也展现了出品方对《三体》IP长线开发的决心。随着《三体》系列影视作品的不断推进，该科幻IP的商业价值和文化影响力有望得到进一步提升。",
+    "category": "消费电子",
+    "tags": [
+      "三体",
+      "影视IP",
+      "科幻"
+    ],
+    "source": "IT之家",
+    "time": "刚刚",
+    "ts": "2026-06-24T11:49:54.985768+00:00",
+    "url": "https://www.ithome.com/0/968/149.htm",
+    "image": "",
+    "stocks": [
+      {
+        "name": "游族网络",
+        "ticker": "002174.SZ",
+        "reason": "公司拥有《三体》IP的游戏及衍生开发权，IP热度提升有助于其相关业务的商业化变现。",
+        "confidence": "high"
+      },
+      {
+        "name": "腾讯控股",
+        "ticker": "0700.HK",
+        "reason": "作为剧版《三体》的主要出品方和播出平台，优质IP剧集的持续开发将巩固其长视频内容优势。",
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
+    "id": "6a4259542718d53c",
+    "title": "法国确诊首例输入性埃博拉病例",
+    "summary": "法国卫生部门确认一名从刚果民主共和国返回的医生感染埃博拉病毒，系该国首例相关病例。",
+    "body": "法国官方证实，一名从刚果民主共和国返回的医生被确诊感染埃博拉病毒，成为法国首例埃博拉病例。目前该患者已接受隔离治疗，卫生部门正紧急开展接触者追踪与流行病学调查。\n\n此次输入性病例的出现引发了公共卫生领域的关注，促使相关机构加强边境检疫与传染病监测。这也再次凸显了全球在应对高致病性传染病时，完善防控体系与快速响应机制的重要性。",
+    "category": "生物医药",
+    "tags": [
+      "埃博拉",
+      "公共卫生",
+      "传染病防控"
+    ],
+    "source": "Al Jazeera",
+    "time": "刚刚",
+    "ts": "2026-06-24T11:49:36.339117+00:00",
+    "url": "https://www.aljazeera.com/news/2026/6/24/france-confirms-first-ebola-case-in-doctor-returning-from-dr-congo?traffic_source=rss",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "f452558f3ad1f66e",
+    "title": "Bunny宣布DNS服务全面免费，助力构建更快互联网",
+    "summary": "云服务商Bunny宣布将其DNS服务向所有用户免费开放，旨在降低网络基础设施成本并推动互联网提速。",
+    "body": "近日，云服务和内容分发网络提供商Bunny宣布，将其旗下的Bunny DNS服务全面免费开放。此举旨在降低开发者和企业在域名解析等基础网络设施上的成本，进一步优化全球互联网的访问体验。\n\nBunny方面表示，“更快的互联网不会自己建立起来”，免费开放DNS服务是其推动互联网基础设施普及的重要举措。通过提供高性能、低延迟的免费DNS解析服务，Bunny希望吸引更多开发者融入其生态系统，从而在整体上提升网络应用和网站的响应速度。\n\n这一策略不仅为中小型企业和独立开发者带来了显著的成本优势，也反映出云服务市场在基础网络层面的竞争日益激烈。基础服务的免费化正成为云厂商吸引流量、构建开发者生态的关键手段。",
+    "category": "消费电子",
+    "tags": [
+      "Bunny DNS",
+      "网络基础设施",
+      "CDN",
+      "云服务"
+    ],
+    "source": "Hacker News",
+    "time": "刚刚",
+    "ts": "2026-06-24T11:49:36.186768+00:00",
+    "url": "https://bunny.net/blog/were-making-bunny-dns-free/",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "3164ba1e2ac335cd",
+    "title": "母亲心脏健康良好可降低婴儿发育迟缓风险",
+    "summary": "最新医学研究表明，母亲在孕期保持良好的心脏健康，能够显著降低婴儿出现发育迟缓的风险。",
+    "body": "近日，MedicalXpress报道了一项关于母婴健康的医学研究。研究指出，母亲的心脏健康状况与婴儿的发育情况密切相关，拥有良好心血管健康的孕妇，其后代出现发育迟缓的概率更低。\n\n这一发现强调了孕期心血管健康管理的重要性。准妈妈在怀孕期间注重心脏健康，维持良好的心血管功能，对胎儿的健康发育具有积极的保护作用。\n\n该研究不仅为预防婴儿发育迟缓提供了新的干预视角，也进一步凸显了孕产妇整体健康对胎儿长远发育的深远影响。",
+    "category": "生物医药",
+    "tags": [
+      "母婴健康",
+      "心血管",
+      "发育迟缓"
+    ],
+    "source": "MedicalXpress",
+    "time": "刚刚",
+    "ts": "2026-06-24T11:49:35.418443+00:00",
+    "url": "https://medicalxpress.com/news/2026-06-mom-good-heart-health-lowers.html",
+    "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/moms-good-heart-health.jpg",
+    "stocks": []
+  },
+  {
+    "id": "d67c0a7958ab7071",
+    "title": "联想6月大促最高享53%折扣，ThinkPad及拯救者全系参与",
+    "summary": "联想开启6月年中大促活动，全站产品最高可享53%的折扣，涵盖ThinkPad、拯救者等多个热门系列。",
+    "body": "近日，联想推出了“6月黑色星期五”大型促销活动，为消费者提供全站范围的折扣优惠，部分产品最高可享受53%的价格减免。\n\n此次促销覆盖了联想旗下的多条核心产品线，包括主打商务办公的ThinkPad系列以及面向游戏玩家的Legion（拯救者）系列等。\n\n此类大规模年中促销活动有助于刺激消费需求，提升终端产品销量，进一步巩固联想在全球PC及消费电子市场的竞争地位。",
+    "category": "消费电子",
+    "tags": [
+      "联想",
+      "促销活动",
+      "笔记本电脑",
+      "消费电子"
+    ],
+    "source": "Tom's Hardware",
+    "time": "刚刚",
+    "ts": "2026-06-24T11:49:33.319551+00:00",
+    "url": "https://www.tomshardware.com/laptops/save-up-to-53-percent-on-lenovos-black-friday-in-june-sale-sitewide-discounts-on-thinkpads-legions-and-more",
+    "image": "https://cdn.mos.cms.futurecdn.net/pV8hjcsxU8gJyCYbJNYz3P-1280-80.jpg",
+    "stocks": [
+      {
+        "name": "联想集团",
+        "ticker": "0992.HK",
+        "reason": "作为促销活动的主体，年中大促有望刺激消费需求并提振短期产品销量。",
+        "confidence": "low"
+      }
+    ]
+  },
+  {
+    "id": "33b36c67fa30f29b",
+    "title": "Form推出新款智能泳镜，支持创新姿态纠正",
+    "summary": "Form公司发布Smart Swim 2 LT智能游泳眼镜，主打创新的游泳姿态纠正功能，旨在提升用户的训练体验。",
+    "body": "近日，Form公司推出了Smart Swim 2 LT智能游泳眼镜。该款智能穿戴设备的核心亮点在于引入了创新的游泳姿态纠正功能，旨在为用户提供更专业的运动反馈。\n\n此次新品的发布，体现了智能可穿戴设备在细分运动场景下的持续探索与技术迭代。通过提供针对性的姿态纠正指导，该产品有望进一步提升游泳爱好者的训练体验与运动表现。",
+    "category": "消费电子",
+    "tags": [
+      "智能穿戴",
+      "消费电子",
+      "运动科技"
+    ],
+    "source": "Wired",
+    "time": "刚刚",
+    "ts": "2026-06-24T11:49:30.677944+00:00",
+    "url": "https://www.wired.com/review/form-smart-swim-2-lt-goggles/",
+    "image": "https://media.wired.com/photos/6a3b0f2fd8ef6fd843d20e29/master/pass/Review--Form-Smart-Swim-2-LT-Goggles.jpg",
+    "stocks": []
+  },
+  {
+    "id": "7f5e4e84b379ee79",
+    "title": "微软旧版Win安全启动证书过期，绕过TPM用户更新易失败",
+    "summary": "微软旧版Windows安全启动核心证书今日起陆续过期。此举虽不影响现有Win11设备启动，但将增加绕过TPM限制安装用户的更新失败率。",
+    "body": "微软旧版Windows安全启动核心证书从今日起陆续到期。这一变更主要针对系统底层的安全验证机制，对于正常安装并运行Windows 11的设备而言，日常启动和使用不会受到直接影响。\n\n然而，证书过期将对系统的后续安全维护带来挑战。特别是对于部分绕过TPM硬件限制安装Windows 11的用户，其在进行系统更新时遭遇失败的概率将显著增加。\n\n此次证书更替是微软强化Windows生态系统安全性的重要举措。随着旧证书的淘汰，微软将进一步收紧安全启动标准，推动用户向符合现代安全规范的硬件环境迁移。",
+    "category": "消费电子",
+    "tags": [
+      "微软",
+      "Windows",
+      "安全启动",
+      "操作系统"
+    ],
+    "source": "IT之家",
+    "time": "刚刚",
+    "ts": "2026-06-24T11:49:15.575679+00:00",
+    "url": "https://www.ithome.com/0/968/150.htm",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "80bdf618c01e16a3",
+    "title": "175个早期AI项目亮相WAIC，探寻下一个AI巨头",
+    "summary": "世界人工智能大会（WAIC）集中展示了175个早期人工智能项目，聚焦未来AI巨头的潜力与发展趋势。",
+    "body": "世界人工智能大会（WAIC）设立了Future Tech展区，共有175个早期人工智能项目集中亮相。这些项目涵盖了AI领域的多个前沿方向，展示了初创企业在人工智能技术上的创新与探索。\n\n此次大规模早期项目的展示，不仅为行业提供了观察AI技术演进和投资风向的窗口，也引发了市场对“下一个AI巨头”将花落谁家的广泛关注，反映出当前AI创业生态的活跃度。",
+    "category": "人工智能",
+    "tags": [
+      "WAIC",
+      "人工智能",
+      "AI创业",
+      "早期项目"
+    ],
+    "source": "量子位",
+    "time": "刚刚",
+    "ts": "2026-06-24T11:49:12.745174+00:00",
+    "url": "https://www.qbitai.com/2026/06/438157.html",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "79a6eb585851dad9",
+    "title": "豆包专业版上线，苹果折叠屏iPhone传7月量产",
+    "summary": "字节跳动旗下AI应用豆包专业版正式上线；消息称苹果计划于7月下旬量产首款可折叠iPhone。",
+    "body": "字节跳动旗下AI大模型应用豆包正式推出专业版，旨在进一步提升其在AI助手和生产力工具领域的竞争力，为用户提供更专业的生成与交互体验。\n\n供应链消息指出，苹果公司计划于7月下旬开始量产其首款可折叠iPhone。此举标志着苹果即将正式进军折叠屏手机市场，有望引发消费电子产业链的新一轮创新与换机潮。\n\n此外，在宏观与大宗商品方面，华泰证券分析认为，受海外高成本因素支撑，远期铝价走势不宜过度悲观。",
+    "category": "消费电子",
+    "tags": [
+      "豆包",
+      "折叠屏",
+      "苹果",
+      "人工智能"
+    ],
+    "source": "36氪",
+    "time": "刚刚",
+    "ts": "2026-06-24T11:49:09.366350+00:00",
+    "url": "https://36kr.com/p/3867032586867972?f=rss",
+    "image": "",
+    "stocks": [
+      {
+        "name": "苹果",
+        "ticker": "AAPL",
+        "reason": "推出折叠屏iPhone有望丰富产品线并提振高端手机销量。",
+        "confidence": "medium"
+      },
+      {
+        "name": "立讯精密",
+        "ticker": "002475.SZ",
+        "reason": "作为苹果核心代工及零部件供应商，将直接受益于新机量产。",
+        "confidence": "high"
+      },
+      {
+        "name": "领益智造",
+        "ticker": "002600.SZ",
+        "reason": "折叠屏铰链及精密功能件核心供应商，有望获得新增量。",
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
+    "id": "b7e79dc4887be0dd",
+    "title": "影眸科技完成数亿元融资，Hyper3D引领3D生成新纪元",
+    "summary": "3D生成技术公司影眸科技近日完成数亿元新一轮融资。其核心产品Hyper3D致力于推动3D生成技术迈入具备思考能力的全新阶段。",
+    "body": "近日，3D生成技术领域的创新企业影眸科技宣布完成数亿元新一轮融资。此次融资将为公司进一步研发和技术迭代提供充足的资金支持，助力其在AIGC赛道持续发力。\n\n影眸科技的核心产品Hyper3D正推动3D生成技术进入“思考时代”。这一技术突破不仅提升了3D内容生成的效率与质量，也为相关行业的数字化转型和空间计算应用提供了强大的底层技术支撑，具有深远的行业意义与商业潜力。",
+    "category": "人工智能",
+    "tags": [
+      "3D生成",
+      "人工智能",
+      "影眸科技",
+      "融资"
+    ],
+    "source": "36氪",
+    "time": "刚刚",
+    "ts": "2026-06-24T11:49:06.659124+00:00",
+    "url": "https://36kr.com/p/3865060112438533?f=rss",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "1daa17140e2ab768",
+    "title": "美联邦医疗保险推行AI致医患面临错误与延误",
+    "summary": "美国联邦医疗保险在医疗流程中引入人工智能技术，却导致患者和医生面临更多的审查错误与流程延误问题。",
+    "body": "美国联邦医疗保险（Medicare）近期在理赔审查和医疗管理流程中推进人工智能技术的应用。然而，该举措在实际落地中引发诸多争议，导致患者和医生陷入错误与延误的困境。尽管AI旨在提高行政效率并降低成本，但其表现出的误判和延迟反而增加了医患负担，导致患者无法及时获得必要服务。\n\n这一事件凸显了医疗领域引入AI的现实挑战，表明在追求效率的同时必须确保算法的准确性与透明度，避免技术缺陷损害医疗质量与患者权益。",
+    "category": "人工智能",
+    "tags": [
+      "医疗AI",
+      "Medicare",
+      "人工智能",
+      "医疗信息化"
+    ],
+    "source": "MedicalXpress",
+    "time": "刚刚",
+    "ts": "2026-06-24T11:49:05.715999+00:00",
+    "url": "https://medicalxpress.com/news/2026-06-medicare-ai-snarls-patients-doctors.html",
+    "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/medicares-ai-push-snar.jpg",
+    "stocks": []
+  },
+  {
+    "id": "b61a320a815ff8e7",
+    "title": "Valve确认硬件涨价45%，原定价或对标PS5 Pro",
+    "summary": "Valve确认其硬件设备价格大幅上涨，涨幅与Steam Deck的45%提价相当。此举主要受内存价格暴涨影响，该设备原定价或旨在与PS5 Pro竞争。",
+    "body": "Valve官方确认，其旗下硬件设备将迎来大幅涨价，涨幅与此前Steam Deck高达45%的提价幅度相似。这一价格调整主要受到全球内存价格飙升的直接影响，导致硬件制造成本显著增加。\n\n业内分析指出，在内存价格暴涨之前，该设备的初始定价策略原本极具竞争力，很可能是为了直接与索尼PS5 Pro争夺市场。然而，供应链成本的不可控因素迫使Valve不得不调整终端售价。\n\n此次涨价反映了当前消费电子供应链中核心零部件成本波动的严峻挑战，也凸显了游戏硬件市场在定价上面临的成本压力，玩家购买门槛将随之抬高。",
+    "category": "消费电子",
+    "tags": [
+      "Valve",
+      "游戏硬件",
+      "涨价",
+      "内存"
+    ],
+    "source": "Tom's Hardware",
+    "time": "刚刚",
+    "ts": "2026-06-24T11:48:57.415188+00:00",
+    "url": "https://www.tomshardware.com/video-games/console-gaming/valve-steam-machine-price-hike-similar-to-steam-decks-45-percent-increase-company-confirms-was-probably-priced-competitively-against-the-ps5-pro-before-the-rampocalypse",
+    "image": "https://cdn.mos.cms.futurecdn.net/5grECmepVDmbQUMRgZsqVY-1280-80.jpg",
+    "stocks": []
+  },
+  {
+    "id": "9d317fc77d3821ad",
+    "title": "肯尼亚严阵以待Z世代抗议重启：事件始末与影响",
+    "summary": "肯尼亚正面临Z世代抗议活动可能重启的局面。本文回顾了该抗议运动的起源及其对国家局势的深远影响。",
+    "body": "肯尼亚目前正严阵以待，准备应对Z世代抗议活动的可能回归。这场由年轻一代主导的社会运动此前已对该国产生了深远影响，如今其重启的迹象引发了社会各界的广泛关注与警惕。\n\n回顾该抗议运动的起源，Z世代群体最初因对国内经济政策、治理问题及生活成本的不满而发起行动。这一现象不仅反映了肯尼亚年轻一代对政治和社会变革的强烈诉求，也对政府的施政能力与社会稳定提出了长期挑战。",
+    "category": "国际局势",
+    "tags": [
+      "肯尼亚",
+      "Z世代",
+      "社会抗议",
+      "国际局势"
+    ],
+    "source": "Al Jazeera",
+    "time": "刚刚",
+    "ts": "2026-06-24T11:48:49.960311+00:00",
+    "url": "https://www.aljazeera.com/features/2026/6/24/kenya-braces-for-return-of-gen-z-protests-how-did-they-begin?traffic_source=rss",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "b7e42ae529bebc6d",
+    "title": "非静止轨道卫星行业协会成立，SpaceX未加入",
+    "summary": "非地球静止轨道卫星（NGSO）行业协会正式成立，旨在推动行业协同与政策协调，但行业巨头SpaceX并未加入该组织。",
+    "body": "近日，非地球静止轨道卫星（NGSO）行业协会宣布正式成立，旨在推动该领域的行业发展、标准制定与政策协调。然而，作为全球低轨卫星星座领域的绝对巨头，SpaceX并未加入该组织。\n\n这一现象引发了业界的广泛关注。分析认为，SpaceX的缺席可能反映了其在频谱资源分配、轨道协调或监管政策方面与其他卫星运营商存在不同的战略考量与利益诉求。\n\nNGSO协会的成立标志着非静止轨道卫星产业正逐步走向规范化与抱团发展。但缺乏SpaceX这一核心玩家的参与，该协会在未来推动全球行业共识时的代表性和影响力或将面临一定挑战。",
+    "category": "商业航天",
+    "tags": [
+      "商业航天",
+      "低轨卫星",
+      "SpaceX",
+      "行业协会"
+    ],
+    "source": "SpaceNews",
+    "time": "刚刚",
+    "ts": "2026-06-24T11:48:49.726175+00:00",
+    "url": "https://spacenews.com/ngso-trade-association-launches-without-industry-giant-spacex/",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "6434efabe10936b5",
+    "title": "MIT科技评论：直面技术发展中的各项挑战",
+    "summary": "《麻省理工科技评论》发文探讨了当前科技发展过程中所面临的各种规模的挑战与应对思路。",
+    "body": "《麻省理工科技评论》（MIT Technology Review）刊文探讨了当前科技领域面临的各种规模的挑战。文章强调，无论是宏观层面的系统性难题，还是微观层面的具体技术瓶颈，均是行业发展必须直面的问题。\n\n应对这些大大小小的挑战，需要科技界持续优化研发策略与创新路径。这对于推动技术突破、完善科技生态以及加速相关成果的商业化落地具有重要的现实意义。",
+    "category": "人工智能",
+    "tags": [
+      "科技挑战",
+      "技术趋势",
+      "MIT科技评论"
+    ],
+    "source": "MIT Tech Review",
+    "time": "刚刚",
+    "ts": "2026-06-24T11:48:40.644864+00:00",
+    "url": "https://www.technologyreview.com/2026/06/24/1138853/editors-letter-july-2026/",
+    "image": "https://wp.technologyreview.com/wp-content/uploads/2021/09/mat_final.png?w=1000",
+    "stocks": []
+  },
+  {
+    "id": "7e648e5d4691017c",
+    "title": "如何戳破AI泡沫：直击行业根源",
+    "summary": "本文探讨了当前人工智能行业泡沫的成因，提出应从根源上解决AI发展面临的底层挑战。",
+    "body": "近期，关于人工智能行业是否存在泡沫的讨论引发广泛关注。有分析指出，若要应对或化解当前的AI泡沫，必须直击其背后的根源性问题，而非仅仅关注表面的市场情绪与波动。\n\n该观点强调，人工智能产业的长期发展需要正视底层挑战。只有从根本上解决制约AI技术演进与商业化落地的核心瓶颈，行业才能摆脱泡沫质疑，迈向更加理性和可持续的发展阶段。",
+    "category": "人工智能",
+    "tags": [
+      "人工智能",
+      "AI泡沫",
+      "行业分析"
+    ],
+    "source": "Hacker News",
+    "time": "刚刚",
+    "ts": "2026-06-24T11:48:33.348714+00:00",
+    "url": "https://arstechnica.com/gadgets/2026/06/how-to-burst-the-ai-bubble-strike-at-its-roots/",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "title": "Get an all-AMD 4K gaming PC with Ryzen 7 9800X3D and Radeon RX 9070 XT for just $1,749 — Walmart has slashed $750 off this prebuilt desktop",
+    "summary": "",
+    "url": "https://www.tomshardware.com/pc-components/get-an-all-amd-4k-gaming-pc-with-ryzen-7-9800x3d-and-radeon-rx-9070-xt-for-just-usd1-749-walmart-has-slashed-usd750-off-this-prebuilt-desktop",
+    "image": "https://cdn.mos.cms.futurecdn.net/4Jvy5GEDA7ZprnfKAohDjf-1280-80.png",
+    "source": "Tom's Hardware",
+    "time": "刚刚",
+    "category": "人工智能",
+    "tags": [],
+    "body": "",
+    "stocks": [],
+    "ts": "2026-06-24T11:48:29.291960+00:00",
+    "id": "e9a9b0a0f3e7f775"
+  },
+  {
+    "id": "1f44d297248db536",
+    "title": "一行代码使GCC性能提升12%，适配英特尔与AMD处理器",
+    "summary": "开发者通过修改GCC编译器中的一行代码，使其在现代英特尔和AMD处理器上的性能提升了12%。",
+    "body": "近日，有开发者发现仅需修改GNU编译器集合（GCC）中的一行代码，即可使其在现代英特尔与AMD处理器上的编译性能大幅提升约12%。这一发现引起了开源社区的广泛关注。\n\nGCC作为全球最广泛使用的编译器之一，其性能优化对软件开发和系统构建具有重要意义。此次优化无需对底层架构进行大规模重构，仅通过简单的代码调整便释放了现代CPU的更多潜能。\n\n该优化不仅有助于缩短大型项目的编译时间，提高开发者的工作效率，也进一步展现了现代处理器在软件层面的优化空间。随着相关补丁的合并，广大Linux及开源软件用户将直接受益于这一性能提升。",
+    "category": "消费电子",
+    "tags": [
+      "GCC",
+      "编译器",
+      "英特尔",
+      "AMD"
+    ],
+    "source": "IT之家",
+    "time": "刚刚",
+    "ts": "2026-06-24T11:48:28.692385+00:00",
+    "url": "https://www.ithome.com/0/968/151.htm",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "4ae2400c8b1eed39",
+    "title": "Wired盘点18款沃尔玛超值促销，力荐优于同期大促",
+    "summary": "科技媒体Wired精选了18款沃尔玛正在进行的促销商品，认为其优惠力度和性价比优于同期的其他大型促销活动。",
+    "body": "知名科技媒体Wired近日发布了一篇导购指南，精选了18款沃尔玛平台上的超值促销商品。文章指出，这些商品的折扣力度和综合性价比甚至优于当前正在进行的另一场大型电商促销活动。\n\n在竞争激烈的零售促销季，各大电商平台纷纷推出打折活动以吸引消费者。Wired的此次推荐不仅为消费者提供了更具性价比的购物参考，也侧面反映了沃尔玛在供应链管理和价格竞争中的强劲实力，有助于其在电商大促期间进一步抢占市场份额。",
+    "category": "消费电子",
+    "tags": [
+      "沃尔玛",
+      "促销活动",
+      "电子商务",
+      "消费电子"
+    ],
+    "source": "Wired",
+    "time": "刚刚",
+    "ts": "2026-06-24T11:48:20.846020+00:00",
+    "url": "https://www.wired.com/story/walmart-deals-apd-06-24-2026/",
+    "image": "https://media.wired.com/photos/6a3abc00b35647f689f166fa/master/pass/The-Best-Walmart-Deals-This-Prime-Day.jpg",
+    "stocks": [
+      {
+        "name": "沃尔玛",
+        "ticker": "WMT",
+        "reason": "作为促销活动的直接发起方，有望通过高性价比商品提升销售额与市场份额。",
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
+    "id": "7d06cfa216dcf54a",
+    "title": "HIL-ResRL提升VLA模型真机微调成功率至95%",
+    "summary": "HIL-ResRL作为一种即插即用的强化学习框架，显著提升了视觉-语言-动作模型在真实机器人上的微调效率与成功率。",
+    "body": "近日，一种名为HIL-ResRL的新型强化学习框架引发业界关注。该框架被设计为视觉-语言-动作（VLA）模型的即插即用模块，能够显著提升机器人在真实物理环境中的任务执行能力。\n\n测试数据显示，在引入HIL-ResRL后，VLA模型在真机上的强化学习微调仅需1小时，任务成功率便突破了95%。这一成果大幅降低了具身智能模型在真实场景中的部署与微调门槛。\n\n该技术为解决大模型在机器人端侧落地时的动作执行偏差提供了有效方案，有望进一步加速具身智能和通用机器人的研发与商业化应用进程。",
+    "category": "机器人",
+    "tags": [
+      "具身智能",
+      "VLA模型",
+      "强化学习"
+    ],
+    "source": "量子位",
+    "time": "刚刚",
+    "ts": "2026-06-24T11:48:13.045640+00:00",
+    "url": "https://www.qbitai.com/2026/06/438166.html",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "fc00c695401606c3",
+    "title": "日本推进人类胎儿组织研究伦理规范",
+    "summary": "日本正致力于建立和完善人类胎儿组织研究的伦理规范与负责任的研究行为准则，以促进相关生物医学研究的健康发展。",
+    "body": "人类胎儿组织在生物医学研究中具有重要价值，但其使用涉及复杂的伦理问题。日本近期在推动相关研究的负责任开展方面做出了努力，旨在建立更完善的伦理审查和指导原则。\n\n这一举措有助于规范科研行为，确保研究在符合伦理标准的前提下进行。通过明确责任和规范流程，日本希望能在保护伦理底线的同时，推动生物医药和再生医学等领域的科学进步。",
+    "category": "生物医药",
+    "tags": [
+      "胎儿组织研究",
+      "医学伦理",
+      "日本科研"
+    ],
+    "source": "MedicalXpress",
+    "time": "刚刚",
+    "ts": "2026-06-24T11:47:54.437312+00:00",
+    "url": "https://medicalxpress.com/news/2026-06-responsible-human-fetal-tissue-japan.html",
+    "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/toward-the-responsible.jpg",
+    "stocks": []
+  },
+  {
+    "id": "b67d315c9ef0eebe",
+    "title": "哈勃望远镜拍到科学家认为无法发现的星系",
+    "summary": "哈勃空间望远镜成功拍摄到一个此前科学家认为不可能被发现的遥远星系，为宇宙学研究提供了重要的新线索。",
+    "body": "哈勃空间望远镜近期取得了一项突破性的天文观测成果，成功拍摄到了一个此前科学界认为不可能被发现的星系。这一发现挑战了现有的天文观测认知，充分展示了哈勃望远镜在深空探测和微弱天体捕捉方面的强大能力。\n\n该星系的发现不仅为研究宇宙演化、星系形成与分布提供了宝贵的观测数据，也凸显了空间望远镜在探索宇宙深处未知领域中的不可替代作用。这一重要成果有望推动天体物理学和宇宙学领域的进一步理论研究。",
+    "category": "商业航天",
+    "tags": [
+      "哈勃望远镜",
+      "天文观测",
+      "星系发现",
+      "太空探索"
+    ],
+    "source": "Space.com",
+    "time": "刚刚",
+    "ts": "2026-06-24T11:47:45.979309+00:00",
+    "url": "https://www.space.com/astronomy/hubble-space-telescope/hubble-space-telescope-images-galaxy-scientists-thought-was-impossible-to-find",
+    "image": "https://cdn.mos.cms.futurecdn.net/VoBZ2hkmKfiq3axDGpKmQa-1280-80.png",
+    "stocks": []
+  },
+  {
+    "id": "d8d23ce25d20b3ba",
+    "title": "2026世界杯巴西对苏格兰赛前前瞻与阵容分析",
+    "summary": "半岛电视台发布了2026年世界杯巴西对阵苏格兰的赛事前瞻，涵盖比赛预测、球队动态及首发阵容分析。",
+    "body": "半岛电视台近日发布了关于2026年世界杯巴西国家队对阵苏格兰国家队的详细赛事前瞻。文章深入分析了两队的近期竞技状态、战术特点，并对比赛走势进行了专业预测。\n\n此外，报道全面梳理了双方的最新球队新闻、伤病情况以及预计的首发阵容，为球迷和体育分析师提供了丰富的赛前参考信息。\n\n作为全球顶级的体育盛事，世界杯不仅是国家间体育竞技的舞台，其背后的赛事转播、商业赞助及文旅消费也对相关产业经济具有显著的拉动作用。",
+    "category": "国际局势",
+    "tags": [
+      "世界杯",
+      "体育赛事",
+      "足球"
+    ],
+    "source": "Al Jazeera",
+    "time": "刚刚",
+    "ts": "2026-06-24T11:47:44.251215+00:00",
+    "url": "https://www.aljazeera.com/sports/2026/6/24/brazil-vs-scotland-world-cup-2026-preview-prediction-team-news-lineups?traffic_source=rss",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "4294dc976d1ffe0f",
+    "title": "法国遭创纪录热浪袭击多地停电",
+    "summary": "法国正经历创纪录的高温热浪，导致多地出现停电现象，预计气温即将达到峰值。",
+    "body": "法国近期遭遇创纪录的高温热浪天气，极端高温导致电力需求激增，多地出现停电现象。随着热浪即将达到峰值，法国电力供应面临严峻考验。\n\n此次停电事件凸显了极端气候对能源基础设施和电力供应稳定性的冲击。在持续高温下，制冷设备的使用量大幅上升，给当地电网带来了巨大压力。\n\n分析指出，应对极端天气频发带来的能源挑战，需要进一步加强电网的韧性建设，并推动能源结构的优化与升级，以保障电力供应的安全与稳定。",
+    "category": "国际局势",
+    "tags": [
+      "法国",
+      "热浪",
+      "停电",
+      "电力供应"
+    ],
+    "source": "BBC World",
+    "time": "刚刚",
+    "ts": "2026-06-24T11:47:43.731355+00:00",
+    "url": "https://www.bbc.co.uk/news/articles/c78y4102n1zo?at_medium=RSS&at_campaign=rss",
+    "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5a57/live/2d405c80-6fc1-11f1-b1db-af71d47507d6.jpg",
+    "stocks": []
+  },
+  {
+    "id": "dc3af3f5e647848f",
+    "title": "犹他州最大光储项目正式上线",
+    "summary": "犹他州规模最大的太阳能与电池储能混合项目已正式投入运营，标志着该地区清洁能源发展迈出重要一步。",
+    "body": "近日，犹他州最大的太阳能与电池储能联合项目正式并网投入运营。该项目结合了大规模光伏发电与先进的电池储能技术，能够有效提升当地电网的稳定性和清洁能源的消纳能力。\n\n这一项目的上线不仅大幅增加了犹他州的绿色电力供应，还通过储能系统解决了太阳能发电的间歇性问题，为当地居民和企业提供了更可靠的电力保障。此举对美国西部地区的能源转型和碳中和目标具有积极的示范意义。",
+    "category": "未来能源",
+    "tags": [
+      "太阳能",
+      "储能",
+      "清洁能源"
+    ],
+    "source": "Electrek",
+    "time": "刚刚",
+    "ts": "2026-06-24T11:47:40.576400+00:00",
+    "url": "https://electrek.co/2026/06/24/utahs-largest-solar-battery-storage-project-is-officially-online/",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "4a1a8ea47b2c3e3a",
+    "title": "SpaceX发射神秘Starfall再入演示任务",
+    "summary": "SpaceX近期执行了名为Starfall的保密发射任务，主要聚焦于航天器再入大气层的技术演示与验证。",
+    "body": "SpaceX近期执行了一项名为Starfall的发射任务。该任务具有较高的保密性，主要聚焦于航天器的再入大气层演示与相关技术验证。\n\n此类再入演示任务通常旨在测试热防护系统、气动外形或回收控制等关键技术。这不仅有助于进一步提升SpaceX现有运载火箭和飞船的回收效率，也可能为其未来的新型航天器研发及深空探测任务奠定重要的技术基础。",
+    "category": "商业航天",
+    "tags": [
+      "SpaceX",
+      "商业航天",
+      "再入技术",
+      "Starfall"
+    ],
+    "source": "SpaceNews",
+    "time": "刚刚",
+    "ts": "2026-06-24T11:47:34.823252+00:00",
+    "url": "https://spacenews.com/spacex-launches-secretive-starfall-reentry-demo-mission/",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "11b39e827df2e5bd",
+    "title": "太阳能飞行平台有望提供更优空中互联网",
+    "summary": "麻省理工科技评论报道，一种新型太阳能飞行平台有望通过空中部署，为用户提供更优质的互联网连接服务。",
+    "body": "麻省理工科技评论近日关注了一项创新的空中网络技术。该技术依托一种由太阳能驱动的飞行平台，旨在从空中提供更稳定、更优质的互联网连接服务。\n\n此类太阳能飞行平台通常具备长航时飞行能力，能够克服传统地面基站的地理限制。通过在高空区域部署，该平台有望有效覆盖偏远地区及传统网络信号盲区，为改善全球互联网接入质量提供新思路。",
+    "category": "商业航天",
+    "tags": [
+      "太阳能",
+      "空中互联网",
+      "飞行平台"
+    ],
+    "source": "MIT Tech Review",
+    "time": "刚刚",
+    "ts": "2026-06-24T11:47:24.821152+00:00",
+    "url": "https://www.technologyreview.com/2026/06/24/1138771/solar-powered-platform-delivers-better-internet/",
+    "image": "https://wp.technologyreview.com/wp-content/uploads/2026/06/Sceye-HAPS-4.jpg?w=2990",
+    "stocks": []
+  },
+  {
+    "id": "b3b3ae8b60d9a959",
+    "title": "R星正式公布《GTA 6》游戏定价",
+    "summary": "游戏开发商Rockstar Games正式公布了备受期待的《侠盗猎车手6》（GTA 6）的定价信息。此举标志着这款重磅大作向正式发售迈出关键一步。",
+    "body": "游戏开发商Rockstar Games（R星）终于揭晓了备受全球玩家瞩目的《侠盗猎车手6》（Grand Theft Auto 6）的定价细节。作为游戏史上最受期待的作品之一，其定价策略不仅反映了开发成本与市场定位，也将直接影响玩家的购买意愿与首发热度。\n\n此次定价的公布标志着《GTA 6》商业化进程的重要里程碑。业内分析认为，明确的定价信息有助于稳定市场预期，这款超级大作的后续发售有望为母公司带来巨大的营收增长，并对整个3A游戏市场的商业表现产生深远影响。",
+    "category": "消费电子",
+    "tags": [
+      "R星",
+      "GTA6",
+      "游戏产业"
+    ],
+    "source": "Engadget",
+    "time": "刚刚",
+    "ts": "2026-06-24T11:47:22.502149+00:00",
+    "url": "https://www.engadget.com/2200483/rockstar-reveals-gta-6-pricing-launch/",
+    "image": "https://www.engadget.com/img/gallery/rockstar-finally-reveals-pricing-for-grand-theft-auto-6/l-intro-1782301097.jpg",
+    "stocks": [
+      {
+        "name": "Take-Two",
+        "ticker": "TTWO",
+        "reason": "作为R星的母公司及《GTA 6》的发行商，游戏定价落地及后续发售将直接推动其营收与利润大幅增长。",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "c852ac494e51a46b",
+    "title": "Wired实时追踪亚马逊Prime Day促销好物",
+    "summary": "科技媒体Wired实时追踪亚马逊Prime Day促销活动，为消费者筛选值得购买的科技与消费电子产品。",
+    "body": "科技媒体Wired正在实时追踪亚马逊Prime Day促销活动，旨在为消费者筛选并推荐值得购买的科技与消费电子好物。此类媒体追踪报道帮助读者在海量折扣中快速定位高性价比产品，提升购物效率。\n\nPrime Day作为亚马逊年度核心促销节点，涵盖了智能家居、数码设备等广泛的消费电子产品。这不仅为消费者提供了专业的购物指南，也从侧面反映了当前消费电子市场的热门趋势与用户需求偏好。",
+    "category": "消费电子",
+    "tags": [
+      "亚马逊",
+      "Prime Day",
+      "消费电子",
+      "电商促销"
+    ],
+    "source": "Wired",
+    "time": "刚刚",
+    "ts": "2026-06-24T11:47:18.839066+00:00",
+    "url": "https://www.wired.com/live/amazon-prime-day-live-tracker-july-24-2026/",
+    "image": "https://media.wired.com/photos/6a39c73ad8ef6fd843d20906/master/pass/Launorma_Liveblog.png",
+    "stocks": [
+      {
+        "name": "亚马逊",
+        "ticker": "AMZN",
+        "reason": "Prime Day是亚马逊年度核心促销活动，直接拉动其电商零售业务收入与AWS云服务需求。",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "f3df5760f8ea8b53",
+    "title": "致命真菌在猫与人类间传播并持续蔓延",
+    "summary": "一种能够同时感染猫和人类的致命真菌正在扩散，引发公共卫生与动物健康领域的广泛关注。",
+    "body": "近日，一种能够同时感染猫和人类的致命真菌呈现出蔓延趋势。该真菌不仅对猫科动物的健康构成严重威胁，还存在跨物种传播给人类的风险，引发了医学界和兽医界的共同关注。\n\n这种真菌的扩散凸显了人畜共患病在公共卫生领域的潜在风险。随着感染病例的增加，相关医疗和科研机构可能需要加强对该类真菌的监测、诊断以及抗真菌药物的研发，以控制其进一步传播并保护人类与动物的健康。",
+    "category": "生物医药",
+    "tags": [
+      "公共卫生",
+      "真菌感染",
+      "人畜共患病"
+    ],
+    "source": "Hacker News",
+    "time": "刚刚",
+    "ts": "2026-06-24T11:47:17.986418+00:00",
+    "url": "https://www.sciencenews.org/article/deadly-fungus-cats-people-spreading",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "9ca783d583f54db3",
+    "title": "戴森PencilWash洗地机创Prime Day史低价",
+    "summary": "戴森PencilWash无线硬地板清洁器在亚马逊Prime Day期间降价150美元，以199.99美元的历史最低价促销。",
+    "body": "戴森（Dyson）旗下的PencilWash无线硬地板清洁器近日在亚马逊Prime Day活动中迎来大幅促销。该产品售价降至199.99美元，直降150美元，创下历史最低价格。\n\n作为一款电动湿拖把，PencilWash与戴森此前推出的PencilVac Fluffycones吸尘器属于同系列产品。此次大幅降价不仅降低了消费者的购买门槛，也反映了智能清洁家电市场在促销季的激烈竞争。",
+    "category": "消费电子",
+    "tags": [
+      "戴森",
+      "智能家电",
+      "Prime Day",
+      "消费电子"
+    ],
+    "source": "The Verge",
+    "time": "15分钟前",
+    "ts": "2026-06-24T07:31:42-04:00",
+    "url": "https://www.theverge.com/gadgets/954273/dyson-pencilwash-wet-floor-cleaner-mop-deal-sale",
+    "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/06/Web_PDP_Gallery_970A-floors-10.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100",
+    "stocks": []
+  },
+  {
+    "id": "b86026c9727f70ab",
+    "title": "亚马逊Prime Day第二天促销开启，热门优惠持续",
+    "summary": "亚马逊为期四天的Prime Day会员日活动进入第二天，众多热门科技与消费电子产品的优惠仍在继续，并新增了部分折扣。",
+    "body": "亚马逊为期四天的Prime Day会员日促销活动目前已进入第二天。与首日相比，第二天的促销力度和商品阵容基本保持一致，众多备受关注的科技产品与消费电子热门优惠依然在线。\n\n除了延续首日的最佳折扣外，亚马逊还加入了部分新的促销商品，为消费者提供了充足的选购时间。此类大型电商促销活动不仅有效刺激了消费者的购买需求，也进一步巩固了亚马逊在零售及智能硬件生态领域的市场影响力。",
+    "category": "消费电子",
+    "tags": [
+      "亚马逊",
+      "Prime Day",
+      "电商促销",
+      "消费电子"
+    ],
+    "source": "The Verge",
+    "time": "46分钟前",
+    "ts": "2026-06-24T07:00:00-04:00",
+    "url": "https://www.theverge.com/gadgets/955366/best-prime-day-2026-tech-deals-day-two-sale",
+    "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/06/268513_Amazon_Prime_Day_artwork_5.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100",
+    "stocks": [
+      {
+        "name": "亚马逊",
+        "ticker": "AMZN",
+        "reason": "Prime Day是亚马逊年度核心促销活动，直接拉动零售业务营收及Prime会员订阅增长。",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "fbe8b5a66b2926bb",
+    "title": "《GTA 6》定价公布：标准版79.99美元",
+    "summary": "《侠盗猎车手6》官方定价正式公布，标准版售价79.99美元，终极版99.99美元。游戏预购将于当地时间今晚午夜正式开启。",
+    "body": "备受瞩目的《侠盗猎车手6》（GTA VI）终于迎来了官方定价。据悉，该游戏的标准版售价定为79.99美元，而包含更多内容的终极版售价则为99.99美元。\n\n预购通道将于当地时间今晚午夜正式开启，玩家届时可提前预定游戏。作为游戏史上最受期待的作品之一，其定价的落地和预购的开启标志着该作商业化进程的重要节点，预计将为发行商带来巨大的营收预期。",
+    "category": "消费电子",
+    "tags": [
+      "GTA6",
+      "游戏产业",
+      "Take-Two"
+    ],
+    "source": "The Verge",
+    "time": "1小时前",
+    "ts": "2026-06-24T06:29:04-04:00",
+    "url": "https://www.theverge.com/games/952204/grand-theft-auto-vi-price",
+    "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/06/gta-vi-cover-art-reveal.png?quality=90&#038;strip=all&#038;crop=0,0,100,100",
+    "stocks": [
+      {
+        "name": "Take-Two Interactive",
+        "ticker": "TTWO",
+        "reason": "作为《GTA VI》的母公司及发行商，游戏定价公布及预购开启将直接推动其业绩预期。",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "573f808d9eb80bc6",
+    "title": "迪士尼前CEO曾有意收购苹果推特及007版权",
+    "summary": "迪士尼前CEO鲍勃·艾格在任期间曾计划收购苹果、推特和007系列版权，但最终未能如愿。",
+    "body": "据媒体报道，迪士尼前首席执行官鲍勃·艾格在执掌这家娱乐巨头的二十年间，曾构想并推进过一系列重磅收购计划，其中包括收购苹果公司、社交媒体平台推特以及007系列电影的版权。然而，这些宏大的战略并购最终均未能落地。\n\n艾格的任期已于几个月前正式结束。尽管未能完成上述收购，但他在任期内带领迪士尼经历了多次重要转型。这些未竟的收购计划从侧面反映出迪士尼当时在科技、流媒体及顶级IP领域寻求更大突破的战略意图。",
+    "category": "消费电子",
+    "tags": [
+      "迪士尼",
+      "苹果公司",
+      "企业并购",
+      "鲍勃·艾格"
+    ],
+    "source": "The Verge",
+    "time": "1小时前",
+    "ts": "2026-06-24T06:08:52-04:00",
+    "url": "https://www.theverge.com/streaming/955646/disney-bob-iger-twitter-james-bond-apple-merger",
+    "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/06/gettyimages-2179288051.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100",
+    "stocks": []
+  },
+  {
     "id": "b13ebbdcae3ff22d",
     "title": "三星Exynos 2700开发顺利，有望搭载S27 Ultra",
     "summary": "消息称三星电子Exynos 2700芯片开发进展顺利，并计划将其应用范围扩展至未来的Galaxy S27 Ultra旗舰机型。",
@@ -39378,6 +40422,6 @@ const newsData = [
   }
 ];
 const newsDigest = {
-  "text": "今日科技前沿聚焦AI与消费电子。特斯拉车机接入豆包大模型，利好智能座舱概念；三星Exynos 2700研发顺利，提振半导体链；360发力信创安全、映泰推边缘AI系统，关注AI算力与信创标的。",
+  "text": "今日科技聚焦AI算力与机器人商业化。英伟达A100黑市暴涨凸显算力紧缺，利好AI算力产业链；宇树机器人降价加速具身智能普及；华为鸿蒙生态持续迭代。此外，法国确诊首例埃博拉引发公卫警惕。",
   "highlights": []
 };
