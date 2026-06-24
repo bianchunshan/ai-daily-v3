@@ -1,5 +1,1056 @@
 const newsData = [
   {
+    "id": "10909e9549939065",
+    "title": "科学家称微软量子突破无效，指其存在基础Python错误",
+    "summary": "一位研究人员声称微软近期宣称的量子计算重大突破存在缺陷，指出其相关代码中包含基础的Python错误。这一质疑引发了业界对微软量子技术进展的重新审视。",
+    "body": "近日，有科学家对微软在量子计算领域宣称的“量子飞跃”提出严重质疑，认为其相关研究成果无效。该研究人员指出，在微软提供的研究代码中发现了基础的Python编程错误，这直接影响了其研究结论的可靠性。\n\n这一事件在技术社区引发了广泛关注。量子计算作为前沿科技，其研究进展通常伴随着极高的技术门槛。如果核心突破确实建立在存在基础错误的代码之上，不仅会影响微软在量子计算领域的研发进程，也凸显了前沿科技研究中代码审查与开源复现的重要性。\n\n目前，业界正密切关注微软对此质疑的回应及后续的修正情况。这一风波提醒科研与科技企业在发布重大技术突破时，需确保底层代码与数据的严谨性。",
+    "category": "量子科技",
+    "tags": [
+      "量子计算",
+      "微软",
+      "代码审查",
+      "科研争议"
+    ],
+    "source": "Hacker News",
+    "time": "刚刚",
+    "ts": "2026-06-24T17:10:25.106806+00:00",
+    "url": "https://www.theregister.com/research/2026/06/24/boffin-claims-microsofts-supposed-quantum-leap-does-not-compute-due-to-basic-python-errors/5260489",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "9dacd00d427c0f05",
+    "title": "奈飞恐怖新游月底上线，主打手机控制与真实来电沉浸感",
+    "summary": "Netflix将于6月30日推出恐怖游戏《Unhinged》，创新性地使用手机作为控制器，并通过真实来电功能增强沉浸体验。",
+    "body": "流媒体巨头Netflix在游戏业务上持续探索创新。其全新恐怖游戏《Unhinged》定于6月30日正式上线，该作打破了传统游戏的交互方式，允许玩家直接使用智能手机作为游戏控制器。\n\n为了进一步强化恐怖氛围与沉浸感，《Unhinged》引入了“真实来电”机制。在游戏过程中，玩家的手机会收到与剧情相关的模拟来电，将虚拟游戏体验与现实生活巧妙结合。\n\n这一举措展现了Netflix在互动娱乐领域的创新能力。通过跨界融合移动通信与游戏交互，Netflix正试图在竞争激烈的游戏市场中开辟独特的沉浸式体验赛道，进而提升平台的用户粘性。",
+    "category": "消费电子",
+    "tags": [
+      "奈飞",
+      "互动游戏",
+      "沉浸体验",
+      "智能手机"
+    ],
+    "source": "IT之家",
+    "time": "刚刚",
+    "ts": "2026-06-24T17:10:21.361485+00:00",
+    "url": "https://www.ithome.com/0/968/215.htm",
+    "image": "",
+    "stocks": [
+      {
+        "name": "Netflix",
+        "ticker": "NFLX",
+        "reason": "作为该游戏的发行方与平台方，创新互动游戏有助于提升其流媒体平台的用户粘性与订阅价值。",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "0fe5fe8655d0c4b9",
+    "title": "《阿凡达：火与灰》上线Disney+，盘点奇特外星生物",
+    "summary": "随着《阿凡达：火与灰》登陆Disney+，媒体盘点了《阿凡达》系列电影中最奇特的三种外星生物。",
+    "body": "近日，《阿凡达：火与灰》正式登陆迪士尼旗下流媒体平台Disney+。为配合该片上线，Space.com盘点了《阿凡达》系列电影中最奇特的三种外星生物，回顾了潘多拉星球的奇幻生态设计。\n\n《阿凡达》系列一直以丰富的外星世界观和视觉特效闻名。此次对外星生物的盘点，展现了电影在生物设计与CGI技术上的创新，凸显了该IP的持久吸引力。\n\n将此类重磅IP内容引入Disney+，是迪士尼巩固流媒体竞争力的重要举措，有助于提升平台的用户粘性与内容丰富度。",
+    "category": "消费电子",
+    "tags": [
+      "阿凡达",
+      "Disney+",
+      "流媒体",
+      "影视特效"
+    ],
+    "source": "Space.com",
+    "time": "刚刚",
+    "ts": "2026-06-24T17:10:15.602824+00:00",
+    "url": "https://www.space.com/entertainment/space-movies-shows/3-of-the-weirdest-alien-creatures-in-the-avatar-movies",
+    "image": "https://cdn.mos.cms.futurecdn.net/hVtC4pgoSEqGQUw3bd9W7c-1280-80.jpg",
+    "stocks": [
+      {
+        "name": "迪士尼",
+        "ticker": "DIS",
+        "reason": "《阿凡达》重磅IP上线Disney+，有望提振流媒体订阅与用户活跃度。",
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
+    "id": "87654542f2df9eb3",
+    "title": "新型追踪标签问世，有望破解货物盗窃难题",
+    "summary": "一种新型追踪标签技术近日引发关注，该设备旨在通过实时定位与监控，有效应对和解决日益严重的货物盗窃问题。",
+    "body": "供应链安全一直是物流行业面临的重大挑战，货物盗窃不仅造成直接经济损失，还严重影响交付效率。近日，一种新型追踪标签技术进入大众视野，有望为这一行业痛点提供创新的解决方案。\n\n该追踪标签旨在通过对货物运输过程的实时监控与追踪，提升物流透明度。当货物在运输途中发生异常移动或偏离预定路线时，该技术能够协助企业及时发现并干预，从而大幅降低货物被盗的风险。\n\n这项新型追踪技术的应用，不仅有助于提升物流企业的资产安全性，还将推动供应链管理向更加智能化的方向发展，为行业减少因盗窃造成的巨额损失。",
+    "category": "消费电子",
+    "tags": [
+      "追踪标签",
+      "物流科技",
+      "供应链安全",
+      "物联网"
+    ],
+    "source": "TechCrunch",
+    "time": "刚刚",
+    "ts": "2026-06-24T17:10:14.901063+00:00",
+    "url": "https://techcrunch.com/2026/06/24/this-new-tracking-label-could-help-solve-cargo-theft/",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "31349794736508d9",
+    "title": "美国人膳食补充剂偏好转变：从复合维生素转向精准健康方案",
+    "summary": "研究显示，美国消费者在膳食补充剂的选择上正发生显著转变，逐渐放弃传统的复合维生素，转而青睐针对特定健康需求的精准补充剂。",
+    "body": "根据MedicalXpress的报道，美国民众在膳食补充剂的消费习惯上正经历一场重要变革。传统的复合维生素不再是首选，消费者越来越倾向于选择能够解决特定健康问题的靶向补充剂。\n\n这一趋势反映出公众健康意识的提升与个性化营养需求的增加。人们不再满足于泛泛的基础营养补充，而是根据自身的健康状况或特定需求，寻求更具针对性的健康干预方案。\n\n这种消费偏好的转移将重塑膳食补充剂市场的产品格局，促使相关企业向精准营养和个性化健康解决方案转型，为大健康行业带来新的发展机遇。",
+    "category": "生物医药",
+    "tags": [
+      "膳食补充剂",
+      "精准营养",
+      "大健康",
+      "消费趋势"
+    ],
+    "source": "MedicalXpress",
+    "time": "刚刚",
+    "ts": "2026-06-24T17:10:00.402726+00:00",
+    "url": "https://medicalxpress.com/news/2026-06-supplements-americans-shifting-multivitamins-health.html",
+    "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/top-supplements-americ.jpg",
+    "stocks": []
+  },
+  {
+    "id": "f84aa95649fc1ffe",
+    "title": "Geekom迷你电脑Prime Day大促，最高优惠34%",
+    "summary": "Geekom在Prime Day期间推出迷你电脑促销活动，消费者使用独家优惠码购买搭载AMD或Intel处理器的机型，最高可享34%的折扣。",
+    "body": "知名迷你电脑品牌Geekom在Prime Day购物节期间推出了专属促销活动。消费者在购买其新款迷你电脑时，通过使用独家促销代码，最高可享受34%的价格优惠。\n\n此次促销涵盖了搭载AMD和Intel处理器的多款机型，为有小型化计算设备需求的消费者提供了更具性价比的选择。这反映出迷你电脑市场竞争日益激烈，厂商正通过积极的促销策略来吸引消费者并扩大市场份额。",
+    "category": "消费电子",
+    "tags": [
+      "迷你电脑",
+      "Geekom",
+      "Prime Day",
+      "消费电子"
+    ],
+    "source": "Tom's Hardware",
+    "time": "刚刚",
+    "ts": "2026-06-24T17:09:57.295894+00:00",
+    "url": "https://www.tomshardware.com/desktops/mini-pcs/mini-pc-amazon-prime-day-sale-geekom",
+    "image": "https://cdn.mos.cms.futurecdn.net/frbcPojzrPKbJWhD66aW48-1280-80.jpg",
+    "stocks": []
+  },
+  {
+    "id": "c979cf96c885ba75",
+    "title": "Vantor携手BAE Systems打造下一代成像卫星",
+    "summary": "地球观测公司Vantor宣布选择BAE Systems为其建造下一代成像卫星，以提升地理空间数据获取能力。",
+    "body": "地球观测与地理空间情报公司Vantor近日宣布，已选择知名航空航天与国防企业BAE Systems作为其下一代成像卫星的制造商。此次合作旨在通过先进的卫星平台，进一步提升高分辨率地球观测和地理空间数据的获取能力。\n\n对于BAE Systems而言，获得该卫星制造合同进一步巩固了其在商业航天和遥感卫星制造领域的市场地位。随着商业地球观测需求的不断增长，下一代成像卫星的研发与部署将为相关地理空间应用提供更强大的数据支持，推动整个商业航天产业链的发展。",
+    "category": "商业航天",
+    "tags": [
+      "商业航天",
+      "卫星制造",
+      "地球观测"
+    ],
+    "source": "SpaceNews",
+    "time": "刚刚",
+    "ts": "2026-06-24T17:09:55.252553+00:00",
+    "url": "https://spacenews.com/vantor-selects-bae-systems-to-build-next-generation-imaging-satellites/",
+    "image": "",
+    "stocks": [
+      {
+        "name": "BAE Systems",
+        "ticker": "BA.L",
+        "reason": "获得下一代成像卫星制造合同，直接增加航天制造业务收入",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "d86fc4ee86f63260",
+    "title": "Secretlab电竞椅桌Prime Day促销 最高优惠129美元",
+    "summary": "Secretlab在亚马逊Prime Day期间推出促销活动，旗下Titan Evo电竞椅和Magnus电竞桌等产品最高可享129美元优惠。",
+    "body": "知名电竞外设品牌Secretlab近日参与了亚马逊Prime Day促销活动。活动期间，消费者购买其热门产品可享受大幅折扣，最高优惠额度达129美元。\n\n此次促销涵盖了Secretlab的多款核心产品，包括备受玩家欢迎的Titan Evo电竞椅以及Magnus电竞桌等。这对于有意升级电竞装备或改善办公环境的消费者而言，提供了不错的购买契机。\n\n此类头部电竞家具品牌的降价促销，有助于在购物节期间进一步刺激高端外设市场的消费需求，同时也为消费者提供了更具性价比的选择。",
+    "category": "消费电子",
+    "tags": [
+      "Secretlab",
+      "电竞椅",
+      "Prime Day",
+      "消费电子"
+    ],
+    "source": "Tom's Hardware",
+    "time": "刚刚",
+    "ts": "2026-06-24T17:09:50.836502+00:00",
+    "url": "https://www.tomshardware.com/gift-guides-seasonal-sales/secretlab-gaming-chairs-and-desks-hit-prime-day-week-sales-up-to-usd129-off-save-on-the-titan-evo-magnus-and-more",
+    "image": "https://cdn.mos.cms.futurecdn.net/ufWDcmeLpdP8sfgGN25YiN-1280-80.jpg",
+    "stocks": []
+  },
+  {
+    "id": "0e1e148ff0b49ad3",
+    "title": "以色列袭击加沙及约旦河西岸致两人死亡",
+    "summary": "据半岛电视台报道，以色列对加沙地带和被占领的约旦河西岸发动袭击，造成包括一名儿童在内的两人死亡。",
+    "body": "据半岛电视台消息，以色列军队对加沙地带以及被占领的约旦河西岸地区发动了袭击。此次军事行动造成了人员伤亡，导致两人死亡，其中一名遇难者为儿童。\n\n这一事件再次凸显了该地区持续紧张的局势。巴以冲突的延宕不仅给当地平民带来了严重的人道主义危机，也引发了国际社会对地区安全与稳定的广泛担忧。",
+    "category": "国际局势",
+    "tags": [
+      "巴以冲突",
+      "中东局势",
+      "加沙地带"
+    ],
+    "source": "Al Jazeera",
+    "time": "刚刚",
+    "ts": "2026-06-24T17:09:47.281682+00:00",
+    "url": "https://www.aljazeera.com/news/2026/6/24/israeli-attacks-on-gaza-and-occupied-west-bank-kill-two-including-child?traffic_source=rss",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "f92213c3ff61f744",
+    "title": "魁北克一小镇承认树木为拥有权利的生命体",
+    "summary": "加拿大魁北克省某小镇通过决议，正式承认树木为拥有合法权利的生命实体，赋予其生态保护地位。",
+    "body": "近日，加拿大魁北克省的一个小镇作出了一项具有前瞻性的决议，正式承认树木为拥有权利的生命实体。这一举措打破了传统法律中将植物仅视为财产的界定，赋予了自然生态更多的法律地位。\n\n该决议的通过标志着当地在环境保护和生态权利方面迈出了重要一步。通过承认树木的生命权利，小镇旨在加强对当地森林资源的保护，防止过度开发和环境破坏。\n\n这一理念在国际上逐渐受到关注，属于新兴的“自然权利”运动。它不仅提升了公众的环保意识，也可能为未来其他地区制定更严格的生态保护法规提供参考与借鉴。",
+    "category": "国际局势",
+    "tags": [
+      "环境保护",
+      "生态权利",
+      "魁北克",
+      "自然权利"
+    ],
+    "source": "Hacker News",
+    "time": "刚刚",
+    "ts": "2026-06-24T17:09:38.463164+00:00",
+    "url": "https://www.cbc.ca/news/canada/montreal/terrasse-vaudreil-quebec-tree-rights-9.7243634",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "6443c435d905f2a8",
+    "title": "Zoox升级自动驾驶出租车 筹备商业化运营",
+    "summary": "亚马逊旗下自动驾驶公司Zoox对其自动驾驶出租车进行升级，为即将到来的商业化服务做准备。",
+    "body": "亚马逊旗下的自动驾驶公司Zoox正在对其自动驾驶出租车进行技术升级，以迎接未来的商业化运营。此次升级旨在进一步提升车辆的性能与安全性，为正式向公众提供出行服务奠定基础。\n\n随着自动驾驶技术的不断成熟，Robotaxi的商业化落地成为行业焦点。Zoox的这一举措展示了其在自动驾驶领域的持续投入，标志着该公司在推动无人驾驶出行服务商业化方面迈出关键一步，有望对未来城市交通出行模式产生积极影响。",
+    "category": "人工智能",
+    "tags": [
+      "Zoox",
+      "自动驾驶",
+      "Robotaxi",
+      "亚马逊"
+    ],
+    "source": "TechCrunch",
+    "time": "刚刚",
+    "ts": "2026-06-24T17:09:30.859350+00:00",
+    "url": "https://techcrunch.com/2026/06/24/zoox-upgrades-its-robotaxi-as-it-prepares-for-commercial-service/",
+    "image": "",
+    "stocks": [
+      {
+        "name": "亚马逊",
+        "ticker": "AMZN",
+        "reason": "Zoox为亚马逊全资子公司，其自动驾驶商业化进展有助于提升亚马逊在出行领域的布局价值。",
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
+    "id": "88ec2734a8c6ab4c",
+    "title": "亚马逊发布升级版Zoox自动驾驶出租车",
+    "summary": "亚马逊旗下Zoox推出升级版自动驾驶出租车，采用星空顶和面对面座椅设计。新车旨在提升乘客舒适度，进一步推动Robotaxi商业化落地。",
+    "body": "亚马逊旗下的自动驾驶公司Zoox近日推出了升级版的自动驾驶出租车。该车型在内饰设计上进行了显著优化，配备了星空顶以及面对面的座椅布局，致力于为乘客提供更加平静和舒适的出行体验。\n\n此次升级不仅提升了车辆的乘坐舒适度，也展现了Zoox在自动驾驶商业化落地方面的持续探索。通过优化车内空间与乘坐体验，Zoox有望在未来的自动驾驶出租车市场中增强竞争力，进一步推动Robotaxi行业的商业化进程。",
+    "category": "人工智能",
+    "tags": [
+      "亚马逊",
+      "Zoox",
+      "自动驾驶",
+      "Robotaxi"
+    ],
+    "source": "IT之家",
+    "time": "刚刚",
+    "ts": "2026-06-24T17:09:23.907053+00:00",
+    "url": "https://www.ithome.com/0/968/216.htm",
+    "image": "",
+    "stocks": [
+      {
+        "name": "亚马逊",
+        "ticker": "AMZN",
+        "reason": "旗下Zoox推出升级版自动驾驶出租车，推进Robotaxi商业化布局。",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "fbb1b0badc22c49e",
+    "title": "移民青少年深受双文化压力与心理冲突困扰",
+    "summary": "MedicalXpress报道指出，移民青少年在成长过程中常面临双文化压力，导致原生文化与主流文化碰撞的心理冲突。",
+    "body": "据MedicalXpress报道，移民青少年在适应新环境的过程中，常常体验到显著的双文化压力。这种压力源于他们试图在原生家庭文化与所在国主流文化之间寻找平衡，从而产生两个世界相互碰撞的强烈心理感受。\n\n这种文化冲突不仅影响青少年的身份认同，还可能对其心理健康和社交发展带来长期挑战。关注并理解这一群体的双文化压力，对于制定有效的心理干预措施、改善公共卫生以及提供教育支持具有重要的社会意义。",
+    "category": "生物医药",
+    "tags": [
+      "心理健康",
+      "双文化压力",
+      "移民青少年"
+    ],
+    "source": "MedicalXpress",
+    "time": "刚刚",
+    "ts": "2026-06-24T17:09:17.069834+00:00",
+    "url": "https://medicalxpress.com/news/2026-06-immigrant-youths-worlds-collide-bicultural.html",
+    "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/immigrant-youths-feel.jpg",
+    "stocks": []
+  },
+  {
+    "id": "8d69ad132b153110",
+    "title": "卡马克反思《雷神之锤》开发失误及其深远影响",
+    "summary": "传奇程序员约翰·卡马克回顾了《雷神之锤》开发过程中的失误，并探讨了这些错误如何对id Software造成负面影响。",
+    "body": "传奇程序员、id Software联合创始人约翰·卡马克近期回顾了经典游戏《雷神之锤》（Quake）的开发历史，并公开反思了当时的诸多失误。\n\n他探讨了围绕《雷神之锤》开发过程中所犯下的错误，指出这些失误不仅影响了项目本身，更对id Software的后续发展造成了严重的负面影响。\n\n此次反思揭示了早期游戏开发在技术探索与团队管理上面临的挑战，为现代科技与软件工程项目提供了宝贵的历史借鉴。",
+    "category": "消费电子",
+    "tags": [
+      "约翰·卡马克",
+      "id Software",
+      "雷神之锤",
+      "游戏开发"
+    ],
+    "source": "Hacker News",
+    "time": "刚刚",
+    "ts": "2026-06-24T17:09:14.731625+00:00",
+    "url": "https://twitter.com/ID_AA_Carmack/status/2069799283369345247",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "258c87ebe5b0f1e3",
+    "title": "NASA将2026世界杯用球送至国际空间站",
+    "summary": "美国宇航局将2026年FIFA世界杯官方用球运送至国际空间站，供宇航员在微重力环境下进行踢球测试。",
+    "body": "美国宇航局（NASA）近期将2026年FIFA世界杯官方比赛用球送往国际空间站（ISS）。这一举措旨在让驻站宇航员在独特的微重力环境中测试和展示他们的足球技巧。\n\n此次太空踢球活动不仅是一次趣味性的科普互动，也为研究微重力环境下物体的运动轨迹和人体运动控制提供了直观的观察机会。通过这种生动的方式，NASA进一步拉近了太空探索与全球公众尤其是体育迷之间的距离，提升了航天科普的趣味性。",
+    "category": "商业航天",
+    "tags": [
+      "NASA",
+      "国际空间站",
+      "2026世界杯",
+      "微重力"
+    ],
+    "source": "Space.com",
+    "time": "刚刚",
+    "ts": "2026-06-24T17:09:08.315199+00:00",
+    "url": "https://www.space.com/space-exploration/nasa-sent-a-fifa-world-cup-2026-ball-to-the-iss-so-astronauts-can-test-their-footwork-in-zero-gravity-video",
+    "image": "https://cdn.mos.cms.futurecdn.net/Bf2EQxovTCZR4fNaXemSBe-1280-80.jpg",
+    "stocks": []
+  },
+  {
+    "id": "eb880b0783fc3810",
+    "title": "半岛电视台播出纪录片《大象的智慧》斯里兰卡篇",
+    "summary": "半岛电视台推出系列节目《大象的智慧》第七集，聚焦斯里兰卡的大象与生态议题。",
+    "body": "半岛电视台（Al Jazeera）播出了系列节目《大象的智慧》（What The Elephant Knows）第七集，本集内容主要聚焦于斯里兰卡。该节目围绕当地大象的生存状况及相关自然生态议题展开探讨。\n\n作为一档纪实类节目，该集的播出为观众提供了了解斯里兰卡野生动物与生态环境的窗口，有助于提升公众对自然生态与动物保护的关注度。",
+    "category": "国际局势",
+    "tags": [
+      "半岛电视台",
+      "斯里兰卡",
+      "纪录片",
+      "生态保护"
+    ],
+    "source": "Al Jazeera",
+    "time": "刚刚",
+    "ts": "2026-06-24T17:09:07.102565+00:00",
+    "url": "https://www.aljazeera.com/video/making-peace/2026/6/24/what-the-elephant-knows-ep-7-sri?traffic_source=rss",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "64120151d20d2449",
+    "title": "谷歌钱包将支持TSA无接触身份验证",
+    "summary": "谷歌宣布将优化Google Wallet功能，使用户能更便捷地通过该应用使用TSA PreCheck无接触身份验证服务。",
+    "body": "谷歌近日宣布，将对其数字钱包应用Google Wallet进行功能优化，使用户能够更便捷地使用美国运输安全管理局（TSA）的PreCheck无接触身份验证（Touchless ID）服务。\n\n这一更新旨在简化机场安检流程，旅客未来在通过TSA PreCheck通道时，可直接通过手机上的Google Wallet完成身份核验，无需再出示实体身份证件。\n\n此举不仅提升了用户的出行体验与安检效率，也进一步拓展了数字钱包在公共交通与身份认证领域的应用场景，凸显了移动端数字身份验证的发展趋势。",
+    "category": "消费电子",
+    "tags": [
+      "谷歌",
+      "数字钱包",
+      "数字身份",
+      "智慧出行"
+    ],
+    "source": "Engadget",
+    "time": "刚刚",
+    "ts": "2026-06-24T17:09:00.929293+00:00",
+    "url": "https://www.engadget.com/2200637/google-says-itll-soon-be-easier-to-use-tsa-precheck-touchless-id-via-wallet/",
+    "image": "https://www.engadget.com/img/gallery/google-says-itll-soon-be-easier-to-use-tsa-precheck-touchless-id-via-wallet/l-intro-1782311970.jpg",
+    "stocks": [
+      {
+        "name": "谷歌",
+        "ticker": "GOOGL",
+        "reason": "Google Wallet为谷歌旗下产品，功能升级有助于提升其数字钱包的用户黏性与生态竞争力。",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "063f3fc53975c852",
+    "title": "2026年Prime Day乐高最佳折扣指南发布",
+    "summary": "科技媒体Wired发布了2026年Prime Day乐高套装折扣指南，由资深玩家盘点最具性价比的促销产品。",
+    "body": "知名科技媒体Wired发布了2026年亚马逊Prime Day期间的乐高套装折扣指南。该文章由拥有丰富拼搭经验的资深编辑撰写，旨在从众多促销活动中筛选出最具性价比和可玩性的乐高产品，为消费者提供直接的选购建议。\n\n此类大型电商促销导购内容的发布，反映了头部IP玩具在重要消费节点的强劲市场需求。这不仅为乐高爱好者提供了以优惠价格入手心仪套装的契机，也侧面展现了电商平台通过细分品类导购来刺激实体消费、提升用户活跃度的营销策略。",
+    "category": "消费电子",
+    "tags": [
+      "乐高",
+      "Prime Day",
+      "消费导购"
+    ],
+    "source": "Wired",
+    "time": "刚刚",
+    "ts": "2026-06-24T17:08:56.212559+00:00",
+    "url": "https://www.wired.com/story/amazon-prime-day-lego-deals-june-2026/",
+    "image": "https://media.wired.com/photos/68765df1e200b0b678ccf68c/master/pass/070925_Wellness-GEAR-19.jpg",
+    "stocks": []
+  },
+  {
+    "id": "6e7c08d281dcebd6",
+    "title": "《GTA6》开启预购：售价568至708港币，11月19日发售",
+    "summary": "备受期待的《GTA6》今日正式开启预购，售价568至708港币，将于11月19日登陆PS5及Xbox Series X|S平台。",
+    "body": "备受全球玩家瞩目的《侠盗猎车手6》（GTA6）今日正式开启预购。根据公布的信息，游戏售价区间为568至708港币，涵盖了不同版本的定价。\n\n该游戏将于11月19日正式发售，首发登陆索尼PS5以及微软Xbox Series X|S次世代主机平台。作为游戏史上的超级IP，此次新作发售预计将为相关主机硬件及游戏生态带来显著的增长动力。",
+    "category": "消费电子",
+    "tags": [
+      "GTA6",
+      "主机游戏",
+      "消费电子"
+    ],
+    "source": "IT之家",
+    "time": "刚刚",
+    "ts": "2026-06-24T17:08:42.951654+00:00",
+    "url": "https://www.ithome.com/0/968/218.htm",
+    "image": "",
+    "stocks": [
+      {
+        "name": "Take-Two Interactive",
+        "ticker": "TTWO",
+        "reason": "《GTA6》开发商母公司，游戏预售及发售将直接带来巨大营收",
+        "confidence": "high"
+      },
+      {
+        "name": "索尼",
+        "ticker": "SONY",
+        "reason": "PS5为《GTA6》首发平台之一，大作发售有望拉动主机销量及游戏服务收入",
+        "confidence": "medium"
+      },
+      {
+        "name": "微软",
+        "ticker": "MSFT",
+        "reason": "Xbox Series X|S为首发平台之一，利好其游戏生态及相关订阅服务",
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
+    "id": "7d4df5193a1750c8",
+    "title": "Figma发布重大更新：新增代码图层与更多AI功能",
+    "summary": "Figma在最新更新中引入了代码图层和动画支持功能，并进一步整合了多项AI特性以提升设计协作效率。",
+    "body": "设计协作平台Figma近日推出了一次重要更新，为开发者和设计师带来了多项实用功能。此次更新新增了代码图层功能，旨在进一步缩小设计与前端开发之间的鸿沟，提升工作流的协同效率。同时，新版本还加入了对动画设计的支持，使原型制作更加生动直观。\n\n此外，Figma在此次更新中引入了更多AI功能，持续深化人工智能在设计工具中的应用。这些AI特性的加入不仅有助于自动化繁琐的设计任务，还能为创作者提供智能建议，优化整体设计体验。\n\n整体而言，此次更新显著增强了Figma在UI/UX设计市场的核心竞争力。特别是在AI赋能设计和设计开发一体化方面的持续布局，将进一步巩固其在云端设计工具领域的行业领先地位。",
+    "category": "人工智能",
+    "tags": [
+      "Figma",
+      "AI设计",
+      "UI/UX",
+      "代码图层"
+    ],
+    "source": "TechCrunch",
+    "time": "刚刚",
+    "ts": "2026-06-24T17:08:41.117889+00:00",
+    "url": "https://techcrunch.com/2026/06/24/figma-adds-code-layers-support-for-animations-more-ai-features-in-new-update/",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "ef1f40f984b32e46",
+    "title": "大规模微生物组研究揭示结直肠癌稳健标志物",
+    "summary": "一项大规模微生物组研究成功识别出与结直肠癌相关的稳健特征标志物，为该疾病的早期诊断和潜在治疗提供了新方向。",
+    "body": "近日，一项大规模微生物组研究取得重要进展，研究人员成功识别出与结直肠癌密切相关的稳健微生物特征标志物。这一发现基于对大量样本的深入分析，确保了结果的可靠性与科学价值。\n\n该标志物的发现对结直肠癌的早期筛查、无创诊断以及个性化干预具有重要意义。通过监测肠道微生物组的特定变化来评估疾病风险，有望为未来的非侵入性检测手段提供新依据，并推动相关微生态疗法的研发进程。",
+    "category": "生物医药",
+    "tags": [
+      "结直肠癌",
+      "微生物组",
+      "早筛诊断"
+    ],
+    "source": "MedicalXpress",
+    "time": "刚刚",
+    "ts": "2026-06-24T17:08:35.719908+00:00",
+    "url": "https://medicalxpress.com/news/2026-06-robust-colorectal-cancer-signature-large.html",
+    "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/large-scale-microbiome.jpg",
+    "stocks": []
+  },
+  {
+    "id": "9a8e8c8df33cae9b",
+    "title": "宇宙或隐藏超乎想象的奇异智慧生命",
+    "summary": "科学家提出新假说，认为宇宙中可能存在人类难以想象的奇异意识形式。这一观点为天体生物学和意识本质的研究提供了新视角。",
+    "body": "近日，据ScienceDaily报道，科学界提出了一种引人深思的假说，认为广袤的宇宙中可能隐藏着人类难以想象的奇异意识或智慧生命。这一观点突破了人类对生命和意识的传统认知框架。\n\n该假说暗示，宇宙中的意识形式可能远比我们目前基于地球生命所理解的更加多样和复杂。这不仅为天体生物学和基础科学提供了全新的思考方向，也激发了科学界关于地外生命形态及意识本质的进一步探索与讨论。",
+    "category": "商业航天",
+    "tags": [
+      "宇宙探索",
+      "地外生命",
+      "意识本质"
+    ],
+    "source": "ScienceDaily",
+    "time": "刚刚",
+    "ts": "2026-06-24T17:08:34.524391+00:00",
+    "url": "https://www.sciencedaily.com/releases/2026/06/260623083146.htm",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "0219219d8d3d8a99",
+    "title": "丰田取消雷克萨斯旗舰电动车，继任车型获批",
+    "summary": "丰田取消了原计划的雷克萨斯旗舰电动汽车项目，但已批准开发其继任车型，显示出其在电动化战略上的灵活调整。",
+    "body": "丰田汽车近期对其电动化战略进行了调整，取消了原计划的雷克萨斯旗舰电动汽车项目。此举反映出公司在应对全球电动汽车市场需求波动及技术快速迭代时，对现有产品阵容的重新评估与优化。\n\n尽管原有项目被搁置，丰田并未放缓在豪华电动车领域的布局。该旗舰车型的继任者已正式获批开发，预计将采用更先进的电动平台与智能化技术。这一调整旨在确保雷克萨斯品牌在未来高端新能源市场保持核心竞争力。",
+    "category": "未来能源",
+    "tags": [
+      "丰田",
+      "雷克萨斯",
+      "电动汽车",
+      "战略调整"
+    ],
+    "source": "Electrek",
+    "time": "刚刚",
+    "ts": "2026-06-24T17:08:32.491471+00:00",
+    "url": "https://electrek.co/2026/06/24/toyota-scraps-new-lexus-ev-successor-gets-green-light/",
+    "image": "",
+    "stocks": [
+      {
+        "name": "丰田汽车",
+        "ticker": "TM",
+        "reason": "作为雷克萨斯母公司，新旗舰电动车获批有助于推进其高端电动化战略并提升长期竞争力。",
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
+    "id": "c62b1d0a6cb2bca4",
+    "title": "亚马逊Prime Day推流媒体优惠助力科幻狂欢",
+    "summary": "亚马逊Prime Day期间推出多项流媒体服务订阅折扣，助力用户以更低成本畅享科幻影视内容。",
+    "body": "在近期的亚马逊Prime Day促销活动中，多项主流流媒体服务平台推出了针对科幻及影视内容的订阅优惠。这些折扣旨在降低用户的数字娱乐成本，吸引观众订阅并观看丰富的科幻剧集与电影。\n\n此类数字内容促销不仅丰富了消费者的娱乐选择，也反映了流媒体平台在大型电商促销节点争夺用户订阅的激烈竞争。对于喜爱科幻题材的观众而言，这是体验高质量影视内容的绝佳时机。",
+    "category": "消费电子",
+    "tags": [
+      "Prime Day",
+      "流媒体",
+      "数字娱乐",
+      "亚马逊"
+    ],
+    "source": "Space.com",
+    "time": "刚刚",
+    "ts": "2026-06-24T17:08:29.460701+00:00",
+    "url": "https://www.space.com/entertainment/launch-your-sci-fi-binge-with-these-top-streaming-deals-i-found-during-prime-day",
+    "image": "https://cdn.mos.cms.futurecdn.net/zbTUP7gXA2D54wgBfPvmC4-1280-80.jpg",
+    "stocks": [
+      {
+        "name": "亚马逊",
+        "ticker": "AMZN",
+        "reason": "作为Prime Day主办方，流媒体促销有助于提升Prime会员生态价值与用户粘性。",
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
+    "id": "8869fbb5bdf555bd",
+    "title": "验证码技术失效二十年：AI与安全验证的博弈",
+    "summary": "Hacker News讨论指出，传统验证码技术在过去二十年中已逐渐失效，难以有效区分人类与自动化程序。",
+    "body": "近日，Hacker News上一篇题为“验证码（CAPTCHA）已失败20年”的讨论引发科技圈关注。该话题指出，传统验证码技术在区分人类用户与自动化程序方面的有效性正面临严峻挑战。\n\n随着人工智能和机器学习技术的快速迭代，机器破解图像识别、文本扭曲等验证码的能力大幅提升。这使得传统验证码不仅难以阻挡高级自动化攻击，反而增加了正常用户的操作摩擦。\n\n这一现象凸显了网络安全领域的验证机制亟需升级。行业正逐步向无感验证、行为分析等更先进的身份认证技术演进，以应对日益复杂的AI自动化威胁。",
+    "category": "人工智能",
+    "tags": [
+      "网络安全",
+      "人工智能",
+      "验证码"
+    ],
+    "source": "Hacker News",
+    "time": "刚刚",
+    "ts": "2026-06-24T17:08:16.649956+00:00",
+    "url": "https://www.browserbase.com/blog/why-captchas-are-getting-harder",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "43f351a1360bdc42",
+    "title": "特朗普取消签署住房法案，要求先通过选民身份证法",
+    "summary": "特朗普取消了原定的住房法案签署计划，并提出必须首先通过美国选民身份证法作为前提条件。",
+    "body": "据报道，特朗普近日宣布取消原定的住房法案签署仪式。此举表明他在推进国内立法议程时采取了更为强硬的立场，将特定政治诉求置于其他民生法案之前。\n\n特朗普明确表示，在推进住房法案等其他立法之前，必须首先通过美国选民身份证法。这一要求反映了其在选举安全问题上的核心主张，预计将对后续的国会立法进程及两党谈判产生显著影响。",
+    "category": "国际局势",
+    "tags": [
+      "特朗普",
+      "住房法案",
+      "选民身份证法",
+      "美国政治"
+    ],
+    "source": "Al Jazeera",
+    "time": "刚刚",
+    "ts": "2026-06-24T17:08:13.480095+00:00",
+    "url": "https://www.aljazeera.com/economy/2026/6/24/trump-cancels-housing-bill-signing-demands-us-voter-id-law-first?traffic_source=rss",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "6f6025a849ad203c",
+    "title": "TP-Link Wi-Fi 7路由器BE550降价至149.99美元",
+    "summary": "TP-Link Archer BE550 Wi-Fi 7路由器目前享受六折优惠，售价降至149.99美元，提供高达9.3 Gbps带宽及全2.5G网口。",
+    "body": "TP-Link旗下的高性能Archer BE550 Wi-Fi 7路由器目前正在进行大幅促销活动，价格下调40%，现价仅为149.99美元。\n\n该路由器支持高达9.3 Gbps的总带宽，并配备了完整的2.5 Gbps LAN端口，能够为家庭或小型办公环境提供高速、稳定的网络连接体验。对于有升级Wi-Fi 7网络需求的用户而言，此次降价使其具备了极高的性价比。",
+    "category": "消费电子",
+    "tags": [
+      "TP-Link",
+      "Wi-Fi 7",
+      "路由器"
+    ],
+    "source": "Tom's Hardware",
+    "time": "刚刚",
+    "ts": "2026-06-24T17:08:13.266871+00:00",
+    "url": "https://www.tomshardware.com/pc-components/pay-just-usd149-99-for-the-tp-link-archer-wi-fi-7-router-with-9-3-gbps-of-bandwidth-now-40-percent-off-high-powered-be550-router-comes-with-a-full-complement-of-2-5-gbps-lan-ports-too",
+    "image": "https://cdn.mos.cms.futurecdn.net/zmSyheCMqHKqFxKfNj8okZ-1280-80.jpg",
+    "stocks": []
+  },
+  {
+    "id": "959e4481a63bacb9",
+    "title": "特朗普政府对Anthropic CEO失去耐心",
+    "summary": "据报道，特朗普白宫对Anthropic首席执行官达里奥·阿莫迪的态度发生转变，双方在AI政策立场上或存在分歧。",
+    "body": "据Wired报道，特朗普白宫对人工智能公司Anthropic首席执行官达里奥·阿莫迪（Dario Amodei）的态度发生明显转变，双方关系似乎已走向破裂。这一现象反映出美国新一届政府在人工智能发展路线与监管立场上，可能与部分头部AI企业的理念存在分歧。\n\nAnthropic长期倡导严格的AI安全评估与监管，而特朗普政府可能更倾向于放松管制以加速技术迭代与商业竞争。白宫对阿莫迪态度的变化，预示着美国未来的AI政策环境或将发生重大调整，这不仅将影响Anthropic等强调安全合规的AI企业发展，也将对全球人工智能产业的监管格局产生深远影响。",
+    "category": "人工智能",
+    "tags": [
+      "Anthropic",
+      "特朗普",
+      "AI监管",
+      "人工智能"
+    ],
+    "source": "Wired",
+    "time": "刚刚",
+    "ts": "2026-06-24T17:08:08.125940+00:00",
+    "url": "https://www.wired.com/story/the-trump-white-house-is-over-anthropics-dario-amodei/",
+    "image": "https://media.wired.com/photos/6a3b1efdfb31b3da3e9adc12/master/pass/politics_white_house_anthropic_dario_amodei.jpg",
+    "stocks": []
+  },
+  {
+    "id": "43ab470c7329dd18",
+    "title": "八位堂推出街机控制器Pro，专为硬核格斗玩家打造",
+    "summary": "知名游戏外设品牌八位堂正式发布Arcade Controller Pro街机控制器，旨在为硬核格斗游戏玩家提供专业级操控体验。",
+    "body": "近日，游戏外设品牌八位堂（8BitDo）正式推出了全新产品Arcade Controller Pro街机控制器。这款设备专为硬核格斗游戏爱好者设计，致力于提供媲美传统街机厅的专业操控体验。\n\nArcade Controller Pro在按键布局和摇杆手感上进行了深度优化，以满足格斗游戏对高精度和快速响应的严苛要求。此举进一步丰富了八位堂在高端游戏外设领域的产品线，展现了其在细分玩家群体中的持续创新与深耕能力。",
+    "category": "消费电子",
+    "tags": [
+      "八位堂",
+      "游戏外设",
+      "街机控制器"
+    ],
+    "source": "Engadget",
+    "time": "刚刚",
+    "ts": "2026-06-24T17:08:05.437268+00:00",
+    "url": "https://www.engadget.com/2197349/8bitdo-launches-the-arcade-controller-pro-for-hardcore-fighting-game-fans/",
+    "image": "https://www.engadget.com/img/gallery/8bitdo-launches-the-arcade-controller-pro-for-hardcore-fighting-game-fans/l-intro-1781799070.jpg",
+    "stocks": []
+  },
+  {
+    "id": "0ca0cd40760de5d3",
+    "title": "Slate Auto上线2.5万美元电动皮卡配置工具",
+    "summary": "美国电动汽车初创公司Slate Auto正式上线其售价2.5万美元的电动皮卡在线配置工具，开放用户自定义车辆。",
+    "body": "美国电动汽车初创公司Slate Auto近日正式上线了其电动皮卡的在线配置工具。该工具允许潜在买家在车辆正式量产交付前，根据个人需求自定义这款起售价仅为2.5万美元的平价电动皮卡。\n\n这一举措标志着Slate Auto在推进其低价电动皮卡商业化进程方面迈出了重要一步。通过开放在线定制，公司能够提前收集市场反馈和用户偏好，有效评估市场需求，从而为后续的生产和交付计划提供关键的数据支持。",
+    "category": "未来能源",
+    "tags": [
+      "Slate Auto",
+      "电动皮卡",
+      "新能源汽车",
+      "在线定制"
+    ],
+    "source": "Ars Technica",
+    "time": "刚刚",
+    "ts": "2026-06-24T17:07:55.408749+00:00",
+    "url": "https://arstechnica.com/cars/2026/06/here-are-five-ways-you-could-build-a-slate-ev-from-25000-to-37000/",
+    "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/06/slate-screenshot-1-1152x648-1782308243.jpg",
+    "stocks": []
+  },
+  {
+    "id": "f3d6579a3221b679",
+    "title": "预防与控制耳念珠菌儿科指南发布",
+    "summary": "医学界发布了针对儿童预防和控制耳念珠菌感染的最新临床建议，旨在应对这一多重耐药真菌带来的公共卫生挑战。",
+    "body": "近日，针对预防和控制耳念珠菌（Candida auris）感染的儿科专项建议正式发布。耳念珠菌是一种新兴的多重耐药真菌，易在医疗机构内传播，对免疫系统尚未发育完全的儿童群体构成显著的公共卫生威胁。\n\n该建议主要为儿科医疗机构提供了标准化的感染控制策略、早期诊断流程以及临床干预指导。其核心目的在于帮助医护人员规范操作，降低院内交叉感染风险，并提升对耐药真菌感染的综合诊疗能力。\n\n此次儿科专项指南的出台，进一步完善了多重耐药菌的防控体系。这不仅有助于提升儿童医疗环境的安全性，也将带动相关病原体检测与抗感染治疗领域的规范化发展。",
+    "category": "生物医药",
+    "tags": [
+      "耳念珠菌",
+      "儿科医学",
+      "感染控制",
+      "多重耐药菌"
+    ],
+    "source": "MedicalXpress",
+    "time": "刚刚",
+    "ts": "2026-06-24T17:07:50.708852+00:00",
+    "url": "https://medicalxpress.com/news/2026-06-pediatric-candida-auris.html",
+    "image": "https://scx1.b-cdn.net/csz/news/tmb/2018/candidaauris.jpg",
+    "stocks": [
+      {
+        "name": "硕世生物",
+        "ticker": "688399.SH",
+        "reason": "公司具备病原体及真菌检测技术储备，相关产品可应用于院内感染监测与防控，受益于检测需求规范。",
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
+    "id": "0140935d72af0340",
+    "title": "IGN盘点《GTA6》22个潜在玩法细节",
+    "summary": "游戏媒体IGN盘点了《GTA 6》的22个潜在玩法细节，包括钓鱼、车房宝物和维赛迪庄园等新元素。",
+    "body": "近日，游戏媒体IGN对备受瞩目的《GTA 6》进行了详细梳理，盘点了22个潜在的玩法细节。这些细节涵盖了钓鱼系统、“车房宝物”收集以及维赛迪庄园等全新元素，展示了游戏在互动性和探索性方面的进一步提升。\n\n这些新玩法的曝光不仅丰富了玩家对《GTA 6》的期待，也预示着开发商在开放世界游戏设计上的持续创新。作为游戏行业的标杆之作，该作的任何新进展都备受全球玩家和资本市场的关注。",
+    "category": "消费电子",
+    "tags": [
+      "GTA6",
+      "游戏",
+      "IGN"
+    ],
+    "source": "IT之家",
+    "time": "刚刚",
+    "ts": "2026-06-24T17:07:49.515717+00:00",
+    "url": "https://www.ithome.com/0/968/219.htm",
+    "image": "",
+    "stocks": [
+      {
+        "name": "Take-Two Interactive",
+        "ticker": "TTWO",
+        "reason": "作为《GTA》系列开发商Rockstar的母公司，游戏新细节曝光有助于提升市场对其未来业绩的预期。",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "2fc4dcce358ed3c3",
+    "title": "美国NTSB对得州特斯拉致命车祸展开调查",
+    "summary": "美国国家运输安全委员会（NTSB）宣布对得克萨斯州发生的一起涉及特斯拉的致命车祸展开调查，重点关注车辆系统及事故原因。",
+    "body": "近日，美国国家运输安全委员会（NTSB）宣布对得克萨斯州发生的一起特斯拉致命车祸启动正式调查。此次事故引发了外界对特斯拉自动驾驶辅助系统安全性的再次关注。\n\nNTSB的调查将重点分析事故发生时的车辆数据、驾驶员状态以及自动驾驶系统的运行情况。此类调查旨在查明事故原因，并可能为未来的交通安全法规和自动驾驶技术改进提供参考。\n\n对于特斯拉而言，此类安全调查可能会对其自动驾驶技术的公众信任度及监管审批进程产生一定影响，公司需积极配合调查并提供相关数据。",
+    "category": "人工智能",
+    "tags": [
+      "特斯拉",
+      "NTSB",
+      "自动驾驶",
+      "交通事故"
+    ],
+    "source": "TechCrunch",
+    "time": "刚刚",
+    "ts": "2026-06-24T17:07:46.292988+00:00",
+    "url": "https://techcrunch.com/2026/06/24/ntsb-launches-probe-into-fatal-texas-tesla-crash/",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "bda16f140e0e9b21",
+    "title": "科学家发现有助于屏蔽干扰的古老脑细胞",
+    "summary": "科学家最新研究发现了一种古老的脑细胞，该细胞在帮助大脑屏蔽外界干扰、集中注意力方面发挥着关键作用。",
+    "body": "近日，据ScienceDaily报道，科学家在神经科学领域取得一项新发现，识别出一种古老的脑细胞。研究指出，这类脑细胞在帮助大脑屏蔽外界干扰、维持注意力集中方面发挥着重要作用。\n\n这一基础科学发现进一步深化了学界对大脑注意力机制及神经演化历程的理解。虽然目前仍处于基础研究阶段，但未来有望为注意力缺陷等相关神经系统疾病的干预与治疗提供新的理论依据。",
+    "category": "生物医药",
+    "tags": [
+      "神经科学",
+      "脑细胞",
+      "注意力机制"
+    ],
+    "source": "ScienceDaily",
+    "time": "刚刚",
+    "ts": "2026-06-24T17:07:36.461950+00:00",
+    "url": "https://www.sciencedaily.com/releases/2026/06/260624025426.htm",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "0f8d580563066d7c",
+    "title": "中国纯CPU超算登顶全球最快榜单，未使用任何GPU",
+    "summary": "中国凭借一台未搭载任何GPU的纯CPU超级计算机，以2.198 Exaflops的性能登顶全球最快超算榜单，打破了美国超算El Capitan的领先地位。",
+    "body": "近日，全球超级计算机排名迎来重大更新。中国凭借一台纯CPU架构的超级计算机成功登顶最快超算榜单，其峰值性能达到了惊人的2.198 Exaflops（每秒219.8亿亿次浮点运算）。值得注意的是，该超算在实现这一破纪录算力时，并未使用任何GPU加速卡。\n\n这一成就直接结束了美国超级计算机“El Capitan”此前在全球最快超算领域的统治地位。在GPU主导当前高性能计算和人工智能训练的背景下，中国这台纯CPU超算的亮相，展示了在处理器架构设计、系统互联及软件优化方面的深厚技术积累。\n\n此次登顶不仅彰显了我国在高端算力基础设施领域的自主研发实力，也为未来超算技术路线提供了新的思路。在面临外部高端芯片出口管制的复杂国际环境下，纯CPU超算的成功突围具有重要的战略意义和示范效应。",
+    "category": "人工智能",
+    "tags": [
+      "超级计算机",
+      "高性能计算",
+      "国产CPU",
+      "算力"
+    ],
+    "source": "Tom's Hardware",
+    "time": "刚刚",
+    "ts": "2026-06-24T17:07:32.876898+00:00",
+    "url": "https://www.tomshardware.com/tech-industry/supercomputers/china-tops-the-top500-with-a-cpu-only-supercomputer-ending-el-capitans-reign",
+    "image": "https://cdn.mos.cms.futurecdn.net/8AYEMuF2nsrsDRTtDfxhjc-1280-80.jpg",
+    "stocks": []
+  },
+  {
+    "id": "a26ab04a9418870d",
+    "title": "福特推平价电动车平台 称具对华竞争优势",
+    "summary": "福特汽车推出全新平价电动汽车平台，并认为该平台将使其在面对中国车企竞争时具备优势。",
+    "body": "福特汽车表示，其全新开发的平价电动汽车平台将为公司带来显著的竞争优势。福特管理层认为，依托该平台，公司能够在成本控制和产品定价上有效应对来自中国电动汽车制造商的激烈竞争。\n\n这一战略举措旨在加速福特在大众市场的电动化布局。通过推出更具价格竞争力的电动车型，福特期望在全球新能源汽车市场中巩固自身地位，并对现有的行业竞争格局产生积极影响。",
+    "category": "未来能源",
+    "tags": [
+      "福特",
+      "电动汽车",
+      "平价平台",
+      "行业竞争"
+    ],
+    "source": "Electrek",
+    "time": "刚刚",
+    "ts": "2026-06-24T17:07:28.309336+00:00",
+    "url": "https://electrek.co/2026/06/24/ford-edge-over-china-30k-ev-platform/",
+    "image": "",
+    "stocks": [
+      {
+        "name": "福特汽车",
+        "ticker": "F",
+        "reason": "作为新闻主体，推出平价电动车平台有望提升其成本优势和市场竞争力。",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "fcbdbfcb11aeab2c",
+    "title": "SpaceX今晚从加州发射24颗星链卫星",
+    "summary": "太空探索技术公司（SpaceX）计划于今晚从加利福尼亚州发射24颗“星链”卫星。此次发射任务将进行网络直播，旨在进一步扩充其全球卫星互联网星座。",
+    "body": "太空探索技术公司（SpaceX）计划于今晚从加利福尼亚州执行一次新的发射任务，将24颗“星链”（Starlink）卫星送入太空。公众可以通过官方渠道观看此次发射的现场直播。\n\n此次发射是SpaceX持续构建和扩展其全球卫星互联网星座的常规任务之一。随着更多卫星的部署，“星链”网络将进一步提升其全球覆盖能力和通信服务质量，巩固SpaceX在商业航天和卫星互联网领域的领先地位。",
+    "category": "商业航天",
+    "tags": [
+      "SpaceX",
+      "星链",
+      "卫星发射",
+      "商业航天"
+    ],
+    "source": "Space.com",
+    "time": "刚刚",
+    "ts": "2026-06-24T17:07:25.859602+00:00",
+    "url": "https://www.space.com/space-exploration/launches-spacecraft/spacex-falcon-9-starlink-group-17-45-launch-ocisly",
+    "image": "https://cdn.mos.cms.futurecdn.net/QD9MfjLaeqxFtPs6p5238h-1280-80.jpg",
+    "stocks": []
+  },
+  {
+    "id": "a58add146917c49e",
+    "title": "物理学家如何追踪与捕捉难以捉摸的中微子",
+    "summary": "本文探讨了物理学家在追踪和捕捉中微子这一基本粒子时所采用的前沿技术与实验方法，揭示了其在粒子物理研究中的重要性。",
+    "body": "中微子是宇宙中最丰富却最难探测的基本粒子之一，因其几乎不与普通物质发生相互作用而被称为“幽灵粒子”。为了追踪和捕捉这些难以捉摸的粒子，物理学家开发了极其灵敏的探测器，并将其深埋于地下或置于极地冰层中，以有效屏蔽宇宙射线的背景干扰。\n\n这些前沿实验不仅依赖于庞大的探测阵列和先进的光电探测技术，还涉及对量子力学和粒子物理标准模型的深入应用。成功捕捉和分析中微子，对于揭示宇宙起源、超新星爆发机制以及探索超越标准模型的新物理现象具有深远的科学意义。",
+    "category": "量子科技",
+    "tags": [
+      "中微子",
+      "粒子物理",
+      "基础科学"
+    ],
+    "source": "Quanta",
+    "time": "刚刚",
+    "ts": "2026-06-24T17:07:25.407027+00:00",
+    "url": "https://www.quantamagazine.org/how-physicists-track-and-trap-the-elusive-neutrino-20260624/",
+    "image": "https://www.quantamagazine.org/wp-content/uploads/2055/06/SuperKamiokandeObservatoryInKamiokaJapan-crKamioka-Observatory_ICRR_UniversityOfTokyo-Default.webp",
+    "stocks": []
+  },
+  {
+    "id": "cd79c29d97224bf7",
+    "title": "开发者实现让存储桶支持Git协议",
+    "summary": "一项技术实践展示了如何让存储桶具备Git版本控制功能，为数据存储与代码管理结合提供新思路。",
+    "body": "近日，有开发者在技术社区分享了一项技术实践，探索了让存储桶（Bucket）直接支持Git协议的方法。该项目旨在打破传统存储与版本控制系统之间的壁垒。\n\n通过这一实践，存储桶能够原生理解并处理Git命令，从而在底层存储架构上实现更高效的代码或数据版本管理。这种技术探索为分布式存储与版本控制系统的深度融合提供了有价值的参考。",
+    "category": "消费电子",
+    "tags": [
+      "Git",
+      "版本控制",
+      "对象存储",
+      "开发者工具"
+    ],
+    "source": "Hacker News",
+    "time": "刚刚",
+    "ts": "2026-06-24T17:07:20.172918+00:00",
+    "url": "https://www.tigrisdata.com/blog/objgit/",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "d6912759e08a7df1",
+    "title": "以色列袭击黎南致2死 无视华盛顿和谈",
+    "summary": "尽管华盛顿正在进行相关会谈，以色列仍在黎巴嫩南部发动袭击并造成两人死亡。",
+    "body": "据半岛电视台报道，尽管各方正在华盛顿进行外交斡旋与会谈，以色列军队依然在黎巴嫩南部发动了军事袭击。此次袭击事件已造成至少两人死亡，凸显了当前中东地区局势的持续紧张。\n\n外交努力与地面军事冲突的并行，使得该地区的和平前景面临更多不确定性。这不仅增加了冲突进一步升级的风险，也引发了国际社会对中东地缘政治稳定性的深切担忧。",
+    "category": "国际局势",
+    "tags": [
+      "中东局势",
+      "以色列",
+      "黎巴嫩",
+      "地缘政治"
+    ],
+    "source": "Al Jazeera",
+    "time": "刚刚",
+    "ts": "2026-06-24T17:07:18.062444+00:00",
+    "url": "https://www.aljazeera.com/news/2026/6/24/israeli-attacks-kill-2-in-southern-lebanon-despite-ongoing-washington-talks?traffic_source=rss",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "9cb12745f6c5471b",
+    "title": "亚马逊2026年Prime Day礼品卡优惠力度空前",
+    "summary": "据Wired报道，2026年亚马逊Prime Day推出了极具吸引力的礼品卡促销，其优惠力度被形容为几乎等同于白送钱。",
+    "body": "据Wired报道，2026年亚马逊Prime Day期间推出了极具吸引力的礼品卡优惠活动。报道指出，此次礼品卡促销的折扣力度极大，对消费者而言几乎等同于免费获取资金。\n\n此类大力度的促销活动通常旨在刺激Prime Day期间的整体消费，提升平台用户活跃度。对于消费者来说，这也是在年度大促中获取额外购买力、选购消费电子及其他商品的良机。\n\n尽管具体优惠细则未在标题中详述，但媒体的高度评价反映出亚马逊在2026年大促中延续了激进的补贴策略，以进一步巩固其在零售市场的竞争优势。",
+    "category": "消费电子",
+    "tags": [
+      "亚马逊",
+      "Prime Day",
+      "礼品卡",
+      "电商促销"
+    ],
+    "source": "Wired",
+    "time": "刚刚",
+    "ts": "2026-06-24T17:07:02.180386+00:00",
+    "url": "https://www.wired.com/story/amazon-prime-day-gift-card-deals-2026/",
+    "image": "https://media.wired.com/photos/5932aa0baef9a462de9842eb/master/pass/gift_cards.jpeg",
+    "stocks": [
+      {
+        "name": "亚马逊",
+        "ticker": "AMZN",
+        "reason": "作为Prime Day主办方，大力度礼品卡促销有望提振平台整体销售额与会员活跃度。",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "efb34cc0fd86bb62",
+    "title": "美军各军种恢复流感疫苗强制接种要求",
+    "summary": "在流感病毒席卷部分军事基地后，美国各军种重新恢复了强制接种流感疫苗的规定，以保障部队健康与战备状态。",
+    "body": "近日，在流感病毒席卷部分军事基地后，美国各军种宣布恢复强制接种流感疫苗的要求。此前相关政策的调整导致部分基地疫苗接种率下降，使得流感病毒在军营内迅速传播，对部队的日常运作与战备状态造成了一定影响。\n\n恢复强制接种规定旨在迅速建立免疫屏障，防止病毒进一步蔓延。此举不仅有助于保护军人健康，也能确保军事基地的正常运转，避免公共卫生事件削弱整体国防战备能力。\n\n这一政策转变凸显了传染病防控在维持大型军事机构运作中的关键作用，同时也反映了公共卫生政策在应对局部疫情爆发时的灵活性与必要性。",
+    "category": "生物医药",
+    "tags": [
+      "流感疫苗",
+      "公共卫生",
+      "疫情防控"
+    ],
+    "source": "Ars Technica",
+    "time": "刚刚",
+    "ts": "2026-06-24T17:07:00.605739+00:00",
+    "url": "https://arstechnica.com/health/2026/06/military-branches-restore-flu-shot-requirement-after-virus-swept-through-base/",
+    "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/06/GettyImages-2224665122-1152x648.jpg",
+    "stocks": []
+  },
+  {
+    "id": "4d1ffd0ba05c68f6",
+    "title": "欧洲极端高温致发电厂停运",
+    "summary": "受极端高温天气影响，欧洲多地发电厂被迫关闭或减产，凸显气候变化对电力基础设施的威胁。",
+    "body": "近期，欧洲遭遇极端高温天气，导致部分发电厂被迫关闭或降低发电量。传统热力和核电站通常需要大量水资源进行冷却，而高温引发的河流水位下降和水温升高，直接限制了这些电厂的正常运行。\n\n这一现象凸显了气候变化对现有能源基础设施的脆弱性影响。极端天气频发不仅对区域电力供应安全构成挑战，也促使各界重新审视能源系统的抗风险能力。\n\n长远来看，此类事件可能加速能源结构的优化，推动对气候适应能力更强的新型能源技术、智能电网及储能系统的关注与投资，以保障未来电力供应的稳定性。",
+    "category": "未来能源",
+    "tags": [
+      "极端高温",
+      "电力供应",
+      "能源基础设施",
+      "气候变化"
+    ],
+    "source": "MIT Tech Review",
+    "time": "刚刚",
+    "ts": "2026-06-24T17:07:00.600584+00:00",
+    "url": "https://www.technologyreview.com/2026/06/24/1139676/europe-heat-power-plants/",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "9fb98569974c3faf",
+    "title": "特斯拉德州车祸致人死亡，家属提起非正常死亡诉讼",
+    "summary": "一辆特斯拉汽车在德克萨斯州发生致命车祸，遇难者家属已对特斯拉提起非正常死亡诉讼。",
+    "body": "近日，一辆特斯拉汽车在德克萨斯州发生致命车祸，遇难者家属已正式对特斯拉提起非正常死亡诉讼。\n\n此类针对车企的致命事故诉讼，通常会引发外界对车辆安全性及自动驾驶辅助系统可靠性的进一步审视，也可能对特斯拉的品牌声誉及后续的法律合规成本产生一定影响。",
+    "category": "人工智能",
+    "tags": [
+      "特斯拉",
+      "自动驾驶",
+      "法律诉讼",
+      "交通安全"
+    ],
+    "source": "Engadget",
+    "time": "刚刚",
+    "ts": "2026-06-24T17:06:55.398380+00:00",
+    "url": "https://www.engadget.com/2200784/family-files-wrongful-death-suit-following-tesla-crash-in-texas/",
+    "image": "https://www.engadget.com/img/gallery/family-files-wrongful-death-suit-following-tesla-autopilot-crash-in-texas/l-intro-1782319906.jpg",
+    "stocks": []
+  },
+  {
+    "id": "717ca1d9ae08b196",
+    "title": "Agility Robotics拟借壳上市 估值达25亿美元",
+    "summary": "人形机器人公司Agility Robotics计划通过SPAC方式合并上市，交易估值约为25亿美元。",
+    "body": "知名人形机器人研发企业Agility Robotics正计划通过特殊目的收购公司（SPAC）的方式登陆资本市场。据悉，此次合并交易的估值将达到25亿美元。\n\n这一举措标志着人形机器人赛道在资本市场的热度持续升温。若成功上市，该公司将获得更充足的资金用于其双足机器人的研发与商业化量产，进一步推动人形机器人在仓储物流等场景的落地应用。",
+    "category": "机器人",
+    "tags": [
+      "人形机器人",
+      "SPAC上市",
+      "Agility Robotics"
+    ],
+    "source": "TechCrunch",
+    "time": "刚刚",
+    "ts": "2026-06-24T17:06:54.921151+00:00",
+    "url": "https://techcrunch.com/2026/06/24/agility-robotics-plans-to-go-public-via-spac-in-a-2-5b-deal/",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "8407e2065d4e1d52",
+    "title": "拳头游戏允许玩家按需启用Vanguard反作弊系统",
+    "summary": "拳头游戏宣布，符合条件的《英雄联盟》和《无畏契约》玩家现可自主选择启用Vanguard反作弊软件的时机，无需再强制开机自启。",
+    "body": "拳头游戏对旗下《英雄联盟》和《无畏契约》使用的Vanguard反作弊系统进行了重要更新。此前，该软件因需要在系统启动时以内核级别运行，引发了部分玩家对隐私和系统资源的担忧。\n\n根据最新调整，如果玩家拥有合适的硬件配置，并选择启用启动前安全机制及Windows原生保护功能，现在可以将Vanguard反作弊软件从开机自启更改为按需启用。\n\n这一举措在保障游戏公平性和反作弊效果的同时，赋予了玩家更多的系统控制权，有望缓解社区长期以来对内核级反作弊软件常驻后台的争议，进一步提升PC端游戏的用户体验。",
+    "category": "消费电子",
+    "tags": [
+      "拳头游戏",
+      "反作弊",
+      "PC游戏",
+      "Vanguard"
+    ],
+    "source": "The Verge",
+    "time": "6分钟前",
+    "ts": "2026-06-24T13:00:00-04:00",
+    "url": "https://www.theverge.com/games/956137/riot-games-vanguard-pre-check-anti-cheat-on-demand-valorant",
+    "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/06/49f202be98d656f93b7e039a3a614615b60149ae-1920x1080.jpg.avif?quality=90&#038;strip=all&#038;crop=0,0,100,100",
+    "stocks": [
+      {
+        "name": "腾讯控股",
+        "ticker": "0700.HK",
+        "reason": "作为拳头游戏母公司，反作弊体验优化有助于提升旗下核心游戏产品的玩家活跃度与口碑。",
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
+    "id": "f6815b5cc6be9a04",
+    "title": "维基百科基金会英国员工寻求工会认可",
+    "summary": "维基媒体基金会的英国员工正推进工会化进程，已向管理层致信要求自愿认可工会。",
+    "body": "维基媒体基金会是支持维基百科运营的非营利组织。近日，该基金会驻英国的员工正在积极推进成立工会的行动，以争取更好的劳工权益。\n\n本周三，相关员工向基金会管理层发送了正式信件，要求组织自愿承认其工会地位。这一举措不仅体现了员工对工作环境与福利保障的关注，也折射出近年来全球科技及互联网行业劳工运动的持续发展趋势。",
+    "category": "消费电子",
+    "tags": [
+      "维基百科",
+      "工会化",
+      "劳工权益",
+      "维基媒体基金会"
+    ],
+    "source": "The Verge",
+    "time": "15分钟前",
+    "ts": "2026-06-24T12:51:10-04:00",
+    "url": "https://www.theverge.com/news/956237/wikipedia-wikimedia-foundation-staff-unionization-volunteer-editor-strike",
+    "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/02/STK037_WIKIPEDIA_C.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100",
+    "stocks": []
+  },
+  {
+    "id": "6d7b3293dda9133f",
+    "title": "Figma发布AI动态图形与着色器工具",
+    "summary": "Figma在年度Config大会上推出AI动态图形和着色器等新功能，旨在利用AI自动化繁琐任务并助力创作者拓展创意。",
+    "body": "Figma在其年度Config大会上发布了一系列设计与编码产品更新，重点推出了AI动态图形和着色器工具。这些新功能旨在帮助创作者进一步拓展创意边界，并通过人工智能技术自动化处理繁琐的设计任务。\n\n此外，Figma还对画布进行了重新设计与优化，以提升整体用户体验。此次更新不仅巩固了Figma在设计工具领域的领先地位，也展现了AI技术在创意软件中日益深化的应用潜力，有望进一步提升设计师的工作效率。",
+    "category": "人工智能",
+    "tags": [
+      "Figma",
+      "AI设计",
+      "动态图形"
+    ],
+    "source": "The Verge",
+    "time": "51分钟前",
+    "ts": "2026-06-24T12:15:00-04:00",
+    "url": "https://www.theverge.com/tech/955831/figma-code-design-tools-config-2026-announcements",
+    "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/06/Figma-config-2026.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100",
+    "stocks": []
+  },
+  {
+    "id": "78da0c12ffd88e51",
+    "title": "亚马逊Prime Day：52款25美元以下超值科技好物",
+    "summary": "The Verge 推荐了52款在亚马逊 Prime Day 期间售价低于25美元的科技小物件，为消费者提供高性价比购物指南。",
+    "body": "面对日益上涨的物价，许多曾经廉价的科技小玩意如今已不再亲民。为此，The Verge 编辑团队精心挑选了52款在亚马逊 Prime Day 期间售价低于25美元的超值科技好物与实用小物件，旨在帮助消费者在有限预算内享受科技便利。\n\n这份推荐清单不仅反映了市场对高性价比消费电子产品的持续需求，也凸显了 Prime Day 作为年度重要促销节点的影响力。通过提供丰富且价格合理的科技配件与小工具，亚马逊进一步吸引了消费者，巩固了其在电商与消费电子零售领域的竞争优势。",
+    "category": "消费电子",
+    "tags": [
+      "Prime Day",
+      "亚马逊",
+      "消费电子",
+      "促销"
+    ],
+    "source": "The Verge",
+    "time": "56分钟前",
+    "ts": "2026-06-24T12:09:26-04:00",
+    "url": "https://www.theverge.com/gadgets/951852/prime-day-deals-cheap-stuff-under-25-sale",
+    "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/10/Logitech-Pop-Mouse.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100",
+    "stocks": [
+      {
+        "name": "亚马逊",
+        "ticker": "AMZN",
+        "reason": "Prime Day年度大促直接带动公司零售业务销售额及Prime会员订阅增长。",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "4105fcd3bbbfc505",
+    "title": "太阳能智能鸟屋Birdbuddy Pro迎史低价",
+    "summary": "配备太阳能板的智能鸟屋Birdbuddy Pro在亚马逊Prime Day期间降至168美元的历史最低价。该产品支持联网并内置500万像素摄像头，可自动拍摄鸟类高清照片。",
+    "body": "对于希望在庭院中增添科技乐趣的用户而言，智能鸟屋Birdbuddy Pro迎来了绝佳的购买时机。在亚马逊Prime Day促销活动期间，这款配备太阳能板的智能设备售价降至168美元，远低于其约240美元的日常定价，创下历史新低。\n\nBirdbuddy Pro是一款支持互联网连接的智能庭院设备。其内置的500万像素摄像头能够自动捕捉并拍摄清晰的高清鸟类照片，让用户无需出门即可近距离观察和记录野生鸟类。\n\n此次降价大幅降低了智能庭院生态设备的体验门槛。结合其太阳能供电设计，用户不仅免去了频繁充电的烦恼，还能以更具性价比的方式享受科技带来的自然观察乐趣。",
+    "category": "消费电子",
+    "tags": [
+      "智能家居",
+      "消费电子",
+      "智能硬件",
+      "亚马逊促销"
+    ],
+    "source": "The Verge",
+    "time": "57分钟前",
+    "ts": "2026-06-24T12:08:50-04:00",
+    "url": "https://www.theverge.com/gadgets/955351/birdbuddy-pro-solar-prime-day-deal-sale",
+    "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/05/birdbuddy-pro-footage.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100",
+    "stocks": []
+  },
+  {
     "id": "9a8667a6f3112875",
     "title": "Xbox确认《战争机器：事变日》将参展2026科隆游戏展",
     "summary": "微软Xbox官方确认，备受期待的《战争机器：事变日》将参展2026年科隆游戏展，并提供现场试玩体验。",
@@ -41443,6 +42494,6 @@ const newsData = [
   }
 ];
 const newsDigest = {
-  "text": "今日聚焦AI基建安全、平价新能源及协作机器人创新。太阳风暴威胁算力与美政府施压Meta，利好AI数据中心与合规标的；Slate推平价电动皮卡及Mantis发布双臂机器人，利好新能源与机器人零部件企业。",
+  "text": "今日科技前沿聚焦AI落地与底层技术博弈。亚马逊Zoox自动驾驶出租车加速商业化，Figma深度整合AI重塑设计工作流；同时微软量子计算突破遭学界质疑，引发技术路线反思。此外《GTA6》开启预购引爆数字娱乐市场。",
   "highlights": []
 };
