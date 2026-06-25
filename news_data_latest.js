@@ -1,5 +1,1044 @@
 const newsData = [
   {
+    "id": "27a74de6853f8765",
+    "title": "亚马逊拟到2030年在印度追加投资130亿美元",
+    "summary": "亚马逊宣布长期投资计划，预计到2030年将在印度市场追加130亿美元投资，以深化当地业务布局。",
+    "body": "科技巨头亚马逊正持续加码印度市场。据悉，该公司计划到2030年在印度追加130亿美元的投资。这一长期投资承诺显示了亚马逊对印度市场增长潜力和数字化转型前景的信心。\n\n此举将助力亚马逊在印度进一步扩张其电子商务、云计算等核心业务，并推动当地科技基础设施建设。在全球科技企业竞相布局新兴市场的背景下，该投资有望为亚马逊的全球营收增长提供长期动力。",
+    "category": "消费电子",
+    "tags": [
+      "亚马逊",
+      "印度市场",
+      "海外投资"
+    ],
+    "source": "36氪",
+    "time": "刚刚",
+    "ts": "2026-06-25T23:23:46.346328+00:00",
+    "url": "https://36kr.com/newsflashes/3868723178116100?f=rss",
+    "image": "",
+    "stocks": [
+      {
+        "name": "亚马逊",
+        "ticker": "AMZN",
+        "reason": "作为投资主体，深化印度市场布局有望为其电商和云计算业务带来长期营收增长。",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "1ac1474c542011cf",
+    "title": "RTX 5070 Ti现899美元优惠，较零售价省220美元",
+    "summary": "Tom's Hardware 报道称，消费者目前可通过特定渠道以899美元购买英伟达 RTX 5070 Ti 显卡，较常规零售价节省220美元。",
+    "body": "科技媒体 Tom's Hardware 近日发布购买指南，指出消费者目前可通过特定渠道以899美元的价格购买英伟达 RTX 5070 Ti 显卡。该价格较常规零售价便宜220美元，为近期有硬件升级需求的用户提供了直接的采购优惠。\n\n此类针对新一代高性能显卡的促销与渠道信息，有助于刺激消费级 PC 硬件市场的换机需求。对于关注高端图形处理与游戏体验的消费者而言，当前的价格优惠提供了较好的入手时机，同时也反映了该产品在零售端的持续市场热度。",
+    "category": "消费电子",
+    "tags": [
+      "英伟达",
+      "RTX 5070 Ti",
+      "显卡"
+    ],
+    "source": "Tom's Hardware",
+    "time": "刚刚",
+    "ts": "2026-06-25T23:23:45.316836+00:00",
+    "url": "https://www.tomshardware.com/pc-components/gpus/want-an-rtx-5070-ti-heres-where-to-get-one-for-usd899-dont-pay-retail-and-save-usd220-today",
+    "image": "https://cdn.mos.cms.futurecdn.net/ZsojX47bD5x5mk3ERBQjt4-1280-80.jpg",
+    "stocks": [
+      {
+        "name": "英伟达",
+        "ticker": "NVDA",
+        "reason": "RTX 5070 Ti 的市场销售与渠道推广直接反映其消费级 GPU 产品的市场需求。",
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
+    "id": "df9b9f028286ba62",
+    "title": "外媒盘点Prime Day运动相机优惠：GoPro、大疆等领衔",
+    "summary": "外媒盘点了2026年亚马逊Prime Day期间值得关注的运动相机优惠，GoPro、Insta360和DJI等主流品牌均有产品参与促销。",
+    "body": "2026年亚马逊Prime Day活动期间，运动相机成为消费电子领域的促销热点。科技媒体Wired对市面上的热门运动相机优惠进行了盘点，重点推荐了GoPro、Insta360以及DJI（大疆）等头部品牌的相关产品。\n\n此次促销涵盖了上述三大品牌的多款主力机型，反映出运动相机在户外运动、Vlog拍摄等消费场景中的持续高需求。Prime Day等大型电商促销节点为消费者提供了以更具性价比的价格购入主流运动相机的良机。\n\n从行业角度来看，GoPro、Insta360和DJI在Prime Day的集中参与，体现了各大厂商通过大型促销活动抢占市场份额、加速产品普及的战略意图，有助于提振相关品牌的短期销售表现与市场关注度。",
+    "category": "消费电子",
+    "tags": [
+      "Prime Day",
+      "运动相机",
+      "消费电子",
+      "GoPro"
+    ],
+    "source": "Wired",
+    "time": "刚刚",
+    "ts": "2026-06-25T23:23:39.371289+00:00",
+    "url": "https://www.wired.com/story/prime-day-camera-deals-06-25-2026/",
+    "image": "https://media.wired.com/photos/68b0b3aaaabb24a7fecf68ff/master/pass/Take%20$150%20off%20our%20Favorite%20GoPro.png",
+    "stocks": [
+      {
+        "name": "GoPro",
+        "ticker": "GPRO",
+        "reason": "作为运动相机头部品牌，直接受益于Prime Day等大型电商促销活动带来的销量增长与品牌曝光。",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "d4fb10f81cb0cc5d",
+    "title": "俄据称利用取证平台黑入活动人士手机",
+    "summary": "据报道，俄罗斯在官方访问权限被切断的情况下，仍涉嫌利用某手机取证平台成功入侵一名活动人士的设备。",
+    "body": "近日有报道指出，俄罗斯涉嫌利用一款手机取证平台，成功黑入了一名活动人士的手机。值得注意的是，尽管俄罗斯对该平台的官方访问权限此前已被切断，但其仍通过某种方式实现了入侵。\n\n这一事件凸显了手机取证工具在复杂地缘政治背景下的潜在滥用风险。即使供应商切断了官方授权，国家背景的黑客组织仍可能通过黑市、漏洞利用或第三方渠道获取并利用这些强大的取证与破解工具。\n\n此类事件不仅对目标个人的隐私与安全构成严重威胁，也引发了国际社会对数字取证技术出口管制及终端设备安全防护的进一步关注。在国家级网络攻击手段不断演进的当下，移动终端的安全防护面临更大挑战。",
+    "category": "国际局势",
+    "tags": [
+      "网络安全",
+      "手机取证",
+      "黑客攻击"
+    ],
+    "source": "Engadget",
+    "time": "刚刚",
+    "ts": "2026-06-25T23:23:35.679111+00:00",
+    "url": "https://www.engadget.com/2201736/russia-allegedly-used-a-forensics-platform-to-hack-an-activist-s-phone-despite-having-its-access-cut-off/",
+    "image": "https://www.engadget.com/img/gallery/russia-allegedly-used-a-forensics-platform-to-hack-an-activists-phone-despite-having-its-access-cut-off/l-intro-1782407830.jpg",
+    "stocks": []
+  },
+  {
+    "id": "3fce7027df2f146b",
+    "title": "研究发现丙型肝炎与膀胱过度活动症存在显著关联",
+    "summary": "最新医学研究表明，丙型肝炎与膀胱过度活动症之间存在明确的临床关联，提示两者可能具有潜在的病理联系。",
+    "body": "近期发表的一项医学研究指出，丙型肝炎与膀胱过度活动症之间存在显著的关联性。这一发现为理解这两种疾病之间的潜在病理机制提供了新的视角。\n\n研究人员确认了这种临床关联，提示在丙型肝炎患者的常规诊疗中，可能需要增加对泌尿系统症状的筛查与关注，以改善患者的整体生活质量。\n\n该研究成果不仅有助于提升对丙型肝炎并发症的全面认知，也可能为膀胱过度活动症的早期预防和针对性干预提供重要的临床参考依据。",
+    "category": "生物医药",
+    "tags": [
+      "丙型肝炎",
+      "膀胱过度活动症",
+      "医学研究"
+    ],
+    "source": "MedicalXpress",
+    "time": "刚刚",
+    "ts": "2026-06-25T23:23:33.094695+00:00",
+    "url": "https://medicalxpress.com/news/2026-06-significant-association-hepatitis-overactive-bladder.html",
+    "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/significant-associatio.jpg",
+    "stocks": []
+  },
+  {
+    "id": "a31787860b2dbfcd",
+    "title": "Epic喜加二：《星穹遗迹》等两款游戏限时免费",
+    "summary": "Epic游戏商城开启新一轮免费活动，玩家可限时领取《星穹遗迹》与《过山车大亨 3 完全版》。",
+    "body": "Epic游戏商城近日开启了新一轮的免费游戏领取活动。本次“喜加二”活动为玩家带来了两款风格迥异的游戏作品，分别是太空殖民地模拟游戏《星穹遗迹》以及经典模拟经营游戏《过山车大亨 3 完全版》。\n\n玩家只需在活动期限内登录Epic游戏商城并将其添加至游戏库，即可永久保留这两款游戏。此类常态化的免费赠送策略不仅为玩家提供了实质性福利，也有助于Epic持续提升其PC游戏平台的用户粘性与市场竞争力。",
+    "category": "消费电子",
+    "tags": [
+      "Epic",
+      "免费游戏",
+      "星穹遗迹",
+      "过山车大亨"
+    ],
+    "source": "IT之家",
+    "time": "刚刚",
+    "ts": "2026-06-25T23:23:23.267650+00:00",
+    "url": "https://www.ithome.com/0/968/706.htm",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "f824d59d71213d55",
+    "title": "小分子抗病毒药物靶向ACE2受体阻断冠状病毒入侵",
+    "summary": "研究人员开发出一种靶向ACE2受体的小分子抗病毒药物，能够有效阻断冠状病毒进入宿主细胞，为抗击冠状病毒感染提供了新的治疗策略。",
+    "body": "近日，医学研究领域取得一项新进展，研究人员发现了一种新型小分子抗病毒药物。该药物通过特异性靶向人体细胞表面的ACE2受体，从而有效阻断冠状病毒与受体结合，防止病毒入侵宿主细胞。\n\n冠状病毒主要依赖ACE2受体作为进入人体细胞的通道。这种小分子药物的研发，不仅能够直接干预病毒的感染过程，还为应对当前及未来可能出现的冠状病毒变异株提供了广谱抗病毒治疗的潜在方案。\n\n这一发现对生物医药领域具有重要意义，有望推动新型抗冠状病毒药物的临床前研究与开发，进一步丰富全球应对呼吸道传染病的医疗储备。",
+    "category": "生物医药",
+    "tags": [
+      "抗病毒药物",
+      "ACE2受体",
+      "冠状病毒",
+      "小分子药物"
+    ],
+    "source": "MedicalXpress",
+    "time": "刚刚",
+    "ts": "2026-06-25T23:23:19.882022+00:00",
+    "url": "https://medicalxpress.com/news/2026-06-small-molecule-antiviral-drug-ace2.html",
+    "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/first-in-class-broad-s.jpg",
+    "stocks": []
+  },
+  {
+    "id": "81cd2e9838447777",
+    "title": "欧洲需求回暖，特斯拉柏林超级工厂拟扩招千人",
+    "summary": "随着欧洲市场电动汽车需求复苏，特斯拉计划为柏林超级工厂新增1000个工作岗位，以提升产能应对订单增长。",
+    "body": "随着欧洲市场对电动汽车的需求逐步回暖，特斯拉计划为其柏林超级工厂新增1000名员工。此举旨在应对该地区不断复苏的订单量，并进一步提升工厂的产能利用率。\n\n柏林超级工厂作为特斯拉在欧洲的核心制造基地，此次扩招释放了积极的市场信号。这不仅有助于缩短当地用户的交付周期，也将进一步巩固特斯拉在欧洲新能源汽车市场的竞争地位。",
+    "category": "未来能源",
+    "tags": [
+      "特斯拉",
+      "新能源汽车",
+      "柏林超级工厂",
+      "欧洲市场"
+    ],
+    "source": "Electrek",
+    "time": "刚刚",
+    "ts": "2026-06-25T23:23:14.208936+00:00",
+    "url": "https://electrek.co/2026/06/25/tesla-giga-berlin-1000-hires-europe-demand/",
+    "image": "",
+    "stocks": [
+      {
+        "name": "特斯拉",
+        "ticker": "TSLA",
+        "reason": "欧洲需求回暖及柏林工厂扩产将直接提升公司区域销量与产能利用率。",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "b34f977342d3f0d5",
+    "title": "美媒：伊朗预计每年海峡服务收费达400亿美元",
+    "summary": "据美媒报道，伊朗预计其每年从海峡服务中收取的费用将达到400亿美元，凸显该水道的经济与战略价值。",
+    "body": "美国媒体近日报道称，伊朗方面估计其每年通过海峡服务收取的费用将高达400亿美元。这一数据直观反映了该海峡在全球贸易和能源运输网络中的关键地位。\n\n该海峡作为全球最重要的能源和航运通道之一，其潜在的巨大服务收费不仅体现了极高的经济价值，也凸显了伊朗在区域地缘政治中的重要影响力。这一预期可能对全球能源供应链、国际航运成本及相关地缘博弈产生深远影响。",
+    "category": "国际局势",
+    "tags": [
+      "国际局势",
+      "地缘政治",
+      "航运",
+      "能源通道"
+    ],
+    "source": "36氪",
+    "time": "刚刚",
+    "ts": "2026-06-25T23:23:12.855232+00:00",
+    "url": "https://36kr.com/newsflashes/3868727613756425?f=rss",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "5d634ef9e14bca2b",
+    "title": "华硕发布测试版BIOS恢复锐龙9000内存加密",
+    "summary": "华硕为部分AM5主板推出测试版BIOS更新，恢复了此前被移除的TSME内存加密功能，以配合AMD锐龙9000系列处理器的发布计划。",
+    "body": "华硕近期针对部分AM5主板发布了测试版BIOS更新，重新引入了透明安全内存加密（TSME）功能。此前，该功能在未经显著说明的情况下被移除，引发了社区用户的广泛不满与反馈。此次更新旨在解决这一争议，并为AMD即将于7月推出的锐龙9000系列处理器做好全面准备。\n\nTSME功能对于注重数据安全的用户和企业至关重要，能够在底层对内存数据进行加密。华硕此次响应社区反馈并恢复该功能，不仅平息了用户争议，也确保了其主板产品能够完整支持AMD新一代处理器的安全特性，进一步巩固了其在消费电子市场的生态支持能力。",
+    "category": "消费电子",
+    "tags": [
+      "华硕",
+      "AMD",
+      "主板BIOS",
+      "锐龙9000"
+    ],
+    "source": "Tom's Hardware",
+    "time": "刚刚",
+    "ts": "2026-06-25T23:23:10.483778+00:00",
+    "url": "https://www.tomshardware.com/pc-components/cpus/asus-beta-bios-updates-restore-ryzen-9000-memory-encryption-ahead-of-amds-july-timeline-tsme-returns-to-select-am5-boards-after-silent-backlash-over-removal",
+    "image": "https://cdn.mos.cms.futurecdn.net/iTi2u9dxsJKv9h92p2sgiP-1280-80.jpg",
+    "stocks": []
+  },
+  {
+    "id": "233f1d679fce8116",
+    "title": "IBM宣布超微芯片“公寓楼”式立体设计突破",
+    "summary": "IBM宣布在超微芯片设计上取得“公寓楼”式立体堆叠突破，有望大幅缩小晶体管尺寸并提升芯片性能。",
+    "body": "IBM近日宣布了一项针对超微芯片的全新设计突破。该设计被形象地称为“公寓楼”式架构，旨在通过垂直立体堆叠的方式重构晶体管布局，以突破传统芯片设计的物理极限。\n\n这一创新设计有望在极小尺寸节点下大幅提升芯片的晶体管密度与整体能效。随着半导体工艺不断向更先进制程演进，此类立体架构将成为延续摩尔定律、支撑未来高性能计算的重要技术路径。",
+    "category": "人工智能",
+    "tags": [
+      "IBM",
+      "芯片设计",
+      "半导体",
+      "晶体管"
+    ],
+    "source": "BBC World",
+    "time": "刚刚",
+    "ts": "2026-06-25T23:23:09.579899+00:00",
+    "url": "https://www.bbc.co.uk/news/articles/cvg7vpyn5pxo?at_medium=RSS&at_campaign=rss",
+    "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e645/live/ebbfb1a0-7071-11f1-9af3-ff9a7832a0f3.jpg",
+    "stocks": [
+      {
+        "name": "IBM",
+        "ticker": "IBM",
+        "reason": "作为该芯片设计突破的研发方，技术领先有望巩固其在半导体研发与专利授权领域的优势。",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "7b3014bd48b95ff0",
+    "title": "《赛博朋克：边缘行者2》首波情报公布，新角色揭晓",
+    "summary": "《赛博朋克：边缘行者》动画续作首波情报公开，官方正式揭晓了新角色威克·金斯利。",
+    "body": "近日，备受关注的动画作品《赛博朋克：边缘行者》续作公布了首波情报。官方在最新披露的信息中，正式向公众揭晓了全新角色威克·金斯利，引发了粉丝与玩家的广泛讨论。\n\n作为基于热门游戏《赛博朋克2077》世界观衍生的动画作品，《边缘行者》第一季曾取得巨大成功并显著带动了游戏本体的销量。此次续作新角色的亮相，进一步丰富了该IP的宇宙设定。\n\n这也预示着制作方正持续推进相关泛娱乐内容的开发。优质的衍生内容不仅有助于维持IP热度，也有望为相关游戏及流媒体平台的长期商业价值与用户粘性提供持续支撑。",
+    "category": "消费电子",
+    "tags": [
+      "赛博朋克",
+      "边缘行者",
+      "游戏IP",
+      "动画"
+    ],
+    "source": "IT之家",
+    "time": "刚刚",
+    "ts": "2026-06-25T23:23:00.019393+00:00",
+    "url": "https://www.ithome.com/0/968/709.htm",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "f349dfe58e770032",
+    "title": "2026年亚马逊Prime Day最佳iPad优惠指南",
+    "summary": "外媒Wired盘点了2026年亚马逊Prime Day期间最值得购买的iPad优惠，为消费者提供促销季的选购参考。",
+    "body": "知名科技媒体Wired近日发布了2026年亚马逊Prime Day的iPad最佳优惠指南。在年度促销季期间，苹果旗下的多款iPad产品通常会迎来显著的价格下调，吸引大量消费者关注。\n\n该指南旨在帮助消费者在众多促销商品中，筛选出性价比最高的iPad型号。对于计划在Prime Day期间购买苹果平板电脑的用户而言，此类专业媒体的选购建议具有重要的参考价值，同时也反映了消费电子市场在大型促销节点的高活跃度。",
+    "category": "消费电子",
+    "tags": [
+      "亚马逊Prime Day",
+      "iPad",
+      "苹果公司",
+      "消费电子"
+    ],
+    "source": "Wired",
+    "time": "刚刚",
+    "ts": "2026-06-25T23:22:52.813814+00:00",
+    "url": "https://www.wired.com/story/the-ipad-you-should-buy-on-amazon-prime-day-this-year-2026/",
+    "image": "https://media.wired.com/photos/6a3c72a79625c74448e06990/master/pass/The-iPad-You-Should-Buy-on-Amazon-Prime-Day-This-Year.jpg",
+    "stocks": []
+  },
+  {
+    "id": "5fb77824e3f10dc7",
+    "title": "美政府据悉要求OpenAI分阶段发布GPT-5.6",
+    "summary": "据悉，美国政府已要求OpenAI对其最新模型GPT-5.6采取分阶段发布策略，以加强前沿AI技术的安全监管。",
+    "body": "据36氪消息，美国政府据悉已向OpenAI提出要求，希望该公司在推出其最新人工智能模型GPT-5.6时采取分阶段发布的策略。此举旨在加强对前沿AI技术的监管与安全评估，防范潜在的技术风险。\n\n分阶段发布意味着OpenAI可能不会一次性向公众开放GPT-5.6的全部功能，而是通过逐步测试和受控访问来推进。这反映出监管机构对强大AI模型潜在风险的担忧，也标志着科技公司在技术创新与政策合规之间正寻求新的平衡。",
+    "category": "人工智能",
+    "tags": [
+      "OpenAI",
+      "GPT-5.6",
+      "AI监管"
+    ],
+    "source": "36氪",
+    "time": "刚刚",
+    "ts": "2026-06-25T23:22:49.897585+00:00",
+    "url": "https://36kr.com/newsflashes/3869182982591751?f=rss",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "ba5f1541b7e39dfe",
+    "title": "红斑狼疮患者患慢性肾病及死亡风险显著增加",
+    "summary": "最新医学研究表明，红斑狼疮患者罹患慢性肾脏病及面临死亡的风险显著增加，提示需加强对该类患者的肾脏监测与综合管理。",
+    "body": "根据MedicalXpress报道的最新医学研究，红斑狼疮患者面临着更高的慢性肾脏病发病率以及死亡风险。这一发现强调了系统性红斑狼疮对患者长期健康的严重潜在威胁，尤其是肾脏并发症的预防与控制。\n\n研究结果表明，针对红斑狼疮患者的临床管理需要更加关注肾脏功能的定期监测。早期识别和干预慢性肾脏病不仅有助于延缓肾功能衰退，还可能有效降低患者的整体死亡率，改善长期生存质量。\n\n这一医学发现为风湿免疫科和肾脏病科的跨学科合作提供了重要依据，未来有望推动针对红斑狼疮相关肾病的新疗法研发及临床诊疗指南的进一步优化。",
+    "category": "生物医药",
+    "tags": [
+      "红斑狼疮",
+      "慢性肾脏病",
+      "医学研究"
+    ],
+    "source": "MedicalXpress",
+    "time": "刚刚",
+    "ts": "2026-06-25T23:22:46.437685+00:00",
+    "url": "https://medicalxpress.com/news/2026-06-patients-lupus-chronic-kidney-disease.html",
+    "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/patients-with-lupus-ha.jpg",
+    "stocks": []
+  },
+  {
+    "id": "f443cc445150495f",
+    "title": "五星无人机直降133美元，专家称满足新手所有需求",
+    "summary": "科技专家推荐了一款适合新手的五星无人机，目前该机型正进行133美元的降价促销。",
+    "body": "对于刚接触无人机飞行的新手而言，选择一款合适的产品至关重要。据Space.com报道，科技专家强烈推荐了一款获得五星评价的无人机，认为它能为新手提供“所有可能需要的功能”。\n\n目前，这款备受好评的无人机正在进行促销活动，价格直降133美元。这一折扣大幅降低了新手的入门门槛，提供了极具性价比的选择，有望进一步激发大众对消费级无人机的购买热情。",
+    "category": "消费电子",
+    "tags": [
+      "无人机",
+      "消费电子",
+      "降价促销"
+    ],
+    "source": "Space.com",
+    "time": "刚刚",
+    "ts": "2026-06-25T23:22:38.560200+00:00",
+    "url": "https://www.space.com/technology/drones/new-to-drone-flying-our-expert-thinks-this-five-star-drone-gives-you-everything-you-could-possibly-need-and-its-usd133-off",
+    "image": "https://cdn.mos.cms.futurecdn.net/EKbzTAcY5g8zABQ9UrNMbW-1280-80.jpg",
+    "stocks": []
+  },
+  {
+    "id": "a4b293d59d6fb5e4",
+    "title": "比亚迪优化公共电动汽车充电与停车体验",
+    "summary": "比亚迪正致力于简化公共电动汽车的充电和停车流程，以提升新能源车主的日常使用体验。",
+    "body": "比亚迪正在采取相关措施，让公共电动汽车的充电和停车过程变得更加轻松便捷。这一举措旨在优化车主的实际使用体验，缓解公共设施使用过程中的痛点。\n\n通过提升充电与停车服务的便利性，比亚迪进一步增强了其电动汽车生态的综合竞争力。这不仅有助于巩固其品牌优势，也将对新能源汽车行业的整体服务标准产生积极的推动作用。",
+    "category": "未来能源",
+    "tags": [
+      "比亚迪",
+      "电动汽车",
+      "充电设施",
+      "智慧停车"
+    ],
+    "source": "Electrek",
+    "time": "刚刚",
+    "ts": "2026-06-25T23:22:35.783579+00:00",
+    "url": "https://electrek.co/2026/06/25/byd-making-public-ev-charging-parking-easier/",
+    "image": "",
+    "stocks": [
+      {
+        "name": "比亚迪",
+        "ticker": "002594.SZ",
+        "reason": "作为新闻主体，优化充电与停车体验将直接提升其产品竞争力和用户满意度。",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "f4888b3f092af6e9",
+    "title": "苹果代工厂塔塔电子遭黑客攻击，部分新机资料泄露",
+    "summary": "苹果代工厂塔塔电子近期遭遇黑客攻击，导致部分iPhone 18 Pro及A20 Pro的相关资料确认泄露。",
+    "body": "据报道，苹果重要代工厂塔塔电子近期遭受黑客攻击，引发外界对供应链数据安全的担忧。此次网络攻击事件导致部分尚未发布的iPhone 18 Pro以及A20 Pro的相关产品资料被确认泄露。\n\n此次数据泄露不仅可能对苹果未来的产品保密与发布计划造成一定影响，也再次凸显了全球科技供应链在网络安全防护方面面临的严峻挑战。对于高度依赖全球化代工体系的消费电子企业而言，强化供应链环节的数据安全管理已成为亟待重视的议题。",
+    "category": "消费电子",
+    "tags": [
+      "苹果",
+      "塔塔电子",
+      "数据泄露",
+      "供应链安全"
+    ],
+    "source": "IT之家",
+    "time": "刚刚",
+    "ts": "2026-06-25T23:22:32.472065+00:00",
+    "url": "https://www.ithome.com/0/968/710.htm",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "ea6b67cbba9a0ec6",
+    "title": "瑞安航空将不再向与儿童同座的父母收取选座费",
+    "summary": "瑞安航空宣布将放弃向携带儿童的父母收取相邻座位的选座费用，以回应外界对其家庭座位政策的批评。",
+    "body": "欧洲廉价航空公司瑞安航空近日表示，将不情愿地取消向与儿童同坐的父母收取选座费的规定。此前，该公司因要求家庭旅客支付额外费用以保证座位相邻而饱受消费者和监管机构的批评。\n\n这一政策调整意味着携带儿童的父母在预订航班时，将能够免费与自己的孩子坐在一起。此举被视为瑞安航空在面临公众舆论和潜在监管压力下的妥协，旨在改善其客户服务形象并符合相关行业规范。\n\n对于航空业而言，廉价航空通常依赖选座费等附加服务作为重要收入来源。瑞安航空的这一让步可能会对其辅助收入产生一定影响，同时也可能促使其他廉价航空公司重新审视其针对家庭旅客的收费政策。",
+    "category": "国际局势",
+    "tags": [
+      "瑞安航空",
+      "航空政策",
+      "消费者权益"
+    ],
+    "source": "BBC World",
+    "time": "刚刚",
+    "ts": "2026-06-25T23:22:32.144527+00:00",
+    "url": "https://www.bbc.co.uk/news/articles/cdr4zy4e1n1o?at_medium=RSS&at_campaign=rss",
+    "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/bff4/live/226c9520-70bc-11f1-b1db-af71d47507d6.jpg",
+    "stocks": [
+      {
+        "name": "瑞安航空",
+        "ticker": "RYAAY",
+        "reason": "政策调整直接影响其附加服务收入及合规成本，属公司自身重大运营事件。",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "65a9e88fd5ef32aa",
+    "title": "FDA批准药物有望助力免疫疗法攻克罕见肝癌",
+    "summary": "最新研究表明，一种已获FDA批准的药物可能为免疫疗法治疗罕见肝癌提供新突破口，有望显著提升临床疗效。",
+    "body": "据ScienceDaily报道，一项最新研究指出，一种已获美国FDA批准的药物有望助力免疫疗法，从而在罕见肝癌的治疗中取得突破。\n\n罕见肝癌通常对常规治疗和单一免疫疗法反应不佳。研究提示，将该FDA批准药物与免疫疗法结合，可能有效克服肿瘤微环境中的免疫抑制，提升免疫系统对癌细胞的杀伤力。\n\n这一进展为罕见肝癌的临床干预提供了新的联合治疗策略。未来若能通过更多临床数据验证其安全性与有效性，将显著改善相关患者的预后，并推动肿瘤免疫治疗领域的进一步发展。",
+    "category": "生物医药",
+    "tags": [
+      "免疫疗法",
+      "罕见肝癌",
+      "FDA",
+      "肿瘤治疗"
+    ],
+    "source": "ScienceDaily",
+    "time": "刚刚",
+    "ts": "2026-06-25T23:22:26.747906+00:00",
+    "url": "https://www.sciencedaily.com/releases/2026/06/260623014014.htm",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "98fa8c727d3b00c4",
+    "title": "太空视角下的夏至：2026年6月25日每日太空照片",
+    "summary": "Space.com发布了2026年6月25日的每日太空照片，展示了从太空视角观测到的夏至独特景象。",
+    "body": "Space.com于2026年6月25日发布了“每日太空照片”专栏内容，本期主题聚焦于从太空视角观测夏至的独特景象。这类影像直观展现了地球在夏至节气下的光照分布与自然风貌，为公众提供了优质的天文科普素材。\n\n通过航天器或空间站拍摄的地球影像，不仅具有极高的视觉价值，还能辅助科学家研究地球的季节性气候变化与生态环境演变。此类太空摄影作品的持续发布，有助于进一步激发大众对航天探索与地球科学的关注。",
+    "category": "商业航天",
+    "tags": [
+      "太空摄影",
+      "夏至",
+      "地球观测",
+      "天文科普"
+    ],
+    "source": "Space.com",
+    "time": "刚刚",
+    "ts": "2026-06-25T23:22:22.470135+00:00",
+    "url": "https://www.space.com/astronomy/earth/summer-solstice-seen-from-space-space-photo-of-the-day-for-june-25-2026",
+    "image": "https://cdn.mos.cms.futurecdn.net/Yx7xN7RKyKaGvdRTWP62gn-1280-80.jpg",
+    "stocks": []
+  },
+  {
+    "id": "0851f82390fd4c79",
+    "title": "委内瑞拉救援队争分夺秒搜寻地震幸存者",
+    "summary": "委内瑞拉发生地震灾害，当地救援队伍正全力搜救幸存者。",
+    "body": "委内瑞拉近日发生地震灾害，当地救援团队正争分夺秒地在废墟中搜寻可能的幸存者。面对严峻的灾情，救援人员力求在最短时间内挽救更多生命。\n\n此次地震对当地基础设施和民众生活造成了严重影响。目前，搜救工作仍在紧张进行中，国际社会也在密切关注灾区的救援进展与后续援助需求。",
+    "category": "国际局势",
+    "tags": [
+      "委内瑞拉",
+      "地震",
+      "灾害救援"
+    ],
+    "source": "Al Jazeera",
+    "time": "刚刚",
+    "ts": "2026-06-25T23:22:16.568923+00:00",
+    "url": "https://www.aljazeera.com/video/newsfeed/2026/6/25/venezuela-rescue-teams-race-to-find-earthquake-survivors?traffic_source=rss",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "b15064e3081d32cf",
+    "title": "WNBA：托马斯因击打克拉克喉咙被禁赛一场",
+    "summary": "WNBA官方宣布，球员艾莉莎·托马斯因在比赛中击打凯特琳·克拉克喉咙，被处以禁赛一场的处罚。",
+    "body": "WNBA官方近日发布处罚决定，康涅狄格太阳队球员艾莉莎·托马斯因在赛场上对印第安纳狂热队球员凯特琳·克拉克做出危险动作，被禁赛一场。事件发生在双方交锋中，托马斯在防守时挥臂击中克拉克的喉咙部位。\n\n此次判罚引发了外界的广泛关注。凯特琳·克拉克作为本赛季备受瞩目的新秀，其赛场安全与联赛的纪律管理成为讨论焦点。WNBA联盟通过此次禁赛决定，重申了对赛场危险动作的严格管理态度，旨在保护球员安全并维护联赛的竞技环境。",
+    "category": "国际局势",
+    "tags": [
+      "WNBA",
+      "篮球",
+      "禁赛"
+    ],
+    "source": "Al Jazeera",
+    "time": "刚刚",
+    "ts": "2026-06-25T23:22:13.229221+00:00",
+    "url": "https://www.aljazeera.com/sports/2026/6/25/wnba-alyssa-thomas-suspended-one-game-for-fist-into-cailtin-clarks-throat?traffic_source=rss",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "ad72aa005c8eb4ae",
+    "title": "OpenAI倾向将IPO推迟至明年",
+    "summary": "据报道，人工智能企业OpenAI倾向于将首次公开募股计划推迟至明年。此举表明公司希望为进入公开市场做更充分的准备。",
+    "body": "据相关报道，人工智能领军企业OpenAI倾向于将其首次公开募股（IPO）计划推迟至明年。这一动向表明，公司管理层希望有更多时间为进入公开市场进行筹备。\n\n作为生成式AI领域的标杆，OpenAI的上市进程备受全球投资者瞩目。推迟IPO不仅反映出其对内部治理与商业化路径的审慎态度，也将对整个人工智能行业的资本化节奏产生一定的风向标影响。",
+    "category": "人工智能",
+    "tags": [
+      "OpenAI",
+      "IPO",
+      "人工智能"
+    ],
+    "source": "Hacker News",
+    "time": "刚刚",
+    "ts": "2026-06-25T23:22:10.959717+00:00",
+    "url": "https://www.nytimes.com/2026/06/25/technology/openai-ipo-artificial-intelligence.html",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "63570774f6540483",
+    "title": "研究人员发现首种潜在狼疮益生菌疗法",
+    "summary": "研究人员首次确定了针对狼疮的潜在益生菌疗法，为这种自身免疫性疾病的治疗提供了全新思路。",
+    "body": "近日，研究人员在自身免疫性疾病治疗领域取得重要进展，首次确定了针对狼疮的潜在益生菌疗法。这一发现标志着医学界在探索肠道微生物与免疫系统相互作用方面迈出了关键一步。\n\n狼疮作为一种复杂的自身免疫性疾病，传统治疗手段往往伴随较大的副作用。此次发现的益生菌疗法，有望通过调节患者体内微生态来干预疾病进程，从而提供一种更为温和且具有针对性的新型治疗策略。\n\n该研究不仅为狼疮患者带来了新的治疗希望，也为未来开发基于微生物组的自身免疫疾病药物奠定了重要基础，进一步推动了精准医疗和微生态疗法在临床转化中的应用。",
+    "category": "生物医药",
+    "tags": [
+      "狼疮",
+      "益生菌",
+      "自身免疫疾病"
+    ],
+    "source": "MedicalXpress",
+    "time": "刚刚",
+    "ts": "2026-06-25T23:22:04.454116+00:00",
+    "url": "https://medicalxpress.com/news/2026-06-potential-probiotic-treatment-lupus.html",
+    "image": "https://scx1.b-cdn.net/csz/news/tmb/2020/probiotics.jpg",
+    "stocks": []
+  },
+  {
+    "id": "fe5153f3bc88af12",
+    "title": "委内瑞拉强震致至少188人遇难，救援工作全面展开",
+    "summary": "委内瑞拉发生严重地震，目前已造成至少188人死亡，各方救援力量正全力展开搜救工作。",
+    "body": "据半岛电视台报道，委内瑞拉近日遭遇严重地震灾害，目前已确认造成至少188人死亡。随着搜救工作的推进，灾情影响正在进一步评估中。\n\n当前，当地及各方救援力量正全力加大搜救力度，争分夺秒寻找幸存者并安置受灾民众。此次地震对当地社会运转和基础设施带来了严峻挑战。\n\n灾害的发生引发了国际社会对委内瑞拉受灾情况的广泛关注。后续的紧急救援、物资调配以及灾后恢复工作将是该国面临的重大考验。",
+    "category": "国际局势",
+    "tags": [
+      "委内瑞拉",
+      "地震",
+      "自然灾害"
+    ],
+    "source": "Al Jazeera",
+    "time": "刚刚",
+    "ts": "2026-06-25T23:22:01.620718+00:00",
+    "url": "https://www.aljazeera.com/news/liveblog/2026/6/25/venezuela-earthquakes-live-at-least-188-dead-as-rescue-efforts-intensify?traffic_source=rss",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "c2d63879c386481b",
+    "title": "苹果调整Mac芯片规划，跳过M6高阶版押注AI导向M7",
+    "summary": "据知名记者古尔曼报道，苹果罕见调整Mac芯片路线图，决定跳过M6 Pro和Max版本，将研发重心转向以人工智能为核心的M7系列芯片。",
+    "body": "知名科技记者马克·古尔曼透露，苹果公司对其Mac芯片的长期规划进行了罕见调整。根据最新路线图，苹果计划跳过M6 Pro和M6 Max芯片的开发阶段。\n\n这一战略转变意味着苹果将研发重心直接转向下一代产品线。未来的M7系列芯片将以人工智能为核心导向，旨在进一步提升端侧AI算力与智能体验。\n\n此举凸显了苹果在AI PC浪潮下的战略考量。通过集中资源押注AI导向的M7芯片，苹果有望在激烈的个人电脑市场竞争中巩固其软硬件生态优势。",
+    "category": "消费电子",
+    "tags": [
+      "苹果",
+      "Mac芯片",
+      "人工智能",
+      "消费电子"
+    ],
+    "source": "IT之家",
+    "time": "刚刚",
+    "ts": "2026-06-25T23:21:58.902974+00:00",
+    "url": "https://www.ithome.com/0/968/729.htm",
+    "image": "",
+    "stocks": [
+      {
+        "name": "苹果",
+        "ticker": "AAPL",
+        "reason": "作为Mac及自研芯片的主导者，押注AI芯片有助于提升其PC产品线在AI时代的竞争力。",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "d0d1a28cd6a00f4a",
+    "title": "无过错保险州车祸受害者转院率降低70%",
+    "summary": "研究表明，在实行无过错汽车保险的州，车祸受害者在医院间转院的概率大幅降低70%，反映了保险政策对医疗资源分配的显著影响。",
+    "body": "一项最新医学与卫生经济学研究指出，在实行无过错汽车保险的州，车祸受害者在不同医院之间转院的可能性大幅降低了70%。无过错保险制度通常允许驾驶员在发生事故后，无论责任归属均可向自身的保险公司索赔相关医疗费用。\n\n研究数据显示的显著转院率下降，反映了不同保险赔偿机制对医院收治和转移策略的直接影响。在无过错保险体系下，医疗赔付流程和覆盖范围的差异可能导致医疗机构更倾向于在首诊医院完成创伤患者的治疗，从而减少了跨院转移的需求。\n\n这一发现突显了汽车保险政策设计对医疗系统运作及创伤护理路径的深远影响。明确这些政策差异带来的实际效果，有助于政策制定者和医疗机构进一步优化医疗资源配置，提升创伤患者的救治效率。",
+    "category": "生物医药",
+    "tags": [
+      "医疗卫生",
+      "保险政策",
+      "创伤护理"
+    ],
+    "source": "MedicalXpress",
+    "time": "刚刚",
+    "ts": "2026-06-25T23:21:47.502581+00:00",
+    "url": "https://medicalxpress.com/news/2026-06-victims-hospitals-fault-states.html",
+    "image": "https://scx1.b-cdn.net/csz/news/tmb/2024/emergency-care.jpg",
+    "stocks": []
+  },
+  {
+    "id": "dbac8f121d8e3767",
+    "title": "从Proxmox迁移至NixOS与Incus的技术实践",
+    "summary": "技术社区分享了将服务器虚拟化环境从Proxmox迁移至NixOS及Incus的经验，探讨了声明式配置与现代容器管理技术的优势。",
+    "body": "近日，Hacker News社区热议了一篇关于服务器基础设施迁移的技术文章，详细记录了从Proxmox VE虚拟化平台迁移到NixOS结合Incus的完整过程。Proxmox作为老牌的开源虚拟化管理工具功能全面，但在配置管理和自动化方面存在一定局限。\n\nNixOS以其独特的声明式配置和可重现的系统构建能力著称，而Incus作为LXD的社区分支，提供了强大的系统容器和虚拟机管理功能。两者的结合为开发者提供了更具现代云原生理念的基础设施管理方案。\n\n此次迁移实践不仅展示了NixOS在系统配置版本控制上的优势，也凸显了Incus在轻量级资源隔离和调度上的灵活性。对于追求高度自动化、可重现性以及精细化资源管理的运维团队而言，这一技术栈组合提供了极具价值的参考。",
+    "category": "人工智能",
+    "tags": [
+      "NixOS",
+      "Incus",
+      "Proxmox",
+      "虚拟化"
+    ],
+    "source": "Hacker News",
+    "time": "刚刚",
+    "ts": "2026-06-25T23:21:45.557395+00:00",
+    "url": "https://www.nijho.lt/post/proxmox-to-nixos/",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "919da72b55c16d86",
+    "title": "厄瓜多尔2-1险胜德国 跻身世界杯32强",
+    "summary": "在世界杯比赛中，厄瓜多尔队以2比1击败德国队，成功晋级赛事32强。",
+    "body": "在近日举行的一场世界杯焦点战中，厄瓜多尔国家队表现出色，最终以2比1的比分险胜传统强队德国队。这场胜利对厄瓜多尔队而言意义重大，帮助他们在激烈的竞争中脱颖而出。\n\n凭借这场关键的胜利，厄瓜多尔队成功跻身世界杯32强。尽管德国队在比赛中展现了强大的实力，但厄瓜多尔队凭借更高效的进攻和顽强的防守笑到了最后，为本届赛事增添了一场经典的对决。",
+    "category": "国际局势",
+    "tags": [
+      "世界杯",
+      "厄瓜多尔",
+      "德国"
+    ],
+    "source": "Al Jazeera",
+    "time": "刚刚",
+    "ts": "2026-06-25T23:21:41.645296+00:00",
+    "url": "https://www.aljazeera.com/sports/2026/6/25/ecuador-edge-germany-2-1-to-squeeze-into-world-cup-last-32?traffic_source=rss",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "6ddaca6d575cdedd",
+    "title": "美太空军新型MUOS卫星将采用波音702MP平台",
+    "summary": "美国太空军的新型移动用户目标系统（MUOS）卫星将使用波音公司的702MP航天器平台进行建造。",
+    "body": "美国太空军计划为其新型移动用户目标系统（MUOS）卫星采用波音公司的702MP航天器平台。这一决定标志着波音在国防和军事通信卫星制造领域的进一步巩固。\n702MP平台以其灵活性和高性价比著称，能够满足军事通信对高可靠性和安全性的严苛要求。此举将有助于提升美军战术通信网络的覆盖能力和抗干扰性能，确保在未来复杂环境下的通信优势。",
+    "category": "商业航天",
+    "tags": [
+      "美国太空军",
+      "MUOS卫星",
+      "波音",
+      "航天器平台"
+    ],
+    "source": "SpaceNews",
+    "time": "刚刚",
+    "ts": "2026-06-25T23:21:41.336093+00:00",
+    "url": "https://spacenews.com/space-forces-new-muos-satellites-to-use-boeings-702mp-spacecraft-platform/",
+    "image": "",
+    "stocks": [
+      {
+        "name": "波音",
+        "ticker": "BA",
+        "reason": "其702MP平台被选用于美太空军新型通信卫星，有望增加防务与航天业务收入。",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "62b23a8d0c885c21",
+    "title": "委内瑞拉强震被证实为罕见双地震现象",
+    "summary": "研究人员指出，委内瑞拉近期发生的强烈地震属于罕见的“双地震”现象，即两次震级相近且时空紧密相关的地震事件。",
+    "body": "近期委内瑞拉发生的强烈地震引发了科学界的关注。研究人员指出，此次地震活动属于一种罕见的“双地震”（Seismic Doublet）现象。\n\n“双地震”通常指两次震级相近、且在时间和空间上紧密相关的地震事件。对这一罕见地质现象的确认，有助于科学家进一步理解该区域的断层活动特征与地壳应力释放机制，为相关地质研究提供了重要案例。",
+    "category": "国际局势",
+    "tags": [
+      "委内瑞拉",
+      "地震",
+      "双地震",
+      "地质研究"
+    ],
+    "source": "Wired",
+    "time": "刚刚",
+    "ts": "2026-06-25T23:21:25.925754+00:00",
+    "url": "https://www.wired.com/story/venezuelas-powerful-earthquakes-rare-seismic-doublet/",
+    "image": "https://media.wired.com/photos/6a3d9aa235acf7de1a65dc27/master/pass/venezuelasismo2.jpg",
+    "stocks": []
+  },
+  {
+    "id": "a083534d6cdc007b",
+    "title": "华为联合湖北移动完成首个AI推理加速方案现网测试",
+    "summary": "华为与湖北移动成功完成全国运营商首个AI推理加速方案现网测试，长序列Token吞吐率提升372%。该成果显著优化了AI推理性能，助力算力网络建设。",
+    "body": "近日，华为与湖北移动联合完成了全国运营商首个AI推理加速方案的现网测试。此次测试聚焦于提升大模型推理效率，结果显示长序列Token吞吐率实现了372%的大幅提升，标志着在AI算力网络优化方面取得重要技术突破。\n\n该方案的现网成功验证，不仅有效提升了AI推理的并发处理能力，还显著增强了运营商网络对大模型应用的底层支撑水平。随着生成式AI的快速发展，长文本处理和高并发推理需求激增，此次技术突破将为电信运营商在算力网络建设和AI服务商业化落地方面提供强有力的技术底座。",
+    "category": "人工智能",
+    "tags": [
+      "华为",
+      "AI推理",
+      "算力网络",
+      "中国移动"
+    ],
+    "source": "IT之家",
+    "time": "刚刚",
+    "ts": "2026-06-25T23:21:21.111156+00:00",
+    "url": "https://www.ithome.com/0/968/730.htm",
+    "image": "",
+    "stocks": [
+      {
+        "name": "中国移动",
+        "ticker": "600941.SH",
+        "reason": "旗下湖北移动参与首个AI推理加速现网测试，提升算力网络与大模型服务能力。",
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
+    "id": "aadb69874d71262e",
+    "title": "刚果（金）埃博拉疫情蔓延至乌干达，南苏丹面临高风险",
+    "summary": "刚果民主共和国的埃博拉疫情持续扩散，目前已蔓延至乌干达，并极有可能进一步波及南苏丹。",
+    "body": "刚果民主共和国（DRC）的埃博拉疫情正处于不断扩大的趋势中。目前，该疫情已经跨越国界，明确传播至邻国乌干达，引发了区域性的公共卫生警报。\n\n随着疫情的持续蔓延，南苏丹正面临极高的病毒输入与传播风险。跨国传染病的扩散对周边国家的公共卫生监测系统、边境防控以及医疗救治能力提出了严峻挑战，亟需国际社会与区域卫生组织的紧急干预与协作。",
+    "category": "生物医药",
+    "tags": [
+      "埃博拉疫情",
+      "公共卫生",
+      "传染病防控"
+    ],
+    "source": "MedicalXpress",
+    "time": "刚刚",
+    "ts": "2026-06-25T23:21:19.166434+00:00",
+    "url": "https://medicalxpress.com/news/2026-06-drc-ebola-outbreak-uganda-high.html",
+    "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/ebola.jpg",
+    "stocks": [
+      {
+        "name": "默沙东",
+        "ticker": "MRK",
+        "reason": "旗下拥有获批上市的埃博拉疫苗Ervebo，疫情蔓延将带动疫苗需求。",
+        "confidence": "high"
+      },
+      {
+        "name": "再生元",
+        "ticker": "REGN",
+        "reason": "研发了获批用于治疗埃博拉病毒感染的单克隆抗体药物Inmazeb。",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "f20c5569f8b350b9",
+    "title": "Weather Stream发布GEMS2微波辐射计首光图像",
+    "summary": "Weather Stream近日发布了GEMS2微波辐射计的首批图像，标志着该设备成功实现初步运行与数据获取。",
+    "body": "Weather Stream公司正式发布了GEMS2微波辐射计获取的首批“首光”图像。这一成果的公布，验证了该微波辐射计的初步成像能力与数据收集功能，标志着该设备成功投入运行。\n\n微波辐射计在气象观测和环境监测中扮演着关键角色，能够提供高精度的大气探测数据。GEMS2设备的成功出图，证明了其技术可靠性，有望为提升气象预报准确性及相关商业遥感应用提供更优质的数据支持。",
+    "category": "商业航天",
+    "tags": [
+      "商业航天",
+      "气象观测",
+      "微波辐射计",
+      "遥感技术"
+    ],
+    "source": "SpaceNews",
+    "time": "刚刚",
+    "ts": "2026-06-25T23:21:14.880839+00:00",
+    "url": "https://spacenews.com/weather-stream-releases-first-light-imagery-from-gems2-microwave-radiometer/",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "c6fd8c5134aa62d5",
+    "title": "佩佩梅开二度助科特迪瓦首进淘汰赛，库拉索出局",
+    "summary": "科特迪瓦凭借佩佩的两粒进球首次晋级世界杯淘汰赛，库拉索队则遗憾出局。",
+    "body": "在近期的世界杯赛事中，科特迪瓦队凭借球员佩佩的梅开二度，成功取得关键胜利。这场胜利不仅帮助科特迪瓦队历史上首次晋级世界杯淘汰赛阶段，也直接导致了库拉索队的出局。\n\n此次比赛结果对两支球队的赛事前景产生了决定性影响。科特迪瓦将继续在淘汰赛中角逐，而库拉索则正式结束了本届世界杯的征程。",
+    "category": "国际局势",
+    "tags": [
+      "世界杯",
+      "科特迪瓦",
+      "足球"
+    ],
+    "source": "Al Jazeera",
+    "time": "刚刚",
+    "ts": "2026-06-25T23:21:12.558588+00:00",
+    "url": "https://www.aljazeera.com/sports/2026/6/25/pepes-brace-sends-ivory-coast-to-first-knockouts-as-curacao-exit-world-cup?traffic_source=rss",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "040acb671c8d2d49",
+    "title": "互联网身份验证时代或将严重威胁用户隐私",
+    "summary": "互联网日益严格的身份验证要求正引发广泛关注，业界担忧此举将对用户数字隐私造成毁灭性打击。",
+    "body": "互联网正步入一个要求严格身份验证的“请出示证件”时代。随着网络监管政策的收紧以及平台合规要求的提升，用户在访问各类在线服务时，越来越多地被要求提供真实的身份证明材料以核验身份。\n\n这一趋势引发了科技界和隐私倡导者的强烈担忧。批评指出，强制性的身份核验不仅大幅增加了敏感个人数据被滥用或泄露的风险，更从根本上削弱了互联网的匿名性，可能对公众的数字隐私和网络自由造成不可逆转的破坏。",
+    "category": "国际局势",
+    "tags": [
+      "隐私保护",
+      "互联网监管",
+      "身份验证"
+    ],
+    "source": "Hacker News",
+    "time": "刚刚",
+    "ts": "2026-06-25T23:20:59.394115+00:00",
+    "url": "https://expression.fire.org/p/the-papers-please-era-of-the-internet",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "aaab4fe29841df98",
+    "title": "Grok最受欢迎功能揭晓：正是外界预期",
+    "summary": "Engadget报道指出，xAI旗下AI模型Grok最受用户欢迎的功能，正是大众普遍预期的那一项。",
+    "body": "近日，科技媒体Engadget报道指出，xAI旗下的人工智能模型Grok最受用户欢迎的功能，正是外界普遍预期的那一项。虽然报道未直接披露该功能的具体细节，但明确证实了大众对Grok核心亮点的猜测。\n\n这一结果表明，Grok在产品定位和特色功能设计上成功契合了目标用户的需求，获得了较高的市场关注度。其主打功能的受欢迎程度，不仅验证了产品策略的有效性，也为其在竞争激烈的人工智能市场中保持了独特的竞争优势。",
+    "category": "人工智能",
+    "tags": [
+      "Grok",
+      "xAI",
+      "人工智能",
+      "大模型"
+    ],
+    "source": "Engadget",
+    "time": "刚刚",
+    "ts": "2026-06-25T23:20:53.736054+00:00",
+    "url": "https://www.engadget.com/2202099/the-most-popular-grok-feature-is-apparently-exactly-what-you-think/",
+    "image": "https://www.engadget.com/img/gallery/the-most-popular-grok-feature-is-apparently-exactly-what-you-think/l-intro-1782424336.jpg",
+    "stocks": []
+  },
+  {
+    "id": "d75dc7cd282dcd50",
+    "title": "美FCC或取消20亿美元学校与图书馆联网项目",
+    "summary": "美国联邦通信委员会正考虑终止一项价值20亿美元的补贴项目，该项目旨在为学校和图书馆提供互联网连接服务。",
+    "body": "据报道，美国联邦通信委员会（FCC）可能取消一项规模达20亿美元的项目，该项目主要用于支持全美学校和图书馆接入互联网。\n\n若该计划最终被终止，将直接影响众多教育机构和公共设施的网络基础设施建设。这不仅可能增加学校和图书馆的宽带运营成本，还可能阻碍部分学生和公众获取平等的数字教育资源。",
+    "category": "消费电子",
+    "tags": [
+      "FCC",
+      "宽带网络",
+      "教育信息化"
+    ],
+    "source": "Ars Technica",
+    "time": "刚刚",
+    "ts": "2026-06-25T23:20:51.593194+00:00",
+    "url": "https://arstechnica.com/tech-policy/2026/06/fcc-may-kill-2b-program-that-connects-schools-and-libraries-to-internet/",
+    "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/06/classroom-tablets-1152x648.jpg",
+    "stocks": []
+  },
+  {
+    "id": "7af2b0f6cccf65f1",
+    "title": "苹果正研发iRing智能戒指，对标三星竞品",
+    "summary": "消息称苹果公司正在开发名为iRing的智能戒指。该产品上市后预计将与三星Galaxy Ring等竞品展开直接竞争。",
+    "body": "据相关消息透露，苹果公司目前正在开发一款名为“iRing”的智能戒指产品。这表明苹果正积极布局智能戒指这一新兴的可穿戴设备领域，以进一步丰富其硬件产品矩阵。\n\n随着iRing未来的正式上市，该产品预计将与三星Galaxy Ring等现有竞品展开直接竞争。此举不仅将加剧智能穿戴市场的竞争态势，也有望推动智能戒指品类的技术升级与市场普及，进一步完善苹果的健康生态布局。",
+    "category": "消费电子",
+    "tags": [
+      "苹果",
+      "智能戒指",
+      "可穿戴设备"
+    ],
+    "source": "IT之家",
+    "time": "刚刚",
+    "ts": "2026-06-25T23:20:48.573913+00:00",
+    "url": "https://www.ithome.com/0/968/731.htm",
+    "image": "",
+    "stocks": [
+      {
+        "name": "苹果",
+        "ticker": "AAPL",
+        "reason": "布局智能戒指新品类，完善可穿戴设备与健康监测生态闭环。",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "3bc55d8dbbd02687",
+    "title": "远程医疗机构称禁令无法阻断堕胎药获取",
+    "summary": "远程医疗服务提供者表示，针对堕胎药的禁令难以完全阻止患者通过线上渠道获取药物，凸显了远程医疗在政策限制下的韧性。",
+    "body": "针对堕胎药获取的政策禁令正面临来自数字医疗领域的挑战。远程医疗服务提供者表示，单纯的禁令并不能有效阻断患者获取相关药物的途径。随着线上问诊和跨区域医疗服务的普及，患者可以通过数字平台绕过部分地域性的政策限制。\n\n在实际操作中，远程医疗平台通过整合不同地区的医疗资源，使得医生能够在法律允许的辖区进行线上评估并开具处方，随后通过邮寄网络将药物直接配送至患者手中。这种模式大幅提升了特定医疗服务的可及性，也改变了传统的药品流通路径。\n\n业内观察指出，这一趋势凸显了远程医疗在应对公共卫生政策变动时的灵活性。尽管围绕远程处方药配送的法律与监管博弈仍将持续，但数字医疗技术的深入应用已实质性地重塑了生殖健康等敏感医疗服务的供给格局。",
+    "category": "生物医药",
+    "tags": [
+      "远程医疗",
+      "堕胎药",
+      "医疗政策",
+      "数字健康"
+    ],
+    "source": "MedicalXpress",
+    "time": "刚刚",
+    "ts": "2026-06-25T23:20:46.163870+00:00",
+    "url": "https://medicalxpress.com/news/2026-06-wont-abortion-pill-access-telehealth.html",
+    "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/a-ban-wont-stop-aborti.jpg",
+    "stocks": []
+  },
+  {
+    "id": "e1dafd073d48c0bb",
+    "title": "微软将Windows 10扩展更新计划再延长一年",
+    "summary": "微软宣布将Windows 10的扩展安全更新计划再延长一年，为用户提供更长的系统过渡期。",
+    "body": "微软近日宣布，将Windows 10的扩展安全更新（ESU）计划再延长一年。此举意味着在Windows 10主流支持结束后，用户仍可通过该计划继续获取关键的安全补丁。\n\n这一决定为尚未准备好迁移至新版操作系统的企业和个人用户提供了更充足的过渡时间。对于依赖旧版系统运行关键业务的企业而言，延长更新计划有助于降低因强制升级带来的兼容性风险与短期IT改造成本。\n\n从商业角度来看，这不仅体现了微软在推动新系统普及与维护庞大旧用户基数之间的平衡，也为其通过付费扩展更新服务获取持续的软件收入提供了保障。",
+    "category": "消费电子",
+    "tags": [
+      "微软",
+      "Windows 10",
+      "操作系统"
+    ],
+    "source": "Ars Technica",
+    "time": "刚刚",
+    "ts": "2026-06-25T23:20:27.892857+00:00",
+    "url": "https://arstechnica.com/gadgets/2026/06/microsoft-adds-another-year-to-windows-10-extended-update-program/",
+    "image": "https://cdn.arstechnica.net/wp-content/uploads/2022/10/microsoft-windows-1024x648.jpg",
+    "stocks": [
+      {
+        "name": "微软",
+        "ticker": "MSFT",
+        "reason": "延长付费扩展更新计划有助于增加软件服务订阅收入并稳固企业客户基本盘。",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "09966e17c5ed6994",
+    "title": "OpenAI将仅向政府批准客户首发ChatGPT 5.6",
+    "summary": "OpenAI计划最初仅向经过政府批准的客户发布其最新模型ChatGPT 5.6，以应对相关监管要求。",
+    "body": "据Engadget报道，OpenAI在推出其最新人工智能模型ChatGPT 5.6时，将采取受限的发布策略。该公司最初仅会向获得政府批准的客户开放该模型的使用权限。\n\n这一举措表明，随着人工智能技术的不断演进，AI企业在发布前沿模型时正日益重视合规性与安全审查。通过限制初始受众，OpenAI旨在确保其高阶模型在受控环境中应用，从而降低潜在的监管风险。",
+    "category": "人工智能",
+    "tags": [
+      "OpenAI",
+      "ChatGPT",
+      "人工智能",
+      "合规监管"
+    ],
+    "source": "Engadget",
+    "time": "刚刚",
+    "ts": "2026-06-25T23:20:27.014232+00:00",
+    "url": "https://www.engadget.com/2202129/openai-will-initially-only-release-chatgpt-5-6-to-government-approved-customers/",
+    "image": "https://www.engadget.com/img/gallery/openai-will-initially-only-release-chatgpt-5-6-to-government-approved-customers/l-intro-1782427340.jpg",
+    "stocks": []
+  },
+  {
+    "id": "a7e6900741564e1a",
+    "title": "Rocket Lab获NASA合同执行三次电子号发射",
+    "summary": "火箭实验室（Rocket Lab）赢得美国宇航局（NASA）发射服务合同，将使用“电子号”火箭执行三次发射任务。",
+    "body": "火箭实验室（Rocket Lab）近日宣布赢得美国宇航局（NASA）的一项发射服务合同，将使用其“电子号”（Electron）火箭执行三次发射任务。此次合作标志着NASA对Rocket Lab发射服务能力的进一步认可。\n\n对于Rocket Lab而言，获得NASA的发射订单不仅将带来直接的业务收入，也有助于提升其在商业航天领域的品牌影响力。在当前小型卫星发射需求日益增长的背景下，此类政府合同的持续落地，将为公司的长期业务增长提供重要支撑。",
+    "category": "商业航天",
+    "tags": [
+      "Rocket Lab",
+      "NASA",
+      "商业航天",
+      "电子号火箭"
+    ],
+    "source": "SpaceNews",
+    "time": "刚刚",
+    "ts": "2026-06-25T23:20:25.320341+00:00",
+    "url": "https://spacenews.com/rocket-lab-wins-nasa-award-for-three-electron-launches/",
+    "image": "",
+    "stocks": [
+      {
+        "name": "Rocket Lab",
+        "ticker": "RKLB",
+        "reason": "作为合同直接中标方，获得NASA发射订单将直接增加公司营收并提升市场认可度。",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "e8504312ba1b3615",
+    "title": "YouTube短视频新增两倍速播放功能",
+    "summary": "YouTube Shorts推出新功能，允许用户以两倍速播放短视频，进一步缩短内容消费时间。",
+    "body": "YouTube近日对其短视频服务Shorts进行更新，新增了支持两倍速播放的功能。这一更新使得用户能够以更快的速度观看短视频，从而在实质上缩短了单条内容的消费时间。\n\n该功能的推出旨在提升用户的观看效率，满足快节奏的内容消费需求。通过提供更灵活的播放速度选项，YouTube进一步优化了短视频产品的用户体验，以适应不断变化的流媒体市场趋势。",
+    "category": "消费电子",
+    "tags": [
+      "YouTube",
+      "短视频",
+      "流媒体",
+      "产品更新"
+    ],
+    "source": "TechCrunch",
+    "time": "刚刚",
+    "ts": "2026-06-25T23:20:21.608968+00:00",
+    "url": "https://techcrunch.com/2026/06/25/youtube-shorts-are-getting-even-shorter-with-an-update-that-lets-you-double-the-playback-speed/",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "225a221d5d2141c9",
+    "title": "亚马逊弃拍OpenAI电影，Meta泄密与数据中心员工维权",
+    "summary": "本文汇总了近期科技界三起事件：亚马逊取消关于OpenAI的电影项目，数据中心员工发起维权，以及Meta发生员工数据泄露。",
+    "body": "近期科技行业发生多起引人关注的事件。首先，亚马逊决定放弃其关于OpenAI的电影项目，具体原因尚未详细披露，可能涉及内容方向或商业战略的调整。\n\n其次，数据中心员工正发起维权行动，反映出一线工作者对劳动条件和权益保障的关注。同时，Meta遭遇了员工数据泄露事件，再次凸显大型科技公司在内部信息安全与隐私保护方面面临的挑战。",
+    "category": "人工智能",
+    "tags": [
+      "亚马逊",
+      "OpenAI",
+      "Meta",
+      "数据中心"
+    ],
+    "source": "Wired",
+    "time": "刚刚",
+    "ts": "2026-06-25T23:20:21.202822+00:00",
+    "url": "https://www.wired.com/story/uncanny-valley-podcast-amazon-mgm-openai-movie-data-center-workers-fight-back-meta-leaks-employee-data/",
+    "image": "https://media.wired.com/photos/6a3c48825cdc2b309c97a195/master/pass/Uncanny-Valley-AI-Hollywood-Business.jpg",
+    "stocks": []
+  },
+  {
+    "id": "1d4edc5f8ed81c69",
+    "title": "印度击败孟加拉国，保留女子T20世界杯半决赛希望",
+    "summary": "印度女子板球队在T20世界杯中战胜孟加拉国队，继续保留晋级半决赛的希望。",
+    "body": "在女子T20世界杯的较量中，印度队成功击败孟加拉国队。这场关键胜利使印度队在赛事中继续保持竞争力，并牢牢保留了晋级半决赛的希望。\n\n此次比赛展现了印度女子板球队的竞技实力与韧性。随着赛程的推进，印度队将继续为半决赛席位展开激烈的角逐。",
+    "category": "国际局势",
+    "tags": [
+      "女子板球",
+      "T20世界杯",
+      "印度队"
+    ],
+    "source": "Al Jazeera",
+    "time": "刚刚",
+    "ts": "2026-06-25T23:20:17.163032+00:00",
+    "url": "https://www.aljazeera.com/sports/2026/6/25/india-defeat-bangladesh-to-maintain-womens-t20-world-cup-semifinal-bid?traffic_source=rss",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "55ed28d9dbf9ceb8",
+    "title": "Android 17将为折叠屏推出专属游戏模式",
+    "summary": "Android 17计划为折叠屏手机引入专属游戏模式，通过在屏幕半侧显示虚拟手柄来提升游戏体验。",
+    "body": "据The Verge报道，Android 17操作系统将新增一项专为折叠屏手机设计的游戏模式。该功能会在设备屏幕的一半区域显示带有触摸控制的虚拟游戏手柄，旨在降低操作门槛，使玩家在折叠屏设备上获得更便捷的游戏体验。\n\n这一新模式的推出，标志着系统层面正在进一步优化折叠屏形态下的软件适配。随着折叠屏手机市场的不断扩张，专属的软件生态和游戏优化将成为提升用户体验的关键因素，有望推动折叠屏设备在移动娱乐场景下的普及。",
+    "category": "消费电子",
+    "tags": [
+      "Android 17",
+      "折叠屏",
+      "游戏模式",
+      "智能手机"
+    ],
+    "source": "The Verge",
+    "time": "45分钟前",
+    "ts": "2026-06-25T18:33:54-04:00",
+    "url": "https://www.theverge.com/tech/957450/android-17-foldable-gaming-mode-virtual-controller",
+    "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/01/DSC02339_processed.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100",
+    "stocks": []
+  },
+  {
+    "id": "42b2a1fe1404eded",
+    "title": "YouTube Shorts新增清屏模式，进一步对标TikTok",
+    "summary": "YouTube宣布为Shorts短视频服务增加多项类似TikTok的新功能，包括清屏模式以及更新点赞按钮。",
+    "body": "YouTube正在为其短视频平台Shorts引入更多类似TikTok的功能。其中一项重要更新是全新的“清屏”模式，该功能可以隐藏视频播放时屏幕上的图标和文本，让用户获得更沉浸的观看体验。\n\n此外，YouTube在近期的博客文章中透露，Shorts还将对现有的“点赞”按钮进行替换与调整。这些更新表明，YouTube正持续优化其短视频产品，通过借鉴行业成功设计来增强用户粘性和平台竞争力。",
+    "category": "消费电子",
+    "tags": [
+      "YouTube",
+      "短视频",
+      "TikTok",
+      "产品更新"
+    ],
+    "source": "The Verge",
+    "time": "1小时前",
+    "ts": "2026-06-25T18:08:30-04:00",
+    "url": "https://www.theverge.com/streaming/957422/youtube-shorts-update-tiktok",
+    "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/06/youtube-shorts-clear-screen.png?quality=90&#038;strip=all&#038;crop=0,0,100,100",
+    "stocks": [
+      {
+        "name": "Alphabet",
+        "ticker": "GOOGL",
+        "reason": "YouTube是Alphabet旗下核心资产，短视频功能优化有助于提升用户活跃度与广告变现能力。",
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
+    "id": "efaf3577e980524f",
+    "title": "美政府因安全担忧，要求OpenAI推迟发布GPT-5.6",
+    "summary": "据报道，特朗普政府出于对潜在安全问题的担忧，要求OpenAI推迟发布其下一代重要模型GPT-5.6。OpenAI CEO已向员工通报了这一决定。",
+    "body": "据The Verge和The Information报道，特朗普政府对人工智能模型可能带来的潜在安全问题表示担忧，并已向OpenAI提出要求，希望其错开或推迟下一代重磅模型GPT-5.6的发布计划。\n\nOpenAI首席执行官萨姆·奥特曼已在周三向公司员工通报了这一情况。此举表明，随着AI技术的快速发展，美国政府正加强对前沿AI模型的安全审查与干预力度。\n\nGPT-5.6的延期发布不仅反映了监管层对AI安全风险的警惕，也可能对OpenAI的产品路线图及整个AI行业的竞争格局产生一定影响，凸显了技术发展与国家安全考量之间的博弈。",
+    "category": "人工智能",
+    "tags": [
+      "OpenAI",
+      "GPT-5.6",
+      "人工智能",
+      "特朗普政府"
+    ],
+    "source": "The Verge",
+    "time": "1小时前",
+    "ts": "2026-06-25T17:57:06-04:00",
+    "url": "https://www.theverge.com/ai-artificial-intelligence/957372/openai-will-delay-gpt-5-6-after-trump-administration-request",
+    "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/04/STK201_SAM_ALTMAN_CVIRGINIA2A.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100",
+    "stocks": []
+  },
+  {
     "id": "9894034793e77dac",
     "title": "肯尼亚名将坎迪因兴奋剂违规被禁赛七年",
     "summary": "肯尼亚长跑运动员坎迪因违反反兴奋剂规定，被田径诚信委员会处以七年禁赛处罚。",
@@ -52744,6 +53783,6 @@ const newsData = [
   }
 ];
 const newsDigest = {
-  "text": "今日科技要闻聚焦AI医疗赋能、消费电子硬件迭代与新能源车企布局。AI优化诊疗流程利好医疗信息化标的；AMD与雷蛇新品提振半导体及外设产业链；路虎发力高端电动车或带动汽车零部件及电池板块。",
+  "text": "今日科技前沿聚焦AI算力与模型迭代，IBM立体芯片设计与美政府规范GPT-5.6发布利好半导体及AI算力标的；特斯拉柏林工厂扩产提振新能源车产业链；苹果代工厂遭黑客攻击凸显数据安全需求，利好信创与网安板块。",
   "highlights": []
 };
