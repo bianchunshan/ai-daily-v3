@@ -1,5 +1,1067 @@
 const newsData = [
   {
+    "id": "7c3cb562125519e2",
+    "title": "张雪机车首次批量出口欧洲，200余辆摩托运抵波兰",
+    "summary": "中国机车品牌张雪机车实现首次批量出口欧洲，200余辆摩托车即将运抵波兰市场。",
+    "body": "近日，中国机车品牌张雪机车迎来出海重要里程碑，首次实现批量出口欧洲市场。据悉，首批200余辆摩托车即将运抵波兰，标志着该品牌在国际市场上的进一步拓展。\n\n此次批量出口展现了张雪机车在产品品质上获得了欧洲市场的认可，为其后续深耕海外市场奠定基础。随着中国摩托车制造业升级，本土机车品牌正加速走向国际，提升中国制造在全球出行领域的影响力。",
+    "category": "消费电子",
+    "tags": [
+      "张雪机车",
+      "摩托车出口",
+      "欧洲市场",
+      "中国制造"
+    ],
+    "source": "IT之家",
+    "time": "刚刚",
+    "ts": "2026-06-25T13:25:40.665979+00:00",
+    "url": "https://www.ithome.com/0/968/676.htm",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "c5750b88f5f761d8",
+    "title": "亚马逊Prime Day电视与流媒体设备最高享43%折扣",
+    "summary": "Wired报道了2026年亚马逊Prime Day期间电视及流媒体设备的最佳优惠，部分产品折扣高达43%。",
+    "body": "据Wired报道，在2026年亚马逊Prime Day活动期间，消费者在购买电视和流媒体设备时可享受大幅优惠，部分精选产品的折扣最高可达43%。此次促销涵盖了市场上主流的智能电视及流媒体播放硬件，旨在为会员提供极具性价比的家庭娱乐升级方案。\n\n此类大型电商促销活动不仅为消费者带来直接实惠，也进一步刺激了消费电子产品的换新需求。对于电视制造商和流媒体平台而言，Prime Day是提升硬件普及率、扩大市场份额的重要契机，有助于推动家庭娱乐生态的持续繁荣。",
+    "category": "消费电子",
+    "tags": [
+      "Prime Day",
+      "智能电视",
+      "流媒体设备",
+      "消费电子"
+    ],
+    "source": "Wired",
+    "time": "刚刚",
+    "ts": "2026-06-25T13:25:37.685399+00:00",
+    "url": "https://www.wired.com/story/best-prime-day-tv-deals-06-25-2026/",
+    "image": "https://media.wired.com/photos/6a39c4347cb7548eacd5313a/master/pass/The-Best-Prime-Day-Deals-on-TVs-and-Streaming-Devices.jpg",
+    "stocks": []
+  },
+  {
+    "id": "b9083826d2c07ff4",
+    "title": "重塑过去：记忆的运作机制研究",
+    "summary": "MedicalXpress报道了关于记忆运作机制的研究，探讨大脑如何重塑和处理过去的记忆。",
+    "body": "据MedicalXpress报道，近期有研究探讨了记忆的运作机制，聚焦于大脑如何重塑过去的记忆。该报道主要关注记忆形成与处理的神经科学基础。\n\n深入理解记忆的工作原理对脑科学和医学研究具有重要价值。这不仅有助于揭示人类认知的底层逻辑，也为未来应对记忆衰退或相关神经系统疾病提供了理论参考。",
+    "category": "生物医药",
+    "tags": [
+      "记忆机制",
+      "神经科学",
+      "脑科学"
+    ],
+    "source": "MedicalXpress",
+    "time": "刚刚",
+    "ts": "2026-06-25T13:25:24.540432+00:00",
+    "url": "https://medicalxpress.com/news/2026-06-remaking-memory.html",
+    "image": "https://scx1.b-cdn.net/csz/news/tmb/2022/memory-1.jpg",
+    "stocks": []
+  },
+  {
+    "id": "7de895d8ff18b147",
+    "title": "以军突袭巴勒斯坦人住所并击毙一名男子",
+    "summary": "据半岛电视台报道，以色列军队在突袭一名巴勒斯坦男子的住所时将其击毙。",
+    "body": "据半岛电视台报道，以色列军队对一名巴勒斯坦男子的住所实施了突袭行动。在此次军事行动中，以军将该名巴勒斯坦男子击毙。\n\n这一事件再次反映了巴以地区持续紧张的局势。此类军事行动与冲突不仅加剧了当地的安全风险，也对中东地区的整体和平与稳定带来持续挑战。",
+    "category": "国际局势",
+    "tags": [
+      "巴以冲突",
+      "中东局势",
+      "以军行动"
+    ],
+    "source": "Al Jazeera",
+    "time": "刚刚",
+    "ts": "2026-06-25T13:25:23.162854+00:00",
+    "url": "https://www.aljazeera.com/video/newsfeed/2026/6/25/israeli-forces-kill-palestinian-man-during-raid-on-his-home?traffic_source=rss",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "3557cc98b01b61bc",
+    "title": "HyperX新款无线游戏耳机评测：80小时续航不足百元",
+    "summary": "科技媒体Tom's Hardware近日评测了HyperX Cloud Stinger 3无线游戏耳机。该产品主打80小时超长续航，且售价低于100美元，具备较高性价比。",
+    "body": "知名科技媒体Tom's Hardware近日发布了HyperX Cloud Stinger 3无线游戏耳机的详细评测。该产品以不足100美元的亲民定价切入入门级市场，并提供了高达80小时的电池续航能力，在同价位无线游戏耳机中展现出显著的续航优势。\n\n对于游戏玩家和日常用户而言，超长续航意味着更少的充电频率和更持久的使用体验。HyperX通过这款高性价比产品，进一步丰富了其百元级无线外设产品线，也为预算有限但追求长续航体验的消费者提供了极具吸引力的新选择。",
+    "category": "消费电子",
+    "tags": [
+      "HyperX",
+      "无线耳机",
+      "游戏外设"
+    ],
+    "source": "Tom's Hardware",
+    "time": "刚刚",
+    "ts": "2026-06-25T13:25:16.824770+00:00",
+    "url": "https://www.tomshardware.com/peripherals/gaming-headsets/hyperx-cloud-stinger-3-wireless-review",
+    "image": "https://cdn.mos.cms.futurecdn.net/2K2zvSveGYHxyopxSwbRt3-1280-80.jpg",
+    "stocks": []
+  },
+  {
+    "id": "cc8ce470834c0f4d",
+    "title": "美光签千亿美元长期供应协议，称内存短缺结束时间未知",
+    "summary": "美光科技宣布签署价值1000亿美元的长期供应协议，同时表示目前尚无法预测内存供应紧张的局面何时能够结束。",
+    "body": "美光科技（Micron）近日宣布，公司已签署总价值高达1000亿美元的长期供应协议。这一巨额订单不仅彰显了下游客户对美光存储产品的强劲需求，也为其未来的业绩增长提供了坚实保障。\n\n然而，美光同时坦言，目前无法预测内存（RAM）供应短缺的危机何时能够彻底结束。这表明全球内存市场仍处于供不应求的状态，产能扩张速度尚难以完全满足市场需求。\n\n这一消息对半导体存储行业具有重要指标意义。长期协议的锁定意味着美光未来产能已被大量预定，而供应紧张的持续也将有力支撑内存芯片价格，进一步改善存储厂商的盈利预期。",
+    "category": "消费电子",
+    "tags": [
+      "美光科技",
+      "内存芯片",
+      "半导体",
+      "供应链"
+    ],
+    "source": "Tom's Hardware",
+    "time": "刚刚",
+    "ts": "2026-06-25T13:25:12.121065+00:00",
+    "url": "https://www.tomshardware.com/pc-components/dram/micron-inks-long-term-supply-agreements-worth-usd100-billion-says-it-has-no-idea-when-ram-crisis-will-end",
+    "image": "https://cdn.mos.cms.futurecdn.net/v42xzh4iKMzqQEivJjq7Ge-1280-80.jpg",
+    "stocks": [
+      {
+        "name": "美光科技",
+        "ticker": "MU",
+        "reason": "签署千亿美元长期协议直接保障未来营收，且内存供应紧张有望支撑产品均价与利润率。",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "baef3ad068927458",
+    "title": "南非警察腐败丑闻关键人物认罪",
+    "summary": "南非警察腐败丑闻的一名关键人物在法庭上正式认罪，该案件涉及当地执法系统的严重贪腐问题。",
+    "body": "近日，南非警察腐败丑闻的一名关键人物在法庭上正式认罪。这一案件引发了南非社会的广泛关注，暴露出当地执法系统内部存在的严重贪腐问题。\n\n该人物的认罪被视为南非打击警务系统腐败的重要进展。此举不仅有助于推进相关司法调查，也向外界传递了南非政府整顿执法队伍、恢复公众信任的决心。\n\n彻底根除警察系统的腐败仍需长期的制度改革与监督，南非在法治建设和廉政推进方面依然面临诸多挑战。",
+    "category": "国际局势",
+    "tags": [
+      "南非",
+      "警察腐败",
+      "司法调查"
+    ],
+    "source": "BBC World",
+    "time": "刚刚",
+    "ts": "2026-06-25T13:25:08.802672+00:00",
+    "url": "https://www.bbc.co.uk/news/articles/cx2j4g5k52jo?at_medium=RSS&at_campaign=rss",
+    "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/09cc/live/fd77ed20-7091-11f1-8e1d-bbbb1017d210.png",
+    "stocks": []
+  },
+  {
+    "id": "2064111a05053dc3",
+    "title": "Steam夏促明日开启，英伟达推GeForce NOW优惠及新作",
+    "summary": "Steam夏季促销即将拉开帷幕，英伟达同步为旗下云游戏服务GeForce NOW推出优惠活动并上线多款新作。",
+    "body": "一年一度的Steam夏季促销活动将于明日正式开启，为广大PC游戏玩家带来海量游戏的折扣优惠。作为PC游戏生态的重要参与者，英伟达借此契机宣布同步推出旗下云游戏服务GeForce NOW的专属优惠活动。\n\n除了价格优惠外，英伟达还将在GeForce NOW平台上架多款全新游戏作品，进一步丰富其云游戏内容库。此举旨在吸引更多玩家体验云端游戏，展示了英伟达在云游戏和PC游戏生态领域的持续布局。\n\n随着Steam夏促与英伟达云游戏优惠的同步推进，预计将进一步刺激PC游戏市场的消费活力，并对云游戏服务的普及起到积极的推动作用。",
+    "category": "消费电子",
+    "tags": [
+      "Steam",
+      "英伟达",
+      "云游戏",
+      "夏季促销"
+    ],
+    "source": "IT之家",
+    "time": "刚刚",
+    "ts": "2026-06-25T13:25:06.278371+00:00",
+    "url": "https://www.ithome.com/0/968/680.htm",
+    "image": "",
+    "stocks": [
+      {
+        "name": "英伟达",
+        "ticker": "NVDA",
+        "reason": "直接推出GeForce NOW云游戏优惠及新作，利好其云游戏业务与GPU生态推广。",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "4ec4e1e39507e54e",
+    "title": "亚马逊Prime Day Kindle系列最高享36%折扣",
+    "summary": "亚马逊在Prime Day期间推出Kindle系列阅读器促销活动，涵盖Paperwhite、Colorsoft及儿童版，最高折扣达36%。",
+    "body": "科技媒体Wired报道，亚马逊在Prime Day购物节期间为旗下Kindle电子书阅读器推出大幅优惠活动。此次促销涵盖了多款热门型号，包括经典的Paperwhite、采用彩色墨水屏的Colorsoft以及专为儿童设计的Kids版本。\n\n据悉，消费者在此次活动中最高可享受36%的折扣。此类硬件促销不仅为阅读爱好者提供了购入或升级设备的良机，也有助于亚马逊进一步巩固其在电子阅读器市场的主导地位，并带动其数字内容生态的持续活跃。",
+    "category": "消费电子",
+    "tags": [
+      "亚马逊",
+      "Kindle",
+      "Prime Day",
+      "电子阅读器"
+    ],
+    "source": "Wired",
+    "time": "刚刚",
+    "ts": "2026-06-25T13:25:01.804268+00:00",
+    "url": "https://www.wired.com/story/kindle-prime-day-deals-06-25-2026/",
+    "image": "https://media.wired.com/photos/6a39c0acf875943dad2ebda1/master/pass/The-Best-Kindle-Deals-Happening-for-Amazon-Prime-Day.jpg",
+    "stocks": [
+      {
+        "name": "亚马逊",
+        "ticker": "AMZN",
+        "reason": "作为Kindle的制造商与Prime Day的主办方，硬件促销有助于拉动营收并促进其数字内容生态的活跃度。",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "1041a802859b33f7",
+    "title": "宝马日本推出X5最终版，现款车型换代在即",
+    "summary": "宝马在日本市场推出X5 Final Edition特别版车型，作为现款车型的收官之作，预示着新一代车型换代在即。",
+    "body": "宝马近期在日本市场正式推出X5 Final Edition特别版车型。该版本被定位为现款X5的收官之作，旨在为当前这一代车型的生命周期画上句号。\n\n此前业内已有消息称宝马X5即将迎来换代。此次推出最终版车型，不仅是对现款产品的总结，也进一步印证了全新一代X5正在筹备之中。\n\n此举是车企在车型换代过渡期维持市场热度与产品吸引力的常见策略，同时也为现款X5的潜在消费者提供了具有纪念意义的购车选择。",
+    "category": "消费电子",
+    "tags": [
+      "宝马",
+      "X5",
+      "车型换代"
+    ],
+    "source": "IT之家",
+    "time": "刚刚",
+    "ts": "2026-06-25T13:24:49.042220+00:00",
+    "url": "https://www.ithome.com/0/968/677.htm",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "333411721aa26b30",
+    "title": "中美在月球时间标准制定上存在分歧",
+    "summary": "美国与中国在建立月球时间标准方面存在不同立场，凸显两国在未来月球探测与太空规则制定上的战略博弈。",
+    "body": "随着人类月球探测活动的日益频繁，建立统一的月球时间标准成为亟待解决的关键议题。美国正积极推进“协调月球时”的制定，旨在为其主导的月球探索计划提供基础时间基准。\n与此同时，中国在推进自身月球探测及国际月球科研站计划时，在月球时间标准的路径选择上与美国存在分歧。这一分歧不仅涉及复杂环境下的时间同步技术，更折射出两国在未来太空规则制定与月球开发主导权上的战略博弈。",
+    "category": "商业航天",
+    "tags": [
+      "月球探测",
+      "太空规则",
+      "中美航天"
+    ],
+    "source": "Space.com",
+    "time": "刚刚",
+    "ts": "2026-06-25T13:24:37.490250+00:00",
+    "url": "https://www.space.com/astronomy/moon/what-time-is-it-on-the-moon-the-us-and-china-disagree",
+    "image": "https://cdn.mos.cms.futurecdn.net/G6jdLwUFfZVKTvVDgYCyuW-1280-80.jpg",
+    "stocks": []
+  },
+  {
+    "id": "bb1586fe341b179b",
+    "title": "清除KRAS抑制剂耐药癌细胞：预防癌症复发新策略",
+    "summary": "最新研究探讨了消除在KRAS抑制治疗后存活的癌细胞的方法，旨在克服靶向治疗耐药性并预防癌症复发。",
+    "body": "KRAS基因突变在多种恶性肿瘤中广泛存在，尽管KRAS抑制剂在临床应用中展现出疗效，但获得性耐药导致的癌症复发仍是重大挑战。部分癌细胞能够在KRAS抑制环境下存活，成为后续肿瘤复发和进展的根源。\n\n最新研究聚焦于如何有效清除这些在KRAS抑制后幸存的癌细胞。通过探索潜在的干预机制与治疗策略，该研究为克服靶向药物耐药性提供了新思路。\n\n这一发现具有重要的临床转化意义，相关策略若成功应用，将有望降低KRAS突变癌症患者的复发风险，为精准肿瘤学带来新突破。",
+    "category": "生物医药",
+    "tags": [
+      "KRAS抑制剂",
+      "癌症复发",
+      "靶向治疗",
+      "生物医药"
+    ],
+    "source": "MedicalXpress",
+    "time": "刚刚",
+    "ts": "2026-06-25T13:24:33.374225+00:00",
+    "url": "https://medicalxpress.com/news/2026-06-cancer-cells-survive-kras-inhibition.html",
+    "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/eliminating-cancer-cel.jpg",
+    "stocks": []
+  },
+  {
+    "id": "ef62510deeb63d24",
+    "title": "英媒解析英国为何频繁更换首相",
+    "summary": "半岛电视台撰文分析英国政治生态，探讨该国首相频繁更迭背后的深层原因及影响。",
+    "body": "半岛电视台近日发表分析文章，探讨英国政坛首相频繁更迭的现象及其背后的深层原因。文章指出，英国政治生态中的内部博弈与治理挑战，导致其最高行政长官的任期往往难以长久。\n\n这种频繁的领导层变动不仅反映了英国国内政治的复杂性，也对其政策的连续性与国家治理效能产生了深远影响。在应对国内外重大议题时，首相的频繁更换可能削弱长期战略规划的稳定性。",
+    "category": "国际局势",
+    "tags": [
+      "英国政治",
+      "首相更迭",
+      "国际局势"
+    ],
+    "source": "Al Jazeera",
+    "time": "刚刚",
+    "ts": "2026-06-25T13:24:24.325192+00:00",
+    "url": "https://www.aljazeera.com/opinions/2026/6/25/why-britain-devours-its-prime-ministers?traffic_source=rss",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "fc10ba0777e4185c",
+    "title": "委内瑞拉发生两次大地震 恐致数千人遇难",
+    "summary": "委内瑞拉近日遭遇两次强烈地震，目前预计已有数千人在此次灾害中遇难，救援工作面临严峻挑战。",
+    "body": "近日，委内瑞拉接连发生两次强烈地震，造成了严重的破坏。据初步估计，此次灾害可能导致数千人遇难，大量基础设施受损，当地居民生活受到极大影响。\n\n地震发生后，国际社会高度关注，救援力量正紧急赶赴灾区展开搜救与援助工作。由于震级较高且影响范围广，灾害对委内瑞拉的经济与社会稳定带来了严峻考验。\n\n此次自然灾害也凸显了加强地震预警系统与防灾减灾基础设施建设的重要性，未来相关领域的科技投入与国际合作有望进一步加强。",
+    "category": "国际局势",
+    "tags": [
+      "委内瑞拉",
+      "地震",
+      "自然灾害",
+      "国际救援"
+    ],
+    "source": "Wired",
+    "time": "刚刚",
+    "ts": "2026-06-25T13:24:10.344892+00:00",
+    "url": "https://www.wired.com/story/thousands-feared-dead-after-venezuela-struck-by-strongest-earthquakes-in-over-125-years/",
+    "image": "https://media.wired.com/photos/6a3d125aae3c1cc072f46224/master/pass/GettyImages-2282651869.jpg",
+    "stocks": []
+  },
+  {
+    "id": "d69d79eea8fe2144",
+    "title": "8月日食观测利器：日食双筒望远镜Prime Day促销开启",
+    "summary": "针对8月日食观测需求，一款日食专用双筒望远镜在Prime Day期间推出促销活动，为天文爱好者提供高性价比的观测设备。",
+    "body": "随着8月日食天文事件的临近，众多天文爱好者与旅行者正积极筹备专业观测设备。为此，一款日食专用双筒望远镜在Prime Day期间推出了专属促销活动，旨在为消费者提供更具性价比的购买选择。\n\n日食观测对设备的光学性能和滤光安全性有严格要求。此次参与促销的双筒望远镜专为太阳观测设计，不仅能提供清晰视野，还能有效保护观测者视力，成为户外旅行与天文观测的理想装备。",
+    "category": "消费电子",
+    "tags": [
+      "日食观测",
+      "双筒望远镜",
+      "Prime Day",
+      "消费电子"
+    ],
+    "source": "Space.com",
+    "time": "刚刚",
+    "ts": "2026-06-25T13:24:05.673476+00:00",
+    "url": "https://www.space.com/stargazing/skywatching-kit/traveling-to-see-the-total-solar-eclipse-this-august-this-solar-binocular-prime-day-deal-is-a-total-ly-bright-idea",
+    "image": "https://cdn.mos.cms.futurecdn.net/VmFsWfWm6EnsCMwZJsVVi-1280-80.jpg",
+    "stocks": []
+  },
+  {
+    "id": "60334edb8b2683c2",
+    "title": "脱欧十年对英国经济影响愈发清晰",
+    "summary": "英国脱欧即将迎来十周年，其对英国宏观经济的长期影响正通过各项指标愈发清晰地显现出来。",
+    "body": "英国脱欧即将迎来十周年，这一重大历史事件对英国宏观经济的深远影响正愈发清晰。随着时间推移，脱欧带来的结构性调整与经济表现之间的关联逐渐明朗，各项长期经济指标开始全面反映这一政策变化的实际后果。\n\n分析指出，脱欧对英国经济的重塑涉及多个维度，不仅改变了英国与主要贸易伙伴的经贸关系，也对整体生产力和投资环境产生了深远影响。这一宏观趋势不仅关乎英国本土的经济前景，也对全球资本流动和跨国企业的区域战略具有重要参考意义。",
+    "category": "国际局势",
+    "tags": [
+      "英国脱欧",
+      "宏观经济",
+      "国际贸易"
+    ],
+    "source": "BBC中文",
+    "time": "刚刚",
+    "ts": "2026-06-25T13:24:04.240390+00:00",
+    "url": "https://www.bbc.com/zhongwen/articles/cj4g1v4lz27o/trad?at_medium=RSS&at_campaign=rss",
+    "image": "https://ichef.bbci.co.uk/ace/ws/240/cpsprodpb/d195/live/4f1879d0-6e4c-11f1-8e1d-bbbb1017d210.jpg",
+    "stocks": []
+  },
+  {
+    "id": "35fee4ce9c5b7132",
+    "title": "日本长期肝炎防控成效显著，乙肝丙肝负担大幅降低",
+    "summary": "日本通过长期的肝炎控制努力，已显著降低了乙型肝炎和丙型肝炎的疾病负担，展现了公共卫生干预的长期成效。",
+    "body": "日本在乙型肝炎（HBV）和丙型肝炎（HCV）的长期防控方面取得了显著成果。相关研究表明，持续的控制措施已大幅降低了这两种病毒性肝炎在日本的疾病负担。\n\n这一成就凸显了长期公共卫生政策和干预措施在应对慢性传染病中的关键作用。日本的经验为全球其他面临肝炎挑战的国家和地区提供了重要的参考与借鉴，有助于推动全球消除肝炎公共卫生目标的实现。",
+    "category": "生物医药",
+    "tags": [
+      "肝炎防控",
+      "公共卫生",
+      "乙肝",
+      "丙肝"
+    ],
+    "source": "MedicalXpress",
+    "time": "刚刚",
+    "ts": "2026-06-25T13:24:03.179265+00:00",
+    "url": "https://medicalxpress.com/news/2026-06-term-hepatitis-efforts-hbv-hcv.html",
+    "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/long-term-hepatitis-co.jpg",
+    "stocks": []
+  },
+  {
+    "id": "f290ae61de05098c",
+    "title": "美推动利比亚建统一政府 考验的黎波里各派系",
+    "summary": "美国正积极推动利比亚建立统一政府，此举对的黎波里各政治派系构成考验，可能影响该国未来的政治稳定与和解进程。",
+    "body": "近日，美国加大外交努力，推动利比亚各方建立统一政府。这一举措旨在结束利比亚长期的政治分裂状态，促进国家的稳定与重建。\n\n然而，美国的这一推动行动对首都的黎波里的各个政治和武装派系构成了严峻考验。各派系在权力分配、利益诉求以及对外部干预的态度上存在显著分歧，使得统一政府的组建面临重重阻力。\n\n分析人士指出，利比亚的政治和解不仅关乎该国的内部稳定，也对北非地区的地缘政治格局具有深远影响。美国的外交介入能否取得实质性突破，仍有待各方博弈的结果。",
+    "category": "国际局势",
+    "tags": [
+      "利比亚",
+      "美国外交",
+      "地缘政治",
+      "北非局势"
+    ],
+    "source": "Al Jazeera",
+    "time": "刚刚",
+    "ts": "2026-06-25T13:23:53.245746+00:00",
+    "url": "https://www.aljazeera.com/features/2026/6/25/us-push-for-unified-libyan-government-tests-tripoli-factions?traffic_source=rss",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "d1cf6901fa36db0d",
+    "title": "高通拟推中国特供数据中心芯片，新款AI加速器符合出口管制",
+    "summary": "高通计划推出专为中国市场设计的数据中心芯片，其全新的Dragonfly系列将包含符合美国出口管制阈值的降规版AI加速器。",
+    "body": "据外媒报道，高通正计划推出专门针对中国市场的数据中心芯片。其全新的Dragonfly产品线将包含性能经过调整的AI加速器，以确保完全符合现行的出口管制阈值。\n\n此举表明，在面临严格的芯片出口限制背景下，高通正积极调整其产品策略，试图在合规的前提下继续参与中国数据中心与AI算力市场的竞争。这也反映出全球半导体巨头在应对贸易合规时的灵活应变与市场考量。",
+    "category": "人工智能",
+    "tags": [
+      "高通",
+      "AI芯片",
+      "数据中心",
+      "出口管制"
+    ],
+    "source": "Tom's Hardware",
+    "time": "刚刚",
+    "ts": "2026-06-25T13:23:48.749428+00:00",
+    "url": "https://www.tomshardware.com/tech-industry/qualcomm-plans-china-specific-data-center-chips-built-to-clear-us-export-limits",
+    "image": "https://cdn.mos.cms.futurecdn.net/h6SUcC4w6Yrsao6SuXzGj-1280-80.jpg",
+    "stocks": [
+      {
+        "name": "高通",
+        "ticker": "QCOM",
+        "reason": "推出合规特供版芯片有助于维持其在中国数据中心及AI市场的份额与营收。",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "9baa1d0bc7814f69",
+    "title": "欧洲热浪向东蔓延，法国健康警报升至最高级",
+    "summary": "欧洲热浪正逐渐向东转移，法国因极端高温将健康警报提升至最高级别，以应对潜在的公共健康风险。",
+    "body": "近期，席卷欧洲的热浪正逐渐向东蔓延，多国面临极端高温天气的考验。法国政府已将该国的健康警报提升至最高级别，以应对持续高温对公众健康造成的严重威胁。\n\n此次热浪的转移不仅影响了西欧地区，也给东欧国家带来了显著的气候压力。极端天气事件的频发再次凸显了全球气候变化对各地社会运行和公共健康的深远影响，各国正积极采取应对措施以减轻高温带来的负面效应。",
+    "category": "国际局势",
+    "tags": [
+      "欧洲热浪",
+      "极端天气",
+      "法国",
+      "气候变化"
+    ],
+    "source": "BBC World",
+    "time": "刚刚",
+    "ts": "2026-06-25T13:23:42.525774+00:00",
+    "url": "https://www.bbc.co.uk/news/articles/cwy0pdq89zno?at_medium=RSS&at_campaign=rss",
+    "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9267/live/a6735e60-7096-11f1-8e1d-bbbb1017d210.jpg",
+    "stocks": []
+  },
+  {
+    "id": "bdc783abd09095e7",
+    "title": "沃尔玛精选18款超值特惠 促销力度力压同期竞品",
+    "summary": "科技媒体Wired盘点了18款沃尔玛平台的特惠商品，认为其性价比超越了同期进行的其他大型电商促销活动。",
+    "body": "近日，知名科技媒体Wired发布了一篇购物指南，精选了18款沃尔玛平台的特惠商品。文章指出，这些商品的折扣力度和性价比表现优异，被认为超越了同期举行的其他大型电商促销活动。\n\n此类促销推荐通常涵盖智能家电、数码配件及各类消费电子产品，为消费者提供了更具性价比的购物选择。\n\n从行业角度来看，沃尔玛通过积极的定价策略与竞争对手展开直接交锋，进一步加剧了零售市场的促销战。这不仅有助于提升其线上线下渠道的客流量，也反映出当前消费市场竞争的激烈程度。",
+    "category": "消费电子",
+    "tags": [
+      "沃尔玛",
+      "电商促销",
+      "消费电子",
+      "零售"
+    ],
+    "source": "Wired",
+    "time": "刚刚",
+    "ts": "2026-06-25T13:23:40.724595+00:00",
+    "url": "https://www.wired.com/story/walmart-deals-apd-06-25-2026/",
+    "image": "https://media.wired.com/photos/6a3abc00b35647f689f166fa/master/pass/The-Best-Walmart-Deals-This-Prime-Day.jpg",
+    "stocks": [
+      {
+        "name": "沃尔玛",
+        "ticker": "WMT",
+        "reason": "作为促销活动的发起方，极具吸引力的折扣活动有望提升其零售销售额与市场份额。",
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
+    "id": "c974c5c2af0c7ce6",
+    "title": "B站预计明年视频播客日播放达3亿分钟，阿福上线减重行动",
+    "summary": "B站预计至明年视频播客日均播放时长将达3亿分钟；同时，阿福“科学减重1亿斤”行动正式上线。",
+    "body": "近日，哔哩哔哩（B站）披露了其在视频播客领域的业务预期。公司预计到明年，平台视频播客的日均播放时长有望达到3亿分钟，显示出该内容形态在用户中的持续增长潜力与粘性。\n\n此外，阿福正式推出“科学减重1亿斤”行动。该行动旨在通过科学的方式推动大众健康管理，进一步拓展了数字健康与体重管理领域的服务场景，反映出市场对科学减重及健康生活方式的持续关注。",
+    "category": "消费电子",
+    "tags": [
+      "B站",
+      "视频播客",
+      "数字健康",
+      "科学减重"
+    ],
+    "source": "36氪",
+    "time": "刚刚",
+    "ts": "2026-06-25T13:23:34.543509+00:00",
+    "url": "https://36kr.com/p/3868502221018370?f=rss",
+    "image": "",
+    "stocks": [
+      {
+        "name": "哔哩哔哩",
+        "ticker": "9626.HK",
+        "reason": "视频播客播放时长预期大幅增长，有望提升平台用户粘性及商业化潜力。",
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
+    "id": "8e34c4115e58793b",
+    "title": "百度千帆Coding Plan停止续费，已购用户可用至到期",
+    "summary": "百度千帆大模型平台宣布其Coding Plan服务停止续费，已购买该服务的用户可正常使用至服务到期。",
+    "body": "近日，百度千帆大模型平台对其产品线进行调整，宣布旗下的Coding Plan服务正式停止续费。这意味着新用户将无法再购买该项AI编程辅助服务。\n\n对于已经购买该服务的存量用户，百度方面表示其权益不受影响，已购用户可继续正常使用Coding Plan直至当前服务周期到期。\n\n此次调整可能反映了百度在AI应用商业化策略上的优化与聚焦，未来或将推出更具竞争力的AI编程产品或将其整合至其他核心大模型服务中。",
+    "category": "人工智能",
+    "tags": [
+      "百度",
+      "千帆大模型",
+      "AI编程",
+      "产品调整"
+    ],
+    "source": "IT之家",
+    "time": "刚刚",
+    "ts": "2026-06-25T13:23:31.949505+00:00",
+    "url": "https://www.ithome.com/0/968/681.htm",
+    "image": "",
+    "stocks": [
+      {
+        "name": "百度",
+        "ticker": "BIDU",
+        "reason": "百度旗下千帆大模型产品线调整，反映其AI应用商业化策略优化。",
+        "confidence": "low"
+      }
+    ]
+  },
+  {
+    "id": "5669e67d5c2a9200",
+    "title": "2026年Prime Day绿色促销涵盖电动车与储能设备",
+    "summary": "2026年Prime Day将推出大规模绿色环保产品促销，涵盖电动汽车、储能电站、电动工具及智能设备等品类。",
+    "body": "2026年Prime Day活动将重点推出绿色环保产品优惠。此次促销范围广泛，涵盖电动汽车、储能电站、电动工具以及各类智能设备。\n\n此举反映了主流电商平台对可持续消费和清洁能源产品的日益重视。通过大型促销推广绿色科技产品，有助于降低消费者购买门槛，推动环保产业链的市场普及。",
+    "category": "消费电子",
+    "tags": [
+      "Prime Day",
+      "绿色促销",
+      "电动汽车",
+      "储能设备"
+    ],
+    "source": "Electrek",
+    "time": "刚刚",
+    "ts": "2026-06-25T13:23:24.600833+00:00",
+    "url": "https://electrek.co/2026/06/25/prime-day-2026-green-deals-evs-power-stations-tools-smart-devices-and-much-more/",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "350c5f015d10c712",
+    "title": "新型可展开胃内胶囊可靶向溃疡致病菌长达48小时",
+    "summary": "研究人员开发了一种新型可展开胃部胶囊，能够在胃内靶向导致溃疡的细菌并持续作用长达48小时，为治疗胃部感染提供了新思路。",
+    "body": "科研人员近期展示了一种新型可展开胃部胶囊技术。该胶囊进入胃部后能够自动展开，精准靶向导致胃溃疡的细菌，并维持长达48小时的持续作用。\n\n常规口服药物在胃部的停留时间通常较短，难以实现长效治疗。该胶囊通过独特的展开结构设计，有效克服了这一难题，显著延长了药物在胃内的滞留与起效时间。\n\n此项研究为胃部感染和溃疡治疗提供了创新的给药策略，有望提高药物利用率并改善患者预后，对长效消化道靶向给药系统的未来研发具有重要启示意义。",
+    "category": "生物医药",
+    "tags": [
+      "靶向给药",
+      "医疗器械",
+      "胃溃疡治疗"
+    ],
+    "source": "MedicalXpress",
+    "time": "刚刚",
+    "ts": "2026-06-25T13:23:23.963492+00:00",
+    "url": "https://medicalxpress.com/news/2026-06-unfolding-stomach-capsule-ulcer-bacteria.html",
+    "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/better-gastric-ulcer-t-2.jpg",
+    "stocks": []
+  },
+  {
+    "id": "d11e138a0f86928b",
+    "title": "迪士尼推流媒体捆绑套餐促销 迎《阿凡达3》",
+    "summary": "为配合《阿凡达：火与灰》相关内容，Disney+与Hulu推出联合订阅套餐，最高可享五折优惠。",
+    "body": "迪士尼旗下流媒体平台Disney+与Hulu近期推出联合订阅促销活动，旨在配合《阿凡达：火与灰》等IP内容的宣发与上线。用户订阅该捆绑套餐最高可享受50%的折扣优惠。\n\n此类流媒体平台的捆绑销售策略，有助于迪士尼进一步整合旗下内容资源，提升用户黏性与整体订阅量。在流媒体竞争日益激烈的背景下，将价格优惠与独家顶级IP内容相结合，已成为平台吸引新用户并留住现有用户的重要手段。",
+    "category": "消费电子",
+    "tags": [
+      "迪士尼",
+      "流媒体",
+      "阿凡达"
+    ],
+    "source": "Space.com",
+    "time": "刚刚",
+    "ts": "2026-06-25T13:23:18.644677+00:00",
+    "url": "https://www.space.com/entertainment/watch-avatar-fire-and-ash-with-disney-and-hulu-get-up-to-50-percent-off-this-streaming-bundle",
+    "image": "https://cdn.mos.cms.futurecdn.net/CU9gSFc5x8ofpYifuTw52b-1280-80.jpg",
+    "stocks": [
+      {
+        "name": "迪士尼",
+        "ticker": "DIS",
+        "reason": "推出流媒体捆绑促销有助于提升Disney+和Hulu的订阅用户数及流媒体业务收入。",
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
+    "id": "a6f98eb0bd566658",
+    "title": "脱欧十年选民无悔：我们重获控制权",
+    "summary": "英国脱欧十年之际，部分支持脱欧的选民表示对当初的决定并无后悔，认为英国借此重新掌握了国家控制权。",
+    "body": "在英国脱欧公投过去十年之际，半岛电视台采访了部分支持脱欧的选民。这些选民表示，尽管脱欧带来了诸多挑战，但他们对当初的决定并不后悔，认为脱欧让英国重新获得了国家主权和控制权。\n\n这一现象反映出英国社会在脱欧问题上的复杂心态。尽管脱欧在经济和贸易层面引发了广泛争议，但在部分选民眼中，政治主权和国家自主权的回归依然具有重要价值，这也为观察英国未来的政治走向提供了参考。",
+    "category": "国际局势",
+    "tags": [
+      "英国脱欧",
+      "国际局势",
+      "欧洲政治"
+    ],
+    "source": "Al Jazeera",
+    "time": "刚刚",
+    "ts": "2026-06-25T13:23:08.845122+00:00",
+    "url": "https://www.aljazeera.com/news/2026/6/25/we-did-regain-control-the-brexit-voters-with-no-regrets-10-years-on?traffic_source=rss",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "dc7f4f6f2587a62d",
+    "title": "地震在不确定时期重创委内瑞拉",
+    "summary": "委内瑞拉遭遇地震灾害，在国家面临诸多不确定性的时期，此次灾害带来了毁灭性打击。",
+    "body": "委内瑞拉近期遭遇地震灾害，给该国带来了毁灭性的打击。在国家正处于充满不确定性的时期，这场自然灾害无疑加剧了当地的困境。\n\n此次地震对委内瑞拉的社会与经济状况造成了严重冲击。在面临诸多内部与外部挑战的背景下，该国的灾后恢复与重建工作将面临巨大考验。",
+    "category": "国际局势",
+    "tags": [
+      "委内瑞拉",
+      "地震",
+      "自然灾害"
+    ],
+    "source": "BBC World",
+    "time": "刚刚",
+    "ts": "2026-06-25T13:23:07.163203+00:00",
+    "url": "https://www.bbc.co.uk/news/articles/c3vynpw7rk4o?at_medium=RSS&at_campaign=rss",
+    "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e2e8/live/b9487830-708d-11f1-9ccf-7b8f89cb6e74.jpg",
+    "stocks": []
+  },
+  {
+    "id": "61fb909dde002dd6",
+    "title": "NASA取消多个探索项目，已超支数十亿美元",
+    "summary": "美国宇航局（NASA）取消了部分太空探索项目，这些项目在取消前已出现数十亿美元的预算超支。",
+    "body": "据SpaceNews报道，美国宇航局（NASA）取消了部分太空探索项目。这些被取消的项目在终止前已经出现了严重的预算超支，累计超支金额高达数十亿美元。\n\n此次项目取消及巨额超支事件，凸显了大型深空探索任务在成本控制与工程管理上面临的严峻挑战。这不仅可能促使NASA在未来优化项目审批与预算监督机制，也将对参与相关项目的航天承包商及整体商业航天供应链产生一定的警示与影响。",
+    "category": "商业航天",
+    "tags": [
+      "NASA",
+      "航天探索",
+      "预算超支"
+    ],
+    "source": "SpaceNews",
+    "time": "刚刚",
+    "ts": "2026-06-25T13:23:00.038320+00:00",
+    "url": "https://spacenews.com/canceled-nasa-exploration-projects-suffered-billions-of-dollars-in-overruns/",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "72205a978ef10c51",
+    "title": "B&H限时半价促销三星37英寸4K显示器 仅售249美元",
+    "summary": "B&H推出限时一天的促销活动，将三星37英寸4K显示器半价降至249美元，为消费者提供高性价比的大屏生产力工具。",
+    "body": "知名零售商B&H近日推出了一项限时一天的显示器促销活动。活动期间，消费者可以以249美元的优惠价格购入一款37英寸的三星4K显示器，折扣力度高达50%。\n\n这款大尺寸4K显示器主要面向需要广阔视野的生产力用户。此次半价促销不仅大幅降低了高端大屏显示设备的购买门槛，也为有升级办公或创作环境需求的消费者提供了极具性价比的选择。",
+    "category": "消费电子",
+    "tags": [
+      "三星",
+      "显示器",
+      "B&H",
+      "促销"
+    ],
+    "source": "Tom's Hardware",
+    "time": "刚刚",
+    "ts": "2026-06-25T13:22:56.225114+00:00",
+    "url": "https://www.tomshardware.com/pc-components/today-only-you-can-snag-a-37-inch-4k-samsung-monitor-for-just-usd249-b-and-h-offers-up-a-big-productivity-screen-for-50-percent-off-in-a-one-day-deal",
+    "image": "https://cdn.mos.cms.futurecdn.net/FR68HEuWRr34CMGrNkaiZY-1280-80.jpg",
+    "stocks": []
+  },
+  {
+    "id": "5e554ae7fd014880",
+    "title": "Colossal与美国政府共建濒危物种生物库",
+    "summary": "生物科技公司Colossal宣布与美国政府合作，共同建立旨在保存濒危物种遗传物质的“生物库”。该项目将为全球物种保护与生物多样性研究提供关键的基因资源。",
+    "body": "近日，致力于基因编辑与物种复活的生物科技公司Colossal宣布，正与美国政府携手创建一个名为“BioVault”的濒危物种生物库。该设施旨在系统性地收集和保存濒危物种的遗传物质，以应对全球生物多样性下降的危机。\n\n这一合作标志着前沿生物技术在生态保护领域的深度应用。通过建立大规模的基因资源库，科学家不仅能为现有的濒危物种保护提供遗传数据支持，也为未来的物种繁育、生态修复乃至灭绝物种的复活研究奠定了重要的物质基础。\n\n该项目凸显了合成生物学在应对生态挑战中的巨大潜力，展现了私营生物科技企业与国家机构在保护地球生物多样性方面的战略性合作。",
+    "category": "生物医药",
+    "tags": [
+      "Colossal",
+      "生物库",
+      "基因编辑",
+      "物种保护"
+    ],
+    "source": "Wired",
+    "time": "刚刚",
+    "ts": "2026-06-25T13:22:55.155278+00:00",
+    "url": "https://www.wired.com/story/colossal-interior-department-team-up-endangered-species-dna/",
+    "image": "https://media.wired.com/photos/6a3c506b0e1573fd224c1987/master/pass/USFW_BioVault.png",
+    "stocks": []
+  },
+  {
+    "id": "7af5b5e2aa2f17aa",
+    "title": "AMD锐龙7 5800X3D十周年版上市售2599元",
+    "summary": "AMD正式推出锐龙7 5800X3D处理器十周年纪念版，官方定价为2599元。该产品主要面向消费级PC市场，为老平台用户提供升级选择。",
+    "body": "AMD近日正式上架了锐龙7 5800X3D处理器的十周年纪念版，官方售价定为2599元。作为AMD在AM4平台上的经典产品，该处理器凭借3D V-Cache技术曾在游戏性能上表现出色，深受玩家欢迎。\n\n此次推出十周年特别版，不仅是对该系列经典产品的致敬，也为仍在使用AM4主板的老用户提供了极具性价比的升级方案。在当前新一代处理器普及的背景下，此举有助于进一步巩固AMD在消费级DIY市场的用户基础与品牌影响力。",
+    "category": "消费电子",
+    "tags": [
+      "AMD",
+      "处理器",
+      "消费电子",
+      "PC硬件"
+    ],
+    "source": "IT之家",
+    "time": "刚刚",
+    "ts": "2026-06-25T13:22:54.561460+00:00",
+    "url": "https://www.ithome.com/0/968/683.htm",
+    "image": "",
+    "stocks": [
+      {
+        "name": "超威半导体",
+        "ticker": "AMD",
+        "reason": "作为该处理器的研发与制造商，产品上市直接带动其消费级硬件销售收入。",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "b496c01c5242b681",
+    "title": "Nothing预告新机Phone 4b，将于7月7日发布",
+    "summary": "智能手机品牌Nothing官方预热新款手机Phone 4b，确认该机型将于7月7日正式发布。",
+    "body": "智能手机品牌Nothing官方近日发布预热信息，宣布其新款手机Phone 4b即将面世。根据官方公布的时间表，该机型定于7月7日正式发布。\n\n此次新机的推出旨在进一步丰富Nothing的智能手机产品线。虽然目前关于Phone 4b的具体硬件配置和设计细节尚未全面公开，但此次发布活动预计将提升该品牌在消费电子市场的关注度。",
+    "category": "消费电子",
+    "tags": [
+      "Nothing",
+      "智能手机",
+      "新机发布"
+    ],
+    "source": "Engadget",
+    "time": "刚刚",
+    "ts": "2026-06-25T13:22:49.911852+00:00",
+    "url": "https://www.engadget.com/2201344/nothing-teases-phone-4b/",
+    "image": "https://www.engadget.com/img/gallery/nothing-teases-the-phone-4b-launching-on-july-7/l-intro-1782385436.jpg",
+    "stocks": []
+  },
+  {
+    "id": "5dff9336bb06c87d",
+    "title": "美光财报表现强劲，风险偏好回升利空黄金",
+    "summary": "美光科技发布亮眼财报提振市场风险偏好，导致避险资产黄金承压走弱。",
+    "body": "美光科技近期发布了表现亮眼的财报，反映出存储芯片市场的积极态势与强劲需求。这一超预期业绩不仅验证了行业景气度，也显著提振了科技板块的市场情绪。\n\n强劲的科技股表现提升了市场的整体风险偏好，促使资金更倾向于追逐风险资产。在此宏观背景下，黄金作为传统避险工具面临资金分流压力，其避险吸引力相对减弱，走势受到抑制。",
+    "category": "人工智能",
+    "tags": [
+      "美光科技",
+      "存储芯片",
+      "黄金",
+      "风险偏好"
+    ],
+    "source": "36氪",
+    "time": "刚刚",
+    "ts": "2026-06-25T13:22:49.509579+00:00",
+    "url": "https://36kr.com/p/3868523068298499?f=rss",
+    "image": "",
+    "stocks": [
+      {
+        "name": "美光科技",
+        "ticker": "MU",
+        "reason": "财报业绩亮眼，直接受益于存储芯片需求复苏及AI算力拉动",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "09f4ecc599105217",
+    "title": "靶向膀胱感觉通路大麻素受体可缓解膀胱炎疼痛",
+    "summary": "最新研究表明，靶向膀胱感觉通路中的大麻素受体有望成为缓解膀胱炎疼痛的新疗法。该发现为治疗泌尿系统慢性疼痛疾病提供了潜在的药物作用靶点。",
+    "body": "近日，一项医学研究指出，靶向作用于膀胱感觉通路中的大麻素受体，可能有效缓解膀胱炎引发的疼痛症状。研究人员发现，通过调节这些特定受体，能够干预疼痛信号的传递，从而为患者提供新的镇痛途径。\n\n膀胱炎尤其是间质性膀胱炎常伴随严重的慢性疼痛，严重影响患者生活质量，且现有治疗手段往往效果有限。此次针对大麻素受体的研究揭示了膀胱感觉神经调控的新机制，为未来开发针对泌尿系统慢性疼痛的新型靶向药物奠定了理论基础，具有重要的临床转化潜力。",
+    "category": "生物医药",
+    "tags": [
+      "生物医药",
+      "大麻素受体",
+      "膀胱炎",
+      "疼痛管理"
+    ],
+    "source": "MedicalXpress",
+    "time": "刚刚",
+    "ts": "2026-06-25T13:22:39.509972+00:00",
+    "url": "https://medicalxpress.com/news/2026-06-cannabinoid-receptors-bladder-sensory-pathways.html",
+    "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/funny-restroom-sign.jpg",
+    "stocks": []
+  },
+  {
+    "id": "358521a9a2cb7d96",
+    "title": "SpaceX将其AI巨型卫星星座命名为Starmind",
+    "summary": "SpaceX正式将其人工智能巨型卫星星座项目命名为Starmind，标志着其在卫星网络与AI融合领域迈出新步伐。",
+    "body": "SpaceX近日正式将其人工智能巨型卫星星座项目命名为“Starmind”。这一命名延续了该公司“Starlink”（星链）和“Starship”（星舰）等核心项目的“Star”字辈命名传统。\n\n作为AI与航天技术结合的新产物，“Starmind”巨型星座旨在将人工智能能力引入太空基础设施。此举有望通过AI优化卫星网络的数据处理与通信效率，进一步提升太空互联网的服务性能。\n\n该项目的命名与推进，标志着SpaceX在商业航天与人工智能融合领域持续布局，也为全球卫星互联网行业的智能化升级提供了新的发展方向。",
+    "category": "商业航天",
+    "tags": [
+      "SpaceX",
+      "卫星互联网",
+      "人工智能"
+    ],
+    "source": "Space.com",
+    "time": "刚刚",
+    "ts": "2026-06-25T13:22:32.897776+00:00",
+    "url": "https://www.space.com/space-exploration/launches-spacecraft/another-star-is-born-spacex-names-ai-megaconstellation-starmind",
+    "image": "https://cdn.mos.cms.futurecdn.net/Y2b9XP3PZ2w8rCDW9psmjS-1280-80.jpg",
+    "stocks": []
+  },
+  {
+    "id": "a1853843c4ed7b62",
+    "title": "美众议院批准555亿美元太空军预算",
+    "summary": "美国众议院拨款委员会正式批准555亿美元预算，用于支持美国太空军的未来发展与运营。",
+    "body": "近日，美国众议院拨款委员会批准了高达555亿美元的预算，专门用于美国太空军的建设与运营。这一巨额资金将主要用于卫星系统采购、太空发射服务以及太空态势感知等关键领域的研发与部署。\n\n此举不仅彰显了美国在太空领域的战略重视，也将为相关的航天制造商和发射服务提供商带来显著的业务增量。随着太空军预算的持续扩大，美国商业航天及国防工业链有望迎来新一轮的发展机遇，进一步巩固其在全球太空竞争中的优势地位。",
+    "category": "商业航天",
+    "tags": [
+      "太空军",
+      "国防预算",
+      "商业航天"
+    ],
+    "source": "SpaceNews",
+    "time": "刚刚",
+    "ts": "2026-06-25T13:22:26.561503+00:00",
+    "url": "https://spacenews.com/house-appropriations-committee-approves-55-5-billion-for-u-s-space-force/",
+    "image": "",
+    "stocks": [
+      {
+        "name": "洛克希德·马丁",
+        "ticker": "LMT",
+        "reason": "航天与国防巨头，美国太空军核心卫星及系统供应商",
+        "confidence": "high"
+      },
+      {
+        "name": "诺斯罗普·格鲁曼",
+        "ticker": "NOC",
+        "reason": "提供太空系统及发射服务，深度参与太空军项目",
+        "confidence": "high"
+      },
+      {
+        "name": "Rocket Lab",
+        "ticker": "RKLB",
+        "reason": "商业航天发射服务商，有望受益于太空军发射需求增加",
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
+    "id": "2861950520aefd81",
+    "title": "Amble推出时速40英里可合法上路电动越野车",
+    "summary": "Amble公司发布了一款外观新颖的电动越野车，最高时速达40英里并具备合法上路资格。",
+    "body": "近日，Amble公司正式推出了一款极具趣味性的电动越野车（buggy）。该车型最高时速可达40英里（约64公里/小时），并且符合相关交通法规，具备在公共道路上合法上路的资格。\n\n这款电动越野车的推出，为短途出行和休闲娱乐提供了一种新的电动化选择。随着微型电动车和个性化代步工具市场的不断发展，此类兼具趣味性与实用性的车型有望进一步丰富消费者的绿色出行体验。",
+    "category": "消费电子",
+    "tags": [
+      "Amble",
+      "电动越野车",
+      "微型电动车",
+      "绿色出行"
+    ],
+    "source": "Electrek",
+    "time": "刚刚",
+    "ts": "2026-06-25T13:22:25.061932+00:00",
+    "url": "https://electrek.co/2026/06/25/amble-unveils-street-legal-electric-buggy-but-its-not-a-car/",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "d36084d7ddaf71aa",
+    "title": "ARM研究所将机器人职业平台扩展至物理AI领域",
+    "summary": "美国先进机器人制造创新研究所宣布将其旗下的RoboticsCareer.org平台扩展至物理人工智能领域，以支持相关人才的培养与发展。",
+    "body": "美国先进机器人制造创新研究所（ARM Institute）近日宣布，将其运营的RoboticsCareer.org平台正式扩展至物理人工智能（Physical AI）领域。该平台原本专注于机器人相关职业的教育与培训资源对接，此次扩展标志着其服务范围的进一步升级。\n\n物理人工智能作为连接数字世界与物理世界的关键技术，正成为具身智能和下一代机器人发展的核心。ARM Institute此举旨在为物理AI领域的从业者、学生及教育机构提供更全面的职业发展路径与培训资源，从而加速该领域的人才储备与产业落地。",
+    "category": "机器人",
+    "tags": [
+      "物理AI",
+      "ARM Institute",
+      "机器人人才",
+      "具身智能"
+    ],
+    "source": "The Robot Report",
+    "time": "刚刚",
+    "ts": "2026-06-25T13:22:21.954038+00:00",
+    "url": "https://www.therobotreport.com/arm-institute-launches-physical-ai-focused-expansion-roboticscareer-org/",
+    "image": "https://www.therobotreport.com/wp-content/uploads/2024/08/arm-institute-featured.jpg",
+    "stocks": []
+  },
+  {
+    "id": "2f3830581c5944b2",
+    "title": "AI做数学：人工智能时代数学家角色的重塑与意义",
+    "summary": "探讨在人工智能逐渐具备强大数学计算与证明能力的背景下，人类数学家角色的转变与未来意义。",
+    "body": "随着人工智能技术的飞速发展，AI在数学计算、定理证明以及复杂模式识别方面的能力日益增强。这一趋势引发了学术界对数学家传统角色的深刻反思，探讨当机器能够承担大量数学工作时，人类学者的核心价值所在。\n\n文章指出，AI并非旨在完全取代数学家，而是作为一种强大的辅助工具。这使得数学家能够将更多精力投入到提出创新性猜想、构建深层数学直觉等更具创造力的领域。这种人机协作的新范式不仅提升了研究效率，也重新定义了数学家的职业内涵。",
+    "category": "人工智能",
+    "tags": [
+      "人工智能",
+      "数学研究",
+      "人机协作"
+    ],
+    "source": "IEEE Spectrum",
+    "time": "刚刚",
+    "ts": "2026-06-25T13:22:20.227457+00:00",
+    "url": "https://spectrum.ieee.org/ai-in-mathematics",
+    "image": "https://spectrum.ieee.org/media-library/a-photo-shows-a-man-standing-in-front-of-the-projection-of-a-computer-screen-thats-filled-with-computer-code.jpg?id=67007150&width=980",
+    "stocks": []
+  },
+  {
+    "id": "4454719448472f93",
+    "title": "委内瑞拉地震：制裁如何影响救援行动？",
+    "summary": "委内瑞拉发生地震，国际社会密切关注现有制裁措施可能对当地人道主义救援行动造成的阻碍与影响。",
+    "body": "近日，委内瑞拉发生地震，引发国际社会对当地灾情及救援工作的广泛关注。然而，针对委内瑞拉的长期制裁措施成为阻碍人道主义援助顺利展开的关键因素。\n\n制裁可能导致救援物资运输受阻、资金流转困难，以及国际救援组织在当地开展工作面临合规风险。这不仅考验着国际社会的应急响应能力，也凸显了地缘政治因素在人道主义危机中的复杂影响。\n\n如何在遵守制裁规定的同时，确保受灾民众能够及时获得必要的生存物资和医疗救助，已成为国际组织和相关国家亟待协调解决的难题。",
+    "category": "国际局势",
+    "tags": [
+      "委内瑞拉",
+      "地震",
+      "国际制裁",
+      "人道救援"
+    ],
+    "source": "Al Jazeera",
+    "time": "刚刚",
+    "ts": "2026-06-25T13:22:13.802903+00:00",
+    "url": "https://www.aljazeera.com/news/2026/6/25/venezuela-quakes-how-will-sanctions-impact-aid-operations?traffic_source=rss",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "6940a3df9a330d74",
+    "title": "欧洲热浪冲击电网，IBM新芯片瞄准摩尔定律",
+    "summary": "欧洲极端高温天气导致用电需求激增，给当地电网运行带来巨大压力。同时，IBM在芯片研发领域发力，致力于突破物理极限以延续摩尔定律。",
+    "body": "近期欧洲遭遇极端热浪天气，制冷等用电需求大幅攀升，给当地电网系统带来了严峻考验。这不仅凸显了极端气候对传统能源基础设施的冲击，也进一步凸显了电网现代化升级及能源转型的迫切需求。\n\n在半导体领域，IBM正通过创新的芯片设计瞄准摩尔定律的物理极限。随着传统芯片微缩面临瓶颈，IBM的研发进展旨在大幅提升芯片性能与能效，有望为下一代计算架构和人工智能应用提供更强大的底层算力支撑。",
+    "category": "人工智能",
+    "tags": [
+      "欧洲电网",
+      "IBM",
+      "摩尔定律",
+      "半导体"
+    ],
+    "source": "MIT Tech Review",
+    "time": "刚刚",
+    "ts": "2026-06-25T13:22:04.031299+00:00",
+    "url": "https://www.technologyreview.com/2026/06/25/1139738/the-download-europe-heat-wave-ibm-chip-moores-law/",
+    "image": "https://wp.technologyreview.com/wp-content/uploads/2021/08/SO21_TR_20210804-personal-0001-thumb.jpg?w=2509",
+    "stocks": [
+      {
+        "name": "IBM",
+        "ticker": "IBM",
+        "reason": "公司研发新芯片突破摩尔定律瓶颈，有望巩固其在半导体与底层算力领域的技术领先地位。",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "b7e2e0868434afb6",
+    "title": "苹果与奥迪前员工打造月球车风格豪华电动车",
+    "summary": "由苹果和奥迪前员工组成的团队推出了一款以月球车为灵感的豪华电动汽车，融合复古越野风格与现代电动技术。",
+    "body": "据Wired报道，一支由苹果和奥迪前员工组成的团队推出了一款全新的豪华电动汽车。该车型的设计灵感源自经典的月球车（Moon Buggy），旨在将太空探索的复古美学与现代电动汽车技术深度结合。\n\n这款豪华电动车在外观上致敬了月球车的独特造型，同时融入了现代汽车工程的先进理念。团队成员凭借在科技与汽车巨头积累的丰富经验，致力于在车辆设计、用户体验和工程制造上实现跨界创新。\n\n这一尝试展示了新能源汽车在设计语言上的更多可能性，为高端个性化电动车市场注入了新活力。通过结合科技公司的用户体验思维与传统车企的制造经验，该团队试图在竞争激烈的电动汽车市场中开辟独特的细分赛道。",
+    "category": "消费电子",
+    "tags": [
+      "豪华电动车",
+      "汽车设计",
+      "跨界创新"
+    ],
+    "source": "Wired",
+    "time": "刚刚",
+    "ts": "2026-06-25T13:22:00.373164+00:00",
+    "url": "https://www.wired.com/story/amble-one-luxe-ev-buggy/",
+    "image": "https://media.wired.com/photos/6a3bd1869eb9c52b112b70e6/master/pass/Amble%200085_HERO.jpg",
+    "stocks": []
+  },
+  {
+    "id": "a7250fa2bd03cd64",
+    "title": "亚马逊加码印度，新增130亿美元AI基础设施投资",
+    "summary": "亚马逊宣布向印度追加130亿美元投资，重点用于人工智能基础设施建设，以扩大其在该国的技术布局。",
+    "body": "近日，亚马逊宣布进一步加码印度市场，计划新增高达130亿美元的投资，主要聚焦于人工智能基础设施的建设。这一重大举措标志着亚马逊在印度技术生态布局的进一步深化。\n\n此次巨额投资将主要用于支持印度本土的AI算力、数据中心及相关云服务的发展。通过完善AI基础设施，亚马逊不仅旨在提升其AWS云服务在印度市场的竞争力，也希望借此赋能当地企业的数字化转型与AI创新。\n\n这一战略部署凸显了印度作为全球重要科技枢纽的地位，也反映了科技巨头在AI时代对算力基础设施的激烈角逐。亚马逊的持续投入有望为印度数字经济注入强劲动力，并巩固其在全球云计算和AI市场的领先地位。",
+    "category": "人工智能",
+    "tags": [
+      "亚马逊",
+      "AI基础设施",
+      "印度市场",
+      "云计算"
+    ],
+    "source": "TechCrunch",
+    "time": "刚刚",
+    "ts": "2026-06-25T13:21:59.267668+00:00",
+    "url": "https://techcrunch.com/2026/06/25/amazon-ups-india-bet-with-fresh-13b-ai-infrastructure-investment/",
+    "image": "",
+    "stocks": [
+      {
+        "name": "亚马逊",
+        "ticker": "AMZN",
+        "reason": "加码印度AI基础设施投资，有望提升AWS云服务竞争力并巩固其全球AI市场领先地位。",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "af1f181dd87234fa",
+    "title": "Anthropic指控阿里巴巴非法蒸馏其Claude模型",
+    "summary": "Anthropic声称阿里巴巴在4月至6月期间利用2.5万个虚假账户进行了2880万次交互，非法蒸馏其Claude大模型。",
+    "body": "人工智能公司Anthropic近日指控阿里巴巴非法“蒸馏”其Claude大语言模型。据Anthropic披露，该行为发生在4月至6月期间，对方动用了约2.5万个虚假账户，与Claude模型进行了高达2880万次交互。\n\n模型蒸馏技术通常用于利用大模型的输出来训练更小、更高效的模型。此次指控不仅凸显了生成式AI领域在知识产权保护与数据合规方面的激烈博弈，也反映出中美AI企业在核心技术竞争中的复杂态势。",
+    "category": "人工智能",
+    "tags": [
+      "Anthropic",
+      "阿里巴巴",
+      "大模型",
+      "模型蒸馏"
+    ],
+    "source": "Tom's Hardware",
+    "time": "刚刚",
+    "ts": "2026-06-25T13:21:55.713743+00:00",
+    "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/anthropic-claims-that-chinas-alibaba-illicitly-distilled-its-models-from-april-to-june-2026-says-effort-involved-25-000-fake-accounts-and-28-8-million-exchanges-on-claude",
+    "image": "https://cdn.mos.cms.futurecdn.net/L3LMrxAsdXV8GhdVLWYvdZ-1280-80.jpg",
+    "stocks": []
+  },
+  {
+    "id": "f1f67a07b9ae2734",
+    "title": "谷歌将于6月30日开放Play Store外部计费",
+    "summary": "谷歌宣布自6月30日起允许开发者在Play Store中使用外部计费系统。此举旨在回应反垄断监管，为开发者提供更多支付选择。",
+    "body": "谷歌正式确认，自6月30日起将向开发者开放Google Play Store的外部计费选项。这意味着开发者可以引导用户通过第三方支付系统完成应用内购买，不再强制使用谷歌官方的支付渠道。\n\n这一政策调整主要是为了应对全球范围内日益严格的反垄断监管要求。开放外部计费不仅能为开发者提供更大的支付灵活性，还可能有效降低其面临的平台佣金成本，进而对移动应用生态的竞争格局产生深远影响。",
+    "category": "消费电子",
+    "tags": [
+      "谷歌",
+      "Play Store",
+      "第三方支付",
+      "反垄断"
+    ],
+    "source": "Engadget",
+    "time": "刚刚",
+    "ts": "2026-06-25T13:21:51.426380+00:00",
+    "url": "https://www.engadget.com/2201372/google-opens-play-store-to-outside-billing/",
+    "image": "https://www.engadget.com/img/gallery/google-will-open-the-play-store-to-outside-billing-on-june-30/l-intro-1782388756.jpg",
+    "stocks": []
+  },
+  {
+    "id": "764667971cf0ad81",
+    "title": "徕卡发布SL3-P相机：支持4400万像素与8K视频",
+    "summary": "徕卡推出售价6690美元的全新SL3-P相机，结合4400万像素静态照片与8K视频拍摄能力。与前代机型不同，该机身正面取消了标志性的红点徽标。",
+    "body": "继2024年推出SL3以及此前针对速度和抓拍优化的SL3-S之后，徕卡正式发布了全新机型SL3-P。这款新相机定价为6690美元，主打高性能影像体验，将4400万像素的静态照片拍摄与8K视频录制能力相结合，以满足专业创作者的高标准需求。\n\n值得注意的是，与徕卡SL3和SL3-S不同，全新的SL3-P在机身正面取消了该品牌极具辨识度的经典红点徽标，采用了更为低调的外观设计。这一改变体现了徕卡在产品线设计上的差异化策略，为追求极简风格的专业用户提供了新选择。",
+    "category": "消费电子",
+    "tags": [
+      "徕卡",
+      "数码相机",
+      "8K视频",
+      "消费电子"
+    ],
+    "source": "The Verge",
+    "time": "20分钟前",
+    "ts": "2026-06-25T09:00:00-04:00",
+    "url": "https://www.theverge.com/tech/956101/leica-digital-camera-sl3-p-8k-video-44-megapixel-price",
+    "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/06/leica1.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100",
+    "stocks": []
+  },
+  {
+    "id": "40f3f93d325b06fa",
+    "title": "苹果因内存短缺上调MacBook与iPad售价",
+    "summary": "受持续内存短缺影响，苹果公司宣布上调MacBook和iPad系列产品的价格。其中新款MacBook Neo和基础款MacBook Air的起售价均有显著上涨。",
+    "body": "苹果公司近日宣布，为应对持续的内存短缺问题，将上调旗下MacBook和iPad系列产品的价格。这一举措反映了全球供应链中存储芯片等核心零部件的成本压力正在向消费电子终端传导。\n\n根据最新的价格调整，新款MacBook Neo的起售价将从原来的599美元上调至699美元。同时，基础款MacBook Air的价格也出现大幅上涨，由1099美元跃升至1299美元。\n\n此次涨价不仅体现了硬件成本上升对科技巨头定价策略的直接影响，也可能在一定程度上影响消费者的购买意愿，进而对未来的PC和平板电脑市场需求产生微妙影响。",
+    "category": "消费电子",
+    "tags": [
+      "苹果",
+      "MacBook",
+      "内存短缺",
+      "产品涨价"
+    ],
+    "source": "The Verge",
+    "time": "27分钟前",
+    "ts": "2026-06-25T08:53:23-04:00",
+    "url": "https://www.theverge.com/tech/952162/apple-price-increase-ram-shortage",
+    "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/03/268387_Apple_MacBook_Neo_AKrales_0700.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100",
+    "stocks": [
+      {
+        "name": "美光科技",
+        "ticker": "MU",
+        "reason": "全球领先的内存和存储芯片供应商，直接受益于内存短缺带来的产品涨价与利润扩张。",
+        "confidence": "high"
+      },
+      {
+        "name": "兆易创新",
+        "ticker": "603986.SH",
+        "reason": "国内存储芯片龙头企业，内存短缺及涨价周期有助于提升其存储产品毛利率及整体业绩。",
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
+    "id": "91da026df123d984",
+    "title": "福特重聘前工程师修复自动化失误，登顶质量榜首",
+    "summary": "福特汽车在J.D. Power主流汽车品牌初始质量排名中夺冠，并透露近年因过度依赖生产自动化系统而遭遇挑战，不得不重聘前工程师修复失误。",
+    "body": "福特汽车近期在J.D. Power主流汽车品牌初始质量排名中荣登榜首。为庆祝这一成就，公司公开探讨了近年来在生产制造环节所面临的挑战，尤其是过度依赖自动化系统所带来的负面影响。\n\n据透露，自动化系统在生产过程中出现了一些失误，导致福特不得不重新聘请曾经离职的工程师来修复这些问题。这一事件凸显了车企在推进生产自动化转型时，仍需平衡技术应用与人工经验，对制造业的智能化升级具有警示意义。",
+    "category": "机器人",
+    "tags": [
+      "福特汽车",
+      "自动化生产",
+      "工业制造",
+      "J.D. Power"
+    ],
+    "source": "The Verge",
+    "time": "1小时前",
+    "ts": "2026-06-25T08:00:00-04:00",
+    "url": "https://www.theverge.com/transportation/956316/ford-quality-jd-power-ranking-ai-automated-mistakes",
+    "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/08/acastro_STK056_02.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100",
+    "stocks": [
+      {
+        "name": "福特汽车",
+        "ticker": "F",
+        "reason": "登顶质量榜首提升品牌形象，积极修复生产问题有助于保障产能与长期盈利能力。",
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
+    "id": "174e7b648ad606fb",
+    "title": "迪士尼支付5000万美元和解频道捆绑诉讼",
+    "summary": "迪士尼同意支付5000万美元，以和解YouTube TV和DirecTV用户关于频道强制捆绑销售的集体诉讼，最终听证会将于2027年1月举行。",
+    "body": "迪士尼近日同意支付5000万美元，以解决针对其电视频道分发策略的集体诉讼。该诉讼由YouTube TV和DirecTV Stream的用户发起，指控迪士尼强迫服务提供商进行频道捆绑销售，限制了消费者选择并推高了订阅成本。\n\n根据和解协议，符合条件的YouTube TV和DirecTV Stream用户将有资格获得现金赔偿。该和解协议的最终听证会定于2027年1月14日举行。\n\n此次和解反映了流媒体时代内容巨头在渠道分发与定价策略上面临的合规压力。通过达成和解，迪士尼得以消除法律不确定性，避免其现有的频道打包商业模式面临强制整改的风险。",
+    "category": "消费电子",
+    "tags": [
+      "迪士尼",
+      "流媒体",
+      "集体诉讼",
+      "YouTube TV"
+    ],
+    "source": "The Verge",
+    "time": "2小时前",
+    "ts": "2026-06-25T06:54:21-04:00",
+    "url": "https://www.theverge.com/streaming/956712/disney-youtube-tv-directv-streaming-settlement",
+    "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/04/STK157_Disney.jpeg?quality=90&#038;strip=all&#038;crop=0,0,100,100",
+    "stocks": [
+      {
+        "name": "迪士尼",
+        "ticker": "DIS",
+        "reason": "支付5000万美元达成和解，消除法律不确定性，避免现有频道打包商业模式面临强制整改风险。",
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
     "id": "6362fe30b124afe2",
     "title": "IBM发布全球首个亚1纳米芯片技术",
     "summary": "IBM宣布推出全球首个亚1纳米芯片技术，标志着半导体制造工艺突破物理极限，有望大幅提升未来芯片的性能与能效。",
@@ -48606,6 +49668,6 @@ const newsData = [
   }
 ];
 const newsDigest = {
-  "text": "今日科技界瞩目底层算力与AI应用突破。IBM首发亚1纳米芯片，利好半导体设备；3D生成与讯飞AI平台加速落地，利好AI软件。鸿蒙智行尊界与菜鸟无人车亮相，催化华为汽车及自动驾驶产业链。",
+  "text": "今日聚焦AI算力与半导体，高通拟推中国特供AI芯片，美光签千亿存储长协，利好算力及存储标的；生物医药迎KRAS耐药新突破，利好创新药企；中美月球时间博弈凸显航天战略升级。",
   "highlights": []
 };
