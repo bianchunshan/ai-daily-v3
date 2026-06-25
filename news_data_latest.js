@@ -1,5 +1,1050 @@
 const newsData = [
   {
+    "id": "8a38efbd9c03ffb2",
+    "title": "高温如何影响儿童学习运动及家长的应对策略",
+    "summary": "探讨高温天气对儿童在学习、玩耍和运动中的生理与认知影响，并为家长提供科学的防护建议。",
+    "body": "随着极端高温天气的频发，热浪对儿童健康的影响日益受到医学界的关注。儿童在学习、玩耍和进行体育活动时，由于体温调节系统尚未发育完全，更容易受到高温的负面影响，可能导致注意力下降、疲劳甚至中暑。\n\n高温不仅影响儿童的身体健康，还会对其认知能力和学习表现产生干扰。在炎热的教室或户外环境中，儿童的专注力和记忆力可能会出现不同程度的下降，从而影响整体的学习效果与运动表现。\n\n针对这些潜在风险，医学专家呼吁家长采取积极的干预措施。建议家长合理安排儿童的户外活动时间，确保充足的饮水与休息，并密切关注孩子在高温环境下的身体反应，以有效降低热相关疾病的风险。",
+    "category": "生物医药",
+    "tags": [
+      "儿童健康",
+      "高温影响",
+      "医学科普"
+    ],
+    "source": "MedicalXpress",
+    "time": "刚刚",
+    "ts": "2026-06-25T19:10:44.521575+00:00",
+    "url": "https://medicalxpress.com/news/2026-06-affects-children-play-sport-parents.html",
+    "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/child-in-summer.jpg",
+    "stocks": []
+  },
+  {
+    "id": "e231ff93d25be150",
+    "title": "Hacker News热议OS9Map项目",
+    "summary": "技术社区Hacker News近日出现关于OS9Map项目的讨论，引发开发者对复古计算与旧版系统映射的关注。",
+    "body": "近日，技术社区Hacker News上出现了关于OS9Map项目的讨论，吸引了部分开发者的关注。该项目主要涉及与OS9相关的映射或模拟技术，为复古计算和旧版操作系统的研究提供了探讨空间。\n\n尽管目前关于该项目的具体应用细节较少，但其在开发者社区的亮相，反映出技术人员对经典系统架构及跨平台兼容性的持续兴趣。此类技术探索项目通常有助于加深开发者对早期软件设计的理解，并为现代系统开发提供历史参考。",
+    "category": "消费电子",
+    "tags": [
+      "OS9Map",
+      "Hacker News",
+      "复古计算",
+      "操作系统"
+    ],
+    "source": "Hacker News",
+    "time": "刚刚",
+    "ts": "2026-06-25T19:10:02.551141+00:00",
+    "url": "https://yllan.org/software/OS9Map/",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "8e153dc69e68c9c5",
+    "title": "索尼旗下Bungie工作室大裁员，《命运》团队受重创",
+    "summary": "索尼宣布对其收购的游戏工作室Bungie进行大规模裁员，其中包括《命运》系列开发团队的大部分成员。",
+    "body": "近日，索尼互动娱乐宣布对其旗下游戏工作室Bungie实施大规模裁员。此次人员调整影响广泛，其中最引人注目的是《命运》（Destiny）系列游戏开发团队的大部分成员均在此次裁员名单之中。\n\nBungie是知名射击游戏的开发商，于2022年被索尼以36亿美元收购。此次裁员不仅反映了该工作室内部项目调整与成本控制的压力，也折射出当前全球游戏行业面临的业务整合趋势。\n\n这一举措可能会对《命运》系列未来的内容更新和开发进度产生一定影响。同时，这也表明索尼在互动娱乐业务上正进一步优化资源配置，以应对日益复杂的市场环境和财务挑战。",
+    "category": "消费电子",
+    "tags": [
+      "索尼",
+      "Bungie",
+      "游戏",
+      "裁员"
+    ],
+    "source": "Engadget",
+    "time": "刚刚",
+    "ts": "2026-06-25T19:09:55.826769+00:00",
+    "url": "https://www.engadget.com/2201755/sony-announces-major-layoffs-at-bungie-including-most-of-the-destiny-team/",
+    "image": "https://www.engadget.com/img/gallery/sony-announces-major-layoffs-at-bungie-including-most-of-the-destiny-team/l-intro-1782408241.jpg",
+    "stocks": []
+  },
+  {
+    "id": "a1b826ee9a874480",
+    "title": "2026年Prime Day游戏显示器促销开启",
+    "summary": "2026年Prime Day期间，亚马逊、新蛋、戴尔及百思买等各大平台推出多款热门游戏显示器的优惠促销活动。",
+    "body": "2026年Prime Day购物节已正式拉开帷幕，针对游戏玩家的显示器促销活动成为各大电商与零售平台的焦点。亚马逊、新蛋、戴尔以及百思买等知名零售商均参与其中，推出了丰富的游戏显示器专属折扣。\n\n此次促销涵盖了市面上多款备受好评的热门游戏显示器产品，旨在满足不同预算和性能需求的玩家。对于消费电子市场而言，此类大型购物节的促销活动不仅有助于刺激终端消费需求，也将加速相关硬件产品的库存周转与更新换代。",
+    "category": "消费电子",
+    "tags": [
+      "Prime Day",
+      "游戏显示器",
+      "电商促销"
+    ],
+    "source": "Tom's Hardware",
+    "time": "刚刚",
+    "ts": "2026-06-25T19:09:53.550600+00:00",
+    "url": "https://www.tomshardware.com/live/news/prime-day-gaming-monitor-deals-live-2026",
+    "image": "https://cdn.mos.cms.futurecdn.net/KedAArPfyCx8wXQKbxFoF-1280-80.jpg",
+    "stocks": [
+      {
+        "name": "亚马逊",
+        "ticker": "AMZN",
+        "reason": "作为Prime Day主办方及核心电商平台，直接受益于促销活动带来的销售额增长。",
+        "confidence": "high"
+      },
+      {
+        "name": "戴尔",
+        "ticker": "DELL",
+        "reason": "作为知名PC及显示器硬件制造商，通过多平台大促有望提升产品销量。",
+        "confidence": "medium"
+      },
+      {
+        "name": "百思买",
+        "ticker": "BBY",
+        "reason": "作为核心参与零售商，有望借大促提升消费电子产品的整体营收。",
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
+    "id": "52b57896e466f1cd",
+    "title": "美最高法院缩减农达癌症诉讼，拜耳获法律胜利",
+    "summary": "美国最高法院近日作出裁决，缩减了针对孟山都“农达”除草剂的癌症诉讼规模。这一裁决为收购孟山都的拜耳公司带来了重大的法律胜利。",
+    "body": "美国最高法院近期对涉及孟山都“农达”（Roundup）除草剂的癌症诉讼作出裁决，大幅缩减了相关诉讼的规模和范围。这一决定被视为对“农达”母公司拜耳的重大法律胜利。\n\n“农达”除草剂长期以来面临大量指控其致癌的诉讼，给拜耳带来了巨大的财务和声誉压力。最高法院此次缩减诉讼规模，有望显著降低拜耳在未来面临的潜在赔偿金额和法律风险。\n\n这一裁决不仅缓解了拜耳在农化业务上的诉讼重担，也为全球农业化学品行业的类似产品责任诉讼提供了重要的法律参考，对拜耳的长期财务健康具有积极的稳定作用。",
+    "category": "生物医药",
+    "tags": [
+      "拜耳",
+      "农达",
+      "最高法院",
+      "诉讼"
+    ],
+    "source": "Al Jazeera",
+    "time": "刚刚",
+    "ts": "2026-06-25T19:09:53.227586+00:00",
+    "url": "https://www.aljazeera.com/economy/2026/6/25/us-supreme-court-scales-back-roundup-cancer-lawsuits-in-victory-for-company?traffic_source=rss",
+    "image": "",
+    "stocks": [
+      {
+        "name": "拜耳",
+        "ticker": "BAYRY",
+        "reason": "作为孟山都母公司，诉讼规模缩减将大幅降低其潜在赔偿金额和法律风险",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "1f02f332bad04876",
+    "title": "微软推高组件成本致Xbox再次涨价",
+    "summary": "受组件成本上升影响，微软Xbox游戏机价格迎来再次上调。此次涨价与微软自身推高供应链组件成本的因素密切相关。",
+    "body": "近日，微软旗下的Xbox游戏机价格再次出现上涨。据相关报道，此次终端产品涨价的背后，与微软在供应链端推高组件成本有着直接关联。\n\n组件成本的增加最终传导至消费终端，导致Xbox售价上调。这一现象反映了当前硬件制造面临的成本压力，也可能对玩家的购买意愿及游戏主机市场的竞争格局产生一定影响。",
+    "category": "消费电子",
+    "tags": [
+      "Xbox",
+      "微软",
+      "游戏主机"
+    ],
+    "source": "Engadget",
+    "time": "刚刚",
+    "ts": "2026-06-25T19:09:36.911774+00:00",
+    "url": "https://www.engadget.com/2201787/xbox-prices-are-going-up-again-after-microsoft-helps-drive-up-component-costs/",
+    "image": "https://www.engadget.com/img/gallery/xbox-prices-are-going-up-again-after-microsoft-helps-drive-up-component-costs/l-intro-1782409910.jpg",
+    "stocks": []
+  },
+  {
+    "id": "751fa5940d7407bc",
+    "title": "Klue遭黑客攻击：原黑客称删除数据，又现新黑客威胁",
+    "summary": "竞争性情报软件公司Klue证实遭遇网络攻击，尽管最初的黑客声称正在删除窃取的客户数据，但公司目前正面临其他黑客的新威胁。",
+    "body": "SaaS企业Klue近期证实遭遇了严重的网络安全攻击，导致客户数据被窃。不过，据公司透露，最初实施攻击的黑客表示正在删除这些被盗的客户数据，试图缓解数据泄露带来的影响。\n\n然而，安全危机并未就此解除。Klue表示，目前又有其他黑客对其发出了新的威胁。这一连环安全事件凸显了SaaS企业在数据保护和网络安全防御方面面临的复杂挑战，也提醒科技企业需持续加强安全合规与应急响应能力。",
+    "category": "人工智能",
+    "tags": [
+      "网络安全",
+      "数据泄露",
+      "Klue",
+      "SaaS"
+    ],
+    "source": "TechCrunch",
+    "time": "刚刚",
+    "ts": "2026-06-25T19:09:34.391814+00:00",
+    "url": "https://techcrunch.com/2026/06/25/hacked-klue-says-criminals-are-deleting-stolen-customer-data-but-now-other-hackers-are-making-threats/",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "2cead285b085a750",
+    "title": "已知纳莱迪人化石均为女性，演化意义引发关注",
+    "summary": "科学家发现目前已知的所有纳莱迪人化石均属于女性，这一罕见现象对理解早期人类演化和社会结构具有重要意义。",
+    "body": "近日，一项关于纳莱迪人的古人类学研究引发了科学界的广泛关注。研究人员指出，迄今为止发现的所有纳莱迪人化石样本均被鉴定为女性。这一现象在古人类化石记录中极为罕见，引发了关于该物种生物学特征及社会结构的深入探讨。\n\n纳莱迪人是一种生存于更新世中期的早期人类近亲，其化石主要在南非的洞穴系统中被发现。如果所有已知个体确实均为女性，这可能意味着该物种存在极端的性别二态性，或者化石埋藏环境存在特定的性别偏向。\n\n这一发现不仅挑战了古人类学家对早期人类种群结构的传统认知，也为研究人类演化过程中的社会行为、繁殖策略以及性别分工提供了全新的视角。科学家们正试图通过更先进的形态学和遗传学分析，进一步揭开这一谜团背后的演化机制。",
+    "category": "生物医药",
+    "tags": [
+      "古人类学",
+      "纳莱迪人",
+      "生物演化",
+      "考古发现"
+    ],
+    "source": "Ars Technica",
+    "time": "刚刚",
+    "ts": "2026-06-25T19:09:33.706978+00:00",
+    "url": "https://arstechnica.com/science/2026/06/every-homo-naledi-we-know-of-is-female-and-the-implications-are-fascinating/",
+    "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/06/neo-1152x648.jpg",
+    "stocks": []
+  },
+  {
+    "id": "4c82dce6200658e3",
+    "title": "新型口服心衰药物早期临床试验显示安全且耐受性良好",
+    "summary": "一项包含58名患者的早期临床试验表明，一种新型口服心力衰竭药物具有良好的安全性和耐受性，为心衰治疗提供了潜在的新选择。",
+    "body": "近日，一项针对新型口服心力衰竭药物的早期临床试验取得了积极进展。该试验共纳入58名患者，主要评估了这款新药在人体中的安全性和耐受性。结果显示，该药物表现出良好的安全性，患者整体耐受性良好。\n\n心力衰竭是一种严重且进行性的慢性疾病，现有的治疗手段仍存在一定局限性。这款新型口服药物的早期积极数据，为其后续更大规模的临床试验奠定了重要基础。\n\n若该药物能在未来的临床试验中进一步证实其有效性与长期安全性，有望为广大的心力衰竭患者提供一种全新的口服治疗方案，从而有效改善患者的生活质量。",
+    "category": "生物医药",
+    "tags": [
+      "心力衰竭",
+      "口服药物",
+      "临床试验",
+      "创新药"
+    ],
+    "source": "MedicalXpress",
+    "time": "刚刚",
+    "ts": "2026-06-25T19:09:24.386440+00:00",
+    "url": "https://medicalxpress.com/news/2026-06-oral-heart-failure-drug-safe.html",
+    "image": "https://scx1.b-cdn.net/csz/news/tmb/2017/heart.jpg",
+    "stocks": []
+  },
+  {
+    "id": "3e1f31ff50f05a5e",
+    "title": "奋进号航天飞机加州新展馆预览照片震撼曝光",
+    "summary": "奋进号航天飞机位于加州科学中心的新展馆预览照片曝光，展示了其壮观的展示设计与布展进展。",
+    "body": "近日，媒体获准提前参观了退役航天飞机“奋进号”位于加州科学中心的新展馆，并发布了令人惊叹的现场照片。奋进号正为其量身定制的塞缪尔·奥斯钦航空航天中心进行最终的布展准备。\n\n新展馆的设计旨在为公众提供沉浸式的航空航天历史体验，全方位展示这架曾执行过多次重要太空任务的航天飞机。此次预览不仅展现了新展馆的宏伟规模，也凸显了其在科普教育和航天历史传承方面的重要意义，预计正式开放后将吸引大量游客前往参观。",
+    "category": "商业航天",
+    "tags": [
+      "航天飞机",
+      "奋进号",
+      "加州科学中心",
+      "科普展览"
+    ],
+    "source": "Space.com",
+    "time": "刚刚",
+    "ts": "2026-06-25T19:09:24.241319+00:00",
+    "url": "https://www.space.com/space-exploration/human-spaceflight/i-got-a-sneak-peek-at-space-shuttle-endeavours-new-home-and-its-breathtaking",
+    "image": "https://cdn.mos.cms.futurecdn.net/K7AqXzZGQrUWtmxnwdgzTK-1280-80.png",
+    "stocks": []
+  },
+  {
+    "id": "4a320f430d2afd5e",
+    "title": "丰田召回超2万辆电动汽车 涉雷克萨斯及斯巴鲁",
+    "summary": "丰田汽车宣布召回超过2万辆电动汽车，涉及雷克萨斯和斯巴鲁品牌旗下相关车型。",
+    "body": "丰田汽车近日宣布了一项大规模召回计划，涉及超过2万辆电动汽车。此次召回范围不仅包括丰田本品牌车型，还涵盖了其旗下的雷克萨斯以及合作品牌斯巴鲁的部分电动汽车。\n\n虽然具体召回原因尚未详细披露，但大规模召回通常与电池系统、软件故障或潜在的安全隐患有关。此举可能会对丰田及其合作伙伴在电动汽车市场的声誉产生一定影响，同时也凸显了传统车企在加速电动化转型过程中面临的质量控制挑战。",
+    "category": "消费电子",
+    "tags": [
+      "丰田",
+      "电动汽车",
+      "汽车召回"
+    ],
+    "source": "Electrek",
+    "time": "刚刚",
+    "ts": "2026-06-25T19:09:15.642660+00:00",
+    "url": "https://electrek.co/2026/06/25/toyota-recalls-over-20000-evs-lexus-subaru/",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "801476e6fa112be1",
+    "title": "IBM发布亚1纳米芯片制造技术",
+    "summary": "IBM正式推出亚1纳米芯片技术，标志着半导体制造工艺迈入全新节点。该技术有望进一步提升芯片性能并降低功耗。",
+    "body": "近日，IBM正式发布了其最新的亚1纳米芯片制造技术。这一突破标志着半导体行业在微缩工艺上迈出了重要一步，突破了传统1纳米节点的物理限制。\n\n虽然目前关于该技术的具体架构和量产时间表等细节尚未完全披露，但亚1纳米制程的研发成功，展示了IBM在先进半导体材料和器件结构领域的深厚技术积累。\n\n此项技术的问世对整个半导体行业具有重要意义。随着摩尔定律放缓，亚1纳米技术的突破将为未来高性能计算、人工智能以及低功耗设备提供更强大的底层算力支撑，进一步巩固IBM在前沿芯片研发领域的领导地位。",
+    "category": "消费电子",
+    "tags": [
+      "IBM",
+      "半导体",
+      "芯片制造",
+      "亚1纳米"
+    ],
+    "source": "Hacker News",
+    "time": "刚刚",
+    "ts": "2026-06-25T19:09:09.921131+00:00",
+    "url": "https://newsroom.ibm.com/2026-06-25-ibm-debuts-worlds-first-sub-1-nanometer-chip-technology",
+    "image": "",
+    "stocks": [
+      {
+        "name": "IBM",
+        "ticker": "IBM",
+        "reason": "公司自身取得重大技术突破，巩固其在先进半导体研发领域的领先地位。",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "11cea261a955b315",
+    "title": "赛睿外设产品开启深度促销，最高优惠达45%",
+    "summary": "知名外设品牌赛睿目前正对其多款耳机、键盘和鼠标产品进行大幅打折促销，最高折扣达45%。",
+    "body": "知名游戏外设品牌赛睿（SteelSeries）近期推出了针对旗下多款核心产品的深度折扣活动。此次促销涵盖了耳机、键盘和鼠标等多个品类，部分热门产品的优惠幅度最高可达45%。\n\n参与此次降价的具体产品包括备受玩家关注的Arctic Nova Pro游戏耳机、Apex Pro系列机械键盘以及Aerox 5轻量化鼠标等。这些产品平时定位中高端，此次大幅让利为消费者提供了较高的性价比选择。\n\n对于游戏玩家和外设爱好者而言，此次促销是升级装备的良好时机。同时，这也反映出消费电子品牌在当前市场环境下，正通过积极的定价策略来刺激终端消费需求。",
+    "category": "消费电子",
+    "tags": [
+      "赛睿",
+      "游戏外设",
+      "消费电子",
+      "打折促销"
+    ],
+    "source": "Tom's Hardware",
+    "time": "刚刚",
+    "ts": "2026-06-25T19:09:07.193173+00:00",
+    "url": "https://www.tomshardware.com/pc-components/save-up-to-45-percent-on-steelseries-headsets-keyboards-and-mice-arctic-nova-pro-headset-apex-pro-keyboards-aerox-5-mouse-and-more-are-on-deep-discounts-right-now",
+    "image": "https://cdn.mos.cms.futurecdn.net/347bkVUVPdbm6MTHyDbLJF-1280-80.png",
+    "stocks": []
+  },
+  {
+    "id": "e03d7c2ef7b3c280",
+    "title": "俄罗斯将参加首届U-15世界杯重返FIFA赛事",
+    "summary": "俄罗斯预计将参加首届U-15世界杯，标志着该国重返国际足联旗下的国际赛事。",
+    "body": "据半岛电视台报道，俄罗斯准备在首届U-15世界杯上重返国际足联（FIFA）赛事。这一举措标志着俄罗斯在经历此前的国际体育禁赛后，重新回到国际足球赛场。\n\n此举不仅对俄罗斯足球发展具有重要意义，也反映了国际体育组织在处理地缘政治与体育赛事关系上的最新动向。俄罗斯重返国际赛事可能会对相关体育产业和国际交流产生一定的积极影响。",
+    "category": "国际局势",
+    "tags": [
+      "俄罗斯",
+      "国际足联",
+      "体育赛事"
+    ],
+    "source": "Al Jazeera",
+    "time": "刚刚",
+    "ts": "2026-06-25T19:09:05.945842+00:00",
+    "url": "https://www.aljazeera.com/sports/2026/6/25/russia-set-to-return-to-fifa-competition-as-inaugural-u-15-world-cup?traffic_source=rss",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "28e02d7d2622c07c",
+    "title": "苹果被曝跳过M6 Pro和Max芯片直接研发M7",
+    "summary": "据外媒报道，苹果计划跳过M6 Pro和M6 Max芯片，未来将直接推出M7系列芯片。",
+    "body": "近日有传闻称，苹果公司在其自研芯片的迭代路线上做出了重大调整。据悉，苹果可能会跳过M6 Pro和M6 Max这两款高端芯片，直接从M6基础版跨越到M7系列芯片的研发与发布。\n\n这一策略调整可能意味着苹果在高端芯片架构上遇到了技术挑战，或者是为了整合资源以加速下一代更具突破性的M7芯片问世。此举不仅将影响未来MacBook Pro等高端产品线的更新节奏，也反映出苹果在自研硅片战略上的重新规划。",
+    "category": "消费电子",
+    "tags": [
+      "苹果",
+      "M7芯片",
+      "自研芯片",
+      "消费电子"
+    ],
+    "source": "Engadget",
+    "time": "刚刚",
+    "ts": "2026-06-25T19:09:02.011373+00:00",
+    "url": "https://www.engadget.com/2201829/apple-will-reportedly-skip-the-m6-pro-and-max-and-jump-straight-to-m7/",
+    "image": "https://www.engadget.com/img/gallery/apple-will-reportedly-skip-the-m6-pro-and-max-and-jump-straight-to-m7/l-intro-1782411295.jpg",
+    "stocks": [
+      {
+        "name": "苹果",
+        "ticker": "AAPL",
+        "reason": "调整自研芯片迭代策略，有望优化研发资源并加速下一代产品性能突破。",
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
+    "id": "3fce0772c05cae8c",
+    "title": "Databricks前AI负责人拟将AI能耗降低千倍",
+    "summary": "Databricks前人工智能负责人提出新技术方案，旨在将AI运行的电力成本大幅降低1000倍，以解决行业面临的能源瓶颈。",
+    "body": "Databricks前人工智能负责人近日提出了一项技术愿景，计划通过创新方案将人工智能运行的电力成本削减1000倍。当前，随着大模型参数量的激增，AI训练与推理过程中的巨大电力消耗已成为制约行业发展的核心瓶颈之一。\n\n该技术构想若能成功落地，将极大缓解数据中心面临的能源压力，显著降低AI企业的运营与算力成本。这不仅有助于推动AI技术的进一步普及，也将对绿色计算和可持续AI基础设施的建设产生深远的积极影响。",
+    "category": "人工智能",
+    "tags": [
+      "人工智能",
+      "绿色计算",
+      "算力优化",
+      "数据中心"
+    ],
+    "source": "TechCrunch",
+    "time": "刚刚",
+    "ts": "2026-06-25T19:08:54.889339+00:00",
+    "url": "https://techcrunch.com/2026/06/25/databricks-former-ai-chief-thinks-he-can-cut-ais-power-bill-by-1000x/",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "e9d21eb9a671cc15",
+    "title": "研究：布洛芬缓解痛经效果优于对乙酰氨基酚",
+    "summary": "医学研究表明，在缓解女性痛经方面，布洛芬的疗效优于对乙酰氨基酚，为患者日常用药提供了科学指导。",
+    "body": "痛经是女性常见的健康问题，选择对症的止痛药物对缓解不适至关重要。医学界普遍认为，布洛芬在缓解痛经方面的效果优于对乙酰氨基酚。\n\n从药理机制来看，布洛芬属于非甾体抗炎药，能有效抑制体内前列腺素的合成，从而直接减轻子宫平滑肌的痉挛和疼痛。而对乙酰氨基酚主要作用于中枢神经系统，对局部前列腺素的抑制作用较弱，因此在针对痛经的疗效上相对有限。这一用药认知有助于指导患者更科学地选择非处方止痛药。",
+    "category": "生物医药",
+    "tags": [
+      "布洛芬",
+      "对乙酰氨基酚",
+      "痛经",
+      "用药指导"
+    ],
+    "source": "MedicalXpress",
+    "time": "刚刚",
+    "ts": "2026-06-25T19:08:46.747321+00:00",
+    "url": "https://medicalxpress.com/news/2026-06-ibuprofen-paracetamol-period-pain.html",
+    "image": "https://scx1.b-cdn.net/csz/news/tmb/2025/ibuprofen.jpg",
+    "stocks": []
+  },
+  {
+    "id": "172b8cf315d0fda5",
+    "title": "美国网联汽车禁令或致极星在美禁售，引发行业担忧",
+    "summary": "受美国针对中国网联汽车软硬件禁令影响，吉利与沃尔沃合资品牌极星面临在美禁售风险，此举引发汽车行业对供应链合规的担忧。",
+    "body": "美国商务部近期提出针对中国网联汽车软硬件的限制规定。受此政策影响，由中国吉利和沃尔沃合资的汽车品牌极星（Polestar）可能面临无法在美国市场销售的困境。\n\n尽管极星总部位于瑞典，但其产品深度依赖中国供应链及相关软硬件技术。业内分析指出，若极星因此被美国市场拒之门外，将为全球汽车贸易开创危险先例，进一步加剧跨国车企在地缘政治背景下的供应链合规压力。",
+    "category": "国际局势",
+    "tags": [
+      "极星",
+      "网联汽车",
+      "贸易禁令",
+      "汽车供应链"
+    ],
+    "source": "Electrek",
+    "time": "刚刚",
+    "ts": "2026-06-25T19:08:42.302866+00:00",
+    "url": "https://electrek.co/2026/06/25/polestar-us-connected-vehicle-rule-europe/",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "8d6ec3a22373db61",
+    "title": "韦伯望远镜捕捉6个星系合并为宇宙最大星系之一",
+    "summary": "詹姆斯·韦伯太空望远镜观测到6个星系正在合并，该过程将形成宇宙中已知最大的星系之一。",
+    "body": "詹姆斯·韦伯太空望远镜（JWST）近日传回了令人瞩目的天文观测数据，捕捉到了6个星系正在合并的壮观景象。这一罕见的宇宙事件最终将形成宇宙中已知规模最大的星系之一。\n\n此次观测不仅展示了星系演化过程中的剧烈碰撞与融合，也为天文学家研究早期宇宙中超大质量星系的形成机制提供了宝贵的数据支持。韦伯望远镜凭借其强大的红外探测能力，再次证明了其在深空探测领域的卓越性能。\n\n这一重大天文发现进一步巩固了韦伯望远镜在当代天体物理学研究中的核心地位，同时也凸显了深空探测技术在推动人类认知宇宙边界方面的重要作用。",
+    "category": "商业航天",
+    "tags": [
+      "韦伯望远镜",
+      "星系合并",
+      "深空探测"
+    ],
+    "source": "Space.com",
+    "time": "刚刚",
+    "ts": "2026-06-25T19:08:42.293293+00:00",
+    "url": "https://www.space.com/astronomy/james-webb-space-telescope/james-webb-space-telescope-catches-6-galaxies-merging-into-one-of-the-largest-galaxies-in-the-universe",
+    "image": "https://cdn.mos.cms.futurecdn.net/4ceVo56NyJ9mLetMe2AJoC-1280-80.png",
+    "stocks": []
+  },
+  {
+    "id": "7157eeceef549a6e",
+    "title": "AI技术首次成功读取赫库兰尼姆碳化古卷轴",
+    "summary": "研究人员利用人工智能与高分辨率CT扫描技术，首次成功读取了被维苏威火山灰碳化的赫库兰尼姆古卷轴。这一非破坏性读取技术为古代文献研究带来重大突破。",
+    "body": "赫库兰尼姆卷轴是公元79年维苏威火山爆发时被掩埋并碳化的古罗马文献，因其极其脆弱，数百年来无法被物理展开和阅读。近期，研究人员通过结合高分辨率X射线CT扫描与先进的人工智能算法，首次在不破坏卷轴的前提下成功识别并读取了内部文字。\n\n这一突破性进展主要依赖于AI模型对3D扫描数据中微小墨迹痕迹的精准识别与虚拟展开技术。该成果不仅为考古学和历史学研究提供了全新的非破坏性分析工具，也充分展示了人工智能在复杂三维图像处理和模式识别领域的巨大应用潜力。",
+    "category": "人工智能",
+    "tags": [
+      "人工智能",
+      "计算机视觉",
+      "数字考古"
+    ],
+    "source": "Hacker News",
+    "time": "刚刚",
+    "ts": "2026-06-25T19:08:31.049699+00:00",
+    "url": "https://scrollprize.org/firstscroll",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "62880c90c606fd6c",
+    "title": "AMD锐龙5800X3D纪念版发售，黄牛炒至600美元以上",
+    "summary": "AMD重新推出锐龙7 5800X3D十周年纪念版处理器，但发售首日库存供应不稳定，导致黄牛将价格炒作至600美元以上。",
+    "body": "AMD近期重新发布了锐龙7 5800X3D十周年纪念版处理器。这款备受老玩家关注的CPU在发售首日便遭遇了库存供应不稳定的问题，导致正规渠道出现缺货现象。\n\n由于市场货源紧张，黄牛迅速盯上了这款产品并进行囤积炒作。目前，该处理器的第三方市场售价已被抬高至600美元甚至更高，严重偏离了正常定价，扰乱了市场秩序并给普通消费者的购买带来了阻碍。",
+    "category": "消费电子",
+    "tags": [
+      "AMD",
+      "处理器",
+      "黄牛炒作",
+      "消费电子"
+    ],
+    "source": "Tom's Hardware",
+    "time": "刚刚",
+    "ts": "2026-06-25T19:08:30.221759+00:00",
+    "url": "https://www.tomshardware.com/pc-components/cpus/scalpers-circle-amds-ryzen-7-5800x3d-10th-anniversary-edition-asking-for-usd600-or-more-re-released-cpu-sees-inconsistent-inventory-on-release-day",
+    "image": "https://cdn.mos.cms.futurecdn.net/p3Kjz2uFDawbqt4hPoaDaW-1280-80.jpg",
+    "stocks": [
+      {
+        "name": "超威半导体",
+        "ticker": "AMD",
+        "reason": "旗下经典处理器推出纪念版且市场需求热烈，提升品牌关注度。",
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
+    "id": "dcaa2cdba4dfe7c5",
+    "title": "委内瑞拉发生地震 幸存者回忆惊险瞬间",
+    "summary": "委内瑞拉近日发生地震，幸存者描述了墙体混凝土脱落等惊险场景，灾害对当地造成破坏。",
+    "body": "据半岛电视台报道，委内瑞拉近期遭遇地震灾害。幸存者在接受采访时描述了地震发生时的惊险画面，称看到墙上的混凝土不断脱落，建筑物受损严重。\n\n此次地震对当地居民的生活和基础设施造成了直接影响。目前，关于地震的具体灾情和救援进展等详细信息仍在进一步确认中，当地民众正努力应对灾害带来的挑战。",
+    "category": "国际局势",
+    "tags": [
+      "委内瑞拉",
+      "地震",
+      "自然灾害"
+    ],
+    "source": "Al Jazeera",
+    "time": "刚刚",
+    "ts": "2026-06-25T19:08:24.460177+00:00",
+    "url": "https://www.aljazeera.com/news/2026/6/25/concrete-breaking-off-walls-survivors-describe-venezuelas-earthquakes?traffic_source=rss",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "680b7ebbd05022fa",
+    "title": "你可能把Fire TV Stick插错了HDMI接口",
+    "summary": "科技媒体指出，许多用户在使用亚马逊Fire TV Stick时可能将其插入了错误的HDMI接口，从而影响设备的最佳性能表现。",
+    "body": "科技媒体Engadget近日指出，许多用户在使用亚马逊Fire TV Stick时，可能将其插入了电视上错误的HDMI接口。这一常见的连接误区可能会导致设备无法发挥最佳性能。\n\n现代电视通常配备多个不同规格的HDMI接口，部分接口支持更高带宽或特定功能。若未将流媒体设备接入正确的端口，可能会限制视频画质与音频传输体验。\n\n该提示提醒消费者在连接外接设备时应注意接口匹配，以确保获得最佳的家庭影音体验。这也反映了随着消费电子接口功能的细化，用户正确使用设备的重要性日益凸显。",
+    "category": "消费电子",
+    "tags": [
+      "Fire TV Stick",
+      "HDMI接口",
+      "消费电子",
+      "流媒体设备"
+    ],
+    "source": "Engadget",
+    "time": "刚刚",
+    "ts": "2026-06-25T19:08:20.860097+00:00",
+    "url": "https://www.engadget.com/2200641/fire-tv-stick-which-tv-hdmi-port-to-use/",
+    "image": "https://www.engadget.com/img/gallery/you-may-be-plugging-your-fire-tv-stick-into-the-wrong-hdmi-port/l-intro-1782311775.jpg",
+    "stocks": []
+  },
+  {
+    "id": "ca3caa44b1f0776e",
+    "title": "亚马逊会员日：科沃斯割草机器人创新低，电小二推新品",
+    "summary": "亚马逊Prime Day期间，科沃斯激光雷达智能割草机器人价格降至历史新低，Jackery户外电源也开启大促并发布新品。",
+    "body": "在近期的亚马逊Prime Day促销活动中，多款智能硬件和户外储能产品迎来大幅降价。其中，科沃斯（ECOVACS）旗下的LiDAR Pro智能割草机器人价格回落至历史低点，为消费者提供了极具性价比的购买机会。\n\n与此同时，知名户外电源品牌Jackery（电小二）也深度参与了此次大促，不仅对现有便携式电站产品进行打折促销，还顺势推出了多款全新产品，进一步丰富了其户外储能产品线。\n\n此次促销活动反映了智能庭院设备和户外储能产品在海外市场的持续热度。借助Prime Day等核心大促节点，相关出海企业有望进一步提升品牌市场份额，并有效推动销量的快速增长。",
+    "category": "消费电子",
+    "tags": [
+      "Prime Day",
+      "科沃斯",
+      "华宝新能",
+      "智能割草机器人"
+    ],
+    "source": "Electrek",
+    "time": "刚刚",
+    "ts": "2026-06-25T19:08:11.508565+00:00",
+    "url": "https://electrek.co/2026/06/25/prime-day-3-ecovacs-lidar-pro-robot-mowers-jackery-prime-day-power-station-sale-more/",
+    "image": "",
+    "stocks": [
+      {
+        "name": "科沃斯",
+        "ticker": "603486.SH",
+        "reason": "旗下ECOVACS智能割草机器人在Prime Day大促中降价促销，有望提振海外销量。",
+        "confidence": "high"
+      },
+      {
+        "name": "华宝新能",
+        "ticker": "301327.SZ",
+        "reason": "公司旗下Jackery户外电源参与Prime Day大促并发布新品，利好海外营收增长。",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "982e01b7e653ad8a",
+    "title": "古尔曼预测苹果下周开启返校季促销，应对硬件涨价",
+    "summary": "知名记者古尔曼预测，在Mac和iPad产品线涨价后，苹果公司将于下周正式启动年度返校季促销活动。",
+    "body": "据知名科技记者马克·古尔曼预测，苹果公司计划于下周正式启动一年一度的返校季促销活动。此次营销节点的开启，正值苹果近期对旗下Mac和iPad产品线进行价格调整之后。\n\n返校季促销是苹果针对学生和教师群体推出的重要年度活动，通常涵盖教育优惠及购机赠送配件等福利。在核心硬件涨价的背景下，此举有望有效刺激教育市场的消费需求，对冲价格上涨带来的销量压力，进一步巩固其在教育生态中的优势。",
+    "category": "消费电子",
+    "tags": [
+      "苹果",
+      "返校季促销",
+      "Mac",
+      "iPad"
+    ],
+    "source": "IT之家",
+    "time": "刚刚",
+    "ts": "2026-06-25T19:08:03.238163+00:00",
+    "url": "https://www.ithome.com/0/968/725.htm",
+    "image": "",
+    "stocks": [
+      {
+        "name": "苹果",
+        "ticker": "AAPL",
+        "reason": "返校季促销有望刺激Mac和iPad等硬件销量，提振公司营收。",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "59c3f3d3bc926031",
+    "title": "General Intuition斥资23亿美元押注游戏训练AI智能体",
+    "summary": "General Intuition正投入23亿美元，致力于利用电子游戏环境训练能够应用于现实世界的AI智能体。",
+    "body": "General Intuition 正在进行一项高达 23 亿美元的重大布局，其核心理念是利用电子游戏作为训练场，来培养能够适应现实世界复杂环境的 AI 智能体。这种基于虚拟游戏环境的模拟训练方法，有望大幅降低 AI 在物理世界中试错的成本与风险。\n\n该举措凸显了虚拟环境在具身智能和 AI 代理训练中的巨大潜力。通过在游戏引擎中构建高度逼真的物理和交互规则，AI 能够加速学习并掌握复杂任务，进而为机器人、自动驾驶等现实世界应用提供更强大的智能支持与落地基础。",
+    "category": "人工智能",
+    "tags": [
+      "人工智能",
+      "AI智能体",
+      "具身智能",
+      "模拟训练"
+    ],
+    "source": "TechCrunch",
+    "time": "刚刚",
+    "ts": "2026-06-25T19:08:02.893927+00:00",
+    "url": "https://techcrunch.com/2026/06/25/general-intuitions-2-3b-bet-that-video-games-can-train-ai-agents-for-the-real-world/",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "78c3a4f307bb4931",
+    "title": "亚马逊会员日巨型相机大促 优惠近700美元",
+    "summary": "亚马逊Prime Day期间，一款被称为“史诗级比例”的大型相机迎来大幅促销，优惠金额近700美元。",
+    "body": "据Space.com报道，在今年的亚马逊Prime Day促销活动中，一款被形容为“史诗级比例”的相机产品推出了大幅折扣，消费者购买该设备可节省近700美元。\n\n尽管报道未披露该相机的具体品牌与型号，但结合信息来源的背景，这款大型相机极有可能面向天文摄影或高端专业观测领域，专为捕捉深空或宏大场景而设计。\n\n此次近700美元的大幅优惠，为天文爱好者和专业摄影师提供了以更低成本升级高端设备的契机，同时也展现了电商平台在年度大促中对高客单价专业影像器材的推广力度。",
+    "category": "消费电子",
+    "tags": [
+      "亚马逊Prime Day",
+      "相机促销",
+      "天文摄影"
+    ],
+    "source": "Space.com",
+    "time": "刚刚",
+    "ts": "2026-06-25T19:07:58.129634+00:00",
+    "url": "https://www.space.com/stargazing/skywatching-kit/this-prime-day-save-nearly-usd700-on-a-camera-of-epic-proportions",
+    "image": "https://cdn.mos.cms.futurecdn.net/rKXovw7SqXWgGbv8WuWofD-1280-80.jpg",
+    "stocks": []
+  },
+  {
+    "id": "cbc160437449809b",
+    "title": "专家：伊朗控制霍尔木兹海峡旨在获取战争利益",
+    "summary": "半岛电视台报道，分析人士指出伊朗对霍尔木兹海峡的控制权本质上与获取战争利益密切相关。",
+    "body": "半岛电视台报道，分析人士Krieg指出，伊朗对霍尔木兹海峡的控制权并非单纯的战略考量，而是与战争带来的实际利益紧密相连。\n\n该观点认为，霍尔木兹海峡作为关键通道，其控制权是伊朗在地区博弈中谋求战利品的重要筹码。掌握该海峡意味着在潜在的冲突中能够获取更大的战略与经济回报。\n\n这一分析揭示了中东地缘政治的复杂性，表明伊朗的海峡战略深刻反映了其在地区冲突中谋求利益最大化的意图，将对国际局势产生重要影响。",
+    "category": "国际局势",
+    "tags": [
+      "伊朗",
+      "霍尔木兹海峡",
+      "地缘政治"
+    ],
+    "source": "Al Jazeera",
+    "time": "刚刚",
+    "ts": "2026-06-25T19:07:54.834656+00:00",
+    "url": "https://www.aljazeera.com/video/newsfeed/2026/6/25/aje-onl-nf_krieg_control-of-the-strait-of-hormuz-spoils-of-war-250626w?traffic_source=rss",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "f79174a51ac3e3bb",
+    "title": "压力大时血液有何变化？最新研究测试揭晓",
+    "summary": "研究探讨了压力对人体血液成分及生理指标的具体影响，通过实际测试揭示压力状态下的血液变化机制。",
+    "body": "当人体处于压力状态时，血液中的各项生理指标会发生显著变化。研究人员通过实际测试，深入观察了压力对血液成分的具体影响，旨在揭示心理和生理压力如何转化为血液层面的生化反应。\n\n此类研究不仅有助于理解压力对人体健康的潜在危害，还为未来开发针对压力相关疾病的干预手段提供了重要的科学依据。通过明确压力与血液变化之间的关联，医学界能够更好地评估长期压力对心血管及免疫系统的负面影响。",
+    "category": "生物医药",
+    "tags": [
+      "生物医药",
+      "健康研究",
+      "血液生理"
+    ],
+    "source": "MedicalXpress",
+    "time": "刚刚",
+    "ts": "2026-06-25T19:07:52.992784+00:00",
+    "url": "https://medicalxpress.com/news/2026-06-blood-youre-stressed.html",
+    "image": "https://scx1.b-cdn.net/csz/news/tmb/2020/1-blood.jpg",
+    "stocks": []
+  },
+  {
+    "id": "17a6b5ba06ca3699",
+    "title": "Epic CEO批评Steam为游戏添加AI标签，称其不负责任",
+    "summary": "Epic Games首席执行官Tim Sweeney公开批评Steam平台为游戏添加AI生成内容标签的政策，认为Valve的这一举措极不负责任。",
+    "body": "近日，Epic Games首席执行官Tim Sweeney公开批评Steam平台为游戏添加AI标签的做法，指责其母公司Valve的这一举措“极不负责任”。这一言论凸显了两大PC游戏分发平台在对待AI生成内容监管政策上的显著分歧。\n\n随着AI技术在游戏开发中的广泛应用，如何界定和标注AI生成内容成为行业焦点。Steam推出了针对AI内容的审查和标签政策，而Epic方面对此持反对态度，认为这种做法可能对开发者和行业创新造成不当干预。\n\n此次争议不仅反映了平台方在AI合规与审核标准上的不同考量，也可能影响广大游戏开发者对发行平台的选择。未来，各大平台如何平衡AI技术应用与内容监管，将是游戏行业面临的重要课题。",
+    "category": "人工智能",
+    "tags": [
+      "Epic Games",
+      "Steam",
+      "AI标签",
+      "游戏开发"
+    ],
+    "source": "Tom's Hardware",
+    "time": "刚刚",
+    "ts": "2026-06-25T19:07:39.451315+00:00",
+    "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/epic-boss-tim-sweeney-blasts-steam-for-putting-ai-tags-on-games-says-move-is-irresponsible-of-valve",
+    "image": "https://cdn.mos.cms.futurecdn.net/Hhc9ykUsXDd2xTxvfK5p49-1280-80.png",
+    "stocks": []
+  },
+  {
+    "id": "b4f2d9857e56fa0c",
+    "title": "委内瑞拉加拉加斯郊区一建筑倒塌 民众紧急撤离",
+    "summary": "委内瑞拉首都加拉加斯郊区发生建筑倒塌事件，现场民众紧急逃离避险。",
+    "body": "据外媒报道，委内瑞拉首都加拉加斯郊区发生一起建筑倒塌事故。事故发生时，周边民众纷纷紧急逃离现场以规避风险。\n\n该事件属于突发性社会安全事件，目前具体伤亡情况及事故原因仍在进一步确认中。此类突发事件主要对当地居民生活与社会秩序造成短期冲击，与全球科技及资本市场无直接业务关联。",
+    "category": "国际局势",
+    "tags": [
+      "委内瑞拉",
+      "加拉加斯",
+      "建筑倒塌",
+      "突发事件"
+    ],
+    "source": "BBC World",
+    "time": "刚刚",
+    "ts": "2026-06-25T19:07:36.889667+00:00",
+    "url": "https://www.bbc.co.uk/news/videos/c78y1e3606vo?at_medium=RSS&at_campaign=rss",
+    "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3baf/live/7b34b590-70a6-11f1-8e1d-bbbb1017d210.jpg",
+    "stocks": []
+  },
+  {
+    "id": "99c2791f1b0fb514",
+    "title": "Windows 10悄然延长一年支持与更新",
+    "summary": "微软悄然将Windows 10操作系统的支持与更新周期延长一年，为尚未升级的用户提供更多过渡时间。",
+    "body": "近日，微软悄然调整了Windows 10的生命周期策略，为其提供额外一年的支持与更新服务。这一举措意味着，原本计划停止维护的Windows 10系统将获得更长的官方支持窗口。\n\n此举对于大量尚未准备好迁移至Windows 11的企业和个人用户具有重要意义。额外一年的支持期不仅缓解了系统升级带来的兼容性与硬件更换压力，也为用户提供了更充裕的过渡时间，保障了现有设备的安全与稳定运行。",
+    "category": "消费电子",
+    "tags": [
+      "Windows 10",
+      "微软",
+      "操作系统"
+    ],
+    "source": "Hacker News",
+    "time": "刚刚",
+    "ts": "2026-06-25T19:07:32.638580+00:00",
+    "url": "https://www.neowin.net/news/windows-10-quietly-gets-one-more-year-of-support-and-updates/",
+    "image": "",
+    "stocks": [
+      {
+        "name": "微软",
+        "ticker": "MSFT",
+        "reason": "延长支持期可通过扩展安全更新等付费服务增加收入，并巩固其PC操作系统生态壁垒。",
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
+    "id": "48a032f8baaf7bb6",
+    "title": "物价上涨促使消费者转向设备维修与二手市场",
+    "summary": "随着各类商品价格持续上涨，越来越多消费者开始选择维修旧设备或购买二手产品以节省开支。",
+    "body": "在通货膨胀和各类科技产品价格持续上涨的背景下，消费者的消费习惯正在发生显著转变。面对高昂的新品售价，许多人开始倾向于通过维修现有设备或购买二手商品来延长产品使用寿命，从而节省日常开支。\n\n这一趋势对消费电子行业产生了深远影响。它不仅推动了“维修权”运动的进一步发展，促使部分科技企业优化维修渠道和零部件供应，同时也为二手电子产品市场和第三方维修服务商带来了新的增长机遇。长远来看，这种消费理念的转变既有助于缓解消费者的经济压力，也契合了科技行业可持续发展的环保导向。",
+    "category": "消费电子",
+    "tags": [
+      "消费电子",
+      "设备维修",
+      "二手市场"
+    ],
+    "source": "Engadget",
+    "time": "刚刚",
+    "ts": "2026-06-25T19:07:32.162471+00:00",
+    "url": "https://www.engadget.com/2201848/its-time-to-make-do-and-mend/",
+    "image": "https://www.engadget.com/img/gallery/as-everything-gets-more-expensive-its-time-to-make-do-and-mend/l-intro-1782411916.jpg",
+    "stocks": []
+  },
+  {
+    "id": "830b1ee20a5e1217",
+    "title": "Wired推荐AeroGarden智能种植机，现享63%折扣",
+    "summary": "知名科技媒体Wired推荐了AeroGarden室内智能水培种植机，该产品目前正进行大幅促销，售价降至83美元。",
+    "body": "近日，科技媒体Wired向读者重点推荐了AeroGarden室内智能水培种植机。作为一款成熟的智能家居设备，它能让用户在室内无土栽培各类植物，操作简便且易于维护。\n\n目前，该款产品正开展大幅打折促销活动，售价降至83美元，折扣力度高达63%。对于希望在家中体验智能种植或改善室内环境的消费者而言，当前是极具性价比的入手时机。\n\n此类智能种植设备的推广与促销，反映了消费者对健康生活方式的关注，也展现了消费电子产品在细分生活场景中的持续渗透与创新。",
+    "category": "消费电子",
+    "tags": [
+      "智能家居",
+      "消费电子",
+      "室内种植",
+      "产品促销"
+    ],
+    "source": "Wired",
+    "time": "刚刚",
+    "ts": "2026-06-25T19:07:28.030912+00:00",
+    "url": "https://www.wired.com/story/amazon-prime-day-aerogarden-deal-2026/",
+    "image": "https://media.wired.com/photos/6a3d558e5cdc2b309c97a33d/master/pass/Flash-Deal--This-Fancy-Aerogarden-Model-Is-Now-63-Percent-Off.jpg",
+    "stocks": []
+  },
+  {
+    "id": "ad1d7f755a2fd934",
+    "title": "微软宣布Xbox主机8月1日起全球涨价",
+    "summary": "微软宣布自8月1日起在全球范围内上调Xbox主机价格，其中512GB版本涨价100美元，同时2TB型号将停产。",
+    "body": "微软近日宣布，自8月1日起将在全球范围内对Xbox主机进行价格调整。其中，512GB版本的价格将正式上调100美元，以应对市场变化并提升硬件业务的盈利空间。\n\n与此同时，微软还宣布2TB型号的Xbox主机将全面停产。这一产品线的调整意味着微软正在重新评估其高容量版本的市场需求与生产成本，进一步优化产品矩阵。\n\n此次全球涨价与型号停产的组合举措，显示出微软在消费电子硬件策略上的转变。通过调整终端售价和精简产品线，微软意在缓解成本压力并改善游戏硬件的整体利润率。",
+    "category": "消费电子",
+    "tags": [
+      "微软",
+      "Xbox",
+      "游戏主机",
+      "产品涨价"
+    ],
+    "source": "IT之家",
+    "time": "刚刚",
+    "ts": "2026-06-25T19:07:18.650857+00:00",
+    "url": "https://www.ithome.com/0/968/726.htm",
+    "image": "",
+    "stocks": [
+      {
+        "name": "微软",
+        "ticker": "MSFT",
+        "reason": "Xbox母公司通过调整硬件定价与产品线，有望优化游戏业务的利润率。",
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
+    "id": "5f254c81b28fa2f3",
+    "title": "Anthropic旗下Claude正抢占ChatGPT付费用户市场",
+    "summary": "Anthropic的Claude模型在付费消费者市场取得显著进展，正逐步打破ChatGPT在该领域的领先地位。",
+    "body": "据TechCrunch报道，Anthropic开发的人工智能模型Claude正在付费消费者群体中获得越来越多的青睐。此前，这一付费订阅市场主要由OpenAI旗下的ChatGPT所主导。\n\nClaude在付费市场的崛起表明，生成式AI领域的商业化竞争正在加剧。Anthropic通过不断优化模型能力与用户体验，成功吸引了愿意为高质量AI服务买单的用户，直接挑战了行业领先者的市场地位。\n\n这一趋势反映了消费者对多元化AI工具的需求，也预示着未来AI大模型在付费转化和用户留存方面的角逐将更加激烈。",
+    "category": "人工智能",
+    "tags": [
+      "Anthropic",
+      "Claude",
+      "ChatGPT",
+      "生成式AI"
+    ],
+    "source": "TechCrunch",
+    "time": "刚刚",
+    "ts": "2026-06-25T19:07:11.095772+00:00",
+    "url": "https://techcrunch.com/2026/06/25/anthropics-claude-is-winning-over-paid-consumers-a-market-owned-by-chatgpt/",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "feaf15f77db98cd6",
+    "title": "以色列内盖夫沙漠贝都因人抗议房屋拆除政策",
+    "summary": "贝都因人在以色列内盖夫沙漠举行抗议活动，反对以色列政府的房屋拆除政策。此举凸显了当地长期存在的土地与居住权争议。",
+    "body": "据半岛电视台报道，以色列内盖夫沙漠地区的贝都因人近日发起抗议活动，强烈反对以色列政府在当地实施的房屋拆除政策。抗议者认为，该政策严重侵犯了他们的合法居住权和传统生活方式。\n\n内盖夫沙漠的土地归属和规划问题长期以来是以色列社会内部的敏感议题。贝都因社区与以色列政府在未获官方认可村庄的合法性上存在深刻分歧，此类拆除行动往往会引发当地居民的强烈反弹与社会矛盾。\n\n此次抗议活动不仅反映了贝都因人对自身权益的诉求，也再次将以色列国内少数族裔的土地权利问题推向公众视野。分析人士指出，如何妥善平衡国家土地规划与少数族裔传统权益，仍是以色列政府面临的长期社会治理挑战。",
+    "category": "国际局势",
+    "tags": [
+      "以色列",
+      "贝都因人",
+      "地缘政治"
+    ],
+    "source": "Al Jazeera",
+    "time": "刚刚",
+    "ts": "2026-06-25T19:07:08.670481+00:00",
+    "url": "https://www.aljazeera.com/video/newsfeed/2026/6/25/bedouins-protest-israels-home-demolition-policy-in-the-negev-desert?traffic_source=rss",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "69e67b10776d984e",
+    "title": "6周龄婴儿健康肠道菌群或降低首年疟疾风险",
+    "summary": "研究表明，6周大婴儿肠道内的健康微生物群落与其在出生后第一年内感染疟疾的风险降低存在关联。",
+    "body": "近日，据MedicalXpress报道，一项最新研究揭示了婴儿早期肠道微生物群与疟疾感染风险之间的潜在联系。研究发现，6周龄婴儿体内若存在健康的肠道微生物群落，其在生命第一年内感染疟疾的风险会显著降低。\n\n这一发现强调了生命早期肠道微生态在免疫系统发育和抵御传染病方面的重要作用。未来，通过调节婴儿肠道菌群或开发相关微生态干预措施，有望成为预防疟疾等传染病的新策略，为全球疟疾防治工作提供新的科学依据。",
+    "category": "生物医药",
+    "tags": [
+      "肠道菌群",
+      "疟疾防治",
+      "婴儿健康",
+      "微生态"
+    ],
+    "source": "MedicalXpress",
+    "time": "刚刚",
+    "ts": "2026-06-25T19:07:06.517469+00:00",
+    "url": "https://medicalxpress.com/news/2026-06-healthy-gut-microbes-week-infants.html",
+    "image": "https://scx1.b-cdn.net/csz/news/tmb/2025/black-baby-1.jpg",
+    "stocks": []
+  },
+  {
+    "id": "5ed43e4245260050",
+    "title": "现代科幻电影海报屡遭诟病，《超级少女》设计打破常规",
+    "summary": "文章探讨了现代科幻电影海报设计的同质化问题，并指出《超级少女》的海报展现了出色的视觉表现力。",
+    "body": "当前许多现代科幻电影的海报设计往往缺乏新意，难以令观众满意。然而，《超级少女》的海报却展现了不同的设计思路，证明了科幻电影海报依然可以具备出色的艺术水准。\n\n这一现象引发了对影视宣发视觉设计的讨论，强调了在高度同质化的市场中，独特的艺术设计对吸引观众的重要意义。",
+    "category": "消费电子",
+    "tags": [
+      "科幻电影",
+      "海报设计",
+      "超级少女"
+    ],
+    "source": "Space.com",
+    "time": "刚刚",
+    "ts": "2026-06-25T19:07:06.454697+00:00",
+    "url": "https://www.space.com/entertainment/space-movies-shows/modern-sci-fi-movie-posters-usually-suck-but-supergirl-shows-that-it-doesnt-have-to-be-that-way",
+    "image": "https://cdn.mos.cms.futurecdn.net/9sD24V4DVfFkw8XidqhL8k-1280-80.jpg",
+    "stocks": []
+  },
+  {
+    "id": "c48f2bcb9d913027",
+    "title": "McMurtry预告破纪录电动风扇跑车量产版",
+    "summary": "英国电动汽车初创公司McMurtry预告了其打破纪录的电动风扇跑车量产版本，标志着该创新车型向商业化迈进。",
+    "body": "McMurtry近日发布了其标志性电动风扇跑车量产版的预告信息。这款车型曾凭借独特的风扇下压力系统在古德伍德速度节上创下惊人纪录，引发了业界的广泛关注。\n\n量产版的推出标志着这款极具创新设计的“风扇车”正从赛道走向大众视野。虽然具体性能和上市时间尚未公布，但其独特的空气动力学设计有望为高性能电动汽车市场带来新的技术启发与竞争活力。",
+    "category": "消费电子",
+    "tags": [
+      "McMurtry",
+      "电动汽车",
+      "量产跑车",
+      "空气动力学"
+    ],
+    "source": "Electrek",
+    "time": "刚刚",
+    "ts": "2026-06-25T19:07:01.828630+00:00",
+    "url": "https://electrek.co/2026/06/25/mcmurtry-teases-production-version-of-its-bonkers-record-breaking-electric-fan-car/",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "2808f5c157676ea5",
+    "title": "微软两年内第三次上调Xbox主机价格",
+    "summary": "微软宣布对Xbox Series全系列游戏主机涨价100至150美元，并取消2TB版本。这是该系列主机在两年内的第三次价格上调。",
+    "body": "近日，微软正式宣布对旗下Xbox Series系列游戏主机进行全面调价。此次涨价幅度显著，所有在售型号的售价均上调了100至150美元。值得注意的是，这已经是该系列主机在短短两年内经历的第三次价格上调，反映出硬件成本的持续压力或公司盈利策略的调整。\n\n除了价格调整外，微软还宣布取消Xbox Series的2TB大容量存储版本，进一步精简了产品线。对于消费者而言，大幅涨价和高端型号的削减无疑直接增加了购买门槛，引发了玩家社区的广泛关注。\n\n此次调价可能会对游戏主机市场的竞争格局产生微妙影响。在竞争激烈的环境下，Xbox的频繁涨价可能会削弱其价格竞争力，从而为竞争对手提供潜在的市场机会，同时也考验着微软通过订阅服务留住用户的能力。",
+    "category": "消费电子",
+    "tags": [
+      "微软",
+      "Xbox",
+      "游戏主机",
+      "消费电子"
+    ],
+    "source": "Tom's Hardware",
+    "time": "刚刚",
+    "ts": "2026-06-25T19:06:51.569265+00:00",
+    "url": "https://www.tomshardware.com/video-games/xbox/microsoft-increases-xbox-series-console-prices-for-the-third-time-in-two-years-kills-off-2tb-model-usd100-usd150-upswings-on-every-model",
+    "image": "https://cdn.mos.cms.futurecdn.net/mFKpufMPUKRTroyPTjZEZA-1280-80.png",
+    "stocks": [
+      {
+        "name": "微软",
+        "ticker": "MSFT",
+        "reason": "作为Xbox母公司，硬件涨价有助于缓解成本压力并提升游戏硬件业务利润率。",
+        "confidence": "medium"
+      },
+      {
+        "name": "索尼",
+        "ticker": "SONY",
+        "reason": "竞争对手Xbox大幅涨价可能促使部分价格敏感型玩家转向PlayStation阵营。",
+        "confidence": "low"
+      }
+    ]
+  },
+  {
+    "id": "6ade6df1147f7c85",
+    "title": "银行为何需要首席科学家？技术重塑现代金融",
+    "summary": "IEEE Spectrum探讨了银行业设立首席科学家职位的趋势，指出数据科学与人工智能正深刻重塑现代金融业务与风险管理。",
+    "body": "IEEE Spectrum 探讨了银行业设立首席科学家职位的内在逻辑与行业趋势。随着金融业务的日益复杂化与数字化，传统银行正加速向技术驱动型机构转型，以应对海量数据处理与复杂模型构建的挑战。\n\n首席科学家的引入，旨在利用人工智能、机器学习等前沿技术优化风险评估、提升反欺诈能力并创新金融产品。这一职位的设立反映了科技在现代金融体系中扮演着越来越核心的角色，标志着金融业从经验驱动向数据与算法驱动的深度演进。",
+    "category": "人工智能",
+    "tags": [
+      "金融科技",
+      "人工智能",
+      "数据科学"
+    ],
+    "source": "IEEE Spectrum",
+    "time": "刚刚",
+    "ts": "2026-06-25T19:06:47.514280+00:00",
+    "url": "https://spectrum.ieee.org/capital-one-science-ai-finance-innovation",
+    "image": "https://spectrum.ieee.org/media-library/silhouetted-team-working-on-laptops-in-a-glass-walled-office-at-sunset.jpg?id=66903903&width=980",
+    "stocks": []
+  },
+  {
+    "id": "4634e43508c49ae1",
+    "title": "a16z投资的Base Power向高需求电网提供低价电力",
+    "summary": "由知名风投a16z支持的初创公司Base Power，正致力于向电力需求最旺盛的电网提供更便宜的电力，以缓解电网压力并优化能源分配。",
+    "body": "Base Power是一家获得知名风投机构a16z支持的能源科技公司，其核心业务是通过创新的储能和电网管理技术，在电力需求高峰期向电网输送成本更低的电力。这一举措旨在解决电网在用电高峰时面临的供需失衡问题。\n\n通过将分布式能源与智能电网技术相结合，Base Power不仅能够为最需要电力的地区提供稳定的能源补充，还能有效降低整体电力成本。这种模式对提升电网韧性、推动能源转型具有积极意义，展现了分布式储能在现代电力系统中的巨大潜力。",
+    "category": "未来能源",
+    "tags": [
+      "虚拟电厂",
+      "储能",
+      "智能电网",
+      "a16z"
+    ],
+    "source": "TechCrunch",
+    "time": "刚刚",
+    "ts": "2026-06-25T19:06:44.316685+00:00",
+    "url": "https://techcrunch.com/2026/06/25/a16z-backed-base-power-is-offering-cheaper-electricity-to-the-power-grid-that-needs-it-most/",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "07abc75eb92044d7",
+    "title": "得州特斯拉致命车祸引发法律对决",
+    "summary": "得克萨斯州发生涉及特斯拉的致命交通事故，预计将引发一场重大的法律诉讼。该案焦点或将指向自动驾驶技术的安全性与责任归属。",
+    "body": "近日，得克萨斯州发生了一起涉及特斯拉汽车的致命交通事故。这起悲剧不仅引发了公众对车辆安全性的关注，也为特斯拉带来了一场即将到来的法律对决。\n\n随着调查和诉讼程序的推进，该案件可能成为审视特斯拉自动驾驶辅助系统安全性和责任界定的重要案例。法律界和监管机构将密切关注此案的审理过程及最终判决。\n\n此类法律诉讼不仅关乎具体案件的责任划分，更可能对特斯拉未来的技术迭代、产品责任界定以及整个自动驾驶行业的监管标准产生深远影响。",
+    "category": "人工智能",
+    "tags": [
+      "特斯拉",
+      "自动驾驶",
+      "法律诉讼"
+    ],
+    "source": "Wired",
+    "time": "刚刚",
+    "ts": "2026-06-25T19:06:42.081807+00:00",
+    "url": "https://www.wired.com/story/a-fatal-tesla-crash-in-texas-sets-up-a-legal-showdown/",
+    "image": "https://media.wired.com/photos/6a3d6836577be68a65b90b02/master/pass/GettyImages-2177670258.jpg",
+    "stocks": []
+  },
+  {
+    "id": "0feb42f8dbfadd56",
+    "title": "Retroid发布Pocket Nova掌机：4:3屏幕售229美元",
+    "summary": "Retroid推出全新复古掌机Pocket Nova，采用4:3比例屏幕，售价229美元。该产品主打高性价比，旨在为玩家提供出色的便携游戏体验。",
+    "body": "知名掌机品牌Retroid正式推出了其最新硬件产品Pocket Nova。这款设备采用了经典的4:3比例屏幕设计，旨在为玩家提供更契合复古游戏原生比例的视觉体验，满足特定玩家群体的需求。\n\n在定价方面，Pocket Nova的售价定为229美元。在当前便携游戏设备市场中，这一价格策略凸显了其高性价比优势，有望进一步巩固Retroid在复古掌机细分市场的竞争力。",
+    "category": "消费电子",
+    "tags": [
+      "复古掌机",
+      "消费电子",
+      "Pocket Nova"
+    ],
+    "source": "Engadget",
+    "time": "刚刚",
+    "ts": "2026-06-25T19:06:41.806849+00:00",
+    "url": "https://www.engadget.com/2201878/retroids-pocket-nova-is-a-very-capable-43-handheld-that-costs-dollar229/",
+    "image": "https://www.engadget.com/img/gallery/retroids-pocket-nova-is-a-very-capable-43-handheld-that-costs-229/l-intro-1782413182.jpg",
+    "stocks": []
+  },
+  {
+    "id": "a47250c8fe6f88fa",
+    "title": "YC P25批次初创公司Besimple AI开启招聘",
+    "summary": "Y Combinator P25批次入选企业Besimple AI目前正在招募团队成员，以推进其人工智能相关业务。",
+    "body": "近日，入选Y Combinator P25批次的初创公司Besimple AI在Hacker News上发布了招聘信息。该公司正处于早期发展阶段，正积极扩充团队以支持其人工智能项目的研发与运营。\n\n作为YC最新批次的成员，Besimple AI的招聘动向反映了AI领域初创企业持续吸引人才的趋势。由于该公司尚处早期，其具体产品形态与商业化路径仍有待市场进一步关注。",
+    "category": "人工智能",
+    "tags": [
+      "Besimple AI",
+      "Y Combinator",
+      "人才招聘",
+      "人工智能"
+    ],
+    "source": "Hacker News",
+    "time": "刚刚",
+    "ts": "2026-06-25T19:06:36.379278+00:00",
+    "url": "https://www.ycombinator.com/companies/besimple-ai/jobs/yWfhhOR-strategic-projects-lead-audio-data",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "9588124d0e0dae70",
+    "title": "内存短缺推高硬件成本，当前并非购入新电脑良机",
+    "summary": "受“内存荒”影响，科技硬件价格大幅上涨，近期购买新电脑或平板电脑将面临较高的溢价。",
+    "body": "近期，被称为“内存荒”（RAMaggeddon）的现象正导致新款科技硬件成本急剧上升。对于有意购买新电脑或平板电脑的消费者而言，本周的市场终端售价带来了明显的“价格冲击”。\n\n内存等核心零部件的短缺与涨价，直接推高了消费电子产品的整体售价。这一趋势不仅增加了消费者的换机成本，也反映出当前科技硬件供应链在存储芯片环节所面临的紧张局势与价格波动。",
+    "category": "消费电子",
+    "tags": [
+      "内存短缺",
+      "消费电子",
+      "硬件涨价"
+    ],
+    "source": "The Verge",
+    "time": "45分钟前",
+    "ts": "2026-06-25T14:20:17-04:00",
+    "url": "https://www.theverge.com/tech/957151/ram-crisis-component-shortage-prices-computer-apple-microsoft-valve",
+    "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/03/268408_Apple_MacBook_Air_15_M5_laptop_ADiBenedetto_0020.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100",
+    "stocks": []
+  },
+  {
+    "id": "0a61db6b4d281bbc",
+    "title": "苹果上调iPad和MacBook价格，零售商旧价库存促销倒计时",
+    "summary": "苹果近期全面上调了iPad和MacBook系列产品的价格，但目前许多零售商仍在以旧价格销售现有库存，消费者仍可抓住最后的优惠窗口。",
+    "body": "苹果官方近日宣布对旗下iPad和MacBook全系产品进行价格上调。此次调价直接影响了苹果最新款设备的市场售价，增加了消费者的购买成本。\n\n尽管官方价格已经上涨，但许多零售商和授权经销商目前仍在消化以旧价格进货的库存。这意味着消费者在短期内仍能以调价前的优惠价格购买到iPad Air等热门产品，从而节省可观的开支。\n\n对于有购机需求的消费者而言，当前的库存清仓期是入手苹果设备的最后窗口。随着零售商旧库存逐渐售罄，市场终端售价将全面与苹果官方新价格接轨。",
+    "category": "消费电子",
+    "tags": [
+      "苹果",
+      "iPad",
+      "MacBook",
+      "产品调价"
+    ],
+    "source": "The Verge",
+    "time": "1小时前",
+    "ts": "2026-06-25T14:04:13-04:00",
+    "url": "https://www.theverge.com/gadgets/957106/prime-day-ipad-deals-apple-price-hikes",
+    "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/03/268386_iPad_Air_M4_AKrales_0020.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100",
+    "stocks": [
+      {
+        "name": "苹果",
+        "ticker": "AAPL",
+        "reason": "苹果官方上调iPad和MacBook产品线价格，直接影响其硬件营收与利润率预期。",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "df862bfca05fddf9",
+    "title": "极星汽车遭美禁售，2027年起禁售涉中国软件车型",
+    "summary": "因美国出台禁止车辆使用中国软件的新规，极星汽车未获政府授权，将被禁止在美销售2027款及后续电动汽车。",
+    "body": "据The Verge报道，极星汽车（Polestar）将被禁止在美国市场销售2027款及以后的电动汽车。美国联邦政府拒绝了该公司基于新规提出的授权请求，将其挡在美国市场门外。\n\n此次禁令源于美国针对智能网联汽车出台的新规，明确禁止在美销售的车辆搭载来自中国的软件。极星汽车未能获得合规授权，直接导致其未来车型在美销售受阻。\n\n这一决定不仅对极星在美国市场的业务布局造成重大打击，也凸显了美国对中国汽车软件及供应链的限制正在实质性落地，可能对未来具有中国背景或依赖中国技术的车企产生深远影响。",
+    "category": "国际局势",
+    "tags": [
+      "极星汽车",
+      "智能汽车",
+      "美国禁令",
+      "供应链限制"
+    ],
+    "source": "The Verge",
+    "time": "1小时前",
+    "ts": "2026-06-25T13:58:37-04:00",
+    "url": "https://www.theverge.com/transportation/957033/polestar-banned-us-sales-china-software",
+    "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/11/2026VolvoPolestar4PeterNelson30.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100",
+    "stocks": []
+  },
+  {
+    "id": "50cb5c6b44ce89bc",
+    "title": "亚马逊Prime Day外设及硬件大促，5K显示器半价",
+    "summary": "亚马逊Prime Day期间，多款键盘、鼠标等电脑外设及存储硬件迎来大幅折扣，部分5K显示器价格仅为苹果同类产品的一半。",
+    "body": "在近期的亚马逊Prime Day促销活动中，众多备受好评的电脑外设产品迎来了大幅降价。消费者可以以极具吸引力的价格购入各类键盘、鼠标以及其他周边设备，为升级桌面体验提供了良好契机。\n\n除了常规外设，高端显示器和核心存储硬件也成为此次促销的亮点。其中，一款色彩精准的5K显示器售价仅为苹果Studio Display的一半，性价比凸显。同时，针对近期内存芯片、机械硬盘和固态硬盘等存储设备价格飙升的现状，此次大促也为消费者提供了难得的折扣机会，有效缓解了硬件升级的成本压力。",
+    "category": "消费电子",
+    "tags": [
+      "Prime Day",
+      "电脑外设",
+      "硬件折扣",
+      "亚马逊"
+    ],
+    "source": "The Verge",
+    "time": "1小时前",
+    "ts": "2026-06-25T13:47:20-04:00",
+    "url": "https://www.theverge.com/gadgets/956938/prime-day-deals-keyboards-mice-monitors-peripherals",
+    "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/04/268466_5K_monitor_v_Apple_display_JHiggins_0012.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100",
+    "stocks": [
+      {
+        "name": "亚马逊",
+        "ticker": "AMZN",
+        "reason": "作为Prime Day的主办方，大促活动将直接拉动其电商销售额及Prime会员增长。",
+        "confidence": "high"
+      },
+      {
+        "name": "罗技",
+        "ticker": "LOGI",
+        "reason": "全球领先的电脑外设品牌，Prime Day的键盘鼠标折扣有望显著提升其产品销量。",
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
     "id": "7a0c292b7b8526a3",
     "title": "Avinox展示变速箱电机概念，扩张电动自行车版图",
     "summary": "电动自行车驱动系统品牌Avinox展示了全新的变速箱电机概念，并正进一步扩大其在电动自行车行业的业务版图。",
@@ -50678,6 +51723,6 @@ const newsData = [
   }
 ];
 const newsDigest = {
-  "text": "今日科技焦点集中于半导体突破与AI基建：IBM发布全球首款亚1纳米芯片，引领制程革新；AI算力成本高企引发投资冷静期。此外，苹果全线硬件涨价，宁德时代指固态电池短期难突破。",
+  "text": "今日科技界聚焦半导体突破，IBM发布亚1纳米芯片技术，苹果被曝跳过M6直研M7，利好台积电等产业链；拜耳赢下农达诉讼减轻财务负担；美网联汽车禁令或波及极星，智能汽车出海面临合规挑战。",
   "highlights": []
 };
