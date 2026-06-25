@@ -1,5 +1,1026 @@
 const newsData = [
   {
+    "id": "9894034793e77dac",
+    "title": "肯尼亚名将坎迪因兴奋剂违规被禁赛七年",
+    "summary": "肯尼亚长跑运动员坎迪因违反反兴奋剂规定，被田径诚信委员会处以七年禁赛处罚。",
+    "body": "肯尼亚著名长跑运动员基比沃特·坎迪因违反反兴奋剂规定，被田径诚信委员会处以长达七年的禁赛处罚。此次重罚主要源于其在药检及相关调查过程中的违规行为。\n\n这一严厉处罚意味着坎迪将长期缺席国际重大赛事，再次凸显了国际体育组织在打击兴奋剂问题上的零容忍态度，同时也对肯尼亚田径界的整体声誉产生了一定影响。",
+    "category": "国际局势",
+    "tags": [
+      "体育",
+      "反兴奋剂",
+      "肯尼亚"
+    ],
+    "source": "Al Jazeera",
+    "time": "刚刚",
+    "ts": "2026-06-25T21:48:50.042363+00:00",
+    "url": "https://www.aljazeera.com/sports/2026/6/25/kenyas-kandie-gets-seven-year-ban-for-doping-violations?traffic_source=rss",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "3345b33384a98424",
+    "title": "开源AI笔记软件OpenKnowledge发布",
+    "summary": "开发者在Hacker News上展示了OpenKnowledge，这是一款开源且以AI为核心的知识库工具，旨在成为Obsidian和Notion的替代品。",
+    "body": "近日，一款名为OpenKnowledge的开源项目在Hacker News上引发关注。该项目定位为“AI优先”的笔记与知识库管理工具，致力于为用户提供Obsidian和Notion的开源替代方案。\n\n与传统的笔记软件不同，OpenKnowledge在设计之初便将人工智能深度融入核心工作流，而非仅仅作为附加插件。这种架构有助于用户更高效地进行知识整理、内容生成与信息检索。\n\n作为开源项目，OpenKnowledge不仅赋予了用户更高的数据隐私控制权，还允许开发者社区根据自身需求进行定制与扩展。这为日益增长的个人知识管理市场提供了一种更具灵活性和智能化潜力的新选择。",
+    "category": "人工智能",
+    "tags": [
+      "开源软件",
+      "人工智能",
+      "知识管理"
+    ],
+    "source": "Hacker News",
+    "time": "刚刚",
+    "ts": "2026-06-25T21:48:49.599692+00:00",
+    "url": "https://github.com/inkeep/open-knowledge",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "64aa9528b6e194b8",
+    "title": "AMD锐龙7 5800X3D重测：榨干DDR4游戏性能",
+    "summary": "Tom's Hardware对AMD锐龙7 5800X3D处理器进行重新评测，探讨其在DDR4平台下的极限游戏性能表现。",
+    "body": "科技媒体Tom's Hardware近日对AMD锐龙7 5800X3D处理器进行了重新评测。该处理器凭借独特的3D V-Cache技术，在发布之初便备受游戏玩家关注。\n\n此次重测旨在深入挖掘其在DDR4内存平台下的极限游戏性能潜力。评测表明，即使在DDR4时代末期，5800X3D依然能为老平台用户提供顶级的游戏体验，进一步彰显了AMD在AM4平台上的长生命周期价值与市场竞争力。",
+    "category": "消费电子",
+    "tags": [
+      "AMD",
+      "处理器",
+      "PC硬件",
+      "游戏"
+    ],
+    "source": "Tom's Hardware",
+    "time": "刚刚",
+    "ts": "2026-06-25T21:48:46.442390+00:00",
+    "url": "https://www.tomshardware.com/pc-components/cpus/amd-ryzen-7-5800x3d-2026-cpu-review",
+    "image": "https://cdn.mos.cms.futurecdn.net/p3Kjz2uFDawbqt4hPoaDaW-1280-80.jpg",
+    "stocks": []
+  },
+  {
+    "id": "048307c60db044db",
+    "title": "雷蛇发布辉月神幻彩版电竞椅，售价3999元",
+    "summary": "雷蛇推出辉月神幻彩版电竞椅，其灯效可与300余款热门游戏联动，国内售价3999元。",
+    "body": "雷蛇正式发布了辉月神幻彩版电竞椅，该产品主打沉浸式游戏体验，其RGB灯效系统能够与超过300款热门游戏实现深度联动，根据游戏内事件实时变换灯光效果。\n\n这款电竞椅在国内的定价为3999元。通过将硬件外设与游戏软件生态紧密结合，雷蛇进一步丰富了其电竞生态系统，旨在为玩家提供更具沉浸感的电竞环境，同时也巩固了其在高端电竞外设市场的品牌影响力。",
+    "category": "消费电子",
+    "tags": [
+      "雷蛇",
+      "电竞外设",
+      "游戏联动"
+    ],
+    "source": "IT之家",
+    "time": "刚刚",
+    "ts": "2026-06-25T21:48:39.396789+00:00",
+    "url": "https://www.ithome.com/0/968/720.htm",
+    "image": "",
+    "stocks": [
+      {
+        "name": "雷蛇",
+        "ticker": "1337.HK",
+        "reason": "作为产品发布方，新电竞椅的推出有助于丰富其电竞生态并带动硬件销售。",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "c37fad4d6312d979",
+    "title": "结合紫杉醇与siRNA纳米平台增强肺癌免疫反应",
+    "summary": "研究人员开发了一种结合紫杉醇与siRNA的纳米技术平台，能显著增强机体对肺癌的免疫反应，为肺癌治疗提供新策略。",
+    "body": "近日，科研人员开发出一款创新的纳米技术平台，将传统化疗药物紫杉醇与小干扰RNA（siRNA）相结合，旨在提升肺癌的治疗效果。研究表明，这种联合递送系统不仅能直接杀伤肿瘤细胞，还能有效调节肿瘤微环境，从而显著增强机体对肺癌的免疫反应。\n\n这一新型纳米平台的问世，为克服肺癌治疗中的免疫逃逸和耐药性问题提供了新策略。通过协同发挥化疗与基因沉默的作用，该疗法有望在未来转化为更具疗效的靶向抗癌药物，推动肿瘤免疫治疗领域的进一步发展。",
+    "category": "生物医药",
+    "tags": [
+      "纳米技术",
+      "siRNA",
+      "肺癌治疗",
+      "免疫疗法"
+    ],
+    "source": "MedicalXpress",
+    "time": "刚刚",
+    "ts": "2026-06-25T21:48:32.954362+00:00",
+    "url": "https://medicalxpress.com/news/2026-06-nanotech-platform-combining-paclitaxel-sirna.html",
+    "image": "https://scx1.b-cdn.net/csz/news/tmb/2025/lung-cancer.jpg",
+    "stocks": []
+  },
+  {
+    "id": "386d5ba9655610cb",
+    "title": "美最高法院允许特朗普终止海地叙利亚移民保护身份",
+    "summary": "美国最高法院裁定，允许特朗普政府终止对海地和叙利亚移民的临时保护身份。此举将影响数万名在美移民的合法居留状态。",
+    "body": "美国最高法院近日作出裁决，允许特朗普政府结束对海地和叙利亚移民的临时保护身份（TPS）。该决定意味着此前依赖此政策在美合法居留和工作的移民将面临身份失效的风险。\n\n这一裁决不仅直接影响数以万计的海地和叙利亚移民的去留问题，也反映了美国在移民政策上的持续收紧趋势。临时保护身份通常授予因自然灾害或武装冲突而无法安全返回母国的外籍人士，此次终止决定引发了人权组织及移民倡导团体的广泛关注与担忧。",
+    "category": "国际局势",
+    "tags": [
+      "美国政治",
+      "移民政策",
+      "国际局势"
+    ],
+    "source": "BBC World",
+    "time": "刚刚",
+    "ts": "2026-06-25T21:48:21.399243+00:00",
+    "url": "https://www.bbc.co.uk/news/articles/c4g8ym422lko?at_medium=RSS&at_campaign=rss",
+    "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d05e/live/f87354b0-70b7-11f1-b1da-a3a610594805.jpg",
+    "stocks": []
+  },
+  {
+    "id": "0d0f2ab17d06ad39",
+    "title": "常见维生素缺乏症状易与正常衰老混淆",
+    "summary": "研究指出，某种常见的维生素缺乏症所表现出的症状可能与正常衰老过程相似，易导致忽视或误判。",
+    "body": "近日，ScienceDaily报道了一项关于维生素缺乏与衰老症状关联的研究。研究表明，常见的维生素缺乏所引发的生理表现，极易与人体正常的衰老过程相混淆。\n\n这种现象可能导致患者在出现相关症状时，误以为是自然老化而忽视了潜在的营养缺乏问题。该发现提醒医疗专业人员和公众，在面对疑似衰老症状时应重视维生素水平检测，以便及时进行营养干预，从而改善生活质量。",
+    "category": "生物医药",
+    "tags": [
+      "维生素缺乏",
+      "衰老研究",
+      "健康科普"
+    ],
+    "source": "ScienceDaily",
+    "time": "刚刚",
+    "ts": "2026-06-25T21:48:21.271184+00:00",
+    "url": "https://www.sciencedaily.com/releases/2026/06/260623083116.htm",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "27af4d7be516df47",
+    "title": "AI助力败血症护理，显著降低诊疗时间与资源消耗",
+    "summary": "最新研究表明，利用人工智能技术可以优化败血症的临床护理流程，有效减少医生在诊疗过程中投入的时间与医疗资源。",
+    "body": "近日，MedicalXpress报道了人工智能在医疗领域的最新应用进展。研究指出，利用人工智能技术可以优化医生处理败血症护理的流程，从而有效减少诊疗所需的时间与医疗资源。\n\n败血症的及时干预对临床治疗至关重要，通过引入AI技术辅助决策，医生能够更高效地应对这一复杂病症。这一应用不仅提升了整体医疗效率，也展现了人工智能在改善重症护理和优化医疗资源配置方面的积极意义与巨大潜力。",
+    "category": "人工智能",
+    "tags": [
+      "人工智能",
+      "智慧医疗",
+      "败血症"
+    ],
+    "source": "MedicalXpress",
+    "time": "刚刚",
+    "ts": "2026-06-25T21:48:19.148322+00:00",
+    "url": "https://medicalxpress.com/news/2026-06-leveraging-ai-resources-physicians-approach.html",
+    "image": "https://scx1.b-cdn.net/csz/news/tmb/2025/physician.jpg",
+    "stocks": []
+  },
+  {
+    "id": "7503bd71842d8bf8",
+    "title": "伊朗阿舒拉节仪式交织信仰与国家支持",
+    "summary": "伊朗各地举行阿舒拉节纪念活动，民众在表达宗教信仰的同时展现出对国家政权的支持。",
+    "body": "近日，伊朗各地举行了盛大的阿舒拉节纪念仪式。这一传统节日不仅是什叶派穆斯林表达宗教信仰的重要时刻，也成为了民众展现对国家政权支持的契机。\n\n在当前的地区局势下，此类活动进一步凝聚了国内共识。通过宗教仪式与国家认同的深度结合，伊朗当局在复杂多变的国际环境中巩固了内部团结与社会稳定。",
+    "category": "国际局势",
+    "tags": [
+      "伊朗",
+      "阿舒拉节",
+      "国际局势"
+    ],
+    "source": "Al Jazeera",
+    "time": "刚刚",
+    "ts": "2026-06-25T21:48:17.951550+00:00",
+    "url": "https://www.aljazeera.com/news/2026/6/25/ashura-ceremonies-intertwine-faith-and-support-for-state-in-iran?traffic_source=rss",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "6ea0a971b61ccdbf",
+    "title": "Hacker News热议AI安全“门卫谬误”与防御策略",
+    "summary": "Hacker News近日探讨人工智能安全中的“门卫谬误”，指出过度依赖单一前置防御机制的局限性。",
+    "body": "“门卫谬误”（The Doorman's Fallacy）近日在Hacker News上引发技术社区热议。在人工智能安全领域，该概念指开发者过度依赖前置的系统提示词或单一输入过滤机制，而忽视了模型输出端的持续监控与纵深防御。\n\n讨论指出，随着大语言模型应用的普及，仅靠“门卫”式的边界防护极易被越狱攻击绕过。一旦恶意指令突破前置防线，缺乏后置拦截和权限控制的AI代理可能会执行危险操作或泄露敏感数据。\n\n业界专家强调，构建安全的AI应用必须摒弃“门卫谬误”，转向零信任与多层防御架构。通过结合输入过滤、输出审查以及运行时的沙箱隔离，才能有效降低大模型在实际业务场景中的安全风险。",
+    "category": "人工智能",
+    "tags": [
+      "人工智能安全",
+      "大模型",
+      "系统架构",
+      "Hacker News"
+    ],
+    "source": "Hacker News",
+    "time": "刚刚",
+    "ts": "2026-06-25T21:48:14.284357+00:00",
+    "url": "https://rozumem.xyz/posts/17",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "9d1aec2a4175d399",
+    "title": "内塔尼亚胡：以色列将按需驻留黎巴嫩叙利亚和加沙",
+    "summary": "以色列总理内塔尼亚胡表示，以色列军队将根据需要继续留在黎巴嫩、叙利亚和加沙地带，凸显中东持续紧张的地缘政治局势。",
+    "body": "据半岛电视台报道，以色列总理内塔尼亚胡公开声明，以色列将根据实际需要，继续维持在黎巴嫩、叙利亚以及加沙地带的军事存在。这一表态明确了以色列在周边冲突区域的长期战略意图。该声明反映出中东地区复杂且持续紧张的安全局势。以色列在多条战线上的军事部署不仅关乎其自身的国家安全战略，也可能对周边国家的地缘政治格局及区域稳定产生深远影响。",
+    "category": "国际局势",
+    "tags": [
+      "中东局势",
+      "以色列",
+      "地缘政治"
+    ],
+    "source": "Al Jazeera",
+    "time": "刚刚",
+    "ts": "2026-06-25T21:48:10.749062+00:00",
+    "url": "https://www.aljazeera.com/video/newsfeed/2026/6/25/netanyahu-we-will-remain-in-lebanon-syria-and-gaza-as-long-as?traffic_source=rss",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "1b7274779490fd46",
+    "title": "法国性侵受害者呼吁取消强奸案诉讼时效",
+    "summary": "法国多名指控遭受强奸和性侵犯的女性发起呼吁，要求废除相关案件的诉讼时效限制。",
+    "body": "近日，法国多名指控遭受强奸和性侵犯的女性公开呼吁，要求政府废除针对性侵犯罪的诉讼时效限制。她们认为，现行的诉讼时效规定导致许多受害者因时间流逝而无法寻求司法公正，使得部分施暴者得以逃脱法律制裁。\n\n这一呼吁引发了法国社会对性侵案件司法程序的广泛关注与讨论。支持者指出，取消诉讼时效有助于保护受害者合法权益，并确保所有性侵犯罪都能得到应有的法律追究，这或将对法国未来的司法体系改革产生深远影响。",
+    "category": "国际局势",
+    "tags": [
+      "法国",
+      "社会新闻",
+      "司法改革",
+      "女性权益"
+    ],
+    "source": "BBC World",
+    "time": "刚刚",
+    "ts": "2026-06-25T21:48:02.288261+00:00",
+    "url": "https://www.bbc.co.uk/news/articles/ckg7z5dvxnzo?at_medium=RSS&at_campaign=rss",
+    "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2cfb/live/35f7bee0-70bb-11f1-b1da-a3a610594805.jpg",
+    "stocks": []
+  },
+  {
+    "id": "e52830ed07a141a5",
+    "title": "研究发现降低纤溶酶原水平可促进小鼠术后肝脏修复",
+    "summary": "一项最新研究表明，在小鼠模型中，较低的纤溶酶原水平能够显著增强手术后的肝脏组织修复与再生能力。",
+    "body": "近日，一项医学研究揭示了纤溶酶原在肝脏术后恢复中的关键作用。研究人员通过小鼠模型发现，体内纤溶酶原水平较低的小鼠在经历肝脏手术后，展现出更强的肝脏组织修复能力。\n\n这一发现为理解肝脏损伤后的修复机制提供了新视角。纤溶酶原通常参与血液凝固与纤维蛋白溶解过程，该研究表明其在调控肝脏术后愈合方面可能具有此前未被充分认识的调节作用。\n\n尽管目前该研究仍处于动物实验阶段，但其潜在临床意义重大。未来若能通过靶向调节纤溶酶原水平，有望为肝切除手术患者或严重肝损伤人群开发出促进肝脏再生的全新治疗策略。",
+    "category": "生物医药",
+    "tags": [
+      "肝脏修复",
+      "纤溶酶原",
+      "基础医学",
+      "再生医学"
+    ],
+    "source": "MedicalXpress",
+    "time": "刚刚",
+    "ts": "2026-06-25T21:48:02.099745+00:00",
+    "url": "https://medicalxpress.com/news/2026-06-plasminogen-spur-stronger-liver-surgery.html",
+    "image": "https://scx1.b-cdn.net/csz/news/tmb/2022/liver-2.jpg",
+    "stocks": []
+  },
+  {
+    "id": "ebc367feda4ae15f",
+    "title": "荷兰球迷堪萨斯城狂欢备战世界杯",
+    "summary": "荷兰球迷在美国堪萨斯城举行聚会，为即将到来的世界杯对阵突尼斯的比赛预热。",
+    "body": "随着世界杯赛事的临近，荷兰球迷在美国堪萨斯城举办了盛大的聚会活动。此次狂欢旨在为荷兰国家队即将与突尼斯队展开的较量营造氛围。\n\n球迷们的热情参与展现了体育赛事对跨国文化交流的积极影响，同时也为举办地带来了显著的商业与旅游活力。",
+    "category": "国际局势",
+    "tags": [
+      "世界杯",
+      "荷兰",
+      "体育赛事"
+    ],
+    "source": "Al Jazeera",
+    "time": "刚刚",
+    "ts": "2026-06-25T21:47:59.537750+00:00",
+    "url": "https://www.aljazeera.com/video/newsfeed/2026/6/25/aje-onl-nf_dutch-fans-party-in-kansas-ahead-of-tunisia-match-250626?traffic_source=rss",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "9cd56b3e2a08b973",
+    "title": "货船遇袭致联合国暂停霍尔木兹海峡撤离计划",
+    "summary": "因一艘货船遇袭，联合国已暂停霍尔木兹海峡的撤离计划。此举引发对当地安全局势及国际航运通道稳定的担忧。",
+    "body": "联合国近日宣布暂停霍尔木兹海峡的撤离计划，直接起因是一艘货船在该水域遭到袭击。霍尔木兹海峡作为全球关键的能源与贸易运输通道，其安全局势的恶化引发了国际社会的广泛关注。\n\n此次袭击事件及撤离行动的暂停，不仅对当地的人员安全转移造成阻碍，也进一步加剧了该地区的地缘紧张局势。若该水域的安全风险持续上升，可能会对全球航运物流及能源供应链产生潜在的深远影响。",
+    "category": "国际局势",
+    "tags": [
+      "霍尔木兹海峡",
+      "国际局势",
+      "航运安全"
+    ],
+    "source": "BBC World",
+    "time": "刚刚",
+    "ts": "2026-06-25T21:47:56.362624+00:00",
+    "url": "https://www.bbc.co.uk/news/articles/cjwg9np904qo?at_medium=RSS&at_campaign=rss",
+    "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e8e8/live/eed0f000-70c3-11f1-b607-85b4e4066ca8.jpg",
+    "stocks": []
+  },
+  {
+    "id": "391301d9c444c380",
+    "title": "极星明年将无法在美国市场销售汽车",
+    "summary": "电动汽车品牌极星明年将面临无法在美国市场销售汽车的困境，具体原因尚未披露。",
+    "body": "据Engadget报道，电动汽车制造商极星（Polestar）明年将无法在美国市场销售其汽车产品。这一状况对该品牌在北美市场的业务布局造成了直接冲击。\n\n尽管目前尚未披露导致其无法在美销售的具体细节，但失去美国这一全球核心汽车市场，无疑将严重影响极星的交付量与营收表现。这也凸显了新能源车企在推进全球化战略时所面临的复杂市场与合规挑战。",
+    "category": "未来能源",
+    "tags": [
+      "极星",
+      "电动汽车",
+      "美国市场",
+      "出海"
+    ],
+    "source": "Engadget",
+    "time": "刚刚",
+    "ts": "2026-06-25T21:47:46.442165+00:00",
+    "url": "https://www.engadget.com/2201905/polestar-wont-be-able-to-sell-its-cars-in-the-us-next-year/",
+    "image": "https://www.engadget.com/img/gallery/polestar-wont-be-able-to-sell-its-cars-in-the-us-next-year/l-intro-1782414395.jpg",
+    "stocks": [
+      {
+        "name": "极星",
+        "ticker": "PSNY",
+        "reason": "新闻直接当事方，在美销售受阻将直接冲击其北美市场的销量与营收预期",
+        "confidence": "high"
+      },
+      {
+        "name": "吉利汽车",
+        "ticker": "0175.HK",
+        "reason": "吉利是极星的重要股东，极星在美销售受挫可能对吉利的新能源出海战略产生间接负面影响",
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
+    "id": "9a1b90ed7f9f5d8d",
+    "title": "Hacker News探讨并行括号匹配算法",
+    "summary": "Hacker News近日探讨了并行括号匹配算法，该研究旨在优化并行计算环境下的字符串解析与匹配效率。",
+    "body": "并行括号匹配是计算机科学中的一个经典算法问题，主要涉及如何在并行计算环境下高效地验证和匹配字符串中的括号。传统的串行算法在处理大规模数据时存在性能瓶颈，而并行化能够显著提升处理速度。\n\n近日，Hacker News社区对该主题进行了深入讨论。开发者们关注了如何利用现代多核处理器和并行计算框架来优化这一基础算法。这不仅对编译器设计、代码静态分析等底层软件工程任务具有重要意义，也为自然语言处理等需要复杂语法解析的领域提供了计算层面的优化思路。\n\n通过探索更高效的并行括号匹配策略，研究人员和工程师能够进一步挖掘硬件的计算潜力，提升大规模文本和代码处理的实时性与吞吐量。",
+    "category": "人工智能",
+    "tags": [
+      "算法优化",
+      "并行计算",
+      "Hacker News"
+    ],
+    "source": "Hacker News",
+    "time": "刚刚",
+    "ts": "2026-06-25T21:47:45.663408+00:00",
+    "url": "https://williamdue.github.io/blog/parallel-parentheses-matching",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "47d5bc0c1df2adfa",
+    "title": "Notion Mail在AI智能体浪潮中宣布停运",
+    "summary": "邮件管理工具Notion Mail正式宣布停止服务，反映出AI智能体技术对传统邮件工具市场的深刻冲击与替代趋势。",
+    "body": "近日，邮件管理工具Notion Mail正式宣布停止服务。该产品的关闭，凸显了在人工智能技术快速演进的背景下，传统邮件客户端所面临的巨大生存压力。\n\n随着AI智能体（Agent）技术的迅速崛起，具备自动化处理、智能摘要和深度工作流整合能力的AI工具，正在逐步接管用户的日常邮件与信息管理需求。Notion Mail的停运正是这一行业范式转移的缩影。\n\n业内观点认为，AI Agent不仅大幅提升了信息处理效率，更重塑了生产力工具的交互逻辑。未来，缺乏深度AI整合与智能体协同能力的独立工具，或将面临被市场加速淘汰的风险。",
+    "category": "人工智能",
+    "tags": [
+      "Notion Mail",
+      "AI智能体",
+      "生产力工具"
+    ],
+    "source": "TechCrunch",
+    "time": "刚刚",
+    "ts": "2026-06-25T21:47:40.973109+00:00",
+    "url": "https://techcrunch.com/2026/06/25/notion-mail-shuts-down-amid-agent-takeover/",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "7fe5763bb0c812eb",
+    "title": "系外行星距恒星极近致两者磁场相连",
+    "summary": "科学家发现一颗系外行星与其宿主恒星距离极近，导致两者的磁场发生直接连接，为研究极端太空环境提供了新视角。",
+    "body": "近日，天文学家观测到一颗系外行星与其宿主恒星之间的距离极近，以至于两者的磁场产生了直接的物理连接。这种罕见的星际现象在以往的观测中极少被发现，为理解极端轨道环境下的星体相互作用提供了重要线索。\n\n当行星过于靠近恒星时，恒星的强大磁场会与行星自身的磁场发生交织。这种磁场连接不仅会影响行星的大气层演化，还可能导致恒星表面出现活跃的磁场扰动区域。该发现有助于科学家进一步完善系外行星系统的动力学模型。\n\n这一观测结果对未来的系外行星研究具有重要意义。通过研究此类极端系统，科学家能够更好地评估行星在强辐射和强磁场环境下的物理演化，并为未来的太空望远镜观测提供理论支撑。",
+    "category": "商业航天",
+    "tags": [
+      "系外行星",
+      "天体物理",
+      "磁场",
+      "太空探索"
+    ],
+    "source": "Ars Technica",
+    "time": "刚刚",
+    "ts": "2026-06-25T21:47:38.831535+00:00",
+    "url": "https://arstechnica.com/science/2026/06/planet-orbits-so-close-to-its-star-that-their-magnetic-fields-connect/",
+    "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/06/image-7-1152x468.png",
+    "stocks": []
+  },
+  {
+    "id": "eb65a12de6558103",
+    "title": "路虎首款电动车性能将超燃油版，售价或超15万美元",
+    "summary": "路虎即将推出品牌首款纯电动汽车，其性能将超越燃油版车型，但预计售价将超过15万美元。",
+    "body": "路虎（Range Rover）即将推出其品牌历史上的首款纯电动汽车。据相关报道，该车型在动力和性能表现上将全面超越现有的燃油版车型，标志着这一豪华越野车品牌向电动化转型的关键一步。\n\n尽管性能出众，但其高昂的定价也引发市场关注。预计这款纯电版路虎的起售价将超过15万美元，继续巩固其在超豪华汽车市场的定位。此举不仅展示了传统豪华车企在电动化领域的技术积累，也反映了高端新能源市场的强劲溢价能力。",
+    "category": "未来能源",
+    "tags": [
+      "路虎",
+      "电动汽车",
+      "新能源汽车",
+      "豪华车"
+    ],
+    "source": "Electrek",
+    "time": "刚刚",
+    "ts": "2026-06-25T21:47:34.289239+00:00",
+    "url": "https://electrek.co/2026/06/25/range-rovers-ev-beat-gas-model-cost-150000/",
+    "image": "",
+    "stocks": [
+      {
+        "name": "塔塔汽车",
+        "ticker": "TTM",
+        "reason": "塔塔汽车全资控股捷豹路虎，路虎首款高端电动车的推出有望提升其新能源车型销量与品牌溢价。",
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
+    "id": "324c02f01f18319f",
+    "title": "英国研究发现高温高危人群空调拥有率最低",
+    "summary": "英国一项最新研究表明，在面临高温健康风险最大的人群中，空调的普及率和获取途径反而最低。",
+    "body": "英国研究人员的一项最新调查揭示了高温天气下的社会不平等现象。研究发现，那些因年龄、健康状况或居住环境而最容易受到极端高温威胁的弱势群体，实际上拥有或使用空调的比例最低。\n\n这一发现凸显了气候变化对公共健康的潜在威胁以及社会资源分配的不均。随着全球变暖导致极端高温事件频发，缺乏降温设备将显著增加高危人群的热射病及其他相关疾病的发病率。\n\n该研究呼吁政策制定者和公共卫生部门关注这一现象，并建议在未来的公共卫生干预措施中，为弱势群体提供更多的避暑资源和降温支持，以应对日益严峻的气候健康挑战。",
+    "category": "生物医药",
+    "tags": [
+      "公共卫生",
+      "气候变化",
+      "医疗健康"
+    ],
+    "source": "MedicalXpress",
+    "time": "刚刚",
+    "ts": "2026-06-25T21:47:20.671955+00:00",
+    "url": "https://medicalxpress.com/news/2026-06-access-air-conditioning-uk.html",
+    "image": "https://scx1.b-cdn.net/csz/news/tmb/2025/heat-wave-europe.jpg",
+    "stocks": []
+  },
+  {
+    "id": "30b1b5fb99ef9a5d",
+    "title": "委内瑞拉地震致拉瓜伊拉几近全毁",
+    "summary": "委内瑞拉发生强烈地震，导致拉瓜伊拉地区遭受几乎毁灭性的破坏。",
+    "body": "据半岛电视台报道，委内瑞拉发生严重地震，导致拉瓜伊拉地区遭受几乎毁灭性的破坏。当地基础设施和房屋受损极为严重，灾区面貌几近全毁。\n\n此次强震给当地居民的生命财产安全带来巨大威胁，灾后救援与重建工作面临严峻挑战。这场自然灾害也对委内瑞拉的区域经济与社会稳定造成了显著的负面影响。",
+    "category": "国际局势",
+    "tags": [
+      "委内瑞拉",
+      "地震",
+      "自然灾害",
+      "拉瓜伊拉"
+    ],
+    "source": "Al Jazeera",
+    "time": "刚刚",
+    "ts": "2026-06-25T21:47:14.110230+00:00",
+    "url": "https://www.aljazeera.com/video/newsfeed/2026/6/25/venezuela-quake-leaves-la-guaira-in-almost-total-devastation?traffic_source=rss",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "2f9dfe58028ee214",
+    "title": "西班牙拟要求运营商停电期间保持移动网络运行",
+    "summary": "西班牙政府计划出台新规，要求电信运营商在停电期间必须保持移动网络正常运行，以保障紧急通信畅通。",
+    "body": "西班牙政府计划实施一项新规定，要求国内电信运营商在发生停电时，必须确保其移动网络继续运行。此举旨在保障公众在电力中断等紧急情况下的基本通信需求，确保紧急救援服务和日常联络不受影响。\n\n为实现这一合规要求，电信运营商预计将加大对基站备用电源系统的投资，例如部署大容量电池储能设备或备用发电机。这不仅将显著提升西班牙整体通信网络的韧性与可靠性，也可能在长期内为相关备用电源、储能设备及通信基础设施供应商带来一定的市场需求。",
+    "category": "未来能源",
+    "tags": [
+      "西班牙",
+      "移动网络",
+      "通信基建",
+      "备用电源"
+    ],
+    "source": "Engadget",
+    "time": "刚刚",
+    "ts": "2026-06-25T21:47:11.897929+00:00",
+    "url": "https://www.engadget.com/2201931/spain-will-require-carriers-to-keep-mobile-networks-live-during-power-outages/",
+    "image": "https://www.engadget.com/img/gallery/spain-will-require-carriers-to-keep-mobile-networks-live-during-power-outages/l-intro-1782415894.jpg",
+    "stocks": []
+  },
+  {
+    "id": "97db0890a77a5764",
+    "title": "Anthropic指控阿里克隆Claude模型并呼吁惩罚",
+    "summary": "Anthropic指控阿里巴巴发起了针对Claude模型的最大规模克隆攻击，并呼吁对其实施惩罚。该事件引发了业界对大模型知识产权与安全防护的广泛关注。",
+    "body": "人工智能公司Anthropic近日公开表示，阿里巴巴必须为针对其Claude模型的最大规模克隆攻击事件受到惩罚。Anthropic指控阿里巴巴参与了这一严重的模型侵权行为。\n\n这一事件凸显了当前大语言模型领域在知识产权保护和模型安全方面面临的严峻挑战。随着AI技术的爆发，防止核心模型被非法克隆和窃取已成为各大AI厂商关注的焦点。\n\n此次纠纷不仅可能引发关于AI模型合规与版权的法律诉讼，也将促使整个行业加快建立更严格的模型安全防护标准与监管机制。",
+    "category": "人工智能",
+    "tags": [
+      "Anthropic",
+      "阿里巴巴",
+      "大模型安全",
+      "AI知识产权"
+    ],
+    "source": "Ars Technica",
+    "time": "刚刚",
+    "ts": "2026-06-25T21:47:09.531379+00:00",
+    "url": "https://arstechnica.com/tech-policy/2026/06/anthropic-claims-alibaba-defied-trump-to-attack-claude-and-steal-capabilities/",
+    "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/06/GettyImages-2271847932-1024x648.jpg",
+    "stocks": []
+  },
+  {
+    "id": "494a4f6eec3ae73d",
+    "title": "银行业Python应用口述史：从边缘脚本到核心系统",
+    "summary": "本文回顾了Python编程语言在银行业的应用历史，探讨其如何从早期的边缘脚本工具演变为核心金融系统的重要组成部分。",
+    "body": "文章通过口述历史的形式，详细梳理了Python在银行业的发展历程。早期，Python在金融机构中多被用作处理数据和编写自动化脚本的边缘工具，并未直接进入核心交易系统。\n\n随着数据分析、量化金融和风险管理需求的激增，Python凭借其丰富的生态库和易用性，逐渐渗透到银行业务的核心环节。这一演变不仅提升了金融机构的研发效率，也深刻改变了现代金融科技的技术栈格局。",
+    "category": "人工智能",
+    "tags": [
+      "Python",
+      "金融科技",
+      "银行业"
+    ],
+    "source": "Hacker News",
+    "time": "刚刚",
+    "ts": "2026-06-25T21:47:06.880358+00:00",
+    "url": "https://calpaterson.com/bank-python.html",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "1a86cffec215fdae",
+    "title": "微软Xbox跟随苹果步伐宣布涨价",
+    "summary": "继苹果公司之后，微软旗下的Xbox业务也宣布提高相关产品价格。此举反映了科技巨头在当前市场环境下的定价策略调整。",
+    "body": "据TechCrunch报道，微软Xbox业务近期宣布提高价格，这一举措紧随苹果公司此前的涨价步伐。科技巨头接连调整定价，显示出行业头部企业在面对市场变化时正在重新评估其产品的定价策略。\n\n这种行业性的价格上调可能源于供应链成本、通货膨胀或研发投入的增加。对于消费者而言，硬件或订阅服务价格的上涨可能会在一定程度上影响购买意愿，同时也凸显了科技巨头凭借其品牌护城河所具备的较强定价权。",
+    "category": "消费电子",
+    "tags": [
+      "Xbox",
+      "苹果",
+      "产品涨价",
+      "消费电子"
+    ],
+    "source": "TechCrunch",
+    "time": "刚刚",
+    "ts": "2026-06-25T21:46:56.256210+00:00",
+    "url": "https://techcrunch.com/2026/06/25/xbox-follows-apple-with-price-increases/",
+    "image": "",
+    "stocks": [
+      {
+        "name": "微软",
+        "ticker": "MSFT",
+        "reason": "Xbox母公司，产品涨价有望直接提升相关硬件或订阅业务的利润率。",
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
+    "id": "2c47e0c2ca9f5bb2",
+    "title": "科学家识别驱动侵袭性脑癌的免疫通路",
+    "summary": "最新研究致力于识别驱动侵袭性脑癌发展的关键免疫通路。该发现有望为脑癌的免疫治疗提供新的潜在靶点和理论依据。",
+    "body": "侵袭性脑癌一直是医学界面临的重大挑战，其复杂的肿瘤微环境和免疫逃逸机制使得传统治疗效果有限。近期，研究人员的焦点转向了识别驱动这类脑癌发展的关键免疫通路。\n\n通过深入分析这些免疫通路，科学家希望能够揭示肿瘤如何利用免疫系统促进自身的生长与扩散。这一基础研究的推进，不仅有助于加深对脑癌病理机制的理解，也为未来开发更精准的靶向免疫疗法奠定了重要基础。",
+    "category": "生物医药",
+    "tags": [
+      "脑癌",
+      "免疫通路",
+      "肿瘤研究"
+    ],
+    "source": "MedicalXpress",
+    "time": "刚刚",
+    "ts": "2026-06-25T21:46:45.718704+00:00",
+    "url": "https://medicalxpress.com/news/2026-06-immune-pathways-aggressive-brain-cancers.html",
+    "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/identifying-immune-pat.jpg",
+    "stocks": []
+  },
+  {
+    "id": "5f137c30c16a743a",
+    "title": "新药候选物有望克服小细胞肺癌化疗耐药性",
+    "summary": "最新研究显示，一种新药候选物在克服小细胞肺癌化疗耐药性方面展现出良好前景，为该疾病的治疗提供了新方向。",
+    "body": "小细胞肺癌是一种侵袭性强且预后较差的恶性肿瘤，化疗是其主要治疗手段之一。然而，化疗耐药性一直是限制其长期疗效和患者生存率的关键瓶颈。\n\n据MedicalXpress报道，一种新药候选物在克服小细胞肺癌化疗耐药性方面展现出显著潜力。这一发现不仅有望打破现有的治疗僵局，还可能为面临化疗失效的患者提供新的生存希望，对未来的临床药物研发具有重要的指导意义。",
+    "category": "生物医药",
+    "tags": [
+      "小细胞肺癌",
+      "化疗耐药性",
+      "新药研发"
+    ],
+    "source": "MedicalXpress",
+    "time": "刚刚",
+    "ts": "2026-06-25T21:46:44.306245+00:00",
+    "url": "https://medicalxpress.com/news/2026-06-drug-candidate-chemotherapy-resistance-small.html",
+    "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/new-drug-candidate-sho.jpg",
+    "stocks": []
+  },
+  {
+    "id": "fc5c4dddd555e101",
+    "title": "Robust.AI第三代机器人采用安波福PULSE传感器",
+    "summary": "机器人公司Robust.AI宣布，其第三代Carter移动机器人将采用安波福的PULSE传感器，以提升环境感知与导航能力。",
+    "body": "机器人公司Robust.AI近日宣布，其最新推出的第三代Carter移动机器人将集成安波福（Aptiv）的PULSE传感器。这一合作旨在通过先进的传感技术，进一步提升移动机器人在复杂环境中的感知、导航和避障能力。\n\n安波福的PULSE传感器以其高可靠性和精确的环境感知能力著称，广泛应用于自动驾驶和高级辅助驾驶系统。此次将其引入商用移动机器人领域，标志着汽车级传感器技术在机器人行业的进一步渗透与应用拓展。\n\n对于Robust.AI而言，采用成熟的汽车级传感器不仅有助于提高Carter机器人的安全性和运行效率，也将加速其在仓储、物流及医疗等场景的商业化落地。这反映了移动机器人行业对高性能、高可靠性核心零部件的持续需求。",
+    "category": "机器人",
+    "tags": [
+      "Robust.AI",
+      "安波福",
+      "移动机器人",
+      "传感器"
+    ],
+    "source": "The Robot Report",
+    "time": "刚刚",
+    "ts": "2026-06-25T21:46:39.642986+00:00",
+    "url": "https://www.therobotreport.com/robust-ai-chooses-aptiv-pulse-sensor-for-gen-3-carter-mobile-robot/",
+    "image": "https://www.therobotreport.com/wp-content/uploads/2026/06/aptivandrobustai-featured-1024x665-1.jpg",
+    "stocks": [
+      {
+        "name": "安波福",
+        "ticker": "APTV",
+        "reason": "作为PULSE传感器供应商，直接受益于Robust.AI的采购及汽车级传感器在机器人领域的拓展。",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "e8ff0d08d00b1a4d",
+    "title": "知名科技记者与投资人Om Malik逝世",
+    "summary": "科技界知名博主、True Ventures合伙人Om Malik近日逝世，享年60岁。",
+    "body": "知名科技记者、博主及True Ventures合伙人Om Malik（1966-2026）近日离世。他长期深耕科技媒体报道与早期科技投资，对硅谷科技生态及初创企业的发展产生了深远影响。\n\n他的逝世是科技媒体与投资界的一大损失。多年来，他通过个人博客和投资机构发掘并报道了大量前沿科技趋势，其行业洞察力与贡献将被业界长久铭记。",
+    "category": "消费电子",
+    "tags": [
+      "人物逝世",
+      "科技媒体",
+      "风险投资"
+    ],
+    "source": "Hacker News",
+    "time": "刚刚",
+    "ts": "2026-06-25T21:46:37.510714+00:00",
+    "url": "https://om.co/2026/06/24/1966-2026/",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "42933d8de7532114",
+    "title": "联合国机构暂停霍尔木兹海峡船舶撤离倡议",
+    "summary": "因发生船只遇袭事件，联合国相关机构已暂停在霍尔木兹海峡的船舶撤离倡议。",
+    "body": "联合国相关机构宣布，由于近期发生船只遇袭事件，已暂时停止在霍尔木兹海峡开展的船舶撤离倡议。该行动原本旨在应对区域紧张局势，协助相关船只安全通行。\n\n此次暂停凸显了霍尔木兹海峡及周边水域安全局势的复杂性与不确定性。作为全球关键的航运和能源运输通道，该海域的安全状况备受关注，船只遇袭事件及撤离行动的暂停可能对国际航运安全与区域局势产生一定影响。",
+    "category": "国际局势",
+    "tags": [
+      "霍尔木兹海峡",
+      "联合国",
+      "国际航运",
+      "地缘政治"
+    ],
+    "source": "Al Jazeera",
+    "time": "刚刚",
+    "ts": "2026-06-25T21:46:31.701718+00:00",
+    "url": "https://www.aljazeera.com/news/2026/6/25/un-agency-pauses-hormuz-ship-evacuation-initiative-after-vessel-attacked?traffic_source=rss",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "7059f75b311892bd",
+    "title": "Notion宣布关闭邮件客户端Notion Mail",
+    "summary": "知名生产力工具Notion宣布将关闭其邮件客户端服务Notion Mail，停止相关业务的运营。",
+    "body": "据Engadget报道，知名生产力工具平台Notion宣布将关闭其邮件客户端服务Notion Mail。该决定标志着Notion在邮件管理领域的尝试告一段落。\n\n此次服务关停意味着Notion将重新调整其产品战略，更加聚焦于核心的文档协作等优势业务。现有用户需关注官方的后续安排，并寻找替代的邮件处理方案。\n\n在竞争激烈的生产力工具市场，企业调整产品线属于正常的商业优化行为，这也反映出拓展新业务边界所面临的实际挑战。",
+    "category": "消费电子",
+    "tags": [
+      "Notion",
+      "Notion Mail",
+      "软件服务"
+    ],
+    "source": "Engadget",
+    "time": "刚刚",
+    "ts": "2026-06-25T21:46:26.563963+00:00",
+    "url": "https://www.engadget.com/2201940/notion-mail-is-shutting-down/",
+    "image": "https://www.engadget.com/img/gallery/notion-mail-is-shutting-down/l-intro-1782416436.jpg",
+    "stocks": []
+  },
+  {
+    "id": "0e888d209e935eae",
+    "title": "Wired发布亚马逊Prime Day实时购物指南",
+    "summary": "科技媒体Wired针对仍在参与亚马逊Prime Day促销的消费者，推出了实时博客与产品推荐指南。",
+    "body": "科技媒体Wired针对亚马逊Prime Day促销活动推出了实时博客，为仍在挑选商品的消费者提供购物指南和产品推荐。该博客旨在帮助科技爱好者和“硬核”购物者在促销期间发现值得购买的优质产品。\n\n此类实时导购内容不仅为消费者提供了便捷的购物参考，也侧面反映了亚马逊Prime Day在消费电子和科技产品领域的持续吸引力与市场热度。",
+    "category": "消费电子",
+    "tags": [
+      "亚马逊",
+      "Prime Day",
+      "消费电子",
+      "购物指南"
+    ],
+    "source": "Wired",
+    "time": "刚刚",
+    "ts": "2026-06-25T21:46:17.235269+00:00",
+    "url": "https://www.wired.com/live/amazon-prime-day-live-tracker-july-25-2026/",
+    "image": "https://media.wired.com/photos/6a39c73ad8ef6fd843d20906/master/pass/Launorma_Liveblog.png",
+    "stocks": []
+  },
+  {
+    "id": "57372003f1fa1239",
+    "title": "谷歌发布Finance安卓应用 2026年推iOS版",
+    "summary": "谷歌正式推出Google Finance安卓客户端，并计划于2026年发布iOS版本，进一步完善移动端财经服务体验。",
+    "body": "近日，谷歌正式推出了Google Finance的Android应用程序。这一举措填补了其在移动端专属财经应用上的空白，为用户在智能手机上追踪金融市场和获取财经资讯提供了更为便捷的官方渠道。\n\n同时，谷歌宣布计划在2026年晚些时候发布该应用的iOS版本。跨平台的布局规划显示出谷歌持续完善其数字服务生态的战略意图，旨在进一步覆盖更广泛的移动用户群体并提升产品竞争力。",
+    "category": "消费电子",
+    "tags": [
+      "谷歌",
+      "移动应用",
+      "金融科技"
+    ],
+    "source": "Ars Technica",
+    "time": "刚刚",
+    "ts": "2026-06-25T21:46:12.758438+00:00",
+    "url": "https://arstechnica.com/google/2026/06/google-finance-finally-gets-a-mobile-app-as-ai-powered-overhaul-leaves-beta/",
+    "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/06/Google_Finance-1152x648.png",
+    "stocks": [
+      {
+        "name": "谷歌",
+        "ticker": "GOOGL",
+        "reason": "推出官方移动端财经应用有助于完善其软件服务生态，增强用户粘性与流量入口优势。",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "ece8977cdac1c606",
+    "title": "预测市场Polymarket遭黑客攻击，用户资金被盗",
+    "summary": "加密货币预测市场平台Polymarket证实遭遇黑客攻击，导致部分用户资金被窃取。",
+    "body": "知名预测市场平台Polymarket近日发表声明，确认其平台遭到黑客攻击，导致部分用户的资金被窃取。目前，官方尚未披露具体的被盗资金规模以及黑客所采用的攻击手段。\n\nPolymarket主要利用区块链技术为用户提供各类事件的预测与交易服务。此次资金被盗事件暴露出平台在安全防护方面存在的隐患，可能对受损用户造成直接的经济损失。\n\n这一安全事件再次引发了市场对加密预测平台安全性的关注。未来，相关平台可能需要投入更多资源以升级安全架构，从而重建用户信任并防范类似网络攻击。",
+    "category": "国际局势",
+    "tags": [
+      "Polymarket",
+      "黑客攻击",
+      "资金被盗",
+      "网络安全"
+    ],
+    "source": "TechCrunch",
+    "time": "刚刚",
+    "ts": "2026-06-25T21:46:12.606128+00:00",
+    "url": "https://techcrunch.com/2026/06/25/polymarket-says-hackers-stole-users-funds/",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "e9e3e033cd67821e",
+    "title": "科学家发现两颗棉花糖系外行星，为已知最轻气态巨行星",
+    "summary": "天文学家近日发现了两颗被称为“超级蓬松”的棉花糖系外行星，它们是迄今为止人类观测到的质量最轻的气态巨行星。",
+    "body": "近日，天文学家在宇宙中发现两颗极为罕见的“超级蓬松”系外行星。这两颗行星的体积巨大，但质量却非常小，其密度极低，被形象地称为“棉花糖”行星。\n\n作为迄今为止人类发现的最轻的气态巨行星，这一发现对现有的行星形成和演化理论提出了新的挑战。科学家表示，研究这类极端低密度的行星有助于进一步理解气态巨行星的内部结构及其在恒星系统中的演化过程。\n\n该发现不仅拓展了人类对系外行星多样性的认知，也为未来的深空探测和天文观测提供了重要的新目标与理论参考。",
+    "category": "商业航天",
+    "tags": [
+      "系外行星",
+      "天文学",
+      "太空探索"
+    ],
+    "source": "Space.com",
+    "time": "刚刚",
+    "ts": "2026-06-25T21:46:00.193805+00:00",
+    "url": "https://www.space.com/astronomy/exoplanets/two-super-puff-cotton-candy-exoplanets-are-the-lightest-gas-giants-ever-discovered",
+    "image": "https://cdn.mos.cms.futurecdn.net/MeZYuqKuiYn3Ruhgr4Broj-1280-80.png",
+    "stocks": []
+  },
+  {
+    "id": "f9829c9ea05547b5",
+    "title": "斯巴鲁新款电动车续航超300英里，售价仅3.5万美元",
+    "summary": "斯巴鲁推出新款高性价比电动汽车，续航里程超过300英里，起售价仅为3.5万美元。",
+    "body": "斯巴鲁（Subaru）近日推出了一款备受瞩目的新款电动汽车。该车型被定位为其最畅销的电动车产品，凭借超过300英里（约合482公里）的优异续航里程，以及仅3.5万美元的亲民售价，在竞争激烈的电动汽车市场中展现出强大的性价比优势。\n\n这款新车的推出标志着斯巴鲁在电动化转型道路上迈出了重要一步。在当前电动汽车市场面临价格战和消费者对续航焦虑的双重背景下，3.5万美元的定价策略不仅有助于降低消费者的购车门槛，也将进一步提升斯巴鲁在北美及全球电动车市场的份额与品牌竞争力。",
+    "category": "未来能源",
+    "tags": [
+      "斯巴鲁",
+      "电动汽车",
+      "新能源汽车"
+    ],
+    "source": "Electrek",
+    "time": "刚刚",
+    "ts": "2026-06-25T21:45:54.564375+00:00",
+    "url": "https://electrek.co/2026/06/25/subarus-new-top-selling-ev-300-miles-range-for-35k/",
+    "image": "",
+    "stocks": [
+      {
+        "name": "斯巴鲁",
+        "ticker": "FUJHY",
+        "reason": "推出高性价比新款电动车，有望提振销量并加速其电动化转型。",
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
+    "id": "6105e882f8da301a",
+    "title": "委内瑞拉地震死亡人数上升 经济损失加剧",
+    "summary": "委内瑞拉发生地震，随着死亡人数的不断增加，该国面临的经济损失也在持续扩大。",
+    "body": "据半岛电视台报道，委内瑞拉近期发生的地震灾害已造成严重的人员伤亡，死亡人数仍在持续上升。此次地震不仅对当地基础设施和民众生活造成了巨大破坏，还引发了日益严重的经济损失。\n\n随着救援和灾后重建工作的展开，委内瑞拉面临的财政压力和经济挑战进一步加剧。此次自然灾害对该国原本就脆弱的经济环境带来了新的冲击，后续的经济恢复与重建工作将面临诸多困难。",
+    "category": "国际局势",
+    "tags": [
+      "委内瑞拉",
+      "地震",
+      "自然灾害",
+      "经济损失"
+    ],
+    "source": "Al Jazeera",
+    "time": "刚刚",
+    "ts": "2026-06-25T21:45:47.069303+00:00",
+    "url": "https://www.aljazeera.com/news/2026/6/25/economic-losses-mount-as-venezuela-earthquake-death-toll-grows?traffic_source=rss",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "b7759d13d4449ae0",
+    "title": "Hirebotics推出免编程防爆喷漆协作机器人",
+    "summary": "Hirebotics推出一款专为喷漆作业设计的防爆协作机器人，支持无代码编程，旨在降低自动化门槛并提升作业安全。",
+    "body": "Hirebotics公司近日推出了一款专为喷漆和涂装作业设计的防爆协作机器人。该设备具备防爆特性，能够安全地在存在易燃易爆气体的喷涂环境中运行，有效保障了工业生产的安全性。\n\n此外，这款协作机器人采用了无代码编程技术，操作人员无需具备专业的编程知识即可快速完成机器人的部署和任务设置。这一创新大幅降低了企业引入自动化喷涂设备的技术门槛。\n\n该产品的推出不仅有助于解决喷涂行业面临的劳动力短缺和职业健康风险问题，还将进一步推动协作机器人在危险和特殊工业环境中的普及与应用。",
+    "category": "机器人",
+    "tags": [
+      "协作机器人",
+      "工业自动化",
+      "防爆机器人",
+      "Hirebotics"
+    ],
+    "source": "The Robot Report",
+    "time": "刚刚",
+    "ts": "2026-06-25T21:45:42.895492+00:00",
+    "url": "https://www.therobotreport.com/hirebotics-offers-no-code-explosion-proof-cobot-for-painting/",
+    "image": "https://www.therobotreport.com/wp-content/uploads/2026/06/hirebotics-cobotpainter-featured.jpg",
+    "stocks": []
+  },
+  {
+    "id": "7764e76050f5e498",
+    "title": "西部数据8TB Gen4固态硬盘促销，售价降至1199美元",
+    "summary": "西部数据旗下8TB容量的WD SN850X PCIe Gen4固态硬盘开启降价促销，售价降至1199美元，成为市场上极具性价比的大容量高速存储产品。",
+    "body": "西部数据旗下的旗舰级固态硬盘WD SN850X 8TB版本近期迎来降价促销。作为一款采用PCIe Gen4接口的高性能NVMe固态硬盘，SN850X以其卓越的读写速度在高端玩家和专业创作者群体中备受青睐。\n\n此次促销将该款8TB大容量版本的售价定为1199美元，使其成为目前市场上价格最亲民的大容量高速固态硬盘之一。对于需要海量高速存储空间的游戏玩家、视频剪辑师及专业内容创作者而言，这提供了一个极具吸引力的硬件升级契机，同时也将有助于西部数据进一步巩固其在高端消费级存储市场的份额。",
+    "category": "消费电子",
+    "tags": [
+      "西部数据",
+      "固态硬盘",
+      "消费电子",
+      "降价促销"
+    ],
+    "source": "Tom's Hardware",
+    "time": "刚刚",
+    "ts": "2026-06-25T21:45:39.062961+00:00",
+    "url": "https://www.tomshardware.com/pc-components/get-the-fastest-8tb-gen4-ssd-around-for-less-with-this-wd-sn850x-deal-usd1199-sale-makes-it-the-cheapest-big-drive-around",
+    "image": "https://cdn.mos.cms.futurecdn.net/XNP5cpV55C7xD2mFEDN8EF-1280-80.jpg",
+    "stocks": [
+      {
+        "name": "西部数据",
+        "ticker": "WDC",
+        "reason": "公司旗下旗舰级大容量固态硬盘产品开展促销，有望提振消费级存储业务销量。",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "4348205899cd4888",
+    "title": "Patronus AI获5000万美元融资，打造AI智能体压测环境",
+    "summary": "人工智能初创公司Patronus AI宣布完成5000万美元融资。该资金将用于构建数字世界，以对AI智能体进行全面的压力测试与评估。",
+    "body": "人工智能安全与评估初创公司Patronus AI近日宣布成功筹集5000万美元资金。这笔融资将主要用于研发和构建所谓的‘数字世界’，旨在为各类AI智能体提供高度仿真的压力测试环境。\n\n随着AI智能体在复杂任务中的应用日益广泛，确保其在极端或边缘情况下的可靠性与安全性变得至关重要。Patronus AI通过打造专门的数字测试环境，能够帮助开发者在部署前全面评估AI模型的行为表现与潜在风险。\n\n这一举措不仅有助于提升AI系统的整体鲁棒性，也为未来大规模商业化部署AI智能体提供了关键的安全保障和评估基础设施。",
+    "category": "人工智能",
+    "tags": [
+      "人工智能",
+      "AI智能体",
+      "融资",
+      "AI安全"
+    ],
+    "source": "TechCrunch",
+    "time": "刚刚",
+    "ts": "2026-06-25T21:45:35.076143+00:00",
+    "url": "https://techcrunch.com/2026/06/25/patronus-ai-lands-50m-to-build-digital-worlds-that-stress-test-ai-agents/",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "29570a61ecae81c5",
+    "title": "博茨瓦纳正式签署《阿尔忒弥斯协定》",
+    "summary": "博茨瓦纳近日正式签署由美国主导的《阿尔忒弥斯协定》，成为参与该国际太空探索合作框架的最新国家。",
+    "body": "博茨瓦纳政府近日正式签署了《阿尔忒弥斯协定》（Artemis Accords），标志着该国加入了由美国宇航局（NASA）主导的国际太空探索合作框架。该协定旨在为月球、火星及更深远的太空探索活动制定一套和平、透明且可持续的国际原则与规范。\n\n随着博茨瓦纳的加入，《阿尔忒弥斯协定》的签署国数量进一步增加，显示出全球越来越多国家对参与未来深空探测及太空资源开发合作的兴趣。这不仅有助于推动国际航天规则的完善，也为未来多国联合开展商业航天与科学探测任务奠定了更广泛的外交与法律基础。",
+    "category": "商业航天",
+    "tags": [
+      "阿尔忒弥斯协定",
+      "太空探索",
+      "博茨瓦纳",
+      "国际合作"
+    ],
+    "source": "SpaceNews",
+    "time": "刚刚",
+    "ts": "2026-06-25T21:45:34.925844+00:00",
+    "url": "https://spacenews.com/botswana-signs-the-artemis-accords/",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "381f3aa7aa16c3bc",
+    "title": "Notion关停Skiff邮件应用，用户转向AI代理",
+    "summary": "Notion宣布关停其基于Skiff技术开发的电子邮件应用。主要原因是大多数用户已转向使用AI代理处理任务，导致该应用需求下降。",
+    "body": "Notion决定关停其受Skiff启发而开发的电子邮件应用程序。此前Notion收购了隐私邮件服务Skiff，并在此基础上推出了自家的邮件产品，试图扩展其生产力工具生态。\n\n然而，随着人工智能技术的快速发展，用户习惯发生了显著改变。Notion发现大多数用户现在更倾向于使用AI代理来自动化处理邮件和日常任务，而非依赖传统的独立邮件客户端。\n\n这一决策反映了AI代理对传统生产力软件的深刻影响。随着AI代理在信息处理和任务自动化方面的能力不断增强，独立的单点工具正面临被整合或替代的风险，促使科技公司重新评估产品战略。",
+    "category": "人工智能",
+    "tags": [
+      "Notion",
+      "AI代理",
+      "电子邮件",
+      "生产力工具"
+    ],
+    "source": "Ars Technica",
+    "time": "刚刚",
+    "ts": "2026-06-25T21:45:19.428767+00:00",
+    "url": "https://arstechnica.com/gadgets/2026/06/notion-killing-skiff-influenced-email-app-since-most-users-use-ai-agents-instead/",
+    "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/06/GettyImages-2230437159-1024x648.jpg",
+    "stocks": []
+  },
+  {
+    "id": "72e921ba1f305c2a",
+    "title": "Hydrow划船机推七五折促销，挑战Peloton",
+    "summary": "科技媒体Wired推荐Hydrow智能划船机的七五折优惠活动，并将其视为Peloton的强力替代产品。",
+    "body": "近日，科技媒体Wired发文推荐了Hydrow智能划船机的限时促销活动，消费者可享受25%的折扣优惠。文章将其与知名智能健身品牌Peloton进行对比，认为Hydrow是更具吸引力的替代选择。\n\nHydrow以模拟真实水上划船体验的电磁阻力系统和沉浸式屏幕内容著称，近年来在智能家庭健身市场备受关注。此次大幅折扣不仅降低了用户的购买门槛，也进一步加剧了其与Peloton等老牌厂商的市场竞争。\n\n对于家庭健身赛道而言，硬件价格的下降和体验的升级将吸引更多用户投入室内智能运动。这种竞争态势有望推动整个智能健身器材行业的技术迭代与服务优化。",
+    "category": "消费电子",
+    "tags": [
+      "智能健身",
+      "Hydrow",
+      "Peloton",
+      "消费电子"
+    ],
+    "source": "Wired",
+    "time": "刚刚",
+    "ts": "2026-06-25T21:45:17.358570+00:00",
+    "url": "https://www.wired.com/story/hydrow-rowing-machine-deal-amazon-prime-day-2026/",
+    "image": "https://media.wired.com/photos/6a3c6b85f829e485b65527f0/master/pass/hydrow-arc-rower.jpg",
+    "stocks": []
+  },
+  {
+    "id": "0105d9abfd7927c7",
+    "title": "Commodore复古手机预售前降价100美元",
+    "summary": "经典品牌Commodore在开启预售前，宣布将其复古手机的价格下调100美元。此举旨在降低购买门槛，吸引怀旧科技爱好者。",
+    "body": "经典科技品牌Commodore近日宣布，在旗下复古手机正式开启预售前，将其售价下调了100美元。这一价格调整旨在降低消费者的购买门槛，提升该产品的市场吸引力。\n\n此次降价体现了品牌在当前竞争激烈的消费电子市场中采取更为积极的定价策略，也为怀旧科技爱好者提供了更具性价比的选择。预计这一举措将有效刺激预售阶段的订单增长。",
+    "category": "消费电子",
+    "tags": [
+      "Commodore",
+      "复古手机",
+      "消费电子"
+    ],
+    "source": "Engadget",
+    "time": "刚刚",
+    "ts": "2026-06-25T21:45:12.915946+00:00",
+    "url": "https://www.engadget.com/2202085/commodore-has-dropped-the-price-of-its-retro-phone-by-100-ahead-of-preorders/",
+    "image": "https://www.engadget.com/img/gallery/commodore-has-dropped-the-price-of-its-retro-phone-by-100-ahead-of-preorders/l-intro-1782423231.jpg",
+    "stocks": []
+  },
+  {
+    "id": "db883398fb35dc04",
+    "title": "Un-0模型发布：基于耦合振荡器的新型图像生成技术",
+    "summary": "研究人员提出名为Un-0的新型图像生成方法，创新性地利用耦合振荡器机制实现图像生成。",
+    "body": "近日，Hacker News上热议了一项名为Un-0的新型图像生成技术。与当前主流的扩散模型或生成对抗网络不同，该方法创新性地引入了耦合振荡器（Coupled Oscillators）机制来生成图像。\n\n这种基于耦合振荡器的架构为生成式人工智能提供了全新的理论视角。通过模拟物理或生物系统中的振荡与同步现象，Un-0有望在生成效率或动态特征处理上展现出区别于传统神经网络的优势。\n\n这一跨学科的探索表明，生成式AI的底层架构仍有巨大的创新空间，或将为未来的计算机视觉与多模态生成技术带来新的启发与突破。",
+    "category": "人工智能",
+    "tags": [
+      "图像生成",
+      "耦合振荡器",
+      "生成式AI"
+    ],
+    "source": "Hacker News",
+    "time": "刚刚",
+    "ts": "2026-06-25T21:45:12.324698+00:00",
+    "url": "https://unconv.ai/blog/introducing-un-0-generating-images-with-coupled-oscillators/",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "78abf050eaa468d2",
+    "title": "Framework笔记本预定迎利好，但供应链危机仍存",
+    "summary": "受零部件短缺影响，当前并非购买新电脑的最佳时机。但对于预定了Framework Laptop 13 Pro的用户而言，官方公布了利好消息。",
+    "body": "受零部件供应链危机的影响，当前并非消费者购买新电脑的最佳时机。这是Framework公司近期向市场传递的行业现状，反映出硬件制造端依然承受着一定的供应链压力。\n\n不过，对于正在等待预购 Framework Laptop 13 Pro 的用户来说，公司也同步分享了利好消息。该机型被 Framework CEO 誉为“Linux用户的MacBook Pro”，主打高度模块化设计。尽管具体利好细节未完全披露，但这为期待这款创新笔记本的用户带来了积极信号。",
+    "category": "消费电子",
+    "tags": [
+      "Framework",
+      "笔记本电脑",
+      "供应链"
+    ],
+    "source": "The Verge",
+    "time": "20分钟前",
+    "ts": "2026-06-25T17:23:47-04:00",
+    "url": "https://www.theverge.com/gadgets/957338/framework-laptop-13-pro-ssd-price-cpu",
+    "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/04/framework-laptop-13-pro-1.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100",
+    "stocks": []
+  },
+  {
+    "id": "568d356a2f41e0cc",
+    "title": "微软宣布8月上调所有Xbox机型售价",
+    "summary": "微软宣布将于今年8月上调所有Xbox机型的价格。这是不到一年内的第二次涨价，主要受内存价格持续上涨带来的成本压力影响。",
+    "body": "微软近日宣布，将于今年8月起上调旗下所有Xbox机型的价格。这已经是该公司在不到一年时间内第二次对Xbox系列产品进行提价。\n\n此次涨价的主要原因是内存等硬件组件价格的持续上涨，给设备制造带来了显著的成本压力。对于消费者而言，在8月涨价生效前购买Xbox主机将能节省一定开支，而这也反映出新世代游戏主机硬件成本面临的长期挑战。",
+    "category": "消费电子",
+    "tags": [
+      "微软",
+      "Xbox",
+      "游戏主机",
+      "硬件涨价"
+    ],
+    "source": "The Verge",
+    "time": "1小时前",
+    "ts": "2026-06-25T16:18:47-04:00",
+    "url": "https://www.theverge.com/gadgets/957170/xbox-series-s-x-prime-day-deal-sale",
+    "image": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/22012262/vpavic_4275_20201030_0050.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100",
+    "stocks": [
+      {
+        "name": "微软",
+        "ticker": "MSFT",
+        "reason": "Xbox母公司，通过终端产品涨价向消费者转嫁内存等硬件成本上涨压力，以维持业务利润率。",
+        "confidence": "medium"
+      },
+      {
+        "name": "美光科技",
+        "ticker": "MU",
+        "reason": "新闻指出内存价格持续上涨，作为全球主要内存芯片制造商将直接受益于存储芯片涨价周期。",
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
+    "id": "c81f8434028360dd",
+    "title": "Instagram发力智能电视端，抢占客厅大屏注意力",
+    "summary": "Instagram本周为其智能电视应用推出一系列新功能，旨在通过家庭大屏增加用户在平台上的停留时间。",
+    "body": "本周，Instagram针对其智能电视应用推出了一系列新功能。这些更新主要围绕家庭场景中最大的屏幕展开，旨在吸引更多用户并增加他们在平台上的停留时间。\n\n除了现有的竖屏Reels短视频功能外，Instagram正在进一步强化其电视端体验。此举表明母公司Meta正试图将Instagram的社交与娱乐内容生态延伸至客厅场景，与流媒体平台争夺用户的大屏注意力。\n\n这一战略不仅有助于提升整体用户活跃度，也为未来在智能电视端探索更多广告变现和内容消费模式奠定了基础。",
+    "category": "消费电子",
+    "tags": [
+      "Instagram",
+      "智能电视",
+      "Meta",
+      "流媒体"
+    ],
+    "source": "The Verge",
+    "time": "1小时前",
+    "ts": "2026-06-25T16:10:24-04:00",
+    "url": "https://www.theverge.com/tech/956456/instagram-for-tv-youtube-microdramas-longform-video",
+    "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/06/Screenshot-2026-06-24-at-4.43.00-PM.png?quality=90&#038;strip=all&#038;crop=0,0,100,100",
+    "stocks": [
+      {
+        "name": "Meta Platforms",
+        "ticker": "META",
+        "reason": "Instagram为其旗下核心产品，拓展智能电视端有助于提升用户时长与广告变现潜力。",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "6373e285500b5862",
+    "title": "内存危机加剧：苹果强大供应链亦难解RAM短缺",
+    "summary": "全球内存（RAM）短缺危机正变得极为严峻，即便是拥有庞大采购量和极高利润率的苹果，其强大的供应链也无法化解此次危机。",
+    "body": "近期，全球内存（RAM）短缺问题持续发酵，“内存末日”的担忧正成为现实。作为科技行业的风向标，苹果凭借其极高的利润率和庞大的采购规模，通常能够通过强大的供应链管理能力抵御零部件短缺风险。\n\n然而，此次内存危机甚至让苹果CEO蒂姆·库克也无能为力。分析指出，苹果在供应链中的表现犹如“反向金丝雀”，当连这样具备极强议价能力和资源调配能力的巨头都无法通过供应链手段解决内存短缺时，意味着整个消费电子及科技行业的内存供需失衡已到了极为严重的程度，后续可能引发更广泛的硬件涨价与交付延迟。",
+    "category": "消费电子",
+    "tags": [
+      "内存危机",
+      "供应链",
+      "苹果",
+      "消费电子"
+    ],
+    "source": "The Verge",
+    "time": "1小时前",
+    "ts": "2026-06-25T16:00:00-04:00",
+    "url": "https://www.theverge.com/tech/956950/ram-crisis-apple-price-increase",
+    "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/06/DSC03702_processed.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100",
+    "stocks": [
+      {
+        "name": "美光科技",
+        "ticker": "MU",
+        "reason": "全球领先的DRAM制造商，内存短缺及价格上涨将直接提升其产品利润率与营收。",
+        "confidence": "high"
+      },
+      {
+        "name": "兆易创新",
+        "ticker": "603986.SH",
+        "reason": "国内存储芯片设计龙头，全球存储芯片供需紧张及涨价有望带动公司业绩修复与估值提升。",
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
     "id": "8a38efbd9c03ffb2",
     "title": "高温如何影响儿童学习运动及家长的应对策略",
     "summary": "探讨高温天气对儿童在学习、玩耍和运动中的生理与认知影响，并为家长提供科学的防护建议。",
@@ -51723,6 +52744,6 @@ const newsData = [
   }
 ];
 const newsDigest = {
-  "text": "今日科技界聚焦半导体突破，IBM发布亚1纳米芯片技术，苹果被曝跳过M6直研M7，利好台积电等产业链；拜耳赢下农达诉讼减轻财务负担；美网联汽车禁令或波及极星，智能汽车出海面临合规挑战。",
+  "text": "今日科技要闻聚焦AI医疗赋能、消费电子硬件迭代与新能源车企布局。AI优化诊疗流程利好医疗信息化标的；AMD与雷蛇新品提振半导体及外设产业链；路虎发力高端电动车或带动汽车零部件及电池板块。",
   "highlights": []
 };
