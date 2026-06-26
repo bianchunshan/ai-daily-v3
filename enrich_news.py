@@ -11,6 +11,7 @@ import sys
 import json
 import time
 import hashlib
+import re
 import urllib.request
 from urllib.parse import urlsplit, urlunsplit, parse_qsl, urlencode
 from datetime import datetime, timezone
@@ -20,6 +21,10 @@ from fetch_rss import fetch_all  # RSS 抓取(免费、无配额,英文国际源
 
 KEEP = int(os.environ.get('AID_KEEP', 2000))  # 每个板块的累计上限(到顶才淘汰该板块最旧;可环境变量覆盖)
 CAP = int(os.environ.get('AID_CAP', 50))       # 单次最多富化多少条新条目(封顶 Qwen 成本;可覆盖)
+MIN_SOURCE_CHARS = 80                          # 原始材料太少时先补抓,仍不足则不入库
+MIN_SUMMARY_CHARS = 20
+MIN_BODY_CHARS = 50
+CJK_RE = re.compile(r'[\u4e00-\u9fff]')
 
 
 def now_iso():
@@ -65,6 +70,63 @@ def canonical_url(url):
 def stable_id(item):
     key = canonical_url(item.get('url')) or item.get('title') or json.dumps(item, ensure_ascii=False, sort_keys=True)
     return hashlib.sha1(key.encode('utf-8')).hexdigest()[:16]
+
+
+def compact_text(text, limit=2800):
+    text = re.sub(r'<[^>]+>', ' ', str(text or ''))
+    text = re.sub(r'\[[^\]]{0,80}\]\([^)]+\)', ' ', text)
+    text = re.sub(r'https?://\S+', ' ', text)
+    text = re.sub(r'\s+', ' ', text).strip()
+    if text.lower() == 'null':
+        return ''
+    return text[:limit]
+
+
+def source_material(n):
+    return compact_text("\n".join([
+        str(n.get('title', '')),
+        str(n.get('summary', '')),
+        str(n.get('content', '')),
+    ]))
+
+
+def supporting_material(n):
+    return compact_text("\n".join([
+        str(n.get('summary', '')),
+        str(n.get('content', '')),
+    ]))
+
+
+def fetch_article_text(url):
+    """RSS 材料不足时,用 Jina Reader 拉取可读正文。失败返回空。"""
+    if not url:
+        return ''
+    try:
+        reader_url = 'https://r.jina.ai/http://' + str(url)
+        req = urllib.request.Request(reader_url, headers={"User-Agent": "Mozilla/5.0"})
+        with urllib.request.urlopen(req, timeout=18) as r:
+            return compact_text(r.read(120000).decode('utf-8', 'replace'), 3200)
+    except Exception as e:
+        print(f"  ⚠️ 原文补抓失败「{str(url)[:80]}」: {e}")
+        return ''
+
+
+def has_enough_source(n):
+    material = supporting_material(n)
+    return len(material) >= MIN_SOURCE_CHARS
+
+
+def is_usable_chinese_item(item):
+    title = str(item.get('title', '')).strip()
+    summary = str(item.get('summary', '')).strip()
+    body = str(item.get('body', '')).strip()
+    if not title or not summary or not body:
+        return False
+    if len(summary) < MIN_SUMMARY_CHARS or len(body) < MIN_BODY_CHARS:
+        return False
+    if len(CJK_RE.findall(title + summary + body)) < 20:
+        return False
+    return True
 
 
 def call_qwen(prompt, max_tokens=1500, system=None, retries=2):
@@ -114,12 +176,22 @@ ENRICH_SYS = (
 
 
 def enrich_one(n):
-    """单条富化(中英文皆可)。失败则保留原文兜底。"""
+    """单条富化(中英文皆可)。失败或质量不合格则跳过,不写英文/空正文兜底。"""
+    n = dict(n)
+    if not has_enough_source(n):
+        extra = fetch_article_text(n.get('url', ''))
+        if extra:
+            n['content'] = compact_text("\n".join([str(n.get('content', '')), extra]))
+    material = source_material(n)
+    if len(material) < MIN_SOURCE_CHARS:
+        print(f"  ⚠️ 原始材料不足,跳过「{n.get('title','')[:40]}」")
+        return None
+
     prompt = f"""请把下面这条科技新闻整理成规范中文(若原文是英文则翻译),只输出如下 JSON:
 {{
   "title": "中文标题,简洁有力,不超过30字",
-  "summary": "中文摘要,1-2句,客观",
-  "body": "中文正文,2-3段,基于给定信息客观转述,不编造未提供的细节,可点出意义与影响",
+  "summary": "中文摘要,1-2句,客观,至少20个汉字",
+  "body": "中文正文,2-3段,至少50个汉字,基于给定材料客观转述,不编造未提供的细节,可点出意义与影响",
   "category": "从这些里选最贴切的一个:{'、'.join(CATEGORIES)}",
   "tags": ["2-4个中文标签"],
   "stocks": [{{"name":"利好标的中文名","ticker":"准确股票代码","reason":"为何受益,一句话","confidence":"high/medium/low"}}]
@@ -131,8 +203,8 @@ def enrich_one(n):
 - 绝不编造价格、涨跌幅等任何行情数字(行情由系统实时获取)。
 
 标题:{n.get('title','')}
-摘要:{n.get('summary','')}
 来源:{n.get('source','')}
+原文材料:{material}
 """
     try:
         out = extract_json(call_qwen(prompt, max_tokens=1500, system=ENRICH_SYS))
@@ -143,7 +215,7 @@ def enrich_one(n):
             if isinstance(s, dict) and s.get('name'):
                 stocks.append({'name': s.get('name', ''), 'ticker': s.get('ticker', ''),
                                'reason': s.get('reason', ''), 'confidence': s.get('confidence', '')})
-        return {
+        item = {
             'id': n.get('id'),
             'title': out.get('title') or n.get('title', ''),
             'summary': out.get('summary') or n.get('summary', ''),
@@ -157,12 +229,13 @@ def enrich_one(n):
             'image': n.get('image', ''),
             'stocks': stocks,
         }
+        if not is_usable_chinese_item(item):
+            print(f"  ⚠️ 富化结果不合格,跳过「{n.get('title','')[:40]}」")
+            return None
+        return item
     except Exception as e:
-        print(f"  ⚠️ 富化失败,保留英文兜底「{n.get('title','')[:30]}」: {e}")
-        n.setdefault('body', '')
-        n.setdefault('stocks', [])
-        n['ts'] = n.get('_ts') or now_iso()
-        return n
+        print(f"  ⚠️ 富化失败,跳过「{n.get('title','')[:30]}」: {e}")
+        return None
 
 
 def make_digest(items):
@@ -171,7 +244,7 @@ def make_digest(items):
     prompt = f"""下面是今天的科技前沿要闻清单。请只输出 JSON:
 {{
   "text": "120字以内的今日要闻综述,像专业科技日报的开篇导语,概括今天最值得关注的几个方向",
-  "highlights": [挑3-5条最重要的 id 数字]
+  "highlights": ["挑3-5条最重要的 id,必须原样使用清单里的字符串 id"]
 }}
 不要编造清单之外的内容。
 
@@ -179,7 +252,8 @@ def make_digest(items):
 """
     try:
         out = extract_json(call_qwen(prompt, max_tokens=600, system=ENRICH_SYS))
-        hl = [int(x) for x in (out.get('highlights') or []) if str(x).isdigit()][:5]
+        valid_ids = {str(n.get('id', '')) for n in items[:20]}
+        hl = [str(x) for x in (out.get('highlights') or []) if str(x) in valid_ids][:5]
         return {'text': out.get('text', ''), 'highlights': hl}
     except Exception as e:
         print(f"⚠️ 综述生成失败: {e}")
@@ -256,7 +330,10 @@ def write_data(items, digest):
 
 
 def main():
-    existing = read_existing()
+    loaded_existing = read_existing()
+    existing = [n for n in loaded_existing if is_usable_chinese_item(n)]
+    if len(existing) != len(loaded_existing):
+        print(f"清理历史低质量条目:{len(loaded_existing) - len(existing)} 条")
     seen_list = read_seen(existing)
     seen = set(seen_list)
     seen.update(canonical_url(n.get('url')) for n in existing if n.get('url'))
@@ -272,7 +349,10 @@ def main():
     new = new[:CAP]
     print(f"开始 Qwen 富化 {len(new)} 条新条目(并发,单次封顶 {CAP})...")
     with ThreadPoolExecutor(max_workers=6) as ex:   # 并发调用,避免顺序累加拖很久
-        enriched_new = list(ex.map(enrich_one, new))
+        enriched_new = [n for n in ex.map(enrich_one, new) if n]
+    if not enriched_new:
+        print("本次没有通过富化质量门禁的新条目,数据文件保持不变")
+        return
 
     # 累计:新条目并入历史,按真实时间倒序(最新在上)
     combined = enriched_new + existing

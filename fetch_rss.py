@@ -49,10 +49,28 @@ TAG_RE = re.compile(r"<[^>]+>")
 def clean_text(s, limit=240):
     if not s:
         return ""
+    s = html.unescape(str(s))
     s = TAG_RE.sub("", s)
-    s = html.unescape(s).strip()
     s = re.sub(r"\s+", " ", s)
+    s = s.strip()
+    if s.lower() == "null":
+        return ""
     return s[:limit]
+
+
+def node_text(node):
+    """读取 RSS/Atom 节点文本,兼容 CDATA 和 HTML 子节点。"""
+    if node is None:
+        return ""
+    return "".join(node.itertext())
+
+
+def first_node(d, *names):
+    """Element 不能直接用 or 串联,无子节点的 Element 会被判为 False。"""
+    for name in names:
+        if name in d:
+            return d[name]
+    return None
 
 
 def relative_time(dt):
@@ -131,19 +149,21 @@ def fetch_feed(source, url, default_cat):
             for c in e:
                 if strip_ns(c.tag) == "link" and c.get("href"):
                     link = c.get("href"); break
-        summary_node = d.get("description") or d.get("summary") or d.get("content")
-        raw_html = (summary_node.text if summary_node is not None else "") or ""
-        enc_node = d.get("encoded")  # content:encoded
-        raw_html2 = (enc_node.text if enc_node is not None else "") or ""
-        summary = clean_text(raw_html)
+        summary_node = first_node(d, "description", "summary", "content")
+        raw_html = node_text(summary_node)
+        enc_node = first_node(d, "encoded")  # content:encoded
+        raw_html2 = node_text(enc_node)
+        summary = clean_text(raw_html or raw_html2, 360)
+        content = clean_text(raw_html2 or raw_html, 1400)
         image = find_image(e, raw_html, raw_html2)
-        date_node = d.get("pubDate") or d.get("updated") or d.get("published")
-        dt = parse_date(date_node.text if date_node is not None else None)
+        date_node = first_node(d, "pubDate", "updated", "published")
+        dt = parse_date(node_text(date_node))
         if not title or not link:
             continue
         items.append({
             "title": title,
             "summary": summary,
+            "content": content,
             "url": link,
             "image": image,
             "source": source,

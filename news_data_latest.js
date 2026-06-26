@@ -3421,20 +3421,6 @@ const newsData = [
     ]
   },
   {
-    "title": "Riot Vanguard finally drops its controversial always-on requirement for anti-cheat — new on-demand mode requires a strict Windows 11 security stack",
-    "summary": "",
-    "url": "https://www.tomshardware.com/video-games/pc-gaming/riot-vanguard-adds-an-on-demand-mode-that-stops-anti-cheat-loading-at-boot-on-secured-windows-11-pcs",
-    "image": "https://cdn.mos.cms.futurecdn.net/DENaxLnLwXAX4KehjMhvtC-1280-80.png",
-    "source": "Tom's Hardware",
-    "time": "刚刚",
-    "category": "人工智能",
-    "tags": [],
-    "body": "",
-    "stocks": [],
-    "ts": "2026-06-25T16:30:30.779303+00:00",
-    "id": "cfc7f5d07577764d"
-  },
-  {
     "id": "6f10525d8f6dbb2f",
     "title": "黎以和平谈判推进，民众重返南部地区",
     "summary": "黎巴嫩与以色列展开和平谈判，随着局势缓和，部分民众开始返回南部家园。",
@@ -14041,20 +14027,6 @@ const newsData = [
     "stocks": []
   },
   {
-    "title": "Get an all-AMD 4K gaming PC with Ryzen 7 9800X3D and Radeon RX 9070 XT for just $1,749 — Walmart has slashed $750 off this prebuilt desktop",
-    "summary": "",
-    "url": "https://www.tomshardware.com/pc-components/get-an-all-amd-4k-gaming-pc-with-ryzen-7-9800x3d-and-radeon-rx-9070-xt-for-just-usd1-749-walmart-has-slashed-usd750-off-this-prebuilt-desktop",
-    "image": "https://cdn.mos.cms.futurecdn.net/4Jvy5GEDA7ZprnfKAohDjf-1280-80.png",
-    "source": "Tom's Hardware",
-    "time": "刚刚",
-    "category": "人工智能",
-    "tags": [],
-    "body": "",
-    "stocks": [],
-    "ts": "2026-06-24T11:48:29.291960+00:00",
-    "id": "e9a9b0a0f3e7f775"
-  },
-  {
     "id": "1f44d297248db536",
     "title": "一行代码使GCC性能提升12%，适配英特尔与AMD处理器",
     "summary": "开发者通过修改GCC编译器中的一行代码，使其在现代英特尔和AMD处理器上的性能提升了12%。",
@@ -14743,20 +14715,6 @@ const newsData = [
     "url": "https://www.bbc.co.uk/news/articles/cy8drk2dk3no?at_medium=RSS&at_campaign=rss",
     "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2cf2/live/1cb13550-6f6d-11f1-a190-1943df672931.jpg",
     "stocks": []
-  },
-  {
-    "title": "\"Fix\" MacBook Neo Cursor Lag: Record 1 Pixel of the Screen Every 10 Seconds",
-    "summary": "",
-    "url": "https://gist.github.com/retroplasma/ec21767d0a8380c7ea9c2fbee1c7d6bf",
-    "image": "",
-    "source": "Hacker News",
-    "time": "刚刚",
-    "category": "人工智能",
-    "tags": [],
-    "body": "",
-    "stocks": [],
-    "ts": "2026-06-24T08:26:28.049733+00:00",
-    "id": "4433582099019917"
   },
   {
     "id": "69044a4fa6fc0fe4",
@@ -16113,20 +16071,6 @@ const newsData = [
     "url": "https://36kr.com/p/3866649515938825?f=rss",
     "image": "",
     "stocks": []
-  },
-  {
-    "title": "LineShine Debuts at No. 1 as the TOP500 Enters a New Global Exascale Era",
-    "summary": "",
-    "url": "https://top500.org/news/lineshine-debuts-no-1-top500-enters-new-global-exascale-era/",
-    "image": "",
-    "source": "Hacker News",
-    "time": "刚刚",
-    "category": "人工智能",
-    "tags": [],
-    "body": "",
-    "stocks": [],
-    "ts": "2026-06-24T04:20:55.421492+00:00",
-    "id": "01eab00ee389835e"
   },
   {
     "id": "c7a3a1decbe5c28a",
@@ -26196,20 +26140,6 @@ const newsData = [
     ]
   },
   {
-    "title": "Hyundai is discounting EVs because who wants to pay for gas these days",
-    "summary": "",
-    "url": "https://electrek.co/2026/06/22/hyundai-discounting-evs-gas/",
-    "image": "",
-    "source": "Electrek",
-    "time": "刚刚",
-    "category": "未来能源",
-    "tags": [],
-    "body": "",
-    "stocks": [],
-    "ts": "2026-06-22T19:34:11.379199+00:00",
-    "id": "77ef81f7dc88e428"
-  },
-  {
     "id": "8d9cbb30ed0a7885",
     "title": "美NHTSA调查特斯拉Autopilot致命车祸",
     "summary": "美国国家公路交通安全管理局正对一起涉嫌由特斯拉Autopilot引发的致命车祸展开调查，该事故导致一名在室内的女性身亡。",
@@ -26430,34 +26360,6 @@ const newsData = [
     ]
   },
   {
-    "title": "We Tried the Most Popular Mushroom Coffees. These Are the Best (2026)",
-    "summary": "",
-    "url": "https://www.wired.com/gallery/best-mushroom-coffee/",
-    "image": "https://media.wired.com/photos/68422670b6a5ae04b97cb39e/master/pass/Best%20Mushroom%20Coffee%20(update)_.png",
-    "source": "Wired",
-    "time": "刚刚",
-    "category": "人工智能",
-    "tags": [],
-    "body": "",
-    "stocks": [],
-    "ts": "2026-06-22T19:32:38.435107+00:00",
-    "id": "cf110c8d094854af"
-  },
-  {
-    "title": "Three things to watch amid Anthropic’s latest feud with the government",
-    "summary": "",
-    "url": "https://www.technologyreview.com/2026/06/22/1139424/three-things-to-watch-amid-anthropics-latest-feud-with-the-government/",
-    "image": "",
-    "source": "MIT Tech Review",
-    "time": "刚刚",
-    "category": "人工智能",
-    "tags": [],
-    "body": "",
-    "stocks": [],
-    "ts": "2026-06-22T19:32:38.429126+00:00",
-    "id": "83c1da74ece4e603"
-  },
-  {
     "id": "51895a0a21dd19cd",
     "title": "IEEE Spectrum发文纪念人工智能发展70周年",
     "summary": "权威科技媒体IEEE Spectrum发表专题内容，回顾并纪念人工智能领域发展70周年的重要里程碑，探讨其历史演进与深远影响。",
@@ -26555,20 +26457,6 @@ const newsData = [
         "reason": "作为Ray-Ban Meta智能眼镜的联合研发方，产品体验优化有助于提升其在AI可穿戴设备市场的销量与竞争力。"
       }
     ]
-  },
-  {
-    "title": "The Apple Watch SE 3 is just $199 for Prime Day",
-    "summary": "The Apple Watch SE 3 is at an all-time low of $199, making the sleeper hit of last year’s Apple Watches an even better value. While the Series 11 and Ultra 3 were iterative updates, the SE 3 was a wide-ranging glow-up that added an always-o",
-    "url": "https://www.theverge.com/gadgets/953458/apple-watch-se-3-prime-day-deal-sale",
-    "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/09/257944_Applewatch_SE_AKrales_0104.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100",
-    "source": "The Verge",
-    "time": "1小时前",
-    "category": "消费电子",
-    "tags": [],
-    "body": "",
-    "stocks": [],
-    "ts": "2026-06-22T14:00:00-04:00",
-    "id": "d3535a218b0df4ae"
   },
   {
     "id": "202ec1140ea5cf3e",
@@ -28236,20 +28124,6 @@ const newsData = [
     ]
   },
   {
-    "title": "GLM 5.2 vs. Opus",
-    "summary": "",
-    "url": "https://techstackups.com/comparisons/glm-5.2-vs-opus/",
-    "image": "",
-    "source": "Hacker News",
-    "time": "刚刚",
-    "category": "人工智能",
-    "tags": [],
-    "body": "",
-    "stocks": [],
-    "ts": "2026-06-22T10:44:25.615437+00:00",
-    "id": "06a0c0563436cddc"
-  },
-  {
     "id": "70fee477c4f13dcd",
     "title": "36氪WAVES大会圆桌论坛聚焦早期创业破局",
     "summary": "36氪举办WAVES2026新浪潮大会圆桌论坛，探讨早期创业者在面临市场质疑时的坚持与发展之道。",
@@ -29683,20 +29557,6 @@ const newsData = [
         "reason": "国内知名女装品牌，深度布局线下商场，在行业同质化竞争中具备较强的供应链与规模化运营优势。"
       }
     ]
-  },
-  {
-    "title": "AI 热潮重塑韩国股市格局：SK 海力士市值一度超越三星电子成韩国最具价值企业",
-    "summary": "",
-    "url": "https://www.ithome.com/0/966/878.htm",
-    "image": "",
-    "source": "IT之家",
-    "time": "刚刚",
-    "category": "消费电子",
-    "tags": [],
-    "body": "",
-    "stocks": [],
-    "ts": "2026-06-22T04:28:35.534531+00:00",
-    "id": "2fa98bf7bb61dff4"
   },
   {
     "id": "fd0a861ede7c6cce",
@@ -40758,20 +40618,6 @@ const newsData = [
         "reason": "公司主营口腔修复膜等生物再生材料，牙龈组织再生技术的突破及口腔健康市场的扩大将利好其口腔修复产品线。"
       }
     ]
-  },
-  {
-    "title": "Cargo-Geiger",
-    "summary": "",
-    "url": "https://github.com/geiger-rs/cargo-geiger",
-    "image": "",
-    "source": "Hacker News",
-    "time": "刚刚",
-    "category": "人工智能",
-    "tags": [],
-    "body": "",
-    "stocks": [],
-    "ts": "2026-06-20T16:23:31.291170+00:00",
-    "id": "308cda3b09025bfb"
   },
   {
     "id": "4a8f4abda705b255",
