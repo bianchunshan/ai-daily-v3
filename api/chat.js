@@ -1,13 +1,16 @@
 // AI 助手:基于今日资讯回答/分析。POST {question}
-// 默认用 Qwen;设置 CHAT_PROVIDER=kimi 后改走 Kimi(OpenAI 兼容接口)。
+// 默认用 Qwen;设置 CHAT_PROVIDER=kimi 后改走 Kimi。
 const fs = require('fs');
 const path = require('path');
 
 const QWEN_URL = 'https://token-plan.cn-beijing.maas.aliyuncs.com/apps/anthropic/v1/messages';
 const KIMI_BASE_URL = (process.env.KIMI_BASE_URL || process.env.MOONSHOT_API_BASE || 'https://api.moonshot.ai/v1').replace(/\/+$/, '');
 const KIMI_URL = `${KIMI_BASE_URL}/chat/completions`;
+const KIMI_CODING_BASE_URL = (process.env.KIMI_CODING_BASE_URL || 'https://api.kimi.com/coding').replace(/\/+$/, '');
+const KIMI_CODING_URL = `${KIMI_CODING_BASE_URL}/v1/messages`;
 const QWEN_MODEL = process.env.QWEN_MODEL || 'qwen3.7-max';
-const KIMI_MODEL = process.env.KIMI_MODEL || 'kimi-k2.6';
+const KIMI_MODEL = process.env.KIMI_MODEL || 'kimi-for-coding';
+const KIMI_API_STYLE = String(process.env.KIMI_API_STYLE || 'coding').trim().toLowerCase();
 const MAX_BODY_BYTES = 16 * 1024;
 const RATE_WINDOW_MS = 60 * 1000;
 const RATE_LIMIT = 8;
@@ -177,10 +180,14 @@ function selectedProvider() {
 function providerConfig() {
   const provider = selectedProvider();
   if (provider === 'kimi' || provider === 'moonshot') {
+    const style = KIMI_API_STYLE;
     return {
       provider: 'kimi',
-      key: process.env.MOONSHOT_API_KEY || process.env.KIMI_KEY || '',
+      key: style === 'openai' || style === 'moonshot'
+        ? (process.env.MOONSHOT_API_KEY || process.env.KIMI_KEY || '')
+        : (process.env.KIMI_KEY || process.env.MOONSHOT_API_KEY || ''),
       model: KIMI_MODEL,
+      style,
     };
   }
   return {
@@ -233,8 +240,30 @@ async function callKimi({ key, model, system, prompt, signal }) {
   return answer;
 }
 
+async function callKimiCoding({ key, model, system, prompt, signal }) {
+  const r = await fetch(KIMI_CODING_URL, {
+    method: 'POST',
+    headers: { authorization: `Bearer ${key}`, 'anthropic-version': '2023-06-01', 'content-type': 'application/json' },
+    body: JSON.stringify({ model, max_tokens: 1600, system, messages: [{ role: 'user', content: prompt }] }),
+    signal,
+  });
+  const raw = await r.text();
+  let d = {};
+  try { d = raw ? JSON.parse(raw) : {}; } catch (e) { throw new Error('kimi returned non-json'); }
+  if (!r.ok) {
+    const msg = d.error && (d.error.message || d.error);
+    throw new Error(msg || `kimi HTTP ${r.status}`);
+  }
+  const answer = (d.content || []).map((b) => (b && b.text) || '').join('').trim();
+  if (!answer) throw new Error('no model answer');
+  return answer;
+}
+
 async function callModel(config, system, prompt, signal) {
-  if (config.provider === 'kimi') return callKimi({ ...config, system, prompt, signal });
+  if (config.provider === 'kimi') {
+    if (config.style === 'openai' || config.style === 'moonshot') return callKimi({ ...config, system, prompt, signal });
+    return callKimiCoding({ ...config, system, prompt, signal });
+  }
   return callQwen({ ...config, system, prompt, signal });
 }
 
@@ -281,7 +310,7 @@ module.exports = async function handler(req, res) {
     const answer = await callModel(config, system, prompt, controller.signal);
     clearTimeout(modelTimer);
     modelTimer = null;
-    return res.status(200).json({ answer, provider: config.provider, model: config.model });
+    return res.status(200).json({ answer, provider: config.provider, model: config.model, style: config.style });
   } catch (e) {
     if (modelTimer) clearTimeout(modelTimer);
     return res.status(502).json({ error: String(e) });

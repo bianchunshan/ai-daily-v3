@@ -61,15 +61,15 @@ fetch_rss.py 抓多路中外科技 RSS
 
 底栏「问AI」打开对话面板 → 前端只 POST `{ question }` 给 `/api/chat` → 服务端从 `news_data_latest.js` 召回相关资讯,必要时做网页检索,再交给模型回答。
 - 默认:`CHAT_PROVIDER=qwen`,使用 `QWEN_KEY`,模型 `QWEN_MODEL` 默认 `qwen3.7-max`。
-- Kimi:`CHAT_PROVIDER=kimi`,使用 `MOONSHOT_API_KEY`,模型 `KIMI_MODEL` 默认 `kimi-k2.6`。
-- Kimi API base 默认 `https://api.moonshot.ai/v1`;如使用中国区 key,可设 `KIMI_BASE_URL=https://api.moonshot.cn/v1`。
+- Kimi:`CHAT_PROVIDER=kimi`,默认走 Kimi Coding Plan,使用 `KIMI_KEY`,模型 `KIMI_MODEL` 默认 `kimi-for-coding`。
+- 如使用普通 Moonshot OpenAI-compatible API,设 `KIMI_API_STYLE=openai`、`MOONSHOT_API_KEY`;API base 默认 `https://api.moonshot.ai/v1`,中国区可设 `KIMI_BASE_URL=https://api.moonshot.cn/v1`。
 - ⚠️ 该端点公开无鉴权,已有限流,但仍会消耗模型 token。若被刷需加口令或登录态。
 
 ## 部署 / Secrets
 
 - GitHub→Vercel 自动部署未接通,改由 Action 内 `vercel --prod` 部署。
 - 仓库 Secrets(GitHub Actions 用):`QWEN_KEY`、`VERCEL_TOKEN`、`VERCEL_ORG_ID`、`VERCEL_PROJECT_ID`。
-- Vercel 环境变量(serverless 函数用):`QWEN_KEY`;若切 Kimi,加 `CHAT_PROVIDER=kimi`、`MOONSHOT_API_KEY`,必要时加 `KIMI_BASE_URL` / `KIMI_MODEL`。
+- Vercel 环境变量(serverless 函数用):`QWEN_KEY`;若切 Kimi Coding Plan,加 `CHAT_PROVIDER=kimi`、`KIMI_KEY`;若切普通 Moonshot API,加 `CHAT_PROVIDER=kimi`、`KIMI_API_STYLE=openai`、`MOONSHOT_API_KEY`。
 - 本地手动部署:`npx vercel deploy --prod --token <VERCEL_TOKEN>`。
 
 ## 成本
