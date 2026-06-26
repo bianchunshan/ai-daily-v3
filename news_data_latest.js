@@ -1,5 +1,998 @@
 const newsData = [
   {
+    "id": "33cef101da483255",
+    "title": "2026 AIE电子展推《走进AIE》栏目，首期专访TCL",
+    "summary": "2026全球智能制造与电子产品博览会依托大湾区产业生态，推出《走进AIE》专题栏目，首期专访TCL以展示湾区智造实力。",
+    "body": "2026全球智能制造与电子产品博览会（AIE）依托粤港澳大湾区完备的产业生态，致力于打造中国智能制造首发平台。为此，AIE组委会联合多家权威媒体重磅推出《走进AIE》专题栏目，全维度挖掘产业、科研与场景应用的创新价值。\n\n该栏目将深入行业龙头企业、科研院所及关键应用场景，解码技术创新与产业实践。通过专业媒体视角，持续输出独特的赛道故事与产业洞察，全面展现大湾区智造版图。\n\n《走进AIE》首期专访企业TCL即将登场，揭开湾区智造硬核实力的第一站。展会期待与更多优秀企业同频共振，汇聚中国科技硬核力量，共同把中国智能制造带向新高度。",
+    "category": "消费电子",
+    "tags": [
+      "智能制造",
+      "AIE电子展",
+      "TCL",
+      "大湾区"
+    ],
+    "source": "36氪",
+    "time": "刚刚",
+    "ts": "2026-06-26T13:22:11.735076+00:00",
+    "url": "https://36kr.com/p/3869838577620231?f=rss",
+    "image": "https://img.36krcdn.com/hsossms/20260626/v2_23a3bfcc6f1c43db920180c3d591bae5@6381723_oswg1821876oswg1440oswg1080_img_png?x-oss-process=image/quality,q_90/format,jpg/interlace,1",
+    "stocks": [
+      {
+        "name": "TCL科技",
+        "ticker": "000100.SZ",
+        "reason": "作为TCL集团核心上市平台，受益于AIE电子展及专访带来的品牌曝光与产业资源汇聚。",
+        "confidence": "medium"
+      },
+      {
+        "name": "TCL电子",
+        "ticker": "01070.HK",
+        "reason": "主营智能终端与电子产品，直接受益于电子产品博览会的行业交流与品牌展示。",
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
+    "id": "3e742314bf7b0b62",
+    "title": "智元灵巧手估值十亿美元，DeepSeek计划规模翻倍",
+    "summary": "智元旗下灵巧手企业临界点成立仅五个月估值达十亿美元；DeepSeek计划将所有部门规模扩大至少一倍以加速发展。",
+    "body": "近日，从智元机器人拆分出的灵巧手研发商临界点完成近10亿元融资，成立仅5个月便跻身十亿美元独角兽行列并实现首季盈利，百度、高瓴等资本入局。此外，通用具身智能机器人公司无界动力也完成超2亿美元天使轮融资，具身智能赛道持续火热。\n\n在人工智能领域，DeepSeek发布大量招聘信息，计划将所有部门规模扩大至少一倍，加速业务扩张。苹果公司则指出，AI数据中心的快速扩张导致内存需求激增，零部件价格大幅上涨，给电子产品行业带来前所未有的供应链挑战。\n\n其他动态方面，SpaceX计划在美国推出星链零售产品并建设地面移动网络；小鹏汽车何小鹏透露第二代VLA走向全球，预计2027年小鹏智驾将在海外入场。",
+    "category": "人工智能",
+    "tags": [
+      "具身智能",
+      "人工智能",
+      "DeepSeek",
+      "自动驾驶"
+    ],
+    "source": "36氪",
+    "time": "刚刚",
+    "ts": "2026-06-26T13:21:47.610512+00:00",
+    "url": "https://36kr.com/p/3869884559332356?f=rss",
+    "image": "",
+    "stocks": [
+      {
+        "name": "小鹏汽车",
+        "ticker": "XPEV",
+        "reason": "智驾出海计划明确，2027年VLA和VLM将在海外入场，利好其全球化布局。",
+        "confidence": "high"
+      },
+      {
+        "name": "苹果",
+        "ticker": "AAPL",
+        "reason": "AI数据中心扩张带动内存需求，反映其AI基础设施投入加大，但面临供应链成本挑战。",
+        "confidence": "medium"
+      },
+      {
+        "name": "百度",
+        "ticker": "BIDU",
+        "reason": "作为头部资本投资智元旗下灵巧手企业临界点，有望在具身智能赛道获得协同收益。",
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
+    "id": "090b1e2eef49c714",
+    "title": "Valve工程师：Steam Machine换代周期接近传统PC",
+    "summary": "Valve工程师透露，Steam Machine的更新换代周期将接近传统PC，不会像Steam Deck那样漫长，其生命周期与玩家自然升级习惯保持一致。",
+    "body": "Valve工程师皮埃尔-卢·格里菲斯和亚赞·阿尔德哈亚特近日在接受采访时表示，Steam Machine的更新换代周期不会像Steam Deck那样漫长，新机型推出主要取决于合适的时机。\n\n格里菲斯指出，Steam Deck需要相对固定的性能目标以方便开发者和用户，而Steam Machine更像传统游戏电脑，硬件性能跨度较大，因此无需设定长达五年的固定性能标准。\n\n此外，亚赞·阿尔德哈亚特补充道，由于当前PC玩家升级周期自然放缓，Steam Machine的下一次硬件迭代也不会很快到来。其使用寿命将与典型的PC升级周期及玩家消费习惯保持一致。",
+    "category": "消费电子",
+    "tags": [
+      "Valve",
+      "Steam Machine",
+      "游戏主机",
+      "PC硬件"
+    ],
+    "source": "IT之家",
+    "time": "刚刚",
+    "ts": "2026-06-26T13:19:23+00:00",
+    "url": "https://www.ithome.com/0/969/241.htm",
+    "image": "https://img.ithome.com/newsuploadfiles/2026/6/5582bce0-05a7-4641-a9f2-44ce439dcaad.jpg?x-bce-process=image/format,f_auto",
+    "stocks": []
+  },
+  {
+    "id": "491530f1ea0a41eb",
+    "title": "开源欧拉新版发布，全面升级AI与云基础设施",
+    "summary": "开源欧拉正式发布24.03 LTS SP4版本，在AI图编译器及弹性内存等方面全面升级，并迎来首家境外生态伙伴。",
+    "body": "在开放原子开源生态大会上，开源欧拉 openEuler 24.03 LTS SP4 版本正式发布。该版本基于6.6内核，面向服务器、云计算和AI等场景，在弹性内存、64K内核、AI图编译器及智能调优等方面进行了全面升级，进一步夯实了AI原生基础设施底座。\n\n大会期间，哈萨克斯坦自由云宣布加入社区，成为首家境外实体生态伙伴，标志着其技术成果加速走向国际。同时，麒麟软件、麒麟信安、软通动力及天翼云等多家生态伙伴集中展示了开源欧拉在智能运维、高可靠场景及AI原生操作系统等关键行业的落地成果。",
+    "category": "人工智能",
+    "tags": [
+      "开源欧拉",
+      "操作系统",
+      "AI基础设施",
+      "开源生态"
+    ],
+    "source": "IT之家",
+    "time": "7分钟前",
+    "ts": "2026-06-26T13:12:15+00:00",
+    "url": "https://www.ithome.com/0/969/240.htm",
+    "image": "https://img.ithome.com/newsuploadfiles/2026/6/0bad1aab-80a4-46f5-9c3d-8c7d702f96b3.png?x-bce-process=image/format,f_auto",
+    "stocks": [
+      {
+        "name": "麒麟信安",
+        "ticker": "688152.SH",
+        "reason": "公司基于openEuler打造服务器操作系统，面向电力、政务等高可靠场景提供创新实践。",
+        "confidence": "high"
+      },
+      {
+        "name": "软通动力",
+        "ticker": "301236.SZ",
+        "reason": "旗下软通天鹤AIOS与硬件联合实践，推动操作系统向AI应用使能平台演进。",
+        "confidence": "high"
+      },
+      {
+        "name": "中国软件",
+        "ticker": "600536.SH",
+        "reason": "控股子公司麒麟软件展示了基于开源欧拉的智能运维Agent生态化实践成果。",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "7b07fbf5f1575233",
+    "title": "AMD与Intel处理器对决：2026年DDR4霸主之争",
+    "summary": "外媒全面对比评测AMD 5800X3D与Intel i7-14700K，探讨两款同价位处理器在DDR4平台的综合性能表现。",
+    "body": "AMD重新推出了四年前的经典处理器Ryzen 7 5800X3D，旨在为AM4平台注入新活力。这款基于Zen 3架构并搭载第一代3D V-Cache技术的CPU，曾是其发布时的最佳游戏处理器，如今面临着Intel第14代酷睿i7-14700K的激烈竞争。\n\n两款处理器的市场售价均在350美元左右。外媒通过一系列涵盖不同类别的基准测试，对这两款CPU进行了全面的正面对决。此次评测旨在评估哪款芯片是更出色的全能处理器，从而为消费者在2026年的装机与升级选择提供客观指导。",
+    "category": "消费电子",
+    "tags": [
+      "超威半导体",
+      "英特尔",
+      "处理器",
+      "硬件评测"
+    ],
+    "source": "Tom's Hardware",
+    "time": "9分钟前",
+    "ts": "2026-06-26T13:10:00+00:00",
+    "url": "https://www.tomshardware.com/pc-components/cpus/amd-ryzen-7-5800x3d-vs-intel-core-i7-14700k-faceoff",
+    "image": "https://cdn.mos.cms.futurecdn.net/Kgst7737CmYGScupZMDa3F-1280-80.jpg",
+    "stocks": []
+  },
+  {
+    "id": "f6a0e88da275573d",
+    "title": "大众汽车据报计划大规模裁员10万人",
+    "summary": "据外媒报道，德国汽车制造巨头大众汽车正计划进行大规模重组，预计裁减员工数量高达10万人。",
+    "body": "近日有消息称，全球知名汽车制造商大众汽车计划实施大规模裁员，涉及员工数量可能高达10万人。此举引发了市场对传统车企转型压力及全球汽车产业格局变化的广泛关注。\n\n作为欧洲最大的汽车制造商，大众汽车的大规模裁员计划不仅反映了其在应对电动化转型和激烈市场竞争时所面临的巨大成本压力，也可能对德国乃至欧洲的就业市场和宏观经济产生深远影响。",
+    "category": "国际局势",
+    "tags": [
+      "大众汽车",
+      "裁员",
+      "汽车产业",
+      "欧洲经济"
+    ],
+    "source": "Engadget",
+    "time": "11分钟前",
+    "ts": "2026-06-26T13:08:00+00:00",
+    "url": "https://www.engadget.com/2202288/volkswagen-reportedly-plans-to-cut-100000-jobs/",
+    "image": "https://www.engadget.com/img/gallery/volkswagen-reportedly-plans-to-cut-100000-jobs/l-intro-1782479164.jpg",
+    "stocks": []
+  },
+  {
+    "id": "d2ed2280e01e97da",
+    "title": "阅读新闻成为新型健康危害",
+    "summary": "文章将过度阅读新闻比作吸烟，引发对信息过载影响心理健康的讨论。",
+    "body": "该文章提出阅读新闻如同吸烟般有害的观点，强调过度消费信息可能导致注意力分散和心理压力。这一比喻引发公众对数字时代信息消费习惯的反思，呼吁关注心理健康与信息平衡。",
+    "category": "人工智能",
+    "tags": [
+      "信息过载",
+      "心理健康",
+      "注意力经济"
+    ],
+    "source": "Hacker News",
+    "time": "12分钟前",
+    "ts": "2026-06-26T13:07:05+00:00",
+    "url": "https://www.experimental-history.com/p/reading-the-news-is-the-new-smoking",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "dc4aa7a7d0f83431",
+    "title": "苹果AirPods Max 2大促降价150美元，亚马逊已售罄",
+    "summary": "在Prime Day促销期间，苹果最新旗舰耳机AirPods Max 2大幅降价150美元至399美元，目前亚马逊平台已售罄，沃尔玛仍有部分库存。",
+    "body": "在近期的Prime Day购物节中，苹果最新旗舰头戴式耳机AirPods Max 2成为最受关注的促销产品之一。该耳机目前享受高达150美元的折扣，售价降至399美元。\n\n由于促销力度较大且市场需求强劲，AirPods Max 2在亚马逊平台已经售罄。目前消费者仍可在沃尔玛以相同折扣价购买，但部分颜色款式也已出现缺货现象。\n\n此次大幅降价不仅有效刺激了苹果高端音频产品的销量，也反映出在重要促销节点，消费者对高端消费电子产品的购买热情依然高涨。",
+    "category": "消费电子",
+    "tags": [
+      "苹果",
+      "AirPods Max",
+      "Prime Day",
+      "消费电子"
+    ],
+    "source": "The Verge",
+    "time": "13分钟前",
+    "ts": "2026-06-26T09:06:02-04:00",
+    "url": "https://www.theverge.com/gadgets/957605/apple-airpods-max-2-headphones-prime-day-deal-sale",
+    "image": "",
+    "stocks": [
+      {
+        "name": "苹果",
+        "ticker": "AAPL",
+        "reason": "旗舰耳机大促热销且多平台缺货，反映其高端音频产品需求强劲，利好硬件营收。",
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
+    "id": "f5934ad44938648d",
+    "title": "联合创新发布首批49英寸直面屏显示器，首发4499元起",
+    "summary": "联合创新推出全球首批49英寸32:9直面屏显示器，采用Mini LED背光技术，首发价4499元起。",
+    "body": "联合创新正式推出全球首批49英寸32:9直面屏显示器E49M1R与E49M1G，首发价格分别为4499元和5199元。两款产品均采用1760分区Mini LED背光技术，并支持高色域覆盖与多维度支架调节。\n\n配置上，E49M1G提供3840×1080分辨率与144Hz刷新率，E49M1R则升级至5120×1440分辨率与165Hz刷新率。两款产品均配备双HDMI 2.1与双DP 1.4接口，满足多设备连接需求。\n\n此次新品的上市进一步丰富了高端超宽屏显示器市场，为电竞玩家和专业办公用户提供了具备高性价比的直面屏显示方案。",
+    "category": "消费电子",
+    "tags": [
+      "联合创新",
+      "显示器",
+      "Mini LED",
+      "消费电子"
+    ],
+    "source": "IT之家",
+    "time": "14分钟前",
+    "ts": "2026-06-26T13:05:29+00:00",
+    "url": "https://www.ithome.com/0/969/239.htm",
+    "image": "https://img14.360buyimg.com/pop/jfs/t1/457532/32/16805/299324/6a3de3e7F97dac03d/0083320320e801fe.png",
+    "stocks": []
+  },
+  {
+    "id": "9fe43d5511edb189",
+    "title": "健康饮食或有助于降低高风险人群痴呆症发病风险",
+    "summary": "研究表明健康饮食可能对痴呆症高风险人群产生积极影响，而导致痴呆症的脑部变化在症状出现前多年就已开始。",
+    "body": "最终可能导致痴呆症的脑部变化，往往在患者出现记忆力减退、错过约会或找词困难等明显症状的许多年前就已经开始。\n\n研究指出，即使对于患痴呆症风险较高的人群，保持健康的饮食习惯仍然可能产生重要的积极影响。这一发现强调了早期生活方式干预在应对痴呆症潜在风险中的重要意义。",
+    "category": "生物医药",
+    "tags": [
+      "痴呆症",
+      "健康饮食",
+      "脑健康"
+    ],
+    "source": "MedicalXpress",
+    "time": "19分钟前",
+    "ts": "2026-06-26T09:00:05-04:00",
+    "url": "https://medicalxpress.com/news/2026-06-healthy-diet-difference-people-higher.html",
+    "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/man-eating-fruit.jpg",
+    "stocks": []
+  },
+  {
+    "id": "38b2b77de94a23dd",
+    "title": "弗林德斯大学呼吁加强对无偿照护者的认可与支持",
+    "summary": "弗林德斯大学发表研究论文，指出无偿照护者面临多重负担，呼吁制定优先事项以提供更多认可与支持。",
+    "body": "弗林德斯大学姑息治疗、死亡与临终研究中心近日发表了一篇关于姑息治疗优先事项的论文。研究指出，随着对无偿照护者协助提供护理的需求和依赖日益增加，这些为家人和朋友提供照护的人群正面临着高水平的情感、社会、身体和财务负担。\n\n研究人员强调，无偿照护者需要获得更大的认可和支持，才能继续提供护理服务。该论文明确了实现这一目标的具体优先事项，旨在改善照护者的生存状况并保障护理体系的可持续性。",
+    "category": "生物医药",
+    "tags": [
+      "姑息治疗",
+      "无偿照护",
+      "医疗服务"
+    ],
+    "source": "MedicalXpress",
+    "time": "19分钟前",
+    "ts": "2026-06-26T09:00:01-04:00",
+    "url": "https://medicalxpress.com/news/2026-06-palliative-priorities-caregivers.html",
+    "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/old-and-young-hands.jpg",
+    "stocks": []
+  },
+  {
+    "id": "da7965cf1e5bc3ef",
+    "title": "初创公司Aseon Labs获千万融资，优化Robotaxi运维",
+    "summary": "自动驾驶出租车日常清洁与充电耗时耗力，YC孵化的初创公司Aseon Labs获千万美元融资以解决该痛点。",
+    "body": "目前，自动驾驶出租车在日常运营中需要行驶较长距离才能完成车辆清洁与充电，这不仅增加了空驶成本，也降低了车队的整体利用率。为解决这一行业痛点，初创公司Aseon Labs提出了一套针对性的解决方案。\n\n作为Y Combinator孵化的项目，Aseon Labs近日宣布完成1000万美元融资，投资方包括Crane Venture Partners等。该笔资金将用于推进其运维服务落地，有望显著提升自动驾驶车队的运营效率。",
+    "category": "人工智能",
+    "tags": [
+      "自动驾驶",
+      "Robotaxi",
+      "初创融资"
+    ],
+    "source": "TechCrunch",
+    "time": "19分钟前",
+    "ts": "2026-06-26T13:00:00+00:00",
+    "url": "https://techcrunch.com/2026/06/26/this-silicon-valley-startup-has-raised-10m-to-build-pitstops-to-clean-and-charge-robotaxis/",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "5ee2b8e72d7d6b99",
+    "title": "NASA阿尔忒弥斯计划调整，59亿美元硬件合同被取消",
+    "summary": "NASA监察长办公室审计显示，因阿尔忒弥斯登月计划重大调整，被取消的硬件合同最终投资高达59亿美元。",
+    "body": "NASA监察长办公室近日发布备忘录披露，由于阿尔忒弥斯登月计划的重大调整，多项原定硬件合同被取消，其最终投资额已飙升至59亿美元，远超最初29亿美元的合同总额。\n\n今年早些时候，NASA为简化登月架构对计划进行了重组，将首次载人登月任务推迟至阿尔忒弥斯4号，并放弃了太空发射系统火箭的升级版设计。此外，原计划建于月球轨道的“门户”空间站也被取消，转而聚焦月球表面基地建设。\n\n此次战略转向导致大量昂贵硬件被废弃，包括探索上面级及其适配器、大型发射塔以及空间站的居住和后勤模块。这一审计结果凸显了大型航天项目在战略调整中面临的巨大沉没成本。",
+    "category": "商业航天",
+    "tags": [
+      "NASA",
+      "阿尔忒弥斯计划",
+      "载人登月"
+    ],
+    "source": "Space.com",
+    "time": "19分钟前",
+    "ts": "2026-06-26T13:00:00+00:00",
+    "url": "https://www.space.com/space-exploration/artemis/nasa-spent-usd5-9-billion-on-artemis-program-hardware-it-may-never-use",
+    "image": "https://cdn.mos.cms.futurecdn.net/LW9ZYKAnfzqqFv6T76Nd3R-1280-80.jpg",
+    "stocks": []
+  },
+  {
+    "id": "9836466e3325f43b",
+    "title": "TechCrunch 2026创始人峰会早鸟票今晚截止",
+    "summary": "TechCrunch宣布2026年创始人峰会的早鸟票优惠将于今日太平洋时间深夜结束，届时门票价格将会上调。",
+    "body": "科技媒体TechCrunch近日发布通知，提醒与会者2026年TechCrunch创始人峰会的早鸟票优惠即将结束。该优惠将于太平洋时间今晚11点59分截止，购票者最多可节省190美元。\n\n早鸟期结束后，峰会门票价格将随之上调。有意参会的创业者、投资者及科技行业人士需抓紧时间注册，以享受最后的优惠价格参与这一科技盛会。",
+    "category": "人工智能",
+    "tags": [
+      "TechCrunch",
+      "创始人峰会",
+      "科技会议"
+    ],
+    "source": "TechCrunch",
+    "time": "19分钟前",
+    "ts": "2026-06-26T13:00:00+00:00",
+    "url": "https://techcrunch.com/2026/06/26/early-bird-pricing-ends-tonight-for-techcrunch-founder-summit/",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "7dd6dbf0ecda606c",
+    "title": "美国制裁卢旺达黄金精炼厂，指控其走私刚果金矿产",
+    "summary": "美国对卢旺达Gasabo黄金精炼厂实施制裁，指控该厂在2026年初走私了至少60公斤来自刚果（金）的黄金。",
+    "body": "据BBC报道，美国近日宣布对卢旺达的Gasabo黄金精炼厂实施制裁，指控其涉嫌走私刚果民主共和国的矿产资源。\n\n根据美方声明，该精炼厂在2026年初走私了至少60公斤的黄金。这一制裁举措凸显了美国对非洲地区冲突矿产走私问题的打击力度，旨在切断非法黄金贸易链条并规范区域矿产市场。",
+    "category": "国际局势",
+    "tags": [
+      "美国制裁",
+      "黄金走私",
+      "卢旺达",
+      "刚果（金）"
+    ],
+    "source": "BBC World",
+    "time": "25分钟前",
+    "ts": "2026-06-26T12:54:18+00:00",
+    "url": "https://www.bbc.co.uk/news/articles/c9d268xy90xo?at_medium=RSS&at_campaign=rss",
+    "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6932/live/4b749ee0-715c-11f1-909a-0f95894a566f.jpg",
+    "stocks": []
+  },
+  {
+    "id": "0468c983b06a5e3c",
+    "title": "谷歌AI再现幻觉：误认用户受Ground News赞助",
+    "summary": "有用户反馈谷歌AI在生成内容时出现幻觉，错误声称其由新闻平台Ground News赞助，引发对AI准确性的关注。",
+    "body": "近期，有用户在开发者社区反馈了遭遇的谷歌AI幻觉问题。该用户指出，谷歌AI在生成相关搜索结果或摘要时，错误地将其标记为新闻聚合平台Ground News的赞助商或受赞助方。\n\n这一事件再次凸显了当前大语言模型和AI搜索在事实核查与信息准确性方面面临的挑战。随着生成式AI深度融入搜索引擎，如何有效减少模型幻觉并提供可靠信息，仍是科技巨头亟待解决的技术难题。",
+    "category": "人工智能",
+    "tags": [
+      "人工智能",
+      "AI幻觉",
+      "谷歌",
+      "大模型"
+    ],
+    "source": "Hacker News",
+    "time": "28分钟前",
+    "ts": "2026-06-26T12:51:10+00:00",
+    "url": "https://www.youtube.com/post/UgkxsAIUDMQTYc15yQqURsGy0Kg7O1x2TtnB",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "4bd14b80296f6e47",
+    "title": "大众汽车拟全球裁员10万人并关闭德国四家工厂",
+    "summary": "大众汽车CEO正筹备公司历史上最激进的重组计划，拟在全球范围内裁员高达10万人，并计划关闭位于德国的四家工厂。",
+    "body": "据报道，大众汽车首席执行官奥立弗·布鲁姆正在筹备该公司历史上最为激进的重组计划。这一彻底的改革旨在应对当前的行业挑战与内部成本压力。\n\n根据该计划，大众汽车拟在全球范围内裁减多达10万名员工，并最终关闭位于德国本土的四家工厂。此举标志着大众在业务重组方面迈出了前所未有的步伐，将对其未来全球布局及德国本土制造业产生深远影响。",
+    "category": "未来能源",
+    "tags": [
+      "大众汽车",
+      "企业重组",
+      "裁员",
+      "关厂"
+    ],
+    "source": "Electrek",
+    "time": "33分钟前",
+    "ts": "2026-06-26T12:46:07+00:00",
+    "url": "https://electrek.co/2026/06/26/vw-could-cut-100000-jobs-and-close-4-factories-in-a-radical-shake-up/",
+    "image": "https://electrek.co/wp-content/uploads/sites/3/2026/06/VW-Emden-plant.jpg?quality=82&#038;strip=all&#038;w=1600",
+    "stocks": []
+  },
+  {
+    "id": "bfdeef7a4493a462",
+    "title": "多国向委内瑞拉提供地震援助",
+    "summary": "美洲及全球多国正向委内瑞拉提供援助、医疗物资和医护人员，以应对强烈地震。",
+    "body": "委内瑞拉发生强烈地震后，国际社会迅速做出反应。美洲及全球多个国家已承诺并正在向委内瑞拉提供紧急援助。\n\n这些援助包括各类救灾物资、医疗用品以及专业的医护人员，以帮助该国应对地震带来的严重影响并开展救援工作。",
+    "category": "国际局势",
+    "tags": [
+      "委内瑞拉",
+      "地震",
+      "国际援助"
+    ],
+    "source": "Al Jazeera",
+    "time": "36分钟前",
+    "ts": "2026-06-26T12:43:08+00:00",
+    "url": "https://www.aljazeera.com/news/2026/6/26/which-countries-have-pledged-aid-to-venezuela-after-powerful-earthquakes?traffic_source=rss",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "efd2da0b14d07adc",
+    "title": "名人公开谈论前列腺癌可显著提升公众健康意识",
+    "summary": "研究表明，知名人士公开讨论前列腺癌能产生直接的公共卫生影响，通过媒体报道提高大众认知，促使更多男性主动寻求医疗建议。",
+    "body": "当知名人士公开讨论自身的前列腺癌病情时，往往能对公共卫生产生直接且显著的影响。媒体的广泛报道不仅有效提升了公众对该疾病的认知与防范意识，还打破了相关的健康话题禁忌。\n\n这种名人效应能够切实转化为积极的医疗行动。在公众人物的示范作用下，更多男性会主动去了解前列腺癌的相关信息，并积极寻求专业的医疗建议与筛查，从而有助于疾病的早发现与早治疗。",
+    "category": "生物医药",
+    "tags": [
+      "前列腺癌",
+      "公共卫生",
+      "名人效应",
+      "健康科普"
+    ],
+    "source": "MedicalXpress",
+    "time": "39分钟前",
+    "ts": "2026-06-26T08:40:01-04:00",
+    "url": "https://medicalxpress.com/news/2026-06-celebrities-prostate-cancer.html",
+    "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/when-celebrities-talk.jpg",
+    "stocks": []
+  },
+  {
+    "id": "b1901119d0801817",
+    "title": "三星将对智能家居API收取访问费用",
+    "summary": "三星宣布自今年10月起，将对SmartThings智能家居API的访问实施新的付费订阅层级，个人开发者和高级用户均将受到影响。",
+    "body": "据外媒报道，三星计划从今年10月开始，对其SmartThings智能家居API的访问引入多种新的付费层级。其中，针对非商业的个人开发者，三星将推出每月4.99美元的订阅计划。\n\n这一政策调整不仅会影响软件开发者，部分依赖API进行高级自动化设置的智能家居用户也可能受到波及。此举标志着三星在智能家居生态商业化方面迈出新步伐，但也可能引发开发者与极客用户对平台开放性的担忧。",
+    "category": "消费电子",
+    "tags": [
+      "三星",
+      "智能家居",
+      "API收费"
+    ],
+    "source": "The Verge",
+    "time": "40分钟前",
+    "ts": "2026-06-26T08:38:18-04:00",
+    "url": "https://www.theverge.com/tech/957597/samsung-smartthings-api-charges",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "1a1be19e572545ee",
+    "title": "乌克兰重创俄军后勤，克里米亚陷入混乱",
+    "summary": "乌克兰军队绕过防空系统，对俄罗斯的石油设施、发电站及桥梁等后勤目标发动袭击，导致克里米亚地区陷入混乱并切断俄前线补给。",
+    "body": "据半岛电视台报道，乌克兰近期对俄罗斯的后勤补给线实施了毁灭性打击，给克里米亚地区带来了严重的混乱局面。\n\n基辅方面成功绕过了俄罗斯的防空系统，精准打击了石油供应设施、发电站、运输车队以及关键桥梁等战略目标。\n\n这一系列军事行动有效切断了俄罗斯前线部队的物资补给，对其后勤网络造成了重大破坏，进一步影响了俄乌冲突的战场态势。",
+    "category": "国际局势",
+    "tags": [
+      "俄乌冲突",
+      "后勤补给",
+      "克里米亚",
+      "地缘政治"
+    ],
+    "source": "Al Jazeera",
+    "time": "44分钟前",
+    "ts": "2026-06-26T12:34:56+00:00",
+    "url": "https://www.aljazeera.com/news/2026/6/26/ukraine-decimates-russian-logistics-bringing-chaos-to-crimea?traffic_source=rss",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "048b4995172e641c",
+    "title": "AMD十周年纪念版锐龙7 5800X3D处理器现货发售",
+    "summary": "AMD十周年纪念版锐龙7 5800X3D处理器现已在多家零售商处以官方建议零售价现货发售，有效缓解了此前的市场溢价问题。",
+    "body": "AMD十周年纪念版锐龙7 5800X3D处理器现已在B&H Photo、Newegg和Best Buy等零售商处以官方建议零售价现货发售。此前该芯片在首发后遭遇黄牛炒作导致价格翻倍，此次补货为寻找该处理器的玩家提供了便利。由于市场需求旺盛，预计库存将很快售罄。\n\n该处理器配备8核16线程，最高加速频率达4.5GHz，并拥有96MB的超大L3缓存，是AM4平台上性能最强的游戏芯片。AMD重新生产此芯片旨在DDR5内存短缺期间，帮助发烧友升级现有的DDR4平台。虽然核心性能与原版相似，但AMD对3D V-Cache技术进行了微调以恢复量产。",
+    "category": "消费电子",
+    "tags": [
+      "AMD",
+      "处理器",
+      "PC硬件"
+    ],
+    "source": "Tom's Hardware",
+    "time": "52分钟前",
+    "ts": "2026-06-26T12:26:20+00:00",
+    "url": "https://www.tomshardware.com/pc-components/amds-new-10th-anniversary-ryzen-7-5800x3d-cpu-is-now-available-revamped-processor-is-the-fastest-gaming-chip-available-for-ddr4-systems-breathes-new-life-into-am4-platforms",
+    "image": "https://cdn.mos.cms.futurecdn.net/8wErtoG3paXuDpFUDvEH27-1280-80.jpg",
+    "stocks": [
+      {
+        "name": "超威半导体",
+        "ticker": "AMD",
+        "reason": "作为该处理器的研发与制造商，新产品现货发售并受市场热捧将直接带动公司消费级处理器业务的营收。",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "1108d0d680c6960d",
+    "title": "亚马逊Prime Day飞利浦Hue智能灯罕见大促",
+    "summary": "亚马逊Prime Day期间，飞利浦Hue智能照明全线产品迎来罕见大幅折扣，涵盖智能灯泡套装及睡眠灯等。",
+    "body": "飞利浦Hue智能照明产品平时鲜有大幅折扣，因此今年亚马逊Prime Day的促销活动显得格外引人注目。目前，该品牌旗下多款智能照明产品均迎来显著降价，优惠范围涵盖智能灯泡入门套装、睡眠灯以及智能按钮等全线产品。\n\n值得注意的是，在部分情况下，消费者甚至可以直接通过飞利浦官方渠道获取这些最低价格。此次大促不仅为消费者提供了入手智能家居设备的良机，也反映出品牌在重要促销节点积极抢占市场份额的策略。",
+    "category": "消费电子",
+    "tags": [
+      "亚马逊Prime Day",
+      "飞利浦Hue",
+      "智能照明",
+      "消费电子"
+    ],
+    "source": "The Verge",
+    "time": "58分钟前",
+    "ts": "2026-06-26T08:20:44-04:00",
+    "url": "https://www.theverge.com/tech/957269/philips-hue-amazon-prime-day-2026-deal-sale",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "e9fd37ab6fe875e2",
+    "title": "手机推送频繁分散注意力？专家建议调整生活以提升专注力",
+    "summary": "研究表明，成年人每天平均收到约46条智能手机推送通知，频繁的通知严重分散注意力，建议通过调整生活习惯来改善专注力。",
+    "body": "在现代社会，智能手机的提示音已成为人们生活中最常见的声音之一，这种声音被专门设计用来瞬间捕获用户的注意力。\n\n据统计，普通成年人每天至少会收到46条来自智能手机的推送通知，这意味着在清醒时间内大约每20分钟就会被打断一次。这种频繁的数字干扰对人们的专注力造成了显著的负面影响，促使人们思考如何通过调整生活方式来重新获得专注力。",
+    "category": "消费电子",
+    "tags": [
+      "智能手机",
+      "注意力",
+      "推送通知"
+    ],
+    "source": "MedicalXpress",
+    "time": "59分钟前",
+    "ts": "2026-06-26T08:20:02-04:00",
+    "url": "https://medicalxpress.com/news/2026-06-struggle-pay-attention-tweak-life.html",
+    "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/push-notification.jpg",
+    "stocks": []
+  },
+  {
+    "id": "e502787da083ce88",
+    "title": "巴基斯坦手工足球工匠坚守渐逝传统手艺",
+    "summary": "在机器制造逐渐主导全球足球产业的背景下，巴基斯坦最后一批手工缝制足球的工匠正努力维持这一逐渐消亡的传统手艺。",
+    "body": "半岛电视台报道了巴基斯坦足球制造业的现状。随着现代化机器生产重塑全球体育器材制造格局，传统手工缝制足球的市场空间正被不断挤压。\n\n尽管如此，巴基斯坦最后一批手工缝制足球的工匠们依然在坚守。他们凭借精湛的技艺，努力将这一传统手艺传承下去，展现了手工制造在工业化浪潮中的独特价值与韧性。",
+    "category": "消费电子",
+    "tags": [
+      "手工制造",
+      "体育产业",
+      "传统工艺"
+    ],
+    "source": "Al Jazeera",
+    "time": "1小时前",
+    "ts": "2026-06-26T12:15:45+00:00",
+    "url": "https://www.aljazeera.com/features/longform/2026/6/26/the-hands-behind-the-beautiful-game?traffic_source=rss",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "e956e8c50eeb54b4",
+    "title": "西欧遭遇极端热浪，科学家探究高温对大脑的负面影响",
+    "summary": "西欧近期遭遇危险热浪，研究表明极端高温不仅破坏基础设施，还会改变大脑化学信号，引发情绪暴躁与认知障碍。",
+    "body": "近期，西欧遭遇危险的热浪袭击，英国录得有史以来最高的6月气温。极端高温不仅对农业、基础设施和医疗系统造成严重后果，还对人类大脑产生显著的负面影响。\n\n多项研究证实，气温升高会让人变得更加烦躁和易怒，并降低高温暴露后的专注力。此外，极端高温对儿童及心理健康障碍患者的危害尤为严重。\n\n动物实验表明，过度高温可能会改变大脑中化学信号的功能。目前，科学家们正致力于揭示极端高温影响大脑神经机制的深层原因，以应对日益严峻的气候健康挑战。",
+    "category": "生物医药",
+    "tags": [
+      "极端热浪",
+      "大脑健康",
+      "神经科学",
+      "公共卫生"
+    ],
+    "source": "MIT Tech Review",
+    "time": "1小时前",
+    "ts": "2026-06-26T12:10:00+00:00",
+    "url": "https://www.technologyreview.com/2026/06/26/1139780/the-download-heatwaves-brain-health-openai-restrictions/",
+    "image": "https://wp.technologyreview.com/wp-content/uploads/2021/04/MJ21_Data_archaeology_spreads-Maxomatic-FIN_01.jpg?w=3000",
+    "stocks": []
+  },
+  {
+    "id": "8a721e1a9571d248",
+    "title": "CAPTCHA验证人类，HATCHA旨在验证非人类身份",
+    "summary": "科技社区热议新型验证概念HATCHA，与传统CAPTCHA验证人类身份不同，该项目旨在识别并证明用户为非人类或AI程序。",
+    "body": "近日，Hacker News社区上一则关于“HATCHA”的讨论引发关注。传统的CAPTCHA测试旨在区分计算机与人类，确保操作者为真人；而HATCHA则提出了截然相反的概念，即用于证明操作者并非人类。\n\n尽管目前缺乏关于HATCHA具体技术实现的详细资料，但这一概念反映了随着人工智能技术的发展，业界对AI身份识别与机器行为检测的深入思考，未来或在防范AI滥用方面具有潜在意义。",
+    "category": "人工智能",
+    "tags": [
+      "人工智能",
+      "网络安全",
+      "人机验证"
+    ],
+    "source": "Hacker News",
+    "time": "1小时前",
+    "ts": "2026-06-26T12:06:17+00:00",
+    "url": "https://github.com/mondaycom/HATCHA",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "2157a37a1c02d3a4",
+    "title": "研究称澳大利亚社交媒体禁令效果不佳",
+    "summary": "一项研究表明，由于年龄验证主要依赖用户自行申报，澳大利亚的社交媒体禁令实际执行效果并不理想。",
+    "body": "近日，一项最新研究指出，澳大利亚实施的社交媒体禁令在实际执行中并未取得显著效果。该禁令旨在限制特定年龄段用户使用社交平台，但目前的落实状况未达预期。\n\n研究发现，导致该禁令效果不佳的主要原因在于，平台目前主要依赖用户自行申报的年龄验证检查。这种自我声明的验证方式存在明显局限性，难以真正发挥限制作用，这也凸显了完善网络年龄核实机制的必要性。",
+    "category": "消费电子",
+    "tags": [
+      "社交媒体",
+      "年龄验证",
+      "互联网监管"
+    ],
+    "source": "Engadget",
+    "time": "1小时前",
+    "ts": "2026-06-26T12:01:47+00:00",
+    "url": "https://www.engadget.com/2202255/australia-social-media-ban-still-not-effective/",
+    "image": "https://www.engadget.com/img/gallery/australias-social-media-ban-may-not-be-that-effective-study-finds/l-intro-1782475241.jpg",
+    "stocks": []
+  },
+  {
+    "id": "93365db7a3597f2d",
+    "title": "星链前工程师创立初创公司，推动巨型星座普及",
+    "summary": "曾参与构建星链的前SpaceX工程师成立了一家初创公司，旨在为政府和企业提供巨型星座服务，以满足其对太空基础设施的控制需求。",
+    "body": "近日，曾参与构建和扩展“星链”（Starlink）项目的前SpaceX工程师宣布成立一家全新的初创公司。该公司的核心目标是向政府和企业客户提供巨型星座的交付与部署服务。\n\n这一举措旨在帮助那些希望对太空基础设施拥有更多自主控制权的机构。通过提供定制化的巨型星座解决方案，该初创公司有望推动太空互联网和卫星通信市场的多元化发展，进一步促进商业航天领域的竞争与创新。",
+    "category": "商业航天",
+    "tags": [
+      "商业航天",
+      "星链",
+      "巨型星座",
+      "卫星通信"
+    ],
+    "source": "SpaceNews",
+    "time": "1小时前",
+    "ts": "2026-06-26T12:00:00+00:00",
+    "url": "https://spacenews.com/starlink-veterans-launch-startup-to-broaden-megaconstellation-ownership/",
+    "image": "https://i0.wp.com/spacenews.com/wp-content/uploads/2026/06/Eclipse-Space_1-scaled.jpg?fit=1024%2C683&amp;ssl=1",
+    "stocks": []
+  },
+  {
+    "id": "5b68689351ca3c04",
+    "title": "NASA耗资3000万美元拯救即将坠毁的Swift望远镜",
+    "summary": "因太阳风暴导致大气阻力增加，运行近22年的Swift望远镜面临坠毁风险，NASA决定斥资3000万美元对其展开史无前例的太空救援任务。",
+    "body": "运行近22年的Swift望远镜主要用于探测宇宙中的伽马射线暴，具备哈勃和韦伯等望远镜无法替代的快速指向与捕捉能力。由于太阳风暴引发地球外层大气阻力增加，该卫星预计在年底前脱离轨道坠毁。\n\n为保住这一重要天文观测设备，NASA决定耗资3000万美元，委托Katalyst Space公司利用其新型Link航天器执行史无前例的救援任务。此举不仅彰显了Swift在宇宙爆炸研究中的不可替代性，也体现了航天机构在维护太空生态与保留高价值资产间的审慎考量。",
+    "category": "商业航天",
+    "tags": [
+      "NASA",
+      "Swift望远镜",
+      "太空救援",
+      "Katalyst Space"
+    ],
+    "source": "Space.com",
+    "time": "1小时前",
+    "ts": "2026-06-26T12:00:00+00:00",
+    "url": "https://www.space.com/space-exploration/launches-spacecraft/nasa-is-paying-usd30-million-for-a-1st-of-its-kind-rescue-mission-to-the-aging-swift-telescope-before-it-falls-from-space-is-it-worth-it",
+    "image": "https://cdn.mos.cms.futurecdn.net/vZKamuUeksWZ6RyPJUXGs9-1280-80.jpg",
+    "stocks": []
+  },
+  {
+    "id": "17dcd4a57c1dcbc1",
+    "title": "联合国警告：新型合成毒品及可卡因冰毒激增",
+    "summary": "联合国发布警告称，受地缘政治变化及追求利润影响，全球新型合成毒品、可卡因和冰毒等强效毒品出现激增态势。",
+    "body": "联合国近日发出警告，全球范围内新型合成毒品、可卡因和冰毒等毒品的生产和消费正出现显著激增。这一现象的背后，是毒品制造商为应对不断变化的地缘政治局势并谋求更高利润而做出的调整。\n\n强效合成毒品的泛滥不仅对全球公共健康构成严重威胁，也折射出当前国际局势动荡对跨国非法犯罪活动的推波助澜作用，凸显了全球禁毒合作面临的严峻挑战。",
+    "category": "国际局势",
+    "tags": [
+      "联合国",
+      "地缘政治",
+      "合成毒品",
+      "国际局势"
+    ],
+    "source": "Al Jazeera",
+    "time": "1小时前",
+    "ts": "2026-06-26T11:58:30+00:00",
+    "url": "https://www.aljazeera.com/news/2026/6/26/new-synthetic-drugs-cocaine-and-meth-booming-warns-un?traffic_source=rss",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "a50f27c3009ad338",
+    "title": "国际空间站将维修机械臂，长期健康状况引担忧",
+    "summary": "NASA宇航员正准备进行太空行走以修复国际空间站的机械臂，同时顾问们对空间站及宇航服的长期健康状况表示担忧。",
+    "body": "美国宇航局的宇航员目前正驻留在国际空间站，并准备执行一次关键的太空行走任务。此次任务的主要目标是修复空间站外部的机械臂，以确保其正常运行和后续任务的顺利开展。\n\n与此同时，相关顾问对国际空间站以及舱外宇航服的长期健康状况提出了担忧。随着空间站设备的老化，此类维修任务凸显了维持太空基础设施长期稳定运行所面临的挑战，也引发了业界对未来航天器维护问题的广泛关注。",
+    "category": "商业航天",
+    "tags": [
+      "国际空间站",
+      "太空行走",
+      "NASA",
+      "航天维修"
+    ],
+    "source": "SpaceNews",
+    "time": "1小时前",
+    "ts": "2026-06-26T11:57:53+00:00",
+    "url": "https://spacenews.com/iss-repair-spacewalk-highlights-concerns-about-station-health/",
+    "image": "https://i0.wp.com/spacenews.com/wp-content/uploads/2026/06/isseva-march2026.jpeg?fit=1024%2C838&amp;ssl=1",
+    "stocks": []
+  },
+  {
+    "id": "bee18fdfc3a8ece0",
+    "title": "沃尔玛Prime Day精选23款科技好物优惠盘点",
+    "summary": "科技媒体Wired盘点了沃尔玛在Prime Day期间推出的23款科技产品优惠，为不愿在亚马逊购物的消费者提供替代选择。",
+    "body": "科技媒体Wired近日发布了一篇导购指南，详细盘点了沃尔玛在Prime Day期间推出的23款精选科技产品优惠。文章旨在为那些不愿参与亚马逊促销活动的消费者提供优质的替代购物选择。\n\n这些优惠涵盖了各类热门电子产品与智能设备，展现了沃尔玛在消费电子零售领域的竞争力。此举不仅为消费者提供了更多元化的购物渠道，也凸显了大型零售商在重要促销节点上的激烈博弈与市场份额争夺。",
+    "category": "消费电子",
+    "tags": [
+      "沃尔玛",
+      "Prime Day",
+      "消费电子",
+      "零售促销"
+    ],
+    "source": "Wired",
+    "time": "1小时前",
+    "ts": "2026-06-26T11:50:08+00:00",
+    "url": "https://www.wired.com/story/walmart-deals-apd-06-26-2026/",
+    "image": "https://media.wired.com/photos/6a3abc00b35647f689f166fa/master/pass/The-Best-Walmart-Deals-This-Prime-Day.jpg",
+    "stocks": [
+      {
+        "name": "沃尔玛",
+        "ticker": "WMT",
+        "reason": "借势Prime Day推出科技产品促销，有望提振消费电子品类销售额。",
+        "confidence": "medium"
+      },
+      {
+        "name": "亚马逊",
+        "ticker": "AMZN",
+        "reason": "作为Prime Day发起者，其促销节点带动了全行业的零售热度与关注度。",
+        "confidence": "low"
+      }
+    ]
+  },
+  {
+    "id": "69a05334ce151738",
+    "title": "微软将Win10免费安全更新延长至2027年",
+    "summary": "微软悄然将Windows 10消费者的免费扩展安全更新计划延长一年，关键安全补丁的截止日期现已推迟至2027年10月14日。",
+    "body": "微软近期更新了其Windows 10扩展安全更新支持页面，将针对消费者的免费安全更新计划延长了一年。这意味着无法或不愿升级到Windows 11的用户，将在2025年10月Windows 10正式结束支持后，继续获得第二年的免费关键安全补丁，新截止日期为2027年10月14日。已注册的设备将自动延期，用户无需额外操作。\n\n微软表示，此举旨在帮助用户在过渡期间保持安全，并为他们寻找合适的PC提供更多时间和灵活性。在注册方式上，用户仍可通过同步PC设置至微软账户、兑换积分或支付30美元来免费获取。此外，欧洲用户只需登录微软账户即可免费加入，这是微软在回应消费者权益组织反馈后作出的让步。",
+    "category": "消费电子",
+    "tags": [
+      "微软",
+      "Windows10",
+      "操作系统",
+      "安全更新"
+    ],
+    "source": "Tom's Hardware",
+    "time": "1小时前",
+    "ts": "2026-06-26T11:31:26+00:00",
+    "url": "https://www.tomshardware.com/software/windows/microsoft-extends-free-windows-10-security-updates-for-a-second-year",
+    "image": "https://cdn.mos.cms.futurecdn.net/EmZruVCUKbh3hWuvi5zbN7-1280-80.jpg",
+    "stocks": [
+      {
+        "name": "微软",
+        "ticker": "MSFT",
+        "reason": "延长系统支持期有助于平滑用户向新系统和AI PC过渡，巩固其在PC操作系统市场的生态主导地位与用户黏性。",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "4321d8d1cbcc24cd",
+    "title": "微软苹果等巨头大幅上调多款硬件产品价格",
+    "summary": "本周，微软和苹果等主要科技巨头宣布对旗下Xbox、MacBook和iPad等多款硬件产品进行大幅涨价。",
+    "body": "本周，消费电子市场迎来一波显著的涨价潮。微软和苹果等行业巨头相继宣布，对旗下多款核心硬件产品实施大幅价格上调。此次涨价涉及的产品线广泛，包括微软的Xbox游戏主机以及苹果的MacBook笔记本电脑和iPad平板电脑等。\n\n此次主要科技厂商的集体涨价行为，可能对全球消费电子市场的终端需求产生一定影响。硬件产品价格的普遍攀升无疑将增加消费者的购买成本，并可能促使市场重新评估相关企业的供应链管理与定价策略。",
+    "category": "消费电子",
+    "tags": [
+      "苹果",
+      "微软",
+      "产品涨价",
+      "消费电子"
+    ],
+    "source": "Engadget",
+    "time": "1小时前",
+    "ts": "2026-06-26T11:30:00+00:00",
+    "url": "https://www.engadget.com/2202230/prices-rocket-up-on-xboxes-macbooks-ipads-and-more/",
+    "image": "https://www.engadget.com/img/gallery/the-morning-after-prices-rocket-up-on-xboxes-macbooks-ipads-and-more/l-intro-1782467476.jpg",
+    "stocks": []
+  },
+  {
+    "id": "dbf11a2c50adf9cb",
+    "title": "英王查尔斯放弃迁入白金汉宫 宫殿将向公众全面开放",
+    "summary": "白金汉宫翻修工程将于2027年完工，英王查尔斯与王后决定继续居住克拉伦斯宫，以便该地标建筑向公众更全面开放。",
+    "body": "白金汉宫耗资3.69亿英镑的翻修工程预计于2027年3月完工。英王查尔斯三世与卡米拉王后决定不入住白金汉宫，而是继续居住在克拉伦斯宫。官方表示，此举旨在让这座历史地标能够向公众更全面地开放。\n\n国王与王后年近八旬，不愿承受搬迁带来的变动。此外，若国王居于白金汉宫，出于安全考量将限制访客数量及参观区域。未来白金汉宫可能延长开放时间以增加收入，但仍将作为王室行政总部及举办国宴的核心场所。\n\n最新王室财务报告显示，用于支付翻修工程的君主拨款将在完工后下调。同时，查尔斯成为首位公开纳税金额的英国君主，皇家火车专列也计划于2027年退役以节省开支。",
+    "category": "国际局势",
+    "tags": [
+      "英国王室",
+      "白金汉宫",
+      "查尔斯三世",
+      "君主拨款"
+    ],
+    "source": "BBC中文",
+    "time": "1小时前",
+    "ts": "2026-06-26T11:28:50+00:00",
+    "url": "https://www.bbc.com/zhongwen/articles/cj6gng2ln6xo/trad?at_medium=RSS&at_campaign=rss",
+    "image": "https://ichef.bbci.co.uk/ace/ws/240/cpsprodpb/307e/live/2a280890-7138-11f1-b1db-af71d47507d6.jpg",
+    "stocks": []
+  },
+  {
+    "id": "31009695dc9e6970",
+    "title": "苹果调整Mac芯片策略，最强机型或等至2027年升级",
+    "summary": "苹果预计将改变Mac芯片发布策略，M6芯片或取消Pro和Max版本，重大处理器升级可能推迟至2027年。",
+    "body": "据彭博社记者Mark Gurman报道，苹果预计将打破常规的Mac芯片发布策略。即将推出的M6芯片可能不会包含Pro或Max版本，这意味着搭载该系列高端芯片的最强Mac机型将面临升级空窗期。\n\n相反，苹果计划将原本安排在后期发布的技术提前加速，并整合到明年发布的M7芯片中。这一策略调整表明，追求极致性能的Mac用户可能需要等到2027年，才能迎来下一次重大的处理器性能飞跃。",
+    "category": "消费电子",
+    "tags": [
+      "苹果",
+      "Mac",
+      "M系列芯片"
+    ],
+    "source": "The Verge",
+    "time": "2小时前",
+    "ts": "2026-06-26T07:14:44-04:00",
+    "url": "https://www.theverge.com/tech/957561/apple-m6-m7-ai-chip-release-timeline-gurman",
+    "image": "",
+    "stocks": [
+      {
+        "name": "苹果",
+        "ticker": "AAPL",
+        "reason": "公司调整芯片研发策略，集中资源加速M7技术落地，有望巩固其在高端PC市场的长期竞争力。",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "b0cccfb3678f49fd",
+    "title": "亚马逊Prime Day促销：华硕外置光驱低至27美元",
+    "summary": "亚马逊Prime Day期间，华硕外置DVD与蓝光光驱迎来大幅降价，助力用户数字化和重温实体影音收藏。",
+    "body": "随着流媒体服务的普及，现代PC和笔记本大多取消了内置光驱，但近期消费者对实体影音内容的拥有权需求出现回升，以防止流媒体平台随意下架内容。外置USB光驱因此成为读取和备份旧有DVD及蓝光光盘的理想选择。\n\n在近期的亚马逊Prime Day促销活动中，华硕推出了多款外置光驱优惠。其中，华硕Lite便携式USB 2.0超薄8倍速DVD刻录机售价降至27.99美元，而华硕6倍速外置蓝光刻录机则降价至149.90美元，为影音爱好者提供了高性价比的实体媒体数字化方案。",
+    "category": "消费电子",
+    "tags": [
+      "华硕",
+      "外置光驱",
+      "Prime Day",
+      "消费电子"
+    ],
+    "source": "Tom's Hardware",
+    "time": "2小时前",
+    "ts": "2026-06-26T11:10:36+00:00",
+    "url": "https://www.tomshardware.com/peripherals/digitize-your-library-with-these-blu-ray-or-dvd-drives-from-as-little-as-usd27-in-these-prime-day-deals-revive-your-old-dvd-blu-ray-collection-with-these-drive-deals",
+    "image": "https://cdn.mos.cms.futurecdn.net/o8QLNVwVpjLBRrhJ6sUcDa-1280-80.jpg",
+    "stocks": []
+  },
+  {
+    "id": "5b384779df8c9adc",
+    "title": "亚马逊会员日收官：超130款消费电子大促",
+    "summary": "亚马逊Prime Day促销活动进入最后一天，涵盖电视、智能家居、耳机等超130款科技产品打折，部分热门商品已开始缺货。",
+    "body": "亚马逊年度Prime Day促销活动已进入最后一天，其持续时间和规模甚至被媒体戏称为“Prime周”。此次活动涵盖了种类繁多的科技数码产品，包括智能电视、智能家居设备、充电器以及各类耳机等。\n\n目前，媒体精选了超过130款值得入手的优惠商品供消费者选择。不过，由于促销力度较大，部分最受欢迎的热门折扣商品在部分零售商处已开始出现缺货现象，提醒有购买意愿的消费者需尽快下单。",
+    "category": "消费电子",
+    "tags": [
+      "亚马逊",
+      "Prime Day",
+      "消费电子",
+      "促销活动"
+    ],
+    "source": "The Verge",
+    "time": "2小时前",
+    "ts": "2026-06-26T07:09:22-04:00",
+    "url": "https://www.theverge.com/gadgets/957435/prime-day-2026-best-tech-deals-sale-day-four",
+    "image": "",
+    "stocks": [
+      {
+        "name": "亚马逊",
+        "ticker": "AMZN",
+        "reason": "作为Prime Day的主办方，大促活动直接带动其平台商品销售额与Prime会员订阅增长。",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "d31456e8c2dc4239",
+    "title": "NASA发现两颗密度极低棉花糖系外行星",
+    "summary": "NASA的TESS空间望远镜在同一个星系中发现两颗密度与棉花糖相当的超级蓬松巨行星。",
+    "body": "NASA的TESS空间望远镜近期取得重要天文发现，在同一个行星系统中观测到两颗罕见的“棉花糖”行星。这两颗巨行星虽然体积庞大，但密度极低，被科学家形象地称为“超级蓬松”行星。\n\n这一发现丰富了人类对系外行星多样性的认知。此类具有极端物理特性的天体，其密度与棉花糖相当，将为天文学家研究行星的形成与演化机制提供宝贵的数据支持。",
+    "category": "商业航天",
+    "tags": [
+      "NASA",
+      "TESS望远镜",
+      "系外行星"
+    ],
+    "source": "Engadget",
+    "time": "2小时前",
+    "ts": "2026-06-26T11:09:10+00:00",
+    "url": "https://www.engadget.com/2202239/nasa-tess-cotton-candy-planet-discovery/",
+    "image": "https://www.engadget.com/img/gallery/nasas-tess-spacecraft-finds-two-cotton-candy-planets-in-one-system/l-intro-1782472083.jpg",
+    "stocks": []
+  },
+  {
+    "id": "319ae6fc3d098d6a",
+    "title": "火箭实验室刷新快速响应发射纪录，中国或试助推器着陆",
+    "summary": "火箭实验室在接到通知后不到17小时完成发射，刷新快速响应任务纪录。同时，多款美国新型火箭的首飞前景引发业界担忧。",
+    "body": "火箭实验室近日成功执行了“Victus Haze”快速响应任务，在收到美国太空军发射通知后仅16小时42分钟便完成发射，将此前的纪录大幅缩短了10个多小时。此次发射前几乎未作公开预告，也未提供任务直播。\n\n此外，随着2026年步入中期，业界对火箭实验室的Neutron等多款美国新型火箭能否如期首飞表示担忧，预期实际首飞数量可能远低于预期。同时，有报道指出中国可能很快进行火箭助推器着陆尝试。",
+    "category": "商业航天",
+    "tags": [
+      "火箭实验室",
+      "快速响应发射",
+      "商业航天",
+      "助推器着陆"
+    ],
+    "source": "Ars Technica",
+    "time": "2小时前",
+    "ts": "2026-06-26T11:00:59+00:00",
+    "url": "https://arstechnica.com/space/2026/06/rocket-report-china-may-soon-attempt-booster-landing-rocket-lab-does-rapid-response/",
+    "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/06/IMG_8646-lowres-1-1152x648.webp",
+    "stocks": [
+      {
+        "name": "Rocket Lab",
+        "ticker": "RKLB",
+        "reason": "公司成功执行美国太空军快速响应发射任务并打破纪录，展现其强大的发射调度与商业履约能力。",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "12e66485e47b445f",
+    "title": "2026年MacBook选购指南：Neo、Air与Pro怎么选",
+    "summary": "科技媒体Wired发布2026年MacBook选购指南，对Neo、Air和Pro三款机型进行实测并给出购买建议。",
+    "body": "科技媒体Wired近日发布了针对2026年苹果MacBook产品线的选购指南，重点提及了Neo、Air以及Pro三款机型。\n\n作者在对每一款MacBook进行亲自实测后，针对不同用户的需求给出了客观的购买建议。该指南旨在帮助消费者在苹果产品线中做出最适合自己的选择。",
+    "category": "消费电子",
+    "tags": [
+      "MacBook",
+      "苹果公司",
+      "选购指南"
+    ],
+    "source": "Wired",
+    "time": "2小时前",
+    "ts": "2026-06-26T11:00:00+00:00",
+    "url": "https://www.wired.com/story/which-macbook-should-you-buy/",
+    "image": "https://media.wired.com/photos/69cbff9493b7298932e00d65/master/pass/IMG_3324.JPG",
+    "stocks": [
+      {
+        "name": "苹果",
+        "ticker": "AAPL",
+        "reason": "作为MacBook的制造商，媒体选购指南的发布有助于促进其个人电脑产品的销售。",
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
+    "id": "e08c66ee853de147",
+    "title": "特朗普家族阿尔巴尼亚度假村项目引发大规模抗议",
+    "summary": "伊万卡与库什纳在阿尔巴尼亚萨赞岛的巨额度假村开发项目引发环保抗议，现已演变为要求执政党下台的大规模政治运动。",
+    "body": "伊万卡·特朗普与贾里德·库什纳计划在阿尔巴尼亚萨赞岛投资14亿美元建设度假村项目。该开发计划最初引发了被称为“火烈鸟革命”的环保抗议活动。\n\n随着事态发展，针对该项目的抗议活动已经失控并演变为大规模的政治运动。数千名抗议者将矛头指向阿尔巴尼亚执政党，要求现任政府下台，该项目甚至可能成为导致阿尔巴尼亚总理倒台的导火索。",
+    "category": "国际局势",
+    "tags": [
+      "国际局势",
+      "阿尔巴尼亚",
+      "政治抗议"
+    ],
+    "source": "Wired",
+    "time": "2小时前",
+    "ts": "2026-06-26T11:00:00+00:00",
+    "url": "https://www.wired.com/story/ivanka-and-jareds-island-resort-could-bring-down-albanias-prime-minister/",
+    "image": "https://media.wired.com/photos/6a3d3c2c148f10187e92230b/master/pass/062526-Ivanka-trump-Jared-kusner-Albania.jpg",
+    "stocks": []
+  },
+  {
+    "id": "f9fddd5c0cef4241",
+    "title": "欧洲面临太空安全新挑战，卫星经济支撑超一成GDP",
+    "summary": "卫星导航等太空活动对欧盟经济至关重要，支撑超过10%的GDP。随着依赖度加深，太空轨道安全正成为欧洲面临的下一个重大挑战。",
+    "body": "在欧盟地区，仅卫星导航一项就被认为支撑了超过10%的国内生产总值。如果将整体依赖卫星的经济活动计算在内，其对宏观经济的贡献比例还要大得多。\n\n随着太空基础设施对经济和社会的支撑作用日益凸显，太空轨道的安全与稳定正成为欧洲面临的下一个重大安全挑战。保障卫星系统的安全运行，对于维护欧洲的经济命脉具有深远意义。",
+    "category": "商业航天",
+    "tags": [
+      "太空安全",
+      "卫星导航",
+      "欧洲经济"
+    ],
+    "source": "SpaceNews",
+    "time": "2小时前",
+    "ts": "2026-06-26T11:00:00+00:00",
+    "url": "https://spacenews.com/europes-next-security-challenge-is-in-orbit/",
+    "image": "https://i0.wp.com/spacenews.com/wp-content/uploads/2023/09/space-situational-awareness-ESA-scaled.jpg?fit=1024%2C533&amp;ssl=1",
+    "stocks": []
+  },
+  {
+    "id": "58ac04da6eaac040",
+    "title": "亚马逊Prime Day迎最后冲刺，疯狂促销优惠持续追踪",
+    "summary": "亚马逊年度Prime Day促销活动进入第四天最后阶段，大量折扣优惠仍在继续，媒体正持续追踪相关消费趋势。",
+    "body": "亚马逊年度Prime Day会员日促销活动已进入第四天的最后冲刺阶段。尽管活动接近尾声，但平台上的各项折扣优惠依然活跃，部分商品的促销力度十分惊人。\n\n科技媒体编辑团队仍在持续挖掘最后的超值交易与消费趋势。此次延长的促销活动不仅为消费者提供了丰富的购物选择，也进一步反映了当前线上零售市场的强劲活力与消费者的购物热情。",
+    "category": "消费电子",
+    "tags": [
+      "亚马逊",
+      "Prime Day",
+      "电商促销",
+      "消费电子"
+    ],
+    "source": "Wired",
+    "time": "2小时前",
+    "ts": "2026-06-26T10:54:18+00:00",
+    "url": "https://www.wired.com/live/amazon-prime-day-live-tracker-july-26-2026/",
+    "image": "https://media.wired.com/photos/6a39c73ad8ef6fd843d20906/master/pass/Launorma_Liveblog.png",
+    "stocks": [
+      {
+        "name": "亚马逊",
+        "ticker": "AMZN",
+        "reason": "Prime Day是亚马逊年度核心促销活动，直接推动其电商业务营收与Prime会员订阅增长。",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "a118ce97c895e62f",
+    "title": "德国圣诞市场袭击者因谋杀六人被判终身监禁",
+    "summary": "德国法院判处2024年圣诞市场驾车袭击者终身监禁，该事件曾导致一名儿童和五名妇女不幸遇难。",
+    "body": "德国法院近日对2024年发生的圣诞市场驾车袭击案作出判决，袭击者塔莱布·阿卜杜勒莫赫森因谋杀罪名被判处终身监禁。\n\n2024年，该袭击者驾车冲入德国一处圣诞市场，造成一名9岁儿童和五名妇女不幸遇难，引发了社会的广泛关注与震惊。此判决为这起严重的暴力犯罪事件画上了句号，彰显了司法系统对危害公共安全行为的严厉惩处。",
+    "category": "国际局势",
+    "tags": [
+      "德国",
+      "司法判决",
+      "社会安全"
+    ],
+    "source": "BBC World",
+    "time": "2小时前",
+    "ts": "2026-06-26T10:49:11+00:00",
+    "url": "https://www.bbc.co.uk/news/articles/cy06y63y6lno?at_medium=RSS&at_campaign=rss",
+    "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3dd3/live/369ff970-7142-11f1-8e1d-bbbb1017d210.jpg",
+    "stocks": []
+  },
+  {
+    "id": "e921f93d0122058c",
+    "title": "乌克兰高级情报官因替俄间谍活动被判终身监禁",
+    "summary": "乌克兰一名高级情报官员因替俄罗斯从事间谍活动被判处终身监禁，检方指控其系统性泄露国家机密信息。",
+    "body": "乌克兰法院近日对一起重大间谍案作出判决，乌克兰高级情报官员德米特罗·科久拉上校因替俄罗斯从事间谍活动被判处终身监禁。\n\n据检方指控，科久拉同意与俄方分享国家机密，并系统性地泄露了大量核心机密信息。\n\n此事件对乌克兰国家安全造成严重影响，也进一步凸显了俄乌冲突背景下双方在情报领域的激烈博弈与复杂局势。",
+    "category": "国际局势",
+    "tags": [
+      "俄乌冲突",
+      "间谍案",
+      "国际局势"
+    ],
+    "source": "BBC World",
+    "time": "2小时前",
+    "ts": "2026-06-26T10:38:37+00:00",
+    "url": "https://www.bbc.co.uk/news/articles/cg4w3wyxzzno?at_medium=RSS&at_campaign=rss",
+    "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/aa56/live/c5e73e20-e94b-11ef-80e0-a5172a55ed51.jpg",
+    "stocks": []
+  },
+  {
     "id": "c16d500ec07773e0",
     "title": "苹果上调Mac等产品售价，OpenAI发布首款AI芯片",
     "summary": "受AI数据中心扩张致存储芯片成本飙升影响，苹果宣布上调iPad及Mac售价。此外，OpenAI联合博通发布首款AI芯片，英伟达计划返还超半数现金流给股东。",
@@ -56,6 +1049,24 @@ const newsData = [
     "stocks": []
   },
   {
+    "id": "5fde324db5c4ec22",
+    "title": "2026年消费指南：该给孩子买台3D打印机吗？",
+    "summary": "外媒发布2026年儿童3D打印机购买指南，指出孩子们对3D打印机充满热情，建议家长考虑为孩子购置一台。",
+    "body": "《连线》杂志近日发布了2026年儿童3D打印机购买指南。文章指出，如今的孩子们对3D打印机的喜爱程度极高，甚至不亚于对流行文化偶像的热情。\n\n面对孩子们的强烈需求，文章建议家长们不妨顺应孩子的兴趣，直接为他们购置一台3D打印机。这不仅能够满足孩子的好奇心，也有助于培养他们的动手能力。",
+    "category": "消费电子",
+    "tags": [
+      "3D打印",
+      "消费电子",
+      "儿童教育"
+    ],
+    "source": "Wired",
+    "time": "2小时前",
+    "ts": "2026-06-26T10:31:00+00:00",
+    "url": "https://www.wired.com/story/3d-printer-for-kids/",
+    "image": "https://media.wired.com/photos/6a3d5db4979872ef6f4ad990/master/pass/When-You-Give-a-Kid-a-3D-Printer,-Every-Morning-Is-Like-Christmas.jpg",
+    "stocks": []
+  },
+  {
     "id": "8c334e35e5ab484c",
     "title": "张亚勤：AI没有泡沫但早期AI公司有泡沫",
     "summary": "清华大学张亚勤院士指出，当前AI产业正处于基建投资期，AI本身无泡沫但早期公司存在泡沫，建议具身智能等创业投资保持冷静。",
@@ -72,6 +1083,24 @@ const newsData = [
     "ts": "2026-06-26T10:29:12.677554+00:00",
     "url": "https://36kr.com/p/3866837793952769?f=rss",
     "image": "",
+    "stocks": []
+  },
+  {
+    "id": "bbc00cccae53596d",
+    "title": "日本签证费用7月起上涨五倍引中国民众热议",
+    "summary": "日本政府宣布自今年7月1日起将外国人入境签证费用大幅上调至原来的五倍，该政策在中国国内引发了广泛关注与激烈讨论。",
+    "body": "日本政府近期正式宣布，自今年7月1日起，针对外国人的入境签证费用将大幅上涨至原有的五倍。这一政策调整显著增加了赴日旅客的经济成本，对中国民众的赴日旅游和商务出行计划产生了直接影响。\n\n该消息在中国国内引发了广泛关注与激烈讨论。许多潜在旅客对签证费用的暴涨表示不满，分析认为此举可能会降低赴日意愿，进而对日本的入境旅游业及相关消费产业带来一定的负面冲击。",
+    "category": "国际局势",
+    "tags": [
+      "日本签证",
+      "旅游政策",
+      "国际交流"
+    ],
+    "source": "BBC中文",
+    "time": "2小时前",
+    "ts": "2026-06-26T10:25:00+00:00",
+    "url": "https://www.bbc.com/zhongwen/articles/c7vy8q88pl0o/trad?at_medium=RSS&at_campaign=rss",
+    "image": "https://ichef.bbci.co.uk/ace/ws/240/cpsprodpb/f5cd/live/bf2744f0-7120-11f1-8546-8f19e4fe30f4.jpg",
     "stocks": []
   },
   {
@@ -55789,11 +56818,11 @@ const newsData = [
   }
 ];
 const newsDigest = {
-  "text": "今日科技界聚焦AI与硬件创新。OpenAI首发AI芯片及苹果Mac涨价利好算力与果链标的；小米推动国产方案入选Qi无线充电标准，提振国产充电产业链；微博上线AI Agent工具，利好AI应用生态发展。",
+  "text": "今日科技前沿聚焦AI与智能制造：具身智能与大模型持续吸金，国产开源系统升级云底座；传统车企加速洗牌，大众大规模裁员折射转型阵痛，Robotaxi运维商业化再获资本青睐。",
   "highlights": [
-    "c16d500ec07773e0",
-    "2f93bcb5578db809",
-    "9dbb3cbd0b447982",
-    "8c334e35e5ab484c"
+    "3e742314bf7b0b62",
+    "491530f1ea0a41eb",
+    "4bd14b80296f6e47",
+    "da7965cf1e5bc3ef"
   ]
 };
