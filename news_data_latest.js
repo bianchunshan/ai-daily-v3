@@ -1,5 +1,677 @@
 const newsData = [
   {
+    "id": "20562b17038d58d5",
+    "title": "Quantum Cyber获批收购SpaceX部分股权",
+    "summary": "据媒体报道，Quantum Cyber已正式获得相关批准，将收购知名航天企业SpaceX的部分股权。",
+    "body": "据财联社等媒体报道，Quantum Cyber公司已正式获得批准，将收购SpaceX的部分股权。\n\n此次股权收购案的获批，标志着量子科技与商业航天领域的跨界资本合作迈出重要一步。未来双方在前沿技术融合与业务协同方面的潜在发展，值得市场与投资者持续关注。",
+    "category": "商业航天",
+    "tags": [
+      "SpaceX",
+      "Quantum Cyber",
+      "股权收购",
+      "商业航天"
+    ],
+    "source": "36氪",
+    "time": "刚刚",
+    "ts": "2026-06-26T22:26:28.618100+00:00",
+    "url": "https://36kr.com/newsflashes/3869966420743430?f=rss",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "2f7c87f34cbfa1d7",
+    "title": "五洋自控股东拟协议转让5.1%股份",
+    "summary": "五洋自控多名股东拟通过协议转让方式，将合计约5.1%的公司股份转让给时培培，交易总价约4.1亿元。",
+    "body": "五洋自控发布公告称，公司股东侯友夫、蔡敏、孙晋明与时培培签署了股份转让协议。三人拟将其持有的合计5691.18万股股份通过协议转让方式转让给时培培，占公司总股本的5.0979%。\n\n本次股份转让价格定为7.20元/股，转让价款合计达4.10亿元。此次权益变动不会导致公司控股股东及实际控制人发生变化，相关协议尚需深交所进行合规性确认。",
+    "category": "机器人",
+    "tags": [
+      "五洋自控",
+      "股份转让",
+      "权益变动"
+    ],
+    "source": "36氪",
+    "time": "刚刚",
+    "ts": "2026-06-26T22:26:23.034290+00:00",
+    "url": "https://36kr.com/newsflashes/3869982836626694?f=rss",
+    "image": "",
+    "stocks": [
+      {
+        "name": "五洋自控",
+        "ticker": "300420.SZ",
+        "reason": "公司股东协议转让股份引入新投资者，可能为公司带来新的资源与发展预期。",
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
+    "id": "f6085f1ff58213d4",
+    "title": "协创数据拟定增募资不超80亿，发力智算与数据存储",
+    "summary": "协创数据公告拟定增募资不超过80亿元，资金将主要用于智算中心建设及数据存储扩产项目。",
+    "body": "协创数据近日发布公告，拟向不超过35名特定投资者发行A股股票，发行数量不超过发行前总股本的30%，募集资金总额不超过80亿元。\n\n扣除发行费用后的募集资金净额，将重点投向“协创数据智算中心建设项目”与“数据存储拓展升级扩产项目”。\n\n此外，部分募集资金还将用于补充公司流动资金及偿还银行贷款，以进一步优化财务结构，助力公司在算力与数据存储领域的业务拓展。",
+    "category": "人工智能",
+    "tags": [
+      "定增募资",
+      "智算中心",
+      "数据存储",
+      "协创数据"
+    ],
+    "source": "36氪",
+    "time": "刚刚",
+    "ts": "2026-06-26T22:25:55.992019+00:00",
+    "url": "https://36kr.com/newsflashes/3869990301586434?f=rss",
+    "image": "",
+    "stocks": [
+      {
+        "name": "协创数据",
+        "ticker": "300857.SZ",
+        "reason": "公司直接募资用于自身智算中心及数据存储项目建设，提升主业竞争力。",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "afea653cdebe6f6f",
+    "title": "美股大型科技股盘前涨跌不一，Arm跌超4%",
+    "summary": "美股大型科技股盘前表现分化，Arm领跌超4%，而微软、奈飞等小幅上涨，市场情绪整体波动。",
+    "body": "美股大型科技股在盘前交易中呈现涨跌不一的走势。截至发稿，Arm股价下跌超过4%，SpaceX、特斯拉和英伟达等跌超1%，谷歌微跌0.36%。\n\n另一方面，部分科技巨头表现相对坚挺。微软和奈飞盘前涨超1%，苹果上涨0.89%，Meta和亚马逊也录得小幅上涨。整体来看，大型科技股短期走势分化，反映出市场资金在科技板块内部的博弈。",
+    "category": "人工智能",
+    "tags": [
+      "美股",
+      "科技股",
+      "盘前行情"
+    ],
+    "source": "36氪",
+    "time": "刚刚",
+    "ts": "2026-06-26T22:25:44.880524+00:00",
+    "url": "https://36kr.com/newsflashes/3870001895642113?f=rss",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "48572c721daf30c9",
+    "title": "中科院团队揭示PTGES3促肝癌生长与免疫逃逸新机制",
+    "summary": "中科院合肥物质科学研究院团队发现前列腺素E合酶3在肝癌中的新作用，揭示其驱动肿瘤生长与免疫抑制的机制。",
+    "body": "中国科学院合肥物质科学研究院王宏志教授领导的研究团队在肝癌研究领域取得新进展，发现了前列腺素E合酶3（PTGES3）在肝癌中的全新作用。\n\n该研究深入揭示了PTGES3如何同时驱动肝癌肿瘤的生长并促进免疫抑制。这一基础性发现为理解肝癌的发病与免疫逃逸机制提供了新视角，有望为未来开发新型肝癌靶向及免疫疗法提供潜在的干预靶点。",
+    "category": "生物医药",
+    "tags": [
+      "肝癌研究",
+      "PTGES3",
+      "免疫逃逸"
+    ],
+    "source": "MedicalXpress",
+    "time": "2分钟前",
+    "ts": "2026-06-26T18:20:01-04:00",
+    "url": "https://medicalxpress.com/news/2026-06-role-ptges3-uncovered-liver-cancer.html",
+    "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/new-role-of-ptges3-unc.jpg",
+    "stocks": []
+  },
+  {
+    "id": "5625454603d3e21a",
+    "title": "Prime Day报道36小时后，编辑唯一购入的实用好物",
+    "summary": "在经历长达36小时的亚马逊Prime Day折扣报道后，科技媒体编辑最终选择购买Vampliers螺丝钳，用于修复日常损坏的螺丝。",
+    "body": "在为期四天的亚马逊Prime Day促销活动中，The Verge的编辑团队进行了长达36小时的密集报道，为消费者筛选了大量折扣商品。面对令人眼花缭乱的优惠，该编辑最终只为自己购买了一件物品。这件物品是一副Vampliers螺丝钳，这是一种专门设计用于拔出损坏、生锈或滑丝螺丝的实用工具。在经历了高强度的导购工作后，这款能帮助修复日常失误的简单工具成为了他最期待的好物。",
+    "category": "消费电子",
+    "tags": [
+      "Prime Day",
+      "Vampliers",
+      "购物导购"
+    ],
+    "source": "The Verge",
+    "time": "3分钟前",
+    "ts": "2026-06-26T18:19:12-04:00",
+    "url": "https://www.theverge.com/gadgets/958179/prime-day-what-i-bought-vampliers-stripped-screw-extractor",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "42773bc9f61b6f7a",
+    "title": "Rocket Lab成功发射第10颗Synspective雷达卫星",
+    "summary": "6月26日，Rocket Lab为日本Synspective公司成功发射了第10颗雷达成像卫星，此次任务此前曾因响应式太空任务而推迟。",
+    "body": "6月26日，知名商业航天企业Rocket Lab成功将一颗雷达成像卫星送入太空，该卫星属于日本公司Synspective。这是Rocket Lab为该公司发射的第10颗同类卫星。\n\n据悉，此次发射任务此前曾因一项响应式太空任务而被迫推迟。随着本次发射的顺利完成，Rocket Lab进一步巩固了其在商业卫星发射领域的稳定交付能力，同时也助力Synspective持续扩展其雷达遥感卫星星座。",
+    "category": "商业航天",
+    "tags": [
+      "Rocket Lab",
+      "商业航天",
+      "卫星发射",
+      "Synspective"
+    ],
+    "source": "SpaceNews",
+    "time": "4分钟前",
+    "ts": "2026-06-26T22:17:38+00:00",
+    "url": "https://spacenews.com/rocket-lab-launches-10th-synspective-satellite/",
+    "image": "https://i0.wp.com/spacenews.com/wp-content/uploads/2026/06/electron-strix10.jpeg?fit=1024%2C556&amp;ssl=1",
+    "stocks": [
+      {
+        "name": "Rocket Lab",
+        "ticker": "RKLB",
+        "reason": "作为发射服务商，成功完成卫星发射任务直接带来营收并巩固其市场地位。",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "1f3cb66f40e6819d",
+    "title": "研究：癫痫伴听力损失者用助听器降23%痴呆风险",
+    "summary": "欧洲神经病学学会2026年大会发布新研究表明，同时患有癫痫和听力损失的成年人若使用助听器，其罹患痴呆症的风险可降低23%。",
+    "body": "根据在欧洲神经病学学会2026年大会上发表的最新研究，助听器的使用与特定人群痴呆症风险的显著降低存在关联。数据显示，同时患有癫痫和听力损失的成年人若佩戴助听器，其罹患痴呆症的风险可降低23%。\n\n这一发现强调了听力干预在神经退行性疾病预防中的潜在重要性。对于伴有听力障碍的癫痫患者而言，使用助听器不仅能改善听觉功能，还可能成为降低认知衰退风险的有效干预措施，为临床指导提供了新参考。",
+    "category": "生物医药",
+    "tags": [
+      "助听器",
+      "痴呆症",
+      "癫痫",
+      "神经病学"
+    ],
+    "source": "MedicalXpress",
+    "time": "12分钟前",
+    "ts": "2026-06-26T18:10:01-04:00",
+    "url": "https://medicalxpress.com/news/2026-06-aid-linked-dementia-people-epilepsy.html",
+    "image": "https://scx1.b-cdn.net/csz/news/tmb/2023/hearing-aid-2.jpg",
+    "stocks": []
+  },
+  {
+    "id": "4dd1cc10b8e6892a",
+    "title": "塞内加尔5-0大胜伊拉克 保留世界杯出线希望",
+    "summary": "塞内加尔在世界杯小组赛中以5比0大胜十人应战的伊拉克队，目前凭借净胜球优势保留晋级淘汰赛的希望。",
+    "body": "在最新一场世界杯小组赛中，塞内加尔队以5比0的悬殊比分击败了仅十人应战的伊拉克队。这场大胜不仅极大地提升了球队的士气，也让他们在出线竞争中占据了有利位置。\n\n目前，塞内加尔凭借正2的净胜球优势，在所有小组第三名球队中战绩排名第五，依然保留着晋级世界杯淘汰赛的希望。这场胜利对塞内加尔足球的国际影响力具有积极意义。",
+    "category": "国际局势",
+    "tags": [
+      "世界杯",
+      "塞内加尔",
+      "伊拉克",
+      "体育赛事"
+    ],
+    "source": "Al Jazeera",
+    "time": "17分钟前",
+    "ts": "2026-06-26T22:05:09+00:00",
+    "url": "https://www.aljazeera.com/sports/2026/6/26/senegal-score-5-0-win-over-10-man-iraq-keep-world-cup-knockout-hopes-alive?traffic_source=rss",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "d4e8e6ac80f5c316",
+    "title": "2026年Prime Day：Fellow系列咖啡机立减200美元",
+    "summary": "2026年亚马逊Prime Day促销迎来最后一天，Fellow品牌旗下多款明星咖啡设备参与大幅折扣活动。",
+    "body": "2026年亚马逊Prime Day促销活动进入最后一天，知名咖啡器具品牌Fellow旗下多款核心产品迎来大幅降价。其中，Fellow Series 1意式咖啡机提供高达200美元的优惠，成为本次促销的亮点之一。\n\n此外，Fellow Aiden智能咖啡冲泡机和Stagg手冲壶也同步参与折扣。这些产品在各自细分品类中均被视为行业标杆，此次降价为消费者提供了以更低成本购入高端咖啡设备的良机，也进一步刺激了高端家电市场的节日消费需求。",
+    "category": "消费电子",
+    "tags": [
+      "Prime Day",
+      "咖啡机",
+      "消费电子",
+      "促销"
+    ],
+    "source": "Wired",
+    "time": "17分钟前",
+    "ts": "2026-06-26T22:04:47+00:00",
+    "url": "https://www.wired.com/story/amazon-prime-day-deal-2026-fellow-series-1/",
+    "image": "https://media.wired.com/photos/6a3ad3217cb7548eacd53230/master/pass/WIRED%E2%80%99s-Favorite-Espresso-Machine-Is-on-Sale-for-the-First-Time.jpg",
+    "stocks": []
+  },
+  {
+    "id": "e5dbe37d705e9ae4",
+    "title": "YC系创企Corgi否认窃取开源软件，引发AI编程争议",
+    "summary": "Y Combinator支持的保险科技初创公司Corgi被指控窃取Papermark的开源软件，Corgi对此予以否认，引发了业界对AI编程版权问题的关注。",
+    "body": "近日，由知名孵化器Y Combinator支持的保险科技初创公司Corgi陷入了一场开源软件侵权争议。文档分享平台Papermark指控Corgi窃取了其开源软件代码，但Corgi方面对此予以坚决否认。\n\n这一事件在科技圈引发了广泛关注，并再次将AI辅助代码生成的版权与合规问题推向风口浪尖。随着AI编程工具的普及，如何界定生成代码的知识产权及避免开源协议违规，已成为初创企业和开发者面临的重要挑战。",
+    "category": "人工智能",
+    "tags": [
+      "Y Combinator",
+      "开源软件",
+      "AI编程",
+      "知识产权"
+    ],
+    "source": "TechCrunch",
+    "time": "21分钟前",
+    "ts": "2026-06-26T22:00:37+00:00",
+    "url": "https://techcrunch.com/2026/06/26/corgi-the-buzzy-y-combinator-backed-insurance-tech-startup-says-it-didnt-steal-an-open-source-product/",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "f11c06b89e736708",
+    "title": "AI引导微针遇体温弯曲，加速糖尿病伤口愈合",
+    "summary": "针对糖尿病患者慢性伤口愈合难题，研究人员开发出一种AI引导的微针，可在体温下弯曲以主动响应并加速伤口愈合。",
+    "body": "慢性伤口一直是医疗保健领域的重大挑战，尤其是对于糖尿病患者而言，他们通常面临伤口愈合延迟、持续炎症以及较高感染风险等问题。传统的伤口闭合方法如缝合、吻合钉和医用粘合剂虽然能帮助伤口边缘闭合，但无法主动响应人体的自然愈合过程。\n\n为此，研究人员开发出一种AI引导的微针技术。该微针能够在接触体温时发生弯曲，从而更有效地闭合伤口并加速糖尿病患者的伤口愈合，为慢性伤口治疗提供了创新思路。",
+    "category": "生物医药",
+    "tags": [
+      "微针技术",
+      "糖尿病",
+      "慢性伤口",
+      "医疗器械"
+    ],
+    "source": "MedicalXpress",
+    "time": "22分钟前",
+    "ts": "2026-06-26T18:00:03-04:00",
+    "url": "https://medicalxpress.com/news/2026-06-ai-microneedles-body-temperature-diabetic.html",
+    "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/hanyang-university-res-1.jpg",
+    "stocks": []
+  },
+  {
+    "id": "cfe7b3b7e7ae21f3",
+    "title": "特斯拉2026年二季度交付预期出炉：预计达40.6万辆",
+    "summary": "华尔街分析师预计特斯拉2026年二季度将交付约40.6万辆汽车，同比实现温和复苏。",
+    "body": "特斯拉近日发布了2026年第二季度交付共识预期。根据华尔街分析师的最新预测，特斯拉在该季度的汽车交付量预计将达到406024辆。\n\n这一预期数据相较于2025年第二季度的384122辆，实现了约5.7%的同比增长。对于此前已经连续两年出现销量下滑的特斯拉而言，这一增长标志着其业务正在迎来温和的复苏态势。",
+    "category": "未来能源",
+    "tags": [
+      "特斯拉",
+      "汽车交付",
+      "业绩预期"
+    ],
+    "source": "Electrek",
+    "time": "38分钟前",
+    "ts": "2026-06-26T21:44:01+00:00",
+    "url": "https://electrek.co/2026/06/26/tesla-q2-2026-delivery-consensus-406000/",
+    "image": "https://electrek.co/wp-content/uploads/sites/3/2024/02/Tesla-Model-3-red-hero.jpg?quality=82&#038;strip=all&#038;w=1600",
+    "stocks": [
+      {
+        "name": "特斯拉",
+        "ticker": "TSLA",
+        "reason": "作为新闻直接主体，交付量预期温和复苏有助于提振市场对其基本面的信心。",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "aeeef688b9d4dafc",
+    "title": "西班牙男子头痛就医疑患脑癌，实为脑部寄生虫感染",
+    "summary": "西班牙一名60岁男子因持续头痛及行为改变就医，CT扫描显示脑部多处病变。医生最初怀疑为转移性脑癌，最终确诊为罕见的脑部寄生虫感染。",
+    "body": "西班牙一名60岁男子因持续两周且不断加重的头痛就医，并伴有轻微的行为改变与运动迟缓。血液检查显示其免疫球蛋白E水平升高，这通常与过敏、自身免疫疾病或寄生虫感染有关。\n\n头部CT扫描结果显示，该男子脑部存在多处病变并伴有肿胀。由于患者免疫功能正常且无出国旅行史，医生最初高度怀疑其患有转移性脑癌。\n\n然而，发表在《新兴传染病》杂志上的病例报告指出，医生在进一步检查中发现了寄生虫的头部，最终确诊为脑部蠕虫感染。该病例提醒临床医生在面对脑部病变时，需将寄生虫感染纳入鉴别诊断，以免误诊。",
+    "category": "生物医药",
+    "tags": [
+      "寄生虫感染",
+      "医学病例",
+      "脑部病变",
+      "临床诊断"
+    ],
+    "source": "Ars Technica",
+    "time": "38分钟前",
+    "ts": "2026-06-26T21:43:57+00:00",
+    "url": "https://arstechnica.com/health/2026/06/doctors-suspected-man-had-brain-cancer-he-actually-had-worms/",
+    "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/06/26-0587-F1.jpg",
+    "stocks": []
+  },
+  {
+    "id": "21d8fa9ea1bae482",
+    "title": "美国在货船遇袭后打击伊朗目标",
+    "summary": "美国中央司令部表示，在货船遇袭后，美军对伊朗的导弹与无人机储存设施及沿海雷达阵地实施了打击。",
+    "body": "据美国中央司令部通报，在一艘货船遭到袭击后，美军采取了军事打击行动。美军重点攻击了伊朗的导弹和无人机储存设施，以及沿海雷达阵地。\n\n此次行动旨在摧毁相关军事基础设施以作回应。这一事件凸显了当前中东地区紧张的地缘政治局势，可能对国际航道安全及区域稳定产生深远影响。",
+    "category": "国际局势",
+    "tags": [
+      "中东局势",
+      "军事冲突",
+      "地缘政治"
+    ],
+    "source": "BBC World",
+    "time": "51分钟前",
+    "ts": "2026-06-26T21:30:59+00:00",
+    "url": "https://www.bbc.co.uk/news/articles/ckg590wqxwpo?at_medium=RSS&at_campaign=rss",
+    "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/731d/live/eebb89d0-71a0-11f1-b1db-af71d47507d6.jpg",
+    "stocks": []
+  },
+  {
+    "id": "ddfe95b35cd32a6b",
+    "title": "Prime Day百元以下趣味小工具推荐：非必需但极具吸引力",
+    "summary": "亚马逊Prime Day促销期间，除了购买日常必需品外，许多低于100美元的趣味智能小工具也备受消费者青睐，激发了非计划内的购物欲望。",
+    "body": "亚马逊Prime Day大促总能以独特的方式激发消费者的购物欲。许多用户原本只打算购买诸如USB-C数据线等日常必需品，却往往在浏览过程中被各种新奇的小工具所吸引。\n\n这些售价在100美元以下的趣味数码产品虽然并非生活刚需，但却能极大提升生活趣味。例如能够自动按下咖啡机电源按钮的智能小装置等，成功让消费者在非计划内慷慨解囊，展现了消费电子配件在促销节点的强大吸引力。",
+    "category": "消费电子",
+    "tags": [
+      "Prime Day",
+      "消费电子",
+      "智能小工具",
+      "亚马逊"
+    ],
+    "source": "The Verge",
+    "time": "51分钟前",
+    "ts": "2026-06-26T17:30:42-04:00",
+    "url": "https://www.theverge.com/gadgets/957473/prime-day-2026-fun-gadgets-under-100-deal-sale",
+    "image": "",
+    "stocks": [
+      {
+        "name": "亚马逊",
+        "ticker": "AMZN",
+        "reason": "Prime Day是亚马逊年度核心促销活动，各类新奇小工具及商品的热销直接提振其电商业务及Prime会员收入。",
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
+    "id": "2a0f480ad6120719",
+    "title": "登贝莱帽子戏法 法国4-1大胜挪威",
+    "summary": "在2026年世界杯I组小组赛中，登贝莱上半场完成帽子戏法，帮助法国队4-1击败挪威队，以小组第一出线。",
+    "body": "在2026年世界杯I组的较量中，法国队迎战挪威队。法国球星登贝莱在上半场表现出色，连入三球完成帽子戏法，为球队奠定胜局。\n\n最终，法国队以4-1的比分击败派出替补阵容的挪威队。凭借这场胜利，法国队成功锁定I组头名，顺利晋级下一阶段比赛。",
+    "category": "国际局势",
+    "tags": [
+      "世界杯",
+      "法国队",
+      "登贝莱"
+    ],
+    "source": "Al Jazeera",
+    "time": "56分钟前",
+    "ts": "2026-06-26T21:25:31+00:00",
+    "url": "https://www.aljazeera.com/sports/2026/6/26/dembele-scores-hat-trick-as-france-beat-norway-4-1-at-world-cup-2026?traffic_source=rss",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "fe668d6e393d29a3",
+    "title": "南非爆发反移民抗议 数千移民逃离",
+    "summary": "南非即将爆发反移民抗议活动，导致数千名移民出于安全考虑提前逃离该国。",
+    "body": "据半岛电视台报道，南非近期面临严峻的反移民情绪。在即将举行的大规模反移民抗议活动前夕，当地安全局势引发担忧。受此影响，数千名在南非生活的外国移民选择提前离开该国，以躲避可能发生的暴力冲突和动荡。这一事件凸显了南非当前复杂的社会矛盾与排外情绪。",
+    "category": "国际局势",
+    "tags": [
+      "南非",
+      "反移民抗议",
+      "社会动荡"
+    ],
+    "source": "Al Jazeera",
+    "time": "1小时前",
+    "ts": "2026-06-26T21:21:33+00:00",
+    "url": "https://www.aljazeera.com/video/newsfeed/2026/6/26/thousands-of-migrants-flee-south-africa-ahead-of-anti-immigrant-protests?traffic_source=rss",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "6c2445c7bd0ba96d",
+    "title": "Jeep Recon电动车上市售6.7万美元，续航略低预期",
+    "summary": "吉普旗下电动越野车Recon EV正式开售，起售价为6.7万美元，但其实际续航里程表现略低于市场预期。",
+    "body": "吉普（Jeep）品牌推出的全新电动越野车型Recon EV现已正式上市销售。该车型的起售价定为67000美元，标志着其正式进军高端电动越野车市场。\n\n尽管该车承载着品牌电动化转型的期望，但其续航里程表现却略显不足，未能完全达到外界此前的预期。这反映出传统车企在平衡硬核越野性能与电池续航方面仍面临一定的技术挑战。",
+    "category": "未来能源",
+    "tags": [
+      "Jeep",
+      "电动汽车",
+      "越野车",
+      "Stellantis"
+    ],
+    "source": "Electrek",
+    "time": "1小时前",
+    "ts": "2026-06-26T21:20:30+00:00",
+    "url": "https://electrek.co/2026/06/26/jeep-recon-ev-on-sale-67000-with-limited-range/",
+    "image": "https://electrek.co/wp-content/uploads/sites/3/2026/06/Jeep-Recon-EV-price-range.jpeg?quality=82&#038;strip=all&#038;w=1400",
+    "stocks": [
+      {
+        "name": "Stellantis",
+        "ticker": "STLA",
+        "reason": "作为Jeep品牌的母公司，新车型上市有望推动其电动化转型与市场份额。",
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
+    "id": "12b994c4899c8c2b",
+    "title": "美国家公园据报被要求对死亡事件保持沉默",
+    "summary": "据报道，美国国家公园管理部门接到指示，要求其对园区内发生的死亡事件保持沉默，引发对信息透明度的关注。",
+    "body": "近日有报道称，美国国家公园系统内部下达指令，要求相关工作人员对园区内发生的死亡事件保持沉默，不得擅自对外披露信息。\n\n这一举措引发了外界对于信息透明度和公众知情权的广泛讨论。在缺乏进一步官方详细回应的情况下，该政策的具体实施细节及其背后的原因仍有待观察，但已引起社会对国家公园信息公开机制的关注。",
+    "category": "国际局势",
+    "tags": [
+      "美国国家公园",
+      "信息公开",
+      "社会事件"
+    ],
+    "source": "Hacker News",
+    "time": "1小时前",
+    "ts": "2026-06-26T21:19:20+00:00",
+    "url": "https://www.outsideonline.com/outdoor-adventure/environment/nps-internal-memo-deaths/?link_source=ta_first_comment&taid=6a3dae4f4d2dce00016deef8&utm_content=trueanthem&utm_medium=social&utm_source=facebook",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "c3ac543f2be205ca",
+    "title": "基于跳跃哈希算法的快速C++哈希表开源实现",
+    "summary": "开发者在技术社区分享了一个使用跳跃哈希算法实现的C++快速哈希映射和哈希集合库，旨在提升底层数据结构的查询与插入性能。",
+    "body": "近日，Hacker News 社区分享了一项基于 C++ 语言开发的高效哈希表开源项目。该项目采用跳跃哈希（Hopscotch Hashing）算法，实现了快速的哈希映射与哈希集合。\n\n跳跃哈希算法结合了线性探测和链地址法的优点，能在保持较高缓存命中率的同时有效处理哈希冲突。这一实现为需要极致性能的底层系统开发提供了新的数据结构选择，有助于进一步提升相关软件的运行效率。",
+    "category": "人工智能",
+    "tags": [
+      "C++",
+      "开源项目",
+      "数据结构",
+      "哈希算法"
+    ],
+    "source": "Hacker News",
+    "time": "1小时前",
+    "ts": "2026-06-26T21:18:28+00:00",
+    "url": "https://github.com/Tessil/hopscotch-map",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "d89d96a689054412",
+    "title": "委内瑞拉地震致920人遇难 国际救援队抵达",
+    "summary": "委内瑞拉发生强烈地震，目前已造成920人死亡，数百人仍被困废墟中，国际救援队伍正陆续抵达灾区展开搜救。",
+    "body": "委内瑞拉近日遭遇严重地震灾害，据最新统计，地震已导致920人不幸遇难。目前仍有数百人被困在倒塌的建筑物废墟之下，家属们焦急等待亲人的消息。\n\n随着灾情的发展，国际救援团队已开始陆续抵达灾区，协助当地展开紧急搜救与灾害应对工作。此次灾难给当地民众带来巨大伤痛，也对基础设施造成严重冲击。",
+    "category": "国际局势",
+    "tags": [
+      "委内瑞拉",
+      "地震",
+      "国际救援"
+    ],
+    "source": "BBC World",
+    "time": "1小时前",
+    "ts": "2026-06-26T21:15:37+00:00",
+    "url": "https://www.bbc.co.uk/news/articles/c39y79g7gzko?at_medium=RSS&at_campaign=rss",
+    "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/798c/live/7e611570-719a-11f1-ac61-7d0e237a354c.jpg",
+    "stocks": []
+  },
+  {
+    "id": "7bd447334a412b55",
+    "title": "开源与闭源大模型差距引关注",
+    "summary": "探讨开源权重与闭源大语言模型之间的技术差距及其对行业的影响。",
+    "body": "开源权重的大语言模型与闭源模型在技术能力和应用场景上存在显著差异。开源模型通常具有更高的透明度和可定制性，但可能在性能和资源支持上不及闭源模型。这种差距影响着开发者的选择和企业的技术布局，推动行业在开放与封闭之间寻找平衡。随着技术进步，两者差距可能进一步演变，对AI生态产生深远影响。",
+    "category": "人工智能",
+    "tags": [
+      "大语言模型",
+      "开源技术",
+      "人工智能",
+      "技术差距"
+    ],
+    "source": "Hacker News",
+    "time": "1小时前",
+    "ts": "2026-06-26T21:14:47+00:00",
+    "url": "https://blog.doubleword.ai/frontier-os-llm",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "7987f204b8d9ab6a",
+    "title": "加州3D打印机监控计划引争议，社区呼吁阻止",
+    "summary": "加州拟推3D打印机监控方案引发隐私担忧，科技与开源社区正积极呼吁阻止该法案落地。",
+    "body": "加州近期提出的一项针对3D打印机的监控计划引发了广泛关注与争议。该方案旨在对3D打印设备进行监管，但被批评者认为可能侵犯用户隐私并限制技术创新。\n\n目前，科技社区和隐私倡导者正积极发声，呼吁公众阻止这一监控方案的实施。此事不仅关系到3D打印行业的发展，也对未来消费电子设备的隐私保护边界具有重要影响。",
+    "category": "消费电子",
+    "tags": [
+      "3D打印",
+      "隐私保护",
+      "加州政策"
+    ],
+    "source": "Hacker News",
+    "time": "1小时前",
+    "ts": "2026-06-26T21:13:50+00:00",
+    "url": "https://www.eff.org/deeplinks/2026/06/we-can-still-stop-californias-3d-printer-surveillance-scheme",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "756695001b86b793",
+    "title": "加州7月起禁止流媒体播放过大音量广告",
+    "summary": "加州新法案将于7月1日生效，禁止流媒体平台播放音量高于正片内容的广告，伊利诺伊州也通过了类似法规。",
+    "body": "加州州长此前签署了SB 576法案，规定自7月1日起，视频流媒体服务在加州播放的商业广告音频音量，不得高于其所伴随的视频内容音量。伊利诺伊州也通过了类似的法律，进一步促使流媒体平台规范广告音量。\n\n这一新规使得流媒体服务与传统广播、有线及卫星电视提供商在广告音量监管上趋于一致。根据美国联邦通信委员会的相关法案，传统电视提供商早已受到相同的广告音量限制，此举将显著改善用户的观看体验。",
+    "category": "消费电子",
+    "tags": [
+      "流媒体",
+      "广告监管",
+      "加州法案"
+    ],
+    "source": "Ars Technica",
+    "time": "1小时前",
+    "ts": "2026-06-26T21:12:07+00:00",
+    "url": "https://arstechnica.com/gadgets/2026/06/streaming-services-obnoxiously-loud-ads-become-illegal-on-july-1-in-california/",
+    "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/06/GettyImages-1987915833-1152x648.jpg",
+    "stocks": []
+  },
+  {
+    "id": "8b3b898bae8b024e",
+    "title": "布基纳法索宣布与法国断绝外交关系",
+    "summary": "布基纳法索军政府宣布与前殖民宗主国法国断绝外交关系，并指责法国抱有“新殖民主义野心”。",
+    "body": "据半岛电视台报道，布基纳法索军政府正式宣布切断与前殖民宗主国法国的外交关系。自2022年政变上台以来，该国军政府对法国的政策持强烈批评态度。\n\n布基纳法索官方指责法国仍抱有“新殖民主义野心”，从而做出了断交决定。这一事件标志着两国关系的彻底破裂，也凸显了西非地区地缘政治格局的深刻演变及法国在该地区传统影响力的衰退。",
+    "category": "国际局势",
+    "tags": [
+      "布基纳法索",
+      "法国",
+      "外交关系",
+      "地缘政治"
+    ],
+    "source": "Al Jazeera",
+    "time": "1小时前",
+    "ts": "2026-06-26T21:10:10+00:00",
+    "url": "https://www.aljazeera.com/news/2026/6/26/burkina-faso-cuts-diplomatic-ties-with-former-colonial-ruler-france?traffic_source=rss",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "1a9aa25552c2c7b0",
+    "title": "美打击伊朗回应商船遇袭",
+    "summary": "美国对伊朗发动新一轮军事打击，以回应伊朗无人机在霍尔木兹海峡对商用船只的袭击事件。",
+    "body": "近日，美国对伊朗实施了新一轮军事打击。此次行动的直接原因是伊朗此前使用无人机，在霍尔木兹海峡对名为“Ever Lovely”的商用船只发动了袭击。霍尔木兹海峡是全球重要的能源运输通道，此次冲突升级不仅加剧了中东地区的紧张局势，也可能对全球航运安全和国际能源供应链产生深远影响。国际社会正密切关注该地区的后续动态。",
+    "category": "国际局势",
+    "tags": [
+      "中东局势",
+      "美伊冲突",
+      "霍尔木兹海峡"
+    ],
+    "source": "Al Jazeera",
+    "time": "1小时前",
+    "ts": "2026-06-26T21:08:01+00:00",
+    "url": "https://www.aljazeera.com/news/2026/6/26/us-strikes-iran-in-response-to-drone-strike-on-commercial-ship?traffic_source=rss",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "da80d0aa377cff67",
+    "title": "Anthropic收紧Claude在华访问限制，用户多手段绕过",
+    "summary": "随着Anthropic不断收紧对中国地区访问Claude模型的限制，国内用户正通过代理服务和虚假身份等方式寻找新的绕过途径。",
+    "body": "近期，人工智能公司Anthropic持续加强了对中国用户访问其大语言模型Claude的地理限制。然而，面对日益严格的封锁措施，国内用户并未停止使用该模型。\n\n为了继续访问Claude，用户们不断寻找新的规避方法。这些手段主要包括使用网络代理服务，以及通过Telegram等软件购买和使用虚假身份信息。这一现象反映出国内对先进AI模型的强劲需求，同时也凸显了跨国AI服务在合规与技术规避之间的博弈。",
+    "category": "人工智能",
+    "tags": [
+      "Anthropic",
+      "Claude",
+      "大模型",
+      "地理限制"
+    ],
+    "source": "Wired",
+    "time": "1小时前",
+    "ts": "2026-06-26T21:02:54+00:00",
+    "url": "https://www.wired.com/story/how-people-in-china-keep-outsmarting-anthropics-geolocation-restrictions/",
+    "image": "https://media.wired.com/photos/6a3081014d259fb9a6c751d2/master/pass/How-Chinese-Users-Get-Around-Anthropic-Geolocation-Restrictions-Business.jpg",
+    "stocks": []
+  },
+  {
+    "id": "157e3ca4126b5783",
+    "title": "北京最高楼“中国尊”遭小型飞机撞击",
+    "summary": "一架小型飞机疑似撞上北京最高建筑“中国尊”，目前事故的具体原因和伤亡情况尚不清楚。",
+    "body": "据报道，一架小型飞机疑似撞上中国首都北京的最高建筑“中国尊”。目前，事故的具体原因以及是否造成人员伤亡等情况尚不清楚，有待相关部门进一步调查与核实。\n\n此次突发事件引发了外界对城市低空飞行安全及超高层建筑防护的关注。作为北京的地标性建筑，“中国尊”的安全状况备受瞩目，后续官方通报将成为了解事件全貌的关键。",
+    "category": "国际局势",
+    "tags": [
+      "中国尊",
+      "小型飞机",
+      "突发事故",
+      "北京"
+    ],
+    "source": "BBC中文",
+    "time": "1小时前",
+    "ts": "2026-06-26T21:01:11+00:00",
+    "url": "https://www.bbc.com/zhongwen/articles/c8625lpy12yo/trad?at_medium=RSS&at_campaign=rss",
+    "image": "https://ichef.bbci.co.uk/ace/ws/240/cpsprodpb/1c89/live/83dfd960-7194-11f1-8546-8f19e4fe30f4.jpg",
+    "stocks": []
+  },
+  {
+    "id": "dc63ab3b83c02be0",
+    "title": "YC系企业Hightouch发布最新招聘信息",
+    "summary": "由Y Combinator孵化的科技企业Hightouch近期发布招聘信息，计划扩充团队规模以支持后续的业务发展。",
+    "body": "Hightouch是一家由知名创业孵化器Y Combinator在2019年夏季批次孵化的科技企业。近期，该公司在技术社区发布了最新的招聘信息，计划招募更多人才加入团队。\n\n虽然此次发布的招聘启事内容较为简略，未透露具体的岗位细节与最新业务进展，但持续的人才招募通常反映出公司正在积极扩充团队规模。此举有助于企业进一步推进研发与市场拓展，为其后续的业务增长奠定基础。",
+    "category": "人工智能",
+    "tags": [
+      "Hightouch",
+      "招聘",
+      "Y Combinator"
+    ],
+    "source": "Hacker News",
+    "time": "1小时前",
+    "ts": "2026-06-26T21:00:50+00:00",
+    "url": "https://hightouch.com/careers#open-positions",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "c9d2516536203671",
+    "title": "欧盟对赛诺菲展开流感疫苗反垄断调查",
+    "summary": "欧盟委员会宣布对法国制药巨头赛诺菲展开反垄断调查，怀疑其在推广流感疫苗过程中违反了欧盟竞争规则。",
+    "body": "欧盟委员会于周五正式宣布，对法国知名制药集团赛诺菲启动反垄断调查。此次调查的核心焦点在于，赛诺菲在推广其流感疫苗产品时，涉嫌违反了欧盟的竞争法规。\n\n这一调查不仅可能对赛诺菲在欧盟市场的疫苗业务产生直接影响，也再次凸显了欧盟监管机构对大型跨国药企市场合规行为的严格审查态势。",
+    "category": "生物医药",
+    "tags": [
+      "赛诺菲",
+      "反垄断调查",
+      "流感疫苗"
+    ],
+    "source": "MedicalXpress",
+    "time": "1小时前",
+    "ts": "2026-06-26T17:00:03-04:00",
+    "url": "https://medicalxpress.com/news/2026-06-eu-france-sanofi-flu-vaccine.html",
+    "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/flu-vaccines-are-a-maj.jpg",
+    "stocks": []
+  },
+  {
+    "id": "25a96f425dec6210",
+    "title": "科学家利用最强引力波信号研究黑洞事件视界",
+    "summary": "研究人员通过分析LIGO等探测器捕获的史上最强引力波信号，成功解析了黑洞碰撞瞬间的事件视界特征，为研究黑洞边界提供了新途径。",
+    "body": "2025年1月，LIGO、Virgo和KAGRA探测器捕获了由两个约32倍太阳质量的黑洞碰撞产生的引力波信号GW250114，这是迄今探测到的最强引力波信号。\n\n研究团队对该信号进行深入分析，成功识别出代表黑洞碰撞瞬间集体事件视界的引力波特征。研究人员解析了此前未被充分理解的“直接波”成分，从而提取了靠近事件视界的独特信息。\n\n这一发现表明，科学家未来可以利用引力波来深入研究黑洞的事件视界等神秘边界，为天体物理学和基础物理研究提供了全新的观测手段。",
+    "category": "量子科技",
+    "tags": [
+      "引力波",
+      "黑洞",
+      "事件视界",
+      "LIGO"
+    ],
+    "source": "Space.com",
+    "time": "1小时前",
+    "ts": "2026-06-26T21:00:00+00:00",
+    "url": "https://www.space.com/astronomy/black-holes/black-holes-point-of-no-escape-studied-with-the-loudest-gravitational-waves-ever-heard",
+    "image": "https://cdn.mos.cms.futurecdn.net/JpCvY8s8SzErpcX8zqHPE4-1280-80.png",
+    "stocks": []
+  },
+  {
+    "id": "891695ec4eb756fa",
+    "title": "西班牙政府基金参投FOSSA获1050万美元扩建卫星星座",
+    "summary": "西班牙初创卫星公司FOSSA Systems完成约1050万美元融资，西班牙政府支持的技术投资基金参与本轮投资，资金将用于扩展其卫星通信星座。",
+    "body": "西班牙初创企业FOSSA Systems近日宣布完成约1050万美元的新一轮融资，投资方包括由西班牙政府支持的技术投资基金。\n\n公司计划将此次筹集的资金用于扩展其卫星连接星座，以进一步推动主权卫星通信网络的建设。此举有助于提升其全球物联网通信服务能力，也体现了欧洲在航天基础设施领域的持续布局。",
+    "category": "商业航天",
+    "tags": [
+      "商业航天",
+      "卫星通信",
+      "FOSSA Systems"
+    ],
+    "source": "SpaceNews",
+    "time": "1小时前",
+    "ts": "2026-06-26T20:59:57+00:00",
+    "url": "https://spacenews.com/spain-backed-fund-joins-fossas-sovereign-satellite-communications-push/",
+    "image": "https://i0.wp.com/spacenews.com/wp-content/uploads/2026/06/FOSSA-TEAM.jpg?fit=1024%2C683&amp;ssl=1",
+    "stocks": []
+  },
+  {
+    "id": "7418805812a8f2b6",
+    "title": "联合国人权高专呼吁调查美拘留中心移民死亡事件",
+    "summary": "联合国人权事务高级专员呼吁对美国拘留中心内移民死亡事件展开调查。据报道，在特朗普第二任期内，此类死亡人数出现激增。",
+    "body": "联合国人权事务高级专员近日发出呼吁，要求对美国拘留中心内发生的移民死亡事件进行全面调查。此举引发了国际社会对美国移民拘留政策和人权状况的广泛关注。\n\n据相关报道指出，在唐纳德·特朗普的第二任期内，被关押在美国拘留中心的移民死亡人数出现了显著激增。这一趋势凸显了当前美国移民拘留系统可能存在的严重问题。\n\n该事件不仅对美国国内的人权记录提出质疑，也可能在国际层面引发更多关于移民权益保护的外交与人权讨论，进一步影响美国的国际形象与相关政策走向。",
+    "category": "国际局势",
+    "tags": [
+      "联合国",
+      "美国移民",
+      "人权",
+      "国际局势"
+    ],
+    "source": "Al Jazeera",
+    "time": "1小时前",
+    "ts": "2026-06-26T20:58:19+00:00",
+    "url": "https://www.aljazeera.com/news/2026/6/26/un-rights-chief-calls-for-probe-into-migrant-deaths-in-us-detention-centres?traffic_source=rss",
+    "image": "",
+    "stocks": []
+  },
+  {
     "id": "29a6af3f37846960",
     "title": "热门中概股美股盘前多数下跌，小鹏跌超3%",
     "summary": "热门中概股在美股盘前交易中多数呈现下跌态势，其中小鹏、百度及阿里巴巴跌幅居前，仅网易逆势上涨。",
@@ -14,6 +686,143 @@ const newsData = [
     "time": "刚刚",
     "ts": "2026-06-26T20:58:06.027340+00:00",
     "url": "https://36kr.com/newsflashes/3870003257971976?f=rss",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "26bcab219db7f79f",
+    "title": "苹果下架大量俄应用，俄政府呼吁民众转用安卓",
+    "summary": "俄罗斯要求苹果下架逾千款应用以加强网络审查，但因本土核心应用受阻，俄政府呼吁民众改用安卓系统。",
+    "body": "根据苹果2025年App Store透明度报告，俄罗斯成为全球要求下架应用数量最多的国家，全年共要求移除1213款应用，其中多为用于绕过网络审查的VPN软件。俄罗斯正试图构建一个封闭且便于监控的国内互联网生态。\n\n然而，俄罗斯政府的审查具有选择性，仅希望封禁特定应用，而不愿看到VKontakte或官方指定的Max通讯软件等本土核心应用被下架。由于苹果的下架举措影响了俄罗斯本土关键应用的可用性，俄政府对此表示强烈不满，并呼吁民众转向使用安卓系统。",
+    "category": "国际局势",
+    "tags": [
+      "苹果",
+      "安卓",
+      "网络审查",
+      "俄罗斯"
+    ],
+    "source": "Ars Technica",
+    "time": "1小时前",
+    "ts": "2026-06-26T20:58:02+00:00",
+    "url": "https://arstechnica.com/gadgets/2026/06/russian-citizens-told-switch-to-android-after-apple-blocks-key-russian-apps/",
+    "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/06/GettyImages-2216537000-1152x648-1782506387.jpg",
+    "stocks": []
+  },
+  {
+    "id": "9e8554388802a977",
+    "title": "Ninja多款厨房小家电亮相2026年Prime Day促销",
+    "summary": "Ninja旗下Creami Swirl、Crispi、Slushi及Cafe Luxe Pro等多款热门厨房小家电在2026年亚马逊Prime Day期间推出限时优惠。",
+    "body": "在2026年亚马逊Prime Day促销活动中，知名厨房电器品牌Ninja推出了多款产品的限时折扣。参与此次促销的热门机型包括Creami Swirl冰淇淋机、Crispi多功能料理锅、Slushi冰沙机以及Cafe Luxe Pro专业咖啡机。\n\n这些产品涵盖了冷饮、烹饪、咖啡等多个厨房场景，为消费者提供了丰富的选择。随着Prime Day活动即将结束，有意向购买上述厨房小家电的消费者需抓紧时间享受此次优惠，这也为品牌方带来了短期的销售增长契机。",
+    "category": "消费电子",
+    "tags": [
+      "Ninja",
+      "Prime Day",
+      "厨房小家电",
+      "促销活动"
+    ],
+    "source": "Wired",
+    "time": "1小时前",
+    "ts": "2026-06-26T20:55:48+00:00",
+    "url": "https://www.wired.com/story/ninja-creami-slushi-prime-day-deals-2026/",
+    "image": "https://media.wired.com/photos/6a3ed3182d4e45566000bf25/master/pass/Last-Chance-for-the-Best-Ninja-Prime-Day-Deals-in-2026.jpg",
+    "stocks": [
+      {
+        "name": "SharkNinja",
+        "ticker": "SN",
+        "reason": "作为Ninja品牌的母公司，Prime Day大促直接带动其旗下产品的销量与营收增长。",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "b5e95745d50517e5",
+    "title": "加州野火相关联邦纵火案审判无效，10月重审",
+    "summary": "美国联邦法院宣布加州帕利塞兹野火相关的纵火案审判无效，因陪审团未能达成一致，新审判定于10月举行。",
+    "body": "近日，美国联邦法院宣布与加州野火相关的一起联邦纵火案审判无效。在备受瞩目的帕利塞兹大火案件中，由于陪审团未能就裁决达成一致意见，法官最终宣布审判无效。\n\n新的审判预计将于今年10月重新举行。该案件涉及加州严重的野火灾害，一直受到公众和媒体的密切关注，后续重审结果将对相关责任追究产生重要影响。",
+    "category": "国际局势",
+    "tags": [
+      "加州野火",
+      "纵火案",
+      "审判无效"
+    ],
+    "source": "Al Jazeera",
+    "time": "1小时前",
+    "ts": "2026-06-26T20:51:08+00:00",
+    "url": "https://www.aljazeera.com/news/2026/6/26/mistrial-declared-in-federal-arson-case-related-to-california-wildfires?traffic_source=rss",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "45d311cb7f65c3d6",
+    "title": "真主党拒绝支持以黎框架协议",
+    "summary": "美国宣布以色列与黎巴嫩达成框架协议，但真主党明确表示不会支持该协议，中东局势依然复杂。",
+    "body": "据半岛电视台报道，美国近期宣布促成了以色列与黎巴嫩之间的一项框架协议。然而，黎巴嫩真主党方面明确表示，他们不会支持这一由美国主导的协议。\n\n这一表态意味着以黎边境的紧张局势可能难以通过该框架协议得到实质性缓解。真主党的拒绝态度表明，中东地区的地缘政治博弈依然激烈，未来的和平进程仍面临诸多不确定性与挑战。",
+    "category": "国际局势",
+    "tags": [
+      "真主党",
+      "以色列",
+      "黎巴嫩",
+      "中东局势"
+    ],
+    "source": "Al Jazeera",
+    "time": "1小时前",
+    "ts": "2026-06-26T20:46:43+00:00",
+    "url": "https://www.aljazeera.com/video/newsfeed/2026/6/26/aje-onl-nf_hezbollah-rejects-israel-lebanon-framework-deal-260626?traffic_source=rss",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "67ab204319f56fe6",
+    "title": "进步派初选获胜后特朗普抨击无神论共产主义者",
+    "summary": "美国进步派在初选中获胜后，特朗普将矛头指向所谓的无神论共产主义者，并多次将民主社会主义者与共产主义者混为一谈。",
+    "body": "在美国进步派候选人赢得近期初选胜利后，特朗普将政治矛头对准了所谓的“无神论共产主义者”。他在公开言论中多次将民主社会主义者与共产主义者混为一谈，试图以此攻击政治对手。\n\n事实上，目前并没有任何共产主义者作为民主党候选人参与竞选。特朗普的这一言论主要是出于选举策略，旨在通过标签化对手来动员核心选民，反映了当前美国国内政治极化与选举竞争的激烈态势。",
+    "category": "国际局势",
+    "tags": [
+      "美国大选",
+      "特朗普",
+      "美国政治"
+    ],
+    "source": "Al Jazeera",
+    "time": "1小时前",
+    "ts": "2026-06-26T20:29:50+00:00",
+    "url": "https://www.aljazeera.com/news/2026/6/26/after-progressive-us-primary-wins-trump-takes-aim-at-godless-communists?traffic_source=rss",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "89ae4be2953b829a",
+    "title": "里德-所罗门码助力OCR：提升杂乱印刷码纠错能力",
+    "summary": "本文探讨了将里德-所罗门纠错码应用于光学字符识别技术，以解决杂乱或损坏印刷码的识别难题，提升数据读取准确性。",
+    "body": "在光学字符识别（OCR）领域，面对模糊、污损或印刷质量较差的字符与条码时，传统算法容易出现误读。引入里德-所罗门（Reed-Solomon）纠错码技术，为处理这类杂乱印刷码提供了有效的解决方案。\n\n通过结合RS纠错机制，系统能够在解码阶段自动修复部分受损的数据。这不仅提高了复杂环境下的识别成功率，也增强了算法鲁棒性，对工业视觉和文档数字化具有积极意义。",
+    "category": "人工智能",
+    "tags": [
+      "OCR",
+      "纠错码",
+      "机器视觉"
+    ],
+    "source": "Hacker News",
+    "time": "2小时前",
+    "ts": "2026-06-26T20:12:14+00:00",
+    "url": "https://github.com/chasangchual/reed-solomon-for-ocr",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "e1c20c6cab5da82c",
+    "title": "PlayStation将从用户账户中删除551部电影",
+    "summary": "索尼PlayStation平台正在从客户的数字账户中移除551部电影，引发用户对数字资产所有权的广泛讨论与担忧。",
+    "body": "索尼PlayStation平台正在从客户的数字账户中大规模移除电影内容，涉及数量高达551部。此举直接导致部分用户失去已获取的数字版影视资源。\n\n这一事件在玩家和消费者群体中引发了广泛关注，凸显了数字内容授权模式的脆弱性。它再次提醒公众，数字商店中的购买行为通常仅意味着获取使用许可，而非拥有永久产权，平台仍可因授权变更而收回内容。",
+    "category": "消费电子",
+    "tags": [
+      "PlayStation",
+      "数字版权",
+      "索尼",
+      "消费电子"
+    ],
+    "source": "Hacker News",
+    "time": "2小时前",
+    "ts": "2026-06-26T20:07:18+00:00",
+    "url": "https://kotaku.com/playstation-store-movies-digital-studio-canal-terminator-2000711013",
     "image": "",
     "stocks": []
   },
@@ -41,6 +850,25 @@ const newsData = [
         "confidence": "high"
       }
     ]
+  },
+  {
+    "id": "2732ab390af9c181",
+    "title": "纽约时报修改诉状，指控微软为OpenAI建侵权超算",
+    "summary": "《纽约时报》提议修改对微软和OpenAI的版权诉讼，指控微软通过构建超级计算机积极鼓励OpenAI侵权。",
+    "body": "《纽约时报》近日向法庭提交文件，提议修改其对OpenAI和微软的版权侵权诉讼。在新的诉状中，纽约时报指控微软通过为其构建定制的超级计算系统，积极鼓励并协助OpenAI窃取其新闻作品。\n\n此次修改诉状的背景是美国最高法院近期在相关案件中确立了帮助侵权的新法律标准，要求原告必须证明被告故意诱导非法行为。\n\n纽约时报发言人表示，基于新的法律判例和证据发现阶段获取的新证据，修改后的诉状将进一步强化对微软帮助侵权的指控，使案件更契合当前的法律标准。",
+    "category": "人工智能",
+    "tags": [
+      "版权诉讼",
+      "OpenAI",
+      "微软",
+      "人工智能"
+    ],
+    "source": "Ars Technica",
+    "time": "2小时前",
+    "ts": "2026-06-26T20:04:55+00:00",
+    "url": "https://arstechnica.com/tech-policy/2026/06/microsoft-built-supercomputer-to-help-openai-infringe-copyrights-nyt-alleged/",
+    "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/06/GettyImages-2235233117-1024x648.jpg",
+    "stocks": []
   },
   {
     "id": "65d4f81e344e00be",
@@ -398,6 +1226,24 @@ const newsData = [
     "time": "1小时前",
     "ts": "2026-06-26T19:13:40+00:00",
     "url": "https://techcrunch.com/2026/06/26/novak-djokovic-has-a-new-job-advisor-to-private-equity-firm-general-atlantic/",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "98288fc9521aa5ec",
+    "title": "英国Droitwich发射站将关闭 长波无线电时代迎终结",
+    "summary": "随着英国Droitwich长波发射站即将关闭，历史悠久的长波无线电广播时代正走向终结。",
+    "body": "英国Droitwich长波发射站即将正式关闭，这一决定标志着长波无线电时代的落幕。长波技术曾在早期广播和通信中发挥过重要作用。\n\n随着该发射站的关停，传统的长波广播服务将画上句号。这反映了通信技术向现代化、数字化转型的必然趋势，也意味着传统无线电广播完成了其特定的历史使命。",
+    "category": "消费电子",
+    "tags": [
+      "长波广播",
+      "通信技术",
+      "无线电"
+    ],
+    "source": "Hacker News",
+    "time": "3小时前",
+    "ts": "2026-06-26T19:12:20+00:00",
+    "url": "https://www.bbc.com/news/articles/c74yn7v7k4qo",
     "image": "",
     "stocks": []
   },
@@ -2545,6 +3391,32 @@ const newsData = [
     ]
   },
   {
+    "id": "b018a19e9abc9387",
+    "title": "Framework笔记本降价，换用威刚PCIe 5.0固态",
+    "summary": "Framework宣布降低Laptop 13 Pro DIY版价格，通过采用成本更低且性能更强的威刚PCIe 5.0固态硬盘，为预购用户提供免费容量升级。",
+    "body": "模块化笔记本制造商Framework宣布下调Laptop 13 Pro DIY版的部分配置价格。此次降价得益于公司采用了威刚的Mars 970 Plus PCIe 5.0固态硬盘，该硬盘不仅采购成本更低，还具备更高的性能和长期可靠性。\n\n新款固态硬盘读取速度高达11000 MB/s，搭载了慧荣SM2508主控芯片。作为回馈，已预购500GB版本的用户将自动免费升级至1TB，同时新增2TB选项。此举在笔记本散热要求极高的背景下，推动了PCIe 5.0固态在移动端的应用。",
+    "category": "消费电子",
+    "tags": [
+      "Framework",
+      "PCIe 5.0",
+      "固态硬盘",
+      "消费电子"
+    ],
+    "source": "Tom's Hardware",
+    "time": "7小时前",
+    "ts": "2026-06-26T15:14:13+00:00",
+    "url": "https://www.tomshardware.com/laptops/frameworks-laptop-13-pro-diy-edition-now-costs-less-than-before-but-a-cpu-price-hike-might-be-coming-cheaper-pcie-5-0-drives-from-adata-upgrade-customers-from-500gb-to-1tb-for-free",
+    "image": "https://cdn.mos.cms.futurecdn.net/8YA5Bk4TVZ4pPzfjjdY4wF-1280-80.jpg",
+    "stocks": [
+      {
+        "name": "慧荣科技",
+        "ticker": "SIMO",
+        "reason": "威刚新款PCIe 5.0固态硬盘采用了慧荣SM2508主控芯片，直接带动其主控产品出货。",
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
     "id": "2b69615665e52cec",
     "title": "启境GT7玩家首发版上线，23.99万元起售",
     "summary": "广汽与华为联合打造的启境GT7推出玩家首发版，售价23.99万元起，提供现车并赠送延保及专属礼包。",
@@ -2747,6 +3619,25 @@ const newsData = [
     "stocks": []
   },
   {
+    "id": "7be2b2ca36e83e43",
+    "title": "加州推出CAIT系统监测AI对就业冲击",
+    "summary": "美国加州推出CAIT系统，通过交叉分析失业数据与职业受AI影响程度，量化监测AI对就业市场的真实冲击。",
+    "body": "美国加州宣布推出“加州AI失业追踪器（CAIT）”系统，每月更新。该系统将失业保险申领数据与各职业受AI影响程度进行交叉分析，作为观察劳动力市场变化的早期预警机制。\n\n首份报告显示，加州整体尚未出现AI导致的大规模裁员，但高学历且从事易被替代职业的劳动者失业申请呈上升趋势，专业服务业和信息产业变化最为明显。\n\n加州政府强调该系统旨在提前识别受冲击人群并提供支持。媒体认为，此举将AI取代工作的讨论转化为长期可观测的数据指标，为未来制定应对政策提供参考。",
+    "category": "人工智能",
+    "tags": [
+      "人工智能",
+      "就业市场",
+      "数据追踪",
+      "宏观政策"
+    ],
+    "source": "IT之家",
+    "time": "7小时前",
+    "ts": "2026-06-26T14:50:59+00:00",
+    "url": "https://www.ithome.com/0/969/259.htm",
+    "image": "",
+    "stocks": []
+  },
+  {
     "id": "84c5c423e22959df",
     "title": "摩洛哥涉毒大案宣判：29名政体界人士获刑",
     "summary": "摩洛哥卡萨布兰卡法院对撒哈拉的埃斯科巴特大毒品案作出里程碑式判决，29名被告被判处监禁。",
@@ -2803,6 +3694,82 @@ const newsData = [
     "stocks": []
   },
   {
+    "id": "bfa66bbc1bbf95ce",
+    "title": "苹果上架MacBook Neo翻新机，价格持平涨价前原价",
+    "summary": "苹果在宣布Mac和iPad产品线涨价后，于美加上架多款官方翻新机型，其中MacBook Neo翻新价与涨价前新机原价持平。",
+    "body": "苹果在以存储芯片短缺为由对Mac和iPad产品线进行全球提价后，在美国和加拿大官网上线了多款官方翻新机型。此次翻新阵容涵盖MacBook Neo、搭载M5系列芯片的MacBook Air与Pro，以及第二代Studio Display。\n\n最受关注的入门级笔记本MacBook Neo搭载A18 Pro芯片，其256GB和512GB翻新版售价分别为599美元和679美元。这一价格实际上恢复到了涨价前的新机原价，甚至部分版本比涨价前更低。\n\n尽管苹果同步上调了翻新产品约160至180美元的平均定价，但官方翻新产品均经过严格测试并享有一年保修。目前国行市场暂未上架MacBook Neo翻新机。",
+    "category": "消费电子",
+    "tags": [
+      "苹果",
+      "MacBook",
+      "翻新机",
+      "消费电子"
+    ],
+    "source": "IT之家",
+    "time": "7小时前",
+    "ts": "2026-06-26T14:36:53+00:00",
+    "url": "https://www.ithome.com/0/969/257.htm",
+    "image": "https://img.ithome.com/newsuploadfiles/2026/6/ed056935-bee3-4c06-aa91-87dbf3a33103.jpg?x-bce-process=image/format,f_auto",
+    "stocks": [
+      {
+        "name": "苹果",
+        "ticker": "AAPL",
+        "reason": "官方翻新机销售策略有助于在涨价背景下维持产品销量，促进硬件生态营收。",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "3d1bc1abcc4d000e",
+    "title": "戴尔XPS 13笔记本2026款国行上市，搭载酷睿5售8999元",
+    "summary": "戴尔正式推出XPS 13笔记本2026款国行版，搭载英特尔酷睿5处理器，起售价8999元，主打轻薄便携与高素质屏幕。",
+    "body": "戴尔今日宣布XPS 13笔记本2026款国行版正式上市，16GB+512GB版本售价8999元。该机搭载第三代英特尔酷睿5 320处理器，配备16GB高频内存与512GB固态硬盘，提供充沛的基础性能。\n\n在外观与屏幕方面，这款笔记本重约1kg，厚度仅12.7mm，便携性极佳。其配备13.4英寸2.5K触控屏，支持最高120Hz刷新率与100% DCI-P3色域。此外，机身还支持Wi-Fi 7及蓝牙6.0技术，并配备双USB-C接口与52Wh电池，全面提升了轻薄本的互联与使用体验。",
+    "category": "消费电子",
+    "tags": [
+      "戴尔",
+      "笔记本电脑",
+      "轻薄本",
+      "英特尔"
+    ],
+    "source": "IT之家",
+    "time": "7小时前",
+    "ts": "2026-06-26T14:34:59+00:00",
+    "url": "https://www.ithome.com/0/969/256.htm",
+    "image": "https://img.ithome.com/newsuploadfiles/2026/6/52cae077-4dc9-4512-aa7c-cf631d556dbb.png?x-bce-process=image/format,f_auto",
+    "stocks": [
+      {
+        "name": "戴尔科技",
+        "ticker": "DELL",
+        "reason": "作为该产品制造商，新品上市有望直接带动其PC业务营收与市场份额增长",
+        "confidence": "high"
+      },
+      {
+        "name": "英特尔",
+        "ticker": "INTC",
+        "reason": "新款笔记本搭载英特尔酷睿处理器，有助于带动其PC端芯片出货量",
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
+    "id": "102bbfb2b4f13830",
+    "title": "模拟经营游戏《赛车经理2》公布 明年春季登陆PC",
+    "summary": "开发商Playsport Games宣布模拟经营游戏《赛车经理2》将于明年春季发售，现已在Steam开放测试申请。",
+    "body": "开发商Playsport Games正式公布全新赛车管理模拟游戏《赛车经理2》，该作计划于明年春季登陆PC平台，并支持简体中文。\n\n新作引入了更丰富的模拟系统与深度的比赛策略。玩家将从轮胎策略、天气应对、车手培养、财务管理及人员配置等多维度全面经营赛车队，向冠军发起冲击。\n\n目前，该游戏已上架Steam平台，并同步开放了Playtest测试权限，玩家现可申请提前参与游戏测试。",
+    "category": "消费电子",
+    "tags": [
+      "赛车经理2",
+      "模拟经营",
+      "PC游戏"
+    ],
+    "source": "IT之家",
+    "time": "7小时前",
+    "ts": "2026-06-26T14:34:16+00:00",
+    "url": "https://www.ithome.com/0/969/255.htm",
+    "image": "https://img.ithome.com/newsuploadfiles/2026/6/651d8f33-c3a9-42a6-b6a5-04486542ced0.png?x-bce-process=image/format,f_auto",
+    "stocks": []
+  },
+  {
     "id": "57ec031bf6df3e1c",
     "title": "研究发现果糖无法像葡萄糖那样有效抑制饥饿感",
     "summary": "最新研究表明，尽管果糖与葡萄糖热量相似，但大脑对两者的反应截然不同，果糖抑制饥饿感的效果远弱于葡萄糖。",
@@ -2837,6 +3804,25 @@ const newsData = [
     "ts": "2026-06-26T14:10:26+00:00",
     "url": "https://www.science.org/content/article/why-have-papers-one-history-s-most-famous-physicists-been-retracted",
     "image": "",
+    "stocks": []
+  },
+  {
+    "id": "3ced9fa60a424714",
+    "title": "小猴工具Prime Day大促将结束，最高享55%折扣",
+    "summary": "亚马逊Prime Day大促即将落幕，小猴工具（Hoto）多款电动螺丝刀及DIY工具迎来最高55%的折扣优惠。",
+    "body": "Hoto（小猴工具）近年来受到众多科技媒体编辑与PC装机爱好者的青睐，成为日常DIY与家居改造的得力助手。借助亚马逊Prime Day大促，该品牌多款热门工具降至历史新低，起售价仅为14美元。\n\n此次促销产品涵盖无线电动螺丝刀、电钻、吸吹风机、手电筒及精密螺丝刀套装等，最高优惠幅度达55%。由于Prime Day活动即将结束，预计周末产品价格将全面回升，建议有需求的用户抓紧时间选购。",
+    "category": "消费电子",
+    "tags": [
+      "小猴工具",
+      "Prime Day",
+      "电动工具",
+      "亚马逊"
+    ],
+    "source": "Tom's Hardware",
+    "time": "8小时前",
+    "ts": "2026-06-26T14:03:01+00:00",
+    "url": "https://www.tomshardware.com/peripherals/last-chance-to-save-up-to-55-percent-on-these-brilliant-hoto-tools-for-pc-builders-and-hobbyists-starting-from-usd14-super-low-prices-set-to-end-soon-on-cordless-electric-screwdrivers-drills-flashlights-vacuum-cleaners-and-more",
+    "image": "https://cdn.mos.cms.futurecdn.net/RzamPEDjD3jvCVVJ9u94yM-1280-80.png",
     "stocks": []
   },
   {
@@ -59886,11 +60872,11 @@ const newsData = [
   }
 ];
 const newsDigest = {
-  "text": "今日科技焦点聚焦新能源车与消费电子供应链。苹果因内存涨价上调Mac等售价，凸显半导体成本传导压力；比亚迪插混皮卡亮相，而特斯拉FSD事故与极星在美受阻折射行业竞争与监管博弈。此外，特朗普数字税关税威胁或加剧科技贸易摩擦。",
+  "text": "今日科技财经聚焦AI算力与前沿应用，协创数据拟募资80亿发力智算，AI微针技术突破糖尿病治疗。商业航天迎资本青睐，SpaceX部分股权获批转让。此外，特斯拉交付预期出炉，引发新能源车市场关注。",
   "highlights": [
-    "a1faae83120b0423",
-    "c1471acba0627413",
-    "cc25f102c3de19c2",
-    "15d7931314e647ea"
+    "f6085f1ff58213d4",
+    "20562b17038d58d5",
+    "f11c06b89e736708",
+    "cfe7b3b7e7ae21f3"
   ]
 };
