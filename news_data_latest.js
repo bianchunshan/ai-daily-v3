@@ -1,5 +1,1016 @@
 const newsData = [
   {
+    "id": "c4d48183b3d5f289",
+    "title": "2026年Prime Day流媒体促销：Apple TV半价领衔",
+    "summary": "2026年亚马逊Prime Day不仅提供电视折扣，还推出了多款流媒体设备与服务的优惠活动，其中Apple TV半价促销成为亮点。",
+    "body": "2026年亚马逊Prime Day大促不仅涵盖了智能电视等硬件产品的降价，还为广大消费者提供了丰富的流媒体设备及内容服务的优惠。这意味着消费者在购入高性价比电视的同时，也能以更低成本搭建家庭娱乐系统。\n在此次促销活动中，苹果Apple TV以半价优惠成为最受瞩目的流媒体设备之一。此类促销不仅降低了用户享受高质量流媒体内容的门槛，也进一步推动了家庭数字娱乐生态的普及与发展。",
+    "category": "消费电子",
+    "tags": [
+      "Prime Day",
+      "流媒体设备",
+      "Apple TV"
+    ],
+    "source": "Wired",
+    "time": "6分钟前",
+    "ts": "2026-06-26T18:55:18+00:00",
+    "url": "https://www.wired.com/story/best-prime-day-streaming-deals-06-26-2026/",
+    "image": "https://media.wired.com/photos/6a3a2c47580177a5599b11b0/master/pass/The-7-Best-Prime-Day-Streaming-Deals.jpg",
+    "stocks": [
+      {
+        "name": "苹果",
+        "ticker": "AAPL",
+        "reason": "Apple TV半价促销有助于扩大苹果硬件用户基数，并带动其流媒体等服务收入增长。",
+        "confidence": "medium"
+      },
+      {
+        "name": "亚马逊",
+        "ticker": "AMZN",
+        "reason": "Prime Day大促及流媒体设备优惠有助于提升亚马逊Prime会员活跃度与生态黏性。",
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
+    "id": "352ab10076900757",
+    "title": "本周末巨型小行星掠过地球观测指南",
+    "summary": "一颗巨型小行星将于本周末掠过地球，全球多地连续数晚均可观测，本文提供观测时间、地点及设备指南。",
+    "body": "本周末，一颗巨型小行星将近距离掠过地球。这一天文现象为全球多地的天文爱好者提供了绝佳的观测机会，该小行星将在连续几个夜晚保持可见。\n\n为了帮助公众更好地捕捉这一景象，相关指南详细说明了最佳的观测时间与方位。此外，文章还介绍了观测所需的天文设备，以确保观测者能获得最佳的视觉体验，这也有助于提升公众对太空探索的兴趣。",
+    "category": "商业航天",
+    "tags": [
+      "小行星",
+      "天文观测",
+      "太空探索"
+    ],
+    "source": "Wired",
+    "time": "16分钟前",
+    "ts": "2026-06-26T18:45:16+00:00",
+    "url": "https://www.wired.com/story/how-to-see-1997-nc1-asteroid-pass-by-earth-this-weekend/",
+    "image": "https://media.wired.com/photos/6a3e91c52a254c7dcc47c3d6/master/pass/GettyImages-160936161.jpg",
+    "stocks": []
+  },
+  {
+    "id": "274bd5008d9bd3f9",
+    "title": "技嘉Aero X16游戏本促销：搭RTX 5060降价21%",
+    "summary": "技嘉Aero X16游戏本在百思买开启促销，搭载RTX 5060显卡和32GB内存，售价降至1099美元。",
+    "body": "技嘉Aero X16游戏本近期在百思买开启促销活动，价格从1399.99美元降至1099.99美元，降幅达21%。在内存和存储价格上涨的背景下，该机型为消费者提供了极具性价比的选择。\n硬件配置方面，该机搭载基于AMD Zen 5架构的Ryzen AI 7 350处理器，配备32GB DDR5内存和1TB固态硬盘，并支持后续最高64GB内存和4TB存储扩展。图形处理方面则采用NVIDIA GeForce RTX 5060独立显卡。\n屏幕方面，Aero X16配备了一块16英寸IPS显示屏，分辨率达到2560x1600，并支持165Hz高刷新率，能够为玩家在原生分辨率下提供流畅的高帧率游戏体验。",
+    "category": "消费电子",
+    "tags": [
+      "技嘉",
+      "游戏本",
+      "RTX 5060"
+    ],
+    "source": "Tom's Hardware",
+    "time": "17分钟前",
+    "ts": "2026-06-26T18:45:00+00:00",
+    "url": "https://www.tomshardware.com/laptops/gaming-laptops/gigabyte-aero-x16-gaming-laptop-delivers-rtx-5060-32gb-ram-and-16-inch-165hz-1600p-display-for-usd1-099",
+    "image": "https://cdn.mos.cms.futurecdn.net/HbJ8W9SUkAbSAAHUxU5UBR-1280-80.jpg",
+    "stocks": []
+  },
+  {
+    "id": "1eb35b5972649b4e",
+    "title": "委内瑞拉地震致逾920人遇难 母亲护女身亡",
+    "summary": "委内瑞拉发生严重地震，已造成至少920人死亡。一位母亲在灾难中为保护女儿不幸遇难，引发广泛关注。",
+    "body": "近日，委内瑞拉发生严重地震灾害，目前已确认造成至少920人丧生。在这场灾难中，一位名叫赫克托·贝洛的男子在社交媒体上悲痛发文，悼念在地震中为保护女儿而献出生命的妻子。\n\n他在帖文中深情地表示，妻子为了女儿付出了自己的生命。这起母亲舍身救女的悲剧事件，不仅展现了灾难面前的伟大亲情，也凸显了此次地震灾害的严重破坏力与巨大的人员伤亡。",
+    "category": "国际局势",
+    "tags": [
+      "委内瑞拉",
+      "地震灾害",
+      "社会新闻"
+    ],
+    "source": "BBC World",
+    "time": "25分钟前",
+    "ts": "2026-06-26T18:36:32+00:00",
+    "url": "https://www.bbc.co.uk/news/articles/c0jydyz8z6jo?at_medium=RSS&at_campaign=rss",
+    "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4d38/live/bda21270-714a-11f1-8546-8f19e4fe30f4.jpg",
+    "stocks": []
+  },
+  {
+    "id": "75e9d34a17205a26",
+    "title": "美最高法院允许终止海地叙利亚临时保护身份",
+    "summary": "美国最高法院裁定允许特朗普政府终止海地和叙利亚的临时保护身份，倡导者警告此举将导致家庭分离等广泛负面影响。",
+    "body": "美国最高法院近日作出一项重要裁决，允许特朗普政府终止针对海地和叙利亚移民的临时保护身份（TPS）。这一决定引发了社会各界的广泛关注与担忧。\n\n倡导者和人权组织警告称，该裁决将产生广泛的负面影响，最直接的后果是可能导致大量移民面临家庭分离的风险。此举不仅影响相关移民的合法居留权，也对美国国内的移民政策走向产生深远影响。",
+    "category": "国际局势",
+    "tags": [
+      "美国最高法院",
+      "移民政策",
+      "国际局势",
+      "临时保护身份"
+    ],
+    "source": "Al Jazeera",
+    "time": "29分钟前",
+    "ts": "2026-06-26T18:33:04+00:00",
+    "url": "https://www.aljazeera.com/news/2026/6/26/advocates-warn-of-wide-ranging-implications-of-us-supreme-court-tps-ruling?traffic_source=rss",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "79fec03a230eef6c",
+    "title": "OpenAI限制GPT-5.6发布，称政府审批不应成常态",
+    "summary": "OpenAI应政府要求限制了GPT-5.6的发布，但公司强调此类政府审批流程不应成为长期默认状态，以免阻碍各界获取顶尖AI工具。",
+    "body": "近日，OpenAI应政府相关部门的要求，限制了其模型GPT-5.6的发布与推广范围。此举引发了业界对人工智能监管尺度的关注。\n\n对此，OpenAI明确表示，不认为这种政府审批流程应成为长期的默认规则。公司指出，此类限制将导致用户、开发者、企业、网络防御者及全球合作伙伴无法及时获取最优秀的AI工具，可能对技术创新与行业应用产生不利影响。",
+    "category": "人工智能",
+    "tags": [
+      "OpenAI",
+      "GPT-5.6",
+      "AI监管"
+    ],
+    "source": "TechCrunch",
+    "time": "29分钟前",
+    "ts": "2026-06-26T18:32:14+00:00",
+    "url": "https://techcrunch.com/2026/06/26/openai-limits-gpt-5-6-rollout-after-government-request-says-restrictions-shouldnt-be-the-norm/",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "fbdd77ebcb6d4046",
+    "title": "手机充电器不拔会浪费电吗？待机功耗增加家庭电费",
+    "summary": "手机充电器在未连接设备时仍会消耗微量电能，家中闲置充电器过多会导致电费支出增加。",
+    "body": "许多用户习惯将手机充电器长期插在插座上，但这一行为实际上会造成电力浪费。即使在没有连接设备进行充电的情况下，充电器内部电路仍会产生待机功耗。\n\n对于拥有多个手机充电器的家庭而言，这些设备累积的待机耗电量不容忽视。长期不拔充电器不仅会增加家庭的电费支出，也不符合节能环保的理念，建议用户在充电完成后及时拔下插头或切断电源。",
+    "category": "消费电子",
+    "tags": [
+      "手机充电器",
+      "待机功耗",
+      "节能环保"
+    ],
+    "source": "Engadget",
+    "time": "32分钟前",
+    "ts": "2026-06-26T18:30:00+00:00",
+    "url": "https://www.engadget.com/2201922/do-phone-chargers-use-electricity-when-not-plugged-in/",
+    "image": "https://www.engadget.com/img/gallery/is-your-phone-charger-wasting-electricity-when-its-not-charging/l-intro-1782414898.jpg",
+    "stocks": []
+  },
+  {
+    "id": "b482b19fe0320088",
+    "title": "美国政府将管控ChatGPT升级版使用权限",
+    "summary": "美国政府拟对ChatGPT最新升级版本实施使用管控，或涉及国家安全审查与AI技术出口限制。",
+    "body": "美国政府计划对OpenAI开发的ChatGPT最新升级版本实施使用权限管控，可能通过国家安全审查或出口管制措施限制特定主体获取该技术。此举被视为强化AI技术监管的重要信号，或影响全球AI产业链的技术扩散路径。\n\n分析指出，此类管控可能增加跨国企业合规成本，同时推动各国加速自主研发大模型技术。当前OpenAI未公开具体受限范围，但政策动向已引发业界对AI技术地缘政治化的担忧。",
+    "category": "人工智能",
+    "tags": [
+      "人工智能",
+      "政策监管",
+      "ChatGPT",
+      "国家安全"
+    ],
+    "source": "Hacker News",
+    "time": "38分钟前",
+    "ts": "2026-06-26T18:23:14+00:00",
+    "url": "https://www.washingtonpost.com/technology/2026/06/26/openai-says-us-government-will-vet-users-its-latest-ai-model/",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "d688b101d42cee52",
+    "title": "射血分数保留型心衰患者右心室功能障碍患病率近40%",
+    "summary": "最新研究表明，在射血分数保留的心力衰竭患者中，约有41.7%的人存在右心室功能障碍，该研究已发表于《BMC心血管病杂志》。",
+    "body": "根据6月10日在线发表于《BMC心血管病杂志》的一项最新研究，右心室功能障碍在射血分数保留的心力衰竭患者中具有较高的普遍性。\n\n研究数据显示，高达41.7%的此类患者伴有右心室功能障碍。这一发现强调了在临床诊疗中关注该类患者右心功能的重要性，或将为未来心衰的精准治疗与病情评估提供重要参考。",
+    "category": "生物医药",
+    "tags": [
+      "心力衰竭",
+      "右心室功能障碍",
+      "心血管研究"
+    ],
+    "source": "MedicalXpress",
+    "time": "42分钟前",
+    "ts": "2026-06-26T14:20:01-04:00",
+    "url": "https://medicalxpress.com/news/2026-06-prevalence-ventricular-dysfunction-heart-failure.html",
+    "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/prevalence-of-right-ve.jpg",
+    "stocks": []
+  },
+  {
+    "id": "2175f124b087d7ed",
+    "title": "OpenAI挖角Uber印度高管，领导其美国外最大市场",
+    "summary": "OpenAI聘请Uber印度业务负责人来领导其在美国以外的最大市场，此举标志着该公司正进一步加大对印度市场的投入，包括扩大办公规模、深化合作及增加招聘。",
+    "body": "据外媒报道，人工智能巨头OpenAI近期从Uber挖角了其印度业务负责人，以领导OpenAI在美国以外的最大市场。\n\n这一人事任命标志着OpenAI正加速推进在印度市场的战略布局。未来，OpenAI将在印度进一步扩大办公室规模、深化本地合作伙伴关系，并持续增加人员招聘，以巩固其在全球重要新兴市场的影响力。",
+    "category": "人工智能",
+    "tags": [
+      "OpenAI",
+      "印度市场",
+      "人工智能",
+      "高管变动"
+    ],
+    "source": "TechCrunch",
+    "time": "42分钟前",
+    "ts": "2026-06-26T18:19:36+00:00",
+    "url": "https://techcrunch.com/2026/06/26/openai-poaches-uber-india-chief-to-lead-its-biggest-market-outside-the-u-s/",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "db1f0b4f4be5c6a7",
+    "title": "Bose耳机迎亚马逊会员日促销，降噪与舒适度备受青睐",
+    "summary": "Bose耳机凭借出色的舒适度、音质和降噪功能备受好评，近期在亚马逊会员日期间迎来降价促销。",
+    "body": "Bose耳机一直以来都因其卓越的佩戴舒适度、优异的音质表现以及出色的降噪功能而深受消费者和科技媒体的喜爱，成为音频市场上的热门选择。\n\n随着亚马逊Prime Day会员日的到来，Bose耳机迎来了降价促销活动。对于有意购买高品质降噪耳机的消费者而言，此次价格下调提供了极佳的入手时机，进一步提升了该品牌产品的市场吸引力。",
+    "category": "消费电子",
+    "tags": [
+      "Bose",
+      "降噪耳机",
+      "Prime Day"
+    ],
+    "source": "Wired",
+    "time": "45分钟前",
+    "ts": "2026-06-26T18:16:58+00:00",
+    "url": "https://www.wired.com/story/bose-headphones-amazon-prime-day-2026/",
+    "image": "https://media.wired.com/photos/6a3ec187a3cf8a28849056b0/master/pass/The-Bose-Headphones-Deal-You-Shouldn%E2%80%99t-Sleep-On-This-Prime-Day.jpg",
+    "stocks": []
+  },
+  {
+    "id": "f3fb68a9c5296fc6",
+    "title": "Slate电动卡车起售价2.5万美元，部分买家享补贴低于2万",
+    "summary": "Slate Auto电动卡车起售价现为24950美元，但部分符合条件的买家在享受州级补贴后，实际购车成本仍可降至2万美元以下。",
+    "body": "Slate Auto宣布其电动卡车的起售价目前设定为24950美元。尽管基础价格已明确，但部分买家仍有机会以不到20000美元的实际成本购车，这主要得益于各州提供的电动汽车补贴。\n\n然而，享受这些优惠存在一定门槛。补贴资格高度依赖买家的居住地及收入水平，且部分州级补贴政策可能并不适用于Slate车型，消费者需仔细核实当地政策。",
+    "category": "未来能源",
+    "tags": [
+      "Slate Auto",
+      "电动卡车",
+      "电动车补贴"
+    ],
+    "source": "Electrek",
+    "time": "45分钟前",
+    "ts": "2026-06-26T18:16:34+00:00",
+    "url": "https://electrek.co/2026/06/26/slate-truck-under-20000-state-incentives/",
+    "image": "https://electrek.co/wp-content/uploads/sites/3/2025/10/Slate-NACS-port.jpg?quality=82&#038;strip=all&#038;w=1400",
+    "stocks": []
+  },
+  {
+    "id": "570c7d933c693858",
+    "title": "特朗普移民政策引争议，多国球迷赴美观赛受阻",
+    "summary": "特朗普政府的移民政策导致大量来自非洲、亚洲和中东的球迷无法赴美观看世界杯，引发对美国排斥现象的关注。",
+    "body": "当欧洲游客在美国中部体验当地特色文化时，来自非洲、亚洲和中东的世界杯潜在观众却面临着被排斥的困境。\n特朗普政府实施的严格移民政策，导致大量上述地区的球迷无法顺利前往美国观看赛事。\n这一现象不仅影响了国际体育赛事的参与度，也引发了外界对美国移民政策及社会包容性的广泛争议。",
+    "category": "国际局势",
+    "tags": [
+      "移民政策",
+      "世界杯",
+      "美国政治"
+    ],
+    "source": "The Verge",
+    "time": "46分钟前",
+    "ts": "2026-06-26T14:15:46-04:00",
+    "url": "https://www.theverge.com/report/957948/world-cup-us-visa-policies-trump",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "e879a0e9b9cbf052",
+    "title": "三星Galaxy Unpacked前瞻：折叠屏、手表与眼镜或亮相",
+    "summary": "三星即将举行新一轮Galaxy Unpacked发布会，预计将推出新款折叠屏手机、智能手表及智能眼镜等消费电子新品。",
+    "body": "据外媒报道，三星即将举办新一轮Galaxy Unpacked新品发布会。此次发布会备受业界关注，预计将带来多款重磅硬件产品。\n\n消息指出，折叠屏手机、智能手表以及智能眼镜有望在此次活动中正式亮相。这些新品的推出不仅将进一步丰富三星的智能生态矩阵，也将对全球消费电子及可穿戴设备市场的发展产生积极的推动作用。",
+    "category": "消费电子",
+    "tags": [
+      "三星",
+      "折叠屏",
+      "智能穿戴",
+      "Galaxy Unpacked"
+    ],
+    "source": "Engadget",
+    "time": "47分钟前",
+    "ts": "2026-06-26T18:14:45+00:00",
+    "url": "https://www.engadget.com/2202726/foldables-watches-and-glasses-could-be-on-the-way/",
+    "image": "https://www.engadget.com/img/gallery/what-to-expect-at-the-next-samsung-galaxy-unpacked/l-intro-1782497564.jpg",
+    "stocks": []
+  },
+  {
+    "id": "3b558946f5f333d6",
+    "title": "Prime Day热门科技产品出炉：便携屏与Switch 2领跑",
+    "summary": "Tom's Hardware数据显示，Prime Day期间读者点击最多的科技产品为海盗船便携屏、DVD刻录机及任天堂Switch 2，SSD促销亦受关注。",
+    "body": "在存储与内存价格高企、缺乏新GPU导致PC装机热度低迷的背景下，Tom's Hardware读者在Prime Day期间的点击偏好出人意料。尽管西部数据和三星的SSD促销表现良好，且玩家仍在寻找罕见的GPU折扣，但整体PC硬件关注度受限。\n\n数据显示，点击量最高的产品分别是海盗船Xeneon Edge便携触摸屏显示器、DVD刻录机以及任天堂Switch 2。其中，Switch 2凭借潜在的折扣，在Steam Machine及高端游戏PC价格高昂的对比下，成为预算有限玩家的热门选择，凸显了高性价比游戏主机在当前市场中的强劲吸引力。",
+    "category": "消费电子",
+    "tags": [
+      "Prime Day",
+      "任天堂",
+      "消费电子",
+      "PC硬件"
+    ],
+    "source": "Tom's Hardware",
+    "time": "50分钟前",
+    "ts": "2026-06-26T18:11:41+00:00",
+    "url": "https://www.tomshardware.com/pc-components/this-is-what-toms-hardware-readers-clicked-the-most-during-prime-day-portable-displays-dvd-burners-the-nintendo-switch-2-and-two-decent-ssd-deals-among-others",
+    "image": "https://cdn.mos.cms.futurecdn.net/mQEYC78Xwd8pKx97Laaqph-1280-80.jpg",
+    "stocks": [
+      {
+        "name": "任天堂",
+        "ticker": "NTDOY",
+        "reason": "Switch 2在促销期间点击量领跑，显示出新主机在预算有限玩家中具备强劲的市场需求与吸引力。",
+        "confidence": "medium"
+      },
+      {
+        "name": "海盗船",
+        "ticker": "CRSR",
+        "reason": "旗下Xeneon Edge便携触摸屏显示器在Prime Day期间点击量位居前列，提振外设产品销售预期。",
+        "confidence": "low"
+      },
+      {
+        "name": "西部数据",
+        "ticker": "WDC",
+        "reason": "其SSD产品在促销活动中获得较高关注度，有助于在存储价格高企时促进消费级存储产品销售。",
+        "confidence": "low"
+      }
+    ]
+  },
+  {
+    "id": "445427457bf2e0cb",
+    "title": "委内瑞拉地震救援争分夺秒，黄金窗口临近",
+    "summary": "委内瑞拉发生地震后，救援队伍正争分夺秒地搜寻幸存者，目前关键的72小时黄金救援期即将结束。",
+    "body": "委内瑞拉近期发生地震灾害，当地救援团队正全力以赴搜寻可能的幸存者。随着灾后关键的72小时“黄金救援窗口”逐渐临近，救援工作面临巨大的时间压力。\n\n各方力量正加紧协调与搜救行动，力求在黄金时间内挽救更多生命，以最大程度降低灾害带来的人员伤亡与损失。",
+    "category": "国际局势",
+    "tags": [
+      "委内瑞拉",
+      "地震",
+      "国际救援"
+    ],
+    "source": "Al Jazeera",
+    "time": "51分钟前",
+    "ts": "2026-06-26T18:10:28+00:00",
+    "url": "https://www.aljazeera.com/video/newsfeed/2026/6/26/aje-onl-nf_inside-venezuelas-race-to-find-earthquake-survivors-260626?traffic_source=rss",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "8eec3081fb03ddb8",
+    "title": "苹果预警MacBook涨价 亚马逊会员日折扣更具吸引力",
+    "summary": "苹果公司发出MacBook产品即将涨价的预警，使得2026年亚马逊Prime Day期间的MacBook折扣优惠显得更具吸引力与购买价值。",
+    "body": "苹果公司近期发出预警，提示MacBook系列产品未来将面临价格上涨的趋势。这一消息直接影响了消费者的购买预期，使得当前的促销活动更具战略意义。\n\n在此背景下，2026年亚马逊Prime Day期间推出的MacBook折扣优惠显得尤为难得。对于有换机或购机需求的消费者而言，趁涨价前把握此次会员日促销机会，将成为更具性价比的选择。",
+    "category": "消费电子",
+    "tags": [
+      "苹果",
+      "MacBook",
+      "Prime Day"
+    ],
+    "source": "Wired",
+    "time": "54分钟前",
+    "ts": "2026-06-26T18:07:38+00:00",
+    "url": "https://www.wired.com/story/best-prime-day-macbook-deals-06-26-2026/",
+    "image": "https://media.wired.com/photos/6a3ad6cf98db7b4b438b19dc/master/pass/APD-macbook-deal-post.jpg",
+    "stocks": []
+  },
+  {
+    "id": "f38b1c2c9e994a3f",
+    "title": "特朗普指责伊朗违反停火协议 霍尔木兹海峡船只遇袭",
+    "summary": "特朗普指责伊朗在霍尔木兹海峡船只遇袭后违反停火协议，一艘新加坡籍船只遇袭导致该地区大规模疏散行动暂停。",
+    "body": "美国总统特朗普指责伊朗违反停火协议，起因是霍尔木兹海峡发生船只遇袭事件。周四，一艘悬挂新加坡国旗的船只在穿越该重要水道时遭到袭击。\n\n此次袭击事件导致该地区正在进行的大规模疏散行动被迫暂停。霍尔木兹海峡是全球关键的能源运输通道，该水域的紧张局势升级不仅威胁国际航运安全，也可能对全球能源供应链及地缘政治格局产生深远影响。",
+    "category": "国际局势",
+    "tags": [
+      "国际局势",
+      "霍尔木兹海峡",
+      "地缘政治"
+    ],
+    "source": "BBC World",
+    "time": "58分钟前",
+    "ts": "2026-06-26T18:03:32+00:00",
+    "url": "https://www.bbc.co.uk/news/articles/ckg54g0ry0vo?at_medium=RSS&at_campaign=rss",
+    "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/eec0/live/42563440-7189-11f1-bcec-7f8ed2660388.jpg",
+    "stocks": []
+  },
+  {
+    "id": "5155bcd21ba07a03",
+    "title": "以色列起诉六名涉清真寺袭击的定居者",
+    "summary": "以色列检察官对六名参与约旦河西岸清真寺袭击事件的定居者提起诉讼，同时该地区针对巴勒斯坦村庄的袭击仍在增加。",
+    "body": "以色列检察官近日正式起诉六名涉嫌参与约旦河西岸清真寺袭击事件的定居者，试图通过法律手段应对当地的暴力行为。\n\n然而，尽管部分定居者面临法律指控，以色列定居者对约旦河西岸巴勒斯坦村庄的袭击事件却呈现出增加的趋势。这一现象凸显了该地区持续存在的暴力冲突与治理难题，进一步加剧了巴以之间的紧张关系。",
+    "category": "国际局势",
+    "tags": [
+      "巴以冲突",
+      "约旦河西岸",
+      "中东局势"
+    ],
+    "source": "Al Jazeera",
+    "time": "1小时前",
+    "ts": "2026-06-26T18:00:24+00:00",
+    "url": "https://www.aljazeera.com/news/2026/6/26/israeli-prosecutors-charge-six-settlers-after-west-bank-mosque-attack?traffic_source=rss",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "8a765e63509ec457",
+    "title": "挪威新研究：母乳喂养至6个月或降低儿童多动症风险",
+    "summary": "卑尔根大学最新研究表明，婴儿期坚持母乳喂养至6个月大，与儿童在3至8岁时患多动症症状的风险降低存在显著关联。",
+    "body": "挪威卑尔根大学的一项最新医学研究揭示了母乳喂养对儿童神经发育的潜在保护作用。研究数据表明，婴儿在出生后坚持母乳喂养至6个月大，与其在3至8岁期间出现注意力缺陷多动障碍（ADHD）症状的风险降低存在明显关联。\n\n这一发现为婴幼儿喂养方式与长期神经发育健康之间的联系提供了新的科学证据。该研究不仅强调了母乳喂养在儿童早期成长中的重要性，也为未来预防和干预儿童多动症等神经发育问题提供了新的公共卫生视角。",
+    "category": "生物医药",
+    "tags": [
+      "母乳喂养",
+      "多动症",
+      "儿童健康",
+      "医学研究"
+    ],
+    "source": "MedicalXpress",
+    "time": "1小时前",
+    "ts": "2026-06-26T14:00:04-04:00",
+    "url": "https://medicalxpress.com/news/2026-06-breastfeeding-adhd-symptoms.html",
+    "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/infant-3.jpg",
+    "stocks": []
+  },
+  {
+    "id": "f36745a6455a9639",
+    "title": "达索系统高管分享产品生命周期管理职业历程",
+    "summary": "IEEE高级会员、达索系统行业流程总监Ajay Prasad分享其职业历程，专注于Enovia产品生命周期管理解决方案的全球监督。",
+    "body": "IEEE高级会员Ajay Prasad现任达索系统底特律分部的行业流程总监，主要负责全球范围内专注于Enovia产品生命周期管理解决方案的专家监督工作。Enovia是达索系统的旗舰产品之一。\n\nPrasad的职业发展深受早年经历影响。在印度班加罗尔长大时，身为机械工程师的父亲经常修理各类物品，激发了他解决实际问题的好奇心。此外，1999年爆发的“千年虫”危机让他对解决计算机问题产生浓厚兴趣，这最终塑造了他在工程与软件领域的职业生涯。",
+    "category": "人工智能",
+    "tags": [
+      "达索系统",
+      "产品生命周期管理",
+      "工业软件",
+      "IEEE"
+    ],
+    "source": "IEEE Spectrum",
+    "time": "1小时前",
+    "ts": "2026-06-26T18:00:01+00:00",
+    "url": "https://spectrum.ieee.org/product-lifecycle-ajay-prasad",
+    "image": "https://spectrum.ieee.org/media-library/an-indian-man-in-glasses-smiling-behind-his-laptop-computer-in-an-office-environment.jpg?id=67034089&width=980",
+    "stocks": []
+  },
+  {
+    "id": "1422c78e8277a68a",
+    "title": "中国计划将天宫空间站规模扩大一倍并增设天文台",
+    "summary": "中国计划在未来几年将天宫空间站从三舱段扩建至六舱段，并新增共轨空间天文台，以满足日益增长的科研与任务需求。",
+    "body": "中国计划在未来几年内将天宫空间站的规模扩大一倍，从现有的三舱段结构扩展为六舱段的“双T”字形结构。此次扩建将新增一个多功能舱段和两个实验舱段，并计划增加一个共轨的哈勃级空间天文台，以应对不断增长的研究需求和更频繁的乘组及货运任务。\n\n中国航天科技集团研究员表示，扩建一直是原定计划的一部分。扩建第一阶段将发射一个20吨级的多功能舱段与天和核心舱对接。新增的对接口将有效提升空间站的接待能力和操作灵活性，避免在任务密集时出现对接口排队及缺乏紧急缓冲空间的问题。\n\n在国际空间站接近寿命终点之际，天宫空间站的扩容不仅将大幅提升中国的在轨科研能力，也将进一步巩固中国在全球太空探索领域的地位。",
+    "category": "商业航天",
+    "tags": [
+      "天宫空间站",
+      "中国航天",
+      "太空探索"
+    ],
+    "source": "Space.com",
+    "time": "1小时前",
+    "ts": "2026-06-26T18:00:00+00:00",
+    "url": "https://www.space.com/space-exploration/launches-spacecraft/china-plans-to-double-the-size-of-its-tiangong-space-station-while-the-iss-nears-its-end",
+    "image": "https://cdn.mos.cms.futurecdn.net/Wjr6XH6LRoffJxG5s9M485-1280-80.jpg",
+    "stocks": []
+  },
+  {
+    "id": "2c60eca98a01066c",
+    "title": "亚马逊Prime Day收官：九号滑板车及户外电源迎大促",
+    "summary": "亚马逊Prime Day促销进入最后一天，九号公司电动滑板车首次打折，正浩创新便携电源降至新低。",
+    "body": "亚马逊Prime Day促销活动迎来最后一天，多款热门绿色出行与户外电源产品推出大幅优惠。其中，九号公司旗下的GT3 Pro高性能电动滑板车迎来首次折扣，售价降至2500美元。\n\n正浩创新的3600Wh便携电源降至1399美元，创下近期新低。同时，Tenways通勤电动自行车以及安克创新SOLIX、EGO Power+等多个知名品牌的户外电源和庭院设备也参与了此次大促，进一步刺激了相关消费电子产品的市场需求。",
+    "category": "消费电子",
+    "tags": [
+      "亚马逊Prime Day",
+      "九号公司",
+      "便携电源",
+      "安克创新"
+    ],
+    "source": "Electrek",
+    "time": "1小时前",
+    "ts": "2026-06-26T18:00:00+00:00",
+    "url": "https://electrek.co/2026/06/26/final-prime-day-segway-gt3-pro-superscooter-ecoflow-3600wh-power-station-more/",
+    "image": "https://electrek.co/wp-content/uploads/sites/3/2026/06/Segway-EcoFlow-Tenways-EGO-GDs-FI.jpg?quality=82&#038;strip=all&#038;w=1600",
+    "stocks": [
+      {
+        "name": "九号公司",
+        "ticker": "689009.SH",
+        "reason": "旗下Segway电动滑板车参与海外大促，有望提振海外销量",
+        "confidence": "high"
+      },
+      {
+        "name": "安克创新",
+        "ticker": "300866.SZ",
+        "reason": "旗下Anker SOLIX户外电源参与Prime Day促销，利好海外营收",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "50c72bc4906b3de4",
+    "title": "Newegg推AMD AM5超值套装立省250美元",
+    "summary": "Newegg现推出AMD Ryzen 5 9600X、技嘉B850主板及三星990 Pro固态硬盘的超值组合，总价直降36%。",
+    "body": "Newegg目前正提供一套极具性价比的PC装机组合，包含AMD Ryzen 5 9600X处理器、技嘉B850 Aorus Elite Wi-Fi7 Ice主板以及三星990 Pro 1TB固态硬盘。该套装售价仅为429.99美元，相比单独购买节省了近250美元，折扣高达36%，相当于免费获得这款高端固态硬盘。\n\n套装中的技嘉B850主板采用白色外观，支持高达8200 MT/s的DDR5内存超频，并配备PCIe 5.0、Wi-Fi 7及2.5G网口。此外，主板还提供M.2免工具散热装甲、显卡快拆按钮以及针对Ryzen 9000系列优化的X3D Turbo Mode等实用功能，是搭建AM5平台游戏主机的理想选择。",
+    "category": "消费电子",
+    "tags": [
+      "AMD",
+      "主板",
+      "固态硬盘",
+      "PC装机"
+    ],
+    "source": "Tom's Hardware",
+    "time": "1小时前",
+    "ts": "2026-06-26T17:57:34+00:00",
+    "url": "https://www.tomshardware.com/pc-components/save-usd250-on-this-amd-am5-bundle-get-samsung-990-pro-ssd-for-basically-free-grab-the-amd-ryzen-5-9600x-gigabyte-b850-aorus-elite-motherboard-and-990-pro-1tb-ssd-for-36-percent-off",
+    "image": "https://cdn.mos.cms.futurecdn.net/4jk99LtvcGooD6AWz7bwBa-1280-80.jpg",
+    "stocks": [
+      {
+        "name": "超威半导体",
+        "ticker": "AMD",
+        "reason": "电商套装促销有助于推广其AM5平台及Ryzen 9000系列处理器，提振消费端销量。",
+        "confidence": "low"
+      }
+    ]
+  },
+  {
+    "id": "da25518a2fb58539",
+    "title": "智能视频喂鸟器BirdBuddy成Prime Day爆款",
+    "summary": "配备太阳能板的BirdBuddy Pro智能视频喂鸟器在亚马逊Prime Day期间大受欢迎，成为庭院科技升级的热门产品。",
+    "body": "在近期的亚马逊Prime Day促销活动中，BirdBuddy Pro智能视频喂鸟器成为了令人意外的畅销产品。这款配备太阳能板的设备被科技媒体读者热捧，为庭院升级提供了温馨且充满科技感的解决方案。\n\n尽管该产品299美元的原价让部分消费者望而却步，但其本质上是视频门铃与太阳能技术的创新结合。这种智能硬件不仅提升了户外生活的趣味性，也展示了消费电子在细分生活场景中的巨大潜力。",
+    "category": "消费电子",
+    "tags": [
+      "智能硬件",
+      "消费电子",
+      "Prime Day"
+    ],
+    "source": "The Verge",
+    "time": "1小时前",
+    "ts": "2026-06-26T13:56:25-04:00",
+    "url": "https://www.theverge.com/gadgets/957791/birdbuddy-pro-solar-prime-day-deal-sale",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "00dbfed0331d1e95",
+    "title": "世界杯广告触及埃及球迷痛点引发社会争议",
+    "summary": "一则病毒式传播的世界杯广告活动在埃及引发广泛讨论，该广告触及了当地足球迷关注的敏感话题，从而激起了社会争议与辩论。",
+    "body": "近日，一则与世界杯相关的广告活动在埃及迅速走红并引发广泛关注。该广告活动通过触及埃及足球迷群体中一个熟悉且敏感的话题，成功吸引了大量眼球，但也随之引发了不小的争议。\n\n这种病毒式传播的营销方式虽然获得了极高的曝光度，但也凸显了大型体育赛事广告在本土化过程中面临的文化与社会心理挑战。广告引发的辩论不仅反映了当地球迷的真实情绪，也为未来的体育营销提供了关于文化敏感度的深刻启示。",
+    "category": "国际局势",
+    "tags": [
+      "世界杯",
+      "广告营销",
+      "埃及",
+      "社会争议"
+    ],
+    "source": "Al Jazeera",
+    "time": "1小时前",
+    "ts": "2026-06-26T17:55:06+00:00",
+    "url": "https://www.aljazeera.com/video/newsfeed/2026/6/26/why-did-these-world-cup-ads-strike-a-nerve-in-egypt-2?traffic_source=rss",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "39f71544666e63f2",
+    "title": "通用汽车新一代电动车平台将于2028年底首发",
+    "summary": "据报道，通用汽车新一代专用电动汽车平台预计将于2028年底推出，下一代雪佛兰探界者EV将成为首款搭载该平台的车型。",
+    "body": "通用汽车正在推进其电动汽车技术的迭代升级。据悉，该公司新一代专用电动汽车平台预计将于2028年底正式推出，旨在进一步巩固其在电动化领域的技术布局。\n\n下一代雪佛兰探界者EV将率先搭载这一全新平台。作为首发车型，探界者EV的换代将直接受益于新平台的技术升级，这也显示出通用汽车在主流电动SUV市场持续投入的战略意图。",
+    "category": "未来能源",
+    "tags": [
+      "通用汽车",
+      "电动汽车",
+      "雪佛兰探界者"
+    ],
+    "source": "Electrek",
+    "time": "1小时前",
+    "ts": "2026-06-26T17:52:12+00:00",
+    "url": "https://electrek.co/2026/06/26/gm-plans-new-ev-platform-debut-next-gen-chevy-equinox/",
+    "image": "https://electrek.co/wp-content/uploads/sites/3/2026/01/Chevy-Equinox-EV-5000-off.jpeg?quality=82&#038;strip=all&#038;w=1400",
+    "stocks": [
+      {
+        "name": "通用汽车",
+        "ticker": "GM",
+        "reason": "作为新平台的研发者与首发车企，新平台有望提升其电动车产品竞争力。",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "a90571175355ef58",
+    "title": "《自然》新研究：发现抗生素巨型簇以对抗超级细菌",
+    "summary": "《自然》期刊发表最新研究，科学家发现抗生素巨型簇，为应对日益严峻的超级细菌耐药性问题提供了全新的治疗策略与药物研发思路。",
+    "body": "抗生素耐药性是人类面临的重大医疗挑战。目前临床使用的抗生素大多源自微生物的天然产物，但近年来新天然产物的发现愈发困难，导致新抗生素研发管线枯竭，而现有抗生素的过度使用使得耐药性问题达到临界水平。\n\n本周发表在《自然》杂志上的一项研究带来突破性进展。科学家发现了一种抗生素巨型簇，这不仅指向了一种潜在的新型抗生素治疗方案，更提供了一种全新的研发策略，有望帮助人类在与细菌进化的军备竞赛中重新取得优势，充实抗生素药物储备。",
+    "category": "生物医药",
+    "tags": [
+      "抗生素",
+      "超级细菌",
+      "生物医药",
+      "基础研究"
+    ],
+    "source": "Ars Technica",
+    "time": "1小时前",
+    "ts": "2026-06-26T17:46:07+00:00",
+    "url": "https://arstechnica.com/health/2026/06/antibiotic-megacluster-discovery-provides-new-strategy-to-fight-superbugs/",
+    "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/06/GettyImages-579216572-1152x648.jpg",
+    "stocks": []
+  },
+  {
+    "id": "edb1eac8f64ae223",
+    "title": "大疆DJI Neo无人机迎Prime Day促销 降价60美元",
+    "summary": "大疆入门级无人机DJI Neo在亚马逊Prime Day期间享受七折优惠，售价降至139美元。该机重量低于250克且支持4K拍摄，非常适合新手使用。",
+    "body": "在亚马逊Prime Day促销活动期间，大疆推出的入门级无人机DJI Neo迎来大幅降价，优惠幅度达60美元，最终售价降至139美元。在新一代产品发布前，该机被专家评为最简单易用的大疆无人机，并获得四星好评。\n\nDJI Neo重量低于250克，用户无需根据现行法规进行注册。它支持4K视频拍摄，提供多种控制选项，既可通过手机应用手动控制，也能自主跟踪拍摄。无论是新手入门还是资深飞手作为备用机，都具备极高的性价比。",
+    "category": "消费电子",
+    "tags": [
+      "大疆",
+      "无人机",
+      "消费电子"
+    ],
+    "source": "Space.com",
+    "time": "1小时前",
+    "ts": "2026-06-26T17:45:00+00:00",
+    "url": "https://www.space.com/technology/drones/only-a-few-hours-left-this-expert-approved-beginner-friendly-drone-is-usd60-off-for-prime-day",
+    "image": "https://cdn.mos.cms.futurecdn.net/VwyUCGudF8xqGiw6YQpdWS-1280-80.jpg",
+    "stocks": []
+  },
+  {
+    "id": "bfc22edd885d5ad7",
+    "title": "OpenAI携手博通自研芯片，巨头加速摆脱英伟达依赖",
+    "summary": "OpenAI计划与博通合作开发定制推理芯片，加入谷歌、苹果等自研芯片行列，旨在降低对单一AI芯片供应商的依赖风险。",
+    "body": "多年来，英伟达一直主导着人工智能芯片市场，但科技企业对其完全依赖的时代可能即将结束。OpenAI近期透露了代号为“Jalapeño”的定制推理芯片计划，该芯片将与博通合作开发。\n\n这一举措标志着OpenAI正式加入自研芯片的行列。目前，包括谷歌、苹果和SpaceX在内的众多科技巨头都在积极推进自研芯片战略，其核心目的在于分散供应链风险，摆脱对单一供应商的过度依赖。这一趋势将深刻改变AI算力市场的竞争格局。",
+    "category": "人工智能",
+    "tags": [
+      "AI芯片",
+      "OpenAI",
+      "博通",
+      "自研芯片"
+    ],
+    "source": "TechCrunch",
+    "time": "1小时前",
+    "ts": "2026-06-26T17:43:22+00:00",
+    "url": "https://techcrunch.com/video/why-everyone-from-openai-to-spacex-is-building-their-own-chips-and-turning-up-the-heat-on-nvidia/",
+    "image": "",
+    "stocks": [
+      {
+        "name": "博通",
+        "ticker": "AVGO",
+        "reason": "与OpenAI合作开发定制AI推理芯片，直接受益于科技巨头自研芯片的设计与代工需求。",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "3e28bec257184eef",
+    "title": "血管细胞信号角色固定数周，重塑毛细血管通讯认知",
+    "summary": "科学家发现皮肤毛细血管内皮细胞的钙脉冲信号传导遵循高度组织的模式，且细胞在数周内保持固定的信号角色。",
+    "body": "皮肤毛细血管内皮细胞通过微小的钙脉冲不断相互传递信息，以调节血流、感知物理力量并维持血管壁的完整性。科学界对这种信号传导机制已有数十年的了解。\n\n最新研究揭示了该过程遵循一种高度组织化的模式。这种模式能够持续数天乃至数周，由一个细胞网络主导，这些细胞在某种意义上为自己分配了永久性的固定角色。这一发现重塑了学界对毛细血管细胞通讯的认知。",
+    "category": "生物医药",
+    "tags": [
+      "基础医学",
+      "毛细血管",
+      "细胞通讯"
+    ],
+    "source": "MedicalXpress",
+    "time": "1小时前",
+    "ts": "2026-06-26T13:40:04-04:00",
+    "url": "https://medicalxpress.com/news/2026-06-blood-vessel-cells-roles-weeks.html",
+    "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/the-hidden-signaling-n.jpg",
+    "stocks": []
+  },
+  {
+    "id": "6ab2707d1006ea82",
+    "title": "俄黑客被指制造捷豹路虎25亿美元网络攻击事件",
+    "summary": "据报告披露，去年导致汽车巨头捷豹路虎遭受严重破坏的黑客攻击事件幕后黑手为俄罗斯黑客，造成的损失高达25亿美元。",
+    "body": "据最新报告披露，去年针对汽车巨头捷豹路虎的严重网络攻击事件，其幕后黑手被指认为俄罗斯黑客，此次事件造成了高达25亿美元的巨额损失。\n\n该起黑客攻击被认为是近年来最具破坏性、损害最严重且代价最为高昂的网络安全事件之一。这不仅给企业带来了沉重的财务与运营打击，也凸显了当前复杂国际局势下跨国企业面临的严峻网络安全威胁。",
+    "category": "国际局势",
+    "tags": [
+      "网络安全",
+      "黑客攻击",
+      "捷豹路虎"
+    ],
+    "source": "TechCrunch",
+    "time": "1小时前",
+    "ts": "2026-06-26T17:29:29+00:00",
+    "url": "https://techcrunch.com/2026/06/26/russian-hackers-were-behind-2-5-billion-hack-of-jaguar-land-rover-report/",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "eca0aad6906cecc5",
+    "title": "加拿大Éclipse车队备战2026美国太阳能挑战赛",
+    "summary": "加拿大ÉTS大学Éclipse太阳能车队正积极备战2026年美国太阳能挑战赛，并推出全新研发的Éclipse 12太阳能赛车。",
+    "body": "2026年7月，Electrek方程式太阳能大奖赛和美国太阳能挑战赛将在明尼苏达州举行。来自加拿大蒙特利尔高等技术学院的Éclipse车队将携最新赛车参赛。\n该车队自1992年起便致力于太阳能赛车的研发，拥有超过33年的经验。车队队长介绍了全新打造的Éclipse 12赛车，并分享了应对今年赛事规则变化的策略。\n值得一提的是，该车队具备强大的自主研发能力，几乎能够独立完成整辆太阳能汽车的制造。这展示了高校在新能源交通领域的创新实力与技术探索。",
+    "category": "未来能源",
+    "tags": [
+      "太阳能汽车",
+      "新能源",
+      "美国太阳能挑战赛"
+    ],
+    "source": "Electrek",
+    "time": "1小时前",
+    "ts": "2026-06-26T17:27:23+00:00",
+    "url": "https://electrek.co/2026/06/26/this-canadian-team-has-raced-solar-cars-since-1992-and-theyre-bringing-their-best-yet-to-the-2026-electrek-american-solar-challenge/",
+    "image": "https://electrek.co/wp-content/uploads/sites/3/2026/06/e3df09_3dd6f8a8b680444e8d6c0c6be3a3edd1mv2.avif?w=1600",
+    "stocks": []
+  },
+  {
+    "id": "eda798ab846eef3c",
+    "title": "什么是诺模图及其潜在应用价值",
+    "summary": "诺模图是一种图形计算工具，通过可视化方式直观展示多变量数学关系，在工程与医学统计等领域具有简化复杂计算的实用价值。",
+    "body": "诺模图（Nomogram），又称列线图，是一种将复杂数学公式或统计模型转化为直观几何图形的计算工具。用户只需在图上连线，即可快速得出多变量方程的近似解，无需进行繁琐的手工计算。\n\n在技术社区的讨论中，诺模图因其在数据可视化和快速估算方面的独特优势而受到关注。尽管现代计算机已能瞬间完成复杂运算，但诺模图在临床预测模型、工程设计及现场估算等场景中，依然提供了一种直观且易于解释的决策辅助手段。",
+    "category": "人工智能",
+    "tags": [
+      "诺模图",
+      "数据可视化",
+      "计算工具"
+    ],
+    "source": "Hacker News",
+    "time": "1小时前",
+    "ts": "2026-06-26T17:24:25+00:00",
+    "url": "https://lefakkomies.github.io/pynomo-doc/introduction/introduction.html#what-is-a-nomogram-and-why-would-it-interest-me",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "97cd865b7971e777",
+    "title": "数据中心建设引发选民反弹或影响选举",
+    "summary": "数据中心的扩张与建设正引发当地选民的强烈不满与反弹，甚至可能对地方选举结果产生实质性影响。",
+    "body": "近期，数据中心的建设与运营在当地社区引发了选民的强烈反弹。随着算力需求的激增，数据中心的大规模扩张往往伴随着高耗电与资源消耗等问题，导致周边居民不满。\n\n这种社区层面的抵触情绪正转化为政治力量，选民试图通过选票表达对数据中心项目的反对。这表明科技基础设施的扩张需妥善解决社区关系等社会问题，否则将影响项目推进。",
+    "category": "人工智能",
+    "tags": [
+      "数据中心",
+      "社区反弹",
+      "科技基建"
+    ],
+    "source": "Hacker News",
+    "time": "1小时前",
+    "ts": "2026-06-26T17:24:21+00:00",
+    "url": "https://www.newsweek.com/cost-me-the-election-data-centers-trigger-voter-backlash-12118327",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "420abd299c3a31fb",
+    "title": "Eufy泛光灯安防摄像头迎史低折扣",
+    "summary": "在Prime Day促销期间，Eufy泛光灯安防摄像头迎来历史最低折扣，是提升家庭安防的优质选择。",
+    "body": "在近期的Prime Day购物节中，知名智能家居品牌Eufy旗下的泛光灯安防摄像头迎来了前所未有的折扣力度，价格创下历史新低。\n\n对于希望在促销期间升级或加强家庭安防系统的消费者而言，这款集成了照明与监控功能的摄像头提供了一个极具性价比的解决方案，有助于进一步推动智能安防设备在家庭场景中的普及。",
+    "category": "消费电子",
+    "tags": [
+      "智能家居",
+      "安防摄像头",
+      "Eufy",
+      "Prime Day"
+    ],
+    "source": "Wired",
+    "time": "1小时前",
+    "ts": "2026-06-26T17:23:59+00:00",
+    "url": "https://www.wired.com/story/amazon-prime-day-eufy-floodlight-security-camera-june-2026/",
+    "image": "https://media.wired.com/photos/6a3eb546e89f0e5e9b32c765/master/pass/Don%E2%80%99t-Miss-This-Eufy-Floodlight-Security-Camera-Deal.jpg",
+    "stocks": [
+      {
+        "name": "安克创新",
+        "ticker": "300866.SZ",
+        "reason": "Eufy为安克创新旗下智能家居品牌，产品大促有望带动公司海外营收增长。",
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
+    "id": "0d3fb1e817cc12da",
+    "title": "索尼WH-1000XM5降噪耳机亚马逊降至198美元历史新低",
+    "summary": "索尼WH-1000XM5无线头戴式降噪耳机在亚马逊Prime Day促销中降至198美元的历史最低价，提供发烧级音质与顶尖降噪体验。",
+    "body": "在亚马逊Prime Day促销活动期间，索尼WH-1000XM5无线头戴式降噪耳机迎来了198美元的历史最低售价。对于音乐爱好者及频繁通勤的用户而言，这是一款极具性价比的高端降噪设备。\n\n该耳机采用8个麦克风输入并配合两个专用DSP芯片进行降噪处理，其主动降噪性能位居市场前列，并与苹果AirPods Max 2表现相当。结合其出色的音质调校，为用户带来了宁静且发烧级的音频体验。",
+    "category": "消费电子",
+    "tags": [
+      "索尼",
+      "降噪耳机",
+      "消费电子",
+      "亚马逊促销"
+    ],
+    "source": "Tom's Hardware",
+    "time": "1小时前",
+    "ts": "2026-06-26T17:23:28+00:00",
+    "url": "https://www.tomshardware.com/pc-components/sony-wh-1000xm5-active-noise-canceling-headphones-for-an-all-time-low-usd198-at-amazon-audiophile-grade-audio-and-anc-for-an-affordable-price",
+    "image": "https://cdn.mos.cms.futurecdn.net/L4cL4f4FRrd5T9nfUZ8i8W-1280-80.png",
+    "stocks": [
+      {
+        "name": "索尼",
+        "ticker": "SONY",
+        "reason": "索尼旗下消费电子主力产品降价促销，有望提振硬件销量与市场份额。",
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
+    "id": "af593b6e3fd5403c",
+    "title": "Meta Quest 3S迎Prime Day限时促销 降价15%",
+    "summary": "受内存芯片短缺影响消费电子产品涨价，Meta Quest 3S头显在亚马逊Prime Day期间限时降价15%，128GB版降至约297美元。",
+    "body": "受内存芯片短缺影响，包括VR头显在内的消费电子产品价格普遍上涨。不过在亚马逊Prime Day期间，Meta Quest 3S迎来了限时促销，128GB基础版降价15%至296.79美元，基本恢复到芯片短缺前的300美元首发价水平。\n\n作为Meta Quest 3的平价版本，Quest 3S虽然在屏幕分辨率和视场角上有所妥协，但整体质感与性能依然出色。此外，256GB版本同样享受85折优惠，降至382.49美元，并附赠《蝙蝠侠：阿卡姆之影》游戏，为消费者提供了极具性价比的VR体验选择。",
+    "category": "消费电子",
+    "tags": [
+      "Meta",
+      "VR头显",
+      "消费电子",
+      "Prime Day"
+    ],
+    "source": "Tom's Hardware",
+    "time": "1小时前",
+    "ts": "2026-06-26T17:23:04+00:00",
+    "url": "https://www.tomshardware.com/pc-components/meta-quest-3s-drops-to-pre-rampocalypse-prices-for-a-prime-day-wireless-vr-headset-goes-on-sale-for-a-limited-time-get-15-percent-off-and-save-more-than-usd50-if-you-get-it-right-now",
+    "image": "https://cdn.mos.cms.futurecdn.net/8jb8xofZp3qCG63mzwMz3D-1280-80.png",
+    "stocks": [
+      {
+        "name": "Meta",
+        "ticker": "META",
+        "reason": "旗下Quest 3S头显降价促销有望提振硬件销量及VR内容生态活跃度。",
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
+    "id": "147306170d710303",
+    "title": "欧洲遭遇极端热浪 医院承压凸显高温健康威胁",
+    "summary": "欧洲近期遭遇极端热浪天气，导致当地医院不堪重负，再次凸显了高温天气对人类健康的致命威胁。",
+    "body": "欧洲正经历一场严峻的热浪侵袭，极端高温天气导致当地医疗系统面临巨大压力，多家医院出现超负荷运转的情况。\n\n这一现象再次向公众敲响了警钟，凸显了酷热天气对人类生命健康构成的严重且致命的威胁，公共卫生系统应对极端气候的挑战日益严峻。",
+    "category": "生物医药",
+    "tags": [
+      "极端天气",
+      "公共健康",
+      "欧洲热浪"
+    ],
+    "source": "MedicalXpress",
+    "time": "1小时前",
+    "ts": "2026-06-26T13:20:04-04:00",
+    "url": "https://medicalxpress.com/news/2026-06-dangerous-human-health.html",
+    "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/heatwaves-are-particul.jpg",
+    "stocks": []
+  },
+  {
+    "id": "872f7e6dc23012d4",
+    "title": "智能锁品牌Level遭大幅裁员，创始人出局",
+    "summary": "瑞典锁业巨头Assa Abloy对旗下智能锁品牌Level Home进行大规模裁员，创始人已离职，业务将并入Kwikset。",
+    "body": "据知情人士透露，瑞典锁业巨头Assa Abloy已裁减了旗下智能锁公司Level Home的大部分员工，其创始人也已离开公司。Level Home曾因将智能技术巧妙融入传统外观的机械锁中而备受瞩目。\n\n目前，Assa Abloy正将Level Home的业务整合至Kwikset品牌旗下。此次重组和裁员反映出智能锁市场竞争的激烈，以及传统锁业巨头在整合创新品牌时面临的战略调整与业务优化挑战。",
+    "category": "消费电子",
+    "tags": [
+      "智能锁",
+      "消费电子",
+      "企业重组"
+    ],
+    "source": "The Verge",
+    "time": "1小时前",
+    "ts": "2026-06-26T13:18:04-04:00",
+    "url": "https://www.theverge.com/tech/957802/level-lock-layoffs-assa-abloy-kwikset-smart-lock-cloud",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "adbd50c1b1db1eb7",
+    "title": "预览下一代人工智能模型GPT-5.6 Sol",
+    "summary": "Hacker News社区近日热议关于下一代人工智能模型GPT-5.6 Sol的预览文章，引发广泛关注与讨论。",
+    "body": "近日，Hacker News平台上发布了一篇关于预览下一代人工智能模型GPT-5.6 Sol的文章。该帖子在社区内引发了热烈反响，获得了三百多个点赞及三百余条评论。\n\n尽管当前材料并未披露GPT-5.6 Sol的具体技术参数与功能细节，但其作为下一代大模型的定位已引起科技爱好者的广泛探讨。这不仅反映了业界对前沿人工智能技术迭代的高度期待，也预示着大模型领域可能即将迎来新的发展节点。",
+    "category": "人工智能",
+    "tags": [
+      "人工智能",
+      "大语言模型",
+      "GPT-5.6"
+    ],
+    "source": "Hacker News",
+    "time": "1小时前",
+    "ts": "2026-06-26T17:06:55+00:00",
+    "url": "https://openai.com/index/previewing-gpt-5-6-sol/",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "b655b08f33f9407a",
+    "title": "刚果（金）就数十年冲突将卢旺达告上国际法庭",
+    "summary": "刚果民主共和国向国际法院起诉卢旺达，指控其自1994年种族灭绝事件以来在两国数十年冲突中犯下多项违规行为。",
+    "body": "刚果民主共和国已正式将邻国卢旺达诉至国际法院，旨在解决两国之间长达数十年的武装冲突与历史遗留问题。\n\n金沙萨方面指控，自1994年卢旺达种族灭绝事件发生以来，卢旺达在长期的地区冲突中犯下了多种违规行为。此举标志着两国间复杂的地缘政治矛盾正式进入国际司法程序。",
+    "category": "国际局势",
+    "tags": [
+      "刚果（金）",
+      "卢旺达",
+      "国际法院",
+      "地缘冲突"
+    ],
+    "source": "BBC World",
+    "time": "1小时前",
+    "ts": "2026-06-26T17:05:22+00:00",
+    "url": "https://www.bbc.co.uk/news/articles/c8724zn3491o?at_medium=RSS&at_campaign=rss",
+    "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/245e/live/77afcab0-3e06-11ef-9e1c-3b4a473456a6.jpg",
+    "stocks": []
+  },
+  {
+    "id": "bebc9f97b542c133",
+    "title": "摩尔定律失效？天文观测设备价格为何不降反升",
+    "summary": "尽管摩尔定律预示技术成本应随时间下降，但天文观测设备如望远镜和智能望远镜的价格却依然高昂，入门与高端产品均花费不菲。",
+    "body": "摩尔定律指出计算能力每两年翻番且成本减半，这意味着技术产品理应降价。然而在天文观测领域，这一规律似乎并未应验，爱好者购买望远镜等设备的成本依然高昂，一次采购可能花费数千美元。\n\n目前市场上天文设备价格跨度较大。入门级星特朗望远镜和双筒望远镜价格在50至100美元，但光学性能有限；而高端智能望远镜和防抖双筒望远镜价格则高达1000至5000美元。\n\n尽管消费者可通过Prime Day或黑五等促销获得折扣，但整体购买成本依然很高。不过，智能望远镜的出现和普及正在深刻改变业余天文观测的体验，成为该领域的重要发展趋势。",
+    "category": "消费电子",
+    "tags": [
+      "天文观测",
+      "消费电子",
+      "智能望远镜",
+      "摩尔定律"
+    ],
+    "source": "Space.com",
+    "time": "1小时前",
+    "ts": "2026-06-26T17:05:21+00:00",
+    "url": "https://www.space.com/stargazing/skywatching-kit/moores-law-tells-us-that-the-price-of-technology-should-go-down-over-time-so-why-is-stargazing-gear-getting-more-expensive",
+    "image": "https://cdn.mos.cms.futurecdn.net/yd7JAwgA8xoiUdQa8YxUNg-1280-80.jpg",
+    "stocks": []
+  },
+  {
+    "id": "62acd83f476c36bb",
+    "title": "微软发布Win11预览版更新，支持自定义任务栏大小",
+    "summary": "微软面向多个Windows Insider预览频道推出Win11更新，引入任务栏尺寸调节功能，并将焕新的预览计划体验逐步推送至零售版用户。",
+    "body": "微软近日面向Windows Insider的Beta、Experimental等多个预览频道推送了Windows 11全新预览版更新。本次更新在Experimental频道中引入了全新的任务栏尺寸设置选项，允许用户更灵活地自定义任务栏大小以优化使用体验。\n\n同时，微软宣布将焕新的Windows Insider计划体验逐步推送到标准零售版Windows 11中。未来，非预览版用户也能在系统设置内直接查看和管理预览频道，且支持灵活切换或退出而无需重装系统，进一步降低了普通用户参与系统测试的门槛。",
+    "category": "消费电子",
+    "tags": [
+      "微软Win11",
+      "操作系统",
+      "系统更新",
+      "任务栏"
+    ],
+    "source": "IT之家",
+    "time": "2小时前",
+    "ts": "2026-06-26T17:01:30+00:00",
+    "url": "https://www.ithome.com/0/969/270.htm",
+    "image": "https://img.ithome.com/newsuploadfiles/2026/6/c543ed84-e601-4d79-93ac-278e232b1cb3.png",
+    "stocks": [
+      {
+        "name": "微软",
+        "ticker": "MSFT",
+        "reason": "Windows 11是微软的核心操作系统产品，持续优化体验有助于提升用户粘性与PC生态竞争力。",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "615d03de7f4c8222",
+    "title": "YC S25批次初创公司Liva AI发布招聘",
+    "summary": "入选Y Combinator S25批次的初创公司Liva AI在技术社区发布招聘信息，正积极扩充研发团队。",
+    "body": "近日，在知名技术社区Hacker News上，一家名为Liva AI的初创公司发布了招聘启事。该公司已成功入选著名的创业孵化器Y Combinator的S25批次。\n\n虽然目前关于Liva AI的具体业务方向和产品细节尚未在帖子中详细披露，但能够入选YC通常意味着具备一定的技术创新潜力。此次招聘表明团队正积极招兵买马，以推动后续发展。",
+    "category": "人工智能",
+    "tags": [
+      "Liva AI",
+      "Y Combinator",
+      "初创公司"
+    ],
+    "source": "Hacker News",
+    "time": "2小时前",
+    "ts": "2026-06-26T17:00:43+00:00",
+    "url": "https://www.ycombinator.com/companies/liva-ai/jobs/gvtc3Ep-founding-operations-lead",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "e7a7993bc325d5ab",
+    "title": "前特朗普顾问博尔顿对不当处理机密文件认罪",
+    "summary": "前特朗普政府顾问约翰·博尔顿对不当处理机密文件指控认罪，面临最高五年监禁及225万美元罚款。",
+    "body": "据检方透露，前特朗普政府顾问约翰·博尔顿已就对不当处理机密文件的指控认罪。根据相关指控，博尔顿将面临最高五年的监禁刑期。\n\n此外，博尔顿还同意支付225万美元的罚款。此事件反映了美国对涉密人员违规处理机密文件的严厉法律追责。",
+    "category": "国际局势",
+    "tags": [
+      "约翰·博尔顿",
+      "美国政治",
+      "机密文件"
+    ],
+    "source": "BBC World",
+    "time": "2小时前",
+    "ts": "2026-06-26T16:45:21+00:00",
+    "url": "https://www.bbc.co.uk/news/articles/czxqwg4nrvlo?at_medium=RSS&at_campaign=rss",
+    "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/bcea/live/a513f030-716c-11f1-a4f8-ed826651ef10.jpg",
+    "stocks": []
+  },
+  {
+    "id": "29da5e67f2e5c75c",
+    "title": "《永劫无间》将于2026年底从Epic下架并启动账号迁移",
+    "summary": "网易旗下《永劫无间》宣布将于2026年12月30日从Epic商店下架，并于同年7月启动国服与外服的账号迁移工作。",
+    "body": "网易旗下游戏《永劫无间》在周年庆发布会上宣布，将于2026年12月30日正式从Epic商店下架并停止更新。自2026年7月2日起，Epic平台将停止该游戏的购买与下载服务，同时开启账号迁移通道。国服玩家数据将迁移至网易官服，外服玩家则迁移至Steam平台，确保游戏进度完整保留。\n\n此外，官方公布了周年庆版本的丰富更新计划，包括上线新地图、新英雄及新武器等。游戏还将在下半年推出《雾山五行》《秦时明月》等多项知名IP联动活动，进一步丰富玩家体验并提升游戏长线运营能力。",
+    "category": "消费电子",
+    "tags": [
+      "永劫无间",
+      "网易",
+      "Epic商店",
+      "账号迁移"
+    ],
+    "source": "IT之家",
+    "time": "2小时前",
+    "ts": "2026-06-26T16:44:44+00:00",
+    "url": "https://www.ithome.com/0/969/269.htm",
+    "image": "https://img.ithome.com/newsuploadfiles/2026/6/da844be5-4176-44d5-9e43-f2af33c49a26.png",
+    "stocks": [
+      {
+        "name": "网易",
+        "ticker": "9999.HK",
+        "reason": "旗下核心游戏整合渠道并推出周年庆大版本与丰富联动，有望提升玩家活跃度与长线流水。",
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
+    "id": "aead5762efa849fa",
+    "title": "库洛游戏《鸣潮》鸿蒙端及3.5版本7月10日上线",
+    "summary": "库洛游戏《鸣潮》鸿蒙原生版将于7月10日开启不删档测试，同时游戏3.5版本也将同步上线并接入Intel XeSS 3技术。",
+    "body": "库洛游戏官方宣布，《鸣潮》HarmonyOS鸿蒙原生版本已在华为游戏中心开启预约，并将于7月10日正式开启不删档测试，标志着该游戏在鸿蒙生态的进一步布局。\n\n同日，《鸣潮》3.5版本也将正式上线，PC端官宣接入Intel XeSS 3技术。新版本将推出全新地图、多位新角色及丰富的联动活动，并对游戏内多项体验进行优化。此外，官方授权的集换式卡牌游戏也计划于年内发售。",
+    "category": "消费电子",
+    "tags": [
+      "鸣潮",
+      "鸿蒙生态",
+      "库洛游戏",
+      "游戏优化"
+    ],
+    "source": "IT之家",
+    "time": "2小时前",
+    "ts": "2026-06-26T16:35:55+00:00",
+    "url": "https://www.ithome.com/0/969/268.htm",
+    "image": "https://img.ithome.com/newsuploadfiles/2026/5/1c69ae8a-4979-4032-bbcb-d773069a7a92.png?x-bce-process=image/format,f_auto/auto-orient,o_1",
+    "stocks": []
+  },
+  {
+    "id": "af42cfc0ddb5ab64",
+    "title": "特斯拉就FSD致命车祸诉讼达成和解，联邦调查仍在继续",
+    "summary": "特斯拉已就2023年涉及完全自动驾驶系统的一起致命车祸诉讼达成和解，但相关的联邦调查仍在进行中。",
+    "body": "近日，特斯拉就一起与完全自动驾驶（FSD）系统相关的致命车祸诉讼达成和解。该诉讼源于2023年发生的一起严重交通事故，涉事车辆当时正在使用特斯拉的高级驾驶辅助系统。\n\n尽管民事诉讼已经和解，但针对该事件的联邦层面调查仍在继续。这一事件凸显了自动驾驶技术在商业化落地过程中面临的安全争议与监管挑战，也表明相关企业在推进高阶智驾技术时仍需应对复杂的法律与合规风险。",
+    "category": "人工智能",
+    "tags": [
+      "特斯拉",
+      "自动驾驶",
+      "FSD",
+      "法律诉讼"
+    ],
+    "source": "TechCrunch",
+    "time": "2小时前",
+    "ts": "2026-06-26T16:32:55+00:00",
+    "url": "https://techcrunch.com/2026/06/26/tesla-settles-fsd-crash-lawsuit-as-federal-investigations-continue/",
+    "image": "",
+    "stocks": [
+      {
+        "name": "特斯拉",
+        "ticker": "TSLA",
+        "reason": "达成诉讼和解有助于降低法律赔偿风险与不确定性，缓解市场对其自动驾驶业务的担忧。",
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
     "id": "9aaf4ca3bb68ff56",
     "title": "TikTok发力打造超级应用，意图整合数字生活",
     "summary": "据外媒报道，TikTok正致力于转型为超级应用，旨在成为用户处理日常大部分数字活动的首选平台。",
@@ -35,6 +1046,25 @@ const newsData = [
     "ts": "2026-06-26T16:28:47+00:00",
     "url": "https://www.tomshardware.com/pc-components/asus-rog-zephyrus-g16-gaming-laptop-with-an-rtx-5070-and-240hz-oled-display-is-on-sale-for-usd757-off-save-on-an-excellent-laptop-with-a-16-core-flagship-cpu-and-top-tier-build-quality",
     "image": "https://cdn.mos.cms.futurecdn.net/KmHJRqosbHM3SRkMWVuYie-1280-80.jpg",
+    "stocks": []
+  },
+  {
+    "id": "ea20825f7abaa33e",
+    "title": "蓝色起源New Glenn火箭爆炸后续：发射台尽毁，登月计划受波及",
+    "summary": "蓝色起源New Glenn火箭在佛罗里达发射台爆炸已近一月，唯一发射台被毁，外界对其年内复飞承诺存疑，NASA阿尔忒弥斯登月计划或受波及。",
+    "body": "蓝色起源公司的New Glenn火箭在佛罗里达州发射台发生剧烈爆炸已过去近一个月，此次事故不仅产生了巨大的火球，还彻底摧毁了该火箭唯一的发射台LC-36A。\n\n尽管公司创始人杰夫·贝索斯等高管表示，New Glenn火箭将在今年年底前于原址恢复发射，但外界对这一时间表普遍持怀疑态度。\n\n此次发射失败引发了广泛关注，因为该火箭已成为NASA及商业客户的重要依赖。业界正密切关注此次事故对阿尔忒弥斯登月计划及月球基地建设进度的潜在影响。",
+    "category": "商业航天",
+    "tags": [
+      "蓝色起源",
+      "New Glenn",
+      "阿尔忒弥斯计划",
+      "商业航天"
+    ],
+    "source": "Ars Technica",
+    "time": "2小时前",
+    "ts": "2026-06-26T16:24:59+00:00",
+    "url": "https://arstechnica.com/space/2026/06/ars-live-whats-the-latest-in-the-aftermath-of-the-new-glenn-catastrophe/",
+    "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/06/Berger-Ars-Live-2026-1-1152x648.png",
     "stocks": []
   },
   {
@@ -57864,11 +58894,11 @@ const newsData = [
   }
 ];
 const newsDigest = {
-  "text": "今日科技圈聚焦AI与硬件双轮驱动。安森美斥资70亿美元收购新思加码边缘AI，物理AI创企深度机智连获数亿融资；硬件端英特尔Nova Lake超高功耗曝光引发主板供电升级；此外，TikTok加速向超级应用演进，重塑数字生活生态。",
+  "text": "今日科技圈聚焦AI与消费电子。OpenAI新模型受限并加速海外扩张，AI应用与出海产业链迎催化；三星新品发布会在即，折叠屏及可穿戴设备供应链有望受益；低价电动卡车发布利好新能源商用车市场。",
   "highlights": [
-    "630e8b74de10a003",
-    "21890f271fb3b7cf",
-    "0ad5a72720236bc6",
-    "9aaf4ca3bb68ff56"
+    "79fec03a230eef6c",
+    "2175f124b087d7ed",
+    "e879a0e9b9cbf052",
+    "f3fb68a9c5296fc6"
   ]
 };
