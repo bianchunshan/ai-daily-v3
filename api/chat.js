@@ -1,10 +1,13 @@
-// AI 助手:基于今日资讯回答/分析。POST {question, context:[{title,summary,category}]}
-// 用 Qwen(阿里云 Anthropic 兼容端点),key 取 Vercel 环境变量 QWEN_KEY。
+// AI 助手:基于今日资讯回答/分析。POST {question}
+// 默认用 Qwen;设置 CHAT_PROVIDER=kimi 后改走 Kimi(OpenAI 兼容接口)。
 const fs = require('fs');
 const path = require('path');
 
 const QWEN_URL = 'https://token-plan.cn-beijing.maas.aliyuncs.com/apps/anthropic/v1/messages';
-const QWEN_MODEL = 'qwen3.7-max';
+const KIMI_BASE_URL = (process.env.KIMI_BASE_URL || process.env.MOONSHOT_API_BASE || 'https://api.moonshot.ai/v1').replace(/\/+$/, '');
+const KIMI_URL = `${KIMI_BASE_URL}/chat/completions`;
+const QWEN_MODEL = process.env.QWEN_MODEL || 'qwen3.7-max';
+const KIMI_MODEL = process.env.KIMI_MODEL || 'kimi-k2.6';
 const MAX_BODY_BYTES = 16 * 1024;
 const RATE_WINDOW_MS = 60 * 1000;
 const RATE_LIMIT = 8;
@@ -167,11 +170,79 @@ function selectContext(question) {
   }));
 }
 
+function selectedProvider() {
+  return String(process.env.CHAT_PROVIDER || process.env.LLM_PROVIDER || 'qwen').trim().toLowerCase();
+}
+
+function providerConfig() {
+  const provider = selectedProvider();
+  if (provider === 'kimi' || provider === 'moonshot') {
+    return {
+      provider: 'kimi',
+      key: process.env.MOONSHOT_API_KEY || process.env.KIMI_KEY || '',
+      model: KIMI_MODEL,
+    };
+  }
+  return {
+    provider: 'qwen',
+    key: process.env.QWEN_KEY || '',
+    model: QWEN_MODEL,
+  };
+}
+
+async function callQwen({ key, model, system, prompt, signal }) {
+  const r = await fetch(QWEN_URL, {
+    method: 'POST',
+    headers: { 'x-api-key': key, 'anthropic-version': '2023-06-01', 'content-type': 'application/json' },
+    body: JSON.stringify({ model, max_tokens: 1600, system, messages: [{ role: 'user', content: prompt }] }),
+    signal,
+  });
+  const raw = await r.text();
+  let d = {};
+  try { d = raw ? JSON.parse(raw) : {}; } catch (e) { throw new Error('qwen returned non-json'); }
+  if (!r.ok) throw new Error(d.error || `qwen HTTP ${r.status}`);
+  const answer = (d.content || []).map((b) => (b && b.text) || '').join('').trim();
+  if (!answer) throw new Error('no model answer');
+  return answer;
+}
+
+async function callKimi({ key, model, system, prompt, signal }) {
+  const r = await fetch(KIMI_URL, {
+    method: 'POST',
+    headers: { authorization: `Bearer ${key}`, 'content-type': 'application/json' },
+    body: JSON.stringify({
+      model,
+      temperature: 0.3,
+      max_tokens: 1600,
+      messages: [
+        { role: 'system', content: system },
+        { role: 'user', content: prompt },
+      ],
+    }),
+    signal,
+  });
+  const raw = await r.text();
+  let d = {};
+  try { d = raw ? JSON.parse(raw) : {}; } catch (e) { throw new Error('kimi returned non-json'); }
+  if (!r.ok) {
+    const msg = d.error && (d.error.message || d.error);
+    throw new Error(msg || `kimi HTTP ${r.status}`);
+  }
+  const answer = String(d.choices && d.choices[0] && d.choices[0].message && d.choices[0].message.content || '').trim();
+  if (!answer) throw new Error('no model answer');
+  return answer;
+}
+
+async function callModel(config, system, prompt, signal) {
+  if (config.provider === 'kimi') return callKimi({ ...config, system, prompt, signal });
+  return callQwen({ ...config, system, prompt, signal });
+}
+
 module.exports = async function handler(req, res) {
   if (req.method !== 'POST') return res.status(405).json({ error: 'POST only' });
   if (!rateLimit(req)) return res.status(429).json({ error: 'too many requests' });
-  const key = process.env.QWEN_KEY;
-  if (!key) return res.status(500).json({ error: 'server missing QWEN_KEY' });
+  const config = providerConfig();
+  if (!config.key) return res.status(500).json({ error: `server missing ${config.provider === 'kimi' ? 'MOONSHOT_API_KEY' : 'QWEN_KEY'}` });
 
   let body = req.body;
   if (body === undefined || body === null) {
@@ -203,27 +274,16 @@ module.exports = async function handler(req, res) {
     '中文回答。可以自然组织结构,但需要给出简短的“判断过程/依据”,说明你用了哪些信息、是否检索、还有什么不确定。';
   const prompt = `站内资讯(共${ctx.length}条):\n${ctxText}\n\n网页检索结果:\n${searchText}\n\n用户问题:${question}`;
 
-  let qwenTimer = null;
+  let modelTimer = null;
   try {
     const controller = new AbortController();
-    qwenTimer = setTimeout(() => controller.abort(), 65000);
-    const r = await fetch(QWEN_URL, {
-      method: 'POST',
-      headers: { 'x-api-key': key, 'anthropic-version': '2023-06-01', 'content-type': 'application/json' },
-      body: JSON.stringify({ model: QWEN_MODEL, max_tokens: 1600, system, messages: [{ role: 'user', content: prompt }] }),
-      signal: controller.signal,
-    });
-    clearTimeout(qwenTimer);
-    qwenTimer = null;
-    const raw = await r.text();
-    let d = {};
-    try { d = raw ? JSON.parse(raw) : {}; } catch (e) { return res.status(502).json({ error: 'qwen returned non-json' }); }
-    if (!r.ok) return res.status(502).json({ error: d.error || `qwen HTTP ${r.status}` });
-    const answer = (d.content || []).map((b) => (b && b.text) || '').join('').trim();
-    if (!answer) return res.status(502).json({ error: 'no model answer' });
-    return res.status(200).json({ answer });
+    modelTimer = setTimeout(() => controller.abort(), 65000);
+    const answer = await callModel(config, system, prompt, controller.signal);
+    clearTimeout(modelTimer);
+    modelTimer = null;
+    return res.status(200).json({ answer, provider: config.provider, model: config.model });
   } catch (e) {
-    if (qwenTimer) clearTimeout(qwenTimer);
+    if (modelTimer) clearTimeout(modelTimer);
     return res.status(502).json({ error: String(e) });
   }
 };
