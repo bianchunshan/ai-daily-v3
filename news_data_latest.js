@@ -1,5 +1,444 @@
 const newsData = [
   {
+    "id": "29a6af3f37846960",
+    "title": "热门中概股美股盘前多数下跌，小鹏跌超3%",
+    "summary": "热门中概股在美股盘前交易中多数呈现下跌态势，其中小鹏、百度及阿里巴巴跌幅居前，仅网易逆势上涨。",
+    "body": "截至发稿时，热门中概股在美股盘前交易中普遍走低。具体来看，小鹏汽车、百度和阿里巴巴跌幅均超过3%，京东下跌逾2%。\n\n此外，哔哩哔哩、蔚来、腾讯音乐和拼多多等公司股价也出现1%以上的跌幅。在整体下行的趋势中，网易表现亮眼，盘前涨幅超过3%，成为少数逆势上涨的中概股之一。",
+    "category": "国际局势",
+    "tags": [
+      "中概股",
+      "美股",
+      "资本市场"
+    ],
+    "source": "36氪",
+    "time": "刚刚",
+    "ts": "2026-06-26T20:58:06.027340+00:00",
+    "url": "https://36kr.com/newsflashes/3870003257971976?f=rss",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "c1471acba0627413",
+    "title": "比亚迪插混皮卡国内现身，新原型车外观微调",
+    "summary": "比亚迪插电混动皮卡已在多个海外市场热销，近日一款外观设计略有不同的新原型车在中国国内被曝光。",
+    "body": "比亚迪旗下的插电式混合动力皮卡此前已在多个海外市场取得热销，展现出强劲的产品竞争力与市场认可度。\n\n近日，一款外观设计略有调整的新原型车在中国国内路试时被曝光。这表明比亚迪正持续优化其皮卡产品线，未来有望进一步拓展国内外市场并丰富应用场景。",
+    "category": "未来能源",
+    "tags": [
+      "比亚迪",
+      "插电混动",
+      "皮卡"
+    ],
+    "source": "Electrek",
+    "time": "47分钟前",
+    "ts": "2026-06-26T20:06:14+00:00",
+    "url": "https://electrek.co/2026/06/26/byds-pickup-spotted-china-different-look/",
+    "image": "https://electrek.co/wp-content/uploads/sites/3/2026/06/BYD-pickup-China.jpeg?quality=82&#038;strip=all&#038;w=1400",
+    "stocks": [
+      {
+        "name": "比亚迪",
+        "ticker": "002594.SZ",
+        "reason": "作为该插混皮卡的研发与制造商，新车型的曝光与海外热销将直接助力公司汽车业务营收增长。",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "65d4f81e344e00be",
+    "title": "2026世界杯直播：乌拉圭对阵西班牙",
+    "summary": "2026年世界杯迎来焦点战，由拉明·亚马尔领衔的西班牙队与乌拉圭队展开激烈角逐，媒体提供实时赛况与文字直播。",
+    "body": "2026年世界杯赛场迎来一场备受瞩目的国际足球对决，西班牙队迎战乌拉圭队。本场比赛提供全程实时更新与文字直播，为球迷带来最新的球队资讯与赛况报道。\n\n西班牙队阵中拥有天才小将拉明·亚马尔，他的表现成为外界关注的焦点。这场跨国体育竞技不仅展现了双方球队的实力，也吸引了全球体育爱好者的目光。",
+    "category": "国际局势",
+    "tags": [
+      "世界杯",
+      "国际赛事",
+      "足球"
+    ],
+    "source": "Al Jazeera",
+    "time": "50分钟前",
+    "ts": "2026-06-26T20:03:03+00:00",
+    "url": "https://www.aljazeera.com/sports/liveblog/2026/6/26/uruguay-vs-spain-live-world-cup-2026?traffic_source=rss",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "42b40fe79db413d2",
+    "title": "美联邦法官质疑司法部撤销阿达尼指控",
+    "summary": "美国联邦法官对美国司法部撤销阿达尼相关指控的决定提出质疑，认为其撤诉理由缺乏清晰度，并命令检察官提供详细解释。",
+    "body": "据报道，美国联邦法官近日对美国司法部撤销对阿达尼相关指控的决定表示质疑。法官明确指出，司法部放弃起诉的理由缺乏足够的清晰度与说服力。\n\n为此，法官已正式下令要求检察官提交详细的解释说明。这一司法审查动作表明，美国法院对涉及跨国企业的重大案件撤诉决定保持着严谨态度，司法部的后续回应及案件最终走向仍有待观察。",
+    "category": "国际局势",
+    "tags": [
+      "美国司法部",
+      "阿达尼",
+      "跨国诉讼"
+    ],
+    "source": "Al Jazeera",
+    "time": "51分钟前",
+    "ts": "2026-06-26T20:02:04+00:00",
+    "url": "https://www.aljazeera.com/economy/2026/6/26/us-federal-judge-questions-doj-decision-to-drop-adani-charges?traffic_source=rss",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "4723deaf57e65019",
+    "title": "iBuyPower游戏PC降价，搭载AMD旗舰处理器与显卡",
+    "summary": "iBuyPower的一款高配游戏PC在沃尔玛进行大幅促销，降价750美元至1749美元，搭载AMD最新的Ryzen 7 9800X3D处理器和RX 9070 XT显卡。",
+    "body": "iBuyPower Y40游戏PC目前在沃尔玛平台迎来大幅折扣，优惠幅度达750美元，最终售价仅为1749美元。该主机配备了AMD Ryzen 7 9800X3D处理器、RX 9070 XT 16GB显卡、32GB DDR5内存以及1TB存储空间。\n\n从硬件性能来看，这套配置极具竞争力。Ryzen 7 9800X3D是目前顶级的游戏CPU，配合360mm水冷散热器还能进行适度超频。同时，RX 9070 XT作为AMD当前最强显卡，其4K光栅性能可比肩RTX 4080并超越RTX 5070，能够轻松应对4K游戏需求。整体来看，该预组装主机的性价比甚至优于消费者自行采购零件组装。",
+    "category": "消费电子",
+    "tags": [
+      "游戏PC",
+      "AMD",
+      "硬件促销"
+    ],
+    "source": "Tom's Hardware",
+    "time": "52分钟前",
+    "ts": "2026-06-26T20:01:01+00:00",
+    "url": "https://www.tomshardware.com/pc-components/incredible-ryzen-7-9800x3d-prebuilt-deal-comes-with-rx-9070-xt-and-32gb-of-ddr5-for-usd750-off-get-a-prime-ibuypower-4k-gaming-rig-for-just-usd1-749",
+    "image": "https://cdn.mos.cms.futurecdn.net/8XsdQqW3MUMZ4ZFdyXtSS6-1280-80.jpg",
+    "stocks": [
+      {
+        "name": "超威半导体",
+        "ticker": "AMD",
+        "reason": "新闻重点提及搭载AMD最新的9800X3D处理器和9070XT显卡，彰显其产品竞争力与市场认可度。",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "363ef3803f18709d",
+    "title": "研究揭示Tau蛋白如何驱动阿尔茨海默症恶化",
+    "summary": "最新研究揭示了阿尔茨海默症的进展机制，指出Tau毒性蛋白的积累与扩散是导致神经元死亡和病情恶化的关键因素。",
+    "body": "阿尔茨海默症的发病机制与一种名为Tau的脑信使蛋白密切相关。研究表明，这种毒性蛋白在脑内的异常积累会直接导致神经元死亡。\n\n随着毒性Tau蛋白逐渐扩散至大脑的新区域，患者的临床症状会不断恶化，并最终危及生命。该研究进一步揭示了疾病进展的核心驱动力，为未来开发靶向治疗策略提供了重要的理论基础。",
+    "category": "生物医药",
+    "tags": [
+      "阿尔茨海默症",
+      "Tau蛋白",
+      "神经科学"
+    ],
+    "source": "MedicalXpress",
+    "time": "53分钟前",
+    "ts": "2026-06-26T16:00:04-04:00",
+    "url": "https://medicalxpress.com/news/2026-06-brain-messenger-protein-alzheimer-disease.html",
+    "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/how-a-brain-messenger.jpg",
+    "stocks": []
+  },
+  {
+    "id": "e7e9bbe755112f8f",
+    "title": "科幻RPG《Exodus》第二部前传小说出版",
+    "summary": "著名科幻作家彼得·汉密尔顿出版了科幻RPG游戏《Exodus》的第二部前传小说，进一步完善了该游戏的世界观构建。",
+    "body": "由威世智和Archetype Entertainment开发的科幻RPG大作《Exodus》预计将于明年登陆PS5、Xbox及PC平台。该游戏背景设定在遥远的未来，玩法类似《质量效应》，讲述主角在宇宙中寻找古代文物以拯救世界的故事。\n\n作为跨媒体营销计划的一部分，开发团队邀请了英国著名科幻作家彼得·汉密尔顿参与世界观构建并撰写两部前传小说。继2024年9月发布第一部后，第二部小说《Exodus: The Helium Sea》近日正式出版。该书讲述了主角及其人类盟友与进化人类斗智斗勇的故事，为游戏世界观提供了史诗般的背景补充，有助于提升IP的整体商业价值。",
+    "category": "消费电子",
+    "tags": [
+      "科幻游戏",
+      "跨媒体IP",
+      "主机游戏"
+    ],
+    "source": "Space.com",
+    "time": "53分钟前",
+    "ts": "2026-06-26T20:00:00+00:00",
+    "url": "https://www.space.com/entertainment/space-books/exodus-the-helium-sea-author-peter-f-hamilton-talks-universe-crafting-and-finishing-the-story-in-this-second-prequel-novel-for-sci-fi-rpg-exodus-exclusive",
+    "image": "https://cdn.mos.cms.futurecdn.net/sjCUSJQy9UPPnzVoRQt42T-1280-80.jpg",
+    "stocks": [
+      {
+        "name": "孩之宝",
+        "ticker": "HAS",
+        "reason": "旗下威世智工作室主导开发该科幻RPG游戏，跨媒体IP布局有望带动相关游戏与周边收入。",
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
+    "id": "d6cbd3da0e8e9754",
+    "title": "三星OLED游戏显示器Prime Day大促最高优惠38%",
+    "summary": "三星旗下多款优秀的OLED游戏显示器在Prime Day期间迎来大幅折扣，最高优惠幅度达38%，价格降至历史低位。",
+    "body": "三星电子推出了多款备受好评的OLED游戏显示器，在画质和性能方面表现优异。在近期的Prime Day购物节期间，这些产品迎来了大幅度的降价促销。\n\n据悉，此次促销活动的最高折扣力度达到38%，使得这些高端OLED显示器的价格变得前所未有的亲民。这不仅为消费者提供了以更实惠价格入手顶级游戏外设的机会，也有助于进一步提升三星在高端显示器市场的占有率。",
+    "category": "消费电子",
+    "tags": [
+      "三星",
+      "OLED显示器",
+      "Prime Day",
+      "游戏外设"
+    ],
+    "source": "Wired",
+    "time": "55分钟前",
+    "ts": "2026-06-26T19:58:49+00:00",
+    "url": "https://www.wired.com/story/samsungs-odyssey-oled-monitors-prime-day-2026/",
+    "image": "https://media.wired.com/photos/6a3ed90c9625c74448e072d3/master/pass/Samsung%E2%80%99s-Excellent-OLED-Monitors-Are-Up-to-38-Percent-Off-For-Prime-Day.jpg",
+    "stocks": [
+      {
+        "name": "三星电子",
+        "ticker": "005930.KS",
+        "reason": "旗下高端OLED显示器大幅促销，有望提振消费电子终端销量与市场份额。",
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
+    "id": "6462bcaa8527e8b6",
+    "title": "TP-Link 8口2.5G交换机半价促销，仅需50美元",
+    "summary": "TP-Link推出一款8口2.5G非网管交换机，在亚马逊促销期间价格降至49.99美元，为家庭及小型办公网络升级提供高性价比选择。",
+    "body": "TP-Link TL-SG108S-M2是一款8口2.5G非网管交换机，原价79.99美元，目前在亚马逊促销中降至49.99美元。该设备提供40Gbps的交换容量，兼容100Mbps、1Gbps和2.5Gbps网速，可轻松满足台式机、NAS、工作组打印机及无线AP等多种设备的连接需求，且支持使用Cat5e网线。\n\n在设计与散热方面，该交换机尺寸小巧，全金属外壳采用被动散热设计，运行安静且节省空间。用户可将其放置在桌面、桌底或通过底部安装孔壁挂，是家庭网络和小型办公室升级的理想高性价比方案。",
+    "category": "消费电子",
+    "tags": [
+      "TP-Link",
+      "交换机",
+      "家庭网络",
+      "消费电子"
+    ],
+    "source": "Tom's Hardware",
+    "time": "57分钟前",
+    "ts": "2026-06-26T19:56:13+00:00",
+    "url": "https://www.tomshardware.com/networking/network-switches/tp-links-8-port-2-5g-unmanaged-ethernet-switch-is-a-smokin-bargain-at-usd50-upgrade-your-home-network-for-half-price",
+    "image": "https://cdn.mos.cms.futurecdn.net/nHgJBgGRVFsKS9iG6JWMFJ-1280-80.jpg",
+    "stocks": []
+  },
+  {
+    "id": "a1faae83120b0423",
+    "title": "苹果因内存芯片涨价上调Mac与iPad售价",
+    "summary": "为应对内存芯片成本上涨，苹果在亚马逊Prime Day期间上调了Mac和iPad的售价，使得现有的MacBook折扣更具吸引力。",
+    "body": "为应对不断上涨的内存芯片成本，苹果公司在亚马逊Prime Day期间正式上调了旗下Mac和iPad系列产品的价格。\n\n尽管官方售价提高，但这意味着目前市场上针对MacBook Air、MacBook Pro等苹果笔记本电脑的现有折扣显得更加划算，消费者在涨价前购买可获得更高性价比。",
+    "category": "消费电子",
+    "tags": [
+      "苹果",
+      "MacBook",
+      "产品涨价",
+      "消费电子"
+    ],
+    "source": "The Verge",
+    "time": "1小时前",
+    "ts": "2026-06-26T15:50:46-04:00",
+    "url": "https://www.theverge.com/gadgets/956830/prime-day-macbook-deals-apple-price-hikes",
+    "image": "",
+    "stocks": [
+      {
+        "name": "苹果",
+        "ticker": "AAPL",
+        "reason": "苹果通过上调Mac和iPad售价应对内存芯片成本上涨，有助于维持硬件产品利润率。",
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
+    "id": "fe6688bfc1235988",
+    "title": "以色列袭击加沙中部汽车致三名巴勒斯坦警察死亡",
+    "summary": "巴勒斯坦内政部表示，以色列对加沙中部马加齐难民营的一辆汽车发动袭击，导致三名巴勒斯坦警察死亡。",
+    "body": "据半岛电视台报道，以色列军队对加沙地带中部的一辆汽车发动袭击，造成三名巴勒斯坦人死亡。\n\n巴勒斯坦内政部随后证实，遇袭地点位于马加齐难民营，死者均为巴勒斯坦警察。\n\n此次袭击事件进一步加剧了该地区的紧张局势，凸显了加沙地带持续冲突的严峻性。",
+    "category": "国际局势",
+    "tags": [
+      "巴以冲突",
+      "加沙地带",
+      "中东局势"
+    ],
+    "source": "Al Jazeera",
+    "time": "1小时前",
+    "ts": "2026-06-26T19:49:32+00:00",
+    "url": "https://www.aljazeera.com/news/2026/6/26/israeli-attack-on-car-in-central-gaza-kills-three-palestinians?traffic_source=rss",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "a451f7354326e4da",
+    "title": "媒体称当前并非购买Xbox良机，即便面临涨价",
+    "summary": "尽管Xbox主机即将涨价且正值促销，但媒体指出当前已进入主机生命周期后期且缺乏独占游戏，并非购买良机。",
+    "body": "微软宣布Xbox Series X和S将于8月1日再次涨价，部分建议消费者趁促销提前购买。但分析认为，作为已进入第六年的主机，目前的折扣价依然偏高，不符合硬件生命周期后期的降价规律。\n\n此外，内存短缺虽推高了硬件成本，但微软大力发展AI数据中心也加剧了这一问题。在软件与生态方面，Xbox第一方大作普遍登陆PC及其他平台，缺乏真正的独占优势，加之内部工作室面临重组与关闭风险，整体生态系统吸引力下降。",
+    "category": "消费电子",
+    "tags": [
+      "Xbox",
+      "微软",
+      "游戏主机"
+    ],
+    "source": "Engadget",
+    "time": "1小时前",
+    "ts": "2026-06-26T19:42:31+00:00",
+    "url": "https://www.engadget.com/2202875/its-a-dumb-time-to-buy-an-xbox-even-with-the-coming-price-hike/",
+    "image": "https://www.engadget.com/img/gallery/its-a-dumb-time-to-buy-an-xbox-even-with-the-coming-price-hike/l-intro-1782502489.jpg",
+    "stocks": []
+  },
+  {
+    "id": "05c5d15b28b4f24b",
+    "title": "委内瑞拉连发强震，美国将提供多少灾害援助？",
+    "summary": "委内瑞拉近期遭遇连续强震并造成严重破坏，国际社会密切关注美国将提供何种规模的灾害援助。",
+    "body": "委内瑞拉近期接连发生强烈地震，给当地造成了严重的破坏与损失，灾后救援与重建工作面临巨大挑战。\n\n在此背景下，美国对委内瑞拉的灾害援助规模成为外界关注的焦点。这不仅关乎受灾民众的生存与恢复，也折射出两国在复杂地缘政治背景下的人道主义互动。",
+    "category": "国际局势",
+    "tags": [
+      "委内瑞拉",
+      "地震",
+      "国际援助"
+    ],
+    "source": "Al Jazeera",
+    "time": "1小时前",
+    "ts": "2026-06-26T19:41:23+00:00",
+    "url": "https://www.aljazeera.com/video/inside-story/2026/6/26/how-much-disaster-aid-will-the-u-s-provide-to-venezuela?traffic_source=rss",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "ce7ef752a4b237d7",
+    "title": "研究：年龄与基线听力影响梅尼埃病长期预后",
+    "summary": "最新医学研究表明，梅尼埃病患者的年龄和基线听力状况与其长期的听力预后结果存在显著关联。",
+    "body": "根据5月16日在线发表于《耳鼻喉学报》的一项最新研究，梅尼埃病患者的长期听力结果受到特定因素的显著影响。\n\n研究明确指出，患者的年龄以及基线听力状况与长期的听力预后存在密切关联。这一发现有助于医生在临床中更好地评估患者的病情发展，并为制定个性化的长期治疗方案提供重要参考。",
+    "category": "生物医药",
+    "tags": [
+      "梅尼埃病",
+      "听力研究",
+      "临床医学"
+    ],
+    "source": "MedicalXpress",
+    "time": "1小时前",
+    "ts": "2026-06-26T15:40:06-04:00",
+    "url": "https://medicalxpress.com/news/2026-06-age-status-linked-term-outcomes.html",
+    "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/age-hearing-status-lin.jpg",
+    "stocks": []
+  },
+  {
+    "id": "15d7931314e647ea",
+    "title": "特朗普威胁对向美企征收数字税国家加征关税",
+    "summary": "特朗普对考虑向美国科技企业征收数字税或实施监管的国家采取强硬立场，并威胁将加征关税。",
+    "body": "近日，美国共和党领导人特朗普发出警告，威胁将对那些向美国科技公司征收数字税的国家加征关税。此举显示出其在贸易与科技监管领域的强硬态度。\n\n特朗普明确表示，对于那些正在考虑对美国科技企业实施额外税收或监管措施的国家，他将采取积极的对抗立场。这一政策倾向可能会影响全球数字税协议的推进，并对跨国科技企业的海外运营环境产生深远影响。",
+    "category": "国际局势",
+    "tags": [
+      "特朗普",
+      "数字税",
+      "关税",
+      "科技监管"
+    ],
+    "source": "Al Jazeera",
+    "time": "1小时前",
+    "ts": "2026-06-26T19:38:20+00:00",
+    "url": "https://www.aljazeera.com/news/2026/6/26/trump-threatens-tariffs-for-countries-that-levy-digital-tax-on-us-firms?traffic_source=rss",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "cc25f102c3de19c2",
+    "title": "Slate推平价电动皮卡，极星遭美禁令，特斯拉FSD事故引关注",
+    "summary": "本期播客探讨了Slate推出2.5万美元平价电动皮卡、极星汽车面临美国市场禁令，以及特斯拉FSD事故频发等热点新闻。",
+    "body": "在最新一期的Electrek播客中，主持人探讨了可持续交通与能源领域的最新热点。Slate公司推出售价仅为2.5万美元的电动皮卡成为焦点，有望以高性价比冲击现有市场。\n\n此外，节目关注了极星汽车在美国市场遭遇禁令的危机，这可能对其北美业务造成打击。同时，特斯拉完全自动驾驶系统相关的车祸事件正受到越来越多的审视，引发了业界对自动驾驶安全性的深入讨论。",
+    "category": "未来能源",
+    "tags": [
+      "电动皮卡",
+      "极星汽车",
+      "特斯拉",
+      "自动驾驶"
+    ],
+    "source": "Electrek",
+    "time": "1小时前",
+    "ts": "2026-06-26T19:29:42+00:00",
+    "url": "https://electrek.co/2026/06/26/podcast-slates-25000-electric-pickup-polestar-banned-from-us-tesla-fsd-crash-and-more/",
+    "image": "https://electrek.co/wp-content/uploads/sites/3/2017/12/business_card-1.jpg?quality=82&#038;strip=all&#038;w=1600",
+    "stocks": []
+  },
+  {
+    "id": "fe207c77fe0dfa0f",
+    "title": "以色列与黎巴嫩在美国斡旋下签署框架协议",
+    "summary": "以色列和黎巴嫩在美国的斡旋下正式签署框架协议。此前双方停火期间仍频繁发生跨境袭击事件。",
+    "body": "近日，以色列与黎巴嫩在美国的积极斡旋下，成功签署了一项框架协议。这一外交进展为缓解该地区持续紧张的局势提供了重要契机。\n\n值得注意的是，此前以色列与黎巴嫩真主党之间虽有过停火安排，但边境地区仍几乎每天发生跨境袭击事件。此次框架协议的签署，有望为减少冲突、推动地区和平稳定发挥积极作用，其后续落实情况将受到国际社会的密切关注。",
+    "category": "国际局势",
+    "tags": [
+      "中东局势",
+      "以色列",
+      "黎巴嫩",
+      "地缘政治"
+    ],
+    "source": "BBC World",
+    "time": "1小时前",
+    "ts": "2026-06-26T19:29:31+00:00",
+    "url": "https://www.bbc.co.uk/news/articles/cg5315n1v5go?at_medium=RSS&at_campaign=rss",
+    "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/91cd/live/9c0fbac0-718d-11f1-b32d-379da24cff6f.jpg",
+    "stocks": []
+  },
+  {
+    "id": "c60ccef5bf5a46e7",
+    "title": "特朗普指责伊朗袭击霍尔木兹海峡货船",
+    "summary": "美伊脆弱停火协议面临考验，阿曼附近海域发生针对货船的无人机袭击，美国总统特朗普对此发出严厉警告并指责伊朗。",
+    "body": "美国总统特朗普指责伊朗对霍尔木兹海峡的一艘货船发动了“愚蠢”的袭击。此次无人机袭击事件发生在阿曼附近海域，使得美伊之间脆弱的停火协议面临严峻考验。\n\n针对这一突发事件，特朗普向伊朗发出了严厉警告。该事件不仅凸显了美伊关系的紧张态势，也对霍尔木兹海峡这一全球重要能源通道的国际航运安全构成了潜在威胁。",
+    "category": "国际局势",
+    "tags": [
+      "美伊关系",
+      "霍尔木兹海峡",
+      "地缘政治"
+    ],
+    "source": "Al Jazeera",
+    "time": "1小时前",
+    "ts": "2026-06-26T19:26:16+00:00",
+    "url": "https://www.aljazeera.com/news/2026/6/26/trump-blames-iran-for-foolish-strike-on-cargo-ship-in-strait-of-hormuz?traffic_source=rss",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "708cbce2aa7784bc",
+    "title": "德国选择党强硬移民议程引发社会威胁争议",
+    "summary": "半岛电视台播出辩论节目，探讨德国选择党的强硬移民议程是否对德国构成威胁，主持人与该党议员展开激烈交锋。",
+    "body": "半岛电视台近期播出一档辩论节目，聚焦德国选择党及其强硬移民政策对德国社会的潜在影响。主持人Mehdi Hasan与德国选择党议员Maximilian Krah展开面对面的激烈交锋。\n\n节目深入探讨了该党在移民问题上的极端立场，以及这种政治倾向是否会对德国的社会稳定构成实质性威胁。此次辩论反映了当前欧洲右翼势力崛起背景下，德国国内在移民议题上的深刻分歧。",
+    "category": "国际局势",
+    "tags": [
+      "德国选择党",
+      "移民政策",
+      "欧洲政治"
+    ],
+    "source": "Al Jazeera",
+    "time": "1小时前",
+    "ts": "2026-06-26T19:24:54+00:00",
+    "url": "https://www.aljazeera.com/video/head-to-head/2026/6/26/is-the-afd-a-threat-to-germany-mehdi-hasan-maximilian-krah?traffic_source=rss",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "e31c9e92f173e681",
+    "title": "德约科维奇出任泛大西洋投资全球战略顾问",
+    "summary": "网球传奇巨星诺瓦克·德约科维奇被知名私募股权公司泛大西洋投资集团正式任命为全球战略顾问，将为其提供战略指导。",
+    "body": "知名私募股权公司泛大西洋投资集团（General Atlantic）近日宣布，聘请网球传奇巨星诺瓦克·德约科维奇担任其全球战略顾问。德约科维奇将在这一新角色中为该机构的全球战略发展提供建议与支持。\n\n此次跨界合作标志着体育界顶尖人物与全球顶级投资机构的深度融合。德约科维奇的全球影响力和卓越的品牌价值，有望为泛大西洋投资集团在国际市场的业务拓展带来积极影响，同时也展现了投资机构在多元化战略和全球化布局上的新思路。",
+    "category": "国际局势",
+    "tags": [
+      "德约科维奇",
+      "泛大西洋投资",
+      "私募股权",
+      "战略顾问"
+    ],
+    "source": "TechCrunch",
+    "time": "1小时前",
+    "ts": "2026-06-26T19:13:40+00:00",
+    "url": "https://techcrunch.com/2026/06/26/novak-djokovic-has-a-new-job-advisor-to-private-equity-firm-general-atlantic/",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "2fa3f1f7a5a8787b",
+    "title": "美斡旋下以色列与黎巴嫩签署框架协议",
+    "summary": "美国国务卿鲁比奥宣布，在美国的斡旋下，以色列与黎巴嫩已正式签署一项框架协议。",
+    "body": "据半岛电视台报道，美国国务卿马尔科·鲁比奥正式宣布，以色列与黎巴嫩在美国的斡旋下达成并签署了一项框架协议。\n\n此次协议的签署标志着美国在中东地区外交斡旋取得重要进展，有助于缓解当地紧张的地缘政治局势，为后续的和平进程与地区稳定奠定了基础。",
+    "category": "国际局势",
+    "tags": [
+      "中东局势",
+      "以黎协议",
+      "美国外交"
+    ],
+    "source": "Al Jazeera",
+    "time": "1小时前",
+    "ts": "2026-06-26T19:05:24+00:00",
+    "url": "https://www.aljazeera.com/video/newsfeed/2026/6/26/israel-lebanon-sign-framework-deal-after-us-mediated-talks?traffic_source=rss",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "92aecf89a0fccb87",
+    "title": "SpaceX新一代星舰完成首次发射前静态点火测试",
+    "summary": "SpaceX在德州星基地对用于第13次飞行任务的星舰上面级Ship 40进行了首次静态点火测试，验证了猛禽3发动机的工作状态。",
+    "body": "SpaceX近日将其下一代星舰上面级Ship 40运送至德克萨斯州星基地的Massey测试场，并成功完成了首次发射前静态点火测试。在测试中，星舰底部的一台中心猛禽3发动机进行了约15秒的全时长点火，旨在确认发动机在实际发射前的良好工作状态。\n\nShip 40计划用于星舰即将到来的第13次飞行演示任务，该上面级共配备了六台猛禽3发动机。星舰V3是目前尺寸最大、推力最强的版本，高度达124.4米，也是首款搭载猛禽3发动机的星舰。继5月份V3版本首飞取得基本成功后，此次测试标志着SpaceX正稳步推进其完全可重复使用超重型火箭的后续研发与测试进程。",
+    "category": "商业航天",
+    "tags": [
+      "SpaceX",
+      "星舰",
+      "猛禽发动机",
+      "商业航天"
+    ],
+    "source": "Space.com",
+    "time": "1小时前",
+    "ts": "2026-06-26T19:00:00+00:00",
+    "url": "https://www.space.com/space-exploration/launches-spacecraft/spacexs-next-starship-breathes-fire-for-1st-time-in-prelaunch-test-video",
+    "image": "https://cdn.mos.cms.futurecdn.net/dDL3NQds3LSs8q3pr435PQ-1280-80.jpg",
+    "stocks": []
+  },
+  {
     "id": "c4d48183b3d5f289",
     "title": "2026年Prime Day流媒体促销：Apple TV半价领衔",
     "summary": "2026年亚马逊Prime Day不仅提供电视折扣，还推出了多款流媒体设备与服务的优惠活动，其中Apple TV半价促销成为亮点。",
@@ -29,6 +468,25 @@ const newsData = [
         "confidence": "medium"
       }
     ]
+  },
+  {
+    "id": "3170d04d83585d82",
+    "title": "FCC被控隐瞒主席与马斯克及DOGE通讯记录",
+    "summary": "倡导组织指控美国联邦通信委员会违反信息自由法，恶意隐瞒其主席与马斯克及政府效率部之间的通讯记录。",
+    "body": "记者与倡导组织Frequency Forward向美国联邦地区法院提交文件，指控美国联邦通信委员会（FCC）在处理公共记录请求时存在恶意行为。原告指出，FCC不仅擅自修改搜索标准，还隐瞒了FCC主席布伦丹·卡尔在用于政府公务的手机上使用Signal加密通讯软件的事实。\n\n该诉讼旨在调查政府效率部（DOGE）对FCC决策的影响，以及卡尔与马斯克和DOGE之间的通讯内容。原告于去年提起诉讼，指控FCC违反《信息自由法》不当扣留机构记录。此前，联邦法官已下令FCC提交相关文件，并严厉批评其回应模糊且缺乏信息量，指责其浪费了法庭长达一年的时间。",
+    "category": "国际局势",
+    "tags": [
+      "FCC",
+      "马斯克",
+      "DOGE",
+      "信息自由法"
+    ],
+    "source": "Ars Technica",
+    "time": "2小时前",
+    "ts": "2026-06-26T18:51:04+00:00",
+    "url": "https://arstechnica.com/tech-policy/2026/06/fcc-accused-of-hiding-chairman-carrs-messages-with-doge-and-musk/",
+    "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/03/brendan-carr-1152x648-1773688503.jpg",
+    "stocks": []
   },
   {
     "id": "352ab10076900757",
@@ -64,6 +522,25 @@ const newsData = [
     "ts": "2026-06-26T18:45:00+00:00",
     "url": "https://www.tomshardware.com/laptops/gaming-laptops/gigabyte-aero-x16-gaming-laptop-delivers-rtx-5060-32gb-ram-and-16-inch-165hz-1600p-display-for-usd1-099",
     "image": "https://cdn.mos.cms.futurecdn.net/HbJ8W9SUkAbSAAHUxU5UBR-1280-80.jpg",
+    "stocks": []
+  },
+  {
+    "id": "4101a31b265efccd",
+    "title": "General Intuition获3.2亿美元融资训练机器人",
+    "summary": "机器人初创公司General Intuition完成3.2亿美元A轮融资，估值达23亿美元，致力于利用海量游戏视频数据训练物理人工智能模型。",
+    "body": "近日，美国初创公司General Intuition宣布完成3.2亿美元A轮融资，投后估值达到23亿美元。该公司计划利用这笔资金构建能够在虚拟和物理环境中进行感知、预测和行动的AI模型，进一步推动物理人工智能在机器人领域的应用。\n\n与收集现实世界数据或生成模拟数据的传统方式不同，General Intuition采用了一种独特的训练方法。公司利用Medal平台上数十亿的游戏视频片段来训练机器人，这些视频不仅记录了人类在环境中的感知与移动决策，还带有嵌入的动作标签，精确记录了玩家按键操作与时间，为训练物理AI提供了极具价值的决策数据。",
+    "category": "机器人",
+    "tags": [
+      "机器人",
+      "人工智能",
+      "A轮融资",
+      "游戏数据"
+    ],
+    "source": "The Robot Report",
+    "time": "2小时前",
+    "ts": "2026-06-26T18:38:36+00:00",
+    "url": "https://www.therobotreport.com/general-intuition-raises-320m-uses-video-game-data-train-robots/",
+    "image": "https://www.therobotreport.com/wp-content/uploads/2026/06/generalintuition-featured.jpg",
     "stocks": []
   },
   {
@@ -104,6 +581,25 @@ const newsData = [
     "stocks": []
   },
   {
+    "id": "fc5a2cc09550de00",
+    "title": "新型编程语言Gossamer：支持协程与无暂停内存管理",
+    "summary": "Gossamer是一种借鉴Rust风格的新型编程语言，主打真实的协程支持与无暂停的内存管理机制，旨在提升并发性能。",
+    "body": "近日，一款名为Gossamer的新型编程语言在开发者社区引发关注。该语言在设计上深度借鉴了Rust的风格，旨在为开发者提供更安全、高效的底层编程体验。\n\nGossamer的核心技术亮点在于其支持真实的协程机制，并实现了无暂停的内存管理。这些特性有望在保障内存安全的前提下，显著提升高并发程序的运行效率，为系统级软件开发与AI底层基础设施提供了新的技术探索方向。",
+    "category": "人工智能",
+    "tags": [
+      "编程语言",
+      "Rust",
+      "并发编程",
+      "内存管理"
+    ],
+    "source": "Hacker News",
+    "time": "2小时前",
+    "ts": "2026-06-26T18:32:22+00:00",
+    "url": "https://gossamer-lang.org/",
+    "image": "",
+    "stocks": []
+  },
+  {
     "id": "79fec03a230eef6c",
     "title": "OpenAI限制GPT-5.6发布，称政府审批不应成常态",
     "summary": "OpenAI应政府要求限制了GPT-5.6的发布，但公司强调此类政府审批流程不应成为长期默认状态，以免阻碍各界获取顶尖AI工具。",
@@ -118,6 +614,25 @@ const newsData = [
     "time": "29分钟前",
     "ts": "2026-06-26T18:32:14+00:00",
     "url": "https://techcrunch.com/2026/06/26/openai-limits-gpt-5-6-rollout-after-government-request-says-restrictions-shouldnt-be-the-norm/",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "e4cce941336e2dad",
+    "title": "Slisp：面向Linux/amd64的简易Lisp编译器",
+    "summary": "开发者在技术社区分享了名为Slisp的简易Lisp编译器开源项目，专为Linux/amd64平台设计，引发部分开发者关注。",
+    "body": "近日，一款名为Slisp的简易Lisp编译器项目在Hacker News上亮相。该项目专为Linux/amd64架构设计，旨在提供一个轻量级的Lisp语言编译解决方案。\n\n虽然该项目目前的社区讨论热度相对有限，但此类底层编译器和编程语言的开源探索，持续为开发者工具生态注入活力，也为编程语言爱好者提供了宝贵的学习与参考素材。",
+    "category": "人工智能",
+    "tags": [
+      "Lisp",
+      "编译器",
+      "开源项目",
+      "Linux"
+    ],
+    "source": "Hacker News",
+    "time": "2小时前",
+    "ts": "2026-06-26T18:30:11+00:00",
+    "url": "https://github.com/skx/slisp",
     "image": "",
     "stocks": []
   },
@@ -175,6 +690,32 @@ const newsData = [
     "url": "https://medicalxpress.com/news/2026-06-prevalence-ventricular-dysfunction-heart-failure.html",
     "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/prevalence-of-right-ve.jpg",
     "stocks": []
+  },
+  {
+    "id": "4343ee857f7b9eec",
+    "title": "奈飞要求用户资料绑定独立邮箱，进一步限制账号共享",
+    "summary": "奈飞近期更新账户政策，要求同一订阅下的每个用户资料必须绑定唯一的电子邮件地址，不再允许直接共享主账号登录凭证。",
+    "body": "奈飞自6月中旬起逐步推行新规，要求同一订阅账户下的每个用户资料都必须绑定独立的电子邮件地址，以创建专属的登录凭证。这意味着用户无法再像过去那样，简单地通过共享主账号密码让亲友使用额外的用户资料。\n\n在实际体验中，未绑定独立邮箱的附加成员在尝试登录时会被系统强制登出，并收到添加邮箱的提示。用户必须完成邮箱绑定并设置独立密码，才能继续使用已付费的额外资料。\n\n这一举措是奈飞持续打击密码共享、推动付费用户增长策略的延伸。通过提高账号共享的操作门槛，奈飞有望进一步将共享用户转化为独立的付费订阅者，从而提升平台的整体营收表现。",
+    "category": "消费电子",
+    "tags": [
+      "奈飞",
+      "流媒体",
+      "账号共享",
+      "订阅经济"
+    ],
+    "source": "Ars Technica",
+    "time": "2小时前",
+    "ts": "2026-06-26T18:19:58+00:00",
+    "url": "https://arstechnica.com/gadgets/2026/06/netflix-now-requires-every-user-profile-to-be-tied-to-unique-email-address/",
+    "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/06/Netflix-1152x648-1782496111.jpg",
+    "stocks": [
+      {
+        "name": "奈飞",
+        "ticker": "NFLX",
+        "reason": "提高账号共享门槛有助于将共享用户转化为独立付费用户，直接提升订阅收入与单用户平均收益。",
+        "confidence": "high"
+      }
+    ]
   },
   {
     "id": "2175f124b087d7ed",
@@ -269,6 +810,24 @@ const newsData = [
     "stocks": []
   },
   {
+    "id": "374962b829ca4655",
+    "title": "欧洲致命热浪打破德国高温纪录并叫停公共活动",
+    "summary": "欧洲遭遇致命热浪，德国萨尔布吕肯市初步记录下41.3摄氏度的历史最高气温，导致多地公共活动被迫取消。",
+    "body": "欧洲正遭遇一场致命的热浪侵袭，极端高温天气对多国民众生活造成严重影响。在德国，靠近法国边境的萨尔布吕肯市初步记录到了41.3摄氏度的高温，打破了该国历史最高气温纪录。\n\n受此极端高温天气影响，当地多项公共活动被迫暂停或取消，以保障公众健康与安全。此次热浪不仅对居民日常生活带来巨大挑战，也凸显了极端天气频发带来的严峻现实。",
+    "category": "国际局势",
+    "tags": [
+      "欧洲热浪",
+      "极端天气",
+      "气候变化"
+    ],
+    "source": "BBC World",
+    "time": "2小时前",
+    "ts": "2026-06-26T18:14:36+00:00",
+    "url": "https://www.bbc.co.uk/news/articles/cx2knzzwprgo?at_medium=RSS&at_campaign=rss",
+    "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5ef7/live/9635ade0-7187-11f1-bcec-7f8ed2660388.jpg",
+    "stocks": []
+  },
+  {
     "id": "3b558946f5f333d6",
     "title": "Prime Day热门科技产品出炉：便携屏与Switch 2领跑",
     "summary": "Tom's Hardware数据显示，Prime Day期间读者点击最多的科技产品为海盗船便携屏、DVD刻录机及任天堂Switch 2，SSD促销亦受关注。",
@@ -340,6 +899,25 @@ const newsData = [
     "ts": "2026-06-26T18:07:38+00:00",
     "url": "https://www.wired.com/story/best-prime-day-macbook-deals-06-26-2026/",
     "image": "https://media.wired.com/photos/6a3ad6cf98db7b4b438b19dc/master/pass/APD-macbook-deal-post.jpg",
+    "stocks": []
+  },
+  {
+    "id": "7c378672f9cd565e",
+    "title": "探讨世界构建中前现代军队的军费开支",
+    "summary": "本文探讨了在小说或游戏世界构建中，前现代军队的军费开支与后勤补给问题，为创作者提供历史参考。",
+    "body": "该文章为“世界构建者的前现代军队”系列的第三部分，主要聚焦于前现代时期军队的资金筹措与军费开支问题。作者从历史角度出发，为小说家、游戏设计师等世界构建者提供了关于古代军队后勤、经济支撑及财政运作的详细参考。\n\n此类内容有助于提升文学创作与游戏设计的历史真实感与逻辑严密性，对泛娱乐内容创作具有一定指导意义。",
+    "category": "消费电子",
+    "tags": [
+      "世界构建",
+      "游戏设计",
+      "历史",
+      "军事后勤"
+    ],
+    "source": "Hacker News",
+    "time": "2小时前",
+    "ts": "2026-06-26T18:04:05+00:00",
+    "url": "https://acoup.blog/2026/06/26/collections-pre-modern-armies-for-worldbuilders-part-iii-paying-for-it/",
+    "image": "",
     "stocks": []
   },
   {
@@ -491,6 +1069,25 @@ const newsData = [
         "confidence": "low"
       }
     ]
+  },
+  {
+    "id": "0b8c32c37ffa665b",
+    "title": "Webradio服务器：实现音频源向客户端广播",
+    "summary": "一款名为Webradio server的工具引发关注，该服务器能将音频源实时广播至客户端，提供轻量级流媒体解决方案。",
+    "body": "近日，Hacker News社区分享了一款名为Webradio server的工具项目。该服务器的主要功能是将音频源直接广播给多个客户端，为网络电台和音频流传输提供了基础的技术实现方案。\n\n此类轻量级音频广播工具的出现，为开发者构建流媒体应用或内部广播系统提供了便利。在智能音频设备不断发展的背景下，这类底层音频分发技术也为相关的终端设备应用提供了潜在的技术支持。",
+    "category": "消费电子",
+    "tags": [
+      "Webradio",
+      "流媒体",
+      "音频广播",
+      "开源项目"
+    ],
+    "source": "Hacker News",
+    "time": "2小时前",
+    "ts": "2026-06-26T17:57:06+00:00",
+    "url": "https://github.com/tau-org/tau-tower",
+    "image": "",
+    "stocks": []
   },
   {
     "id": "da25518a2fb58539",
@@ -804,6 +1401,24 @@ const newsData = [
     "stocks": []
   },
   {
+    "id": "7c9ad6b6221f5211",
+    "title": "真实世界试验证实生成式AI可提升临床决策质量",
+    "summary": "一项大型真实世界临床试验表明，生成式AI辅助工具能安全有效地提升一线医生的临床决策质量，但未显著改变患者短期预后。",
+    "body": "近日，一项大型真实世界临床试验对生成式人工智能在初级保健中的应用进行了评估。研究结果显示，用于支持一线临床医生的生成式AI辅助工具具备良好的安全性，并能有效提高临床决策的整体质量。\n\n尽管该AI工具在优化医生决策方面表现出积极影响，但研究同时指出，它并未对患者的短期临床预后产生显著改变。这一发现为AI在医疗领域的实际落地提供了重要的安全性与有效性参考，同时也提示未来需进一步探索其对长期健康结局的潜在影响。",
+    "category": "人工智能",
+    "tags": [
+      "生成式AI",
+      "医疗AI",
+      "临床试验"
+    ],
+    "source": "MedicalXpress",
+    "time": "3小时前",
+    "ts": "2026-06-26T13:20:03-04:00",
+    "url": "https://medicalxpress.com/news/2026-06-ai-tool-clinician-decisions-real.html",
+    "image": "https://scx1.b-cdn.net/csz/news/tmb/2025/medicaid.jpg",
+    "stocks": []
+  },
+  {
     "id": "872f7e6dc23012d4",
     "title": "智能锁品牌Level遭大幅裁员，创始人出局",
     "summary": "瑞典锁业巨头Assa Abloy对旗下智能锁品牌Level Home进行大规模裁员，创始人已离职，业务将并入Kwikset。",
@@ -837,6 +1452,24 @@ const newsData = [
     "ts": "2026-06-26T17:06:55+00:00",
     "url": "https://openai.com/index/previewing-gpt-5-6-sol/",
     "image": "",
+    "stocks": []
+  },
+  {
+    "id": "96097d1605f941dc",
+    "title": "白宫要求OpenAI推迟发布GPT-5.6模型",
+    "summary": "在Anthropic被迫下线其最先进AI模型两周后，白宫要求OpenAI推迟发布其最新的GPT-5.6人工智能模型。",
+    "body": "近日，美国政府加强了对前沿人工智能技术的监管与干预。据报道，白宫已正式要求OpenAI推迟其最新GPT-5.6人工智能模型的发布计划。\n\n这一举措发生在Anthropic被迫将其最先进的AI模型下线仅两周之后。这表明美国决策层对高级AI模型的安全性和潜在风险保持高度警惕，前沿AI公司的产品发布节奏正受到更严格的政策审查。",
+    "category": "人工智能",
+    "tags": [
+      "OpenAI",
+      "GPT-5.6",
+      "AI监管"
+    ],
+    "source": "Wired",
+    "time": "3小时前",
+    "ts": "2026-06-26T17:05:40+00:00",
+    "url": "https://www.wired.com/story/openai-gpt-56-model-release-trump-admin-approval/",
+    "image": "https://media.wired.com/photos/6a3ea08bf7f42d4ea1deffa3/master/pass/GettyImages-2281424331.jpg",
     "stocks": []
   },
   {
@@ -904,6 +1537,25 @@ const newsData = [
     ]
   },
   {
+    "id": "6f9ce57996978d71",
+    "title": "OpenAI推出GPT-5.6模型，应对美国AI监管",
+    "summary": "OpenAI正式发布GPT-5.6模型套件预览版，包含旗舰版Sol等三款模型。此举是在美国AI监管争议及特朗普政府要求分批发布的背景下推出的。",
+    "body": "在传出应特朗普政府要求分批发布新模型的消息后不到24小时，OpenAI正式推出了GPT-5.6模型套件的有限预览版。该套件包含三款模型：旗舰级的Sol、面向高频任务的中端模型Terra，以及Luna。\n\n此次发布正值美国AI监管政策引发广泛争议之际。OpenAI在配合政府监管要求的同时，依然保持了其在大模型领域的快速迭代能力。新模型的推出将进一步巩固其技术壁垒，并对全球AI产业格局产生深远影响。",
+    "category": "人工智能",
+    "tags": [
+      "OpenAI",
+      "GPT-5.6",
+      "大模型",
+      "AI监管"
+    ],
+    "source": "The Verge",
+    "time": "3小时前",
+    "ts": "2026-06-26T13:01:03-04:00",
+    "url": "https://www.theverge.com/ai-artificial-intelligence/957845/openai-gpt-5-6-trump-administration-ai-preview",
+    "image": "",
+    "stocks": []
+  },
+  {
     "id": "615d03de7f4c8222",
     "title": "YC S25批次初创公司Liva AI发布招聘",
     "summary": "入选Y Combinator S25批次的初创公司Liva AI在技术社区发布招聘信息，正积极扩充研发团队。",
@@ -920,6 +1572,68 @@ const newsData = [
     "url": "https://www.ycombinator.com/companies/liva-ai/jobs/gvtc3Ep-founding-operations-lead",
     "image": "",
     "stocks": []
+  },
+  {
+    "id": "ebc0e023ec23158e",
+    "title": "英国急诊科推行HIV检测计划发现数百未知感染者",
+    "summary": "英国国家医疗服务体系在医院急诊科推出HIV检测计划，已成功发现数百名未知感染者并为其提供抗病毒治疗。",
+    "body": "英国国家医疗服务体系（NHS）近期在医院急诊科推行了一项开创性的HIV检测计划，旨在尽早发现潜在的艾滋病病毒携带者。\n\n得益于这一检测计划，英格兰地区已有数百名在不知情的情况下感染HIV的患者被确诊。这些患者目前已开始接受挽救生命的抗逆转录病毒治疗，这对于控制疫情和改善患者预后具有重要公共卫生意义。",
+    "category": "生物医药",
+    "tags": [
+      "HIV检测",
+      "公共卫生",
+      "抗病毒治疗"
+    ],
+    "source": "MedicalXpress",
+    "time": "3小时前",
+    "ts": "2026-06-26T13:00:06-04:00",
+    "url": "https://medicalxpress.com/news/2026-06-emergency-department-scheme-hundreds-unidentified.html",
+    "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/emergency-department.jpg",
+    "stocks": []
+  },
+  {
+    "id": "0bcd3652743e582f",
+    "title": "模块化涂层定制水凝胶植入物以增强粘附并限制纤维化",
+    "summary": "伍斯特理工学院研究人员设计了一种模块化涂层系统，可通过定制材料刚度和功能来改善体内水凝胶植入物的性能。",
+    "body": "伍斯特理工学院机械与材料工程系助理教授Jiawei Yang领导的研究团队，开发了一种创新的模块化系统。该系统旨在通过定制材料的刚度和特定功能，潜在地改善水凝胶植入物在人体内的表现。\n\n这种模块化涂层技术能够有效增强植入物的粘附性，同时限制人体的纤维化反应。这一研究突破有望为未来生物医用材料的设计提供新思路，进一步提升植入式医疗器械的生物相容性和长期有效性。",
+    "category": "生物医药",
+    "tags": [
+      "水凝胶",
+      "植入物",
+      "生物材料",
+      "医疗器械"
+    ],
+    "source": "MedicalXpress",
+    "time": "3小时前",
+    "ts": "2026-06-26T13:00:01-04:00",
+    "url": "https://medicalxpress.com/news/2026-06-modular-coatings-customize-hydrogel-implants.html",
+    "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/researchers-develop-sy.jpg",
+    "stocks": []
+  },
+  {
+    "id": "3e6abc841620811e",
+    "title": "罗技G29赛车方向盘套装Prime Day大促降至180美元",
+    "summary": "罗技G29赛车方向盘及踏板套装在Prime Day期间迎来大幅降价，PlayStation版仅售180美元，创下近年新低。",
+    "body": "罗技G29赛车方向盘和踏板套装在亚马逊Prime Day期间推出40%的深度折扣，PlayStation版售价降至180美元，Xbox版为190美元，两款均兼容PC和Mac系统。这虽不是其历史最低价，但已是近五年来的最优惠价格。\n\n作为十多年来备受青睐的入门级赛车方向盘，G29以亲民的价格提供了真实的力反馈、符合人体工程学的舒适握感以及三踏板套装。方向盘支持900度旋转并配备换挡拨片，可固定在桌面或专业支架上，为玩家搭建赛车模拟器提供了极具性价比的入门选择。",
+    "category": "消费电子",
+    "tags": [
+      "罗技",
+      "游戏外设",
+      "赛车模拟器"
+    ],
+    "source": "Tom's Hardware",
+    "time": "4小时前",
+    "ts": "2026-06-26T16:48:43+00:00",
+    "url": "https://www.tomshardware.com/pc-components/the-logitech-g29-racing-wheel-and-pedal-set-with-real-force-feedback-is-on-a-deep-40-percent-discount-for-prime-day-get-a-racing-sim-setup-for-just-usd180",
+    "image": "https://cdn.mos.cms.futurecdn.net/HaNGSYtMaKxFENtsfrtsaT-1280-80.jpg",
+    "stocks": [
+      {
+        "name": "罗技",
+        "ticker": "LOGI",
+        "reason": "旗下经典游戏外设产品参与大促，有望提振硬件销量与营收。",
+        "confidence": "medium"
+      }
+    ]
   },
   {
     "id": "e7a7993bc325d5ab",
@@ -966,6 +1680,44 @@ const newsData = [
     ]
   },
   {
+    "id": "14667f465e7535d7",
+    "title": "Weave发布智能模型路由器，优化AI编程成本与性能",
+    "summary": "Weave团队推出专为AI编程代理设计的智能模型路由器，通过强化学习动态分配推理请求，有效平衡大模型使用成本与代码生成质量。",
+    "body": "随着AI辅助编程成本的不断攀升，Weave团队开发了一款智能模型路由器，可直接集成到Claude Code、Codex和Cursor等主流编程代理中。该工具旨在解决使用前沿大模型导致的成本激增问题，在不牺牲复杂任务处理能力的前提下优化日常编码开销。\n\nWeave路由器作为兼容主流大模型厂商的API端点，能够分析推理请求并进行智能路由。对于常规任务，它会分配给DeepSeek、GLM或Kimi等更经济的模型；对于复杂任务，则调用Opus或GPT等前沿模型。其路由决策依赖于在数万条代理轨迹上训练的强化学习模型，有望显著降低开发者的AI编程成本。",
+    "category": "人工智能",
+    "tags": [
+      "大模型",
+      "AI编程",
+      "模型路由",
+      "强化学习"
+    ],
+    "source": "Hacker News",
+    "time": "4小时前",
+    "ts": "2026-06-26T16:40:11+00:00",
+    "url": "https://github.com/workweave/router",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "adb17437e20cee91",
+    "title": "牛津大学开发新计算器：他汀类药物严重肌肉副作用罕见",
+    "summary": "牛津大学研究人员开发出一款新计算器，可评估患者服用他汀类药物引发严重肌肉疾病的风险，助力临床安全用药。",
+    "body": "牛津大学纳菲尔德初级保健健康科学系的研究团队近日开发了一款全新的风险评估计算器。该工具能够科学估算个体因服用他汀类药物而诱发严重肌肉疾病的风险概率。\n\n他汀类药物被广泛用于预防心脏病发作和中风，但部分患者对其肌肉副作用存在担忧。这款新计算器的问世，将有效帮助患者与临床医生在用药时做出更加明智、个性化的决策，进一步提升心血管疾病防治的安全性和患者依从性。",
+    "category": "生物医药",
+    "tags": [
+      "他汀类药物",
+      "医疗工具",
+      "牛津大学",
+      "心血管健康"
+    ],
+    "source": "MedicalXpress",
+    "time": "4小时前",
+    "ts": "2026-06-26T12:40:01-04:00",
+    "url": "https://medicalxpress.com/news/2026-06-statin-muscle-side-effects-rare.html",
+    "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/man-takes-a-pill.jpg",
+    "stocks": []
+  },
+  {
     "id": "aead5762efa849fa",
     "title": "库洛游戏《鸣潮》鸿蒙端及3.5版本7月10日上线",
     "summary": "库洛游戏《鸣潮》鸿蒙原生版将于7月10日开启不删档测试，同时游戏3.5版本也将同步上线并接入Intel XeSS 3技术。",
@@ -1009,6 +1761,24 @@ const newsData = [
         "confidence": "medium"
       }
     ]
+  },
+  {
+    "id": "ec71fd09fb47609d",
+    "title": "五角大楼调查数据泄露事件，多名国安官员身份曝光",
+    "summary": "五角大楼正调查私人团体的数据泄露事件，该事件导致白宫高级情报官员及现役特种部队军官等国家安全人员的个人信息曝光。",
+    "body": "近日，美国五角大楼正在对私人团体Dialog的数据泄露事件展开调查。此次事件引发了严重的安全担忧，因为被曝光的记录中包含了美国国家安全官员的敏感个人信息。\n\n据披露，泄露的数据涉及一名白宫高级情报官员以及一名现役特种作战军官。此类敏感信息的暴露可能对相关人员的个人安全构成直接威胁，并对国家安全情报网络造成潜在负面影响，凸显了数据安全面临的严峻挑战。",
+    "category": "国际局势",
+    "tags": [
+      "五角大楼",
+      "数据泄露",
+      "国家安全"
+    ],
+    "source": "Wired",
+    "time": "4小时前",
+    "ts": "2026-06-26T16:30:33+00:00",
+    "url": "https://www.wired.com/story/the-pentagon-is-looking-into-the-dialog-data-exposure-for-unmasking-national-security-officials/",
+    "image": "https://media.wired.com/photos/6a3abedeea2c52b725f7742e/master/pass/Sensitive-US-Intelligence-Operatives-Exposed-Security-2263872663.jpg",
+    "stocks": []
   },
   {
     "id": "9aaf4ca3bb68ff56",
@@ -1335,6 +2105,25 @@ const newsData = [
     "time": "37分钟前",
     "ts": "2026-06-26T11:53:08-04:00",
     "url": "https://www.theverge.com/gadgets/952261/xreal-one-pro-1s-smart-glasses-deal-sale",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "ec54ddae3b58fa7a",
+    "title": "什么是锂离子电容器？新型储能技术解析",
+    "summary": "锂离子电容器是一种结合了锂离子电池高能量密度与超级电容器高功率密度的新型储能器件，在新能源与快充领域具有广阔应用前景。",
+    "body": "锂离子电容器是一种融合了锂离子电池和超级电容器优势的新型混合储能器件。它通常采用预嵌锂的碳材料作为负极，活性炭等作为正极，从而在保持较高功率密度的同时，显著提升了整体的能量密度。\n\n这种技术特性使得锂离子电容器在需要快速充放电、长循环寿命以及宽工作温度范围的场景中表现出色。未来它有望在电动汽车、轨道交通能量回收及智能电网等领域发挥重要作用，推动能源存储技术的进一步发展。",
+    "category": "未来能源",
+    "tags": [
+      "锂离子电容器",
+      "储能技术",
+      "新能源",
+      "电池"
+    ],
+    "source": "Hacker News",
+    "time": "5小时前",
+    "ts": "2026-06-26T15:51:19+00:00",
+    "url": "https://www.jtekt.co.jp/e/products/capacitor/capacitor_about.html",
     "image": "",
     "stocks": []
   },
@@ -1801,6 +2590,51 @@ const newsData = [
     "stocks": []
   },
   {
+    "id": "bc13715e153412f7",
+    "title": "龙芯中科发布16核服务器芯片3C3000",
+    "summary": "龙芯中科推出基于自主工艺的16核服务器芯片3C3000，通用计算性能对标3C5000，主打低成本与高性价比。",
+    "body": "龙芯中科近日公布了新一代16核通用服务器芯片3C3000。该芯片基于成熟自主工艺和LA364E处理器核设计，支持龙芯自主指令系统LoongArch，主频为1.5至1.8GHz，其通用计算性能已达到龙芯3C5000的水平。\n\n在规格方面，3C3000具备16个物理及逻辑核心，集成16MB二级缓存，支持DDR4-2400内存及ECC校验。芯片提供32通道PCIe等丰富I/O接口，并集成自研安全可信模块支持国密算法，典型功耗仅为40W。\n\n该芯片定位为低成本高性价比服务器CPU，适合中小型企业的文件、数据库及网站服务器等通用计算场景。其推出将进一步丰富龙芯的服务器产品线，提升国产芯片在中小企业市场的竞争力。",
+    "category": "消费电子",
+    "tags": [
+      "龙芯中科",
+      "服务器芯片",
+      "LoongArch",
+      "国产CPU"
+    ],
+    "source": "IT之家",
+    "time": "5小时前",
+    "ts": "2026-06-26T15:09:16+00:00",
+    "url": "https://www.ithome.com/0/969/263.htm",
+    "image": "https://img.ithome.com/newsuploadfiles/2026/6/6e771e70-fe88-411e-bc3c-fa854451de0e.jpg?x-bce-process=image/format,f_auto",
+    "stocks": [
+      {
+        "name": "龙芯中科",
+        "ticker": "688047.SH",
+        "reason": "公司发布新一代低成本16核服务器芯片，有助于拓展中小企业服务器市场并提升业绩预期。",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "6871ede270ca2c30",
+    "title": "2026款捷途自由者7 PLUS上市，11.99万起",
+    "summary": "2026款奇瑞捷途自由者7 PLUS燃油SUV正式上市，新车搭载骁龙8255芯片并接入AI大模型，限时焕新价11.99万元起。",
+    "body": "2026款奇瑞捷途自由者7 PLUS燃油SUV正式上市，推出穿越和征服两款配置，指导价14.49至15.99万元，限时焕新价下探至11.99万元起。新车外观采用方盒子造型，车尾配备支持一键开启的外挂式储物箱。\n\n在智能化方面，该车搭载15.6英寸2.5K中控屏与高通骁龙8255芯片，车机系统深度接入DeepSeek与讯飞星火AI大模型。同时，车辆配备猎鹰500驾驶辅助系统，通过多传感器融合实现高速NOA领航与自动泊车等功能。\n\n动力方面，新车搭载2.0TD鲲鹏动力发动机与8AT变速箱，最大功率187千瓦。该车型的上市进一步丰富了奇瑞在方盒子SUV市场的产品矩阵，并以较高的智能化配置提升了市场竞争力。",
+    "category": "消费电子",
+    "tags": [
+      "奇瑞捷途",
+      "捷途自由者",
+      "智能座舱",
+      "AI大模型"
+    ],
+    "source": "IT之家",
+    "time": "5小时前",
+    "ts": "2026-06-26T15:08:32+00:00",
+    "url": "https://www.ithome.com/0/969/262.htm",
+    "image": "https://img.ithome.com/newsuploadfiles/2026/6/0a713b28-6018-41c9-aeb9-9a38fd5df922.png?x-bce-process=image/format,f_auto",
+    "stocks": []
+  },
+  {
     "id": "fe1515cc4b4cf615",
     "title": "Mullvad创始人被曝向极右翼政党捐赠巨款",
     "summary": "知名隐私VPN服务商Mullvad的创始人被曝出向极右翼极端政党提供大额资金捐赠，该事件在技术社区引发广泛关注与争议。",
@@ -1856,6 +2690,25 @@ const newsData = [
     "stocks": []
   },
   {
+    "id": "b8b408cf81f82197",
+    "title": "宏碁推出PE270XT显示器：27寸5K量子点触控屏售4999元",
+    "summary": "宏碁近日在京东上架PE270XT 27英寸显示器，配备5K量子点触控屏及多功能会议组件，首发价4999元。",
+    "body": "宏碁最新推出的PE270XT显示器采用27英寸5K分辨率量子点IPS面板，支持10点触控，峰值亮度达600尼特，并覆盖99% Adobe RGB和DCI-P3色域，色彩表现优异。\n\n在功能配置方面，该显示器内置双5W扬声器与800万像素会议摄像头，提供90W USB-C及多种视频接口并支持KVM功能。此举进一步丰富了其在高端办公与专业创作显示器市场的产品矩阵。",
+    "category": "消费电子",
+    "tags": [
+      "宏碁",
+      "显示器",
+      "5K触控屏",
+      "消费电子"
+    ],
+    "source": "IT之家",
+    "time": "5小时前",
+    "ts": "2026-06-26T14:59:41+00:00",
+    "url": "https://www.ithome.com/0/969/261.htm",
+    "image": "https://img.ithome.com/newsuploadfiles/2026/6/7e3771f4-f45b-4e1f-951b-608070c100dd.png?x-bce-process=image/format,f_auto",
+    "stocks": []
+  },
+  {
     "id": "727f86a1cea0a94a",
     "title": "联合国暂停霍尔木兹海峡船员撤离计划",
     "summary": "因一艘货船在阿曼附近遇袭，且伊朗要求所有过境船只须获其许可，联合国已暂停从霍尔木兹海峡撤离船员的计划。",
@@ -1872,6 +2725,25 @@ const newsData = [
     "ts": "2026-06-26T14:59:15+00:00",
     "url": "https://www.aljazeera.com/news/2026/6/26/why-has-the-un-paused-plans-to-evacuate-sailors-from-the-strait-of-hormuz?traffic_source=rss",
     "image": "",
+    "stocks": []
+  },
+  {
+    "id": "60bbd3e648bcb9d0",
+    "title": "雷神加速器遭网络攻击致服务异常，官方致歉并补偿用户",
+    "summary": "雷神加速器因遭大规模恶意网络攻击导致部分地区服务异常，官方确认数据未泄露，并向受影响用户补偿50小时可暂停时长。",
+    "body": "6月26日晚间，雷神加速器遭遇大规模恶意网络攻击，导致部分地区用户出现登录困难、客户端加载超时及游戏加速中断等问题。当晚21时45分，其全平台服务已全面恢复。\n\n雷神加速器官方发布公告致歉，确认受影响用户的账号资产与个人数据全程安全，未发生任何泄露，并向受影响用户补偿50小时可暂停时长。据悉，这已是该产品继今年3月之后，再次因遭遇恶意网络攻击导致服务异常。",
+    "category": "消费电子",
+    "tags": [
+      "雷神加速器",
+      "网络攻击",
+      "游戏加速",
+      "服务异常"
+    ],
+    "source": "IT之家",
+    "time": "6小时前",
+    "ts": "2026-06-26T14:52:33+00:00",
+    "url": "https://www.ithome.com/0/969/260.htm",
+    "image": "https://img.ithome.com/newsuploadfiles/2026/6/1a01ccc3-4c2a-4a4c-b028-97cbcb8aa1b0.png?x-bce-process=image/format,f_auto",
     "stocks": []
   },
   {
@@ -1928,6 +2800,25 @@ const newsData = [
     "ts": "2026-06-26T14:41:18+00:00",
     "url": "https://arstechnica.com/science/2026/06/feedbacks-upon-feedbacks-rock-weathering-and-the-climate/",
     "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/06/mochras-core-1152x648.jpg",
+    "stocks": []
+  },
+  {
+    "id": "57ec031bf6df3e1c",
+    "title": "研究发现果糖无法像葡萄糖那样有效抑制饥饿感",
+    "summary": "最新研究表明，尽管果糖与葡萄糖热量相似，但大脑对两者的反应截然不同，果糖抑制饥饿感的效果远弱于葡萄糖。",
+    "body": "一项新研究揭示了果糖无法像葡萄糖那样有效满足饥饿感的原因。尽管两者在营养标签上的热量表现相似，但大脑对它们的处理机制存在显著差异。\n在小鼠实验中，葡萄糖能够强烈抑制促进饥饿的脑细胞活动，而果糖的抑制效果则微弱得多。此外，高果糖玉米糖浆引发了更强烈的神经反应，并成为动物的首选。\n该发现具有重要的营养学意义，表明影响食欲和食物偏好的关键因素不仅是摄入的卡路里总量，糖的具体类型同样发挥着至关重要的作用。",
+    "category": "生物医药",
+    "tags": [
+      "神经科学",
+      "营养学",
+      "果糖",
+      "食欲调节"
+    ],
+    "source": "ScienceDaily",
+    "time": "6小时前",
+    "ts": "2026-06-26T10:28:07-04:00",
+    "url": "https://www.sciencedaily.com/releases/2026/06/260623083106.htm",
+    "image": "",
     "stocks": []
   },
   {
@@ -2036,6 +2927,51 @@ const newsData = [
     "url": "https://www.bbc.co.uk/news/articles/cy06yzp4r0eo?at_medium=RSS&at_campaign=rss",
     "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/bf1b/live/3e3335f0-7172-11f1-a417-dfae8167aae6.jpg",
     "stocks": []
+  },
+  {
+    "id": "6c08cc5e7e8f520b",
+    "title": "起亚发布三款PV5电动厢式车含7座版",
+    "summary": "起亚在釜山国际出行展上正式推出三款全新PV5电动厢式车，其中包括一款7座版车型，以满足日常与商业出行需求。",
+    "body": "在近日举行的釜山国际出行展上，起亚正式亮相了三款全新的PV5电动厢式车，其中包含一款7座版车型。\n\nPV5作为起亚旗下的电动厢式车，采用了灵活的模块化设计，提供多种车身配置方案。这些新车型旨在同时满足日常家用以及多元化的商业运营需求，进一步丰富了其电动化产品矩阵。",
+    "category": "消费电子",
+    "tags": [
+      "起亚",
+      "电动汽车",
+      "PV5",
+      "商用车"
+    ],
+    "source": "Electrek",
+    "time": "7小时前",
+    "ts": "2026-06-26T13:38:41+00:00",
+    "url": "https://electrek.co/2026/06/26/kia-reveals-three-new-pv5-electric-vans-images/",
+    "image": "https://electrek.co/wp-content/uploads/sites/3/2026/06/Kia-new-PV5-electric-vans.jpeg?quality=82&#038;strip=all&#038;w=1400",
+    "stocks": []
+  },
+  {
+    "id": "2d394300e507f0ca",
+    "title": "特斯拉Semi冰雪测试展现卓越动态控制能力",
+    "summary": "特斯拉高管分享Semi电动卡车冰雪路面测试视频，展示其车辆动态控制系统在防止车辆失控方面的优异表现。",
+    "body": "特斯拉Semi项目负责人Dan Priestley近日分享了一段测试视频，展示了这款电动卡车在冬季冰雪路面上的行驶表现。视频中，Semi在冰面上发生滑动，但成功保持了既定行驶路线，实现了受控滑动而非失控打滑。\n\n该视频直观展示了Semi搭载的车辆动态控制（VDC）系统。这表明电动传动系统在应对重型卡车失控风险时，能够比传统柴油系统更迅速地介入并恢复车辆控制，凸显了电动商用车在极端环境下的安全优势。",
+    "category": "未来能源",
+    "tags": [
+      "特斯拉",
+      "电动卡车",
+      "车辆动态控制",
+      "冰雪测试"
+    ],
+    "source": "Electrek",
+    "time": "7小时前",
+    "ts": "2026-06-26T13:32:42+00:00",
+    "url": "https://electrek.co/2026/06/26/tesla-semi-stability-control-ice-video/",
+    "image": "https://electrek.co/wp-content/uploads/sites/3/2026/06/Tesla-Semi-sliding-on-ice.jpeg?quality=82&#038;strip=all&#038;w=1600",
+    "stocks": [
+      {
+        "name": "特斯拉",
+        "ticker": "TSLA",
+        "reason": "特斯拉Semi展现卓越的车辆动态控制能力，凸显其电动商用车产品的技术优势与市场竞争力。",
+        "confidence": "high"
+      }
+    ]
   },
   {
     "id": "8705cd836115fd10",
@@ -4548,6 +5484,25 @@ const newsData = [
     "stocks": []
   },
   {
+    "id": "e39b0737c6c906b7",
+    "title": "科学家发现新型弩蜘蛛利用弹簧陷阱捕食绿树蚁",
+    "summary": "科学家发现了一种名为弩蜘蛛的新型蜘蛛，其能构建弹簧驱动的丝质陷阱，专门用于捕捉具有攻击性的绿树蚁。",
+    "body": "近日，科学家们在自然界中发现了一种名为“弩蜘蛛”的新型蜘蛛。这种蜘蛛演化出了一种极其罕见且精妙的捕猎策略，专门针对具有攻击性的绿树蚁。\n\n“弩蜘蛛”能够构建一种由弹簧驱动的丝质陷阱。当好斗的绿树蚁在不知情的前提下触发该机关时，会被直接弹射入蜘蛛网中，成为其猎物。\n\n这一发现展示了自然界中令人惊叹的生物力学与捕猎机制，为研究动物行为学和生物仿生学提供了全新的视角与宝贵的案例。",
+    "category": "生物医药",
+    "tags": [
+      "动物学",
+      "生物发现",
+      "弩蜘蛛",
+      "生态研究"
+    ],
+    "source": "ScienceDaily",
+    "time": "15小时前",
+    "ts": "2026-06-26T01:29:02-04:00",
+    "url": "https://www.sciencedaily.com/releases/2026/06/260623014002.htm",
+    "image": "",
+    "stocks": []
+  },
+  {
     "id": "4080ae59030ff1f9",
     "title": "美最高法院支持终止海地及叙利亚人临时保护身份",
     "summary": "美国最高法院裁定支持特朗普政府，同意终止针对海地人和叙利亚人的临时保护身份，相关移民将面临遣返风险。",
@@ -4866,6 +5821,24 @@ const newsData = [
     ]
   },
   {
+    "id": "825cbf4315ca874e",
+    "title": "研究称地球或数十亿年来持续向金星播撒生命",
+    "summary": "一项新研究表明，小行星撞击可能将地球微生物送入太空并抵达金星云层。若未来在金星发现生命，其可能起源于地球。",
+    "body": "一项最新研究提出，地球可能在过去的数十亿年间一直向金星输送微小的微生物。研究人员发现，小行星撞击地球时有可能将微生物抛入太空，部分微生物能在星际旅行中存活并最终悬浮在金星云层中。\n\n这一发现对未来的深空探测具有重要科学意义。如果未来的金星探测任务在其大气中检测到生命迹象，这些生命可能并非金星本土起源，而是源自地球的跨星际播撒，这为理解太阳系生命演化提供了全新视角。",
+    "category": "商业航天",
+    "tags": [
+      "天体生物学",
+      "金星探测",
+      "太空探索"
+    ],
+    "source": "ScienceDaily",
+    "time": "17小时前",
+    "ts": "2026-06-25T23:22:17-04:00",
+    "url": "https://www.sciencedaily.com/releases/2026/06/260625014805.htm",
+    "image": "",
+    "stocks": []
+  },
+  {
     "id": "9e5b8ec115863445",
     "title": "开源条形码字体项目Libre Barcode获开发者关注",
     "summary": "Libre Barcode Project是一个开源条形码字体项目，近日在Hacker News上引发关注，为开发者提供轻量级的条形码生成方案。",
@@ -5067,6 +6040,25 @@ const newsData = [
     "time": "5小时前",
     "ts": "2026-06-26T01:10:52+00:00",
     "url": "https://www.jeffgeerling.com/blog/2026/framework-10g-ethernet-module-usb-c-complexity/",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "c3e40bb8b290b419",
+    "title": "爱因斯坦探针或首次捕捉黑洞撕裂白矮星",
+    "summary": "爱因斯坦探针空间望远镜在爆炸初期捕捉到异常强烈的X射线闪光，天文学家认为这可能是中等质量黑洞撕裂并吞噬白矮星的罕见宇宙事件。",
+    "body": "天文学家可能刚刚目睹了宇宙中最罕见、最具戏剧性的事件之一：一个长期被寻找的中等质量黑洞正在撕裂并吞噬一颗致密的白矮星。\n\n爱因斯坦探针空间望远镜在爆炸发生的最初阶段就捕捉到了这一现象。观测数据显示，该事件释放出一系列不同寻常的强烈X射线闪光，这与典型的伽马射线暴有着显著区别，为研究中等质量黑洞提供了珍贵数据。",
+    "category": "商业航天",
+    "tags": [
+      "爱因斯坦探针",
+      "黑洞",
+      "白矮星",
+      "空间望远镜"
+    ],
+    "source": "ScienceDaily",
+    "time": "19小时前",
+    "ts": "2026-06-25T21:05:03-04:00",
+    "url": "https://www.sciencedaily.com/releases/2026/06/260625060222.htm",
     "image": "",
     "stocks": []
   },
@@ -58894,11 +59886,11 @@ const newsData = [
   }
 ];
 const newsDigest = {
-  "text": "今日科技圈聚焦AI与消费电子。OpenAI新模型受限并加速海外扩张，AI应用与出海产业链迎催化；三星新品发布会在即，折叠屏及可穿戴设备供应链有望受益；低价电动卡车发布利好新能源商用车市场。",
+  "text": "今日科技焦点聚焦新能源车与消费电子供应链。苹果因内存涨价上调Mac等售价，凸显半导体成本传导压力；比亚迪插混皮卡亮相，而特斯拉FSD事故与极星在美受阻折射行业竞争与监管博弈。此外，特朗普数字税关税威胁或加剧科技贸易摩擦。",
   "highlights": [
-    "79fec03a230eef6c",
-    "2175f124b087d7ed",
-    "e879a0e9b9cbf052",
-    "f3fb68a9c5296fc6"
+    "a1faae83120b0423",
+    "c1471acba0627413",
+    "cc25f102c3de19c2",
+    "15d7931314e647ea"
   ]
 };
