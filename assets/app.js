@@ -4,15 +4,22 @@
 
   // 分类 -> 封面配色 + 图标。未知分类用 default。
   var CATS = {
-    '人工智能': { icon: '🤖', from: '#6a5cff', to: '#9b4dff' },
-    '商业航天': { icon: '🚀', from: '#4f46e5', to: '#7c3aed' },
-    '国际局势': { icon: '🌐', from: '#334155', to: '#0f766e' },
-    '量子科技': { icon: '⚛️', from: '#d946ef', to: '#7c3aed' },
-    '机器人': { icon: '🦾', from: '#f97316', to: '#ef4444' },
+    '人工智能': { icon: '🤖', from: '#2563eb', to: '#7c3aed' },
+    'AI 基础设施': { icon: '🖥️', from: '#0f766e', to: '#2563eb' },
+    '半导体与先进制造': { icon: '🔬', from: '#475569', to: '#0284c7' },
+    '机器人': { icon: '🦾', from: '#f97316', to: '#dc2626' },
+    '商业航天': { icon: '🚀', from: '#1d4ed8', to: '#0f172a' },
     '生物医药': { icon: '🧬', from: '#10b981', to: '#0891b2' },
-    '未来能源': { icon: '⚡', from: '#f59e0b', to: '#ef4444' },
-    '消费电子': { icon: '📱', from: '#ec4899', to: '#8b5cf6' }
+    '量子科技': { icon: '⚛️', from: '#7c3aed', to: '#0e7490' },
+    '未来能源': { icon: '⚡', from: '#f59e0b', to: '#16a34a' },
+    '新材料': { icon: '⬡', from: '#64748b', to: '#14b8a6' },
+    '脑机接口': { icon: '🧠', from: '#be123c', to: '#7c2d12' },
+    '网络安全': { icon: '🔐', from: '#334155', to: '#111827' },
+    '消费电子': { icon: '📱', from: '#db2777', to: '#7c3aed' },
+    '地缘科技': { icon: '🌐', from: '#374151', to: '#0f766e' }
   };
+  var CAT_ORDER = ['人工智能', 'AI 基础设施', '半导体与先进制造', '机器人', '商业航天',
+    '生物医药', '量子科技', '未来能源', '新材料', '脑机接口', '网络安全', '消费电子', '地缘科技'];
   var DEFAULT_CAT = { icon: '📰', from: '#64748b', to: '#475569' };
 
   function catMeta(name) { return CATS[name] || DEFAULT_CAT; }
@@ -145,6 +152,7 @@
   global.AID = {
     catMeta: catMeta, coverHTML: coverHTML, heat: heat, comments: comments,
     esc: esc, getParam: getParam, initTheme: initTheme, toggleTheme: toggleTheme,
-    loadNews: loadNews, stockTag: stockTag, relTime: relTime, safeUrl: safeUrl
+    loadNews: loadNews, stockTag: stockTag, relTime: relTime, safeUrl: safeUrl,
+    catOrder: CAT_ORDER.slice()
   };
 })(window);

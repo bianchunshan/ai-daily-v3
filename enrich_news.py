@@ -46,9 +46,39 @@ QWEN_KEY = os.environ.get('QWEN_KEY', '')
 QWEN_URL = "https://token-plan.cn-beijing.maas.aliyuncs.com/apps/anthropic/v1/messages"
 QWEN_MODEL = "qwen3.7-max"
 
-CATEGORIES = ['人工智能', '机器人', '商业航天', '国际局势', '量子科技',
-              '生物医药', '未来能源', '消费电子']
-CAT_MERGE = {'集成电路': '人工智能', '具身智能': '机器人', '低空经济': '机器人', '前沿科技': '人工智能'}  # 已废弃/改名分类的归并
+CATEGORIES = ['人工智能', 'AI 基础设施', '半导体与先进制造', '机器人', '商业航天',
+              '生物医药', '量子科技', '未来能源', '新材料', '脑机接口', '网络安全',
+              '消费电子', '地缘科技']
+CAT_MERGE = {
+    '国际局势': '地缘科技',
+    '集成电路': '半导体与先进制造',
+    '具身智能': '机器人',
+    '低空经济': '机器人',
+    '前沿科技': '人工智能',
+    'AI基础设施': 'AI 基础设施',
+    '半导体': '半导体与先进制造',
+    '先进制造': '半导体与先进制造',
+    '材料科学': '新材料',
+    '脑科学': '脑机接口',
+    '网络安全与隐私计算': '网络安全',
+}
+
+CATEGORY_GUIDE = (
+    "分类口径:"
+    "人工智能=模型、Agent、AI应用、算法与产品;"
+    "AI 基础设施=算力、数据中心、GPU集群、液冷、电力、光模块、网络、存储、云基础设施;"
+    "半导体与先进制造=芯片、制程、EDA、光刻、封装、HBM、晶圆、工业软件与制造装备;"
+    "机器人=机器人、具身智能、无人机、自动化、自动驾驶和低空经济;"
+    "商业航天=火箭、卫星、深空探测、发射服务和空间基础设施;"
+    "生物医药=药物、基因、医疗器械、数字医疗和生命科学;"
+    "量子科技=量子计算、量子通信、量子材料和基础量子物理;"
+    "未来能源=电池、核聚变、太阳能、储能、氢能、电网和气候能源技术;"
+    "新材料=超导、纳米、碳材料、半导体材料、电池材料、生物材料;"
+    "脑机接口=脑机接口、神经科技、类脑计算、神经调控和数字疗法;"
+    "网络安全=安全漏洞、攻防、隐私计算、身份认证、加密和供应链安全;"
+    "消费电子=手机、电脑、可穿戴、XR、智能家居和个人硬件;"
+    "地缘科技=出口管制、技术制裁、国防科技、电子战、关键矿产、科技政策和科技相关冲突。"
+)
 
 
 TRACKING_PARAMS = {'utm_source', 'utm_medium', 'utm_campaign', 'utm_term', 'utm_content', 'fbclid', 'gclid', 'mc_cid', 'mc_eid'}
@@ -187,8 +217,9 @@ def enrich_one(n):
         print(f"  ⚠️ 原始材料不足,跳过「{n.get('title','')[:40]}」")
         return None
 
-    prompt = f"""请把下面这条科技新闻整理成规范中文(若原文是英文则翻译),只输出如下 JSON:
+    prompt = f"""请把下面这条新闻材料整理成规范中文(若原文是英文则翻译),只输出如下 JSON:
 {{
+  "skip": false,
   "title": "中文标题,简洁有力,不超过30字",
   "summary": "中文摘要,1-2句,客观,至少20个汉字",
   "body": "中文正文,2-3段,至少50个汉字,基于给定材料客观转述,不编造未提供的细节,可点出意义与影响",
@@ -196,6 +227,9 @@ def enrich_one(n):
   "tags": ["2-4个中文标签"],
   "stocks": [{{"name":"利好标的中文名","ticker":"准确股票代码","reason":"为何受益,一句话","confidence":"high/medium/low"}}]
 }}
+如果材料不是科技、科学、前沿产业、产业政策、国防科技、出口管制或关键供应链相关内容(例如普通体育、娱乐、灾害、社会新闻),请只输出:
+{{"skip": true, "reason": "简短说明"}}
+
 关于 stocks(重要):
 - 只有新闻和上市公司/标的存在明确业务关联时才填写;关联弱或只是泛泛行业影响时返回空数组 []。
 - confidence 表示关联置信度;low 只用于详情页参考,不要硬凑利好。
@@ -204,12 +238,16 @@ def enrich_one(n):
 
 标题:{n.get('title','')}
 来源:{n.get('source','')}
+{CATEGORY_GUIDE}
 原文材料:{material}
 """
     try:
         out = extract_json(call_qwen(prompt, max_tokens=1500, system=ENRICH_SYS))
+        if out.get('skip') is True:
+            print(f"  ⚠️ 非前沿科技相关,跳过「{n.get('title','')[:40]}」")
+            return None
         cat = out.get('category', '').strip()
-        cat = CAT_MERGE.get(cat, cat)   # 废弃分类归并(如集成电路→人工智能)
+        cat = CAT_MERGE.get(cat, cat)   # 废弃/旧分类归并
         stocks = []
         for s in (out.get('stocks') or [])[:4]:
             if isinstance(s, dict) and s.get('name'):

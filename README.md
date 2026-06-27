@@ -13,6 +13,7 @@ fetch_rss.py 抓多路中外科技 RSS
   → enrich_news.py:
       · 按 URL 对 seen_urls.json 去重,只处理没见过的新条目
       · 每条调 Qwen(qwen3.7-max)→ 中文标题/摘要/正文 + 分类 + 标签 + 关联标的
+      · 非科技/科学/前沿产业/地缘科技相关内容直接跳过
       · 单次最多富化 50 条(CAP);累计并入历史、带 ts 时间戳按时间倒序;每个板块各留最新 KEEP=2000 条(到顶才淘汰该板块最旧)
       · 生成今日综述 newsDigest
       · 写 news_data_latest.js
@@ -48,6 +49,14 @@ fetch_rss.py 抓多路中外科技 RSS
 - **新闻富化模型**:`enrich_news.py` 的 `QWEN_MODEL` / `QWEN_URL`(阿里云 Anthropic 兼容端点)。
 - **问 AI 模型**:`api/chat.js` 默认 Qwen;Vercel 设 `CHAT_PROVIDER=kimi` 后走 Kimi。
 - **分类与封面配色**:`assets/app.js` 的 `CATS`;`enrich_news.py` 的 `CATEGORIES`(两处分类要一致)。
+
+## 分类体系
+
+一级分类控制在前沿科技主线内:
+
+`人工智能`、`AI 基础设施`、`半导体与先进制造`、`机器人`、`商业航天`、`生物医药`、`量子科技`、`未来能源`、`新材料`、`脑机接口`、`网络安全`、`消费电子`、`地缘科技`。
+
+`地缘科技`只收技术制裁、出口管制、国防科技、关键矿产、科技政策、供应链安全等科技相关议题,不收普通国际政治、体育、灾害和社会新闻。
 
 ## 实时行情
 

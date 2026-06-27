@@ -67,11 +67,11 @@
     </div>
   </div>
 
-  <script src="assets/app.js?v=20260623b"></script>
+  <script src="assets/app.js?v=20260627a"></script>
   <script>
     var FALLBACK_NEWS = [
-      { id: 1, title: "本田因电动车项目取消首次出现财务亏损", summary: "这家标志性汽车巨头称其未来不确定，巨额财务亏损归咎于中国和美国市场。", category: "国际局势", tags: ["汽车"], source: "澳大利亚新闻", time: "2小时前", url: "#", stocks: [{ name: "本田", change: "-3.2%", trend: "down" }] },
-      { id: 2, title: "英伟达GTC大会聚焦Rubin架构 AI算力再跃升", summary: "英伟达展示最新AI芯片与技术突破，市场期待新一代架构发布。", category: "集成电路", tags: ["AI芯片"], source: "印度快报", time: "4小时前", url: "#", stocks: [{ name: "英伟达", change: "+2.1%", trend: "up" }] },
+      { id: 1, title: "出口管制重塑全球芯片供应链", summary: "关键技术和先进制程设备成为地缘科技竞争焦点，企业供应链布局面临调整。", category: "地缘科技", tags: ["出口管制"], source: "示例资讯", time: "2小时前", url: "#", stocks: [] },
+      { id: 2, title: "英伟达GTC大会聚焦Rubin架构 AI算力再跃升", summary: "英伟达展示最新AI芯片与基础设施技术突破，市场期待新一代架构发布。", category: "AI 基础设施", tags: ["AI芯片"], source: "示例资讯", time: "4小时前", url: "#", stocks: [{ name: "英伟达", change: "+2.1%", trend: "up" }] },
       { id: 3, title: "SpaceX星舰第四次试飞成功 助推器软着陆", summary: "星舰完成第四次轨道试飞，助推器成功在墨西哥湾软着陆。", category: "商业航天", tags: ["SpaceX"], source: "澎湃新闻", time: "6小时前", url: "#", stocks: [] }
     ];
 
@@ -179,6 +179,14 @@
     function buildTabs() {
       var cats = ['推荐'];
       ALL.forEach(function (n) { if (cats.indexOf(n.category) < 0) cats.push(n.category); });
+      var order = A.catOrder || [];
+      cats = cats.slice(0, 1).concat(cats.slice(1).sort(function (a, b) {
+        var ia = order.indexOf(a);
+        var ib = order.indexOf(b);
+        if (ia < 0) ia = 999;
+        if (ib < 0) ib = 999;
+        return ia - ib || a.localeCompare(b, 'zh-Hans-CN');
+      }));
       var el = document.getElementById('tabs');
       el.innerHTML = cats.map(function (c) {
         return '<div class="tab' + (c === CURRENT ? ' active' : '') + '" data-cat="' + A.esc(c) + '">' + A.esc(c) + '</div>';
@@ -206,7 +214,7 @@
       document.getElementById('chatPanel').classList.add('open');
       if (!document.getElementById('chatMsgs').children.length) {
         addMsg('ai', '我是「前沿科技日报」的 AI 助手,可以基于今天这 ' + ALL.length + ' 条资讯帮你问答、归纳或分析。试试下面的问题,或直接问我。');
-        renderSugs(['今天最值得关注的 3 件事', '芯片/AI 方向有什么新进展?', '美伊等国际局势怎么样了', '哪些利好标的值得留意?']);
+        renderSugs(['今天最值得关注的 3 件事', 'AI 基础设施有什么新进展?', '半导体和先进制造有哪些变化?', '地缘科技对产业链有什么影响?']);
       }
       setTimeout(function () { document.getElementById('chatInput').focus(); }, 250);
     }

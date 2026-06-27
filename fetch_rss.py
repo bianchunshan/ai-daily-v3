@@ -21,19 +21,19 @@ FEEDS = [
     ("MIT Tech Review", "https://www.technologyreview.com/feed/", "人工智能"),
     ("Engadget", "https://www.engadget.com/rss.xml", "消费电子"),
     ("Hacker News", "https://hnrss.org/frontpage", "人工智能"),
-    ("Tom's Hardware", "https://www.tomshardware.com/feeds/all", "人工智能"),
-    ("IEEE Spectrum", "https://spectrum.ieee.org/feeds/feed.rss", "人工智能"),
+    ("Tom's Hardware", "https://www.tomshardware.com/feeds/all", "半导体与先进制造"),
+    ("IEEE Spectrum", "https://spectrum.ieee.org/feeds/feed.rss", "AI 基础设施"),
     ("SpaceNews", "https://spacenews.com/feed/", "商业航天"),
-    # 国际局势 / 世界新闻(补美伊、地缘等)
-    ("BBC World", "https://feeds.bbci.co.uk/news/world/rss.xml", "国际局势"),
-    ("Al Jazeera", "https://www.aljazeera.com/xml/rss/all.xml", "国际局势"),
-    ("BBC中文", "https://feeds.bbci.co.uk/zhongwen/simp/rss.xml", "国际局势"),
+    # 地缘科技 / 世界新闻(出口管制、国防科技、科技政策、关键资源等由 Qwen 精筛)
+    ("BBC World", "https://feeds.bbci.co.uk/news/world/rss.xml", "地缘科技"),
+    ("Al Jazeera", "https://www.aljazeera.com/xml/rss/all.xml", "地缘科技"),
+    ("BBC中文", "https://feeds.bbci.co.uk/zhongwen/simp/rss.xml", "地缘科技"),
     # 小众板块对口源(补量子/机器人/能源/航天/生物)
     ("Quanta", "https://api.quantamagazine.org/feed/", "量子科技"),
     ("The Robot Report", "https://www.therobotreport.com/feed/", "机器人"),
     ("Electrek", "https://electrek.co/feed/", "未来能源"),
     ("Space.com", "https://www.space.com/feeds/all", "商业航天"),
-    ("ScienceDaily", "https://www.sciencedaily.com/rss/top/science.xml", "量子科技"),
+    ("ScienceDaily", "https://www.sciencedaily.com/rss/top/science.xml", "新材料"),
     ("MedicalXpress", "https://medicalxpress.com/rss-feed/", "生物医药"),
     # 中文源(本身中文,Qwen 跳过翻译只做整理/分类/标的)
     ("36氪", "https://36kr.com/feed", "人工智能"),
