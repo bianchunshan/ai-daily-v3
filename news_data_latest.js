@@ -1,5 +1,690 @@
 const newsData = [
   {
+    "id": "3ea2a1fa37db81dd",
+    "title": "理想汽车推进自研芯片与VLA模型，加速追赶特斯拉智驾",
+    "summary": "理想汽车通过自研马赫M100芯片与VLA模型构建技术闭环，旨在基础体验与复杂场景能力上追赶特斯拉FSD V14。",
+    "body": "智能驾驶行业的竞争已从单纯的硬件比拼转向模型、数据、算力与芯片的闭环迭代。为此，理想汽车不断向底层技术延伸，在部分车型上搭载自研的马赫M100芯片，并运行自研的马赫VLA模型，以构建持续迭代的技术体系。\n\n在追赶特斯拉FSD的过程中，理想汽车重点关注基础体验与复杂场景处理能力。理想自动驾驶团队指出，未来的技术趋势是将VLA与世界模型深度整合。随着自动驾驶向更高级别迈进，语言模型在提升系统泛化能力与复杂决策方面将发挥关键作用。",
+    "category": "人工智能",
+    "tags": [
+      "自动驾驶",
+      "理想汽车",
+      "AI芯片",
+      "大模型"
+    ],
+    "source": "36氪",
+    "time": "刚刚",
+    "ts": "2026-06-27T00:20:40.531127+00:00",
+    "url": "https://36kr.com/p/3870292939658242?f=rss",
+    "image": "",
+    "stocks": [
+      {
+        "name": "理想汽车-W",
+        "ticker": "2015.HK",
+        "reason": "公司自研智驾芯片与VLA模型取得进展，有望提升智能驾驶核心竞争力与产品销量。",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "9d467da8d069d211",
+    "title": "理想汽车首谈电池争议：自研电池上车，车企兜底",
+    "summary": "理想汽车新款L8正式搭载自研电池，首次回应电池品牌争议，强调无论电池由谁生产，均由车企为用户体验和安全兜底。",
+    "body": "动力电池占据新能源车较高成本并决定核心体验，车企与供应商间的博弈持续。随着新款L8上市，理想汽车正式搭载与欣旺达合资打造的“理想牌”电池，从底层材料到系统架构进行全栈自研，以提升产品性能与品质管控。\n\n理想汽车高管表示，自研电池并非单纯为了降本，而是为了满足整车底盘与热管理系统的极致耦合要求。尽管推出自研品牌，理想仍承诺为用户体验和安全兜底，并提供8年16万公里电池健康度不低于75%的质保，同时将继续保持与其他电池供应商的合作。",
+    "category": "未来能源",
+    "tags": [
+      "理想汽车",
+      "动力电池",
+      "欣旺达",
+      "新能源汽车"
+    ],
+    "source": "36氪",
+    "time": "刚刚",
+    "ts": "2026-06-27T00:20:12.925134+00:00",
+    "url": "https://36kr.com/p/3866946087867394?f=rss",
+    "image": "https://img.36krcdn.com/hsossms/20260624/v2_245e2d5a160e4ed9af72f125da58d25e@6310690_oswg338035oswg1024oswg683_img_jpg?x-oss-process=image/quality,q_100/format,jpg/interlace,1",
+    "stocks": [
+      {
+        "name": "理想汽车",
+        "ticker": "2015.HK",
+        "reason": "推出自研电池提升产品定义能力与供应链话语权，增强整车核心竞争力。",
+        "confidence": "high"
+      },
+      {
+        "name": "欣旺达",
+        "ticker": "300207.SZ",
+        "reason": "与理想汽车成立合资公司打造自研电池，实现与头部造车新势力的深度绑定。",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "23f26df469a5bc6a",
+    "title": "国家邮政局推动电商及寄递App设置绿色包装选项",
+    "summary": "国家邮政局介绍快递业绿色低碳发展成效，并推动电商与寄递平台设置绿色包装选项，以激励消费者参与环保。",
+    "body": "国家邮政局近日举行新闻发布会，介绍《快递暂行条例》修改实施一周年以来的绿色低碳发展成效。数据显示，全行业包装标准化率达86%，同城快递循环包装占比超10%，新能源和清洁能源车总量超7.5万辆，光伏发电及回收复用纸箱均实现显著减碳。\n\n展望“十五五”时期，邮政管理部门将持续推动绿色包装科技创新，加快应用“以竹代塑”及绿色认证包装。同时，将联合相关部门推动电商平台和寄递企业App设置“绿色包装”选项，通过积分和优惠等措施引导消费者选择环保包装，进一步助推包装产业绿色升级。",
+    "category": "未来能源",
+    "tags": [
+      "绿色包装",
+      "快递物流",
+      "环保减碳",
+      "以竹代塑"
+    ],
+    "source": "IT之家",
+    "time": "2分钟前",
+    "ts": "2026-06-27T00:16:49+00:00",
+    "url": "https://www.ithome.com/0/969/288.htm",
+    "image": "https://img.ithome.com/newsuploadfiles/2026/6/e76fa51c-927c-4f4f-ba67-a78886e92807.jpg?x-bce-process=image/watermark,text_QUnnlJ_miJA,type_RlpMYW5UaW5nSGVpU0JHQg==,size_28,color_ffffffdd,skw_1,skc_00000051,g_7,blr_50,bls_50,x_11,y_11/format,f_auto",
+    "stocks": [
+      {
+        "name": "裕同科技",
+        "ticker": "002831.SZ",
+        "reason": "国内环保包装龙头企业，积极布局植物纤维等绿色包装产品，直接受益于绿色包装推广政策。",
+        "confidence": "high"
+      },
+      {
+        "name": "森林包装",
+        "ticker": "605500.SH",
+        "reason": "主营瓦楞纸箱及纸板，致力于绿色包装和循环包装研发，契合快递包装绿色化转型需求。",
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
+    "id": "dafd68c32a020955",
+    "title": "雷蛇推《街头霸王》隆限定款街机控制器，售价2499元",
+    "summary": "雷蛇宣布推出妖狐全按键街机控制器的《街头霸王》隆限定版，国行售价2499元，将于6月30日正式发售。",
+    "body": "雷蛇近日宣布为其全按键街机控制器Kitsune（妖狐）推出《街头霸王》隆限定版。该产品采用隆主题铝制顶版与黑白红配色，搭载线性光学矮轴与精准的四向按键布局，含按键厚度仅约19.2mm，并配备赛事锁定开关与幻彩灯效。\n\n这款联名新品国行到手价为2499元，将于6月30日中午正式发售。此举不仅丰富了雷蛇在高端电竞外设领域的产品线，也通过经典IP联名进一步提升了品牌在格斗游戏核心玩家群体中的影响力与产品溢价能力。",
+    "category": "消费电子",
+    "tags": [
+      "雷蛇",
+      "电竞外设",
+      "街机控制器",
+      "街头霸王"
+    ],
+    "source": "IT之家",
+    "time": "3分钟前",
+    "ts": "2026-06-27T00:16:10+00:00",
+    "url": "https://www.ithome.com/0/969/287.htm",
+    "image": "https://img.ithome.com/newsuploadfiles/2026/6/76560ec1-afdc-404f-9d21-e6bf5e2e29b4.jpg",
+    "stocks": [
+      {
+        "name": "雷蛇",
+        "ticker": "1337.HK",
+        "reason": "作为产品推出方，高客单价IP联名外设的发售有助于提升公司硬件收入及品牌溢价。",
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
+    "id": "edb76557e663d9f4",
+    "title": "苹果联手塔塔调查超630GB供应链数据泄露事件",
+    "summary": "苹果与印度供应商塔塔电子正共同调查一起超630GB的供应链数据泄露事件，泄露文件疑含苹果等企业的零部件设计图。",
+    "body": "近日，勒索软件组织在暗网发布了超630.4GB、逾20万个文件，据称包含苹果和特斯拉的零部件设计文件。路透社调查发现，泄露数据中还涉及台积电和高通的文件，这意味着安全事件的影响可能扩散至更多苹果硬件供应链厂商。\n\n事件发生后，塔塔电子已收紧敏感系统的内部访问权限，限制员工远程访问，并聘请全球顾问机构展开取证审计。苹果安全团队高度重视此事，已协同参与调查，并计划制定近期与长期的应对措施，以保障供应链数据安全。",
+    "category": "消费电子",
+    "tags": [
+      "苹果",
+      "数据安全",
+      "供应链",
+      "塔塔电子"
+    ],
+    "source": "IT之家",
+    "time": "3分钟前",
+    "ts": "2026-06-27T00:15:59+00:00",
+    "url": "https://www.ithome.com/0/969/286.htm",
+    "image": "https://img.ithome.com/newsuploadfiles/2026/6/4678fab0-653b-47b7-8f84-e085fb7f870d.png",
+    "stocks": []
+  },
+  {
+    "id": "573abd9dfba99691",
+    "title": "标普预测：《GTA6》或引3A游戏涨价潮，年货游戏将跟进",
+    "summary": "标普分析师预测《GTA6》的80美元定价将成为3A游戏新基准，并推动《使命召唤》等年货大作同步涨价。",
+    "body": "标普分析师认为，随着游戏开发成本不断攀升，《GTA6》79.99美元的起售价可能成为未来3A游戏的新基准。任天堂部分游戏及R星新作已率先采用接近80美元的定价，打开了3A游戏涨价的“潘多拉魔盒”。\n\n分析师预计，《使命召唤》《NBA 2K》及《EA Sports FC》等年货大作也将陆续跟进涨价。不过也有观点指出，在当前市场环境下，只有少数具备高品质体验的头部厂商才能支撑起80美元的高溢价，中型发行商或将维持原有价格区间。",
+    "category": "消费电子",
+    "tags": [
+      "3A游戏",
+      "游戏涨价",
+      "GTA6"
+    ],
+    "source": "IT之家",
+    "time": "6分钟前",
+    "ts": "2026-06-27T00:12:46+00:00",
+    "url": "https://www.ithome.com/0/969/285.htm",
+    "image": "https://img.ithome.com/newsuploadfiles/2026/6/6d9b8a19-62b6-47d1-85be-d0df1353041f.png?x-bce-process=image/format,f_auto",
+    "stocks": [
+      {
+        "name": "Take-Two",
+        "ticker": "TTWO",
+        "reason": "作为《GTA6》开发商R星的母公司，直接受益于3A游戏定价上限的提升。",
+        "confidence": "high"
+      },
+      {
+        "name": "微软",
+        "ticker": "MSFT",
+        "reason": "旗下动视暴雪拥有《使命召唤》IP，年货游戏涨价将提升其游戏业务利润率。",
+        "confidence": "medium"
+      },
+      {
+        "name": "艺电",
+        "ticker": "EA",
+        "reason": "旗下拥有《EA Sports FC》等年货体育游戏，有望跟随行业趋势提高产品定价。",
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
+    "id": "35d5278cc7b9f04a",
+    "title": "长城H10内饰详解：配智能冰箱与吸顶屏",
+    "summary": "长城汽车发布H10内饰设计，主打家庭第二起居室概念，配备智能冰箱、双大屏及豪华座椅，搭载1.5T插混系统。",
+    "body": "长城汽车近日详细解读了全新车型H10的内饰设计，将其定位为全家人的“第二起居室”。该车六座版轴距达3000mm，提供灵活多变的二、三排空间与多种座椅模式，并配备智能冰箱、小桌板及丰富的储物设计，极大提升了家庭出行的舒适性与实用性。\n\n在智能化与座舱体验方面，长城H10配备了15.6英寸中控屏与17.3英寸吸顶屏，支持AI增强画质与广色域显示。结合全车隔音玻璃、256色氛围灯以及婴儿级抑菌材质，该车在视听享受与健康环保上展现出较强竞争力，有望在家庭SUV市场吸引更多关注。",
+    "category": "消费电子",
+    "tags": [
+      "长城汽车",
+      "长城H10",
+      "智能座舱",
+      "插电混动"
+    ],
+    "source": "IT之家",
+    "time": "16分钟前",
+    "ts": "2026-06-27T00:03:26+00:00",
+    "url": "https://www.ithome.com/0/969/284.htm",
+    "image": "https://img.ithome.com/newsuploadfiles/2026/6/56a8082f-b390-4ae0-bc60-ecbb7f7c7236.jpg",
+    "stocks": [
+      {
+        "name": "长城汽车",
+        "ticker": "601633.SH",
+        "reason": "长城H10作为公司新车型，其丰富的智能化与舒适性配置有望提升产品竞争力并带动销量增长。",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "e943eb9a37a1e811",
+    "title": "巴黎钻石联赛在高温下采取安全措施照常举行",
+    "summary": "受高温热浪影响，巴黎钻石联赛将采取安全措施，仅保留职业运动员赛事，取消其他所有活动。",
+    "body": "受近期高温热浪天气影响，巴黎钻石联赛组委会宣布将采取一系列安全措施以保障赛事进行。为应对极端高温，赛事组织方决定对活动规模进行缩减。根据最新安排，本届钻石联赛将仅保留涉及职业运动员的正式比赛项目，其余所有相关配套活动及大众参与环节均被取消。此举旨在最大程度降低高温天气对参赛人员及观众的健康风险，确保核心赛事的安全与顺利推进。",
+    "category": "国际局势",
+    "tags": [
+      "巴黎钻石联赛",
+      "高温热浪",
+      "体育赛事"
+    ],
+    "source": "Al Jazeera",
+    "time": "29分钟前",
+    "ts": "2026-06-26T23:49:37+00:00",
+    "url": "https://www.aljazeera.com/sports/2026/6/26/paris-diamond-league-to-go-ahead-with-safety-measures-amid-heatwave?traffic_source=rss",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "10c674494f653fa0",
+    "title": "苹果零售店缔造者：乔布斯曾反对门店进驻购物中心",
+    "summary": "苹果前零售主管罗恩·约翰逊回顾Apple Store发展历程，披露乔布斯对门店选址的严苛要求及早期单店营收数据。",
+    "body": "苹果前零售业务负责人罗恩·约翰逊近日接受采访，回顾了其主导建立Apple Store体系的经历。他透露，乔布斯对门店细节要求极高，曾明确反对将门店开进购物中心，并不断调整选址以打造纽约第五大道玻璃立方体等标志性门店。\n\n经营数据方面，约翰逊指出苹果单店盈利门槛为年销售额1500万美元，而纽约第五大道店年销售额曾高达3.5亿美元。至其2011年离职时，苹果单店年均销售额约5000万美元，成为全球生产效率最高的门店。\n\n约翰逊强调，苹果零售战略的核心不仅是销售设备，更是通过完整的演示环境和天才吧等服务，帮助顾客快速理解产品用途并解决问题，从而在早期卖场体验不佳的时代脱颖而出。",
+    "category": "消费电子",
+    "tags": [
+      "苹果",
+      "Apple Store",
+      "零售战略",
+      "乔布斯"
+    ],
+    "source": "IT之家",
+    "time": "30分钟前",
+    "ts": "2026-06-26T23:49:32+00:00",
+    "url": "https://www.ithome.com/0/969/283.htm",
+    "image": "https://img.ithome.com/newsuploadfiles/2026/6/2587c147-0f28-48fd-a283-bdf9ed6463b8.png?x-bce-process=image/format,f_auto",
+    "stocks": []
+  },
+  {
+    "id": "7264a99cd5049234",
+    "title": "V社确认Steam Machine主机HDMI 2.1开发完成",
+    "summary": "V社工程师确认Steam Machine主机的HDMI 2.1功能已开发完成，未来可通过软件更新实现4K 240Hz高刷影像输出。",
+    "body": "尽管V社近期调整了产品宣传页面，但其一直在幕后推进Linux内核对HDMI 2.1的支持。V社工程师确认，在与AMD团队的深度合作下，Steam Machine主机的HDMI 2.1功能现已开发完成，当前软件栈已启用VRR可变刷新率技术。\n\n目前该主机HDMI端口输出上限为4K 120Hz，未来推送相关更新后，可实现4K 144Hz无压缩及4K 240Hz DSC输出。此外，设备配备的DP 1.4接口当前已支持此类高规格输出，进一步提升了玩家的高刷显示体验。",
+    "category": "消费电子",
+    "tags": [
+      "Valve",
+      "Steam Machine",
+      "HDMI 2.1",
+      "游戏硬件"
+    ],
+    "source": "IT之家",
+    "time": "36分钟前",
+    "ts": "2026-06-26T23:42:57+00:00",
+    "url": "https://www.ithome.com/0/969/282.htm",
+    "image": "https://img.ithome.com/newsuploadfiles/2026/6/33f0206e-938f-4e11-a662-ff4564a594bc.jpg?x-bce-process=image/format,f_auto",
+    "stocks": [
+      {
+        "name": "AMD",
+        "ticker": "AMD",
+        "reason": "V社与AMD团队合作解决Linux内核HDMI 2.1支持，AMD提供底层芯片与驱动技术支持。",
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
+    "id": "baf8b367f97e9d8a",
+    "title": "京东推出“安心宠”服务，涵盖溯源、检测与专车配送",
+    "summary": "京东宣布推出宠物“安心宠”服务，提供一宠一码溯源、宠医上门检测、专车配送及新宠保险，全面提升活体宠物交易与运输的安全保障。",
+    "body": "6月26日，京东宣布推出宠物犬猫“安心宠”服务。在选购环节，该服务要求商家如实披露宠物关键信息，实现“一宠一码”真实可追溯，并鼓励开展遗传病筛查。消费者下单后，京东健康将安排专业宠医上门采样检测并出具报告，同时为宠物配备365天新宠医疗保险。\n\n在配送环节，京东物流“京宠达”提供专车专人专送服务。车辆搭载温湿度及空气监测设备，由司机与宠物管家协同配送，实时监测宠物状态并提供现场验宠服务。目前该服务已覆盖全国二十余个核心城市，有效推动了活体宠物交易的标准化与规范化。",
+    "category": "消费电子",
+    "tags": [
+      "京东",
+      "宠物经济",
+      "京东物流"
+    ],
+    "source": "IT之家",
+    "time": "44分钟前",
+    "ts": "2026-06-26T23:34:37+00:00",
+    "url": "https://www.ithome.com/0/969/281.htm",
+    "image": "https://img.ithome.com/newsuploadfiles/2026/6/3e5dfd14-57fa-4a51-ae5c-1aa51f5859c2.png?x-bce-process=image/format,f_auto",
+    "stocks": [
+      {
+        "name": "京东集团",
+        "ticker": "9618.HK",
+        "reason": "推出安心宠与京宠达服务，完善宠物经济生态，提升平台活体交易竞争力与物流增值收入",
+        "confidence": "high"
+      },
+      {
+        "name": "京东",
+        "ticker": "JD",
+        "reason": "推出安心宠与京宠达服务，完善宠物经济生态，提升平台活体交易竞争力与物流增值收入",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "276e870fcf18d1dc",
+    "title": "苹果2026首部院线电影《丹增》官宣 聚焦首次登顶珠峰",
+    "summary": "苹果公司宣布其2026年首部院线电影《丹增》将于10月在北美限量上映，随后上线Apple TV，该片聚焦人类首次登顶珠峰的传奇故事。",
+    "body": "苹果公司正式官宣其2026年首部院线电影《丹增》。该片将于10月9日在北美部分影院限量上映，并于10月16日上线Apple TV流媒体服务，延续了苹果“影院先行、流媒体跟进”的发行策略。此前，苹果凭借电影《F1：狂飙飞车》在全球斩获约6.34亿美元票房，取得了巨大的院线成功。\n\n《丹增》聚焦尼泊尔夏尔巴人登山向导丹增·诺尔盖与新西兰登山家埃德蒙·希拉里爵士于1953年结伴成功登顶珠穆朗玛峰的传奇故事。影片由詹妮弗·皮多姆执导，汤姆·希德勒斯顿、威廉·达福等知名演员参演，不仅展现了人类克服险阻的壮举，也深刻刻画了两人之间的合作关系及家人的支持。",
+    "category": "消费电子",
+    "tags": [
+      "苹果公司",
+      "Apple TV",
+      "院线电影",
+      "流媒体"
+    ],
+    "source": "IT之家",
+    "time": "46分钟前",
+    "ts": "2026-06-26T23:32:47+00:00",
+    "url": "https://www.ithome.com/0/969/280.htm",
+    "image": "https://img.ithome.com/newsuploadfiles/2026/6/faf243e0-db97-4996-a62c-501604c32e13.jpg?x-bce-process=image/format,f_auto",
+    "stocks": [
+      {
+        "name": "苹果",
+        "ticker": "AAPL",
+        "reason": "持续加码原创影视内容，有望提升Apple TV流媒体服务订阅量及品牌生态影响力",
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
+    "id": "11556bf6a38442f5",
+    "title": "美政府解除部分管制，Anthropic恢复百家机构模型访问",
+    "summary": "美国政府解除对Anthropic的部分出口管制，允许其向百余家美国机构恢复提供Mythos 5模型访问权限。",
+    "body": "此前美国政府因疑似模型滥用风险对Anthropic实施出口管制，导致其下架Fable 5和Mythos 5模型。如今双方达成共识，政府解除部分限制，允许该公司向100多家美国政府和大型企业机构恢复提供Mythos 5模型的访问权限。\n\n尽管Mythos 5模型已获准部分开放，但Fable 5模型的重启仍在协商中。此次管制解除不仅缓解了Anthropic的业务压力，也反映出美国政府在AI安全监管与产业发展之间正寻求新的平衡。",
+    "category": "人工智能",
+    "tags": [
+      "Anthropic",
+      "人工智能",
+      "大模型",
+      "出口管制"
+    ],
+    "source": "IT之家",
+    "time": "51分钟前",
+    "ts": "2026-06-26T23:27:35+00:00",
+    "url": "https://www.ithome.com/0/969/279.htm",
+    "image": "https://img.ithome.com/newsuploadfiles/2026/6/0a05a1c3-a597-4031-ae4b-62106e770015.png?x-bce-process=image/format,f_auto",
+    "stocks": []
+  },
+  {
+    "id": "d55fd2eae433bd74",
+    "title": "匈牙利医疗团队微创切除罕见盆腔神经鞘瘤保住患者行走能力",
+    "summary": "塞麦尔维斯大学通过跨科室合作与术中神经监测技术，成功为一名年轻女性微创切除罕见盆腔神经鞘瘤，使其恢复行走能力。",
+    "body": "塞麦尔维斯大学妇产科与神经外科团队紧密合作，利用腹腔镜技术成功为一名年轻女性切除了位于盆腔的罕见良性神经源性肿瘤（即神经鞘瘤）。该手术采用了术中电生理监测技术，以精准保护患者的神经功能。\n\n在中东欧地区，该校是具备此类神经盆腔学跨学科手术能力的领先机构。新引进的专用移动神经监测设备为两科室的协作提供了重要硬件支持。术后第二天，患者便完全康复并顺利出院，成功保住了行走能力与生活质量。",
+    "category": "生物医药",
+    "tags": [
+      "微创手术",
+      "神经鞘瘤",
+      "神经监测"
+    ],
+    "source": "MedicalXpress",
+    "time": "59分钟前",
+    "ts": "2026-06-26T19:20:05-04:00",
+    "url": "https://medicalxpress.com/news/2026-06-specialized-procedure-young-woman-ability.html",
+    "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/a-specialized-procedur.jpg",
+    "stocks": []
+  },
+  {
+    "id": "22da7d72981546ed",
+    "title": "IT早报：OpenAI发布GPT-5.6，苹果iPhone 18配置曝光",
+    "summary": "OpenAI正式发布GPT-5.6系列模型，编程能力显著提升；同时苹果iPhone 18系列硬件配置与万元起售定价曝光。",
+    "body": "6月27日，OpenAI正式发布GPT-5.6系列模型，其编程跑分超越Claude Mythos 5。应美国政府要求，该模型现阶段暂未全面开放，仅向少数“可信合作伙伴”提供预览权限，标志着大模型能力的进一步突破。\n\n消费电子方面，分析师郭明錤透露苹果iPhone 18标准版将配备9GB内存与A20芯片。业内消息称，受存储元件成本上涨影响，iPhone 18 Pro系列及首款折叠屏Ultra均将万元起售。此外，vivo发布了搭载天玑9500的X Fold6折叠屏手机，大疆则回应Pocket 4缺货称已大幅提升备货并打击黄牛。\n\n美团CEO王兴明确表示，自公司成立至今个人未出售过任何股份，且无减持计划，此前转让股票仅为公益目的，此举有助于稳定投资者信心。",
+    "category": "人工智能",
+    "tags": [
+      "OpenAI",
+      "GPT-5.6",
+      "苹果",
+      "美团"
+    ],
+    "source": "IT之家",
+    "time": "1小时前",
+    "ts": "2026-06-26T23:17:55+00:00",
+    "url": "https://www.ithome.com/0/969/278.htm",
+    "image": "https://img.ithome.com/newsuploadfiles/2026/6/a5726ef6-a085-4409-8bfa-2a99f2dab28a.gif",
+    "stocks": [
+      {
+        "name": "苹果",
+        "ticker": "AAPL",
+        "reason": "iPhone 18系列配置升级及折叠屏新品曝光，有望提振高端市场需求与产品溢价。",
+        "confidence": "medium"
+      },
+      {
+        "name": "美团",
+        "ticker": "3690.HK",
+        "reason": "CEO王兴明确表示从未减持且无计划卖股，有效稳定市场与投资者信心。",
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
+    "id": "d561dc64d0b7bc19",
+    "title": "IDC预估iPhone 18 Pro起售价或涨200美元",
+    "summary": "市场调查机构IDC预测，受存储成本上涨影响，苹果iPhone 18 Pro系列机型起售价或将上调200美元。",
+    "body": "市场调查机构IDC近日预测，苹果iPhone 18 Pro和iPhone 18 Pro Max的起售价将上涨200美元，涨幅达16.68%至18.2%。此前该机构预估的涨幅仅为100美元。\n\nIDC分析师指出，苹果近期上调了Mac和iPad等多款产品售价，表明其在消化内存和存储成本方面承受较大压力。全球存储器供应受限推高了零部件成本，成为苹果调价的核心原因。\n\n若涨价最终落地，iPhone 18 Pro起售价可能升至1299美元。这一趋势不仅反映了上游供应链的成本压力，也预示着高端智能手机市场可能迎来新一轮的价格重估。",
+    "category": "消费电子",
+    "tags": [
+      "苹果手机",
+      "iPhone 18",
+      "产品涨价",
+      "存储芯片"
+    ],
+    "source": "IT之家",
+    "time": "1小时前",
+    "ts": "2026-06-26T23:15:42+00:00",
+    "url": "https://www.ithome.com/0/969/277.htm",
+    "image": "https://img.ithome.com/newsuploadfiles/2026/6/fcd235d7-aecb-4039-b98f-61107574543d.png?x-bce-process=image/format,f_auto",
+    "stocks": [
+      {
+        "name": "苹果",
+        "ticker": "AAPL",
+        "reason": "产品提价有助于消化上游零部件成本压力，维持或提升硬件利润率。",
+        "confidence": "medium"
+      },
+      {
+        "name": "美光科技",
+        "ticker": "MU",
+        "reason": "新闻指出全球存储器供应受限推高成本，存储原厂直接受益于涨价周期。",
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
+    "id": "02fe8424f0db0f82",
+    "title": "环球影业取消《奥德赛》网红放映，传统影评人点赞",
+    "summary": "环球影业在诺兰新片《奥德赛》宣传中打破常规，取消网红提前放映，首批观众反馈将来自传统主流媒体与影评人。",
+    "body": "环球影业针对克里斯托弗·诺兰执导的史诗巨制《奥德赛》采取了不同寻常的宣发策略。该片将跳过针对网红和内容创作者的提前放映活动，这意味着首批公开的观众反馈将完全来自主流媒体和传统影评人。\n\n这一打破行业常规的做法在传统影评界引发了积极反响，许多影评人对片方重视专业评论而非社交媒体流量的决定表示赞赏。此举也反映出影视行业在面对社交媒体营销时，开始重新审视专业影评在重磅大片口碑发酵中的作用。",
+    "category": "消费电子",
+    "tags": [
+      "环球影业",
+      "诺兰",
+      "电影宣发"
+    ],
+    "source": "Wired",
+    "time": "1小时前",
+    "ts": "2026-06-26T23:15:28+00:00",
+    "url": "https://www.wired.com/story/film-critics-thrilled-universal-is-skipping-influencer-screenings-for-the-odyssey/",
+    "image": "https://media.wired.com/photos/6a3ed5da979872ef6f4ade00/master/pass/Influencers-Real-Mad-They-Are-Not-Allowed-to-Screen-The-Odyssey-Culture-3EGY4PW.jpg",
+    "stocks": [
+      {
+        "name": "康卡斯特",
+        "ticker": "CMCSA",
+        "reason": "作为环球影业的母公司，该片的宣发策略及最终票房表现将直接影响其影视娱乐板块的营收。",
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
+    "id": "e4d700be45d95218",
+    "title": "美法官裁定Charlie Kirk案检察官藐视法庭",
+    "summary": "美国法官在Charlie Kirk谋杀案中裁定检察官藐视法庭，因其向媒体发表的评论违反了庭外言论规则。",
+    "body": "在Charlie Kirk谋杀案的审理过程中，美国法官正式裁定该案检察官藐视法庭。法官指出，检察官在法庭之外向媒体发表的有关被告的评论，明确违反了关于庭外言论的相关规定。这一裁决凸显了司法系统对维护审判公正性的重视，旨在防止庭外不当言论对案件审理造成潜在干扰。",
+    "category": "国际局势",
+    "tags": [
+      "美国司法",
+      "法庭裁决",
+      "国际新闻"
+    ],
+    "source": "Al Jazeera",
+    "time": "1小时前",
+    "ts": "2026-06-26T23:14:22+00:00",
+    "url": "https://www.aljazeera.com/news/2026/6/26/us-judge-holds-prosecutor-in-contempt-in-charlie-kirk-murder-case?traffic_source=rss",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "9de8337d9749d979",
+    "title": "委内瑞拉再发4.9级地震，此前强震已致数百人遇难",
+    "summary": "委内瑞拉在遭遇导致数百人死亡的毁灭性强震数日后，再次发生4.9级地震，该国目前仍在艰难恢复中。",
+    "body": "近日，委内瑞拉再次遭受里氏4.9级地震袭击。此次地震发生在该国遭遇毁灭性双强震仅数日之后。此前的强震已造成数百人不幸遇难，给当地带来了巨大的破坏。\n\n目前，委内瑞拉全国上下仍处于灾后恢复的艰难阶段。连续的地质活动不仅加剧了民众的恐慌，也给当地的救援和灾后重建工作带来了更为严峻的挑战。",
+    "category": "国际局势",
+    "tags": [
+      "委内瑞拉",
+      "地震",
+      "国际新闻"
+    ],
+    "source": "Al Jazeera",
+    "time": "1小时前",
+    "ts": "2026-06-26T23:13:03+00:00",
+    "url": "https://www.aljazeera.com/news/2026/6/26/4-9-earthquake-detected-in-venezuela-just-days-after-major-quakes?traffic_source=rss",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "27b0d6aa09b1a1d2",
+    "title": "市场监管总局：加快智能体与具身智能前沿技术标准制定",
+    "summary": "市场监管总局正加快智能体、具身智能等前沿技术国家标准制定，并正式发布智能体互联系列标准，以规范和引领产业创新发展。",
+    "body": "市场监管总局正会同相关部门，加快智能体、具身智能、世界模型及本体模型等前沿技术领域的国家标准制定速度，同时推进算力基础设施、高质量数据集等底座类标准的研制。通过优化全流程工作机制并推行敏捷标准化模式，相关部门正努力压缩标准研制周期，实现标准从被动适配向主动引领创新的转变。\n\n此外，市场监管总局正式获批发布《人工智能智能体互联》系列国家标准。该系列标准涵盖7个部分，旨在解决当前智能体产业中通信接口不统一、身份管理缺失及协同交互规则混乱等突出问题，为人工智能产业的高质量落地与互联互通提供坚实的规范支撑。",
+    "category": "人工智能",
+    "tags": [
+      "智能体",
+      "具身智能",
+      "国家标准",
+      "人工智能"
+    ],
+    "source": "IT之家",
+    "time": "1小时前",
+    "ts": "2026-06-26T23:10:25+00:00",
+    "url": "https://www.ithome.com/0/969/276.htm",
+    "image": "https://img.ithome.com/newsuploadfiles/2026/6/f752467f-bf1e-4bba-8028-7a824a9fa29e.jpg?x-bce-process=image/watermark,text_QUnnlJ_miJA,type_RlpMYW5UaW5nSGVpU0JHQg==,size_28,color_ffffffdd,skw_1,skc_00000051,g_7,blr_50,bls_50,x_11,y_11/format,f_auto",
+    "stocks": [
+      {
+        "name": "科大讯飞",
+        "ticker": "002230.SZ",
+        "reason": "国内人工智能龙头，深度参与AI大模型及智能体生态建设，有望受益于行业标准规范带来的市场集中度提升。",
+        "confidence": "medium"
+      },
+      {
+        "name": "优必选",
+        "ticker": "09880.HK",
+        "reason": "具身智能与人形机器人领军企业，直接受益于国家加快具身智能等前沿技术标准的制定与产业规范化。",
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
+    "id": "7e448545c1617280",
+    "title": "戴尔外星人推出34英寸QD-OLED电竞显示器",
+    "summary": "戴尔旗下外星人品牌推出AW3426DW曲面电竞显示器，配备34英寸双层QD-OLED面板，支持280Hz刷新率与0.03ms响应时间。",
+    "body": "戴尔旗下外星人品牌近日在海外市场推出全新电竞显示器AW3426DW。该新品采用21:9超宽曲面设计，配备34英寸三星双层QD-OLED面板，分辨率达3440*1440，最高刷新率280Hz，并具备0.03ms极速响应与1300尼特峰值亮度，全面满足高端电竞需求。\n\n在接口与防护方面，该显示器表面覆盖3H硬度防眩光涂层，提供HDMI 2.1、DP 1.4及支持15W供电的USB-C等丰富接口。其官方建议零售价为809欧元（约合6257元人民币），将于7月2日起在海外出货，进一步丰富了高端OLED电竞显示器市场的产品选择。",
+    "category": "消费电子",
+    "tags": [
+      "电竞显示器",
+      "QD-OLED",
+      "戴尔外星人"
+    ],
+    "source": "IT之家",
+    "time": "1小时前",
+    "ts": "2026-06-26T23:06:51+00:00",
+    "url": "https://www.ithome.com/0/969/275.htm",
+    "image": "https://img.ithome.com/newsuploadfiles/2026/6/59ab0223-c5de-45a4-a529-540da42b6f09.jpg",
+    "stocks": []
+  },
+  {
+    "id": "66639bdb538b4910",
+    "title": "郭明錤爆料iPhone 18标准版配9GB内存与A20芯片",
+    "summary": "天风国际分析师郭明錤透露，苹果iPhone 18标准版及iPhone 18e将升级至9GB内存并搭载A20芯片，预计于2027年上半年发布。",
+    "body": "天风国际证券分析师郭明錤近日爆料，苹果计划在2027年上半年推出的iPhone 18标准版及iPhone 18e机型中，配备9GB DRAM内存与A20芯片。相较于iPhone 17标准版的8GB内存，新机型内存容量提升了12.5%，采用6颗1.5GB芯片方案。\n\n此外，郭明錤还透露了高端机型的规划。预计于2026年下半年发布的iPhone 18 Pro系列以及苹果首款折叠手机（或命名为iPhone Ultra），将采用12GB内存方案，并搭载性能更强的A20 Pro芯片。这一配置升级显示出苹果在移动端AI与高性能计算领域的持续布局。",
+    "category": "消费电子",
+    "tags": [
+      "苹果",
+      "iPhone 18",
+      "智能手机",
+      "消费电子"
+    ],
+    "source": "IT之家",
+    "time": "1小时前",
+    "ts": "2026-06-26T23:03:22+00:00",
+    "url": "https://www.ithome.com/0/969/274.htm",
+    "image": "https://img.ithome.com/newsuploadfiles/2026/6/06203972-9495-48d3-b0ab-cdabb030a188.png",
+    "stocks": [
+      {
+        "name": "苹果",
+        "ticker": "AAPL",
+        "reason": "作为iPhone的制造商，新一代产品配置升级有望提振未来销量与产品竞争力。",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "de2162b67ad19a8a",
+    "title": "2026世界杯小组赛：埃及对阵伊朗",
+    "summary": "2026年世界杯小组赛最后一轮在西雅图打响，萨拉赫领衔的埃及队迎战伊朗队，双方展开激烈角逐。",
+    "body": "2026年国际足联世界杯小组赛阶段迎来一场焦点战，埃及国家队与伊朗国家队在西雅图展开对决。本场比赛是小组赛的最后一轮较量，埃及队由著名球星穆罕默德·萨拉赫领衔出战。\n\n相关媒体对本场比赛的实时比分、赛况及解说进行了全程直播。这场跨国体育竞技不仅关乎两支球队的小组出线形势，也进一步提升了世界杯赛事的全球关注度与影响力。",
+    "category": "国际局势",
+    "tags": [
+      "世界杯",
+      "埃及",
+      "伊朗",
+      "体育赛事"
+    ],
+    "source": "Al Jazeera",
+    "time": "1小时前",
+    "ts": "2026-06-26T22:57:35+00:00",
+    "url": "https://www.aljazeera.com/sports/liveblog/2026/6/26/live-egypt-vs-iran-world-cup-2026?traffic_source=rss",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "4c22a7cc3bfbd14b",
+    "title": "以色列与黎巴嫩签署框架协议",
+    "summary": "以色列与黎巴嫩在美国数月的斡旋下达成并签署框架协议，但以色列仍继续占领黎巴嫩部分领土。",
+    "body": "经过美国长达数月的直接斡旋与谈判，以色列与黎巴嫩最终达成并签署了框架协议。这一协议标志着双方在解决争端方面迈出了重要一步。\n\n然而，尽管协议已经签署，以色列目前仍继续占领黎巴嫩的部分领土。这表明该地区的局势依然复杂，协议的全面落实与持久和平仍面临挑战。",
+    "category": "国际局势",
+    "tags": [
+      "以色列",
+      "黎巴嫩",
+      "中东局势"
+    ],
+    "source": "Al Jazeera",
+    "time": "1小时前",
+    "ts": "2026-06-26T22:56:01+00:00",
+    "url": "https://www.aljazeera.com/news/2026/6/26/what-is-the-framework-agreement-signed-by-israel-and-lebanon?traffic_source=rss",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "5a8665b1ad521560",
+    "title": "美政府允许Anthropic向可信伙伴发布Mythos",
+    "summary": "美国政府已批准人工智能公司Anthropic将其Mythos项目向特定的可信合作伙伴进行发布与共享。",
+    "body": "近日，美国政府正式允许人工智能企业Anthropic将其名为Mythos的技术或模型发布给“可信合作伙伴”。这一举措标志着监管层在前沿AI技术的定向分享与合作方面迈出了新的一步。\n\n尽管目前关于Mythos的具体细节和可信合作伙伴的名单尚未完全公开，但此举无疑将促进Anthropic在受控环境下的技术生态建设。这不仅有助于推动AI技术在特定领域的深度应用，也为前沿人工智能模型的安全合规商业化提供了新的参考路径。",
+    "category": "人工智能",
+    "tags": [
+      "Anthropic",
+      "人工智能",
+      "Mythos"
+    ],
+    "source": "Hacker News",
+    "time": "1小时前",
+    "ts": "2026-06-26T22:48:28+00:00",
+    "url": "https://www.reuters.com/technology/us-releases-anthropic-model-mythos-some-us-companies-semafor-reports-2026-06-26/",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "18bfacbab21d50f5",
+    "title": "委内瑞拉超5万人失踪，家属网络寻亲",
+    "summary": "委内瑞拉目前仍有超过五万人处于失踪状态，绝望的家属们正通过网络分享亲人信息以寻求帮助。",
+    "body": "据半岛电视台报道，委内瑞拉正面临严峻的人口失踪问题，目前仍有超过五万人下落不明。\n\n面对这一困境，失踪者的家属们陷入绝望，他们纷纷利用互联网平台分享亲人的详细信息，试图通过社交网络的力量寻找失散的家人。这一现象凸显了当地社会面临的深层危机。",
+    "category": "国际局势",
+    "tags": [
+      "委内瑞拉",
+      "人口失踪",
+      "社会危机"
+    ],
+    "source": "Al Jazeera",
+    "time": "1小时前",
+    "ts": "2026-06-26T22:44:00+00:00",
+    "url": "https://www.aljazeera.com/video/newsfeed/2026/6/26/desperate-families-search-for-missing-loved-ones-in-venezuela?traffic_source=rss",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "f78b78d8bc06d86d",
+    "title": "为什么动能随速度呈平方而非线性增长？",
+    "summary": "Hacker News社区热议2011年的一篇物理学旧帖，深入探讨经典力学中动能与速度呈二次方关系的物理本质与数学推导。",
+    "body": "Hacker News社区近期重新关注了一篇发布于2011年的物理学讨论帖，核心议题为为什么动能随速度呈二次方增长而不是线性增长。该问题触及了经典力学的基础概念，引发了关于功、能量守恒以及牛顿运动定律的深入探讨。\n\n在经典物理中，动能与速度的平方成正比。这一二次方关系源于力对距离的积分，当物体加速时，相同时间内速度增加量相同，但经过的距离随速度增加而变大，因此需要做更多的功，导致动能呈平方级增长。\n\n此类基础科学问题的讨论有助于加深公众对物理定律背后数学逻辑的理解，虽然不涉及前沿商业应用，但体现了技术社区对基础科学原理的持续探索精神。",
+    "category": "未来能源",
+    "tags": [
+      "经典力学",
+      "物理学",
+      "动能",
+      "Hacker News"
+    ],
+    "source": "Hacker News",
+    "time": "1小时前",
+    "ts": "2026-06-26T22:43:29+00:00",
+    "url": "https://physics.stackexchange.com/questions/535/why-does-kinetic-energy-increase-quadratically-not-linearly-with-speed",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "08c1c2ec7a801ead",
+    "title": "非洲为何抵制1966年世界杯",
+    "summary": "半岛电视台记者探讨了非洲国家抵制1966年世界杯的历史原因与相关背景。",
+    "body": "半岛电视台记者萨曼莎·约翰逊对非洲抵制1966年世界杯的历史事件进行了深入探讨。\n该报道回顾了当时非洲国家做出抵制决定的背景与原因，揭示了这一事件在国际体育史上的重要意义。",
+    "category": "国际局势",
+    "tags": [
+      "半岛电视台",
+      "世界杯",
+      "非洲",
+      "体育历史"
+    ],
+    "source": "Al Jazeera",
+    "time": "1小时前",
+    "ts": "2026-06-26T22:42:50+00:00",
+    "url": "https://www.aljazeera.com/video/game-theory/2026/6/26/aje-onl-gt-africa-boycott_v5-270626?traffic_source=rss",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "c64a69ec688de5b8",
+    "title": "重量级拳王乌西克宣布放弃世界金腰带",
+    "summary": "曾包揽WBA、WBC和IBF金腰带的无可争议重量级及次重量级世界冠军乌西克，宣布放弃其持有的重量级世界拳王金腰带。",
+    "body": "据半岛电视台报道，无可争议的重量级与次重量级世界冠军乌西克近日宣布，将放弃其持有的重量级世界拳王金腰带。乌西克此前同时拥有WBA、WBC和IBF三大拳击组织的重量级金腰带，在拳坛具有极高的统治力。\n\n此次放弃金腰带的决定，预计将对重量级拳击界的格局产生重大影响，其他顶尖拳手将有机会争夺空缺的冠军头衔。这一举动标志着重量级拳坛即将迎来新的洗牌，引发全球体育界的广泛关注。",
+    "category": "国际局势",
+    "tags": [
+      "拳击",
+      "乌西克",
+      "体育赛事"
+    ],
+    "source": "Al Jazeera",
+    "time": "1小时前",
+    "ts": "2026-06-26T22:39:35+00:00",
+    "url": "https://www.aljazeera.com/sports/2026/6/26/heavyweight-champion-usyk-says-vacating-heavyweight-world-title-belts?traffic_source=rss",
+    "image": "",
+    "stocks": []
+  },
+  {
     "id": "20562b17038d58d5",
     "title": "Quantum Cyber获批收购SpaceX部分股权",
     "summary": "据媒体报道，Quantum Cyber已正式获得相关批准，将收购知名航天企业SpaceX的部分股权。",
@@ -124,6 +809,25 @@ const newsData = [
     "stocks": []
   },
   {
+    "id": "f6c2c797ed1e5ce1",
+    "title": "韩国计划将全军训练为无人机战士",
+    "summary": "韩国国防部宣布计划训练全军近50万名士兵熟练操作无人机，将其作为通用战斗工具，以在半岛对峙中保持技术优势。",
+    "body": "韩国国防部长安圭伯宣布，韩国计划训练全军近50万名士兵熟练操作无人机，使其像使用个人枪械一样成为“通用战斗工具”和“第二件个人武器”。此举旨在应对半岛长期对峙，保持军事技术优势。\n\n韩国军方将为各单位配备更多廉价无人机用于侦察与打击，并部署反无人机激光和微波武器。此外，原无人机作战司令部将重组，专注于与工业界合作开发商用无人机技术。防长指出，乌克兰和中东冲突的经验直接推动了此次改革。",
+    "category": "国际局势",
+    "tags": [
+      "无人机",
+      "韩国军方",
+      "军事改革",
+      "国防科技"
+    ],
+    "source": "Ars Technica",
+    "time": "2小时前",
+    "ts": "2026-06-26T22:19:05+00:00",
+    "url": "https://arstechnica.com/ai/2026/06/south-korea-plans-to-train-entire-military-as-drone-warriors/",
+    "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/06/GettyImages-1244261698-1152x648.jpg",
+    "stocks": []
+  },
+  {
     "id": "42773bc9f61b6f7a",
     "title": "Rocket Lab成功发射第10颗Synspective雷达卫星",
     "summary": "6月26日，Rocket Lab为日本Synspective公司成功发射了第10颗雷达成像卫星，此次任务此前曾因响应式太空任务而推迟。",
@@ -242,6 +946,24 @@ const newsData = [
     "ts": "2026-06-26T18:00:03-04:00",
     "url": "https://medicalxpress.com/news/2026-06-ai-microneedles-body-temperature-diabetic.html",
     "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/hanyang-university-res-1.jpg",
+    "stocks": []
+  },
+  {
+    "id": "c418d729b3d8ce51",
+    "title": "开源DOCX编辑器项目遭删除，代码库与官网均下线",
+    "summary": "几周前在Hacker News上发布的开源DOCX编辑器项目已被删除，其GitHub代码仓库和官方网站均已无法访问，具体原因尚不明确。",
+    "body": "近日，几周前提交至Hacker News社区的开源DOCX编辑器项目突然消失。目前，该项目在GitHub上的eigenpal代码仓库已被删除，其官方网站也返回503服务不可用错误。\n\n对于项目突然下线的原因，目前社区内尚无明确说法。这一事件引发了部分开发者的关注与讨论，但具体是项目方主动撤回、遭遇版权问题还是其他技术故障，仍有待进一步确认。",
+    "category": "消费电子",
+    "tags": [
+      "开源项目",
+      "DOCX编辑器",
+      "GitHub"
+    ],
+    "source": "Hacker News",
+    "time": "2小时前",
+    "ts": "2026-06-26T21:54:59+00:00",
+    "url": "https://news.ycombinator.com/item?id=48692474",
+    "image": "",
     "stocks": []
   },
   {
@@ -3247,6 +3969,31 @@ const newsData = [
     ]
   },
   {
+    "id": "b3735368d3e6b9c0",
+    "title": "Fitbit Charge 6及儿童手表Prime Day大幅降价",
+    "summary": "亚马逊Prime Day期间，Fitbit旗下智能手环Charge 6及儿童智能手表Ace LTE迎来大幅折扣，售价分别降至85.45美元和69.99美元。",
+    "body": "在近期的亚马逊Prime Day促销活动中，Fitbit旗下的多款智能穿戴设备迎来了大幅降价，为消费者提供了更具性价比的选择。其中，主打健康监测的Fitbit Charge 6智能手环售价降至85.45美元，优惠幅度达74.5美元。\n\n此外，专为儿童设计的Fitbit Ace LTE智能手表也参与了此次促销，价格下探至69.99美元。此次大幅折扣不仅降低了用户购买Fitbit产品的门槛，也有助于进一步提升其在智能穿戴市场的普及率与用户粘性。",
+    "category": "消费电子",
+    "tags": [
+      "Fitbit",
+      "智能穿戴",
+      "Prime Day"
+    ],
+    "source": "The Verge",
+    "time": "8小时前",
+    "ts": "2026-06-26T11:27:07-04:00",
+    "url": "https://www.theverge.com/gadgets/952995/fitbit-charge-6-ace-lte-amazon-prime-day-2026-deal-sale",
+    "image": "",
+    "stocks": [
+      {
+        "name": "Alphabet",
+        "ticker": "GOOGL",
+        "reason": "Fitbit母公司，产品促销有助于提升硬件销量与健康数据生态活跃度。",
+        "confidence": "low"
+      }
+    ]
+  },
+  {
     "id": "bf5e4bcab067141f",
     "title": "数学家升级埃尔德什概率方法，突破随机网络理论",
     "summary": "匈牙利数学家保罗·埃尔德什于80年前提出利用随机性证明网络存在的概率方法，如今当代数学家正对该经典技术进行升级，使其在复杂网络研究中更加强大。",
@@ -3600,6 +4347,24 @@ const newsData = [
     "stocks": []
   },
   {
+    "id": "3603b2752e0af8bd",
+    "title": "健康追踪设备的精准度有时被高估",
+    "summary": "The Verge专栏文章指出，健康追踪设备的测量准确性有时被过度夸大，用户应更关注实际健康改善而非单纯的数据精准度。",
+    "body": "The Verge高级评测编辑Victoria Song在其专栏中探讨了健康追踪设备的实用性与准确性问题。她以自身经历为例，指出医生更关注实际的身体健康指标，而非设备提供的繁杂数据。文章认为，当前市场上许多智能穿戴设备过度强调健康监测的精准度，但这有时会掩盖其实际健康指导意义的不足。消费者在追求数据准确性的同时，更应关注设备能否真正促成生活方式的积极改变。",
+    "category": "消费电子",
+    "tags": [
+      "智能穿戴",
+      "健康监测",
+      "消费电子"
+    ],
+    "source": "The Verge",
+    "time": "9小时前",
+    "ts": "2026-06-26T10:55:47-04:00",
+    "url": "https://www.theverge.com/column/957703/optimizer-withings-dexa-body-composition-health-fitness",
+    "image": "",
+    "stocks": []
+  },
+  {
     "id": "60bbd3e648bcb9d0",
     "title": "雷神加速器遭网络攻击致服务异常，官方致歉并补偿用户",
     "summary": "雷神加速器因遭大规模恶意网络攻击导致部分地区服务异常，官方确认数据未泄露，并向受影响用户补偿50小时可暂停时长。",
@@ -3787,6 +4552,31 @@ const newsData = [
     "url": "https://www.sciencedaily.com/releases/2026/06/260623083106.htm",
     "image": "",
     "stocks": []
+  },
+  {
+    "id": "3115d90b2f48f371",
+    "title": "Meta视博彩为未来，延续克隆与流量变现战略",
+    "summary": "Meta被指将博彩等新兴社交机制视为未来方向，其一贯战略是等待新模式兴起后，通过收购或克隆并结合庞大用户群进行变现。",
+    "body": "外媒指出，Meta在很大程度上是一家建立在其他公司创意基础上的企业。该公司已经近乎完美地掌握了一套商业战略：等待新的平台或社交机制开始流行，然后选择收购或直接克隆该模式。\n\n随后，Meta会将这些新功能与其无与伦比的庞大用户基础和强大的广告引擎相结合，从而实现利润的快速增长。目前，Meta似乎将目光投向了博彩等新兴社交机制，将其视为未来的重要方向，这再次印证了其一贯的扩张与变现逻辑。",
+    "category": "消费电子",
+    "tags": [
+      "Meta",
+      "商业模式",
+      "社交网络"
+    ],
+    "source": "The Verge",
+    "time": "10小时前",
+    "ts": "2026-06-26T10:16:29-04:00",
+    "url": "https://www.theverge.com/podcast/957673/meta-polymarket-apple-prices-vergecast",
+    "image": "",
+    "stocks": [
+      {
+        "name": "Meta",
+        "ticker": "META",
+        "reason": "文章直接探讨Meta的商业模式及未来战略押注。",
+        "confidence": "high"
+      }
+    ]
   },
   {
     "id": "f605e44b5c1faf4c",
@@ -60872,11 +61662,11 @@ const newsData = [
   }
 ];
 const newsDigest = {
-  "text": "今日科技财经聚焦AI算力与前沿应用，协创数据拟募资80亿发力智算，AI微针技术突破糖尿病治疗。商业航天迎资本青睐，SpaceX部分股权获批转让。此外，特斯拉交付预期出炉，引发新能源车市场关注。",
+  "text": "今日科技圈聚焦AI与智能硬件演进。OpenAI发布GPT-5.6引领大模型迭代，我国加快具身智能标准制定；理想汽车发力自研芯片与智驾模型；苹果供应链安全与iPhone 18涨价预期亦引发市场高度关注。",
   "highlights": [
-    "f6085f1ff58213d4",
-    "20562b17038d58d5",
-    "f11c06b89e736708",
-    "cfe7b3b7e7ae21f3"
+    "22da7d72981546ed",
+    "27b0d6aa09b1a1d2",
+    "3ea2a1fa37db81dd",
+    "11556bf6a38442f5"
   ]
 };
