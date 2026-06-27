@@ -1,5 +1,206 @@
 const newsData = [
   {
+    "id": "bdcd52ecd6bdc4a4",
+    "title": "新研究：多发性硬化症对生活影响远超身体症状",
+    "summary": "欧洲神经病学学会大会发布的新研究显示，多发性硬化症对患者生活的影响远超身体症状，超半数患者表示其社交和工作受到显著影响。",
+    "body": "根据在欧洲神经病学学会（EAN）2026年大会上发表的一项新研究，多发性硬化症（MS）对患者日常生活的影响远超其身体症状本身。研究数据表明，高达51%的患者表示该疾病严重影响了他们的社交生活，同时有48%的患者认为其工作能力或状态受到了负面影响。这一研究结果凸显了多发性硬化症在心理、社会及职业层面给患者带来的广泛负担。这不仅提示医疗界在制定治疗方案时需更多关注患者的综合生活质量，也为相关康复辅助、心理干预及数字疗法等生命科学领域的创新提供了重要的临床需求导向。",
+    "category": "生物医药",
+    "tags": [
+      "多发性硬化症",
+      "神经病学",
+      "临床研究",
+      "数字医疗"
+    ],
+    "source": "MedicalXpress",
+    "time": "5分钟前",
+    "ts": "2026-06-27T18:10:05-04:00",
+    "url": "https://medicalxpress.com/news/2026-06-multiple-sclerosis-impacts-daily-life.html",
+    "image": "https://scx1.b-cdn.net/csz/news/tmb/2023/multiple-sclerosis-1.jpg",
+    "stocks": []
+  },
+  {
+    "id": "d43cde5c0d8a7a5a",
+    "title": "13秒眼部测试可预测严重脑损伤患者意识恢复",
+    "summary": "欧洲神经病学学会大会发布新研究，一项简单的13秒床边眼部测试有望帮助医生预测严重脑损伤患者的意识恢复情况。",
+    "body": "根据在欧洲神经病学学会（EAN）2026年大会上发表的最新研究，一种简单的床边眼部测试可能成为预测严重脑损伤患者意识恢复的重要工具。该测试仅需13秒，为临床医生提供了一种快速、无创的评估手段。\n\n这一发现对神经重症监护具有重要临床意义。通过快速评估患者的眼部反应，医生能够更准确地判断脑损伤患者的预后情况，从而为制定个性化的治疗方案提供科学依据，有望提升严重脑损伤患者的救治效率。",
+    "category": "生物医药",
+    "tags": [
+      "脑损伤",
+      "神经病学",
+      "数字医疗"
+    ],
+    "source": "MedicalXpress",
+    "time": "5分钟前",
+    "ts": "2026-06-27T18:10:03-04:00",
+    "url": "https://medicalxpress.com/news/2026-06-eye-recovery-consciousness-severe-brain.html",
+    "image": "https://scx1.b-cdn.net/csz/news/tmb/2019/eye.jpg",
+    "stocks": []
+  },
+  {
+    "id": "1928e22b5dbd5559",
+    "title": "研究发现女性帕金森患者更易出现阿尔茨海默病脑部病变",
+    "summary": "最新研究表明，患有帕金森病的女性比男性更容易出现与阿尔茨海默病相关的大脑病理变化，揭示了两种常见神经退行性疾病共病时的性别差异。",
+    "body": "在2026年欧洲神经病学学会大会上发表的一项最新研究指出，患有帕金森病的女性可能比男性更容易受到与阿尔茨海默病相关的大脑变化的影响。\n\n帕金森病和阿尔茨海默病在老年人群中经常同时发生，但此前关于帕金森病患者中阿尔茨海默病相关病理学的性别差异研究仍不充分。\n\n该研究为理解这两种常见神经退行性疾病的共病机制提供了新视角，强调了未来在临床诊疗和药物研发中考虑性别差异的重要性。",
+    "category": "生物医药",
+    "tags": [
+      "帕金森病",
+      "阿尔茨海默病",
+      "神经科学",
+      "性别差异"
+    ],
+    "source": "MedicalXpress",
+    "time": "5分钟前",
+    "ts": "2026-06-27T18:10:01-04:00",
+    "url": "https://medicalxpress.com/news/2026-06-women-parkinson-disease-alzheimer-brain.html",
+    "image": "https://scx1.b-cdn.net/csz/news/tmb/2024/parkinsons.jpg",
+    "stocks": []
+  },
+  {
+    "id": "22dc1f6370374c70",
+    "title": "美连续两晚打击伊朗，此前商船遭无人机袭击",
+    "summary": "在霍尔木兹海峡一艘商船据称遭伊朗无人机袭击后，美国对伊朗发动了连续第二晚的军事打击。",
+    "body": "美国军方对伊朗目标实施了连续第二个夜晚的军事打击。此次行动的直接导火索是周六发生在霍尔木兹海峡的一起袭击事件，当时一艘商船据称遭到伊朗无人机的攻击。\n\n这一系列军事冲突凸显了无人机在现代地缘冲突和海上航运安全中的关键作用。霍尔木兹海峡作为全球重要的能源和贸易通道，其安全局势的紧张不仅影响全球供应链，也进一步推动了各国对反无人机系统及国防科技装备的需求与重视。",
+    "category": "地缘科技",
+    "tags": [
+      "地缘冲突",
+      "无人机",
+      "国防科技",
+      "航运安全"
+    ],
+    "source": "Al Jazeera",
+    "time": "8分钟前",
+    "ts": "2026-06-27T22:07:03+00:00",
+    "url": "https://www.aljazeera.com/news/2026/6/27/us-launches-second-night-of-strikes-against-iran-after-ship-struck-by-drone?traffic_source=rss",
+    "image": "",
+    "stocks": [
+      {
+        "name": "洛克希德·马丁",
+        "ticker": "LMT",
+        "reason": "美国核心国防承包商，地缘冲突加剧与军事打击行动直接提振其防务装备需求。",
+        "confidence": "medium"
+      },
+      {
+        "name": "诺斯罗普·格鲁曼",
+        "ticker": "NOC",
+        "reason": "全球领先的防务与航空航天企业，在无人机及反无人机系统领域具备核心技术优势。",
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
+    "id": "294985a0e94eb76d",
+    "title": "GLP-1药物在小鼠实验中减重并逆转抑郁行为",
+    "summary": "最新研究表明，GLP-1类药物在小鼠模型中不仅能有效减轻体重，还能显著逆转抑郁样行为，展现出治疗代谢与精神共病的潜力。",
+    "body": "近日，一项关于GLP-1类药物的最新研究引发了广泛关注。研究发现，该类药物在小鼠实验中不仅成功诱导了体重减轻，还出人意料地逆转了小鼠的抑郁样行为。\n\n这一发现为GLP-1药物的临床应用拓展了新的想象空间。目前该类药物主要用于治疗糖尿病和肥胖症，但其在精神健康领域的潜在疗效，可能为同时患有代谢疾病和抑郁症的患者提供新策略。\n\n尽管该研究仍处于动物实验阶段，但其揭示的机制为未来开发兼具减重与抗抑郁双重功效的新型药物奠定了重要基础。",
+    "category": "生物医药",
+    "tags": [
+      "GLP-1",
+      "减肥药",
+      "抑郁症",
+      "创新药"
+    ],
+    "source": "Hacker News",
+    "time": "41分钟前",
+    "ts": "2026-06-27T21:34:06+00:00",
+    "url": "https://www.psychologytoday.com/au/blog/mood-by-microbe/202606/what-ozempic-does-to-the-gut-brain-axis",
+    "image": "",
+    "stocks": [
+      {
+        "name": "诺和诺德",
+        "ticker": "NVO",
+        "reason": "全球GLP-1药物龙头，研发管线丰富，有望受益于GLP-1适应症向精神神经领域的拓展。",
+        "confidence": "medium"
+      },
+      {
+        "name": "礼来",
+        "ticker": "LLY",
+        "reason": "GLP-1受体激动剂领先企业，在代谢及神经系统疾病领域布局深厚，长期受益于赛道扩容。",
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
+    "id": "f0f2544baa8dd439",
+    "title": "Instagram测试更多自定义推荐算法功能",
+    "summary": "Instagram正在测试更多自定义推荐算法的功能，用户未来将能更灵活地调整和优化其内容推荐流。",
+    "body": "社交媒体平台Instagram目前正在测试新的功能，旨在为用户提供更多自定义“你的算法”的选项。这一举措允许用户更精细地控制他们在平台上看到的内容。\n\n随着用户对内容推荐透明度和控制权的关注度不断提升，Instagram此举有助于增强用户体验。通过赋予用户更多调整推荐算法的权限，平台能够更好地满足个性化需求，从而提升用户粘性和满意度。",
+    "category": "人工智能",
+    "tags": [
+      "Instagram",
+      "推荐算法",
+      "社交媒体"
+    ],
+    "source": "TechCrunch",
+    "time": "47分钟前",
+    "ts": "2026-06-27T21:27:37+00:00",
+    "url": "https://techcrunch.com/2026/06/27/instagram-is-testing-more-ways-for-users-to-customize-your-algorithm/",
+    "image": "",
+    "stocks": [
+      {
+        "name": "Meta",
+        "ticker": "META",
+        "reason": "Instagram母公司，优化推荐算法有助于提升用户粘性和平台广告变现效率",
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
+    "id": "e55e00bd4a6aa28a",
+    "title": "Teenage Engineering为KO II采样器推送重大更新",
+    "summary": "Teenage Engineering为其EP-133 KO II采样器发布OS 2.5系统更新，新增USB音频传输、Lo-Fi模式及琶音器等多项实用功能。",
+    "body": "Teenage Engineering近日为其售价329美元的EP-133 KO II采样器推送了迄今为止最大规模的OS 2.5系统更新。此次更新不仅新增了USB音频传输功能，还加入了可选采样率的Lo-Fi模式、采样反转、琶音器以及等长自动切片等丰富功能。\n\n此外，新系统还将采样的最大录制长度从原有的20秒进行了延长。这些新特性的加入大幅提升了该便携采样器的可玩性与专业创作能力，进一步巩固了其在个人音乐制作硬件市场的竞争力。",
+    "category": "消费电子",
+    "tags": [
+      "Teenage Engineering",
+      "采样器",
+      "消费电子",
+      "音乐硬件"
+    ],
+    "source": "The Verge",
+    "time": "54分钟前",
+    "ts": "2026-06-27T17:20:32-04:00",
+    "url": "https://www.theverge.com/entertainment/958723/teenage-engineering-os-25-ep-133-ko-ii-sampler",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "75c669d80c72738e",
+    "title": "软银CEO等多方质疑马斯克轨道数据中心愿景",
+    "summary": "并非所有人都看好埃隆·马斯克提出的轨道数据中心构想，软银CEO等业内人士对其可行性与炒作提出质疑。",
+    "body": "埃隆·马斯克提出了在太空轨道建设数据中心的构想，但这一愿景并未获得业界的普遍认同。包括软银CEO在内的多方人士对轨道数据中心的炒作提出质疑，表明并非所有人都看好该计划的实际前景。\n\n轨道数据中心概念旨在将算力基础设施向太空延伸，但其技术可行性与商业逻辑仍面临业内审视。相关质疑反映出，太空数据中心项目在当前阶段仍被视为概念炒作，距离真正的产业落地与广泛认可尚有距离。",
+    "category": "商业航天",
+    "tags": [
+      "轨道数据中心",
+      "商业航天",
+      "马斯克",
+      "软银"
+    ],
+    "source": "TechCrunch",
+    "time": "1小时前",
+    "ts": "2026-06-27T20:42:36+00:00",
+    "url": "https://techcrunch.com/2026/06/27/softbanks-ceo-isnt-the-only-one-with-questions-about-elon-musks-orbital-data-center-hype/",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "faa965705097a1f3",
+    "title": "Adrafinil工具发布：让Mac在AI Agent工作时合盖不休眠",
+    "summary": "开发者推出一款名为Adrafinil的Mac工具，可在AI代理运行时防止合盖休眠，任务结束后自动恢复，解决移动办公痛点。",
+    "body": "针对工程师在移动办公时运行AI代理合盖导致Mac休眠的问题，开发者推出了一款名为Adrafinil的工具。该工具通过系统底层命令阻止休眠，并创新性地集成了Claude Code和Codex等AI代理的活动检测机制。\n\n当AI代理执行任务时，Adrafinil会保持电脑唤醒状态；任务完成或设备过热时，则自动恢复休眠机制。这不仅解决了AI代理运行中断的问题，还避免了传统防休眠软件导致的电量耗尽，提升了开发者在移动场景下使用AI工具的体验。",
+    "category": "人工智能",
+    "tags": [
+      "AI Agent",
+      "开发者工具",
+      "Mac应用"
+    ],
+    "source": "Hacker News",
+    "time": "1小时前",
+    "ts": "2026-06-27T20:34:53+00:00",
+    "url": "https://github.com/kageroumado/adrafinil",
+    "image": "",
+    "stocks": []
+  },
+  {
     "id": "e49b479862b09cd6",
     "title": "IP Crawl项目曝光公网开放摄像头实时地图",
     "summary": "开发者发布名为IP Crawl的项目，展示公共互联网上未授权开放的网络摄像头实时地图，引发物联网安全担忧。",
@@ -65346,11 +65547,11 @@ const newsData = [
   }
 ];
 const newsDigest = {
-  "text": "今日科技前沿聚焦AI算力、智能驾驶与半导体替代。苹果游说采购长鑫存储，利好存储芯片产业链；英国加码超算及数据中心耗水争议，凸显液冷与算力基建价值；华为ADS5首发及理想超充落地，催化智驾与充电桩板块。",
+  "text": "今日科技与地缘局势交织。美连击伊朗推升军工与能源避险情绪；苹果拟采购长鑫存储，利好国产半导体产业链；特斯拉FSD事故达成和解，提振自动驾驶信心；GLP-1药物新进展持续催化创新药行情。",
   "highlights": [
-    "31520541a6e443bc",
-    "fe5ca38c883b38f0",
-    "85f23023f8f67c4d",
-    "25e8ac939bb3ebb9"
+    "22dc1f6370374c70",
+    "7804104d527ffb82",
+    "6cd0fecb3faed655",
+    "294985a0e94eb76d"
   ]
 };
