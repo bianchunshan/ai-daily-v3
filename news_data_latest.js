@@ -1,5 +1,131 @@
 const newsData = [
   {
+    "id": "6cd0fecb3faed655",
+    "title": "特斯拉就FSD致命行人碰撞事故达成诉讼和解",
+    "summary": "特斯拉已就2023年发生在亚利桑那州的一起涉及完全自动驾驶系统的致命行人碰撞事故达成诉讼和解。",
+    "body": "特斯拉近日就一起涉及其完全自动驾驶（FSD）系统的致命交通事故达成诉讼和解。该诉讼源于2023年在美国亚利桑那州发生的一起导致行人死亡的碰撞事件。\n\n此次和解标志着特斯拉在处理自动驾驶相关安全争议方面迈出重要一步。随着自动驾驶技术的普及，相关事故的法律与责任界定一直是行业关注的焦点，此案的解决也将为未来类似事件提供参考。",
+    "category": "机器人",
+    "tags": [
+      "特斯拉",
+      "自动驾驶",
+      "FSD",
+      "诉讼和解"
+    ],
+    "source": "Engadget",
+    "time": "15分钟前",
+    "ts": "2026-06-27T18:01:37+00:00",
+    "url": "https://www.engadget.com/2203211/tesla-settles-lawsuit-over-fatal-pedestrian-crash-involving-full-self-driving/",
+    "image": "https://www.engadget.com/img/gallery/tesla-settles-lawsuit-involving-full-self-driving-and-a-pedestrians-death/l-intro-1782582524.jpg",
+    "stocks": [
+      {
+        "name": "特斯拉",
+        "ticker": "TSLA",
+        "reason": "达成诉讼和解消除了部分法律不确定性与潜在财务风险，有利于FSD业务的持续推进。",
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
+    "id": "a32726ac4de7b572",
+    "title": "澳大利亚拟对大型科技公司罚款翻倍，严管未成年人社媒禁令",
+    "summary": "澳大利亚政府表示，由于科技平台未能有效阻止16岁以下儿童绕过社交媒体禁令，将把对相关大型科技公司的罚款金额提高一倍。",
+    "body": "澳大利亚政府近日宣布，将把对大型科技公司的罚款金额提高一倍。此举主要针对科技平台在执行16岁以下未成年人社交媒体禁令方面存在的不力现象。\n\n堪培拉方面指出，尽管相关禁令已经出台，但仍有大量儿童能够轻易绕过平台的年龄验证机制，继续使用社交媒体服务。这表明科技公司在合规与技术拦截方面仍存在明显漏洞。\n\n这一监管举措不仅将增加大型科技公司的合规成本，也凸显了全球范围内对未成年人网络安全和隐私保护的日益重视。未来，社交平台可能需要投入更多资源来升级身份验证与年龄识别技术。",
+    "category": "地缘科技",
+    "tags": [
+      "科技监管",
+      "社交媒体",
+      "未成年人保护",
+      "澳大利亚"
+    ],
+    "source": "Al Jazeera",
+    "time": "47分钟前",
+    "ts": "2026-06-27T17:29:34+00:00",
+    "url": "https://www.aljazeera.com/news/2026/6/27/australia-to-double-fines-on-big-tech-as-children-bypass-social-media-ban?traffic_source=rss",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "7804104d527ffb82",
+    "title": "苹果寻求豁免，拟向被美列入黑名单的长鑫存储采购内存",
+    "summary": "据英国《金融时报》报道，由于内存和存储芯片价格飙升，苹果公司正寻求特朗普政府的豁免，以便从被五角大楼列入黑名单的中国供应商长鑫存储采购内存芯片，以缓解供应链压力。",
+    "body": "据《金融时报》报道，面对内存和存储芯片价格的飙升，苹果公司正积极寻求缓解供应链压力的途径。为此，苹果已向特朗普政府申请豁免，希望获准从长鑫存储（CXMT）采购RAM芯片。\n\n长鑫存储是中国主要的内存芯片制造商，但此前已被美国五角大楼列入黑名单。这一举动凸显了在全球半导体供应链紧张及美国科技制裁背景下，跨国科技巨头在保障关键零部件供应与遵守地缘政治合规之间面临的艰难平衡。",
+    "category": "地缘科技",
+    "tags": [
+      "苹果",
+      "长鑫存储",
+      "出口管制",
+      "内存芯片"
+    ],
+    "source": "The Verge",
+    "time": "48分钟前",
+    "ts": "2026-06-27T13:28:18-04:00",
+    "url": "https://www.theverge.com/tech/958707/apple-ram-buy-memory-blacklisted-china-cxmt",
+    "image": "",
+    "stocks": [
+      {
+        "name": "苹果",
+        "ticker": "AAPL",
+        "reason": "寻求豁免以保障内存芯片供应，有望缓解存储价格飙升带来的供应链成本压力。",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "99b4977217fbcd35",
+    "title": "SpaceX计划在得州建天然气管道为星舰供燃料",
+    "summary": "据报道，SpaceX计划在德克萨斯州建设一条长约8英里的天然气管道，旨在为其星舰项目所在的星港基地提供稳定的燃料支持。",
+    "body": "据报道，SpaceX正计划在美国德克萨斯州建设一条专属的天然气管道。这条全长约8英里的管道将直接连接天然气供应源与SpaceX位于当地的星港基地。\n\n该基础设施的建设主要是为了满足星舰超重型运载火箭的燃料需求。通过自建管道，SpaceX能够确保星舰测试和发射任务获得稳定、充足的天然气供应，从而进一步提升其商业航天发射的效率与自主保障能力。",
+    "category": "商业航天",
+    "tags": [
+      "SpaceX",
+      "星舰",
+      "商业航天"
+    ],
+    "source": "Engadget",
+    "time": "1小时前",
+    "ts": "2026-06-27T16:50:16+00:00",
+    "url": "https://www.engadget.com/2203191/spacex-is-reportedly-planning-to-build-its-own-natural-gas-pipeline-in-texas/",
+    "image": "https://www.engadget.com/img/gallery/spacex-is-reportedly-planning-to-build-its-own-natural-gas-pipeline-in-texas/l-intro-1782578820.jpg",
+    "stocks": []
+  },
+  {
+    "id": "eed654ab164f6919",
+    "title": "苹果Vision Pro副总裁跳槽OpenAI",
+    "summary": "据报道，负责苹果Vision Pro头显业务的副总裁保罗·米德即将离职，并加入OpenAI的硬件团队。",
+    "body": "据外媒报道，苹果公司负责Vision Pro头显业务的副总裁保罗·米德即将离开公司。\n\n米德离职后将加入OpenAI的硬件团队。这一人事变动显示出OpenAI正积极扩充硬件研发实力，同时也意味着苹果在核心XR项目上面临高管流失。",
+    "category": "消费电子",
+    "tags": [
+      "苹果",
+      "OpenAI",
+      "Vision Pro",
+      "高管变动"
+    ],
+    "source": "TechCrunch",
+    "time": "1小时前",
+    "ts": "2026-06-27T16:45:09+00:00",
+    "url": "https://techcrunch.com/2026/06/27/apple-vision-pro-exec-is-reportedly-leaving-for-openai/",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "cf6c28dccebce5e8",
+    "title": "Ayaneo发布新款横版掌机Pocket Micro 2",
+    "summary": "Ayaneo推出新款横版游戏掌机Pocket Micro 2，作为经典机型Game Boy Micro的复刻版，新机配备了更大容量电池、改进的操控设计以及3.5毫米耳机接口。",
+    "body": "近日，知名掌机品牌Ayaneo正式发布了新款横版游戏掌机Pocket Micro 2。该设备被视为对经典机型Game Boy Micro的出色复刻，在保留复古设计的同时进行了现代化升级。\n\n在硬件与体验方面，Pocket Micro 2配备了容量更大的电池以提升续航，并对操控按键进行了优化改进。此外，新机还保留了实用的3.5毫米耳机接口，进一步满足了玩家的多元化需求。",
+    "category": "消费电子",
+    "tags": [
+      "游戏掌机",
+      "Ayaneo",
+      "消费电子"
+    ],
+    "source": "Engadget",
+    "time": "1小时前",
+    "ts": "2026-06-27T16:21:32+00:00",
+    "url": "https://www.engadget.com/2203185/ayaneo-new-horizontal-handheld-is-an-even-better-remake-of-the-game-boy-micro/",
+    "image": "https://www.engadget.com/img/gallery/ayaneos-new-horizontal-handheld-is-an-even-better-remake-of-the-game-boy-micro/l-intro-1782577061.jpg",
+    "stocks": []
+  },
+  {
     "id": "8c503f5f6bafda82",
     "title": "大规模MRI分析揭示抑郁症相关大脑区域变薄",
     "summary": "一项大规模磁共振成像分析发现，重度抑郁症患者的大脑特定区域存在皮层变薄现象，为揭示该疾病的神经机制提供了新线索。",
@@ -65147,11 +65273,6 @@ const newsData = [
   }
 ];
 const newsDigest = {
-  "text": "今日科技圈聚焦AI基建、消费电子与半导体博弈。英国建超算与理想超充落地利好算力及新能源产业链；苹果游说长鑫存储许可及英特尔推52核新CPU，直接利好半导体设备、先进封装及国产存储标的。",
-  "highlights": [
-    "fe5ca38c883b38f0",
-    "31520541a6e443bc",
-    "fb701946a64089fb",
-    "25e8ac939bb3ebb9"
-  ]
+  "text": "",
+  "highlights": []
 };
