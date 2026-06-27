@@ -1,5 +1,81 @@
 const newsData = [
   {
+    "id": "c0c0ec1687bc0091",
+    "title": "索尼因版权到期将下架PS平台数百部已购数字影片",
+    "summary": "索尼通知PlayStation用户，因版权协议到期，数百部Studio Canal出品的已购数字电影将于9月1日从资料库下架，引发玩家对数字资产所有权的讨论。",
+    "body": "索尼近日致函PlayStation平台用户，告知受内容版权授权协议限制，自9月1日起，数百部由Studio Canal出品的数字电影将从用户的影视资料库中移除，无法继续观看。受影响影片包括《终结者2》《全面回忆》等551部付费高清作品，索尼在通知中并未就此向玩家致歉。\n\n此事在玩家群体中引发强烈不满，但也再次凸显了数字内容消费的本质。用户在各大平台购买数字产品时，实际上仅是获得了受用户协议约束的使用授权，平台有权在版权到期后收回相关数字内容。",
+    "category": "消费电子",
+    "tags": [
+      "索尼",
+      "PlayStation",
+      "数字版权",
+      "数字资产"
+    ],
+    "source": "IT之家",
+    "time": "7分钟前",
+    "ts": "2026-06-27T23:09:46+00:00",
+    "url": "https://www.ithome.com/0/969/526.htm",
+    "image": "https://img.ithome.com/newsuploadfiles/2026/6/da2d49e8-0f0f-4d78-b5e0-ad1486cd8b7a.png?x-bce-process=image/format,f_auto",
+    "stocks": []
+  },
+  {
+    "id": "0f630e2e1a82ff6b",
+    "title": "业内人士：若应对内存短缺得当 Steam Machine本可定价599美元",
+    "summary": "业内人士指出，若Valve提前应对内存短缺并妥善囤积零部件，Steam Machine的定价本可低至599美元，而非目前高昂的1049美元起。",
+    "body": "硬件博主批评Valve应对内存短缺不力。他指出，若Valve在芯片紧缺恶化前与美光等存储巨头签订长期协议或提前囤货，本可将Steam Machine定价降至599美元，并在首发时储备约5000台整机，从而通过小规模测试避免大量差评。\n\n该博主认为，Valve未采取有效备货策略，导致产品因高价和性能不匹配遭遇口碑危机。他建议Valve聘请专业人员改进硬件发售流程，并担忧若不吸取此次供应链管理的教训，未来的Steam Deck二代和Frame VR头显或将重蹈覆辙。",
+    "category": "消费电子",
+    "tags": [
+      "Steam Machine",
+      "内存短缺",
+      "Valve",
+      "硬件供应链"
+    ],
+    "source": "IT之家",
+    "time": "22分钟前",
+    "ts": "2026-06-27T22:54:05+00:00",
+    "url": "https://www.ithome.com/0/969/523.htm",
+    "image": "https://img.ithome.com/newsuploadfiles/2026/6/42478deb-0f29-4409-b1fd-7edf956fc8ff.jpg",
+    "stocks": []
+  },
+  {
+    "id": "07f59bb643704273",
+    "title": "华硕RTX 5060 Dual显卡新增两款Advanced型号",
+    "summary": "华硕旗下GeForce RTX 5060 Dual显卡新增两款Advanced型号，OC超频版Boost频率最高可达2587MHz。",
+    "body": "据外媒报道，华硕近日为其GeForce RTX 5060 Dual显卡系列新增了两款Advanced型号，分别为标准版DUAL-RTX5060-8G-A与超频版DUAL-RTX5060-O8G-A。此举进一步丰富了华硕RTX 5060 Dual系列的产品阵容。\n\n在规格方面，OC超频版的Boost频率最高可达2587MHz，相较于普通OC版的2565MHz有小幅提升。两款新卡延续了Dual系列的经典设计，配备双Axial-tech风扇、2.5槽厚度以及0dB风扇停转技术，目前官方尚未公布具体的上市时间与建议零售价。",
+    "category": "消费电子",
+    "tags": [
+      "华硕",
+      "RTX 5060",
+      "显卡",
+      "电脑硬件"
+    ],
+    "source": "IT之家",
+    "time": "34分钟前",
+    "ts": "2026-06-27T22:42:56+00:00",
+    "url": "https://www.ithome.com/0/969/522.htm",
+    "image": "https://img.ithome.com/newsuploadfiles/2026/6/62a846fe-2f24-4670-97dd-8efe556d2184.jpg?x-bce-process=image/format,f_auto",
+    "stocks": []
+  },
+  {
+    "id": "9a4eec9f0582b835",
+    "title": "研究称行为疗法治疗抽动秽语综合征与药物同等有效",
+    "summary": "荷兰拉德堡德大学研究表明，行为疗法在治疗抽动秽语综合征方面与药物治疗同样有效，为患者提供了非药物干预的新选择。",
+    "body": "临床心理学家Jolande van de Griendt的博士研究发现，行为疗法在治疗抽动秽语综合征时，其疗效与药物治疗相当。该研究揭示了非药物干预在神经精神疾病治疗中的巨大潜力。\n\n目前，药物治疗通常仍是干预抽动障碍的首选方案。然而，这项研究结果表明，行为疗法能够为患者提供有效的替代选择。对于许多患者而言，能够在不服用药物的情况下有效缓解症状，不仅带来了极大的心理宽慰，也有助于避免药物可能产生的副作用。",
+    "category": "生物医药",
+    "tags": [
+      "行为疗法",
+      "抽动秽语综合征",
+      "临床医学",
+      "非药物干预"
+    ],
+    "source": "MedicalXpress",
+    "time": "46分钟前",
+    "ts": "2026-06-27T18:30:01-04:00",
+    "url": "https://medicalxpress.com/news/2026-06-behavioral-therapy-effective-medication-tourette.html",
+    "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/behavioral-therapy.jpg",
+    "stocks": []
+  },
+  {
     "id": "bdcd52ecd6bdc4a4",
     "title": "新研究：多发性硬化症对生活影响远超身体症状",
     "summary": "欧洲神经病学学会大会发布的新研究显示，多发性硬化症对患者生活的影响远超身体症状，超半数患者表示其社交和工作受到显著影响。",
@@ -143,6 +219,25 @@ const newsData = [
         "confidence": "medium"
       }
     ]
+  },
+  {
+    "id": "0c3308477417af55",
+    "title": "使用LXC容器技术增强X11应用安全性",
+    "summary": "本文探讨了如何利用Linux容器技术来提升X11窗口系统应用程序的安全隔离与防护能力，为系统安全提供新思路。",
+    "body": "在Linux系统中，X11窗口系统长期以来面临着应用程序间隔离不足的安全隐患，容易受到恶意软件的攻击。为了解决这一问题，技术社区提出利用Linux容器（LXC）技术来增强X11应用程序的安全性。\n\n通过将X11应用程序运行在独立的LXC容器中，可以实现更严格的进程隔离、文件系统限制和网络控制。这种容器化方案能够有效防止存在漏洞的图形应用程序对主机系统造成破坏，从而显著提升系统的整体安全防护水平。",
+    "category": "网络安全",
+    "tags": [
+      "LXC",
+      "X11",
+      "容器安全",
+      "系统安全"
+    ],
+    "source": "Hacker News",
+    "time": "1小时前",
+    "ts": "2026-06-27T21:27:36+00:00",
+    "url": "https://dobrowolski.dev/article/enhancing-x11-application-security-with-lxc/",
+    "image": "",
+    "stocks": []
   },
   {
     "id": "e55e00bd4a6aa28a",
@@ -65547,11 +65642,11 @@ const newsData = [
   }
 ];
 const newsDigest = {
-  "text": "今日科技与地缘局势交织。美连击伊朗推升军工与能源避险情绪；苹果拟采购长鑫存储，利好国产半导体产业链；特斯拉FSD事故达成和解，提振自动驾驶信心；GLP-1药物新进展持续催化创新药行情。",
+  "text": "今日科技聚焦生物医药、供应链与AI。苹果拟采购长鑫存储，利好国产存储芯片；GLP-1药物展现抗抑郁新效，提振创新药板块；特斯拉FSD事故和解缓解自动驾驶监管担忧；中东局势与澳洲新规加剧地缘博弈。",
   "highlights": [
-    "22dc1f6370374c70",
     "7804104d527ffb82",
+    "294985a0e94eb76d",
     "6cd0fecb3faed655",
-    "294985a0e94eb76d"
+    "75c669d80c72738e"
   ]
 };
