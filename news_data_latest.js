@@ -1,5 +1,626 @@
 const newsData = [
   {
+    "id": "31520541a6e443bc",
+    "title": "苹果游说美国政府寻求采购长鑫存储芯片许可",
+    "summary": "受存储成本上涨影响，苹果据称正游说美国政府，寻求豁免以采购被列入涉军清单的中国长鑫存储的内存芯片。",
+    "body": "据外媒报道，随着全球存储芯片供应紧张及成本飙升，苹果公司近期上调了多款产品价格。为缓解成本压力，苹果正积极游说美国政府，试图获得官方许可，以便从中国的长鑫存储采购价格更具优势的内存芯片。\n\n长鑫存储目前并未被列入美国国防部的“实体清单”，而是被列入“1260H涉军企业清单”。尽管与之交易不会面临全面禁令，但仍可能给美国企业带来合规与声誉风险。\n\n与美光、三星和SK海力士等全力押注AI存储市场的巨头不同，长鑫存储并未盲目追逐AI产能扩张，因此能够以更低廉的价格提供性能可靠的DRAM产品，这正是苹果寻求合作的主要原因。",
+    "category": "地缘科技",
+    "tags": [
+      "苹果",
+      "长鑫存储",
+      "存储芯片",
+      "出口管制"
+    ],
+    "source": "Tom's Hardware",
+    "time": "3分钟前",
+    "ts": "2026-06-27T14:51:29+00:00",
+    "url": "https://www.tomshardware.com/tech-industry/apple-reportedly-lobbies-uncle-sam-for-access-to-chinese-memory-chips-tech-giant-allegedly-wants-to-buy-from-blacklisted-cxmt",
+    "image": "https://cdn.mos.cms.futurecdn.net/Zo2LfoYeC8NenQ7Kr9hmzJ-1280-80.jpg",
+    "stocks": [
+      {
+        "name": "苹果",
+        "ticker": "AAPL",
+        "reason": "若能成功采购长鑫存储芯片，将有效降低内存采购成本，缓解供应链压力并改善硬件产品利润率。",
+        "confidence": "medium"
+      },
+      {
+        "name": "兆易创新",
+        "ticker": "603986.SH",
+        "reason": "作为长鑫存储的重要合作伙伴与DRAM代销商，长鑫若获国际大客户订单将间接利好其相关代销与业务合作。",
+        "confidence": "low"
+      }
+    ]
+  },
+  {
+    "id": "85f23023f8f67c4d",
+    "title": "启境GT7上市24小时大定破5200台，首发华为ADS 5",
+    "summary": "启境GT7正式上市，售价20.99万至32.99万元，上市24小时大定突破5200台。新车首批搭载华为乾崑智驾ADS 5及新一代麒麟电池，支持6C超充。",
+    "body": "启境汽车宣布旗下中大型智能猎装轿跑GT7上市24小时大定突破5200台，官方指导价20.99万元起。新车提供单电机后驱与三电机四驱动力布局，基于800V高压平台打造，三电机四驱版零百加速仅需2.98秒。\n在智能化与三电系统方面，启境GT7首批搭载华为乾崑智驾ADS 5，配备896线双光路图像级激光雷达等36个高性能传感器。同时，新车搭载由宁德时代、华为与启境联合定制的新一代麒麟电池，最高续航达900km，并支持6C超充技术。\n该车型的强劲预订表现，显示出市场对高阶智能驾驶与高压快充技术的高度认可，也将进一步推动智能网联汽车及自动驾驶产业链的商业化落地。",
+    "category": "机器人",
+    "tags": [
+      "智能汽车",
+      "自动驾驶",
+      "华为智驾",
+      "新能源汽车"
+    ],
+    "source": "IT之家",
+    "time": "12分钟前",
+    "ts": "2026-06-27T14:42:49+00:00",
+    "url": "https://www.ithome.com/0/969/515.htm",
+    "image": "https://img.ithome.com/newsuploadfiles/2026/6/c2c7db79-803d-4b2d-b87a-7a8029226292.jpg?x-bce-process=image/format,f_auto",
+    "stocks": [
+      {
+        "name": "宁德时代",
+        "ticker": "300750.SZ",
+        "reason": "为新车联合定制并提供新一代麒麟电池，直接受益于车型热销。",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "72781e998ae79035",
+    "title": "塔塔汽车发布2031战略：电动车目标年销40万辆",
+    "summary": "印度塔塔汽车公布2031财年发展规划，计划将乘用车产品线扩至25款，电动汽车年销量目标达40万辆，并大幅提升产能与市场份额。",
+    "body": "印度塔塔汽车近日发布面向2031财年的详细发展规划，计划将乘用车产品线从目前的15款大幅扩展至25款，其中包括新增6款燃油车和4款全新电动汽车。在电动化方面，公司目标到2031财年实现电动汽车年销量35万至40万辆，占比超30%，并通过电池本地化和下一代电池技术维持盈利能力。\n\n为支撑产品扩张，塔塔汽车计划在未来两三年内将年产能从约90万辆提升至130万辆，目标实现乘用车年销量超120万辆，营业收入翻倍至超6万亿卢比。此外，公司还计划将销售网络扩张至约3200家，力争在印度乘用车市场占据20%的份额。",
+    "category": "未来能源",
+    "tags": [
+      "塔塔汽车",
+      "电动汽车",
+      "产能扩张",
+      "电池技术"
+    ],
+    "source": "IT之家",
+    "time": "17分钟前",
+    "ts": "2026-06-27T14:37:31+00:00",
+    "url": "https://www.ithome.com/0/969/514.htm",
+    "image": "https://img.ithome.com/newsuploadfiles/2026/6/46b11b89-964c-4981-828c-e2e63bdf820d.png?x-bce-process=image/format,f_auto",
+    "stocks": [
+      {
+        "name": "塔塔汽车",
+        "ticker": "TTM",
+        "reason": "公司主体，直接受益于其自身的战略扩张与电动车销量增长计划",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "828639ab8e0a693f",
+    "title": "Valve新硬件预购遭黄牛爆炒，转售价近3000美元",
+    "summary": "Valve新款Steam Machine预购名额在eBay遭黄牛高价倒卖，2TB版本溢价超140%，最高炒至近3000美元。",
+    "body": "尽管Valve采取了随机预购系统以防止机器人和黄牛抢购，其新款Steam Machine的预购名额仍在eBay上遭到高价倒卖。512GB版本的转售价格溢价30%至167%，而2TB版本的黄牛价格更是高达2399至2899美元，比官方1049美元的零售价高出93%至140%。\n\n这种现象反映了该设备极高的市场需求与有限的初始供应量之间的矛盾，类似于此前PS5和英伟达显卡发售时的炒作热潮，也凸显了热门消费电子硬件在首发阶段的供应链与渠道挑战。",
+    "category": "消费电子",
+    "tags": [
+      "Valve",
+      "Steam Machine",
+      "黄牛炒卖",
+      "游戏硬件"
+    ],
+    "source": "Tom's Hardware",
+    "time": "30分钟前",
+    "ts": "2026-06-27T14:24:10+00:00",
+    "url": "https://www.tomshardware.com/video-games/console-gaming/steam-machine-scalping-hits-usd3-000-on-ebay-as-sellers-list-preorder-reservations-scalpers-already-flipping-queues-for-2x-the-msrp-of-the-2tb-model",
+    "image": "https://cdn.mos.cms.futurecdn.net/GPmbsvCD53DGjzY9PCS6Xc-1280-80.jpg",
+    "stocks": []
+  },
+  {
+    "id": "fb701946a64089fb",
+    "title": "英特尔52核新CPU功耗或达474W，高端主板需三8针供电",
+    "summary": "泄露信息显示，英特尔下一代52核Nova Lake桌面旗舰处理器短时睿频功耗或高达474W，配套LGA1954高端主板可能需配备三个8针电源接口。",
+    "body": "据最新泄露信息，英特尔即将推出的Nova Lake系列桌面旗舰处理器将采用双计算模块架构，拥有52个核心。其短时睿频功耗限制（PL2）预计高达474W，此前甚至有传闻称其紧急功耗限制（PL4）可能超过700W，这些极高的功耗限制可能仅适用于顶级的双模块架构型号。\n\n此外，新平台将采用LGA1954插槽，并需要新一代主板。主板厂商预计将根据35W至175W不等的持续功耗对主板进行分类。为了支持极限超频和满足巨大的供电需求，发烧级主板传闻将打破传统，配备三个EPS 8针CPU电源接口。",
+    "category": "半导体与先进制造",
+    "tags": [
+      "英特尔",
+      "Nova Lake",
+      "CPU",
+      "主板"
+    ],
+    "source": "Tom's Hardware",
+    "time": "49分钟前",
+    "ts": "2026-06-27T14:05:30+00:00",
+    "url": "https://www.tomshardware.com/pc-components/cpus/intels-next-gen-52-core-nova-lake-cpu-could-pull-up-to-474w-high-end-lga1954-motherboards-may-need-three-8-pin-power-connectors-to-feed-the-monster",
+    "image": "https://cdn.mos.cms.futurecdn.net/wUsSLzuor4dtkrjsTZUnB3-1280-80.jpg",
+    "stocks": [
+      {
+        "name": "英特尔",
+        "ticker": "INTC",
+        "reason": "作为Nova Lake处理器的研发与制造商，直接受益于新一代高性能桌面芯片的推出。",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "3ee1dfa20812a903",
+    "title": "医疗AI模型可提前24小时预测患者低血糖风险",
+    "summary": "西达赛奈医学中心研究人员开发出一款基于长短期记忆网络的AI模型，能够提前24小时预测住院患者的低血糖风险，助力临床早期干预。",
+    "body": "西达赛奈健康科学大学的研究团队开发了一种基于人工智能的预测模型，能够在低血糖症状发生前长达24小时识别出存在风险的住院患者。该研究采用了长短期记忆（LSTM）神经网络架构，相关成果已发表于《npj数字医学》期刊。\n\n这一AI工具的临床应用具有重要意义。它能够帮助医生更早地采取干预措施，从而有效预防因严重低血糖引发的并发症，如癫痫发作、昏迷以及长期心律失常等，进一步提升住院患者的医疗安全与护理质量。",
+    "category": "人工智能",
+    "tags": [
+      "医疗AI",
+      "数字医疗",
+      "LSTM模型"
+    ],
+    "source": "MedicalXpress",
+    "time": "55分钟前",
+    "ts": "2026-06-27T10:00:03-04:00",
+    "url": "https://medicalxpress.com/news/2026-06-hospital-ai-tool-blood-sugar.html",
+    "image": "https://scx1.b-cdn.net/csz/news/tmb/2023/hospital-bed-2.jpg",
+    "stocks": []
+  },
+  {
+    "id": "535f13dca408f238",
+    "title": "创始人患癌后利用Claude大模型分析数据抗癌",
+    "summary": "一位创始人确诊癌症后，将血液检测、扫描数据及可穿戴设备记录等健康数据输入Claude大模型，利用人工智能辅助抗癌。",
+    "body": "Connor Christou在确诊癌症后，选择利用人工智能技术来辅助应对疾病。他将自己日常健康管理产生的大量数据，包括血液检测结果、医学扫描数据、可穿戴设备输出以及个人日记等，全部输入到Claude大语言模型中进行分析。\n\n这一案例展示了大型语言模型在个人健康管理和数字医疗领域的潜在应用价值。通过将多维度的个人生理数据与AI结合，患者能够获得更个性化的健康洞察，为AI在医疗辅助场景中的落地提供了新思路。",
+    "category": "人工智能",
+    "tags": [
+      "人工智能",
+      "数字医疗",
+      "大模型应用"
+    ],
+    "source": "TechCrunch",
+    "time": "54分钟前",
+    "ts": "2026-06-27T14:00:00+00:00",
+    "url": "https://techcrunch.com/2026/06/27/the-fittest-founder-in-the-room-got-cancer-heres-how-he-used-ai-to-fight-back/",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "38546da1deb87f69",
+    "title": "微星AI掌机与Meta智能眼镜等新品评测汇总发布",
+    "summary": "科技媒体Engadget发布近期产品评测汇总，重点涵盖微星Claw 8 EX AI+掌机、索尼相机及Ray-Ban Meta智能眼镜等消费电子新品。",
+    "body": "科技媒体Engadget近日发布了最新一期的产品评测汇总，梳理了近期备受关注的多款消费电子新品。本次评测涵盖了微星Claw 8 EX AI+掌上游戏机、索尼A7R VI相机以及Ray-Ban Meta智能眼镜等热门设备。\n\n这些评测内容展示了各款产品在设计与性能上的最新进展，客观反映了当前个人硬件、AI终端以及可穿戴设备市场的创新趋势与发展动态。",
+    "category": "消费电子",
+    "tags": [
+      "微星掌机",
+      "Meta智能眼镜",
+      "消费电子"
+    ],
+    "source": "Engadget",
+    "time": "54分钟前",
+    "ts": "2026-06-27T14:00:00+00:00",
+    "url": "https://www.engadget.com/2202417/engadget-review-recap-msi-claw-8-ex-ai/",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "202c0d5b3ce451f0",
+    "title": "澳大利亚拟加强16岁以下社媒禁令，超八成未成年人规避监管",
+    "summary": "调查显示澳大利亚超85%的16岁以下用户通过虚假账号等方式规避社交媒体禁令，澳政府拟提出新法案加强监管与年龄验证。",
+    "body": "澳大利亚联邦政府提出新法案，拟进一步加强针对16岁以下用户的社交媒体禁令。此前调查显示，尽管该国实施了全球首例未成年人社媒禁令，但仍有约85%的16岁以下人群通过成年人账号、虚假账号或隐私浏览器等方式逃避监管。\n\n研究指出，法案实施初期存在执行有限和合规不完整的问题，年龄验证环节多依赖自行填写或照片估算，极易被规避。\n\n该法案的推进将促使社交媒体平台升级身份认证与年龄验证技术，对互联网合规及数字身份验证行业提出更高的技术要求。",
+    "category": "地缘科技",
+    "tags": [
+      "社交媒体监管",
+      "科技政策",
+      "年龄验证",
+      "未成年人保护"
+    ],
+    "source": "IT之家",
+    "time": "1小时前",
+    "ts": "2026-06-27T13:49:41+00:00",
+    "url": "https://www.ithome.com/0/969/511.htm",
+    "image": "https://img.ithome.com/newsuploadfiles/2026/6/0d232a90-4b99-42ad-ab29-8905a8dcb331.png?x-bce-process=image/resize,w_1200,h_900/watermark,text_QUnnlJ_miJA,type_RlpMYW5UaW5nSGVpU0JHQg==,size_28,color_ffffffdd,skw_1,skc_00000051,g_7,blr_50,bls_50,x_11,y_11/format,f_auto/auto-orient,o_1",
+    "stocks": []
+  },
+  {
+    "id": "cb5bf2358daaf49d",
+    "title": "华硕灵耀14双屏2026换芯酷睿Ultra X9 378H，售22499元",
+    "summary": "华硕灵耀14双屏2026笔记本将处理器更换为英特尔酷睿Ultra X9 378H，保留原有内存与硬盘配置，京东首发价22499元。",
+    "body": "华硕灵耀14双屏2026笔记本近日更新了硬件配置，将首发时的英特尔酷睿Ultra X9 388H处理器替换为378H版本，同时保留了32GB内存和2TB固态硬盘配置。新款机型京东首发价为22499元，将于7月1日正式开售。\n该机采用陶瓷铝材质机身，配备双14英寸2.8K 144Hz OLED触控屏，内置99Wh大容量电池并支持Wi-Fi 7。据悉，新款搭载的酷睿Ultra X9 378H处理器在参数规格上与Ultra X7 368H基本一致，此次换芯调整可能与英特尔部分高端芯片供应紧张有关。",
+    "category": "消费电子",
+    "tags": [
+      "华硕",
+      "笔记本电脑",
+      "英特尔",
+      "OLED"
+    ],
+    "source": "IT之家",
+    "time": "1小时前",
+    "ts": "2026-06-27T13:45:29+00:00",
+    "url": "https://www.ithome.com/0/969/510.htm",
+    "image": "https://img14.360buyimg.com/pop/jfs/t1/463749/24/7159/151455/6a3e1cdeF9b8c1458/00833203209a11dc.jpg",
+    "stocks": [
+      {
+        "name": "英特尔",
+        "ticker": "INTC",
+        "reason": "作为该笔记本的核心处理器供应商，其酷睿Ultra系列芯片的终端出货直接关联公司业绩。",
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
+    "id": "defc183c8ea1c61d",
+    "title": "vivo X Fold6发布售7999元起，预计销量增超30%",
+    "summary": "vivo正式发布X Fold6折叠屏手机，起售价7999元。官方对产品竞争力充满信心，预计新品销量将较上一代提升30%以上。",
+    "body": "vivo X Fold6折叠屏手机正式发布，售价7999元至11299元。该产品搭载天玑9500超能版处理器与7000mAh大电池，配备三星内屏与京东方外屏，并搭载全新OriginOS 6 Fold系统以优化多任务体验。\n\nvivo产品副总裁黄韬表示，新品各方面提升显著且定价极具诚意，预计销量较上一代至少提升30%。此次发布展现了vivo在折叠屏市场的持续发力，有望进一步刺激高端智能手机的换机需求。",
+    "category": "消费电子",
+    "tags": [
+      "vivo",
+      "折叠屏手机",
+      "消费电子"
+    ],
+    "source": "IT之家",
+    "time": "1小时前",
+    "ts": "2026-06-27T13:40:37+00:00",
+    "url": "https://www.ithome.com/0/969/509.htm",
+    "image": "https://img.ithome.com/newsuploadfiles/2026/6/250cd9fa-ae75-4c98-89db-3984ed8b1a61.jpg",
+    "stocks": [
+      {
+        "name": "京东方A",
+        "ticker": "000725.SZ",
+        "reason": "为vivo X Fold6提供外屏，直接受益于该款折叠屏手机销量增长预期。",
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
+    "id": "a7de8a04c3d4c27f",
+    "title": "杜比数字、DTS与全景声区别解析及家庭影院选购指南",
+    "summary": "本文详细对比了杜比数字、DTS与杜比全景声等主流环绕声格式的技术差异，并为消费者打造家庭影院提供选购建议。",
+    "body": "在家庭影院系统中，环绕声格式的选择对音质体验至关重要。目前市场上主流的音频标准包括杜比数字、DTS以及杜比全景声。杜比数字和DTS是传统的基于声道的环绕声技术，广泛应用于各类影音媒介中，能够提供稳定的多声道体验。\n\n相比之下，杜比全景声引入了基于对象的音频技术，增加了高度声道，能够营造出更具沉浸感的三维立体声场。对于消费者而言，选择哪种格式取决于现有的硬件设备、片源支持情况以及对沉浸感的需求。了解这些技术的差异，有助于用户在搭建或升级家庭影院时做出更明智的决策。",
+    "category": "消费电子",
+    "tags": [
+      "杜比全景声",
+      "家庭影院",
+      "环绕声",
+      "音频技术"
+    ],
+    "source": "Engadget",
+    "time": "1小时前",
+    "ts": "2026-06-27T13:30:00+00:00",
+    "url": "https://www.engadget.com/2201794/difference-between-dolby-digital-dts-atmos-which-sounds-better/",
+    "image": "https://www.engadget.com/img/gallery/the-differences-between-dolby-digital-dts-and-atmos-and-which-is-better/l-intro-1782410223.jpg",
+    "stocks": [
+      {
+        "name": "杜比实验室",
+        "ticker": "DLB",
+        "reason": "作为杜比数字和杜比全景声技术的拥有者，家庭影院音频技术的普及和升级直接利好其专利授权和业务收入。",
+        "confidence": "high"
+      },
+      {
+        "name": "Xperi",
+        "ticker": "XPER",
+        "reason": "Xperi旗下拥有DTS音频技术，家庭影院环绕声格式的讨论和应用有助于其技术授权业务。",
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
+    "id": "1fe452475879cf7f",
+    "title": "联想警告：高价存储芯片将成至2030年新常态",
+    "summary": "联想警告存储芯片高价将成为至2030年的长期新常态，受AI热潮驱动，供需缺口难以迅速填补，价格难回此前低位。",
+    "body": "联想在ISC大会上指出，DRAM和NAND存储芯片价格自2025年下半年大幅上涨后，高价将成为贯穿至2030年及以后的新常态，很难再回落到2025年初的水平。\n\n尽管SK海力士、美光和三星等主要厂商正考虑加快扩产或提前晶圆厂建设路线图，但受AI热潮带来的庞大需求驱动，产能增加仍难以迅速填补巨大的供需缺口。\n\n多家存储巨头坦言当前供应短缺局面已超出控制，即使未来产量大幅提升，也无法确定供应能否追上需求，下游市场将面临长期的存储芯片高价环境。",
+    "category": "半导体与先进制造",
+    "tags": [
+      "存储芯片",
+      "DRAM",
+      "NAND",
+      "AI需求"
+    ],
+    "source": "IT之家",
+    "time": "1小时前",
+    "ts": "2026-06-27T13:20:03+00:00",
+    "url": "https://www.ithome.com/0/969/500.htm",
+    "image": "",
+    "stocks": [
+      {
+        "name": "美光科技",
+        "ticker": "MU",
+        "reason": "全球存储芯片巨头，DRAM和NAND产品持续涨价将直接提升其营收与盈利能力",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "4ae55ce678e84469",
+    "title": "央视曝光数码测评乱象：特供机与固件作弊",
+    "summary": "央视曝光数码产品网络测评存在特供样机、固件作弊和云端调控等造假手段，揭露了手机厂商与博主间的作弊内幕，损害了行业公信力。",
+    "body": "央视新闻近日曝光了数码产品网络测评领域的乱象。网络安全专家揭露，手机厂商与测评博主之间存在长期的作弊“潜规则”。该作弊体系分为三层：厂商提供硬件优化的特供媒体机；固件内置识别程序，检测到博主身份即自动开启高性能模式；通过云端远程控制实时下发作弊配置。\n\n当系统识别到测评启动时，设备会自动拉高CPU性能、调高屏幕亮度并优化后台加载逻辑，营造流畅假象。这种特供样机、固件作弊与云端调控叠加的手段隐蔽性极强，普通消费者难以分辨真假。这不仅严重损害了数码测评的公信力，也给监管和技术取证带来了巨大挑战。",
+    "category": "消费电子",
+    "tags": [
+      "数码测评",
+      "消费电子",
+      "行业乱象"
+    ],
+    "source": "IT之家",
+    "time": "1小时前",
+    "ts": "2026-06-27T13:13:48+00:00",
+    "url": "https://www.ithome.com/0/969/499.htm",
+    "image": "https://img.ithome.com/newsuploadfiles/2026/6/d47e3fed-006f-406d-847e-ddf6062a782c.jpg?x-bce-process=image/format,f_auto",
+    "stocks": []
+  },
+  {
+    "id": "d0922290e8b2994d",
+    "title": "智能家居行业持续押注Matter协议以破解互联难题",
+    "summary": "四年前由苹果、谷歌和亚马逊等巨头联合推出的智能家居互操作性标准Matter，目前仍是行业解决设备协同难题的核心押注。",
+    "body": "四年前，智能家居行业在阿姆斯特丹正式推出了Matter协议，旨在打造统一全行业的互操作性标准。该协议基于开放标准和现有技术，被视为解决智能家居设备碎片化和协同难题的最终方案。\n\nMatter协议是苹果、谷歌、亚马逊等传统科技巨头多年合作的结晶。尽管面临市场推广等挑战，智能家居行业至今仍坚定押注这一标准，期望通过打破生态壁垒来实现真正的万物互联。",
+    "category": "消费电子",
+    "tags": [
+      "智能家居",
+      "Matter协议",
+      "物联网"
+    ],
+    "source": "The Verge",
+    "time": "1小时前",
+    "ts": "2026-06-27T09:11:02-04:00",
+    "url": "https://www.theverge.com/tech/958008/matter-unify-conference-csa-apple-google-amazon-samsung-smart-home-interoperability",
+    "image": "",
+    "stocks": [
+      {
+        "name": "苹果",
+        "ticker": "AAPL",
+        "reason": "作为Matter协议的核心发起者，其HomeKit生态将直接受益于设备互操作性的提升。",
+        "confidence": "medium"
+      },
+      {
+        "name": "亚马逊",
+        "ticker": "AMZN",
+        "reason": "亚马逊Alexa生态全面支持Matter协议，有助于扩大其智能家居平台的市场份额。",
+        "confidence": "medium"
+      },
+      {
+        "name": "Alphabet",
+        "ticker": "GOOGL",
+        "reason": "谷歌Google Home生态深度集成Matter标准，巩固其在智能家居领域的平台优势。",
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
+    "id": "67f7fa5d1b27004a",
+    "title": "苹果多款硬件产品宣布涨价，库克称成本压力不可避免",
+    "summary": "苹果公司近期上调了MacBook Pro、iPad Air及HomePod Mini等多款产品的售价。CEO蒂姆·库克表示涨价不可避免，并将原因归咎于科技巨头对AI的狂热推高了供应链成本。",
+    "body": "苹果公司近期对其旗下多款消费电子产品进行了价格上调。其中，16英寸MacBook Pro价格上涨了300美元，11英寸iPad Air的起售价从599美元大幅上调至749美元，HomePod Mini也涨价30美元至129美元。\n\n苹果公司CEO蒂姆·库克表示，产品涨价是“不可避免”的，并指出当前的定价策略已“不可持续”。他将涨价原因归咎于科技巨头对人工智能的狂热投入，这种AI热潮推高了上游核心零部件的供应链成本，迫使硬件厂商提高终端售价以维持利润。",
+    "category": "消费电子",
+    "tags": [
+      "苹果",
+      "产品涨价",
+      "消费电子",
+      "供应链成本"
+    ],
+    "source": "The Verge",
+    "time": "1小时前",
+    "ts": "2026-06-27T09:07:36-04:00",
+    "url": "https://www.theverge.com/report/958678/apple-consumer-price-increase-ai-big-tech",
+    "image": "",
+    "stocks": [
+      {
+        "name": "苹果",
+        "ticker": "AAPL",
+        "reason": "终端产品涨价有望在短期内提升硬件业务的毛利率，对冲供应链成本上涨压力。",
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
+    "id": "4308b5331ca698b7",
+    "title": "NASA测试在轨低温耦合器，助力深空任务自动补能",
+    "summary": "NASA正测试由L3Harris开发的低温耦合器，旨在实现航天器在轨自动加注极低温推进剂，为未来深空探测任务提供关键补能技术。",
+    "body": "未来的深空探测任务往往需要在轨道上进行推进剂补给。为此，NASA近期启动测试由美国科技公司L3Harris开发的低温耦合器。该装置类似于“在轨加油枪”，能够在不发生泄漏的情况下，全自动输送液氢、液氧等极低温推进剂。\n\n由于太空环境恶劣且推进剂需维持极低温，该耦合器采用了耐剧烈温差的材料与可靠的密封结构，并具备完全自动化操作能力，无需宇航员出舱。目前团队已使用液氮进行温差及对接误差模拟测试。\n\n两艘航天器间的在轨低温推进剂补给是航天工程的重大挑战。该低温耦合器目前仍处于早期开发阶段，后续将针对具体深空任务的技术要求展开进一步评估与测试。",
+    "category": "商业航天",
+    "tags": [
+      "在轨加注",
+      "深空探测",
+      "NASA",
+      "低温耦合器"
+    ],
+    "source": "IT之家",
+    "time": "1小时前",
+    "ts": "2026-06-27T13:05:36+00:00",
+    "url": "https://www.ithome.com/0/969/485.htm",
+    "image": "https://img.ithome.com/newsuploadfiles/2026/6/8c064650-28d5-4340-baee-e271c1e7032d.png?x-bce-process=image/format,f_auto",
+    "stocks": [
+      {
+        "name": "L3Harris",
+        "ticker": "LHX",
+        "reason": "作为低温耦合器的开发商，直接受益于NASA在轨加注技术的研发与测试项目。",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "f5ac9e5203ff5316",
+    "title": "拓竹发布A2L 3D打印机：A1机型的放大升级版",
+    "summary": "拓竹科技推出全新A2L 3D打印机，在A1基础上扩大了打印体积并优化了减震设计，四色套装售价569美元，主打家庭创客市场。",
+    "body": "拓竹科技（Bambu Lab）近日发布了其热门机型A1的升级版——A2L 3D打印机。该机型大幅增加了打印体积，四色组合售价仅为569美元，具备媲美高端H2系列的空间表现。其开放式框架设计主要针对PLA、PETG和TPU等主流耗材，配合AMS Lite多色系统，非常适合家庭用户制作实用物品与玩具。\n\n为应对大体积高速打印带来的振动问题，拓竹在A2L框架中加入了颗粒状减震材料，使其在维持高速性能的同时确保打印质量。官方还同步推出了低VOC、无毒的全新PLA Pure耗材。不过评测指出，该机型对放置平台的稳定性要求较高，普通轻型桌面可能无法承受其高速运转时的共振。",
+    "category": "消费电子",
+    "tags": [
+      "3D打印",
+      "拓竹科技",
+      "消费电子",
+      "智能硬件"
+    ],
+    "source": "Tom's Hardware",
+    "time": "1小时前",
+    "ts": "2026-06-27T13:05:02+00:00",
+    "url": "https://www.tomshardware.com/3d-printing/bambu-lab-a2l-3d-printer-review",
+    "image": "https://cdn.mos.cms.futurecdn.net/oz4NbrVdV9oRFXJ7FnaCQN-1280-80.jpg",
+    "stocks": []
+  },
+  {
+    "id": "6d390916201b63fb",
+    "title": "智能机器人发展迅速，行业亟需建立同步测试与安全验证体系",
+    "summary": "随着人形机器人等智能机器人技术的快速发展，现有的测试方法和安全验证流程已难以匹配其自主性演进，行业亟需建立与自主能力同步扩展的测试理念与标准框架。",
+    "body": "目前，消费者已能购买具备物理力量和实时自主决策能力的人形机器人，但这些产品尚缺乏完善的安全认证与标准化测试协议。尽管机器人在感知、运动控制和推理等智能方面进展迅速，但其测试方法论和安全验证流程并未跟上从简单遥操作向全自主强化学习演进的步伐。\n\nFigure AI的测试自动化工程师指出，为了帮助行业负责任地扩展，必须弥补这一差距。相关研究提出了基于底层控制架构对机器人智能进行分类的框架，并探讨了AI驱动系统软件安全风险分析的演进方向。这表明机器人行业迫切需要一种能与自主性同步扩展的测试理念，以确保技术的安全与规模化应用。",
+    "category": "机器人",
+    "tags": [
+      "人形机器人",
+      "安全测试",
+      "具身智能",
+      "Figure AI"
+    ],
+    "source": "The Robot Report",
+    "time": "1小时前",
+    "ts": "2026-06-27T13:00:47+00:00",
+    "url": "https://www.therobotreport.com/we-know-how-to-build-smarter-robots-now-we-need-to-learn-smarter-ways-to-test-them/",
+    "image": "https://www.therobotreport.com/wp-content/uploads/2026/06/Article_cover-featured.jpg",
+    "stocks": []
+  },
+  {
+    "id": "7e6c0a5774a441c0",
+    "title": "蓝色起源新格伦火箭爆炸后重建，计划年内再次发射",
+    "summary": "蓝色起源新格伦火箭上月在燃料测试中发生爆炸，目前发射台残骸已清理完毕并启动重建，公司计划于年内再次执行发射任务。",
+    "body": "蓝色起源公司的新格伦火箭上月在卡纳维拉尔角LC-36发射台进行燃料测试时发生剧烈爆炸，对周边设施造成严重破坏，爆炸火光在160公里外清晰可见。\n\n事故发生后，蓝色起源团队迅速展开清理与修复工作。据公司CEO戴夫·林普透露，火箭及设施残骸在9天内已全部清理完毕，目前发射台已正式进入重建阶段。\n\n尽管遭遇重大挫折，林普仍对后续计划充满信心。他在社交媒体上分享了发射台修复的延时视频，并重申公司仍计划在年底前让新格伦火箭重返发射台执行发射任务。",
+    "category": "商业航天",
+    "tags": [
+      "蓝色起源",
+      "新格伦火箭",
+      "商业航天",
+      "火箭发射"
+    ],
+    "source": "Space.com",
+    "time": "1小时前",
+    "ts": "2026-06-27T13:00:00+00:00",
+    "url": "https://www.space.com/space-exploration/launches-spacecraft/blue-origin-working-around-the-clock-to-repair-damaged-launch-pad-after-new-glenn-rocket-explosion-video",
+    "image": "https://cdn.mos.cms.futurecdn.net/itiMwwgmsaDPCyyGM5wjod-1280-80.jpg",
+    "stocks": []
+  },
+  {
+    "id": "6fa679c7726c8dd0",
+    "title": "特斯拉就首例FSD行人致命事故和解，NHTSA调查持续",
+    "summary": "特斯拉就首例涉及FSD系统的行人致命事故达成和解，避免案件进入公开庭审。同时，美国NHTSA对FSD在低能见度下安全性的调查仍在深入。",
+    "body": "特斯拉已就2023年11月发生的一起涉及FSD功能的Model Y致命事故与受害者家属达成和解，这也是已知首例与FSD相关的行人死亡案例。由于特斯拉面临高达145亿美元的Autopilot和FSD相关诉讼，此举有助于避免严重案件进入公开庭审。\n\n尽管民事诉讼告一段落，美国国家公路交通安全管理局（NHTSA）的联邦调查仍在继续。NHTSA发现FSD在低能见度条件下存在缺陷，未能有效检测道路状况或向驾驶员发出警告，已将调查升级为工程分析，覆盖约320万辆配备FSD的车辆，这是寻求强制召回前的必要步骤。此外，NHTSA还针对FSD导致车辆违规行驶的问题展开了另一项独立调查。",
+    "category": "机器人",
+    "tags": [
+      "特斯拉",
+      "自动驾驶",
+      "FSD",
+      "NHTSA"
+    ],
+    "source": "IT之家",
+    "time": "1小时前",
+    "ts": "2026-06-27T12:57:13+00:00",
+    "url": "https://www.ithome.com/0/969/484.htm",
+    "image": "https://img.ithome.com/newsuploadfiles/2026/6/99e5d7a3-8040-46f9-927a-e501ead3dd8c.png?x-bce-process=image/format,f_auto",
+    "stocks": [
+      {
+        "name": "特斯拉",
+        "ticker": "TSLA",
+        "reason": "作为涉事企业，和解避免了诉讼公开审理风险，但NHTSA调查升级及潜在召回可能对其自动驾驶业务推进产生影响",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "071145bd620694e3",
+    "title": "NASA测试L3Harris研发的深空在轨加注设备",
+    "summary": "美国宇航局正在测试由L3Harris公司研发的低温耦合器，该设备旨在为深空探测任务提供在轨燃料加注服务。",
+    "body": "美国宇航局（NASA）近期开展了一项针对深空探测任务的关键技术测试，重点验证由L3Harris公司研发的“低温耦合器”在轨加注设备。\n\n该设备旨在实现航天器在太空环境中的燃料补给。在轨加注技术的成熟将大幅延长航天器的使用寿命和任务半径，对未来深空探测及空间基础设施建设具有重要意义。",
+    "category": "商业航天",
+    "tags": [
+      "在轨加注",
+      "深空探测",
+      "航天技术",
+      "L3Harris"
+    ],
+    "source": "Engadget",
+    "time": "2小时前",
+    "ts": "2026-06-27T12:49:55+00:00",
+    "url": "https://www.engadget.com/2203145/nasa-tests-in-orbit-refueling-device-deep-space-missions/",
+    "image": "https://www.engadget.com/img/gallery/nasa-tests-an-in-orbit-refueling-device-for-deep-space-missions/l-intro-1782564424.jpg",
+    "stocks": [
+      {
+        "name": "L3Harris",
+        "ticker": "LHX",
+        "reason": "作为该在轨加注设备的研发方，直接受益于NASA的深空探测项目与技术验证。",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "14ae147156424c56",
+    "title": "奔驰电动重卡冬季实测展现媲美特斯拉的高能效",
+    "summary": "奔驰公布80辆电动半挂卡车在德国冬季的实际运营数据，以打破关于续航和经济性的质疑，展现出媲美特斯拉的高能效。",
+    "body": "尽管西方道路上重型电动汽车的数量迅速增加，但外界对其续航里程、充电基础设施和经济可行性仍存在诸多误解。为打破这些刻板印象，梅赛德斯-奔驰分享了其已部署的80辆电动半挂卡车的真实运营数据。\n\n数据显示，这些电动重卡在德国冬季牵引36吨货物时，展现出了媲美特斯拉的极高能源效率。这一实际测试结果不仅有力回应了市场对电动商用车性能的质疑，也为重型运输行业的电动化转型提供了坚实的数据支撑，进一步证明了电动重卡在严苛环境下的商业可行性与技术成熟度。",
+    "category": "未来能源",
+    "tags": [
+      "电动重卡",
+      "梅赛德斯-奔驰",
+      "特斯拉",
+      "商用车电动化"
+    ],
+    "source": "Electrek",
+    "time": "2小时前",
+    "ts": "2026-06-27T12:48:45+00:00",
+    "url": "https://electrek.co/2026/06/27/mercedes-posts-tesla-like-efficiency-hauling-36-tons-through-a-german-winter/",
+    "image": "https://electrek.co/wp-content/uploads/sites/3/2026/06/mercedes-semi.jpeg?quality=82&#038;strip=all&#038;w=1600",
+    "stocks": []
+  },
+  {
+    "id": "a1d645308e83adf2",
+    "title": "NASA露西号探测“花生”小行星发现水线索",
+    "summary": "NASA“露西号”探测器近距离飞越小行星唐纳德约翰森，发现其独特的双瓣结构及表面粘土矿物，为太阳系早期水分布提供新线索。",
+    "body": "NASA“露西号”探测器在奔赴木星特洛伊小行星群途中，成功飞越主带小行星唐纳德约翰森，获取了高分辨率影像与光谱数据。观测揭示该小行星呈“花生”状双瓣结构，并具有罕见的复杂翻滚运动模式，其形成可能源于约1.55亿年前的母体破碎事件。\n\n此外，光谱仪在小行星表面探测到富含铁的层状硅酸盐，表明其曾经历过短暂而有限的液态水作用。这一发现与贝努和龙宫小行星的长期水蚀变特征形成对比，暗示太阳系早期不同区域母体的演化差异，为研究太阳系起源提供了重要依据。",
+    "category": "商业航天",
+    "tags": [
+      "深空探测",
+      "NASA",
+      "小行星",
+      "露西号"
+    ],
+    "source": "IT之家",
+    "time": "2小时前",
+    "ts": "2026-06-27T12:45:27+00:00",
+    "url": "https://www.ithome.com/0/969/482.htm",
+    "image": "https://img.ithome.com/newsuploadfiles/2026/6/a23f3291-2e87-44d8-95fe-16d871bed51d.png?x-bce-process=image/format,f_auto",
+    "stocks": []
+  },
+  {
+    "id": "88ed44dab49e237e",
+    "title": "紧凑型协作机器人集成提升移动机器人应用",
+    "summary": "协作机器人在仓储领域的应用快速增长，将其与自主移动机器人集成可扩大作业范围并提升自动化精度，有效缓解劳动力短缺问题。",
+    "body": "近年来，仓储领域的拣选、码垛等任务自动化程度不断提高，协作机器人的使用量预计在2018年至2025年间增长十倍。Kassow Robots指出，紧凑型七轴协作机器人能够处理更重的物体并精准完成高要求任务。\n\n将这些协作机器人集成到自主移动机器人上，不仅能扩大机械臂的运动范围，使其能够触及难以接近的区域，还能将高精度作业能力扩展至整个设施。这种移动操作平台简化了工作流程，减少了对固定工作站的需求，从而有效降低人工干预，应对劳动力短缺挑战。",
+    "category": "机器人",
+    "tags": [
+      "协作机器人",
+      "自主移动机器人",
+      "仓储自动化"
+    ],
+    "source": "The Robot Report",
+    "time": "2小时前",
+    "ts": "2026-06-27T12:35:55+00:00",
+    "url": "https://www.therobotreport.com/how-compact-cobot-integration-enhances-autonomous-mobile-robot-applications/",
+    "image": "https://www.therobotreport.com/wp-content/uploads/2026/06/KASSOW_featured.jpg",
+    "stocks": []
+  },
+  {
+    "id": "d76a804a190dca7c",
+    "title": "BrowserBC开源：克隆人类点击让Agent复用网页技能",
+    "summary": "Einsia AI旗下Navers Lab发布开源项目BrowserBC，将人类浏览器操作轨迹蒸馏为自然语言技能，使AI Agent能复用经验高效执行网页任务。",
+    "body": "当前的Web Agent在处理新网站任务时，常面临从零摸索导致的死循环、意图偏离及经验无法复用等问题。为此，Einsia AI旗下Navers Lab推出了开源项目BrowserBC，提出“录制、转写、执行”三步范式。\n\nBrowserBC通过记录人类的完整网页操作过程，将其转写为包含意图、关键步骤和完成判据的自然语言技能卡，而非简单的坐标回放。这使得更小、更便宜的模型也能读取技能卡并在变化的页面上举一反三，稳定完成同类任务。\n\n该项目实现了技能获取与执行的分离，让Agent无需等待网站提供官方接口即可复用人类操作经验。这不仅提升了Agent在常见网站上的表现，也解决了长尾老旧网站的自动化访问难题，推动通用网页浏览的发展。",
+    "category": "人工智能",
+    "tags": [
+      "AI Agent",
+      "行为克隆",
+      "网页自动化",
+      "开源项目"
+    ],
+    "source": "量子位",
+    "time": "2小时前",
+    "ts": "2026-06-27T12:29:33+00:00",
+    "url": "https://www.qbitai.com/2026/06/439393.html",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "66f1e431edd7a5c3",
+    "title": "AI时代一人公司爆火，Agent重塑组织形态",
+    "summary": "AI时代一人公司概念兴起，创业者利用AI Agent构建虚拟团队，探索从单人管理多Agent到多Agent协作的新型组织形态。",
+    "body": "在AI浪潮下，一人公司成为热门概念。创业者通过引入AI Agent作为虚拟员工，实现一个人运营一家公司。例如，独立开发者利用MotiClaw搭建AI员工团队，前微软员工则通过管理Agent来调度底层执行Agent，大幅提升开发与运营效率。\n\n随着Agent数量增加，人类管理瓶颈显现，多Agent协作平台应运而生。如BeeVibe平台允许用户组建不同职能的Agent团队，Agent间可自主沟通协作，仅在必要时请求人类介入。\n\n这种以Agent团队为主体的AI原生组织形态，正打破传统公司架构。它不仅解决了个人生产力提升难以转化为组织效率的痛点，也为未来企业的自动化与智能化运转提供了全新范式。",
+    "category": "人工智能",
+    "tags": [
+      "一人公司",
+      "AI Agent",
+      "AI应用",
+      "组织变革"
+    ],
+    "source": "量子位",
+    "time": "2小时前",
+    "ts": "2026-06-27T12:23:29+00:00",
+    "url": "https://www.qbitai.com/2026/06/439237.html",
+    "image": "",
+    "stocks": []
+  },
+  {
     "id": "04265a1a1ce9c0db",
     "title": "华为途灵平台完成三轮升级，覆盖鸿蒙智行五界",
     "summary": "华为途灵平台依托AI与通信技术完成三轮迭代升级，其全维感知系统融合多维数据实现底盘主动调整，现已全面覆盖鸿蒙智行五界车型。",
@@ -36,6 +657,25 @@ const newsData = [
         "confidence": "medium"
       }
     ]
+  },
+  {
+    "id": "eea22b6191a8b196",
+    "title": "杭州团队发布全球首个端侧流式多模态模型VLX",
+    "summary": "杭州团队Om AI推出全球首个端侧流式多模态模型系列VLX，实现感知、定位与行动决策闭环，赋能机器人与无人机等具身智能设备。",
+    "body": "杭州团队Om AI正式发布全球首个面向物理世界的端侧流式多模态模型系列VLX。该系列包含VLX-Flow、VLX-Seek和VLX-Go三款模型，分别负责实时流式感知、精准定位和行动决策，构建了从感知到执行的完整能力闭环。\n\nVLX系列原生支持端侧设计，可部署于手机、无人机和机器人等设备。其技术亮点包括采用流式处理降低计算成本，利用区域Token实现细粒度定位，以及通过轻量级短时航点预测完成实时运动规划，为具身智能提供了新一代基础设施。",
+    "category": "人工智能",
+    "tags": [
+      "多模态模型",
+      "具身智能",
+      "端侧AI",
+      "计算机视觉"
+    ],
+    "source": "量子位",
+    "time": "2小时前",
+    "ts": "2026-06-27T12:19:42+00:00",
+    "url": "https://www.qbitai.com/2026/06/439236.html",
+    "image": "",
+    "stocks": []
   },
   {
     "id": "8aef2ad6e868fa73",
@@ -64312,11 +64952,11 @@ const newsData = [
   }
 ];
 const newsDigest = {
-  "text": "今日科技聚焦AI算力基建与智能出行。鹏城云脑Ⅲ刷新纪录，功率半导体掀涨价潮，利好算力及芯片产业链；华为途灵平台升级赋能智行，利好华为汽车概念；我国科学家揭开早期造血起源之谜，生物医药获前沿突破。",
+  "text": "今日科技圈聚焦地缘博弈与硬件成本压力，苹果游说美政府求取长鑫存储许可，联想警告高价存储或成常态；此外，华为ADS 5智驾新车热销及英特尔超高功耗新CPU发布，持续催化智能汽车与半导体硬件板块。",
   "highlights": [
-    "769c65bd0b8f3e86",
-    "8131ea8e12f47726",
-    "04265a1a1ce9c0db",
-    "8aef2ad6e868fa73"
+    "31520541a6e443bc",
+    "85f23023f8f67c4d",
+    "1fe452475879cf7f",
+    "fb701946a64089fb"
   ]
 };
