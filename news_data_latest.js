@@ -1,5 +1,375 @@
 const newsData = [
   {
+    "id": "04265a1a1ce9c0db",
+    "title": "华为途灵平台完成三轮升级，覆盖鸿蒙智行五界",
+    "summary": "华为途灵平台依托AI与通信技术完成三轮迭代升级，其全维感知系统融合多维数据实现底盘主动调整，现已全面覆盖鸿蒙智行五界车型。",
+    "body": "6月26日，鸿蒙智行举办华为途灵平台专场技术沟通会。该平台依托华为在AI和通信领域的技术优势，通过算法与软件沉淀调校经验，不断提升车辆机械性能上限，并根据车型定位快速迭代开放新特性。\n\n在操控层面，途灵平台的全维感知系统深度融合了ADS感知、车辆状态、驾驶意图、云端数据以及车身与座舱域等多维度信息，使车辆底盘具备提前预判与主动调整能力。\n\n自2023年11月以来，华为途灵平台已成功完成三轮重大升级，目前其技术应用已全面覆盖鸿蒙智行旗下的五界车型，进一步提升了华为智能汽车解决方案的竞争力。",
+    "category": "人工智能",
+    "tags": [
+      "华为",
+      "鸿蒙智行",
+      "途灵平台",
+      "智能底盘"
+    ],
+    "source": "36氪",
+    "time": "刚刚",
+    "ts": "2026-06-27T12:19:55.086017+00:00",
+    "url": "https://36kr.com/newsflashes/3871321432527875?f=rss",
+    "image": "",
+    "stocks": [
+      {
+        "name": "赛力斯",
+        "ticker": "601127.SH",
+        "reason": "问界品牌母公司，作为鸿蒙智行核心合作方直接受益于途灵平台技术赋能与产品力提升。",
+        "confidence": "high"
+      },
+      {
+        "name": "江淮汽车",
+        "ticker": "600418.SH",
+        "reason": "尊界品牌合作方，途灵平台升级覆盖其合作车型，有望提升高端车型市场竞争力。",
+        "confidence": "medium"
+      },
+      {
+        "name": "北汽蓝谷",
+        "ticker": "600733.SH",
+        "reason": "享界品牌合作方，受益于华为智能汽车底盘与感知技术的持续迭代升级。",
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
+    "id": "8aef2ad6e868fa73",
+    "title": "我国科学家揭开人类早期造血起源之谜",
+    "summary": "我国科学家在《自然》发表最新研究，揭示了人类早期造血细胞的起源时刻与分化路径，刷新了对生命早期发育的认知。",
+    "body": "中国医学科学院血液病医院、北京理工大学等团队合作在《自然》发表最新研究。团队基于一枚珍贵的早期人类胚胎样本，系统解析了原肠运动启动前夕的细胞发育图景，揭示了人类造血细胞的起源时刻与分化路径。\n\n该研究颠覆了传统认知，发现人类造血发生时间早于原肠运动，且最早血细胞来源于下胚层衍生的胚外中胚层。这一成果不仅填补了人类早期发育规律认知的理论空白，也为血细胞体外再生和早期发育异常研究提供了重要参考。",
+    "category": "生物医药",
+    "tags": [
+      "生命科学",
+      "胚胎发育",
+      "基础研究"
+    ],
+    "source": "IT之家",
+    "time": "5分钟前",
+    "ts": "2026-06-27T12:12:17+00:00",
+    "url": "https://www.ithome.com/0/969/477.htm",
+    "image": "https://img.ithome.com/newsuploadfiles/2026/6/e9596cab-bc21-4834-b9af-23c2c3f73361.jpg?x-bce-process=image/format,f_auto",
+    "stocks": []
+  },
+  {
+    "id": "d6bc15c4c28cec2b",
+    "title": "HPV疫苗在英国挽救生命成效显著，公众信任是关键",
+    "summary": "研究表明，人乳头瘤病毒（HPV）疫苗在英国已成功挽救大量生命，其显著成效凸显了维持公众对疫苗信任的重要性。",
+    "body": "人乳头瘤病毒（HPV）疫苗接种计划在英国取得了令人瞩目的成功，已经切实挽救了许多人的生命。这一显著成效证明了该疫苗在预防相关疾病方面的有效性。\n\n然而，这一公共卫生成就的持续发挥，高度依赖于公众对疫苗的持续信任。维持高水平的接种率对于巩固和扩大HPV疫苗的保护效果、进一步降低相关疾病发病率具有至关重要的意义。",
+    "category": "生物医药",
+    "tags": [
+      "HPV疫苗",
+      "公共卫生",
+      "疫苗信任"
+    ],
+    "source": "MedicalXpress",
+    "time": "17分钟前",
+    "ts": "2026-06-27T08:00:06-04:00",
+    "url": "https://medicalxpress.com/news/2026-06-hpv-vaccine.html",
+    "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/receive-vaccine.jpg",
+    "stocks": []
+  },
+  {
+    "id": "b7836221d94481a6",
+    "title": "西北大学揭示缺氧下肿瘤存活的细胞内机制",
+    "summary": "西北大学医学院科学家首次揭示了细胞在缺氧环境下快速改变基因表达的潜在机制，为理解耐药肿瘤存活提供了新视角。",
+    "body": "近日，发表在《Science Advances》上的一项最新研究表明，西北大学医学院的科学家首次描述了调节细胞在缺氧条件下快速改变基因表达的潜在机制。\n\n缺氧是许多具有治疗抗性的肿瘤的关键特征。该研究深入揭示了肿瘤细胞如何在恶劣的缺氧微环境中，通过特定的细胞内机制促进自身存活。\n\n这一突破性发现不仅加深了科学界对肿瘤耐药性的理解，也为未来开发针对难治性肿瘤的新型靶向疗法提供了重要的理论基础与潜在干预靶点。",
+    "category": "生物医药",
+    "tags": [
+      "肿瘤研究",
+      "基因表达",
+      "缺氧机制"
+    ],
+    "source": "MedicalXpress",
+    "time": "17分钟前",
+    "ts": "2026-06-27T08:00:04-04:00",
+    "url": "https://medicalxpress.com/news/2026-06-intracellular-mechanisms-tumor-survival-hypoxia.html",
+    "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/intracellular-mechanis.jpg",
+    "stocks": []
+  },
+  {
+    "id": "84e0d65e5b7f0862",
+    "title": "亚洲AI初创公司发布类Mythos模型应对出口禁令",
+    "summary": "受出口禁令持续影响，亚洲AI初创公司正推出具备类Mythos能力的新模型，美国AI实验室或面临失去该庞大市场的风险。",
+    "body": "随着出口禁令的持续实施，亚洲人工智能初创公司正在加速推出具备类似Mythos能力的全新AI模型。这些本土研发的新模型不仅提供了强大的性能，还使当地企业免受出口管制政策的限制。\n\n业内分析指出，这一趋势可能会对全球AI市场格局产生深远影响。由于亚洲市场的庞大需求，美国AI实验室若长期受制于出口禁令，可能将永远失去在这一关键区域的巨大市场份额，从而为亚洲本土AI企业带来显著的发展机遇。",
+    "category": "人工智能",
+    "tags": [
+      "人工智能",
+      "出口管制",
+      "AI大模型",
+      "亚洲市场"
+    ],
+    "source": "TechCrunch",
+    "time": "17分钟前",
+    "ts": "2026-06-27T12:00:00+00:00",
+    "url": "https://techcrunch.com/2026/06/27/asian-ai-startups-launch-mythos-like-models-as-anthropics-export-ban-drags-on/",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "23b83028dbb1e55b",
+    "title": "NASA首次使用无人机超视距运送人类肾脏",
+    "summary": "NASA近期成功进行无人机超视距飞行测试以运送人类肾脏，未来有望实现医院间器官的快速安全配送。",
+    "body": "NASA近日在弗吉尼亚州兰利研究中心成功进行了一项飞行测试，首次使用无人机在“超视距”范围内运送人类肾脏。此次测试使用的肾脏不具备移植条件，旨在探索利用先进航空技术更快速、可靠地运输捐献器官。\n\n未来，NASA与器官共享联合网络计划将无人机运送距离扩展至15英里（约24公里），以实现医院间的器官快速调拨。相比大型飞行器，无人机在应对复杂地面物流及密集区域配送时更具机动性和速度优势，能够有效缩短器官运输时间，对提升移植救治效率具有重要意义。",
+    "category": "机器人",
+    "tags": [
+      "无人机",
+      "低空经济",
+      "器官运输",
+      "NASA"
+    ],
+    "source": "Space.com",
+    "time": "17分钟前",
+    "ts": "2026-06-27T12:00:00+00:00",
+    "url": "https://www.space.com/technology/nasa-just-used-a-drone-to-deliver-a-human-kidney-is-this-the-future-of-transplant-transport",
+    "image": "https://cdn.mos.cms.futurecdn.net/AxGFLREmGKtLGhzBwXDm8S-1280-80.jpg",
+    "stocks": []
+  },
+  {
+    "id": "0e95d782507a17ec",
+    "title": "Linux内核新补丁提升大型RAID5性能",
+    "summary": "Linux内核开发者提交新补丁，优化大型RAID5阵列资源争用问题，特定配置下系统整体性能最高提升17%。",
+    "body": "Linux内核开发者Hiroshi Nishida近日提交了一组补丁，旨在提升MD RAID5软件在大型多核多磁盘阵列上的可扩展性与重建性能。该补丁主要解决大规模阵列中因CPU核心与磁盘数量增加导致的资源争用瓶颈，在启用多条带处理线程时效果显著。\n\n测试数据显示，在模拟环境下，新补丁使4K随机写入性能提升17.4%，数据库及OLTP等混合读写负载性能提升超10%。尽管实际物理硬盘部署中的收益可能受设备延迟影响，但该低风险改动仍为高负载存储系统的性能优化提供了重要方向。",
+    "category": "AI 基础设施",
+    "tags": [
+      "Linux内核",
+      "RAID5",
+      "存储优化",
+      "数据中心"
+    ],
+    "source": "IT之家",
+    "time": "26分钟前",
+    "ts": "2026-06-27T11:51:08+00:00",
+    "url": "https://www.ithome.com/0/969/475.htm",
+    "image": "https://img.ithome.com/newsuploadfiles/2026/6/287c6a0a-7431-4a24-bf0c-0fbfafe98ac0.png?x-bce-process=image/format,f_auto",
+    "stocks": []
+  },
+  {
+    "id": "2088f54c1af91577",
+    "title": "联想摩托罗拉海外发布Moto Pad 70 Pro平板",
+    "summary": "联想旗下摩托罗拉在印度市场发布Moto Pad 70 Pro平板，搭载骁龙8s Gen 4芯片与13英寸3.5K屏幕，起售价约合2665元人民币。",
+    "body": "联想旗下品牌摩托罗拉近日在海外市场正式推出Moto Pad 70 Pro平板电脑，并将于7月4日起在印度市场开售。该产品搭载骁龙8s Gen 4处理器，配备13英寸3.5K分辨率、144Hz刷新率的IPS LCD显示屏，内置10200毫安时电池并支持45W快充。\n\n在设计与影音方面，Moto Pad 70 Pro采用6.2毫米厚的金属机身，配备支持杜比全景声的JBL四扬声器系统。系统方面，该平板预装Android 16系统，并承诺提供至Android 18的系统升级及长期的安全更新。此举进一步丰富了联想在海外市场的高端平板产品线，有助于提升其在印度等新兴市场的消费电子份额。",
+    "category": "消费电子",
+    "tags": [
+      "联想",
+      "摩托罗拉",
+      "平板电脑",
+      "骁龙"
+    ],
+    "source": "IT之家",
+    "time": "49分钟前",
+    "ts": "2026-06-27T11:27:20+00:00",
+    "url": "https://www.ithome.com/0/969/474.htm",
+    "image": "https://img.ithome.com/newsuploadfiles/2026/6/56615c62-9563-461b-8c4b-e58386bb0f29.jpg",
+    "stocks": [
+      {
+        "name": "联想集团",
+        "ticker": "0992.HK",
+        "reason": "摩托罗拉为联想旗下品牌，新平板发布有助于提升其海外消费电子市场份额。",
+        "confidence": "high"
+      },
+      {
+        "name": "高通",
+        "ticker": "QCOM",
+        "reason": "新平板搭载高通骁龙8s Gen 4芯片，带动高通移动端处理器出货。",
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
+    "id": "36f22eda212bdc25",
+    "title": "美国对刚果（金）埃博拉疫情启动最高级别响应",
+    "summary": "美国卫生部门宣布对刚果民主共和国的埃博拉疫情启动最高级别响应，并向该地区运送实验性治疗药物。",
+    "body": "美国卫生当局于周五正式启动针对刚果民主共和国埃博拉疫情的最高级别应急响应机制，旨在加强疫情防控与医疗援助力度。\n\n同时，美方宣布将向该地区紧急运送实验性治疗药物以支持当地抗疫工作。此举不仅体现了对重大公共卫生事件的高度重视，也为相关创新疗法在真实世界中的应用提供了契机。",
+    "category": "生物医药",
+    "tags": [
+      "埃博拉疫情",
+      "公共卫生",
+      "实验性药物",
+      "医疗援助"
+    ],
+    "source": "MedicalXpress",
+    "time": "57分钟前",
+    "ts": "2026-06-27T07:20:05-04:00",
+    "url": "https://medicalxpress.com/news/2026-06-highest-response-ebola-outbreak.html",
+    "image": "https://scx1.b-cdn.net/csz/news/tmb/2023/ebola.jpg",
+    "stocks": []
+  },
+  {
+    "id": "8f8990008f5eb42f",
+    "title": "前苹果与奥迪员工打造月球车风格豪华电动车",
+    "summary": "前苹果和奥迪员工创立的Amble公司推出售价2.5万美元的Amble One电动越野车，专为豪华度假村等场景设计。",
+    "body": "由前苹果、奥迪及福特员工创立的出行品牌Amble正式推出其首款车型Amble One。这是一款售价2.5万美元的合法上路电动越野车，设计灵感源自月球车，主要面向沿海小径、私人庄园及豪华度假村等特定休闲场景。\n\n该车型的设计主管曾参与已取消的苹果汽车项目，使得Amble One在外观上带有浓厚的苹果极简设计美学。其团队背景涵盖蔚来等知名品牌的设计经验，致力于为高端休闲出行提供兼具性价比与时尚感的创新解决方案。",
+    "category": "消费电子",
+    "tags": [
+      "电动汽车",
+      "出行科技",
+      "苹果汽车"
+    ],
+    "source": "Ars Technica",
+    "time": "1小时前",
+    "ts": "2026-06-27T11:07:05+00:00",
+    "url": "https://arstechnica.com/cars/2026/06/apple-and-audi-alumni-have-made-a-luxe-ev-based-on-the-moon-buggy/",
+    "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/06/Amble-0085_HERO-1152x648.jpg",
+    "stocks": []
+  },
+  {
+    "id": "a364b64cfa8d892d",
+    "title": "极客魔改Steam手柄：借视觉追踪与振动马达实现自动回充",
+    "summary": "一位开发者利用计算机视觉和Steam手柄内置的振动马达，开发了一款Web应用，使手柄能像扫地机器人一样自动移动至充电底座。",
+    "body": "近日，一位开发者在GitHub上开源了一款名为“Auto-Charge Vision Tracker”的Web应用。该程序无需在本地安装任何软件，只需通过浏览器运行，并利用摄像头和计算机视觉技术实时定位桌面上的Steam手柄。\n\n在确定位置后，程序会调用Steam手柄内置的强力触觉振动马达，驱动手柄在平坦的桌面上缓慢移动至充电底座，实现类似扫地机器人的自动回充功能。这一创意充分挖掘了游戏手柄触觉马达的潜力。\n\n不过，该方案要求桌面平坦且无障碍物，且长期振动摩擦可能会对手柄表面造成一定磨损。",
+    "category": "消费电子",
+    "tags": [
+      "Steam手柄",
+      "计算机视觉",
+      "极客DIY",
+      "游戏外设"
+    ],
+    "source": "Tom's Hardware",
+    "time": "1小时前",
+    "ts": "2026-06-27T11:00:00+00:00",
+    "url": "https://www.tomshardware.com/peripherals/controllers-gamepads/modded-steam-controller-can-automatically-charge-itself-like-a-robot-vacuum-enthusiast-creates-github-program-that-uses-the-vibration-motor-to-walk-it-back-to-its-docking-station",
+    "image": "https://cdn.mos.cms.futurecdn.net/36BZ8tAWCQtaJDjEoKPRY9-1280-80.png",
+    "stocks": []
+  },
+  {
+    "id": "769c65bd0b8f3e86",
+    "title": "鹏城云脑Ⅲ登顶IO500双榜，华为存储刷新世界纪录",
+    "summary": "依托华为OceanStor A800存储搭建的鹏城云脑Ⅲ系统登顶IO500双榜，综合性能较历史最高纪录提升2.8倍，彰显国产智算存储领先实力。",
+    "body": "全球权威存储性能评测榜单IO500最新结果显示，依托华为OceanStor A800存储搭建的“鹏城云脑Ⅲ”系统同时登顶总榜单与研究型榜单，鹏城实验室实现该赛道十二连冠。该系统取得超60万分的总成绩，综合性能较此前历史最高纪录大幅提升。\n\n华为OceanStor A800存储在测试中对接664个计算节点，经受住极限压力测试。其优异性能源于系统架构、多维扩展及智能算法三大维度的创新，包括对等全互联架构、数控分离、横竖双向融合扩展以及动态目录分片等技术，有效突破了大规模连接与海量小文件处理的性能瓶颈。\n\n此次登顶不仅验证了华为存储在极端高并发、大集群场景下的卓越性能与稳定性，也进一步夯实了国产AI基础设施在全球高性能计算与智算领域的领先地位。",
+    "category": "AI 基础设施",
+    "tags": [
+      "华为",
+      "鹏城云脑",
+      "IO500",
+      "智算存储"
+    ],
+    "source": "IT之家",
+    "time": "1小时前",
+    "ts": "2026-06-27T10:53:46+00:00",
+    "url": "https://www.ithome.com/0/969/471.htm",
+    "image": "https://img.ithome.com/newsuploadfiles/2026/6/114b0d52-6b59-4a1b-80a4-56d2e0d31f72.jpg?x-bce-process=image/format,f_auto",
+    "stocks": []
+  },
+  {
+    "id": "599436fd03f078bb",
+    "title": "Epic CEO：无巨头能垄断游戏业，呼吁打通平台生态",
+    "summary": "Epic Games CEO 斯威尼指出，索尼、微软等巨头均无法垄断游戏市场，呼吁行业放弃各自为战，通过打通社区与生态实现互联互通，以应对开发成本高企与裁员困境。",
+    "body": "Epic Games CEO 蒂姆·斯威尼在 Unreal Fest 期间表示，当前没有任何公司能够彻底垄断游戏市场，包括索尼、微软、Valve 以及苹果和谷歌等科技巨头。在游戏行业营收创新高但面临 3A 开发成本高昂及大规模裁员的动荡背景下，他主张大型游戏公司不应依赖收缩业务，而应加强平台与生态之间的连接。\n\n斯威尼提出了“Team Open”倡议，旨在打通不同开发商旗下的游戏及经济系统。他认为，面对行业困境，过去倾向于控制整个生态的微软和索尼等巨头态度已发生转变，更愿意启动合作。他强调，互联互通创造的价值将远高于各自为战，甚至表示愿意帮助竞争对手 Valve 把握新机遇，共同推动游戏生态的开放与融合。",
+    "category": "消费电子",
+    "tags": [
+      "游戏生态",
+      "Epic Games",
+      "平台互通",
+      "消费电子"
+    ],
+    "source": "IT之家",
+    "time": "1小时前",
+    "ts": "2026-06-27T10:40:36+00:00",
+    "url": "https://www.ithome.com/0/969/469.htm",
+    "image": "https://img.ithome.com/newsuploadfiles/2026/6/45d8fe4b-e53a-44fd-a37a-b92f73f696b5.png",
+    "stocks": []
+  },
+  {
+    "id": "c0eb5a8fac5f7e25",
+    "title": "技嘉发布40周年纪念版RTX 5080显卡，推独特木纹设计",
+    "summary": "技嘉正式推出40周年纪念版AORUS RTX 5080 INFINITY系列显卡，包含标准版与WOOD木纹版，搭载NVIDIA Blackwell架构及16GB GDDR7显存。",
+    "body": "技嘉为庆祝成立40周年，正式推出AORUS RTX 5080 INFINITY系列显卡，包括标准版与主打银白木色拼接的WOOD木纹版。该系列延续了以飞机引擎为灵感的设计语言，并在散热器外壳加入RGB环形灯效，外观风格鲜明。\n\n在规格与散热方面，两款显卡均搭载NVIDIA Blackwell架构和16GB GDDR7显存，配备WINDFORCE Hyperburst散热系统及隐藏式辅助风扇，大幅提升散热效率。此外，显卡全面支持背插设计以优化走线，同系列的RTX 5070 Ti与RTX 5070预计将于2026年7月上市。",
+    "category": "消费电子",
+    "tags": [
+      "技嘉",
+      "RTX 5080",
+      "显卡",
+      "英伟达"
+    ],
+    "source": "IT之家",
+    "time": "1小时前",
+    "ts": "2026-06-27T10:37:00+00:00",
+    "url": "https://www.ithome.com/0/969/468.htm",
+    "image": "https://img.ithome.com/newsuploadfiles/2026/6/c25562aa-5b9c-4743-91b3-1d0b561839e6.jpg?x-bce-process=image/format,f_auto",
+    "stocks": [
+      {
+        "name": "技嘉科技",
+        "ticker": "2376.TW",
+        "reason": "作为产品发布方，推出40周年纪念版高端显卡有助于提升品牌溢价与高端市场份额。",
+        "confidence": "high"
+      },
+      {
+        "name": "英伟达",
+        "ticker": "NVDA",
+        "reason": "新款显卡搭载NVIDIA Blackwell架构及RTX 5080芯片，直接反映其高端GPU产品的持续出货。",
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
+    "id": "75d6ed62a6a13e59",
+    "title": "外媒评测DeleteMe：真能清除网络个人隐私数据吗？",
+    "summary": "科技媒体Wired记者亲自测试数据隐私保护服务DeleteMe，探究其能否有效清除互联网上的个人敏感信息，以缓解垃圾电话和隐私泄露困扰。",
+    "body": "科技媒体Wired近日发布了一篇关于数据隐私保护服务DeleteMe的深度评测。当前，垃圾电话泛滥以及暴露个人住址等敏感信息的数据经纪网站让公众不堪其扰。\n\n记者通过亲自订阅并试用该服务，详细考察了其从公开网络中清除个人数字足迹的实际效果。此类评测不仅反映了消费者对个人隐私保护的迫切需求，也凸显了数据隐私服务在应对互联网信息泄露方面的应用价值。",
+    "category": "网络安全",
+    "tags": [
+      "数据隐私",
+      "网络安全",
+      "个人信息保护"
+    ],
+    "source": "Wired",
+    "time": "1小时前",
+    "ts": "2026-06-27T10:31:00+00:00",
+    "url": "https://www.wired.com/story/i-tried-deleteme-the-original-data-broker-removal-service/",
+    "image": "https://media.wired.com/photos/6a3f358d2d4e45566000bffd/master/pass/I-Tried-DeleteMe,-the-Original-Data-Broker-Removal-Service.jpg",
+    "stocks": []
+  },
+  {
+    "id": "49a87a32dfa118b9",
+    "title": "Commodore翻盖手机降价百元，改用回收内存应对涨价",
+    "summary": "为应对全球内存价格飙升，Commodore将其Callback 8020翻盖手机起售价降至399美元，主要通过采用回收内存芯片和取消附赠耳机来实现。",
+    "body": "Commodore宣布将其Callback 8020翻盖手机的起售价从499美元下调至399美元。此次降价的主要原因是全球内存短缺导致DRAM价格创下历史新高，公司因此决定默认采用经过严格测试的回收内存芯片，并将原本附赠的定制耳机改为可选配件。\n\n在定价策略上，除了24K金创始人版维持原价外，其余四款配色的机型均降至399美元，部分版本降幅高达150美元。消费者仍可在结账时付费升级至全新内存。此外，在预购开启首日，注册用户还可获得额外50美元的折扣，使大部分机型价格进一步下探至349美元。",
+    "category": "消费电子",
+    "tags": [
+      "翻盖手机",
+      "内存芯片",
+      "消费电子",
+      "产品定价"
+    ],
+    "source": "Tom's Hardware",
+    "time": "1小时前",
+    "ts": "2026-06-27T10:30:00+00:00",
+    "url": "https://www.tomshardware.com/phones/commodore-drops-callback-flip-ohine-to-399-by-defaulting-to-recycled-memory-chips",
+    "image": "https://cdn.mos.cms.futurecdn.net/m8DVMuXiyoC3U9zNPiYWmn-1280-80.jpg",
+    "stocks": []
+  },
+  {
+    "id": "a2e5d8d6391b0190",
+    "title": "LastPass数据再遭窃取，微软摧毁窃密设施",
+    "summary": "本周LastPass用户数据再次遭遇窃取，同时微软协助成功摧毁了大型窃密软件的基础设施。",
+    "body": "本周网络安全领域发生多起重要事件。知名密码管理工具LastPass的用户数据再次遭到窃取，引发了外界对密码管理软件安全性的关注，提醒用户需加强账户防护。\n\n同时，微软在打击网络犯罪方面取得进展，协助相关机构成功摧毁了一个主要的窃密软件基础设施。此举有助于切断恶意软件的数据窃取渠道，保护用户数据安全。",
+    "category": "网络安全",
+    "tags": [
+      "LastPass",
+      "数据泄露",
+      "微软",
+      "网络安全"
+    ],
+    "source": "Wired",
+    "time": "1小时前",
+    "ts": "2026-06-27T10:30:00+00:00",
+    "url": "https://www.wired.com/story/security-news-this-week-lastpass-users-had-their-data-stolen-again/",
+    "image": "https://media.wired.com/photos/6a3f04f5576bf7ee5cfb20ec/master/pass/LastPass-Data-Leak-Security-1246524546.jpg",
+    "stocks": [
+      {
+        "name": "微软",
+        "ticker": "MSFT",
+        "reason": "协助摧毁大型窃密软件基础设施，彰显其在网络安全防护领域的技术实力与业务价值。",
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
     "id": "c1a1c60087d34d45",
     "title": "A股主力资金调仓，超267亿撤出光模块龙头",
     "summary": "本周A股市场震荡调整，沪深两市主力资金合计净流出超2169亿元，其中新易盛、中际旭创等光模块科技股遭大幅抛售。",
@@ -73,6 +443,32 @@ const newsData = [
     "url": "https://36kr.com/newsflashes/3871213411128577?f=rss",
     "image": "",
     "stocks": []
+  },
+  {
+    "id": "6f14811b928893f6",
+    "title": "西安交大研发新型钽合金登《自然》，超高温强度翻倍",
+    "summary": "西安交通大学研制出新型氧化物弥散强化钽合金，在2000℃下拉伸屈服强度较传统合金提高一倍，成果发表于《自然》。",
+    "body": "西安交通大学金属材料强度全国重点实验室针对航空航天领域超高温承载难题，研发出一种新型氧化物弥散强化钽合金。该合金兼具优异的室温拉伸塑性与超高温拉伸强度，在2000℃和2400℃下的拉伸屈服强度分别达到200MPa和100MPa。\n\n相较于传统钽合金，新型合金在2000℃超高温下的拉伸屈服强度提高了一倍，承温上限提升约500℃，且具备更优异的长时服役潜力。这一突破性成果为新一代超高温合金的开发提供了新思路，相关论文已发表于国际顶级期刊《自然》。",
+    "category": "新材料",
+    "tags": [
+      "钽合金",
+      "超高温材料",
+      "航空航天",
+      "西安交通大学"
+    ],
+    "source": "IT之家",
+    "time": "1小时前",
+    "ts": "2026-06-27T10:22:28+00:00",
+    "url": "https://www.ithome.com/0/969/466.htm",
+    "image": "https://img.ithome.com/newsuploadfiles/2026/6/e4c3f23c-e9f3-4b12-8077-4bc396c2b9cd.png?x-bce-process=image/format,f_auto",
+    "stocks": [
+      {
+        "name": "东方钽业",
+        "ticker": "000962.SZ",
+        "reason": "国内钽行业龙头企业，主营钽铌等稀有金属制品，有望受益于新型钽合金技术的未来产业化。",
+        "confidence": "medium"
+      }
+    ]
   },
   {
     "id": "92c3e49f5e462bed",
@@ -63916,11 +64312,11 @@ const newsData = [
   }
 ];
 const newsDigest = {
-  "text": "今日科技圈聚焦AI算力与智能出行。AI推理优化及功率半导体需求爆发利好算力产业链；人形机器人合规备案与问界、猛士等智驾新车热销，彰显自动驾驶商业化提速；此外，地缘科技博弈与消费电子新品频发亦备受瞩目。",
+  "text": "今日科技聚焦AI算力基建与智能出行。鹏城云脑Ⅲ刷新纪录，功率半导体掀涨价潮，利好算力及芯片产业链；华为途灵平台升级赋能智行，利好华为汽车概念；我国科学家揭开早期造血起源之谜，生物医药获前沿突破。",
   "highlights": [
+    "769c65bd0b8f3e86",
     "8131ea8e12f47726",
-    "42658ae9e5a815da",
-    "eafed39d89c59096",
-    "f3c9bec4e8ff1135"
+    "04265a1a1ce9c0db",
+    "8aef2ad6e868fa73"
   ]
 };
