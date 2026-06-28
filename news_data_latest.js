@@ -1,5 +1,24 @@
 const newsData = [
   {
+    "id": "b7e39861955b1fba",
+    "title": "福特AI造车遇挫，重聘资深工程师",
+    "summary": "福特汽车因人工智能未能达到预期质量标准，被迫重新聘用经验丰富的资深工程师。公司高管承认此前错误地认为仅靠AI就能生产高质量产品。",
+    "body": "据TechCrunch报道，福特汽车在尝试将人工智能引入制造流程后，因AI未能达到预期的产品质量标准，被迫重新聘用被称为\"gray beard\"的资深工程师。福特产品开发和采购负责人承认，公司此前错误地认为仅靠引入人工智能就能生产出高质量产品，忽视了经验丰富的工程师在产品开发中的关键作用。\n\n这一案例反映出当前AI在复杂制造业中的应用仍存在明显局限，尤其是在需要长期经验积累的质量判断和工艺优化环节。福特的\"回头路\"为整个汽车制造业乃至更广泛的高端制造业提供了警示：AI技术尚不能完全替代人类专家的经验与直觉，人机协同仍是当前最现实的路径。\n\n该事件也可能影响其他制造业企业对AI投入的决策节奏，促使行业更加审慎地评估AI在核心生产环节的实际能力与边界。",
+    "category": "人工智能",
+    "tags": [
+      "AI应用",
+      "智能制造",
+      "汽车业",
+      "人机协同"
+    ],
+    "source": "TechCrunch",
+    "time": "57分钟前",
+    "ts": "2026-06-28T19:05:39+00:00",
+    "url": "https://techcrunch.com/2026/06/28/ford-rehires-gray-beard-engineers-after-ai-falls-short/",
+    "image": "",
+    "stocks": []
+  },
+  {
     "id": "d589d1408adcb15f",
     "title": "提升电动汽车续航的五个实用技巧",
     "summary": "文章介绍了五种简单方法帮助电动汽车车主延长续航里程，减少充电频率，提升日常用车体验。",
@@ -55,6 +74,32 @@ const newsData = [
     "url": "https://electrek.co/2026/06/28/zero-emission-truck-deployments-surged-up-37-in-2025-as-momentum-builds/",
     "image": "https://electrek.co/wp-content/uploads/sites/3/2024/06/Sysco-Electric-Freightliner-Truck-City-1400-copy.jpg?quality=82&#038;strip=all&#038;w=1400",
     "stocks": []
+  },
+  {
+    "id": "6c80d7901ac0b421",
+    "title": "智谱GLM 5.2在网络安全基准测试中超越Claude",
+    "summary": "AI安全公司Semgrep的评测显示，智谱AI最新模型GLM 5.2在网络安全基准测试中表现优于Anthropic的Claude系列模型，引发业界对国产大模型垂直能力的关注。",
+    "body": "AI代码安全公司Semgrep发布的基准测试结果显示，智谱AI（Zhipu AI）推出的GLM 5.2模型在网络安全相关任务中表现优于Anthropic的Claude模型。这一评测聚焦于大模型在代码安全分析、漏洞检测等网络安全场景的实际能力，而非通用对话或推理测试。该结果反映出国产大模型在特定垂直领域的竞争力正在提升，尤其是在网络安全这一关键赛道。\n\n智谱AI作为中国大模型\"六小龙\"之一，其GLM系列模型持续迭代。此次在网络安全基准中的突出表现，可能增强其在企业级安全服务市场的吸引力。Semgrep作为代码安全工具提供商，其评测标准具有较强的行业参考价值，但单一基准测试结果仍需结合更多场景验证。",
+    "category": "人工智能",
+    "tags": [
+      "大模型",
+      "网络安全",
+      "国产AI",
+      "基准测试"
+    ],
+    "source": "Hacker News",
+    "time": "2小时前",
+    "ts": "2026-06-28T17:50:47+00:00",
+    "url": "https://semgrep.dev/blog/2026/we-have-mythos-at-home-glm-52-beats-claude-in-our-cyber-benchmarks/",
+    "image": "",
+    "stocks": [
+      {
+        "name": "智谱AI",
+        "ticker": "未上市",
+        "reason": "GLM 5.2为智谱AI自研模型，测试表现优异直接利好其商业前景",
+        "confidence": "high"
+      }
+    ]
   },
   {
     "id": "faa66b8b23afc40e",
@@ -69038,12 +69083,12 @@ const newsData = [
   }
 ];
 const newsDigest = {
-  "text": "今日科技前沿：量子计算取得里程碑突破，百万p比特可编程概率计算机问世；SpaceX星链组网突破万颗卫星，商业航天加速扩张；开源AI生态全球竞速，个人开发者与科技巨头同台角力。消费电子、新能源与生物医药领域亦有重要进展。",
+  "text": "今日科技前沿聚焦三大方向：人工智能领域开源模型生态加速扩容，智谱GLM 5.2在网络安全基准测试中超越Claude；未来能源赛道零排放卡车部署激增，宁德时代领衔全球能源循环经济联盟；消费电子板块苹果M5芯片产品线布局提速，vivo X300系列销量突破300万台。量子计算与商业航天亦取得里程碑进展。",
   "highlights": [
-    "199f4267e8625393",
-    "e8afdcc49a809f8f",
     "faa66b8b23afc40e",
-    "6d6ace1357b7fae6",
-    "7151733954ddc740"
+    "6c80d7901ac0b421",
+    "b9f52b2953099fd6",
+    "a2d3119f2cfaa5ca",
+    "6a2ac86bd874ba33"
   ]
 };
