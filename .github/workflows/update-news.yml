@@ -2,9 +2,14 @@ name: 每10分钟更新新闻
 
 on:
   schedule:
-    # GitHub Actions schedule 会漏触发/延迟；每 10 分钟非整点触发。
+    # GitHub Actions schedule 会漏触发/延迟；拆成多条 10 分钟触发点，避免单条列表表达式整段空窗。
     # 若没有新 URL，脚本会提前退出；若数据无变化，提交和部署也会跳过。
-    - cron: '7,17,27,37,47,57 * * * *'
+    - cron: '7 * * * *'
+    - cron: '17 * * * *'
+    - cron: '27 * * * *'
+    - cron: '37 * * * *'
+    - cron: '47 * * * *'
+    - cron: '57 * * * *'
   workflow_dispatch: {}        # 支持在 Actions 页面手动触发
 
 permissions:
