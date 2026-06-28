@@ -1,5 +1,368 @@
 const newsData = [
   {
+    "id": "55a0a6de2726e56f",
+    "title": "神经通路揭示小鼠目标导向行为的推拉调控系统",
+    "summary": "最新研究揭示了小鼠大脑基底神经节中的神经通路，发现其通过推拉系统来协调目标导向行为，为理解大脑运动控制机制提供了新视角。",
+    "body": "人类日常活动需要精确协调运动并追踪目标进度，过去的研究已强调基底神经节在自主运动的选择、控制和启动中的关键作用。近日，科学家通过研究小鼠模型，进一步揭示了基底神经节内部神经通路的运作机制。\n研究发现，这些神经通路构成了一个推拉系统，专门用于协调目标导向行为。这一发现深化了对大脑运动控制机制的科学认知，也为未来神经系统疾病治疗及神经科技研发提供了重要的理论基础。",
+    "category": "脑机接口",
+    "tags": [
+      "神经科学",
+      "基底神经节",
+      "神经科技"
+    ],
+    "source": "MedicalXpress",
+    "time": "3分钟前",
+    "ts": "2026-06-28T08:40:01-04:00",
+    "url": "https://medicalxpress.com/news/2026-06-neural-pathways-reveal-goal-behavior.html",
+    "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/study-uncovers-neural.jpg",
+    "stocks": []
+  },
+  {
+    "id": "fcaaca1dd6d0cfcc",
+    "title": "DIY 3D打印Steam Machine风格机箱发布，搭载RTX 5060",
+    "summary": "国外硬件爱好者合作推出Terk Box v1.1 3D打印小机箱，采用对角线主板布局并搭载RTX 5060显卡，设计神似Steam Machine。",
+    "body": "针对Valve Steam Machine的可用性与定价争议，硬件爱好者Jacob Terkelsen与3D打印达人3DCatt合作推出了Terk Box v1.1小型机箱。该机箱采用独特的对角线主板安装设计，内部容纳了Mini ITX主板、RTX 5060显卡以及Flex ATX电源，并在背部增加了通风设计以优化显卡散热。\n\n目前，该项目的STL源文件及详细零件清单已在Printables.com上开源共享。这款设计不仅为SFF PC玩家提供了极具创意的平替方案，也展示了3D打印技术在个人硬件定制领域的巨大潜力。",
+    "category": "消费电子",
+    "tags": [
+      "3D打印",
+      "PC DIY",
+      "小型机箱",
+      "RTX 5060"
+    ],
+    "source": "Tom's Hardware",
+    "time": "6分钟前",
+    "ts": "2026-06-28T12:36:37+00:00",
+    "url": "https://www.tomshardware.com/desktops/pc-building/diy-3d-printed-steam-machine-a-like-uses-diagonal-mobo-mounting-parts-include-a-mini-itx-motherboard-rtx-5060-and-a-flex-atx-psu",
+    "image": "https://cdn.mos.cms.futurecdn.net/kuvSEGav6suFNU4cBrDMCF-1280-80.jpg",
+    "stocks": []
+  },
+  {
+    "id": "a864ea7c198ddb06",
+    "title": "VR跑步机Omni One原生支持Quest头显",
+    "summary": "Virtuix宣布其消费级VR跑步机Omni One正式原生支持Meta Quest头显，用户无需搭配PC即可使用，该产品已加入Meta官方配件计划。",
+    "body": "制造商Virtuix宣布，旗下消费级VR跑步机Omni One正式引入对Meta Quest头显的原生支持。此前该设备需搭配高性能PC才能连接Quest头显，如今已实现独立运行，大幅降低了用户的使用门槛。\n\nOmni One同步加入了Meta官方的“Made for Meta”计划，后续将在官方配件商店销售。Virtuix CEO表示，此次合作将全身运动体验直接带入Quest平台，进一步提升了VR的沉浸感与运动属性。\n\n目前，Omni One已适配《VAIL》等多款首批Quest游戏，但暂不支持《VRChat》等部分作品。该设备售价为2595美元，旨在为VR玩家提供更极致的全身运动体验。",
+    "category": "消费电子",
+    "tags": [
+      "VR跑步机",
+      "Meta Quest",
+      "XR生态",
+      "Virtuix"
+    ],
+    "source": "IT之家",
+    "time": "10分钟前",
+    "ts": "2026-06-28T12:33:37+00:00",
+    "url": "https://www.ithome.com/0/969/713.htm",
+    "image": "https://img.ithome.com/newsuploadfiles/2026/6/307094c4-0f3b-4470-83ed-1562079181bc.jpg",
+    "stocks": []
+  },
+  {
+    "id": "7596c7e2477cf4d3",
+    "title": "戴尔推出P2426商务显示器：24.1英寸售1339元",
+    "summary": "戴尔在京东上架型号为P2426的24.1英寸商务显示器，主打1200P分辨率与100Hz刷新率，定价1339元。",
+    "body": "戴尔近日在京东平台推出了一款型号为P2426的24.1英寸显示器，主要面向商务市场，定价为1339元。该显示器配备1920x1200分辨率的IPS面板，支持100Hz刷新率，亮度达300尼特，并覆盖99% sRGB色域。\n在设计与接口方面，P2426支持支架升降、倾斜和俯仰调节，并兼容VESA壁挂。接口配置丰富，提供HDMI 1.4、DP 1.4、三个USB-A以及一个15W的USB-C接口，满足日常办公的多设备连接需求。",
+    "category": "消费电子",
+    "tags": [
+      "戴尔",
+      "显示器",
+      "消费电子"
+    ],
+    "source": "IT之家",
+    "time": "18分钟前",
+    "ts": "2026-06-28T12:25:17+00:00",
+    "url": "https://www.ithome.com/0/969/711.htm",
+    "image": "https://img14.360buyimg.com/pop/jfs/t1/451285/11/1267/153798/6a1ffd0bFc1b57899/0083320320e996e1.png",
+    "stocks": [
+      {
+        "name": "戴尔科技",
+        "ticker": "DELL",
+        "reason": "推出新款商务显示器，丰富其PC外设产品线，有助于提升硬件销售收入。",
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
+    "id": "ab608464a336e925",
+    "title": "个人利用AI研发阿尔茨海默病药物引关注",
+    "summary": "一名开发者在地下室利用人工智能技术成功研发出治疗阿尔茨海默病的药物，展现了AI在创新药物研发中的巨大潜力。",
+    "body": "近日，有报道称一名个人开发者在自家地下室利用人工智能技术，成功研发出用于治疗阿尔茨海默病的药物。这一事件引发了科技与医疗界的关注，凸显了AI技术在降低药物研发门槛、加速新药发现方面的巨大潜力。\n\n尽管该事件的具体细节和药物临床有效性尚待进一步验证，但它生动展示了人工智能与计算生物学结合后，如何赋能个体研究者参与到传统上需要庞大资金和团队支持的生物医药研发中。这可能对未来数字医疗和生命科学领域的创新模式产生深远影响。",
+    "category": "生物医药",
+    "tags": [
+      "AI制药",
+      "阿尔茨海默病",
+      "创新药"
+    ],
+    "source": "Hacker News",
+    "time": "20分钟前",
+    "ts": "2026-06-28T12:23:25+00:00",
+    "url": "https://twitter.com/DouglasYaoDY/status/2070904914050797582",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "eeac4ed0ca028dc7",
+    "title": "华为Mate90系列预计9月发布，7至8月或推补充机型",
+    "summary": "博主透露华为Mate 90系列仍聚焦9月发布，7至8月期间将推出其他补充机型，外界猜测或为Pura 90s系列手机。",
+    "body": "据博主透露，华为Mate 90系列依然计划在9月份正式发布，而在7至8月期间，华为将推出其他补充机型。虽然具体机型尚未明确，但外界猜测可能是Pura 90s系列，预计包含Pro和Pro Max等版本。\n\n目前关于Pura 90s系列的详细配置和芯片信息尚未曝光。作为参考，华为此前已发售了搭载麒麟9030S和麒麟9010S处理器的Pura 90系列机型。这表明华为在下半年消费电子市场保持着密集的产品发布节奏，持续丰富其高端智能手机产品线。",
+    "category": "消费电子",
+    "tags": [
+      "华为",
+      "Mate90",
+      "智能手机"
+    ],
+    "source": "IT之家",
+    "time": "20分钟前",
+    "ts": "2026-06-28T12:22:57+00:00",
+    "url": "https://www.ithome.com/0/969/710.htm",
+    "image": "https://img.ithome.com/newsuploadfiles/2026/6/39098b73-ed16-4572-aa4d-0a6c65521eaa.png?x-bce-process=image/format,f_auto",
+    "stocks": []
+  },
+  {
+    "id": "fa77a063630baeaa",
+    "title": "美司法部查封400个非法世界杯转播域名，规模达上届五倍",
+    "summary": "美国司法部联合多部门查封近400个非法转播2026年世界杯的域名，打击规模创历史新高，并警告此类盗版网站常暗藏恶意软件与数据窃取风险。",
+    "body": "美国司法部近日宣布，在名为“越位行动”的执法中查封了近400个非法直播2026年FIFA世界杯的域名。此次行动由全国知识产权协调中心与国土安全调查局主导，查封域名总数约为2022年卡塔尔世界杯期间的五倍。由于2026年世界杯由美国、加拿大和墨西哥联合举办，美国执法部门拥有了更强的管辖权。\n\n调查人员追踪发现，这些非法流媒体的基础设施主要位于秘鲁和保加利亚的服务器，并在克罗地亚、罗马尼亚、波兰和哥伦比亚等地进行了协同下架。国际足联及多家媒体和娱乐巨头协助提供了违规域名信息。\n\n国土安全调查局特别警告，这些非法流媒体网站不仅侵犯知识产权，还可能使观众暴露于恶意软件攻击及财务数据窃取的风险中。此次大规模查封彰显了东道主国打击网络犯罪与保护赛事版权的决心。",
+    "category": "网络安全",
+    "tags": [
+      "网络安全",
+      "恶意软件",
+      "域名查封",
+      "版权保护"
+    ],
+    "source": "Tom's Hardware",
+    "time": "25分钟前",
+    "ts": "2026-06-28T12:18:15+00:00",
+    "url": "https://www.tomshardware.com/service-providers/streaming/us-seizes-nearly-400-domains-streaming-the-2026-world-cup",
+    "image": "https://cdn.mos.cms.futurecdn.net/D9LCSX5qkozpDLy2K2xWqD-1280-80.jpg",
+    "stocks": []
+  },
+  {
+    "id": "dd02c7fdd7221ed2",
+    "title": "大疆辟谣全系产品涨价传闻，多款新品供不应求",
+    "summary": "针对网传大疆全系产品将涨价的传闻，官方回应称纯属谣言且无调价计划。同时，大疆多款新品开售即秒空，官方已联合警方打击黄牛。",
+    "body": "近期市场流传大疆全系产品将于2026年7月起涨价3%至8%的传闻。对此，大疆官方明确回应称该消息不实，目前产品指导价保持稳定，并无任何调价计划。\n\n与此同时，大疆旗下多款产品在电商平台出现供不应求的现象，部分新品开售即被“秒空”。大疆方面表示，相关新品首批备货量较前代提升近10倍，并已锁定部分黄牛团队，警方已对相关团伙采取刑事强制措施。\n\n此次热销与辟谣反映出大疆在消费级硬件市场的强劲需求。官方积极打击黄牛囤货，不仅有助于保障正常消费者的购买权益，也进一步维护了品牌的市场价格体系与良好形象。",
+    "category": "消费电子",
+    "tags": [
+      "大疆",
+      "消费电子",
+      "产品热销"
+    ],
+    "source": "IT之家",
+    "time": "32分钟前",
+    "ts": "2026-06-28T12:10:54+00:00",
+    "url": "https://www.ithome.com/0/969/709.htm",
+    "image": "https://img.ithome.com/newsuploadfiles/2026/6/2c55e072-3d2d-4f8a-a193-161cd245e47d.jpg",
+    "stocks": []
+  },
+  {
+    "id": "d185f27ce078193b",
+    "title": "Nest创立传奇：iPod之父重塑智能恒温器",
+    "summary": "本文回顾了Nest的创立故事，讲述前苹果高管托尼·法德尔在参与打造iPhone后，因生活体验痛点重新出山，致力于颠覆传统恒温器市场的科技创业历程。",
+    "body": "Nest的创立故事堪称一个完美的科技神话。作为传奇产品缔造者，托尼·法德尔曾参与打造史上最成功的产品之一iPhone，随后本打算退休享受生活。\n\n然而，一次糟糕的生活体验将他重新拉回科技创业的道路。他创立了Nest，致力于解决传统恒温器的问题。这一历程展现了顶尖科技人才对日常痛点的敏锐洞察，也彰显了消费电子领域持续创新的驱动力。",
+    "category": "消费电子",
+    "tags": [
+      "智能恒温器",
+      "智能家居",
+      "托尼·法德尔",
+      "消费电子"
+    ],
+    "source": "The Verge",
+    "time": "40分钟前",
+    "ts": "2026-06-28T08:02:44-04:00",
+    "url": "https://www.theverge.com/podcast/958735/nest-thermostat-version-history",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "bdd3eb9b3e58ead1",
+    "title": "SpaceX今晚发射7吨重SiriusXM广播卫星入轨",
+    "summary": "SpaceX计划使用猎鹰9号火箭将重达7吨的SiriusXM SXM-11广播卫星送入地球同步转移轨道，一级助推器将实现第17次回收。",
+    "body": "SpaceX计划从佛罗里达州卡纳维拉尔角发射猎鹰9号火箭，将重达7000公斤的SiriusXM SXM-11卫星送入轨道。此次任务使用的B1085一级助推器将迎来其第17次飞行，并计划降落在大西洋的无人回收船上。\n\nSXM-11卫星将被送入椭圆地球同步转移轨道，随后自行变轨进入最终工作轨道。该卫星将加入SiriusXM现有的卫星广播舰队，进一步巩固和提升其卫星广播服务的覆盖与传输能力。",
+    "category": "商业航天",
+    "tags": [
+      "SpaceX",
+      "猎鹰9号",
+      "卫星发射",
+      "SiriusXM"
+    ],
+    "source": "Space.com",
+    "time": "43分钟前",
+    "ts": "2026-06-28T12:00:00+00:00",
+    "url": "https://www.space.com/space-exploration/launches-spacecraft/spacex-sirius-sxm-11-satellite-launch-falcon-9",
+    "image": "https://cdn.mos.cms.futurecdn.net/YEufFNenruzGnAM2P8r5Ve-1280-80.jpg",
+    "stocks": [
+      {
+        "name": "SiriusXM",
+        "ticker": "SIRI",
+        "reason": "新卫星入轨将扩充其卫星广播舰队，提升服务能力和覆盖范围。",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "d8fd92b519ff708a",
+    "title": "龙芯发布自主架构16核服务器处理器3C3000",
+    "summary": "龙芯中科推出基于自主LoongArch架构的16核服务器处理器3C3000，主打低功耗与低成本，面向中小企业通用服务器市场。",
+    "body": "龙芯中科正式发布龙芯3C3000服务器处理器，该芯片基于自主研发的LoongArch指令集和LA364E核心设计，采用16核16线程架构，主频在1.5GHz至1.8GHz之间，功耗仅为40W。\n这款处理器支持DDR4 ECC内存和32条PCIe通道，通用计算性能与早期的3C5000相当。其引脚与3B6000兼容，便于系统厂商复用现有平台设计。\n3C3000主要面向中小企业的低成本通用服务器市场，适用于文件、数据库、Web及业务流程等基础工作负载，进一步丰富了国产服务器芯片的产品矩阵。",
+    "category": "半导体与先进制造",
+    "tags": [
+      "龙芯中科",
+      "服务器CPU",
+      "LoongArch",
+      "国产芯片"
+    ],
+    "source": "Tom's Hardware",
+    "time": "43分钟前",
+    "ts": "2026-06-28T12:00:00+00:00",
+    "url": "https://www.tomshardware.com/pc-components/cpus/chinas-loongson-launches-homegrown-16-core-server-cpu-built-on-loongarch-architecture-40w-chip-with-ddr4-ecc-and-32-pcie-lanes-targets-cheap-smb-file-database-and-web-servers",
+    "image": "https://cdn.mos.cms.futurecdn.net/bGRpAscqyHMhWFDYf2s4eb-1280-80.webp",
+    "stocks": [
+      {
+        "name": "龙芯中科",
+        "ticker": "688047.SH",
+        "reason": "公司发布新款自主架构服务器CPU，丰富产品线并拓展中小企业服务器市场。",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "1e3354e3a3ee51e2",
+    "title": "字节跳动为努比亚豆包手机赠送AI会员权益",
+    "summary": "字节跳动宣布向努比亚M153豆包手机用户赠送豆包标准版会员额度，并持续推广基于豆包2.1大模型的专业版AI应用。",
+    "body": "字节跳动近日宣布，向努比亚M153“豆包手机”用户赠送价值每月68元的豆包标准版会员使用额度，有效期至2026年底，该权益支持登录豆包账号的设备全端通用。官方将根据设备登录的活跃账户进行充值发放。\n\n此外，豆包近期正式发布了基于最新豆包2.1系列大模型的专业版，提供接入Pro模型的办公任务模式。该模式支持操作本地电脑、调用技能及定时任务等能力，并内置办公套件与专业设计功能，进一步丰富了AI应用生态，加速了大模型在智能终端的落地。",
+    "category": "人工智能",
+    "tags": [
+      "豆包大模型",
+      "AI手机",
+      "努比亚",
+      "字节跳动"
+    ],
+    "source": "IT之家",
+    "time": "46分钟前",
+    "ts": "2026-06-28T11:56:55+00:00",
+    "url": "https://www.ithome.com/0/969/707.htm",
+    "image": "https://img.ithome.com/newsuploadfiles/2026/6/0e514052-adca-4c81-ace2-3434f840fefd.jpg?x-bce-process=image/format,f_auto",
+    "stocks": [
+      {
+        "name": "中兴通讯",
+        "ticker": "000063.SZ",
+        "reason": "努比亚母公司，合作搭载豆包AI应用有助于提升其AI手机产品吸引力与市场竞争力。",
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
+    "id": "eaa425616a424082",
+    "title": "美拟推《儿童法案》要求上网进行年龄验证",
+    "summary": "美国拟议的《儿童法案》将强制要求互联网平台对用户进行年龄验证，以加强未成年人网络保护。",
+    "body": "近日，有关《儿童法案》的讨论引发科技界关注。该法案拟要求互联网服务提供商在用户接入网络或使用特定服务时，强制进行年龄验证。\n\n这一政策动向旨在加强对未成年人的网络保护，防止其接触不适宜的内容。然而，强制年龄验证也引发了关于用户隐私保护、数据合规以及技术实现成本的广泛争议。\n\n对于互联网平台和科技企业而言，未来可能需要引入更先进的身份认证与隐私计算技术，以在满足监管要求的同时保障用户数据安全。",
+    "category": "网络安全",
+    "tags": [
+      "年龄验证",
+      "未成年人保护",
+      "身份认证",
+      "科技监管"
+    ],
+    "source": "Hacker News",
+    "time": "47分钟前",
+    "ts": "2026-06-28T11:56:16+00:00",
+    "url": "https://www.eff.org/deeplinks/2026/06/kids-act-would-require-age-checks-get-online",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "9c348eb5d39061a1",
+    "title": "火星发现更多生命迹象但仍未证实生命存在",
+    "summary": "科学家在火星上发现了更多支持生命存在的证据，但截至目前仍未直接证实火星生命的存在。",
+    "body": "近日，有关火星探测的研究再次引发科学界关注。研究人员在火星上发现了更多可能支持生命存在的地质与化学证据，为火星曾经或现在存在生命提供了新的线索。\n\n然而，尽管相关证据不断积累，目前仍未直接探测或确认任何火星生命的实际存在。这一科学进展不仅加深了人类对火星演化历史的认知，也为未来的深空探测任务规划提供了重要参考。",
+    "category": "商业航天",
+    "tags": [
+      "火星探测",
+      "深空探测",
+      "太空探索"
+    ],
+    "source": "Hacker News",
+    "time": "48分钟前",
+    "ts": "2026-06-28T11:55:08+00:00",
+    "url": "https://www.cbc.ca/radio/quirks/more-evidence-of-life-on-mars-but-still-no-life-1.7649645",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "36c6a8e4851ae443",
+    "title": "支付宝联合华为推出鸿蒙NFC交通卡",
+    "summary": "支付宝联合华为及天府通为鸿蒙系统上线超级碰碰卡NFC交通卡，支持先乘后付及碰一下乘车，成都市内公交地铁享折扣。",
+    "body": "支付宝宣布联合华为及天府通，为鸿蒙HarmonyOS系统上线“超级碰碰卡”NFC交通卡服务。该服务支持先乘后付、免充值和碰一下乘车等便捷功能，用户在支付宝内即可开通并限时免除开卡费。\n\n在具体权益方面，开卡即享乘车额度，刷NFC直接扣款。乘坐成都市内公交地铁可享9折优惠，当月地铁消费满额还可享更低折扣，但后续每月将收取1元服务费。\n\n此举进一步丰富了鸿蒙系统的应用生态，提升了智能手机NFC功能在智慧出行场景下的用户体验，展现了科技企业在本地生活与交通出行领域的深度融合。",
+    "category": "消费电子",
+    "tags": [
+      "鸿蒙生态",
+      "NFC支付",
+      "智慧出行"
+    ],
+    "source": "IT之家",
+    "time": "58分钟前",
+    "ts": "2026-06-28T11:45:13+00:00",
+    "url": "https://www.ithome.com/0/969/706.htm",
+    "image": "https://img.ithome.com/newsuploadfiles/2026/6/282b6207-8fa9-48b3-9ecb-58b4432406d3.jpg?x-bce-process=image/format,f_auto",
+    "stocks": []
+  },
+  {
+    "id": "e1357744a083135f",
+    "title": "AOC推出34英寸带鱼屏显示器U34P2CN，售价2099元",
+    "summary": "AOC在京东上架34英寸带鱼屏显示器U34P2CN，主打1440P分辨率与120Hz刷新率，定价2099元。",
+    "body": "AOC近日推出型号为U34P2CN的34英寸带鱼屏显示器，目前已在京东平台上架，定价为2099元。该产品配备3440x1440分辨率的120Hz VA面板，亮度达300尼特，对比度3500:1，并覆盖99% sRGB色域。\n\n在接口与功能方面，该显示器内置双5W扬声器，支持多角度调节及壁挂。同时配备65W USB-C接口、多个USB-A 3.2接口以及HDMI 2.1和DP 1.4接口，并支持KVM功能，可满足日常办公与娱乐的多样化需求。",
+    "category": "消费电子",
+    "tags": [
+      "显示器",
+      "AOC",
+      "消费电子",
+      "带鱼屏"
+    ],
+    "source": "IT之家",
+    "time": "1小时前",
+    "ts": "2026-06-28T11:31:39+00:00",
+    "url": "https://www.ithome.com/0/969/702.htm",
+    "image": "https://img14.360buyimg.com/pop/jfs/t1/455112/31/12158/82762/6a336cc9Fa0b7ad35/0083320320849171.png",
+    "stocks": []
+  },
+  {
+    "id": "174597529720197e",
+    "title": "Mozilla揭示AI编程代理易受恶意代码库欺骗",
+    "summary": "Mozilla安全团队发现，AI编程代理可被看似正常的GitHub仓库欺骗，从而在开发者设备上执行恶意软件并导致敏感信息泄露。",
+    "body": "Mozilla的0din安全团队近日展示了一种针对AI编程代理的新型攻击手法。攻击者通过构建看似干净且无安全警告的GitHub仓库，诱导AI代理（如Claude Code）在初始化项目时执行恶意代码。AI代理在处理README等文件时，会按照指示配置环境并运行恶意脚本，从而绕过常规安全检查。\n\n这种攻击利用了AI代理的自动化和辅助特性，使其在不知不觉中协助安装恶意软件。一旦攻击成功，攻击者即可完全控制开发者的设备与账户，窃取API密钥、代码、密码等核心机密，甚至植入后门以维持长期访问权限。\n\n研究人员指出，目前市面上几乎所有的AI编程代理都容易受到此类攻击的威胁。这一发现凸显了AI工具在深度融入软件开发流程时所引入的新型供应链与端点安全隐患，亟需引起开发者与安全业界的重视。",
+    "category": "网络安全",
+    "tags": [
+      "AI安全",
+      "恶意软件",
+      "供应链攻击",
+      "Claude"
+    ],
+    "source": "Tom's Hardware",
+    "time": "1小时前",
+    "ts": "2026-06-28T11:30:00+00:00",
+    "url": "https://www.tomshardware.com/tech-industry/cyber-security/ai-coding-agents-can-be-tricked-into-installing-malware-via-clean-github-repositories-mozillas-0din-team-shows-how-claude-code-can-be-exploited-by-its-own-helpfulness",
+    "image": "https://cdn.mos.cms.futurecdn.net/ScT7C9WsuqruarWf3kSRRG-1280-80.jpg",
+    "stocks": []
+  },
+  {
+    "id": "6dfee19cf8e6fa6d",
+    "title": "韩国全民创业大赛曝数据泄露，五千名参赛者信息遭黑客窃取",
+    "summary": "韩国政府主导的“全民创业大赛”发生严重数据泄露，约5000名入选者的敏感信息遭黑客窃取。初步调查显示，负责项目的AI供应商遭黑客攻击，黑客利用异常API调用窃取了系统数据。",
+    "body": "由韩国政府主导的大型创业选拔项目“全民创业大赛”近日爆出严重信息泄露事件。该大赛共吸引约6.3万人报名，其中约5000名第一阶段入选者的个人信息、创业创意摘要及评审意见等高度敏感内容均遭外泄。事件起因是多名晋级参赛者收到准确掌握其非公开信息的营销邮件，引发数据被非法出售的怀疑。\n\n随着调查推进，韩国相关部门联合对可疑IP地址展开深入调查。初步结果显示，泄露并非内部人员倒卖，而是负责项目的某家AI解决方案供应商遭到黑客攻击。黑客疑似通过绕过后台权限验证机制，并利用异常API调用方式非法访问并窃取了系统中的加密数据。此事件再次凸显了API安全与数据隐私保护在数字化项目中的关键作用。",
+    "category": "网络安全",
+    "tags": [
+      "数据泄露",
+      "黑客攻击",
+      "API安全",
+      "隐私保护"
+    ],
+    "source": "IT之家",
+    "time": "1小时前",
+    "ts": "2026-06-28T11:20:14+00:00",
+    "url": "https://www.ithome.com/0/969/694.htm",
+    "image": "",
+    "stocks": []
+  },
+  {
     "id": "457f6d7ff7490f52",
     "title": "悟空安全上线“弹必赔”，主打“0添加”安全软件",
     "summary": "悟空安全推出“弹必赔”功能与“0添加”理念，通过AI识别提升弹窗拦截效率，致力于提供纯净的电脑使用体验。",
@@ -67372,11 +67735,11 @@ const newsData = [
   }
 ];
 const newsDigest = {
-  "text": "今日科技界聚焦具身智能规模化部署、车企自研智驾芯片及AI大模型迭代，利好机器人、智能汽车与人工智能产业链。同时，汽车安全新国标实施推动新能源产业升级。",
+  "text": "今日科技前沿聚焦硬科技突破与生态融合。龙芯发布16核服务器处理器，利好国产算力；华为鸿蒙生态扩容，联合支付宝推NFC交通卡，利好鸿蒙产业链；AI赋能医疗引关注；SpaceX发射重型卫星，利好商业航天。",
   "highlights": [
-    "9ba8ae8ea483c60c",
-    "e38ea5bef0c07c58",
-    "c279804d6b5e46cc",
-    "34b362c9e915452e"
+    "d8fd92b519ff708a",
+    "36c6a8e4851ae443",
+    "ab608464a336e925",
+    "bdd3eb9b3e58ead1"
   ]
 };
