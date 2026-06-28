@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
-AI 富化管线:抓取英文新闻 -> 用 Qwen 翻译/改写/分类/关联 -> 写中文 news_data_latest.js
-- 模型:qwen3.7-max(阿里云 Anthropic 兼容端点),key 取环境变量 QWEN_KEY
+AI 富化管线:抓取英文新闻 -> 用 Kimi/Qwen 翻译/改写/分类/关联 -> 写中文 news_data_latest.js
+- 默认模型:kimi-for-coding(Kimi Coding Plan Anthropic 兼容端点),key 取环境变量 KIMI_KEY
 - 仅用标准库,无需 pip 依赖(与 GitHub Action 保持一致)
 - 原则:股票只输出 名称+代码+关联理由,绝不编造价格/涨跌
 """
@@ -20,7 +20,7 @@ from concurrent.futures import ThreadPoolExecutor
 from fetch_rss import fetch_all  # RSS 抓取(免费、无配额,英文国际源)
 
 KEEP = int(os.environ.get('AID_KEEP', 2000))  # 每个板块的累计上限(到顶才淘汰该板块最旧;可环境变量覆盖)
-CAP = int(os.environ.get('AID_CAP', 50))       # 单次最多富化多少条新条目(封顶 Qwen 成本;可覆盖)
+CAP = int(os.environ.get('AID_CAP', 50))       # 单次最多富化多少条新条目(封顶模型成本;可覆盖)
 MIN_SOURCE_CHARS = 80                          # 原始材料太少时先补抓,仍不足则不入库
 MIN_SUMMARY_CHARS = 20
 MIN_BODY_CHARS = 50
@@ -42,9 +42,14 @@ def ts_key(it):
     except Exception:
         return 0.0
 
+ENRICH_PROVIDER = os.environ.get('ENRICH_PROVIDER', 'kimi').strip().lower()
 QWEN_KEY = os.environ.get('QWEN_KEY', '')
-QWEN_URL = "https://token-plan.cn-beijing.maas.aliyuncs.com/apps/anthropic/v1/messages"
-QWEN_MODEL = "qwen3.7-max"
+QWEN_URL = os.environ.get('QWEN_URL', "https://token-plan.cn-beijing.maas.aliyuncs.com/apps/anthropic/v1/messages")
+QWEN_MODEL = os.environ.get('QWEN_MODEL', "qwen3.7-max")
+KIMI_KEY = os.environ.get('KIMI_KEY') or os.environ.get('MOONSHOT_API_KEY', '')
+KIMI_CODING_BASE_URL = os.environ.get('KIMI_CODING_BASE_URL', 'https://api.kimi.com/coding').rstrip('/')
+KIMI_URL = os.environ.get('KIMI_URL', f"{KIMI_CODING_BASE_URL}/v1/messages")
+KIMI_MODEL = os.environ.get('KIMI_MODEL', 'kimi-for-coding')
 
 CATEGORIES = ['人工智能', 'AI 基础设施', '半导体与先进制造', '机器人', '商业航天',
               '生物医药', '量子科技', '未来能源', '新材料', '脑机接口', '网络安全',
@@ -159,11 +164,11 @@ def is_usable_chinese_item(item):
     return True
 
 
-def call_qwen(prompt, max_tokens=1500, system=None, retries=2):
-    """调用 Qwen(Anthropic 协议),返回纯文本。失败抛异常。"""
-    if not QWEN_KEY:
-        raise RuntimeError('缺少环境变量 QWEN_KEY')
-    body = {"model": QWEN_MODEL, "max_tokens": max_tokens,
+def call_anthropic_compat(url, key, model, auth_mode, prompt, max_tokens=1500, system=None, retries=2):
+    """调用 Anthropic 兼容 messages 接口,返回纯文本。失败抛异常。"""
+    if not key:
+        raise RuntimeError(f'缺少环境变量 {auth_mode["env"]}')
+    body = {"model": model, "max_tokens": max_tokens,
             "messages": [{"role": "user", "content": prompt}]}
     if system:
         body["system"] = system
@@ -171,11 +176,12 @@ def call_qwen(prompt, max_tokens=1500, system=None, retries=2):
     last = None
     for i in range(retries):
         try:
-            req = urllib.request.Request(QWEN_URL, data=data, headers={
-                "x-api-key": QWEN_KEY,
+            headers = {
                 "anthropic-version": "2023-06-01",
                 "content-type": "application/json",
-            })
+            }
+            headers[auth_mode["header"]] = f"Bearer {key}" if auth_mode.get("bearer") else key
+            req = urllib.request.Request(url, data=data, headers=headers)
             with urllib.request.urlopen(req, timeout=45) as r:
                 d = json.loads(r.read().decode('utf-8'))
             return ''.join(b.get('text', '') for b in d.get('content', []) if isinstance(b, dict))
@@ -184,6 +190,19 @@ def call_qwen(prompt, max_tokens=1500, system=None, retries=2):
             if i < retries - 1:
                 time.sleep(2 * (i + 1))
     raise last
+
+
+def call_model(prompt, max_tokens=1500, system=None, retries=2):
+    """默认 Kimi 富化;设置 ENRICH_PROVIDER=qwen 可退回 Qwen。"""
+    if ENRICH_PROVIDER in ('qwen', 'qwen3'):
+        return call_anthropic_compat(
+            QWEN_URL, QWEN_KEY, QWEN_MODEL,
+            {'header': 'x-api-key', 'env': 'QWEN_KEY'},
+            prompt, max_tokens=max_tokens, system=system, retries=retries)
+    return call_anthropic_compat(
+        KIMI_URL, KIMI_KEY, KIMI_MODEL,
+        {'header': 'authorization', 'bearer': True, 'env': 'KIMI_KEY'},
+        prompt, max_tokens=max_tokens, system=system, retries=retries)
 
 
 def extract_json(text):
@@ -242,7 +261,7 @@ def enrich_one(n):
 原文材料:{material}
 """
     try:
-        out = extract_json(call_qwen(prompt, max_tokens=1500, system=ENRICH_SYS))
+        out = extract_json(call_model(prompt, max_tokens=1500, system=ENRICH_SYS))
         if out.get('skip') is True:
             print(f"  ⚠️ 非前沿科技相关,跳过「{n.get('title','')[:40]}」")
             return None
@@ -289,7 +308,7 @@ def make_digest(items):
 {lines}
 """
     try:
-        out = extract_json(call_qwen(prompt, max_tokens=600, system=ENRICH_SYS))
+        out = extract_json(call_model(prompt, max_tokens=600, system=ENRICH_SYS))
         valid_ids = {str(n.get('id', '')) for n in items[:20]}
         hl = [str(x) for x in (out.get('highlights') or []) if str(x) in valid_ids][:5]
         return {'text': out.get('text', ''), 'highlights': hl}
@@ -385,7 +404,7 @@ def main():
         return
 
     new = new[:CAP]
-    print(f"开始 Qwen 富化 {len(new)} 条新条目(并发,单次封顶 {CAP})...")
+    print(f"开始 {ENRICH_PROVIDER} 富化 {len(new)} 条新条目(并发,单次封顶 {CAP})...")
     with ThreadPoolExecutor(max_workers=6) as ex:   # 并发调用,避免顺序累加拖很久
         enriched_new = [n for n in ex.map(enrich_one, new) if n]
     if not enriched_new:

@@ -27,8 +27,11 @@ jobs:
         with:
           python-version: '3.11'
 
-      - name: 抓取 + Qwen 中文 AI 富化（仅用标准库，无需 pip 依赖）
+      - name: 抓取 + Kimi 中文 AI 富化（仅用标准库，无需 pip 依赖）
         env:
+          ENRICH_PROVIDER: kimi
+          KIMI_KEY: ${{ secrets.KIMI_KEY }}
+          KIMI_MODEL: kimi-for-coding
           QWEN_KEY: ${{ secrets.QWEN_KEY }}
         run: python3 enrich_news.py
 

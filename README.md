@@ -1,6 +1,6 @@
 # 前沿科技日报 (ai-daily-v3)
 
-AI 驱动的中文科技日报。每小时抓取中外科技 RSS → Qwen 翻译/摘要/分类 + 推断利好标的 → 自动部署。点新闻里的标的可看实时行情。
+AI 驱动的中文科技日报。每小时抓取中外科技 RSS → Kimi 翻译/摘要/分类 + 推断关联标的 → 自动部署。点新闻里的标的可看实时行情。
 
 线上:https://ai-daily-v3.vercel.app
 
@@ -12,7 +12,7 @@ GitHub Action(`.github/workflows/update-news.yml`,`cron: 17 * * * *`)：
 fetch_rss.py 抓多路中外科技 RSS
   → enrich_news.py:
       · 按 URL 对 seen_urls.json 去重,只处理没见过的新条目
-      · 每条调 Qwen(qwen3.7-max)→ 中文标题/摘要/正文 + 分类 + 标签 + 关联标的
+      · 每条调 Kimi(kimi-for-coding)→ 中文标题/摘要/正文 + 分类 + 标签 + 关联标的
       · 非科技/科学/前沿产业/地缘科技相关内容直接跳过
       · 单次最多富化 50 条(CAP);累计并入历史、带 ts 时间戳按时间倒序;每个板块各留最新 KEEP=2000 条(到顶才淘汰该板块最旧)
       · 生成今日综述 newsDigest
@@ -46,7 +46,7 @@ fetch_rss.py 抓多路中外科技 RSS
 - **加/删数据源**:`fetch_rss.py` 的 `FEEDS` 列表(每项 `(来源名, RSS地址, 默认分类)`)。每源取多少条改 `PER_FEED`。
 - **每小时富化上限 / 每板块累计上限**:`enrich_news.py` 顶部 `CAP`(默认 50)、`KEEP`(默认 2000,**按板块**);也可用环境变量 `AID_CAP` / `AID_KEEP` 覆盖(如一次性补量:`AID_CAP=200 python3 enrich_news.py`)。
 - **更新频率**:`.github/workflows/update-news.yml` 的 `cron`。
-- **新闻富化模型**:`enrich_news.py` 的 `QWEN_MODEL` / `QWEN_URL`(阿里云 Anthropic 兼容端点)。
+- **新闻富化模型**:`enrich_news.py` 默认 `ENRICH_PROVIDER=kimi`,使用 `KIMI_KEY` / `KIMI_MODEL=kimi-for-coding`;如需回退可设 `ENRICH_PROVIDER=qwen`。
 - **问 AI 模型**:`api/chat.js` 默认 Qwen;Vercel 设 `CHAT_PROVIDER=kimi` 后走 Kimi。
 - **分类与封面配色**:`assets/app.js` 的 `CATS`;`enrich_news.py` 的 `CATEGORIES`(两处分类要一致)。
 
@@ -77,14 +77,14 @@ fetch_rss.py 抓多路中外科技 RSS
 ## 部署 / Secrets
 
 - GitHub→Vercel 自动部署未接通,改由 Action 内 `vercel --prod` 部署。
-- 仓库 Secrets(GitHub Actions 用):`QWEN_KEY`、`VERCEL_TOKEN`、`VERCEL_ORG_ID`、`VERCEL_PROJECT_ID`。
+- 仓库 Secrets(GitHub Actions 用):`KIMI_KEY`、`QWEN_KEY`、`VERCEL_TOKEN`、`VERCEL_ORG_ID`、`VERCEL_PROJECT_ID`。
 - Vercel 环境变量(serverless 函数用):`QWEN_KEY`;若切 Kimi Coding Plan,加 `CHAT_PROVIDER=kimi`、`KIMI_KEY`;若切普通 Moonshot API,加 `CHAT_PROVIDER=kimi`、`KIMI_API_STYLE=openai`、`MOONSHOT_API_KEY`。
 - 本地手动部署:`npx vercel deploy --prod --token <VERCEL_TOKEN>`。
 
 ## 成本
 
 抓取 / 调度(GitHub Action 公开仓库)/ 托管(Vercel)/ RSS / 新浪行情 —— 全免费。
-唯一按量计费:Qwen(每小时只翻新条目,无新闻的小时近 0)。
+唯一按量计费:Kimi/Qwen 模型调用(每小时只富化新条目,无新闻的小时近 0)。
 
 ## 已知限制
 
