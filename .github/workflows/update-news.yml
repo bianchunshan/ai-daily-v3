@@ -2,8 +2,9 @@ name: 每小时更新新闻
 
 on:
   schedule:
-    # 避开 GitHub Actions 整点高峰，降低 schedule 延迟/丢触发概率。
-    - cron: '17 * * * *'       # 每小时运行一次（RSS 免费无配额；只富化新条目）
+    # GitHub Actions schedule 会漏触发/延迟；一小时多个非整点触发做兜底。
+    # 若没有新 URL，脚本会提前退出；若数据无变化，提交和部署也会跳过。
+    - cron: '17,37,57 * * * *'
   workflow_dispatch: {}        # 支持在 Actions 页面手动触发
 
 permissions:
