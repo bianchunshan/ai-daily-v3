@@ -1204,44 +1204,6 @@ const newsData = [
     ]
   },
   {
-    "id": "b85c2ad35e648213",
-    "title": "舍弗勒深度布局人形机器人，覆盖45家厂商",
-    "summary": "德国汽车零部件巨头舍弗勒正与45家人形机器人公司合作，其轴承、减速器、传感器、执行器等核心部件可占人形机器人BOM成本约50%，目标获取10%市场份额。公司市值约74.7亿欧元，但背负51.4亿欧元债务。",
-    "body": "舍弗勒（Schaeffler）作为欧洲老牌汽车零部件供应商，正成为人形机器人产业链的关键参与者。据披露，该公司已与45家人形机器人企业建立合作关系，产品线覆盖轴承、齿轮箱、传感器/ECU、执行器及电力电子等核心部件，这些零部件合计约占人形机器人物料成本（BOM）的50%。公司管理层目标在该领域获取10%的市场份额，但到2030年的收入预测仅为数亿欧元，被分析认为过于保守。\n\n当前人形机器人业务对舍弗勒整体营收贡献仍不足1%，市场更关注存储、MLCC等即时瓶颈环节。然而，随着特斯拉Optimus等项目的推进，以及台积电董事长将\"AI+汽车\"列为增长方向，汽车供应链与机器人供应链的融合趋势日益明显。业内认为，下游出现类似ChatGPT的杀手级应用领导者后，将带动整个机器人生态系统的估值重估。日本纳博特斯克（Nabtesco）在关节减速器领域、中国三花智控在特斯拉Optimus供应链中同样占据关键位置。",
-    "category": "机器人",
-    "tags": [
-      "人形机器人",
-      "汽车零部件",
-      "具身智能",
-      "减速器"
-    ],
-    "source": "Serenity X",
-    "time": "5小时前",
-    "ts": "2026-06-28T09:32:04+00:00",
-    "url": "https://nitter.net/aleabitoreddit/status/2071164721299112316#m",
-    "image": "https://nitter.net/pic/media%2FHL5BVOJawAAjQ1L.jpg",
-    "stocks": [
-      {
-        "name": "舍弗勒",
-        "ticker": "SHA0.DE",
-        "reason": "与45家人形机器人公司合作，核心部件占BOM约50%",
-        "confidence": "high"
-      },
-      {
-        "name": "纳博特斯克",
-        "ticker": "6268.T",
-        "reason": "人形机器人关节减速器核心供应商",
-        "confidence": "medium"
-      },
-      {
-        "name": "三花智控",
-        "ticker": "002050.SZ",
-        "reason": "特斯拉Optimus供应链参与者",
-        "confidence": "medium"
-      }
-    ]
-  },
-  {
     "id": "2eb2c349dc9d1ed6",
     "title": "欧几里得望远镜拍摄迄今最详细银河系中心图像",
     "summary": "欧几里得空间望远镜成功拍摄了银河系中心的高清照片，捕捉到超过6000万颗恒星，展现了银河系拥挤的心脏。",
@@ -1738,50 +1700,6 @@ const newsData = [
     ]
   },
   {
-    "id": "1fbd90759b617215",
-    "title": "谷歌算力限制拖累Meta，AI基建缺口凸显",
-    "summary": "据报道，谷歌因自身算力紧张于2026年3月限制向Meta提供云计算资源，导致Meta此前紧急签约Neocloud等第三方云服务商。谷歌CEO在财报中承认，算力不足使其云业务积压订单几乎翻倍，无法承接更多客户需求。",
-    "body": "据社交媒体消息，谷歌（Google）因计算资源受限，于2026年3月限制了向Meta提供的云计算容量，这解释了Meta此前为何与Neocloud等第三方云服务商签署大规模协议。谷歌CEO在最新财报电话会议中表示，算力瓶颈导致谷歌云无法满足更多客户需求，该部门订单积压量较上季度几乎翻倍。\n\n这一事件揭示了超大规模云服务商（hyperscaler）之间算力互济的脆弱性。即便行业巨头之间也难以在算力紧张时相互支援，进一步印证了AI基础设施供给远滞后于市场需求的现实。分析人士认为，这将加速各大科技公司自建或外采数据中心产能的步伐，AI数据中心资本开支（capex）建设周期有望持续延长。",
-    "category": "AI 基础设施",
-    "tags": [
-      "算力瓶颈",
-      "云计算",
-      "数据中心",
-      "AI资本开支"
-    ],
-    "source": "Serenity X",
-    "time": "7小时前",
-    "ts": "2026-06-28T07:37:26+00:00",
-    "url": "https://nitter.net/aleabitoreddit/status/2071135874100990438#m",
-    "image": "https://nitter.net/pic/media%2FHL4mNPiasAA9jbQ.jpg",
-    "stocks": [
-      {
-        "name": "Meta Platforms",
-        "ticker": "META",
-        "reason": "算力受限倒逼其加速多元化云布局，长期自建需求强化",
-        "confidence": "medium"
-      },
-      {
-        "name": "Nebius Group",
-        "ticker": "NBIS",
-        "reason": "Meta已签约的第三方Neocloud服务商，直接受益于云算力外溢需求",
-        "confidence": "high"
-      },
-      {
-        "name": "英伟达",
-        "ticker": "NVDA",
-        "reason": "AI算力缺口持续扩大，GPU及全栈基础设施需求获支撑",
-        "confidence": "high"
-      },
-      {
-        "name": "谷歌-A",
-        "ticker": "GOOGL",
-        "reason": "云业务积压订单翻倍反映算力供不应求，但短期受限制约收入增长",
-        "confidence": "medium"
-      }
-    ]
-  },
-  {
     "id": "06b62ab727b87e94",
     "title": "惠普暗影精灵MAX 16新增RTX5070Ti版，售19999元",
     "summary": "惠普为暗影精灵MAX 16笔记本新增搭载Ultra 7处理器与RTX5070Ti显卡的新版本，官方定价19999元。",
@@ -2192,32 +2110,6 @@ const newsData = [
         "ticker": "QCOM",
         "reason": "新品搭载第五代骁龙8至尊版移动平台，有助于提振其高端移动芯片出货量。",
         "confidence": "medium"
-      }
-    ]
-  },
-  {
-    "id": "76320b393b58419d",
-    "title": "智谱AI网络安全模型匹敌Anthropic",
-    "summary": "据《华尔街日报》报道，中国智谱AI在网络安全漏洞挖掘等基准测试上已匹配Anthropic的Mythos模型水平，引发关于AI模型蒸馏与安全防护的争议。",
-    "body": "据《华尔街日报》报道，中国人工智能公司智谱AI（Zhipu AI）在特定基准测试中已匹配美国Anthropic公司Mythos模型的表现，尤其是在网络安全漏洞挖掘（exploiting cybersecurity bugs）方面。这一消息引发了业界对AI竞赛格局的讨论。\n\n报道同时指出，Anthropic被批评在模型安全防护方面存在疏漏，未能设置足够的护栏以防止模型蒸馏（distillation）。有传言称，在Anthropic的Fable模型发布前，中国方面已存在通过后门获取其技术路径的传闻。分析人士认为，美国科技巨头投入数万亿美元资本开支以加速构建AI护城河，但若因API调用等渠道导致核心技术被轻易获取，将削弱其竞争优势。\n\n该事件折射出中美AI竞争背景下，模型安全、知识产权保护与开源闭源策略之间的深层张力。",
-    "category": "网络安全",
-    "tags": [
-      "人工智能",
-      "模型安全",
-      "AI蒸馏",
-      "中美科技竞争"
-    ],
-    "source": "Serenity X",
-    "time": "11小时前",
-    "ts": "2026-06-28T03:34:17+00:00",
-    "url": "https://nitter.net/aleabitoreddit/status/2071074680253911267#m",
-    "image": "https://nitter.net/pic/media%2FHL3vcVIb0AALrCJ.jpg",
-    "stocks": [
-      {
-        "name": "Anthropic（未上市）",
-        "ticker": "未上市",
-        "reason": "事件直接涉及方，但公司未上市，无公开交易股票",
-        "confidence": "high"
       }
     ]
   },
@@ -4783,39 +4675,6 @@ const newsData = [
     "stocks": []
   },
   {
-    "id": "7aed17eb8d81ce18",
-    "title": "机器人投资激增，人形机器人产业链迎IPO窗口",
-    "summary": "据a16z援引PitchBook数据，2025年3月机器人领域交易数量与金额均大幅飙升。当前投资多集中于上游零部件及亚马逊、特斯拉等巨头内部项目，纯人形机器人公司预计2027年前后迎来全球IPO季。",
-    "body": "a16z援引PitchBook最新数据显示，2025年3月机器人赛道的交易数量与融资金额均呈爆发式增长，标志着该领域正成为继生成式AI之后的新一轮投资热点。值得注意的是，现有人形机器人产业链与AI数据中心基础设施存在显著交叉——例如DRAM/NAND存储芯片可复用于人形机器人的推理与数据存储，DFB激光器及光电子器件可支撑FMCW LiDAR等视觉感知方案。这意味着此前布局AI算力产业链的投资者，已间接获得人形机器人赛道的敞口。当前市场投资仍主要集中于上游核心零部件环节，以及亚马逊、特斯拉等科技巨头的内部机器人项目。随着技术成熟度提升与商业化落地加速，纯人形机器人及机器人本体企业有望于2025年下半年至2027年开启全球IPO窗口，产业链资本化进程将显著提速。",
-    "category": "机器人",
-    "tags": [
-      "人形机器人",
-      "投融资",
-      "IPO",
-      "产业链",
-      "LiDAR"
-    ],
-    "source": "Serenity X",
-    "time": "1天前",
-    "ts": "2026-06-27T08:42:45+00:00",
-    "url": "https://nitter.net/aleabitoreddit/status/2070789923108798545#m",
-    "image": "https://nitter.net/pic/media%2FHLzsdNHawAAxE0v.jpg",
-    "stocks": [
-      {
-        "name": "特斯拉",
-        "ticker": "TSLA",
-        "reason": "拥有Optimus人形机器人项目，为当前人形机器人领域核心玩家之一",
-        "confidence": "high"
-      },
-      {
-        "name": "亚马逊",
-        "ticker": "AMZN",
-        "reason": "内部布局机器人项目，为当前机器人投资主要承载平台之一",
-        "confidence": "medium"
-      }
-    ]
-  },
-  {
     "id": "aa5db8f8cc8124d9",
     "title": "本田CEO为近70年首亏道歉，推进纯电业务重组",
     "summary": "本田CEO三部敏宏在股东大会上为公司近70年来首次年度亏损道歉并连任。受纯电业务重组及中国车企竞争影响，本田计提巨额减记，正寻求与日产等合作以扭转局面。",
@@ -5517,32 +5376,6 @@ const newsData = [
     "url": "https://www.ithome.com/0/969/361.htm",
     "image": "https://img.ithome.com/newsuploadfiles/2026/6/27d965fd-6d79-44f9-84f6-eb092e214a26.jpg?x-bce-process=image/format,f_auto",
     "stocks": []
-  },
-  {
-    "id": "859a73985933ab06",
-    "title": "OpenAI新模型GPT-5.6 Sol在Cerebras芯片上运行",
-    "summary": "OpenAI发布新一代前沿模型GPT-5.6 Sol，该模型在Cerebras的晶圆级芯片上实现每秒750 token的推理速度，性能大幅领先。",
-    "body": "据社交媒体消息，OpenAI正推出名为\"GPT-5.6 Sol\"的重磅前沿模型，该模型运行在Cerebras（CBRS）的专用AI芯片上，推理速度高达每秒750 token，性能表现极为突出。据透露，Sol Ultra版本在编程、工作流任务上超越Mythos 5，在生物计算和网络安全领域亦有提升。这一消息被视为对Cerebras晶圆级引擎（Wafer Scale Engine）技术路线的验证，显示美国本土AI推理基础设施取得重要进展。不过，有投资者认为Cerebras当前估值相较于Jabil等盈利企业已偏高，其溢价主要来自与OpenAI合作的预期。",
-    "category": "人工智能",
-    "tags": [
-      "OpenAI",
-      "大模型",
-      "Cerebras",
-      "AI芯片"
-    ],
-    "source": "Serenity X",
-    "time": "1天前",
-    "ts": "2026-06-27T06:22:38+00:00",
-    "url": "https://nitter.net/aleabitoreddit/status/2070754658868687086#m",
-    "image": "https://nitter.net/pic/media%2FHLzMYpubAAAMmbB.jpg",
-    "stocks": [
-      {
-        "name": "Cerebras Systems",
-        "ticker": "CBRS",
-        "reason": "OpenAI新模型在其晶圆级芯片上运行，技术路线获验证",
-        "confidence": "high"
-      }
-    ]
   },
   {
     "id": "89a9a70c6380d1b2",
@@ -6382,38 +6215,6 @@ const newsData = [
     "url": "https://www.ithome.com/0/969/322.htm",
     "image": "https://img.ithome.com/newsuploadfiles/2026/6/c7a54a1e-4a87-41e1-a87a-a4c8f33c71a1.png?x-bce-process=image/format,f_auto",
     "stocks": []
-  },
-  {
-    "id": "c8615ca1a18def91",
-    "title": "马斯克收购光网络初创公司Mesh",
-    "summary": "Elon Musk旗下SpaceX收购光学网络初创公司Mesh，该公司专注于1.6T OSFP可插拔光模块的光引擎与封装技术，标志着超大规模算力集群对高速光互联需求的持续升温。",
-    "body": "据市场消息，Elon Musk已通过SpaceX收购光学网络初创公司Mesh。Mesh专注于下一代高速光互联技术，正在开发1.6T OSFP可插拔光模块，其核心能力覆盖光引擎设计与封装环节，CW DFB激光器则预计外购自商用供应商。此次收购延续了近期光通信领域的并购趋势，此前Marvell已收购Celestial等同类初创公司。Musk直接下场收购光互联企业，进一步验证了高速光互联在超大规模AI算力集群中的战略地位，也为商用激光器供应商及光模块产业链带来增量需求与估值提升空间。",
-    "category": "AI 基础设施",
-    "tags": [
-      "光模块",
-      "光互联",
-      "SpaceX",
-      "算力网络"
-    ],
-    "source": "Serenity X",
-    "time": "1天前",
-    "ts": "2026-06-27T02:11:30+00:00",
-    "url": "https://nitter.net/aleabitoreddit/status/2070691462354993543#m",
-    "image": "https://nitter.net/pic/media%2FHLyS6BAbAAAYW8N.jpg",
-    "stocks": [
-      {
-        "name": "Lumentum",
-        "ticker": "LITE",
-        "reason": "作为CW DFB激光器主要商用供应商之一，有望受益于Mesh等光模块初创公司的激光器外购需求",
-        "confidence": "medium"
-      },
-      {
-        "name": "MACOM",
-        "ticker": "MTSI",
-        "reason": "具备CW DFB激光器供应能力，历史上与光通信客户有合作基础",
-        "confidence": "medium"
-      }
-    ]
   },
   {
     "id": "33c35e3ba80030f5",
@@ -11759,25 +11560,6 @@ const newsData = [
     ]
   },
   {
-    "id": "f2b6e1803f116ce3",
-    "title": "DeepSeek低价冲击美国AI市场，UBS报告证实趋势",
-    "summary": "UBS报告指出，越来越多美国初创企业因成本优势选择中国DeepSeek等模型，而非Gemini、OpenAI和Anthropic等美国推理模型，引发业界对美国AI竞争力及模型蒸馏风险的讨论。",
-    "body": "据社交媒体信息，UBS报告证实了一个日益明显的趋势：大量美国初创公司和企业在采用AI时，正转向使用DeepSeek等中国模型，原因在于其单任务成本远低于Gemini、OpenAI和Anthropic等美国主流推理模型。这一现象在美国资本主义市场环境下形成悖论——企业自然追求更低成本，却可能削弱本土AI产业生态。\n\n该讨论还涉及模型蒸馏争议。有观点指出，Anthropic等美国前沿模型正被竞争对手频繁蒸馏，建议采取更严格的身份验证机制（如生物识别+短期授权）防止未授权访问，并呼吁美国政府立法禁止类似银行账户伪造的共享行为。此外，特朗普政府暂停部分模型访问权限被视为应对举措之一，但业界认为美国AI企业仍需通过技术优化实现根本性超越。",
-    "category": "人工智能",
-    "tags": [
-      "DeepSeek",
-      "模型蒸馏",
-      "中美AI竞争",
-      "大模型成本"
-    ],
-    "source": "Serenity X",
-    "time": "2天前",
-    "ts": "2026-06-26T13:06:00+00:00",
-    "url": "https://nitter.net/aleabitoreddit/status/2070493783804813451#m",
-    "image": "https://nitter.net/pic/media%2FHLvfHq9b0AA_HK0.jpg",
-    "stocks": []
-  },
-  {
     "id": "f5934ad44938648d",
     "title": "联合创新发布首批49英寸直面屏显示器，首发4499元起",
     "summary": "联合创新推出全球首批49英寸32:9直面屏显示器，采用Mini LED背光技术，首发价4499元起。",
@@ -13509,44 +13291,6 @@ const newsData = [
     ]
   },
   {
-    "id": "e9c07eb8eb100962",
-    "title": "马斯克警告存储芯片严重短缺",
-    "summary": "马斯克公开指出存储芯片需求远超供应，美光、SK海力士和三星面临巨大产能缺口与涨价压力。他呼吁大幅提高存储芯片产量以缓解瓶颈。",
-    "body": "特斯拉CEO埃隆·马斯克在社交媒体发声，警告存储芯片行业正面临严重的供需失衡。他表示，当前存储芯片的生产缺口\"极为疯狂\"，需要大幅提高产量。马斯克特别提及美光（Micron）、SK海力士和三星三家主要存储厂商，指出其产品正经历大规模需求增长与价格飙升。由于马斯克旗下xAI公司正在建设大规模AI算力集群，其对存储芯片尤其是HBM（高带宽内存）的供需状况具有高于市场的能见度。这一表态强化了市场对AI算力基础设施上游存储环节持续紧张的预期，存储芯片作为AI服务器核心组件的战略重要性进一步凸显。",
-    "category": "半导体与先进制造",
-    "tags": [
-      "存储芯片",
-      "HBM",
-      "AI算力",
-      "马斯克"
-    ],
-    "source": "Serenity X",
-    "time": "2天前",
-    "ts": "2026-06-26T07:47:43+00:00",
-    "url": "https://nitter.net/aleabitoreddit/status/2070413682996347069#m",
-    "image": "https://nitter.net/pic/media%2FHLuWQchakAAxqAl.jpg",
-    "stocks": [
-      {
-        "name": "美光科技",
-        "ticker": "MU",
-        "reason": "马斯克直接点名，AI存储需求爆发核心受益者",
-        "confidence": "high"
-      },
-      {
-        "name": "SK海力士",
-        "ticker": "000660.KS",
-        "reason": "全球HBM龙头，AI存储最大供应商",
-        "confidence": "high"
-      },
-      {
-        "name": "三星电子",
-        "ticker": "005930.KS",
-        "reason": "存储芯片巨头，HBM重要供应商",
-        "confidence": "high"
-      }
-    ]
-  },
-  {
     "id": "0d7d6a278c523444",
     "title": "亚马逊Prime Day Kindle全系最高优惠36%",
     "summary": "在亚马逊Prime Day促销活动期间，消费者购买Kindle系列电子书阅读器可享受高达36%的折扣优惠，涵盖多款热门机型。",
@@ -14180,32 +13924,6 @@ const newsData = [
     ]
   },
   {
-    "id": "7012174f580d9c30",
-    "title": "软银股价暴跌13.5% 孙正义AI战略遭质疑",
-    "summary": "软银集团因投资者演示文稿中\"要的是鹅而非蛋\"的表述引发市场担忧，股价可能下跌13.5%。同时OpenAI IPO或推迟至2027年，因奥特曼曾寻求1万亿美元估值。",
-    "body": "软银集团创始人孙正义在投资者演示中以\"要的不是蛋，而是鹅本身\"比喻其AI投资策略，强调对核心资产的控制而非短期回报。然而这一表态引发市场对其投资回报可持续性的担忧，导致软银股价可能大跌13.5%。市场解读认为，孙正义的激进AI布局可能面临估值过高、盈利周期过长等风险。\n\n与此同时，OpenAI的IPO计划可能推迟至2027年。此前CEO山姆·奥特曼曾寻求1万亿美元的估值目标，这一过高的估值预期被认为是IPO延迟的潜在因素之一。OpenAI作为软银AI投资组合中的关键标的，其上市进程放缓可能进一步影响软银的退出路径和资金周转。\n\n此次股价剧烈波动反映出市场对AI投资泡沫的警惕情绪升温。软银近年大举押注AI领域，包括持有ARM、投资OpenAI等，但多数标的尚未实现盈利，投资者对其\"长期主义\"叙事的耐心正在经受考验。",
-    "category": "人工智能",
-    "tags": [
-      "软银集团",
-      "OpenAI",
-      "AI投资",
-      "IPO"
-    ],
-    "source": "Serenity X",
-    "time": "2天前",
-    "ts": "2026-06-26T05:06:59+00:00",
-    "url": "https://nitter.net/aleabitoreddit/status/2070373235452162540#m",
-    "image": "https://nitter.net/pic/media%2FHLtxeuSbIAAhGYk.jpg",
-    "stocks": [
-      {
-        "name": "软银集团",
-        "ticker": "9984.T",
-        "reason": "股价直接受投资者演示内容冲击，市场质疑其AI投资策略可持续性",
-        "confidence": "high"
-      }
-    ]
-  },
-  {
     "id": "94b6cbc8e4eaafaa",
     "title": "土耳其补时绝杀美国 送其2026世界杯首败",
     "summary": "在2026年世界杯的一场无关紧要的比赛中，土耳其队凭借卡安·艾汉在补时阶段的进球绝杀美国队，送给对手首败。",
@@ -14718,50 +14436,6 @@ const newsData = [
     "url": "https://www.wired.com/story/anthropic-thinks-ai-can-only-be-safe-under-its-control/",
     "image": "https://media.wired.com/photos/6a3c48b56c59c72c499e0fad/master/pass/Model-Behavior-AI-Safe-Only-With-Anthropic-Business.jpg",
     "stocks": []
-  },
-  {
-    "id": "d8df4b974eec4b2d",
-    "title": "功率半导体龙头集体涨价，AI与新能源驱动需求爆发",
-    "summary": "全球功率半导体行业开启新一轮涨价潮，中国主要厂商扬杰科技、华润微、士兰微等年内二次提价10%-15%，美国AOSL、POWI等标的同步受益。需求端由AI数据中心、能源系统与800V高压电动车共同拉动。",
-    "body": "据Digitimes报道，2025年以来中国主要功率半导体制造商已普遍实施涨价。扬杰科技宣布自7月1日起全产品线提价10%-15%，为年内第二次调价；华润微、士兰微、新洁能等厂商亦跟进涨价。此轮涨价主要由需求驱动而非成本推动，AI数据中心电力需求、新能源系统与800V高压电动车平台成为核心增长引擎。行业分析指出，在800V高压直流架构全面普及前，功率半导体板块已呈现主题性牛市特征。美国标的Alpha and Omega Semiconductor（AOSL）、Power Integrations（POWI）等同频受益。上游原材料领域如铜、锡等有色金属，以及塑封料、化学品和封装耗材企业亦间接受益。本轮涨价验证功率半导体下游需求韧性，同时缓解中国厂商的价格竞争压力，改善全球行业盈利预期。",
-    "category": "半导体与先进制造",
-    "tags": [
-      "功率半导体",
-      "涨价潮",
-      "800V高压平台",
-      "AI数据中心供电"
-    ],
-    "source": "Serenity X",
-    "time": "2天前",
-    "ts": "2026-06-26T00:34:45+00:00",
-    "url": "https://nitter.net/aleabitoreddit/status/2070304723262210194#m",
-    "image": "https://nitter.net/pic/media%2FHLszK3fakAA3Cyp.jpg",
-    "stocks": [
-      {
-        "name": "扬杰科技",
-        "ticker": "300373.SZ",
-        "reason": "中国功率半导体龙头，年内第二次全产品线提价10%-15%，直接受益涨价周期",
-        "confidence": "high"
-      },
-      {
-        "name": "华润微",
-        "ticker": "688396.SH",
-        "reason": "国内IDM龙头功率厂商，已跟进涨价，受益AI与新能源需求拉动",
-        "confidence": "high"
-      },
-      {
-        "name": "士兰微",
-        "ticker": "600460.SH",
-        "reason": "国内功率半导体主要厂商，参与行业集体涨价，产能与需求同步改善",
-        "confidence": "high"
-      },
-      {
-        "name": "Alpha and Omega Semiconductor",
-        "ticker": "AOSL",
-        "reason": "美国功率半导体设计商，推文明确提及的受益标的，主题性看涨",
-        "confidence": "medium"
-      }
-    ]
   },
   {
     "id": "92d19e2a1dbb3e00",
@@ -68550,6 +68224,7 @@ const newsData = [
     "ts": "2026-06-18T22:35:41+08:00"
   }
 ];
+
 const newsDigest = {
   "text": "今日科技前沿聚焦三大主线：AI博弈持续升温，谷歌限制Meta使用Gemini模型，美国AI出口管制倒逼欧洲寻求Anthropic替代；消费电子旺季启动，vivo X300销量破300万台，机械革命、七彩虹等新品密集发布；商业航天与能源领域亦有突破，日本隼鸟2号即将飞掠小行星，宁德时代牵头全球能源循环经济联盟。",
   "highlights": [

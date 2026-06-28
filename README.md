@@ -1,6 +1,6 @@
 # 前沿科技日报 (ai-daily-v3)
 
-AI 驱动的中文科技日报。约每 10 分钟抓取中外科技 RSS/X 源 → Kimi 翻译/摘要/分类 + 推断关联标的 → 自动部署。点新闻里的标的可看实时行情。
+AI 驱动的中文科技日报。约每 10 分钟抓取中外科技 RSS/AIHOT 源 → Kimi 翻译/摘要/分类 + 推断关联标的 → 自动部署。点新闻里的标的可看实时行情。
 
 线上:https://ai-daily-v3.vercel.app
 
@@ -9,7 +9,7 @@ AI 驱动的中文科技日报。约每 10 分钟抓取中外科技 RSS/X 源 �
 GitHub Action(`.github/workflows/update-news.yml`,`cron: 7,17,27,37,47,57 * * * *`)：
 
 ```
-fetch_rss.py 抓多路中外科技 RSS/X 源
+fetch_rss.py 抓多路中外科技 RSS/AIHOT 源
   → enrich_news.py:
       · 按 URL 对 seen_urls.json 去重,只处理没见过的新条目
       · 每条调 Kimi(kimi-for-coding)→ 中文标题/摘要/正文 + 分类 + 标签 + 关联标的
@@ -43,7 +43,7 @@ fetch_rss.py 抓多路中外科技 RSS/X 源
 
 ## 怎么改
 
-- **加/删数据源**:`fetch_rss.py` 的 `FEEDS` 列表(每项 `(来源名, RSS地址, 默认分类)`)。每源取多少条改 `PER_FEED`。
+- **加/删数据源**:`fetch_rss.py` 的 `FEEDS` 列表(每项 `(来源名, RSS地址, 默认分类)`)和 `fetch_aihot_items()`。每源取多少条改 `PER_FEED` / `AIHOT_TAKE`。
 - **单次富化上限 / 每板块累计上限**:`enrich_news.py` 顶部 `CAP`(默认 50)、`KEEP`(默认 2000,**按板块**);也可用环境变量 `AID_CAP` / `AID_KEEP` 覆盖(如一次性补量:`AID_CAP=200 python3 enrich_news.py`)。
 - **更新频率**:`.github/workflows/update-news.yml` 的 `cron`。
 - **新闻富化模型**:`enrich_news.py` 默认 `ENRICH_PROVIDER=kimi`,使用 `KIMI_KEY` / `KIMI_MODEL=kimi-for-coding`;如需回退可设 `ENRICH_PROVIDER=qwen`。

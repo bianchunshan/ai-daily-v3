@@ -6,6 +6,7 @@ RSS 抓取(免费、无配额、无 key)。解析国际科技媒体 RSS/Atom,返
 
 import re
 import html
+import json
 import urllib.request
 import xml.etree.ElementTree as ET
 from datetime import datetime, timezone
@@ -21,7 +22,6 @@ FEEDS = [
     ("MIT Tech Review", "https://www.technologyreview.com/feed/", "人工智能"),
     ("Engadget", "https://www.engadget.com/rss.xml", "消费电子"),
     ("Hacker News", "https://hnrss.org/frontpage", "人工智能"),
-    ("Serenity X", "https://nitter.net/aleabitoreddit/rss", "AI 基础设施"),
     ("Tom's Hardware", "https://www.tomshardware.com/feeds/all", "半导体与先进制造"),
     ("IEEE Spectrum", "https://spectrum.ieee.org/feeds/feed.rss", "AI 基础设施"),
     ("SpaceNews", "https://spacenews.com/feed/", "商业航天"),
@@ -43,6 +43,7 @@ FEEDS = [
 ]
 
 PER_FEED = 15        # 每个源最多取多少条
+AIHOT_TAKE = 30      # AIHOT 精选条目取数
 UA = "Mozilla/5.0 (compatible; ai-daily-bot/1.0; +https://ai-daily-v3.vercel.app)"
 TAG_RE = re.compile(r"<[^>]+>")
 
@@ -176,8 +177,48 @@ def fetch_feed(source, url, default_cat):
     return items
 
 
+def fetch_aihot_items(take=AIHOT_TAKE):
+    """抓 AIHOT 公开精选 AI/科技条目。来源来自历史 Hermes aihot 日报配置。"""
+    url = f"https://aihot.virxact.com/api/public/items?mode=selected&take={take}"
+    req = urllib.request.Request(url, headers={"User-Agent": UA, "Accept": "application/json, */*"})
+    with urllib.request.urlopen(req, timeout=30) as r:
+        data = json.loads(r.read().decode("utf-8"))
+
+    items = []
+    for it in (data.get("items") or [])[:take]:
+        title = clean_text(it.get("title") or it.get("title_en") or "", 220)
+        link = (it.get("url") or it.get("sourceUrl") or it.get("permalink") or "").strip()
+        if not title or not link:
+            continue
+        source_name = clean_text(it.get("source") or it.get("sourceName") or "AIHOT", 120)
+        summary = clean_text(it.get("summary") or "", 420)
+        content = clean_text(f"来源:{source_name}\n{it.get('summary') or ''}", 1400)
+        dt = parse_date(it.get("publishedAt") or it.get("generatedAt") or "")
+        items.append({
+            "title": title,
+            "summary": summary,
+            "content": content,
+            "url": link,
+            "image": "",
+            "source": "AIHOT精选",
+            "time": relative_time(dt),
+            "_ts": dt.isoformat() if dt else "",
+            "category": "人工智能",
+            "tags": [],
+        })
+    return items
+
+
 def fetch_all():
     per_feed = []
+    try:
+        got = fetch_aihot_items()
+        got.sort(key=lambda x: x.get("_ts", ""), reverse=True)
+        print(f"  ✅ AIHOT精选: {len(got)} 条")
+        per_feed.append(got)
+    except Exception as e:
+        print(f"  ⚠️ AIHOT精选 抓取失败: {e}")
+
     for source, url, cat in FEEDS:
         try:
             got = fetch_feed(source, url, cat)
