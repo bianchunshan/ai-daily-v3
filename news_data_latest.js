@@ -1,5 +1,24 @@
 const newsData = [
   {
+    "id": "064435cfcb3bff35",
+    "title": "用户用Claude Code辅助解读MRI影像",
+    "summary": "一名用户在Hacker News分享使用Anthropic旗下Claude Code工具对MRI核磁共振结果进行\"第二意见\"分析的经历，引发对AI辅助医疗诊断应用的关注。",
+    "body": "据Hacker News帖子，有用户尝试使用Anthropic推出的Claude Code编程辅助工具对其MRI核磁共振影像进行解读，以获取\"第二意见\"。这一案例体现了大型语言模型及AI Agent在医疗健康领域的跨界应用探索，用户将原本面向软件开发场景的AI工具用于医学影像辅助分析。尽管该帖子互动数据有限，但其反映的趋势值得关注：AI技术正从通用对话、编程辅助向专业医疗场景渗透，可能推动数字医疗和AI辅助诊断的发展。不过，此类应用也涉及医疗准确性、责任认定和监管合规等重要议题。",
+    "category": "生物医药",
+    "tags": [
+      "AI医疗",
+      "数字医疗",
+      "医学影像",
+      "大模型应用"
+    ],
+    "source": "Hacker News",
+    "time": "12分钟前",
+    "ts": "2026-06-28T16:35:19+00:00",
+    "url": "https://antoine.fi/mri-analysis-using-claude-code-opus",
+    "image": "",
+    "stocks": []
+  },
+  {
     "id": "e8afdcc49a809f8f",
     "title": "SpaceX再发射24颗Starlink卫星，星链总数破万颗",
     "summary": "SpaceX于6月28日从加州范登堡空军基地发射24颗Starlink卫星，使其在轨活跃卫星总数超过10700颗，同时该次任务创下猎鹰9号助推器第17次复用纪录。",
@@ -68873,12 +68892,12 @@ const newsData = [
   }
 ];
 const newsDigest = {
-  "text": "今日科技要闻聚焦三大主线：AI产业博弈白热化，谷歌限制Meta使用Gemini模型，美国收紧AI出口后奥地利紧急游说欧盟接纳Anthropic；存储芯片成为新战场，美光被华尔街捧为\"下一个英伟达\"，联想预警AI需求将长期推高内存价格；消费电子密集迭代，苹果M5芯片MacBook与M5 Ultra Mac Studio加速面世，vivo X300系列销量突破300万台。",
+  "text": "今日科技前沿聚焦三大主线：人工智能应用边界持续拓展，从Claude Code辅助MRI影像解读到ChatGPT记录首次被检方采纳为证据；商业航天与深空探测双轮驱动，SpaceX星链卫星破万颗、日本隼鸟2号即将飞掠小行星；消费电子与半导体产业链共振，苹果M5芯片产品矩阵加速落地，AI需求推高存储价格成行业共识。",
   "highlights": [
-    "82ea35ed86c3d84e",
-    "7be0be9f8f649691",
-    "1e4f72b2e45c8a48",
-    "46bc227ab572b17f",
-    "6a2ac86bd874ba33"
+    "e8afdcc49a809f8f",
+    "6a2ac86bd874ba33",
+    "064435cfcb3bff35",
+    "73d77834b60f6435",
+    "46bc227ab572b17f"
   ]
 };
