@@ -1,15 +1,15 @@
 # 前沿科技日报 (ai-daily-v3)
 
-AI 驱动的中文科技日报。每小时抓取中外科技 RSS → Kimi 翻译/摘要/分类 + 推断关联标的 → 自动部署。点新闻里的标的可看实时行情。
+AI 驱动的中文科技日报。约每 10 分钟抓取中外科技 RSS/X 源 → Kimi 翻译/摘要/分类 + 推断关联标的 → 自动部署。点新闻里的标的可看实时行情。
 
 线上:https://ai-daily-v3.vercel.app
 
-## 它每小时自动做什么
+## 它自动做什么
 
-GitHub Action(`.github/workflows/update-news.yml`,`cron: 17 * * * *`)：
+GitHub Action(`.github/workflows/update-news.yml`,`cron: 7,17,27,37,47,57 * * * *`)：
 
 ```
-fetch_rss.py 抓多路中外科技 RSS
+fetch_rss.py 抓多路中外科技 RSS/X 源
   → enrich_news.py:
       · 按 URL 对 seen_urls.json 去重,只处理没见过的新条目
       · 每条调 Kimi(kimi-for-coding)→ 中文标题/摘要/正文 + 分类 + 标签 + 关联标的
@@ -21,7 +21,7 @@ fetch_rss.py 抓多路中外科技 RSS
   → 有新数据才 git push + vercel --prod 部署
 ```
 
-无新条目的小时:不改文件、不部署。
+无新条目的批次:不改文件、不部署。
 
 ## 文件说明
 
@@ -33,7 +33,7 @@ fetch_rss.py 抓多路中外科技 RSS
 | `assets/theme.css` | 设计系统(含暗色模式) |
 | `assets/app.js` | 前端共享逻辑(分类封面、加载数据、标的标签等) |
 | `fetch_rss.py` | RSS 抓取(纯标准库) |
-| `enrich_news.py` | 抓取→去重→Qwen 富化→写数据(管线主程序) |
+| `enrich_news.py` | 抓取→去重→Kimi 富化→写数据(管线主程序) |
 | `api/quote.js` | Vercel serverless:代理新浪财经取实时行情 |
 | `api/chat.js` | Vercel serverless:AI 对话(服务端召回站内资讯,可切 Qwen/Kimi) |
 | `news_data_latest.js` | 前端读取的数据(`const newsData` + `const newsDigest`),由管线生成 |
@@ -44,10 +44,10 @@ fetch_rss.py 抓多路中外科技 RSS
 ## 怎么改
 
 - **加/删数据源**:`fetch_rss.py` 的 `FEEDS` 列表(每项 `(来源名, RSS地址, 默认分类)`)。每源取多少条改 `PER_FEED`。
-- **每小时富化上限 / 每板块累计上限**:`enrich_news.py` 顶部 `CAP`(默认 50)、`KEEP`(默认 2000,**按板块**);也可用环境变量 `AID_CAP` / `AID_KEEP` 覆盖(如一次性补量:`AID_CAP=200 python3 enrich_news.py`)。
+- **单次富化上限 / 每板块累计上限**:`enrich_news.py` 顶部 `CAP`(默认 50)、`KEEP`(默认 2000,**按板块**);也可用环境变量 `AID_CAP` / `AID_KEEP` 覆盖(如一次性补量:`AID_CAP=200 python3 enrich_news.py`)。
 - **更新频率**:`.github/workflows/update-news.yml` 的 `cron`。
 - **新闻富化模型**:`enrich_news.py` 默认 `ENRICH_PROVIDER=kimi`,使用 `KIMI_KEY` / `KIMI_MODEL=kimi-for-coding`;如需回退可设 `ENRICH_PROVIDER=qwen`。
-- **问 AI 模型**:`api/chat.js` 默认 Qwen;Vercel 设 `CHAT_PROVIDER=kimi` 后走 Kimi。
+- **问 AI 模型**:`api/chat.js` 生产默认 Kimi;Vercel 设 `CHAT_PROVIDER=qwen` 可回退 Qwen。
 - **分类与封面配色**:`assets/app.js` 的 `CATS`;`enrich_news.py` 的 `CATEGORIES`(两处分类要一致)。
 
 ## 分类体系
@@ -69,8 +69,8 @@ fetch_rss.py 抓多路中外科技 RSS
 ## AI 对话(问AI)
 
 底栏「问AI」打开对话面板 → 前端只 POST `{ question }` 给 `/api/chat` → 服务端从 `news_data_latest.js` 召回相关资讯,必要时做网页检索,再交给模型回答。
-- 默认:`CHAT_PROVIDER=qwen`,使用 `QWEN_KEY`,模型 `QWEN_MODEL` 默认 `qwen3.7-max`。
-- Kimi:`CHAT_PROVIDER=kimi`,默认走 Kimi Coding Plan,使用 `KIMI_KEY`,模型 `KIMI_MODEL` 默认 `kimi-for-coding`。
+- 默认:`CHAT_PROVIDER=kimi`,走 Kimi Coding Plan,使用 `KIMI_KEY`,模型 `KIMI_MODEL` 默认 `kimi-for-coding`。
+- Qwen 回退:`CHAT_PROVIDER=qwen`,使用 `QWEN_KEY`,模型 `QWEN_MODEL` 默认 `qwen3.7-max`。
 - 如使用普通 Moonshot OpenAI-compatible API,设 `KIMI_API_STYLE=openai`、`MOONSHOT_API_KEY`;API base 默认 `https://api.moonshot.ai/v1`,中国区可设 `KIMI_BASE_URL=https://api.moonshot.cn/v1`。
 - ⚠️ 该端点公开无鉴权,已有限流,但仍会消耗模型 token。若被刷需加口令或登录态。
 
@@ -78,13 +78,13 @@ fetch_rss.py 抓多路中外科技 RSS
 
 - GitHub→Vercel 自动部署未接通,改由 Action 内 `vercel --prod` 部署。
 - 仓库 Secrets(GitHub Actions 用):`KIMI_KEY`、`QWEN_KEY`、`VERCEL_TOKEN`、`VERCEL_ORG_ID`、`VERCEL_PROJECT_ID`。
-- Vercel 环境变量(serverless 函数用):`QWEN_KEY`;若切 Kimi Coding Plan,加 `CHAT_PROVIDER=kimi`、`KIMI_KEY`;若切普通 Moonshot API,加 `CHAT_PROVIDER=kimi`、`KIMI_API_STYLE=openai`、`MOONSHOT_API_KEY`。
+- Vercel 环境变量(serverless 函数用):`CHAT_PROVIDER=kimi`、`KIMI_KEY`;若回退 Qwen,加 `CHAT_PROVIDER=qwen`、`QWEN_KEY`;若切普通 Moonshot API,加 `CHAT_PROVIDER=kimi`、`KIMI_API_STYLE=openai`、`MOONSHOT_API_KEY`。
 - 本地手动部署:`npx vercel deploy --prod --token <VERCEL_TOKEN>`。
 
 ## 成本
 
 抓取 / 调度(GitHub Action 公开仓库)/ 托管(Vercel)/ RSS / 新浪行情 —— 全免费。
-唯一按量计费:Kimi/Qwen 模型调用(每小时只富化新条目,无新闻的小时近 0)。
+唯一按量计费:Kimi/Qwen 模型调用(每批只富化新条目,无新闻的批次近 0)。
 
 ## 已知限制
 

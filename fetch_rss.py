@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 RSS 抓取(免费、无配额、无 key)。解析国际科技媒体 RSS/Atom,返回英文新闻列表。
-仅用标准库。供 enrich_news.py 调用(再交给 Qwen 翻译富化)。
+仅用标准库。供 enrich_news.py 调用(再交给配置的模型翻译富化)。
 """
 
 import re
@@ -11,7 +11,7 @@ import xml.etree.ElementTree as ET
 from datetime import datetime, timezone
 from email.utils import parsedate_to_datetime
 
-# RSS 源(source 名 + 默认分类兜底,真正分类由 Qwen 判定)。国际源需翻译,中文源直接用。
+# RSS 源(source 名 + 默认分类兜底,真正分类由模型判定)。国际源需翻译,中文源直接用。
 FEEDS = [
     # 国际源
     ("TechCrunch", "https://techcrunch.com/feed/", "人工智能"),
@@ -21,6 +21,7 @@ FEEDS = [
     ("MIT Tech Review", "https://www.technologyreview.com/feed/", "人工智能"),
     ("Engadget", "https://www.engadget.com/rss.xml", "消费电子"),
     ("Hacker News", "https://hnrss.org/frontpage", "人工智能"),
+    ("Serenity X", "https://nitter.net/aleabitoreddit/rss", "AI 基础设施"),
     ("Tom's Hardware", "https://www.tomshardware.com/feeds/all", "半导体与先进制造"),
     ("IEEE Spectrum", "https://spectrum.ieee.org/feeds/feed.rss", "AI 基础设施"),
     ("SpaceNews", "https://spacenews.com/feed/", "商业航天"),

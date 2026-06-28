@@ -1,10 +1,10 @@
-name: 每小时更新新闻
+name: 每10分钟更新新闻
 
 on:
   schedule:
-    # GitHub Actions schedule 会漏触发/延迟；一小时多个非整点触发做兜底。
+    # GitHub Actions schedule 会漏触发/延迟；每 10 分钟非整点触发。
     # 若没有新 URL，脚本会提前退出；若数据无变化，提交和部署也会跳过。
-    - cron: '17,37,57 * * * *'
+    - cron: '7,17,27,37,47,57 * * * *'
   workflow_dispatch: {}        # 支持在 Actions 页面手动触发
 
 permissions:
@@ -59,7 +59,7 @@ jobs:
             echo "changed=false" >> "$GITHUB_OUTPUT"
           else
             git add news_data_latest.js seen_urls.json
-            git commit -m "chore: 每小时自动更新新闻（AI 中文富化）"
+            git commit -m "chore: 自动更新新闻（AI 中文富化）"
             # 防并发:push 被拒就 rebase(本次数据为准)重试,避免两次 run 撞车失败
             pushed=0
             for i in 1 2 3 4 5; do
