@@ -1,5 +1,405 @@
 const newsData = [
   {
+    "id": "2cc9954d4293ba6a",
+    "title": "HMD Asha 305新机现身，经典产品线命名回归",
+    "summary": "HMD Global旗下新机认证文件现身官网，命名为HMD Asha 305，标志着经典Asha产品线命名回归。",
+    "body": "据外媒报道，HMD Global旗下一款型号为TA-1779的新手机认证文件近日现身官网，文件中直接出现了HMD Asha 305的名称。这意味着HMD正计划让诺基亚时代的经典Asha产品线命名重新回归，但新机预计不会带有诺基亚品牌Logo，而是采用HMD Asha标识。\n\n目前认证信息尚未公布完整规格，仅知悉该机将支持LTE网络。结合当年Asha产品线的定位及HMD此前推出的混合型手机，新机有望延续RTOS Touch系统，用户可通过该系统运行云手机服务。作为参考，此前的HMD Touch配备了3.2英寸屏幕、紫光展锐处理器及1950mAh电池。",
+    "category": "消费电子",
+    "tags": [
+      "HMD",
+      "功能机",
+      "消费电子"
+    ],
+    "source": "IT之家",
+    "time": "3分钟前",
+    "ts": "2026-06-28T14:12:42+00:00",
+    "url": "https://www.ithome.com/0/969/726.htm",
+    "image": "https://img.ithome.com/newsuploadfiles/2026/6/4f18b208-be22-4b81-8a19-ee8058640e5a.jpg?x-bce-process=image/format,f_auto",
+    "stocks": []
+  },
+  {
+    "id": "73d77834b60f6435",
+    "title": "检方在洛杉矶野火案中使用ChatGPT记录作证据",
+    "summary": "在2025年洛杉矶致命野火案审判中，检方将嫌疑人的ChatGPT聊天记录与手机定位等一同作为法庭证据。",
+    "body": "2025年元旦，洛杉矶发生了一起历史上最致命的野火之一，嫌疑人乔纳森·林德克内希特因此面临纵火指控。为了构建完整的证据链，检方收集了多方面的数据，包括其iPhone的位置信息、监控摄像头画面以及目击者证词。\n\n值得注意的是，检方还将该嫌疑人的ChatGPT聊天记录作为法庭证据。这一举措凸显了生成式AI应用在日常生活中的深度渗透，同时也展现了AI交互数据在司法取证中的全新应用场景。",
+    "category": "人工智能",
+    "tags": [
+      "ChatGPT",
+      "数字取证",
+      "AI应用"
+    ],
+    "source": "The Verge",
+    "time": "3分钟前",
+    "ts": "2026-06-28T10:12:06-04:00",
+    "url": "https://www.theverge.com/ai-artificial-intelligence/958751/prosecutors-chatgpt-palisades-wildfire-arson-mistrial",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "9949f85b752c88e3",
+    "title": "VR斑马鱼研究揭示环境对眼部发育生物学的影响",
+    "summary": "一项利用虚拟现实技术对斑马鱼进行的研究表明，幼鱼所处的环境会影响其眼部神经元的形状与电活动，进而影响后续行为。",
+    "body": "近日，一项借助虚拟现实技术开展的斑马鱼研究揭示了环境因素对生物发育的深远影响。研究发现，幼年斑马鱼所体验的环境不仅会改变其眼部神经元的物理形状，还会影响这些神经元的电活动特征。\n\n这种由环境驱动的生理与神经变化，最终会直接反映在斑马鱼的后续行为表现上。该研究为理解视觉系统发育及环境对神经系统可塑性的影响提供了新的科学视角，对生命科学和神经生物学领域具有重要的基础研究价值。",
+    "category": "生物医药",
+    "tags": [
+      "生命科学",
+      "神经生物学",
+      "虚拟现实"
+    ],
+    "source": "MedicalXpress",
+    "time": "15分钟前",
+    "ts": "2026-06-28T10:00:01-04:00",
+    "url": "https://medicalxpress.com/news/2026-06-vr-zebrafish-biology-eye.html",
+    "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/vr-study-with-zebrafis.jpg",
+    "stocks": []
+  },
+  {
+    "id": "0e86b071748eeae3",
+    "title": "Govee推出500美元高端智能制冰机",
+    "summary": "Govee发布售价500美元的GoveeLife智能制冰机Pro，专为追求高品质软冰的消费者设计，旨在提升日常饮品体验。",
+    "body": "对于部分消费者而言，饮品中的冰块与饮料本身同等重要。Govee正是瞄准了这一受众群体，推出了其最新产品GoveeLife Smart Nugget Ice Maker Pro。\n\n这款售价500美元的高端智能家居设备，专为渴望“优质冰块”的用户设计，能够制作出柔软且可咀嚼的冰块。该产品的推出进一步丰富了高端智能家居生态，满足了消费者对精致生活方式和高品质饮品体验的追求。",
+    "category": "消费电子",
+    "tags": [
+      "智能家居",
+      "消费电子",
+      "Govee",
+      "智能家电"
+    ],
+    "source": "TechCrunch",
+    "time": "15分钟前",
+    "ts": "2026-06-28T14:00:00+00:00",
+    "url": "https://techcrunch.com/2026/06/28/govees-smart-nugget-ice-maker-makes-every-iced-drink-feel-like-a-luxury/",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "5374702ef9c9e300",
+    "title": "日本隼鸟2号将于7月5日超近距离飞掠小行星",
+    "summary": "日本“隼鸟2号”探测器计划于7月5日对近地小行星Torifune进行超近距离飞掠，最近距离仅约1公里，以收集更多科学数据。",
+    "body": "日本宇宙航空研究开发机构（JAXA）宣布，已完成小行星“龙宫”采样返回任务的“隼鸟2号”探测器，将于7月5日对近地小行星Torifune进行超近距离飞掠。此次飞掠距离在1至10公里之间，探测器将以每秒5.3公里的速度掠过这颗直径约450米的小行星。\n\nJAXA专家表示，这是同类任务中尝试过的距离最近的小行星相遇之一。通过结合先进的导航技术和探测器的工程能力，任务团队实现了仅约1公里的极近飞掠距离。此次扩展任务有望为小行星研究提供全新的科学数据，进一步丰富人类对小行星家族的认知。",
+    "category": "商业航天",
+    "tags": [
+      "深空探测",
+      "隼鸟2号",
+      "小行星探测"
+    ],
+    "source": "Space.com",
+    "time": "15分钟前",
+    "ts": "2026-06-28T14:00:00+00:00",
+    "url": "https://www.space.com/astronomy/asteroids/japanese-probe-set-for-super-close-flyby-on-july-5-were-going-to-discover-another-beast-to-put-in-the-zoo-of-asteroids",
+    "image": "https://cdn.mos.cms.futurecdn.net/eu2FmcRSGP2BEPSmedZjm6-1280-80.jpg",
+    "stocks": []
+  },
+  {
+    "id": "6eae53fce7ab79d1",
+    "title": "机械革命星耀15笔记本发售，搭载AMD锐龙AI芯片",
+    "summary": "机械革命星耀15笔记本正式发售，搭载AMD锐龙AI 9系列处理器，采用全金属机身与OLED屏幕，售价6799元起。",
+    "body": "机械革命星耀15笔记本现已正式发售，提供AMD锐龙AI 9 H 365和AI 9 HX 470两款处理器可选，标配32GB内存与1TB固态硬盘，售价6799元起。该机采用铝合金Unibody全金属机身工艺，重量仅1.4kg，内置90Wh大容量电池，综合续航超20小时。此外，星耀15配备15.3英寸2.5K 165Hz OLED屏幕，在轻薄设计、续航与AI算力方面展现出较强竞争力，进一步丰富了高端AI PC市场的产品选择。",
+    "category": "消费电子",
+    "tags": [
+      "机械革命",
+      "笔记本电脑",
+      "AI PC",
+      "AMD"
+    ],
+    "source": "IT之家",
+    "time": "22分钟前",
+    "ts": "2026-06-28T13:53:24+00:00",
+    "url": "https://www.ithome.com/0/969/723.htm",
+    "image": "https://img.alicdn.com/bao/uploaded/i3/2207341794313/O1CN01iq8rK21hjPNSmS2ec_!!4611686018427384841-0-item_pic.jpg",
+    "stocks": [
+      {
+        "name": "超威半导体",
+        "ticker": "AMD",
+        "reason": "星耀15笔记本搭载AMD锐龙AI 9系列处理器，直接带动其AI PC芯片销量。",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "46bc227ab572b17f",
+    "title": "联想警告内存末日成新常态，AI需求将长期推高存储价格",
+    "summary": "联想在ISC 2026大会上指出，受AI基础设施需求持续增长影响，DRAM和NAND等内存价格难以回到前期低点，内存短缺将成为行业新常态。",
+    "body": "在近期的国际超算大会上，联想高管表示，受AI需求强劲增长影响，科技行业正面临持续的内存与存储短缺及价格上涨问题，即所谓的“内存末日”，且这一现象将成为新常态。联想明确指出，内存价格很难再回到2025年初的低位水平。\n\n联想强调，内存行业的经济逻辑已发生根本性改变。尽管预计在2028年左右会有大量新制造产能上线，但AI基础设施对存储的巨大需求将吸收大部分新增产量。因此，DRAM和NAND等存储芯片的价格将长期维持在当前较高水平，难以重现过去的低价周期。",
+    "category": "半导体与先进制造",
+    "tags": [
+      "内存芯片",
+      "联想",
+      "AI基础设施",
+      "存储价格"
+    ],
+    "source": "Tom's Hardware",
+    "time": "24分钟前",
+    "ts": "2026-06-28T13:50:59+00:00",
+    "url": "https://www.tomshardware.com/pc-components/ram/lenovo-says-the-ramageddon-is-the-new-normal-outlines-survival-guide-at-isc-2026-an-exec-said-it-will-never-be-like-it-was-last-year",
+    "image": "https://cdn.mos.cms.futurecdn.net/EtP9xHD6entYPYdsDr4LzH-1280-80.jpg",
+    "stocks": [
+      {
+        "name": "美光科技",
+        "ticker": "MU",
+        "reason": "全球领先的DRAM和NAND制造商，直接受益于AI驱动的存储需求与价格上涨",
+        "confidence": "high"
+      },
+      {
+        "name": "兆易创新",
+        "ticker": "603986.SH",
+        "reason": "国内存储芯片设计龙头，受益于全球存储芯片价格上行周期及AI需求拉动",
+        "confidence": "medium"
+      },
+      {
+        "name": "江波龙",
+        "ticker": "301308.SZ",
+        "reason": "国内半导体存储模组龙头，直接受益于NAND和DRAM价格上涨带来的库存升值与毛利改善",
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
+    "id": "ca63adfc2c71ca99",
+    "title": "七彩虹隐星P15 Pro新增RTX5050版售7399元",
+    "summary": "七彩虹为隐星P15 Pro笔记本新增搭载i5-14450HX处理器与RTX5050显卡的版本，定价7399元，配备2.5K高刷屏及丰富接口。",
+    "body": "七彩虹近日为其隐星P15 Pro游戏本推出全新配置版本，搭载英特尔酷睿i5-14450HX处理器和RTX5050独立显卡，配备16GB DDR5内存与1TB PCIe固态硬盘，售价定为7399元。\n\n在屏幕与散热方面，该机采用2560x1440分辨率、165Hz刷新率的IPS面板，覆盖100% sRGB色域，并配备双风扇、5铜管及多分区散热模组以保障性能释放。\n\n接口方面，机身提供了多个USB-A与USB-C接口，以及3.5mm音频、RJ45网口和HDMI接口。此次新规格的推出进一步丰富了该产品线，为玩家提供了更具性价比的中端游戏本选择。",
+    "category": "消费电子",
+    "tags": [
+      "七彩虹",
+      "游戏本",
+      "RTX5050",
+      "笔记本电脑"
+    ],
+    "source": "IT之家",
+    "time": "33分钟前",
+    "ts": "2026-06-28T13:42:31+00:00",
+    "url": "https://www.ithome.com/0/969/721.htm",
+    "image": "https://img.ithome.com/newsuploadfiles/2026/6/10328aa5-93e7-4e70-a600-7bfde32d63e3.png?x-bce-process=image/format,f_auto",
+    "stocks": []
+  },
+  {
+    "id": "fe863eea5c5a4308",
+    "title": "Stark Varg电动越野摩托获OTA升级，支持下载新特技",
+    "summary": "知名电动越野摩托车Stark Varg迎来重大性能升级，车主无需前往经销商处，即可通过远程下载获取全新特技模式。",
+    "body": "Stark Varg目前已迅速成为市场上性能最出色的电动越野摩托车之一，其公路版本同样表现亮眼。近日，该车型迎来了一次重大的性能升级。\n\n通过此次更新，车主无需亲自前往线下经销商门店，即可直接通过远程下载的方式为车辆解锁全新的特技模式。这种软件定义硬件的升级方式，不仅提升了车辆的可玩性，也展示了智能电动两轮车在OTA技术应用上的持续进步。",
+    "category": "消费电子",
+    "tags": [
+      "电动摩托",
+      "OTA升级",
+      "智能硬件",
+      "Stark Varg"
+    ],
+    "source": "Electrek",
+    "time": "36分钟前",
+    "ts": "2026-06-28T13:39:37+00:00",
+    "url": "https://electrek.co/2026/06/28/leading-electric-dirt-bike-stark-varg-lets-owners-download-a-new-trick/",
+    "image": "https://electrek.co/wp-content/uploads/sites/3/2025/08/Stark-Varg-MX-1.2-header.jpg?quality=82&#038;strip=all&#038;w=1600",
+    "stocks": []
+  },
+  {
+    "id": "4ba9a51ec501245e",
+    "title": "乌克兰称无人机袭击俄两座炼油厂致两死",
+    "summary": "乌克兰宣布使用无人机袭击了俄罗斯的两座炼油厂。俄当局称此次针对能源设施的袭击已造成至少两人死亡。",
+    "body": "乌克兰方面宣布，其武装力量对俄罗斯境内的两座炼油厂发动了袭击。此次行动是乌克兰持续打击俄罗斯能源基础设施战略的延续。\n\n据俄罗斯当局证实，在这起无人机袭击事件中，已有至少两人不幸遇难。乌克兰近期频繁使用无人机对俄能源设施进行打击，旨在削弱对方的战争潜力，此类科技相关冲突持续对全球能源市场与地缘格局产生影响。",
+    "category": "地缘科技",
+    "tags": [
+      "俄乌冲突",
+      "无人机袭击",
+      "能源设施"
+    ],
+    "source": "Al Jazeera",
+    "time": "39分钟前",
+    "ts": "2026-06-28T13:36:15+00:00",
+    "url": "https://www.aljazeera.com/news/2026/6/28/ukraine-says-it-attacked-two-russian-oil-refineries?traffic_source=rss",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "7be0be9f8f649691",
+    "title": "美限制访问后 奥地利游说欧盟接纳Anthropic",
+    "summary": "在美国对AI技术实施访问限制的背景下，奥地利正积极游说欧盟，希望吸引人工智能公司Anthropic在欧洲开展业务。",
+    "body": "近期，美国对部分人工智能技术的访问实施了限制措施。在此背景下，奥地利政府正积极向欧盟进行游说，希望能够吸引知名人工智能企业Anthropic将其业务落户欧洲。\n\n这一举措反映了欧洲在人工智能领域争夺技术主导权的决心，也凸显了地缘科技博弈对全球AI产业链布局的深远影响。通过吸引顶尖AI公司，欧洲有望提升自身的AI模型研发能力与产业竞争力。",
+    "category": "人工智能",
+    "tags": [
+      "Anthropic",
+      "人工智能",
+      "地缘科技",
+      "科技政策"
+    ],
+    "source": "Hacker News",
+    "time": "41分钟前",
+    "ts": "2026-06-28T13:34:14+00:00",
+    "url": "https://www.bloomberg.com/news/articles/2026-06-28/austria-lobbies-eu-to-host-anthropic-after-us-access-curbs",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "82ea35ed86c3d84e",
+    "title": "谷歌限制Meta使用其Gemini AI模型",
+    "summary": "据报道，谷歌公司开始限制竞争对手Meta使用其开发的Gemini人工智能模型，此举可能影响双方在AI领域的竞争格局。",
+    "body": "近期有消息指出，谷歌正在限制Meta使用其旗下的Gemini人工智能模型。这一举措标志着两大科技巨头在AI领域的竞争态势进一步收紧。\n\n虽然具体限制的细节尚未完全披露，但此举可能会对Meta在部分AI产品或服务的开发产生影响。在当前大模型竞争激烈的背景下，科技巨头对核心AI资产的保护和壁垒构建正变得日益严格，反映出AI模型作为核心战略资源的重要性。",
+    "category": "人工智能",
+    "tags": [
+      "谷歌",
+      "Meta",
+      "Gemini",
+      "大模型"
+    ],
+    "source": "Hacker News",
+    "time": "45分钟前",
+    "ts": "2026-06-28T13:30:06+00:00",
+    "url": "https://www.cnbc.com/2026/06/28/google-limits-metas-use-of-its-gemini-ai-models-ft-reports.html",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "5a8355e7ddde1023",
+    "title": "Flock监控摄像头加速普及引发隐私担忧",
+    "summary": "Flock公司的监控摄像头正快速普及，其追踪功能已超越单纯的车牌识别，引发了公众对隐私和安全问题的日益担忧。",
+    "body": "Flock公司的监控摄像头正在各地快速部署，其功能已不仅限于自动车牌识别，还具备更广泛的追踪能力。随着这些设备的加速普及，其数据收集范围引发了广泛关注。\n\n居民和隐私活动人士对这些设备可能带来的隐私侵犯和数据安全风险表达了强烈担忧。这一现象凸显了AI视觉监控技术在公共安全应用与个人隐私保护之间面临的平衡挑战，未来可能促使相关监管政策的收紧。",
+    "category": "人工智能",
+    "tags": [
+      "AI视觉",
+      "安防监控",
+      "数据隐私"
+    ],
+    "source": "Engadget",
+    "time": "45分钟前",
+    "ts": "2026-06-28T13:30:00+00:00",
+    "url": "https://www.engadget.com/2203000/flock-cameras-recording-license-plate/",
+    "image": "https://www.engadget.com/img/gallery/flock-cameras-track-more-than-your-license-plate-and-theyre-spreading-fast/l-intro-1782508847.jpg",
+    "stocks": []
+  },
+  {
+    "id": "2bda7c2033158fea",
+    "title": "应对美国AI限制，奥地利促欧盟引入Anthropic",
+    "summary": "为反制美国高端AI模型使用限制，奥地利正敦促欧盟将Anthropic作为战略重点引入欧洲，以强化自身技术自主权。",
+    "body": "据彭博社报道，奥地利数字化国务秘书已致信欧盟委员会，建议各成员国探讨将美国AI企业Anthropic引入欧盟落地的可能性。此举旨在反制美国限制外籍人士使用其最先进AI模型的举措。\n\n奥地利方面建议，欧盟应为Anthropic提供契合的法律确定性、市场准入及资本支持。引入此类重量级企业不仅有助于欧洲吸引顶尖人才和留住资金，还能参与制定行业标准，且不会挤压本土企业的生存空间。\n\n此前，欧盟委员会曾就Anthropic停供顶尖AI模型一事强调，欧洲必须进一步强化自身的技术自主权，减少对外部核心技术的依赖。",
+    "category": "地缘科技",
+    "tags": [
+      "地缘科技",
+      "人工智能",
+      "Anthropic",
+      "科技政策"
+    ],
+    "source": "IT之家",
+    "time": "57分钟前",
+    "ts": "2026-06-28T13:18:15+00:00",
+    "url": "https://www.ithome.com/0/969/719.htm",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "7430301c5f2de2e2",
+    "title": "天文摄影师拍下中国天宫空间站凌月壮观画面",
+    "summary": "天文摄影师在波多黎各使用望远镜和天文相机，成功拍摄到中国天宫空间站掠过月球表面的壮观凌月画面。",
+    "body": "5月29日，天文摄影师埃弗拉因·莫拉莱斯在波多黎各拍摄到了中国天宫空间站凌月的震撼视频。他使用12英寸望远镜和天文相机，清晰记录了空间站巨大的太阳能帆板和舱段模块掠过月球表面的轮廓。\n\n莫拉莱斯表示，在不到一秒的时间内捕捉这一事件极具挑战性，他借助了相关过境预测程序并进行了精确的视场调整与位置计算。画面中，天宫空间站仿佛直冲月球南部的第谷环形山，背景还能清晰看到云海等月球地貌。这一影像不仅展现了天文摄影的魅力，也侧面印证了中国空间站庞大的在轨规模与稳定的运行状态。",
+    "category": "商业航天",
+    "tags": [
+      "天宫空间站",
+      "天文摄影",
+      "空间基础设施"
+    ],
+    "source": "Space.com",
+    "time": "1小时前",
+    "ts": "2026-06-28T13:00:00+00:00",
+    "url": "https://www.space.com/stargazing/astrophotography/watch-chinas-tiangong-space-station-cross-the-moon-in-stunning-amateur-footage",
+    "image": "https://cdn.mos.cms.futurecdn.net/Fb6gkudyqkmLncD72ZAcQ-1280-80.jpg",
+    "stocks": []
+  },
+  {
+    "id": "32116b1e2619eab2",
+    "title": "戴尔推出2026款灵越Plus 16英寸笔记本，7004元起",
+    "summary": "戴尔在京东上架2026款灵越Plus 16英寸笔记本，搭载英特尔酷睿Ultra 5处理器，提供多种存储配置，国补后售价更具性价比。",
+    "body": "戴尔现已在京东上架2026款灵越Plus 16英寸笔记本。该机搭载英特尔酷睿Ultra 5-225U处理器，提供16GB至32GB内存及512GB至2TB固态硬盘的多种存储组合，起售价为7004元，在国家补贴后价格更具吸引力，进一步提升了产品竞争力。\n\n在外观与配置方面，该机重1.94千克，配备1920x1200分辨率的60Hz IPS屏幕，覆盖45% NTSC色域，并标配数字小键盘。接口方面提供HDMI 2.1、雷电4、USB-C、USB-A及RJ45等丰富选择，能够充分满足日常办公与多设备连接需求。",
+    "category": "消费电子",
+    "tags": [
+      "戴尔",
+      "笔记本电脑",
+      "消费电子",
+      "英特尔"
+    ],
+    "source": "IT之家",
+    "time": "1小时前",
+    "ts": "2026-06-28T12:59:17+00:00",
+    "url": "https://www.ithome.com/0/969/718.htm",
+    "image": "https://img14.360buyimg.com/pop/jfs/t1/451387/10/12804/66905/6a33cca1F3b617d0c/0083320320309711.jpg",
+    "stocks": [
+      {
+        "name": "戴尔科技",
+        "ticker": "DELL",
+        "reason": "作为该笔记本电脑的制造商与品牌方，直接受益于新品上市与终端销售。",
+        "confidence": "high"
+      },
+      {
+        "name": "英特尔",
+        "ticker": "INTC",
+        "reason": "该笔记本搭载英特尔酷睿Ultra 5处理器，直接带动其PC端芯片出货量。",
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
+    "id": "bb23a800996bc785",
+    "title": "比亚迪海洋网6系车型推OTA升级，新增行车记录仪与哨兵模式",
+    "summary": "比亚迪海洋网6系车型获推全新OTA升级，新增全向行车记录仪、哨兵模式视频上传及多项手车互联功能，并优化驾驶辅助与泊车策略。",
+    "body": "比亚迪汽车宣布为海洋网6系车型推送全新OTA升级，涵盖海狮06、海豹06EV等多款车型，带来十余项新增功能与体验优化。此次升级重点强化了手车互联能力，适配华为HiCar镜像模式及三星ICCOA Carlink，并支持部分国产手机网络共享。\n\n此外，新版本新增了全向行车记录仪、哨兵模式高风险视频上传以及高快道路紧急停车辅助等实用功能。针对驾驶辅助与泊车系统，升级优化了邻车靠近避让策略、暗光检测及毫米波雷达感知稳定性，各款车型还获得了专属的舒适性与安全性提升，进一步增强了智能出行体验。",
+    "category": "机器人",
+    "tags": [
+      "比亚迪",
+      "OTA升级",
+      "智能驾驶",
+      "车联网"
+    ],
+    "source": "IT之家",
+    "time": "1小时前",
+    "ts": "2026-06-28T12:58:00+00:00",
+    "url": "https://www.ithome.com/0/969/717.htm",
+    "image": "https://img.ithome.com/newsuploadfiles/2026/6/6e6be20d-27c9-454e-a62c-45bfe075d2be.jpg?x-bce-process=image/format,f_auto",
+    "stocks": [
+      {
+        "name": "比亚迪",
+        "ticker": "002594.SZ",
+        "reason": "旗下车型OTA升级提升产品智能化体验与市场竞争力",
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
+    "id": "84501c760f19cca2",
+    "title": "启境GX7官图发布，搭载华为乾崑智驾与三折叠大床",
+    "summary": "启境汽车发布新一代智能五座SUV启境GX7官图，行业首发三折叠纯平大床，并预计搭载华为乾崑全栈智能汽车解决方案。",
+    "body": "启境汽车正式发布旗下新一代智能五座SUV启境GX7的官图。新车由启境与华为乾崑联合设计，采用跑车姿态与俯冲低趴车头设计，并行业首发三折叠纯平大床，支持20秒一键后倒成床，配备多种舒适化创新设计。\n\n在智能化方面，启境GX7预计将搭载华为乾崑全栈智能汽车解决方案，包括896线双光路图像级激光雷达以及华为乾崑智驾ADS 5系统。该车型的推出进一步丰富了智能网联汽车市场，展现了华为在自动驾驶与智能座舱领域的深度赋能与技术落地能力。",
+    "category": "机器人",
+    "tags": [
+      "智能汽车",
+      "自动驾驶",
+      "华为乾崑",
+      "启境GX7"
+    ],
+    "source": "IT之家",
+    "time": "1小时前",
+    "ts": "2026-06-28T12:55:51+00:00",
+    "url": "https://www.ithome.com/0/969/716.htm",
+    "image": "https://img.ithome.com/newsuploadfiles/2026/6/dac38f4c-701f-49f5-bb67-5d1387bcf203.jpg?x-bce-process=image/format,f_auto",
+    "stocks": []
+  },
+  {
+    "id": "bf07be9162164e92",
+    "title": "华为星闪音箱有望下半年亮相，支持无损音频传输",
+    "summary": "消息称华为支持星闪技术的音箱产品有望在今年下半年亮相，星闪音频传输速率可达16Mbps，支持Hi-Fi无损传输。",
+    "body": "近日有博主透露，华为支持星闪技术的音箱类产品有望在今年下半年正式亮相，这意味着星闪生态将迎来进一步拓展，为华为用户带来更优质的音频体验。\n\n据官方介绍，星闪音频的物理层传输速率高达16Mbps，带宽能力超越传统无线技术，能够轻松承载48kHz/24bit的Hi-Fi级无损音频传输。\n\n目前，华为旗下包括Mate系列、Pura系列在内的多款手机和平板设备已支持星闪音频功能。随着星闪音箱的推出，华为全场景智慧生态将得到进一步完善。",
+    "category": "消费电子",
+    "tags": [
+      "星闪技术",
+      "华为",
+      "智能音箱",
+      "无线音频"
+    ],
+    "source": "IT之家",
+    "time": "1小时前",
+    "ts": "2026-06-28T12:46:22+00:00",
+    "url": "https://www.ithome.com/0/969/714.htm",
+    "image": "https://img.ithome.com/newsuploadfiles/2026/6/19c57d9a-324d-4597-b39f-44d4f5e7ace1.png?x-bce-process=image/format,f_auto",
+    "stocks": []
+  },
+  {
     "id": "55a0a6de2726e56f",
     "title": "神经通路揭示小鼠目标导向行为的推拉调控系统",
     "summary": "最新研究揭示了小鼠大脑基底神经节中的神经通路，发现其通过推拉系统来协调目标导向行为，为理解大脑运动控制机制提供了新视角。",
@@ -53,6 +453,25 @@ const newsData = [
     "ts": "2026-06-28T12:33:37+00:00",
     "url": "https://www.ithome.com/0/969/713.htm",
     "image": "https://img.ithome.com/newsuploadfiles/2026/6/307094c4-0f3b-4470-83ed-1562079181bc.jpg",
+    "stocks": []
+  },
+  {
+    "id": "6154952d129514b4",
+    "title": "OpenAI Codex排除敏感文件问题仍未解决",
+    "summary": "开发者社区指出OpenAI Codex在处理代码时仍无法有效排除敏感文件，引发对代码隐私和数据安全的担忧。",
+    "body": "近日，开发者社区关于OpenAI Codex无法有效排除敏感文件的讨论再次引发关注。该问题此前已被提出，但目前仍处于开放状态，尚未得到官方彻底解决。\n\n这一缺陷可能导致开发者在使用Codex时，意外将包含密钥或凭证的敏感文件上传，带来潜在的数据泄露风险。完善敏感文件过滤机制是保障AI编程工具安全合规的关键。",
+    "category": "人工智能",
+    "tags": [
+      "OpenAI",
+      "Codex",
+      "代码安全",
+      "数据隐私"
+    ],
+    "source": "Hacker News",
+    "time": "1小时前",
+    "ts": "2026-06-28T12:27:33+00:00",
+    "url": "https://github.com/openai/codex/issues/2847",
+    "image": "",
     "stocks": []
   },
   {
@@ -67735,11 +68154,11 @@ const newsData = [
   }
 ];
 const newsDigest = {
-  "text": "今日科技前沿聚焦硬科技突破与生态融合。龙芯发布16核服务器处理器，利好国产算力；华为鸿蒙生态扩容，联合支付宝推NFC交通卡，利好鸿蒙产业链；AI赋能医疗引关注；SpaceX发射重型卫星，利好商业航天。",
+  "text": "今日科技圈聚焦AI产业博弈与硬件升级。AI需求持续推高存储价格，引发行业担忧；同时欧美围绕AI模型访问权展开激烈博弈。消费电子方面，华为星闪技术加速落地，智能终端生态持续繁荣。",
   "highlights": [
-    "d8fd92b519ff708a",
-    "36c6a8e4851ae443",
-    "ab608464a336e925",
-    "bdd3eb9b3e58ead1"
+    "46bc227ab572b17f",
+    "82ea35ed86c3d84e",
+    "2bda7c2033158fea",
+    "bf07be9162164e92"
   ]
 };
