@@ -1,5 +1,63 @@
 const newsData = [
   {
+    "id": "e8afdcc49a809f8f",
+    "title": "SpaceX再发射24颗Starlink卫星，星链总数破万颗",
+    "summary": "SpaceX于6月28日从加州范登堡空军基地发射24颗Starlink卫星，使其在轨活跃卫星总数超过10700颗，同时该次任务创下猎鹰9号助推器第17次复用纪录。",
+    "body": "SpaceX于6月28日从加利福尼亚州范登堡空军基地发射24颗Starlink卫星（Group 17-40），继续扩建其低轨宽带互联网中继网络。此次发射由猎鹰9号火箭执行，一级助推器（B1088）完成第17次飞行后成功降落于太平洋上的\"Of Course I Still Love You\"无人回收船，再次刷新火箭复用次数纪录。据跟踪者Jonathan McDowell统计，此次发射使Starlink在轨活跃卫星总数突破10700颗。Starlink服务目前已为全球用户提供互联网接入、机上WiFi及手机直连卫星通信等服务。此次任务是SpaceX在2026年的第75次猎鹰9号发射任务，展现了其极高的发射频率和成熟的火箭回收技术。",
+    "category": "商业航天",
+    "tags": [
+      "SpaceX",
+      "Starlink",
+      "卫星互联网",
+      "火箭回收"
+    ],
+    "source": "Space.com",
+    "time": "16分钟前",
+    "ts": "2026-06-28T16:21:56+00:00",
+    "url": "https://www.space.com/space-exploration/launches-spacecraft/spacex-starlink-17-40-b1088-vsfb-ocisly",
+    "image": "https://cdn.mos.cms.futurecdn.net/X6km9cttDDn8yJq28PBmme-1280-80.jpg",
+    "stocks": [
+      {
+        "name": "AST SpaceMobile",
+        "ticker": "ASTS",
+        "reason": "同为低轨卫星通信运营商，Starlink持续扩张验证卫星互联网商业模式可行性",
+        "confidence": "medium"
+      },
+      {
+        "name": "铱星通信",
+        "ticker": "IRDM",
+        "reason": "卫星通信服务提供商，行业整体热度提升",
+        "confidence": "low"
+      }
+    ]
+  },
+  {
+    "id": "6a2ac86bd874ba33",
+    "title": "苹果触摸屏MacBook或提前至M5芯片发布",
+    "summary": "据Mark Gurman爆料，苹果触摸屏MacBook将不再等待M7芯片，而是提前搭载M5 Pro和M5 Max芯片推出。这意味着苹果触控笔记本的上市时间可能比预期更早。",
+    "body": "据知名科技记者Mark Gurman透露，苹果计划推出的触摸屏MacBook将不再等待M7芯片，而是直接搭载M5 Pro和M5 Max芯片问世。这一调整意味着苹果触控笔记本的上市时间表将大幅提前，打破了外界此前对M7世代才引入触控功能的预期。苹果此举可能意在加速抢占触控笔记本市场，应对微软Surface等竞品的竞争压力。若消息属实，这将是MacBook产品线自诞生以来最重大的交互变革之一，也将对PC行业形态演进产生重要影响。",
+    "category": "消费电子",
+    "tags": [
+      "苹果",
+      "MacBook",
+      "触控屏",
+      "M5芯片"
+    ],
+    "source": "Engadget",
+    "time": "17分钟前",
+    "ts": "2026-06-28T16:20:44+00:00",
+    "url": "https://www.engadget.com/2203348/apple-touchscreen-macbook-launch-before-m7-chips/",
+    "image": "https://www.engadget.com/img/gallery/apples-touchscreen-macbook-reportedly-wont-wait-for-the-m7-chips/l-intro-1782663379.jpg",
+    "stocks": [
+      {
+        "name": "苹果公司",
+        "ticker": "AAPL",
+        "reason": "触摸屏MacBook新品有望提振Mac产品线销量与均价",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
     "id": "db079179e0854d6e",
     "title": "苹果M5 Ultra Mac Studio年内发布，M7 Ultra定档2028",
     "summary": "彭博社马克·古尔曼爆料，苹果计划今年发布搭载M5 Ultra芯片的Mac Studio，并跳过M6 Pro/Max系列，将研发重心转向更注重AI计算的M7系列，目标2028年推出M7 Ultra机型。",
@@ -68815,12 +68873,12 @@ const newsData = [
   }
 ];
 const newsDigest = {
-  "text": "今日科技前沿聚焦三大主线：苹果M5 Ultra芯片年内落地、M7 Ultra已排期2028，持续巩固其自研芯片护城河；美光被华尔街寄予厚望，AI算力狂潮下存储巨头有望复制英伟达增长路径；宁德时代牵头全球能源循环经济联盟，动力电池龙头加速布局零碳闭环。AI治理与地缘博弈同步升温，欧盟开源网络规划、奥地利游说引入Anthropic，技术主权竞争暗流涌动。",
+  "text": "今日科技要闻聚焦三大主线：AI产业博弈白热化，谷歌限制Meta使用Gemini模型，美国收紧AI出口后奥地利紧急游说欧盟接纳Anthropic；存储芯片成为新战场，美光被华尔街捧为\"下一个英伟达\"，联想预警AI需求将长期推高内存价格；消费电子密集迭代，苹果M5芯片MacBook与M5 Ultra Mac Studio加速面世，vivo X300系列销量突破300万台。",
   "highlights": [
-    "db079179e0854d6e",
+    "82ea35ed86c3d84e",
+    "7be0be9f8f649691",
     "1e4f72b2e45c8a48",
-    "a2d3119f2cfaa5ca",
-    "41b47c9ac290d296",
-    "7be0be9f8f649691"
+    "46bc227ab572b17f",
+    "6a2ac86bd874ba33"
   ]
 };
