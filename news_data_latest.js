@@ -1,5 +1,31 @@
 const newsData = [
   {
+    "id": "db079179e0854d6e",
+    "title": "苹果M5 Ultra Mac Studio年内发布，M7 Ultra定档2028",
+    "summary": "彭博社马克·古尔曼爆料，苹果计划今年发布搭载M5 Ultra芯片的Mac Studio，并跳过M6 Pro/Max系列，将研发重心转向更注重AI计算的M7系列，目标2028年推出M7 Ultra机型。",
+    "body": "据彭博社记者马克·古尔曼最新爆料，苹果Mac Studio产品线已规划两代更新：搭载M5 Ultra芯片的版本预计今年发布，而搭载M7 Ultra芯片的机型则瞄准2028年面世。这一规划披露意味着苹果正加速其高性能台式机的芯片迭代节奏，并首次明确将AI计算能力作为未来芯片设计的核心方向。\n\n值得关注的是，古尔曼此前曾透露苹果将调整M6和M7系列芯片规划，仅保留M6标准版，跳过M6 Pro和M6 Max等中间型号，直接将研发资源倾注于M7系列。这一策略调整反映出苹果对端侧AI算力需求的紧迫回应——据悉，苹果正在为Mac Studio配备更出色的散热器，以应对日益繁重的本地AI工作负载。\n\n不过，外观设计方面预计不会同步革新。古尔曼指出，M5 Ultra机型将延续现有外观，苹果在台式机设计革新上历来保守。目前最新款Mac Studio发布于2025年3月，搭载M4 Max和M3 Ultra芯片，配备雷雳5端口，最高可选512GB统一内存及16TB固态硬盘。",
+    "category": "消费电子",
+    "tags": [
+      "苹果",
+      "Mac Studio",
+      "M5芯片",
+      "端侧AI"
+    ],
+    "source": "IT之家",
+    "time": "1小时前",
+    "ts": "2026-06-28T15:11:08+00:00",
+    "url": "https://www.ithome.com/0/969/730.htm",
+    "image": "https://img.ithome.com/newsuploadfiles/2026/6/29ab6e4e-3c4d-4eaa-b61e-4928e466f273.jpg?x-bce-process=image/format,f_auto",
+    "stocks": [
+      {
+        "name": "苹果",
+        "ticker": "AAPL",
+        "reason": "Mac Studio芯片迭代加速，M7系列聚焦AI计算，强化高端硬件生态竞争力",
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
     "id": "1e4f72b2e45c8a48",
     "title": "华尔街看好美光成下一个英伟达",
     "summary": "华尔街投资者正积极寻找能与英伟达媲美的AI相关上市公司，美国存储芯片巨头美光科技被视为潜在赢家。其HBM高带宽存储产品在AI数据中心需求激增中占据关键地位。",
@@ -68789,12 +68815,12 @@ const newsData = [
   }
 ];
 const newsDigest = {
-  "text": "今日科技前沿聚焦三大主线：AI算力需求持续引爆存储与芯片产业链，美光获华尔街热捧而联想预警内存高价常态化；中欧在AI基础设施与地缘科技博弈中角力，奥地利力邀Anthropic入欧；消费电子多点开花，vivo X300系列热销与机械革命AMD AI笔记本上市彰显端侧智能活力。",
+  "text": "今日科技前沿聚焦三大主线：苹果M5 Ultra芯片年内落地、M7 Ultra已排期2028，持续巩固其自研芯片护城河；美光被华尔街寄予厚望，AI算力狂潮下存储巨头有望复制英伟达增长路径；宁德时代牵头全球能源循环经济联盟，动力电池龙头加速布局零碳闭环。AI治理与地缘博弈同步升温，欧盟开源网络规划、奥地利游说引入Anthropic，技术主权竞争暗流涌动。",
   "highlights": [
+    "db079179e0854d6e",
     "1e4f72b2e45c8a48",
-    "46bc227ab572b17f",
-    "7be0be9f8f649691",
-    "0c7a5d1d14bb81c7",
-    "6eae53fce7ab79d1"
+    "a2d3119f2cfaa5ca",
+    "41b47c9ac290d296",
+    "7be0be9f8f649691"
   ]
 };
