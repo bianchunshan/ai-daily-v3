@@ -1,5 +1,75 @@
 const newsData = [
   {
+    "id": "b9f52b2953099fd6",
+    "title": "美国零排放卡车部署量2025年激增37%",
+    "summary": "据CALSTART最新报告，美国零排放卡车部署在2025年下半年显著加速，全年占比攀升至4.14%，较此前增长37%，电动化转型 momentum 持续增强。",
+    "body": "清洁能源技术组织CALSTART发布的《Zeroing in on Zero-Emission Trucks》报告显示，美国零排放卡车市场在2025年经历先抑后扬的走势。上半年部署起步缓慢，但下半年势头明显增强，全年零排放卡车占所有新增卡车部署的比例达到4.14%，同比增幅高达37%。这一数据表明，尽管面临基础设施和成本挑战，美国中重型运输领域的电动化转型正在进入加速通道。该趋势对电池技术、充电网络及整车制造产业链形成持续拉动，同时也反映出政策激励与市场需求共振的积极效应。",
+    "category": "未来能源",
+    "tags": [
+      "零排放卡车",
+      "电动重卡",
+      "新能源商用车",
+      "CALSTART"
+    ],
+    "source": "Electrek",
+    "time": "2分钟前",
+    "ts": "2026-06-28T17:55:12+00:00",
+    "url": "https://electrek.co/2026/06/28/zero-emission-truck-deployments-surged-up-37-in-2025-as-momentum-builds/",
+    "image": "https://electrek.co/wp-content/uploads/sites/3/2024/06/Sysco-Electric-Freightliner-Truck-City-1400-copy.jpg?quality=82&#038;strip=all&#038;w=1400",
+    "stocks": []
+  },
+  {
+    "id": "faa66b8b23afc40e",
+    "title": "开源AI模型生态扩容，全球厂商加速布局",
+    "summary": "开源模型生态正从少数中国公司扩展至全球多元参与者，NVIDIA、Cohere等相继发布开源大模型，推动AI基础设施与模型能力持续升级。",
+    "body": "开源大模型生态正进入多元化扩张阶段。参与者已从早期的少数中国公司，扩展至全球各类组织，涵盖纯模型制造商、科技巨头及产品公司。纯模型制造商包括DeepSeek、智谱、MiniMax、Poolside、Arcee、Zyphra，以及主打主权AI的Cohere、Sovereign、Mistral、Trillion Labs等；科技巨头中，阿里Qwen、Google Gemma和NVIDIA各有差异化布局；JetBrains、Zed、Krea、Photoroom等产品公司则聚焦垂直场景的小模型训练。\n\n近期重要发布包括：NVIDIA推出Nemotron-3-Ultra-550B-A55B-BF16，采用LatentMoE架构并改用OpenMDW许可证；Cohere以Apache 2.0协议开源旗舰模型Command A+（05-2026-bf16），该模型为218B-A25B MoE架构，支持多模态、多语言和智能体能力。这些进展表明，开源模型正从单一技术竞争转向生态广度与商业许可策略的多元博弈，对AI基础设施和模型服务产业链形成持续拉动。",
+    "category": "人工智能",
+    "tags": [
+      "开源模型",
+      "大模型",
+      "MoE架构",
+      "NVIDIA"
+    ],
+    "source": "AIHOT精选",
+    "time": "54分钟前",
+    "ts": "2026-06-28T17:03:07+00:00",
+    "url": "https://www.interconnects.ai/p/artifacts-22-zyphra-cohere-and-poolside",
+    "image": "",
+    "stocks": [
+      {
+        "name": "英伟达",
+        "ticker": "NVDA",
+        "reason": "发布Nemotron-3-Ultra开源大模型并推动LatentMoE架构，强化其在AI模型层的影响力",
+        "confidence": "high"
+      },
+      {
+        "name": "阿里巴巴",
+        "ticker": "BABA",
+        "reason": "Qwen系列为开源生态重要参与者，受益于全球开源模型生态扩张",
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
+    "id": "ce84c8100f865b8a",
+    "title": "澳大利亚社交媒体禁令罚款上限翻倍",
+    "summary": "澳大利亚将社交媒体禁令违规的最高罚款金额翻倍至9900万澳元（约6800万美元），以强化对未成年人使用社交平台的监管执行力度。",
+    "body": "澳大利亚政府近日宣布，将其社交媒体禁令相关违规行为的最高罚款金额翻倍，从原来的4950万澳元提升至9900万澳元（约合6800万美元）。这一举措旨在加强对社交媒体平台的监管压力，确保其严格执行针对未成年人的年龄限制政策。此前，澳大利亚已立法禁止16岁以下未成年人使用大多数社交媒体平台，成为全球在青少年数字保护方面最为严格的国家之一。此次大幅提高罚款上限，显示出澳政府在执行层面的强硬态度，也可能对全球其他地区的社交媒体监管政策产生示范效应。",
+    "category": "网络安全",
+    "tags": [
+      "社交媒体监管",
+      "未成年人保护",
+      "数字隐私",
+      "平台治理"
+    ],
+    "source": "Engadget",
+    "time": "57分钟前",
+    "ts": "2026-06-28T17:00:22+00:00",
+    "url": "https://www.engadget.com/2203358/australia-doubles-maximum-penalty-social-media-ban/",
+    "image": "https://www.engadget.com/img/gallery/australia-doubles-the-maximum-penalty-for-its-social-media-ban/l-intro-1782665535.jpg",
+    "stocks": []
+  },
+  {
     "id": "064435cfcb3bff35",
     "title": "用户用Claude Code辅助解读MRI影像",
     "summary": "一名用户在Hacker News分享使用Anthropic旗下Claude Code工具对MRI核磁共振结果进行\"第二意见\"分析的经历，引发对AI辅助医疗诊断应用的关注。",
@@ -75,6 +145,25 @@ const newsData = [
         "confidence": "high"
       }
     ]
+  },
+  {
+    "id": "199f4267e8625393",
+    "title": "百万p比特可编程概率计算机问世",
+    "summary": "研究人员开发出基于100万个p比特的可编程概率计算机，该新型计算架构在优化问题和机器学习领域具有潜在应用价值。",
+    "body": "据Hacker News报道，一款搭载100万p比特（probabilistic bit）的可编程概率计算机已面世。概率比特与传统二进制比特不同，其状态以概率方式存在0和1之间，天然适合模拟随机过程和解决复杂优化问题。该设备规模达到百万级p比特，标志着概率计算从概念验证迈向实用化关键节点。此类计算机在组合优化、采样和机器学习推理等任务中可能展现相对传统计算的效率优势，为后摩尔时代新型计算架构探索提供重要方向。",
+    "category": "量子科技",
+    "tags": [
+      "概率计算",
+      "新型计算架构",
+      "p比特",
+      "后摩尔时代"
+    ],
+    "source": "Hacker News",
+    "time": "2小时前",
+    "ts": "2026-06-28T15:55:31+00:00",
+    "url": "https://arxiv.org/abs/2606.25313",
+    "image": "",
+    "stocks": []
   },
   {
     "id": "db079179e0854d6e",
@@ -68892,12 +68981,12 @@ const newsData = [
   }
 ];
 const newsDigest = {
-  "text": "今日科技前沿聚焦三大主线：人工智能应用边界持续拓展，从Claude Code辅助MRI影像解读到ChatGPT记录首次被检方采纳为证据；商业航天与深空探测双轮驱动，SpaceX星链卫星破万颗、日本隼鸟2号即将飞掠小行星；消费电子与半导体产业链共振，苹果M5芯片产品矩阵加速落地，AI需求推高存储价格成行业共识。",
+  "text": "今日科技前沿聚焦三大主线：人工智能领域开源模型生态加速扩容，个人开发者与全球厂商同台竞技；半导体与先进制造板块持续升温，美光获华尔街热捧，AI需求推高存储价格成新常态；消费电子迎来密集新品周期，苹果M5芯片路线图浮出水面，vivo X300系列销量破300万台。此外，SpaceX星链总数突破万颗、百万p比特可编程概率计算机问世亦值得关注。",
   "highlights": [
-    "e8afdcc49a809f8f",
+    "faa66b8b23afc40e",
+    "1e4f72b2e45c8a48",
+    "46bc227ab572b17f",
     "6a2ac86bd874ba33",
-    "064435cfcb3bff35",
-    "73d77834b60f6435",
-    "46bc227ab572b17f"
+    "199f4267e8625393"
   ]
 };
