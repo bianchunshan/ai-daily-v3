@@ -1,5 +1,57 @@
 const newsData = [
   {
+    "id": "0a730cbfee85887d",
+    "title": "澳企Firmus将在印尼建360MW液冷AI工厂",
+    "summary": "澳大利亚AI云服务商Firmus宣布与英伟达达成战略合作，将在印尼峇淡建设360MW液冷AI工厂，未来两年获交付17万颗GPU，预计前六年收入达250-300亿美元。",
+    "body": "澳大利亚新兴AI云服务供应商Firmus近日宣布，将与英伟达合作在印度尼西亚峇淡（巴淡）建设一座NVIDIA DSX液冷AI工厂。该工厂由Firmus与DayOne联合开发，电力容量达360MW，是东南亚地区重要的算力基础设施布局。根据双方持续至2034年的战略合作协议，英伟达将在2025-2026年向Firmus交付覆盖Grace Blackwell、Vera Rubin及Vera等多代算力硬件，总计17万颗GPU。Firmus预计，合作前六年将从已承诺的承购协议中获得250亿至300亿美元收入。值得注意的是，英伟达也是Firmus今年四月股权融资的有条件参与方，显示出芯片巨头对下游云算力部署的深度绑定意图。这一项目反映了全球AI算力需求持续扩张，液冷技术与大规模GPU集群正成为数据中心建设的核心方向。",
+    "category": "AI 基础设施",
+    "tags": [
+      "液冷数据中心",
+      "GPU集群",
+      "东南亚算力",
+      "英伟达"
+    ],
+    "source": "IT之家",
+    "time": "1分钟前",
+    "ts": "2026-06-29T01:37:54+00:00",
+    "url": "https://www.ithome.com/0/969/763.htm",
+    "image": "https://img.ithome.com/newsuploadfiles/2026/6/25f32669-ea9d-44ed-8670-5d4a94797591.jpg",
+    "stocks": [
+      {
+        "name": "英伟达",
+        "ticker": "NVDA",
+        "reason": "Firmus将采购17万颗英伟达多代GPU，直接贡献大额芯片订单收入",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "f397655535661f65",
+    "title": "vivo X500 Pro Max 工程机曝光：6.85寸2K 144Hz屏",
+    "summary": "博主数码闲聊站透露，vivo X500 Pro Max工程机搭载6.85英寸2K分辨率144Hz LTPO屏幕，采用京东方BOE方案和Lipo极窄边框技术，电池容量有望突破8000mAh。",
+    "body": "据博主@数码闲聊站爆料，某厂PM工程机确认为vivo X500 Pro Max，搭载6.85英寸±2K分辨率、144Hz刷新率LTPO屏幕。该工程机采用京东方BOE方案，并运用Lipo封装技术，实现极窄四等边、大R角、2.5D直屏形态。博主此前还透露，新机电池容量正争取达到\"8开头\"，即8000mAh以上，但目前尚未最终定案。作为参考，vivo X300系列于去年10月发布，搭载联发科天玑9500处理器，首发三星HPB 2亿像素传感器，起售价4399元。若X500 Pro Max屏幕与电池规格属实，将成为vivo在高端大屏旗舰领域的重要升级，直接对标苹果iPhone Pro Max及三星Galaxy Ultra系列。",
+    "category": "消费电子",
+    "tags": [
+      "vivo",
+      "智能手机",
+      "京东方",
+      "LTPO屏幕"
+    ],
+    "source": "IT之家",
+    "time": "1分钟前",
+    "ts": "2026-06-29T01:37:31+00:00",
+    "url": "https://www.ithome.com/0/969/762.htm",
+    "image": "https://img.ithome.com/newsuploadfiles/2026/6/e70811d9-266a-4c86-ba9e-9665f75f1655.png",
+    "stocks": [
+      {
+        "name": "京东方A",
+        "ticker": "000725.SZ",
+        "reason": "工程机采用BOE屏幕方案，若量产落地将带来面板订单增量",
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
     "id": "ea01af2b82c63ce4",
     "title": "图灵奖得主希发基思出任曹操出行首席科学顾问",
     "summary": "图灵奖得主约瑟夫·希发基思出任曹操出行AI创新中心首席科学顾问，系其首次深度参与中国科技公司AI战略建设，将加速该公司RoboX自动驾驶战略落地。",
@@ -54,6 +106,25 @@ const newsData = [
     "ts": "2026-06-29T01:30:16+00:00",
     "url": "https://www.ithome.com/0/969/760.htm",
     "image": "https://img.ithome.com/newsuploadfiles/2026/6/f52d7d60-5225-4398-aacc-3e7f7a06e886.jpg?x-bce-process=image/watermark,text_QUnnlJ_miJA,type_RlpMYW5UaW5nSGVpU0JHQg==,size_28,color_ffffffdd,skw_1,skc_00000051,g_7,blr_50,bls_50,x_11,y_11/format,f_auto",
+    "stocks": []
+  },
+  {
+    "id": "c9f947a19f520951",
+    "title": "Sophon发布单片3D AI芯片PFG-1：集成330GB片上DRAM，无需HBM",
+    "summary": "美国初创公司Sophon推出PFG-1 AI专用芯片，采用单片3D集成技术将330GB DRAM直接堆叠于逻辑芯片之上，彻底摒弃传统HBM高带宽内存方案。",
+    "body": "美国芯片初创公司Sophon近日发布PFG-1 AI ASIC，采用单片三维集成（monolithic-3D）技术，在单颗芯片上实现330GB片上DRAM，完全取消对HBM（高带宽内存）的依赖。该技术路径通过直接在逻辑晶圆上堆叠DRAM层，有望突破当前AI芯片受限于HBM供应瓶颈和成本的困境。若量产成功，将对现有以HBM为核心的AI算力架构产生颠覆性影响，并可能重塑存储与计算融合的技术路线。目前该产品仍处于早期发布阶段，量产时间表与性能基准尚未公开。",
+    "category": "半导体与先进制造",
+    "tags": [
+      "AI芯片",
+      "3D集成",
+      "存储技术",
+      "HBM替代"
+    ],
+    "source": "Hacker News",
+    "time": "15分钟前",
+    "ts": "2026-06-29T01:23:38+00:00",
+    "url": "https://www.phantafield.com/whitepaper",
+    "image": "",
     "stocks": []
   },
   {
@@ -69869,12 +69940,12 @@ const newsData = [
   }
 ];
 const newsDigest = {
-  "text": "今日科技前沿聚焦三大方向：机器人产业加速商业化，Momenta启动港股招股、法拉第未来上调出货目标，具身智能获资本重金押注；人工智能领域开源生态扩容至近6000万项目，中国移动设立Token办公室强化AI基础设施布局；消费电子持续迭代，vivo发布Wi-Fi无损音频旗舰耳机，华为鸿蒙装机量突破7000万台。",
+  "text": "今日科技前沿聚焦四大主线：半导体领域，Sophon发布单片3D AI芯片PFG-1，集成330GB片上DRAM，颠覆传统HBM架构；机器人赛道热度攀升，图灵奖得主希发基思加盟曹操出行，港大教授李弘扬通用具身大脑项目获数亿融资；AI基础设施持续扩张，澳企Firmus将在印尼建设360MW液冷AI工厂；消费电子方面，vivo与小米新品密集发布，华为鸿蒙装机量突破7000万台。",
   "highlights": [
+    "c9f947a19f520951",
     "165012c294d115cd",
-    "dbb4dbf9eb1cd03d",
-    "d9ce05b7a3b25e0d",
-    "ff65aab393754ee4",
-    "9b06c79f0a9187ef"
+    "0a730cbfee85887d",
+    "b6ad0f30b2a9216c",
+    "02ff27b8de3e3f3c"
   ]
 };
