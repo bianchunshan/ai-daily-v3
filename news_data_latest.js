@@ -1,5 +1,50 @@
 const newsData = [
   {
+    "id": "f75ff2da3b1c2fdb",
+    "title": "BAE系统助力NASA旗舰天文台探索宇宙奥秘",
+    "summary": "BAE Systems作为NASA天体物理学旗舰空间观测站的重要合作伙伴，提供尖端技术支持人类观测遥远星系、探索系外行星及其大气层，拓展对宇宙的认知。",
+    "body": "BAE Systems宣布其作为NASA天体物理学旗舰空间观测站的主要合作伙伴，通过先进观测技术助力科学家从遥远星系观测到系外行星大气层探索等多项前沿研究。该公司提供的关键技术正在推动人类对宇宙基本问题的理解不断深入。\n\n此类旗舰级空间观测项目代表了商业航天与国防科技领域的高端技术集成，涉及精密光学、航天器平台、传感器及数据处理等核心技术。BAE Systems的参与凸显了欧美大型防务承包商在民用航天科研中的深度渗透与技术输出能力。\n\n从产业影响来看，大型空间科学任务对高精度元器件、特种材料及系统集成能力的需求，将持续拉动相关供应链技术升级，并为商业航天与国防科技交叉领域提供技术外溢效应。",
+    "category": "商业航天",
+    "tags": [
+      "空间天文台",
+      "NASA",
+      "航天技术",
+      "深空探测"
+    ],
+    "source": "SpaceNews",
+    "time": "2分钟前",
+    "ts": "2026-06-29T14:27:57+00:00",
+    "url": "https://spacenews.com/discovering-the-universe-astrophysics-flagship-space-observatories-offer-insights-to-key-questions/",
+    "image": "https://i0.wp.com/spacenews.com/wp-content/uploads/2026/06/A14906-SpaceNews-header-1200x662-1.jpg?fit=1024%2C566&amp;ssl=1",
+    "stocks": [
+      {
+        "name": "BAE系统公司",
+        "ticker": "BA.L",
+        "reason": "作为NASA天体物理学旗舰观测站主要合作伙伴，直接提供空间观测尖端技术与系统集成能力",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "4e698e6fd8d14b95",
+    "title": "微软暂停第三方Game Pass新合作签约",
+    "summary": "微软在Xbox业务重组期间暂停签署新的第三方Game Pass合作协议，多款已进入深度谈判的项目被突然叫停。此举被视为新任负责人阿莎·夏尔马重整业务线的配套调整，但Game Pass服务本身不会被取消。",
+    "body": "据《绝地潜兵2》项目负责人沙姆斯·乔贾尼在播客中透露，微软已暂停签署新的第三方Game Pass合作协议。大量原本谈判进入深度阶段的厂商项目被突然叫停，乔贾尼认为其公司Caboodle可能是最后一批完成签约的厂商之一。此次暂停与Xbox业务架构重组密切相关，今年2月上任的负责人阿莎·夏尔马正全面重整业务线，此前已下调Game Pass订阅价格，并取消《使命召唤》新作首发入库。\n\n微软此举背后存在明显的盈利压力。该公司此前斥资687亿美元收购动视暴雪，如今需要恢复Xbox业务盈利。持续高价买断第三方游戏入库的成本难以为继，收缩采购、优先主推自研内容成为更经济的选择。此外，Xbox近期还上调了Series S/X主机售价，新价格8月1日生效。\n\n尽管短期收缩，Game Pass仍是Xbox核心板块。新管理层多次表态重视该服务，夏日游戏发布会上也强调多款新作将登陆。随着Xbox重新重视独占游戏布局，优质第三方合作仍具吸引力，后续预算放开与合作重启存在可能。",
+    "category": "消费电子",
+    "tags": [
+      "微软",
+      "Xbox",
+      "游戏订阅",
+      "主机游戏"
+    ],
+    "source": "IT之家",
+    "time": "8分钟前",
+    "ts": "2026-06-29T14:21:56+00:00",
+    "url": "https://www.ithome.com/0/970/221.htm",
+    "image": "https://img.ithome.com/newsuploadfiles/2026/6/8d7a218b-84dd-4100-8048-d0310b3a352b.png?x-bce-process=image/format,f_auto",
+    "stocks": []
+  },
+  {
     "id": "5f5bff0f16c33352",
     "title": "Rocket Lab 80亿美元收购铱星，打造垂直整合航天巨头",
     "summary": "美国商业航天企业Rocket Lab宣布以约80亿美元现金加股票收购卫星通信公司Iridium，交易预计2027年中完成，旨在整合发射、制造与通信服务，打造垂直整合型航天公司。",
@@ -74068,6 +74113,12 @@ const newsData = [
   }
 ];
 const newsDigest = {
-  "text": "",
-  "highlights": []
+  "text": "今日科技前沿聚焦三大主线：商业航天领域再现重磅并购，Rocket Lab拟80亿美元收购铱星对标SpaceX；人工智能赛道持续升温，DeepSeek V4即将上线并引入峰谷定价机制，OpenAI成立应急小组调查Codex异常消耗；半导体与先进制造方面，Imec发布2038年冲刺0.3nm路线图，三大内存巨头则面临反垄断诉讼。机器人、消费电子及AI基础设施亦有重要进展。",
+  "highlights": [
+    "5f5bff0f16c33352",
+    "f6baa2ab9e34d931",
+    "fb7dc142e64f4973",
+    "852928623a5cb965",
+    "7df18706c852c5b2"
+  ]
 };
