@@ -1,5 +1,63 @@
 const newsData = [
   {
+    "id": "3344ff5c691d69d3",
+    "title": "Rocket Lab 80亿美元收购铱星网络 挑战SpaceX",
+    "summary": "商业航天公司Rocket Lab宣布以80亿美元收购卫星通信运营商Iridium Communications，整合发射服务、航天器制造与卫星通信网络，直接对标SpaceX的星链业务。",
+    "body": "Rocket Lab宣布以80亿美元收购Iridium Communications，这是商业航天领域近年最大规模并购之一。Rocket Lab凭借小型火箭Electron和航天器制造业务闻名，而Iridium运营着覆盖全球的66颗低轨卫星通信网络，服务超过250万用户。交易完成后，Rocket Lab将形成\"发射+制造+运营\"的垂直整合能力，直接挑战SpaceX在卫星互联网领域的 dominance。\n\n此次收购标志着卫星通信行业进入深度整合阶段。Rocket Lab此前已涉足卫星制造和太空系统业务，但缺乏自主运营的大规模通信网络。Iridium的现有客户群和频谱资源将为其提供即时收入来源，同时降低对第三方发射合同的依赖。不过，该交易仍需通过监管审批，且Rocket Lab需解决高额债务融资问题。业内分析认为，这一组合能否真正撼动SpaceX的星链地位，取决于后续星座扩容成本与终端定价策略。",
+    "category": "商业航天",
+    "tags": [
+      "卫星互联网",
+      "商业航天",
+      "SpaceX",
+      "行业并购"
+    ],
+    "source": "The Verge",
+    "time": "1分钟前",
+    "ts": "2026-06-29T09:51:24-04:00",
+    "url": "https://www.theverge.com/science/958891/rocket-lab-iridium-acquisition-satellite-communications",
+    "image": "",
+    "stocks": [
+      {
+        "name": "Rocket Lab",
+        "ticker": "RKLB",
+        "reason": "收购方，整合卫星通信网络后业务版图大幅扩张，直接对标星链",
+        "confidence": "high"
+      },
+      {
+        "name": "Iridium Communications",
+        "ticker": "IRDM",
+        "reason": "被收购标的，股东将获得溢价回报，品牌纳入Rocket Lab体系",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "1f1656d8ebb4ddbc",
+    "title": "索尼确认PS6硬件不大幅亏本销售，紧盯成本走势",
+    "summary": "索尼在业绩问答中明确，下一代PlayStation主机原则上不会大幅亏本销售硬件，将持续关注零部件成本上涨与市场形势，审慎调整定价策略。",
+    "body": "索尼在近期游戏与网络服务事业部业绩问答中回应了关于下一代游戏主机PS6的定价策略。公司表示，硬件是游戏体验的核心载体，原则上不计划以亏损价格销售硬件，但会密切关注市场形势并持续调整定价策略。索尼强调，无法独自承担全部零部件涨价带来的成本压力，已在日本以外市场上调多款硬件售价。\n\n当前内存与存储芯片持续供不应求，零部件成本暴涨。索尼总裁兼CEO十时裕树上月透露，PS6的发布时间与首发定价尚未敲定，预计2027财年内存芯片供应缺口仍将存在、价格维持高位。行业分析师预警，受成本压力影响，PS6及Xbox下一代主机首发价格可能突破1000美元，但厂商或保留三位数定价的基础款以缓解消费者心理抵触。",
+    "category": "消费电子",
+    "tags": [
+      "游戏主机",
+      "索尼",
+      "PS6",
+      "硬件定价"
+    ],
+    "source": "IT之家",
+    "time": "10分钟前",
+    "ts": "2026-06-29T13:42:21+00:00",
+    "url": "https://www.ithome.com/0/970/215.htm",
+    "image": "https://img.ithome.com/newsuploadfiles/2026/6/a22a69c5-cfa6-465d-9461-a83d6ad563a0.png?x-bce-process=image/format,f_auto",
+    "stocks": [
+      {
+        "name": "索尼",
+        "ticker": "SONY",
+        "reason": "PS6定价策略明确，硬件盈利导向有助于保护利润率",
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
     "id": "f6baa2ab9e34d931",
     "title": "DeepSeek V4将上线并引入峰谷定价，高峰期API价格翻倍",
     "summary": "DeepSeek计划于7月中旬推出V4正式版，并调整API定价策略，高峰时段价格将上调至平时的2倍，以优化资源配置和提升服务稳定性。",
@@ -13978,6 +14036,25 @@ const newsData = [
     "ts": "2026-06-26T18:51:04+00:00",
     "url": "https://arstechnica.com/tech-policy/2026/06/fcc-accused-of-hiding-chairman-carrs-messages-with-doge-and-musk/",
     "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/03/brendan-carr-1152x648-1773688503.jpg",
+    "stocks": []
+  },
+  {
+    "id": "3098edd18def0817",
+    "title": "Flipper Zero团队推Busy Bar效率工具",
+    "summary": "Flipper Zero原班团队打造的Busy Bar生产力显示屏将于7月14日开售发货。该设备采用像素化LED屏幕，定位为\"生产力多用途工具\"。",
+    "body": "据The Verge报道，Flipper Zero无线多功能工具的创始团队将于7月14日正式发售其新品Busy Bar，并于同日开始发货。该设备首次公布于2025年4月，距今已逾一年。与主打无线安全测试的Flipper Zero不同，Busy Bar被定义为\"生产力多用途工具\"，核心特色是一块像素化LED显示屏，可用于状态提示、通知管理等工作场景。这一产品线延伸显示出该团队正从极客安全工具向更广泛的个人效率硬件领域拓展，或将在小众生产力设备市场开辟新空间。",
+    "category": "消费电子",
+    "tags": [
+      "生产力工具",
+      "LED显示屏",
+      "硬件创新",
+      "效率设备"
+    ],
+    "source": "The Verge",
+    "time": "2天前",
+    "ts": "2026-06-26T14:49:05-04:00",
+    "url": "https://www.theverge.com/tech/957784/flipper-devices-busy-bar-productivity-multitool-timer-led-display-presale",
+    "image": "",
     "stocks": []
   },
   {
@@ -73839,12 +73916,12 @@ const newsData = [
   }
 ];
 const newsDigest = {
-  "text": "今日科技前沿聚焦三大主线：人工智能领域DeepSeek V4引入峰谷定价机制，欧盟同步收紧AI监管；半导体产业暗流涌动，三大内存巨头再遭反垄断诉讼，而Imec抛出2038年0.3nm激进路线图；消费电子与机器人赛道持续升温，SteamOS主机与华为系智驾新品相继登场。",
+  "text": "今日科技前沿聚焦三大主线：人工智能领域DeepSeek V4引入峰谷定价重塑API商业模式，欧盟同步收紧AI监管；半导体与先进制造方面，三大DRAM巨头遭反垄断诉讼，Imec路线图剑指0.3nm；商业航天与消费电子亦有重磅动作，Rocket Lab 80亿美元收购铱星挑战SpaceX，索尼明确PS6控本策略。",
   "highlights": [
+    "3344ff5c691d69d3",
     "f6baa2ab9e34d931",
     "7df18706c852c5b2",
     "852928623a5cb965",
-    "63dc637df91c8c1f",
-    "fe2b761cc8a83a9c"
+    "1f1656d8ebb4ddbc"
   ]
 };
