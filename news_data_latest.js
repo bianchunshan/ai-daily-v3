@@ -1,5 +1,62 @@
 const newsData = [
   {
+    "id": "b23d609dc0f80e8d",
+    "title": "Anthropic发布Sonnet 5模型，专攻企业Agent任务",
+    "summary": "Anthropic推出新版Sonnet 5模型，重点提升Agentic任务执行能力，旨在解决企业客户与高阶用户在高频自动化任务中面临的效率与成本痛点。",
+    "body": "Anthropic发布了其最新的Sonnet 5模型，该模型针对Agentic任务进行了专门训练，能够更高效地完成企业级自动化流程。此类任务此前给企业客户和重度用户带来较大困扰，并推高了相关使用账单。\n\n新版Sonnet 5的优化方向直指当前企业AI应用中的实际痛点，反映出大模型厂商正从通用能力提升转向解决具体业务场景中的可靠性、成本与执行效率问题。这一进展有望加速Agent类产品在企业端的落地，并影响相关AI服务的市场竞争格局。",
+    "category": "人工智能",
+    "tags": [
+      "大模型",
+      "Agent",
+      "企业AI",
+      "Anthropic"
+    ],
+    "source": "Engadget",
+    "time": "21分钟前",
+    "ts": "2026-06-30T21:28:34+00:00",
+    "url": "https://www.engadget.com/2205475/anthropic-releases-claude-sonnet-5-model/",
+    "image": "https://www.engadget.com/img/gallery/anthropics-new-sonnet-5-model-is-better-at-the-tasks-that-are-running-up-enterprise-bills/l-intro-1782854427.jpg",
+    "stocks": []
+  },
+  {
+    "id": "f0cdaa426d30c8ea",
+    "title": "酒精使用障碍治疗可逆转脑损伤",
+    "summary": "一项新研究发现，长期饮酒会改变大脑对乙酸的代谢方式，但这种损害可通过治疗逆转。",
+    "body": "当人饮酒后，肝脏会将酒精分解为乙酸，身体可将其作为能量来源燃烧。《Neuropsychopharmacology》发表的一项新研究表明，长期饮酒会改变大脑对乙酸的代谢方式，导致有害的脑部效应。研究同时指出，这些变化是可以逆转的，酒精使用障碍的治疗能够恢复大脑的正常代谢功能。\n\n该发现为酒精成瘾患者带来了希望，说明早期干预和持续治疗不仅能改善行为症状，还可能修复由长期饮酒引起的神经代谢损伤，减轻认知和情绪方面的后遗症。",
+    "category": "生物医药",
+    "tags": [
+      "酒精使用障碍",
+      "脑代谢",
+      "神经科学",
+      "生物医学"
+    ],
+    "source": "MedicalXpress",
+    "time": "30分钟前",
+    "ts": "2026-06-30T17:20:12-04:00",
+    "url": "https://medicalxpress.com/news/2026-06-treatment-alcohol-disorder-reverse-brain.html",
+    "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/beer-bottles.jpg",
+    "stocks": []
+  },
+  {
+    "id": "5ea8457ad9710695",
+    "title": "血液肿瘤幸存者心血管疾病风险更高",
+    "summary": "发表于《BMC Cancer》的研究显示，血液肿瘤幸存者患心血管疾病的风险显著升高，提示肿瘤长期随访中需关注心脏健康。",
+    "body": "《BMC Cancer》在线发表的一项研究指出，血液肿瘤（如白血病、淋巴瘤、骨髓瘤等）幸存者的心血管疾病（CVD）发生风险显著高于普通人群。研究人员提示，癌症治疗本身（包括化疗、放疗、靶向药物等）可能对心脏和血管造成长期损伤，增加心衰、冠心病等事件发生概率。\n\n该发现强调了肿瘤幸存者长期随访管理的重要性，未来在血液肿瘤治疗中可能需要更重视心脏保护策略，并推动肿瘤心脏病学相关研究和临床指南的发展。这一领域有望带动心血管监测、肿瘤辅助治疗及慢病管理等需求增长。",
+    "category": "生物医药",
+    "tags": [
+      "血液肿瘤",
+      "心血管风险",
+      "肿瘤幸存者",
+      "临床研究"
+    ],
+    "source": "MedicalXpress",
+    "time": "30分钟前",
+    "ts": "2026-06-30T17:20:04-04:00",
+    "url": "https://medicalxpress.com/news/2026-06-hematologic-cancer-survivors-higher-cardiovascular.html",
+    "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/hematologic-cancer-sur.jpg",
+    "stocks": []
+  },
+  {
     "id": "e6e8abfea2d2ef77",
     "title": "亚马逊因未协助身份盗窃受害者被罚225万美元",
     "summary": "美国联邦贸易委员会（FTC）因亚马逊未向身份盗窃受害者提供欺诈账户购物信息，对其处以225万美元罚款。该处罚凸显了大型平台在用户数据与身份欺诈应对方面的合规压力。",
