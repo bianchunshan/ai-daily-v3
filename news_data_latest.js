@@ -1,5 +1,31 @@
 const newsData = [
   {
+    "id": "2074c3624b813168",
+    "title": "Rocket Lab今晚将为日本发射雷达观测卫星",
+    "summary": "Rocket Lab计划今晚从新西兰发射场用Electron火箭，将日本iQPS公司的QPS-SAR-13地球观测雷达卫星送入轨道，继续为客户组建SAR卫星星座。",
+    "body": "Rocket Lab今晚将执行名为“The Grain Goddess Provides”的发射任务，用Electron火箭把日本iQPS公司研制的QPS-SAR-13雷达卫星送入约575公里高的圆轨道。该卫星昵称Mikura-I，部署后将为iQPS的地球观测星座增加新成员。iQPS计划构建由36颗低轨卫星组成的合成孔径雷达（SAR）星座，SAR载荷具备穿透云层、昼夜持续成像的能力，可用于农业、海洋和防灾监测等领域。\n\n此次任务是Rocket Lab为iQPS执行的15次组网发射中的第8次，也是该公司总计第92次、本年度第13次任务。通过频繁的小运载发射，Rocket Lab进一步展现了商业航天领域灵活、高频的发射服务能力，并巩固其在小型卫星发射市场的地位。发射前约30分钟将开启直播。",
+    "category": "商业航天",
+    "tags": [
+      "商业航天",
+      "火箭发射",
+      "卫星遥感",
+      "Rocket Lab"
+    ],
+    "source": "Space.com",
+    "time": "6分钟前",
+    "ts": "2026-06-30T21:01:30+00:00",
+    "url": "https://www.space.com/space-exploration/launches-spacecraft/rocket-lab-launch-iqps-radar-satellite-grain-goddess-provides",
+    "image": "https://cdn.mos.cms.futurecdn.net/uYioKVVXoyzKZ7cqYBRFPn-1280-80.jpg",
+    "stocks": [
+      {
+        "name": "Rocket Lab",
+        "ticker": "RKLB",
+        "reason": "作为发射服务提供方，承担iQPS SAR星座发射任务，直接获得发射收入并提升订单可见度",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
     "id": "4fb995be999fb2bf",
     "title": "脑机接口识别植物人隐藏意识",
     "summary": "英国巴斯大学研究团队展示了一种新方案，通过脑机接口识别严重脑损伤后无法言语或运动的患者是否存在隐藏意识。",
@@ -82977,6 +83003,12 @@ const newsData = [
   }
 ];
 const newsDigest = {
-  "text": "",
-  "highlights": []
+  "text": "今日科技前沿：NASA拟将核动力火星车备份模型送往月球，DeepMind前三人组创办对冲基金AI公司，逐际动力完成第四轮融资估值超28亿美元，美国太空军部署机动卫星干扰系统，加州斥资3.83亿美元升级长滩港清洁基础设施。",
+  "highlights": [
+    "f893f3a8fc3dc9b7",
+    "6b03f09617525e07",
+    "9787e6b02172781d",
+    "142aa2e24aba98d0",
+    "1bc5b90aae7fe384"
+  ]
 };
