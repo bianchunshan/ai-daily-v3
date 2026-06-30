@@ -1,5 +1,24 @@
 const newsData = [
   {
+    "id": "2202fa0b40b4d6f9",
+    "title": "蓝色起源仍不清楚新格伦火箭上月爆炸原因",
+    "summary": "蓝色起源尚未查明其“新格伦”火箭上月发射失败爆炸的具体原因，但公司仍表示该火箭有望今年复飞。",
+    "body": "蓝色起源目前仍未查明其“新格伦”（New Glenn）火箭在上月发射任务中发生爆炸的具体原因。公司尚未公布明确的故障根源或技术细节，事故调查仍在进行中。\n\n尽管爆炸原因尚未确定，蓝色起源仍对外宣称，“新格伦”火箭计划在今年内重返飞行。这一表态显示出公司对其复飞能力的信心，但也引发业界对事故调查进度和安全验证的关注。\n\n该事件再次凸显商业航天在快速推进发射任务过程中面临的技术可靠性与安全复飞挑战。“新格伦”的复飞时间表对蓝色起源的发射业务规划及商业航天市场格局具有重要意义。",
+    "category": "商业航天",
+    "tags": [
+      "蓝色起源",
+      "新格伦火箭",
+      "商业航天",
+      "火箭发射事故"
+    ],
+    "source": "TechCrunch",
+    "time": "2分钟前",
+    "ts": "2026-06-30T16:09:57+00:00",
+    "url": "https://techcrunch.com/2026/06/30/blue-origin-still-doesnt-know-why-its-new-glenn-rocket-blew-up-last-month/",
+    "image": "",
+    "stocks": []
+  },
+  {
     "id": "6a199cb055e30992",
     "title": "Bose SoundLink Max 蓝牙音箱降价120美元",
     "summary": "Bose SoundLink Max 蓝牙音箱在美国独立日周末前迎来大幅降价，亚马逊、百思买和Bose官网售价从399美元降至279美元。该音箱音质洪亮、声场宽广，并具备IP67防尘防水，适合户外使用。",
@@ -17,6 +36,32 @@ const newsData = [
     "url": "https://www.theverge.com/gadgets/959264/bose-soundlink-max-wd-black-deal-sale",
     "image": "",
     "stocks": []
+  },
+  {
+    "id": "f8c0cbef5e2e5bd2",
+    "title": "谷歌DeepMind发布新图像模型与视频生成工具",
+    "summary": "Google DeepMind 发布 Nano Banana 2 Lite 和 Gemini Omni Flash 两款新模型，前者主打快速低成本图像生成，后者支持高画质视频生成与对话式编辑。",
+    "body": "Google DeepMind 近日推出 Nano Banana 2 Lite（gemini-3.1-flash-lite-image），官方称该模型为 Nano Banana 系列中速度最快、成本最低的图像生成模型，文本到图像输出仅需 4 秒，每 1K 分辨率图像成本为 0.034 美元。该模型已上线 Google AI Studio、Gemini API，并集成到搜索 AI Mode 和 Gemini app 等消费者产品中。\n\n同时发布的 Gemini Omni Flash（gemini-omni-flash-preview）专注于视频生成，支持高画质视频输出与对话式编辑，视频生成定价为 0.10 美元/秒，目前已面向开发者开放 API。两款产品进一步丰富了 Google 的多模态生成模型矩阵，有望降低开发者使用门槛并推动 Gemini 生态在图像和视频创作领域的应用。",
+    "category": "人工智能",
+    "tags": [
+      "人工智能",
+      "多模态模型",
+      "图像生成",
+      "视频生成"
+    ],
+    "source": "AIHOT精选",
+    "time": "10分钟前",
+    "ts": "2026-06-30T16:02:40+00:00",
+    "url": "https://deepmind.google/blog/start-building-with-nano-banana-2-lite-and-gemini-omni-flash",
+    "image": "",
+    "stocks": [
+      {
+        "name": "Alphabet",
+        "ticker": "GOOGL",
+        "reason": "Google DeepMind 新模型有望增强其 AI 应用与云服务竞争力。",
+        "confidence": "medium"
+      }
+    ]
   },
   {
     "id": "259521733c615232",
