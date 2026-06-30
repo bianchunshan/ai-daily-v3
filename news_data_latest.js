@@ -1,5 +1,56 @@
 const newsData = [
   {
+    "id": "d10b05ea9e3185eb",
+    "title": "光荣特库摩新作《FUJI》入选日本IP360资助计划",
+    "summary": "日本经济产业省公布IP360计划入选名单，光荣特库摩新作《FUJI》及科乐美、世嘉、史克威尔艾尼克斯等多家游戏企业项目入选，将获得政府资助以培育新IP并推动日本文化出口。",
+    "body": "据IT之家援引Automaton报道，日本经济产业省日前公布IP360计划入选名单，光荣特库摩新作“FUJI”位列其中。该计划于今年3月启动，旨在推动日本文化出口，发展电子游戏、动漫等产业，鼓励本土企业打造全新IP。公开信息显示，《FUJI》将采用东洋风格美术、主打动作玩法。除光荣特库摩外，科乐美、世嘉、史克威尔艾尼克斯等知名游戏公司项目也在名单之中，将获得日本政府资助。该计划体现出日本将游戏、动漫等数字内容产业提升至国家战略层面的意图，有望增强本土IP的全球竞争力。",
+    "category": "消费电子",
+    "tags": [
+      "游戏产业",
+      "日本文化出口",
+      "IP培育",
+      "数字内容"
+    ],
+    "source": "IT之家",
+    "time": "刚刚",
+    "ts": "2026-06-30T12:31:31+00:00",
+    "url": "https://www.ithome.com/0/970/741.htm",
+    "image": "https://img.ithome.com/newsuploadfiles/2026/6/6d8e6dca-dd34-4635-bce4-0734469b7722.png?x-bce-process=image/format,f_auto",
+    "stocks": [
+      {
+        "name": "光荣特库摩控股",
+        "ticker": "3635.T",
+        "reason": "新作《FUJI》入选IP360计划，将获得政府资助，降低新IP开发成本并提升全球推广资源。",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "65d88b8aa4854274",
+    "title": "Firefly与SSC计划2028年在瑞典首射入轨火箭",
+    "summary": "瑞典太空公司SSC与美国火箭企业Firefly瞄准2028年实现从瑞典埃斯兰奇航天中心首次轨道发射，相关基础设施与监管审批正逐步到位。这将填补欧洲本土轨道发射能力的空白。",
+    "body": "据SpaceNews报道，瑞典太空公司SSC（Swedish Space Corporation）与美国商业航天发射服务商Firefly Aerospace共同宣布，目标在2028年从瑞典北部基律纳附近的埃斯兰奇航天中心（Esrange）完成首次轨道发射。双方表示，关键基础设施建设和监管审批工作已取得实质性进展。埃斯兰奇长期用于探空火箭与气球试验，具备纬度与地缘优势，若实现轨道发射，将成为欧洲大陆重要的商业发射新选择。\n\n此次合作对Firefly而言意味着其“阿尔法”（Alpha）火箭获得新的发射场资源，有助于提升发射频次与灵活性；对SSC和欧洲航天生态而言，则有望减少对美国、法属圭亚那等地发射设施的依赖，增强欧洲自主进入太空的能力。该项目也反映出全球商业航天发射场多元化布局加速的趋势。",
+    "category": "商业航天",
+    "tags": [
+      "商业航天",
+      "火箭发射",
+      "欧洲航天"
+    ],
+    "source": "SpaceNews",
+    "time": "9分钟前",
+    "ts": "2026-06-30T12:21:56+00:00",
+    "url": "https://spacenews.com/ssc-space-firefly-set-2028-target-for-first-orbital-launch-from-swedens-esrange/",
+    "image": "https://i0.wp.com/spacenews.com/wp-content/uploads/2026/06/SSC-Space-Firefly-Sund-Kim-Esrange-June2026-SSCSpace-scaled.jpg?fit=1024%2C683&amp;ssl=1",
+    "stocks": [
+      {
+        "name": "Firefly Aerospace",
+        "ticker": "FLY",
+        "reason": "Firefly是计划从埃斯兰奇执行轨道发射的火箭运营方，直接受益新增发射场与订单潜力",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
     "id": "1c67cfc44e928831",
     "title": "阿维塔科技向港交所递交上市申请",
     "summary": "阿维塔科技（重庆）股份有限公司已向港交所提交上市申请书，联席保荐人为中信证券与中金公司。",
@@ -66,6 +117,44 @@ const newsData = [
         "confidence": "high"
       }
     ]
+  },
+  {
+    "id": "3cb5ef92cd2124ec",
+    "title": "新研究揭示β细胞在1型糖尿病中为主动参与者",
+    "summary": "两项新研究表明，胰腺中产生胰岛素的β细胞并非1型糖尿病中的被动受害者，其自身的应激反应和内部防御系统可能影响疾病的发生与发展。",
+    "body": "传统观点认为，1型糖尿病是一种自身免疫性疾病，免疫系统攻击胰腺中产生胰岛素的β细胞，导致其被破坏。然而，最新发表的两项研究挑战了这一认知，指出β细胞可能在疾病进程中扮演更主动的角色。研究发现，β细胞自身的应激反应以及内部防御机制可能不仅影响细胞存活，还可能参与塑造疾病如何开始和进展。这一发现为理解1型糖尿病的发病机制提供了新视角，也可能为未来开发保护β细胞或延缓疾病进展的新疗法带来方向。",
+    "category": "生物医药",
+    "tags": [
+      "1型糖尿病",
+      "β细胞",
+      "自身免疫",
+      "胰岛素"
+    ],
+    "source": "MedicalXpress",
+    "time": "11分钟前",
+    "ts": "2026-06-30T08:20:06-04:00",
+    "url": "https://medicalxpress.com/news/2026-06-beta-cells-players-diabetes.html",
+    "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/two-studies-point-to-b.jpg",
+    "stocks": []
+  },
+  {
+    "id": "200f30193862b69b",
+    "title": "中年睡眠呼吸暂停与记忆下降及痴呆风险相关",
+    "summary": "莫纳什大学新研究发现，中年睡眠呼吸暂停与记忆力减退和更大痴呆风险负担相关。及时识别并管理该病症及其血管风险因素，有助于维护长期大脑健康。",
+    "body": "据莫纳什大学最新研究，中年时期的睡眠呼吸暂停与较差的记忆表现以及更高的痴呆风险负担存在关联。研究人员指出，在中年阶段更好地识别和管理睡眠呼吸暂停及其相关血管风险因素，可能为支持长期大脑健康提供重要契机。该发现提示，睡眠呼吸暂停或可被视为中年认知健康的一个可干预风险因素。",
+    "category": "生物医药",
+    "tags": [
+      "睡眠呼吸暂停",
+      "痴呆风险",
+      "大脑健康",
+      "中年健康"
+    ],
+    "source": "MedicalXpress",
+    "time": "11分钟前",
+    "ts": "2026-06-30T08:20:04-04:00",
+    "url": "https://medicalxpress.com/news/2026-06-links-apnea-poor-memory-greater.html",
+    "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/forgetful.jpg",
+    "stocks": []
   },
   {
     "id": "8d0ea59decb96070",
@@ -139,6 +228,25 @@ const newsData = [
     ]
   },
   {
+    "id": "f692f985fa6d2de8",
+    "title": "AI“同事”称谓或降低人类纠错能力",
+    "summary": "波士顿大学研究发现，将AI代理称为“员工”会让管理者对其产出更信任，导致错误识别率下降18%。同时，一种太阳能高空平台有望从平流层提供互联网接入服务。",
+    "body": "据《麻省理工科技评论》报道，波士顿大学教授Emma Wiles的研究显示，当AI工具被赋予“Alex”等拟人化身份并被称为“AI员工”时，管理者会对其工作产生更强的信任感，进而漏掉18%的错误。微软、OpenAI、Anthropic和谷歌均已推出用于管理AI代理团队的工具，并常以“数字同事”作为宣传卖点。研究者认为，这种拟人化定位可能削弱人类监督的有效性，对企业部署AI代理的方式提出警示。\n\n另一则消息涉及平流层互联网。一家名为AeroVironment的公司计划于今年8月试飞一款约200英尺长的太阳能动力高空平台，从美国西南部起飞，穿越太平洋抵达日本海岸。该平台可在平流层长时间驻留，为偏远或地面基础设施薄弱地区提供互联网覆盖，可能成为卫星互联网之外的补充方案。",
+    "category": "人工智能",
+    "tags": [
+      "AI代理",
+      "人机协作",
+      "平流层通信",
+      "高空平台"
+    ],
+    "source": "MIT Tech Review",
+    "time": "21分钟前",
+    "ts": "2026-06-30T12:10:00+00:00",
+    "url": "https://www.technologyreview.com/2026/06/30/1139954/the-download-ai-agents-coworkers-solar-powered-internet/",
+    "image": "https://wp.technologyreview.com/wp-content/uploads/2023/02/GettyImages-183068979.jpeg?w=3000",
+    "stocks": []
+  },
+  {
     "id": "e4c179deef33575a",
     "title": "工信部预警Remcos新变种：可远程激活摄像头麦克风",
     "summary": "工信部CSTIS平台监测发现Remcos RAT 7.2.1 Pro新型变种正活跃传播，该恶意软件可远程控制Windows系统并激活摄像头、麦克风，窃取敏感信息。",
@@ -193,6 +301,25 @@ const newsData = [
     "ts": "2026-06-30T08:00:04-04:00",
     "url": "https://medicalxpress.com/news/2026-06-chain-reaction-cells-energy-mecfs.html",
     "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/tired.jpg",
+    "stocks": []
+  },
+  {
+    "id": "91d811178cffdf85",
+    "title": "农业拥抱AI，但数据基础仍薄弱",
+    "summary": "人工智能在农业领域应用前景广阔，可显著提升作物产量并降低资源消耗，但前提是必须先建立干净、完整的数据基础，否则AI可能输出误导性结果。",
+    "body": "据《麻省理工科技评论》文章指出，人工智能正在改变农业的可能性，尤其在化肥成本波动、天气多变、利润空间狭小的背景下，AI应用案例颇具吸引力。研究显示，AI预测模型可将作物产量提高26%、用水量减少41%、化学品使用降低33%。然而，这些解决方案的效果高度依赖于准确、完整的数据基础。\n\n文章强调，农业AI供应商往往只强调实时监测作物健康、优化灌溉、提高单产等宏大愿景，却很少提及底层数据质量。如果数据基础不牢固，AI可能生成看似权威实则误导的输出，导致适得其反的决策。行业领导者在投资AI之前，应先夯实数据治理与基础设施，否则难以实现预期效益。",
+    "category": "人工智能",
+    "tags": [
+      "智慧农业",
+      "AI应用",
+      "数据治理",
+      "农业数字化"
+    ],
+    "source": "MIT Tech Review",
+    "time": "31分钟前",
+    "ts": "2026-06-30T12:00:00+00:00",
+    "url": "https://www.technologyreview.com/2026/06/30/1139513/agriculture-is-ready-for-ai-but-its-data-isnt/",
+    "image": "https://wp.technologyreview.com/wp-content/uploads/2026/06/Reltio-iStock-2279127589.jpg?w=2309",
     "stocks": []
   },
   {
@@ -79694,12 +79821,10 @@ const newsData = [
   }
 ];
 const newsDigest = {
-  "text": "今日科技前沿聚焦AI与机器人产业变局：智谱GLM-5.2登顶开源榜单并基于华为昇腾训练，Kimi估值跃升至315亿美元；英伟达在华大举招募机器人人才，具身智能竞争白热化。同时，商业航天迎来密集催化，NASA将披露月球基地新进展，Orbital宣布部署10万颗太空数据中心卫星。AI基础设施领域，杰创智能、同有科技定增加码智算云与AI存储。",
+  "text": "今日科技前沿聚焦三大主线：人工智能领域国产模型与具身智能并进，智谱GLM-5.2登顶开源榜单、Kimi估值升至315亿美元，英伟达在华大举招聘机器人人才；商业航天加速布局，NASA将公布月球基地新进展，Orbital计划部署10万颗太空数据中心卫星；新能源与先进制造持续出海扩产，宁德时代海外工厂密集投产，四方达募资加码金刚石钻针产业化。",
   "highlights": [
     "a101e89002246264",
     "0ac4c570b77d1d73",
-    "a101e89002246264",
-    "c55ef75f9794d557",
     "774631ff723450dc",
     "66e22eddd8a2d3a3",
     "4be4394e4ccc8f54"
