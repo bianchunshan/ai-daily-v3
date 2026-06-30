@@ -1,5 +1,190 @@
 const newsData = [
   {
+    "id": "a7f9e176fd6b6f2a",
+    "title": "智界确认坚持R7 IP，赵长江称改款为年度款",
+    "summary": "鸿蒙智行智界汽车执行董事赵长江表示，智界R7将坚持现有IP并按年度改款，持续优化用户体验。此前官方宣布，R7与S7累计交付量已突破16万台。",
+    "body": "鸿蒙智行智界汽车执行董事及执行副总裁赵长江近日在与网友互动时确认，智界R7的改款将以“年度款”形式推进，并坚持R7这一IP，通过持续迭代为客户带来更好的体验。\n\n智界R7是鸿蒙智行首款轿跑SUV，由华为与奇瑞联合打造，沿用OneBox造型设计理念，并宣称在2024年拥有轿跑SUV中最大的内部空间。今年3月，R7/S7“双7”车型焕新发布，新增「暗夜紫」和「活力橙」配色，并配备全新896线双光路图像级激光雷达及鸿蒙ALPS健康座舱，售价分别为25.98万元和23.98万元起。\n\n截至今年5月，智界R7与智界S7累计交付量已突破16万台。此次明确年度改款策略，有助于保持产品节奏稳定，进一步增强智界品牌在智能电动SUV市场的竞争力。",
+    "category": "机器人",
+    "tags": [
+      "智能汽车",
+      "鸿蒙智行",
+      "智界R7",
+      "新能源汽车"
+    ],
+    "source": "IT之家",
+    "time": "2分钟前",
+    "ts": "2026-06-30T15:13:47+00:00",
+    "url": "https://www.ithome.com/0/970/783.htm",
+    "image": "https://img.ithome.com/newsuploadfiles/2026/6/dd5bd0c8-bded-435b-8e82-aa673c4cc9f3.jpg",
+    "stocks": []
+  },
+  {
+    "id": "8d037d18f15842f7",
+    "title": "X 推出 MCP 服务器，降低 AI 工具接入门槛",
+    "summary": "X 已上线托管式 MCP 服务器，使开发者能够更便捷地将 AI 应用与 X 的 API 连接起来，从而提升平台对 AI 工作流的支持能力。",
+    "body": "据 TechCrunch 报道，X 已推出托管式 MCP（Model Context Protocol）服务器，开发者可以更轻松地把 AI 应用接入 X 平台的 API。MCP 是 Anthropic 发起的开放协议，用于在大模型与外部数据源、工具之间建立标准化连接，X 此举意味着其平台将更自然地融入各类 AI 工作流。\n\n对 X 而言，提供 MCP 服务器有助于吸引更多开发者围绕其内容与社交数据构建 AI 应用，增强平台在 AI 生态中的连接价值。同时，这也反映出主要互联网平台正加速拥抱 AI 代理化、工具化的趋势，通过标准化接口降低集成门槛。",
+    "category": "人工智能",
+    "tags": [
+      "MCP",
+      "AI 应用",
+      "开发者平台",
+      "X"
+    ],
+    "source": "TechCrunch",
+    "time": "6分钟前",
+    "ts": "2026-06-30T15:08:42+00:00",
+    "url": "https://techcrunch.com/2026/06/30/x-now-offers-an-mcp-server-to-make-its-platform-easier-for-ai-tools-to-use/",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "136c93997b7c3876",
+    "title": "Arcturus纳米铜技术有望将电网电损减半",
+    "summary": "美国初创公司Arcturus利用激光将碳纳米材料注入铜中，显著提升其导电性能，有望将电网电力传输损耗降低约一半。",
+    "body": "美国初创公司Arcturus正研发一种新型导电材料，通过激光将碳纳米材料注入铜基体，大幅提升铜的导电能力。该技术主要面向电网输电场景，有望将现有电网的电力传输损耗减少近一半。若未来实现规模化应用，将对电力基础设施和能源效率产生重要影响。",
+    "category": "新材料",
+    "tags": [
+      "纳米材料",
+      "电网",
+      "导电材料",
+      "能源效率"
+    ],
+    "source": "TechCrunch",
+    "time": "13分钟前",
+    "ts": "2026-06-30T15:01:42+00:00",
+    "url": "https://techcrunch.com/2026/06/30/arcturus-could-halve-the-grids-electrical-losses-using-its-nano-infused-copper/",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "ef77bbfa84aebaea",
+    "title": "揭示胃细胞愈合紊乱增加癌症风险的基因线索",
+    "summary": "研究人员发现胃部细胞修复过程受阻可能通过特定基因变化增加胃癌风险，为理解消化道肿瘤发病机制提供了新线索。",
+    "body": "胃每天承受吞咽食物和胃酸带来的持续压力与潜在损伤，其黏膜必须不断更新修复。当这一愈合过程被打乱，可能引发慢性炎症甚至癌变。新的研究通过基因层面的分析，揭示了胃细胞修复异常与癌症风险增加之间的分子线索。\n\n该研究聚焦于胃部上皮细胞的损伤修复通路，识别出与愈合受阻相关的关键基因变化。这些发现有助于解释慢性胃炎等常见病变如何向胃癌转化，进一步阐明肿瘤发生的早期环节。\n\n虽然当前成果仍属于基础生命科学研究，但其长远意义在于可能为胃癌的早期筛查、风险预测和靶向治疗提供新方向，临床转化仍需后续验证。",
+    "category": "生物医药",
+    "tags": [
+      "胃癌",
+      "基因研究",
+      "细胞修复",
+      "肿瘤机制"
+    ],
+    "source": "MedicalXpress",
+    "time": "15分钟前",
+    "ts": "2026-06-30T11:00:06-04:00",
+    "url": "https://medicalxpress.com/news/2026-06-uncovering-gene-based-clues-disrupted.html",
+    "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/uncovering-gene-based.jpg",
+    "stocks": []
+  },
+  {
+    "id": "3ca2751cd04598d4",
+    "title": "日本研究揭示母婴依恋障碍风险因素",
+    "summary": "日本研究人员发现，约半数母婴依恋障碍病例的母亲并未经历产后抑郁，难以安抚哭闹婴儿、对怀孕缺乏喜悦及社会支持不足也是重要风险因素，临床医生应据此及早干预。",
+    "body": "母婴依恋障碍（MIBD）通常与产后抑郁联系在一起，并与儿童发育迟缓和虐待行为相关。然而，日本一项新研究发现，约半数 MIBD 病例的母亲并未出现产后抑郁，这意味着还有其他风险因素在起作用。\n\n研究显示，难以安抚哭闹的婴儿、对怀孕缺乏幸福感以及社会支持不足，均能显著预测 MIBD 的发生风险。这些发现提示，临床上不能仅将母婴依恋问题归因于产后抑郁，而应在观察到上述迹象时及早介入，以保障母婴双方的身心健康。",
+    "category": "生物医药",
+    "tags": [
+      "母婴健康",
+      "产后抑郁",
+      "心理健康",
+      "儿童发育"
+    ],
+    "source": "MedicalXpress",
+    "time": "15分钟前",
+    "ts": "2026-06-30T11:00:03-04:00",
+    "url": "https://medicalxpress.com/news/2026-06-factors-mother-infant-bonding-disorder.html",
+    "image": "https://scx1.b-cdn.net/csz/news/tmb/2023/new-mother-1.jpg",
+    "stocks": []
+  },
+  {
+    "id": "03e6c9509cfd2b27",
+    "title": "美国建国250年：望远镜技术如何演进",
+    "summary": "自1776年以来，光学望远镜技术经历了多次革命，其中1781年赫歇尔用自制的反射望远镜发现天王星，标志着望远镜极大拓展了人类视野。",
+    "body": "文章回顾了过去250年间光学望远镜的发展。1781年，英国天文学家威廉·赫歇尔在巴斯家中后花园使用一台自制的6.2英寸（约157毫米）反射望远镜观测，发现了太阳系第七颗行星天王星。这是自古代以来首次发现的新行星，证明望远镜能够突破肉眼极限，显著扩大人类对宇宙的认知。\n\n赫歇尔是一位多产的望远镜制造者，亲自打磨和塑形反射镜。这台6.2英寸望远镜虽然比他后来建造的大型仪器小巧，却完成了当时最重大的天文发现之一，展示了小型精密仪器同样能推动科学革命。\n\n从早期的折射镜到现代反射镜及太空望远镜，望远镜技术的持续演进不断推动天文学突破，也深刻影响了人类对宇宙起源、结构和地外世界的理解。",
+    "category": "商业航天",
+    "tags": [
+      "望远镜技术",
+      "天文发现",
+      "深空探测",
+      "美国建国250周年"
+    ],
+    "source": "Space.com",
+    "time": "15分钟前",
+    "ts": "2026-06-30T15:00:00+00:00",
+    "url": "https://www.space.com/technology/america-250-how-has-telescope-technology-evolved-since-the-dawn-of-the-u-s",
+    "image": "https://cdn.mos.cms.futurecdn.net/cA5rdfcKG9i4dzEFrxCwTm-1280-80.jpg",
+    "stocks": []
+  },
+  {
+    "id": "b4a20539e8058d12",
+    "title": "播客平台Riverside推出AI通讯创作功能",
+    "summary": "播客录制平台Riverside宣布进入新闻通讯领域，用户将可利用人工智能基于自己的录音内容自动生成newsletter。",
+    "body": "播客平台Riverside宣布进军新闻通讯（newsletter）发布市场，用户将能基于自己的播客录音，使用人工智能生成文字版通讯内容。这一功能把音频内容转化为可直接发布或邮件分发的文章，帮助创作者实现跨媒介内容再利用。此举反映出AI驱动的内容再生产正成为创作者工具的新方向，也可能加剧播客平台与邮件订阅工具之间的竞争。",
+    "category": "人工智能",
+    "tags": [
+      "人工智能",
+      "播客",
+      "内容创作",
+      "AI应用"
+    ],
+    "source": "TechCrunch",
+    "time": "15分钟前",
+    "ts": "2026-06-30T15:00:00+00:00",
+    "url": "https://techcrunch.com/2026/06/30/podcasting-platform-riverside-enters-the-newsletter-publishing-game/",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "6562069998acb7ad",
+    "title": "亚马逊推出10亿美元AI部署团队，跟进OpenAI与Anthropic",
+    "summary": "亚马逊成立规模达10亿美元的新组织，派遣工程师入驻客户企业以部署专用AI Agent，效仿OpenAI和Anthropic的类似做法。",
+    "body": "亚马逊宣布成立一支规模达10亿美元的新团队，专注于向企业客户派驻工程师，帮助其部署定制化的AI Agent。据悉，该团队工程师将嵌入客户企业内部，重点实现快速部署并让客户具备自主运营能力。这一举措与OpenAI、Anthropic此前设立的类似团队方向一致，显示出科技巨头正通过深度服务加速企业级AI Agent落地。该团队有望强化亚马逊AWS在AI服务市场的竞争力，并推动更多企业从AI实验走向实际生产应用。",
+    "category": "人工智能",
+    "tags": [
+      "AI Agent",
+      "企业服务",
+      "亚马逊",
+      "AWS"
+    ],
+    "source": "TechCrunch",
+    "time": "15分钟前",
+    "ts": "2026-06-30T15:00:00+00:00",
+    "url": "https://techcrunch.com/2026/06/30/amazon-launches-new-1-billion-fde-org-following-openai-and-anthropic/",
+    "image": "",
+    "stocks": [
+      {
+        "name": "亚马逊",
+        "ticker": "AMZN",
+        "reason": "亚马逊推出10亿美元新团队，派遣工程师帮助企业部署AI Agent，有望直接拉动AWS及相关AI服务业务增长。",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "b6979b5b3901c765",
+    "title": "特斯拉在奥斯汀启动首批量产Cybercab工程测试",
+    "summary": "特斯拉宣布已在奥斯汀公共道路对首款量产Cybercab开展工程测试，这是该无人驾驶出租车首次在工厂外验证；但视频显示前排仍有安全监督员，说明尚未实现完全无人商业运营。",
+    "body": "特斯拉日前表示，其已在奥斯汀公共道路上对首辆按客户规格生产的Cybercab开展工程测试。这是这款专为无人驾驶出租车设计的双座车型首次在工厂外接受验证。公司发布的视频显示，车辆行驶过程中前排副驾驶位置仍坐有一名安全监督员，表明其尚未在特斯拉的付费服务中实现完全无人自主运行。\n\n工程测试通常涵盖车辆性能、传感器融合与自动驾驶系统在实际道路环境中的稳定性。尽管Cybercab距离真正无人驾驶运营仍有一步之遥，但此次量产车测试标志着特斯拉从原型展示向工程验证阶段迈进，对其未来部署Robotaxi网络具有标志性意义。",
+    "category": "机器人",
+    "tags": [
+      "特斯拉",
+      "Cybercab",
+      "无人驾驶出租车",
+      "自动驾驶"
+    ],
+    "source": "Electrek",
+    "time": "18分钟前",
+    "ts": "2026-06-30T14:56:45+00:00",
+    "url": "https://electrek.co/2026/06/30/tesla-cybercab-engineering-tests-austin/",
+    "image": "https://electrek.co/wp-content/uploads/sites/3/2026/06/Tesla-Cybercab-validation-unit.jpeg?quality=82&#038;strip=all&#038;w=1600",
+    "stocks": [
+      {
+        "name": "特斯拉",
+        "ticker": "TSLA",
+        "reason": "作为Cybercab的开发商，量产车工程测试推进有助于加速其Robotaxi业务落地。",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
     "id": "2d0df959a64dded1",
     "title": "母乳低聚糖可长期影响婴儿肠道菌群",
     "summary": "丹麦科技大学与Rigshospitalet医院研究发现，母乳中不可消化的人乳低聚糖（HMOs）在婴儿过渡到固体食物后仍能影响肠道菌群组成，并可能产生长期影响。相关成果已发表于《Nature Communications》。",
@@ -293,6 +478,25 @@ const newsData = [
     "stocks": []
   },
   {
+    "id": "ac8a9c0922fd738f",
+    "title": "Claude Code 删除超30天对话记录，Anthropic 不修复",
+    "summary": "用户反馈 Anthropic 的 Claude Code 会自动删除超过30天的对话转录，官方表示不会修复该限制；这可能影响需要长期回溯历史记录的开发者和企业用户。",
+    "body": "据报道，Anthropic 旗下的 AI 编程工具 Claude Code 会自动删除超过30天的对话转录记录，而 Anthropic 已表示不会修复这一问题。该限制令部分用户担忧，因为他们无法长期检索或审计历史对话内容。\n\nClaude Code 是面向开发者的智能编码助手，对话记录常用于追踪问题排查、代码决策和项目上下文。30 天的保留期限意味着用户若未及时导出或备份，将丢失此前的交互数据，对合规和知识管理要求较高的团队影响尤为明显。\n\n此事折射出 AI 应用在数据留存与可访问性方面的普遍挑战。随着企业客户愈发依赖 AI 编程工具，对话历史保存时长与可访问性可能成为产品信任度和选型的重要考量。",
+    "category": "人工智能",
+    "tags": [
+      "Claude Code",
+      "Anthropic",
+      "AI编程",
+      "数据留存"
+    ],
+    "source": "Hacker News",
+    "time": "1小时前",
+    "ts": "2026-06-30T13:58:21+00:00",
+    "url": "https://github.com/anthropics/claude-code/issues/62476",
+    "image": "",
+    "stocks": []
+  },
+  {
     "id": "0c9ae3f12d91a395",
     "title": "iPhone 18 Pro 樱桃红卡托曝光，系列或新增银灰与浅蓝配色",
     "summary": "博主曝光的 iPhone 18 Pro 卡托显示，苹果新一代 Pro 机型将提供樱桃红配色，并可能还有银灰、浅蓝可选，而不再有黑灰色。",
@@ -343,6 +547,25 @@ const newsData = [
         "confidence": "high"
       }
     ]
+  },
+  {
+    "id": "374e02f93df72016",
+    "title": "佛罗里达州禁止地方政府设定净零排放目标",
+    "summary": "佛罗里达州通过新法，禁止地方政府制定净零排放目标，州长德桑蒂斯称此举旨在打击“激进气候政策”。环保人士认为，该法更多是威慑地方推进气候行动，未必直接推翻现有政策。",
+    "body": "佛罗里达州州长罗恩·德桑蒂斯签署HB 1217法案，禁止州内市县地方政府追求净零排放目标，并限制其制定抵消温室气体排放的相关政策。他表示，这是对“激进气候政策”的打击。目前至少已有10个市县实施了此类政策，包括劳德代尔堡、迈阿密、奥兰多以及州府塔拉哈西所在的莱昂县。环保组织Earthjustice律师布拉德利·马歇尔指出，新法未必会直接推翻现有政策，但意在威慑地方政府推进净零排放相关行动。他强调，法案并未禁止单纯的减排或应对气候变化相关措施，其具体边界仍有争议。",
+    "category": "未来能源",
+    "tags": [
+      "气候政策",
+      "净零排放",
+      "能源转型",
+      "美国州政策"
+    ],
+    "source": "Ars Technica",
+    "time": "1小时前",
+    "ts": "2026-06-30T13:40:16+00:00",
+    "url": "https://arstechnica.com/science/2026/06/florida-bans-local-governments-from-pursuing-net-zero-emissions-goals/",
+    "image": "https://cdn.arstechnica.net/wp-content/uploads/2023/03/getty-ron-desantis-1152x648.jpg",
+    "stocks": []
   },
   {
     "id": "129e286df24a535b",
