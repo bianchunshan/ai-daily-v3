@@ -1,18 +1,63 @@
 const newsData = [
   {
+    "id": "d932c347653a9ba5",
+    "title": "科州医院试验改善侏儒症儿童生长",
+    "summary": "科罗拉多儿童医院及科罗拉多大学安舒茨医学院开展的一项临床试验显示，患有最常见侏儒症——软骨发育不全的儿童的生长速率显著提高。该研究结果已发表于《新英格兰医学杂志》。",
+    "body": "这项在科罗拉多儿童医院（Children's Colorado）与科罗拉多大学安舒茨医学院完成的临床试验，针对最常见的侏儒症类型——软骨发育不全（achondroplasia），观察到患儿生长速率出现显著改善。研究结果被发表在《新英格兰医学杂志》（NEJM），体现了该机构在儿童骨科与罕见骨骼疾病治疗研究领域的领先地位。若该成果进一步转化为获批疗法，或将为软骨发育不全患儿提供新的生长干预选择，并对相关罕见病治疗领域产生积极影响。",
+    "category": "生物医药",
+    "tags": [
+      "侏儒症",
+      "软骨发育不全",
+      "临床试验",
+      "罕见病"
+    ],
+    "source": "MedicalXpress",
+    "time": "2分钟前",
+    "ts": "2026-06-30T16:20:03-04:00",
+    "url": "https://medicalxpress.com/news/2026-06-growth-outcomes-children-dwarfism.html",
+    "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/dwarfism.jpg",
+    "stocks": []
+  },
+  {
+    "id": "06a0c8572a0b33ee",
+    "title": "美国最高法院将审理苹果与Epic Games上诉案",
+    "summary": "美国最高法院将听取苹果与Epic Games之间长期诉讼中苹果提出的上诉。该案起因于苹果未能遵守一项与App Store费用相关的法院命令，被判藐视法庭。",
+    "body": "美国最高法院宣布将受理苹果就其与Epic Games之间长期诉讼提起的上诉。苹果此前因未遵守一项与App Store费用相关的法院命令，被判藐视法庭，随后提出上诉。\n\n苹果与Epic Games的诉讼围绕App Store佣金和反垄断政策展开，已持续多年。下级法院对苹果应用商店支付规则的裁定，迫使苹果在部分市场允许开发者引导用户绕过其支付系统。\n\n最高法院的最终裁决可能重塑苹果服务业务收入的收取方式，并对全球移动应用分发与支付生态规则产生深远影响。",
+    "category": "消费电子",
+    "tags": [
+      "App Store",
+      "反垄断",
+      "Epic Games",
+      "苹果"
+    ],
+    "source": "Engadget",
+    "time": "5分钟前",
+    "ts": "2026-06-30T20:16:43+00:00",
+    "url": "https://www.engadget.com/2205396/the-supreme-court-will-hear-an-appeal-in-the-long-running-case-between-apple-and-epic-games/",
+    "image": "https://www.engadget.com/img/gallery/the-supreme-court-will-hear-an-appeal-in-the-long-running-case-between-apple-and-epic-games/l-intro-1782850375.jpg",
+    "stocks": [
+      {
+        "name": "苹果公司",
+        "ticker": "AAPL",
+        "reason": "App Store费用和反垄判决结果直接影响苹果服务收入与平台规则",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
     "id": "d42c00b2def445b9",
-    "title": "雪佛兰Blazer EV 2027款维持售价并升级",
-    "summary": "2027款雪佛兰Blazer EV在增加NACS充电接口和额外配置的情况下，仍将保持现款售价不变。",
-    "body": "据Electrek报道，2027款雪佛兰Blazer EV将维持与现款车型相同的价格，尽管新车增加了NACS充电接口和部分额外功能。这一举措意味着通用汽车希望在竞争激烈的美国电动车市场保持价格竞争力，同时通过配置升级提升产品吸引力。NACS接口的加入也将使车主能够使用特斯拉超级充电网络，改善补能体验，这对通用汽车加速电动化转型具有一定意义。",
+    "title": "雪佛兰Blazer EV 2027款不加价，新增NACS充电口",
+    "summary": "2027款雪佛兰Blazer EV在新增NACS充电接口和部分配置升级的情况下，售价将与现款车型保持一致。",
+    "body": "据报道，2027款雪佛兰Blazer EV将维持现款售价，不会因配置升级而涨价。新车增加了NACS充电接口，可接入特斯拉超级充电网络，同时还将获得一些额外功能升级。这一策略有助于提升该车型在北美电动SUV市场的价格竞争力，并降低消费者换购电动车的门槛。",
     "category": "未来能源",
     "tags": [
-      "电动汽车",
-      "NACS",
-      "雪佛兰",
-      "通用汽车"
+      "电动车",
+      "NACS充电",
+      "通用汽车",
+      "雪佛兰"
     ],
     "source": "Electrek",
-    "time": "4分钟前",
+    "time": "12分钟前",
     "ts": "2026-06-30T20:09:38+00:00",
     "url": "https://electrek.co/2026/06/30/chevy-blazer-ev-avoids-price-hike-2027-despite-upgrades/",
     "image": "https://electrek.co/wp-content/uploads/sites/3/2024/06/Chevy-2025-Blazer-EV-prices.jpeg?quality=82&#038;strip=all&#038;w=1400",
@@ -20,24 +65,25 @@ const newsData = [
       {
         "name": "通用汽车",
         "ticker": "GM",
-        "reason": "雪佛兰Blazer EV为通用汽车旗下电动车型，维持售价并增配有助于提升其市场竞争力",
-        "confidence": "medium"
+        "reason": "雪佛兰Blazer EV是通用汽车旗下电动SUV车型，定价不变及配置升级有望提振其销量表现",
+        "confidence": "high"
       }
     ]
   },
   {
     "id": "c0328f39dca2e5e0",
-    "title": "大型临床试验：自我管理可缓解慢性背痛",
-    "summary": "一项大型临床试验表明，针对慢性背痛患者的自我管理干预可显著缓解疼痛并改善身体功能，为长期管理提供非药物、低成本的循证方案。",
-    "body": "慢性背痛是全球常见的健康问题，约20%的急性背痛患者会发展为慢性疼痛，进而影响日常活动并造成劳动力流失。传统治疗多依赖药物或手术，长期效果有限且伴随副作用风险。\n\n一项大型临床试验发现，系统的自我管理干预能有效帮助慢性背痛患者减轻疼痛、改善功能。通过教育、运动指导和症状监测等方式，患者可以更主动地参与康复过程。该研究为慢性背痛的非药物管理提供了高质量证据，有助于降低医疗成本并推动以患者为中心的治疗模式。",
+    "title": "大型临床试验：慢性腰痛可通过自我管理缓解",
+    "summary": "一项大型临床试验指出，对于由急性转为慢性的腰痛患者，强调自我管理的干预方式具有缓解疼痛、改善日常功能的潜力。",
+    "body": "腰痛几乎会发生在每个人身上，但约有20%的急性腰痛会发展为慢性疼痛，严重影响生活质量并导致劳动力流失。最新一项大型临床试验的结果显示，以患者自我管理为核心的干预方案，可能帮助慢性腰痛患者有效减轻症状并恢复功能。\n\n这一发现提示，在慢性疼痛管理中将重心从被动治疗转向患者主动参与，有望降低长期医疗负担、减少失能率。不过，原文未披露具体干预手段、试验规模或涉及的企业信息，尚无法直接关联到特定上市公司。",
     "category": "生物医药",
     "tags": [
-      "慢性背痛",
+      "慢性腰痛",
+      "自我管理",
       "临床试验",
-      "自我管理"
+      "数字医疗"
     ],
     "source": "MedicalXpress",
-    "time": "13分钟前",
+    "time": "22分钟前",
     "ts": "2026-06-30T16:00:04-04:00",
     "url": "https://medicalxpress.com/news/2026-06-pain-wont-large-clinical-trial.html",
     "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/back-pain-1.jpg",
@@ -45,63 +91,70 @@ const newsData = [
   },
   {
     "id": "9787e6b02172781d",
-    "title": "星海图机器人连融四轮，估值达28亿美元",
-    "summary": "深圳具身智能公司X Square Robot完成连续四轮融资，C轮后估值超过28亿美元，资金将用于基础研究与核心技术，并向通用具身智能推进。",
-    "body": "X Square Robot Technology Co.（星海图机器人）今日宣布已完成连续四轮融资， culminating in a Series C，投后估值超过28亿美元。这家总部位于深圳的公司成立于2023年，专注于开发端到端具身智能系统，将基础模型、机器人硬件、可扩展数据管道与真实场景部署相结合，希望让机器人适应动态环境并泛化到多种任务。公司表示，本轮融资将投入基础研究和核心技术，推动通用具身智能的发展。投资方包括IDG资本参与C轮，以及红杉、小米等在多轮中持续支持。这一高额估值也反映出资本对具身智能赛道及机器人基础模型的高度关注。",
+    "title": "逐际动力完成四轮融资，估值超28亿美元",
+    "summary": "具身智能公司逐际动力（X Square Robot）宣布连续完成四轮融资，最终轮为C轮，投后估值超过28亿美元。公司表示将加大基础研究与核心技术投入，推进通用具身智能。",
+    "body": "中国深圳具身智能公司逐际动力（X Square Robot）今日宣布已连续完成四轮融资，并以C轮收尾，估值达28亿美元以上。该公司成立于2023年，专注于端到端具身智能系统，融合基础模型、机器人硬件、数据管道系统和真实场景部署，旨在使机器人适应动态环境并泛化到多种任务。本轮融资汇聚了战略与财务投资者，包括IDG、红杉及小米等。公司计划将资金继续投入基础研究与核心技术，向通用具身智能迈进。此次高额融资反映出资本市场对具身智能赛道的高度关注，也可能加速相关技术从实验室走向家庭与工业场景。",
     "category": "机器人",
     "tags": [
       "具身智能",
       "机器人",
       "融资",
-      "小米"
+      "大模型"
     ],
     "source": "The Robot Report",
-    "time": "24分钟前",
+    "time": "33分钟前",
     "ts": "2026-06-30T19:49:05+00:00",
     "url": "https://www.therobotreport.com/x-square-robot-brings-valuation-2-8b-four-consecutive-funding-rounds/",
     "image": "https://www.therobotreport.com/wp-content/uploads/2026/06/xsquarerobot-featured.jpg",
     "stocks": [
       {
-        "name": "小米集团-W",
+        "name": "小米集团",
         "ticker": "1810.HK",
-        "reason": "小米是X Square Robot的多轮参投方及战略投资人，被投企业估值提升有望带来投资收益与生态协同。",
+        "reason": "小米多次投资逐际动力，加码具身智能与机器人生态布局",
         "confidence": "medium"
       }
     ]
   },
   {
-    "id": "eaa7634b596ec58b",
-    "title": "xTool发布四合一桌面打印机，可印“万物”",
-    "summary": "xTool在柏林发布号称全球首款“4合1”桌面打印机01 Omni Printer，将UV、DTG、DTF与UV DTF技术集成于一体，支持在厚度最高约5毫米的各类表面打印，起售价1699美元。",
-    "body": "xTool在柏林的特别活动上推出全新01 Omni Printer，宣称这是全球首款“四合一打印机”。该设备将UV打印、直喷成衣（DTG）、热转印膜（DTF）以及UV DTF技术原生整合进单一桌面生态系统，面向创客和DIY爱好者，号称能在“所有表面”上打印，并支持厚度最高约5毫米的物体。\n\n在发布会中，xTool首席执行官Jason Wang表示，公司成立十年来已成为激光切割机领域的头部厂商，现在正利用其软硬件能力拓展到更广泛的数字制造工具市场。去年xTool已开始涉足打印市场，此次新品进一步丰富了其产品线。\n\n定价方面，01 Omni Printer单UV版起售1699美元，Dual UV版为2699美元，UV与DT织物版则为2799美元。该产品的推出意味着xTool正从激光切割向综合性桌面制造设备品牌迈进，可能加剧个人及小型工作室市场的竞争。",
-    "category": "消费电子",
+    "id": "7b7b692161c680df",
+    "title": "NotebookLM短视频概览功能全面上线Web英文版",
+    "summary": "Google旗下AI笔记应用NotebookLM正式向英文Web用户全量推出Short Video Overviews功能，可将复杂资料自动生成60秒竖屏视频讲解。此前该功能已向Google AI Ultra和Pro订阅用户开放，免费用户也即将可用。",
+    "body": "Google旗下的AI笔记应用NotebookLM近日在X平台宣布，其Short Video Overviews（短视频概览）功能已正式面向Web英文用户全量上线。该功能此前仅向Google AI Ultra和Pro订阅用户开放，移动端与Web端均可使用，未来将向免费用户开放。\n\n据介绍，Short Video Overviews可将用户上传的复杂资料自动转化为一段60秒的竖屏视频，并深入讲解其中任意概念。该功能进一步降低了多模态内容生成与知识传播的门槛，也体现了Google在AI原生应用形态上的持续探索。\n\n此次全量上线意味着更多英文Web用户无需订阅即可体验由AI自动生成的短视频内容，有望扩大NotebookLM的用户基础，并增强Google在AI生产力工具领域的竞争力。",
+    "category": "人工智能",
     "tags": [
-      "xTool",
-      "桌面打印机",
-      "UV打印",
-      "数字制造"
+      "NotebookLM",
+      "AI应用",
+      "短视频生成",
+      "谷歌"
     ],
-    "source": "Tom's Hardware",
-    "time": "27分钟前",
-    "ts": "2026-06-30T19:45:55+00:00",
-    "url": "https://www.tomshardware.com/maker-stem/xtool-says-its-01-omni-printer-can-print-it-all-firm-steps-into-the-world-of-uv-printing-for-output-on-all-surfaces-at-up-to-5mm-thick",
-    "image": "https://cdn.mos.cms.futurecdn.net/mWPptYYcvUn2zyDMnQoGzB-1280-80.jpg",
-    "stocks": []
+    "source": "AIHOT精选",
+    "time": "37分钟前",
+    "ts": "2026-06-30T19:44:44+00:00",
+    "url": "https://x.com/NotebookLM/status/2072043680442245276",
+    "image": "",
+    "stocks": [
+      {
+        "name": "Alphabet",
+        "ticker": "GOOGL",
+        "reason": "NotebookLM是Google/Alphabet旗下AI笔记产品，新功能上线有助于增强其AI应用生态与用户粘性",
+        "confidence": "high"
+      }
+    ]
   },
   {
     "id": "7f4d5ae5a69525bb",
-    "title": "新型产后基因疗法有望治疗先天性耳聋",
-    "summary": "针对SLC26A4基因突变引发的遗传性耳聋，新型产后基因疗法展现出治疗潜力，为先天性听力损失患者带来新希望。",
-    "body": "遗传性耳聋影响全球数百万人群，其中SLC26A4基因突变是常见的遗传诱因之一，在亚洲人群中尤为突出。该突变常导致重度至极重度耳聋，并伴随前庭导水管扩大、内淋巴囊异常等内耳结构畸形。一项新研究的产后基因疗法进展，有望为这类先天性听力损失提供潜在治疗手段，具有重要的临床转化意义。",
+    "title": "产后基因疗法为先天性耳聋带来希望",
+    "summary": "针对SLC26A4基因突变导致的遗传性耳聋，新型产后基因疗法在临床前研究中显示出恢复听力的潜力，或有望改变先天性听力损失的治疗前景。",
+    "body": "遗传性耳聋是全球最常见的感官障碍之一，其中SLC26A4基因突变是亚洲人群中常见的致病因素之一，可导致重度至极重度耳聋，并伴随前庭导水管扩大等内耳结构畸形。传统助听器或人工耳蜗植入难以纠正根本病因，因此基因疗法被视为潜在突破口。最新研究团队通过产后递送基因治疗药物，修复了动物模型中的听觉功能，为先天性耳聋提供了新的治疗方向。该技术若能在后续临床试验中验证安全性和有效性，将可能为数以百万计的遗传性耳聋患者带来改变。",
     "category": "生物医药",
     "tags": [
-      "基因治疗",
+      "基因疗法",
       "遗传性耳聋",
-      "SLC26A4",
-      "生物医药"
+      "罕见病",
+      "SLC26A4"
     ],
     "source": "MedicalXpress",
-    "time": "33分钟前",
+    "time": "42分钟前",
     "ts": "2026-06-30T15:40:04-04:00",
     "url": "https://medicalxpress.com/news/2026-06-postnatal-gene-therapy-congenital-loss.html",
     "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/new-postnatal-gene-the.jpg",
@@ -109,18 +162,18 @@ const newsData = [
   },
   {
     "id": "142aa2e24aba98d0",
-    "title": "美国太空军启用移动卫星干扰系统",
-    "summary": "美国太空军名为“Meadowlands”的移动卫星干扰系统正从研发转入实战使用，反映出美军日益重视太空电子战能力。",
-    "body": "美国太空军已将名为“Meadowlands”的移动式卫星干扰系统投入作战使用。随着美军加大对电子战的重视，该系统标志着太空攻防能力的进一步强化。此举可能加剧太空安全领域的竞争，并促使相关国家发展反制与防护手段。",
+    "title": "美国太空军部署机动卫星干扰系统",
+    "summary": "美国太空军名为“Meadowlands”的机动卫星干扰系统已转入作战使用，反映出美军对电子战能力的高度重视。",
+    "body": "据美国太空军消息，被称为“Meadowlands”的机动卫星干扰系统正从研发或试验阶段转向实际作战部署。该系统旨在对敌方卫星通信与信号实施干扰，具备机动部署能力，可在不同作战环境中快速投入运用。此次部署标志着美国太空军在太空电子战领域迈出实质性一步，也意味着美军正在将更多资源投入太空攻防能力的建设。分析人士指出，随着太空域军事竞争加剧，类似卫星干扰与反卫星技术的发展可能进一步影响未来太空作战形态。",
     "category": "地缘科技",
     "tags": [
-      "太空电子战",
+      "电子战",
       "卫星干扰",
-      "美国太空军",
-      "电子战"
+      "太空军",
+      "国防科技"
     ],
     "source": "SpaceNews",
-    "time": "42分钟前",
+    "time": "50分钟前",
     "ts": "2026-06-30T19:31:29+00:00",
     "url": "https://spacenews.com/space-force-fields-mobile-satellite-jamming-system/",
     "image": "https://i0.wp.com/spacenews.com/wp-content/uploads/2026/06/260626-X-X0914-1001.jpg?fit=1024%2C574&amp;ssl=1",
