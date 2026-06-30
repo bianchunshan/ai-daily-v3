@@ -1,5 +1,112 @@
 const newsData = [
   {
+    "id": "04d4187b9881d896",
+    "title": "特斯拉无方向盘Cybercab在奥斯汀路测",
+    "summary": "特斯拉开始在奥斯汀公共道路上测试没有踏板和方向盘的Cybercab原型车，朝其多年承诺的自有Robotaxi网络迈出关键一步。",
+    "body": "据TechCrunch报道，特斯拉已开始在得克萨斯州奥斯汀测试其Cybercab自动驾驶出租车，该车没有踏板和方向盘，显示公司正推进完全无人驾驶的Robotaxi落地。此举被视为特斯拉兑现埃隆·马斯克多年承诺、建立自有自动驾驶出行网络的重要信号。",
+    "category": "机器人",
+    "tags": [
+      "自动驾驶",
+      "Robotaxi",
+      "特斯拉",
+      "智能出行"
+    ],
+    "source": "TechCrunch",
+    "time": "4分钟前",
+    "ts": "2026-06-30T15:32:50+00:00",
+    "url": "https://techcrunch.com/2026/06/30/tesla-starts-testing-cybercab-without-pedals-or-a-steering-wheel-in-austin/",
+    "image": "",
+    "stocks": [
+      {
+        "name": "特斯拉",
+        "ticker": "TSLA",
+        "reason": "公司开始在奥斯汀测试无方向盘/踏板的Cybercab，是其Robotaxi业务落地的关键里程碑。",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "bfe160b94e94bed1",
+    "title": "苹果哪些产品暂未涨价",
+    "summary": "目前苹果部分产品暂未有涨价计划，该定价策略有助于维持消费者购买意愿。",
+    "body": "据报道，苹果旗下部分产品目前暂未上调售价。在消费者面临成本压力的背景下，这一定价策略或有助于保持产品竞争力和市场需求。不过，未来价格是否调整仍取决于供应链成本、市场环境及公司策略等多重因素。",
+    "category": "消费电子",
+    "tags": [
+      "苹果",
+      "消费电子",
+      "定价策略"
+    ],
+    "source": "Engadget",
+    "time": "7分钟前",
+    "ts": "2026-06-30T15:30:00+00:00",
+    "url": "https://www.engadget.com/2204455/all-the-apple-products-avoiding-the-price-hike-for-now/",
+    "image": "https://www.engadget.com/img/gallery/all-the-apple-products-avoiding-the-price-hike-for-now/l-intro-1782764015.jpg",
+    "stocks": [
+      {
+        "name": "苹果公司",
+        "ticker": "AAPL",
+        "reason": "报道直接涉及苹果产品定价，暂不涨价有助于稳定需求",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "96eb1576960db0aa",
+    "title": "研究称甜味剂或扰乱肠道健康与代谢",
+    "summary": "越来越多研究表明，人造甜味剂并非人体内的惰性物质，可能扰乱肠道菌群和代谢功能。",
+    "body": "自糖精问世以来，阿斯巴甜、三氯蔗糖、甜菊糖等非营养性甜味剂已广泛进入美国食品供应体系。然而，越来越多的研究证据显示，这些低热量或零热量化合物在人体内并非“惰性”，它们可能干扰肠道微生物群落，并对代谢过程产生不良影响。该领域的证据积累正在重塑公众对代糖安全性的认知，未来可能推动食品配方调整、监管政策收紧以及消费者偏好的转变。",
+    "category": "生物医药",
+    "tags": [
+      "甜味剂",
+      "肠道健康",
+      "代谢研究",
+      "食品科学"
+    ],
+    "source": "MedicalXpress",
+    "time": "17分钟前",
+    "ts": "2026-06-30T11:20:15-04:00",
+    "url": "https://medicalxpress.com/news/2026-06-evidence-sugar-substitutes-disrupt-gut.html",
+    "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/sweetener.jpg",
+    "stocks": []
+  },
+  {
+    "id": "86291e4a17c6dc5c",
+    "title": "罕见衰老疾病揭示细胞“生物钟”致病机制",
+    "summary": "科学家发现一种罕见遗传病可显著加速人体衰老，并首次揭示遍布全身细胞的“生物钟”如何参与年龄相关疾病的发生。",
+    "body": "科学家发现一种罕见遗传疾病，可使患者以远快于正常速度衰老。该研究首次表明，人体几乎每个细胞中都存在的“生物钟”可能与年龄相关疾病的发生有关。这一发现为理解衰老机制提供了新线索。研究指出，通过揭示细胞层面的生物钟如何参与疾病进程，未来或有助于探索衰老相关疾病的防治策略。",
+    "category": "生物医药",
+    "tags": [
+      "衰老研究",
+      "遗传病",
+      "年龄相关疾病"
+    ],
+    "source": "MedicalXpress",
+    "time": "17分钟前",
+    "ts": "2026-06-30T11:20:07-04:00",
+    "url": "https://medicalxpress.com/news/2026-06-rare-aging-disorder-links-biological.html",
+    "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/rare-aging-disorder-li-1.jpg",
+    "stocks": []
+  },
+  {
+    "id": "d6871a4465fb8679",
+    "title": "UCL研究：学校\"一刀切\"禁手机恐适得其反",
+    "summary": "伦敦大学学院最新研究发现，学校全面禁止学生携带智能手机可能收效甚微，还会削弱师生信任，无法根除网络霸凌与社交媒体成瘾等问题。",
+    "body": "据英国伦敦大学学院（UCL）与教育机构 Life Lessons Education 联合开展的一项新研究，学校全面禁止学生携带智能手机不仅效果有限，还可能损害学生与老师之间的信任。该研究通过问卷调查、小组访谈和艺术表达等方式，收集了732名中学生、27名教育工作者及41名家长的意见，发现87%的教师和88%的家长支持禁带手机，但75%的学生对此表示反对。许多学生认为，手机已深度融入日常生活，涉及查公交、天气、查作业、联系家人朋友及安全出行等需求。研究者指出，仓促出台的禁令更像惩罚，网络霸凌、性骚扰等问题不会因禁带手机而消失，反而可能转入地下，学生也更不愿意向老师报告网络伤害事件。研究团队建议，学校应从\"全面禁止\"转向\"引导学生正确使用手机\"，重点培养学生的数字素养、自我管理能力及对社交媒体与新兴技术的正确认知。该研究为各国制定校园手机管理政策提供了重要参考，也提示技术治理需兼顾使用者真实需求。",
+    "category": "消费电子",
+    "tags": [
+      "智能手机",
+      "教育政策",
+      "数字素养",
+      "网络安全"
+    ],
+    "source": "IT之家",
+    "time": "19分钟前",
+    "ts": "2026-06-30T15:18:07+00:00",
+    "url": "https://www.ithome.com/0/970/784.htm",
+    "image": "https://img.ithome.com/newsuploadfiles/2026/6/957f170e-f154-4163-9998-ddd9eb0905ba.png?x-bce-process=image/format,f_auto",
+    "stocks": []
+  },
+  {
     "id": "a7f9e176fd6b6f2a",
     "title": "智界确认坚持R7 IP，赵长江称改款为年度款",
     "summary": "鸿蒙智行智界汽车执行董事赵长江表示，智界R7将坚持现有IP并按年度改款，持续优化用户体验。此前官方宣布，R7与S7累计交付量已突破16万台。",
@@ -962,6 +1069,24 @@ const newsData = [
         "confidence": "high"
       }
     ]
+  },
+  {
+    "id": "aaf22e2b3879ad30",
+    "title": "Libby 将尝试过滤 AI 生成内容",
+    "summary": "OverDrive 新任首席执行官 Marc DeBevoise 表示，人工智能是公司的新前沿；其电子书借阅应用 Libby 计划在一定程度上过滤 AI 生成的内容。",
+    "body": "数字借阅服务 OverDrive 的新任 CEO Marc DeBevoise 在接受采访时称，人工智能是公司未来的重点方向。其旗下电子书借阅应用 Libby 也将引入某种机制，对 AI 生成的内容进行过滤。不过，标题中的“kind of”暗示这一过滤可能不会完全彻底。随着生成式 AI 被用于创作电子书，内容平台如何识别和管理 AI 生成作品，正成为数字出版与图书馆服务领域的重要议题。",
+    "category": "人工智能",
+    "tags": [
+      "人工智能",
+      "数字出版",
+      "内容平台"
+    ],
+    "source": "The Verge",
+    "time": "2小时前",
+    "ts": "2026-06-30T08:41:41-04:00",
+    "url": "https://www.theverge.com/column/959433/libby-ai-filter",
+    "image": "",
+    "stocks": []
   },
   {
     "id": "7a8ef29a35a152fd",
