@@ -1,5 +1,613 @@
 const newsData = [
   {
+    "id": "edd035396137aac6",
+    "title": "谱星航天9个月获4.4亿订单，完成两轮数亿元融资",
+    "summary": "光谱定量遥感企业谱星航天成立仅9个月，已连续完成天使+、Pre-A两轮数亿元融资，在手订单达4.4亿元，正加速建设1024颗卫星的星座计划。",
+    "body": "据36氪报道，光学载荷与微纳卫星系统解决方案提供商上海谱星航天科技有限公司近期连续完成天使+、Pre-A两轮融资，累计规模数亿元。其中Pre-A轮由国泰海通、尚融资本、司南基金联合领投，徐汇资本、联融志道、金浦投资跟投，老股东联想控股、鼎农科技、普华资本追投；天使+轮投资方为联想控股、普华资本。公司成立9个月内已完成3轮融资，累计资金规模近3亿元，在手订单达4.4亿元。\n\n谱星航天专注于多品类光学遥感载荷及20至50公斤级业务型微纳卫星研发制造，是国内率先掌握即时光谱定量遥感技术并推进卫星批产的团队。与以\"看见\"为主的定性遥感不同，公司致力于通过高光谱分辨率、高辐射精度和高覆盖频次，实现从\"看到\"到\"测准\"的定量遥感服务，面向金融、量化等商业客户提供可量化的决策依据。\n\n创始人贺小军透露，公司已开启新一轮融资，年内预计还将完成两轮融资，为1024颗谱星星座建设及后续发展提供资金保障。光谱定量遥感被视为商业航天领域继卫星通信、定性遥感之后的又一潜在增长极，有望拓展商业端和大众端应用市场。",
+    "category": "商业航天",
+    "tags": [
+      "商业航天",
+      "卫星遥感",
+      "光谱定量遥感",
+      "微纳卫星"
+    ],
+    "source": "36氪",
+    "time": "刚刚",
+    "ts": "2026-06-30T04:22:34.307259+00:00",
+    "url": "https://36kr.com/p/3875120747942913?f=rss",
+    "image": "https://img.36krcdn.com/hsossms/20260630/v2_56275174bf7644359f790d75dae73caf@577536001_oswg256413oswg1080oswg599_img_000?x-oss-process=image/format,jpg/interlace,1",
+    "stocks": []
+  },
+  {
+    "id": "393f361b89105812",
+    "title": "雷蛇将推出太阳伊布、月亮伊布联名外设",
+    "summary": "雷蛇与宝可梦公司宣布将推出以太阳伊布和月亮伊布为主题的全新联名产品系列，进一步扩展其游戏外设IP合作阵容。",
+    "body": "雷蛇与宝可梦公司的IP联动产品线即将迎来新成员。根据宝可梦官方预告，双方将推出以太阳伊布和月亮伊布为主题的全新联名产品系列，设计灵感源自薄雾笼罩的星光夜景，融入“光与暗”元素，为玩家打造主题风格的桌面组合。这是继皮卡丘、耿鬼、仙子伊布等多个宝可梦主题后，雷蛇再度拓展其联名外设阵容。\n\n雷蛇与宝可梦的合作已持续多年，此前已推出包括皮卡丘主题毒蝰V3 Pro无线鼠标、黑寡妇蜘蛛V4 X机械键盘、Kraken V4 X耳机等产品，产品线覆盖机械键盘、无线鼠标、鼠标垫和耳机等游戏外设。此次新系列的具体品类、规格参数、售价及上市时间尚未公布。",
+    "category": "消费电子",
+    "tags": [
+      "游戏外设",
+      "IP联名",
+      "雷蛇",
+      "宝可梦"
+    ],
+    "source": "IT之家",
+    "time": "2分钟前",
+    "ts": "2026-06-30T04:19:14+00:00",
+    "url": "https://www.ithome.com/0/970/456.htm",
+    "image": "https://img.ithome.com/newsuploadfiles/2026/6/71d71efb-1bfb-42f1-9f14-e3690b344111.jpg?x-bce-process=image/format,f_auto",
+    "stocks": [
+      {
+        "name": "雷蛇",
+        "ticker": "1337.HK",
+        "reason": "作为联名产品推出方，新IP系列有望带动其游戏外设销售与品牌热度。",
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
+    "id": "1d117ad36acb6313",
+    "title": "我国首个550兆瓦F级燃机项目全容量投产发电",
+    "summary": "华电重庆潼南燃机项目实现全容量投产发电，总装机1100兆瓦，年发电量可达21亿千瓦时，将增强成渝地区电力保供与电网调峰能力。",
+    "body": "6月30日，我国首个550兆瓦F级燃机项目——华电重庆潼南燃机项目实现全容量投产发电。该项目规划建设两台550.12兆瓦分轴燃气—蒸汽联合循环调峰发电机组，总装机容量达1100兆瓦，年发电量约21亿千瓦时，可满足约175万个家庭一年的用电需求，每年可节约标准煤20万吨，减少二氧化碳排放86万吨。项目配备快速切负荷功能，可在电网突发故障时迅速响应、孤岛运行并快速恢复供电；每台机组配套两条全容量送出线路，单条故障时仍可满发上网，进一步完善渝西北电网网架结构。此外，机组搭载一键启停、智能监盘、智慧预警系统，实现24小时智能监盘和设备健康预警管理。该项目为成渝地区双城经济圈迎峰度夏电力保供、绿色低碳转型提供了重要支撑。",
+    "category": "未来能源",
+    "tags": [
+      "燃气轮机",
+      "清洁能源",
+      "电网调峰",
+      "智慧电厂"
+    ],
+    "source": "IT之家",
+    "time": "3分钟前",
+    "ts": "2026-06-30T04:18:52+00:00",
+    "url": "https://www.ithome.com/0/970/455.htm",
+    "image": "https://img.ithome.com/newsuploadfiles/2026/6/45e67b14-fa1d-477a-a81a-c45c41a39646.png?x-bce-process=image/format,f_auto",
+    "stocks": [
+      {
+        "name": "华电国际",
+        "ticker": "600027.SH",
+        "reason": "项目由华电集团投资建设，作为旗下核心上市电力平台之一，新增燃气机组投运将直接贡献发电量和业绩。",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "854000477b8f8e3d",
+    "title": "AI应用企业扩招10.2%，初级岗位反增12%",
+    "summary": "一份新报告显示，高强度采用人工智能的公司员工人数增加了10.2%，其中初级岗位增长12%，与“AI消灭初级岗位”的论调形成反差。",
+    "body": "据TechCrunch报道，一份新研究发现，所谓“高强度AI采用者”的整体员工规模同比增长10.2%。更令人意外的是，这些公司的入门级岗位招聘反而增加了12%，直接挑战了当前关于人工智能将率先取代初级职位、导致企业裁员的主流叙事。这一数据表明，至少在AI深度应用的早期阶段，企业可能因效率提升和业务扩张而增加用人需求，而非单纯削减岗位。不过，该结论也加剧了关于AI对就业市场长期影响的争论，因为不同行业、不同规模企业的AI采纳路径差异巨大，短期数据未必能代表结构性趋势。",
+    "category": "人工智能",
+    "tags": [
+      "AI就业",
+      "劳动力市场",
+      "企业招聘"
+    ],
+    "source": "TechCrunch",
+    "time": "20分钟前",
+    "ts": "2026-06-30T04:01:00+00:00",
+    "url": "https://techcrunch.com/2026/06/29/the-ai-jobs-debate-just-got-messier/",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "5a1ae999ca0c4dd9",
+    "title": "Every开源「复利工程」：单人管理5款AI产品",
+    "summary": "媒体软件公司Every公开其「复利工程」方法论，通过Plan→Work→Review→Compound四步循环，让单人工程团队维护5款产品，80%时间用于规划与审查，仅20%写代码。",
+    "body": "媒体软件公司Every近日公开其「复利工程」方法论，展示了一名工程师如何借助AI Agent维护5款产品。该方法将工作拆解为Plan→Work→Review→Compound四步循环，其中Compound环节把每次解决问题的经验写入CLAUDE.md和docs/solutions/文档，使AI在后续任务中自动规避同类问题。据披露，工程师80%的时间花在规划与审查上，实际写代码仅占20%。\n\nEvery还配套开源了支持Claude Code等工具的插件，内置26个专项Agent、23条工作流命令和13项技能，可零配置使用。其中，/workflows:review一次可并发14个Agent审查代码，/workflows:plan在ultrathink模式下可并发40多个研究Agent。这一实践展示了AI Agent在软件工程中的深度集成潜力，也为个人开发者和小团队提升效率提供了可复用的范式。",
+    "category": "人工智能",
+    "tags": [
+      "AI Agent",
+      "软件工程",
+      "开源工具"
+    ],
+    "source": "AIHOT精选",
+    "time": "58分钟前",
+    "ts": "2026-06-30T03:23:23+00:00",
+    "url": "https://x.com/xiaohu/status/2071796715162857477",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "46ee12a57c903e9d",
+    "title": "Base44推出自研AI模型，AI初创公司谋求护城河",
+    "summary": "Wix旗下“氛围编程”平台Base44开始推出自研AI模型，希望借此降低对第三方模型的依赖并提升产品竞争力。这一动作反映出AI应用初创公司正通过自研模型构建差异化壁垒。",
+    "body": "据TechCrunch报道，Wix旗下的“氛围编程”（vibe coding）平台Base44已开始推出自研AI模型，目标是未来性能超越前沿模型。Base44原本依赖外部模型为用户提供低代码/无代码开发体验，自研模型将有助于其减少对第三方供应商的依赖，并在产品响应、成本控制和定制化能力上获得更大空间。\n\n这一举措也折射出AI应用层初创公司的普遍焦虑：在基础模型快速迭代、能力趋同的背景下，单纯调用API难以形成持久护城河，越来越多的应用公司开始尝试自研或微调专属模型，以增强竞争力和议价能力。不过，自研模型也意味着更高的研发投入和工程挑战，能否真正超越通用前沿模型仍有待观察。",
+    "category": "人工智能",
+    "tags": [
+      "AI应用",
+      "低代码平台",
+      "自研模型",
+      "Wix"
+    ],
+    "source": "TechCrunch",
+    "time": "1小时前",
+    "ts": "2026-06-30T02:28:41+00:00",
+    "url": "https://techcrunch.com/2026/06/29/vibe-coding-platform-base44-launches-own-model-as-ai-startups-seek-defensibility/",
+    "image": "",
+    "stocks": [
+      {
+        "name": "Wix.com",
+        "ticker": "WIX",
+        "reason": "Base44为Wix旗下平台，自研模型有望提升其产品竞争力与长期差异化",
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
+    "id": "38c3853bacfb2e29",
+    "title": "具身智能数据采集员日薪200元起，为机器人当老师",
+    "summary": "具身智能数据采集员兼职岗位以日薪200-250元招聘，无需学历经验，通过遥操作或徒手示教为机器人采集物理交互数据。全球高质量物理交互数据稀缺，仅约50万小时，凸显具身智能数据瓶颈。",
+    "body": "近日，具身智能数据采集员以日薪200-250元招聘兼职，无需学历经验。面试环节需测量身高体重以适配采集手套，并询问是否晕VR。工作内容分为两类：一是遥操作采集，穿戴设备控制双臂机器人完成分拣积木、叠纸杯等动作；二是无机器人示教采集，徒手重复叠衣服等动作，由设备记录轨迹。这一现象反映出具身智能产业对真实物理交互数据的迫切需求。据统计，截至2026年初全球高质量物理交互数据仅约50万小时，不足大语言模型训练数据的两万分之一，需大量人力从零采集。人力采集模式虽成本低廉，但也暴露出数据规模化、标准化和效率方面的挑战，可能推动相关数据采集设备、遥操作平台和机器人本体厂商的发展。",
+    "category": "机器人",
+    "tags": [
+      "具身智能",
+      "数据采集",
+      "人形机器人",
+      "遥操作"
+    ],
+    "source": "AIHOT精选",
+    "time": "2小时前",
+    "ts": "2026-06-30T01:58:00+00:00",
+    "url": "https://mp.weixin.qq.com/s/aSd4kLu7xHllZatrd5EGsw",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "359d93c625d2fb9f",
+    "title": "研究称巨型运载火箭未必更优",
+    "summary": "一项新研究指出，火箭尺寸并非越大越好，过大的运载工具可能因发射频率、市场需求和成本结构等因素而降低整体效率，为商业航天发射策略提供新视角。",
+    "body": "随着SpaceX等公司在研发布局超重型运载火箭，一项最新研究提出了不同看法：火箭可能存在\"过大\"的临界点。研究认为，单纯追求更大运载能力并不一定能带来更好的经济性与任务适配性，发射频率、有效载荷需求、运营成本及市场结构等因素同样关键。该观点为当前商业航天领域\"越大越好\"的发展趋势提供了反思，可能影响未来火箭设计与发射服务的市场格局。不过，文章未披露该研究的具体方法、数据或作者信息，结论仍需更多细节支撑。",
+    "category": "商业航天",
+    "tags": [
+      "运载火箭",
+      "SpaceX",
+      "商业航天",
+      "发射服务"
+    ],
+    "source": "SpaceNews",
+    "time": "2小时前",
+    "ts": "2026-06-30T01:45:20+00:00",
+    "url": "https://spacenews.com/study-argues-bigger-launch-vehicles-may-not-always-be-better/",
+    "image": "https://i0.wp.com/spacenews.com/wp-content/uploads/2025/11/newglenn9x4.jpeg?fit=1024%2C646&amp;ssl=1",
+    "stocks": []
+  },
+  {
+    "id": "2b724579dc13e698",
+    "title": "塔塔电子数据泄露涉及iPhone供应商机密",
+    "summary": "苹果iPhone供应商塔塔电子上周发生数据泄露事件，部分敏感供应商信息被曝光，引发供应链安全担忧。",
+    "body": "据Engadget报道，苹果公司部分企业机密已不再保密。上周，印度塔塔电子（Tata Electronics）发生数据泄露事件，其中涉及敏感的iPhone供应商详细信息。塔塔电子是苹果在印度的重要供应链合作伙伴，负责iPhone组装等业务。\n\n此次泄露事件再次凸显全球电子制造供应链面临的信息安全风险。苹果高度依赖其全球供应商网络，相关机密信息的暴露可能对其供应链管理、商业谈判乃至产品安全带来潜在影响。目前尚不清楚泄露数据的具体范围及后续影响。",
+    "category": "网络安全",
+    "tags": [
+      "数据泄露",
+      "供应链安全",
+      "苹果供应链"
+    ],
+    "source": "Engadget",
+    "time": "5小时前",
+    "ts": "2026-06-29T23:06:30+00:00",
+    "url": "https://www.engadget.com/2204589/sensitive-iphone-supplier-details-were-part-of-last-weeks-data-leak-at-tata-electronics/",
+    "image": "https://www.engadget.com/img/gallery/sensitive-iphone-supplier-details-were-part-of-last-weeks-data-leak-at-tata-electronics/l-intro-1782774264.jpg",
+    "stocks": []
+  },
+  {
+    "id": "d4af12a6ef7e075c",
+    "title": "燃气电站助270兆瓦光伏快速并网",
+    "summary": "Earthrise Energy 利用现有燃气电站的并网基础设施，帮助新建270兆瓦太阳能项目更快接入电网，缩短并网等待时间。",
+    "body": "美国清洁能源开发商 Earthrise Energy 提出了一种加速太阳能并网的新方法：在现有燃气发电厂附近建设光伏电站，并共用其并网线路与许可。据报道，该公司已借此方式推动约270兆瓦的新太阳能项目更快接入电网。由于美国电网并网排队严重，新建输电线路审批和建设周期漫长，利用现役化石能源电站的既有并网容量，可显著降低可再生能源项目的并网门槛与等待时间。这一模式若得到推广，有望缓解电网拥堵、加速清洁能源替代，并提高现有电力资产的利用效率。",
+    "category": "未来能源",
+    "tags": [
+      "太阳能",
+      "电网并网",
+      "清洁能源"
+    ],
+    "source": "Electrek",
+    "time": "5小时前",
+    "ts": "2026-06-29T22:51:13+00:00",
+    "url": "https://electrek.co/2026/06/29/how-a-gas-plant-helped-fast-track-270-mw-of-new-solar/",
+    "image": "https://electrek.co/wp-content/uploads/sites/3/2026/06/Earthrise-Energy.jpg?quality=82&#038;strip=all&#038;w=1500",
+    "stocks": []
+  },
+  {
+    "id": "771728c1c7c53c5f",
+    "title": "Bear Robotics收购Kinisi，强化物理AI能力",
+    "summary": "服务机器人公司Bear Robotics收购英国物理AI初创公司Kinisi Robotics，以提升其在动态工业环境中的人机协作自动化能力。Kinisi创始人Bren Pierce将加入Bear Robotics。",
+    "body": "Bear Robotics宣布收购总部位于英国布里斯托尔的Kinisi Robotics，以补强其物理AI（Physical AI）能力。Kinisi由人形机器人博士Bren Pierce创立，专注于利用强化学习让机器人突破传统硬编码自动化的限制，执行与人类协同的脏污、重复性工业任务。此次收购意味着Bear Robotics正从餐饮服务机器人向更广泛的工业人机协作场景扩张。\n\nKinisi Robotics目前正在快速推进其KR1原型机的规模化，而Bren Pierce在机器人领域拥有超过十年全球研究经验，曾创办多家公司并累计融资逾1.8亿美元、部署超万台机器人。 podcast还提到本周机器人行业另一起重大事件：人形机器人制造商Agility Robotics将通过SPAC合并上市。",
+    "category": "机器人",
+    "tags": [
+      "服务机器人",
+      "物理AI",
+      "强化学习",
+      "人机协作"
+    ],
+    "source": "The Robot Report",
+    "time": "5小时前",
+    "ts": "2026-06-29T22:29:11+00:00",
+    "url": "https://www.therobotreport.com/insights-behind-kinisi-acquisition-by-bear-robotics/",
+    "image": "https://www.therobotreport.com/wp-content/uploads/2025/08/BREN-HEADSHOT-250x250-1.jpg",
+    "stocks": []
+  },
+  {
+    "id": "6a32770878965863",
+    "title": "OpenClaw推出iOS与Android版AI Agent应用",
+    "summary": "OpenClaw已发布适用于iOS和Android手机的应用程序，标志着智能体AI开始大规模进入智能手机平台。",
+    "body": "据Engadget报道，OpenClaw现已推出面向iOS和Android手机的官方应用程序。这一消息表明，具备自主任务执行能力的智能体AI（agentic AI）正加速从网页和桌面端向移动设备渗透，智能手机逐渐成为AI Agent的重要入口。\n\n智能体AI的核心在于能够代表用户完成多步骤操作，如下单、预订、信息检索与跨应用协作。OpenClaw登陆移动端，意味着用户可随时通过语音或自然语言指令调用AI代理，进一步模糊传统App与AI服务之间的边界。此举可能推动手机厂商、操作系统厂商及AI应用开发者围绕端侧Agent生态展开新一轮竞争，并带动端侧算力、隐私安全与多模态交互等相关技术发展。",
+    "category": "人工智能",
+    "tags": [
+      "智能体AI",
+      "移动应用",
+      "OpenClaw",
+      "AI应用"
+    ],
+    "source": "Engadget",
+    "time": "6小时前",
+    "ts": "2026-06-29T22:07:14+00:00",
+    "url": "https://www.engadget.com/2204549/theres-now-an-openclaw-app-for-ios-and-android-phones/",
+    "image": "https://www.engadget.com/img/gallery/theres-now-an-openclaw-app-for-ios-and-android-phones/l-intro-1782770668.jpg",
+    "stocks": []
+  },
+  {
+    "id": "f7cca780f9fa2ccf",
+    "title": "美国悬赏千万美元缉拿攻击Signal和WhatsApp的俄黑客组织",
+    "summary": "美国联邦当局悬赏最高1000万美元，征集有关俄罗斯国家网络组织的信息，该组织自3月以来通过钓鱼攻击入侵数千名调查记者和美国政府雇员的Signal与WhatsApp账户。",
+    "body": "据美国联邦当局披露，一个与俄罗斯情报部门关联的网络组织长期针对高价值目标发动钓鱼攻击，已导致数千名Signal和WhatsApp账户被入侵，受害者包括调查记者和美国政府雇员。攻击者伪装成平台自动客服，诱导用户点击链接或提供验证码、账户密码，从而将攻击者设备与受害者账户绑定，或直接接管账户并锁定原用户。美国联邦政府现悬赏最高1000万美元，征集可识别或定位该组织成员的信息。此次悬赏反映出加密通信工具已成为国家级网络间谍活动的重要目标，也凸显移动即时通讯安全对政府人员、记者及关键行业的持续威胁。",
+    "category": "网络安全",
+    "tags": [
+      "网络攻击",
+      "即时通讯安全",
+      "俄罗斯黑客",
+      "钓鱼攻击"
+    ],
+    "source": "Ars Technica",
+    "time": "6小时前",
+    "ts": "2026-06-29T22:05:33+00:00",
+    "url": "https://arstechnica.com/information-technology/2026/06/us-offers-10-million-for-info-on-group-behind-signal-and-whatsapp-hacking-spree/",
+    "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/06/russia-hacking-binary-1152x648.jpg",
+    "stocks": []
+  },
+  {
+    "id": "c8fd02f8c5cdc2e5",
+    "title": "Rocket Lab 80亿美元收购铱星公司",
+    "summary": "美国火箭发射公司Rocket Lab宣布以80亿美元收购卫星通信巨头Iridium，双方将按每股54美元完成交易。这是Rocket Lab迄今最大规模收购，将强化其垂直整合的太空系统业务并带来持续订阅收入。",
+    "body": "加州发射服务与航天系统公司Rocket Lab于6月29日宣布，将以每股54美元、总计约80亿美元的价格收购老牌卫星通信运营商Iridium。Rocket Lab CEO彼得·贝克称此举是“航天产业的决定性时刻”，标志着两家公司战略加速增长新纪元的开始。Iridium总部位于弗吉尼亚州，运营着低地球轨道L波段卫星星座，为全球超过250万用户提供语音、物联网、航空、海事、国防及应急通信服务。\n\n通过此次并购，Rocket Lab进一步将其业务从火箭发射向上游的卫星制造与下游的通信服务延伸，形成更完整的垂直一体化太空系统能力。同时，Iridium现有的订阅用户群将为Rocket Lab带来稳定持续的现金流。该交易也反映出商业航天领域整合加速，发射服务商正通过并购扩展至卫星运营与数据服务环节，以增强长期收入可预见性。",
+    "category": "商业航天",
+    "tags": [
+      "商业航天",
+      "卫星通信",
+      "并购重组"
+    ],
+    "source": "Space.com",
+    "time": "6小时前",
+    "ts": "2026-06-29T22:00:00+00:00",
+    "url": "https://www.space.com/space-exploration/launches-spacecraft/the-start-of-a-new-era-rocket-lab-buying-satellite-communications-company-iridium-for-usd8-billion",
+    "image": "https://cdn.mos.cms.futurecdn.net/uvTNKncShn67s3p4jbzhwn-1280-80.jpg",
+    "stocks": [
+      {
+        "name": "Rocket Lab",
+        "ticker": "RKLB",
+        "reason": "收购方，交易将显著扩大其垂直整合能力与收入规模",
+        "confidence": "high"
+      },
+      {
+        "name": "Iridium Communications",
+        "ticker": "IRDM",
+        "reason": "被收购标的，交易对价明确，直接受益",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "22395798a0982d85",
+    "title": "Meta外包被曝伪装青少年诱导竞品聊天机器人",
+    "summary": "WIRED调查发现，Meta雇佣数百名承包商伪装成青少年，向Gemini、ChatGPT等竞品聊天机器人输入涉及自杀、性和毒品等高风险话题，以测试其安全响应机制。",
+    "body": "据WIRED报道，Meta通过数百名外包承包商实施了一项针对竞争对手聊天机器人的测试项目。这些承包商假扮成青少年用户，向包括谷歌Gemini、OpenAI ChatGPT在内的竞品AI聊天机器人提出涉及自杀、性、毒品等高风险敏感话题，目的是观察并记录其安全护栏和回复策略。该项目由Meta内部一个名为\" competitive intelligence\"的团队负责，收集到的对话数据被用于改进Meta自身AI产品的安全能力。\n\n这一事件揭示了大型科技公司之间围绕AI安全与产品竞争力的激烈情报战。Meta通过\"红队测试\"竞争对手产品的方式，试图识别其安全漏洞并优化自身模型。然而，这种做法也引发了伦理争议，包括未成年人隐私模拟、诱导性提示以及可能加剧平台间对抗性竞争等问题。事件可能促使行业进一步加强对AI安全测试透明度和伦理规范的讨论。",
+    "category": "人工智能",
+    "tags": [
+      "AI安全",
+      "Meta",
+      "聊天机器人",
+      "科技伦理"
+    ],
+    "source": "Wired",
+    "time": "6小时前",
+    "ts": "2026-06-29T21:49:26+00:00",
+    "url": "https://www.wired.com/story/meta-contractors-pretending-to-be-teens-chatbot-testing/",
+    "image": "https://media.wired.com/photos/6a429931b8212c2a1f822da2/master/pass/Meta-Paid-Contractors-to-Pose-as-Children-Security-2268011998.jpg",
+    "stocks": []
+  },
+  {
+    "id": "bc34ed6775f85d5c",
+    "title": "韩国将投入1万亿美元扩产存储芯片与人形机器人",
+    "summary": "韩国政府与三星、SK海力士、现代汽车等科技巨头宣布投入约1万亿美元，推进存储芯片扩产、AI数据中心建设及人形机器人商业化，目标2028年实现商用。",
+    "body": "据Ars Technica报道，韩国政府及主要科技企业计划投入约1万亿美元，用于存储芯片扩产、新建AI数据中心以及推动人形机器人商业化。该项目旨在使韩国在“物理AI”领域取得领先地位，并计划到2028年实现人形机器人的商业部署。韩国总统李在明在电视讲话中表示，半导体、物理AI和AI数据中心是韩国实现跨越式发展的“三轴”。\n\n此项投资正值韩国企业因AI行业对存储芯片需求激增而获利丰厚之际。三星和SK海力士等公司近期创下利润与市值新高，但旺盛需求也导致存储芯片供应紧张，并推高了消费电子价格。与此同时，现代汽车正加速由其子公司波士顿动力开发的人形机器人量产，希望未来能在汽车制造等场景替代部分繁重人工作业。\n\n该计划若落地，有望缓解全球AI基础设施相关存储芯片的供应压力，同时加速人形机器人在工业场景的应用，对全球半导体与机器人产业链具有重要影响。",
+    "category": "半导体与先进制造",
+    "tags": [
+      "存储芯片",
+      "人形机器人",
+      "AI基础设施",
+      "韩国半导体"
+    ],
+    "source": "Ars Technica",
+    "time": "7小时前",
+    "ts": "2026-06-29T21:09:43+00:00",
+    "url": "https://arstechnica.com/ai/2026/06/south-korea-to-spend-1t-on-more-memory-chip-production-and-humanoid-robots/",
+    "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/06/Screenshot-2026-06-29-at-4.36.13-PM-1152x648.png",
+    "stocks": [
+      {
+        "name": "三星电子",
+        "ticker": "005930.KS",
+        "reason": "韩国存储芯片龙头，将直接受益于存储扩产与AI数据中心投资计划",
+        "confidence": "high"
+      },
+      {
+        "name": "SK海力士",
+        "ticker": "000660.KS",
+        "reason": "全球HBM与DRAM核心供应商，AI存储需求扩张的核心受益者",
+        "confidence": "high"
+      },
+      {
+        "name": "现代汽车",
+        "ticker": "005380.KS",
+        "reason": "通过波士顿动力推进人形机器人量产，有望获得政策与产业资源支持",
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
+    "id": "b00709d9ebeff831",
+    "title": "Palihapitiya AI编程初创公司获1.35亿美元A轮融资",
+    "summary": "知名投资人Chamath Palihapitiya为其AI编程初创公司完成1.35亿美元A轮融资，并亲自出任CEO，显示出风险资本对AI编码工具赛道的持续热情。",
+    "body": "据TechCrunch报道，由知名科技投资人Chamath Palihapitiya创立的AI编程初创公司已完成1.35亿美元A轮融资，Palihapitiya本人将出任CEO。这一消息反映出风险投资界对AI编码助手和开发工具领域的投资热情依然高涨。AI编程工具被视为生成式AI最早实现规模化商业应用的赛道之一，能够显著提升软件开发效率并降低门槛。Palihapitiya的加入及其融资规模，可能加剧该领域与GitHub Copilot、Cursor等现有产品之间的竞争。",
+    "category": "人工智能",
+    "tags": [
+      "AI编程",
+      "生成式AI",
+      "风险投资"
+    ],
+    "source": "TechCrunch",
+    "time": "7小时前",
+    "ts": "2026-06-29T20:55:50+00:00",
+    "url": "https://techcrunch.com/2026/06/29/chamath-palihapitiya-raises-135m-series-a-for-his-ai-coding-startup-takes-ceo-role/",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "343570518841f76e",
+    "title": "丰田5月全球销量四连降，电动车销量激增170%",
+    "summary": "受油价高企等因素影响，丰田汽车5月全球销量连续第四个月下滑，而电动汽车销量同比大幅增长170%，成为主要增长动力。",
+    "body": "据Electrek报道，全球销量最大的汽车制造商丰田汽车5月全球销量连续第四个月同比下降，公司将部分原因归咎于汽油价格上涨。与此同时，丰田电动汽车销量同比激增170%，显示出电动化转型对其业务的拉动作用。尽管整体销量承压，电动车板块的高速增长表明传统车企在能源转型和消费需求变化中正经历结构性分化。",
+    "category": "未来能源",
+    "tags": [
+      "丰田汽车",
+      "电动汽车",
+      "全球销量"
+    ],
+    "source": "Electrek",
+    "time": "7小时前",
+    "ts": "2026-06-29T20:45:18+00:00",
+    "url": "https://electrek.co/2026/06/29/toyota-blames-gas-prices-global-sales-fall-ev-sales-jump-170/",
+    "image": "https://electrek.co/wp-content/uploads/sites/3/2026/06/Toyota-EV-sales-gas-prices.jpeg?quality=82&#038;strip=all&#038;w=1400",
+    "stocks": []
+  },
+  {
+    "id": "93da505859a21d15",
+    "title": "Uber终止在凤凰城提供Waymo无人驾驶打车服务",
+    "summary": "Uber已停止在美国凤凰城提供Waymo无人驾驶出租车服务，未来可能更依赖自有自动驾驶车队满足无人驾驶出行需求。",
+    "body": "据Engadget报道，Uber已不再在亚利桑那州凤凰城提供Waymo无人驾驶出租车打车服务。此前双方在该城市的合作让用户可通过Uber应用呼叫Waymo车辆，但该选项已经下线。Uber方面表示，将继续通过Uber应用提供Waymo服务，但具体城市和合作细节未进一步说明。\n\n这一变动引发外界对Uber自动驾驶战略的猜测。Uber近年来通过收购自动驾驶初创公司、加大自有Robotaxi投入等方式，逐步减少对外部合作伙伴的依赖。终止与Waymo在凤凰城的合作，可能意味着Uber正加速推进自有无人驾驶车队商业化。\n\n对自动驾驶行业而言，此举反映出出行平台与自动驾驶技术公司之间合作关系的动态调整。Uber若转向自有Robotaxi，将直接影响其与Waymo、Aurora等企业的竞合格局，也可能加快自动驾驶出租车市场的整合。",
+    "category": "机器人",
+    "tags": [
+      "自动驾驶",
+      "Robotaxi",
+      "出行平台"
+    ],
+    "source": "Engadget",
+    "time": "7小时前",
+    "ts": "2026-06-29T20:43:16+00:00",
+    "url": "https://www.engadget.com/2204472/uber-is-no-longer-offering-waymo-rides-in-phoenix/",
+    "image": "https://www.engadget.com/img/gallery/uber-is-no-longer-offering-waymo-rides-in-phoenix/l-intro-1782765576.jpg",
+    "stocks": []
+  },
+  {
+    "id": "4786f999bfd9b99b",
+    "title": "iPhone 18 Pro 工程样机照片疑遭泄露",
+    "summary": "路透社报道称，苹果一家关键供应商发生数据泄露，疑似 iPhone 18 Pro 的照片和零部件清单已出现在暗网。泄露图片显示该机型采用三摄布局和苹果标志。",
+    "body": "据路透社报道，苹果一家关键供应商遭遇数据泄露，导致疑似 iPhone 18 Pro 的照片和零部件清单流入暗网。泄露图像据称展示了该机型在进行跌落测试的场景，可见三摄模组和苹果 Logo。目前尚不清楚泄露规模及是否涉及其他产品信息。此类供应链信息安全事件再次凸显消费电子龙头在全球化制造体系中面临的保密与网络安全挑战，也可能对新品发布前的市场预期管理带来影响。",
+    "category": "消费电子",
+    "tags": [
+      "苹果",
+      "iPhone",
+      "供应链安全",
+      "信息泄露"
+    ],
+    "source": "The Verge",
+    "time": "8小时前",
+    "ts": "2026-06-29T16:18:26-04:00",
+    "url": "https://www.theverge.com/tech/959229/iphone-18-pro-leak-apple-dark-web",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "c0adcc4e7d9b8111",
+    "title": "AMD EXPO ULL内存上市价远超承诺",
+    "summary": "G.Skill芝奇针对AMD EXPO ULL超低延迟优化的新款Trident Z5 NeoX DDR5-6000 C26 32GB套条已登陆零售市场，但实际售价较普通EXPO版本溢价高达80%，与AMD此前“价格基本相同”的说法相差甚远。",
+    "body": "据Tom's Hardware报道，芝奇G.Skill的AMD EXPO ULL（Ultra Low Latency，超低延迟）内存套件Trident Z5 NeoX系列已在新蛋等渠道开售。该系列主打针对AMD平台的ULL延迟优化，提供黑色、亮黑和白色三种外观。目前可购买到的型号为32GB（2×16GB）双通道DDR5-6000 C26规格。然而，与AMD此前宣称EXPO ULL内存将“与普通EXPO内存价格基本相同”不同，实际零售价格出现显著溢价。以同规格对比，Trident Z5 NeoX较标准Trident Z5 Neo系列的价格高出约80%，被外媒称为“ULL税”。由于芝奇尚未发布官方产品页面，完整容量和速度阵容仍不明确。这一价格差距意味着，追求极致低延迟的游戏玩家和发烧友需要为ULL优化支付高昂成本，也可能影响AMD EXPO ULL生态的普及速度。",
+    "category": "消费电子",
+    "tags": [
+      "内存",
+      "AMD",
+      "DDR5",
+      "芝奇"
+    ],
+    "source": "Tom's Hardware",
+    "time": "8小时前",
+    "ts": "2026-06-29T20:16:12+00:00",
+    "url": "https://www.tomshardware.com/pc-components/ram/amd-expo-ull-ram-drops-at-jaw-dropping-usd1-099-despite-promises-of-it-being-effectively-the-same-price-ddr5-6000-c26-32gb-kit-sports-80-percent-ull-tax",
+    "image": "https://cdn.mos.cms.futurecdn.net/mPGyiCGGWcMuu2i4UUpjVL-1280-80.jpg",
+    "stocks": []
+  },
+  {
+    "id": "056e4b475a93f874",
+    "title": "美国可再生能源发电量4月首超煤电",
+    "summary": "美国能源信息署官方数据显示，今年4月美国太阳能发电量已超过煤电，若计入分布式屋顶光伏，可再生能源总发电量接近煤电的三倍。",
+    "body": "据美国能源信息署（EIA）发布的4月电网数据，美国太阳能发电量首次超过燃煤发电。这一里程碑的实现很大程度上得益于分布式屋顶光伏的快速增长，这部分电力多在建筑就地消纳，未进入输电网。若将屋顶光伏计入，可再生能源整体发电量已接近煤电的三倍。尽管年初太阳能受季节性因素影响占电网供电比例仅约6%，但其同比增长超过20%，而煤电在短暂回升后继续下滑。太阳能已成为美国大部分地区新增发电容量成本最低的选择。",
+    "category": "未来能源",
+    "tags": [
+      "可再生能源",
+      "太阳能",
+      "煤电",
+      "美国能源"
+    ],
+    "source": "Ars Technica",
+    "time": "8小时前",
+    "ts": "2026-06-29T20:12:30+00:00",
+    "url": "https://arstechnica.com/science/2026/06/solar-outproduced-coal-in-april-but-not-on-the-grid/",
+    "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/06/GettyImages-2229677995-1152x648.jpg",
+    "stocks": []
+  },
+  {
+    "id": "91f2ec788002bcfe",
+    "title": "AMD GPU CUDA模拟器Zluda v6发布但失去资助",
+    "summary": "开源项目Zluda v6新增32位PhysX支持与Windows改进，但因再度失去商业资金，项目回归开发者个人爱好状态。",
+    "body": "据Tom's Hardware报道，长期致力于让AMD GPU运行NVIDIA CUDA应用的开源模拟器项目Zluda发布了v6版本。新版本带来仍处于预alpha阶段的32位PhysX支持，开发者Andrez Janik展示了布料、变形模拟及《黑手党2》PhysX效果3倍性能提升的演示；同时改进了Windows支持，zluda.exe加载器可自动加载所需性能库，并包含大量由PyTorch驱动发现的编译器修复与性能库优化。然而，该项目再次失去商业资助，Janik宣布将Zluda重新降格为个人爱好项目继续维护。",
+    "category": "AI 基础设施",
+    "tags": [
+      "CUDA模拟器",
+      "AMD GPU",
+      "开源软件",
+      "PhysX"
+    ],
+    "source": "Tom's Hardware",
+    "time": "9小时前",
+    "ts": "2026-06-29T18:29:21+00:00",
+    "url": "https://www.tomshardware.com/pc-components/gpu-drivers/cuda-emulator-for-amd-gpus-zluda-loses-funding-with-v6-release-embattled-project-goes-back-to-hobby-status-but-now-includes-32-bit-physx-support",
+    "image": "https://cdn.mos.cms.futurecdn.net/XCxGXQPUTqQ7sr5bD4otmL-1280-80.png",
+    "stocks": []
+  },
+  {
+    "id": "7c4c201e62c9ee75",
+    "title": "研究称将AI agent视为“同事”会降低人类工作表现",
+    "summary": "波士顿大学教授Emma Wiles的研究发现，当AI被包装成“AI员工”或同事时，人类管理者对其输出的错误识别率下降18%，过度拟人化反而削弱监督效果。",
+    "body": "麻省理工科技评论文章指出，硅谷正加速将AI agent塑造为“数字人类”或“AI同事”。英伟达CEO黄仁勋曾畅想由“数字人类”组成的工作场所，微软、OpenAI、Anthropic和谷歌近月也纷纷推出面向AI agent团队管理的工具。然而，波士顿大学商学院教授Emma Wiles的实验显示，当同一项工作被标注来自“AI员工”而非普通聊天机器人时，受试管理者发现的错误减少了18%。\n\n研究认为，给AI起人名、赋予职位会触发人类的社会认知模式，使人们更容易信任其输出、降低审慎核查的意愿。尽管企业希望通过拟人化提升协作感，但这种 framing 可能适得其反，增加出错风险。该研究为企业在部署AI agent时的界面设计与角色定位提供了重要警示。",
+    "category": "人工智能",
+    "tags": [
+      "AI agent",
+      "人机协作",
+      "企业AI应用"
+    ],
+    "source": "MIT Tech Review",
+    "time": "10小时前",
+    "ts": "2026-06-29T18:00:00+00:00",
+    "url": "https://www.technologyreview.com/2026/06/29/1139849/ai-agents-are-not-your-coworkers/",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "eab8e7dafce6dac2",
+    "title": "宝马集团部署Figure 03人形机器人",
+    "summary": "宝马集团在南卡罗来纳州斯帕坦堡工厂完成Figure 02人形机器人11个月试点后，宣布将部署最新款Figure 03机器人，用于物流分拣场景。这标志着人形机器人正从实验走向汽车制造产线应用。",
+    "body": "宝马集团近日宣布，继Figure 02人形机器人在其南卡罗来纳州斯帕坦堡工厂完成试点后，将部署Figure AI最新款Figure 03机器人。Figure 02在过去11个月中参与了超过3万辆宝马X3车型的生产，在车身车间负责将钣金件放入焊接工位，展现了人形机器人在高速度、高精度且体力消耗大的工序中的应用潜力。\n\n新款Figure 03相比前代新增了触觉传感手部、手掌摄像头、无线充电以及语音对话功能。宝马表示，Figure 03将用于物流场景中的分拣任务。Figure AI创始人兼CEO Brett Adcock表示，此次部署证明人形机器人已不再是实验室产品，而能够成为灵活可靠制造劳动力的重要组成部分。\n\n这一进展显示出人形机器人正加速进入汽车制造业，宝马与Figure AI的合作也为具身智能在高端制造领域的规模化落地提供了重要案例。",
+    "category": "机器人",
+    "tags": [
+      "人形机器人",
+      "具身智能",
+      "汽车制造",
+      "Figure AI"
+    ],
+    "source": "The Robot Report",
+    "time": "10小时前",
+    "ts": "2026-06-29T17:45:53+00:00",
+    "url": "https://www.therobotreport.com/bmw-group-deploys-figure-03-humanoid-after-tests-previous-version/",
+    "image": "https://www.therobotreport.com/wp-content/uploads/2026/06/figureBMW-featured.jpg",
+    "stocks": []
+  },
+  {
+    "id": "af665c98b04920a0",
+    "title": "欧空局将为阿尔戈号月球着陆器寻求月面测绘能力",
+    "summary": "欧洲航天局计划在阿尔戈号无人月球货运着陆器的设计阶段依赖外部月球地形数据，并可能用于首次任务，以降低着陆风险并提升任务安全性。",
+    "body": "据SpaceNews报道，欧洲航天局（ESA）将为其阿尔戈号（Argonaut）月球着陆器寻求外部月球测绘数据支持。该机构在着陆器设计阶段需要依赖月球地形数据，并考虑在首次任务中继续使用，以帮助识别安全着陆点并规避地形风险。阿尔戈号是ESA规划的无人月球货运着陆器，旨在向月球表面运送货物、设备和科学载荷。ESA官员在米兰的一场会议上表示，由于自身尚未建立独立的月球测绘能力，将寻求与美国宇航局、商业公司或其他国际伙伴合作获取相关数据。这一需求凸显了高精度月面地形信息对于月球着陆任务的重要性，也可能为商业月球探测数据服务创造新的市场机会。",
+    "category": "商业航天",
+    "tags": [
+      "月球探测",
+      "欧洲航天局",
+      "着陆器",
+      "空间测绘"
+    ],
+    "source": "SpaceNews",
+    "time": "12小时前",
+    "ts": "2026-06-29T15:24:51+00:00",
+    "url": "https://spacenews.com/esa-to-seek-lunar-mapping-capability-for-argonaut-lander/",
+    "image": "https://i0.wp.com/spacenews.com/wp-content/uploads/2025/11/Artist_s_view_of_the_Argonaut_lunar_lander-scaled.jpg?fit=1024%2C625&amp;ssl=1",
+    "stocks": []
+  },
+  {
+    "id": "461ae7cd84934dad",
+    "title": "Rocket Lab CEO称收购Iridium是进军太空服务市场关键一步",
+    "summary": "Rocket Lab首席执行官贝克表示，收购卫星通信公司Iridium是其拓展高利润太空服务市场的“合乎逻辑的下一步”。",
+    "body": "据SpaceNews报道，Rocket Lab首席执行官彼得·贝克（Peter Beck）表示，公司收购铱星通信公司（Iridium）是其进军利润丰厚的太空服务市场的“合乎逻辑的下一步”。这一表态凸显了Rocket Lab正从火箭发射服务向更广泛的太空基础设施与服务领域延伸的战略意图。若交易完成，将显著增强Rocket Lab在卫星通信和空间服务市场的布局，并可能改变商业航天领域的竞争格局。",
+    "category": "商业航天",
+    "tags": [
+      "商业航天",
+      "卫星通信",
+      "火箭发射",
+      "并购重组"
+    ],
+    "source": "SpaceNews",
+    "time": "13小时前",
+    "ts": "2026-06-29T15:20:45+00:00",
+    "url": "https://spacenews.com/beck-iridium-acquisition-the-logical-next-step-for-rocket-lab/",
+    "image": "https://i0.wp.com/spacenews.com/wp-content/uploads/2026/06/beck-irdmacq.jpeg?fit=1024%2C579&amp;ssl=1",
+    "stocks": [
+      {
+        "name": "Rocket Lab",
+        "ticker": "RKLB",
+        "reason": "收购Iridium直接利好Rocket Lab的太空服务扩张战略",
+        "confidence": "high"
+      },
+      {
+        "name": "Iridium Communications",
+        "ticker": "IRDM",
+        "reason": "作为被收购标的，交易若完成将获得溢价和资源整合机会",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "127f5cc866b50c89",
+    "title": "Gartner称2026年为AI拐点年，企业押注智能体",
+    "summary": "Gartner将2026年称为企业AI项目与战略目标对齐的“拐点年”，随着投资回报压力加大，高管和技术领导者正寄望于智能体AI带来可量化的财务成果。",
+    "body": "据MIT Tech Review文章，企业AI投资持续升温，Gartner预测2026年将成为组织将AI项目与战略业务目标对齐的关键“拐点年”。在证明投资回报的压力下，企业高管和技术负责人越来越关注智能体AI（agentic AI），希望其能带来可衡量的财务成果。麦肯锡指出，到2030年IT基础设施成本预计将增长2至3倍，而预算保持不变，这为AI智能体在技术职能中的应用提供了重要机会。研究显示，技术团队对将智能体AI用于大量AI、数据和云任务表现出极高信心，但自动化决策的风险也要求团队确信智能体具备安全、可靠、可信地完成任务的能力。",
+    "category": "人工智能",
+    "tags": [
+      "智能体AI",
+      "企业AI",
+      "Gartner",
+      "AI投资回报"
+    ],
+    "source": "MIT Tech Review",
+    "time": "13小时前",
+    "ts": "2026-06-29T14:44:01+00:00",
+    "url": "https://www.technologyreview.com/2026/06/29/1139635/agent-confidence-on-the-technical-frontier/",
+    "image": "https://wp.technologyreview.com/wp-content/uploads/2026/06/Microsoft-Report-2026-cover.png",
+    "stocks": []
+  },
+  {
+    "id": "7ac55266e68a201d",
+    "title": "无界动力发布全球首个长时序双向物理因果隐空间世界模型",
+    "summary": "具身智能初创公司无界动力发布全球首个“长时序双向物理因果链”隐空间世界模型MWA™，在RoboCasa GR1 TableTop榜单中以75.2%平均任务成功率位列全球第一。",
+    "body": "无界动力正式发布全球首个“长时序双向物理因果链”隐空间世界模型MWA™，采用“隐空间世界模型+强化学习”技术路线，旨在提升机器人对物理因果的理解与长周期、高精度任务执行能力。在斯坦福大学等机构联合发起的RoboCasa GR1 TableTop榜单中，MWA™以75.2%的平均任务成功率超越英伟达GR00T-N1.6等主流模型，排名全球第一。\n\n该模型核心创新在于统一共享的隐空间推演与“潜动作”表征机制，可在无人工动作标注的情况下，从海量互联网原始视频中学习物体受力与状态演变的物理常识。同时，MWA™首创时序Chunk级逆向动力学建模，构建“正逆双向逻辑协同”与“正逆互审机制”，突破传统单步瞬时推理的局限，实现长时序连续动作的因果推演与误差控制。\n\n无界动力成立仅一年，已完成超2亿美元天使轮融资，Pre-A轮近2亿美元融资亦接近尾声，投资方包括红杉中国、线性资本、京东关联基金等。该技术路线若持续验证，有望推动具身智能从实验室Demo向多元真实场景落地迈进。",
+    "category": "机器人",
+    "tags": [
+      "具身智能",
+      "世界模型",
+      "机器人",
+      "强化学习"
+    ],
+    "source": "量子位",
+    "time": "13小时前",
+    "ts": "2026-06-29T14:33:11+00:00",
+    "url": "https://www.qbitai.com/2026/06/439891.html",
+    "image": "",
+    "stocks": []
+  },
+  {
     "id": "f75ff2da3b1c2fdb",
     "title": "BAE系统助力NASA旗舰天文台探索宇宙奥秘",
     "summary": "BAE系统公司作为NASA天体物理旗舰空间天文台项目的主要合作伙伴，提供尖端技术用于观测遥远星系、探索系外行星及其大气，以拓展人类对宇宙的认知。",
@@ -74132,12 +74740,12 @@ const newsData = [
   }
 ];
 const newsDigest = {
-  "text": "今日科技前沿聚焦三大主线：商业航天领域迎来重大整合，Rocket Lab拟80亿美元收购铱星对标SpaceX；人工智能赛道持续升温，加州政府半价采购Anthropic Claude，DeepSeek V4将引入峰谷定价；机器人产业加速落地，Proception与特斯拉和解并获融资，阿维塔07L实车联合华为亮相。此外，欧盟简化AI监管、三大内存巨头遭反垄断诉讼亦值得关注。",
+  "text": "今日科技前沿聚焦三大主线：商业航天领域并购与订单齐飞，Rocket Lab 80亿美元收购铱星公司、谱星航天9个月斩获4.4亿订单；人工智能应用层持续升温，AI应用企业扩招、AI Agent产品密集落地；未来能源与机器人赛道亦有新进展，我国首个550兆瓦F级燃机全容量投产，具身智能数据采集员成为新兴职业。",
   "highlights": [
-    "5f5bff0f16c33352",
-    "c7aec2dd23308bb4",
-    "f6baa2ab9e34d931",
-    "47a40a7c7da61d2e",
-    "0ce3faab65de6a0b"
+    "c8fd02f8c5cdc2e5",
+    "edd035396137aac6",
+    "854000477b8f8e3d",
+    "1d117ad36acb6313",
+    "38c3853bacfb2e29"
   ]
 };
