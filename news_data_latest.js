@@ -2466,6 +2466,38 @@ const newsData = [
     ]
   },
   {
+    "id": "6fa2a7a62fe559e9",
+    "title": "Rocket Lab 宣布收购铱星公司",
+    "summary": "商业航天企业 Rocket Lab 达成收购卫星通信运营商铱星（Iridium）的交易，引发行业广泛关注。该并购将整合火箭发射与卫星星座运营能力。",
+    "body": "据 Hacker News 报道，商业航天公司 Rocket Lab 已宣布收购全球卫星通信服务提供商铱星（Iridium）。Rocket Lab 以小型运载火箭和卫星制造业务著称，而铱星运营着覆盖全球的低轨卫星星座，提供语音和数据通信服务。此次收购若完成，将标志着 Rocket Lab 从发射服务与卫星制造商向垂直整合的太空基础设施运营商延伸。",
+    "category": "商业航天",
+    "tags": [
+      "商业航天",
+      "卫星通信",
+      "火箭发射",
+      "并购重组"
+    ],
+    "source": "Hacker News",
+    "time": "15小时前",
+    "ts": "2026-06-29T14:09:24+00:00",
+    "url": "https://investors.rocketlabcorp.com/news-releases/news-release-details/rocket-lab-acquire-iridium-historic-deal-creating-fully",
+    "image": "",
+    "stocks": [
+      {
+        "name": "Rocket Lab",
+        "ticker": "RKLB",
+        "reason": "收购方，交易完成后将整合铱星卫星星座资产，拓展太空基础设施业务",
+        "confidence": "high"
+      },
+      {
+        "name": "Iridium Communications",
+        "ticker": "IRDM",
+        "reason": "被收购标的，交易通常伴随溢价预期，业务并入 Rocket Lab",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
     "id": "47a40a7c7da61d2e",
     "title": "机器人灵巧手公司Proception与特斯拉和解并融资",
     "summary": "机器人初创公司Proception就商业秘密诉讼与特斯拉达成和解，同时宣布完成1100万美元融资。该公司专注于通过独特方法收集训练数据，解决机器人领域最难的灵巧手操作问题。",
@@ -76559,12 +76591,12 @@ const newsData = [
   }
 ];
 const newsDigest = {
-  "text": "今日科技前沿聚焦三大主线：人工智能领域Kimi估值跃升至315亿美元、美团发布LongCat-2.0旗舰模型，大模型商业化提速；半导体板块热度高涨，科创50涨超4%且韩国启动史上最大规模半导体与AI投资计划；AI基础设施方面，铜高速连接概念走强，火山引擎持续扩张区域布局。",
+  "text": "今日科技前沿聚焦三大主线：人工智能领域融资与产品迭代活跃，Kimi估值跃升至315亿美元、美团LongCat-2.0旗舰模型发布；半导体与先进制造板块强势反弹，科创50涨超4%，韩国同步启动史上最大规模半导体与AI投资计划；AI基础设施热度升温，铜高速连接概念走强，火山引擎落子浙江东阳。",
   "highlights": [
     "52b837a368676784",
     "af1c8e89e9fc92c1",
-    "a25a0425c139c387",
+    "c959d9eaf186dad5",
     "e1dcbf162f4dc55e",
-    "c959d9eaf186dad5"
+    "a25a0425c139c387"
   ]
 };
