@@ -1,5 +1,50 @@
 const newsData = [
   {
+    "id": "53f21778775c15ae",
+    "title": "Electrify America扩大NACS充电桩布局",
+    "summary": "美国主要公共充电运营商Electrify America正加速向北美充电标准（NACS）过渡，计划在加州及东海岸更多繁忙站点部署NACS充电桩。",
+    "body": "Electrify America宣布将其NACS（北美充电标准）充电桩试点项目扩大至更多高流量站点，覆盖加州和美国东海岸的部分繁忙充电站。这是该公司自2024年试点以来推进NACS兼容的重要一步，意味着非特斯拉电动车用户也能在这些站点使用与特斯拉超级充电桩相同的接口。NACS正成为美国充电网络的主流标准，Electrify America的加速部署有助于缓解电动车用户的充电兼容性焦虑，并进一步巩固该标准的市场地位。",
+    "category": "未来能源",
+    "tags": [
+      "NACS",
+      "充电桩",
+      "电动汽车",
+      "特斯拉"
+    ],
+    "source": "Electrek",
+    "time": "2分钟前",
+    "ts": "2026-06-30T18:13:22+00:00",
+    "url": "https://electrek.co/2026/06/30/electrify-america-nacs-chargers/",
+    "image": "https://electrek.co/wp-content/uploads/sites/3/2026/06/EA-NACS-2.jpg?quality=82&#038;strip=all&#038;w=1600",
+    "stocks": [
+      {
+        "name": "特斯拉",
+        "ticker": "TSLA",
+        "reason": "NACS标准由特斯拉主导，第三方充电网络加速采用该标准将扩大其充电生态影响力。",
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
+    "id": "71f78a6f83c77f13",
+    "title": "AI芯片初创公司Etched估值50亿美元获10亿美元订单",
+    "summary": "美国AI芯片初创企业Etched宣布，其面向推理的AI芯片系统已获得10亿美元合同，公司估值达到50亿美元。该进展显示专用推理芯片市场竞争正持续升温。",
+    "body": "据报道，英伟达竞争对手、美国AI芯片初创公司Etched称其基于自研芯片的推理系统已签下10亿美元合同，公司估值相应达到50亿美元。这一消息表明，在生成式AI推理需求快速增长的背景下，专用推理芯片正受到市场高度关注。\n\nEtched以挑战英伟达在AI芯片领域的主导地位而受到关注。其获得的订单规模反映了数据中心和云厂商对高性价比推理算力的强劲需求，也可能加剧AI芯片赛道的竞争。不过，Etched目前仍为未上市公司，其后续交付和客户拓展情况仍需观察。",
+    "category": "半导体与先进制造",
+    "tags": [
+      "AI芯片",
+      "推理芯片",
+      "Nvidia竞争",
+      "初创企业"
+    ],
+    "source": "TechCrunch",
+    "time": "3分钟前",
+    "ts": "2026-06-30T18:13:02+00:00",
+    "url": "https://techcrunch.com/2026/06/30/nvidia-competitor-etched-hits-5b-valuation-1b-in-sales-for-ai-chip/",
+    "image": "",
+    "stocks": []
+  },
+  {
     "id": "0f764e9bc764237a",
     "title": "Anthropic 发布 Claude Sonnet 5",
     "summary": "Anthropic 发布最新 Claude Sonnet 5 模型，具备计划、浏览器与终端工具使用能力，性能接近 Opus 4.8 但定价更低，在推理、编程和知识工作等智能体能力上较前代显著提升。",
@@ -98,6 +143,63 @@ const newsData = [
     "ts": "2026-06-30T18:00:00+00:00",
     "url": "https://www.space.com/astronomy/mars/mars-may-have-once-been-filled-with-seas-of-magma-that-made-the-red-planet-habitable",
     "image": "https://cdn.mos.cms.futurecdn.net/uC5YVLLj8dsmH3JC49xFYZ-1280-80.jpg",
+    "stocks": []
+  },
+  {
+    "id": "42124247344ae0c1",
+    "title": "美国热浪考验电网，AI能源需求创新高",
+    "summary": "美国电网运营商警告，在独立日周末前，席卷全国的热浪可能将电力需求推向接近历史纪录的水平。人工智能数据中心快速扩张带来的用电激增，正加剧极端天气下的电网压力。",
+    "body": "美国电网运营商警告，在独立日周末前，席卷美国的热浪可能将电力需求推向接近历史纪录的水平。与此同时，人工智能数据中心快速扩张正带动电力消耗急剧上升，使电网在极端高温天气下面临更大考验。分析人士指出，AI驱动的电力需求增长已成为美国能源系统的长期结构性挑战，不仅为发电企业带来更高的定价与产能价值，也推动电网升级和清洁能源供应需求。这一趋势可能加速核电、天然气发电及可再生能源的投资部署。",
+    "category": "AI 基础设施",
+    "tags": [
+      "AI电力需求",
+      "数据中心",
+      "电网",
+      "能源危机"
+    ],
+    "source": "Al Jazeera",
+    "time": "18分钟前",
+    "ts": "2026-06-30T17:57:21+00:00",
+    "url": "https://www.aljazeera.com/news/2026/6/30/us-heatwave-to-test-power-grid-amid-soaring-ai-driven-energy-demand?traffic_source=rss",
+    "image": "",
+    "stocks": [
+      {
+        "name": "Constellation Energy",
+        "ticker": "CEG",
+        "reason": "美国最大核电站运营商之一，直接受益于AI数据中心对稳定基荷电力的旺盛需求",
+        "confidence": "high"
+      },
+      {
+        "name": "Vistra",
+        "ticker": "VST",
+        "reason": "美国最大竞争性电力生产商之一，AI电力需求激增提升其定价与产能价值",
+        "confidence": "medium"
+      },
+      {
+        "name": "NextEra Energy",
+        "ticker": "NEE",
+        "reason": "美国大型清洁能源与公用事业公司，AI驱动的电力需求增长利好其发电与电网业务",
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
+    "id": "5c2041dce11619f3",
+    "title": "联合国警告埃博拉疫情或致非洲损失36亿美元",
+    "summary": "联合国警告称，刚果（金）自今年5月暴发的最新一轮埃博拉疫情已感染1307人、造成377人死亡，可能给非洲大陆带来36亿美元经济损失并危及大量就业岗位。",
+    "body": "联合国就刚果民主共和国（DRC）埃博拉疫情发出经济预警，指出本轮疫情自今年5月以来已导致1307人感染、377人死亡，预计可能给非洲造成36亿美元经济损失，并造成大量工作岗位流失。疫情的持续蔓延不仅对当地公共卫生体系构成严峻挑战，还可能扰乱区域经济活动、贸易往来和劳动力市场。该警告凸显了加强国际防疫合作、疫苗与医疗物资分发以及公共卫生基础设施建设的紧迫性。",
+    "category": "生物医药",
+    "tags": [
+      "埃博拉",
+      "公共卫生",
+      "疫情经济影响",
+      "非洲"
+    ],
+    "source": "Al Jazeera",
+    "time": "20分钟前",
+    "ts": "2026-06-30T17:55:29+00:00",
+    "url": "https://www.aljazeera.com/news/2026/6/30/un-warns-ebola-could-cost-africa-3-6bn-and-jobs?traffic_source=rss",
+    "image": "",
     "stocks": []
   },
   {
