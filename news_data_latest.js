@@ -1493,6 +1493,32 @@ const newsData = [
     ]
   },
   {
+    "id": "414ff983ab51f03d",
+    "title": "英伟达 BioNeMo 接入 Claude Science，18家头部药企使用",
+    "summary": "英伟达宣布其 BioNeMo 智能体工具集接入 Anthropic 的 Claude Science 科研平台，为基因组分析、蛋白质结构预测等生命科学研究提供加速计算能力。目前全球前20大制药公司中已有18家采用该工具集。",
+    "body": "英伟达近日宣布，旗下 NVIDIA BioNeMo Agent Toolkit 已接入 Anthropic 发布的 Claude Science 科学研究 AI 工作台。研究人员可通过自然语言发起任务，由预配置的领域智能体串联模型、工具和计算资源，完成基因组分析、蛋白质结构预测、单细胞研究、分子设计等生命科学工作流。\n据悉，Claude Science 负责调用覆盖基因组学、蛋白质组学、化学信息学和临床研究等领域的智能体，而 BioNeMo 则把任务连接到英伟达的科学计算能力。例如，NVIDIA Parabricks 可将基因组分析从数小时压缩至数分钟，RAPIDS-singlecell 能将 130 万细胞的预处理与聚类从 52 分钟缩短至 25 秒，nvMolKit 在相似性搜索等操作上最高提速 3000 倍。\n英伟达表示，在前 20 大制药公司中，BioNeMo 智能体工具集已覆盖 18 家，应用场景涵盖药物发现、基因组学、医学影像和蛋白质工程等。该工具集现已通过开发者资源页面和 GitHub 提供。这一合作进一步巩固了英伟达在 AI 驱动的生命科学计算基础设施中的核心地位。",
+    "category": "生物医药",
+    "tags": [
+      "AI制药",
+      "药物发现",
+      "英伟达",
+      "Claude"
+    ],
+    "source": "IT之家",
+    "time": "5小时前",
+    "ts": "2026-06-30T17:04:35+00:00",
+    "url": "https://www.ithome.com/0/970/789.htm",
+    "image": "https://img.ithome.com/newsuploadfiles/2026/7/7af35ae8-4544-4c35-8547-b9b34ef2aac0.png?x-bce-process=image/format,f_auto",
+    "stocks": [
+      {
+        "name": "英伟达",
+        "ticker": "NVDA",
+        "reason": "其 BioNeMo 智能体工具集接入 Claude Science，并获全球前20大药企中18家采用，强化 AI 生命科学计算生态",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
     "id": "16922bc70fa1b44b",
     "title": "血液生物标志物有望评估抑郁症心理治疗反应",
     "summary": "西班牙巴塞罗那生物医学研究所等机构的研究首次提供证据，表明心理疗法可引发生物学刺激，其分子反应可通过血液中的生物标志物检测。该发现有望为抑郁症个体化心理治疗提供客观评估工具。",
