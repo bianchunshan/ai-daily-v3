@@ -1,5 +1,24 @@
 const newsData = [
   {
+    "id": "6a199cb055e30992",
+    "title": "Bose SoundLink Max 蓝牙音箱降价120美元",
+    "summary": "Bose SoundLink Max 蓝牙音箱在美国独立日周末前迎来大幅降价，亚马逊、百思买和Bose官网售价从399美元降至279美元。该音箱音质洪亮、声场宽广，并具备IP67防尘防水，适合户外使用。",
+    "body": "Bose SoundLink Max 通常售价399美元，本周在亚马逊、百思买和Bose官方商店以279美元促销，降价幅度达120美元。这款蓝牙音箱拥有洪亮饱满的音质和宽广的声场，在评测中表现出色。其具备IP67级防尘防水能力，适合户外场景使用。此次促销是独立日周末前的一次消费电子产品价格调整，反映出品牌在假日季激活销售的策略。",
+    "category": "消费电子",
+    "tags": [
+      "Bose",
+      "蓝牙音箱",
+      "消费电子",
+      "促销"
+    ],
+    "source": "The Verge",
+    "time": "3分钟前",
+    "ts": "2026-06-30T12:05:22-04:00",
+    "url": "https://www.theverge.com/gadgets/959264/bose-soundlink-max-wd-black-deal-sale",
+    "image": "",
+    "stocks": []
+  },
+  {
     "id": "259521733c615232",
     "title": "新型胰岛素或可降低青少年1型糖尿病低血糖风险",
     "summary": "匹兹堡大学主导的一项试验显示，新型胰岛素类似物在青少年1型糖尿病患者中可能减少低血糖事件，为低资源地区的胰岛素选择提供了新依据。",
@@ -36,6 +55,38 @@ const newsData = [
     "url": "https://medicalxpress.com/news/2026-06-extreme-temperatures-emergency-department-people.html",
     "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/emergency.jpg",
     "stocks": []
+  },
+  {
+    "id": "82930c280e0c9c5b",
+    "title": "量子计算机仍无实用，特朗普政府押注2028",
+    "summary": "The Verge文章指出，目前量子计算机尚未完成任何被证实的实用任务，现有设备规模过小且错误率过高。特朗普政府仍承诺将在2028年前研制出可用于科学发现的量子计算机。",
+    "body": "The Verge的评论文章称，迄今为止我们仍未看到量子计算机完成任何有商业价值的实用任务。当前量子计算机的量子比特数量不足、错误率过高，无法解决真正具有商业意义的问题。\n\n尽管如此，特朗普政府仍对量子计算寄予厚望。特朗普的科学顾问承诺将在2028年前造出“足以推动科学发现的量子计算机”，特朗普本人也已发布相关新政令或举措，推动该领域发展。\n\n这一表态反映出美国持续加码量子科技的战略意图，但业内普遍认为，量子计算机要在科学发现、药物研发、材料设计等领域真正展现价值，仍需在硬件规模、量子纠错和稳定性等关键瓶颈上取得突破。",
+    "category": "量子科技",
+    "tags": [
+      "量子计算",
+      "量子科技",
+      "特朗普政府",
+      "产业政策"
+    ],
+    "source": "The Verge",
+    "time": "11分钟前",
+    "ts": "2026-06-30T11:57:54-04:00",
+    "url": "https://www.theverge.com/science/959466/quantum-computer-majorana-2-microsoft-trump-eo",
+    "image": "",
+    "stocks": [
+      {
+        "name": "IonQ",
+        "ticker": "IONQ",
+        "reason": "美国纯量子计算公司，直接受益于政府量子计算投入和产业政策推动",
+        "confidence": "medium"
+      },
+      {
+        "name": "Rigetti Computing",
+        "ticker": "RGTI",
+        "reason": "美国量子计算公司，有望受益于政府加速量子计算实用化的战略部署",
+        "confidence": "medium"
+      }
+    ]
   },
   {
     "id": "f7c7cce399d0f992",
@@ -80,6 +131,43 @@ const newsData = [
     "ts": "2026-06-30T15:45:41+00:00",
     "url": "https://www.ithome.com/0/970/787.htm",
     "image": "https://img.ithome.com/newsuploadfiles/2026/6/c27bca13-bbb3-4c07-bc17-e25d7c28cca0.png",
+    "stocks": []
+  },
+  {
+    "id": "781629cdf98d9dbb",
+    "title": "骗子利用AI生成虚假奇花异草种子在网上售卖",
+    "summary": "不法分子利用人工智能生成逼真的 exotic flowers 图片，谎称这些是真实稀有花卉，并向消费者出售并不存在的植物种子。该现象凸显了AI生成内容被滥用于电商欺诈的风险。",
+    "body": "据 Hacker News 报道，近期出现了一种新型网络诈骗：不法分子利用 AI 图像生成工具制作出色彩艳丽、形态奇特的 exotic flowers（外来奇花）照片，并在电商平台或社交媒体上宣称这些是真实存在的珍稀花卉，进而向消费者高价出售种子。然而，这些植物在现实中并不存在，买家收到的种子要么无法发芽，要么长出的植物与宣传图完全不符。此类骗局借助AI生成内容的高度逼真性，降低了消费者的辨别难度，也暴露出AI技术在电子商务和商品防伪领域带来的新挑战。业内人士认为，平台需要加强对AI生成商品图片和描述的识别与审核，同时消费者也应对过于夸张或稀有的植物商品保持警惕。",
+    "category": "人工智能",
+    "tags": [
+      "AI生成",
+      "网络诈骗",
+      "电商欺诈"
+    ],
+    "source": "Hacker News",
+    "time": "23分钟前",
+    "ts": "2026-06-30T15:45:32+00:00",
+    "url": "https://www.404media.co/scammers-sell-seeds-for-exotic-ai-generated-flowers-that-dont-exist/",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "a2e900a63d1b6ce3",
+    "title": "Claude Code 被指在请求中嵌入隐写标记",
+    "summary": "有媒体报道称，Anthropic 的编程助手 Claude Code 可能在用户请求中嵌入隐写标记，引发隐私与供应链安全讨论。",
+    "body": "据外媒报道，Hacker News 上的一则帖子指出，Anthropic 旗下的 AI 编程工具 Claude Code 疑似在请求中加入了隐写标记。所谓隐写标记，是指在不明显改变内容的情况下嵌入隐藏信息，可能用于追踪或识别请求来源。\n\n由于该工具面向开发者，若消息属实，相关标记可能影响用户隐私，并在企业级代码协作和供应链安全层面引发担忧。目前，具体实现方式、覆盖范围及 Anthropic 方面的官方回应尚有待进一步披露。",
+    "category": "网络安全",
+    "tags": [
+      "Claude Code",
+      "隐写标记",
+      "AI安全",
+      "隐私保护"
+    ],
+    "source": "Hacker News",
+    "time": "24分钟前",
+    "ts": "2026-06-30T15:44:24+00:00",
+    "url": "https://thereallo.dev/blog/claude-code-prompt-steganography",
+    "image": "",
     "stocks": []
   },
   {
