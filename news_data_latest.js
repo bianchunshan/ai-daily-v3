@@ -1,5 +1,414 @@
 const newsData = [
   {
+    "id": "2d0df959a64dded1",
+    "title": "母乳低聚糖可长期影响婴儿肠道菌群",
+    "summary": "丹麦科技大学与Rigshospitalet医院研究发现，母乳中不可消化的人乳低聚糖（HMOs）在婴儿过渡到固体食物后仍能影响肠道菌群组成，并可能产生长期影响。相关成果已发表于《Nature Communications》。",
+    "body": "传统观点认为，母乳对婴儿肠道菌群的影响主要限于哺乳期。但新研究表明，母乳中的人乳低聚糖（HMOs）可作为“益生元”选择性促进特定肠道细菌定植，其影响延续到引入固体食物之后，并可能在后期生命阶段持续存在。\n\n研究人员指出，这一发现有助于理解生命早期营养如何塑造肠道微生态，并为未来开发基于HMOs的婴儿配方食品和微生态干预策略提供科学依据。",
+    "category": "生物医药",
+    "tags": [
+      "肠道菌群",
+      "人乳低聚糖",
+      "婴幼儿营养",
+      "微生物组"
+    ],
+    "source": "MedicalXpress",
+    "time": "刚刚",
+    "ts": "2026-06-30T10:40:06-04:00",
+    "url": "https://medicalxpress.com/news/2026-06-breast-gut-bacteria.html",
+    "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/breastfeeding-2.jpg",
+    "stocks": []
+  },
+  {
+    "id": "41da03d01ed62518",
+    "title": "BRCA2胚系突变或多驱动部分多发性肺癌",
+    "summary": "基因组分析提示，遗传性BRCA2基因变异可能是部分患者肺内多发肿瘤的驱动因素之一，为肺癌发病机制提供了新线索。",
+    "body": "肺癌长期是全球癌症死亡首因，通常被认为由一生中环境因素累积的获得性突变引起。但临床上越来越多患者肺内同时或异时出现多个肿瘤，令研究者关注其潜在遗传背景。\n\n最新基因组分析提示，部分此类多发肺癌病例可能与BRCA2基因的胚系（可遗传）变异有关。BRCA2因参与DNA损伤修复而闻名，其遗传改变可能使某些个体更易发生多处肺癌病灶。\n\n这一发现为肺癌病因提供了新的遗传视角，提示除吸烟、空气污染等环境因素外，家族性遗传易感性在多原发肺癌中也值得重视，未来或影响高危人群筛查和临床管理思路。",
+    "category": "生物医药",
+    "tags": [
+      "BRCA2",
+      "肺癌",
+      "基因组学",
+      "癌症研究"
+    ],
+    "source": "MedicalXpress",
+    "time": "刚刚",
+    "ts": "2026-06-30T10:40:04-04:00",
+    "url": "https://medicalxpress.com/news/2026-06-inherited-brca2-multiple-lung-cancers.html",
+    "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/identification-of-nove.jpg",
+    "stocks": []
+  },
+  {
+    "id": "8c3b69d912d4623f",
+    "title": "Gmail推出自然语言搜索AI功能Beta版",
+    "summary": "谷歌Gmail已向部分用户开放由Gemini驱动的实时AI搜索功能，支持用自然语言快速检索收件箱中的邮件内容。",
+    "body": "谷歌Gmail现已推出由Gemini驱动的“实时AI”（Live AI）测试功能，用户可以用自然语言快速搜索收件箱中的邮件内容。该功能通过大语言模型理解查询意图，帮助用户更高效地定位历史邮件、附件和关键信息，目前仅面向部分用户开放测试。\n\n这是谷歌将生成式AI能力深度整合进核心办公产品的又一举措。通过升级Gmail这一拥有庞大用户基础的工具，谷歌有望在提升用户体验的同时，强化Gemini生态黏性，并与微软等竞争对手在AI生产力应用领域展开更直接竞争。",
+    "category": "人工智能",
+    "tags": [
+      "Gmail",
+      "Gemini",
+      "自然语言处理",
+      "谷歌"
+    ],
+    "source": "Engadget",
+    "time": "10分钟前",
+    "ts": "2026-06-30T14:29:36+00:00",
+    "url": "https://www.engadget.com/2204880/google-gmail-live-ai-feature-is-now-available-in-beta/",
+    "image": "https://www.engadget.com/img/gallery/googles-gmail-live-ai-feature-is-now-available-in-beta/l-intro-1782829672.jpg",
+    "stocks": [
+      {
+        "name": "Alphabet",
+        "ticker": "GOOGL",
+        "reason": "Gmail新功能有望提升用户粘性与Gemini生态竞争力",
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
+    "id": "2a3d00ea288ac346",
+    "title": "经济负担或影响慢阻肺患者健康结局",
+    "summary": "一项新研究表明，慢性阻塞性肺疾病（COPD）的经济成本对患者心理健康产生负面影响，并导致他们放弃用药、推迟或回避就医，以及改变重大财务计划。",
+    "body": "据美国COPD基金会《慢性阻塞性肺疾病》杂志2026年5月刊发表的一项新研究，慢性阻塞性肺疾病（COPD）的经济负担不仅对患者的心理健康造成负面影响，还会促使他们放弃药物治疗、推迟或避免就医，并调整重大财务规划。\n\n研究人员指出，经济压力可能直接影响COPD患者的治疗依从性和健康结局。该研究提示，在制定慢阻肺治疗与管理策略时，需关注患者的经济承受能力和社会支持，以改善其长期预后。",
+    "category": "生物医药",
+    "tags": [
+      "慢阻肺",
+      "医疗负担",
+      "健康结局",
+      "心理健康"
+    ],
+    "source": "MedicalXpress",
+    "time": "20分钟前",
+    "ts": "2026-06-30T10:20:01-04:00",
+    "url": "https://medicalxpress.com/news/2026-06-financial-strain-affect-health-outcomes.html",
+    "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/financial-strain-may-a.jpg",
+    "stocks": []
+  },
+  {
+    "id": "8b17c15f12945469",
+    "title": "从意识副产品论审视大语言模型局限",
+    "summary": "本文从哲学视角指出，人类语言是意识的副产品，而大语言模型通过海量文本生成语词，其路径恰好相反，引发了关于LLM是否真正具备意识的讨论。",
+    "body": "文章指出，对人类而言，词语是意识、感知与经验的产物，先有内在体验，后有外在表达。而大语言模型通过概率建模从海量文本中学习并生成语词，它们并不具备真实的主观体验，只是将“语词”作为核心输入与输出。这种“反向”路径意味着，即使LLM能流利地输出文本，也并不意味着它拥有类似人类的意识。这一观点为当下关于AI是否具备意识、如何评估AI理解能力等讨论提供了新的批判视角。",
+    "category": "人工智能",
+    "tags": [
+      "大语言模型",
+      "意识研究",
+      "人工智能哲学",
+      "AGI"
+    ],
+    "source": "Hacker News",
+    "time": "23分钟前",
+    "ts": "2026-06-30T14:16:57+00:00",
+    "url": "https://ranpara.net/posts/words-are-a-byproduct-of-consciousness/",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "0d81c2928355088a",
+    "title": "Beachman发布Aviator电动两轮车平台，覆盖电动自行车至高速电摩",
+    "summary": "加拿大电动两轮车品牌Beachman正式发布Aviator新平台，产品范围覆盖Class 2电动自行车到可上高速的电动摩托车，后续还将推出125cc等效动力版本。",
+    "body": "加拿大电动两轮车制造商Beachman近日揭晓了全新Aviator系列，进一步扩充其产品线。该平台横跨多种车型，从符合Class 2标准的电动自行车到具备高速公路行驶能力的电动摩托车均有覆盖，并计划推出125cc燃油等效动力版本，显示出其在电动出行市场的扩张野心。\n\nAviator平台的推出反映了电动两轮车在动力、续航与法规分类上的持续突破，为城市通勤和短途出行提供了更多零排放选择。不过，该平台尚未披露具体电池、电机配置与售价细节，市场表现仍需观察。",
+    "category": "未来能源",
+    "tags": [
+      "电动两轮车",
+      "电动自行车",
+      "Beachman",
+      "Aviator"
+    ],
+    "source": "Electrek",
+    "time": "25分钟前",
+    "ts": "2026-06-30T14:15:26+00:00",
+    "url": "https://electrek.co/2026/06/30/beachman-unveils-new-aviator-electric-bike-lineup-with-upcoming-125cc-equivalent-model/",
+    "image": "https://electrek.co/wp-content/uploads/sites/3/2026/06/beachman-motorcycle-header.jpg?quality=82&#038;strip=all&#038;w=1600",
+    "stocks": []
+  },
+  {
+    "id": "f098352a38f06a41",
+    "title": "Clicks 展示类黑莓键盘 Communicator 智能手机",
+    "summary": "初创公司 Clicks 发布了其首款 Communicator 安卓智能手机的实机上手视频，该设备采用类似黑莓的实体键盘设计。",
+    "body": "Clicks 是一家聚焦实体键盘手机配件与设备的初创公司。此次公布的 Communicator 是其首款安卓智能手机，外形上保留了类似黑莓的物理全键盘，试图在触屏主导的市场中提供差异化的输入体验。\n\n随着智能手机形态多年趋同，实体键盘逐渐成为小众怀旧需求。Clicks 这款产品面向偏好物理按键手感的用户，若后续量产与生态适配顺利，有望为沉寂已久的实体键盘手机市场注入新变量，但实际市场表现仍有待观察。",
+    "category": "消费电子",
+    "tags": [
+      "智能手机",
+      "实体键盘",
+      "消费电子",
+      "Clicks"
+    ],
+    "source": "Engadget",
+    "time": "27分钟前",
+    "ts": "2026-06-30T14:12:54+00:00",
+    "url": "https://www.engadget.com/2204851/clicks-shows-off-its-communicator-smartphone-with-a-blackberry-like-keyboard/",
+    "image": "https://www.engadget.com/img/gallery/clicks-shows-off-its-communicator-smartphone-with-a-blackberry-like-keyboard/l-intro-1782828613.jpg",
+    "stocks": []
+  },
+  {
+    "id": "f5414c1cbd2e8472",
+    "title": "疑似iPhone 18 Pro跌落测试视频从X平台下架",
+    "summary": "一段声称展示iPhone 18 Pro跌落测试的视频在X平台短暂出现后遭下架，发布账号因冒充爆料者EvLeaks也被暂停。该事件属于产品泄漏与平台内容治理，未对市场产生实质影响。",
+    "body": "据The Verge引述MacRumors报道，有账号冒充知名爆料者EvLeaks在X平台发布所谓iPhone 18 Pro跌落测试短片，视频和账号随后被移除或暂停，X称其违反平台规则。另一爆料者也被指牵涉其中。此事只是围绕尚未发布产品的泄漏与社交媒体内容管理，没有透露具体技术规格、量产计划或供应链细节。",
+    "category": "消费电子",
+    "tags": [
+      "消费电子",
+      "iPhone",
+      "苹果",
+      "社交媒体"
+    ],
+    "source": "The Verge",
+    "time": "30分钟前",
+    "ts": "2026-06-30T10:10:02-04:00",
+    "url": "https://www.theverge.com/tech/959474/iphone-18-pro-leaked-videos-pulled",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "06608535b082b90e",
+    "title": "Punkt. MC03海外上市：主打隐私，德国制造",
+    "summary": "Punkt. MC03手机已在海外发售，搭载联发科天玑7300芯片和基于GrapheneOS的AphyOS系统，主打隐私保护，售价745欧元；此前宣传的强制订阅制度已取消。",
+    "body": "Punkt. MC03 手机现已在海外市场开售，售价745欧元（约合人民币5783元）。该机采用6.67英寸OLED屏幕，搭载联发科天玑7300芯片，配备8GB内存、256GB存储、5200mAh电池及IP68防尘防水，整体配置偏向中端主流。\n\n软件方面，MC03运行来自瑞士、基于GrapheneOS的AphyOS系统，具备“隐私气泡”功能，第三方应用可在独立隔离环境中运行，官方承诺3年功能更新与5年安全补丁。厂商最初宣传的“一年后每月10欧元订阅、否则禁用基本功能”已被取消，用户可永久使用全部功能。\n\n该机号称“德国制造”，但实质为德国组装，多数零部件仍来自亚洲供应链。其在高端隐私手机市场为小众定位，对供应链的拉动效应有限。",
+    "category": "消费电子",
+    "tags": [
+      "智能手机",
+      "隐私系统",
+      "联发科",
+      "消费电子"
+    ],
+    "source": "IT之家",
+    "time": "34分钟前",
+    "ts": "2026-06-30T14:06:41+00:00",
+    "url": "https://www.ithome.com/0/970/764.htm",
+    "image": "https://img.ithome.com/newsuploadfiles/2026/6/2856b10d-a306-4cb9-9a70-e24500d3fbcb.jpg?x-bce-process=image/format,f_auto",
+    "stocks": [
+      {
+        "name": "联发科",
+        "ticker": "2454.TW",
+        "reason": "Punkt. MC03 搭载联发科天玑7300芯片，构成直接供货关系。",
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
+    "id": "0b806393df8a33aa",
+    "title": "美光宣布2.5亿美元儿童储蓄计划，配套本土芯片投资",
+    "summary": "美光科技宣布投入2.5亿美元通过\"特朗普账户\"帮助儿童储蓄，并将该计划与超2000亿美元美国本土存储芯片制造及研发投资互补，预计惠及百万儿童。",
+    "body": "美光科技宣布投入2.5亿美元（约合人民币17.01亿元），通过特朗普账户（又称529A账户）为儿童与家庭拓宽长期储蓄渠道。该公司将为员工未满18周岁子女提供最高每个孩子1000美元的配套补贴，并在设有业务布局的美国多个州为开设相关账户的儿童一次性存入250美元启动资金。美光称此次投入是同类企业承诺中规模最大的一笔，预计惠及多达100万名儿童。该项目与该公司此前公布的超2000亿美元美国本土存储芯片制造及研发投资形成互补，相关投资将在美国创造超9万个就业岗位，显示出美光长期致力于夯实美国半导体产业生态的决心。",
+    "category": "半导体与先进制造",
+    "tags": [
+      "美光科技",
+      "半导体",
+      "儿童储蓄",
+      "美国制造"
+    ],
+    "source": "IT之家",
+    "time": "38分钟前",
+    "ts": "2026-06-30T14:02:15+00:00",
+    "url": "https://www.ithome.com/0/970/763.htm",
+    "image": "https://img.ithome.com/newsuploadfiles/2026/6/da7a67cd-289e-46d6-ac9d-2cf892c68077.jpg?x-bce-process=image/format,f_auto",
+    "stocks": [
+      {
+        "name": "美光科技",
+        "ticker": "MU",
+        "reason": "公司宣布2.5亿美元儿童储蓄计划，并配套超2000亿美元美国本土存储芯片制造及研发投资，强化本土半导体生态布局。",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "58d64d5b0bdb0e21",
+    "title": "摩托罗拉推出moto tag 2追踪器：续航超500天",
+    "summary": "联想旗下摩托罗拉正式发布moto tag 2蓝牙追踪器，售价29.99美元，续航最长超过500天，并支持UWB与蓝牙信道探测技术。同期，moto buds 2 plus耳机新增两款潘通配色。",
+    "body": "据IT之家消息，摩托罗拉于6月30日推出新一代蓝牙追踪器moto tag 2，售价为29.99美元（约合人民币204元）。该产品是联想旗下续航时间最长的追踪器，单颗电池续航可达500天以上，并搭载UWB与Bluetooth Channel Sounding技术，兼容谷歌Find Hub网络，旨在提升物品定位精度与寻回体验。\n\n除追踪器外，摩托罗拉还为moto buds 2 plus耳机推出“潘通冷白”与“潘通紫靛蓝”两款新配色，后者每只耳机镶嵌12颗施华洛世奇水晶，起售价为149美元（约合人民币1014元）。这些新品显示出摩托罗拉在可穿戴与智能配件领域的持续布局，进一步丰富其消费电子产品矩阵。\n\n对联想而言，新品发布有助于强化摩托罗拉品牌在智能配件市场的竞争力，但短期对整体业绩的影响仍需观察销售表现及市场反馈。",
+    "category": "消费电子",
+    "tags": [
+      "摩托罗拉",
+      "蓝牙追踪器",
+      "UWB",
+      "消费电子"
+    ],
+    "source": "IT之家",
+    "time": "39分钟前",
+    "ts": "2026-06-30T14:00:55+00:00",
+    "url": "https://www.ithome.com/0/970/761.htm",
+    "image": "https://img.ithome.com/newsuploadfiles/2026/6/f3aeba83-4518-4596-9361-1373a2c4f382.jpg",
+    "stocks": [
+      {
+        "name": "联想集团",
+        "ticker": "0992.HK",
+        "reason": "摩托罗拉为联想旗下品牌，新品发布直接关联公司消费电子业务",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "9fb26e52d496feac",
+    "title": "基因发现有望帮助预防年轻人中风",
+    "summary": "弗吉尼亚大学健康中心研究人员发现，颈动脉夹层期间存在一种独特且暂时的基因行为模式，该发现可能为预防年轻人中风提供新途径。",
+    "body": "弗吉尼亚大学健康中心（UVA Health）的中风研究人员发现，在颈动脉夹层发生过程中存在一种独特且暂时的基因行为模式。颈动脉夹层是年轻人中风的主要诱因之一，常导致严重且可能致残的脑血管事件。\n\n这些异常的基因变化可能有助于解释颈动脉夹层的形成机制，并为预防年轻人中风开辟新的干预方向。研究人员认为，理解这种基因表达模式有助于识别高危人群，并在疾病早期采取预防措施。\n\n该研究从分子层面深化了对年轻群体中风发病机制的认识，未来有望转化为针对性的预防策略或治疗手段，从而降低年轻人中风的发生率与致残风险。",
+    "category": "生物医药",
+    "tags": [
+      "基因研究",
+      "中风预防",
+      "颈动脉夹层",
+      "生物医学"
+    ],
+    "source": "MedicalXpress",
+    "time": "40分钟前",
+    "ts": "2026-06-30T10:00:05-04:00",
+    "url": "https://medicalxpress.com/news/2026-06-gene-discovery-young-people.html",
+    "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/discovery-could-help-p.jpg",
+    "stocks": []
+  },
+  {
+    "id": "985bbdd1728d324d",
+    "title": "血检可在治疗后发现隐匿性胰腺癌",
+    "summary": "西北医学科学家开发出一种高灵敏度血液检测，可识别标准检查遗漏的KRAS突变残留，帮助判断胰腺癌复发风险；与此同时，新型KRAS靶向药物正展现显著生存获益并接近FDA审评。",
+    "body": "西北医学的研究人员展示了一种高灵敏度血液检测，能够在常规检测和影像学检查呈“正常”的情况下，仍发现胰腺癌治疗后残留的KRAS突变痕迹。该检测针对驱动超过90%胰腺癌的KRAS基因突变，有望帮助医生识别复发风险更高的患者，从而提早干预。\n\n这一发现正值一款革命性的KRAS靶向药物取得显著生存获益、并接近美国FDA审查之际。专家表示，若高灵敏度血检与新型KRAS靶向药结合，或可改善胰腺癌这一难治癌症的预后监测和治疗策略。",
+    "category": "生物医药",
+    "tags": [
+      "胰腺癌",
+      "液体活检",
+      "KRAS",
+      "肿瘤早筛"
+    ],
+    "source": "MedicalXpress",
+    "time": "40分钟前",
+    "ts": "2026-06-30T10:00:01-04:00",
+    "url": "https://medicalxpress.com/news/2026-06-blood-hidden-pancreatic-cancer-treatment.html",
+    "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/blood-test-finds-hidde.jpg",
+    "stocks": []
+  },
+  {
+    "id": "10cce22e1a1a0e0b",
+    "title": "Proton 隐私 AI 聊天机器人 Lumo 升级至 2.0",
+    "summary": "Proton 本周推出隐私导向的 AI 聊天机器人 Lumo 2.0，扩展了功能范围，在提供 AI 服务的同时继续强化用户数据保护。",
+    "body": "Proton 宣布其隐私优先的 AI 聊天机器人 Lumo 迎来 2.0 版本升级，并将于本周向用户推出。新版本在原有隐私保护架构基础上增加了更多能力，旨在让用户在不牺牲数据安全的前提下获得更丰富的 AI 交互体验。\n\n此次升级显示出 Proton 在加密邮件与网络安全服务之外，正加速布局隐私 AI 应用。随着数据安全与 AI 融合需求上升，Lumo 2.0 的迭代或为隐私计算与生成式 AI 结合提供新的产品参考。",
+    "category": "人工智能",
+    "tags": [
+      "AI聊天机器人",
+      "隐私保护",
+      "网络安全"
+    ],
+    "source": "TechCrunch",
+    "time": "40分钟前",
+    "ts": "2026-06-30T14:00:00+00:00",
+    "url": "https://techcrunch.com/2026/06/30/lumo-protons-privacy-focused-ai-chatbot-gets-an-upgrade/",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "0c9ae3f12d91a395",
+    "title": "iPhone 18 Pro 樱桃红卡托曝光，系列或新增银灰与浅蓝配色",
+    "summary": "博主曝光的 iPhone 18 Pro 卡托显示，苹果新一代 Pro 机型将提供樱桃红配色，并可能还有银灰、浅蓝可选，而不再有黑灰色。",
+    "body": "6 月 30 日，博主 @刹那数码 晒出据称是苹果 iPhone 18 Pro 的“樱桃红”配色卡托图片，并在评论区透露系列机型还有“银灰”“浅蓝”两种颜色，但不提供“黑灰色”。这与此前印度塔塔电子泄露事件中出现的“樱桃红”iPhone 18 Pro 相机按钮测试视频相吻合。由于相关泄露内容已在社交平台传播，苹果正依据《数字千年版权法》（DMCA）发起投诉要求下架，但网络信息的扩散难以完全阻断。",
+    "category": "消费电子",
+    "tags": [
+      "苹果",
+      "iPhone 18 Pro",
+      "消费电子",
+      "新品泄露"
+    ],
+    "source": "IT之家",
+    "time": "53分钟前",
+    "ts": "2026-06-30T13:47:13+00:00",
+    "url": "https://www.ithome.com/0/970/759.htm",
+    "image": "https://img.ithome.com/newsuploadfiles/2026/6/c2d1a857-28d5-4407-a2ef-b1c10de3df14.jpg",
+    "stocks": [
+      {
+        "name": "苹果公司",
+        "ticker": "AAPL",
+        "reason": "爆料涉及其下一代旗舰手机 iPhone 18 Pro 的新配色与工业设计细节。",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "946c3f7fe6049f97",
+    "title": "索尼CEO暗示PS6或采用混合形态 突破客厅场景",
+    "summary": "索尼互动娱乐CEO西野秀明表示，次世代PlayStation将提供无缝游戏体验，让玩家可在客厅之外游玩，引发PS6或采用掌机/混合形态的猜测。",
+    "body": "据科技媒体TechRadar报道，索尼互动娱乐（SIE）CEO西野秀明在近期投资者问答中回应了下一代主机的相关问题。他表示，PlayStation长期与客厅游戏绑定，但近年来玩家越来越多在显示器等设备上游玩主机游戏，索尼已推出INZONE品牌布局显示器、扬声器等周边，以拓展游戏机的使用场景。西野秀明强调，下一代平台不会只做PC的替代品，而要提供PlayStation的独特价值，玩家将能在客厅之外享受无缝的游戏体验。这一表态引发外界猜测，认为PS6可能会采用类似任天堂Switch 2的混合形态或推出配套掌机。不过他同时表示，索尼仍会继续推出游戏主机。",
+    "category": "消费电子",
+    "tags": [
+      "索尼",
+      "PlayStation",
+      "游戏主机",
+      "PS6"
+    ],
+    "source": "IT之家",
+    "time": "58分钟前",
+    "ts": "2026-06-30T13:42:24+00:00",
+    "url": "https://www.ithome.com/0/970/758.htm",
+    "image": "https://img.ithome.com/newsuploadfiles/2026/6/fa12d597-8aed-44a8-88f9-dbf8648fb4ac.png?x-bce-process=image/format,f_auto",
+    "stocks": [
+      {
+        "name": "索尼集团",
+        "ticker": "SONY",
+        "reason": "新闻直接涉及索尼下一代PlayStation主机战略与产品路线，影响其游戏硬件与生态业务预期。",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "129e286df24a535b",
+    "title": "YouTube Premium苹果订阅更贵，\"苹果税\"转嫁给用户",
+    "summary": "YouTube Premium通过苹果App Store订阅的价格高于官网，原因是开发者需向苹果支付最高30%的佣金。用户可通过服务官网直接订阅以避免额外费用。",
+    "body": "据报道，YouTube Premium个人会员在官网订阅为每月16美元，但通过苹果App Store订阅则涨至21美元，差价源于苹果对App Store内购收取最高30%的佣金。开发者常将这部分成本转嫁给消费者，形成所谓\"苹果税\"。虽然苹果App Store便于统一管理订阅，但消费者可通过服务官网直接订阅以节省费用。该现象也引发了对苹果应用商店收费模式和反垄断监管的持续争议。",
+    "category": "消费电子",
+    "tags": [
+      "YouTube",
+      "App Store",
+      "苹果税",
+      "订阅服务"
+    ],
+    "source": "Engadget",
+    "time": "1小时前",
+    "ts": "2026-06-30T13:30:00+00:00",
+    "url": "https://www.engadget.com/2204595/you-might-be-paying-more-for-youtube-premium-through-apple-subscription/",
+    "image": "https://www.engadget.com/img/gallery/you-might-be-paying-more-for-youtube-premium-if-you-subscribed-through-apple/l-intro-1782774879.jpg",
+    "stocks": []
+  },
+  {
+    "id": "4a535f493f018e92",
+    "title": "WhatsApp将推用户名功能以改善隐私",
+    "summary": "WhatsApp宣布将逐步推出用户名功能，称其目的在于改善用户隐私。",
+    "body": "WhatsApp表示将逐步推出用户名功能，希望借此改善用户隐私。这一调整意味着用户未来或许可以使用用户名而非电话号码来添加或联系他人，从而降低个人号码被泄露的风险。\n\n不过，目前WhatsApp并未公布完整的上线时间表和具体技术细节。该功能仍属分阶段推出，其最终覆盖范围以及对用户体验和平台信任度的影响还有待观察。",
+    "category": "网络安全",
+    "tags": [
+      "WhatsApp",
+      "隐私保护",
+      "用户名",
+      "Meta"
+    ],
+    "source": "Al Jazeera",
+    "time": "1小时前",
+    "ts": "2026-06-30T13:29:38+00:00",
+    "url": "https://www.aljazeera.com/news/2026/6/30/what-privacy-settings-has-whatsapp-changed?traffic_source=rss",
+    "image": "",
+    "stocks": [
+      {
+        "name": "Meta Platforms",
+        "ticker": "META",
+        "reason": "WhatsApp隶属于Meta，隐私功能优化可能提升用户信任与活跃度",
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
+    "id": "c3172c5a935123f6",
+    "title": "OpenAI 修复 Codex 额度异常消耗故障并全面重置",
+    "summary": "OpenAI 已修复其编程智能体 Codex 因后台运算量超标导致用户额度被异常快速消耗的故障，并再次为所有用户重置额度上限。",
+    "body": "OpenAI 工程负责人蒂博·索蒂奥克斯在 X 平台表示，Codex 的自动代码审核、辅助子智能体等功能出现运行频次过高、重复执行或出错后反复重试等问题，导致后台算力消耗超出预设标准，控制面板还错误展示了未实际扣费的后台运算记录。公司已上线全部修复方案，并新增更细化的监控机制，同时全面重置了所有用户的 Codex 使用额度。此次故障引发多名开发者质疑与账单担忧，也暴露出 AI 编程工具在高频调用场景下对额度计量和系统稳定性的敏感要求。",
+    "category": "人工智能",
+    "tags": [
+      "OpenAI",
+      "Codex",
+      "AI编程工具",
+      "算力消耗"
+    ],
+    "source": "IT之家",
+    "time": "1小时前",
+    "ts": "2026-06-30T13:26:57+00:00",
+    "url": "https://www.ithome.com/0/970/755.htm",
+    "image": "https://img.ithome.com/newsuploadfiles/2026/6/7ca07951-6557-4b7f-ba05-8550136ae975.png?x-bce-process=image/format,f_auto",
+    "stocks": []
+  },
+  {
     "id": "a2ab728715d5e8d4",
     "title": "BIGME大我发布全球首款60Hz 25.3英寸彩墨屏显示器",
     "summary": "BIGME大我上线B251 PRO彩墨屏显示器，搭载25.3英寸Kaleido 3彩色墨水屏，支持60帧/秒刷新率，售价1279美元，刷新彩色电子纸在显示器品类的性能上限。",
