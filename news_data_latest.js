@@ -1,5 +1,82 @@
 const newsData = [
   {
+    "id": "94f9ff4b3c0b32df",
+    "title": "中微公司拟出资14.7亿元设半导体投资基金",
+    "summary": "中微公司全资子公司中微临港拟参与设立私募投资基金，认缴出资不超过14.7亿元，基金将聚焦半导体、泛半导体及战略新兴领域投资。",
+    "body": "中微公司公告，全资子公司中微临港拟作为有限合伙人，与关联方智微资本及其他投资人共同出资设立上海智微凌峰创业投资合伙企业（有限合伙），基金募资规模暂定30亿元。中微临港拟以自有资金认缴出资不超过14.7亿元，预计占基金规模不超过49%。\n\n该基金投资聚焦半导体、泛半导体和战略新兴领域。本次交易构成关联交易，尚需提交股东会审议。此举有助于中微公司围绕主业深化产业链投资布局，强化其在半导体设备及相关领域的生态协同。",
+    "category": "半导体与先进制造",
+    "tags": [
+      "半导体",
+      "私募投资",
+      "中微公司",
+      "产业链投资"
+    ],
+    "source": "36氪",
+    "time": "刚刚",
+    "ts": "2026-06-30T13:00:58.544077+00:00",
+    "url": "https://36kr.com/newsflashes/3875656502538247?f=rss",
+    "image": "",
+    "stocks": [
+      {
+        "name": "中微公司",
+        "ticker": "688012.SH",
+        "reason": "公司全资子公司拟出资设立半导体投资基金，直接围绕主业强化产业链投资布局",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "03b4610079911236",
+    "title": "英伟达被曝取消四芯片Rubin Ultra，改推双GPU设计",
+    "summary": "据SemiAnalysis消息，英伟达因“制造执行顾虑”，取消原计划2027年推出的四计算芯片Rubin Ultra AI加速器，改为更易量产的双芯片设计，新方案性能约为原定方案的一半。",
+    "body": "报道称，英伟达原本计划在2027年发布的Rubin Ultra AI加速器中采用四颗GPU chiplet，以提供相较双芯片基础Rubin翻倍的数据中心性能。然而，连接四颗接近光罩尺寸的裸片对先进封装技术构成巨大工程挑战，同时冷却四颗复杂芯片及16个HBM4E模块也成本高、难度大，因此公司最终放弃了该方案。\n\n改为双芯片设计后，Rubin Ultra的算力大约减半，可能削弱其面对AMD Instinct MI500系列等竞品时的竞争力。目前该消息尚未得到英伟达官方确认，仍需等待进一步证实。",
+    "category": "半导体与先进制造",
+    "tags": [
+      "英伟达",
+      "AI加速器",
+      "先进封装",
+      "GPU"
+    ],
+    "source": "Tom's Hardware",
+    "time": "15分钟前",
+    "ts": "2026-06-30T12:45:00+00:00",
+    "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/nvidia-reportedly-cancels-quad-die-rubin-ultra-gpu-in-favor-of-dual-gpu-design-report-claims-complex-design-purportedly-scrapped-over-manufacturing-execution-concerns",
+    "image": "https://cdn.mos.cms.futurecdn.net/fcjx2YZZLa8S3KbUsb4qDj-1280-80.jpg",
+    "stocks": [
+      {
+        "name": "英伟达",
+        "ticker": "NVDA",
+        "reason": "Rubin Ultra是其下一代数据中心AI加速器，设计变更直接影响产品路线与量产节奏。",
+        "confidence": "high"
+      },
+      {
+        "name": "AMD",
+        "ticker": "AMD",
+        "reason": "竞争对手的Instinct MI500系列被提及，若英伟达旗舰方案性能缩水，AMD或相对受益。",
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
+    "id": "7a8ef29a35a152fd",
+    "title": "无毒生物制剂可防范莱姆病，或将成为日常商品",
+    "summary": "美国德克萨斯大学圣安东尼奥分校的研究人员正在开发一种无毒生物制剂，用于预防莱姆病，未来可能在大型家居超市上市销售。",
+    "body": "美国德克萨斯大学圣安东尼奥分校的研究团队正在将一种抗莱姆病的无毒生物制剂从实验室推向市场。该产品有望在家得宝等大型家居建材超市销售，使人们能够更方便地获取防蜱保护。\n\n莱姆病主要通过蜱虫叮咬传播，现有防护手段常依赖化学杀虫剂，长期环境和健康风险引发关注。与传统化学产品不同，该生物制剂声称无毒，若成功上市，可为户外活动者、宠物主人及家庭提供一种新的安全选择，并可能推动蜱媒疾病防控方式的转变。",
+    "category": "生物医药",
+    "tags": [
+      "莱姆病",
+      "蜱虫防护",
+      "生物制剂",
+      "公共卫生"
+    ],
+    "source": "MedicalXpress",
+    "time": "20分钟前",
+    "ts": "2026-06-30T08:40:01-04:00",
+    "url": "https://medicalxpress.com/news/2026-06-toxic-lyme-disease-everyday.html",
+    "image": "https://scx1.b-cdn.net/csz/news/tmb/2023/lyme-disease.jpg",
+    "stocks": []
+  },
+  {
     "id": "d10b05ea9e3185eb",
     "title": "光荣特库摩新作《FUJI》入选日本IP360资助计划",
     "summary": "日本经济产业省公布IP360计划入选名单，光荣特库摩新作《FUJI》及科乐美、世嘉、史克威尔艾尼克斯等多家游戏企业项目入选，将获得政府资助以培育新IP并推动日本文化出口。",
@@ -24,6 +101,25 @@ const newsData = [
         "confidence": "high"
       }
     ]
+  },
+  {
+    "id": "9eacd9051f414ee3",
+    "title": "Morph推出可嵌入硬件的软体机器人细胞",
+    "summary": "英国机器人初创公司morph发布物理智能软体机器人平台，其“软体机器人细胞”将感知与自适应控制直接嵌入可变形材料，能够实时改变形态与刚度。",
+    "body": "据The Robot Report报道，机器人初创公司morph推出了一套物理智能软体机器人平台，设计并制造所谓的“软体机器人细胞”。该平台把感知和自适应控制直接嵌入可重构的变形材料中，使机器人硬件能够实时改变形态与刚度。公司称，通过将强化学习与高保真物理仿真相结合，可加快从概念到产品的转化速度。\n\nmorph认为，随着人工智能让机器人变得更聪明，一些开发者过于侧重软件智能，而具身智能本质上是软硬件一体问题。受章鱼适应能力的启发，其软体细胞可接收信息并理解信息，然后主动调整形态以实现运动、支撑或保护等功能，从而被集成到多种机器人中。这一思路有助于弥合硬件与软件之间的鸿沟，推动物理AI系统的发展。",
+    "category": "机器人",
+    "tags": [
+      "软体机器人",
+      "具身智能",
+      "物理AI",
+      "机器人硬件"
+    ],
+    "source": "The Robot Report",
+    "time": "29分钟前",
+    "ts": "2026-06-30T12:30:35+00:00",
+    "url": "https://www.therobotreport.com/soft-robotic-cells-from-morph-embed-physical-ai-into-hardware/",
+    "image": "https://www.therobotreport.com/wp-content/uploads/2026/06/morph-featured.jpg",
+    "stocks": []
   },
   {
     "id": "65d88b8aa4854274",
@@ -79821,12 +79917,6 @@ const newsData = [
   }
 ];
 const newsDigest = {
-  "text": "今日科技前沿聚焦三大主线：人工智能领域国产模型与具身智能并进，智谱GLM-5.2登顶开源榜单、Kimi估值升至315亿美元，英伟达在华大举招聘机器人人才；商业航天加速布局，NASA将公布月球基地新进展，Orbital计划部署10万颗太空数据中心卫星；新能源与先进制造持续出海扩产，宁德时代海外工厂密集投产，四方达募资加码金刚石钻针产业化。",
-  "highlights": [
-    "a101e89002246264",
-    "0ac4c570b77d1d73",
-    "774631ff723450dc",
-    "66e22eddd8a2d3a3",
-    "4be4394e4ccc8f54"
-  ]
+  "text": "",
+  "highlights": []
 };
