@@ -1,5 +1,132 @@
 const newsData = [
   {
+    "id": "d42c00b2def445b9",
+    "title": "雪佛兰Blazer EV 2027款维持售价并升级",
+    "summary": "2027款雪佛兰Blazer EV在增加NACS充电接口和额外配置的情况下，仍将保持现款售价不变。",
+    "body": "据Electrek报道，2027款雪佛兰Blazer EV将维持与现款车型相同的价格，尽管新车增加了NACS充电接口和部分额外功能。这一举措意味着通用汽车希望在竞争激烈的美国电动车市场保持价格竞争力，同时通过配置升级提升产品吸引力。NACS接口的加入也将使车主能够使用特斯拉超级充电网络，改善补能体验，这对通用汽车加速电动化转型具有一定意义。",
+    "category": "未来能源",
+    "tags": [
+      "电动汽车",
+      "NACS",
+      "雪佛兰",
+      "通用汽车"
+    ],
+    "source": "Electrek",
+    "time": "4分钟前",
+    "ts": "2026-06-30T20:09:38+00:00",
+    "url": "https://electrek.co/2026/06/30/chevy-blazer-ev-avoids-price-hike-2027-despite-upgrades/",
+    "image": "https://electrek.co/wp-content/uploads/sites/3/2024/06/Chevy-2025-Blazer-EV-prices.jpeg?quality=82&#038;strip=all&#038;w=1400",
+    "stocks": [
+      {
+        "name": "通用汽车",
+        "ticker": "GM",
+        "reason": "雪佛兰Blazer EV为通用汽车旗下电动车型，维持售价并增配有助于提升其市场竞争力",
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
+    "id": "c0328f39dca2e5e0",
+    "title": "大型临床试验：自我管理可缓解慢性背痛",
+    "summary": "一项大型临床试验表明，针对慢性背痛患者的自我管理干预可显著缓解疼痛并改善身体功能，为长期管理提供非药物、低成本的循证方案。",
+    "body": "慢性背痛是全球常见的健康问题，约20%的急性背痛患者会发展为慢性疼痛，进而影响日常活动并造成劳动力流失。传统治疗多依赖药物或手术，长期效果有限且伴随副作用风险。\n\n一项大型临床试验发现，系统的自我管理干预能有效帮助慢性背痛患者减轻疼痛、改善功能。通过教育、运动指导和症状监测等方式，患者可以更主动地参与康复过程。该研究为慢性背痛的非药物管理提供了高质量证据，有助于降低医疗成本并推动以患者为中心的治疗模式。",
+    "category": "生物医药",
+    "tags": [
+      "慢性背痛",
+      "临床试验",
+      "自我管理"
+    ],
+    "source": "MedicalXpress",
+    "time": "13分钟前",
+    "ts": "2026-06-30T16:00:04-04:00",
+    "url": "https://medicalxpress.com/news/2026-06-pain-wont-large-clinical-trial.html",
+    "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/back-pain-1.jpg",
+    "stocks": []
+  },
+  {
+    "id": "9787e6b02172781d",
+    "title": "星海图机器人连融四轮，估值达28亿美元",
+    "summary": "深圳具身智能公司X Square Robot完成连续四轮融资，C轮后估值超过28亿美元，资金将用于基础研究与核心技术，并向通用具身智能推进。",
+    "body": "X Square Robot Technology Co.（星海图机器人）今日宣布已完成连续四轮融资， culminating in a Series C，投后估值超过28亿美元。这家总部位于深圳的公司成立于2023年，专注于开发端到端具身智能系统，将基础模型、机器人硬件、可扩展数据管道与真实场景部署相结合，希望让机器人适应动态环境并泛化到多种任务。公司表示，本轮融资将投入基础研究和核心技术，推动通用具身智能的发展。投资方包括IDG资本参与C轮，以及红杉、小米等在多轮中持续支持。这一高额估值也反映出资本对具身智能赛道及机器人基础模型的高度关注。",
+    "category": "机器人",
+    "tags": [
+      "具身智能",
+      "机器人",
+      "融资",
+      "小米"
+    ],
+    "source": "The Robot Report",
+    "time": "24分钟前",
+    "ts": "2026-06-30T19:49:05+00:00",
+    "url": "https://www.therobotreport.com/x-square-robot-brings-valuation-2-8b-four-consecutive-funding-rounds/",
+    "image": "https://www.therobotreport.com/wp-content/uploads/2026/06/xsquarerobot-featured.jpg",
+    "stocks": [
+      {
+        "name": "小米集团-W",
+        "ticker": "1810.HK",
+        "reason": "小米是X Square Robot的多轮参投方及战略投资人，被投企业估值提升有望带来投资收益与生态协同。",
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
+    "id": "eaa7634b596ec58b",
+    "title": "xTool发布四合一桌面打印机，可印“万物”",
+    "summary": "xTool在柏林发布号称全球首款“4合1”桌面打印机01 Omni Printer，将UV、DTG、DTF与UV DTF技术集成于一体，支持在厚度最高约5毫米的各类表面打印，起售价1699美元。",
+    "body": "xTool在柏林的特别活动上推出全新01 Omni Printer，宣称这是全球首款“四合一打印机”。该设备将UV打印、直喷成衣（DTG）、热转印膜（DTF）以及UV DTF技术原生整合进单一桌面生态系统，面向创客和DIY爱好者，号称能在“所有表面”上打印，并支持厚度最高约5毫米的物体。\n\n在发布会中，xTool首席执行官Jason Wang表示，公司成立十年来已成为激光切割机领域的头部厂商，现在正利用其软硬件能力拓展到更广泛的数字制造工具市场。去年xTool已开始涉足打印市场，此次新品进一步丰富了其产品线。\n\n定价方面，01 Omni Printer单UV版起售1699美元，Dual UV版为2699美元，UV与DT织物版则为2799美元。该产品的推出意味着xTool正从激光切割向综合性桌面制造设备品牌迈进，可能加剧个人及小型工作室市场的竞争。",
+    "category": "消费电子",
+    "tags": [
+      "xTool",
+      "桌面打印机",
+      "UV打印",
+      "数字制造"
+    ],
+    "source": "Tom's Hardware",
+    "time": "27分钟前",
+    "ts": "2026-06-30T19:45:55+00:00",
+    "url": "https://www.tomshardware.com/maker-stem/xtool-says-its-01-omni-printer-can-print-it-all-firm-steps-into-the-world-of-uv-printing-for-output-on-all-surfaces-at-up-to-5mm-thick",
+    "image": "https://cdn.mos.cms.futurecdn.net/mWPptYYcvUn2zyDMnQoGzB-1280-80.jpg",
+    "stocks": []
+  },
+  {
+    "id": "7f4d5ae5a69525bb",
+    "title": "新型产后基因疗法有望治疗先天性耳聋",
+    "summary": "针对SLC26A4基因突变引发的遗传性耳聋，新型产后基因疗法展现出治疗潜力，为先天性听力损失患者带来新希望。",
+    "body": "遗传性耳聋影响全球数百万人群，其中SLC26A4基因突变是常见的遗传诱因之一，在亚洲人群中尤为突出。该突变常导致重度至极重度耳聋，并伴随前庭导水管扩大、内淋巴囊异常等内耳结构畸形。一项新研究的产后基因疗法进展，有望为这类先天性听力损失提供潜在治疗手段，具有重要的临床转化意义。",
+    "category": "生物医药",
+    "tags": [
+      "基因治疗",
+      "遗传性耳聋",
+      "SLC26A4",
+      "生物医药"
+    ],
+    "source": "MedicalXpress",
+    "time": "33分钟前",
+    "ts": "2026-06-30T15:40:04-04:00",
+    "url": "https://medicalxpress.com/news/2026-06-postnatal-gene-therapy-congenital-loss.html",
+    "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/new-postnatal-gene-the.jpg",
+    "stocks": []
+  },
+  {
+    "id": "142aa2e24aba98d0",
+    "title": "美国太空军启用移动卫星干扰系统",
+    "summary": "美国太空军名为“Meadowlands”的移动卫星干扰系统正从研发转入实战使用，反映出美军日益重视太空电子战能力。",
+    "body": "美国太空军已将名为“Meadowlands”的移动式卫星干扰系统投入作战使用。随着美军加大对电子战的重视，该系统标志着太空攻防能力的进一步强化。此举可能加剧太空安全领域的竞争，并促使相关国家发展反制与防护手段。",
+    "category": "地缘科技",
+    "tags": [
+      "太空电子战",
+      "卫星干扰",
+      "美国太空军",
+      "电子战"
+    ],
+    "source": "SpaceNews",
+    "time": "42分钟前",
+    "ts": "2026-06-30T19:31:29+00:00",
+    "url": "https://spacenews.com/space-force-fields-mobile-satellite-jamming-system/",
+    "image": "https://i0.wp.com/spacenews.com/wp-content/uploads/2026/06/260626-X-X0914-1001.jpg?fit=1024%2C574&amp;ssl=1",
+    "stocks": []
+  },
+  {
     "id": "31d023a3663dfe5c",
     "title": "Google NotebookLM 推短视频摘要功能",
     "summary": "Google的NotebookLM面向AI Ultra和Pro订阅用户推出TikTok风格的60秒竖屏AI视频，可基于用户上传资料自动生成研究内容摘要短片。",
