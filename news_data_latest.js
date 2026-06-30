@@ -1,5 +1,88 @@
 const newsData = [
   {
+    "id": "259521733c615232",
+    "title": "新型胰岛素或可降低青少年1型糖尿病低血糖风险",
+    "summary": "匹兹堡大学主导的一项试验显示，新型胰岛素类似物在青少年1型糖尿病患者中可能减少低血糖事件，为低资源地区的胰岛素选择提供了新依据。",
+    "body": "这项由匹兹堡大学研究人员主导、发表于《柳叶刀·糖尿病与内分泌学》的试验，比较了传统人胰岛素与新型胰岛素类似物在青少年1型糖尿病患者中的疗效与安全性。结果发现，新型胰岛素可能更有效地降低低血糖发生风险，这一结论对临床治疗方案具有参考价值。该研究也为资源有限地区在成本与疗效之间权衡胰岛素选择增添了新的证据，有助于优化糖尿病管理策略。",
+    "category": "生物医药",
+    "tags": [
+      "1型糖尿病",
+      "胰岛素",
+      "生物医药",
+      "青少年糖尿病"
+    ],
+    "source": "MedicalXpress",
+    "time": "2分钟前",
+    "ts": "2026-06-30T12:00:08-04:00",
+    "url": "https://medicalxpress.com/news/2026-06-insulin-blood-sugar-youth-diabetes.html",
+    "image": "https://scx1.b-cdn.net/csz/news/tmb/2021/insulin-1.jpg",
+    "stocks": []
+  },
+  {
+    "id": "bb0de982d2f19071",
+    "title": "研究发现极端温度增加痴呆症患者急诊就诊",
+    "summary": "在欧洲神经病学学会2026年大会上公布的初步研究显示，暴露于极端高温或低温与痴呆症患者急诊就诊风险增加相关，提示环境因素对神经系统疾病患者健康具有显著影响。",
+    "body": "该研究指出，极端气温可能是影响痴呆症人群健康的重要环境因素，暴露于极端高温或寒冷会显著增加其前往急诊室的就诊风险。这一发现为理解气候变化与神经系统疾病之间的关系提供了新的流行病学证据。研究人员认为，环境暴露对神经系统疾病患者的健康影响可量化，相关政策制定者和医疗机构在应对极端天气时需加强对痴呆症等脆弱人群的关注与保护。",
+    "category": "生物医药",
+    "tags": [
+      "痴呆症",
+      "气候变化",
+      "神经科学",
+      "急诊医学"
+    ],
+    "source": "MedicalXpress",
+    "time": "2分钟前",
+    "ts": "2026-06-30T12:00:03-04:00",
+    "url": "https://medicalxpress.com/news/2026-06-extreme-temperatures-emergency-department-people.html",
+    "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/emergency.jpg",
+    "stocks": []
+  },
+  {
+    "id": "f7c7cce399d0f992",
+    "title": "美国内政部与杜克能源取消海上风电项目",
+    "summary": "据媒体报道，美国内政部与杜克能源达成协议，取消卡罗莱纳长湾海上风电项目，转而聚焦天然气开发，并涉及巨额纳税人资金安排，引发能源政策争议。",
+    "body": "据媒体报道，美国内政部与杜克能源（Duke Energy）达成一项协议，取消卡罗莱纳长湾（Carolina Long Bay）的海上风电项目开发，转而聚焦天然气项目。该报道批评称，这一安排以纳税人资金补贴天然气企业，同时放弃成本较低的海上风电资源，可能影响美国电力供应与电价水平。此举反映出当前美国能源政策中风电与化石能源之间的博弈，引发对能源转型节奏、电力成本及公共资金使用的争议。",
+    "category": "未来能源",
+    "tags": [
+      "海上风电",
+      "天然气",
+      "美国能源政策",
+      "杜克能源"
+    ],
+    "source": "Electrek",
+    "time": "12分钟前",
+    "ts": "2026-06-30T15:50:00+00:00",
+    "url": "https://electrek.co/2026/06/30/another-day-another-illegal-billion-dollar-bribe-to-raise-your-electricity-prices/",
+    "image": "https://electrek.co/wp-content/uploads/sites/3/2026/03/Vineyard-Wind-offshore.jpg?quality=82&#038;strip=all&#038;w=1600",
+    "stocks": [
+      {
+        "name": "杜克能源",
+        "ticker": "DUK",
+        "reason": "与美国内政部达成取消海上风电项目的协议，获得财政支持并转向天然气开发",
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
+    "id": "dde560f5eb5e48bf",
+    "title": "微软被曝停产 Surface Go 系列，无继任机型",
+    "summary": "知情人士称，微软已停止生产 Surface Go 平板和 Surface Laptop Go 笔记本，且无后续机型研发计划。这意味着微软平价 Surface 产品线或将终结。",
+    "body": "据外媒 6 月 30 日报道，知情人士透露微软已停止生产 Surface Go 二合一平板和 Surface Laptop Go 笔记本，目前也没有继任产品正在研发。部分零售商仍在销售库存，售罄后不再补货。Surface Go 于 2018 年发布，起售价 399 美元；Surface Laptop Go 于 2020 年发布，起售价 549 美元，两者均面向入门级市场。若消息属实，这两条平价 Surface 产品线将被正式砍掉，进一步收缩微软硬件产品矩阵。这也反映出微软可能将资源更多集中于高端 Surface 及 AI 服务方向，对 PC/平板市场格局具有一定影响。",
+    "category": "消费电子",
+    "tags": [
+      "微软",
+      "Surface",
+      "平板电脑",
+      "笔记本电脑"
+    ],
+    "source": "IT之家",
+    "time": "17分钟前",
+    "ts": "2026-06-30T15:45:41+00:00",
+    "url": "https://www.ithome.com/0/970/787.htm",
+    "image": "https://img.ithome.com/newsuploadfiles/2026/6/c27bca13-bbb3-4c07-bc17-e25d7c28cca0.png",
+    "stocks": []
+  },
+  {
     "id": "bb5bf8df38c4da2b",
     "title": "非洲基因数据有望改写常用药剂量标准",
     "summary": "现有药物剂量信息多基于欧洲患者数据，缺乏对非洲人群遗传差异的研究。南非威茨大学主导的政策简报指出，超过10%的基本药物可能需要药物基因组学指导。",
