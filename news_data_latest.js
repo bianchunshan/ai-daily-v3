@@ -1,5 +1,126 @@
 const newsData = [
   {
+    "id": "b6cf71c4ccdef91a",
+    "title": "Claude模型正式登陆微软Foundry",
+    "summary": "Anthropic宣布Claude模型即日起在Microsoft Foundry（Azure AI Foundry）全面可用，企业用户可直接在Azure环境中部署调用，并沿用现有身份认证、计费及治理体系。",
+    "body": "Anthropic当地时间6月29日宣布，其Claude模型即日起正式在Microsoft Foundry（即Azure AI Foundry）全面可用。企业用户可直接在Azure环境中部署和调用Claude模型，并沿用现有的Azure身份认证、计费及治理体系，降低了模型接入与使用门槛。\n\n目前该平台支持Claude Opus 4.8和Claude Haiku 4.5，涵盖提示缓存（Prompt Caching）、扩展思考（Extended Thinking）等能力，可用于编程、智能代理及复杂推理等场景。Anthropic表示，用户还可根据需求选择推理运行于Azure或Anthropic托管环境，未来双方将逐步实现功能和模型的一致性。",
+    "category": "人工智能",
+    "tags": [
+      "Anthropic",
+      "Claude",
+      "微软Azure",
+      "AI模型"
+    ],
+    "source": "36氪",
+    "time": "刚刚",
+    "ts": "2026-06-30T23:46:55.510125+00:00",
+    "url": "https://36kr.com/newsflashes/3876296337354757?f=rss",
+    "image": "",
+    "stocks": [
+      {
+        "name": "微软",
+        "ticker": "MSFT",
+        "reason": "Claude模型登陆Azure AI Foundry，增强其云AI平台竞争力，有望吸引更多企业客户。",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "0fc811547c38be3d",
+    "title": "库克与欧盟科技主管就新版Siri AI举行建设性会谈",
+    "summary": "苹果CEO蒂姆·库克与欧盟科技事务负责人就新版Siri在欧洲上市及《数字市场法》合规进行会谈，试图缓和持续升级的监管争端。",
+    "body": "当地时间周二，苹果CEO蒂姆·库克与欧盟科技事务负责人亨娜·维尔库宁举行视频会议，双方围绕新版Siri AI在欧洲推出及《数字市场法》合规问题展开“建设性”交流。知情人士称，会谈重点在于苹果如何在避免数百万美元罚款的前提下，将新版Siri带入欧盟市场。\n\n目前新版Siri尚未在欧盟上线，苹果与欧盟围绕互操作性义务的争端已公开化。苹果方面希望获得18个月的合规宽限期，并提出“可信系统代理”方案，计划在用户数据与第三方AI模型之间增设软件层。欧盟则认为该方案仍缺乏具体细节，且宽限期可能损害竞争对手利益。分析人士指出，新版Siri能否顺利落地，将直接影响市场对苹果AI竞争力的判断。",
+    "category": "人工智能",
+    "tags": [
+      "苹果",
+      "Siri AI",
+      "数字市场法",
+      "欧盟监管"
+    ],
+    "source": "IT之家",
+    "time": "3分钟前",
+    "ts": "2026-06-30T23:43:32+00:00",
+    "url": "https://www.ithome.com/0/970/810.htm",
+    "image": "",
+    "stocks": [
+      {
+        "name": "苹果公司",
+        "ticker": "AAPL",
+        "reason": "会谈结果将决定新版Siri能否在欧盟市场推出，直接影响其AI业务进程与合规成本",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "196192871902cffc",
+    "title": "Anthropic发布Claude Sonnet 5，智能体能力显著提升",
+    "summary": "Anthropic推出Claude Sonnet 5模型，称其为Sonnet系列中智能体AI能力最强的版本，在部分任务上性能接近更高端的Opus 4.8。",
+    "body": "Anthropic于7月1日发布Claude Sonnet 5，定位为Sonnet系列中智能体能力最强的模型。该模型能够制定计划、使用浏览器和终端等工具，并自主运行，已接入Claude Code和Claude Platform，开发者可通过API调用“claude-sonnet-5”。\n性能方面，Claude Sonnet 5在智能体搜索评测BrowseComp、计算机使用评测OSWorld-Verified等项目上相比Sonnet 4.6有明显提升，部分任务表现接近Opus 4.8。安全方面，该模型在恶意请求拒绝、提示注入攻击抵抗、幻觉率和迎合性等指标上均有改善，整体不良行为发生率低于Sonnet 4.6。\n费用方面，优惠期至2026年8月31日，输入价格每100万Tokens为2美元，输出价格为10美元；优惠期后输入价格调整为3美元，输出价格为15美元。",
+    "category": "人工智能",
+    "tags": [
+      "Anthropic",
+      "Claude",
+      "智能体",
+      "大模型"
+    ],
+    "source": "IT之家",
+    "time": "5分钟前",
+    "ts": "2026-06-30T23:41:05+00:00",
+    "url": "https://www.ithome.com/0/970/809.htm",
+    "image": "https://img.ithome.com/newsuploadfiles/2026/7/5ca863ce-be35-4362-9b41-6c57e9e7a332.png?x-bce-process=image/format,f_auto",
+    "stocks": []
+  },
+  {
+    "id": "5eff43b6bdbd0633",
+    "title": "研究显示椎间盘突出非手术治疗具前景",
+    "summary": "一项针对椎间盘突出的新研究表明，非手术疗法有望为患者提供新的治疗选择，缓解因椎间盘损伤或膨出带来的严重症状。",
+    "body": "医学快讯报道，一项新研究显示出非手术治疗椎间盘突出（slipped disks）的潜力。脊柱中柔软的椎间盘一旦受伤或膨出，可能对患者造成严重影响，传统上部分病例需依赖手术干预。\n\n该研究提示，非手术手段有望改善此类病症，可能减少手术需求及相关风险。不过，材料未披露具体疗法、临床试验规模及结果细节，其实际疗效与产业化前景仍有待进一步观察。",
+    "category": "生物医药",
+    "tags": [
+      "医疗器械",
+      "脊柱疾病",
+      "非手术治疗"
+    ],
+    "source": "MedicalXpress",
+    "time": "6分钟前",
+    "ts": "2026-06-30T19:40:02-04:00",
+    "url": "https://medicalxpress.com/news/2026-06-surgical-treatment-disks.html",
+    "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/study-shows-promise-of.jpg",
+    "stocks": []
+  },
+  {
+    "id": "7a1a89b9f40450d1",
+    "title": "日本拟投1500亿日元打造国产低轨卫星网，降低Starlink依赖",
+    "summary": "日本总务省选定乐天集团相关企业为补助对象，未来三年最多提供1500亿日元，用于采购卫星、发射及地面设施建设，构建本土低轨卫星通信星座。该项目旨在从经济安全角度培育国产卫星通信产业，缓解对SpaceX星链等海外服务的依赖。",
+    "body": "日本总务省6月30日正式宣布，选定乐天集团旗下相关企业作为低轨卫星通信服务补助对象，计划在未来三年内累计投入最高1500亿日元，支持卫星采购、发射以及地面控制设施建设，打造日本国产低轨卫星星座。该项目名为“确保自主性的低轨卫星基础设施建设项目”（J-LEO），核心目标是从经济安全保障出发培育本土卫星通信产业，降低对美国SpaceX旗下Starlink等海外服务的依赖。日经指出，2024年能登半岛地震中日本被迫紧急借用Starlink恢复通信，以及马斯克关于可能切断他国网络访问的言论，是促使日本加速布局国产低轨卫星网的直接动因。\n\n作为最大受益方，乐天集团将与AST SpaceMobile合作，计划于2026年内在日本成立合资公司，负责卫星业务运营，并力争在2026年第四季度推出商用服务。与目前主要日本运营商采用Starlink提供短信服务不同，乐天方案致力于实现语音通话和视频浏览等宽带通信。总务省还计划在2026年9月前修改法规，允许在700MHz频段开展手机直连卫星通信，为乐天新业务铺路。",
+    "category": "商业航天",
+    "tags": [
+      "低轨卫星",
+      "卫星通信",
+      "乐天集团",
+      "AST SpaceMobile"
+    ],
+    "source": "IT之家",
+    "time": "7分钟前",
+    "ts": "2026-06-30T23:38:57+00:00",
+    "url": "https://www.ithome.com/0/970/808.htm",
+    "image": "https://img.ithome.com/newsuploadfiles/2026/7/1590954b-034e-4cb8-a273-b48622b51e5f.png?x-bce-process=image/format,f_auto",
+    "stocks": [
+      {
+        "name": "乐天集团",
+        "ticker": "4755.T",
+        "reason": "被选为日本J-LEO低轨卫星通信补助对象，将获巨额政府资金支持并与AST合作运营卫星业务。",
+        "confidence": "high"
+      },
+      {
+        "name": "AST太空移动",
+        "ticker": "ASTS",
+        "reason": "作为乐天在低轨卫星宽带通信领域的技术合作伙伴，有望参与日本本土卫星星座建设。",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
     "id": "5b9cd0fabb906ede",
     "title": "谷歌发布Gemini Omni多模态AI创作工具",
     "summary": "谷歌在I/O开发者大会上发布基于Gemini模型家族的全新AI创作工具，其中Gemini Omni支持文本、图像、音频和视频输入，并能通过自然语言对话式编辑生成视频内容。",
