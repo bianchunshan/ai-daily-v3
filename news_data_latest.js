@@ -1,5 +1,24 @@
 const newsData = [
   {
+    "id": "4f3192c47baa7141",
+    "title": "亚马逊支付225万美元和解FTC身份盗窃案",
+    "summary": "美国联邦贸易委员会指控亚马逊未能遵守《公平信用报告法》中有关身份盗窃防范的要求，亚马逊同意支付225万美元以达成和解。",
+    "body": "据Engadget报道，亚马逊将支付225万美元，与美国联邦贸易委员会（FTC）就一项身份盗窃案件达成和解。FTC指控该零售巨头未能满足《公平信用报告法》（FCRA）的相关规定，涉及消费者信用报告与身份盗窃处理。\n\n尽管和解金额相对亚马逊整体营收规模较小，但此案再次凸显大型科技平台在消费者金融数据保护、身份验证及合规流程方面面临更严格的监管审视。若企业未能完善信用报告与身份盗窃防控机制，可能引发后续罚款和声誉风险。",
+    "category": "网络安全",
+    "tags": [
+      "亚马逊",
+      "FTC",
+      "身份盗窃",
+      "金融监管"
+    ],
+    "source": "Engadget",
+    "time": "7分钟前",
+    "ts": "2026-06-30T22:12:53+00:00",
+    "url": "https://www.engadget.com/2205504/amazon-will-pay-2-25-million-to-settle-ftc-identity-theft-case/",
+    "image": "https://www.engadget.com/img/gallery/amazon-will-pay-2-25-million-to-settle-ftc-identity-theft-case/l-intro-1782857153.jpg",
+    "stocks": []
+  },
+  {
     "id": "eb5e156d2d56dd57",
     "title": "开源智能体应用 OpenClaw 登陆 Android 与 iOS",
     "summary": "免费开源的 agentic 程序 OpenClaw 已正式推出 Android 和 iOS 版本，用户可在手机端使用。",
@@ -15,6 +34,43 @@ const newsData = [
     "time": "9分钟前",
     "ts": "2026-06-30T21:53:28+00:00",
     "url": "https://techcrunch.com/2026/06/30/openclaw-is-finally-available-on-android-and-ios/",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "6631d56f327377cf",
+    "title": "Anthropic发布Claude Science，进军AI科学研究",
+    "summary": "Anthropic推出面向科学研究的新旗舰产品Claude Science，可在简洁的高层指令下自主执行科研任务，并瞄准制药与生物技术市场。",
+    "body": "Anthropic在一场面向制药企业高管、生物科技公司创始人和科研人员的活动中正式发布Claude Science，这是继Claude Code之后的新旗舰产品，旨在以AI辅助软件工程的方式支持科学研究。与Claude Code类似，Claude Science能够基于简明的高层指令自主完成实质性科研任务。公司还聘请了诺贝尔化学奖得主、AlphaFold核心开发者John Jumper加盟，以强化其在“AI for Science”领域与Google DeepMind竞争的实力。Anthropic不仅将该产品推向药企和学术实验室，还用于自身针对被忽视疾病的药物研发，以在真实场景中验证产品能力。",
+    "category": "人工智能",
+    "tags": [
+      "Claude Science",
+      "AI for Science",
+      "药物研发",
+      "Anthropic"
+    ],
+    "source": "MIT Tech Review",
+    "time": "29分钟前",
+    "ts": "2026-06-30T21:50:04+00:00",
+    "url": "https://www.technologyreview.com/2026/06/30/1139987/claude-science-is-anthropics-newest-flagship-product/",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "21a1bfcc5555b16f",
+    "title": "格密码风险：营销与现实的差距",
+    "summary": "该文章标题指出，格密码（lattice-based cryptography）在市场宣传与真实安全性之间存在明显落差，提示业界关注潜在风险。",
+    "body": "这则来自 Hacker News 转发的文章以《Understanding lattice risks》为题，暗示格密码技术在营销话术与真实落地之间可能存在较大差异。标题中的“marketing and reality”表明，外界宣传的理想安全属性未必等同于实际工程实现中的保障水平。\n\n格密码是当前后量子密码候选方案的核心方向之一，其安全性通常建立在特定高维格问题的计算困难性之上。如果宣传强调“抗量子”而忽略参数选择、实现漏洞、侧信道攻击或标准化迁移等现实挑战，可能会影响金融、通信、区块链等关键基础设施的升级节奏与安全信任。\n\n因此，该标题提醒决策者、开发者和用户在评估新兴密码技术时，应区分营销承诺与经过严格验证的工程实践，重视安全审计、标准化落地与风险披露。",
+    "category": "网络安全",
+    "tags": [
+      "格密码",
+      "后量子密码",
+      "网络安全"
+    ],
+    "source": "Hacker News",
+    "time": "50分钟前",
+    "ts": "2026-06-30T21:29:15+00:00",
+    "url": "https://blog.cr.yp.to/20260630-risk.html",
     "image": "",
     "stocks": []
   },
