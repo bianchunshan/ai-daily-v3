@@ -1,5 +1,114 @@
 const newsData = [
   {
+    "id": "f819b0a68bdaf8ec",
+    "title": "Rivian R2 开启订单邀请日期公布",
+    "summary": "美国电动汽车制造商 Rivian 已向其中型纯电动 SUV R2 的预订者公布预计订单邀请日期，交付节奏逐渐明朗。",
+    "body": "据外媒 Electrek 报道，Rivian 近日向 R2 预订用户公布了大致的订单邀请日期，让车主能够提前了解何时可正式下单。R2 是 Rivian 面向主流市场推出的中型纯电动 SUV，被视为扩大用户规模、提升销量的关键车型。\n\n这一举措意味着 Rivian 正在推进 R2 的上市与交付进程，并为消费者提供相对明确的时间表。订单邀请的释放节奏也可能反映其产能爬坡和供应链准备情况，对电动车市场竞争格局具有一定参考意义。",
+    "category": "未来能源",
+    "tags": [
+      "Rivian",
+      "电动汽车",
+      "R2",
+      "订单交付"
+    ],
+    "source": "Electrek",
+    "time": "刚刚",
+    "ts": "2026-06-30T16:33:16+00:00",
+    "url": "https://electrek.co/2026/06/30/you-can-now-check-when-youll-be-able-to-order-your-rivian-r2/",
+    "image": "https://electrek.co/wp-content/uploads/sites/3/2026/06/Screenshot-2026-06-30-at-11.55.32-AM-e1782835541301.png?w=1600",
+    "stocks": [
+      {
+        "name": "Rivian Automotive",
+        "ticker": "RIVN",
+        "reason": "R2 是 Rivian 核心新车型，开启订单邀请直接利好其销量与交付预期",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "db66b68a673a1e82",
+    "title": "美团开源LongCat-2.0编码模型，国产芯片全栈训练",
+    "summary": "美团发布开源编码模型LongCat-2.0，采用1.6T参数MoE架构，支持百万token上下文，并首次在5万块国产芯片上完成从预训练到推理的全流程。该模型已开源至longcat.ai和OpenRouter，调用量居全球前三。",
+    "body": "美团近日发布开源编码大模型LongCat-2.0。该模型采用1.6T参数混合专家（MoE）架构，活跃参数介于33B至56B之间，上下文窗口可支持100万token。据介绍，LongCat-2.0在5万块国产芯片上从头训练，并使用华为HCCL通信库完成分布式训练，验证了国内算力集群已具备支撑大模型预训练的能力。\n\n与DeepSeek-V4-pro仅将国产芯片用于推理不同，LongCat-2.0的预训练与推理均依赖国产芯片，标志着国产AI算力在模型全生命周期中的应用取得进展。目前，该模型已开源至longcat.ai和OpenRouter平台，调用量位居全球前三。",
+    "category": "人工智能",
+    "tags": [
+      "美团",
+      "开源模型",
+      "国产芯片",
+      "大模型"
+    ],
+    "source": "AIHOT精选",
+    "time": "9分钟前",
+    "ts": "2026-06-30T16:23:23+00:00",
+    "url": "https://x.com/rohanpaul_ai/status/2071993007218516057",
+    "image": "",
+    "stocks": [
+      {
+        "name": "美团-W",
+        "ticker": "3690.HK",
+        "reason": "发布并开源LongCat-2.0编码大模型，验证国产芯片全栈训练能力，提升AI生态影响力",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "380809e02e822fae",
+    "title": "研究发现乳腺癌转移关键机制",
+    "summary": "瑞典于默奥大学研究人员发现，蛋白METTL3通过调控分子释放促进乳腺癌细胞侵袭和转移，该发现可能为未来癌症治疗提供新靶点。",
+    "body": "研究团队揭示RNA甲基转移酶METTL3在乳腺癌转移中的新功能：它通过调节相关分子的释放，增强肿瘤细胞侵袭周围组织并形成远端转移的能力。这一机制此前未被充分认识，为理解肿瘤扩散提供了新的分子视角。\n\n由于METTL3在转移过程中扮演关键角色，针对该蛋白的靶向干预策略有望成为未来乳腺癌治疗的新方向。相关研究已发表于《Science Advances》，可能推动后续药物开发与临床转化。",
+    "category": "生物医药",
+    "tags": [
+      "乳腺癌",
+      "METTL3",
+      "转移机制",
+      "肿瘤研究"
+    ],
+    "source": "MedicalXpress",
+    "time": "13分钟前",
+    "ts": "2026-06-30T12:20:06-04:00",
+    "url": "https://medicalxpress.com/news/2026-06-mechanism-breast-cancer-metastasis-uncovered.html",
+    "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/new-mechanism-behind-b-2.jpg",
+    "stocks": []
+  },
+  {
+    "id": "af67fcf4e52c4570",
+    "title": "营养应用游戏化设计或暗藏健康风险",
+    "summary": "研究表明，营养类应用的游戏化功能虽能帮助部分用户养成健康习惯，但也可能对特定人群造成心理压力或行为风险。",
+    "body": "营养类移动应用常通过红绿灯标识、奖杯、彩带等游戏化元素激励用户改善饮食，表现优异时获得正向反馈，进度落后时则被提醒加把劲。研究显示，这类设计对许多用户具有积极引导作用，可辅助建立健康生活习惯。\n\n然而，对部分使用者而言，这些游戏化机制可能带来负面效果。例如，颜色标签和成就系统可能强化焦虑、过度控制或完美主义倾向，对有饮食失调风险的人群尤为不利。专家提醒，健康应用开发者在设计激励机制时应兼顾不同用户群体的心理承受力。\n\n该发现对数字医疗行业具有警示意义：在推动行为改变的同时，应避免将简单游戏逻辑套用于复杂的健康管理场景，防止技术干预带来新的健康隐患。",
+    "category": "生物医药",
+    "tags": [
+      "数字医疗",
+      "移动健康",
+      "游戏化",
+      "营养应用"
+    ],
+    "source": "MedicalXpress",
+    "time": "13分钟前",
+    "ts": "2026-06-30T12:20:01-04:00",
+    "url": "https://medicalxpress.com/news/2026-06-nutrition-apps-healthy-habits-users.html",
+    "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/nutrition-apps-can-hel.jpg",
+    "stocks": []
+  },
+  {
+    "id": "a662364287a2e4a7",
+    "title": "加州保护网游法案委员会表决未通过",
+    "summary": "加州参议院一项旨在保存在线游戏的法案在委员会投票中搁浅，\"Stop Killing Games\"运动本立法会期内遭遇挫折。",
+    "body": "加州参议院一项要求游戏发行商在关闭服务器后仍维持在线游戏可玩性的法案，在委员会投票中未能通过，意味着本立法会期内相关立法努力暂时受阻。该法案是\"Stop Killing Games\"运动的一部分，旨在推动数字游戏的长期保存与消费者权益保护。\n\n法案搁浅意味着游戏厂商暂时不必承担额外的服务器维护或离线运行义务，对发行商当前的运营成本和商业模式影响有限。此事也反映出数字内容所有权与长期可玩性之间的监管张力仍在持续。",
+    "category": "消费电子",
+    "tags": [
+      "网络游戏",
+      "数字版权",
+      "消费者保护",
+      "游戏产业"
+    ],
+    "source": "Engadget",
+    "time": "21分钟前",
+    "ts": "2026-06-30T16:11:47+00:00",
+    "url": "https://www.engadget.com/2205041/california-bill-to-preserve-online-games-fails-committee-vote/",
+    "image": "https://www.engadget.com/img/gallery/california-bill-to-preserve-online-games-fails-committee-vote/l-intro-1782835824.jpg",
+    "stocks": []
+  },
+  {
     "id": "2202fa0b40b4d6f9",
     "title": "蓝色起源仍不清楚新格伦火箭上月爆炸原因",
     "summary": "蓝色起源尚未查明其“新格伦”火箭上月发射失败爆炸的具体原因，但公司仍表示该火箭有望今年复飞。",
@@ -15,6 +124,70 @@ const newsData = [
     "time": "2分钟前",
     "ts": "2026-06-30T16:09:57+00:00",
     "url": "https://techcrunch.com/2026/06/30/blue-origin-still-doesnt-know-why-its-new-glenn-rocket-blew-up-last-month/",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "18836b9d5ec8b3d2",
+    "title": "Google发布Nano Banana 2 Lite与Gemini Omni Flash新模型",
+    "summary": "Google AI发布两大模型更新：Nano Banana 2 Lite主打最快、最经济的文本生成图像，Gemini Omni Flash则支持原生多模态视频生成与对话式编辑，均已接入Gemini API与AI Studio。",
+    "body": "Google AI推出Nano Banana 2 Lite，官方称其为最快、最经济的Gemini图像模型，文本生成图像耗时不到4秒，目前已上线Gemini API与AI Studio，未来将集成到NotebookLM、Google搜索、Google Photos等应用。\n\nGemini Omni Flash进入公开预览，具备原生多模态能力，支持低成本视频生成与对话式编辑，可通过Gemini API、AI Studio以及Gemini Enterprise Agent Platform进行集成。\n\n两个模型结合可快速实现空间设计重绘等场景：用户上传照片并滑动选择设计方案后，Omni可将细节以电影级动画呈现。相关演示应用已上架AI Studio，有望进一步丰富Google AI应用生态与开发者工具链。",
+    "category": "人工智能",
+    "tags": [
+      "Gemini",
+      "多模态模型",
+      "文本生成图像",
+      "视频生成"
+    ],
+    "source": "AIHOT精选",
+    "time": "25分钟前",
+    "ts": "2026-06-30T16:07:42+00:00",
+    "url": "https://x.com/GoogleAI/status/2071989058952188054",
+    "image": "",
+    "stocks": [
+      {
+        "name": "Alphabet",
+        "ticker": "GOOGL",
+        "reason": "新模型更新由Google AI发布，直接增强Google AI产品生态与云API竞争力，利好母公司Alphabet。",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "19ba80596298bf97",
+    "title": "Claude Desktop 推出 Linux 公测版",
+    "summary": "Anthropic 旗下 Claude 桌面应用正式上线 Ubuntu 与 Debian 的公测版，覆盖所有付费订阅，支持 Claude Code、Claude Cowork 与聊天。此举进一步拓宽 Claude 在开发者与企业用户中的可及性。",
+    "body": "Claude Desktop 已推出面向 Linux 系统的公开测试版，首批支持 Ubuntu 与 Debian 发行版。除浏览器和终端外，付费用户现在可在桌面端获得统一体验，包括 Claude Code、Claude Cowork 和聊天功能。该扩展有助于吸引偏好 Linux 环境的开发者与企业用户，增强 Anthropic 在 AI 助手市场的覆盖能力。",
+    "category": "人工智能",
+    "tags": [
+      "Claude",
+      "AI助手",
+      "桌面应用",
+      "Linux"
+    ],
+    "source": "AIHOT精选",
+    "time": "26分钟前",
+    "ts": "2026-06-30T16:06:59+00:00",
+    "url": "https://x.com/ClaudeDevs/status/2071988881717871065",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "652e3b521161c2da",
+    "title": "美国一县拥有37座数据中心，要求学校节电",
+    "summary": "美国一拥有37座数据中心的县因数据中心耗电巨大、电网承压，已要求学校减少用电以缓解能源紧张。",
+    "body": "报道称，该县因拥有多达37座数据中心，电力需求激增，当地电网压力显著上升。为应对供电紧张，管理部门已要求学校采取节电措施，以减少高峰时段的用电负荷。此事凸显了人工智能等数据密集型产业推动数据中心快速扩张后，对地方电力基础设施带来的现实挑战，也可能引发对数据中心选址、能源配额及电网升级的进一步讨论。",
+    "category": "AI 基础设施",
+    "tags": [
+      "数据中心",
+      "电力",
+      "AI基础设施",
+      "电网"
+    ],
+    "source": "Hacker News",
+    "time": "27分钟前",
+    "ts": "2026-06-30T16:05:46+00:00",
+    "url": "https://www.404media.co/henrico-virginia-datacenter-energy-cost-email/",
     "image": "",
     "stocks": []
   },
@@ -36,6 +209,58 @@ const newsData = [
     "url": "https://www.theverge.com/gadgets/959264/bose-soundlink-max-wd-black-deal-sale",
     "image": "",
     "stocks": []
+  },
+  {
+    "id": "bbdce644b12a6555",
+    "title": "Gemini发布Nano Banana 2 Lite与Omni Flash",
+    "summary": "Gemini推出两款生成媒体模型Nano Banana 2 Lite和Omni Flash，前者可实现图像快速低价生成，后者在视频编辑上达到SOTA水平。",
+    "body": "Google旗下Gemini在API和AI Studio中新增Nano Banana 2 Lite与Omni Flash两款生成媒体模型。Nano Banana 2 Lite主打图像生成，速度小于4秒，定价为0.034美元/千张图像；Omni Flash则聚焦于视频编辑，定价为0.10美元/秒，与Veo 3.1 Fast持平。这两款模型延续了Gemini在多模态生成领域的布局，通过降低延迟和成本吸引开发者，有望进一步扩展其在生成式AI应用市场的份额。",
+    "category": "人工智能",
+    "tags": [
+      "生成式AI",
+      "多模态模型",
+      "Gemini",
+      "视频生成"
+    ],
+    "source": "AIHOT精选",
+    "time": "28分钟前",
+    "ts": "2026-06-30T16:04:53+00:00",
+    "url": "https://x.com/OfficialLoganK/status/2071988351083921690",
+    "image": "",
+    "stocks": [
+      {
+        "name": "谷歌-A",
+        "ticker": "GOOGL",
+        "reason": "Gemini推出低成本、低延迟的生成媒体模型，有望增强其AI开发者生态与云服务竞争力。",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "633d8c1a6a857c89",
+    "title": "Google DeepMind发布Gemini图像与视频新模型",
+    "summary": "Google DeepMind推出Nano Banana 2 Lite和Gemini Omni Flash两款模型，前者是更快、更便宜的Gemini图像模型，后者支持通过Gemini API和Google AI Studio生成与编辑高质量视频，进一步拓展Gemini的多模态能力。",
+    "body": "Google DeepMind正式发布Gemini系列的新一代图像与视频模型，包括Nano Banana 2 Lite和Gemini Omni Flash。Nano Banana 2 Lite被定位为目前最快、最便宜的Gemini图像模型，有望降低开发者的图像生成成本；Gemini Omni Flash则面向视频场景，支持通过Gemini API和Google AI Studio生成和编辑高质量视频，帮助开发者构建更丰富的多模态应用。\n\n这两款产品的推出标志着谷歌在生成式图像与视频领域持续加码，意在提升Gemini生态对开发者的吸引力，并与OpenAI、Meta等竞争对手在视觉生成赛道展开更激烈竞争。对于需要图像与视频生成能力的应用开发者而言，新的API和工具将进一步降低创作门槛。",
+    "category": "人工智能",
+    "tags": [
+      "人工智能",
+      "Gemini",
+      "多模态模型",
+      "视频生成"
+    ],
+    "source": "AIHOT精选",
+    "time": "29分钟前",
+    "ts": "2026-06-30T16:03:40+00:00",
+    "url": "https://x.com/GoogleDeepMind/status/2071988044878516466",
+    "image": "",
+    "stocks": [
+      {
+        "name": "Alphabet",
+        "ticker": "GOOGL",
+        "reason": "作为Google母公司，新模型有助于增强Gemini开发者生态与AI服务竞争力。",
+        "confidence": "high"
+      }
+    ]
   },
   {
     "id": "f8c0cbef5e2e5bd2",
@@ -3566,6 +3791,25 @@ const newsData = [
     "ts": "2026-06-30T05:00:03-04:00",
     "url": "https://medicalxpress.com/news/2026-06-tcell-therapy-tumor-proteins-early.html",
     "image": "https://scx1.b-cdn.net/csz/news/tmb/2023/brain-tumor-3.jpg",
+    "stocks": []
+  },
+  {
+    "id": "fb435a036a32d4b8",
+    "title": "OpenAI数据揭示ChatGPT全球采用加速",
+    "summary": "OpenAI Signals数据显示，ChatGPT用户在注册六个月后日均消息量增加50%，尝试的任务种类翻倍，且非洲、亚洲及低人类发展指数国家增长最快。",
+    "body": "OpenAI通过Signals数据披露了ChatGPT的全球使用趋势。自2023年7月以来，各大洲活跃用户均显著增长，其中非洲和亚洲增速最快，低人类发展指数国家的用户增长尤为突出。数据表明，ChatGPT正从早期英语用户群体向更广泛、更多元化的用户群扩展。\n\n在用户结构上，女性名字用户已占全球多数，巴西、哥伦比亚、波兰和纳米比亚等国女性用户明显多于男性。语言分布方面，非英语用户占活跃用户半数以上，西班牙语、葡萄牙语和阿拉伯语领先；乌兹别克语、哈萨克语和缅甸语用户的占比增长幅度最大。这一趋势反映出ChatGPT在全球非英语市场和新兴市场中的渗透正在加快。",
+    "category": "人工智能",
+    "tags": [
+      "ChatGPT",
+      "OpenAI",
+      "全球用户增长",
+      "AI应用"
+    ],
+    "source": "AIHOT精选",
+    "time": "7小时前",
+    "ts": "2026-06-30T09:00:00+00:00",
+    "url": "https://openai.com/index/how-chatgpt-adoption-has-expanded",
+    "image": "",
     "stocks": []
   },
   {
