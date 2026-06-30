@@ -1,5 +1,49 @@
 const newsData = [
   {
+    "id": "1bc5b90aae7fe384",
+    "title": "加州3.83亿美元升级长滩港清洁基础设施",
+    "summary": "美国加州港口与货运基础设施计划（PFIP）向长滩港提供创纪录的3.83亿美元拨款，用于创造约2.2万个清洁能源岗位，减少港口及货运排放，并建设更现代化、可持续的供应链。",
+    "body": "加州港口与货运基础设施计划（PFIP）近日在长滩港举行仪式，宣布向美国最繁忙港口之一提供3.83亿美元的历史性拨款。该资金将用于支持约2.2万个清洁能源相关就业岗位，降低港口及货运环节的温室气体排放，并推动供应链现代化与可持续发展。\n\n此项投资体现了加州在绿色港口、清洁运输和关键供应链韧性方面的政策取向，也可能带动电动重卡、岸电、氢能装备等低碳技术在港口场景的应用。对全球主要贸易枢纽而言，长滩港的低碳转型具有示范和参考意义。",
+    "category": "未来能源",
+    "tags": [
+      "绿色港口",
+      "清洁能源",
+      "供应链"
+    ],
+    "source": "Electrek",
+    "time": "2分钟前",
+    "ts": "2026-06-30T20:29:42+00:00",
+    "url": "https://electrek.co/2026/06/30/383-million-port-and-freight-infrastructure-grant-to-create-22000-clean-jobs/",
+    "image": "https://electrek.co/wp-content/uploads/sites/3/2026/06/port_of_long-beach.jpeg?quality=82&#038;strip=all&#038;w=1600",
+    "stocks": []
+  },
+  {
+    "id": "cc7f84f7db91cb52",
+    "title": "Netflix 用 AI 复活 Gene Wilder 声音出演真人秀",
+    "summary": "Netflix 与 AI 语音公司 ElevenLabs 合作，在获得已故演员 Gene Wilder 遗孀及遗产方授权后，用生成式 AI 重现其声音，用于一档受《查理和巧克力工厂》启发的新真人秀节目。",
+    "body": "Netflix 正与 AI 语音合成公司 ElevenLabs 合作，用生成式 AI 重现已故演员 Gene Wilder 的声音，用于一档受《查理和巧克力工厂》启发的新真人秀节目。Wilder 曾在 1971 年电影版中饰演 Willy Wonka，AI 版声音将在节目中担任旁白，预告片已采用该合成声音。据悉，此次重现获得了 Wilder 遗产及其妻子的授权。\n\n这一做法凸显了生成式 AI 在影视内容制作中的渗透，尤其是在名人形象与声音数字化复刻方面的应用。不过，这也引发行业与观众对 AI 替代真人演员、伦理授权及“数字亡灵”消费的争议。",
+    "category": "人工智能",
+    "tags": [
+      "人工智能",
+      "AI语音",
+      "流媒体",
+      "数字人"
+    ],
+    "source": "Engadget",
+    "time": "6分钟前",
+    "ts": "2026-06-30T20:24:49+00:00",
+    "url": "https://www.engadget.com/2205408/netflix-used-ai-to-put-gene-wilder-s-voice-into-a-new-reality-show/",
+    "image": "https://www.engadget.com/img/gallery/netflix-used-ai-to-put-gene-wilders-voice-into-a-new-reality-show/l-intro-1782850909.jpg",
+    "stocks": [
+      {
+        "name": "奈飞",
+        "ticker": "NFLX",
+        "reason": "Netflix是该项目主导方，使用AI语音合成技术为新节目创造话题并可能降低部分配音成本，但短期业绩影响有限",
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
     "id": "d932c347653a9ba5",
     "title": "科州医院试验改善侏儒症儿童生长",
     "summary": "科罗拉多儿童医院及科罗拉多大学安舒茨医学院开展的一项临床试验显示，患有最常见侏儒症——软骨发育不全的儿童的生长速率显著提高。该研究结果已发表于《新英格兰医学杂志》。",
