@@ -1,5 +1,80 @@
 const newsData = [
   {
+    "id": "282e5e314befb47e",
+    "title": "全球评估确认mRNA疫苗安全有效且前景广阔",
+    "summary": "加拿大不列颠哥伦比亚大学牵头的一项全球综述显示，已在全球接种数十亿剂的mRNA疫苗安全且高效，并在流感、RSV、癌症及自身免疫病等领域具有广阔应用潜力。",
+    "body": "由不列颠哥伦比亚大学研究人员主导的一项全球大规模综述指出，mRNA疫苗已在世界范围内接种数十亿剂，数据表明其安全性良好，且在预防COVID-19等传染病方面非常有效。研究人员还认为，mRNA技术有望拓展至流感、呼吸道合胞病毒（RSV）、癌症及自身免疫疾病等更多治疗与预防领域。该综述进一步巩固了mRNA平台作为新一代疫苗和疗法核心技术的地位，可能推动相关研发管线持续扩张。",
+    "category": "生物医药",
+    "tags": [
+      "mRNA疫苗",
+      "疫苗安全",
+      "生物医药"
+    ],
+    "source": "MedicalXpress",
+    "time": "6分钟前",
+    "ts": "2026-06-30T18:30:07-04:00",
+    "url": "https://medicalxpress.com/news/2026-06-billions-doses-global-mrna-vaccines.html",
+    "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/billions-of-doses-late.jpg",
+    "stocks": [
+      {
+        "name": "Moderna",
+        "ticker": "MRNA",
+        "reason": "全球mRNA疫苗领先企业，核心产品为mRNA新冠疫苗，技术平台直接受益于评估对市场信心的提振。",
+        "confidence": "high"
+      },
+      {
+        "name": "辉瑞",
+        "ticker": "PFE",
+        "reason": "与BioNTech合作开发并销售mRNA新冠疫苗，mRNA疫苗业务前景获得正面确认。",
+        "confidence": "high"
+      },
+      {
+        "name": "BioNTech",
+        "ticker": "BNTX",
+        "reason": "专注于mRNA疗法和疫苗，评估正面强化其核心技术平台价值。",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "cf9857d7b9855495",
+    "title": "维生素A水平高与哮喘患者肺功能更好相关",
+    "summary": "《Thorax》在线发表的一项研究发现，血液中维生素A水平较高的哮喘儿童和成人肺功能更好；成人维生素D水平较高也与肺功能改善及生物衰老减缓有关。",
+    "body": "据《Thorax》呼吸期刊在线发表的首项同类研究，血液中循环维生素A水平越高，哮喘儿童和成人的肺功能表现越好；而在成年哮喘患者中，维生素D水平较高同样与更好的肺功能相关，并且与生物衰老速度减缓有关。该研究提示，维生素A和维生素D的营养状态可能在哮喘管理中发挥保护作用，有望为临床干预和公共健康建议提供新线索。不过，研究者尚未证明因果关系，未来仍需进一步随机对照试验验证补充这些维生素是否直接改善哮喘预后。",
+    "category": "生物医药",
+    "tags": [
+      "哮喘",
+      "维生素A",
+      "维生素D",
+      "肺功能"
+    ],
+    "source": "MedicalXpress",
+    "time": "6分钟前",
+    "ts": "2026-06-30T18:30:05-04:00",
+    "url": "https://medicalxpress.com/news/2026-06-higher-vitamin-linked-lung-function.html",
+    "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/lung-function-1.jpg",
+    "stocks": []
+  },
+  {
+    "id": "dd4afe4af19269bf",
+    "title": "高剂量静脉维生素C或可降低创伤患者死亡和脓毒症风险",
+    "summary": "发表在《BMJ Military Health》的一项综述提示，高剂量静脉注射维生素C可能降低创伤患者的死亡和脓毒症风险，并缩短住院时间。",
+    "body": "一项发表在《BMJ Military Health》的综述分析了现有证据，发现对创伤患者使用高剂量静脉注射维生素C，可能有助于降低死亡率和脓毒症发生风险，同时缩短住院时长。创伤和脓毒症是战伤与重症救治中的关键难题，任何能够改善预后的辅助干预都具有潜在临床价值。若后续高质量临床试验进一步验证其有效性与安全性，该疗法或可为创伤患者的综合治疗提供新的辅助选择。",
+    "category": "生物医药",
+    "tags": [
+      "生物医药",
+      "维生素C",
+      "创伤救治",
+      "脓毒症"
+    ],
+    "source": "MedicalXpress",
+    "time": "6分钟前",
+    "ts": "2026-06-30T18:30:01-04:00",
+    "url": "https://medicalxpress.com/news/2026-06-high-dose-iv-vitamin-death.html",
+    "image": "https://scx1.b-cdn.net/csz/news/tmb/2023/intravenous-2.jpg",
+    "stocks": []
+  },
+  {
     "id": "6f944b274ff2a9d3",
     "title": "TechnoMile入选Forrester合同管理知名厂商",
     "summary": "AI合同管理公司TechnoMile被纳入Forrester 2026年第二季度合同生命周期管理平台格局报告，体现了其在AI驱动的合同、合规与增长一体化解决方案中的竞争力。",
@@ -54,6 +129,25 @@ const newsData = [
     "ts": "2026-06-30T22:12:53+00:00",
     "url": "https://www.engadget.com/2205504/amazon-will-pay-2-25-million-to-settle-ftc-identity-theft-case/",
     "image": "https://www.engadget.com/img/gallery/amazon-will-pay-2-25-million-to-settle-ftc-identity-theft-case/l-intro-1782857153.jpg",
+    "stocks": []
+  },
+  {
+    "id": "85db14fb2b0c5570",
+    "title": "TabFM：面向表格数据的零样本基础模型",
+    "summary": "TabFM 是一款面向表格数据的零样本基础模型，可在未见过的新表格数据任务上直接完成推理与预测，无需针对特定任务进行微调。",
+    "body": "研究人员提出了 TabFM（Tabular Foundation Model），这是一种专门面向表格数据的零样本基础模型。与传统针对表格数据的机器学习方法通常需要针对特定数据集训练或调参不同，TabFM 旨在利用基础模型的泛化能力，直接在未见过的新表格数据任务上完成推理和预测，有望降低建模门槛与数据准备成本。\n\n表格数据广泛存在于金融、电商、医疗、企业信息系统等领域，但结构异质、缺失值多、特征类型复杂，一直是深度学习较难统一处理的模态之一。TabFM 的出现意味着表格数据可能迎来类似自然语言处理的\"基础模型\"时刻，若其泛化能力得到验证，将有望简化数据分析、自动化决策支持和预测建模流程，为相关行业的数据智能化应用提供新的技术路径。",
+    "category": "人工智能",
+    "tags": [
+      "表格数据",
+      "基础模型",
+      "零样本学习",
+      "机器学习"
+    ],
+    "source": "Hacker News",
+    "time": "27分钟前",
+    "ts": "2026-06-30T22:08:38+00:00",
+    "url": "https://research.google/blog/introducing-tabfm-a-zero-shot-foundation-model-for-tabular-data/",
+    "image": "",
     "stocks": []
   },
   {
