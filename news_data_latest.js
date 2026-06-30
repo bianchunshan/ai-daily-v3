@@ -1,5 +1,101 @@
 const newsData = [
   {
+    "id": "a25a0425c139c387",
+    "title": "韩国启动史上最大规模半导体与AI投资计划",
+    "summary": "韩国政府宣布总规模超5760亿美元的半导体与人工智能产业投资计划，目标五年内将DRAM产能翻倍，三星、SK海力士将共同投资约5178.7亿美元新建芯片制造基地。",
+    "body": "6月29日，韩国政府公布迄今最大规模的半导体与人工智能产业投资计划，总投资规模超过5760亿美元，并将半导体、物理AI与AI数据中心定位为产业升级的“三角支柱”。三星电子和SK海力士负责人与韩国总统李在明共同出席发布会。根据计划，三星和SK海力士将与供应商共同投资800万亿韩元（约合5178.7亿美元），在韩国西南地区各新建两个芯片制造基地，目标五年内将DRAM生产能力翻倍。此外，韩国地方政府及企业还将在忠清地区建设芯片封装集群。这一计划有望进一步巩固韩国在全球存储芯片领域的领先地位，并对全球DRAM供应链格局产生深远影响。同日，全球最大三家内存供应商三星、SK海力士和美光在美国加利福尼亚州联邦法院遭到集体诉讼，被指控涉嫌操纵内存价格并限制全球供应，加剧了当前的内存短缺危机。",
+    "category": "半导体与先进制造",
+    "tags": [
+      "韩国半导体",
+      "DRAM",
+      "AI基础设施",
+      "存储芯片"
+    ],
+    "source": "36氪",
+    "time": "刚刚",
+    "ts": "2026-06-30T04:48:50.237749+00:00",
+    "url": "https://36kr.com/p/3874911939482880?f=rss",
+    "image": "",
+    "stocks": [
+      {
+        "name": "三星电子",
+        "ticker": "005930.KS",
+        "reason": "韩国投资计划核心参与方，将新建芯片制造基地并扩大DRAM产能",
+        "confidence": "high"
+      },
+      {
+        "name": "SK海力士",
+        "ticker": "000660.KS",
+        "reason": "韩国投资计划核心参与方，与三星共同投资新建芯片制造基地",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "37f2326d3230455d",
+    "title": "前百度自动驾驶主任创业，获数千万天使轮融资",
+    "summary": "具身智能公司纽娲机器人完成5000万元天使轮融资，由蓝湖资本领投，公司聚焦机器人“世界通行模型”，提出“具行智能”概念。",
+    "body": "据36氪报道，具身智能公司纽娲机器人近日完成5000万元天使轮融资，由蓝湖资本领投，不同资本、共青城朴一投资跟投。两个月前，该公司刚完成由Plug and Play中国基金领投的种子轮融资。纽娲机器人成立于2026年2月，创始人杨睿刚博士曾任百度自动驾驶与机器人实验室主任、嬴彻科技CTO，目前为上海交通大学特聘教授。\n\n面对具身智能赛道“不存在大一统模型”的共识，纽娲选择从机器人最基础的“通行能力”切入，提出“具行智能”概念，并自研“世界通行模型（WTM）”，旨在让机器人在复杂人类环境中自主移动、导航、交互并完成任务。该能力可兼容人形机器人、四足机器人、AGV、无人配送车等多种移动平台。\n\n公司构建了从仿真到数据再到模型训练的技术体系，自研高保真物理仿真引擎SimWeaver，生成速度较英伟达ISAAC Sim提升3倍，仿真到真实迁移误差降低20%。在运动控制方面，其模型已能稳定通过55度空心楼梯等复杂场景；导航方面则推进无图或轻地图方案。此轮融资将加速其“世界通行模型”研发与商业化落地。",
+    "category": "机器人",
+    "tags": [
+      "具身智能",
+      "世界模型",
+      "天使融资",
+      "自动驾驶"
+    ],
+    "source": "36氪",
+    "time": "刚刚",
+    "ts": "2026-06-30T04:48:34.833882+00:00",
+    "url": "https://36kr.com/p/3875059110221064?f=rss",
+    "image": "https://img.36krcdn.com/hsossms/20260630/v2_22e79eea43ba4420bb3641158edc528f@5920579_oswg128079oswg656oswg593_img_000?x-oss-process=image/format,jpg/interlace,1",
+    "stocks": []
+  },
+  {
+    "id": "17251cd33d04a4e7",
+    "title": "蔚来App苹果版大面积闪退致车主无法解锁车辆",
+    "summary": "6月29日晚间，蔚来汽车App苹果版本出现大面积闪退故障，导致手机蓝牙钥匙失效，众多车主被困车外无法解锁车辆。蔚来客服回应称已找到原因并修复，新版本App正在分批推送。",
+    "body": "6月29日晚间，\"蔚来车主罚站\"话题登上微博热搜。多名使用苹果手机的蔚来车主集中反馈，蔚来App出现闪退，无法正常进入车辆控制界面，同时手机蓝牙钥匙同步失效，导致车身不亮灯、无法感应解锁，部分车主被困车外。据报道，此次故障主要集中在苹果iOS版本，安卓版本目前可正常使用。部分车主在多次重启手机无效后，通过卸载并重新安装App恢复了车辆解锁功能。\n\n蔚来官方客服回应称，已找到故障原因并完成修复，新版本App正在分批推送中，建议用户收到更新提示后升级App以解决闪退问题。IT之家查询显示，蔚来App于6月30日凌晨在苹果App Store发布6.6.6版本，更新日志为\"修复一些已知问题并优化部分功能体验\"。此次事件反映出智能汽车对手机App和蓝牙钥匙的高度依赖，软件稳定性已成为影响用户体验和行车安全的重要环节。",
+    "category": "消费电子",
+    "tags": [
+      "智能汽车",
+      "蔚来",
+      "App故障",
+      "蓝牙钥匙"
+    ],
+    "source": "IT之家",
+    "time": "16分钟前",
+    "ts": "2026-06-30T04:31:19+00:00",
+    "url": "https://www.ithome.com/0/970/476.htm",
+    "image": "https://img.ithome.com/newsuploadfiles/2026/6/597619f3-29cb-4919-94ea-698e4a5af373.jpg",
+    "stocks": [
+      {
+        "name": "蔚来",
+        "ticker": "NIO",
+        "reason": "事件直接涉及蔚来汽车及其App软件服务问题，可能引发市场对其软件质量和用户口碑的关注",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "94cd777e3f5965ea",
+    "title": "华为开源920亿参数盘古openPangu-2.0-Flash模型",
+    "summary": "华为宣布920亿参数的开源盘古openPangu-2.0-Flash模型正式上线开源平台，并计划下半年陆续开源更多组件，助力昇腾生态与Agent时代智能底座建设。",
+    "body": "6月30日，华为官方宣布开源盘古920亿参数的openPangu-2.0-Flash模型正式开源上线。openPangu是华为开源AI模型品牌，基于昇腾原生训练与推理技术，旨在为业界提供昇腾最佳实践参考，打造Agent时代的智能底座，推动人工智能商业创新与生态繁荣。根据开源计划，openPangu-2.0-Flash模型权重、基础推理代码及训推算子已于6月30日上线；Pro版本将于7月上线，更多组件将在下半年陆续开源。此前在HDC 2026大会上，余承东正式发布openPangu 2.0，该模型具备512K上下文，包含505B总参数的Pro版和92B总参数的Flash版。",
+    "category": "人工智能",
+    "tags": [
+      "华为",
+      "盘古大模型",
+      "开源模型",
+      "昇腾"
+    ],
+    "source": "IT之家",
+    "time": "21分钟前",
+    "ts": "2026-06-30T04:27:05+00:00",
+    "url": "https://www.ithome.com/0/970/466.htm",
+    "image": "",
+    "stocks": []
+  },
+  {
     "id": "edd035396137aac6",
     "title": "谱星航天9个月获4.4亿订单，完成两轮数亿元融资",
     "summary": "光谱定量遥感企业谱星航天成立仅9个月，已连续完成天使+、Pre-A两轮数亿元融资，在手订单达4.4亿元，正加速建设1024颗卫星的星座计划。",
@@ -71,6 +167,25 @@ const newsData = [
     ]
   },
   {
+    "id": "a18aafce60345e06",
+    "title": "中科宇航力擎二号发动机620秒长程试车成功",
+    "summary": "中科宇航自主研制的110吨级力擎二号针栓式液氧煤油发动机完成620秒长程鉴定试车，刷新该型发动机单次稳定工作时间纪录，累计可靠性试车时长突破2000秒。",
+    "body": "据IT之家6月30日消息，中科宇航宣布其自主研制的110吨级力擎二号针栓式液氧煤油发动机近日完成新一轮长程鉴定试车。本次试车中，单台发动机累计工作时长达到620秒，满足3.5倍飞行工作时间要求，其中单次最长连续工作时间达400秒，刷新该型发动机单次稳定工作时间最高纪录。截至目前，力擎二号累计可靠性试车时长已超过2000秒。\n\n据介绍，力擎二号是目前国内推力最大的针栓式发动机，采用液氧煤油推进剂和燃气发生器循环，具备50%至100%推力调节与多次起动能力，燃烧效率达95.8%，推重比超过150。此次试车深度考核了针栓喷注器、推力室复合冷却及涡轮泵等核心技术，进一步夯实了发动机可重复使用能力基础。\n\n力擎二号后续将作为中科宇航可回收运载火箭\"力箭二号\"和\"力箭二号重型\"的主发动机。中科宇航还计划在广州黄埔区建设可重复使用液体发动机产业基地，规划年产300台力擎系列发动机，为我国低轨卫星规模化组网、低成本货物运输等重大工程提供自主可控动力支撑。",
+    "category": "商业航天",
+    "tags": [
+      "商业航天",
+      "火箭发动机",
+      "可重复使用火箭",
+      "中科宇航"
+    ],
+    "source": "IT之家",
+    "time": "41分钟前",
+    "ts": "2026-06-30T04:07:15+00:00",
+    "url": "https://www.ithome.com/0/970/435.htm",
+    "image": "https://img.ithome.com/newsuploadfiles/2026/6/5af9ed09-9d99-4b87-989d-da4d551b74cb.png?x-bce-process=image/format,f_auto",
+    "stocks": []
+  },
+  {
     "id": "854000477b8f8e3d",
     "title": "AI应用企业扩招10.2%，初级岗位反增12%",
     "summary": "一份新报告显示，高强度采用人工智能的公司员工人数增加了10.2%，其中初级岗位增长12%，与“AI消灭初级岗位”的论调形成反差。",
@@ -87,6 +202,32 @@ const newsData = [
     "url": "https://techcrunch.com/2026/06/29/the-ai-jobs-debate-just-got-messier/",
     "image": "",
     "stocks": []
+  },
+  {
+    "id": "6b8bc911ec021526",
+    "title": "智谱唐杰：AI时代认知比管理更重要",
+    "summary": "智谱首席科学家唐杰提出，AI时代企业竞争的关键排序为认知＞格局＞技术＞管理。他认为技术迭代速度极快，传统管理经验迅速贬值，组织被AI压扁，唯有超前认知才能跟上AGI进程。",
+    "body": "智谱发起人、首席科学家，清华大学计算机系教授唐杰近日分享了对AI时代企业竞争要素的最新思考，提出“认知＞格局＞技术＞管理”的排序。他指出，过去企业成功依赖管理、商业模式或产品，但AI时代技术更新以天计算，预训练基础设施、Agentic RL、self-judge、fully self training等新范式层出不穷，落后往往不是渐进而是“一夜之间”。因此，管理虽然仍有价值，但不懂技术的人将难以判断问题所在，管理动作容易失效。\n\n唐杰进一步解释，AI局不是商业模式局，也不是产品局。OpenAI与Anthropic的反复拉锯说明，底层模型能力快速演进，产品和商业模式都建立在其上。格局决定能否大胆布局、抓住主要矛盾；而认知才是天花板，决定能否看清AGI方向。他认为，AI正在颠覆传统计算机科学的知识体系，资历和理论优势被拉平，唯有快速迭代认知的个体才能在AI时代立足。\n\n这一观点引发行业广泛关注，尤其对大模型公司和AI原生创业团队的组织方式、人才标准与战略节奏具有参考意义。",
+    "category": "人工智能",
+    "tags": [
+      "大模型",
+      "AGI",
+      "智谱",
+      "企业管理"
+    ],
+    "source": "量子位",
+    "time": "1小时前",
+    "ts": "2026-06-30T03:27:05+00:00",
+    "url": "https://www.qbitai.com/2026/06/440024.html",
+    "image": "",
+    "stocks": [
+      {
+        "name": "智谱AI",
+        "ticker": "未上市",
+        "reason": "新闻核心主体为智谱首席科学家观点，直接关联智谱AI，但公司尚未上市，无公开交易代码",
+        "confidence": "high"
+      }
+    ]
   },
   {
     "id": "5a1ae999ca0c4dd9",
@@ -133,6 +274,25 @@ const newsData = [
     ]
   },
   {
+    "id": "dd3ca9417b5dfed4",
+    "title": "研究：父亲服用丙戊酸未增加子女神经发育障碍风险",
+    "summary": "台湾大学与奥斯陆大学研究团队分析超130万名儿童数据后发现，在控制基础疾病等混杂因素后，欧洲此前关于丙戊酸的男性生殖安全警告不再显著。",
+    "body": "台湾大学与奥斯陆大学组成的国际研究团队对两个国家超过130万名儿童的数据进行分析，评估父亲使用丙戊酸（valproate）与子女神经发育障碍之间的关联。结果显示，此前欧洲药品监管机构发出的安全警告在纳入基础疾病及其他混杂因素后，统计显著性消失。丙戊酸是一种常用于治疗癫痫、双相情感障碍及偏头痛的药物，此前因其致畸风险，女性用药受到严格限制，男性用药的潜在风险也引发关注。该研究为临床医生和育龄男性患者提供了新的安全性证据，可能有助于优化用药指导和监管决策。",
+    "category": "生物医药",
+    "tags": [
+      "丙戊酸",
+      "神经发育障碍",
+      "药物安全",
+      "生殖毒理学"
+    ],
+    "source": "MedicalXpress",
+    "time": "2小时前",
+    "ts": "2026-06-29T22:20:04-04:00",
+    "url": "https://medicalxpress.com/news/2026-06-neurodevelopmental-disorders-children-paternal-valproate.html",
+    "image": "https://scx1.b-cdn.net/csz/news/tmb/2022/father-and-baby.jpg",
+    "stocks": []
+  },
+  {
     "id": "38c3853bacfb2e29",
     "title": "具身智能数据采集员日薪200元起，为机器人当老师",
     "summary": "具身智能数据采集员兼职岗位以日薪200-250元招聘，无需学历经验，通过遥操作或徒手示教为机器人采集物理交互数据。全球高质量物理交互数据稀缺，仅约50万小时，凸显具身智能数据瓶颈。",
@@ -168,6 +328,24 @@ const newsData = [
     "ts": "2026-06-30T01:45:20+00:00",
     "url": "https://spacenews.com/study-argues-bigger-launch-vehicles-may-not-always-be-better/",
     "image": "https://i0.wp.com/spacenews.com/wp-content/uploads/2025/11/newglenn9x4.jpeg?fit=1024%2C646&amp;ssl=1",
+    "stocks": []
+  },
+  {
+    "id": "02fdcf8e0b8c0b8c",
+    "title": "研究发现拉美裔成人心血管风险与视力损失相关",
+    "summary": "一项针对美国拉美裔成年人的大型研究发现，心血管疾病风险因素与视力损失及常见眼病存在显著关联，提示心脏健康与眼部健康密切相关。",
+    "body": "美国伊利诺伊大学芝加哥分校研究人员领导的一项新研究表明，心血管疾病风险因素与美国拉美裔成年人的视力损失及多种眼病存在关联。该族群此前已面临较高的青光眼、糖尿病视网膜病变等眼病风险。研究进一步发现，高血压、高胆固醇、糖尿病等心血管问题可能增加视力损害风险。专家指出，这一关联此前在该族群中研究不足，结果强调了综合管理心脏与眼部健康的重要性，对公共卫生筛查和干预具有指导意义。",
+    "category": "生物医药",
+    "tags": [
+      "眼科",
+      "心血管",
+      "公共卫生"
+    ],
+    "source": "MedicalXpress",
+    "time": "3小时前",
+    "ts": "2026-06-29T21:40:03-04:00",
+    "url": "https://medicalxpress.com/news/2026-06-cardiovascular-disease-vision-loss-latino.html",
+    "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/cardiovascular-disease-1.jpg",
     "stocks": []
   },
   {
@@ -223,6 +401,25 @@ const newsData = [
     "ts": "2026-06-29T22:29:11+00:00",
     "url": "https://www.therobotreport.com/insights-behind-kinisi-acquisition-by-bear-robotics/",
     "image": "https://www.therobotreport.com/wp-content/uploads/2025/08/BREN-HEADSHOT-250x250-1.jpg",
+    "stocks": []
+  },
+  {
+    "id": "bae2e71a68e42eed",
+    "title": "科学家找到液态水存在两种分子结构的证据",
+    "summary": "香港城市大学曾晓成教授团队通过分子模拟，为液态水的“两态模型”提供了分子级直接证据，显示液态水是两种微观结构不断转换的混合物。",
+    "body": "一项发表于《自然·物理》的研究通过分子模拟，为液态水的“两态模型”提供了新的分子级证据。研究表明，液态水并非单一均匀物质，而是由高密度、较无序结构与低密度、较有序结构不断转换的混合物。该模型长期被用来解释水的反常特性，例如水在冷却时更易压缩、并在4°C而非冰点达到最大密度，但此前一直缺乏直接的分子层面证据。\n\n研究核心围绕“液-液相变”（LLPT）假说展开，即水在深度过冷区域会分裂为高密度液体和低密度液体两种宏观相态，其边界终止于“第二临界点”。由于水在过冷状态下会迅速结晶，实验研究极为困难，因此大量证据来自计算模拟。此次工作通过概率分布分析水局域结构，进一步支持了两态模型的物理图像。\n\n该成果有助于深化对水这一基础物质反常热力学性质的理解，对凝聚态物理、化学及地球科学等领域具有基础科学意义。",
+    "category": "新材料",
+    "tags": [
+      "凝聚态物理",
+      "分子模拟",
+      "基础研究",
+      "液态水"
+    ],
+    "source": "Hacker News",
+    "time": "6小时前",
+    "ts": "2026-06-29T22:18:26+00:00",
+    "url": "https://phys.org/news/2026-06-scientists-molecular-evidence-liquid.html",
+    "image": "",
     "stocks": []
   },
   {
@@ -314,6 +511,25 @@ const newsData = [
     "stocks": []
   },
   {
+    "id": "6a754216c07a0103",
+    "title": "Anthropic 推出 Claude apps gateway 支持多云部署",
+    "summary": "Anthropic 发布自托管控制平面 Claude apps gateway，让企业可在 Amazon Bedrock 和 Google Cloud 上安全运行 Claude Code，强化企业级 AI 应用治理。",
+    "body": "Anthropic 今日推出 Claude apps gateway，这是一个自托管控制平面，使企业能够在 Amazon Bedrock 和 Google Cloud 等云平台上运行 Claude Code。该网关以单个无状态容器形式部署于 Linux 环境，后端采用 PostgreSQL，提供企业级 SSO 登录、集中策略管理、角色权限控制、路由与故障转移，以及按日/周/月、按组织/群组/用户设置的消费上限。遥测数据通过 OTLP 发送至用户自行配置的收集器，且默认不会向 Anthropic 发送推理流量或使用数据。该产品即日起可用，标志着 Anthropic 在企业 AI 部署与数据主权方面迈出重要一步，有助于提升 Claude 在大型组织中的采用率。",
+    "category": "人工智能",
+    "tags": [
+      "Anthropic",
+      "Claude",
+      "企业 AI",
+      "多云部署"
+    ],
+    "source": "AIHOT精选",
+    "time": "7小时前",
+    "ts": "2026-06-29T21:22:33.048000+00:00",
+    "url": "https://claude.com/blog/introducing-the-claude-apps-gateway",
+    "image": "",
+    "stocks": []
+  },
+  {
     "id": "bc34ed6775f85d5c",
     "title": "韩国将投入1万亿美元扩产存储芯片与人形机器人",
     "summary": "韩国政府与三星、SK海力士、现代汽车等科技巨头宣布投入约1万亿美元，推进存储芯片扩产、AI数据中心建设及人形机器人商业化，目标2028年实现商用。",
@@ -348,6 +564,58 @@ const newsData = [
         "ticker": "005380.KS",
         "reason": "通过波士顿动力推进人形机器人量产，有望获得政策与产业资源支持",
         "confidence": "medium"
+      }
+    ]
+  },
+  {
+    "id": "103ac9573b228b8f",
+    "title": "美团1.6万亿MoE模型登顶OpenRouter，国产ASIC训练",
+    "summary": "美团LongCat发布的1.6万亿参数MoE模型Owl Alpha成为OpenRouter平台最流行模型，累计消耗10万亿tokens，性能达到Gemini/Opus 4.6级别。",
+    "body": "美团LongCat的Owl Alpha模型以1.6万亿参数MoE架构成为OpenRouter上最受欢迎的模型，累计消耗10万亿tokens，性能达到Gemini/Opus 4.6级别。该模型使用35万亿tokens训练，且训练过程完全在5万块国产ASIC芯片上完成，显示出国产算力在大模型训练中的可用性。官方推文称，Owl Alpha上线后每日调用量位居全球前三，并在Hermes Agent、Claude Code、OpenClaw等评测中排名靠前。该模型即将退役，后续版本尚未公布。",
+    "category": "人工智能",
+    "tags": [
+      "大模型",
+      "MoE",
+      "国产算力",
+      "美团"
+    ],
+    "source": "AIHOT精选",
+    "time": "7小时前",
+    "ts": "2026-06-29T21:06:43+00:00",
+    "url": "https://x.com/EMostaque/status/2071701921241448574",
+    "image": "",
+    "stocks": [
+      {
+        "name": "美团-W",
+        "ticker": "3690.HK",
+        "reason": "Owl Alpha为美团LongCat旗下模型，直接体现其AI模型研发与商业化进展。",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "eb949ee125684087",
+    "title": "英伟达Rubin Ultra取消，新版性能减半",
+    "summary": "英伟达原定的4-die Rubin Ultra GPU因制造执行问题被取消，新版方案尺寸减半、性能约为原先一半，高端AI芯片路线图遭遇重大调整。",
+    "body": "据SemiAnalysis消息，英伟达在GTC 2026发布仅三个月后，原计划的4-die Rubin Ultra GPU因制造执行问题被取消。新的\"Rubin Ultra\"方案尺寸减半，实际性能约为原版的一半。这一变动意味着英伟达下一代旗舰AI芯片的交付节奏和性能预期均出现明显下调。作为AI算力核心供应商，英伟达高端GPU路线图的调整可能对整个AI基础设施产业链的升级预期产生影响，包括服务器、液冷、光模块等配套环节的需求节奏也可能随之变化。",
+    "category": "半导体与先进制造",
+    "tags": [
+      "英伟达",
+      "GPU",
+      "AI芯片",
+      "Rubin"
+    ],
+    "source": "AIHOT精选",
+    "time": "7小时前",
+    "ts": "2026-06-29T21:00:47+00:00",
+    "url": "https://x.com/SemiAnalysis_/status/2071700428249596290",
+    "image": "",
+    "stocks": [
+      {
+        "name": "英伟达",
+        "ticker": "NVDA",
+        "reason": "Rubin Ultra高端GPU方案取消并性能减半，短期影响产品路线图与市场信心",
+        "confidence": "high"
       }
     ]
   },
@@ -406,6 +674,25 @@ const newsData = [
     "stocks": []
   },
   {
+    "id": "e9c0ac5134bc0b60",
+    "title": "日立能源开建美国最大变压器工厂",
+    "summary": "日立能源扩建弗吉尼亚州南波士顿工厂，建成后将成为美国最大的电力变压器生产基地，以应对老旧电网和AI数据中心激增的电力需求。",
+    "body": "日立能源（Hitachi Energy）已在美国弗吉尼亚州南波士顿园区破土动工，进行大规模扩建。该工厂建成后将成为美国最大的电力变压器制造基地。电力变压器是电网升级和扩容中最关键的设备之一，目前美国电网老化、负荷过重，对变压器的需求持续高涨。\n\nAI数据中心的快速扩张正在显著推高电力需求，变压器供应紧张已成为制约电网和算力基础设施建设的瓶颈之一。日立能源此次扩产旨在抓住AI电力需求带来的市场机遇，提升本土制造能力。\n\n该项目有助于缓解美国电网关键设备的供应压力，同时也将使日立能源在AI基础设施电力配套领域占据更有利位置。",
+    "category": "AI 基础设施",
+    "tags": [
+      "变压器",
+      "电网升级",
+      "数据中心电力",
+      "日立能源"
+    ],
+    "source": "Electrek",
+    "time": "8小时前",
+    "ts": "2026-06-29T20:35:14+00:00",
+    "url": "https://electrek.co/2026/06/29/us-largest-transformer-factory-is-coming-for-the-ai-power-boom/",
+    "image": "https://electrek.co/wp-content/uploads/sites/3/2026/06/hitachi-energy-large-power-transformer.jpg?quality=82&#038;strip=all&#038;w=1600",
+    "stocks": []
+  },
+  {
     "id": "4786f999bfd9b99b",
     "title": "iPhone 18 Pro 工程样机照片疑遭泄露",
     "summary": "路透社报道称，苹果一家关键供应商发生数据泄露，疑似 iPhone 18 Pro 的照片和零部件清单已出现在暗网。泄露图片显示该机型采用三摄布局和苹果标志。",
@@ -444,6 +731,32 @@ const newsData = [
     "stocks": []
   },
   {
+    "id": "0a180e7c064af577",
+    "title": "谷歌向美国免费用户开放Gemini个性化AI图像生成",
+    "summary": "谷歌宣布在美国将Gemini的个性化AI图像生成功能扩展至符合条件的免费用户，聊天机器人可基于用户兴趣及关联Google应用数据生成图片。",
+    "body": "据TechCrunch报道，谷歌正在把Gemini的个性化AI图像生成功能开放给美国符合条件的免费用户。该功能允许Gemini根据用户的兴趣，以及来自已连接Google应用的数据，生成更贴合个人需求的图像。此前，这一功能可能仅面向付费订阅用户开放，此次下放有助于扩大用户基数并提升产品粘性。此举也反映出谷歌正加速在消费级AI应用中整合其生态数据，以在生成式AI应用竞争中占据优势。",
+    "category": "人工智能",
+    "tags": [
+      "生成式AI",
+      "谷歌",
+      "AI图像生成",
+      "Gemini"
+    ],
+    "source": "TechCrunch",
+    "time": "8小时前",
+    "ts": "2026-06-29T20:12:59+00:00",
+    "url": "https://techcrunch.com/2026/06/29/geminis-personalized-ai-image-generation-is-now-free-for-u-s-users/",
+    "image": "",
+    "stocks": [
+      {
+        "name": "谷歌-A",
+        "ticker": "GOOGL",
+        "reason": "Gemini功能扩展有望提升用户增长与生态粘性，利好其AI应用业务",
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
     "id": "056e4b475a93f874",
     "title": "美国可再生能源发电量4月首超煤电",
     "summary": "美国能源信息署官方数据显示，今年4月美国太阳能发电量已超过煤电，若计入分布式屋顶光伏，可再生能源总发电量接近煤电的三倍。",
@@ -460,6 +773,259 @@ const newsData = [
     "ts": "2026-06-29T20:12:30+00:00",
     "url": "https://arstechnica.com/science/2026/06/solar-outproduced-coal-in-april-but-not-on-the-grid/",
     "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/06/GettyImages-2229677995-1152x648.jpg",
+    "stocks": []
+  },
+  {
+    "id": "43801590bf97d9ec",
+    "title": "美最高法院限制政府使用地理围栏搜查令",
+    "summary": "美国最高法院以6比3裁定，政府获取用户位置历史信息需持搜查令并证明合理依据，但未宣布地理围栏令完全违宪。",
+    "body": "美国最高法院周一裁定，宪法第四修正案保护用户的“位置历史”隐私权。法院认为，此前针对手机追踪的逻辑同样适用于谷歌等第三方收集的位置历史数据，政府没有充分理由区别对待。根据6比3的多数意见，政府必须获得搜查令并证明合理依据，才能将手机定位服务用作监控工具。不过，最高法院并未完全裁定地理围栏搜查令违宪，而是对其使用施加了更严格的程序限制。这一裁决对执法机构广泛获取数字位置数据的做法构成重大限制，也可能影响科技公司处理政府数据请求的方式。",
+    "category": "网络安全",
+    "tags": [
+      "隐私保护",
+      "数字监控",
+      "第四修正案",
+      "位置数据"
+    ],
+    "source": "Ars Technica",
+    "time": "8小时前",
+    "ts": "2026-06-29T20:04:04+00:00",
+    "url": "https://arstechnica.com/tech-policy/2026/06/supreme-court-ruling-guts-governments-use-of-geofence-warrants/",
+    "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/06/GettyImages-2154885383-1152x648.jpg",
+    "stocks": []
+  },
+  {
+    "id": "259ef6e61e99e393",
+    "title": "谷歌将个性化智能扩展至Gemini图像创作",
+    "summary": "谷歌宣布为其Gemini应用中的图像生成功能引入个性化智能，使用户能够基于自身偏好和上下文获得更贴合需求的AI图像创作体验。",
+    "body": "据Engadget报道，谷歌正将个性化智能能力扩展至Gemini应用的图像创作功能中。这意味着Gemini在生成图像时，将能够结合用户此前的交互、偏好设置及上下文信息，输出更具针对性的视觉内容。该升级旨在提升AI图像生成的实用性与用户粘性，使其从通用工具向个人化创作助手演进。此举也反映出谷歌在AI应用层持续发力，试图通过差异化体验增强Gemini与ChatGPT、Midjourney等竞品之间的竞争壁垒。",
+    "category": "人工智能",
+    "tags": [
+      "谷歌",
+      "Gemini",
+      "AI图像生成",
+      "个性化AI"
+    ],
+    "source": "Engadget",
+    "time": "8小时前",
+    "ts": "2026-06-29T20:01:41+00:00",
+    "url": "https://www.engadget.com/2204410/google-expands-personalized-intelligence-to-gemini-app-image-creation/",
+    "image": "https://www.engadget.com/img/gallery/google-expands-personalized-intelligence-to-gemini-app-image-creation/l-intro-1782763246.jpg",
+    "stocks": [
+      {
+        "name": "Alphabet",
+        "ticker": "GOOGL",
+        "reason": "Gemini应用功能升级有望提升用户活跃度与AI产品竞争力",
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
+    "id": "f8f7042231135bf9",
+    "title": "NASA宇航员6月30日太空行走修复国际空间站机械臂",
+    "summary": "两名NASA宇航员将于6月30日进行约6.5小时的太空行走，更换国际空间站Canadarm2机械臂上故障的腕关节。该机械臂自2001年启用，已持续运行超过25年。",
+    "body": "NASA宇航员Chris Williams与Jessica Meir计划于美国东部时间6月30日上午8:35左右出舱，执行一次约6.5小时的太空行走任务，修复国际空间站（ISS）上的大型机械臂Canadarm2。他们将更换一个重约200磅（90公斤）的腕关节，该部件在5月27日正常运行中因电机电流异常升高、动作未达预期而失效。备用关节已提前存放于空间站内。\n\nCanadarm2机械臂长56英尺（17米）、重约3300磅（1500公斤），于2001年4月由奋进号航天飞机运送至空间站，几乎与ISS同龄。NASA表示，该机械臂设计时即考虑了可更换部件和计划内维护，在持续运行超过25年后进行此类维修属于正常且可预期的情况。本次太空行走也将是Williams的第二次、Meir的首次舱外活动。",
+    "category": "商业航天",
+    "tags": [
+      "国际空间站",
+      "太空行走",
+      "NASA",
+      "空间机器人"
+    ],
+    "source": "Space.com",
+    "time": "8小时前",
+    "ts": "2026-06-29T20:00:00+00:00",
+    "url": "https://www.space.com/space-exploration/international-space-station/watch-2-nasa-astronauts-fix-iss-huge-robotic-arm-during-june-30-spacewalk",
+    "image": "https://cdn.mos.cms.futurecdn.net/5GhXJ4UU3quZLt7MES4KcC-1280-80.jpg",
+    "stocks": []
+  },
+  {
+    "id": "fe7194ed402b1927",
+    "title": "Tidal新规：AI生成音乐不付版税但不全面封禁",
+    "summary": "音乐流媒体平台Tidal宣布，自即日起不再对100% AI生成的音乐支付版税，但也不会全面禁止此类内容，而是计划从7月15日起对相关曲目添加标识。",
+    "body": "Tidal于今日公布了针对AI生成音乐的新政策，旨在“保护艺术家”并“告知听众”。该平台不会完全禁止AI生成音乐，但将从7月15日起为被识别为100%由AI生成的曲目添加专门图标。与此同时，从今天开始，这类AI生成曲目将不再具备变现能力，创作者无法从中获得版税收入。这一举措反映了流媒体平台在AI内容泛滥背景下，试图在技术创新与音乐人权益之间寻求平衡。Tidal由Block（前身为Square）旗下拥有，其政策走向也可能对行业其他平台产生示范效应。",
+    "category": "人工智能",
+    "tags": [
+      "AI音乐",
+      "流媒体",
+      "版权政策"
+    ],
+    "source": "The Verge",
+    "time": "9小时前",
+    "ts": "2026-06-29T15:47:35-04:00",
+    "url": "https://www.theverge.com/tech/959211/tidal-ai-music-policy-demonetizingdetect-label",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "347be30bfd2b0935",
+    "title": "福特3万美元电动皮卡再曝路测",
+    "summary": "福特一款定价约3万美元的中型电动皮卡在亚利桑那州再次被拍到路测，预示着该车正式发布临近。",
+    "body": "据外媒报道，福特旗下一款售价约3万美元的中型电动皮卡近日在亚利桑那州再度被拍到进行道路测试。该车此前已多次曝光，此次路测显示福特正加速推进这款面向大众市场的电动皮卡量产进程。若定价成真，这款车型将成为福特电动产品线中价格最低的皮卡，有助于其切入更广泛的新能源汽车市场，与 Rivian、特斯拉 Cybertruck 等形成差异化竞争。",
+    "category": "未来能源",
+    "tags": [
+      "电动汽车",
+      "电动皮卡",
+      "福特"
+    ],
+    "source": "Electrek",
+    "time": "9小时前",
+    "ts": "2026-06-29T19:23:41+00:00",
+    "url": "https://electrek.co/2026/06/29/fords-30000-ev-pickup-caught-testing-again/",
+    "image": "https://electrek.co/wp-content/uploads/sites/3/2026/06/Ford-30000-EV-pickup-spotted-testing.jpeg?quality=82&#038;strip=all&#038;w=1400",
+    "stocks": [
+      {
+        "name": "福特汽车",
+        "ticker": "F",
+        "reason": "福特是该车型的直接开发与制造商，低价电动皮卡有望扩大其电动车市场份额",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "fbb8546f8bb658fc",
+    "title": "索尼暗示下一代PlayStation将突破客厅场景",
+    "summary": "索尼在投资者问答中透露，下一代PlayStation将提供让玩家走出客厅的游戏体验，以吸引回流至游戏PC的用户。",
+    "body": "据The Verge报道，索尼在近期投资者问答中暗示，下一代PlayStation将带来某种突破客厅场景的游戏体验。当被问及如何吸引从PlayStation迁移至游戏PC的用户回流时，索尼方面表示下一代主机将让玩家能够在客厅之外继续游戏。这一表态引发外界对索尼可能强化云游戏、掌机或跨设备串流等功能的猜测。若新主机真能实现多场景无缝游玩，将有助于索尼在主机与PC竞争加剧的背景下重新巩固用户生态。",
+    "category": "消费电子",
+    "tags": [
+      "游戏主机",
+      "PlayStation",
+      "索尼",
+      "云游戏"
+    ],
+    "source": "The Verge",
+    "time": "9小时前",
+    "ts": "2026-06-29T15:12:15-04:00",
+    "url": "https://www.theverge.com/games/959191/sony-next-generation-playstation-ps6-beyond-the-living-room",
+    "image": "",
+    "stocks": [
+      {
+        "name": "索尼",
+        "ticker": "SONY",
+        "reason": "下一代PlayStation若拓展客厅外游戏场景，有望带动主机销量与生态服务收入。",
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
+    "id": "483862d1041b1600",
+    "title": "索尼将删除用户已购数字内容引争议",
+    "summary": "索尼通知英国PlayStation用户，因内容授权协议变更，自9月1日起将无法播放从StudioCanal购买的551部数字电影和剧集，再次凸显数字内容\"购买\"与\"所有权\"之间的法律灰色地带。",
+    "body": "据Ars Technica报道，索尼近期向英国PlayStation用户发出法律通知，称由于内容授权协议变化，自9月1日起，用户将无法继续播放此前从PlayStation Store购买的StudioCanal电影和剧集，涉及《帕丁顿熊》《终结者2》《穿条纹睡衣的男孩》等551部 titles。索尼将从用户库中移除这些受影响内容。这一事件引发消费者对数字购买模式下实际权益的质疑。类似情况并非首次：2023年索尼曾宣布下架1,318季Discovery节目，后因更新授权协议而保留。",
+    "category": "消费电子",
+    "tags": [
+      "数字版权",
+      "流媒体",
+      "PlayStation",
+      "消费者权益"
+    ],
+    "source": "Ars Technica",
+    "time": "9小时前",
+    "ts": "2026-06-29T19:10:57+00:00",
+    "url": "https://arstechnica.com/gadgets/2026/06/sony-erases-digital-content-from-libraries-were-reminded-we-dont-own-what-we-buy/",
+    "image": "https://cdn.arstechnica.net/wp-content/uploads/2020/06/abomb8-1152x648.jpg",
+    "stocks": []
+  },
+  {
+    "id": "bee78321388f1116",
+    "title": "特斯拉FSD遭集体诉讼，被指硬件无法兑现承诺",
+    "summary": "一份新集体诉讼指控特斯拉在数百万辆硬件无法支持的车辆上销售“完全自动驾驶”功能，诉状多次引用Electrek的报道作为证据。",
+    "body": "据外媒Electrek报道，一项拟议集体诉讼Waller v. Tesla已于6月4日在美国加州北区法院提起，指控特斯拉在配备Hardware 1、2、2.5及3电脑的数百万辆车上销售“完全自动驾驶”（FSD）功能，而这些车辆从硬件层面无法真正兑现该功能。诉状覆盖2017年至2023年初几乎所有选配FSD的特斯拉车型，并反复引用Electrek自身的报道来支撑其主张。该诉讼可能进一步加剧市场对特斯拉自动驾驶宣传真实性的质疑，并给公司带来法律与声誉风险。",
+    "category": "机器人",
+    "tags": [
+      "自动驾驶",
+      "特斯拉",
+      "集体诉讼",
+      "FSD"
+    ],
+    "source": "Electrek",
+    "time": "9小时前",
+    "ts": "2026-06-29T19:08:59+00:00",
+    "url": "https://electrek.co/2026/06/29/tesla-fsd-class-action-quotes-electrek/",
+    "image": "https://electrek.co/wp-content/uploads/sites/3/2021/08/Tesla-Full-Self-Driving-Beta-Hero.jpg?quality=82&#038;strip=all&#038;w=1600",
+    "stocks": [
+      {
+        "name": "特斯拉",
+        "ticker": "TSLA",
+        "reason": "诉讼直接针对其FSD销售与宣传，若败诉可能面临赔偿、退款及监管压力",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "cfb9e86d743789ae",
+    "title": "Kobo电子书阅读器推出Goodreads竞品StoryGraph同步功能",
+    "summary": "Kobo电子书阅读器新增StoryGraph阅读进度自动同步功能，用户可追踪书籍、阅读数据和挑战，无需依赖亚马逊旗下的Goodreads。",
+    "body": "据TechCrunch报道，Kobo电子书阅读器现已支持将阅读进度自动同步至StoryGraph平台。StoryGraph是亚马逊Goodreads的主要竞争对手之一，以更细致的数据追踪和个性化推荐著称。这一整合使Kobo用户能够直接在设备上记录阅读数据、统计阅读 habit，并参与阅读挑战，而无需依赖亚马逊生态。此举增强了Kobo在电子阅读器市场的竞争力，也为StoryGraph带来了更多潜在用户。",
+    "category": "消费电子",
+    "tags": [
+      "电子阅读器",
+      "Kobo",
+      "StoryGraph",
+      "数字阅读"
+    ],
+    "source": "TechCrunch",
+    "time": "9小时前",
+    "ts": "2026-06-29T19:06:21+00:00",
+    "url": "https://techcrunch.com/2026/06/29/watch-out-amazon-the-kobo-ereader-now-has-a-goodreads-rival/",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "811accb0367acfca",
+    "title": "OpenAI预告7月15日发布Codex配套硬件",
+    "summary": "OpenAI在X平台发布预告视频，暗示将于7月15日推出与其AI编程工具Codex相关的新硬件设备。该设备为方形、带多个按键，并非此前传闻中与Jony Ive合作开发的神秘AI设备。",
+    "body": "OpenAI于本周一在X平台发布一段预告视频，展示了一款方形、带有多个按键的硬件设备，配文称“你最喜爱的Codex快捷键即将升级”，并预告7月15日正式发布。该公司确认，这款设备与其AI编程工具Codex相关，但并非此前外界盛传的、由OpenAI与前苹果设计师Jony Ive合作开发的神秘AI消费硬件。Codex是OpenAI面向开发者的AI编程Agent，能够自动完成代码编写、调试与文件修改等任务。此次硬件预告表明，OpenAI正尝试将AI编程工具与专用输入设备结合，以提升开发者的工作流效率与产品粘性。",
+    "category": "人工智能",
+    "tags": [
+      "OpenAI",
+      "Codex",
+      "AI编程",
+      "智能硬件"
+    ],
+    "source": "The Verge",
+    "time": "9小时前",
+    "ts": "2026-06-29T14:52:41-04:00",
+    "url": "https://www.theverge.com/ai-artificial-intelligence/959174/openai-codex-hardware-work-louder",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "27ed5cc2a53fba2a",
+    "title": "美最高法院限制地理围栏搜查令使用",
+    "summary": "美国最高法院出人意料地裁定，对警方使用地理围栏搜查令加以限制，要求必须满足更严格的搜查条件，引发数字隐私与执法权限争议。",
+    "body": "美国最高法院近日作出裁决，限制了警方使用地理围栏搜查令（geofence warrants）的权力。此类令状允许执法机关要求科技公司提供特定时间段内、特定地理区域内所有用户的定位数据，此前被广泛用于刑事侦查。最高法院认为，这种做法涉及对大量无辜民众的数字隐私进行大规模搜查，必须受到更严格的宪法限制。该裁决被视为美国数字隐私权保护的重要进展，也可能对谷歌等掌握海量位置数据的科技公司在配合执法时的合规义务产生影响。",
+    "category": "网络安全",
+    "tags": [
+      "数字隐私",
+      "美国最高法院",
+      "地理围栏令",
+      "执法监管"
+    ],
+    "source": "Engadget",
+    "time": "10小时前",
+    "ts": "2026-06-29T18:46:04+00:00",
+    "url": "https://www.engadget.com/2204298/the-us-supreme-court-restricts-use-of-geofence-warrants/",
+    "image": "https://www.engadget.com/img/gallery/the-us-supreme-court-restricts-use-of-geofence-warrants/l-intro-1782758701.jpg",
+    "stocks": []
+  },
+  {
+    "id": "32b064f8c67979a1",
+    "title": "Waymo与Uber悄然结束凤凰城合作",
+    "summary": "Waymo与Uber在凤凰城的自动驾驶出租车合作已低调终止。Uber表示正在筹备与当地另一家自动驾驶公司的新合作，但未透露合作伙伴名称。",
+    "body": "据TechCrunch报道，Waymo与Uber在亚利桑那州凤凰城的自动驾驶出行合作已经悄然结束。双方此前在该地区合作，Uber用户可通过其应用呼叫Waymo的无人驾驶出租车。Uber方面证实，正在筹备在凤凰城推出一项新的自动驾驶汽车合作伙伴关系，但尚未公布具体合作方。此次分手意味着两家公司在自动驾驶领域的战略关系出现调整，也可能反映出Uber希望在自动驾驶供应来源上保持更多元化。对于Waymo而言，失去Uber这一流量入口后，其自营应用Waymo One将成为更主要的获客渠道。",
+    "category": "机器人",
+    "tags": [
+      "自动驾驶",
+      "Robotaxi",
+      "出行平台"
+    ],
+    "source": "TechCrunch",
+    "time": "10小时前",
+    "ts": "2026-06-29T18:45:12+00:00",
+    "url": "https://techcrunch.com/2026/06/29/waymo-and-uber-quietly-part-ways-in-phoenix/",
+    "image": "",
     "stocks": []
   },
   {
@@ -480,6 +1046,69 @@ const newsData = [
     "url": "https://www.tomshardware.com/pc-components/gpu-drivers/cuda-emulator-for-amd-gpus-zluda-loses-funding-with-v6-release-embattled-project-goes-back-to-hobby-status-but-now-includes-32-bit-physx-support",
     "image": "https://cdn.mos.cms.futurecdn.net/XCxGXQPUTqQ7sr5bD4otmL-1280-80.png",
     "stocks": []
+  },
+  {
+    "id": "db370f045fc4cbdd",
+    "title": "谷歌警告欧盟反垄断新规或致用户数据泄露",
+    "summary": "欧盟拟要求谷歌在Android上开放AI集成，并共享搜索数据给竞争对手。谷歌安全高管称此举将带来欺诈和隐私风险。",
+    "body": "据英国《Wired》报道，欧盟委员会计划下月宣布针对谷歌的新规，旨在削弱其市场垄断地位。新规主要包含两方面：一是要求谷歌将Gemini从Android系统的唯一默认AI服务中移除，允许用户集成其他AI模型并赋予其类似Gemini的系统级权限；二是要求谷歌向竞争对手提供匿名化搜索数据。\n\n谷歌安全工程副总裁Heather Adkins对此表示强烈担忧，称若按当前方案实施，Android用户在欧盟地区可能在数周内面临欺诈事件显著增加的风险。谷歌将这一立场包装为用户隐私与安全考虑，而非单纯的反垄断辩护。该事件反映出欧洲加强对大型科技公司监管的趋势，也可能对谷歌在搜索和移动生态中的商业模式构成长期压力。",
+    "category": "地缘科技",
+    "tags": [
+      "反垄断监管",
+      "数据隐私",
+      "Android生态"
+    ],
+    "source": "Ars Technica",
+    "time": "10小时前",
+    "ts": "2026-06-29T18:21:31+00:00",
+    "url": "https://arstechnica.com/gadgets/2026/06/google-warns-eus-plans-to-weaken-its-monopoly-could-expose-user-data/",
+    "image": "https://cdn.arstechnica.net/wp-content/uploads/2025/05/Google-sign-IO-1152x648.jpg",
+    "stocks": []
+  },
+  {
+    "id": "b739945b26065fa1",
+    "title": "Anthropic与加州政府达成Claude半价使用协议",
+    "summary": "人工智能公司Anthropic与加州州长纽森达成协议，加州政府机构将以半价使用其Claude大模型。这一合作标志着Anthropic与美国地方政府关系的深化。",
+    "body": "据TechCrunch报道，人工智能公司Anthropic与加州州长加文·纽森（Gavin Newsom）达成一项协议，加州政府机构将能够以半价使用Anthropic的Claude大语言模型。该协议是Anthropic拓展政府客户、加强与地方公共部门合作的重要一步。\n\n值得注意的是，报道同时指出，在Anthropic与加州政府关系升温之际，美国联邦政府却已成为这家OpenAI竞争对手的“对手”。这反映出AI企业在联邦监管与地方合作之间面临复杂的地缘政治与政策环境。\n\n此次合作对Anthropic而言具有积极意义，不仅带来稳定的政府订单收入，也有助于提升其在公共部门AI应用市场的品牌认可度。不过，目前协议的具体金额、服务范围及实施时间表尚未披露。",
+    "category": "人工智能",
+    "tags": [
+      "Anthropic",
+      "大模型",
+      "政府合作",
+      "Claude"
+    ],
+    "source": "TechCrunch",
+    "time": "10小时前",
+    "ts": "2026-06-29T18:10:26+00:00",
+    "url": "https://techcrunch.com/2026/06/29/anthropic-and-gov-newsom-forge-deal-allowing-california-government-to-use-claude-at-half-price/",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "044f466a32620afa",
+    "title": "NASA将发射救援任务挽救Swift太空望远镜",
+    "summary": "NASA计划于6月30日执行Swift Boost任务，利用诺斯罗普·格鲁曼的Pegasus XL火箭将Katalyst Space Technologies制造的LINK卫星送入轨道，以拖曳NASA的Neil Gehrels Swift天文台脱离即将坠入地球大气层的危险轨道。",
+    "body": "据Space.com报道，NASA将开展一项名为Swift Boost的太空救援任务，目标是挽救已运行多年的Neil Gehrels Swift天文台。该天文台因轨道逐渐降低，正面临再入大气层烧毁的风险。任务中，由Katalyst Space Technologies制造的LINK卫星将搭乘诺斯罗普·格鲁曼公司空射型Pegasus XL火箭升空，并与Swift天文台对接，将其拖曳至更高、更稳定的轨道。发射计划于6月30日早上6:23（美国东部时间）在马绍尔群岛夸贾林环礁的Bucholz陆军机场进行，Pegasus XL火箭将由L-1011 Stargazer载机在空中释放并点火入轨。此次任务也是Pegasus XL火箭的最后一次飞行。",
+    "category": "商业航天",
+    "tags": [
+      "太空救援",
+      "卫星延寿",
+      "轨道服务",
+      "NASA"
+    ],
+    "source": "Space.com",
+    "time": "10小时前",
+    "ts": "2026-06-29T18:00:00+00:00",
+    "url": "https://www.space.com/space-exploration/launches-spacecraft/nasa-to-launch-ambitious-mission-to-save-a-space-telescope-from-burning-up-in-earths-atmosphere",
+    "image": "https://cdn.mos.cms.futurecdn.net/WgMWbjBWVReuBYGSBLYp6P-1280-80.jpg",
+    "stocks": [
+      {
+        "name": "诺斯罗普·格鲁曼",
+        "ticker": "NOC",
+        "reason": "其Pegasus XL空射火箭承担此次Swift Boost救援任务的发射服务。",
+        "confidence": "medium"
+      }
+    ]
   },
   {
     "id": "7c4c201e62c9ee75",
@@ -516,6 +1145,77 @@ const newsData = [
     "ts": "2026-06-29T17:45:53+00:00",
     "url": "https://www.therobotreport.com/bmw-group-deploys-figure-03-humanoid-after-tests-previous-version/",
     "image": "https://www.therobotreport.com/wp-content/uploads/2026/06/figureBMW-featured.jpg",
+    "stocks": []
+  },
+  {
+    "id": "c92a5aa2c81df37a",
+    "title": "英伟达RTX 3060 12GB复产上市，售价339美元",
+    "summary": "英伟达五年前发布的RTX 3060 12GB显卡正以新版本重返零售市场，售价339.99美元，仅比原价高10美元，印证了黄仁勋此前关于复产旧款GPU以缓解新卡供应压力的设想。",
+    "body": "据Tom's Hardware报道，英伟达GeForce RTX 3060 12GB显卡在停产数月后，正以带“Rev2.0”后缀的新版本重新出现在Newegg等电商平台，技嘉Windforce双风扇型号售价339.99美元，仅比2021年初发布时的建议零售价高出10美元。华硕等板卡厂商也在欧洲市场推出类似产品，显示各合作伙伴正低调推动这款旧卡全球复产。\n\n黄仁勋此前在CES 2025上曾表示，利用成熟制程重新推出老款显卡是“一个好主意”，可缓解RTX 50系列先进制程产能紧张带来的价格与供货压力。RTX 3060采用三星8nm工艺和较旧的GDDR6显存，理论上不受尖端产能瓶颈限制。不过，该卡性能已难以满足当前主流游戏需求，其实际意义更多在于填补中低端市场空缺，并为英伟达及其合作伙伴提供一条低风险的供货路径。",
+    "category": "消费电子",
+    "tags": [
+      "英伟达",
+      "显卡",
+      "GPU",
+      "消费电子"
+    ],
+    "source": "Tom's Hardware",
+    "time": "11小时前",
+    "ts": "2026-06-29T17:11:15+00:00",
+    "url": "https://www.tomshardware.com/pc-components/gpus/legacy-nvidia-rtx-3060-12gb-returns-to-retail-five-years-after-original-launch-priced-at-usd339-resurrected-gpu-strategy-that-jensen-called-a-good-idea-apparently-comes-to-fruition",
+    "image": "https://cdn.mos.cms.futurecdn.net/PMYKTpAHf85wzqJeRCoAPS-1280-80.jpg",
+    "stocks": [
+      {
+        "name": "英伟达",
+        "ticker": "NVDA",
+        "reason": "RTX 3060复产有助于缓解中低端GPU供应压力，巩固游戏显卡市场份额。",
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
+    "id": "e22a2487bf1fae3f",
+    "title": "MBody AI服务机器人业务扩展至美国11州及加拿大",
+    "summary": "MBody AI正将其企业级服务机器人操作系统Orchestrator扩展至北美更多市场，目前已覆盖美国11个州并在加拿大安大略省试点，反映其硬件无关的机器人管理平台规模化落地加速。",
+    "body": "MBody AI Corp.正在扩大其北美服务机器人业务。据计划与其合并的Check-Cap Ltd.披露，MBody AI已将旗下硬件无关的Orchestrator平台部署至佛罗里达州和加利福尼亚州，并在加拿大安大略省开展试点，使其服务机器人运营范围扩展至美国11个州及加拿大。MBody AI成立于2024年，专注于具身智能与企业服务机器人操作系统，其Orchestrator平台可提供实时数据智能、AI驱动的性能洞察、部署优化、预测性维护及全机队协调功能。\n\n公司首席执行官John Fowler表示，进入加拿大并覆盖11个州体现了Orchestrator平台在新市场的可扩展性，随着机队规模扩大，平台每天产生和评估的数据也在增加。Mordor Intelligence数据显示，北美服务机器人市场2026年规模约为160亿美元，预计到2031年将增长至290亿美元；Statista则预计加拿大该行业到2029年将接近15亿美元。",
+    "category": "机器人",
+    "tags": [
+      "服务机器人",
+      "具身智能",
+      "机器人操作系统",
+      "自动化"
+    ],
+    "source": "The Robot Report",
+    "time": "13小时前",
+    "ts": "2026-06-29T15:41:42+00:00",
+    "url": "https://www.therobotreport.com/mbody-ai-expands-service-robotics-operations-eleven-states-canada/",
+    "image": "https://www.therobotreport.com/wp-content/uploads/2026/06/image1-1024x576.jpeg",
+    "stocks": [
+      {
+        "name": "Check-Cap",
+        "ticker": "CHEK",
+        "reason": "Check-Cap计划与MBody AI合并，新闻直接以其名义披露MBody AI扩张进展，属于明确关联标的。",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "727a017dd253a775",
+    "title": "准双曲面齿轮在机器人传动中的优势解析",
+    "summary": "准双曲面齿轮在直角传动中实现了机械效率、承载能力和单级减速比的较好平衡，适用于对紧凑性和扭矩密度要求较高的机器人关节与自动化设备。",
+    "body": "直角传动齿轮箱常见类型包括锥齿轮、蜗轮蜗杆和准双曲面齿轮。The Robot Report 刊文指出，准双曲面齿轮的输入小齿轮与输出齿轮轴线相互偏移，啮合以滚动为主、滑动为辅，因而兼具较高机械效率与耐磨性，同时齿面接触面积较大，承载能力较强。其单级减速比通常可达 10:1 至 15:1，在扭矩密度与传动效率之间取得折中。\n\n与蜗轮蜗杆相比，准双曲面齿轮效率更高、反向间隙更小；与普通锥齿轮相比，在相同空间内可实现更高减速比和更大扭矩输出；与锥齿轮-行星复合方案相比，结构更简单、零件数量更少。文章由 GAM 赞助发布，反映出精密减速与传动部件在机器人、自动化装备中的持续技术演进。",
+    "category": "机器人",
+    "tags": [
+      "减速器",
+      "精密传动",
+      "机器人关节",
+      "自动化"
+    ],
+    "source": "The Robot Report",
+    "time": "13小时前",
+    "ts": "2026-06-29T15:36:18+00:00",
+    "url": "https://www.therobotreport.com/advantages-of-hypoid-gearing-over-worm-bevel-and-bevel-planetary/",
+    "image": "https://www.therobotreport.com/wp-content/uploads/2026/06/right-angle-gearing-984x1024.jpg",
     "stocks": []
   },
   {
@@ -74740,12 +75440,12 @@ const newsData = [
   }
 ];
 const newsDigest = {
-  "text": "今日科技前沿聚焦三大主线：商业航天领域并购与订单齐飞，Rocket Lab 80亿美元收购铱星公司、谱星航天9个月斩获4.4亿订单；人工智能应用层持续升温，AI应用企业扩招、AI Agent产品密集落地；未来能源与机器人赛道亦有新进展，我国首个550兆瓦F级燃机全容量投产，具身智能数据采集员成为新兴职业。",
+  "text": "今日科技前沿聚焦三大主线：韩国启动史上最大规模半导体与AI投资，全球先进制造竞赛升温；华为开源920亿参数盘古openPangu-2.0-Flash模型，国产大模型生态再进一步；商业航天持续火热，谱星航天9个月斩获4.4亿订单，中科宇航力擎二号发动机长程试车成功。机器人、未来能源与AI应用就业市场亦值得关注。",
   "highlights": [
-    "c8fd02f8c5cdc2e5",
+    "a25a0425c139c387",
+    "94cd777e3f5965ea",
     "edd035396137aac6",
-    "854000477b8f8e3d",
-    "1d117ad36acb6313",
-    "38c3853bacfb2e29"
+    "a18aafce60345e06",
+    "854000477b8f8e3d"
   ]
 };
