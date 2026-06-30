@@ -1,5 +1,158 @@
 const newsData = [
   {
+    "id": "6f90f4e718df0590",
+    "title": "Kimi估值涨至315亿美元，ARR突破3亿美元",
+    "summary": "月之暗面Kimi新一轮融资启动，投前估值升至315亿美元，6月中旬年度经常性收入突破3亿美元，API收入占比已超七成。",
+    "body": "据财联社报道，月之暗面旗下Kimi上一轮200亿美元估值融资于近日完成交割，并已启动新一轮融资，投前估值涨至315亿美元。接近Kimi的机构人士透露，Kimi在本轮融资沟通中披露，其6月中旬ARR（年度经常性收入）已突破3亿美元。此轮收入增长主要得益于模型迭代带动开发者调用量上升及API收入提升，目前API收入占整体收入七成以上并持续走高。Kimi的收入结构已显现出类似Anthropic早期商业化阶段的特征：开发者调用放量、API占比提升、海外付费用户增长，且模型能力迭代推动价格体系上移。",
+    "category": "人工智能",
+    "tags": [
+      "大模型",
+      "AI应用",
+      "融资",
+      "API商业化"
+    ],
+    "source": "36氪",
+    "time": "刚刚",
+    "ts": "2026-06-30T05:13:28.813941+00:00",
+    "url": "https://36kr.com/newsflashes/3875210246418689?f=rss",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "01576f741895e670",
+    "title": "苹果iPad mini 8主板曝光，搭载A20 Pro芯片",
+    "summary": "消息人士曝光了苹果iPad mini 8主板，显示其将搭载A20 Pro芯片，采用WMCM封装与LPDDR6内存，散热与内存带宽均有提升。",
+    "body": "据IT之家报道，消息源@LusiRoy8在X平台分享了苹果iPad mini 8主板图片，显示该设备将搭载A20 Pro芯片。此前爆料指出，A20 Pro芯片将采用WMCM封装方案，取代A19 Pro的PoP封装，将DRAM内存从芯片顶部移至封装侧面，有助于缓解高负载场景下的散热压力。内存方面，A20 Pro将支持LPDDR6，位宽提升至96-bit，较LPDDR5/LPDDR5X的64-bit提升约50%。\n\n这一升级意味着苹果下一代移动设备在AI计算、图形性能和多任务处理方面可能获得显著增强。iPad mini 8若搭载A20 Pro，将进一步缩小与iPhone Pro系列在性能上的差距，也可能带动相关供应链需求。",
+    "category": "消费电子",
+    "tags": [
+      "苹果",
+      "iPad mini",
+      "A20 Pro",
+      "芯片封装"
+    ],
+    "source": "IT之家",
+    "time": "3分钟前",
+    "ts": "2026-06-30T05:08:56+00:00",
+    "url": "https://www.ithome.com/0/970/494.htm",
+    "image": "https://img.ithome.com/newsuploadfiles/2026/6/88106462-ecac-4379-94af-5c523c201005.png?x-bce-process=image/format,f_auto",
+    "stocks": []
+  },
+  {
+    "id": "ecff3475866500e3",
+    "title": "国家能源局：我国建成全球最大供电体系",
+    "summary": "国家能源局发布《中国供电发展报告2026》显示，我国已建成全球规模最大的电力供应体系，2025年全社会用电量突破10万亿千瓦时，供电服务从“基本供给”转向“品质体验”。",
+    "body": "国家能源局6月30日发布《中国供电发展报告2026》指出，我国已建成全球规模最大的电力供应体系，形成覆盖城乡、全域贯通的世界级巨型供电服务网络。2025年，我国全社会用电量突破10万亿千瓦时，电力用户接近8亿户，供电服务网点达9.9万个，从业者超56万人，供电能力和服务水平跻身国际第一方阵。国家能源局市场监管司司长郝瑞锋表示，当前我国供电服务已从“基本供给”全面转向“品质体验”，线上服务平台注册用户数达5.7亿户，用电业务线上办理率超97%。此外，全国电动汽车充电设施总量已突破2000万个，预计到“十五五”末将翻一番，承载超1.1亿辆电动汽车的充电需求；去年还为超过7万个小区的21万个电动自行车充电设施提供接电服务。",
+    "category": "未来能源",
+    "tags": [
+      "电力供应",
+      "充电基础设施",
+      "绿色出行",
+      "国家能源局"
+    ],
+    "source": "IT之家",
+    "time": "11分钟前",
+    "ts": "2026-06-30T05:01:03+00:00",
+    "url": "https://www.ithome.com/0/970/492.htm",
+    "image": "https://img.ithome.com/newsuploadfiles/2025/8/c7b39e5b-06df-4c96-8efc-b4b4edc8e810.jpg?x-bce-process=image/watermark,text_QUnnlJ_miJA,type_RlpMYW5UaW5nSGVpU0JHQg==,size_28,color_ffffffdd,skw_1,skc_00000051,g_7,blr_50,bls_50,x_11,y_11/format,f_auto",
+    "stocks": [
+      {
+        "name": "国家电网概念-国电南瑞",
+        "ticker": "600406.SH",
+        "reason": "电网自动化与用电信息采集龙头，直接受益于供电服务数字化与配电网升级",
+        "confidence": "medium"
+      },
+      {
+        "name": "特锐德",
+        "ticker": "300001.SZ",
+        "reason": "国内充电桩运营龙头，充电设施规模扩张将带动运营与设备需求",
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
+    "id": "33526328da16c292",
+    "title": "兰博基尼预告高性能版 Urus，有望首破 800 马力",
+    "summary": "兰博基尼发布全新 Urus 衍生车型预告图，新车定于 2026 年 7 月 1 日亮相，预计为 Urus Performante 高性能版本，有望首次突破 800 马力。",
+    "body": "据外媒 Motor1 报道，兰博基尼于 6 月 28 日发布全新 Urus 衍生车型的首张预告图，并宣布新车将于 2026 年 7 月 1 日全球首发，官方以“新的篇章正在成形”为配文。首发活动将在兰博基尼官网及 YouTube 同步直播。\n\n从预告图来看，亮绿色新车尾部配备两块尺寸不小的激进扰流板，分别位于后风挡上方与尾灯上方，外界普遍推测其为 Urus Performante 高性能版本。上一代 Urus Performante 于 2024 年停产，搭载 4.0 升双涡轮增压 V8 发动机，最大功率 657 马力。现款 Urus SE 插混版综合输出已达 789 马力，全新高性能版有望在此基础上进一步提升，使 Urus 车系首次跨越 800 马力门槛。\n\n除动力升级外，新车底盘与机械结构预计也将迎来强化，可能采用重新调校的固定弹簧悬架、响应更快的后轮转向系统以及偏向后轮的四驱动力分配，并辅以碳纤维外观套件彰显身份。这一消息将进一步加剧超豪华高性能 SUV 细分市场的竞争。",
+    "category": "消费电子",
+    "tags": [
+      "兰博基尼",
+      "高性能 SUV",
+      "豪华车",
+      "新车预告"
+    ],
+    "source": "IT之家",
+    "time": "17分钟前",
+    "ts": "2026-06-30T04:55:40+00:00",
+    "url": "https://www.ithome.com/0/970/491.htm",
+    "image": "https://img.ithome.com/newsuploadfiles/2026/6/f57a01c9-80cf-4d35-b9bb-269f4c75b83b.png?x-bce-process=image/format,f_auto",
+    "stocks": []
+  },
+  {
+    "id": "f86b5d93a8e1624a",
+    "title": "华硕ROG八爪鱼7二十周年限定版开售",
+    "summary": "华硕ROG八爪鱼7 WiFi 7路由器二十周年限定版正式开售，首发价5444元，叠加国补后4899.6元，主打双万兆网口与13000Mbps三频并发速率。",
+    "body": "6月30日，华硕ROG八爪鱼7二十周年限定版路由器开售，首发价5444元，叠加国家补贴后到手价4899.6元。该产品为纪念ROG品牌成立二十周年打造，采用黑透金配色与ROG浮雕半透明亚克力顶盖，支持AURA RGB灯效。其搭载博通4核2.6GHz处理器与2GB DDR4内存，支持WiFi 7、三频并发13000Mbps、4096-QAM及MLO多链路传输技术，配备双10G与四2.5G网口，并内置AiProtection网络神盾、AiMesh组网等AI功能。作为高端电竞路由新品，其上市进一步丰富了WiFi 7消费级市场选择，也体现出国补政策对高端消费电子需求的刺激作用。",
+    "category": "消费电子",
+    "tags": [
+      "WiFi 7",
+      "路由器",
+      "华硕",
+      "电竞"
+    ],
+    "source": "IT之家",
+    "time": "17分钟前",
+    "ts": "2026-06-30T04:55:31+00:00",
+    "url": "https://www.ithome.com/0/970/490.htm",
+    "image": "https://img14.360buyimg.com/pop/jfs/t1/459271/14/15797/113427/6a3e56a5Fdaa91e4c/0083320320790e27.png",
+    "stocks": [
+      {
+        "name": "华硕",
+        "ticker": "2357.TW",
+        "reason": "华硕旗下ROG品牌推出高端WiFi 7路由新品，直接贡献消费电子业务营收与品牌溢价。",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "b303a167c08a1972",
+    "title": "iPhone Air 2 渲染图曝光：升级双摄与 A20 芯片",
+    "summary": "消息源曝光了苹果 iPhone Air 2 的渲染图，显示其将升级双摄系统、搭载 A20 芯片、采用 6.55 英寸 1.5K 120Hz LTPO OLED 屏幕，并进一步缩小灵动岛尺寸。",
+    "body": "据 IT 之家报道，消息源 @earlyappleleaks 于 6 月 29 日在 X 平台分享了据称是苹果 iPhone Air 2 的渲染图，并表示这是苹果目前正在测试中的设计，可能最终成为零售版本。外观方面，iPhone Air 2 最大的变化在于机身背面升级为双摄系统，药丸状长条凸起部分配备两颗摄像头和一颗 LED 闪光灯，此前消息称将新增超广角相机。\n\n配置方面，该机预计将采用标准版 A20 芯片，配备 6.55 英寸 1.5K 120Hz LTPO OLED 屏幕。另一位消息源 @phonefuturist 还分享了图片，显示 iPhone Air 2 的灵动岛尺寸将有所缩小。现款 iPhone Air 初代于 2025 年 10 月正式发售，国行 256GB 版本起售价为 7999 元，搭载 A19 Pro 处理器及苹果自研 N1 芯片和 C1X 调制解调器。\n\n若上述爆料属实，iPhone Air 2 将在影像、性能和屏幕规格上较初代进一步提升，有望强化苹果在高端轻薄手机市场的产品竞争力，并带动相关供应链企业订单增长。",
+    "category": "消费电子",
+    "tags": [
+      "苹果",
+      "iPhone Air 2",
+      "智能手机",
+      "A20芯片"
+    ],
+    "source": "IT之家",
+    "time": "22分钟前",
+    "ts": "2026-06-30T04:50:32+00:00",
+    "url": "https://www.ithome.com/0/970/489.htm",
+    "image": "https://img.ithome.com/newsuploadfiles/2026/6/03aa9004-0466-42c2-8212-c46176496b3c.png",
+    "stocks": [
+      {
+        "name": "苹果公司",
+        "ticker": "AAPL",
+        "reason": "iPhone Air 2 作为苹果新一代轻薄旗舰，若如期发布并热销将直接利好苹果硬件销售与生态收入。",
+        "confidence": "high"
+      },
+      {
+        "name": "立讯精密",
+        "ticker": "002475.SZ",
+        "reason": "作为苹果 iPhone 核心组装供应商之一，新款机型量产有望带来增量订单。",
+        "confidence": "medium"
+      },
+      {
+        "name": "京东方A",
+        "ticker": "000725.SZ",
+        "reason": "若继续参与苹果 iPhone OLED 屏幕供应，新款机型面板需求将带来业绩支撑。",
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
     "id": "a25a0425c139c387",
     "title": "韩国启动史上最大规模半导体与AI投资计划",
     "summary": "韩国政府宣布总规模超5760亿美元的半导体与人工智能产业投资计划，目标五年内将DRAM产能翻倍，三星、SK海力士将共同投资约5178.7亿美元新建芯片制造基地。",
@@ -346,6 +499,82 @@ const newsData = [
     "ts": "2026-06-29T21:40:03-04:00",
     "url": "https://medicalxpress.com/news/2026-06-cardiovascular-disease-vision-loss-latino.html",
     "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/cardiovascular-disease-1.jpg",
+    "stocks": []
+  },
+  {
+    "id": "1661a535484af5a6",
+    "title": "肾癌SETD2基因缺失暴露BCL-xL依赖弱点",
+    "summary": "美国MUSC Hollings癌症中心研究发现，缺失抑癌基因SETD2的肾癌细胞高度依赖BCL-xL蛋白存活，靶向该依赖可选择性清除癌细胞，为侵袭性肾癌提供潜在新疗法。",
+    "body": "美国南卡罗来纳医科大学霍林斯癌症中心（MUSC Hollings Cancer Center）的研究人员在《Cancer Research》发表研究，揭示肾癌细胞中一种常见基因突变可能同时构成治疗突破口。研究发现，缺失抑癌基因SETD2的肾癌细胞对BCL-xL蛋白产生高度生存依赖；在实验室模型中，靶向抑制BCL-xL能够选择性杀伤SETD2缺失的癌细胞，而对SETD2正常的癌细胞影响较小。该成果为治疗预后较差、侵袭性较强的SETD2缺陷型肾透明细胞癌提供了新的精准治疗方向，并可能推动相关靶向药物的开发与临床转化。",
+    "category": "生物医药",
+    "tags": [
+      "肾癌",
+      "精准医疗",
+      "靶向治疗",
+      "肿瘤基因"
+    ],
+    "source": "MedicalXpress",
+    "time": "3小时前",
+    "ts": "2026-06-29T21:20:04-04:00",
+    "url": "https://medicalxpress.com/news/2026-06-kidney-cancer-gene-reveals-unexpected.html",
+    "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/kidney-cancer-gene-rev.jpg",
+    "stocks": []
+  },
+  {
+    "id": "507308b47d9b1718",
+    "title": "远程居家运动助淋巴瘤患者心脏康复",
+    "summary": "发表于《Cancer Control》的研究显示，远程医疗支持的居家运动方案在淋巴瘤幸存者进入心脏肿瘤康复初期，可取得与院内监督运动相当的短期改善效果。",
+    "body": "一项发表于《Cancer Control》的研究评估了远程医疗支持的居家运动（HBE）对进入心脏肿瘤康复（CORE）的淋巴瘤幸存者的效果。结果显示，在短期改善方面，居家运动与院内监督运动相当，为癌症幸存者提供了更灵活、可及的康复选择。该研究提示，远程医疗支持的居家干预有望成为传统监督康复的可行替代方案，有助于降低患者交通与时间成本，并可能扩大心脏肿瘤康复的覆盖范围。",
+    "category": "生物医药",
+    "tags": [
+      "数字医疗",
+      "肿瘤康复",
+      "远程医疗",
+      "淋巴瘤"
+    ],
+    "source": "MedicalXpress",
+    "time": "4小时前",
+    "ts": "2026-06-29T21:00:04-04:00",
+    "url": "https://medicalxpress.com/news/2026-06-home-based-feasible-lymphoma-survivors.html",
+    "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/home-based-exercise-fe.jpg",
+    "stocks": []
+  },
+  {
+    "id": "4132b1d4912f8727",
+    "title": "国际研究揭示骨科术后死亡的主要诱因",
+    "summary": "一项发表于《JMIR Perioperative Medicine》的国际研究指出，全球每年数百万例骨科手术虽能缓解疼痛、恢复行动能力，但术后并发症尤其是“隐匿性”心脏损伤的风险被严重低估，亟需更严格的围术期监测。",
+    "body": "该研究由国际研究团队完成，聚焦骨科手术后的死亡风险因素。研究发现，术后“隐匿性”心脏损伤（silent heart injuries）是术后并发症和死亡率的重要诱因，而当前标准监测实践对此关注不足。研究呼吁临床界加强对骨科手术患者的围术期心脏监测，以早期识别并干预潜在风险。\n\n骨科手术涵盖关节置换、骨折修复等常见术式，患者多为老年人群，本身常合并心血管疾病。术后心脏并发症若未被及时发现，可能显著增加死亡风险。该研究的意义在于为术后监护流程优化和临床指南更新提供了循证依据，或推动术中及术后连续心电、心肌标志物监测的普及。",
+    "category": "生物医药",
+    "tags": [
+      "骨科手术",
+      "术后并发症",
+      "心脏损伤",
+      "围术期医学"
+    ],
+    "source": "MedicalXpress",
+    "time": "4小时前",
+    "ts": "2026-06-29T20:20:01-04:00",
+    "url": "https://medicalxpress.com/news/2026-06-hidden-orthopedic-surgery-international-major.html",
+    "image": "https://scx1.b-cdn.net/csz/news/tmb/2019/1-knee.jpg",
+    "stocks": []
+  },
+  {
+    "id": "30a5aaa72f5f5b2d",
+    "title": "研究团队提出生成式AI融入护理研究十项指南",
+    "summary": "西班牙Fisabio基金会与卡斯特利翁海梅一世大学研究人员发布十项建议，推动生成式人工智能在护理研究中的负责任应用。",
+    "body": "来自西班牙Fisabio基金会和卡斯特利翁海梅一世大学的研究人员系统分析了生成式人工智能（GenAI）变革护理研究的潜力，并提出了十项指南，以促进这些工具在科学领域的负责任使用。该研究聚焦于如何在护理学研究中合规、有效地整合生成式AI技术。这一成果为医疗与护理领域的AI应用提供了方法论参考，有助于规范学术实践并推动数字医疗研究的进一步发展。",
+    "category": "生物医药",
+    "tags": [
+      "生成式AI",
+      "护理研究",
+      "数字医疗",
+      "学术规范"
+    ],
+    "source": "MedicalXpress",
+    "time": "5小时前",
+    "ts": "2026-06-29T20:00:06-04:00",
+    "url": "https://medicalxpress.com/news/2026-06-ten-guidelines-generative-ai-nursing.html",
+    "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/nurse-on-computer.jpg",
     "stocks": []
   },
   {
@@ -776,6 +1005,24 @@ const newsData = [
     "stocks": []
   },
   {
+    "id": "39fb035cd2ebbabc",
+    "title": "OpenClaw 推出原生 iOS 与 Android 移动应用",
+    "summary": "AI 智能体平台 OpenClaw 正式发布原生 iOS 和 Android 应用，用户可随时通过手机运行和管理智能体、处理频道任务与回复。",
+    "body": "AI 智能体平台 OpenClaw 宣布推出原生 iOS 与 Android 移动应用，将智能体能力从桌面端延伸至手机端。用户可通过应用随时访问频道、执行任务并处理回复，实现“用大拇指在任何地方运行智能体”。\n\n这一动作意味着 AI Agent 产品正加速向移动端迁移，进一步降低使用门槛，拓展日常办公与自动化场景。对于智能体赛道而言，移动原生体验或成为下一阶段竞争的关键差异化方向。",
+    "category": "人工智能",
+    "tags": [
+      "AI Agent",
+      "移动应用",
+      "智能体"
+    ],
+    "source": "AIHOT精选",
+    "time": "9小时前",
+    "ts": "2026-06-29T20:11:33+00:00",
+    "url": "https://x.com/openclaw/status/2071688039114342592",
+    "image": "",
+    "stocks": []
+  },
+  {
     "id": "43801590bf97d9ec",
     "title": "美最高法院限制政府使用地理围栏搜查令",
     "summary": "美国最高法院以6比3裁定，政府获取用户位置历史信息需持搜查令并证明合理依据，但未宣布地理围栏令完全违宪。",
@@ -1048,6 +1295,64 @@ const newsData = [
     "stocks": []
   },
   {
+    "id": "9adc5d51991097dd",
+    "title": "苹果或将推出触屏版MacBook Ultra",
+    "summary": "据Engadget报道，苹果传闻中的触屏MacBook可能即将发布，新机型或被命名为MacBook Ultra，搭载自研芯片并引入触控交互。",
+    "body": "Engadget援引市场传闻称，苹果正在开发一款配备触摸屏的MacBook，并可能以\"MacBook Ultra\"命名。该机型预计将搭载苹果新一代自研芯片，在性能与能效方面进一步升级，同时打破Mac产品线长期不支持触控屏的传统。若消息属实，这将是苹果笔记本电脑产品形态的重要变化，可能模糊MacBook与iPad之间的边界，并对Windows阵营的二合一笔记本形成竞争压力。目前具体发布时间与定价尚未确定。",
+    "category": "消费电子",
+    "tags": [
+      "苹果",
+      "MacBook",
+      "触摸屏",
+      "自研芯片"
+    ],
+    "source": "Engadget",
+    "time": "10小时前",
+    "ts": "2026-06-29T18:23:18+00:00",
+    "url": "https://www.engadget.com/2204268/macbook-ultra-rumors/",
+    "image": "https://www.engadget.com/img/gallery/macbook-ultra-rumors-what-to-expect-including-the-touchscreen-chips-release-date-and-more/l-intro-1782756805.jpg",
+    "stocks": [
+      {
+        "name": "苹果公司",
+        "ticker": "AAPL",
+        "reason": "新MacBook形态若落地，有望带动苹果硬件换机周期与平均售价提升",
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
+    "id": "78f90780fb21dfda",
+    "title": "Claude模型正式上线Microsoft Foundry",
+    "summary": "Anthropic旗下Claude模型即日起在Microsoft Foundry正式可用，由Azure托管并基于NVIDIA GB300 GPU运行，首批提供Claude Opus 4.8与Haiku 4.5，支持企业级身份认证、统一计费及Azure消费承诺抵扣。",
+    "body": "Anthropic宣布，从今天起Claude模型在Microsoft Foundry上正式可用。该服务托管于Azure环境，运行在NVIDIA GB300 GPU上，首批提供Claude Opus 4.8和Claude Haiku 4.5两个版本，用户可通过Messages API调用，并支持提示缓存与扩展思考功能。用户可选择推理处理位置，包括美国数据区域，推理运营由Anthropic负责。",
+    "category": "人工智能",
+    "tags": [
+      "大模型",
+      "云计算",
+      "企业AI",
+      "Azure"
+    ],
+    "source": "AIHOT精选",
+    "time": "10小时前",
+    "ts": "2026-06-29T18:22:20.720000+00:00",
+    "url": "https://claude.com/blog/claude-in-microsoft-foundry",
+    "image": "",
+    "stocks": [
+      {
+        "name": "微软",
+        "ticker": "MSFT",
+        "reason": "Microsoft Foundry与Azure整合Claude，增强云AI服务吸引力并可能拉动Azure消费",
+        "confidence": "high"
+      },
+      {
+        "name": "英伟达",
+        "ticker": "NVDA",
+        "reason": "Claude在Microsoft Foundry上运行在NVIDIA GB300 GPU上，体现高端AI算力需求",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
     "id": "db370f045fc4cbdd",
     "title": "谷歌警告欧盟反垄断新规或致用户数据泄露",
     "summary": "欧盟拟要求谷歌在Android上开放AI集成，并共享搜索数据给竞争对手。谷歌安全高管称此举将带来欺诈和隐私风险。",
@@ -1081,6 +1386,25 @@ const newsData = [
     "time": "10小时前",
     "ts": "2026-06-29T18:10:26+00:00",
     "url": "https://techcrunch.com/2026/06/29/anthropic-and-gov-newsom-forge-deal-allowing-california-government-to-use-claude-at-half-price/",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "9a29313229656f1e",
+    "title": "韩国科技巨头承诺投资超5500亿美元应对存储危机",
+    "summary": "全球最大两家存储芯片公司承诺在韩国增建存储研发晶圆厂，以巩固韩国作为AI科技强国地位并缓解先进存储供应紧张。",
+    "body": "据TechCranch报道，韩国科技巨头承诺投入超过5500亿美元，以应对所谓“RAMageddon”——即先进存储芯片供应严重短缺的局面。全球最大的两家存储芯片公司已誓言在韩国建设更多存储研发晶圆厂（lab fabs），助力韩国打造AI科技强国。这一大规模投资反映出HBM等高带宽存储在AI算力扩张中的关键作用，也表明韩国正通过强化本土半导体产能与研发能力，抓住人工智能基础设施建设的长期需求。",
+    "category": "半导体与先进制造",
+    "tags": [
+      "存储芯片",
+      "HBM",
+      "晶圆厂",
+      "韩国半导体"
+    ],
+    "source": "TechCrunch",
+    "time": "11小时前",
+    "ts": "2026-06-29T18:07:48+00:00",
+    "url": "https://techcrunch.com/2026/06/29/south-korean-tech-giants-commit-over-550b-to-ease-ramageddon/",
     "image": "",
     "stocks": []
   },
@@ -1129,6 +1453,43 @@ const newsData = [
     "stocks": []
   },
   {
+    "id": "ea82cc3a31e5f691",
+    "title": "量子计算初创公司QuEra宣布跳过NISQ阶段直攻实用机",
+    "summary": "量子计算初创公司QuEra公布路线图，决定不再销售NISQ系统，计划2028年推出超1万物理量子比特、支持数百逻辑量子比特的实用量子计算机，并于2029年推出更强版本。",
+    "body": "据Ars Technica报道，量子计算初创公司QuEra上周三发布技术路线图，宣布战略放弃销售NISQ（含噪声中等规模量子）系统，将跳过渐进式迭代阶段，直接开发可实用的容错量子计算机。该公司计划2028年推出一台拥有超过1万个物理量子比特、可支持数百个经纠错后的逻辑量子比特的系统；并承诺2029年推出性能更强的后续机型。QuEra目前硬件仅有约260个物理量子比特，错误率相对较高，与目标之间存在巨大跨越。\n\n这一激进路线意味着QuEra将集中资源突破量子纠错和规模化集成瓶颈，而非通过逐步商用NISQ设备获取收入。若按计划实现，该系统将在逻辑量子比特数量上大幅领先当前市场水平，可能加速量子计算在材料模拟、药物发现和优化问题等领域的实际应用。不过，从技术现状到2028年目标仍需克服硬件稳定性、错误率控制和工程化等重大挑战。",
+    "category": "量子科技",
+    "tags": [
+      "量子计算",
+      "QuEra",
+      "量子纠错",
+      "容错量子计算机"
+    ],
+    "source": "Ars Technica",
+    "time": "11小时前",
+    "ts": "2026-06-29T17:59:50+00:00",
+    "url": "https://arstechnica.com/science/2026/06/quera-promises-thousands-of-error-corrected-qubits-by-2029/",
+    "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/06/Libra-internals44-copy-1152x648.jpeg",
+    "stocks": []
+  },
+  {
+    "id": "9d2f918eb596cc9d",
+    "title": "WhatsApp将推出用户名功能，无需共享手机号即可添加联系人",
+    "summary": "Meta旗下WhatsApp宣布将于今年晚些时候推出用户名功能，用户添加和聊天时无需再分享手机号码，以进一步提升通信隐私保护。",
+    "body": "据外媒报道，Meta旗下即时通讯应用WhatsApp将于今年晚些时候推出用户名（usernames）功能。该功能允许用户在不透露手机号码的情况下添加新联系人并进行聊天，只有已保存的联系人才能看到彼此的电话号码，从而增强平台隐私性。目前，WhatsApp已面向部分用户开放用户名预留入口，用户可提前选择并锁定心仪名称。此举被视为WhatsApp在隐私保护方面的重要升级，也可能改变用户基于手机号建立社交连接的传统方式。",
+    "category": "消费电子",
+    "tags": [
+      "即时通讯",
+      "隐私保护",
+      "Meta"
+    ],
+    "source": "The Verge",
+    "time": "11小时前",
+    "ts": "2026-06-29T13:46:53-04:00",
+    "url": "https://www.theverge.com/tech/958832/whatsapp-usernames-rollout-reservation-availability",
+    "image": "",
+    "stocks": []
+  },
+  {
     "id": "eab8e7dafce6dac2",
     "title": "宝马集团部署Figure 03人形机器人",
     "summary": "宝马集团在南卡罗来纳州斯帕坦堡工厂完成Figure 02人形机器人11个月试点后，宣布将部署最新款Figure 03机器人，用于物流分拣场景。这标志着人形机器人正从实验走向汽车制造产线应用。",
@@ -1145,6 +1506,89 @@ const newsData = [
     "ts": "2026-06-29T17:45:53+00:00",
     "url": "https://www.therobotreport.com/bmw-group-deploys-figure-03-humanoid-after-tests-previous-version/",
     "image": "https://www.therobotreport.com/wp-content/uploads/2026/06/figureBMW-featured.jpg",
+    "stocks": []
+  },
+  {
+    "id": "62b958a63d1cbe80",
+    "title": "起亚公布加拿大PV5电动货车售价",
+    "summary": "起亚公布其首款电动货车PV5在加拿大的售价，定位为平价电动车型，计划于2026年上市，进一步丰富起亚在北美市场的电动车产品矩阵。",
+    "body": "据Electrek报道，起亚汽车公布了其首款电动货车PV5在加拿大的售价，新车将作为一款平价电动车型进入当地市场。起亚表示，PV5是公司计划在2026年推出的又一款经济实惠的电动车，旨在满足消费者对实用型电动商用/乘用车的需求。PV5的推出标志着起亚在电动化产品线上的进一步扩展，从乘用车向多功能电动货车领域延伸。随着北美电动车市场竞争加剧，平价电动货车有望为起亚打开新的细分市场，同时也将加剧该价格区间的竞争。",
+    "category": "未来能源",
+    "tags": [
+      "电动汽车",
+      "起亚",
+      "电动货车",
+      "北美市场"
+    ],
+    "source": "Electrek",
+    "time": "11小时前",
+    "ts": "2026-06-29T17:39:35+00:00",
+    "url": "https://electrek.co/2026/06/29/kia-reveals-pv5-prices-canada-another-affordable-ev/",
+    "image": "https://electrek.co/wp-content/uploads/sites/3/2026/06/Kia-PV5-prices-Canada.jpeg?quality=82&#038;strip=all&#038;w=1400",
+    "stocks": []
+  },
+  {
+    "id": "2d9b80b83a3eb86e",
+    "title": "AI评测平台Arena商业化突破，年营收达1亿美元",
+    "summary": "运营热门免费AI排行榜的初创公司Arena自去年9月推出商业服务以来，已实现约1亿美元年化营收，成为AI模型评估领域的重要商业化案例。",
+    "body": "据TechCrunch报道，运营广受欢迎免费AI排行榜的初创公司Arena自去年9月推出商业服务以来，年化营收已达到约1亿美元。Arena通过众包方式让用户对AI模型输出进行盲测投票，其排行榜已成为行业衡量大模型能力的重要参考。商业化服务主要面向企业客户提供模型评估、基准测试及相关数据服务。\n\n这一进展反映出AI产业对第三方模型评测与基准服务的需求快速增长。随着大模型数量激增，企业和开发者越来越依赖独立、可复现的评估工具来辅助模型选型与优化。Arena的商业化成功也可能带动AI评估、数据标注及模型测试等相关赛道的发展。",
+    "category": "人工智能",
+    "tags": [
+      "AI评测",
+      "大模型",
+      "商业化",
+      "基准测试"
+    ],
+    "source": "TechCrunch",
+    "time": "11小时前",
+    "ts": "2026-06-29T17:39:17+00:00",
+    "url": "https://techcrunch.com/2026/06/29/arena-the-ai-leaderboard-everyone-uses-is-now-a-100m-business/",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "fd5cda9d8bbf80d8",
+    "title": "LG推出32英寸移动触控屏StanbyME 2 Max",
+    "summary": "LG发布新款StanbyME 2 Max独立32英寸触控显示屏，售价1300美元，主打4K分辨率与便携移动体验。",
+    "body": "LG在消费电子展上推出StanbyME 2 Max，这是一款32英寸独立触控显示屏，售价1300美元。该产品主打4K分辨率与可移动设计，用户可在家中不同场景间轻松移动使用。作为LG StanbyME产品线的升级版本，Max版本在屏幕尺寸与显示效果上进一步提升，瞄准家庭娱乐、轻办公及智能家居交互等场景。该产品的推出反映了厂商对大屏可移动交互设备细分市场的持续布局。",
+    "category": "消费电子",
+    "tags": [
+      "LG",
+      "触控屏",
+      "智能家居",
+      "显示设备"
+    ],
+    "source": "Engadget",
+    "time": "11小时前",
+    "ts": "2026-06-29T17:28:57+00:00",
+    "url": "https://www.engadget.com/2204176/lg-stanbyme-2-max-is-a-standalone-32-inch-touchscreen-display-that-costs-1300/",
+    "image": "https://www.engadget.com/img/gallery/the-lg-stanbyme-2-max-is-a-standalone-32-inch-touchscreen-display-that-costs-1300/l-intro-1782753977.jpg",
+    "stocks": [
+      {
+        "name": "LG电子",
+        "ticker": "066570.KS",
+        "reason": "该产品为LG电子旗下消费显示产品线新品，直接贡献其消费电子业务收入",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "9316ce431579faed",
+    "title": "Tidal新规：纯AI生成音乐将被取消变现",
+    "summary": "音乐流媒体平台Tidal更新政策，不会下架完全由AI生成的音乐，但将对这类内容取消 monetization，上传者无法获得收益。",
+    "body": "据Engadget报道，音乐流媒体平台Tidal发布新政策，明确不会禁止100%由人工智能生成的音乐，但将对其进行去货币化处理，即上传者无法从这类作品中获得收益。该政策旨在应对AI生成内容大量涌入音乐平台的趋势，同时试图在鼓励创作与保护音乐人收入之间取得平衡。Tidal尚未披露如何检测AI生成音乐的具体技术细节。这一举措可能对其他流媒体平台形成示范效应，进一步影响AI音乐生成工具及内容创作者生态。",
+    "category": "人工智能",
+    "tags": [
+      "AI音乐",
+      "流媒体",
+      "内容变现",
+      "Tidal"
+    ],
+    "source": "Engadget",
+    "time": "11小时前",
+    "ts": "2026-06-29T17:23:36+00:00",
+    "url": "https://www.engadget.com/2204169/tidal-isnt-banning-ai-music-but-it-wont-pay-people-who-upload-it/",
+    "image": "https://www.engadget.com/img/gallery/tidal-isnt-banning-ai-music-but-it-wont-pay-people-who-upload-it/l-intro-1782753753.jpg",
     "stocks": []
   },
   {
@@ -1172,6 +1616,100 @@ const newsData = [
         "confidence": "medium"
       }
     ]
+  },
+  {
+    "id": "0af5768d9dca78ba",
+    "title": "Cursor推出移动应用，可远程管理编码Agent",
+    "summary": "AI编程工具Cursor发布移动端应用，用户可在移动设备上远程监督和指导其编码Agent的运行。",
+    "body": "据TechCrunch报道，AI编程工具Cursor已推出一款新的移动应用，允许用户在移动中远程监督编码Agent的工作。该应用主要面向需要随时查看、引导或干预AI编码代理运行的开发者场景，延续了Cursor在AI辅助编程领域的布局。移动端 oversight 能力的加入，意味着AI编程Agent的使用场景正从桌面端向全天候、跨设备协同拓展，也可能加剧AI编程工具市场的产品竞争。",
+    "category": "人工智能",
+    "tags": [
+      "AI编程",
+      "Cursor",
+      "编码Agent",
+      "移动应用"
+    ],
+    "source": "TechCrunch",
+    "time": "12小时前",
+    "ts": "2026-06-29T17:03:50+00:00",
+    "url": "https://techcrunch.com/2026/06/29/cursor-now-has-a-mobile-app-for-guiding-your-coding-agent-on-the-go/",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "e7e267d3692ff431",
+    "title": "特朗普政府繁文缛节威胁920亿瓦新电力供应",
+    "summary": "特朗普政府的政策动向可能威胁美国约9200万千瓦新建太阳能与风电项目，涉及投资约1210亿美元。这些清洁能源是美国新增发电装机的主要来源。",
+    "body": "据TechCrunch报道，特朗普政府正通过监管审批等繁文缛节，威胁美国约9200万千瓦（92 GW）的新建电力供应。受影响最大的是太阳能与风能项目，总投资约达1210亿美元，而这两者正是美国当前新增发电装机容量的最大贡献来源。若相关政策持续收紧，可能导致大量在建或规划中的可再生能源项目延期、取消或成本大幅上升。这一动向对美国电力市场、清洁能源投资以及相关供应链均可能产生深远影响。",
+    "category": "未来能源",
+    "tags": [
+      "可再生能源",
+      "美国能源政策",
+      "太阳能",
+      "风能"
+    ],
+    "source": "TechCrunch",
+    "time": "12小时前",
+    "ts": "2026-06-29T16:58:30+00:00",
+    "url": "https://techcrunch.com/2026/06/29/trump-administration-threatens-92-gw-of-new-electricity-supply-with-red-tape/",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "9ed5a787bfb37d9d",
+    "title": "TIDAL 切断 AI 音乐变现并打击深度伪造",
+    "summary": "音乐流媒体平台 TIDAL 宣布禁止 AI 生成音乐通过其平台获利，并将利用自动化工具删除模仿艺术家或乐队的 AI 作品，以加强版权与艺术家权益保护。",
+    "body": "据 TechCrunch 报道，音乐流媒体服务 TIDAL 正在收紧对人工智能生成内容的政策。该公司表示，将切断 AI 生成音乐的变现渠道，使其无法通过平台获得收益。此外，TIDAL 还将部署自动化工具，识别并下架那些试图冒充特定艺术家或乐队的 AI 生成音乐。\n\n这一举措反映出流媒体平台对 AI 音乐泛滥的回应。随着生成式 AI 技术普及，未经授权模仿知名艺人声音的“深度伪造”音乐大量出现，引发了版权、肖像权和艺术家收入等方面的争议。TIDAL 的做法可能促使更多平台跟进，推动 AI 音乐治理规则的建立。\n\n不过，如何准确区分 AI 生成内容与人创作品、如何界定合理模仿与侵权假冒，仍是平台需要面对的技术与法律挑战。",
+    "category": "人工智能",
+    "tags": [
+      "AI音乐",
+      "流媒体",
+      "深度伪造",
+      "版权保护"
+    ],
+    "source": "TechCrunch",
+    "time": "12小时前",
+    "ts": "2026-06-29T16:29:04+00:00",
+    "url": "https://techcrunch.com/2026/06/29/tidal-cracks-down-on-ai-music-by-cutting-off-monetization/",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "97835e796bb34f94",
+    "title": "美议员拟立法禁止AI公司出售健康数据",
+    "summary": "美国参议员伊丽莎白·沃伦等提出新版法案，拟禁止AI聊天机器人等公司将美国人的健康与位置信息出售给数据经纪商。",
+    "body": "据外媒报道，美国参议员伊丽莎白·沃伦与众议员玛丽·盖伊·斯坎伦计划在未来数周内推出新版《健康与位置数据保护法案》，禁止将美国人的健康和位置信息出售给数据经纪商，其中包括用户向ChatGPT、Claude等AI聊天机器人透露的信息。该提案旨在加强对个人敏感数据的隐私保护，限制AI应用厂商通过数据交易获利。若法案推进，将对依赖用户数据商业化的大模型及健康类AI应用构成合规压力，也可能促使企业调整数据收集、存储与变现策略。",
+    "category": "网络安全",
+    "tags": [
+      "数据隐私",
+      "AI监管",
+      "健康数据"
+    ],
+    "source": "The Verge",
+    "time": "13小时前",
+    "ts": "2026-06-29T12:07:14-04:00",
+    "url": "https://www.theverge.com/ai-artificial-intelligence/959033/health-location-data-protection-act-ai-warren-scanlon",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "f28964b731e8cfbd",
+    "title": "美最高法院裁定地理围栏搜查令须受宪法保护",
+    "summary": "美国最高法院裁定，执法机关使用地理围栏令（geofence warrants）获取个人位置数据时，必须满足宪法第四修正案的搜查令要求，强化数字隐私保护。",
+    "body": "美国最高法院近日作出裁决，认定地理围栏搜查令须受宪法第四修正案保护。所谓地理围栏令，是指执法机关要求科技公司提供特定时间段、特定地理范围内所有用户的位置数据，此前因可能覆盖大量无辜者而引发隐私争议。法院此次裁定，警方在申请此类令状时必须说明具体嫌疑人或车辆，并满足更高的精确性与合理性标准。这一判决被视为数字时代隐私权的重要胜利，可能限制谷歌等位置数据持有企业向政府大规模披露用户信息，同时推动执法程序进一步规范化。",
+    "category": "网络安全",
+    "tags": [
+      "数字隐私",
+      "位置数据",
+      "美国最高法院",
+      "第四修正案"
+    ],
+    "source": "Hacker News",
+    "time": "13小时前",
+    "ts": "2026-06-29T15:54:24+00:00",
+    "url": "https://www.theguardian.com/us-news/2026/jun/29/supreme-court-geofence-warrants-case-decision",
+    "image": "",
+    "stocks": []
   },
   {
     "id": "e22a2487bf1fae3f",
@@ -1217,6 +1755,38 @@ const newsData = [
     "url": "https://www.therobotreport.com/advantages-of-hypoid-gearing-over-worm-bevel-and-bevel-planetary/",
     "image": "https://www.therobotreport.com/wp-content/uploads/2026/06/right-angle-gearing-984x1024.jpg",
     "stocks": []
+  },
+  {
+    "id": "f3604dd2a1b5c1d0",
+    "title": "Rocket Lab斥资约80亿美元收购Iridium",
+    "summary": "商业航天公司Rocket Lab宣布以现金加股票方式收购卫星通信企业Iridium，交易估值约80亿美元。这是发射服务商与在轨卫星运营商的垂直整合。",
+    "body": "Rocket Lab周一宣布收购卫星通信公司Iridium Communications，交易以现金及Rocket Lab股票支付，对Iridium估值约80亿美元。Iridium运营着近地轨道80颗卫星组成的电信网络，是一家已持续盈利数十年的卫星企业。Rocket Lab创始人兼首席执行官Peter Beck称，这笔交易将成为航天行业最具变革性的交易之一，是 ultimate combination for growth。此次收购将发射能力与在轨卫星服务能力结合，标志着商业航天领域垂直整合的重要一步。",
+    "category": "商业航天",
+    "tags": [
+      "商业航天",
+      "卫星通信",
+      "火箭发射",
+      "并购整合"
+    ],
+    "source": "Ars Technica",
+    "time": "13小时前",
+    "ts": "2026-06-29T15:33:54+00:00",
+    "url": "https://arstechnica.com/space/2026/06/in-a-bold-move-rocket-lab-acquires-iridium-communications/",
+    "image": "https://cdn.arstechnica.net/wp-content/uploads/2025/11/GettyImages-2180886117-1024x648.jpg",
+    "stocks": [
+      {
+        "name": "Rocket Lab",
+        "ticker": "RKLB",
+        "reason": "收购方，通过整合Iridium卫星网络实现从发射到在轨服务的垂直扩张",
+        "confidence": "high"
+      },
+      {
+        "name": "Iridium Communications",
+        "ticker": "IRDM",
+        "reason": "被收购标的，交易溢价及与Rocket Lab合并后成为航天综合服务体一部分",
+        "confidence": "high"
+      }
+    ]
   },
   {
     "id": "af665c98b04920a0",
@@ -1268,6 +1838,25 @@ const newsData = [
         "confidence": "high"
       }
     ]
+  },
+  {
+    "id": "eee9aecd1888f443",
+    "title": "Anthropic工程师：提示词工程重在调试与评估",
+    "summary": "Anthropic应用AI工程师Margot Van Laar在Code with Claude分享提示词工程实战经验，指出工程师大部分时间用于调试和维护生产提示词，而非从零编写，并强调评估（Eval）是验证提示词效果的唯一严谨方式。",
+    "body": "Anthropic应用AI工程师Margot Van Laar在Code with Claude活动中分享了提示词工程的一线实战经验。她指出，实际工作中工程师的大部分时间并非用于从零编写提示词，而是花在调试和维护已有的生产提示词上。她以两个典型场景为例：一是在客服机器人维护中，通过XML标签进行结构化清理，移除旧模型遗留的\"禁止列表\"指令，避免新模型过度拟合，同时精确计算工具调用时机，并对转人工决策明确代价与收益；二是在零售排班Agent的从零构建中，将复杂任务拆分为生成、评估、修复三个简单提示词，以获得更稳定的输出，并选用推理能力更强的Opus模型。Van Laar反复强调，评估（Eval）是提示词工程唯一严谨的工作方式，没有评估就是碰运气。这一观点对当前AI应用落地具有重要参考价值，提示企业在部署大模型应用时，应建立系统化的评估体系，而非依赖主观判断。",
+    "category": "人工智能",
+    "tags": [
+      "提示词工程",
+      "大模型应用",
+      "AI Agent",
+      "模型评估"
+    ],
+    "source": "AIHOT精选",
+    "time": "14小时前",
+    "ts": "2026-06-29T15:04:14+00:00",
+    "url": "https://x.com/berryxia/status/2071610700213191075",
+    "image": "",
+    "stocks": []
   },
   {
     "id": "127f5cc866b50c89",
@@ -75440,12 +76029,12 @@ const newsData = [
   }
 ];
 const newsDigest = {
-  "text": "今日科技前沿聚焦三大主线：韩国启动史上最大规模半导体与AI投资，全球先进制造竞赛升温；华为开源920亿参数盘古openPangu-2.0-Flash模型，国产大模型生态再进一步；商业航天持续火热，谱星航天9个月斩获4.4亿订单，中科宇航力擎二号发动机长程试车成功。机器人、未来能源与AI应用就业市场亦值得关注。",
+  "text": "今日科技前沿聚焦三大主线：人工智能领域国产大模型与商业化并进，华为开源920亿参数盘古模型、Kimi估值跃升至315亿美元；半导体与先进制造方面，韩国启动史上最大规模半导体与AI投资计划，我国能源基建再获突破；商业航天与机器人赛道融资与订单活跃，产业落地加速。",
   "highlights": [
-    "a25a0425c139c387",
+    "6f90f4e718df0590",
     "94cd777e3f5965ea",
+    "a25a0425c139c387",
     "edd035396137aac6",
-    "a18aafce60345e06",
-    "854000477b8f8e3d"
+    "1d117ad36acb6313"
   ]
 };
