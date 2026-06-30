@@ -1,5 +1,31 @@
 const newsData = [
   {
+    "id": "70f0d4a3ad45241d",
+    "title": "苹果官网概览 iOS 27 等系统：液态玻璃设计再优化",
+    "summary": "苹果中国官网更新 OS 概览页面，介绍 iOS 27、iPadOS 27、macOS 27 Golden Gate、watchOS 27 与 visionOS 27 的新功能，正式版将于今年秋季发布。",
+    "body": "苹果官网于 6 月 30 日上线新的“OS 概览”页面，详细展示 iOS 27、iPadOS 27、macOS 27 Golden Gate、watchOS 27 与 visionOS 27 的界面设计与性能改进。其中，iOS 27 与 iPadOS 27 进一步打磨液态玻璃（Liquid Glass）设计，优化对比度并新增调节滑块，让用户可自定义外观效果。\n在速度与连接方面，iOS 27 与 iPadOS 27 提升了 App 启动速度，升级隔空投送传输效率，并能在无线局域网和蜂窝网络之间智能切换。此外，苹果还新增了自动生成同步字幕、翻译现有字幕等无障碍功能，并将在 iPhone 上为 AirPods 提供自定义均衡器选项。\n这批系统更新将于今年秋季正式推送，预计将增强苹果软硬件生态的一体化体验，并可能成为推动用户换机与设备更新的因素之一。",
+    "category": "消费电子",
+    "tags": [
+      "苹果",
+      "iOS 27",
+      "消费电子",
+      "系统更新"
+    ],
+    "source": "IT之家",
+    "time": "刚刚",
+    "ts": "2026-06-30T22:57:28+00:00",
+    "url": "https://www.ithome.com/0/970/797.htm",
+    "image": "https://img.ithome.com/newsuploadfiles/2026/7/459ad32e-9156-40d2-9499-366ad3b1d5c6.jpg",
+    "stocks": [
+      {
+        "name": "苹果公司",
+        "ticker": "AAPL",
+        "reason": "作为新系统生态的发布方，系统体验与功能升级有望增强用户黏性并带动硬件更新需求。",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
     "id": "bd196abea4bfa58a",
     "title": "小米智能存储开售：4+32GB配置，最高40Mbps远程访问",
     "summary": "小米智能存储于7月1日正式开启众筹，入门版4TB到手价2299元，支持双盘备份、AI相册及最高40Mbps免费远程访问。",
