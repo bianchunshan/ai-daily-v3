@@ -1,5 +1,24 @@
 const newsData = [
   {
+    "id": "aca340c54604443a",
+    "title": "Daisy Sound首款头戴耳机：高端低价入局红海",
+    "summary": "加州初创公司Daisy Sound推出首款高端头戴式耳机，售价399美元，以铝合金机身与略低定价切入竞争激烈的耳机市场。",
+    "body": "据外媒报道，加州初创公司Daisy Sound正式发布其首款头戴式耳机。该产品采用高端铝合金机身设计，主打高品质音频体验，定价为399美元，试图以略低于传统高端耳机的价格在竞争白热化的耳机市场中打开局面。\n\n目前，耳机市场已被苹果、索尼、Bose等巨头占据，Daisy Sound作为新入局者面临较大挑战。此次发布既是品牌在硬件领域的首次亮相，也反映出消费电子市场中高端音频产品仍在通过材质与定价策略寻求差异化。\n\n若Daisy Sound能在音质与品牌口碑上建立优势，或将为消费者提供更多高端耳机选择，并对现有市场格局产生一定冲击。",
+    "category": "消费电子",
+    "tags": [
+      "耳机",
+      "消费电子",
+      "智能硬件",
+      "音频设备"
+    ],
+    "source": "Wired",
+    "time": "10分钟前",
+    "ts": "2026-06-30T21:07:32+00:00",
+    "url": "https://www.wired.com/story/daisy-sound-yet-another-company-is-making-premium-high-end-headphones/",
+    "image": "https://media.wired.com/photos/6a429d965cdc2b309c97ad67/master/pass/Daisy%20One%20Silver%20Hero.jpg",
+    "stocks": []
+  },
+  {
     "id": "2074c3624b813168",
     "title": "Rocket Lab今晚将为日本发射雷达观测卫星",
     "summary": "Rocket Lab计划今晚从新西兰发射场用Electron火箭，将日本iQPS公司的QPS-SAR-13地球观测雷达卫星送入轨道，继续为客户组建SAR卫星星座。",
@@ -7958,6 +7977,25 @@ const newsData = [
     "time": "9小时前",
     "ts": "2026-06-29T14:52:41-04:00",
     "url": "https://www.theverge.com/ai-artificial-intelligence/959174/openai-codex-hardware-work-louder",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "5855a1253f6ff83c",
+    "title": "CERN关闭大型强子对撞机，开启第三次长停机升级",
+    "summary": "欧洲核子研究中心（CERN）的大型强子对撞机（LHC）已停止运行，进入第三次长停机（LS3），为2030年启用的高亮度LHC（HiLumi LHC）进行维护、整合与升级。此次升级将把对撞亮度最高提升至原设计值的十倍，以支持更深入的粒子物理研究。",
+    "body": "2026年6月29日，世界上能量最高的粒子加速器——大型强子对撞机（LHC）结束了其运行阶段，正式进入CERN的第三次长停机（LS3）。在LS3期间，研究团队将开展大规模的维护、巩固、升级和安装工作，为2030年投入运行的“高亮度LHC”（HiLumi LHC）做准备。该升级计划将把对撞机的亮度最高提升至原设计值的十倍，从而收集更多数据，推动对新粒子、物质-反物质不对称性、夸克-胶子等离子体等前沿问题的研究。\n\n自2008年首次通束以来，LHC已成为人类历史上最宏伟的科学仪器之一，并在2012年帮助ATLAS与CMS实验发现了希格斯玻色子，验证了提出近半个世纪的理论机制。此后，LHC还发现了超过85种强子、为寻找新粒子设定排除限，并在天体物理相关测量等领域取得数百项重要进展。\n\n除了科学产出，LHC还在加速器科学、超导技术、计算和国际科研合作方面催生了大量创新。CERN加速器与技术主任Oliver Brüning表示，LHC超越了所有预期，深刻改变了人类对宇宙的理解；如今他们告别已知版本的LHC，迎接HiLumi LHC，将这一科学探索延续到未来。此次长停机不仅标志着一代传奇设备的阶段性谢幕，也预示着粒子物理学将进入更高亮度、更高数据量的新纪元。",
+    "category": "量子科技",
+    "tags": [
+      "CERN",
+      "大型强子对撞机",
+      "粒子物理",
+      "希格斯玻色子"
+    ],
+    "source": "Hacker News",
+    "time": "1天前",
+    "ts": "2026-06-29T18:52:25+00:00",
+    "url": "https://home.cern/cern-bids-farewell-to-the-lhc-and-enters-long-shutdown-3/",
     "image": "",
     "stocks": []
   },
@@ -83003,12 +83041,6 @@ const newsData = [
   }
 ];
 const newsDigest = {
-  "text": "今日科技前沿：NASA拟将核动力火星车备份模型送往月球，DeepMind前三人组创办对冲基金AI公司，逐际动力完成第四轮融资估值超28亿美元，美国太空军部署机动卫星干扰系统，加州斥资3.83亿美元升级长滩港清洁基础设施。",
-  "highlights": [
-    "f893f3a8fc3dc9b7",
-    "6b03f09617525e07",
-    "9787e6b02172781d",
-    "142aa2e24aba98d0",
-    "1bc5b90aae7fe384"
-  ]
+  "text": "",
+  "highlights": []
 };
