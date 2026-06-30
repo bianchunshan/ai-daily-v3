@@ -1,5 +1,271 @@
 const newsData = [
   {
+    "id": "0f764e9bc764237a",
+    "title": "Anthropic 发布 Claude Sonnet 5 智能体模型",
+    "summary": "Anthropic 推出最新 Sonnet 模型 Claude Sonnet 5，具备计划、浏览器和终端工具使用能力，可自主运行，性能接近 Opus 4.8 但定价更低，并在多项智能体能力上较前代大幅提升。",
+    "body": "Anthropic 正式发布 Claude Sonnet 5，这是其 Sonnet 系列最新模型。新模型支持计划、浏览器和终端工具使用，能够自主完成多步骤任务，即日起面向所有套餐、Claude Code 及 Claude API 用户开放。官方称，Sonnet 5 在推理、工具使用、编程和知识工作等智能体能力上相比 Sonnet 4.6 有显著提升，在 BrowseComp 和 OSWorld-Verified 等基准测试中严格优于前代，性能接近更高端的 Opus 4.8。\n\n定价方面，Anthropic 推出限时优惠：即日起至 2026 年 8 月 31 日，输入 token 为 2 美元/百万，输出 token 为 10 美元/百万，优惠期结束后将恢复为 3 美元/百万输入和 15 美元/百万输出。安全评估显示，新模型不良行为率更低，幻觉和谄媚现象有所减少，但网络安全能力仍弱于 Opus 4.8。该产品以更高性价比强化 Anthropic 在智能体赛道上的竞争力。",
+    "category": "人工智能",
+    "tags": [
+      "Anthropic",
+      "Claude",
+      "大模型",
+      "智能体"
+    ],
+    "source": "AIHOT精选",
+    "time": "3分钟前",
+    "ts": "2026-06-30T18:02:06.984000+00:00",
+    "url": "https://www.anthropic.com/news/claude-sonnet-5",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "1d5ce88b43dce7db",
+    "title": "比亚迪旗舰纯电SUV获防晕车认证",
+    "summary": "比亚迪在全新旗舰大型纯电SUV上搭载行业首创的全车乘员防晕车模式，并通过了防晕车认证。",
+    "body": "比亚迪近期为旗下全新旗舰大型纯电SUV引入了行业首创的全车乘员防晕车模式。该模式通过优化动力输出、悬挂调校与车身控制，旨在减少车辆加减速和颠簸带来的不适感，并已获得相关防晕车认证。这一功能有望显著提升电动SUV的乘坐舒适性，尤其适用于家庭与长途出行场景。若该车型顺利推向市场，或将增强比亚迪在高端电动SUV市场的竞争力，并进一步拉开与传统燃油车和同类电动车的差异化优势。",
+    "category": "未来能源",
+    "tags": [
+      "比亚迪",
+      "电动汽车",
+      "防晕车",
+      "SUV"
+    ],
+    "source": "Electrek",
+    "time": "4分钟前",
+    "ts": "2026-06-30T18:02:06+00:00",
+    "url": "https://electrek.co/2026/06/30/byds-flagship-electric-suv-wins-anti-motion-sickness-certification/",
+    "image": "https://electrek.co/wp-content/uploads/sites/3/2026/06/BYD-anti-motion-sickness-award-1.jpeg?quality=82&#038;strip=all&#038;w=1400",
+    "stocks": [
+      {
+        "name": "比亚迪股份",
+        "ticker": "1211.HK",
+        "reason": "比亚迪为新闻主体，新旗舰SUV舒适性技术有望提升品牌与销量。",
+        "confidence": "high"
+      },
+      {
+        "name": "比亚迪",
+        "ticker": "002594.SZ",
+        "reason": "公司核心标的，新技术落地有望强化国内高端电动车市场地位。",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "db02dfdd44a9664f",
+    "title": "前国防部高官任商业航天联合会国家安全顾问",
+    "summary": "前美国国防部主要副助理部长马修·威廉姆斯加入商业航天联合会，担任国家安全高级顾问，将推动该行业与国防政策领域的衔接。",
+    "body": "商业航天联合会（CSF）宣布，马修·威廉姆斯（Matthew Williams）已加入该组织并担任国家安全高级顾问。威廉姆斯此前曾任美国国防部主要副助理部长及参谋长等职，拥有丰富的国防政策与军方工作经验。\n\n这一人事安排显示出商业航天产业在国家安全战略中的地位持续上升，也表明行业组织正加强与国防部及国家安全政策界的联系。威廉姆斯的加入预计将有助于CSF在政府关系、国家安全政策协调以及军民航天能力融合等方面发挥更大影响力。\n\n对于美国商业航天企业而言，这一变化可能意味着政策沟通渠道进一步畅通，也反映出商业航天能力正被更广泛地纳入国家安全和国防体系考量。",
+    "category": "商业航天",
+    "tags": [
+      "商业航天",
+      "国家安全",
+      "航天政策"
+    ],
+    "source": "SpaceNews",
+    "time": "6分钟前",
+    "ts": "2026-06-30T18:00:00+00:00",
+    "url": "https://spacenews.com/matthew-williams-joins-the-commercial-space-federation-as-senior-advisor-national-security/",
+    "image": "https://i0.wp.com/spacenews.com/wp-content/uploads/2026/05/Anniversary-Logo.jpg?fit=1024%2C883&amp;ssl=1",
+    "stocks": []
+  },
+  {
+    "id": "2f12de48c91da536",
+    "title": "NASA探测显示火星曾存在岩浆海或可宜居",
+    "summary": "NASA“洞察号”任务的地震数据表明，火星早期可能存在大量岩浆海，其 crust（地壳）因此分层形成，这一发现可能改写火星早期演化与宜居性认知。",
+    "body": "据英国牛津大学等团队基于NASA“洞察号”任务的分析，火星探测器记录到的火星震显示，火星地壳约24公里深处存在两种岩石的分界面，这些岩石可能由曾经巨大的岩浆池形成。科学家认为，这表明火星早期可能曾充满岩浆海，并由此发展出复杂的地壳结构。\n\n这一发现挑战了“地球在行星中独一无二”的观点。地球的地壳复杂多層主要依赖板块运动，而火星从未被证实存在板块构造。如果火星无需板块运动也能形成复杂地壳，那么宜居条件可能在更多类型的行星上出现，包括那些因体积较小或缺乏板块活动而被排除的行星。\n\n该研究为行星科学、火星古环境及未来火星探测任务提供了新线索，也可能影响人类寻找地外生命和宜居行星的标准。",
+    "category": "商业航天",
+    "tags": [
+      "火星探测",
+      "行星科学",
+      "岩浆海",
+      "InSight"
+    ],
+    "source": "Space.com",
+    "time": "6分钟前",
+    "ts": "2026-06-30T18:00:00+00:00",
+    "url": "https://www.space.com/astronomy/mars/mars-may-have-once-been-filled-with-seas-of-magma-that-made-the-red-planet-habitable",
+    "image": "https://cdn.mos.cms.futurecdn.net/uC5YVLLj8dsmH3JC49xFYZ-1280-80.jpg",
+    "stocks": []
+  },
+  {
+    "id": "42124247344ae0c1",
+    "title": "美国热浪叠加AI用电激增考验电网",
+    "summary": "电网运营商警告，美国热浪可能在独立日周末前将电力需求推至接近纪录水平，而AI数据中心扩张持续加剧电力系统压力。",
+    "body": "美国多地遭遇热浪侵袭，电网运营商预警，在独立日周末前，电力需求可能逼近历史纪录。高温天气叠加空调负荷激增，使电力系统面临严峻考验，部分地区供电可靠性受到关注。\n\n与此同时，人工智能数据中心的大规模建设与运行正在推高美国整体电力消耗。AI驱动的能源需求持续上升，已成为电网规划、电力基础设施扩容以及能源企业投资决策的重要变量。此次热浪也凸显出极端气候与数字化能耗叠加下，美国电网韧性与供电能力面临的长期挑战。",
+    "category": "AI 基础设施",
+    "tags": [
+      "AI能耗",
+      "电网",
+      "数据中心",
+      "电力需求"
+    ],
+    "source": "Al Jazeera",
+    "time": "8分钟前",
+    "ts": "2026-06-30T17:57:21+00:00",
+    "url": "https://www.aljazeera.com/news/2026/6/30/us-heatwave-to-test-power-grid-amid-soaring-ai-driven-energy-demand?traffic_source=rss",
+    "image": "",
+    "stocks": [
+      {
+        "name": "Constellation Energy",
+        "ticker": "CEG",
+        "reason": "美国最大核电运营商，受益于AI数据中心对稳定清洁基荷电力的强劲需求。",
+        "confidence": "medium"
+      },
+      {
+        "name": "Vistra",
+        "ticker": "VST",
+        "reason": "美国大型电力生产商，AI与数据中心电力需求上升利好其发电资产与电价环境。",
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
+    "id": "759e2573fbbc9fa5",
+    "title": "新加坡Acti推出Gemini驱动AI智能体键盘",
+    "summary": "新加坡初创公司Acti发布基于Google Gemini的AI智能体键盘，可在手机应用内代替用户执行操作，并通过自然语言创建快捷方式。该产品采用本地优先架构，默认不访问私人消息，已获得530万美元种子融资。",
+    "body": "新加坡初创公司Acti发布了一款基于Google Gemini的AI智能体键盘，可直接嵌入手机键盘，代替用户在各类应用中执行操作。其核心功能“Skills”允许用户用自然语言创建快捷指令，例如长按T键翻译消息、长按C键发送会议链接。早期测试者在两周内创建了超过1000个Skills，显示出较高的用户参与度和自定义需求。\n\n该产品采用本地优先架构，默认不访问私人消息，试图在功能便利与隐私保护之间取得平衡。Acti目前已完成530万美元种子轮融资，由BITKRAFT Ventures领投，并已面向用户开放下载。这一产品形态拓展了AI智能体在移动端输入场景的应用，可能推动键盘入口级AI交互的发展。",
+    "category": "人工智能",
+    "tags": [
+      "AI智能体",
+      "移动键盘",
+      "Google Gemini"
+    ],
+    "source": "AIHOT精选",
+    "time": "13分钟前",
+    "ts": "2026-06-30T17:52:46+00:00",
+    "url": "https://techcrunch.com/2026/06/30/acti-puts-ai-agents-directly-into-your-smartphone-keyboard",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "ec5714b291186670",
+    "title": "老药新用：癫痫药有望增强老年疫苗保护",
+    "summary": "剑桥大学领衔团队发现，一种常用于治疗癫痫的药物可显著增强人体疫苗免疫反应，抗体数量增加一倍以上，有望改善老年人或免疫低下者的疫苗保护效果。",
+    "body": "据英国剑桥大学领衔的研究团队报告，一种常用于治疗癫痫的药物有望被重新用于增强人类对疫苗的免疫反应。实验显示，该药物在接种流感疫苗后可使抗体数量增加一倍以上，并使能杀死流感感染细胞的流感特异性CD8 T细胞数量增加约10倍。这一机制可能帮助那些疫苗效果本就较弱的人群，例如老年人或免疫功能低下者，获得更好的保护。若后续研究证实其安全性和普适性，该技术有望拓展至其他疫苗领域，对公共卫生具有积极意义。",
+    "category": "生物医药",
+    "tags": [
+      "疫苗佐剂",
+      "老药新用",
+      "免疫增强",
+      "生物医药"
+    ],
+    "source": "MedicalXpress",
+    "time": "26分钟前",
+    "ts": "2026-06-30T13:40:09-04:00",
+    "url": "https://medicalxpress.com/news/2026-06-repurposed-epilepsy-drug-boost-vaccine.html",
+    "image": "https://scx1.b-cdn.net/csz/news/tmb/2020/4-vaccine.jpg",
+    "stocks": []
+  },
+  {
+    "id": "2d0382f16810ee45",
+    "title": "食物噪音：饥饿时想吃东西未必需要恐惧",
+    "summary": "医学媒体MedicalXpress指出，饥饿时自然浮现的进食念头被称为“食物噪音”，这种对下一餐的思考是正常生理心理反应，并非总是需要恐惧。",
+    "body": "MedicalXpress发文探讨了“食物噪音”这一概念，即人们在饥饿时脑海中反复出现的关于食物的念头。文章指出，当身体需要能量时，产生“接下来吃什么”的想法是正常的生理信号，不必将其视为需要压抑或治疗的负面现象。这一观点有助于公众更理性地看待食欲、饮食行为与体重管理之间的关系，也为肥胖和饮食失调相关研究提供了新的理解角度。",
+    "category": "生物医药",
+    "tags": [
+      "食物噪音",
+      "饮食心理",
+      "生命科学",
+      "肥胖研究"
+    ],
+    "source": "MedicalXpress",
+    "time": "26分钟前",
+    "ts": "2026-06-30T13:40:01-04:00",
+    "url": "https://medicalxpress.com/news/2026-06-food-noise-thoughts.html",
+    "image": "https://scx1.b-cdn.net/csz/news/tmb/2021/food.jpg",
+    "stocks": []
+  },
+  {
+    "id": "704297f030ccca52",
+    "title": "摩托罗拉 Moto Tag 2 追踪器限时首发20美元",
+    "summary": "摩托罗拉在CES 2026发布的Moto Tag 2蓝牙追踪器已在美国上市，续航提升并支持UWB超宽带精准定位，限时首发价19.99美元。",
+    "body": "摩托罗拉于CES 2026上发布的Moto Tag 2蓝牙追踪器正式进入美国市场。该产品较上一代电池续航有所改善，并新增UWB超宽带感知功能，可实现更精确的物品追踪。目前该追踪器在摩托罗拉官网限时首发价19.99美元（原价29.99美元）。\n\n当前Android用户拥有多款蓝牙追踪器可选，Moto Tag 2凭借功能升级和更低的入门价格加入竞争。这一产品也反映了个人随身物品追踪、智能家居定位生态市场的持续角逐，对摩托罗拉及其母公司联想在消费电子配件领域的布局具有一定积极意义。",
+    "category": "消费电子",
+    "tags": [
+      "蓝牙追踪器",
+      "摩托罗拉",
+      "智能配件",
+      "消费电子"
+    ],
+    "source": "The Verge",
+    "time": "27分钟前",
+    "ts": "2026-06-30T13:38:23-04:00",
+    "url": "https://www.theverge.com/gadgets/959657/moto-tag-2-deal-sale",
+    "image": "",
+    "stocks": [
+      {
+        "name": "联想集团",
+        "ticker": "0992.HK",
+        "reason": "摩托罗拉为联想集团旗下品牌，Moto Tag 2上市有助于带动联想消费电子配件业务。",
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
+    "id": "d08d5be420256c04",
+    "title": "MIT圆桌：细胞“重编程”能否逆转衰老？",
+    "summary": "《MIT科技评论》举办圆桌讨论，聚焦“细胞重编程”这一抗衰老领域最热门方向，探讨其实验性疗法距离应用还有多远。",
+    "body": "不过，这些疗法仍高度处于实验阶段，距离安全、有效地应用于人体还有诸多未知。与会者探讨了技术可行性、伦理风险与商业化时间线，反映出生物医学在抗衰老赛道上的兴奋与谨慎并存。",
+    "category": "生物医药",
+    "tags": [
+      "抗衰老",
+      "细胞重编程",
+      "长寿科技",
+      "生物科技"
+    ],
+    "source": "MIT Tech Review",
+    "time": "29分钟前",
+    "ts": "2026-06-30T17:36:48+00:00",
+    "url": "https://www.technologyreview.com/2026/06/30/1139958/roundtables-longevitys-next-frontier-reprogramming-your-body/",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "d5f7bd1f6df8c5b5",
+    "title": "Anthropic推出Claude Science AI科研工作台",
+    "summary": "Anthropic正式上线AI科研工作台Claude Science，集成60余项预配置技能与工具，覆盖基因组学、蛋白质组学等领域，支持本地或远程计算环境。",
+    "body": "Anthropic宣布其AI科研工作台Claude Science正式上线beta版，面向Claude Pro、Max、Team和Enterprise用户开放。该平台整合常用科研工具与计算资源，提供超过60项预配置技能与连接器，覆盖基因组学、单细胞分析、蛋白质组学、结构生物学、化学信息学等方向，支持从文献分析到多步骤研究的全流程。用户可在macOS/Linux本地运行，也可通过SSH/HPC远程使用。Claude Science能生成包含代码和可复现环境的可审计成果，例如3D蛋白质结构、基因组浏览器轨迹，并内置reviewer agent自动检查引用与计算错误。此外，平台通过NVIDIA BioNeMo接入Evo 2、Boltz-2等生物AI模型，也支持连接自有模型与流程。该产品的推出意味着AI正在深入科学研究工作流，有望提升生物医学、化学等领域研发效率。",
+    "category": "人工智能",
+    "tags": [
+      "人工智能",
+      "AI科研",
+      "生命科学",
+      "Anthropic"
+    ],
+    "source": "AIHOT精选",
+    "time": "33分钟前",
+    "ts": "2026-06-30T17:32:06.724000+00:00",
+    "url": "https://www.anthropic.com/news/claude-science-ai-workbench",
+    "image": "",
+    "stocks": [
+      {
+        "name": "英伟达",
+        "ticker": "NVDA",
+        "reason": "Claude Science通过NVIDIA BioNeMo接入Evo 2、Boltz-2等生物AI模型，有望带动BioNeMo平台的使用需求。",
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
+    "id": "b799958215d97ed5",
+    "title": "Claude Code 解析智能体循环类型",
+    "summary": "Claude Code 团队将智能体循环定义为 agent 重复执行直到满足停止条件的过程，并归纳出 turn-based、goal-based、time-based 和 proactive 四种循环；通过 SKILL.md 文件可将人工验证步骤编码，让 Claude 实现端到端自检，减少手动操作。",
+    "body": "Claude Code 团队将智能体循环定义为 agent 重复工作直至满足停止条件的过程，并划分出四种主要类型：turn-based 循环由用户提示触发，Claude 自行判断任务完成或需要更多上下文；goal-based 循环通过 `/goal` 命令设定可验证完成标准与最大轮次；time-based 循环通过 `/loop` 按时间间隔重复执行，并可用 `/schedule` 将其迁移至云端运行；proactive 循环则基于事件或计划自动运行，无需实时人工参与。\n\n文章还介绍了如何编写 SKILL.md 文件，将人工验证步骤编码到工作流中，使 Claude 能够进行端到端自检，从而减少 turn-based 循环中的手动操作。\n\n这一工作细化了 AI 编码智能体的运行模式，提升了自主性和交互可靠性，也为 AI Agent 工作流的工程化落地提供了参考路径。",
+    "category": "人工智能",
+    "tags": [
+      "Claude Code",
+      "智能体",
+      "AI 编程",
+      "Agent 工作流"
+    ],
+    "source": "AIHOT精选",
+    "time": "37分钟前",
+    "ts": "2026-06-30T17:28:28.530000+00:00",
+    "url": "https://claude.com/blog/getting-started-with-loops",
+    "image": "",
+    "stocks": []
+  },
+  {
     "id": "af3d78ee10eec1d6",
     "title": "Netflix新真人秀采用AI生成吉恩·怀尔德语音",
     "summary": "Netflix新真人秀《旺卡的金票》预告片使用AI生成的已故演员吉恩·怀尔德语音旁白，引发AI在影视制作中应用及伦理争议的讨论。",
@@ -144,6 +410,51 @@ const newsData = [
     "ts": "2026-06-30T17:00:00+00:00",
     "url": "https://techcrunch.com/2026/06/30/anthropics-claude-science-bets-on-workflow-not-a-new-model-to-win-over-scientists/",
     "image": "",
+    "stocks": []
+  },
+  {
+    "id": "53f7e28dd46983f9",
+    "title": "Apple Creator Studio 获 AI 功能升级",
+    "summary": "苹果公司宣布为 Creator Studio 推出多项 AI 增强更新，Final Cut Pro 与 Logic Pro 均新增智能化功能，并加强与 Pixelmator Pro 的协同，订阅定价保持不变。",
+    "body": "苹果公司宣布为其面向专业创作者的一站式订阅服务 Apple Creator Studio 推送多项 AI 驱动更新。其中，Final Cut Pro 新增基于设备端 AI 的 Generate Captions 自动生成字幕和 Edit Detection 剪辑点检测功能，Mac 版本还加入 Auto Mask 自动主体遮罩、增强版 Match Color 和 Advanced Trimming 等工具；用户可将帧发送至 Pixelmator Pro 编辑，并直接在 Keynote、Pages、Numbers 中调用 Pixelmator Pro 修改图片。Logic Pro 则新增由格莱美获奖制作人制作的 Producer Project 以及改进后的 Chord ID 功能。该服务订阅价为 12.99 美元/月或 129 美元/年，新用户可免费试用一个月，教育用户定价 2.99 美元/月。",
+    "category": "人工智能",
+    "tags": [
+      "苹果",
+      "AI创作工具",
+      "视频剪辑",
+      "生产力软件"
+    ],
+    "source": "AIHOT精选",
+    "time": "1小时前",
+    "ts": "2026-06-30T16:59:24.233000+00:00",
+    "url": "https://www.apple.com/newsroom/2026/06/apple-creator-studio-gets-smarter-faster-and-more-connected",
+    "image": "",
+    "stocks": [
+      {
+        "name": "苹果公司",
+        "ticker": "AAPL",
+        "reason": "Creator Studio 的 AI 功能升级有助于增强 Mac 生态对专业创作者的吸引力并带动订阅收入。",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "baf16e70b0d9dc40",
+    "title": "特朗普用AI重.gov网站计划遭诟病",
+    "summary": "美国总统特朗普去年8月成立国家设计工作室（NDS），拟用人工智能在三年内重新设计约2.7万个政府网站。然而，由于时间紧、团队小，且DOGE裁撤了18F等技术部门，该计划推进受阻，并暴露出AI设计效果粗糙的问题。",
+    "body": "去年8月，特朗普通过行政命令成立国家设计工作室（NDS），该机构直接向总统汇报，类似于“政府效率部”（DOGE）。其任务是更新美国联邦网络设计系统（USWDS），并在三年内完成约2.7万个“.gov”政府网站的改版，即所谓“America by Design”倡议。\n\n特朗普原本期望，改版后的政府网站将拥有更美观、更易用的“设计语言”。但NNDS面临的任务体量巨大，且需在极短时间内完成。加上DOGE此前对政府技术部门进行大幅裁员，包括解散18F技术团队、重组美国数字服务局（USDS），让本就紧张的改版工作更加困难。结果是，依赖AI快速生成的新设计被指质量堪忧，国家设计工作室也不得不推迟更新政府网站标准的计划。",
+    "category": "人工智能",
+    "tags": [
+      "政府网站",
+      "AI设计",
+      "DOGE",
+      "数字治理"
+    ],
+    "source": "Ars Technica",
+    "time": "1小时前",
+    "ts": "2026-06-30T16:59:02+00:00",
+    "url": "https://arstechnica.com/tech-policy/2026/06/trumps-plan-to-redesign-every-gov-website-leads-to-ai-designed-horrors/",
+    "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/06/national-design-web-vomit-1152x648.jpg",
     "stocks": []
   },
   {
@@ -562,6 +873,25 @@ const newsData = [
         "confidence": "high"
       }
     ]
+  },
+  {
+    "id": "6c4b9e1b082c8033",
+    "title": "研究称美国2040年全面电动化可挽救超10万人生命",
+    "summary": "国际清洁交通委员会报告显示，若美国在2040年实现100%电动汽车化，可减少超过10万例过早死亡。",
+    "body": "国际清洁交通委员会（ICCT）近日发布报告，量化了美国道路交通全面电气化对公共健康的影响。报告指出，若到2040年美国实现100%电动汽车，将避免超过10万例过早死亡，主要受益来自减少重型柴油卡车和公交车排放的空气污染物。",
+    "category": "未来能源",
+    "tags": [
+      "电动汽车",
+      "空气污染",
+      "交通电气化",
+      "公共卫生"
+    ],
+    "source": "Ars Technica",
+    "time": "2小时前",
+    "ts": "2026-06-30T16:03:44+00:00",
+    "url": "https://arstechnica.com/cars/2026/06/the-us-going-100-ev-by-2040-would-save-more-than-100k-lives-study-says/",
+    "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/06/GettyImages-2208838235-1152x648.jpg",
+    "stocks": []
   },
   {
     "id": "633d8c1a6a857c89",
