@@ -1,5 +1,43 @@
 const newsData = [
   {
+    "id": "d841f4ca2b796067",
+    "title": "剖宫产与母亲过敏史增加子代过敏性鼻炎风险",
+    "summary": "国际期刊《国际小儿耳鼻咽喉科学杂志》在线发表的一项研究指出，剖宫产及母亲过敏性疾病史是子代发生过敏性鼻炎的独立危险因素，并具有协同效应。",
+    "body": "这项发表于《国际小儿耳鼻咽喉科学杂志》的研究显示，剖宫产（CS）和母亲过敏性疾病史（MHAD）与子代过敏性鼻炎（AR）风险升高相关。两种因素不仅独立增加风险，还可能协同放大影响。",
+    "category": "生物医药",
+    "tags": [
+      "过敏性鼻炎",
+      "剖宫产",
+      "过敏性疾病",
+      "儿科医学"
+    ],
+    "source": "MedicalXpress",
+    "time": "7分钟前",
+    "ts": "2026-06-30T16:40:22-04:00",
+    "url": "https://medicalxpress.com/news/2026-06-section-maternal-history-allergic-diseases.html",
+    "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/c-section-maternal-his.jpg",
+    "stocks": []
+  },
+  {
+    "id": "6b03f09617525e07",
+    "title": "DeepMind前三人组创办AI公司为对冲基金盈利",
+    "summary": "由三位前DeepMind研究人员创办的布拉格AI实验室EquiLibre Technologies，估值已超5亿美元，其扑克AI算法正用于量化对冲基金交易。",
+    "body": "EquiLibre Technologies由三位曾主导DeepMind扑克AI项目的科学家创立，总部位于布拉格。该公司将博弈论与强化学习技术用于量化投资，正在为对冲基金生成收益。报道称，该公司目前估值已超过5亿美元，并计划扩展对冲基金与自营交易业务。这体现了人工智能在复杂金融市场决策中的商业化潜力。",
+    "category": "人工智能",
+    "tags": [
+      "AI量化交易",
+      "DeepMind前团队",
+      "强化学习",
+      "对冲基金"
+    ],
+    "source": "TechCrunch",
+    "time": "14分钟前",
+    "ts": "2026-06-30T20:33:48+00:00",
+    "url": "https://techcrunch.com/2026/06/30/the-deepmind-trio-who-built-a-poker-ai-are-now-making-money-for-quant-hedge-funds/",
+    "image": "",
+    "stocks": []
+  },
+  {
     "id": "1bc5b90aae7fe384",
     "title": "加州3.83亿美元升级长滩港清洁基础设施",
     "summary": "美国加州港口与货运基础设施计划（PFIP）向长滩港提供创纪录的3.83亿美元拨款，用于创造约2.2万个清洁能源岗位，减少港口及货运排放，并建设更现代化、可持续的供应链。",
@@ -330,6 +368,25 @@ const newsData = [
     "ts": "2026-06-30T15:00:01-04:00",
     "url": "https://medicalxpress.com/news/2026-06-melatonin-ease-chronic-pain.html",
     "image": "https://scx1.b-cdn.net/csz/news/tmb/2024/pain-1.jpg",
+    "stocks": []
+  },
+  {
+    "id": "74fabce9f9fc4770",
+    "title": "AI正让我们失去个性",
+    "summary": "Hacker News上出现一篇讨论人工智能对个人独特性影响的文章，认为AI生成与推荐内容可能削弱人类的个体差异与表达多样性。",
+    "body": "Hacker News发布了一篇题为《AI Is Making Us Lose Our Individuality》的讨论，聚焦人工智能对人类个性的潜在影响。文章指出，随着AI模型在文本生成、内容推荐和交互中广泛应用，人们的表达方式、审美偏好乃至决策路径可能趋于同质化。\n\n这一现象引发了对“算法个性化”与“个体独特性”之间矛盾的反思：AI在提升效率的同时，也可能压缩人类多元文化与原创风格的空间，导致社会层面的表达趋同。\n\n尽管具体结论仍待探讨，该讨论提示，在AI大规模渗透日常生活的背景下，如何保护人类创造力与个性差异，将成为技术发展和伦理治理的重要议题。",
+    "category": "人工智能",
+    "tags": [
+      "人工智能",
+      "社会影响",
+      "算法同质化",
+      "个性保护"
+    ],
+    "source": "Hacker News",
+    "time": "1小时前",
+    "ts": "2026-06-30T18:56:00+00:00",
+    "url": "https://emmettbuckthompson.com/blog/ai-is-making-us-lose-our-individuality",
+    "image": "",
     "stocks": []
   },
   {
