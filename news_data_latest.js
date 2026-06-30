@@ -1,5 +1,95 @@
 const newsData = [
   {
+    "id": "af3d78ee10eec1d6",
+    "title": "Netflix新真人秀采用AI生成吉恩·怀尔德语音",
+    "summary": "Netflix新真人秀《旺卡的金票》预告片使用AI生成的已故演员吉恩·怀尔德语音旁白，引发AI在影视制作中应用及伦理争议的讨论。",
+    "body": "Netflix定于9月23日上线新真人秀《旺卡的金票》（Wonka's The Golden Ticket），其最新预告片的旁白确认为AI生成的已故演员吉恩·怀尔德（Gene Wilder）声音。尽管预告片中的场景为真实搭建，而非AI生成，但语音合成技术的应用已引发外界对影视制作中AI使用边界的关注。\n\n此举显示出流媒体平台正在将生成式AI用于内容配音、营销物料及经典IP再创作，有望降低制作成本并提升内容复用效率。然而，使用逝者声音及AI生成语音也涉及肖像权、伦理与观众接受度等问题，其行业影响仍有待观察。",
+    "category": "人工智能",
+    "tags": [
+      "人工智能",
+      "流媒体",
+      "AIGC",
+      "语音合成"
+    ],
+    "source": "The Verge",
+    "time": "1分钟前",
+    "ts": "2026-06-30T13:24:34-04:00",
+    "url": "https://www.theverge.com/streaming/959684/netflix-wonka-golden-ticket-gene-wilder",
+    "image": "",
+    "stocks": [
+      {
+        "name": "奈飞",
+        "ticker": "NFLX",
+        "reason": "公司在新真人秀宣传中采用AI生成语音，探索AI在内容制作与营销的应用，或降低制作成本",
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
+    "id": "dd1b4a316389301d",
+    "title": "冷冻电镜揭示牙菌斑形成机制",
+    "summary": "研究人员利用冷冻电镜解析了牙龈卟啉单胞菌形成牙菌斑的关键机制，为理解牙周病的发病原理提供了新线索。",
+    "body": "牙周病是全球最常见的疾病之一，主要由牙龈卟啉单胞菌引起。仅在日本，30岁及以上成年人中约有80%受影响或被认为处于患病风险之中。本项研究借助冷冻电镜技术，在分子水平上观察细菌表面蛋白结构，揭示了牙菌斑形成的关键机制。该发现有助于深入理解牙周病的发病机理，并可能为未来的预防和治疗方法提供科学依据。",
+    "category": "生物医药",
+    "tags": [
+      "冷冻电镜",
+      "牙周病",
+      "口腔微生物",
+      "生物医学"
+    ],
+    "source": "MedicalXpress",
+    "time": "6分钟前",
+    "ts": "2026-06-30T13:20:08-04:00",
+    "url": "https://medicalxpress.com/news/2026-06-cryo-em-mechanisms-dental-plaque.html",
+    "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/cryo-em-helps-identify.jpg",
+    "stocks": []
+  },
+  {
+    "id": "122df0ef839ecbae",
+    "title": "研究显示老年人可借智能手表准确判断认知状态",
+    "summary": "一项利用智能手表的新研究表明，老年人能够实时准确地评估自己的思维敏捷度，其自评结果与实际认知表现高度吻合。",
+    "body": "该研究通过智能手表采集的数据发现，老年人在日常生活中对自身认知状态的即时判断具有较高的准确性。参与者的自评认知敏锐度分数与其在该时刻的实际认知测试表现高度一致。这一发现提示可穿戴设备有望成为监测认知健康的低成本、常态化工具，对早期发现认知衰退和推动数字医疗应用具有积极意义。不过，研究未涉及具体产品或商业合作。",
+    "category": "生物医药",
+    "tags": [
+      "智能手表",
+      "数字医疗",
+      "认知健康",
+      "老年健康"
+    ],
+    "source": "MedicalXpress",
+    "time": "6分钟前",
+    "ts": "2026-06-30T13:20:01-04:00",
+    "url": "https://medicalxpress.com/news/2026-06-smartwatch-older-adults-accurately-mental.html",
+    "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/smartwatch-study-finds-1.jpg",
+    "stocks": []
+  },
+  {
+    "id": "af92f13a24dd2ae4",
+    "title": "ADK Go 2.0 发布，强化多智能体应用工作流引擎",
+    "summary": "Google 发布面向 Go 语言的 Agent Development Kit 2.0，新增基于图的工作流引擎、人工参与循环与动态编排能力，旨在帮助开发者构建更可靠的多智能体应用。",
+    "body": "Google 正式发布 Agent Development Kit（ADK）for Go 2.0，为开发者提供了一套面向复杂多智能体应用的全新工作流引擎。该引擎基于图结构，支持将多个智能体组合成可编排的流程，并内置人工参与循环（HITL），方便在关键节点引入人工审核与干预。同时，新版本支持纯 Go 代码的动态执行，并具备指数退避重试等自动弹性机制，以提升运行可靠性。\n\n此次更新的核心在于统一执行模型：无论是单智能体应用还是复杂的多智能体图结构，均可在同一运行时上运行。这一设计简化了遥测、状态持久化与调试过程，有助于企业级 AI 应用更稳定地落地。ADK Go 2.0 的推出进一步降低了多智能体系统的开发门槛，也反映出 Google 在 AI Agent 基础设施方向的持续投入。",
+    "category": "人工智能",
+    "tags": [
+      "多智能体",
+      "AI开发工具",
+      "Google",
+      "Agent"
+    ],
+    "source": "AIHOT精选",
+    "time": "8分钟前",
+    "ts": "2026-06-30T17:17:40.302000+00:00",
+    "url": "https://developers.googleblog.com/announcing-adk-go-20",
+    "image": "",
+    "stocks": [
+      {
+        "name": "Alphabet（谷歌）",
+        "ticker": "GOOGL",
+        "reason": "ADK 为 Google 推出的 Agent 开发工具，新版本强化其 AI Agent 平台能力，利好云与 AI 生态。",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
     "id": "16922bc70fa1b44b",
     "title": "血液生物标志物有望评估抑郁症心理治疗反应",
     "summary": "西班牙巴塞罗那生物医学研究所等机构的研究首次提供证据，表明心理疗法可引发生物学刺激，其分子反应可通过血液中的生物标志物检测。该发现有望为抑郁症个体化心理治疗提供客观评估工具。",
@@ -53,6 +143,44 @@ const newsData = [
     "time": "12分钟前",
     "ts": "2026-06-30T17:00:00+00:00",
     "url": "https://techcrunch.com/2026/06/30/anthropics-claude-science-bets-on-workflow-not-a-new-model-to-win-over-scientists/",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "614a4209303d55b9",
+    "title": "Debian现Xsnow\"抗议软件\"引供应链安全关注",
+    "summary": "开源Linux发行版Debian中的Xsnow软件被指包含\"protestware\"性质内容，再次引发对开源软件供应链安全及维护者行为的讨论。",
+    "body": "Xsnow是一款在桌面显示雪花动画的轻量级程序。据报道，在Debian软件仓库中，该软件被打上了\"protestware\"标签，意指其上游或打包过程中可能嵌入了带有政治、社会抗议意图的代码或信息。这类事件反映出开源生态依赖社区维护者，一旦软件包被加入超出预期功能的成分，可能对大量依赖Debian及其衍生发行版的企业和开发者造成信任与供应链风险。业界普遍认为，应加强对开源组件的审计与依赖管理，以降低类似隐患。",
+    "category": "网络安全",
+    "tags": [
+      "开源软件",
+      "供应链安全",
+      "Debian",
+      "Linux"
+    ],
+    "source": "Hacker News",
+    "time": "31分钟前",
+    "ts": "2026-06-30T16:54:41+00:00",
+    "url": "https://lwn.net/SubscriberLink/1079385/3d7a57da58b41aa9/",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "ea75cbc697c15137",
+    "title": "shot-scraper 1.10 支持 AI Agent 自动录制浏览器演示视频",
+    "summary": "shot-scraper 1.10 新增的 video 命令可通过 storyboard.yml 编排浏览器操作并由 Playwright 录制视频，其详细的 --help 输出还能让编码型 AI 智能体直接调用生成演示视频。",
+    "body": "shot-scraper 1.10 发布，新增 shot-scraper video 命令。用户可通过 storyboard.yml 文件定义浏览器操作步骤，并借助 Playwright 的录制能力生成视频。该功能依赖 Playwright 1.61.0 新增的 screencast 机制，解决了此前视频开头出现白帧、宽度固定为 800 像素等问题。\n\n开发者 Simon Willison 在博客中展示了为 Datasette 自动生成演示视频的过程：从粘贴的 CSV/TSV/JSON 数据创建新表。他强调，只要命令行工具的 --help 输出足够详细，编码型 AI 智能体就能直接调用该命令生成演示视频。\n\n这一更新为开源文档、产品演示和自动化测试提供了更灵活的视频生成方式，也体现了 AI 智能体在调用开发者工具链、加速内容生产方面的潜力。",
+    "category": "人工智能",
+    "tags": [
+      "AI 智能体",
+      "自动化工具",
+      "Playwright",
+      "开发者工具"
+    ],
+    "source": "AIHOT精选",
+    "time": "31分钟前",
+    "ts": "2026-06-30T16:54:26+00:00",
+    "url": "https://simonwillison.net/2026/Jun/30/shot-scraper-video",
     "image": "",
     "stocks": []
   },
