@@ -1,5 +1,43 @@
 const newsData = [
   {
+    "id": "6f944b274ff2a9d3",
+    "title": "TechnoMile入选Forrester合同管理知名厂商",
+    "summary": "AI合同管理公司TechnoMile被纳入Forrester 2026年第二季度合同生命周期管理平台格局报告，体现了其在AI驱动的合同、合规与增长一体化解决方案中的竞争力。",
+    "body": "TechnoMile是一家提供增长、合同、合规与安全一体化工作流的AI解决方案供应商。该公司宣布被纳入Forrester发布的《合同生命周期管理平台格局，2026年第二季度》报告中的知名厂商名单。Forrester的此类报告通常被采购方和行业观察者用作评估供应商能力与定位的重要参考。入选意味着TechnoMile在AI合同管理与合规流程自动化领域获得了第三方权威认可，可能有助于其拓展企业客户并提升市场影响力。不过，该新闻未披露具体的财务数据或业务规模。",
+    "category": "人工智能",
+    "tags": [
+      "AI应用",
+      "合同生命周期管理",
+      "企业软件",
+      "Forrester"
+    ],
+    "source": "SpaceNews",
+    "time": "2分钟前",
+    "ts": "2026-06-30T22:21:20+00:00",
+    "url": "https://spacenews.com/technomile-recognized-among-notable-vendors-in-contract-lifecycle-management-platforms-landscape-report/",
+    "image": "https://i0.wp.com/spacenews.com/wp-content/uploads/2026/06/technomile-logo-square.png?fit=1024%2C1024&amp;ssl=1",
+    "stocks": []
+  },
+  {
+    "id": "05c6db08ff1ec251",
+    "title": "研究：减肥手术对重度肥胖青少年具有成本效益",
+    "summary": "发表于《JAMA Network Open》的研究显示，对重度肥胖青少年而言，Roux-en-Y胃旁路术和袖状胃切除术与不手术相比均具有成本效益。",
+    "body": "《JAMA Network Open》在线发表的一项研究指出，对重度肥胖青少年而言，Roux-en-Y胃旁路术和袖状胃切除术在成本效益上均优于不进行手术。研究通过卫生经济学评估，比较了两种减重手术与保守治疗在长期健康收益和医疗成本方面的差异。\n\n结果表明，这两种手术虽然前期费用较高，但可通过减少肥胖相关并发症、改善生活质量而降低长期医疗支出，因此被视为具有成本效益的干预手段。该结论可为青少年重度肥胖的临床决策和医保政策提供参考依据。",
+    "category": "生物医药",
+    "tags": [
+      "减重手术",
+      "青少年肥胖",
+      "卫生经济学",
+      "临床决策"
+    ],
+    "source": "MedicalXpress",
+    "time": "3分钟前",
+    "ts": "2026-06-30T18:20:01-04:00",
+    "url": "https://medicalxpress.com/news/2026-06-roux-en-gastric-bypass-sleeve.html",
+    "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/rygb-sleeve-gastrectom.jpg",
+    "stocks": []
+  },
+  {
     "id": "4f3192c47baa7141",
     "title": "亚马逊支付225万美元和解FTC身份盗窃案",
     "summary": "美国联邦贸易委员会指控亚马逊未能遵守《公平信用报告法》中有关身份盗窃防范的要求，亚马逊同意支付225万美元以达成和解。",
