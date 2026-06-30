@@ -64,6 +64,25 @@ const newsData = [
     "stocks": []
   },
   {
+    "id": "4d42b485af689f3c",
+    "title": "Anthropic 发布 Sonnet 5，称其最智能体化",
+    "summary": "Anthropic 推出新一代大模型 Sonnet 5，在推理、工具使用、编码和知识工作等任务上较前代显著提升，并即日起成为 Claude Free 与 Pro 用户的默认模型。该模型已在 Claude Code 和 API 上线，同时公布了限时促销定价。",
+    "body": "Anthropic 正式发布 Sonnet 5，称其为迄今为止最智能体化（agentic）的 Sonnet 系列模型。根据官方说法，Sonnet 5 的整体性能已接近更高端的 Opus 4.8，在推理、工具调用、编程和复杂知识工作等场景中进步明显。即日起，该模型成为 Claude Free 和 Pro 用户的默认模型，并已同步在 Claude Code 与 API 中提供。定价方面，Sonnet 5 推出限时促销：输入 2 美元/百万 token、输出 10 美元/百万 token，优惠持续至 8 月 31 日，之后标准价为输入 3 美元/百万 token、输出 15 美元/百万 token。安全性方面，Sonnet 5 较 Sonnet 4.6 的幻觉率和奉承率更低，网络保护默认开启。不过 Anthropic 也强调，在处理严肃网络任务时，Opus 系列仍更胜一筹。",
+    "category": "人工智能",
+    "tags": [
+      "Anthropic",
+      "Claude",
+      "大模型",
+      "AI Agent"
+    ],
+    "source": "AIHOT精选",
+    "time": "19分钟前",
+    "ts": "2026-06-30T18:06:44+00:00",
+    "url": "https://x.com/kimmonismus/status/2072019015577333804",
+    "image": "",
+    "stocks": []
+  },
+  {
     "id": "0f764e9bc764237a",
     "title": "Anthropic 发布 Claude Sonnet 5",
     "summary": "Anthropic 发布最新 Claude Sonnet 5 模型，具备计划、浏览器与终端工具使用能力，性能接近 Opus 4.8 但定价更低，在推理、编程和知识工作等智能体能力上较前代显著提升。",
