@@ -1,5 +1,81 @@
 const newsData = [
   {
+    "id": "4fb995be999fb2bf",
+    "title": "脑机接口识别植物人隐藏意识",
+    "summary": "英国巴斯大学研究团队展示了一种新方案，通过脑机接口识别严重脑损伤后无法言语或运动的患者是否存在隐藏意识。",
+    "body": "英国巴斯大学研究团队展示了一项新方法，可利用脑机接口（BCI）识别严重脑损伤后无法说话或移动的患者是否存在“隐藏意识”。该技术通过读取神经信号，绕过传统行为观察的局限，帮助医生更准确地判断患者的意识状态。\n\n传统意识评估依赖患者能否对外界刺激做出动作反应，但对于运动功能完全丧失的人群，这种判断容易出现误判。脑机接口提供了一种直接的神经信号检测手段，有望为重症监护、神经康复和临床诊断带来新的工具。\n\n如果后续研究能够进一步成熟并转化为临床方案，该方法或将在神经科学、康复医学和危重患者管理中产生深远影响，同时推动脑机接口在医疗诊断领域的应用拓展。",
+    "category": "脑机接口",
+    "tags": [
+      "脑机接口",
+      "神经科技",
+      "数字医疗",
+      "意识检测"
+    ],
+    "source": "MedicalXpress",
+    "time": "1分钟前",
+    "ts": "2026-06-30T17:00:06-04:00",
+    "url": "https://medicalxpress.com/news/2026-06-braincomputer-interface-hidden-awareness-unresponsive.html",
+    "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/using-brain-technology.jpg",
+    "stocks": []
+  },
+  {
+    "id": "cc556f3fdaff0aab",
+    "title": "AI进入护理需护士监督，守护患者安全",
+    "summary": "明尼苏达大学护理学院研究指出，AI在护理领域的快速推广必须由护士主动监管，才能保障患者安全并维护护理行业整体、共情的核心价值观。",
+    "body": "明尼苏达大学护理学院的一项研究指出，人工智能在护理领域的快速普及需要护士的积极参与和监督，以确保患者安全并维护护理专业所秉持的整体性、共情化照护等核心价值。研究强调，在自动化技术不断推进的背景下，护士的意见对于保持以患者为中心的护理至关重要。该观点意味着，AI虽可辅助医疗护理，但其设计、实施与评估仍应由一线护理人员主导，以防止技术削弱人文关怀并造成潜在风险。",
+    "category": "人工智能",
+    "tags": [
+      "人工智能",
+      "护理",
+      "数字医疗",
+      "患者安全"
+    ],
+    "source": "MedicalXpress",
+    "time": "1分钟前",
+    "ts": "2026-06-30T17:00:04-04:00",
+    "url": "https://medicalxpress.com/news/2026-06-ai-nurse-nurses-vital-patient.html",
+    "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/nurse-1.jpg",
+    "stocks": []
+  },
+  {
+    "id": "f893f3a8fc3dc9b7",
+    "title": "NASA考虑将核动力火星车备份模型送至月球",
+    "summary": "NASA官员透露，正认真考虑将毅力号火星车的全尺寸工程备份模型“Promise”送上月球，以加快月球南极探测；该车将搭载多任务放射性同位素热电发电机，在月夜和复杂地形中运行。",
+    "body": "据英国《Ars Technica》报道，美国国家航空航天局（NASA）局长贾里德·艾萨克曼在月度更新中表示，NASA正在认真考虑将存放在加州喷气推进实验室（JPL）的毅力号（Perseverance）火星车全尺寸工程模型送往月球。这辆昵称为“Promise”的汽车大小测试车此前并未安排发射任务，若成行将搭载多任务放射性同位素热电发电机（MMRTG）作为动力源，以便在月球复杂地形和漫长月夜中持续运行。\n\n目前NASA的其他月球探测器主要依赖太阳能，难以在月夜和极地阴影区长期工作。核动力漫游车可大幅提升月面机动与持续探测能力，对月球南极水冰资源勘探和阿尔忒弥斯登月计划具有潜在意义。不过，该计划仍处于考虑阶段，尚未公布具体任务时间表与实施细节。",
+    "category": "商业航天",
+    "tags": [
+      "NASA",
+      "月球探测",
+      "核动力漫游车",
+      "深空探测"
+    ],
+    "source": "Ars Technica",
+    "time": "11分钟前",
+    "ts": "2026-06-30T20:50:14+00:00",
+    "url": "https://arstechnica.com/space/2026/06/nasa-may-send-a-backup-nuclear-powered-mars-rover-to-the-moon/",
+    "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/06/jpegPIA24528-1-1152x648.jpg",
+    "stocks": []
+  },
+  {
+    "id": "3e6579549c6a106d",
+    "title": "开发者将Kubernetes部分移植到浏览器运行",
+    "summary": "ngrok开发者Sam Rose发布名为webernetes的项目，将Kubernetes部分组件用TypeScript重写，可在浏览器内模拟集群运行，体积仅约140KB。",
+    "body": "Sam Rose在博客中介绍，他花两个月时间把Kubernetes的kubelet、调度器、部署控制器、kube-proxy等核心组件部分移植到TypeScript，推出了webernetes。该项目并非把Kubernetes编译为WebAssembly，而是重写了一套轻量实现，可在浏览器里模拟Pod生命周期、集群DNS、网络通信、IP分配、Deployment与ReplicaSet管理等真实Kubernetes行为。为了控制体积，webernetes不拉取真实镜像，而是通过模拟容器运行来满足演示和学习需求。\n\nwebernetes项目的核心价值在于降低Kubernetes学习门槛，让开发者无需本地搭建完整集群即可在浏览器中体验Kubernetes的工作原理。虽然它主要用于教育与演示，但也展示了将复杂分布式系统轻量化和浏览器化的可能性，对云原生工具的可访问性和前端化探索具有一定参考意义。",
+    "category": "AI 基础设施",
+    "tags": [
+      "Kubernetes",
+      "云原生",
+      "浏览器",
+      "WebAssembly"
+    ],
+    "source": "Hacker News",
+    "time": "13分钟前",
+    "ts": "2026-06-30T20:48:36+00:00",
+    "url": "https://ngrok.com/blog/i-ported-kubernetes-to-the-browser",
+    "image": "",
+    "stocks": []
+  },
+  {
     "id": "d841f4ca2b796067",
     "title": "剖宫产与母亲过敏史增加子代过敏性鼻炎风险",
     "summary": "国际期刊《国际小儿耳鼻咽喉科学杂志》在线发表的一项研究指出，剖宫产及母亲过敏性疾病史是子代发生过敏性鼻炎的独立危险因素，并具有协同效应。",
@@ -101,6 +177,25 @@ const newsData = [
     "stocks": []
   },
   {
+    "id": "3ebb844fcd1fc212",
+    "title": "现代长寿科学研究遭质疑",
+    "summary": "一篇标题为《现代长寿科学出了问题》的文章引发关注，对当前抗衰老与长寿研究领域提出质疑。",
+    "body": "该文章标题指出，现代长寿科学研究可能存在某些方向性、方法学或结论可靠性方面的问题。作者对当前抗衰老领域的研究现状提出质疑，暗示该领域可能需要更严谨的审视。这一观点引发业界对长寿科学研发路径与成果可信度的讨论。",
+    "category": "生物医药",
+    "tags": [
+      "长寿科学",
+      "生物医药",
+      "抗衰老研究",
+      "生命科学"
+    ],
+    "source": "Hacker News",
+    "time": "44分钟前",
+    "ts": "2026-06-30T20:17:21+00:00",
+    "url": "https://www.newyorker.com/magazine/2026/07/06/morbid-saul-justin-newman-book-review-eat-your-ice-cream-ezekiel-j-emanuel",
+    "image": "",
+    "stocks": []
+  },
+  {
     "id": "06a0c8572a0b33ee",
     "title": "美国最高法院将审理苹果与Epic Games上诉案",
     "summary": "美国最高法院将听取苹果与Epic Games之间长期诉讼中苹果提出的上诉。该案起因于苹果未能遵守一项与App Store费用相关的法院命令，被判藐视法庭。",
@@ -151,6 +246,44 @@ const newsData = [
         "confidence": "high"
       }
     ]
+  },
+  {
+    "id": "567f176876552a34",
+    "title": "Claude Sonnet 5 基准测试结果引发关注",
+    "summary": "Hacker News 上出现一篇关于 Anthropic Claude Sonnet 5 基准测试结果的帖子，获得 11 点赞和 2 条评论，反映开发者社区对该模型性能的关注。",
+    "body": "该帖文标题为《Claude Sonnet 5 – benchmark results》，涉及 Anthropic 新一代 Claude Sonnet 5 模型的评测表现。由于原文片段未提供文章链接和评论链接，具体测试分数与维度尚不明确。帖子在 Hacker News 上获得 11 点投票并产生 2 条评论，显示出开发者社区对 Anthropic 模型迭代及 benchmark 横向对比的持续关注。作为人工智能基础模型赛道的重要动态，该结果或为用户选型与行业竞争格局提供参考。",
+    "category": "人工智能",
+    "tags": [
+      "大模型",
+      "Claude",
+      "基准测试",
+      "Anthropic"
+    ],
+    "source": "Hacker News",
+    "time": "52分钟前",
+    "ts": "2026-06-30T20:09:25+00:00",
+    "url": "https://artificialanalysis.ai/models/claude-sonnet-5",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "dadf7c46ca6f4df8",
+    "title": "新攻击揭示AI浏览器的安全隐忧",
+    "summary": "研究人员发现，通过向大语言模型灌输错误事实，可诱使AI浏览器绕过安全护栏并执行危险指令。这一攻击凸显了AI代理在自动浏览和操作网页时的深层风险。",
+    "body": "近日公布的一项研究表明，AI浏览器（由大语言模型驱动的浏览代理）存在严重安全漏洞。攻击者只需在网页中植入类似“2+2=5”的虚假前提，就能让模型陷入“替代现实”，从而忽略原本禁止其行为的安全护栏，进而被指使执行窃取凭据、导出密码管理器数据、从私有代码仓库提取代码等破坏性操作。\n\n目前，LLM开发者主要通过设置护栏来限制危险请求，例如拒绝编写恶意软件或制作武器的指导。但研究人员指出，这种防御方式是被动且治标不治本的：它没有解决模型本身易受操控的根本问题，相当于汽车厂商不去修复车辆缺陷，而是要求重新设计道路。\n\n该研究为AI浏览器热潮敲响警钟。尽管厂商宣传其可一键完成订餐厅、发邮件、约会议等复杂任务，但一旦将浏览网页与LLM指令执行深度结合，用户就面临提示注入、现实混淆和权限滥用的多重威胁，亟需更根本的模型安全与访问控制方案。",
+    "category": "人工智能",
+    "tags": [
+      "AI浏览器",
+      "提示注入",
+      "LLM安全",
+      "AI代理"
+    ],
+    "source": "Ars Technica",
+    "time": "58分钟前",
+    "ts": "2026-06-30T20:03:14+00:00",
+    "url": "https://arstechnica.com/security/2026/06/ai-browsers-can-be-lulled-into-a-dream-world-where-guardrails-no-longer-apply/",
+    "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/06/broken-ai-robot-browser-404-1152x648.jpg",
+    "stocks": []
   },
   {
     "id": "c0328f39dca2e5e0",
