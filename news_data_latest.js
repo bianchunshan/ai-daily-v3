@@ -1,5 +1,24 @@
 const newsData = [
   {
+    "id": "310850f328aef56a",
+    "title": "华为乾崑ADS Max优惠到期，明起恢复3.6万元标准价",
+    "summary": "华为乾崑智驾ADS Max高阶功能包限时优惠价（一次性购买3.2万元）将于6月30日到期，自7月1日起恢复3.6万元标准价，并公布不同下单时间的保障与服务权益期限。",
+    "body": "据华为乾崑智能汽车解决方案官方消息，乾崑智驾ADS Max高阶功能包限时优惠价（一次性购买32000元）将于2026年6月30日到期。自2026年7月1日起，该功能包恢复标准售价，一次性购买价格为36000元。同时，官方明确了不同下单时间的保障与服务权益：2026年7月1日前已一次性购买的用户可享受1年ADS高阶包保障与服务权益；7月1日至12月31日期间下单的用户，最高可享受3年相关权益。此次价格调整及权益规则的明确，是华为在智能驾驶商业化变现与用户体验之间进行的常规运营策略调整，也反映了其在高阶智驾软件服务定价体系上的持续梳理。",
+    "category": "机器人",
+    "tags": [
+      "华为",
+      "智能驾驶",
+      "ADS Max",
+      "自动驾驶"
+    ],
+    "source": "IT之家",
+    "time": "15分钟前",
+    "ts": "2026-06-30T13:01:07+00:00",
+    "url": "https://www.ithome.com/0/970/749.htm",
+    "image": "https://img.ithome.com/newsuploadfiles/2026/6/3dd8488f-572e-4729-9504-814293ed51bc.jpg?x-bce-process=image/format,f_auto",
+    "stocks": []
+  },
+  {
     "id": "94f9ff4b3c0b32df",
     "title": "中微公司拟出资14.7亿元设半导体投资基金",
     "summary": "中微公司全资子公司中微临港拟参与设立私募投资基金，认缴出资不超过14.7亿元，基金将聚焦半导体、泛半导体及战略新兴领域投资。",
@@ -24,6 +43,170 @@ const newsData = [
         "confidence": "high"
       }
     ]
+  },
+  {
+    "id": "074a2d827c885524",
+    "title": "新发现生物标志物或助力莱姆病早期诊断与治疗",
+    "summary": "塔夫茨大学医学院的研究发现，抗脂质抗体有望成为莱姆病的新型生物标志物，有助于在早期关键窗口期更准确地检测感染，并可能区分活动性感染与既往感染。",
+    "body": "莱姆病在早期阶段最容易治疗，但现有检测方法常常在关键窗口期漏诊，且无法判断多年后体内是否仍有细菌残留。塔夫茨大学医学院主导的新研究表明，一类被称为抗脂质抗体的免疫分子有望弥补这些不足。研究人员指出，这些新发现的生物标志物未来可能帮助临床医生更早发现莱姆病，并为评估治疗效果、判断感染是否已清除提供依据。如果后续研究顺利，该发现可能推动莱姆病诊断和治疗手段的革新。",
+    "category": "生物医药",
+    "tags": [
+      "莱姆病",
+      "生物标志物",
+      "诊断技术"
+    ],
+    "source": "MedicalXpress",
+    "time": "16分钟前",
+    "ts": "2026-06-30T09:00:04-04:00",
+    "url": "https://medicalxpress.com/news/2026-06-newfound-biomarkers-clinicians-possibly-lyme.html",
+    "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/moving-toward-better-t.jpg",
+    "stocks": []
+  },
+  {
+    "id": "0087619cebf7553d",
+    "title": "美研究团队开发仿人眼机器人手术摄像头",
+    "summary": "佛罗里达大学研究团队开发出一种模仿人眼运动的机器人手术摄像头，有望改善腹腔镜手术中的成像稳定性，并可能应用于机器人月球建设等极端环境作业。",
+    "body": "佛罗里达大学土木与海岸工程系副教授李帅（Shuai Li）及其团队开发了一种模仿人眼运动的机器人手术摄像头。该技术借鉴人眼在头部运动中保持目标注视的能力，旨在提升腹腔镜手术等微创操作的成像稳定性与视野清晰度。\n\n研究人员认为，这种仿生视觉系统可实时追踪并稳定手术画面，有望减轻医生操作负担，提高手术精度。同时，其应用场景还可能延伸至机器人月球建设等需要远程视觉引导的极端环境工程作业。\n\n该研究将微创医疗与太空机器人建设联系起来，体现了仿生视觉技术在医疗和工程领域的跨界应用潜力，但相关成果尚未披露具体的商业化或临床推进时间表。",
+    "category": "生物医药",
+    "tags": [
+      "手术机器人",
+      "医疗影像",
+      "腹腔镜",
+      "仿生视觉"
+    ],
+    "source": "MedicalXpress",
+    "time": "16分钟前",
+    "ts": "2026-06-30T09:00:01-04:00",
+    "url": "https://medicalxpress.com/news/2026-06-robotic-surgical-cameras-mimic-human.html",
+    "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/laparoscopy.jpg",
+    "stocks": []
+  },
+  {
+    "id": "b8cb07f64f3b1b32",
+    "title": "商业空间站开发商Vast任命Isakowitz为高级顾问",
+    "summary": "商业空间站开发商Vast任命前The Aerospace Corp.总裁兼首席执行官Isakowitz为高级顾问，以协助公司推进商业空间站项目并等待NASA下一阶段计划的进展。",
+    "body": "Vast是一家致力于商业空间站开发的私营航天企业，近日宣布聘请前The Aerospace Corp.总裁兼首席执行官Isakowitz担任高级顾问。\n\n该任命正值Vast等待NASA近地轨道商业目的地项目下一阶段结果之际，Isakowitz在政府与航天工业领域的丰富经验，有望帮助公司加强与NASA及国防航天体系的联系。\n\n业内人士认为，引入资深顾问有助于提升Vast的技术信誉与项目管理能力，为其未来商业空间站的在轨部署与运营奠定基础。",
+    "category": "商业航天",
+    "tags": [
+      "商业航天",
+      "Vast",
+      "NASA",
+      "顾问任命"
+    ],
+    "source": "SpaceNews",
+    "time": "16分钟前",
+    "ts": "2026-06-30T13:00:00+00:00",
+    "url": "https://spacenews.com/vast-names-isakowitz-as-a-senior-adviser/",
+    "image": "https://i0.wp.com/spacenews.com/wp-content/uploads/2026/01/haven1-integration.jpeg?fit=1024%2C683&amp;ssl=1",
+    "stocks": []
+  },
+  {
+    "id": "cb87a2337e5e0997",
+    "title": "科学家首次系统探讨载人登陆土卫六泰坦计划",
+    "summary": "2026年“人类登陆土卫六峰会”在美国科罗拉多州博尔德举行，科学家们首次系统研究将土卫六泰坦作为火星之后人类深空探测下一站的可行性、挑战与所需技术。",
+    "body": "据Space.com报道，为期两天的“2026年人类登陆土卫六峰会”于6月11日至12日在科罗拉多州博尔德召开。这是首次围绕载人登陆土卫六泰坦议题的专家聚会，与会科学家认真探讨了将这颗土星最大卫星作为“火星之后”人类探索目的地的长远前景。\n\n研究者评估了该任务可能面临的艰巨需求，并梳理了推进这一雄心目标所需的下一步工作，讨论议题涵盖航天服、交通方式等关键领域。行星科学研究所主任阿曼达·亨德里克斯表示，虽然实现载人登泰坦仍很遥远，但让这一想法常态化有助于人类在火星之后保持深空探索的动力。",
+    "category": "商业航天",
+    "tags": [
+      "载人航天",
+      "深空探测",
+      "土卫六",
+      "商业航天"
+    ],
+    "source": "Space.com",
+    "time": "16分钟前",
+    "ts": "2026-06-30T13:00:00+00:00",
+    "url": "https://www.space.com/astronomy/saturn/titan-is-actually-a-very-reasonable-destination-for-humans-scientists-start-mapping-out-crewed-mission-to-huge-saturn-moon",
+    "image": "https://cdn.mos.cms.futurecdn.net/eDUW6JdPcC5NaQVTwfsGm4-1280-80.jpg",
+    "stocks": []
+  },
+  {
+    "id": "f3f3b08580104feb",
+    "title": "Shark推出三合一可变形态吸尘器",
+    "summary": "清洁电器品牌Shark发布PowerDetect Transformer新款吸尘器，可在三种形态间切换，以满足不同场景的清洁需求。",
+    "body": "近日，Shark推出新款PowerDetect Transformer吸尘器。该产品能够变换为三种不同形态，旨在提升家庭清洁的灵活性与覆盖范围。作为SharkNinja旗下的知名清洁电器品牌，Shark此次新品发布有助于丰富其智能家居产品线，并可能增强其在吸尘器市场的竞争力。",
+    "category": "消费电子",
+    "tags": [
+      "智能家居",
+      "清洁电器",
+      "消费电子"
+    ],
+    "source": "Engadget",
+    "time": "16分钟前",
+    "ts": "2026-06-30T13:00:00+00:00",
+    "url": "https://www.engadget.com/2204742/shark-powerdetect-transformer-vacuum/",
+    "image": "https://www.engadget.com/img/gallery/sharks-new-powerdetect-transformer-turns-into-three-different-types-of-vacuum/l-intro-1782820297.jpg",
+    "stocks": [
+      {
+        "name": "SharkNinja",
+        "ticker": "SN",
+        "reason": "公司旗下Shark品牌推出三合一吸尘器新品，有望带动清洁电器业务销售",
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
+    "id": "05e7a867e3fa4eda",
+    "title": "印度供应商遭黑客攻击，iPhone 18 Pro 机密外泄",
+    "summary": "黑客从苹果印度供应商Tata Electronics处窃取了涉及iPhone 18 Pro的文件与照片，这一供应链安全事件可能令苹果新品保密及上市计划承压。",
+    "body": "据报道，苹果在印度的供应商Tata Electronics遭到黑客攻击，相关文件与照片被窃，涉及尚未发布的iPhone 18 Pro。此次泄露可能让外界提前获悉新机的工程设计、外观或规格细节。\n\n由于Tata Electronics是苹果供应链的重要环节，该事件也暴露了高端消费电子供应链的数据安全风险。目前尚不清楚泄露规模及对苹果的具体影响，但类似安全事件可能损害苹果的保密文化、干扰新品发布节奏，并引发对供应商安全体系的审查。\n\n该事件再次提醒跨国科技巨头，在将制造环节分散至印度等新兴市场的同时，需加强对关键供应商的网络安全防护。",
+    "category": "网络安全",
+    "tags": [
+      "网络安全",
+      "消费电子",
+      "供应链安全",
+      "苹果"
+    ],
+    "source": "Al Jazeera",
+    "time": "19分钟前",
+    "ts": "2026-06-30T12:57:31+00:00",
+    "url": "https://www.aljazeera.com/news/2026/6/30/apple-iphone-18-pro-secrets-leaked-in-tata-electronics-hack-what-we-know?traffic_source=rss",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "ca1b9a25216b8e25",
+    "title": "萝卜快跑名誉维权胜诉，传媒公司被判赔偿致歉",
+    "summary": "北京互联网法院一审判决济南我又火了文化传媒有限公司诽谤、侮辱萝卜快跑，侵权方已赔偿损失并公开致歉。该判决已生效，法院认定涉案内容捏造散布虚假事实。",
+    "body": "6月30日，萝卜快跑法务部发布声明称，萝卜快跑起诉济南我又火了文化传媒有限公司网络侵权责任纠纷一案已获北京互联网法院一审判决，且判决已生效。法院审理认定，该传媒公司发布“无人网约车是全世界最大的骗局”等言论，捏造、散布虚假事实，构成诽谤；并使用“资本家的狐狸尾巴”等贬损性言语，构成侮辱。相关言论降低了萝卜快跑的社会评价，损害其商誉，侵犯其名誉权。\n\n目前，侵权方已履行生效判决，赔偿损失并在人民法院公告网公开发布致歉声明。萝卜快跑表示将坚决依法维权，并响应有关部门要求，共同营造清朗网络空间。此案对自动驾驶运营企业的网络维权与商誉保护具有一定示范意义。",
+    "category": "机器人",
+    "tags": [
+      "萝卜快跑",
+      "自动驾驶",
+      "百度",
+      "网络侵权"
+    ],
+    "source": "IT之家",
+    "time": "23分钟前",
+    "ts": "2026-06-30T12:53:26+00:00",
+    "url": "https://www.ithome.com/0/970/746.htm",
+    "image": "https://img.ithome.com/newsuploadfiles/2026/6/d3a9b104-7161-4de3-9df9-107b9970d32f.png?x-bce-process=image/format,f_auto",
+    "stocks": [
+      {
+        "name": "百度集团",
+        "ticker": "BIDU",
+        "reason": "萝卜快跑是百度旗下自动驾驶出行平台，胜诉有助于维护其品牌声誉与业务公信力。",
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
+    "id": "1926e01662fb9feb",
+    "title": "AI评测平台Arena企业级服务ARR破亿美元",
+    "summary": "AI模型评测平台Arena宣布，其面向企业的AI Evaluations服务上线8个月，年度经常性收入已突破1亿美元，标志着其商业变现路径初步跑通。",
+    "body": "Arena前身为加州大学伯克利分校2023年启动的AI模型评测研究项目LMArena，早期通过免费让用户对比AI模型输出来积累用户，并据此生成大模型排行榜，该榜单已成为业界观察大模型能力的重要风向标之一。\n\n2025年4月，Arena正式公司化运作，并于同年9月推出面向企业的商业产品“AI Evaluations”。该产品利用真人反馈数据，帮助客户评估模型在真实业务场景中的表现，直观展示各模型的优势与短板，并提供可追溯的测试样本与服务等级协议（SLA），以辅助模型选型、优化与迭代。\n\n目前，AI Evaluations上线仅8个月，年度经常性收入已突破1亿美元（约合人民币6.8亿元），表明Arena已初步验证可持续商业模式。不过，同领域平台Yupp虽吸引超130万用户，却因未能找到足够的产品市场契合点于今年3月停止运营，显示AI评测平台商业化仍面临分化。",
+    "category": "人工智能",
+    "tags": [
+      "AI模型评测",
+      "Arena",
+      "AI Evaluations",
+      "商业变现"
+    ],
+    "source": "IT之家",
+    "time": "27分钟前",
+    "ts": "2026-06-30T12:49:46+00:00",
+    "url": "https://www.ithome.com/0/970/745.htm",
+    "image": "https://img.ithome.com/newsuploadfiles/2026/6/ab3c85e8-cd18-4840-b6b4-bed48e30aecb.png?x-bce-process=image/format,f_auto",
+    "stocks": []
   },
   {
     "id": "03b4610079911236",
@@ -58,6 +241,32 @@ const newsData = [
     ]
   },
   {
+    "id": "7e5c3a57ea0c0509",
+    "title": "松下推进储能供应链美国本土化，将在堪萨斯工厂产储能电芯",
+    "summary": "松下电器CEO楠见雄规表示，公司正推进储能系统美国供应链本土化，计划在堪萨斯州工厂生产面向数据中心供应的储能电芯，力争在2029年3月底前实现批量出货。",
+    "body": "松下电器首席执行官楠见雄规在东京圆桌访谈中透露，公司正在推进储能系统美国供应链本土化，计划在其堪萨斯州工厂生产储能电芯，目标客户为数据中心。他表示，松下的储能客户大多集中在美国，在美国本土构建完整供应链具备现实意义。\n\n据松下此前披露，其能源业务板块的堪萨斯州工厂计划在2029年3月结束的财年内批量生产专供数据中心使用的电芯。该工厂目前也为特斯拉生产动力电池。由于美国电动汽车市场需求疲软，越来越多车企和电池企业正改造电池工厂转产储能设备，以承接人工智能产业带来的电力需求激增。\n\n楠见雄规同时表示，松下暂无生产磷酸铁锂（LFP）电池的计划，认为该路线更适合大型集中式后备储能，而公司主打分布式储能设备，用于平衡单台服务器的用电峰值。他还称，尽管中日关系紧张，但松下并未面临中国原材料供货短缺问题。",
+    "category": "未来能源",
+    "tags": [
+      "储能",
+      "数据中心",
+      "电池",
+      "AI电力"
+    ],
+    "source": "IT之家",
+    "time": "32分钟前",
+    "ts": "2026-06-30T12:44:15+00:00",
+    "url": "https://www.ithome.com/0/970/744.htm",
+    "image": "https://img.ithome.com/newsuploadfiles/2026/6/a36edb9c-0c7f-4550-ad69-bb8fc5083a2f.jpg?x-bce-process=image/format,f_auto",
+    "stocks": [
+      {
+        "name": "松下控股",
+        "ticker": "6752.T",
+        "reason": "松下推进储能系统美国本土化，堪萨斯工厂将批量生产数据中心专用电芯，有望受益于AI数据中心电力需求增长",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
     "id": "7a8ef29a35a152fd",
     "title": "无毒生物制剂可防范莱姆病，或将成为日常商品",
     "summary": "美国德克萨斯大学圣安东尼奥分校的研究人员正在开发一种无毒生物制剂，用于预防莱姆病，未来可能在大型家居超市上市销售。",
@@ -74,6 +283,25 @@ const newsData = [
     "ts": "2026-06-30T08:40:01-04:00",
     "url": "https://medicalxpress.com/news/2026-06-toxic-lyme-disease-everyday.html",
     "image": "https://scx1.b-cdn.net/csz/news/tmb/2023/lyme-disease.jpg",
+    "stocks": []
+  },
+  {
+    "id": "33509abf3ae3fca8",
+    "title": "BIGME 大我 HiBreak Dual 2 彩色墨水屏手机定价 699 美元起",
+    "summary": "BIGME 大我宣布“全球首款大双屏彩色墨水屏手机”HiBreak Dual 2 在 Kickstarter 开启众筹，早早鸟价 699 美元起，搭载联发科天玑 8300 芯片与安卓 16 系统。",
+    "body": "BIGME 大我近日公布了 HiBreak Dual 2 的众筹价格，并上线 Kickstarter 页面。该机主打“大双屏”设计，正面配备 6.13 英寸彩色墨水屏，背面配备 5 英寸 LCD 屏，同时支持手写笔。核心硬件上，手机采用联发科天玑 8300 芯片，支持 5G 网络，并内置安卓 16 系统。\n\n这款产品在定价上分多档：早早鸟 699 美元（约 4756 元人民币）起，标准版与专属版分别为 899 美元和 989 美元起。作为目前少见的彩色墨水屏手机，HiBreak Dual 2 试图在阅读护眼、移动办公与日常智能体验之间寻找差异化定位，面向电子纸爱好者和需要长时间阅读、批注的用户。",
+    "category": "消费电子",
+    "tags": [
+      "墨水屏手机",
+      "彩色电子纸",
+      "众筹",
+      "消费电子"
+    ],
+    "source": "IT之家",
+    "time": "39分钟前",
+    "ts": "2026-06-30T12:37:32+00:00",
+    "url": "https://www.ithome.com/0/970/742.htm",
+    "image": "https://img.ithome.com/newsuploadfiles/2026/6/e1f13e8e-6dbe-4638-8bd7-a79353cc137d.jpg?x-bce-process=image/format,f_auto",
     "stocks": []
   },
   {
@@ -1191,6 +1419,32 @@ const newsData = [
         "name": "苹果",
         "ticker": "AAPL",
         "reason": "iOS生态与Apple Wallet在硬件集成和用户触达上占优",
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
+    "id": "35ae3621d4c5ef4f",
+    "title": "Zluda 6发布：非英伟达GPU可运行CUDA应用",
+    "summary": "开源CUDA兼容层项目Zluda发布第六个版本，支持在未修改的情况下让CUDA应用运行于非英伟达GPU，有助于打破CUDA生态对英伟达硬件的绑定。",
+    "body": "据Hacker News消息，Zluda 6已发布。该开源项目提供一个CUDA兼容层，使原本为英伟达GPU编写的CUDA应用程序能够在非英伟达GPU上直接运行，无需修改源代码。这一进展降低了CUDA软件向其他硬件平台迁移的门槛，对AMD等GPU厂商具有积极意义。不过，Zluda 6目前仍属第三方开源方案，其在性能、稳定性以及对复杂CUDA特性的完整支持上仍需持续观察。",
+    "category": "AI 基础设施",
+    "tags": [
+      "CUDA",
+      "GPU",
+      "开源软件",
+      "异构计算"
+    ],
+    "source": "Hacker News",
+    "time": "2小时前",
+    "ts": "2026-06-30T10:34:25+00:00",
+    "url": "https://vosen.github.io/ZLUDA/blog/zluda-update-q1q2-2026/",
+    "image": "",
+    "stocks": [
+      {
+        "name": "AMD",
+        "ticker": "AMD",
+        "reason": "Zluda兼容层主要使AMD等非英伟达GPU能够运行CUDA应用，降低软件生态迁移门槛",
         "confidence": "medium"
       }
     ]
