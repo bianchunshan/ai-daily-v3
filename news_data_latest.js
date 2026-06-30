@@ -1,5 +1,214 @@
 const newsData = [
   {
+    "id": "374fd69c9f68782a",
+    "title": "谷歌发布Nano Banana 2 Lite：图像生成更快更便宜",
+    "summary": "谷歌推出名为Nano Banana 2 Lite的图像生成模型，主打更快、更低成本的AI图像生成，以吸引内容创作者使用其AI创作工具。",
+    "body": "谷歌发布了Nano Banana 2 Lite图像生成器，对其图像生成工具进行速度与成本优化，使其成为创作者制作AI内容时更高效、更经济的工具。此举有望降低生成式AI图像的使用门槛，提升谷歌在AI内容创作领域的竞争力。更快、更便宜的图像生成能力也可能带动谷歌云及创作者生态相关产品的采用，对生成式AI商业化应用具有积极意义。",
+    "category": "人工智能",
+    "tags": [
+      "图像生成",
+      "生成式AI",
+      "谷歌",
+      "AI应用"
+    ],
+    "source": "TechCrunch",
+    "time": "6分钟前",
+    "ts": "2026-06-30T19:02:38+00:00",
+    "url": "https://techcrunch.com/2026/06/30/google-introduces-a-faster-cheaper-image-generator-with-nano-banana-2-lite/",
+    "image": "",
+    "stocks": [
+      {
+        "name": "字母表",
+        "ticker": "GOOGL",
+        "reason": "该图像生成器由谷歌推出，有助于增强其生成式AI产品矩阵与创作者生态，利好母公司Alphabet。",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "5a87c79a90546935",
+    "title": "研究发现褪黑素或可缓解慢性疼痛",
+    "summary": "悉尼大学新研究表明，广泛用于治疗失眠的褪黑素补充剂可能有助于减少人们对常见且潜在有害止痛药物的依赖，为慢性疼痛管理提供新思路。",
+    "body": "悉尼大学的一项新研究发现，褪黑素这种常用于治疗失眠的睡眠补充剂，可能有助于缓解慢性疼痛，并减少人们对部分常见且潜在有害止痛药物的依赖。研究提示，褪黑素在疼痛调节机制中可能发挥作用，为慢性疼痛患者提供了一种潜在的非药物干预方向。不过，该发现目前仍处于研究阶段，相关机制与临床效果尚需进一步验证，距离广泛应用还有一定距离。",
+    "category": "生物医药",
+    "tags": [
+      "褪黑素",
+      "慢性疼痛",
+      "药物研究",
+      "悉尼大学"
+    ],
+    "source": "MedicalXpress",
+    "time": "9分钟前",
+    "ts": "2026-06-30T15:00:01-04:00",
+    "url": "https://medicalxpress.com/news/2026-06-melatonin-ease-chronic-pain.html",
+    "image": "https://scx1.b-cdn.net/csz/news/tmb/2024/pain-1.jpg",
+    "stocks": []
+  },
+  {
+    "id": "fd18d3e1b800e174",
+    "title": "瑞士试点：铁路轨道间可铺设光伏板",
+    "summary": "瑞士一项试点项目证明，可在铁路轨道之间低成本部署光伏板，为太阳能开发开辟大量此前被忽视的土地，同时不影响列车运行。",
+    "body": "寻找适合建设光伏电站的土地一直是太阳能行业面临的难题之一，农田、露天停车场和屋顶各有优缺点。此次瑞士试点项目将目光投向了铁路轨道之间的狭长空间，发现这里竟是隐藏的大量低成本可利用土地。\n\n项目结果表明，光伏板与铁路运营可以共存，列车正常通行不会受到明显影响。这一模式如果推广，有望显著缓解光伏用地紧张问题，减少与农业、城市建设之间的土地竞争，并为铁路基础设施提供额外收益。\n\n虽然大规模应用仍需考虑不同轨道类型、安全间距、维护通道以及各地区监管标准，但铁路走廊作为“隐形”土地资源，为可再生能源扩容提供了新的可行路径。",
+    "category": "未来能源",
+    "tags": [
+      "太阳能",
+      "铁路光伏",
+      "土地综合利用",
+      "可再生能源"
+    ],
+    "source": "Electrek",
+    "time": "22分钟前",
+    "ts": "2026-06-30T18:46:21+00:00",
+    "url": "https://electrek.co/2026/06/30/solar-gets-railed-clever-swiss-pilot-proves-pv-panels-and-trains-can-coexist/",
+    "image": "https://electrek.co/wp-content/uploads/sites/3/2026/06/SUNWAYS_MAIN.jpg?quality=82&#038;strip=all&#038;w=1600",
+    "stocks": []
+  },
+  {
+    "id": "cc91b86adc164455",
+    "title": "个性化“盘中疾病”模型有望改善慢性胰腺炎治疗",
+    "summary": "全球约300万人饱受慢性胰腺炎困扰，目前该病无治愈手段且难以改变病程。研究显示，个性化“盘中疾病”模型有望为患者制定更精准的治疗方案。",
+    "body": "慢性胰腺炎是一种胰腺长期发炎、结疤并伴有疼痛的疾病，全球约300万人受其影响。目前该病尚无治愈方法，且一旦发病很难逆转病程。\n研究人员指出，利用患者细胞在体外构建的个性化“盘中疾病”模型，可以帮助揭示个体发病机制、测试潜在药物反应，从而改善胰腺炎患者的诊疗路径。不过，该技术距离临床大规模应用仍需更多验证。",
+    "category": "生物医药",
+    "tags": [
+      "慢性胰腺炎",
+      "个性化医疗",
+      "类器官",
+      "疾病模型"
+    ],
+    "source": "MedicalXpress",
+    "time": "29分钟前",
+    "ts": "2026-06-30T14:40:06-04:00",
+    "url": "https://medicalxpress.com/news/2026-06-personalized-disease-dish-pancreatitis-patient.html",
+    "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/can-a-personalized-dis-1.jpg",
+    "stocks": []
+  },
+  {
+    "id": "3662cd405918697d",
+    "title": "工作记忆如何神秘地产生意识",
+    "summary": "一项神经科学新研究探讨工作记忆与意识的关系，试图解释人们走进房间却突然忘记来意的常见现象背后的大脑机制。",
+    "body": "走进一个房间却瞬间忘记自己为何而来——这一日常体验可能揭示了意识与工作记忆之间的深层联系。科学家正研究大脑如何在工作记忆中短暂保存信息，以及这一过程如何神秘地促成主观意识体验的产生。该研究有助于深化人类对意识神经基础的理解，未来可能为类脑计算、神经调控及相关脑科学应用提供新思路。",
+    "category": "脑机接口",
+    "tags": [
+      "意识",
+      "工作记忆",
+      "神经科学"
+    ],
+    "source": "MedicalXpress",
+    "time": "29分钟前",
+    "ts": "2026-06-30T14:40:01-04:00",
+    "url": "https://medicalxpress.com/news/2026-06-consciousness-memory-mysteriously.html",
+    "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/memory.jpg",
+    "stocks": []
+  },
+  {
+    "id": "78fbee3a7d7937a4",
+    "title": "美日军队在澳大利亚内陆训练意欲何为",
+    "summary": "BBC记者报道，美国和日本士兵正在远离当前主要冲突的澳大利亚内陆偏远地区进行联合军事训练，引发外界对三国军事同盟部署的关注。",
+    "body": "据BBC报道，美国与日本士兵正在澳大利亚内陆偏远地区开展联合训练。澳大利亚并未处于战争状态，且距离当前主要冲突地区数千公里，但三国仍选择在此进行兵力部署与演练。这一动向反映出美日澳防务合作持续深化，也显示出相关国家在亚太及印太地区强化安全布局、应对潜在地缘风险的战略意图。",
+    "category": "地缘科技",
+    "tags": [
+      "军事训练",
+      "美日澳同盟",
+      "印太安全"
+    ],
+    "source": "BBC World",
+    "time": "31分钟前",
+    "ts": "2026-06-30T18:37:59+00:00",
+    "url": "https://www.bbc.co.uk/news/videos/cyv09p2vy87o?at_medium=RSS&at_campaign=rss",
+    "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6c44/live/e0849d80-744c-11f1-b1db-af71d47507d6.jpg",
+    "stocks": []
+  },
+  {
+    "id": "a6d00f07a038b113",
+    "title": "谷歌发布Nano Banana 2 Lite图像模型：最快最便宜",
+    "summary": "Google DeepMind推出Nano Banana 2 Lite图像模型，可在数秒内生成图像，成本与速度优于旗舰模型，但小文字和人物一致性仍存不足。",
+    "body": "Google DeepMind发布了迄今最快、最便宜的图像生成模型Nano Banana 2 Lite，其正式名称为Gemini 3.1 Flash Lite Image。该模型已集成至Google生态，可在更短时间内生成图像，适合快速构思和原型验证。官方称，Arena.ai的Elo评分显示，用户对Nano Banana 2 Lite的满意度接近非Lite版本，但在小字文本、信息图数据准确性和人物一致性方面表现较弱。",
+    "category": "人工智能",
+    "tags": [
+      "人工智能",
+      "图像生成",
+      "谷歌",
+      "Gemini"
+    ],
+    "source": "Ars Technica",
+    "time": "33分钟前",
+    "ts": "2026-06-30T18:36:10+00:00",
+    "url": "https://arstechnica.com/ai/2026/06/googles-new-nano-banana-2-lite-image-model-is-its-fastest-and-cheapest-yet/",
+    "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/06/Nano-Banana-2-Lite-1152x648.jpg",
+    "stocks": [
+      {
+        "name": "谷歌-A",
+        "ticker": "GOOGL",
+        "reason": "低成本、快速的图像模型有望加速Gemini生态及Google Cloud/广告等应用的普及与采用",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "2bff031b8f708947",
+    "title": "Clicks复古键盘手机真机上手视频曝光",
+    "summary": "Clicks发布其新款Communicator智能手机的最终量产版上手视频，该产品采用类似黑莓的实体键盘设计，并支持运行现代应用。",
+    "body": "据外媒TechCrunch报道，Clicks公司近日发布了一段新款Clicks Communicator智能手机的上手视频，展示了该设备的最终量产版本。这款手机采用类似黑莓（BlackBerry）的实体键盘设计，同时能够运行现代应用程序，定位为融合经典输入体验与当下应用生态的移动端。该产品主要面向怀念物理键盘输入体验、又不愿放弃现代应用的用户群体，若顺利上市，有望为日趋同质化的智能手机市场带来差异化选择。",
+    "category": "消费电子",
+    "tags": [
+      "智能手机",
+      "实体键盘",
+      "Clicks",
+      "黑莓"
+    ],
+    "source": "TechCrunch",
+    "time": "34分钟前",
+    "ts": "2026-06-30T18:34:22+00:00",
+    "url": "https://techcrunch.com/2026/06/30/clicks-shows-off-its-blackberry-inspired-phone-in-a-new-hands-on-video/",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "e3dfdd001d3c426e",
+    "title": "Cursor iOS安装会不可逆切换用户隐私模式",
+    "summary": "有用户反映，安装并登录Cursor iOS应用后，其账户被从“Legacy隐私模式”不可逆切换为新版隐私模式，后者可能允许存储代码数据，且客服确认当前无法回退。",
+    "body": "近日，一名用户在Hacker News发文称，安装Cursor iOS应用后，其长期开启的“Privacy Mode (Legacy)”（即“不存储我的代码”）被自动切换为新版Privacy Mode。该模式在条款中允许“代码可能因后台代理或其他功能而被存储”，而旧模式在应用菜单中已消失，无法恢复。该用户联系Cursor客服后，对方承认在移动应用设置过程中，启用Cloud Agents的提示未明确说明会切换隐私模式，且目前无法将账户回退至旧模式。事件引发了对AI代码编辑器隐私政策透明度与用户数据控制权的关注。",
+    "category": "网络安全",
+    "tags": [
+      "Cursor",
+      "隐私安全",
+      "AI编程",
+      "iOS应用"
+    ],
+    "source": "Hacker News",
+    "time": "35分钟前",
+    "ts": "2026-06-30T18:33:59+00:00",
+    "url": "https://news.ycombinator.com/item?id=48737226",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "5f8e5e67a33291a3",
+    "title": "特斯拉挖角英特尔17年老将执掌Terafab芯片厂",
+    "summary": "特斯拉任命一位在英特尔任职17年的制造高管为奥斯汀芯片工厂“Terafab”负责人，这是该项目首个公开的领导层任命；其曾主导英特尔先进18A工艺的设备安装与产能爬坡。",
+    "body": "特斯拉已经从英特尔挖来一位拥有17年制造经验的高管，任命其为奥斯汀芯片工厂“Terafab”的负责人。这是特斯拉雄心勃勃的奥斯汀晶圆厂项目首次公开的命名领导层任命。该高管本月入职特斯拉，此前负责英特尔最先进18A工艺的设备安装和产能爬坡。\n\n这一任命表明特斯拉正在加速推进其自主芯片制造能力。18A是英特尔最先进的制程节点之一，相关设备安装和量产爬坡经验正是特斯拉内部缺乏的关键能力。\n\n如果特斯拉能够成功建设并运营自有晶圆厂，将有助于降低对外部晶圆代工的依赖，为其FSD芯片等自研芯片提供更具保障的产能，并强化其在垂直整合供应链中的优势。",
+    "category": "半导体与先进制造",
+    "tags": [
+      "特斯拉",
+      "晶圆厂",
+      "半导体制造",
+      "自研芯片"
+    ],
+    "source": "Electrek",
+    "time": "37分钟前",
+    "ts": "2026-06-30T18:31:24+00:00",
+    "url": "https://electrek.co/2026/06/30/tesla-intel-veteran-terafab-director/",
+    "image": "https://electrek.co/wp-content/uploads/sites/3/2026/03/Tesla-SpaceX-terafab-e1774190764202.jpeg?quality=82&#038;strip=all&#038;w=1600",
+    "stocks": [
+      {
+        "name": "特斯拉",
+        "ticker": "TSLA",
+        "reason": "该高管将直接负责特斯拉自研芯片厂的建设与运营，有望补强其先进制程产能爬坡能力，降低对外代工依赖。",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
     "id": "7748c9fb30faac7b",
     "title": "关节置换手术应减少抗生素使用",
     "summary": "医学研究指出，髋关节和膝关节置换术后存在假体周围感染风险，临床或应重新评估围术期抗生素使用策略，以平衡疗效与耐药性风险。",
