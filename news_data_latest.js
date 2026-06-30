@@ -1,5 +1,50 @@
 const newsData = [
   {
+    "id": "eb5e156d2d56dd57",
+    "title": "开源智能体应用 OpenClaw 登陆 Android 与 iOS",
+    "summary": "免费开源的 agentic 程序 OpenClaw 已正式推出 Android 和 iOS 版本，用户可在手机端使用。",
+    "body": "OpenClaw 是一款免费开源的 agentic 程序，此前未覆盖移动平台。此次其 Android 和 iOS 版本上线，标志着该应用正式进入手机端。\n\n作为开源项目，OpenClaw 登陆移动端有助于降低智能体应用的使用门槛，吸引更多开发者和普通用户参与，也可能推动手机端 AI 智能体生态的发展。不过，目前公开信息有限，其实际功能与商业模式仍需进一步观察。",
+    "category": "人工智能",
+    "tags": [
+      "开源软件",
+      "智能体",
+      "移动应用",
+      "人工智能"
+    ],
+    "source": "TechCrunch",
+    "time": "9分钟前",
+    "ts": "2026-06-30T21:53:28+00:00",
+    "url": "https://techcrunch.com/2026/06/30/openclaw-is-finally-available-on-android-and-ios/",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "6a2b5ab7ed6f9c6a",
+    "title": "Meta开源非侵入式脑扫描系统可读句子",
+    "summary": "Meta公布一项非侵入式脑扫描系统，可从大脑活动中解码句子，并已开源相关代码。",
+    "body": "据报道，Meta研发出一款非侵入式脑扫描系统，能够在不植入设备的情况下读取大脑活动并解码完整句子。该系统所对应的代码已对外开源，有望推动神经科技与脑机接口研究的进一步发展。这一进展或为语言障碍辅助、人机交互等应用提供新的技术路径，但距离临床或消费级落地仍需后续验证。",
+    "category": "脑机接口",
+    "tags": [
+      "脑机接口",
+      "神经科技",
+      "Meta",
+      "开源"
+    ],
+    "source": "Hacker News",
+    "time": "33分钟前",
+    "ts": "2026-06-30T21:29:13+00:00",
+    "url": "https://ai.meta.com/blog/brain2qwerty-brain-ai-human-communication/?_fb_noscript=1",
+    "image": "",
+    "stocks": [
+      {
+        "name": "Meta Platforms",
+        "ticker": "META",
+        "reason": "Meta是研发并开源该脑扫描系统的公司，直接受益于神经科技领域的技术突破与关注度提升。",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
     "id": "b23d609dc0f80e8d",
     "title": "Anthropic发布Sonnet 5模型，专攻企业Agent任务",
     "summary": "Anthropic推出新版Sonnet 5模型，重点提升Agentic任务执行能力，旨在解决企业客户与高阶用户在高频自动化任务中面临的效率与成本痛点。",
