@@ -1,5 +1,292 @@
 const newsData = [
   {
+    "id": "5b9cd0fabb906ede",
+    "title": "谷歌发布Gemini Omni多模态AI创作工具",
+    "summary": "谷歌在I/O开发者大会上发布基于Gemini模型家族的全新AI创作工具，其中Gemini Omni支持文本、图像、音频和视频输入，并能通过自然语言对话式编辑生成视频内容。",
+    "body": "谷歌在2025年I/O开发者大会上宣布了一系列面向开发者的AI创作工具升级，核心依托最新的Gemini模型家族。新发布的Gemini Omni是一款多模态模型，能够理解并处理文本、图像、音频和视频等多种输入，并生成连贯的视频内容。其突出特点是支持对话式编辑，用户只需用自然语言描述需求，如更换角色、调整光线或改变场景，模型即可自动完成编辑，从而降低多媒体内容创作门槛并提升效率。\n\n这一发布进一步丰富了谷歌在生成式AI领域的产品矩阵，也反映出多模态内容生成正成为AI应用竞争的重要方向。Gemini Omni的能力有望吸引内容创作者、广告商和开发者使用谷歌云服务及相关工具，强化其在AI应用生态中的影响力。",
+    "category": "人工智能",
+    "tags": [
+      "人工智能",
+      "多模态模型",
+      "Gemini",
+      "AI创作"
+    ],
+    "source": "36氪",
+    "time": "刚刚",
+    "ts": "2026-06-30T23:38:52.281938+00:00",
+    "url": "https://36kr.com/newsflashes/3876293824737544?f=rss",
+    "image": "",
+    "stocks": [
+      {
+        "name": "Alphabet",
+        "ticker": "GOOGL",
+        "reason": "谷歌母公司，Gemini Omni多模态创作工具有望增强其AI应用与云服务吸引力。",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "ced1a26072f096fb",
+    "title": "Anthropic推出Claude Science AI科研工作台",
+    "summary": "Anthropic正式发布面向科学家的Claude Science AI工作台，将分散的科研工具整合到统一环境中，由AI代理完成端到端分析并由审核代理校验引文与计算结果。这是Anthropic在科研领域最深度的布局，也为其IPO冲刺争夺付费客户。",
+    "body": "Anthropic于周二发布Claude Science，这是一款专为科学家设计的AI工作台。它试图把分散的科研工具整合进统一环境，让AI代理能够端到端地运行分析，并由专门的审核代理检查引文和计算结果，以减少科研流程中的错误与重复劳动。\n\n这一产品标志着Anthropic在科研垂直领域的最深布局。通过向科学家和研究机构提供付费工作流，Anthropic希望在商业化与IPO前夕扩大企业客户基础，并提升其AI产品的实际应用价值。",
+    "category": "人工智能",
+    "tags": [
+      "Anthropic",
+      "Claude",
+      "AI科研",
+      "AI代理"
+    ],
+    "source": "36氪",
+    "time": "刚刚",
+    "ts": "2026-06-30T23:38:50.330212+00:00",
+    "url": "https://36kr.com/newsflashes/3876290199089153?f=rss",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "694c22e2282b0178",
+    "title": "机器学习筛选出两种新型超导材料",
+    "summary": "芬兰阿尔托大学领导的国际团队利用机器学习与量子理论相结合的新方法，从海量材料组合中筛选出两种新型超导材料，显著提升了超导材料发现效率，为探索室温超导体提供了新的技术路径。",
+    "body": "芬兰阿尔托大学领导的国际科研团队开发出一种结合机器学习与量子理论的新方法，成功从海量材料组合中筛选出两种新型超导材料。该方法大幅提升了超导材料的发现效率，为寻找室温超导体提供了新的技术路径。\n\n超导材料在能源传输、磁悬浮、医疗成像和量子计算等领域具有重要应用价值，但传统材料筛选方法成本高、周期长。机器学习与量子理论的结合能够快速预测材料特性，有望加速新型超导材料的研发进程。\n\n相关论文已于29日发表于《物理评论研究》杂志。业内认为，这项技术在基础材料科学与前沿产业应用之间架起桥梁，对未来能源、量子科技及先进制造业或将产生深远影响。",
+    "category": "新材料",
+    "tags": [
+      "超导材料",
+      "机器学习",
+      "材料科学",
+      "量子科技"
+    ],
+    "source": "36氪",
+    "time": "刚刚",
+    "ts": "2026-06-30T23:38:49.136611+00:00",
+    "url": "https://36kr.com/newsflashes/3876292099387654?f=rss",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "2467bb8c9b4dac7e",
+    "title": "剑桥大学太阳能反应器户外将废塑料制氢",
+    "summary": "英国剑桥大学科学家在户外真实环境中，首次展示利用太阳能反应器将废塑料转化为清洁氢燃料的技术。相关研究成果发表于《自然·化学工程》杂志。",
+    "body": "英国剑桥大学科学家在一项最新研究中，首次在户外真实环境中展示了利用太阳能反应器将塑料废物转化为清洁氢燃料的过程。此前，该团队开发的太阳能反应器已能在实验室条件下将塑料废物转化为清洁氢气和高价值工业化学品，但此次户外验证标志着该技术从实验室走向实际应用的关键一步。研究人员表示，这一进展为太阳能驱动塑料回收制氢技术的商业化奠定了坚实基础，有望为未来清洁能源生产和废弃物处理提供新路径。",
+    "category": "未来能源",
+    "tags": [
+      "太阳能",
+      "氢能",
+      "废塑料回收",
+      "清洁能源"
+    ],
+    "source": "36氪",
+    "time": "刚刚",
+    "ts": "2026-06-30T23:38:46.691748+00:00",
+    "url": "https://36kr.com/newsflashes/3876291470569475?f=rss",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "5cdff67ebb62fe34",
+    "title": "三星预告超宽新款折叠屏手机",
+    "summary": "三星电子对外发布预告，暗示将推出一款屏幕比例更宽的新型折叠屏设备，引发外界对其下一代折叠手机形态的猜测。",
+    "body": "据外媒报道，三星近日在预告中暗示将推出一款“超宽”的全新折叠屏手机。目前官方尚未公布具体规格、命名及发布时间，但“更宽”的屏幕比例可能意味着折叠态更接近传统手机、展开态更接近平板体验。\n\n若该设计最终落地，或将改变现有折叠屏手机的屏幕长宽比，并提升多任务处理与内容消费体验。市场普遍猜测，这款产品可能与三星下一代Galaxy Z Fold系列有关，或将进一步加剧折叠屏赛道的竞争。",
+    "category": "消费电子",
+    "tags": [
+      "三星",
+      "折叠屏手机",
+      "智能手机"
+    ],
+    "source": "Engadget",
+    "time": "8分钟前",
+    "ts": "2026-06-30T23:30:00+00:00",
+    "url": "https://www.engadget.com/2205289/samsung-teases-wide-as-hell-new-foldable/",
+    "image": "https://www.engadget.com/img/gallery/samsung-teases-wide-as-hell-new-foldable/l-intro-1782845648.jpg",
+    "stocks": [
+      {
+        "name": "三星电子",
+        "ticker": "005930.KS",
+        "reason": "公司为新折叠屏手机的制造商与品牌方，直接受益新品发布。",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "a4cbebccf187a04a",
+    "title": "微软将宣布新一轮裁员，Xbox业务受波及",
+    "summary": "据《商业内幕》报道，微软计划近期宣布新一轮裁员，涉及数千人，覆盖销售、咨询及Xbox游戏业务。此举旨在压缩成本，同时公司继续加大对AI的投入。",
+    "body": "知情人士称，微软准备在近期宣布新一轮裁员，以进一步控制成本。本轮调整预计影响数千个岗位，范围包括销售、咨询和Xbox游戏业务，但裁员人数不会超过微软22万名员工总数的2.5%。微软暂定下周公布消息，具体时间仍可能调整，部分受影响员工或将立即获得内部转岗机会。\n\n微软过去常在7月1日新财年开始前后进行人员调整。去年5月和7月，该公司已合计裁员约1.5万人，今年早些时候还面向美国员工推出自愿退休计划，约三分之一的符合条件员工接受了补偿方案，使本轮裁员比例得以低于去年。\n\n新任Xbox业务CEO阿莎·夏尔马此前向员工发送备忘录，要求对Xbox业务进行“重置”，外界因此普遍预期该部门将出现裁员。新一轮裁员也反映出微软在大幅增加AI投资的同时，正在压缩其他成本。华尔街还担心AI可能替代部分软件服务，甚至影响微软自身产品，过去一个月微软股价已下跌约17%。",
+    "category": "消费电子",
+    "tags": [
+      "微软",
+      "裁员",
+      "Xbox",
+      "成本控制"
+    ],
+    "source": "IT之家",
+    "time": "14分钟前",
+    "ts": "2026-06-30T23:23:26+00:00",
+    "url": "https://www.ithome.com/0/970/804.htm",
+    "image": "",
+    "stocks": [
+      {
+        "name": "微软",
+        "ticker": "MSFT",
+        "reason": "裁员与成本压缩直接涉及微软整体运营及Xbox业务，市场关注其AI投入与其他业务效率的平衡。",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "980d9f5ec9401819",
+    "title": "特朗普政府解除对Anthropic两款AI模型的出口管制",
+    "summary": "特朗普政府决定取消对Anthropic公司Mythos和Fable两款先进AI模型的出口限制，此前白宫曾要求该公司暂停向外国公民开放访问。",
+    "body": "据《Wired》报道，特朗普政府正解除针对Anthropic最先进AI模型Mythos和Fable的出口管制。数周前，白宫刚下令Anthropic暂停向外国公民提供这些模型的访问权限，如今相关政策出现明显转向。\n\n这意味着Anthropic有望恢复或继续向海外用户开放其高端模型，减轻其在国际扩张与合规方面的压力。该举措也反映出美国在人工智能出口管制政策上的调整，可能对全球AI模型流通格局产生一定影响。",
+    "category": "人工智能",
+    "tags": [
+      "Anthropic",
+      "AI模型",
+      "出口管制"
+    ],
+    "source": "Wired",
+    "time": "15分钟前",
+    "ts": "2026-06-30T23:23:04+00:00",
+    "url": "https://www.wired.com/story/trump-administration-lifts-export-controls-on-anthropics-mythos-and-fable-ai-models/",
+    "image": "https://media.wired.com/photos/6a444e05c62f6b38179079b8/master/pass/White-House-LiftsExport-Controls-Anthropic-Business-AP-26168447800568.jpg",
+    "stocks": []
+  },
+  {
+    "id": "cc53380d91107880",
+    "title": "iPhone 18 Pro新料：自研C2基带、美版仍用高通、主摄升级索尼IMX905",
+    "summary": "据外媒从塔塔电子泄露文件挖掘，苹果iPhone 18 Pro/Max将按区域配置基带：美国版因毫米波需求继续使用高通芯片，其他市场改用自研C2基带；主摄则有望升级为索尼IMX905传感器。",
+    "body": "科技媒体AppleInsider从塔塔电子流出的文件中发现，苹果计划在iPhone 18 Pro和iPhone 18 Pro Max上采用区域化基带策略。由于美国市场需要支持5G毫米波，美版将继续搭载高通基带，涉及SDX80M、SDR875等多个高通组件；而在除美国以外的其他市场，苹果计划使用自研C2基带。消息称，当前C1/C1X基带不支持毫米波，C2可能仍延续这一特性，因此美版与海外版的逻辑板部件编号也存在差异。\n\n影像与SIM卡方面，诊断数据显示iPhone 18 Pro主摄ID从0x903变为0x905，暗示主摄由索尼IMX-903升级至IMX-905。iPhone 18 Pro Max的区域配置表显示，从V64 P2版本起“不再支持双PSIM卡”，标注“CN”的国行版配置支持eSIM与实体SIM卡。此外，A20 Pro芯片代号为Borneo，采用WMCM封装，AP与存储并排放置。\n\n这一爆料意味着苹果在基带自主化上继续推进，但短期内仍依赖高通保障美国毫米波体验；同时，索尼作为苹果高端机型主摄核心供应商，有望因传感器升级而受益。区域配置差异也显示出苹果在供应链与合规层面更加细分。",
+    "category": "消费电子",
+    "tags": [
+      "苹果",
+      "iPhone 18",
+      "基带",
+      "索尼传感器"
+    ],
+    "source": "IT之家",
+    "time": "16分钟前",
+    "ts": "2026-06-30T23:21:51+00:00",
+    "url": "https://www.ithome.com/0/970/803.htm",
+    "image": "https://img.ithome.com/newsuploadfiles/2026/7/55f9521b-6598-4471-9a70-5318fc3b6221.jpg?x-bce-process=image/format,f_auto",
+    "stocks": [
+      {
+        "name": "苹果公司",
+        "ticker": "AAPL",
+        "reason": "iPhone 18 Pro/Max是苹果下一代旗舰，自研C2基带采用范围扩大，有助于降低基带成本并提升芯片自主性。",
+        "confidence": "high"
+      },
+      {
+        "name": "高通",
+        "ticker": "QCOM",
+        "reason": "美版iPhone 18 Pro/Max仍需支持毫米波，继续使用高通SDX80M等基带及射频组件，保留关键订单份额。",
+        "confidence": "high"
+      },
+      {
+        "name": "索尼集团",
+        "ticker": "SONY",
+        "reason": "iPhone 18 Pro主摄预计升级至索尼IMX-905传感器，索尼作为苹果核心CIS供应商有望受益。",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "6152bd22c0b1b3db",
+    "title": "前列腺激光手术与开放切除术早期疗效相当",
+    "summary": "针对良性前列腺增生患者，高峰值功率脉冲式铥:YAG激光剜除术（p-ThuLEP）与开放前列腺切除术早期功能结局相当，但前者住院时间更短、输血率更低。",
+    "body": "该研究发表于5月30日《Translational Andrology and Urology》。对于良性前列腺增生（BPH）患者，研究者比较了高峰值功率脉冲式铥:YAG激光剜除术（p-ThuLEP）与开放单纯前列腺切除术（OSP）的早期效果。结果显示，两种术式的早期功能结局相当。不过，p-ThuLEP患者住院时间更短、输血率更低，提示该微创术式在安全性与恢复方面具备潜在优势。相关发现或为临床术式选择提供参考。",
+    "category": "生物医药",
+    "tags": [
+      "泌尿外科",
+      "微创手术",
+      "医疗器械",
+      "临床研究"
+    ],
+    "source": "MedicalXpress",
+    "time": "18分钟前",
+    "ts": "2026-06-30T19:20:01-04:00",
+    "url": "https://medicalxpress.com/news/2026-06-early-benign-prostatic-hyperplasia-outcomes.html",
+    "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/early-bph-outcomes-com.jpg",
+    "stocks": []
+  },
+  {
+    "id": "4494114a416aaad5",
+    "title": "扎克伯格：AI不必然导致大规模失业，企业应发展个人超级智能",
+    "summary": "Meta CEO马克·扎克伯格接受采访时表示，人工智能未必会引发大规模失业，呼吁企业优先发展“个人超级智能”以提升劳动者生产力，而非一味推进知识工作自动化。",
+    "body": "据《商业内幕》报道，Meta CEO马克·扎克伯格不认同“AI必然造成大规模失业”的普遍预期。他认为，若企业把更多资源投入“个人超级智能”，让个人获得更强能力并持续提高生产力，而非试图将所有知识工作自动化，就业前景可能反而改善。此番表态既为Meta的AI路线背书，也间接指向Anthropic、OpenAI等更强调自动化的同行。\n\n扎克伯格指出，企业追求效率不可避免，但关键在于劳动者生产力提升的速度必须超过企业自动化的速度。他同时坦承，Meta在生成式AI领域仍有提升空间，尽管其“超级智能实验室”成立尚不足一年，且公司已投入数十亿美元挖角人才并调整AI战略。",
+    "category": "人工智能",
+    "tags": [
+      "人工智能",
+      "Meta",
+      "AI战略",
+      "就业影响"
+    ],
+    "source": "IT之家",
+    "time": "20分钟前",
+    "ts": "2026-06-30T23:17:56+00:00",
+    "url": "https://www.ithome.com/0/970/802.htm",
+    "image": "",
+    "stocks": [
+      {
+        "name": "Meta Platforms",
+        "ticker": "META",
+        "reason": "新闻围绕扎克伯格对Meta AI路线与超级智能实验室的阐述，公司持续加大AI人才与战略投入，是直接利好标的。",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "0445d9486e034f52",
+    "title": "NASA 5.9亿美元授予三家公司月球着陆器合同",
+    "summary": "美国国家航空航天局（NASA）向 Astrobotic、Firefly Aerospace 和 Intuitive Machines 三家公司授予总计约5.9亿美元的月球机器人着陆器合同，并考虑将月球车“Promise”送往月球，以推进2030年前建立月球基地的计划。",
+    "body": "北京时间7月1日，NASA宣布选定三家公司负责月球机器人着陆器任务，合同总金额约5.9亿美元。其中，Astrobotic Technology获得两份合同，总额约2.98亿美元；Firefly Aerospace获得约1.44亿美元；Intuitive Machines获得约1.48亿美元。Astrobotic计划今年或2027年初发射升级版“游隼”号着陆器，其前代曾在2024年执行任务但未能成功。\n\nNASA还考虑将“极地观测、测绘与原位探测月球车”（Promise）送往月球，该月球车是NASA火星探测车的测试版本。NASA局长贾里德·艾萨克曼表示，应持续推进，把类似Promise的探索能力送上月球表面。\n\n此次合同是NASA在2030年前建立月球基地计划的一部分，也体现商业航天在深空探测中的关键角色。随着月球着陆与移动平台需求增长，相关航天企业有望获得持续订单与技术验证机会。",
+    "category": "商业航天",
+    "tags": [
+      "月球着陆器",
+      "NASA",
+      "商业航天",
+      "月球车"
+    ],
+    "source": "IT之家",
+    "time": "21分钟前",
+    "ts": "2026-06-30T23:17:10+00:00",
+    "url": "https://www.ithome.com/0/970/801.htm",
+    "image": "https://img.ithome.com/newsuploadfiles/2026/7/5de4d952-1818-4f09-9e28-5f68dec8a262.png?x-bce-process=image/format,f_auto",
+    "stocks": [
+      {
+        "name": "直觉机器",
+        "ticker": "LUNR",
+        "reason": "NASA向其授予约1.48亿美元月球着陆器合同，直接带来订单收入并提升商业航天业务能见度。",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "ceac9aa1938f2d4f",
+    "title": "Discord原生应用正式上线Meta Quest VR头显",
+    "summary": "Discord现已针对Meta Quest头显推出原生应用，用户无需借助PC串流即可在VR设备中直接使用该社交语音平台。",
+    "body": "据外媒报道，Discord已正式原生登陆Meta Quest系列VR头显。该应用在去年的Meta Connect大会上已有所预告，如今用户可以直接在Quest设备上下载并运行Discord，进行语音聊天、文字沟通和社群互动，而不必依赖PC串流或浏览器方案。",
+    "category": "消费电子",
+    "tags": [
+      "Meta Quest",
+      "Discord",
+      "VR头显",
+      "社交应用"
+    ],
+    "source": "Engadget",
+    "time": "40分钟前",
+    "ts": "2026-06-30T22:57:55+00:00",
+    "url": "https://www.engadget.com/2205537/discord-now-runs-natively-on-meta-quest-headsets/",
+    "image": "https://www.engadget.com/img/gallery/discord-now-runs-natively-on-meta-quest-headsets/l-intro-1782860113.jpg",
+    "stocks": [
+      {
+        "name": "Meta Platforms",
+        "ticker": "META",
+        "reason": "原生Discord上架Quest有助于丰富Quest生态、提升VR用户粘性与设备吸引力",
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
     "id": "70f0d4a3ad45241d",
     "title": "苹果官网概览 iOS 27 等系统：液态玻璃设计再优化",
     "summary": "苹果中国官网更新 OS 概览页面，介绍 iOS 27、iPadOS 27、macOS 27 Golden Gate、watchOS 27 与 visionOS 27 的新功能，正式版将于今年秋季发布。",
@@ -50,6 +337,25 @@ const newsData = [
         "confidence": "high"
       }
     ]
+  },
+  {
+    "id": "a8538ea135665149",
+    "title": "AI循环验证法攻克9个未解数学难题",
+    "summary": "AI Safety Memes 发文称，研究人员采用“prover-verifier”大语言模型循环方法，在理论计算机科学领域解决了 9 个长期悬而未决的难题；该研究由哥伦比亚大学合作者完成，团队希望将这一方法推广至更多科学领域。",
+    "body": "据 X 平台账号 AI Safety Memes 引用 @WeinsteinOmri 的说法，研究团队通过“prover-verifier”大语言模型循环机制，成功解决了理论计算机科学中 9 个重大开放问题，其中包括一个困扰研究者长达 2 年的难题。该工作由哥伦比亚大学合作者参与完成，研究人员表示计划把这一方法扩展到所有科学领域。目前该信息主要来自社交媒体推文，尚未提供经过同行评审的论文或详细技术验证；若后续得到证实，将意味着大语言模型在数学推理和科学发现中的能力边界进一步拓展。",
+    "category": "人工智能",
+    "tags": [
+      "大语言模型",
+      "数学研究",
+      "科学发现",
+      "AI for Science"
+    ],
+    "source": "AIHOT精选",
+    "time": "1小时前",
+    "ts": "2026-06-30T22:32:34+00:00",
+    "url": "https://x.com/AISafetyMemes/status/2072085914558558402",
+    "image": "",
+    "stocks": []
   },
   {
     "id": "282e5e314befb47e",
