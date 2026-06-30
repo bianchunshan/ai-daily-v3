@@ -1,5 +1,31 @@
 const newsData = [
   {
+    "id": "bd196abea4bfa58a",
+    "title": "小米智能存储开售：4+32GB配置，最高40Mbps远程访问",
+    "summary": "小米智能存储于7月1日正式开启众筹，入门版4TB到手价2299元，支持双盘备份、AI相册及最高40Mbps免费远程访问。",
+    "body": "7月1日消息，小米智能存储于10:00正式众筹开售。该产品采用双盘位设计，最大支持60TB（30TB×2），可适配3.5/2.5英寸硬盘，入门版4TB、进阶版8TB、专业版16TB众筹到手价分别为2299元、2899元、4699元。\n\n硬件配置方面，设备配备4GB内存+32GB存储，最大可选西数红盘版本，采用6系一体铝中框，提供USB-A 3.0、HDMI 1.4、2.5GbE网口各一个，并集成中枢网关，官方称全屋智能联动速度提升3倍。\n\n功能上，该产品支持AI智能相册、4路摄像机监控最长360天存储、微信/整机备份，并提供最高40Mbps免费远程访问带宽，支持多端访问、4K HDR10视频播放、影视海报墙与远程下载，进一步完善小米智能家居生态。",
+    "category": "消费电子",
+    "tags": [
+      "小米",
+      "智能存储",
+      "NAS",
+      "智能家居"
+    ],
+    "source": "IT之家",
+    "time": "1分钟前",
+    "ts": "2026-06-30T22:51:58+00:00",
+    "url": "https://www.ithome.com/0/970/796.htm",
+    "image": "https://img.ithome.com/newsuploadfiles/2026/7/6a0c6e88-611b-4fd2-9361-90f0eaacb881.jpg?x-bce-process=image/format,f_auto",
+    "stocks": [
+      {
+        "name": "小米集团",
+        "ticker": "1810.HK",
+        "reason": "新品拓展智能家居与家庭存储产品线，增强生态粘性",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
     "id": "282e5e314befb47e",
     "title": "全球评估确认mRNA疫苗安全有效且前景广阔",
     "summary": "加拿大不列颠哥伦比亚大学牵头的一项全球综述显示，已在全球接种数十亿剂的mRNA疫苗安全且高效，并在流感、RSV、癌症及自身免疫病等领域具有广阔应用潜力。",
@@ -189,6 +215,32 @@ const newsData = [
     "stocks": []
   },
   {
+    "id": "f0cc82b054adbb2c",
+    "title": "Reddit将强制登录才能访问旧版网页",
+    "summary": "Reddit 宣布未来一个月内将要求用户登录后才能使用 old.reddit.com，目的是收紧自动化系统对平台内容的访问，打击滥用性抓取。",
+    "body": "Reddit 员工账号 boat-botany 在平台宣布，未来一个月内访问 old.reddit.com 将必须登录账号。Reddit 表示，未登录用户使用旧版网页是“滥用性抓取的重要来源”，此举旨在“收紧自动化系统访问 Reddit 的方式”。\n\n该调整直接针对机器人与爬虫对公开内容的批量获取，反映出平台加强对数据访问控制与内容资产保护的意图。对于依赖匿名访问旧版界面的用户和第三方抓取工具而言，这将显著改变使用方式。",
+    "category": "网络安全",
+    "tags": [
+      "Reddit",
+      "反爬虫",
+      "平台治理",
+      "网络安全"
+    ],
+    "source": "Ars Technica",
+    "time": "1小时前",
+    "ts": "2026-06-30T21:46:35+00:00",
+    "url": "https://arstechnica.com/gadgets/2026/06/reddit-will-require-you-to-log-in-to-use-old-reddit-com/",
+    "image": "https://cdn.arstechnica.net/wp-content/uploads/2025/09/GettyImages-2203349473-1152x648-1782854744.jpg",
+    "stocks": [
+      {
+        "name": "Reddit",
+        "ticker": "RDDT",
+        "reason": "新规限制未登录爬虫抓取，有助于保护平台数据资产与内容变现价值。",
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
     "id": "21a1bfcc5555b16f",
     "title": "格密码风险：营销与现实的差距",
     "summary": "该文章标题指出，格密码（lattice-based cryptography）在市场宣传与真实安全性之间存在明显落差，提示业界关注潜在风险。",
@@ -326,6 +378,32 @@ const newsData = [
     "url": "https://www.wired.com/story/daisy-sound-yet-another-company-is-making-premium-high-end-headphones/",
     "image": "https://media.wired.com/photos/6a429d965cdc2b309c97ad67/master/pass/Daisy%20One%20Silver%20Hero.jpg",
     "stocks": []
+  },
+  {
+    "id": "ef56bdf67866e233",
+    "title": "亚马逊以恶意软件风险为由取消新Fire Stick侧载",
+    "summary": "亚马逊称因侧载应用常与盗版和恶意软件相关，新发布的Fire Stick将不再支持从Amazon Appstore之外安装应用；新系统Vega OS还会阻止第三方主页启动器和广告拦截器。",
+    "body": "亚马逊最近发布了两款基于其专有Linux操作系统Vega OS的新型Fire Stick，取代此前基于Android开源项目的Fire OS。两者最大区别之一是Vega OS不支持侧载应用，亚马逊将此举归因于侧载带来的恶意软件威胁，尤其是与体育赛事盗版直播相关的非法流媒体应用。\n\n新系统不仅禁止侧载，还会阻止第三方主页启动器和广告拦截器运行，进一步收紧亚马逊对Fire TV用户界面和软件生态的控制。这意味着普通用户和发烧友将无法在新设备上安装Google Play Store等外部应用商店或自定义桌面启动器。\n\n虽然该政策有助于降低恶意软件传播和版权侵权风险，但也会削弱设备可玩性和用户自定义空间，同时可能强化亚马逊自有应用商店和广告业务的变现能力。",
+    "category": "网络安全",
+    "tags": [
+      "亚马逊",
+      "Fire Stick",
+      "恶意软件",
+      "盗版应用"
+    ],
+    "source": "Ars Technica",
+    "time": "1小时前",
+    "ts": "2026-06-30T21:04:53+00:00",
+    "url": "https://arstechnica.com/gadgets/2026/06/exec-blames-malware-threat-for-amazon-blocking-sideloading-on-new-fire-sticks/",
+    "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/06/MGViZTU1YTIt._CB799536100_-1152x648.jpg",
+    "stocks": [
+      {
+        "name": "亚马逊",
+        "ticker": "AMZN",
+        "reason": "强化Fire TV生态控制并降低恶意软件风险，可能提升应用商店与广告变现",
+        "confidence": "medium"
+      }
+    ]
   },
   {
     "id": "2074c3624b813168",
