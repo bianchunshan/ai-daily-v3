@@ -1,5 +1,178 @@
 const newsData = [
   {
+    "id": "16922bc70fa1b44b",
+    "title": "血液生物标志物有望评估抑郁症心理治疗反应",
+    "summary": "西班牙巴塞罗那生物医学研究所等机构的研究首次提供证据，表明心理疗法可引发生物学刺激，其分子反应可通过血液中的生物标志物检测。该发现有望为抑郁症个体化心理治疗提供客观评估工具。",
+    "body": "巴塞罗那生物医学研究所（IIBB，隶属西班牙国家研究委员会CSIC）与圣保罗研究所（IR Sant Pau）的研究显示，心理治疗不仅是行为干预，还能作为一种生物刺激，诱导机体产生可测量的分子反应。研究团队认为，这些反应有望通过血液生物标志物加以捕捉，从而客观评估患者对心理治疗的效果。\n\n目前，抑郁症心理治疗的效果评估主要依赖患者主观报告，缺乏客观量化指标。如果血液生物标志物能够反映治疗反应，将有助于医生更早识别哪些患者更适合心理疗法，推动个性化精神健康管理。\n\n该研究仍处于早期阶段，但其将心理干预与分子生物学联系起来的思路，为数字医疗和心理健康诊疗提供了新的研究方向。",
+    "category": "生物医药",
+    "tags": [
+      "血液生物标志物",
+      "抑郁症",
+      "心理治疗",
+      "精准医疗"
+    ],
+    "source": "MedicalXpress",
+    "time": "12分钟前",
+    "ts": "2026-06-30T13:00:09-04:00",
+    "url": "https://medicalxpress.com/news/2026-06-blood-biomarkers-response-psychotherapy-patients.html",
+    "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/study-identifies-blood.jpg",
+    "stocks": []
+  },
+  {
+    "id": "f7cf8799e26664cb",
+    "title": "国际研究团队揭示血液凝固数十年之谜",
+    "summary": "德国格赖夫斯瓦尔德大学参与的国际团队日前在《血栓与止血杂志》发表成果，向破解血液为何极少形成危险血栓的机制迈出重要一步。",
+    "body": "正常血液循环中，危险血栓极少自发形成，这一保护机制若失效可能引发血栓性疾病。由德国格赖夫斯瓦尔德大学参与的国际研究团队针对这一核心医学问题取得重要进展，相关成果发表于《Journal of Thrombosis and Haemostasis》。该研究有助于深化对凝血调控的理解，可能为血栓相关疾病的预防和治疗提供新方向。",
+    "category": "生物医药",
+    "tags": [
+      "生物医药",
+      "凝血机制",
+      "血栓研究",
+      "学术研究"
+    ],
+    "source": "MedicalXpress",
+    "time": "12分钟前",
+    "ts": "2026-06-30T13:00:03-04:00",
+    "url": "https://medicalxpress.com/news/2026-06-elucidating-decades-mystery-blood-clotting.html",
+    "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/elucidating-a-decades.jpg",
+    "stocks": []
+  },
+  {
+    "id": "795e509200060dd9",
+    "title": "Anthropic 推出 Claude Science 科研工作台",
+    "summary": "Anthropic 新推出的 Claude Science 是一款面向科学家的计算研究工作台，旨在通过整合数据、流程与工具，让科研人员无需在多个平台之间切换；该产品更强调工作流优化而非发布新模型，以赢得科学家用户。",
+    "body": "Anthropic 日前为 Claude 推出了一款名为 Claude Science 的科研工作台，目标是为科学家提供统一的计算研究环境。它允许研究人员在一个界面中访问数据库、运行分析流程并使用相关工具，从而减少在不同平台间切换的成本，提高科研效率。\n\n与业界频繁发布新模型不同，Anthropic 此次选择以工作流优化作为卖点，试图通过提升科研工作的整合体验来赢得科学家群体。这一定位有望强化 Claude 在垂直科研场景中的竞争力，并推动人工智能工具在专业研究领域的进一步渗透。",
+    "category": "人工智能",
+    "tags": [
+      "人工智能",
+      "AI应用",
+      "科研工具",
+      "Anthropic"
+    ],
+    "source": "TechCrunch",
+    "time": "12分钟前",
+    "ts": "2026-06-30T17:00:00+00:00",
+    "url": "https://techcrunch.com/2026/06/30/anthropics-claude-science-bets-on-workflow-not-a-new-model-to-win-over-scientists/",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "7ac79a525f8bcebe",
+    "title": "宝马iX5纯电续航525英里，树立新标杆",
+    "summary": "宝马发布全新iX5纯电动SUV，采用 Neue Klasse 风格与技术，单次充电续航最高可达525英里，并支持快速充电。",
+    "body": "宝马于周二发布新一代X5，并首次推出纯电动版本iX5。新车沿用 Neue Klasse 设计风格与底层技术，官方宣称最高续航里程可达525英里（约845公里），同时具备快充能力，意在提升电动SUV的市场竞争力。\n\niX5 的发布标志着宝马加速向电动化转型，长续航与快充技术有望缓解用户对里程和补能的焦虑。如果量产版本能够兑现这一性能，将增强宝马在高端电动车市场与特斯拉、奔驰等品牌的竞争筹码。",
+    "category": "未来能源",
+    "tags": [
+      "电动汽车",
+      "宝马",
+      "动力电池",
+      "快充"
+    ],
+    "source": "Electrek",
+    "time": "21分钟前",
+    "ts": "2026-06-30T16:50:54+00:00",
+    "url": "https://electrek.co/2026/06/30/bmw-ix5-sets-benchmark-with-525-miles-range-images/",
+    "image": "https://electrek.co/wp-content/uploads/sites/3/2026/06/BMW-iX5-debut-range.jpeg?quality=82&#038;strip=all&#038;w=1400",
+    "stocks": [
+      {
+        "name": "宝马（BMW）",
+        "ticker": "BMW.DE",
+        "reason": "iX5 长续航、快充的电动SUV新车型有望提升宝马在高端电动车市场的销量与竞争力",
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
+    "id": "d3ba2a41c4589bb4",
+    "title": "AMD补丁确认Zen 6将引入低功耗核心",
+    "summary": "AMD向Linux内核提交补丁，首次支持“低功耗核心”分类，未来Zen 6等异构处理器可能采用高性能、效率与低功耗三类核心，以优化背景任务与空闲能耗。",
+    "body": "据外媒报道，AMD已向Linux内核提交补丁，明确区分高性能核心、效率核心与低功耗核心。这意味着AMD未来的异构处理器平台可能拥有三种核心类型，而低功耗核心将用于后台和空闲任务，以进一步降低能耗。该补丁通过CPUID Function 0x80000026的EBX位段对核心进行分类，并为Linux内核提供相应的性能管理支持。\n\nAMD工程师Vishal Badole指出，这类低功耗核心专为对性能要求不高、但更重视能耗的场景设计。如果Zen 6处理器采用这一设计，将意味着AMD在CPU架构上进一步向英特尔的混合架构路线靠拢，为PC和服务器带来更好的能效比与续航能力。\n\n这一技术进展对AMD的产品竞争力具有积极意义，尤其在移动设备和注重能效的数据中心市场中，更精细的核心分级有望帮助其在高性能与低功耗之间实现更优平衡。",
+    "category": "半导体与先进制造",
+    "tags": [
+      "AMD",
+      "Zen 6",
+      "CPU架构",
+      "Linux内核"
+    ],
+    "source": "Tom's Hardware",
+    "time": "21分钟前",
+    "ts": "2026-06-30T16:50:50+00:00",
+    "url": "https://www.tomshardware.com/pc-components/cpus/amd-confirms-low-power-cpu-cores-in-linux-kernel-patch-zen-6-chips-could-follow-in-intels-footsteps-with-new-core-type-for-background-tasks",
+    "image": "https://cdn.mos.cms.futurecdn.net/b6AWuqaDHTv9ZS4ZpfqZNV-1280-80.png",
+    "stocks": [
+      {
+        "name": "AMD",
+        "ticker": "AMD",
+        "reason": "新低功耗核心设计有望提升其未来异构处理器能效与竞争力。",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "b04c6eb4a09372c0",
+    "title": "微软Surface砍掉入门款，Go系列将不再更新",
+    "summary": "据Windows Central报道，微软已停止生产面向入门市场的Surface Go 4和Surface Laptop Go 3，且无意推出后续机型。未来Surface产品线将仅保留Pro和Laptop两大系列，并通过更小尺寸版本覆盖入门价位，但起售价明显更高。",
+    "body": "这一调整意味着微软进一步放弃低价PC市场，将资源集中在高端和利润更高的旗舰产品上。对消费者而言，低价Surface的入门选择减少；对微软而言，则有助于简化产品线、提高硬件业务毛利率，但也可能削弱其在入门Windows设备市场的份额。",
+    "category": "消费电子",
+    "tags": [
+      "微软",
+      "Surface",
+      "PC",
+      "消费电子"
+    ],
+    "source": "Tom's Hardware",
+    "time": "30分钟前",
+    "ts": "2026-06-30T16:41:31+00:00",
+    "url": "https://www.tomshardware.com/laptops/microsofts-flagship-windows-pc-lineup-will-drop-reportedly-drop-budget-options-firm-prunes-surface-go-and-surface-laptop-go",
+    "image": "https://cdn.mos.cms.futurecdn.net/XRtmkW5JC2SXWrjy7VuhCC-1280-80.jpg",
+    "stocks": [
+      {
+        "name": "微软",
+        "ticker": "MSFT",
+        "reason": "新闻直接涉及微软Surface硬件产品线的战略调整，公司是最直接相关标的",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "af7b860abddbe984",
+    "title": "AI病理分析可预测罕见癌症免疫治疗反应",
+    "summary": "美国MD安德森癌症中心的研究显示，基于人工智能的肿瘤活检病理分析能够预测罕见癌症患者对免疫治疗的反应，相关成果发表于《Journal for ImmunoTherapy of Cancer》。",
+    "body": "美国MD安德森癌症中心的研究人员开展了一项针对罕见癌症患者的研究，证明利用人工智能分析肿瘤活检病理样本，可以预测患者对免疫治疗的反应。该研究已发表在《Journal for ImmunoTherapy of Cancer》上。\n\n这一方法通过AI解读病理图像，有望帮助医生识别更可能从免疫治疗中获益的罕见癌症患者，为临床决策和个体化治疗提供参考依据。\n\n由于该研究主要利用已有的活检样本数据，无需额外的侵入性操作，未来若得到进一步验证，或有助于提升罕见癌症免疫治疗的疗效判断效率，减少治疗上的试错成本。",
+    "category": "人工智能",
+    "tags": [
+      "AI病理分析",
+      "免疫治疗",
+      "罕见癌症",
+      "数字医疗"
+    ],
+    "source": "MedicalXpress",
+    "time": "32分钟前",
+    "ts": "2026-06-30T12:40:09-04:00",
+    "url": "https://medicalxpress.com/news/2026-06-ai-pathology-analysis-immunotherapy-response.html",
+    "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/ai-guided-pathology-an.jpg",
+    "stocks": []
+  },
+  {
+    "id": "2690833c9cacde11",
+    "title": "血液蛋白可提前数十年预警痴呆风险",
+    "summary": "研究发现，一种血液蛋白能在痴呆症状出现前数十年提示患病风险，有望为阿尔茨海默病等神经退行性疾病的早期筛查提供新工具。",
+    "body": "据MedicalXpress报道，导致阿尔茨海默病和痴呆等神经退行性疾病的脑部变化，通常在症状出现前几十年就已经发生。研究人员发现，通过检测血液中的某种蛋白质，可以提前识别出痴呆风险。这意味着，血液检测有望成为一种简便、低成本的早期筛查手段。如果后续研究证实其准确性，未来可能在患者出现明显认知衰退之前实施干预，从而延缓疾病进展并提高治疗效果。",
+    "category": "生物医药",
+    "tags": [
+      "阿尔茨海默病",
+      "血液标志物",
+      "早期诊断",
+      "神经退行性疾病"
+    ],
+    "source": "MedicalXpress",
+    "time": "32分钟前",
+    "ts": "2026-06-30T12:40:07-04:00",
+    "url": "https://medicalxpress.com/news/2026-06-blood-protein-flag-dementia-decades.html",
+    "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/a-blood-protein-can-fl-3.jpg",
+    "stocks": []
+  },
+  {
     "id": "f819b0a68bdaf8ec",
     "title": "Rivian R2 开启订单邀请日期公布",
     "summary": "美国电动汽车制造商 Rivian 已向其中型纯电动 SUV R2 的预订者公布预计订单邀请日期，交付节奏逐渐明朗。",
@@ -171,6 +344,32 @@ const newsData = [
     "url": "https://x.com/ClaudeDevs/status/2071988881717871065",
     "image": "",
     "stocks": []
+  },
+  {
+    "id": "24fd69e41dc63579",
+    "title": "宝马iX5搭载460kW超充续航435英里",
+    "summary": "宝马iX5电动车宣称可实现460kW峰值充电功率与435英里续航里程，在补能效率和续航能力上显著优于多数竞品。",
+    "body": "据外媒报道，宝马iX5纯电动汽车在最新披露中展现了460kW的超快充电能力，并声称具备435英里的续航里程。这一技术指标若得到量产验证，将大幅缩短电动车补能时间，缓解用户的续航焦虑，并提升宝马在高端电动市场的竞争力。460kW级充电功率在当前乘用车中仍处于领先水平，通常需要与800V高压平台、热管理系统和电池化学体系相配合。该进展也反映出宝马在电动化转型中正试图通过技术突破追赶并超越特斯拉等竞争对手。",
+    "category": "未来能源",
+    "tags": [
+      "电动汽车",
+      "快充技术",
+      "宝马",
+      "新能源车"
+    ],
+    "source": "Hacker News",
+    "time": "1小时前",
+    "ts": "2026-06-30T16:06:39+00:00",
+    "url": "https://insideevs.com/news/800125/bmw-ix5-neue-klasse-ev-electric-suv/",
+    "image": "",
+    "stocks": [
+      {
+        "name": "宝马集团",
+        "ticker": "BMWYY",
+        "reason": "宝马iX5若能实现460kW超充与435英里续航，将增强其高端电动车产品竞争力，利好品牌溢价与电动车销量。",
+        "confidence": "high"
+      }
+    ]
   },
   {
     "id": "652e3b521161c2da",
@@ -357,6 +556,25 @@ const newsData = [
         "confidence": "medium"
       }
     ]
+  },
+  {
+    "id": "d60a6b93369e4e6f",
+    "title": "Grant Sanderson：AI数学突破不等于AGI",
+    "summary": "3Blue1Brown创办人Grant Sanderson在与Dwarkesh Patel的对谈中探讨AI在数学研究中的潜力与局限，认为AI攻克IMO金牌或千禧年难题并不意味着通用人工智能到来。",
+    "body": "3Blue1Brown创办人Grant Sanderson正在制作记录AI数学进展的新项目。他在与播客主Dwarkesh Patel的对谈中表示，AI在国际数学奥林匹克（IMO）夺得金牌只是又一个被攻克的基准，并不等同于实现AGI。即便AI未来能够解决某个千禧年大奖难题，也不代表大量人类任务会自动化。\n\n对话还涉及数学概念突破可能需要一个世纪才能验证、AI对黎曼假设的证明能否被人类理解、AI能否在既有文献中发现隐藏联系，以及现实经济任务难以简单套用强化学习环境等议题。这些讨论揭示了当前AI在形式推理与创造性数学发现之间的张力，也提醒市场理性看待AI能力的边界。",
+    "category": "人工智能",
+    "tags": [
+      "人工智能",
+      "数学",
+      "AGI",
+      "3Blue1Brown"
+    ],
+    "source": "AIHOT精选",
+    "time": "1小时前",
+    "ts": "2026-06-30T15:53:19+00:00",
+    "url": "https://www.dwarkesh.com/p/grant-sanderson-2",
+    "image": "",
+    "stocks": []
   },
   {
     "id": "f7c7cce399d0f992",
