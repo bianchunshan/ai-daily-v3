@@ -1,5 +1,31 @@
 const newsData = [
   {
+    "id": "31d023a3663dfe5c",
+    "title": "Google NotebookLM 推短视频摘要功能",
+    "summary": "Google的NotebookLM面向AI Ultra和Pro订阅用户推出TikTok风格的60秒竖屏AI视频，可基于用户上传资料自动生成研究内容摘要短片。",
+    "body": "据报道，Google正在为NotebookLM新增一种TikTok风格的AI视频摘要功能。该功能面向Google AI Ultra和Pro订阅用户逐步推出，允许NotebookLM根据用户上传的来源资料自动生成约60秒的竖屏视频，帮助用户以短视频形式快速消化研究内容。这一形式与当前流行的短内容消费习惯高度契合，有望降低复杂信息获取门槛。对Google而言，此举不仅能提升NotebookLM在AI笔记与知识管理工具中的差异化竞争力，还可能带动其AI订阅服务的用户增长与粘性。",
+    "category": "人工智能",
+    "tags": [
+      "NotebookLM",
+      "AI视频摘要",
+      "谷歌",
+      "AI订阅服务"
+    ],
+    "source": "The Verge",
+    "time": "刚刚",
+    "ts": "2026-06-30T15:24:51-04:00",
+    "url": "https://www.theverge.com/tech/959778/google-notebooklm-ai-clips",
+    "image": "",
+    "stocks": [
+      {
+        "name": "Alphabet（谷歌）",
+        "ticker": "GOOGL",
+        "reason": "NotebookLM新功能有望增强其AI订阅服务吸引力并提升用户粘性。",
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
     "id": "625b249fc3fed8ce",
     "title": "临床试验显示：DMD症状前治疗或可改善运动功能",
     "summary": "宾汉姆顿大学研究人员的一项临床试验表明，在症状出现前治疗杜氏肌营养不良（DMD）可能改善患儿的运动功能，为更早干预提供了新的依据。",
