@@ -1,5 +1,43 @@
 const newsData = [
   {
+    "id": "625b249fc3fed8ce",
+    "title": "临床试验显示：DMD症状前治疗或可改善运动功能",
+    "summary": "宾汉姆顿大学研究人员的一项临床试验表明，在症状出现前治疗杜氏肌营养不良（DMD）可能改善患儿的运动功能，为更早干预提供了新的依据。",
+    "body": "杜氏肌营养不良（DMD）是一种严重的遗传性肌肉疾病，目前多数治疗通常在患者出现明显症状后才启动。宾汉姆顿大学的研究团队通过早期干预的探索，发现在症状尚未显现前进行治疗，可能会对运动功能产生积极影响。\n\n这一思路若被进一步证实，有望将DMD的治疗窗口从“对症治疗”前移到“症状前干预”，从而延缓疾病进展、改善患者生活质量。研究人员强调，早期治疗策略的关键在于更早识别高风险个体并实施干预。\n\n该研究的临床意义在于，为DMD等罕见神经肌肉疾病的防治路径提供了新的可能性，未来可能推动药物研发、筛查策略和临床指南的更新。",
+    "category": "生物医药",
+    "tags": [
+      "杜氏肌营养不良",
+      "罕见病",
+      "早期干预",
+      "药物研发"
+    ],
+    "source": "MedicalXpress",
+    "time": "3分钟前",
+    "ts": "2026-06-30T15:20:05-04:00",
+    "url": "https://medicalxpress.com/news/2026-06-duchenne-muscular-dystrophy-symptoms-emerge.html",
+    "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/study-advances-early-t.jpg",
+    "stocks": []
+  },
+  {
+    "id": "8c4bef045171b7c5",
+    "title": "Realta Fusion首次实现聚变直接发电",
+    "summary": "Realta Fusion宣称已完成从核聚变反应中直接产生电能的演示，无需传统蒸汽轮机，这在业内尚属首次。",
+    "body": "据TechCrunch报道，美国核聚变初创公司Realta Fusion宣布实现了直接从聚变反应中生成电能，整个过程无需通过蒸汽轮机进行能量转换。这一突破若属实，意味着聚变发电的能量转换环节可大幅简化，有望提升系统效率并降低装置复杂度。\n该公司未透露具体技术细节、装置规模与能量输出水平，仍需后续独立验证。如果直接发电路径被证明可行且可规模化，将对未来清洁能源供应和核聚变商业化进程产生重要推动作用。",
+    "category": "未来能源",
+    "tags": [
+      "核聚变",
+      "清洁能源",
+      "直接发电",
+      "未来能源"
+    ],
+    "source": "TechCrunch",
+    "time": "10分钟前",
+    "ts": "2026-06-30T19:12:43+00:00",
+    "url": "https://techcrunch.com/2026/06/30/realta-fusion-generates-electricity-directly-from-a-fusion-reaction-an-apparent-first/",
+    "image": "",
+    "stocks": []
+  },
+  {
     "id": "374fd69c9f68782a",
     "title": "谷歌发布Nano Banana 2 Lite：图像生成更快更便宜",
     "summary": "谷歌推出名为Nano Banana 2 Lite的图像生成模型，主打更快、更低成本的AI图像生成，以吸引内容创作者使用其AI创作工具。",
