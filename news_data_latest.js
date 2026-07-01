@@ -1,5 +1,24 @@
 const newsData = [
   {
+    "id": "948f7aee174bc6ae",
+    "title": "卫星数量或超10万，地面天文望远镜恐将失效",
+    "summary": "欧洲南方天文台研究发现，若地球轨道卫星数量超过10万颗，地面天文观测可能因严重光污染而无法进行，所有数据或被污染。",
+    "body": "欧洲南方天文台（ESO）天文学家的一项研究警告，如果地球轨道上的卫星数量超过10万颗，人类可能失去从地表研究宇宙的能力。研究指出，未来若部署数百万个轨道数据中心和数以万计的太阳光反射镜，全球最先进的天文望远镜可能因数据严重受损而失去使用价值。\n\n卫星会通过两种方式影响夜空：反射阳光增加天空整体亮度造成光污染，同时在望远镜图像中产生条纹。研究负责人、ESO运营主管Olivier Hainaut表示，在极端情况下，继续运营望远镜将“毫无意义”，因为所有数据都会被污染。\n\n研究发现，若10万颗卫星亮度仅勉强肉眼可见，天文学尚可应对；但若亮度达到天文星等7等或更亮，天文研究将变得困难且成本高昂。这一现象凸显商业航天快速发展对基础科学的潜在冲击，也引发对太空环境治理的进一步思考。",
+    "category": "商业航天",
+    "tags": [
+      "卫星",
+      "天文观测",
+      "光污染",
+      "商业航天"
+    ],
+    "source": "Space.com",
+    "time": "2分钟前",
+    "ts": "2026-07-01T16:56:49+00:00",
+    "url": "https://www.space.com/astronomy/the-growing-number-of-satellites-in-orbit-could-soon-make-telescopes-obsolete-for-astronomy-this-would-obviously-be-catastrophic",
+    "image": "https://cdn.mos.cms.futurecdn.net/JXGbZUjDtvyJjx2pjx9Qr9-1280-80.jpg",
+    "stocks": []
+  },
+  {
     "id": "655fc9ae59a395f3",
     "title": "自动驾驶热潮再现，Humble Robotics瞄准货运",
     "summary": "自动驾驶领域再现2016年投资热潮，资本与人才纷纷回流，Travis Kalanick等第一波浪潮亲历者重返赛道，Humble Robotics则专注于货运自动驾驶。",
