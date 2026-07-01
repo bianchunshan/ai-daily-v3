@@ -1,5 +1,31 @@
 const newsData = [
   {
+    "id": "b48f18e2234bdc6e",
+    "title": "微软XBOX测试光盘转数字授权功能",
+    "summary": "微软正在为XBOX测试Disc2Digital功能，玩家可将Xbox Series X和Xbox One实体光盘转换为数字版授权，转换后无需插盘即可运行游戏并享有数字版相关权益。",
+    "body": "据外媒The Verge报道，微软XBOX正在内部测试名为Disc2Digital的新功能。玩家只需将兼容光盘插入主机、完成安装并启动游戏，其XBOX账户便会自动获得对应的数字版使用权，效果与直接从XBOX商店购买数字版一致。获得授权后，即使取出光盘仍可继续运行游戏，并支持云游戏串流及XBOX Play Anywhere对应的PC版权益。\n\n为防止一张光盘被多个账户复用，数字授权将直接绑定实体光盘。当光盘借出、出售或用于其他账户时，授权会随之转移，原账户将失去使用权；只要光盘仍由原玩家持有，数字授权就不会消失。该功能目前仅计划支持Xbox Series X和Xbox One光盘，不覆盖Xbox 360及初代Xbox游戏。\n\n这一功能被视为微软向全数字化主机过渡的铺垫。此前索尼已宣布2028年起不再发行第一方实体光盘游戏，主机行业数字化趋势进一步加速。若微软未来推出无光驱新一代XBOX并开放该功能，将有助于降低玩家向数字生态迁移的门槛，同时提升数字商店与订阅服务的活跃度。",
+    "category": "消费电子",
+    "tags": [
+      "游戏主机",
+      "数字版权",
+      "微软",
+      "XBOX"
+    ],
+    "source": "IT之家",
+    "time": "8分钟前",
+    "ts": "2026-07-01T23:22:36+00:00",
+    "url": "https://www.ithome.com/0/971/399.htm",
+    "image": "https://img.ithome.com/newsuploadfiles/2026/7/936b27de-9032-405a-b057-b6bb464e48b1.png?x-bce-process=image/format,f_auto",
+    "stocks": [
+      {
+        "name": "微软",
+        "ticker": "MSFT",
+        "reason": "Disc2Digital功能由微软XBOX直接推出，有助于提升XBOX数字生态粘性与数字游戏、订阅服务销售",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
     "id": "13ca0f64b7a30f58",
     "title": "必和必拓申请15亿美元重启智利铜矿",
     "summary": "必和必拓集团已向智利提交环境影响评估，计划投资15亿美元重启北部科罗拉多山铜矿，目标将矿山开采年限延长约20年，并创造数千就业岗位。",
