@@ -56,6 +56,32 @@ const newsData = [
     "stocks": []
   },
   {
+    "id": "1d6ba25fd3972516",
+    "title": "Google Cloud发布VS Code云端Jupyter扩展",
+    "summary": "Google Cloud Workbench Notebooks扩展正式上线，开发者可直接在VS Code中连接可扩展的云端Jupyter环境，利用Google Cloud基础设施完成机器学习开发。",
+    "body": "Google Cloud Workbench Notebooks扩展已正式发布，开发者无需离开VS Code即可连接云端Jupyter Notebook环境，使用Google Cloud的高性能计算、存储和AI基础设施完成数据准备、模型训练与推理等机器学习全流程。该扩展已完全开源，用户可在GitHub和VS Code Marketplace下载安装。\n\n这一工具进一步降低了云端AI开发的门槛，提升了开发效率与协作体验，也有望增强Google Cloud在数据科学与机器学习开发者生态中的吸引力，与AWS、Azure等云厂商的Notebook服务形成竞争。",
+    "category": "AI 基础设施",
+    "tags": [
+      "Google Cloud",
+      "Jupyter",
+      "VS Code",
+      "云端开发"
+    ],
+    "source": "AIHOT精选",
+    "time": "11分钟前",
+    "ts": "2026-07-01T17:17:56.374000+00:00",
+    "url": "https://developers.googleblog.com/ml-development-in-vs-code-with-google-cloud-power-workbench-extension-now-available",
+    "image": "",
+    "stocks": [
+      {
+        "name": "Alphabet",
+        "ticker": "GOOGL",
+        "reason": "新扩展强化Google Cloud在云端机器学习开发场景的竞争力，有望带动云业务增长。",
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
     "id": "0247eb44f029b799",
     "title": "本田进军数据中心储能电池市场",
     "summary": "本田本周开始生产专供数据中心的电池，正式切入利润丰厚的能源存储市场，而非仅限于电动汽车领域。",
