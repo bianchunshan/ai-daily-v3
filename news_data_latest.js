@@ -1,5 +1,100 @@
 const newsData = [
   {
+    "id": "4f0c2c0932f78c2c",
+    "title": "AI重塑全球能源系统，墨尔本借工程协作抢跑",
+    "summary": "随着人工智能加速全球算力需求，数据中心能耗压力日益凸显。澳大利亚墨尔本正试图通过能源与工程领域协作，引领AI基础设施能源系统的转型。",
+    "body": "人工智能正推动全球算力需求快速扩张，从超大规模数据中心到电气化产业，电力消费面临系统性压力。澳大利亚数据中心预计到2035年将占全国电力消费的11%，给发电、输电和系统可靠性带来严峻挑战。\n\nIEEE电力与能源协会指出，满足AI及数字基础设施的能源需求，是未来十年工程师面临的最重大挑战之一。澳大利亚墨尔本正在从参与者转向全球连接型领导者，希望借助跨学科工程协作，为AI时代的能源系统转型提供解决方案。\n\n这一趋势反映出，AI发展的关键瓶颈已从算力本身延伸至能源基础设施，需要在发电、电网、储能、液冷等环节形成协同突破。",
+    "category": "AI 基础设施",
+    "tags": [
+      "AI能耗",
+      "数据中心",
+      "能源系统",
+      "墨尔本"
+    ],
+    "source": "IEEE Spectrum",
+    "time": "7分钟前",
+    "ts": "2026-07-01T16:01:27+00:00",
+    "url": "https://spectrum.ieee.org/ai-energy-systems-melbourne",
+    "image": "https://spectrum.ieee.org/media-library/glowing-digital-network-map-of-australia-and-surrounding-asia-pacific-region.png?id=66945530&width=980",
+    "stocks": []
+  },
+  {
+    "id": "fc7aa826da552c35",
+    "title": "单一基因影响痴呆与癌症风险方向相反",
+    "summary": "美国肯塔基大学研究人员发现，同一种基因变异可能以相反方向影响痴呆和癌症的发病风险，为理解两种疾病的共同机制提供了新线索。",
+    "body": "美国肯塔基大学桑德斯-布朗衰老研究中心的研究人员发现，同一种基因变异可能同时影响痴呆和癌症的发病风险，但作用方向相反。这一结果提示，与细胞修复、炎症调控或细胞周期相关的分子机制可能在神经退行性病变和肿瘤发生之间共享。\n\n该研究目前仍处于基础阶段，尚未明确具体治疗靶点或临床转化路径，但为阿尔茨海默病与癌症的风险权衡提供了新的遗传学视角。未来，这类发现可能有助于个性化风险评估和疾病早期预警策略的开发。",
+    "category": "生物医药",
+    "tags": [
+      "基因研究",
+      "阿尔茨海默病",
+      "癌症风险",
+      "生命科学"
+    ],
+    "source": "MedicalXpress",
+    "time": "8分钟前",
+    "ts": "2026-07-01T12:00:08-04:00",
+    "url": "https://medicalxpress.com/news/2026-07-gene-diseases-reveals-opposing-dementia.html",
+    "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/one-gene-two-diseases.jpg",
+    "stocks": []
+  },
+  {
+    "id": "03211506e836422f",
+    "title": "阿尔茨海默病标志物可预测80岁以上痴呆进展",
+    "summary": "新研究表明，阿尔茨海默病相关生物标志物可用于预测80岁及以上人群的痴呆进展。这一发现挑战了以往将高龄认知衰退简单归因于衰老的观点，有助于实现更早诊断和干预。",
+    "body": "过去几十年，80岁以上老人的认知衰退常被视为衰老的必然结果，临床中许多记忆问题也因此被当作自然老化而未被深入检查。然而，随着神经退行性疾病研究深入和检测技术进步，这一观念正受到挑战。\n\n最新研究指出，阿尔茨海默病相关生物标志物可能有助于预测80岁以上人群的痴呆进展。这意味着即使在极高龄人群中，认知下降也可能存在可识别的生物学原因，而不仅仅是正常衰老。\n\n该发现有望改善高龄患者的临床评估流程，推动早期诊断和针对性治疗的发展，对老年神经退行性疾病的防控具有积极意义。",
+    "category": "生物医药",
+    "tags": [
+      "阿尔茨海默病",
+      "生物标志物",
+      "痴呆",
+      "老年医学"
+    ],
+    "source": "MedicalXpress",
+    "time": "8分钟前",
+    "ts": "2026-07-01T12:00:06-04:00",
+    "url": "https://medicalxpress.com/news/2026-07-alzheimer-biomarkers-dementia-people-older.html",
+    "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/80-year-old.jpg",
+    "stocks": []
+  },
+  {
+    "id": "d9ab21f239a5da53",
+    "title": "Anthropic新增安全措施以修复与特朗普政府关系",
+    "summary": "美国政府取消了对Anthropic旗下Fable 5和Mythos 5两款AI模型的限制，但要求Anthropic新增一项安全措施以换取政府信任。",
+    "body": "据外媒报道，美国AI公司Anthropic新增了一项安全合规措施，以期缓和与特朗普政府的关系。作为回报，美国政府取消了对Anthropic Fable 5和Mythos 5两款AI模型的限制，但解除限制带有附加条件。\n\n这一动向反映出，在AI监管和国家安全议题备受关注的背景下，大模型开发商正通过强化安全承诺来换取政策空间与市场准入。\n\n尽管具体安全措施的完整细节尚未披露，此事仍可能对Anthropic及同类公司的合规策略、政企关系产生示范效应，值得持续关注。",
+    "category": "地缘科技",
+    "tags": [
+      "人工智能",
+      "AI监管",
+      "科技政策",
+      "Anthropic"
+    ],
+    "source": "Wired",
+    "time": "8分钟前",
+    "ts": "2026-07-01T16:00:00+00:00",
+    "url": "https://www.wired.com/story/anthropic-added-a-new-security-measure-to-get-back-into-the-trump-administrations-good-graces/",
+    "image": "https://media.wired.com/photos/6a443961a0cfe1ef1ae6c3aa/master/pass/politics_anthropic_trump.jpg",
+    "stocks": []
+  },
+  {
+    "id": "2fdfcc3f379938c9",
+    "title": "奇瑞发布犀牛电池安全计划：全系满足新国标并兜底赔付",
+    "summary": "奇瑞汽车正式发布犀牛电池安全保障计划，承诺已售及在售车型动力电池均满足最新国家标准，并推出热失控赔付同款新车、三电终身质保等兜底措施。",
+    "body": "7月1日，奇瑞汽车发布犀牛电池安全保障计划，提出三项承诺：全系已售及在售车型动力电池安全性能满足最新国家标准；若因动力电池自身原因导致整车热失控损毁，将赔付同款新车；首任非营运车主可享受三电系统终身质保。\n\n同日，被称为“史上最严电池安全令”的强制性国标GB38031-2025《电动汽车用动力蓄电池安全要求》正式实施。新标准将热失控后的安全要求从旧版“着火、爆炸前5分钟报警”提升至“热失控后至少2小时观察期内不起火、不爆炸”，并新增底部撞击、快充循环后外部短路等测试项目。\n\n奇瑞此举意在以企业承诺强化消费者信心，积极应对更严格的电池安全监管要求，同时也对动力电池供应商的品控能力提出更高标准。",
+    "category": "未来能源",
+    "tags": [
+      "动力电池",
+      "电动汽车",
+      "奇瑞汽车",
+      "电池安全"
+    ],
+    "source": "IT之家",
+    "time": "9分钟前",
+    "ts": "2026-07-01T15:59:30+00:00",
+    "url": "https://www.ithome.com/0/971/391.htm",
+    "image": "https://img.ithome.com/newsuploadfiles/2026/7/7f593359-3d88-43f8-9027-7929739fe975.jpg",
+    "stocks": []
+  },
+  {
     "id": "185e69091446d395",
     "title": "TCL华星独家供屏红米K90至尊版",
     "summary": "小米REDMI K90至尊版手机正式发布，TCL华星宣布独家供应其屏幕，该屏最高支持165Hz刷新率与3500nits峰值亮度。",
@@ -74,6 +169,25 @@ const newsData = [
     "ts": "2026-07-01T11:40:01-04:00",
     "url": "https://medicalxpress.com/news/2026-07-skin-cancer-health.html",
     "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/stopping-skin-cancer-b.jpg",
+    "stocks": []
+  },
+  {
+    "id": "7e785d3f2ef4ddb4",
+    "title": "xAI推出无代码语音智能体平台Voice Agent Builder",
+    "summary": "xAI发布Voice Agent Builder，用户无需编码即可基于Grok Voice创建类人语音智能体，服务按0.05美元/分钟计费。",
+    "body": "xAI正式上线Voice Agent Builder，一个面向开发者和企业的无代码平台，允许用户基于Grok Voice快速构建具备类人语音交互能力的AI智能体。该平台已开放使用，定价为每分钟0.05美元，降低了语音Agent的开发门槛。业内人士认为，此举进一步丰富了xAI的AI应用生态，也加剧了语音交互与AI Agent赛道的竞争。",
+    "category": "人工智能",
+    "tags": [
+      "语音智能体",
+      "AI Agent",
+      "xAI",
+      "无代码平台"
+    ],
+    "source": "AIHOT精选",
+    "time": "35分钟前",
+    "ts": "2026-07-01T15:33:21+00:00",
+    "url": "https://x.com/xai/status/2072342803787702422",
+    "image": "",
     "stocks": []
   },
   {
