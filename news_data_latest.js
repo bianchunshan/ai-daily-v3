@@ -1,5 +1,31 @@
 const newsData = [
   {
+    "id": "1f8afdb65fe7ccfb",
+    "title": "Atlas V将于7月2日发射29颗亚马逊低轨宽带卫星",
+    "summary": "联合发射联盟（ULA）计划7月2日使用Atlas V火箭为亚马逊发射29颗Leo低轨宽带卫星，继续部署其对标SpaceX Starlink的全球互联网星座。",
+    "body": "美国联合发射联盟（ULA）计划于美国东部时间7月2日凌晨12:24起，在佛罗里达州卡纳维拉尔角太空军基地用Atlas V火箭发射29颗亚马逊Leo低轨宽带卫星，发射窗口约29分钟。这是亚马逊低轨巨型星座项目的又一次关键部署，该星座最终将由约3200颗卫星组成，旨在与SpaceX的Starlink竞争全球宽带互联网服务市场。\n\n截至目前，约370颗亚马逊Leo卫星已通过14次任务入轨，分别由Atlas V、SpaceX猎鹰9号和Arianespace阿丽亚娜6号三种火箭执行，其中Atlas V承担了8次发射任务。此次发射将进一步加速亚马逊卫星互联网的组网进程，对全球卫星通信市场竞争格局具有重要影响。",
+    "category": "商业航天",
+    "tags": [
+      "卫星互联网",
+      "低轨星座",
+      "火箭发射",
+      "亚马逊"
+    ],
+    "source": "Space.com",
+    "time": "刚刚",
+    "ts": "2026-07-01T20:00:00+00:00",
+    "url": "https://www.space.com/space-exploration/launches-spacecraft/ula-atlas-v-amazon-leo-8-internet-satellite-launch",
+    "image": "https://cdn.mos.cms.futurecdn.net/TRDGn92Lq42gjeTDHz5PHA-1280-80.jpg",
+    "stocks": [
+      {
+        "name": "亚马逊",
+        "ticker": "AMZN",
+        "reason": "亚马逊Leo（原Kuiper）星座是其全球卫星宽带业务核心，发射部署进展直接推进该商业航天项目落地。",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
     "id": "abb678c79ba67408",
     "title": "Xbox据称测试将实体光盘游戏转为数字版",
     "summary": "消息称Xbox正测试一项新功能，允许玩家将实体光盘游戏转换为数字版，以在数字化趋势下保留已有的实体游戏购买内容。",
