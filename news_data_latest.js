@@ -1,5 +1,69 @@
 const newsData = [
   {
+    "id": "ce1e15b03ad3b665",
+    "title": "Kempower与PowerUp在美国东南部启动12站快充部署",
+    "summary": "芬兰充电设备商Kempower与美国运营商PowerUp America在肯塔基州曼彻斯特启用首个公共直流快充站，双方将在美国东南部共建12个充电项目。",
+    "body": "据Electrek报道，Kempower与充电网络运营商PowerUp America已在肯塔基州曼彻斯特开设新的公共直流快速充电站。这是两家公司在美国东南部合作建设的12个充电项目中的首个站点。该部署标志着Kempower在美国市场的充电基础设施业务继续扩张，有助于提升当地公共快充网络覆盖，支持电动汽车普及。",
+    "category": "未来能源",
+    "tags": [
+      "充电桩",
+      "电动汽车",
+      "快充基础设施",
+      "能源网络"
+    ],
+    "source": "Electrek",
+    "time": "1分钟前",
+    "ts": "2026-07-01T21:03:52+00:00",
+    "url": "https://electrek.co/2026/07/01/kempower-powerup-kick-off-a-12-site-ev-fast-charging-rollout/",
+    "image": "https://electrek.co/wp-content/uploads/sites/3/2026/07/PowerUp-Kempower-KY.jpg?quality=82&#038;strip=all&#038;w=1600",
+    "stocks": [
+      {
+        "name": "Kempower",
+        "ticker": "KEMPOWER.HE",
+        "reason": "作为充电设备供应商，直接参与该12站快充项目部署，扩大美国市场份额",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "b63bcae064db7e16",
+    "title": "研究揭示压力如何破坏大脑抑制创伤能力",
+    "summary": "一项新研究揭示了恐惧学习神经回路如何受压力影响，从而破坏大脑抑制创伤记忆的能力，为理解创伤后应激障碍等精神疾病提供了新线索。",
+    "body": "恐惧常被视为负面情绪，但实际上它是大脑对感知威胁或危险的自然保护性反应，有助于生物生存。当个体经历恐惧情境时，相关记忆会被存储为恐惧记忆，使人避免再次接触危险，例如被烫伤后不再触碰热炉，或避免踏入繁忙街道。\n\n最新研究发现，压力会作用于特定的恐惧学习神经回路，干扰大脑对创伤相关恐惧记忆的抑制能力。这意味着在压力状态下，大脑更难主动压制或消退与创伤相关的恐惧反应。\n\n该研究为理解创伤后应激障碍、焦虑症等精神疾病的发病机制提供了新的神经科学视角，未来有望推动基于神经回路调控的新型干预手段或数字疗法的发展。",
+    "category": "脑机接口",
+    "tags": [
+      "神经科学",
+      "创伤后应激障碍",
+      "恐惧记忆",
+      "数字疗法"
+    ],
+    "source": "MedicalXpress",
+    "time": "5分钟前",
+    "ts": "2026-07-01T17:00:05-04:00",
+    "url": "https://medicalxpress.com/news/2026-07-circuit-stress-disrupts-brain-ability.html",
+    "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/brain-neurons.jpg",
+    "stocks": []
+  },
+  {
+    "id": "41a2a0ced4970571",
+    "title": "新分子标志物助力多发性骨髓瘤精准治疗",
+    "summary": "西班牙纳瓦拉大学研究人员发现了多发性骨髓瘤的新分子机制，识别出潜在治疗靶点，为难治性血液肿瘤的精准疗法奠定了基础。相关论文已发表于《Blood》。",
+    "body": "多发性骨髓瘤是一种影响骨髓的血液系统恶性肿瘤，因易产生治疗耐药性而频繁复发。纳瓦拉大学应用医学研究中心（Cima）与纳瓦拉大学诊所的研究团队近日揭示了其潜在的新分子机制，并识别出可作为分子标志物的靶点，为开发更精确的个体化治疗方案提供了方向。\n\n该研究成果已发表于国际血液学权威期刊《Blood》。研究团队指出，这些新发现的分子特征有助于理解疾病复发机制，并可能指导靶向药物或联合治疗策略的设计，从而改善患者预后。",
+    "category": "生物医药",
+    "tags": [
+      "多发性骨髓瘤",
+      "分子标志物",
+      "精准医疗",
+      "血液肿瘤"
+    ],
+    "source": "MedicalXpress",
+    "time": "5分钟前",
+    "ts": "2026-07-01T17:00:02-04:00",
+    "url": "https://medicalxpress.com/news/2026-07-identification-molecular-markers-multiple-myeloma.html",
+    "image": "https://scx1.b-cdn.net/csz/news/tmb/2022/cancer-4.jpg",
+    "stocks": []
+  },
+  {
     "id": "74c0a2b6b4bb0cb5",
     "title": "苹果\"Hide My Email\"被曝漏洞，匿名邮箱可关联真实地址",
     "summary": "据报道，苹果\"Hide My Email\"功能存在安全漏洞，可能将用户匿名邮箱地址与其真实邮箱地址关联，威胁用户隐私安全。",
@@ -60,6 +124,25 @@ const newsData = [
     "time": "4分钟前",
     "ts": "2026-07-01T20:45:36+00:00",
     "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.198",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "21aa1be352d7d1d2",
+    "title": "无需土建工程的1千瓦风力发电机",
+    "summary": "这是一款号称无需土木工程即可部署的1千瓦小型风力涡轮机，有望降低分布式风电的安装门槛与成本。",
+    "body": "据报道，这种1千瓦风力涡轮机无需进行土建施工即可安装，旨在简化部署流程、减少对场地和基础设施的要求。若技术成熟，可为家庭、农场或偏远地区提供更便捷的分布式风电方案，进一步降低小型风电系统的使用门槛。目前该产品公开信息有限，其实际性能、成本及商业化进展仍需进一步观察。",
+    "category": "未来能源",
+    "tags": [
+      "风力发电",
+      "分布式能源",
+      "清洁能源",
+      "小型风电"
+    ],
+    "source": "Hacker News",
+    "time": "21分钟前",
+    "ts": "2026-07-01T20:43:47+00:00",
+    "url": "https://www.windtowatt.com/index-en.html",
     "image": "",
     "stocks": []
   },
