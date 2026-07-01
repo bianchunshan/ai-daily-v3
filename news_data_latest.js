@@ -1,5 +1,31 @@
 const newsData = [
   {
+    "id": "d8f860204c44c20d",
+    "title": "英伟达Blackwell平台降低DeepSeek V4推理成本至1/5",
+    "summary": "英伟达宣布在Blackwell平台上通过全栈推理优化，使DeepSeek V4模型单Token成本最多降至1/5，单GPU吞吐量最高提升20倍，将单Token成本列为AI总拥有成本核心指标。",
+    "body": "英伟达6月30日发布博文称，在Blackwell平台上通过生产运营、应用加速、基础设施访问三层优化，实现DeepSeek V4模型全栈推理效率提升。相比该模型一个月前上线初期，单Token成本最多降至五分之一，单GPU的Token吞吐量最高可提升20倍。英伟达表示，已将单Token成本作为AI总拥有成本的核心指标，并认为Blackwell平台已将DeepSeek V4的推理成本降至行业最低水平。\n\n技术层面，英伟达采用分离式服务、大规模专家并行、NVLink并行通信、NVFP4精度以及多Token预测等手段，进一步优化计算与通信重叠、内核融合以及GPU、网络、内存和系统能力的协同。该进展强化了英伟达在AI推理基础设施和软件生态方面的竞争力，也反映出其Blackwell平台在大模型部署中的成本与性能优势。",
+    "category": "AI 基础设施",
+    "tags": [
+      "英伟达",
+      "Blackwell",
+      "DeepSeek V4",
+      "AI推理成本"
+    ],
+    "source": "IT之家",
+    "time": "6分钟前",
+    "ts": "2026-07-01T05:41:07+00:00",
+    "url": "https://www.ithome.com/0/971/026.htm",
+    "image": "https://img.ithome.com/newsuploadfiles/2026/7/9b39ba66-c180-4124-aaed-10659159bff6.jpg",
+    "stocks": [
+      {
+        "name": "英伟达",
+        "ticker": "NVDA",
+        "reason": "Blackwell平台全栈推理优化降低单Token成本并提升吞吐量，强化其AI芯片与软件生态竞争力。",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
     "id": "dfba4e318e19e81a",
     "title": "松下将投5000亿日元拓展AI基础设施业务",
     "summary": "松下控股宣布未来两个财年投资约5000亿日元发展人工智能基础设施业务，目标三年内实现约1.4万亿日元相关销售额，并将裁员规模扩大至1.2万人以降本增效。",
