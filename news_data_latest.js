@@ -1,5 +1,31 @@
 const newsData = [
   {
+    "id": "caf67364722e21a4",
+    "title": "苹果入门级MacBook Pro或将重新设计",
+    "summary": "彭博社报道称，苹果正开发“改版”入门级MacBook Pro，最快2027年上半年发布；同时还在测试四款新iPad Pro，预计明年春季推出，重点在内部升级。",
+    "body": "据彭博社报道，苹果正在研发一款“ revamped ”的入门级 MacBook Pro，可能最早于2027年上半年推出。这一消息意味着苹果经典笔记本产品线将迎来外观或结构层面的更新，而非单纯的性能迭代。\n\n与此同时，苹果还在测试四款新 iPad Pro，预计将在明年春季发布，主要聚焦于内部硬件改进。上述动向显示，苹果正持续刷新其个人计算设备组合，以维持高端消费市场的竞争力。\n\n不过，相关产品的研发周期较长，最终发布时间和规格仍存在调整可能，短期内对市场影响有限。",
+    "category": "消费电子",
+    "tags": [
+      "苹果",
+      "MacBook Pro",
+      "iPad Pro",
+      "消费电子"
+    ],
+    "source": "The Verge",
+    "time": "2分钟前",
+    "ts": "2026-07-01T18:39:43-04:00",
+    "url": "https://www.theverge.com/news/960541/apple-macbook-pro-entry-level-redesign-ipad-pro-update",
+    "image": "",
+    "stocks": [
+      {
+        "name": "苹果公司",
+        "ticker": "AAPL",
+        "reason": "新闻主角，MacBook Pro与iPad Pro产品线更新直接利好其硬件销售与生态粘性。",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
     "id": "7b4535f7cef18284",
     "title": "苹果“Hide My Email”曝漏洞：匿名邮箱可被溯源真实地址",
     "summary": "据 404 Media 报道，苹果 iCloud+ 的“Hide My Email”功能存在安全漏洞，攻击者能在约5分钟内将随机匿名邮箱逆向还原为用户的真实 Apple ID 邮箱，测试成功率达100%。研究团队因不满苹果修复拖延而公开披露，提醒高风险用户面临身份暴露风险。",
