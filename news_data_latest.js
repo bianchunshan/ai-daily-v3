@@ -1,5 +1,62 @@
 const newsData = [
   {
+    "id": "8cc6ac2fb121c849",
+    "title": "机器人坚固化设计正成为刚需",
+    "summary": "随着自主机器人走出受控环境，坚固化设计正成为可靠运行的前提；制造商必须应对灰尘、湿度、振动、温差和复杂地形等严苛工况。",
+    "body": "长期以来，多数自主移动机器人基于一个简单假设运行：环境相对可控，仓库地面平整、光照和温度稳定、网络连接可靠。然而，这一前提正在迅速改变。机器人如今被广泛部署到配送场、制造园区、医疗设施、零售门店、建筑工地、农业场景及户外物流等更严苛的环境中，灰尘、湿气、振动、温度波动、不平整地形和不稳定基础设施已从例外情况变为常态工况。\n\n行业专家指出，户外和半结构化环境正成为自主移动机器人增长最快的前沿领域。为在这些非理想条件下实现可靠自主，机器人制造商必须重新思考坚固化设计，从机械结构、防护等级、感知系统到电源与通信都要具备更强的环境适应能力。\n\n这一趋势意味着机器人产业正从受控仓储走向更广阔的真实世界应用。坚固化不再是可选项，而是决定自主机器人能否规模化落地的关键要素，对物流自动化、农业、建筑和制造业的数字化转型具有深远影响。",
+    "category": "机器人",
+    "tags": [
+      "机器人",
+      "自主移动机器人",
+      "坚固化设计",
+      "户外应用"
+    ],
+    "source": "The Robot Report",
+    "time": "5分钟前",
+    "ts": "2026-07-01T18:44:05+00:00",
+    "url": "https://www.therobotreport.com/in-robotics-ruggedization-is-no-longer-optional/",
+    "image": "https://www.therobotreport.com/wp-content/uploads/2026/06/wibotic-sponsored-featured-image-july2026-v2.jpg",
+    "stocks": []
+  },
+  {
+    "id": "7e52902e00be7d4d",
+    "title": "国际研究提出提升临床试验质量减少研究浪费",
+    "summary": "一项发表于《JAMA Network Open》的国际研究识别出可改善全球随机临床试验质量、实用性和可靠性的具体措施。该研究由INFORM项目开展，访问了六大洲16个国家的55名相关方，包括试验研究者、资助方、伦理学家、监管机构和行业代表等。",
+    "body": "一项由Shaun Treweek教授领衔、发表于《JAMA Network Open》的大型国际研究，通过访谈六大洲16个国家的55名临床试验相关方，系统梳理了提升随机临床试验信息价值与可靠性的可行路径。研究参与者涵盖试验研究者、资助机构、伦理委员会、监管机构、医药企业代表及申办方等多方主体。\n\n该研究属于INFORM项目（Improving pre-funding peer review to increase the informativeness of randomized trials），其核心目标是在试验资助前通过改进同行评审机制，减少低质量或重复性研究造成的科研资源浪费。研究成果为优化全球临床试验设计、评审流程和证据转化提供了实践参考，对提升医学研究效率和患者获益具有重要意义。",
+    "category": "生物医药",
+    "tags": [
+      "临床试验",
+      "医学研究",
+      "科研评审",
+      "循证医学"
+    ],
+    "source": "MedicalXpress",
+    "time": "9分钟前",
+    "ts": "2026-07-01T14:40:07-04:00",
+    "url": "https://medicalxpress.com/news/2026-07-ways-clinical-trials.html",
+    "image": "https://scx1.b-cdn.net/csz/news/tmb/2025/clinical-trial.jpg",
+    "stocks": []
+  },
+  {
+    "id": "c02f825d533c05a1",
+    "title": "科学家发现疟疾寄生虫共有靶点 有望推动通用疫苗研发",
+    "summary": "科学家识别出疟疾寄生虫在肝脏阶段的共有靶点片段，有望为开发通用疟疾疫苗提供新方向。相关研究已发表于《自然》期刊。",
+    "body": "美国俄勒冈健康与科学大学及全球合作团队发现，引发疟疾的寄生虫在肝脏阶段存在一些可识别的共有片段，这些片段可被T细胞疫苗靶向攻击。T细胞是人体白细胞的一种，能够识别并清除被感染的细胞。\n\n研究团队认为，这些共享靶点为设计广谱、通用的疟疾疫苗提供了关键线索。由于现有疟疾疫苗保护力有限且难以覆盖多种寄生虫株，这一发现有望推动下一代疫苗的研发进程，造福疟疾高负担地区。",
+    "category": "生物医药",
+    "tags": [
+      "疟疾疫苗",
+      "寄生虫靶点",
+      "T细胞疫苗",
+      "生命科学"
+    ],
+    "source": "MedicalXpress",
+    "time": "9分钟前",
+    "ts": "2026-07-01T14:40:03-04:00",
+    "url": "https://medicalxpress.com/news/2026-07-malaria-vaccine-quest-narrows-parasite.html",
+    "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/study-reveals-path-for-1.jpg",
+    "stocks": []
+  },
+  {
     "id": "6e89872055ece851",
     "title": "AI新云Together AI融资8亿美元，估值达83亿美元",
     "summary": "专注开源模型托管的AI新云服务商Together AI完成8亿美元融资，估值从2025年初的33亿美元跃升至83亿美元，反映市场对开源模型推理基础设施的强烈需求。",
@@ -339,6 +396,25 @@ const newsData = [
     ]
   },
   {
+    "id": "ca896966df2165db",
+    "title": "追踪OPNsense RCE漏洞：我的首批CVE故事",
+    "summary": "一名安全研究人员撰文披露其在OPNsense开源防火墙软件中追踪并发现远程代码执行（RCE）漏洞、最终获得首批CVE编号的完整过程。",
+    "body": "OPNsense是一款基于FreeBSD的开源防火墙与路由平台，广泛应用于企业网络边界防护。本文作者详细记录了其从代码审计、漏洞复现到向官方提交报告并获取CVE编号的完整经历，核心发现为远程代码执行（RCE）类高危缺陷。\n\n该案例再次凸显了网络边界设备作为关键基础设施组件所面临的严峻安全挑战。防火墙、网关类产品的漏洞一旦被利用，可能导致 entire network 被攻破，因此持续的安全研究与负责任的漏洞披露机制对整个网络生态具有重要意义。",
+    "category": "网络安全",
+    "tags": [
+      "OPNsense",
+      "RCE漏洞",
+      "CVE披露",
+      "网络安全研究"
+    ],
+    "source": "Hacker News",
+    "time": "1小时前",
+    "ts": "2026-07-01T17:32:15+00:00",
+    "url": "https://hackerask.com/posts/opnsense/",
+    "image": "",
+    "stocks": []
+  },
+  {
     "id": "270e5a08ff3b2d61",
     "title": "AnalystAIPack发布118项AI智能体技能用于恶意软件分析",
     "summary": "Hacker News上出现名为AnalystAIPack的开源项目，提供118个可运行的AI Agent技能，专门用于恶意软件分析与逆向工程（RE）。该项目将大模型智能体能力引入网络安全攻防与代码分析场景。",
@@ -527,6 +603,25 @@ const newsData = [
         "confidence": "high"
       }
     ]
+  },
+  {
+    "id": "56a84890d5d8ab91",
+    "title": "ClickHouse OLAP引擎完整编译至WebAssembly",
+    "summary": "有开发者将完整的ClickHouse OLAP引擎编译为WebAssembly，使其可在浏览器等环境中本地运行。这一工程尝试有望降低数据分析工具的部署门槛，拓展OLAP引擎的应用场景。",
+    "body": "据报道，一项技术项目实现了将完整的ClickHouse OLAP引擎编译为WebAssembly。ClickHouse是知名的开源列式数据库管理系统，广泛应用于高性能在线分析处理场景；WebAssembly则是一种可在现代浏览器中以接近原生性能运行的二进制指令格式。二者结合意味着用户未来或许无需部署服务器，即可在浏览器或边缘环境中执行复杂的分析查询。\n\n该尝试主要属于工程化创新，核心意义在于提升数据分析基础设施的可移植性与部署灵活性。若技术成熟，可能为嵌入式分析、前端数据可视化以及边缘计算等场景提供新的解决方案。\n\n目前这一项目尚处于早期展示阶段，且ClickHouse所属公司未上市，对资本市场暂无直接标的映射。",
+    "category": "AI 基础设施",
+    "tags": [
+      "数据库",
+      "WebAssembly",
+      "ClickHouse",
+      "OLAP"
+    ],
+    "source": "Hacker News",
+    "time": "1小时前",
+    "ts": "2026-07-01T17:05:00+00:00",
+    "url": "https://wasm.chdb.io/",
+    "image": "",
+    "stocks": []
   },
   {
     "id": "aee36dbd92da0d62",
