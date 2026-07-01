@@ -1,5 +1,50 @@
 const newsData = [
   {
+    "id": "ab2a4a46b603ba2e",
+    "title": "索尼宣布2028年起新游戏停产光盘",
+    "summary": "索尼宣布自2028年1月起停止为新游戏生产PlayStation实体光盘，全面转向数字发行，引发玩家与实体零售商对游戏所有权及收藏价值的担忧。",
+    "body": "据报道，索尼已宣布自2028年1月起停止为新游戏生产PlayStation实体光盘，标志着PlayStation实体媒介可能走向终结。美国小型游戏零售连锁Pink Gorilla Games联合创始人Cody Spencer对此表示遗憾，认为该决定对玩家只有负面影响，玩家将失去拥有实体游戏和收藏的能力。\n\n随着数字下载和订阅服务成为主流，实体游戏零售商及二手游戏市场可能进一步萎缩，游戏分销渠道将加速向平台方集中。不过，索尼如何平衡数字销售、玩家权益与零售生态，仍有待后续观察。",
+    "category": "消费电子",
+    "tags": [
+      "索尼",
+      "PlayStation",
+      "游戏光盘",
+      "数字发行"
+    ],
+    "source": "The Verge",
+    "time": "6分钟前",
+    "ts": "2026-07-01T18:03:37-04:00",
+    "url": "https://www.theverge.com/games/960476/playstation-physical-games-discs-stop-production-preservation-retail-stores",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "1d5f20511f8e7d44",
+    "title": "WhatsApp用户名功能引发冒充风险担忧",
+    "summary": "Meta在WhatsApp推出用户名功能以提升隐私，但专家指出该机制可能难以有效防止冒充行为，引发身份安全担忧。",
+    "body": "Meta近期在WhatsApp中引入用户名功能，称用户可通过非手机号的方式被找到，从而减少个人号码的暴露，增强隐私保护。然而，批评者指出，这一机制存在被滥用于账号冒充的潜在风险；若平台的验证与防护措施不足，攻击者可能利用用户名伪装成他人或机构进行欺诈。\n\n该争议凸显了即时通讯平台在隐私保护与身份认证之间的平衡难题。随着用户名成为新的身份标识，平台需要更严格的防冒充机制，否则可能影响用户信任并带来网络安全治理压力。此事也对Meta旗下核心通讯产品的安全管理提出了更高要求。",
+    "category": "网络安全",
+    "tags": [
+      "WhatsApp",
+      "Meta",
+      "身份认证",
+      "隐私安全"
+    ],
+    "source": "TechCrunch",
+    "time": "7分钟前",
+    "ts": "2026-07-01T22:02:24+00:00",
+    "url": "https://techcrunch.com/2026/07/01/whatsapp-usernames-are-already-raising-impersonation-red-flags/",
+    "image": "",
+    "stocks": [
+      {
+        "name": "Meta Platforms",
+        "ticker": "META",
+        "reason": "WhatsApp是Meta旗下核心即时通讯产品，其用户名功能的安全争议可能影响用户信任与平台声誉。",
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
     "id": "0f1b5e884873d151",
     "title": "新研究挑战传统神经科学：大脑思考与视觉共用回路",
     "summary": "神经科学家Nuttida Rungratsameetaweemana正挑战数十年来的经典观点，指出大脑并非单纯先接收视觉信息再进入皮层进行高级思维处理，而是存在让“思考”与“看见”同时发生的神经回路。该发现可能改写对感知、认知及其交互机制的理解。",
@@ -16,6 +61,24 @@ const newsData = [
     "ts": "2026-07-01T18:00:03-04:00",
     "url": "https://medicalxpress.com/news/2026-07-circuit-brain.html",
     "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/the-circuit-that-lets.jpg",
+    "stocks": []
+  },
+  {
+    "id": "7bce8e5fea97dab1",
+    "title": "Fable开源NanoClaw Agent工厂，成本仅800美元",
+    "summary": "人工智能公司Fable宣布开源NanoClaw的Agent工厂，整个项目据称仅花费800美元，意在降低智能体开发门槛。",
+    "body": "据报道，Fable已将NanoClaw的Agent工厂开源，该项目用于构建AI智能体，且整体成本仅为800美元。这一低成本方案可能让更多开发者和初创团队复现、改进智能体生成流程，加速AI Agent生态的民主化。\n\nFable此举发生在AI Agent能力快速迭代的背景下，开源工厂有望促进Agent开发工具链的透明化和标准化。不过，目前尚不清楚其具体技术细节、性能基准及商业化路径，后续社区反馈将是观察其影响力的关键。",
+    "category": "人工智能",
+    "tags": [
+      "AI智能体",
+      "开源",
+      "Fable"
+    ],
+    "source": "Hacker News",
+    "time": "29分钟前",
+    "ts": "2026-07-01T21:41:06+00:00",
+    "url": "https://twitter.com/Gavriel_Cohen/status/2072432348805669139",
+    "image": "",
     "stocks": []
   },
   {
