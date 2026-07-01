@@ -1,5 +1,43 @@
 const newsData = [
   {
+    "id": "285d3fbb2640f4a7",
+    "title": "七彩虹上架RP600X PRO 512GB固态U盘",
+    "summary": "七彩虹在京东上架512GB容量的RP600X PRO固态U盘，售价899元，读取速度达1000MB/s，支持苹果Apple ProRes即拍即存。",
+    "body": "据IT之家7月1日消息，七彩虹已在京东上架容量为512GB的RP600X PRO固态U盘。该产品采用全锌合金压铸外壳并配有嵌入式散热槽，提供USB-A/C双接口，基于USB 3.2 Gen 2协议，读取速度可达1000MB/s，并支持苹果Apple ProRes格式的即拍即存，定价899元。\n\n作为一款面向专业移动存储与内容创作的高性能固态U盘，RP600X PRO体现了消费级存储设备在读写速度、散热设计与接口兼容性上的持续升级，也反映出国内品牌在高端移动存储细分市场的竞争布局。",
+    "category": "消费电子",
+    "tags": [
+      "消费电子",
+      "固态U盘",
+      "移动存储",
+      "七彩虹"
+    ],
+    "source": "IT之家",
+    "time": "4分钟前",
+    "ts": "2026-07-01T13:33:47+00:00",
+    "url": "https://www.ithome.com/0/971/359.htm",
+    "image": "https://img.ithome.com/newsuploadfiles/2026/7/c113ac99-3e12-4aac-9d65-beb3dfa58e56.png",
+    "stocks": []
+  },
+  {
+    "id": "4444b5d8044daa2c",
+    "title": "Plex、Jellyfin与Emby三大媒体服务器对比",
+    "summary": "文章对比了Plex、Jellyfin和Emby三款主流媒体服务器的使用体验与成本差异。Plex以便捷性见长，但部分高级功能需付费；Jellyfin和Emby则更适合愿意动手配置的用户。",
+    "body": "Engadget对Plex、Jellyfin和Emby三款主流媒体服务器进行了比较。Plex凭借更成熟的界面和便捷设置占据优势，适合追求开箱即用的用户，但部分高级功能需要订阅付费。Jellyfin作为开源免费方案，在隐私控制和成本上更具吸引力，但配置和维护门槛较高。Emby介于两者之间，提供了更多自定义选项，但部分核心功能同样需要付费解锁。总体而言，三者分别代表了便捷付费、免费开源和平衡方案的不同路线，选择取决于用户对便利性、成本和隐私的取舍。",
+    "category": "消费电子",
+    "tags": [
+      "媒体服务器",
+      "流媒体",
+      "开源软件",
+      "家庭影音"
+    ],
+    "source": "Engadget",
+    "time": "8分钟前",
+    "ts": "2026-07-01T13:30:00+00:00",
+    "url": "https://www.engadget.com/2204587/plex-vs-jellyfin-comparison/",
+    "image": "https://www.engadget.com/img/gallery/plex-vs-jellyfin-vs-emby-heres-how-the-three-media-servers-really-compare/l-intro-1782773759.jpg",
+    "stocks": []
+  },
+  {
     "id": "8af14129a2569bdf",
     "title": "孕期服用泰诺与自闭症、ADHD无关联",
     "summary": "一项基于20年数据、采用同胞配对设计的研究发现，孕期服用对乙酰氨基酚（泰诺）与儿童自闭症或ADHD风险之间没有关联，缓解了此前围绕该药物安全性的担忧。",
