@@ -1,5 +1,152 @@
 const newsData = [
   {
+    "id": "769fc9ff441299ba",
+    "title": "Visa、万事达与Coinbase联手推出全球稳定币",
+    "summary": "Visa、万事达卡和Coinbase联合推出新的全球稳定币项目，旨在依托传统金融支付网络推动数字货币在跨境与日常交易中的应用。",
+    "body": "据报道，Visa、Mastercard与Coinbase正联合发起一项新的全球稳定币计划，该项目还获得多家大型金融机构支持。该稳定币意在结合传统卡组织覆盖的庞大支付网络与加密资产结算技术，为用户提供更便捷的数字货币支付与转账服务。此举标志着主流金融机构进一步拥抱区块链支付生态，稳定币在跨境结算、商户收单等场景的应用空间有望持续扩大。",
+    "category": "网络安全",
+    "tags": [
+      "稳定币",
+      "数字支付",
+      "区块链",
+      "加密货币"
+    ],
+    "source": "Engadget",
+    "time": "5分钟前",
+    "ts": "2026-07-01T16:24:00+00:00",
+    "url": "https://www.engadget.com/2206043/visa-mastercard-and-coinbase-have-launched-a-new-global-stablecoin/",
+    "image": "https://www.engadget.com/img/gallery/visa-mastercard-and-coinbase-have-launched-a-new-global-stablecoin/l-intro-1782922796.jpg",
+    "stocks": [
+      {
+        "name": "Visa",
+        "ticker": "V",
+        "reason": "直接参与发起新稳定币项目，有望拓展数字支付与加密结算业务",
+        "confidence": "high"
+      },
+      {
+        "name": "万事达卡",
+        "ticker": "MA",
+        "reason": "作为核心发起方参与全球稳定币计划，强化区块链支付布局",
+        "confidence": "high"
+      },
+      {
+        "name": "Coinbase",
+        "ticker": "COIN",
+        "reason": "联合推出稳定币项目，可带动平台交易、托管及支付业务增长",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "ebb899000f042de2",
+    "title": "富士胶片推出QuickSnap防水黑白复古特别版",
+    "summary": "富士胶片为其经典QuickSnap一次性胶片相机推出防水与黑白两款特别版，迎合复古摄影潮流。",
+    "body": "富士胶片（Fujifilm）近日发布了两款特别版QuickSnap一次性胶片相机，分别为防水版与黑白版，延续该系列复古即拍相机的经典设计。此次新品瞄准怀旧摄影爱好者与户外场景，进一步丰富其消费影像产品线。随着胶片摄影在社交媒体推动下重新流行，富士胶片有望借此巩固其在一次性相机与复古成像市场的品牌地位。",
+    "category": "消费电子",
+    "tags": [
+      "富士胶片",
+      "一次性相机",
+      "复古摄影",
+      "即时成像"
+    ],
+    "source": "Engadget",
+    "time": "7分钟前",
+    "ts": "2026-07-01T16:21:45+00:00",
+    "url": "https://www.engadget.com/2206038/fujifilm-launches-special-waterproof-and-black-and-white-editions-of-its-retro-quicksnap-instant-cameras/",
+    "image": "https://www.engadget.com/img/gallery/fufjilm-launches-special-waterproof-and-black-and-white-editions-of-its-retro-quicksnap-instant-cameras/l-intro-1782922598.jpg",
+    "stocks": [
+      {
+        "name": "富士胶片控股",
+        "ticker": "4901.T",
+        "reason": "新品直接由公司推出，利好消费影像业务",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "800d3a63d1863143",
+    "title": "生成式AI化身口袋私教，安全可靠吗？",
+    "summary": "生成式人工智能正在改变健身行业，用户可让聊天机器人制定马拉松计划、设计健身房训练，并根据睡眠或心率数据调整锻炼方案，但其安全性与专业性引发关注。",
+    "body": "生成式人工智能正在进入健身领域，成为人们随身的“私人教练”。用户可以向聊天机器人索取马拉松训练计划、健身房课程安排，甚至根据个人睡眠和心率数据动态调整运动内容。\n\n这种技术降低了个性化健身指导的门槛，使更多人能获得定制化的训练建议。然而，AI生成的方案是否科学合理、能否处理特殊健康状况，以及数据隐私与算法责任等问题，也引发了安全和监管层面的讨论。",
+    "category": "人工智能",
+    "tags": [
+      "生成式AI",
+      "智能健身",
+      "数字健康",
+      "AI应用"
+    ],
+    "source": "MedicalXpress",
+    "time": "9分钟前",
+    "ts": "2026-07-01T12:20:03-04:00",
+    "url": "https://medicalxpress.com/news/2026-07-ai-personal-trainer-pocket-safe.html",
+    "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/ai-can-be-a-personal-t.jpg",
+    "stocks": []
+  },
+  {
+    "id": "fb736f38b37cc6a9",
+    "title": "婴儿补铁或与三岁行为问题减少相关",
+    "summary": "瑞典于默奥大学新研究表明，健康母乳喂养婴儿接受铁补充剂后，3岁时攻击性行为较未补充者更少。相关论文发表于《Scientific Reports》，但研究者称尚需在更广泛人群中验证，暂不建议普遍补铁。",
+    "body": "据 MedicalXpress 报道，瑞典于默奥大学团队在《Scientific Reports》发表的研究发现，健康且母乳喂养的婴儿若补充铁剂，到3岁时表现出的攻击性行为明显少于未补充铁的同龄儿童。该研究提示早期微量营养素干预可能对儿童神经行为发育产生长期影响。不过作者强调，目前证据仍有限，在明确推荐所有婴儿常规补铁之前，还需更多研究以确认剂量、安全性及长期效果。该发现属于生命科学与儿童营养发育交叉领域，为理解婴幼儿铁代谢与行为健康的关系提供了新线索。",
+    "category": "生物医药",
+    "tags": [
+      "营养科学",
+      "儿童发育",
+      "行为健康",
+      "生命科学"
+    ],
+    "source": "MedicalXpress",
+    "time": "9分钟前",
+    "ts": "2026-07-01T12:20:01-04:00",
+    "url": "https://medicalxpress.com/news/2026-07-infant-iron-supplements-linked-behavior.html",
+    "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/age-3.jpg",
+    "stocks": []
+  },
+  {
+    "id": "6d14164467ba13a5",
+    "title": "GVisor利用GPU快照技术减少冷启动",
+    "summary": "Google开源容器沙箱GVisor正探索引入GPU快照技术，以缩短GPU实例的冷启动时间，提升容器化GPU工作负载的启动效率。",
+    "body": "据外媒Hacker News报道，Google开源容器沙箱GVisor正在研究通过GPU快照（snapshotting）来降低冷启动耗时。该技术若落地，有望在维持容器隔离安全的同时，加速GPU实例的初始化过程。\n\nGVisor是Google推出的用户空间内核，可在容器与宿主机之间提供额外隔离，广泛应用于Google Cloud等云环境。对AI推理、训练等需要频繁扩缩容的GPU负载而言，缩短冷启动时间有助于改善使用体验与资源成本效率。\n\n此举属于云AI基础设施层面的优化，可能增强Google Cloud在GPU即服务市场的竞争力，但整体影响仍有待该技术正式落地与规模化应用验证。",
+    "category": "AI 基础设施",
+    "tags": [
+      "容器沙箱",
+      "GPU",
+      "冷启动",
+      "Google Cloud"
+    ],
+    "source": "Hacker News",
+    "time": "9分钟前",
+    "ts": "2026-07-01T16:19:47+00:00",
+    "url": "https://cerebrium.ai/blog/reducing-gpu-cold-starts-with-memory-snapshots-restoring-cuda-workloads-in-second",
+    "image": "",
+    "stocks": [
+      {
+        "name": "Alphabet",
+        "ticker": "GOOGL",
+        "reason": "GVisor为Google开源项目，GPU冷启动优化有望提升Google Cloud AI基础设施竞争力。",
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
+    "id": "557101f6ba4b8fea",
+    "title": "NASA审计显示波音Starliner或延误十年",
+    "summary": "美国宇航局监察长办公室发布的审计报告指出，波音Starliner载人飞船的运营认证可能推迟到2027年，较原计划晚了约十年，距离国际空间站退役时间所剩无几。",
+    "body": "美国宇航局（NASA）监察长周二发布针对商业载人航天计划的审计报告，认为波音公司Starliner载人舱获得国际空间站常规载人飞行认证的时间可能要等到2027年。这意味着Starliner将比波音最初设定的2017年目标晚约十年才能投入运营，而NASA计划2030年退役国际空间站，国会正推动延长至2032年。\n\n审计报告提出六项建议，包括制定Starliner下次飞行及后续载人任务的详细时间表，并确保留有足够时间解决2024年首次载人试飞暴露的所有问题。NASA官员已同意全部建议，但进度延误仍可能削弱NASA在役载人运输能力的冗余安排，并对波音在商业载人航天市场的竞争地位造成压力。",
+    "category": "商业航天",
+    "tags": [
+      "商业航天",
+      "波音Starliner",
+      "NASA",
+      "载人航天"
+    ],
+    "source": "Ars Technica",
+    "time": "17分钟前",
+    "ts": "2026-07-01T16:11:39+00:00",
+    "url": "https://arstechnica.com/space/2026/07/nasa-inspector-general-suggests-boeings-starliner-will-now-be-a-decade-late/",
+    "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/06/52004657971_02c9a5ce1b_o-1152x648-1782919980.jpg",
+    "stocks": []
+  },
+  {
     "id": "4f0c2c0932f78c2c",
     "title": "AI重塑全球能源系统，墨尔本借工程协作抢跑",
     "summary": "随着人工智能加速全球算力需求，数据中心能耗压力日益凸显。澳大利亚墨尔本正试图通过能源与工程领域协作，引领AI基础设施能源系统的转型。",
@@ -247,6 +394,44 @@ const newsData = [
     "stocks": []
   },
   {
+    "id": "ee4585456f027ee0",
+    "title": "IPFS内容发布速度提升10倍",
+    "summary": "技术团队通过协议优化，使IPFS内容发布速度达到原来的10倍，显著改善分布式存储与传输效率。",
+    "body": "该技术文章介绍了优化IPFS（星际文件系统）内容发布流程的具体方法，实现了约10倍的性能提升。IPFS作为去中心化的内容寻址分布式文件系统，广泛应用于Web3、数据分发和分布式存储等场景。此次性能优化有望降低节点发布延迟、提升网络吞吐量，对依赖分布式存储与传输的基础设施服务具有积极意义。",
+    "category": "AI 基础设施",
+    "tags": [
+      "IPFS",
+      "分布式存储",
+      "网络协议",
+      "Web3"
+    ],
+    "source": "Hacker News",
+    "time": "58分钟前",
+    "ts": "2026-07-01T15:30:35+00:00",
+    "url": "https://probelab.io/blog/optimistic-provide/",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "c129335a7fe1c5d0",
+    "title": "“海盗号”机械臂失踪五十年成航天史谜案",
+    "summary": "Ars Technica 文章回顾了 50 年前用于 NASA 海盗号火星任务的机械臂，探讨其如今在太空史文物中下落不明的谜团。",
+    "body": "这篇报道以 1976 年美国国家航空航天博物馆开馆仪式为切入点，提到阿波罗 11 号宇航员迈克尔·柯林斯当时紧盯时间，福特总统与洛克菲勒副总统也到场出席。文章真正关注的却是一件不起眼的展品——约 50 年前用于海盗号火星探测器的机械臂。",
+    "category": "商业航天",
+    "tags": [
+      "深空探测",
+      "航天史",
+      "NASA",
+      "火星探测"
+    ],
+    "source": "Ars Technica",
+    "time": "1小时前",
+    "ts": "2026-07-01T15:20:34+00:00",
+    "url": "https://arstechnica.com/space/2026/07/50-years-on-will-the-mars-lander-arm-that-opened-the-air-and-space-raise-its-hand/",
+    "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/07/news-070126aa-lg-1152x648.jpg",
+    "stocks": []
+  },
+  {
     "id": "3c1fc3115c4df45f",
     "title": "华为公布鸿蒙OS 7花粉Beta适配机型名单",
     "summary": "华为公布鸿蒙HarmonyOS 7花粉Beta版适配机型，覆盖Mate、Pura、nova系列手机及MatePad平板，正式版预计秋季推送。",
@@ -319,6 +504,25 @@ const newsData = [
     "ts": "2026-07-01T15:15:05+00:00",
     "url": "https://www.ithome.com/0/971/386.htm",
     "image": "https://img.ithome.com/newsuploadfiles/2025/12/0338ec7e-287b-4fb2-a0f4-59120f2f483b.jpg?x-bce-process=image/format,f_auto",
+    "stocks": []
+  },
+  {
+    "id": "3d5b6f363d63f52f",
+    "title": "GolemUI发布：用JSON动态生成JavaScript表单",
+    "summary": "GolemUI是一款新的开源JavaScript表单库，支持通过JSON定义动态生成表单，并提供类型化编写层与确定性MCP工具，便于对接大语言模型生成和校验表单定义。",
+    "body": "GolemUI由一支长期深耕表单与开源领域的三人团队推出，旨在以JSON为核心驱动表单渲染。开发者可将表单定义存储于数据库、进行版本管理或差异比对，也能利用大语言模型生成经验证的JSON定义。该库提供28个以上无头组件并持续扩展，支持通过CSS变量自定义样式，同时开放API接入Material、Shoelace等组件库。\n\n该库的一大特点是“一次定义，多端渲染”：同一份JSON定义可在React、Angular、Vue、Lit或原生JavaScript中生成对应UI。此外，GolemUI还提供类型化的编程式编写层，开发者无需手写JSON即可生成表单结构，从而降低维护成本并提升开发体验。\n\n值得关注的是，GolemUI集成了确定性的MCP（Model Context Protocol）工具，可用于验证模型输出、生成JSON或代码，并确保大语言模型返回的表单定义始终有效。这一设计将前端表单开发与AI工作流结合，可能为低代码/无代码表单生成、AI辅助编程等场景提供新的参考范式。",
+    "category": "人工智能",
+    "tags": [
+      "前端开发",
+      "开源",
+      "JavaScript",
+      "LLM"
+    ],
+    "source": "Hacker News",
+    "time": "1小时前",
+    "ts": "2026-07-01T15:12:08+00:00",
+    "url": "https://golemui.com",
+    "image": "",
     "stocks": []
   },
   {
@@ -6638,6 +6842,25 @@ const newsData = [
     "ts": "2026-06-30T20:00:01-04:00",
     "url": "https://medicalxpress.com/news/2026-06-adenotonsillectomy-linked-odds-pediatric-onset.html",
     "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/adenotonsillectomy-lin.jpg",
+    "stocks": []
+  },
+  {
+    "id": "bf56d5c95a04e389",
+    "title": "xAI推出无代码语音智能体构建器测试版",
+    "summary": "xAI发布Voice Agent Builder测试版，基于Grok Voice的无代码平台可在两分钟内创建生产级语音智能体，集成电话、知识检索、工具、MCP、安全护栏与可观测性，并在语音基准测试中超越Gemini和GPT Realtime。",
+    "body": "xAI推出Voice Agent Builder测试版，这是一个基于Grok Voice的无代码平台，用户可在两分钟内构建生产级语音智能体。该平台集成电话呼叫、知识检索、工具调用、MCP协议、Guardrails安全防护与可观测性，并支持接入现有SIP号码、API和WebSocket，采用端到端语音到语音路径。\n\n在τ-voice Bench基准测试中，其底层模型Grok Voice Think Fast 1.0得分67.3%，高于Gemini 3.1 Flash Live的43.8%和GPT Realtime 1.5的35.3%。产品定价为每分钟音频0.05美元、电话费0.01美元，提供80余种语音及声音克隆，每个账户赠送一个免费电话号码。\n\n此次发布进一步降低了企业级语音Agent的开发门槛，有望加速客服、呼叫中心与自动化语音交互等场景落地，并与OpenAI、Google在语音Agent市场形成直接竞争。xAI目前仍为私有公司，无直接上市标的。",
+    "category": "人工智能",
+    "tags": [
+      "语音智能体",
+      "xAI",
+      "Agent",
+      "无代码平台"
+    ],
+    "source": "AIHOT精选",
+    "time": "16小时前",
+    "ts": "2026-07-01T00:00:00+00:00",
+    "url": "https://x.ai/news/grok-voice-agent-builder",
+    "image": "",
     "stocks": []
   },
   {
