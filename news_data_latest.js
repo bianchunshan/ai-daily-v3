@@ -1,5 +1,43 @@
 const newsData = [
   {
+    "id": "4033f7108cdb4bdf",
+    "title": "瑞银：约六成企业收紧AI开支，开源模型受益",
+    "summary": "瑞银研报指出，企业高管正加强对AI开支的管控，约六成企业已采取措施收紧人工智能支出，词元调用成本成为核心关切，DeepSeek等开源模型有望从中受益。",
+    "body": "瑞银分析师近期对十余位企业IT负责人进行访谈后发现，随着AI账单持续攀升，约六成企业已出台管控措施，在不同程度上收紧人工智能开支。首席财务官和首席技术官普遍将词元调用成本优化列为重点工作，部分企业因此放缓AI投入增速，但深度布局AI且重视创新的企业受影响相对有限。\n\n研报认为，短期内OpenAI、Anthropic等闭源模型厂商面临最大缩减压力，而DeepSeek等开源模型和中国本土大模型有望成为主要受益者，尤其适合有非代码类业务需求的企业。同时，谷歌、Anthropic等头部厂商正竞相推出更高效的模型以降低成本，行业正从盲目试水转向理性优化。\n\n尽管行业出现开支收紧的温和逆风，瑞银仍将此趋势视为“良性调整阵痛”，认为没有企业彻底叫停AI落地，下一代芯片训练的模型有望进一步压低词元调用成本，行业前景依旧向好。",
+    "category": "人工智能",
+    "tags": [
+      "AI开支",
+      "开源大模型",
+      "DeepSeek",
+      "企业IT"
+    ],
+    "source": "IT之家",
+    "time": "7分钟前",
+    "ts": "2026-07-01T09:50:27+00:00",
+    "url": "https://www.ithome.com/0/971/289.htm",
+    "image": "https://img.ithome.com/newsuploadfiles/2026/7/8a014a7e-af9b-45eb-9277-55548bb01be9.jpg",
+    "stocks": []
+  },
+  {
+    "id": "4c3f8b6a71ab0c13",
+    "title": "零刻发布ME Pro四盘位H255 NAS迷你主机",
+    "summary": "零刻发布ME Pro系列四盘位NAS迷你主机AMD平台版本，搭载锐龙R7 H255处理器，最高支持136TB存储，首发价2739元起。",
+    "body": "7月1日，零刻ME Pro系列NAS迷你主机推出AMD平台版本，搭载8核16线程AMD锐龙R7 H255处理器，机身尺寸为165×145×165mm。该机采用四盘位设计，配备4个M.2插槽和4个机械硬盘插槽，最高可扩展至136TB存储，并搭载10GbE+2.5GbE双网口。产品采用DIY抽屉式结构，可更换主板，支持英特尔/AMD平台处理器切换，准系统首发价2739元，32GB DDR5+500GB SSD版本首发价5599元。这一产品丰富了个人及小型工作室的高性能存储选择，也体现了x86架构在消费级NAS市场的持续渗透。",
+    "category": "消费电子",
+    "tags": [
+      "消费电子",
+      "NAS",
+      "迷你主机",
+      "AMD"
+    ],
+    "source": "IT之家",
+    "time": "8分钟前",
+    "ts": "2026-07-01T09:49:05+00:00",
+    "url": "https://www.ithome.com/0/971/288.htm",
+    "image": "https://img.ithome.com/newsuploadfiles/2026/7/c0bb12b6-3fd2-4a97-8613-6d428cd580a3.jpg?x-bce-process=image/format,f_auto",
+    "stocks": []
+  },
+  {
     "id": "1fbefd10fb91f640",
     "title": "Hyperkin 旗下 Drakong 推出 Xbox 认证霍尔摇杆手柄 The Challenger",
     "summary": "美国游戏外设厂商 Hyperkin 近日通过旗下质价比品牌 Drakong 发布有线手柄新品 The Challenger，定价约 35 美元，搭载霍尔摇杆与扳机，支持自定义背键与 3.5mm 耳机接口。",
@@ -87540,6 +87578,12 @@ const newsData = [
   }
 ];
 const newsDigest = {
-  "text": "",
-  "highlights": []
+  "text": "企业AI开支收紧、开源模型受益，施耐德巨资加码工业AI，GLP-1药物在糖尿病合并PAD领域现积极临床结果，半导体国产替代与机器人落地教育场景同获关注。",
+  "highlights": [
+    "4033f7108cdb4bdf",
+    "b8cc98460a2fcf2b",
+    "d7473e73c9cfa1f6",
+    "536d82862561622c",
+    "5698c3e925d7b7a9"
+  ]
 };
