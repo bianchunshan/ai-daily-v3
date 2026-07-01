@@ -1,5 +1,24 @@
 const newsData = [
   {
+    "id": "1fbefd10fb91f640",
+    "title": "Hyperkin 旗下 Drakong 推出 Xbox 认证霍尔摇杆手柄 The Challenger",
+    "summary": "美国游戏外设厂商 Hyperkin 近日通过旗下质价比品牌 Drakong 发布有线手柄新品 The Challenger，定价约 35 美元，搭载霍尔摇杆与扳机，支持自定义背键与 3.5mm 耳机接口。",
+    "body": "Hyperkin 旗下新品牌 Drakong 推出首款手柄控制器 The Challenger，已通过 Xbox 官方认证，采用 USB-C 有线单模连接，回报率为 250Hz。该手柄配备基于霍尔效应传感器的摇杆与扳机，摇杆耐久度达 500 万次，扳机与肩键采用激光防滑纹理，并支持局部震动反馈。其还设有一对可自定义背键、3.5mm 耳机插孔，以及高耐久薄膜设计的 ABXY 按键。\n\nThe Challenger 建议零售价为 34.99 美元 / 29.99 英镑，约合人民币 238 元起，定位高性价比的 Xbox 与 PC 游戏外设。Hyperkin 通过 Drakong 品牌切入主流手柄市场，旨在以低价霍尔方案吸引对操控精度与耐用性有需求的玩家。\n\n该款手柄的发布反映出霍尔效应传感器在游戏外设中的进一步普及，也显示第三方厂商正借助 Xbox 认证体系扩大市场份额。",
+    "category": "消费电子",
+    "tags": [
+      "游戏外设",
+      "手柄控制器",
+      "Xbox",
+      "霍尔传感器"
+    ],
+    "source": "IT之家",
+    "time": "6分钟前",
+    "ts": "2026-07-01T09:41:12+00:00",
+    "url": "https://www.ithome.com/0/971/284.htm",
+    "image": "https://img.ithome.com/newsuploadfiles/2026/7/f67a1160-3a4a-448e-95af-1f6a8e0d4933.png?x-bce-process=image/format,f_auto",
+    "stocks": []
+  },
+  {
     "id": "e9f417836527dd51",
     "title": "安集科技询价转让定价297.36元/股，获21家机构全额认购",
     "summary": "安集科技公告，根据2026年7月1日询价申购情况，本次询价转让初步定价297.36元/股，拟转让的290万股股份已获21家机构投资者全额认购。",
