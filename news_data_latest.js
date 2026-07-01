@@ -1,5 +1,24 @@
 const newsData = [
   {
+    "id": "89027b3cfc1b804f",
+    "title": "Cybertruck充电故障致家充失效，特斯拉未启动召回",
+    "summary": "越来越多的特斯拉Cybertruck车主因车载电源转换系统（PCS）故障失去在家充电能力，特斯拉已知情并个案更换部件，但尚未公开召回。",
+    "body": "据 Electrek 报道，部分特斯拉 Cybertruck 车主反映，车辆的电源转换系统（PCS）出现故障，导致无法进行家用交流充电，同时影响将高压电池降压至 48 伏系统的功能。该问题直接影响车主的日常补能体验。\n\n特斯拉已知晓该故障，目前采取个案方式悄悄为车主更换故障部件，但并未发布正式召回。由于替换件供应紧张，部分车主需要等待数周才能维修。\n\n这一事件凸显了电动皮卡等高压电力电子系统在可靠性方面面临的挑战，也可能引发市场对特斯拉质量控制和售后响应效率的关注，对品牌口碑造成潜在影响。",
+    "category": "未来能源",
+    "tags": [
+      "特斯拉",
+      "Cybertruck",
+      "充电故障",
+      "电动汽车"
+    ],
+    "source": "Electrek",
+    "time": "1分钟前",
+    "ts": "2026-07-01T13:51:26+00:00",
+    "url": "https://electrek.co/2026/07/01/tesla-cybertruck-pcs-failures-no-recall/",
+    "image": "https://electrek.co/wp-content/uploads/sites/3/2025/05/Tesla-prices-2025-Cybertruck.jpg?quality=82&#038;strip=all&#038;w=1400",
+    "stocks": []
+  },
+  {
     "id": "4ccea67daf747410",
     "title": "Meta拟进军云计算市场，出售AI算力",
     "summary": "Meta正筹划云基础设施业务，计划向企业出售AI算力和模型访问权限，将与亚马逊AWS、谷歌云和微软Azure等云巨头正面竞争。",
