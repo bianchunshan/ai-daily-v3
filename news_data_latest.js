@@ -1,5 +1,37 @@
 const newsData = [
   {
+    "id": "7876c5ea1f5da4f9",
+    "title": "比亚迪储能签约波兰2.4GWh最大储能项目",
+    "summary": "比亚迪储能宣布与Greenvolt Power合作开发波兰Siedlce储能项目，总容量600MW/2.4GWh，建成后将成为波兰规模最大的电池储能项目。",
+    "body": "7月1日，比亚迪储能宣布与Greenvolt Power签署合作协议，共同在波兰开发Siedlce储能项目。该项目总容量为600MW/2.4GWh，计划于2026年第三季度开工建设，预计2027年底前投入商业运营，建成后将成为波兰规模最大的电池储能项目。\n\n比亚迪储能将为该项目提供BYD Haohan储能系统，搭载全球最大2710Ah储能专用刀片电池，最小单元容量达14.5MWh，等效20尺集装箱容量10MWh，可减少箱体数量和占地面积，从而节省土地与建设成本。此次合作是双方在波兰的再度携手，此前两项目累计合作容量已达1.6GWh。\n\n该项目有助于比亚迪储能在欧洲市场进一步拓展，并强化中国储能企业在海外大型储能项目中的竞争力。",
+    "category": "未来能源",
+    "tags": [
+      "比亚迪",
+      "储能",
+      "波兰",
+      "刀片电池"
+    ],
+    "source": "IT之家",
+    "time": "刚刚",
+    "ts": "2026-07-01T13:57:58+00:00",
+    "url": "https://www.ithome.com/0/971/369.htm",
+    "image": "https://img.ithome.com/newsuploadfiles/2026/7/c5a8d45a-3088-4cf2-b894-7db7ba1e8302.jpg",
+    "stocks": [
+      {
+        "name": "比亚迪",
+        "ticker": "002594.SZ",
+        "reason": "比亚迪储能签约波兰最大储能项目，海外大型储能订单扩张利好储能业务",
+        "confidence": "high"
+      },
+      {
+        "name": "比亚迪股份",
+        "ticker": "1211.HK",
+        "reason": "比亚迪储能在欧洲签下大型储能项目，海外储能业务增长利好港股上市公司",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
     "id": "89027b3cfc1b804f",
     "title": "Cybertruck充电故障致家充失效，特斯拉未启动召回",
     "summary": "越来越多的特斯拉Cybertruck车主因车载电源转换系统（PCS）故障失去在家充电能力，特斯拉已知情并个案更换部件，但尚未公开召回。",
@@ -1685,6 +1717,25 @@ const newsData = [
     "ts": "2026-07-01T10:11:18+00:00",
     "url": "https://www.ithome.com/0/971/298.htm",
     "image": "https://img14.360buyimg.com/pop/jfs/t1/404686/22/11056/16897/69ba54cfFdaa33524/0083320320aac5be.png",
+    "stocks": []
+  },
+  {
+    "id": "9e22056afbf91e07",
+    "title": "太阳爆发X级耀斑与CME，或引发周末极光",
+    "summary": "面向地球的黑子活动区AR4479于6月30日爆发X1.1级太阳耀斑，释放的X射线8分钟后抵达地球，造成北美等地无线电中断，并可能伴随日冕物质抛射引发地磁暴。",
+    "body": "据美国国家海洋和大气管理局（NOAA）空间天气预报中心数据，本次X1.1级耀斑在6月30日美东时间下午4时50分达到峰值，来自黑子活动区AR4479。强烈的X射线辐射在8分多钟后抵达地球，导致日照面出现强（R3）无线电中断，影响北美部分高频无线电用户。与此同时，此次爆发还抛出了日冕物质（CME），初期观测认为主体偏北，但后续分析显示其部分物质仍可能命中地球。\n\nNOAA已发布7月3日中度（G2）地磁暴预警。若CME抵达地球，将与地球磁场相互作用，可能在高纬度地区引发绚丽的北极光。空间天气事件对卫星、通信与导航系统的潜在影响也再次引起关注。",
+    "category": "商业航天",
+    "tags": [
+      "太阳耀斑",
+      "空间天气",
+      "地磁暴",
+      "航天基础设施"
+    ],
+    "source": "Space.com",
+    "time": "3小时前",
+    "ts": "2026-07-01T10:09:38+00:00",
+    "url": "https://www.space.com/stargazing/sun-unleashes-powerful-x-class-solar-flare-and-earth-bound-cme-that-could-spark-northern-lights-for-july-4-weekend",
+    "image": "https://cdn.mos.cms.futurecdn.net/c9kgaxZ8JGNGKzZaPF9XYM-1280-80.jpg",
     "stocks": []
   },
   {
