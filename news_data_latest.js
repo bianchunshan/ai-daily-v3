@@ -1,5 +1,61 @@
 const newsData = [
   {
+    "id": "3c1fc3115c4df45f",
+    "title": "华为公布鸿蒙OS 7花粉Beta适配机型名单",
+    "summary": "华为公布鸿蒙HarmonyOS 7花粉Beta版适配机型，覆盖Mate、Pura、nova系列手机及MatePad平板，正式版预计秋季推送。",
+    "body": "华为开发者大会HDC 2026上发布的鸿蒙HarmonyOS 7系统已进入开发者Beta 1公开招募阶段，报名期为2026年6月12日至7月5日。官方客服给出的花粉Beta版适配机型名单包括手机端的Mate 80/70/60系列、Mate X折叠屏系列、Pura系列、nova系列、畅享90/70X，以及平板端的MatePad Pro、MatePad Air、MatePad 11.5/Mini等多款产品。华为终端BG CEO何刚表示，HarmonyOS 7正式版将在秋季向消费者开放。此次大范围机型适配有助于加速鸿蒙生态渗透，提升存量用户的系统升级覆盖度，并为秋季正式版的商用推广奠定基础。",
+    "category": "消费电子",
+    "tags": [
+      "华为",
+      "鸿蒙系统",
+      "智能手机",
+      "平板电脑"
+    ],
+    "source": "IT之家",
+    "time": "1分钟前",
+    "ts": "2026-07-01T15:20:32+00:00",
+    "url": "https://www.ithome.com/0/971/387.htm",
+    "image": "https://img.ithome.com/newsuploadfiles/2026/6/8cbe2680-dd60-46c3-8a17-01e65a97145c.jpg?x-bce-process=image/auto-orient,o_1",
+    "stocks": []
+  },
+  {
+    "id": "bc54afe75f16861e",
+    "title": "悉尼新南威尔士大学研发软体机器人心脏助力疾病研究与医疗器械测试",
+    "summary": "悉尼新南威尔士大学研究人员开发出一种全合成软体机器人心脏，可模拟人类心脏的复杂运动和内部结构，为疾病研究、救生器械测试和个性化治疗提供新平台。",
+    "body": "据MedicalXpress报道，悉尼新南威尔士大学（UNSW Sydney）的研究团队成功制造出一颗全合成软体机器人心脏，能够复现人类心脏复杂的运动方式与内部结构。这一创新为医学研究、疾病机制探索以及心脏医疗器械的安全性与有效性测试提供了全新的实验平台。\n\n研究团队指出，该软体机器人心脏有望推动更安全有效的医疗设备和更个性化治疗方案的发展。由于它能在接近真实生理环境的条件下反复测试器械，未来可能缩短心脏医疗器械的研发周期，并降低相关风险。",
+    "category": "生物医药",
+    "tags": [
+      "软体机器人",
+      "人工心脏",
+      "医疗器械",
+      "医疗仿真"
+    ],
+    "source": "MedicalXpress",
+    "time": "2分钟前",
+    "ts": "2026-07-01T11:20:06-04:00",
+    "url": "https://medicalxpress.com/news/2026-07-soft-robotic-heart-disease-life.html",
+    "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/innovative-soft-roboti.jpg",
+    "stocks": []
+  },
+  {
+    "id": "2e28ab8cd881e9bf",
+    "title": "个性化医疗发展需多方协作共塑未来价值",
+    "summary": "芬兰东芬兰大学发表在《Innovation》上的研究指出，个性化医疗的进步依赖于企业、医疗机构和科研机构等多方利益相关者紧密协作，并在不确定性中共同塑造未来价值预期。",
+    "body": "个性化医疗的发展并非单一主体能够完成，而是需要企业、医疗机构、研究者和政策制定者等多方利益相关者密切合作，在技术研发、临床转化和市场应用之间架起桥梁。相关研究还强调，各方必须在高度不确定的环境中管理风险，并不断调整对未来价值的预期，以推动精准医疗从概念走向现实。这一发现为生物医药产业的协同创新和商业模式设计提供了新的视角。",
+    "category": "生物医药",
+    "tags": [
+      "个性化医疗",
+      "生物医药",
+      "产学研协作"
+    ],
+    "source": "MedicalXpress",
+    "time": "2分钟前",
+    "ts": "2026-07-01T11:20:05-04:00",
+    "url": "https://medicalxpress.com/news/2026-07-advancing-personalized-medicine-requires-collaboration.html",
+    "image": "https://scx1.b-cdn.net/csz/news/tmb/2024/medical-research-1.jpg",
+    "stocks": []
+  },
+  {
     "id": "5280f63224638f5b",
     "title": "实测：Steam Machine 加一条内存性能最高提升20%",
     "summary": "硬件评测显示，Valve 的 Steam Machine 出厂仅配单条 DDR5 内存，默认单通道运行，用户加装第二条内存开启双通道后，性能最高可提升约20%。",
