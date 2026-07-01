@@ -1,5 +1,62 @@
 const newsData = [
   {
+    "id": "784b98ef5ce13d28",
+    "title": "灰市肽类产品风险被低估，女性更易受害",
+    "summary": "宣称可增肌、抗衰老、减脂的未监管肽类产品在网络热销，新研究指出其副作用可能存在显著性别差异，女性面临的潜在健康风险更大。",
+    "body": "近期，宣称具有增肌、抗衰老和减脂功效的肽类产品在健康养生市场迅速流行，并通过网络平台大量销售。然而，这些产品多属于灰色市场，缺乏必要的监管和临床验证。\n\n医学界的担忧主要集中在副作用上。更值得警惕的是，现有研究几乎未探讨这些物质对男性和女性的影响是否存在差异，而证据显示女性可能面临更大的健康风险。\n\n专家指出，由于药物安全性试验中长期存在性别数据缺失，女性在使用此类未受监管产品时可能暴露于更高的未知风险中，亟需加强监管与性别特异性研究。",
+    "category": "生物医药",
+    "tags": [
+      "肽类药物",
+      "灰色市场",
+      "女性健康",
+      "药物安全"
+    ],
+    "source": "MedicalXpress",
+    "time": "4分钟前",
+    "ts": "2026-07-01T15:00:06-04:00",
+    "url": "https://medicalxpress.com/news/2026-07-hidden-graymarket-peptides-women-greater.html",
+    "image": "https://scx1.b-cdn.net/csz/news/tmb/2024/injection-1.jpg",
+    "stocks": []
+  },
+  {
+    "id": "4697e943007a40f6",
+    "title": "音乐治疗研究发现：治疗师与患者心率同步约25分钟达峰",
+    "summary": "新发表于《Frontiers in Psychology》的研究显示，音乐治疗中治疗师与患者的心率同步约在25分钟时达到峰值；该发现为临床优化治疗时长提供了新依据。",
+    "body": "一项发表于《Frontiers in Psychology》的研究首次量化了音乐治疗过程中心率同步达到峰值所需的时间。研究人员发现，治疗师与患者之间最强的心率同步通常出现在治疗开始后的约25分钟。心率同步被视为衡量治疗关系中连接强度的一项生理指标。\n\n该发现提示，音乐治疗的单次时长设置可能需要充分考虑这一时间窗口，以确保治疗师与患者能够进入并维持高强度的互动状态。研究者指出，这一结果为临床实践中优化音乐治疗时长、提升干预效果提供了实证依据，未来或可指导个性化治疗方案的设计。",
+    "category": "生物医药",
+    "tags": [
+      "音乐治疗",
+      "数字医疗",
+      "心率同步",
+      "心理健康"
+    ],
+    "source": "MedicalXpress",
+    "time": "4分钟前",
+    "ts": "2026-07-01T15:00:04-04:00",
+    "url": "https://medicalxpress.com/news/2026-07-minutes-music-therapy-sessions-heart.html",
+    "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/xylophone.jpg",
+    "stocks": []
+  },
+  {
+    "id": "55256d39272287a8",
+    "title": "NASA在阿尔忒弥斯2号火箭上喷涂“美国250”纪念标志",
+    "summary": "美国国家航空航天局（NASA）在今年执行的阿尔忒弥斯2号绕月任务中，为庆祝美国独立250周年，在太空发射系统（SLS）火箭上喷涂了两枚巨型“America 250”标志。",
+    "body": "NASA的阿尔忒弥斯2号任务在今年由太空发射系统（SLS）火箭发射升空，搭载四名宇航员乘坐“猎户座”飞船绕月飞行10天后返回地球。为纪念美国独立250周年，NASA在SLS火箭上喷涂了两个巨大的“America 250”标志，使这次发射兼具深空探索与国家庆典的象征意义。\n\nSLS火箭起飞时由四台RS-25发动机和两枚固体火箭助推器提供动力，产生约880万磅推力，将575万磅重的火箭送入太空。这次任务不仅是美国重返月球计划的重要一步，也被视为今年最引人注目的“生日蜡烛”之一。",
+    "category": "商业航天",
+    "tags": [
+      "NASA",
+      "阿尔忒弥斯计划",
+      "SLS火箭",
+      "载人登月"
+    ],
+    "source": "Space.com",
+    "time": "4分钟前",
+    "ts": "2026-07-01T19:00:00+00:00",
+    "url": "https://www.space.com/space-exploration/artemis/rockets-red-glare-how-nasas-artemis-2-moon-mission-celebrated-americas-250th-birthday",
+    "image": "https://cdn.mos.cms.futurecdn.net/CgozgqbhXxDJDsHBDZYGvY-1280-80.jpg",
+    "stocks": []
+  },
+  {
     "id": "9c6d24b567c76efc",
     "title": "SpaceX被曝展示类手机AI设备原型",
     "summary": "知情人士称，SpaceX在上市前向投资者展示了一款外形类似手机的AI设备原型，此举或暗示其有意进一步拓展无线通信及消费电子业务。",
