@@ -1,5 +1,43 @@
 const newsData = [
   {
+    "id": "62e1136e576c0998",
+    "title": "研究发现致幻剂尚未准备好用于ADHD临床治疗",
+    "summary": "一项新研究指出，尽管网络上流传着成人ADHD患者微量服用裸盖菇素和LSD后专注力提升的个人经历，但经典致幻剂目前尚未达到可用于ADHD临床治疗的标准。",
+    "body": "近年来，成人ADHD群体对“微量服用”裸盖菇素、LSD等经典致幻剂的兴趣明显上升，社交媒体上充斥着关于专注力改善、冲动控制增强和幸福感提升的个人说法。然而，一项研究强调，致幻剂在治疗ADHD方面目前尚未做好临床应用的准备。专家提示，个人经验不能替代严格的随机对照试验，在缺乏充分的安全性、有效性证据以及标准化给药方案之前，不应将致幻剂视为ADHD的常规治疗选择。这一结论对持续升温的迷幻药治疗赛道也是一次理性降温，提醒研发和投资者需以临床证据为基础。",
+    "category": "生物医药",
+    "tags": [
+      "ADHD",
+      "致幻剂",
+      "临床研究",
+      "精神健康"
+    ],
+    "source": "MedicalXpress",
+    "time": "10分钟前",
+    "ts": "2026-07-01T16:20:02-04:00",
+    "url": "https://medicalxpress.com/news/2026-07-psychedelics-ready-clinical-adhd-treatment.html",
+    "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/lsd.jpg",
+    "stocks": []
+  },
+  {
+    "id": "a788dd3411e57d70",
+    "title": "全脂山羊奶粉可降低婴儿特应性皮炎发生率",
+    "summary": "发表于《Clinical Nutrition》的研究显示，用全脂山羊奶粉喂养婴儿可降低特应性皮炎发病率，尤其适用于父母有该病病史的婴儿。",
+    "body": "一项发表在《Clinical Nutrition》上的研究表明，以全脂山羊奶粉（WGF）喂养婴儿，有助于减少特应性皮炎（AD）的发生风险，且对父母一方或双方患有特应性皮炎的婴儿效果更为明显。特应性皮炎是婴幼儿常见的慢性炎症性皮肤病，与遗传易感性密切相关。该研究为婴儿早期营养干预提供了新的循证依据，可能推动相关配方奶粉的研发与市场关注。",
+    "category": "生物医药",
+    "tags": [
+      "婴儿营养",
+      "特应性皮炎",
+      "山羊奶粉",
+      "临床研究"
+    ],
+    "source": "MedicalXpress",
+    "time": "10分钟前",
+    "ts": "2026-07-01T16:20:01-04:00",
+    "url": "https://medicalxpress.com/news/2026-07-goat-formula-incidence-atopic-dermatitis.html",
+    "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/whole-goat-milk-formul.jpg",
+    "stocks": []
+  },
+  {
     "id": "f64fd47d0a495645",
     "title": "马斯克否认SpaceX曾展示AI手机原型",
     "summary": "马斯克否认《华尔街日报》关于SpaceX在6月IPO前向部分投资者展示AI手机原型的报道，并称该报道“完全虚假”。",
