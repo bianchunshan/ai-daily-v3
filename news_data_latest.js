@@ -1,5 +1,268 @@
 const newsData = [
   {
+    "id": "ae85c26ae1acde79",
+    "title": "2026年Q1美国PC出货量同比下滑7%，创2023年以来最大跌幅",
+    "summary": "Omdia最新研究显示，2026年第一季度美国PC（不含平板电脑）出货量同比下降7%至1580万台，为2023年第三季度以来最大同比跌幅，反映商用需求回落与成本压力。",
+    "body": "Omdia发布的研究数据显示，2026年第一季度美国PC（不含平板电脑）出货量为1580万台，同比下滑7.0%，创下2023年第三季度以来的最大同比跌幅。报告指出，本轮下滑主要受到PC内存和存储价格大幅上涨带来的供应受限与成本压力影响，同时Windows 11升级周期结束后需求提前释放，导致短期商用市场需求明显回落。\n\n此外，2025年第一季度企业因预期关税提前备货，使同期基数处于较高水平；而2026年第一季度渠道商仅因预期内存价格上涨进行了有限提前备货，在高基数效应下进一步放大同比降幅。这意味着美国PC市场在经历升级红利和关税扰动后，正进入需求调整阶段，相关产业链企业面临出货量与成本双重压力。",
+    "category": "消费电子",
+    "tags": [
+      "PC市场",
+      "消费电子",
+      "出货量",
+      "Windows 11"
+    ],
+    "source": "36氪",
+    "time": "刚刚",
+    "ts": "2026-07-01T04:23:00.106482+00:00",
+    "url": "https://36kr.com/newsflashes/3876553479352585?f=rss",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "10d8383979dc3089",
+    "title": "震裕科技5000万元在厦成立汽车部件子公司",
+    "summary": "震裕科技在厦门全资设立汽车部件子公司，注册资本5000万元，业务覆盖汽车零部件、电池零配件及模具制造等领域。",
+    "body": "据36氪报道，天眼查App显示，近日厦门震裕汽车部件有限公司成立，法定代表人为陈达华，注册资本5000万元人民币，由震裕科技全资持股。该公司经营范围包括汽车零部件及配件制造、有色金属压延加工、电池零配件生产、模具制造以及汽车零部件研发等。此次设立子公司意味着震裕科技正进一步拓展其在汽车零部件及新能源电池配套领域的产能与业务布局。",
+    "category": "未来能源",
+    "tags": [
+      "震裕科技",
+      "汽车零部件",
+      "电池零配件",
+      "厦门"
+    ],
+    "source": "36氪",
+    "time": "刚刚",
+    "ts": "2026-07-01T04:22:52.828476+00:00",
+    "url": "https://36kr.com/newsflashes/3876572395991049?f=rss",
+    "image": "",
+    "stocks": [
+      {
+        "name": "震裕科技",
+        "ticker": "300953.SZ",
+        "reason": "全资子公司涉足汽车零部件及电池零配件生产，利好公司产能扩张与业务布局。",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "ecdce44414de4fb8",
+    "title": "问界6月交付破3万台，M9/M6订单强劲",
+    "summary": "问界汽车6月交付新车30199台，上半年累计交付同比增长10.2%。全新一代M9上市一个月大定突破4.2万台，M6上市54天累计交付超3万台。",
+    "body": "问界汽车公布6月交付数据，当月交付新车30199台，上半年累计交付同比增长10.2%。其中，全新一代问界M9系列上市一个月大定突破42000台，问界M6上市54天累计交付超过30000台。鸿蒙智行全系6月交付新车50624台，环比增长9.7%，上半年累计交付24万台，同比增长18.6%，全系累计交付已突破143万台。这反映出华为赋能的高端智能电动车市场需求持续旺盛，问界品牌在新势力中保持领先。",
+    "category": "机器人",
+    "tags": [
+      "问界",
+      "鸿蒙智行",
+      "新能源汽车",
+      "自动驾驶"
+    ],
+    "source": "IT之家",
+    "time": "6分钟前",
+    "ts": "2026-07-01T04:16:01+00:00",
+    "url": "https://www.ithome.com/0/971/014.htm",
+    "image": "https://img.ithome.com/newsuploadfiles/2026/7/289fa86f-8b2e-4032-827f-78bce8088715.jpg?x-bce-process=image/format,f_auto",
+    "stocks": [
+      {
+        "name": "赛力斯",
+        "ticker": "601127.SH",
+        "reason": "问界汽车由赛力斯与华为合作推出，销量增长直接利好赛力斯整车业务",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "a494704d19ad4171",
+    "title": "AMD EXPO ULL 内存首发价远超预期",
+    "summary": "芝奇首批支持AMD EXPO ULL超低延迟技术的DDR5-6000内存已在Newegg上架，定价远高于AMD此前“与现有EXPO内存同价位”的承诺，其中CL28版本溢价高达79%。",
+    "body": "AMD于Computex 2026发布EXPO Ultra Low Latency（EXPO ULL）超低延迟内存规范，面向DDR5-6000内存，通过更精细的SPD子时序参数降低延迟，官方称相比JEDEC标准平均帧率提升13%、1% low帧率提升15%，较标准EXPO内存提升1%至4%。AMD副总裁David McAfee曾称，根据与内存伙伴沟通，EXPO ULL套装定价将与现有EXPO内存持平。\n\n然而，芝奇“焰锋戟 X”RGB系列首批EXPO ULL产品在Newegg的实际售价远高于预期。旗舰DDR5-6000 CL26套条标价1099.99美元，比同规格标准焰锋戟的699.99美元贵约57%；DDR5-6000 CL28套条999.99美元，比标准版559.99美元溢价79%；CL30和CL36版本分别贵约14%和10%。芝奇表示，新品采用更严格的颗粒筛选（特挑），CL26/CL28运行电压更低，tRAS从96周期大幅压缩至32周期，性能和超频空间提升，但筛选成本在高位DRAM价格下推高了售价。\n\n从市场角度看，以高溢价换取AMD官方宣称约4%的游戏性能提升，对普通用户吸引力有限，更多面向追求极限性能的发烧友，这可能影响EXPO ULL技术的初期普及节奏。",
+    "category": "消费电子",
+    "tags": [
+      "AMD",
+      "DDR5内存",
+      "芝奇",
+      "超低延迟"
+    ],
+    "source": "IT之家",
+    "time": "16分钟前",
+    "ts": "2026-07-01T04:05:52+00:00",
+    "url": "https://www.ithome.com/0/971/009.htm",
+    "image": "https://img.ithome.com/newsuploadfiles/2026/7/30377e1a-fd5d-46bb-873e-cf22813d87f1.jpg",
+    "stocks": []
+  },
+  {
+    "id": "fc8118654708725e",
+    "title": "华硕ROG将推“神秘新品”，或为音频硬件",
+    "summary": "华硕高管余元麟在B站发布抽奖活动，二等奖为ROG“神秘新品”，其轮廓引发外界猜测可能是条形音箱等音频设备。",
+    "body": "7月1日，华硕（ASUS）高管余元麟在其B站账号“普普通通Tony大叔”上线抽奖活动，其中二等奖为ROG“神秘新品”。从奖项设置看，该新品定位低于ROG NUC+超杀27Pro黑透金版套装，但高于ROG×HAMCUS联名潮能服饰。图片中左下方产品轮廓类似条形音箱，右上方的类长方体产品特征不明显，引发外界对其为音频硬件的猜测。\n\n值得注意的是，余元麟此前已通过月度抽奖提前透露过ROG NUC 16、ROG臻世耳机、ROG STRIX B850-I GAMING WIFI7 W主板等产品。此次“神秘新品”或许将继续丰富ROG在电竞外设或音频领域的产品线。若确认为音频硬件，有望进一步补齐ROG生态，但具体规格和市场影响仍有待官方发布。",
+    "category": "消费电子",
+    "tags": [
+      "华硕",
+      "ROG",
+      "消费电子",
+      "音频硬件"
+    ],
+    "source": "IT之家",
+    "time": "36分钟前",
+    "ts": "2026-07-01T03:45:19+00:00",
+    "url": "https://www.ithome.com/0/970/990.htm",
+    "image": "https://img.ithome.com/newsuploadfiles/2026/7/882bd465-963e-4cba-9241-3f255fe2dede.png",
+    "stocks": [
+      {
+        "name": "华硕",
+        "ticker": "2357.TW",
+        "reason": "ROG新品发布或带动品牌关注度与消费电子产品线扩展",
+        "confidence": "low"
+      }
+    ]
+  },
+  {
+    "id": "d9c063a031bceaae",
+    "title": "NASA宇航员出舱修复国际空间站机械臂",
+    "summary": "两名NASA宇航员离开国际空间站，执行太空行走以修复空间站机械臂。该任务属于国际空间站日常维护作业。",
+    "body": "两名NASA宇航员近日离开国际空间站，进行舱外活动以修复空间站上的机械臂。这一任务旨在确保机械臂等关键设施的正常运行，属于载人空间站例行维护的一部分。太空行走是长期在轨航天器运维的重要手段，对保障空间站持续运作及未来载人深空探索具有基础意义。",
+    "category": "商业航天",
+    "tags": [
+      "NASA",
+      "国际空间站",
+      "太空行走",
+      "机械臂"
+    ],
+    "source": "Al Jazeera",
+    "time": "38分钟前",
+    "ts": "2026-07-01T03:43:50+00:00",
+    "url": "https://www.aljazeera.com/video/newsfeed/2026/7/1/nasa-astronauts-spacewalk-to-fix-robotic-arm-2?traffic_source=rss",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "7892a82eb1bcd646",
+    "title": "iQOO Pad5c平板发布：第三代骁龙8s，2699元起",
+    "summary": "iQOO发布新款平板iQOO Pad5c，搭载第三代骁龙8s处理器，配备12.1英寸2.8K 144Hz护眼屏，起售价2699元，国补后2429.1元起。",
+    "body": "7月1日，iQOO推出iQOO Pad5c平板电脑，定位与vivo Pad5c相近，售价2699元起，国补后2429.1元起。该平板搭载第三代骁龙8s处理器，配备12.1英寸2.8K 144Hz护眼屏，内置10000mAh电池，机身重量约584g，并配备4扬声器全景声学系统。\n\n此外，iQOO Pad5c面向学习场景，提供PC级WPS、同声传译、AI转记、扫描、原子笔记及万能文档等功能，进一步完善品牌在平板市场的产品布局，也体现国产厂商在平板生态和性价比方向的持续发力。",
+    "category": "消费电子",
+    "tags": [
+      "iQOO",
+      "平板电脑",
+      "骁龙8s",
+      "消费电子"
+    ],
+    "source": "IT之家",
+    "time": "42分钟前",
+    "ts": "2026-07-01T03:39:29+00:00",
+    "url": "https://www.ithome.com/0/970/986.htm",
+    "image": "https://img.ithome.com/newsuploadfiles/2026/7/e8b1c8d7-9563-464c-8073-725e9e4d5442.jpg?x-bce-process=image/format,f_auto",
+    "stocks": []
+  },
+  {
+    "id": "174d535e0a840d06",
+    "title": "Gemini Spark 接入 Google Gemini macOS 应用",
+    "summary": "Google 的 Gemini macOS 应用已接入 Spark 代理型 AI 助手，用户可在桌面端应用中调用该助手。此举显示谷歌正持续扩展 Gemini 生态与桌面端代理式 AI 服务布局。",
+    "body": "据外媒 Engadget 报道，Google 已将其 Spark 代理型（agentic）AI 助手引入 Gemini 的 macOS 应用，用户可在该桌面端应用中调用该助手。这标志着 Google 在强化 Gemini 生态系统的同时，也在推动代理式 AI 在桌面办公场景的落地。\n\n代理式 AI 被视为大模型应用演进的重要方向，能够帮助用户完成多步骤复杂任务。Google 将 Spark 引入 macOS 应用，有助于提升 Gemini 在桌面端与 ChatGPT、Copilot 等竞品的竞争力，进一步巩固其 AI 应用入口地位。\n\n目前这一消息主要涉及产品层面更新，尚未披露具体上线区域、功能细节或商业模式。其对 Google 的实质性财务影响仍需观察。",
+    "category": "人工智能",
+    "tags": [
+      "Gemini",
+      "Spark",
+      "Agentic AI",
+      "谷歌"
+    ],
+    "source": "Engadget",
+    "time": "52分钟前",
+    "ts": "2026-07-01T03:29:59+00:00",
+    "url": "https://www.engadget.com/2205605/google-gemini-spark-macos-app/",
+    "image": "https://www.engadget.com/img/gallery/gemini-spark-comes-to-googles-gemini-macos-app/l-intro-1782876448.jpg",
+    "stocks": [
+      {
+        "name": "Alphabet/谷歌",
+        "ticker": "GOOGL",
+        "reason": "Gemini Spark 是 Google 推出的 Agentic AI 助手，已在 Gemini macOS 应用上线，直接扩展其 AI 产品生态",
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
+    "id": "12db029ebc94b750",
+    "title": "极摩客官宣G5S迷你主机：搭载赛扬N5095",
+    "summary": "极摩客宣布G5S迷你主机将于7月9日上市，采用英特尔四核赛扬N5095处理器，主打掌心级体积与静音散热设计。",
+    "body": "IT之家7月1日消息，极摩客（GMKtec）宣布G5S迷你主机将于7月9日10:00正式上市。该产品采用2021年发布的英特尔“Jasper Lake”四核赛扬N5095处理器，机身尺寸为72×72×44.5mm，重量仅206g，内置风扇加铜管静音散热系统，板载8GB LPDDR4-2400内存，并提供M.2 2242 SSD盘位。\nG5S接口配置包括3个USB 3.2、2个HDMI 2.0和1个千兆RJ45网口，采用USB-C供电。该产品提供128GB和512GB两个存储版本，到手价分别为1149元和1849元，将在京东等平台发售。作为一款面向入门办公、轻量娱乐和便携场景的超小型PC，G5S体现了当前迷你主机市场在低价和小体积方向上的持续细分。",
+    "category": "消费电子",
+    "tags": [
+      "迷你主机",
+      "英特尔",
+      "消费电子",
+      "极摩客"
+    ],
+    "source": "IT之家",
+    "time": "53分钟前",
+    "ts": "2026-07-01T03:28:35+00:00",
+    "url": "https://www.ithome.com/0/970/976.htm",
+    "image": "https://img.ithome.com/newsuploadfiles/2026/7/63c758f7-64fb-4949-8e79-919e9e7c83c0.jpg",
+    "stocks": []
+  },
+  {
+    "id": "4141af303a4351ad",
+    "title": "微信公众号向医院开放AI分身能力：一键开通、无需代码",
+    "summary": "微信公众号宣布面向医院开放原生AI分身能力，支持7×24小时自动回复患者咨询并上传知识库，无需开发即可开通。已有中山三院等医院试点，日均回复量显著增长。",
+    "body": "7月1日，微信公众号宣布向医院开放AI分身能力，这是该平台原生功能，医院管理员可在后台一键开通，无需写代码或单独开发。AI分身支持7×24小时在线、秒回患者问题，医院可上传导诊规则、科室介绍、就诊流程等知识库，并配置“挂号”“缴费”等关键词跳转。已有研发团队的医院也可通过开发者模式与现有人工客服、业务系统协同。目前，中山大学附属第三医院、香港大学深圳医院等已先行测试，日均咨询量与服务用户数均有明显提升。该能力有望降低医院客服成本、提升患者就医引导效率，未来可进一步升级为具备AI Agent属性的服务引导。",
+    "category": "人工智能",
+    "tags": [
+      "微信",
+      "微信公众号",
+      "AI客服",
+      "智慧医疗"
+    ],
+    "source": "IT之家",
+    "time": "56分钟前",
+    "ts": "2026-07-01T03:25:37+00:00",
+    "url": "https://www.ithome.com/0/970/975.htm",
+    "image": "https://img.ithome.com/newsuploadfiles/2026/7/52a85696-7830-4844-8f30-798112bd544e.jpg",
+    "stocks": [
+      {
+        "name": "腾讯控股",
+        "ticker": "0700.HK",
+        "reason": "AI分身依托微信生态落地，强化企业服务和用户粘性，利好母公司腾讯。",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "2f4148ae8e07aa36",
+    "title": "微软收紧Authenticator：root/越狱设备受限",
+    "summary": "微软更新支持文档，在已root的安卓手机和已越狱的iPhone上，企业/教育账户将无法通过Microsoft Authenticator正常生成验证码。该措施主要影响使用Microsoft Entra登录的工作与学校账户，第三方2FA代码暂不受影响。",
+    "body": "微软近日更新了Microsoft Authenticator应用的支持文档，加强了对设备安全状态的检测。当用户通过Microsoft Entra方式（企业/教育账号）登录后，应用会在安卓设备上检测是否处于root状态，在iPhone上检测是否已越狱；若设备已被破解，Authenticator将无法正常生成用于登录Microsoft 365、Teams、Outlook、Azure或Intune等服务的验证码。\n\n此举意在降低企业/教育账户在已被破解设备上面临的安全风险，强化身份认证环节的安全防护。不过，目前该限制仅适用于微软企业/教育账户，通过扫描二维码保存的第三方双重验证代码（如GitHub、Cloudflare、Facebook等）仍可在Root或越狱设备上继续使用。",
+    "category": "网络安全",
+    "tags": [
+      "身份认证",
+      "移动安全",
+      "企业安全",
+      "微软"
+    ],
+    "source": "IT之家",
+    "time": "56分钟前",
+    "ts": "2026-07-01T03:25:14+00:00",
+    "url": "https://www.ithome.com/0/970/974.htm",
+    "image": "https://img.ithome.com/newsuploadfiles/2026/7/9f1f5e1d-b61e-4505-bc4f-f5e29c99ea16.jpg",
+    "stocks": []
+  },
+  {
+    "id": "025e8c1c1dba0581",
+    "title": "远程医疗阶梯式戒酒治疗可助肝病患者减少饮酒",
+    "summary": "发表于《Hepatology》的研究显示，通过远程医疗提供的阶梯式戒酒治疗可帮助慢性肝病患者减少酒精摄入。",
+    "body": "《Hepatology》期刊6月24日在线发表的一项研究表明，针对慢性肝病（CLD）患者，通过远程医疗开展的阶梯式戒酒治疗（SAT）能够有效减少其酒精消费量。该治疗模式采用分层干预策略，根据患者需求逐步调整干预强度，以适配不同饮酒程度和配合度的人群。研究结果为慢性肝病合并酒精使用障碍患者的管理提供了新的数字化干预路径，对推动远程医疗在肝病综合管理中的应用具有参考价值。",
+    "category": "生物医药",
+    "tags": [
+      "远程医疗",
+      "数字医疗",
+      "慢性肝病",
+      "戒酒治疗"
+    ],
+    "source": "MedicalXpress",
+    "time": "1小时前",
+    "ts": "2026-06-30T23:00:01-04:00",
+    "url": "https://medicalxpress.com/news/2026-06-alcohol-treatment-telehealth.html",
+    "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/stepped-alcohol-treatm.jpg",
+    "stocks": []
+  },
+  {
     "id": "745e3562f20eeb04",
     "title": "小马智行在重庆成立新公司，注册资本3000万元",
     "summary": "小马智行在重庆设立全资子公司重庆小马智行科技有限公司，注册资本3000万元，经营范围涵盖网约车、人工智能基础软件、智能车载设备及新能源汽车整车销售，显示其加速自动驾驶及出行服务商业化布局。",
@@ -92,6 +355,32 @@ const newsData = [
         "name": "小米集团",
         "ticker": "1810.HK",
         "reason": "小米为该智能电压力锅的品牌方和制造商，新品有助于拓展其智能家居家电产品线。",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "e7110ebabb379aaa",
+    "title": "美团发布并开源万亿参数大模型LongCat-2.0",
+    "summary": "美团6月30日发布新一代万亿参数大模型LongCat-2.0并开源，总参数1.6T、原生支持1M长上下文，已在五万卡国产算力集群上完成训练与推理。",
+    "body": "美团于6月30日发布新一代万亿参数大模型LongCat-2.0，并宣布开源。该模型总参数达1.6万亿，平均激活约480亿，原生支持100万token超长上下文，已在五万卡国产算力集群上完成全流程训练与推理。技术层面采用LSA稀疏注意力、零计算专家、ScMoE以及MOPD多专家融合架构，并针对Agent、Reasoning、Interaction三类任务进行专家分组。在权威评测中，LongCat-2.0在SWE-bench Pro和Multilingual上分别获得59.5和77.3的成绩。预览版已通过OpenRouter和longcat.ai开放，月调用量进入OpenRouter全球前三。该模型标志着国产算力支撑超大模型训练取得新进展，也显示美团在AI基础模型与应用生态上的布局进一步提速。",
+    "category": "人工智能",
+    "tags": [
+      "大模型",
+      "美团",
+      "国产算力",
+      "开源"
+    ],
+    "source": "AIHOT精选",
+    "time": "1小时前",
+    "ts": "2026-07-01T02:24:00+00:00",
+    "url": "https://mp.weixin.qq.com/s/9XFcx3fmFcmbry5bHMJsow",
+    "image": "",
+    "stocks": [
+      {
+        "name": "美团-W",
+        "ticker": "3690.HK",
+        "reason": "公司发布并开源万亿参数大模型LongCat-2.0，AI能力与应用生态有望强化。",
         "confidence": "high"
       }
     ]
