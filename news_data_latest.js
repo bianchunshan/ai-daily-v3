@@ -1,5 +1,31 @@
 const newsData = [
   {
+    "id": "b73f5802e290eaff",
+    "title": "富士胶片推出黑白与户外一次性相机，瞄准Z世代",
+    "summary": "富士胶片宣布今秋推出两款QuickSnap一次性相机，分别主打黑白摄影与户外耐用，以满足Z世代推动的胶片相机复古热潮。",
+    "body": "富士胶片正在扩充其QuickSnap一次性相机产品线，新增两款新品：QuickSnap Black and White（售价22.90美元）与QuickSnap Active（售价24.75美元），预计今秋上市。前者专注于拍摄黑白照片，后者则具备更强的户外耐用性，可应对恶劣环境。\n\n富士胶片表示，Z世代消费者是此次胶片相机复兴潮的主要推动力，他们推动了即时成像和一次性相机市场的重新升温。这两款新品既迎合了复古摄影兴趣，也试图进一步巩固公司在个人影像硬件市场的地位。",
+    "category": "消费电子",
+    "tags": [
+      "消费电子",
+      "富士胶片",
+      "一次性相机",
+      "Z世代"
+    ],
+    "source": "The Verge",
+    "time": "1分钟前",
+    "ts": "2026-07-01T06:08:47-04:00",
+    "url": "https://www.theverge.com/gadgets/960067/fujifilm-quicksnap-active-black-and-white-price-availability",
+    "image": "",
+    "stocks": [
+      {
+        "name": "富士胶片控股",
+        "ticker": "FUJIY",
+        "reason": "直接推出两款一次性相机新品，有望受益Z世代推动的胶片摄影复古需求。",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
     "id": "3466f7433320d459",
     "title": "觅蜂科技联手猎聘集团共建具身智能数据人才体系",
     "summary": "觅蜂科技与同道猎聘集团达成合作，将整合物理AI数据技术与人才供给资源，打造面向具身智能产业的标准化数据采集人才体系。",
@@ -142,18 +168,17 @@ const newsData = [
   },
   {
     "id": "e23e64d96fcddf7f",
-    "title": "Pine64推50美元智能音箱，面向Home Assistant玩家",
-    "summary": "Pine64发布了一款售价50美元的智能音箱，目标用户为喜欢DIY和Home Assistant开源智能家居平台的玩家。",
-    "body": "以单板计算机和开源硬件闻名的Pine64推出了一款售价50美元的智能音箱，主要面向Home Assistant爱好者，方便用户自行搭建语音控制中枢。该产品属于智能家居硬件，进一步丰富了开源智能家居生态，契合玩家 tinkering 的需求。不过目前公开信息有限，具体规格、发售渠道和上市时间尚未详细披露。",
+    "title": "Pine64 推 50 美元智能音箱，面向 Home Assistant 玩家",
+    "summary": "Pine64 发布一款售价 50 美元的智能音箱，主要面向 Home Assistant 爱好者和硬件玩家，进一步降低智能家居 DIY 门槛。",
+    "body": "Pine64 近日推出一款面向 Home Assistant 用户的智能音箱，定价约 50 美元，适用于个人 DIY 和智能家居场景。该设备可直接接入 Home Assistant 开源平台，便于玩家进行自定义语音控制和家庭自动化。业内人士表示，低价开源硬件有助于推动智能家居生态普及，但短期内对上市公司直接影响有限。",
     "category": "消费电子",
     "tags": [
-      "智能家居",
-      "开源硬件",
       "智能音箱",
+      "智能家居",
       "Home Assistant"
     ],
     "source": "Hacker News",
-    "time": "12分钟前",
+    "time": "13分钟前",
     "ts": "2026-07-01T09:57:07+00:00",
     "url": "https://www.omgubuntu.co.uk/2026/06/pine64-pinevoice-riscv-smart-speaker-launch",
     "image": "",
