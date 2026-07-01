@@ -1,5 +1,61 @@
 const newsData = [
   {
+    "id": "8ea2d31412c06e75",
+    "title": "新网站可举报AI危险及不当行为",
+    "summary": "据Wired报道，一个新兴网站允许用户举报AI聊天机器人的危险或不当行为，例如疑似协助制造危险物品或泄露个人信息。",
+    "body": "近期，一家新上线的网站为用户提供渠道，举报人工智能聊天机器人表现出的异常或有害行为。用户可报告AI系统疑似协助制作爆炸物、泄露个人隐私等风险场景。\n\n这一机制反映了业界对AI安全与风险披露的关注升温，有助于收集真实案例、推动模型安全改进，并可能为监管和政策制定提供参考。",
+    "category": "人工智能",
+    "tags": [
+      "AI安全",
+      "人工智能监管",
+      "风险举报"
+    ],
+    "source": "Wired",
+    "time": "9分钟前",
+    "ts": "2026-07-01T18:10:00+00:00",
+    "url": "https://www.wired.com/story/flare-website-ai-flaw-reporting-safety/",
+    "image": "https://media.wired.com/photos/6a42d38427caad328b221827/master/pass/AI-Lab-Ring-Alarm-on-AI-Business.jpg",
+    "stocks": []
+  },
+  {
+    "id": "5958972cbd6ee4ff",
+    "title": "意大利最大太阳能电站在西西里投运",
+    "summary": "意大利最大太阳能电站已在西西里岛并网发电，进一步提升了该国的清洁电力供应，助力其加速推进可再生能源目标。",
+    "body": "近日，位于意大利西西里岛的全国最大太阳能电站正式投入运营，为当地及全国电网注入了可观的清洁电力。该项目反映出意大利正加快扩大可再生能源装机，以降低对化石燃料的依赖并推进气候目标。作为欧洲能源转型的一部分，大型光伏电站的投运有助于增强区域能源安全，也为后续可再生能源项目落地提供了示范。",
+    "category": "未来能源",
+    "tags": [
+      "太阳能",
+      "可再生能源",
+      "清洁能源",
+      "意大利"
+    ],
+    "source": "Electrek",
+    "time": "9分钟前",
+    "ts": "2026-07-01T18:09:53+00:00",
+    "url": "https://electrek.co/2026/07/01/sicily-is-now-home-to-italys-largest-solar-farm/",
+    "image": "https://electrek.co/wp-content/uploads/sites/3/2026/07/iberdrola-inaugura-fenix-italia-726x484-1.jpg?quality=82&#038;strip=all&#038;w=1200",
+    "stocks": []
+  },
+  {
+    "id": "9e83a63e248d9877",
+    "title": "AI被武器化用于攻击印度穆斯林女性",
+    "summary": "卡塔尔半岛电视台报道称，印度穆斯林女性长期遭受网络暴力，而人工智能技术正被滥用以放大和升级这类攻击，引发对AI伦理与监管的关切。",
+    "body": "据Al Jazeera报道，印度穆斯林女性多年来持续遭受网络骚扰与攻击。随着人工智能技术的发展，这些工具被 weaponized（武器化），用于制作深度伪造内容、散播仇恨言论和强化针对性骚扰，使受害群体面临更严重、规模更大的网络暴力。这一案例凸显了AI在缺乏有效治理时可能被滥用的风险，也促使社会关注平台监管、算法问责以及AI伦理框架建设的紧迫性。",
+    "category": "人工智能",
+    "tags": [
+      "AI滥用",
+      "深度伪造",
+      "网络暴力",
+      "印度"
+    ],
+    "source": "Al Jazeera",
+    "time": "13分钟前",
+    "ts": "2026-07-01T18:06:32+00:00",
+    "url": "https://www.aljazeera.com/video/newsfeed/2026/7/1/how-ai-is-being-weaponised-against-indias-muslim-women?traffic_source=rss",
+    "image": "",
+    "stocks": []
+  },
+  {
     "id": "3f76bf8f7d3fc7a6",
     "title": "可穿戴设备揭示大学生四年睡眠变化规律",
     "summary": "美国天普大学一项发表于PLOS One的研究表明，可穿戴设备能够提供准确、长期的睡眠数据，帮助分析大学生从入学到毕业期间睡眠模式的变化。",
@@ -89,6 +145,24 @@ const newsData = [
     "ts": "2026-07-01T18:00:00+00:00",
     "url": "https://www.space.com/astronomy/exoplanets/this-weird-hot-jupiter-exoplanet-has-a-hotspot-in-the-wrong-place-and-astronomers-arent-sure-how",
     "image": "https://cdn.mos.cms.futurecdn.net/F8C3LcrQRMo9BRaegeGbXY-1280-80.png",
+    "stocks": []
+  },
+  {
+    "id": "389dadaabe8ac82c",
+    "title": "OSCP 渗透测试速查表走红 Hacker News",
+    "summary": "一篇面向 OSCP 认证的渗透测试速查表在 Hacker News 上受到关注，作者整理了攻防实战中的常用命令与技术要点。",
+    "body": "该材料是作者为 OSCP（Offensive Security Certified Professional）认证整理的渗透测试速查表，内容涵盖信息收集、漏洞利用、权限提升及后渗透等常用命令与技术要点，主要面向安全从业者与备考人员。该文章在 Hacker News 上获得 11 个积分与 2 条评论，反映出开发者社区对实用型网络安全学习资源与攻防工具的持续兴趣。渗透测试是验证系统安全性的重要手段，此类速查表的传播有助于降低安全研究门槛，同时也提醒企业需重视漏洞管理与防御体系建设。",
+    "category": "网络安全",
+    "tags": [
+      "网络安全",
+      "渗透测试",
+      "OSCP"
+    ],
+    "source": "Hacker News",
+    "time": "29分钟前",
+    "ts": "2026-07-01T17:50:25+00:00",
+    "url": "https://hackerask.com/posts/pentesting-cheatsheet/",
+    "image": "",
     "stocks": []
   },
   {
