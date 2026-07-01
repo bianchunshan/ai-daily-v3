@@ -57,6 +57,44 @@ const newsData = [
     "stocks": []
   },
   {
+    "id": "1accb53195a141ca",
+    "title": "科学家首次合成可生长分裂的人造细胞",
+    "summary": "研究人员将非生命分子组件逐步装入类细胞膜，构建出能生长、复制DNA并分裂的合成人造细胞，为生命起源研究提供了重要的概念验证。",
+    "body": "据美国《Quanta》杂志报道，科学家首次将非生命组件逐步组装进类细胞膜结构中，构建出一种合成人造细胞。该细胞表现出接近生命的基本行为：能够生长、复制自身DNA并完成分裂，实现细胞周期的关键功能。芝加哥大学生命起源研究专家杰克·索斯塔克（Jack Szostak）评价称，这是“令人瞩目的进展”。\n\n这一成果为理解生命如何从非生命物质中产生提供了实验模型，也在合成生物学和早期生命研究领域具有重要意义。尽管距离实际应用仍有相当距离，它证明了在实验室中利用非生命材料构建具有生命特征系统的可行性。",
+    "category": "生物医药",
+    "tags": [
+      "合成生物学",
+      "生命起源",
+      "人造细胞",
+      "生物技术"
+    ],
+    "source": "Quanta",
+    "time": "8分钟前",
+    "ts": "2026-07-01T14:00:02+00:00",
+    "url": "https://www.quantamagazine.org/for-the-first-time-a-cell-built-from-scratch-grows-and-divides-20260701/",
+    "image": "https://www.quantamagazine.org/wp-content/uploads/2026/07/SyntheticLife-cr-Ada-Zejun-Shen-default-copy.webp",
+    "stocks": []
+  },
+  {
+    "id": "3eb3f3639061b53c",
+    "title": "NASA海洋监测卫星从太空捕捉北美野火烟柱",
+    "summary": "NASA用于海洋研究的PACE卫星凭借其高光谱海洋水色仪，意外地从太空拍摄到加拿大五大湖地区野火烟柱，显示出地球观测卫星在跨界灾害监测中的潜力。",
+    "body": "据外媒报道，NASA的PACE（浮游生物、气溶胶、云和海洋生态系统）卫星在去年5月拍摄到一幅特殊图像：加拿大五大湖上空飘浮着灰色野火烟柱，与白色云层形成鲜明对比。这颗卫星原本主要用于研究地球海洋与大气，但此次却意外展现了其在陆地灾害监测方面的能力。\n\n这张图像来自PACE搭载的海洋水色仪（Ocean Color Instrument），该仪器采用高光谱成像技术，可在可见光、近红外和紫外波段以数百个波长观测地球。高光谱数据能够区分烟雾、云和地表特征，因此即便不是为野火监测设计，PACE也能清晰捕捉大范围烟羽。\n\n科学家认为，这类来自太空的数据有助于深化对野火传播、烟雾扩散及空气质量影响的理解。此次案例也体现了现代空间基础设施的多用途价值，未来或为火灾预警和气候研究提供额外信息支持。",
+    "category": "商业航天",
+    "tags": [
+      "卫星遥感",
+      "地球观测",
+      "野火监测",
+      "NASA"
+    ],
+    "source": "Space.com",
+    "time": "8分钟前",
+    "ts": "2026-07-01T14:00:00+00:00",
+    "url": "https://www.space.com/astronomy/earth/ocean-monitoring-satellite-spots-wildfire-smoke-from-space-space-photo-of-the-day-for-july-1-2026",
+    "image": "https://cdn.mos.cms.futurecdn.net/ZcfhCSxdVaLJh2FKXk3uR4-1280-80.png",
+    "stocks": []
+  },
+  {
     "id": "dc129104f39f16c6",
     "title": "谷歌警告欧盟DMA要求共享匿名搜索数据将引发安全风险",
     "summary": "谷歌高级安全人员表示，欧盟《数字市场法案》要求谷歌向竞争对手共享匿名搜索数据，并赋予其他AI服务更高安卓权限，可能导致用户数据遭黑客窃取、欺诈案件上升。",
@@ -89699,12 +89737,6 @@ const newsData = [
   }
 ];
 const newsDigest = {
-  "text": "今日科技要闻：Meta筹建云服务对外出售AI算力，比亚迪二季度纯电交付再超特斯拉，电池安全新国标正式实施；同时谷歌警告欧盟数据共享安全风险，MIT揭示大脑语言网络更广泛。",
-  "highlights": [
-    "b9c4ac5b33468f49",
-    "cd23072dc37117c8",
-    "caf438eb75b16f68",
-    "dc129104f39f16c6",
-    "127080d24edc2f9a"
-  ]
+  "text": "",
+  "highlights": []
 };
