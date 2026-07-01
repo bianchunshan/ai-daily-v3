@@ -1,5 +1,23 @@
 const newsData = [
   {
+    "id": "6008ccbf2e9c9720",
+    "title": "T-Mobile起诉博通要求继续支持VMware永久许可",
+    "summary": "T-Mobile已向纽约法院起诉博通，主张博通有义务继续支持其VMware永久许可证，同时该公司正将数万个虚拟机迁出VMware。",
+    "body": "据外媒报道，T-Mobile已在纽约州最高法院起诉博通，要求其继续履行对VMware永久许可证的支持义务。T-Mobile表示，其约303,140个CPU核心上运行着数万个基于VMware软件的虚拟机，目前正在进行迁移。\n不过，该公司指出，此次迁移涉及1,000多个应用，过程既耗时又技术复杂。该诉讼凸显了企业在博通收购VMware后对永久许可支持政策变化的担忧，也可能影响大型企业客户的虚拟化与云基础设施策略。",
+    "category": "AI 基础设施",
+    "tags": [
+      "虚拟化",
+      "云计算",
+      "企业软件"
+    ],
+    "source": "Ars Technica",
+    "time": "18分钟前",
+    "ts": "2026-07-01T21:21:21+00:00",
+    "url": "https://arstechnica.com/information-technology/2026/07/t-mobile-moving-tens-of-thousands-of-virtual-machines-off-vmware-amid-lawsuit/",
+    "image": "https://cdn.arstechnica.net/wp-content/uploads/2023/09/getty-t-mobile-sign-1152x648.jpg",
+    "stocks": []
+  },
+  {
     "id": "e7172e6ed2bdc6e7",
     "title": "肌酸能否治疗抑郁症？五项临床试验初探",
     "summary": "一项新综述汇总了五项临床试验，初步显示肌酸补充剂在改善抑郁症状方面具有一定潜力，但证据尚不充分，仍需更大规模研究验证。",
@@ -900,6 +918,25 @@ const newsData = [
     "ts": "2026-07-01T14:20:03-04:00",
     "url": "https://medicalxpress.com/news/2026-07-rare-stem-cells-key-chronic.html",
     "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/rare-stem-t-cells-may.jpg",
+    "stocks": []
+  },
+  {
+    "id": "4c79f4c5b3fb5b71",
+    "title": "Weave Robotics 发布家用机器人 Isaac 1，售价 7999 美元",
+    "summary": "Weave Robotics 推出家用双轮机器人 Isaac 1，可自主完成叠衣、整理房间等家务，售价 7999 美元，计划 2026 年秋季交付。该产品采用自研执行器与远程操控系统，强调家庭隐私与被动安全设计。",
+    "body": "Weave Robotics 正式发布家用机器人 Isaac 1，定价 7999 美元，预计 2026 年秋季开始交付。该机器人专为家庭环境从头设计，具备洗衣整理（Laundry Flow）和日常复位（Daily Reset）功能，可自主寻找脏衣、搬运洗衣篮，并整理床铺、枕头、玩具与鞋子等物品。\n\nIsaac 1 采用全栈自研方案，包括自研执行器、远程驱动系统和安全系统；机身内嵌刚性结构，外层覆盖可更换的软质织物外壳，以提升家居亲和力与被动安全。其躯干可折叠，高度可在约 0.9 米至 1.8 米之间调节，垂直伸展可达 80 英寸，便于收纳与操作。\n\n产品默认以自主模式完成任务，必要时通过远程遥操作确保任务完成；用户可通过配套应用按需或定时启动。Isaac 1 配备 8 小时电池续航与 Wi-Fi 连接，设计上以隐私为核心，仅在工作时给出明确物理提示。这一发布显示出家用服务机器人正加速走向消费市场，并推动具身智能在家庭场景落地。",
+    "category": "机器人",
+    "tags": [
+      "家用机器人",
+      "具身智能",
+      "智能家居",
+      "服务机器人"
+    ],
+    "source": "Hacker News",
+    "time": "3小时前",
+    "ts": "2026-07-01T18:12:18+00:00",
+    "url": "https://www.weaverobotics.com/isaac-1",
+    "image": "",
     "stocks": []
   },
   {
