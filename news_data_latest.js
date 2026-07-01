@@ -1,5 +1,31 @@
 const newsData = [
   {
+    "id": "3106cf2b8d701194",
+    "title": "Meta据称将自建云计算业务",
+    "summary": "据外媒报道，Meta正计划通过出售服务器基础设施进军云计算市场，这将使其与亚马逊、谷歌直接竞争。若落地，Meta有望把自研算力资源变现为新的营收来源。",
+    "body": "知情人士称，Meta正在筹划面向外部客户提供服务器基础设施的云计算业务，正式涉足公有云市场。此举意味着Meta将与亚马逊AWS、谷歌云等巨头正面竞争，也可能改变其多年来主要为内部应用和社交媒体服务建设数据中心的策略。\n\n分析认为，Meta拥有庞大的自研AI服务器、网络设备和数据中心资源，若能对外出租，将有助于摊薄巨额资本开支，并创造新的收入流。不过，进入成熟云市场也面临技术、销售和客户信任等多重挑战。",
+    "category": "AI 基础设施",
+    "tags": [
+      "云计算",
+      "Meta",
+      "服务器",
+      "数据中心"
+    ],
+    "source": "Engadget",
+    "time": "5分钟前",
+    "ts": "2026-07-01T19:04:07+00:00",
+    "url": "https://www.engadget.com/2206249/meta-is-reportedly-building-its-own-cloud-business/",
+    "image": "https://www.engadget.com/img/gallery/meta-is-reportedly-building-its-own-cloud-business/l-intro-1782932600.jpg",
+    "stocks": [
+      {
+        "name": "Meta Platforms",
+        "ticker": "META",
+        "reason": "自建并出售云基础设施有望开辟新收入来源，摊薄其庞大算力投资。",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
     "id": "784b98ef5ce13d28",
     "title": "灰市肽类产品风险被低估，女性更易受害",
     "summary": "宣称可增肌、抗衰老、减脂的未监管肽类产品在网络热销，新研究指出其副作用可能存在显著性别差异，女性面临的潜在健康风险更大。",
