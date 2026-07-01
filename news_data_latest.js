@@ -1,5 +1,24 @@
 const newsData = [
   {
+    "id": "685039397bf85e0f",
+    "title": "低风险前列腺癌是否还应称“癌”？改名或可减少过度治疗并救命",
+    "summary": "UCLA主导的研究发现，若不再将最低风险的前列腺癌称为“癌症”，可显著减少过度治疗，并促使更多男性接受筛查，从而降低侵袭性前列腺癌的死亡率。",
+    "body": "越来越多的前列腺癌专家认为，将最低风险的前列腺癌仍称为“癌症”弊大于利。这一标签可能引发患者不必要的焦虑和积极治疗，导致过度医疗。\n\n一项由加州大学洛杉矶分校（UCLA）主导的新研究表明，取消这部分疾病的“癌症”标签，有望大幅减少过度治疗，并鼓励更多男性参与筛查。研究认为，这可能使侵袭性前列腺癌得到更早发现，从而显著降低相关死亡风险。\n\n若命名方式改变，不仅影响临床决策，也可能推动公共卫生政策和筛查策略的调整。不过，如何在避免过度治疗与不误诊高风险病例之间取得平衡，仍需医学界进一步讨论和验证。",
+    "category": "生物医药",
+    "tags": [
+      "前列腺癌",
+      "医学命名",
+      "UCLA研究",
+      "过度治疗"
+    ],
+    "source": "MedicalXpress",
+    "time": "7分钟前",
+    "ts": "2026-07-01T16:00:11-04:00",
+    "url": "https://medicalxpress.com/news/2026-07-lowest-prostate-cancer.html",
+    "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/doctor.jpg",
+    "stocks": []
+  },
+  {
     "id": "1f8afdb65fe7ccfb",
     "title": "Atlas V将于7月2日发射29颗亚马逊低轨宽带卫星",
     "summary": "联合发射联盟（ULA）计划7月2日使用Atlas V火箭为亚马逊发射29颗Leo低轨宽带卫星，继续部署其对标SpaceX Starlink的全球互联网星座。",
@@ -24,6 +43,25 @@ const newsData = [
         "confidence": "high"
       }
     ]
+  },
+  {
+    "id": "676cd40ed67e827d",
+    "title": "NASA局长称赞蓝起源在发射失败后进展显著",
+    "summary": "NASA局长Jared Isaacman表示，蓝起源在5月底New Glenn火箭测试爆炸后投入大量资源清理发射台，其应对表现“几乎令人印象深刻”。NASA仍寄望蓝起源的月球着陆器及New Glenn火箭执行未来登月任务，并认为到2027年前仍有时间缓冲。",
+    "body": "据Ars Technica报道，NASA局长Jared Isaacman本周对媒体表示，蓝起源（Blue Origin）在其New Glenn火箭于5月底发生测试爆炸、损毁唯一在用发射台后，已投入大量资源进行发射场清理与恢复工作。他还援引美国太空军官员的说法，称蓝起源的响应与规划“几乎令人印象深刻”，太空军也深度参与了相关修复计划。\n\nNASA对蓝起源复飞高度关注，因为其计划依靠蓝起源的Mk.1货运月球着陆器执行多次月球物资运输任务，并指望Mk.2载人着陆器最终将宇航员送上月面；而这两类着陆器的发射都高度依赖New Glenn火箭。Isaacman称，至少在2027年前NASA不会因此感到紧张，显示出官方对蓝起源恢复进度的信心。\n\n这一表态对处于挫折中的蓝起源是重要背书，也反映出NASA在“阿尔忒弥斯”月球计划中对商业火箭供应商的依赖持续加深。若蓝起源能按计划恢复发射能力，将有助于巩固其在商业航天登月赛道中的地位。",
+    "category": "商业航天",
+    "tags": [
+      "商业航天",
+      "蓝起源",
+      "NASA",
+      "New Glenn"
+    ],
+    "source": "Ars Technica",
+    "time": "9分钟前",
+    "ts": "2026-07-01T19:57:36+00:00",
+    "url": "https://arstechnica.com/space/2026/07/nasa-chief-praises-progress-blue-origin-is-making-after-launch-failure/",
+    "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/07/News_NG-ReturnToFlight_2-RocketLift-1152x648.webp",
+    "stocks": []
   },
   {
     "id": "abb678c79ba67408",
@@ -265,6 +303,44 @@ const newsData = [
     "url": "https://zcode.z.ai/cn",
     "image": "",
     "stocks": []
+  },
+  {
+    "id": "4c15910a3abd809f",
+    "title": "美国户用储能装机创新高，高电价与政策激励驱动",
+    "summary": "2026年一季度美国家庭电池储能新增装机达创纪录的673兆瓦，高电价与州级激励推动户用储能需求激增，并为电网及AI数据中心提供更灵活的电力调度空间。",
+    "body": "据美国能源信息署数据，2026年第一季度美国家用电池储能新增装机达到673兆瓦，创历史新高。这一趋势主要由电价较高且出台了安装激励政策的州推动，反映出家庭用户在屋顶光伏普及后，进一步通过电池实现夜间自用、降低电费的意愿增强。\n\n加利福尼亚州和夏威夷州占据了新增户用储能的大部分份额，得克萨斯州和亚利桑那州的安装量也显著增长。户用电池不仅帮助家庭应对不断上涨的居民电价，还有望为电网运营商乃至AI数据中心提供更灵活的电力供应与调度选项。",
+    "category": "未来能源",
+    "tags": [
+      "户用储能",
+      "家庭电池",
+      "电网灵活性",
+      "AI数据中心"
+    ],
+    "source": "Ars Technica",
+    "time": "56分钟前",
+    "ts": "2026-07-01T19:11:15+00:00",
+    "url": "https://arstechnica.com/science/2026/07/us-home-battery-installations-hit-record-high-in-early-2026/",
+    "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/07/GettyImages-2200913289-1152x648.jpg",
+    "stocks": [
+      {
+        "name": "特斯拉",
+        "ticker": "TSLA",
+        "reason": "Powerwall是美国户用储能市场主要品牌，新增装机放量直接利好其储能业务",
+        "confidence": "high"
+      },
+      {
+        "name": "Enphase Energy",
+        "ticker": "ENPH",
+        "reason": "公司主营户用太阳能与储能系统，电池需求增长与其核心市场高度相关",
+        "confidence": "high"
+      },
+      {
+        "name": "Sunrun",
+        "ticker": "RUN",
+        "reason": "美国领先的户用太阳能与储能租赁服务商，户用储能装机增长带动其业务扩张",
+        "confidence": "medium"
+      }
+    ]
   },
   {
     "id": "3106cf2b8d701194",
