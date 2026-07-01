@@ -1,5 +1,24 @@
 const newsData = [
   {
+    "id": "ae26d59dfff28829",
+    "title": "KAIST用AI将动物行为“转译”为语言token",
+    "summary": "韩国KAIST团队开发出一种能像理解自然语言一样学习动物行为数据的AI模型，并在自闭症小鼠模型中自动识别出社交行为缺陷，为可解释神经科学开辟新路径。",
+    "body": "韩国科学技术院（KAIST）研究人员开发出一款新型人工智能模型，可将动物行为数据转化为类似语言token的形式进行学习与解读。该模型无需预先设定行为标签，便能从视频等数据中发现行为模式，并在自闭症小鼠模型中独立识别出与社交相关的异常行为。\n\n这项技术把行为序列当作“行为语言”来处理，使AI能够像自然语言模型理解文本一样理解动作，提升了动物行为分析的可解释性。研究团队认为，该方法有望加速神经精神疾病机制研究和药物筛选。",
+    "category": "人工智能",
+    "tags": [
+      "行为分析",
+      "神经科学",
+      "自闭症研究",
+      "可解释AI"
+    ],
+    "source": "MedicalXpress",
+    "time": "1分钟前",
+    "ts": "2026-07-01T12:40:02-04:00",
+    "url": "https://medicalxpress.com/news/2026-07-ai-mouse-movements-language-tokens.html",
+    "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/kaist-develops-ai-that.jpg",
+    "stocks": []
+  },
+  {
     "id": "769fc9ff441299ba",
     "title": "Visa、万事达与Coinbase联手推出全球稳定币",
     "summary": "Visa、万事达卡和Coinbase联合推出新的全球稳定币项目，旨在依托传统金融支付网络推动数字货币在跨境与日常交易中的应用。",
