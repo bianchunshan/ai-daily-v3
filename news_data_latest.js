@@ -192,6 +192,25 @@ const newsData = [
     ]
   },
   {
+    "id": "7fb95ff2d295ffa2",
+    "title": "Asahi Linux 7.1 开发进展报告发布",
+    "summary": "Asahi Linux 项目发布 7.1 版本进展报告，披露针对 Apple Silicon Mac 的 Linux 适配与驱动开发动态。该项目进展主要面向开源社区，为消费者硬件提供更多操作系统选择。",
+    "body": "Asahi Linux 是一个面向 Apple Silicon Mac 的 Linux 移植开源项目。其 7.1 版本进展报告披露了近期开发动态，包括针对苹果自研芯片的硬件适配、驱动完善与系统兼容性推进。该项目的进展为开发者和用户在使用 Apple Silicon 设备时提供了更多操作系统选择，也反映了开源社区在主流 ARM 架构消费硬件上的持续探索。由于此类进展报告主要面向小众技术社区，对消费电子市场的整体影响较为有限。",
+    "category": "消费电子",
+    "tags": [
+      "开源软件",
+      "Apple Silicon",
+      "Linux",
+      "操作系统"
+    ],
+    "source": "Hacker News",
+    "time": "20分钟前",
+    "ts": "2026-07-01T10:07:04+00:00",
+    "url": "https://asahilinux.org/2026/06/progress-report-7-1/",
+    "image": "",
+    "stocks": []
+  },
+  {
     "id": "c035cdd5ac64b73a",
     "title": "OpenAI论文揭示GPT-5.6三个Pro变体",
     "summary": "OpenAI论文首次列出GPT-5.6的三个Pro变体Luna Pro、Terra Pro和Sol Pro，在基因组学基准中Sol Pro以31.5%通过率领先60个测试模型。",
