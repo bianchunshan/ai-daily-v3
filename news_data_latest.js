@@ -1,5 +1,24 @@
 const newsData = [
   {
+    "id": "708b5ba8b8fd2cf3",
+    "title": "OpenAI发布GeneBench-Pro评估AI生物学计算能力",
+    "summary": "OpenAI推出GeneBench-Pro基准测试，用于评估AI模型在生物学计算任务中的真实研究能力，重点考察模型面对杂乱数据时的分析判断和方法选择。",
+    "body": "OpenAI宣布推出GeneBench-Pro基准测试，主要用于评估AI模型在生物学计算任务中的真实研究能力。该测试重点衡量模型在面对杂乱、不完整甚至带有干扰的数据时，能否做出正确的分析判断、选择合适的方法，并得出足以支撑后续决策的结论。相比传统基准测试更注重知识记忆或固定流程完成度，GeneBench-Pro更强调真实科研环境中的实用性。\n\n该基准测试覆盖基因组学、定量生物学和转化医学等10个大领域、21个子领域，共129道题目，涵盖统计遗传学、群体遗传学、功能基因组学、蛋白质组学等方向。每道题都会提供接近真实科研环境的数据集和实验背景，模型需要自主完成数据探索、方法选择并修正策略。为避免评分偏差，GeneBench-Pro采用合成数据作为核心构建方式，以便更准确判断模型是否真正理解问题。目前，OpenAI已在Hugging Face开源10道代表性示例题，并将开放50道题给第三方机构进行独立评测。",
+    "category": "人工智能",
+    "tags": [
+      "OpenAI",
+      "基准测试",
+      "生物医药AI",
+      "合成数据"
+    ],
+    "source": "IT之家",
+    "time": "5分钟前",
+    "ts": "2026-07-01T14:53:23+00:00",
+    "url": "https://www.ithome.com/0/971/383.htm",
+    "image": "https://img.ithome.com/newsuploadfiles/2026/7/d73c5921-a68b-4aec-a50d-98b659c9cdc6.png?x-bce-process=image/format,f_auto",
+    "stocks": []
+  },
+  {
     "id": "127e4a4d0f70d911",
     "title": "谷歌AI智能体Gemini Spark登陆Mac",
     "summary": "谷歌宣布其AI智能体Gemini Spark已整合进Mac版Gemini桌面客户端，可实时追踪资讯、读取本地文件并连接更多应用。该功能目前仅向美国AI Ultra订阅用户开放测试。",
@@ -69,6 +88,25 @@ const newsData = [
         "confidence": "high"
       }
     ]
+  },
+  {
+    "id": "fbacbf6da515a7a6",
+    "title": "索尼删除用户已购551部PlayStation电影",
+    "summary": "报道称，索尼从PlayStation用户的数字片库中移除了551部已付费购买的电影，引发对数字内容所有权与平台控制权的争议。",
+    "body": "据外媒报道，索尼已从PlayStation用户的数字影片库中删除551部此前购买的电影。由于授权协议或平台策略调整，用户即使已经付费，也无法继续访问这些影片。此事再次凸显数字购买与实体所有权之间的差异：消费者实际获得的可能是受平台约束的访问许可，而非永久拥有内容。在流媒体和数字娱乐日益普及的背景下，如何保障用户已购内容的长期可用权，成为行业、消费者及监管机构关注的焦点。",
+    "category": "消费电子",
+    "tags": [
+      "数字版权",
+      "流媒体",
+      "PlayStation",
+      "索尼"
+    ],
+    "source": "Hacker News",
+    "time": "32分钟前",
+    "ts": "2026-07-01T14:26:07+00:00",
+    "url": "https://reclaimthenet.org/sony-deletes-551-studiocanal-movies-playstation-owners-paid-for",
+    "image": "",
+    "stocks": []
   },
   {
     "id": "2918486d29664411",
