@@ -1,5 +1,50 @@
 const newsData = [
   {
+    "id": "35a38d47cdcf7c16",
+    "title": "丰田电动SUV美国销量破1.75万辆，超越兰德酷路泽",
+    "summary": "丰田2026款bZ电动SUV在美国累计销量已达17,500辆，超过兰德酷路泽及多款主流电动SUV，成为丰田在美国市场表现最亮眼的电动车型之一。",
+    "body": "据Electrek报道，丰田2026款bZ电动SUV在美国市场销量已突破17,500辆，不仅超越了同品牌的经典越野车型兰德酷路泽，还领先于多款主要电动SUV竞争对手。这一成绩标志着丰田在北美电动化战略上取得阶段性进展，有助于扭转其此前在纯电领域相对保守的市场形象。\n\nbZ系列是丰田面向电动化转型的核心产品线，此次销量突破表明消费者对丰田品牌电动SUV的接受度正在提升。在美国电动车市场竞争加剧、价格压力持续的背景下，bZ能够跻身畅销榜单，对丰田后续扩大纯电车型阵容、提振北美市场份额具有积极信号意义。\n\n不过，丰田仍需在充电网络布局、电池成本控制以及更多纯电车型投放方面持续发力，才能在与特斯拉、现代起亚及美国本土车企的竞争中保持增长势头。",
+    "category": "未来能源",
+    "tags": [
+      "电动汽车",
+      "丰田",
+      "bZ",
+      "美国市场"
+    ],
+    "source": "Electrek",
+    "time": "5分钟前",
+    "ts": "2026-07-01T19:34:47+00:00",
+    "url": "https://electrek.co/2026/07/01/toyotas-electric-suv-tops-17500-sales-outpaces-key-ev-rivals/",
+    "image": "https://electrek.co/wp-content/uploads/sites/3/2026/07/Toyota-bZ-electric-SUV-sales-1.jpeg?quality=82&#038;strip=all&#038;w=1400",
+    "stocks": [
+      {
+        "name": "丰田汽车",
+        "ticker": "TM",
+        "reason": "bZ电动SUV美国销量超预期，直接利好丰田电动化转型与北美业绩",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "77b492153d835d5a",
+    "title": "Anduril密西西比火箭发动机测试场爆炸瘫痪",
+    "summary": "美国国防科技公司Anduril位于密西西比州的火箭发动机测试场发生爆炸，可能扰乱其为军方客户设计、测试原型发动机的关键业务。",
+    "body": "美国国防科技公司Anduril位于密西西比州的火箭发动机测试场近日发生爆炸，导致该设施陷入瘫痪。该测试场是Anduril火箭发动机业务的关键环节，主要为军方客户设计和测试原型发动机。此次事故可能对其火箭发动机业务的正常运转造成干扰，并影响相关军事项目的研发与交付进度。作为美国国防部的重要供应商，Anduril测试能力的受损或将促使军方及其客户重新评估供应链风险与备选方案。",
+    "category": "地缘科技",
+    "tags": [
+      "Anduril",
+      "火箭发动机",
+      "国防科技",
+      "测试事故"
+    ],
+    "source": "Wired",
+    "time": "10分钟前",
+    "ts": "2026-07-01T19:29:21+00:00",
+    "url": "https://www.wired.com/story/anduril-mississippi-explosion-missiles-rocket-motor/",
+    "image": "https://media.wired.com/photos/6a454ecdc28e761b85a7de34/master/pass/Explosion-Knocked-Out-Anduril-Rocket-Motor-Test-Site-Business-2239733185.jpg",
+    "stocks": []
+  },
+  {
     "id": "a7d04521b6a3b845",
     "title": "GLP-1药物对房颤合并2型糖尿病患者更优",
     "summary": "一项研究表明，对于合并房颤的2型糖尿病患者，GLP-1类药物的治疗效果优于SGLT-2抑制剂。这一发现可能影响相关临床用药选择。",
