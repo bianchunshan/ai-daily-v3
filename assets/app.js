@@ -111,9 +111,50 @@
     return next;
   }
 
-  // 加载数据：优先外部 news_data_latest.js（每日 Action 更新），失败用内置兜底。
+  var DEFAULT_NEWS_DATA_URL = 'https://raw.githubusercontent.com/bianchunshan/ai-daily-v3/main/news_data_latest.js';
+
+  function parseNewsModule(txt) {
+    var data = new Function(
+      txt + '\n;return {' +
+      'newsData: (typeof newsData !== "undefined" && Array.isArray(newsData)) ? newsData : [],' +
+      'newsDigest: (typeof newsDigest !== "undefined") ? newsDigest : null' +
+      '};'
+    )();
+    return data || { newsData: [], newsDigest: null };
+  }
+
+  // 加载数据：优先 GitHub raw 最新数据，失败再读部署包内的数据，最后用内置兜底。
   // 回调 cb(newsList, digest)，digest 可能为 null。
   function loadNews(fallback, cb) {
+    if (!global.fetch) {
+      loadBundledNews(fallback, cb);
+      return;
+    }
+    var remoteUrl = global.AID_NEWS_DATA_URL || DEFAULT_NEWS_DATA_URL;
+    var controller = global.AbortController ? new AbortController() : null;
+    var remoteTimer = controller ? setTimeout(function () { controller.abort(); }, 8000) : null;
+
+    fetch(remoteUrl + '?t=' + Date.now(), {
+      cache: 'no-store',
+      signal: controller && controller.signal
+    }).then(function (r) {
+      if (!r.ok) throw new Error('news data HTTP ' + r.status);
+      return r.text();
+    }).then(function (txt) {
+      if (remoteTimer) clearTimeout(remoteTimer);
+      var parsed = parseNewsModule(txt);
+      if (parsed.newsData && parsed.newsData.length) {
+        cb(parsed.newsData, parsed.newsDigest || null);
+        return;
+      }
+      throw new Error('empty remote news data');
+    }).catch(function () {
+      if (remoteTimer) clearTimeout(remoteTimer);
+      loadBundledNews(fallback, cb);
+    });
+  }
+
+  function loadBundledNews(fallback, cb) {
     var s = document.createElement('script');
     var done = false;
     var timer = setTimeout(function () {

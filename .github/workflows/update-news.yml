@@ -3,7 +3,7 @@ name: 每10分钟更新新闻
 on:
   schedule:
     # GitHub Actions schedule 会漏触发/延迟；拆成多条 10 分钟触发点，避免单条列表表达式整段空窗。
-    # 若没有新 URL，脚本会提前退出；若数据无变化，提交和部署也会跳过。
+    # 若没有新 URL，脚本会提前退出；若数据无变化，提交也会跳过。
     - cron: '7 * * * *'
     - cron: '17 * * * *'
     - cron: '27 * * * *'
@@ -59,8 +59,8 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          if git diff --quiet -- news_data_latest.js; then
-            echo "数据无变化，跳过提交与部署"
+          if git diff --quiet -- news_data_latest.js seen_urls.json; then
+            echo "数据无变化，跳过提交"
             echo "changed=false" >> "$GITHUB_OUTPUT"
           else
             git add news_data_latest.js seen_urls.json
@@ -76,11 +76,3 @@ jobs:
             if [ "$pushed" != "1" ]; then echo "::error::push 多次失败"; exit 1; fi
             echo "changed=true" >> "$GITHUB_OUTPUT"
           fi
-
-      - name: 部署到 Vercel 生产环境（仅在有新数据时）
-        if: steps.commit.outputs.changed == 'true'
-        env:
-          VERCEL_TOKEN: ${{ secrets.VERCEL_TOKEN }}
-          VERCEL_ORG_ID: ${{ secrets.VERCEL_ORG_ID }}
-          VERCEL_PROJECT_ID: ${{ secrets.VERCEL_PROJECT_ID }}
-        run: npx --yes vercel@latest deploy --prod --yes --token "$VERCEL_TOKEN"

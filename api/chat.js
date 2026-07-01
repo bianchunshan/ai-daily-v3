@@ -14,7 +14,10 @@ const KIMI_API_STYLE = String(process.env.KIMI_API_STYLE || 'coding').trim().toL
 const MAX_BODY_BYTES = 16 * 1024;
 const RATE_WINDOW_MS = 60 * 1000;
 const RATE_LIMIT = 8;
+const NEWS_DATA_URL = process.env.NEWS_DATA_URL || 'https://raw.githubusercontent.com/bianchunshan/ai-daily-v3/main/news_data_latest.js';
+const NEWS_CACHE_MS = 2 * 60 * 1000;
 const rateHits = new Map();
+let newsCache = { ts: 0, data: [] };
 
 function readBody(req) {
   return new Promise((resolve, reject) => {
@@ -129,7 +132,31 @@ function extractArray(txt, varname) {
   return null;
 }
 
-function loadNewsData() {
+async function loadRemoteNewsData() {
+  if (newsCache.data.length && Date.now() - newsCache.ts < NEWS_CACHE_MS) return newsCache.data;
+  const controller = new AbortController();
+  const timer = setTimeout(() => controller.abort(), 8000);
+  try {
+    const r = await fetch(`${NEWS_DATA_URL}?t=${Date.now()}`, {
+      cache: 'no-store',
+      signal: controller.signal,
+      headers: { 'user-agent': 'ai-daily-v3' },
+    });
+    if (!r.ok) throw new Error(`news data HTTP ${r.status}`);
+    const txt = await r.text();
+    const arr = extractArray(txt, 'newsData');
+    const data = arr ? JSON.parse(arr) : [];
+    if (data.length) {
+      newsCache = { ts: Date.now(), data };
+      return data;
+    }
+  } finally {
+    clearTimeout(timer);
+  }
+  return [];
+}
+
+function loadBundledNewsData() {
   try {
     const txt = fs.readFileSync(path.join(__dirname, '..', 'news_data_latest.js'), 'utf8');
     const arr = extractArray(txt, 'newsData');
@@ -139,6 +166,14 @@ function loadNewsData() {
   }
 }
 
+async function loadNewsData() {
+  try {
+    const remote = await loadRemoteNewsData();
+    if (remote.length) return remote;
+  } catch (e) {}
+  return loadBundledNewsData();
+}
+
 function terms(text) {
   const s = String(text || '').toLowerCase();
   const cn = (s.match(/[\u4e00-\u9fa5]{2,}/g) || []);
@@ -146,8 +181,8 @@ function terms(text) {
   return [...new Set(cn.concat(en))].slice(0, 24);
 }
 
-function selectContext(question) {
-  const news = loadNewsData();
+async function selectContext(question) {
+  const news = await loadNewsData();
   const qs = terms(question);
   const scored = news.map((n, idx) => {
     const stocks = (n.stocks || []).map((s) => `${s.name || ''} ${s.ticker || ''} ${s.reason || ''}`).join(' ');
@@ -287,7 +322,7 @@ module.exports = async function handler(req, res) {
   const question = String((body && body.question) || '').trim().slice(0, 500);
   if (!question) return res.status(400).json({ error: 'empty question' });
 
-  const ctx = selectContext(question);
+  const ctx = await selectContext(question);
   const ctxText = ctx
     .map((n, i) => `${i + 1}. [${n.category || ''}] ${n.title || ''}｜${String(n.summary || '').slice(0, 120)}${n.url ? `｜${n.url}` : ''}`)
     .join('\n');
