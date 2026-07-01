@@ -33,15 +33,15 @@ const newsData = [
   },
   {
     "id": "47233817109edac2",
-    "title": "Xbox被曝测试实体光盘数字化，应对PlayStation去光驱化",
-    "summary": "据报道，微软Xbox正内部测试“Disc2Digital”功能，允许玩家将Xbox One及Xbox Series X/S实体光盘转为数字版，以顺应游戏行业向全数字转型的趋势。",
-    "body": "据The Verge报道，微软正在Xbox平台测试名为“Disc2Digital”的功能，支持将Xbox One和Xbox Series X/S实体光盘转换为数字授权。转换后光盘仍可运行，但若将光盘转借或出售，数字权利将失效；相关游戏若支持Xbox Play Anywhere，还可进行串流游玩。该功能暂不覆盖初代Xbox与Xbox 360光盘，部分早期光盘也可能因制造信息不足而无法使用此功能。\n\n这一动作被解读为在索尼PlayStation逐步弱化实体光盘、游戏行业加速全数字化的背景下，微软为下一代主机Project Helix可能取消光驱所做的铺垫。微软目前尚未最终决定下一代Xbox是否保留光驱，但光盘数字化方案有助于缓解玩家对实体游戏收藏失效的担忧，同时推动数字游戏与订阅服务生态。",
+    "title": "Xbox测试实体盘转数字功能，兼容Xbox One游戏",
+    "summary": "据报道，微软Xbox正在内部测试“Disc2Digital”功能，允许玩家将Xbox One及Xbox Series X/S实体光盘转为数字授权，以便在兼容主机上继续游玩。此举被视为紧随PlayStation弱化实体光盘的趋势，为下一代全数字主机铺路。",
+    "body": "据The Verge报道，微软正在测试名为“Disc2Digital”的功能，可将Xbox One和Xbox Series X/S实体光盘转换为数字版授权。转换后玩家仍可凭光盘游玩，但若将光盘出售或借给他人，数字权利将随之转移或失效。该功能不支持初代Xbox和Xbox 360光盘，部分Xbox One游戏也可能因光盘压制差异而无法参与转换；若游戏属于Xbox Play Anywhere，数字版还有望支持串流游玩。\n\n报道称，微软尚未最终决定下一代“Project Helix”主机是否保留光驱。此前Xbox Series X首发时配备光驱，但已推出无光驱版本。如果微软最终决定全面取消光驱，Disc2Digital功能可在一定程度上缓解玩家对旧光盘收藏作废的担忧。\n\n这一动向显示主机行业正加速向全数字生态转型，实体光盘的角色进一步边缘化。对厂商而言，数字发行和订阅服务的收入占比有望提升，但也可能引发二手游戏市场和实体收藏玩家对权益保障的争议。",
     "category": "消费电子",
     "tags": [
       "Xbox",
-      "微软",
-      "数字游戏",
-      "游戏主机"
+      "PlayStation",
+      "游戏数字化",
+      "主机游戏"
     ],
     "source": "Tom's Hardware",
     "time": "3分钟前",
@@ -52,8 +52,8 @@ const newsData = [
       {
         "name": "微软",
         "ticker": "MSFT",
-        "reason": "Xbox隶属微软，光盘数字化及潜在全数字主机策略有助于扩大数字游戏与订阅服务收入。",
-        "confidence": "high"
+        "reason": "Xbox推进实体盘转数字，有助于提升数字商店、订阅服务及向后兼容生态的用户粘性。",
+        "confidence": "medium"
       }
     ]
   },
