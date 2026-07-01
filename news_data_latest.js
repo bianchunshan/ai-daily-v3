@@ -1,5 +1,43 @@
 const newsData = [
   {
+    "id": "6baf677b56e13d2f",
+    "title": "北航团队创立航墨科技，近亿元天使轮押注智能变刚度关节",
+    "summary": "航墨科技完成近亿元天使轮融资，专注智能变刚度关节与消费级智能外骨骼，核心产品FlexmoJoint已实现抗冲击、能量回收和多样性刚度能力。",
+    "body": "航墨科技由北航机器人所团队创立，近期完成近亿元天使轮融资，投资方包括中投万方、三贤科技、北航天汇、诚美资本、三合投资、常州金控，资金将用于产品研发和市场推广。公司核心技术源自北航机器人所重点研发计划，首创智能变刚度关节模组FlexmoJoint，通过仿生设计实现关节抗冲击、能量回收及刚度自适应，外力估计误差降低23%，能耗减少31.2%，并显著降低成本。",
+    "category": "机器人",
+    "tags": [
+      "机器人",
+      "智能外骨骼",
+      "人形机器人",
+      "变刚度关节"
+    ],
+    "source": "36氪",
+    "time": "刚刚",
+    "ts": "2026-07-01T12:38:24.645175+00:00",
+    "url": "https://36kr.com/p/3877060559433984?f=rss",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "fa7daec30e9c7bba",
+    "title": "Vantor发布WorldView 3D高清卫星影像服务",
+    "summary": "商业航天企业Vantor（前身为Maxar Intelligence）推出WorldView 3D服务，旨在为客户提供更加实时、高清晰度的卫星影像数据。",
+    "body": "7月1日，Vantor（原Maxar Intelligence）在旧金山发布WorldView 3D产品，可为客户提供更新更及时的高清影像。该产品强调“现势性”（currency），即影像数据的更新频率与时效性，以满足对最新空间信息的需求。作为全球主要商业卫星影像供应商之一，Vantor此举有助于巩固其在地球观测、国防、政府及商业分析市场的竞争力，并反映出商业航天领域对实时、高频空间情报的需求持续增长。",
+    "category": "商业航天",
+    "tags": [
+      "卫星影像",
+      "地球观测",
+      "商业航天",
+      "空间数据"
+    ],
+    "source": "SpaceNews",
+    "time": "8分钟前",
+    "ts": "2026-07-01T12:30:00+00:00",
+    "url": "https://spacenews.com/vantor-offers-up-to-date-imagery-with-worldview-3d/",
+    "image": "https://i0.wp.com/spacenews.com/wp-content/uploads/2026/06/rsz_worldview_3d_rapid_hoover_dam_before__after.png?fit=879%2C651&amp;ssl=1",
+    "stocks": []
+  },
+  {
     "id": "6a6f56f985e16bfd",
     "title": "众见科技完成数千万元融资，首款近视老花智能变焦眼镜年内众筹",
     "summary": "智能眼镜企业众见科技宣布完成数千万元三轮融资，投资方包括韶音、高锋耐心基金、光峰科技等；公司即将推出全球首款智能变焦日常眼镜，预计今年开启众筹。",
