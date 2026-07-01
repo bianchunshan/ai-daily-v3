@@ -1,5 +1,86 @@
 const newsData = [
   {
+    "id": "abb678c79ba67408",
+    "title": "Xbox据称测试将实体光盘游戏转为数字版",
+    "summary": "消息称Xbox正测试一项新功能，允许玩家将实体光盘游戏转换为数字版，以在数字化趋势下保留已有的实体游戏购买内容。",
+    "body": "据外媒报道，微软Xbox团队正在测试一种将光盘版游戏数字化的方案，让用户能够在没有光驱的设备上继续游玩已购买的实体游戏。这一功能若上线，可在数字分发日益主流的背景下，帮助玩家保留实体收藏，并降低对主机光驱硬件的依赖。对微软而言，这也有望强化其数字游戏生态与订阅服务的用户粘性。",
+    "category": "消费电子",
+    "tags": [
+      "Xbox",
+      "微软",
+      "游戏数字化",
+      "主机游戏"
+    ],
+    "source": "Engadget",
+    "time": "刚刚",
+    "ts": "2026-07-01T19:49:27+00:00",
+    "url": "https://www.engadget.com/2206315/xbox-is-reportedly-testing-a-way-to-digitize-your-disc-based-games/",
+    "image": "https://www.engadget.com/img/gallery/xbox-is-reportedly-testing-a-way-to-digitize-your-disc-based-games/l-intro-1782935189.jpg",
+    "stocks": [
+      {
+        "name": "微软",
+        "ticker": "MSFT",
+        "reason": "Xbox测试光盘游戏数字化，有望促进数字版游戏销售与平台生态留存",
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
+    "id": "012799be9a516f45",
+    "title": "FCC将于7月22日投票改革卫星许可审批流程",
+    "summary": "美国联邦通信委员会（FCC）计划于7月22日投票，改革卫星申请审批流程，以建立类似“许可流水线”的机制，应对日益庞大和复杂的星座组网计划。",
+    "body": "据外媒报道，FCC将在7月22日就一项新规进行投票，旨在全面改革其卫星应用审批流程。新机制试图打造一条“许可流水线”，从而提高处理大规模、复杂星座项目申请的效率。此举反映出近年来低轨卫星星座数量激增，监管机构希望加快审批节奏，以适应航天产业的快速发展。\n\n如果改革通过，可能会缩短卫星运营商从申请到获批的时间，降低星座部署的监管不确定性。这对于推动美国商业航天生态、促进卫星互联网等新兴应用具有积极意义，但具体影响仍取决于最终规则细节及后续执行力度。",
+    "category": "商业航天",
+    "tags": [
+      "卫星",
+      "FCC",
+      "监管改革"
+    ],
+    "source": "SpaceNews",
+    "time": "4分钟前",
+    "ts": "2026-07-01T19:45:36+00:00",
+    "url": "https://spacenews.com/fcc-to-vote-on-satellite-licensing-overhaul-july-22/",
+    "image": "https://i0.wp.com/spacenews.com/wp-content/uploads/2025/10/FCC-chairman-scaled.jpeg?fit=1024%2C704&amp;ssl=1",
+    "stocks": []
+  },
+  {
+    "id": "87fe71c1a7ba895e",
+    "title": "研究发现阿尔茨海默病认知灵活性障碍或早于记忆衰退",
+    "summary": "德州农工大学健康中心的新研究表明，阿尔茨海默病患者在出现明显记忆障碍前的数月，可能先出现认知灵活性下降，即难以适应环境变化。",
+    "body": "人们通常将健忘、记错亲人名字或频繁遗失物品视为阿尔茨海默病的早期信号，但德州农工大学健康中心的最新研究提示，另一种大脑功能变化可能更早出现——认知灵活性受损，也就是在面对环境或任务变化时难以调整自己的行为与策略。\n研究团队认为，这种“难以适应变化”的问题可能在记忆障碍变得明显之前的数月就已发生。这意味着传统的早期筛查可能忽略更早的神经认知变化，疾病的实际起始时间或许比目前认识的更早。\n如果该发现得到进一步验证，可能为阿尔茨海默病的早期诊断和干预窗口识别提供新方向，有助于在病程更早阶段采取干预措施。",
+    "category": "生物医药",
+    "tags": [
+      "阿尔茨海默病",
+      "认知灵活性",
+      "早期诊断",
+      "神经科学"
+    ],
+    "source": "MedicalXpress",
+    "time": "9分钟前",
+    "ts": "2026-07-01T15:40:06-04:00",
+    "url": "https://medicalxpress.com/news/2026-07-cognitive-flexibility-problems-months-memory.html",
+    "image": "https://scx1.b-cdn.net/csz/news/tmb/2025/alzheimers.jpg",
+    "stocks": []
+  },
+  {
+    "id": "b84885d88ecef87c",
+    "title": "儿童术后阿片类药物使用因医院和术式差异大",
+    "summary": "美国外科医师学会杂志发表的一项全国分析显示，儿童术后是否获得阿片类药物处方因手术类型和医院差异显著，总体上近三分之一儿童术后被开具阿片类药物。",
+    "body": "该研究基于全国性数据，系统分析了儿童术后阿片类药物的处方情况。结果发现，不同手术类型和医院之间，儿童接受阿片类药物的比例存在显著差异，提示临床实践中镇痛方案的选择受机构习惯和手术特征影响。研究指出，近三分之一的儿童在术后会被开具阿片类药物，这为优化儿童术后疼痛管理和减少不必要的阿片暴露提供了重要参考。",
+    "category": "生物医药",
+    "tags": [
+      "儿童术后镇痛",
+      "阿片类药物",
+      "医疗差异"
+    ],
+    "source": "MedicalXpress",
+    "time": "10分钟前",
+    "ts": "2026-07-01T15:40:01-04:00",
+    "url": "https://medicalxpress.com/news/2026-07-children-opioids-surgery-varies-hospital.html",
+    "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/surgery-4.jpg",
+    "stocks": []
+  },
+  {
     "id": "35a38d47cdcf7c16",
     "title": "丰田电动SUV美国销量破1.75万辆，超越兰德酷路泽",
     "summary": "丰田2026款bZ电动SUV在美国累计销量已达17,500辆，超过兰德酷路泽及多款主流电动SUV，成为丰田在美国市场表现最亮眼的电动车型之一。",
@@ -101,6 +182,25 @@ const newsData = [
         "confidence": "medium"
       }
     ]
+  },
+  {
+    "id": "2779d9063c745afb",
+    "title": "Z-Jail发布：130KB零依赖Linux沙箱含七层防御",
+    "summary": "开发者社区亮相Z-Jail，一个仅用C99编写、体积约130KB、零外部依赖的Linux沙箱，通过七层隔离机制强化进程安全。",
+    "body": "Hacker News上展示的Z-Jail是一款轻量级Linux沙箱工具，完全采用C99标准实现，体积仅约130KB，且不依赖任何外部库。该项目设计有七层防御机制，用于限制不可信进程的系统调用、文件系统和网络访问等权限。",
+    "category": "网络安全",
+    "tags": [
+      "沙箱",
+      "Linux安全",
+      "零依赖",
+      "开源安全"
+    ],
+    "source": "Hacker News",
+    "time": "31分钟前",
+    "ts": "2026-07-01T19:18:11+00:00",
+    "url": "https://github.com/Division-36/Z-Jail/",
+    "image": "",
+    "stocks": []
   },
   {
     "id": "09cdaecf920fbd25",
