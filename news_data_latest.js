@@ -1,5 +1,121 @@
 const newsData = [
   {
+    "id": "896bc20de2613151",
+    "title": "Cloudflare要求AI企业为出版内容付费",
+    "summary": "Cloudflare要求AI公司在9月15日前将搜索爬虫与用于AI训练和智能体的爬虫分离，否则将在许多出版商网站默认拦截；此举意在推动AI企业为使用出版商内容付费。",
+    "body": "Cloudflare推出一项新政策，要求AI企业在2025年9月15日前区分用于搜索索引的网页爬虫与用于AI模型训练及智能体运行的爬虫。未能完成分离的爬虫将被Cloudflare默认阻止访问大量出版商网站。该规则旨在缓解出版商对AI公司无偿抓取内容的担忧，并推动AI厂商就内容使用与出版商达成付费或授权协议。\n\n这一机制依托Cloudflare庞大的网站安全与内容分发网络覆盖能力，将其自身定位为出版商与AI公司之间的内容授权中介。若执行到位，可能改变当前AI训练数据“免费抓取”的常态，对内容版权保护、AI数据获取成本以及网络基础设施服务商的角色产生深远影响。",
+    "category": "人工智能",
+    "tags": [
+      "Cloudflare",
+      "AI爬虫",
+      "内容版权",
+      "出版商"
+    ],
+    "source": "TechCrunch",
+    "time": "刚刚",
+    "ts": "2026-07-01T17:48:37+00:00",
+    "url": "https://techcrunch.com/2026/07/01/cloudflares-new-policy-pushes-ai-companies-to-pay-for-publishers-content/",
+    "image": "",
+    "stocks": [
+      {
+        "name": "Cloudflare",
+        "ticker": "NET",
+        "reason": "Cloudflare直接推出并执行爬虫分离与内容付费政策，有望吸引出版商客户并拓展合规服务需求。",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "5b114dfec9d484f4",
+    "title": "Xbox测试光盘转数字功能，玩家可数字化游戏库",
+    "summary": "微软正为Xbox测试“光盘转数字”功能，允许玩家将实体游戏转换为数字版，以配合游戏行业去实体化趋势。",
+    "body": "据The Verge报道，知情人士透露，微软正在开发一项Xbox光盘转数字功能，玩家可通过验证实体光盘，将现有游戏收藏转换为数字版。该功能有望帮助微软在逐步停止Xbox实体光盘生产的同时，降低玩家因实体游戏被淘汰而产生的流失风险。\n\n此前索尼已宣布部分新主机不再标配光驱，游戏行业正加速向全数字发行转型。若微软正式推出该功能，可能进一步推动Xbox数字商店、Game Pass订阅及云游戏生态的发展，增强用户粘性。",
+    "category": "消费电子",
+    "tags": [
+      "Xbox",
+      "微软",
+      "游戏数字化",
+      "实体光盘"
+    ],
+    "source": "The Verge",
+    "time": "2分钟前",
+    "ts": "2026-07-01T13:46:46-04:00",
+    "url": "https://www.theverge.com/report/960173/microsoft-xbox-disc-to-digital-feature-physical-game-collection",
+    "image": "",
+    "stocks": [
+      {
+        "name": "微软",
+        "ticker": "MSFT",
+        "reason": "Xbox游戏数字化有助于推动数字商店与订阅服务增长，利好其游戏业务。",
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
+    "id": "375cafd01bf7226f",
+    "title": "新型环状RNA标志物预测阿尔茨海默病进展更优",
+    "summary": "发表于《自然·医学》的研究显示，血液中特定环状RNA水平升高可将患者出现阿尔茨海默病症状的风险提升近三倍，其预测灵敏度优于当前主流诊断血液检测。",
+    "body": "研究人员在《自然·医学》发表的最新研究中指出，小型环状RNA可作为预测阿尔茨海默病症状即将出现的新型血液生物标志物。与现有领先诊断血液检测相比，特定circRNA水平升高对患者发病的预示更为敏感，风险提升近三倍。该发现有望推动更早期的阿尔茨海默病筛查与干预，并为血液检测产品开发提供新的分子靶点。",
+    "category": "生物医药",
+    "tags": [
+      "阿尔茨海默病",
+      "生物标志物",
+      "环状RNA",
+      "血液检测"
+    ],
+    "source": "MedicalXpress",
+    "time": "9分钟前",
+    "ts": "2026-07-01T13:40:03-04:00",
+    "url": "https://medicalxpress.com/news/2026-07-biomarker-diagnostic-blood-alzheimer.html",
+    "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/blood-data.jpg",
+    "stocks": []
+  },
+  {
+    "id": "7d32272085ff011d",
+    "title": "欧洲发布风湿肌肉骨骼疾病生活质量改善新框架",
+    "summary": "欧洲风湿与肌肉骨骼疾病（RMDs）负担沉重，但各国风湿科人力、医疗资源与就诊机会缺乏统一数据比较。RheumaFacts汇总36国数据，建立新基准以推动早期诊断与及时治疗。",
+    "body": "风湿与肌肉骨骼疾病在欧洲导致大量残疾和医疗负担，然而此前缺乏统一、专门的数据集来系统比较不同国家风湿科人力、医疗资源及患者就医机会的差异。RheumaFacts项目通过整合36个国家的数据，建立了一个新的比较基准，旨在帮助识别可预防和可改善的环节。该框架有助于推动早期诊断和及时护理，从而减轻个人及社会层面的疾病负担。",
+    "category": "生物医药",
+    "tags": [
+      "风湿病学",
+      "数字医疗",
+      "公共卫生",
+      "肌肉骨骼疾病"
+    ],
+    "source": "MedicalXpress",
+    "time": "9分钟前",
+    "ts": "2026-07-01T13:40:01-04:00",
+    "url": "https://medicalxpress.com/news/2026-07-framework-advocate-quality-life-people.html",
+    "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/rheumafacts-a-new-fram-1.jpg",
+    "stocks": []
+  },
+  {
+    "id": "2b9e8599ad16fba9",
+    "title": "PlayStation再弃实体媒介，索尼被指重蹈Xbox覆辙",
+    "summary": "报道指出，索尼PlayStation的最新动向可能进一步边缘化实体光盘媒介，引发外界对其重蹈微软Xbox One数字版权争议的担忧。",
+    "body": "据Wired报道，索尼PlayStation正加速远离实体光盘，这一举措被视为给实体媒介“又钉上一颗钉子”。外界担心，若PlayStation过度押注数字发行，可能重演微软Xbox One时代因限制二手游戏和强制联网而引发玩家强烈反弹的错误。\n\n实体游戏光盘长期以来是主机生态的重要组成部分，一旦索尼进一步削弱对物理媒体的支持，不仅影响收藏市场和二手交易，也可能改变主机厂商与玩家、零售商之间的利益分配。虽然数字分发能简化供应链并提升平台收入，但若执行过于激进，仍可能损害核心用户群体的信任。",
+    "category": "消费电子",
+    "tags": [
+      "PlayStation",
+      "索尼",
+      "游戏硬件",
+      "数字分发"
+    ],
+    "source": "Wired",
+    "time": "11分钟前",
+    "ts": "2026-07-01T17:38:12+00:00",
+    "url": "https://www.wired.com/story/sony-playstation-puts-a-nail-in-physical-medias-coffin/",
+    "image": "https://media.wired.com/photos/6a45232efbb66fc2dacf3bd4/master/pass/GettyImages-2186493403.jpg",
+    "stocks": [
+      {
+        "name": "索尼集团",
+        "ticker": "SONY",
+        "reason": "PlayStation硬件及内容销售策略直接影响索尼游戏业务营收与生态布局",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
     "id": "3fd11deee29c19b5",
     "title": "研究显示慢性背痛非手术治疗仅短期有效",
     "summary": "德国波鸿应用科学大学领衔的国际团队开展大规模分析发现，按摩、运动疗法和针灸等非手术治疗虽能缓解慢性背痛，但临床显著改善通常只能维持数周，难以长期持续。",
@@ -187,6 +303,25 @@ const newsData = [
     "ts": "2026-07-01T16:56:49+00:00",
     "url": "https://www.space.com/astronomy/the-growing-number-of-satellites-in-orbit-could-soon-make-telescopes-obsolete-for-astronomy-this-would-obviously-be-catastrophic",
     "image": "https://cdn.mos.cms.futurecdn.net/JXGbZUjDtvyJjx2pjx9Qr9-1280-80.jpg",
+    "stocks": []
+  },
+  {
+    "id": "96e3a219ca45c80b",
+    "title": "Pglayers 将 PostgreSQL 扩展打包为可堆叠 Docker 层",
+    "summary": "开源项目 Pglayers 提出把 PostgreSQL 扩展封装成可叠加的 Docker 镜像层，便于按需组合数据库环境。该方案主要面向开发者，旨在简化扩展管理与部署流程。",
+    "body": "Pglayers 是一个在 Hacker News 上展示的开源工具，思路是把 PostgreSQL 的各个扩展制作成独立的 Docker 镜像层，用户可以根据需要像堆叠积木一样组合这些层，从而构建定制化的数据库运行环境。这一做法有望降低不同扩展版本冲突和重复构建镜像的复杂度，对需要频繁部署数据库实例的开发团队具有一定参考价值。目前该项目仍处于早期展示阶段，尚未与商业产品或上市公司形成直接的业务关联。",
+    "category": "AI 基础设施",
+    "tags": [
+      "开源工具",
+      "数据库",
+      "Docker",
+      "PostgreSQL"
+    ],
+    "source": "Hacker News",
+    "time": "59分钟前",
+    "ts": "2026-07-01T16:50:02+00:00",
+    "url": "https://github.com/pglayers/pglayers",
+    "image": "",
     "stocks": []
   },
   {
@@ -418,6 +553,32 @@ const newsData = [
     "url": "https://spectrum.ieee.org/ai-energy-systems-melbourne",
     "image": "https://spectrum.ieee.org/media-library/glowing-digital-network-map-of-australia-and-surrounding-asia-pacific-region.png?id=66945530&width=980",
     "stocks": []
+  },
+  {
+    "id": "7bec97c12fd8f61a",
+    "title": "Meta发布大规模AI存储蓝图",
+    "summary": "Meta基于Tectonic分层存储层构建数百EB级BLOB存储架构，通过闪存降低元数据查询延迟，以提升GPU利用率并加速AI研究迭代。",
+    "body": "Meta正运营数百EB级别的存储集群，并围绕Tectonic分层存储层重新构建BLOB存储架构，目标解决最大化GPU利用率与加快研究迭代速度两大挑战。传统BLOB架构因多层元数据查询可能产生数百毫秒延迟，导致GPU因I/O等待而停滞；新架构将训练栈逐步迁移到BLOB存储接口，并引入闪存以提供可预测的低pMax延迟，避免单块GPU慢速拖慢整批训练任务。同时，统一的数据湖访问可支持跨地理分布GPU的高速数据注入与跨区域迁移，从而提升AI研究的整体效率。",
+    "category": "AI 基础设施",
+    "tags": [
+      "AI存储",
+      "数据中心",
+      "GPU集群",
+      "Meta"
+    ],
+    "source": "AIHOT精选",
+    "time": "1小时前",
+    "ts": "2026-07-01T16:00:36+00:00",
+    "url": "https://engineering.fb.com/2026/07/01/data-infrastructure/metas-ai-storage-blueprint-at-scale",
+    "image": "",
+    "stocks": [
+      {
+        "name": "Meta Platforms",
+        "ticker": "META",
+        "reason": "Meta升级自研大规模AI存储架构可直接提升其AI训练GPU利用率与研究迭代速度。",
+        "confidence": "high"
+      }
+    ]
   },
   {
     "id": "fc7aa826da552c35",
