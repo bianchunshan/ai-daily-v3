@@ -1,5 +1,24 @@
 const newsData = [
   {
+    "id": "655fc9ae59a395f3",
+    "title": "自动驾驶热潮再现，Humble Robotics瞄准货运",
+    "summary": "自动驾驶领域再现2016年投资热潮，资本与人才纷纷回流，Travis Kalanick等第一波浪潮亲历者重返赛道，Humble Robotics则专注于货运自动驾驶。",
+    "body": "据TechCrunch报道，自动驾驶行业正重现2016年的 hype 周期：资本回流、人才争夺加剧，曾经历第一波浪潮的创业者与工程师再次成为行业核心推动力。Uber联合创始人Travis Kalanick已重返机器人领域创办新公司。\n\n其中，Humble Robotics 将自动驾驶技术应用于货运场景，试图在物流运输环节实现无人化。其方向反映出行业正从乘用车向商业货运等更具明确价值的场景拓展。\n\n若相关技术能够规模化落地，或将改变长途货运的成本结构，并推动自动驾驶产业走出早期商业化困境，但技术成熟度与监管环境仍是关键变量。",
+    "category": "机器人",
+    "tags": [
+      "自动驾驶",
+      "货运物流",
+      "机器人",
+      "无人驾驶"
+    ],
+    "source": "TechCrunch",
+    "time": "刚刚",
+    "ts": "2026-07-01T16:48:58+00:00",
+    "url": "https://techcrunch.com/video/autonomous-vehicle-hype-is-back-and-humble-robotics-is-bringing-it-to-freights/",
+    "image": "",
+    "stocks": []
+  },
+  {
     "id": "ae26d59dfff28829",
     "title": "KAIST用AI将动物行为“转译”为语言token",
     "summary": "韩国KAIST团队开发出一种能像理解自然语言一样学习动物行为数据的AI模型，并在自闭症小鼠模型中自动识别出社交行为缺陷，为可解释神经科学开辟新路径。",
