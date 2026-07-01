@@ -141,6 +141,25 @@ const newsData = [
     "stocks": []
   },
   {
+    "id": "e23e64d96fcddf7f",
+    "title": "Pine64推50美元智能音箱，面向Home Assistant玩家",
+    "summary": "Pine64发布了一款售价50美元的智能音箱，目标用户为喜欢DIY和Home Assistant开源智能家居平台的玩家。",
+    "body": "以单板计算机和开源硬件闻名的Pine64推出了一款售价50美元的智能音箱，主要面向Home Assistant爱好者，方便用户自行搭建语音控制中枢。该产品属于智能家居硬件，进一步丰富了开源智能家居生态，契合玩家 tinkering 的需求。不过目前公开信息有限，具体规格、发售渠道和上市时间尚未详细披露。",
+    "category": "消费电子",
+    "tags": [
+      "智能家居",
+      "开源硬件",
+      "智能音箱",
+      "Home Assistant"
+    ],
+    "source": "Hacker News",
+    "time": "12分钟前",
+    "ts": "2026-07-01T09:57:07+00:00",
+    "url": "https://www.omgubuntu.co.uk/2026/06/pine64-pinevoice-riscv-smart-speaker-launch",
+    "image": "",
+    "stocks": []
+  },
+  {
     "id": "4033f7108cdb4bdf",
     "title": "瑞银：约六成企业收紧AI开支，开源模型受益",
     "summary": "瑞银研报指出，企业高管正加强对AI开支的管控，约六成企业已采取措施收紧人工智能支出，词元调用成本成为核心关切，DeepSeek等开源模型有望从中受益。",
