@@ -1,5 +1,24 @@
 const newsData = [
   {
+    "id": "dd3321b75dcf8789",
+    "title": "SpaceX被曝测试手持AI设备",
+    "summary": "据Engadget报道，SpaceX正内部测试一款手持AI设备，可让用户无需智能手机即可访问xAI的人工智能模型。",
+    "body": "据Engadget援引知情人士报道，SpaceX正在内部测试一款手持AI设备，该设备能够让用户直接访问埃隆·马斯克旗下xAI公司的人工智能模型，而无需依赖智能手机。这一动向表明，SpaceX可能正在探索消费级AI硬件的新入口。\n\n目前关于该设备的具体规格、发布时间、定价以及是否会面向公众发售等细节均未披露。由于SpaceX和xAI均为非上市公司，这一消息对公开市场的直接影响有限；但若产品最终落地，或将为AI模型的接入方式提供新的消费场景，并加剧AI硬件赛道的竞争。",
+    "category": "人工智能",
+    "tags": [
+      "SpaceX",
+      "xAI",
+      "AI硬件",
+      "消费电子"
+    ],
+    "source": "Engadget",
+    "time": "刚刚",
+    "ts": "2026-07-01T20:09:31+00:00",
+    "url": "https://www.engadget.com/2206334/space-x-is-reportedly-testing-a-handheld-ai-device/",
+    "image": "https://www.engadget.com/img/gallery/spacex-is-reportedly-testing-a-handheld-ai-device/l-intro-1782936497.jpg",
+    "stocks": []
+  },
+  {
     "id": "685039397bf85e0f",
     "title": "低风险前列腺癌是否还应称“癌”？改名或可减少过度治疗并救命",
     "summary": "UCLA主导的研究发现，若不再将最低风险的前列腺癌称为“癌症”，可显著减少过度治疗，并促使更多男性接受筛查，从而降低侵袭性前列腺癌的死亡率。",
