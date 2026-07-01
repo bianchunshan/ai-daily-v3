@@ -1,5 +1,50 @@
 const newsData = [
   {
+    "id": "b8cc98460a2fcf2b",
+    "title": "施耐德电气31亿美元收购工业AI公司Cognite",
+    "summary": "施耐德电气签署协议，以31亿美元全现金收购挪威工业AI企业Cognite，交易完成后Cognite将并入其工业软件业务单元AVEVA。",
+    "body": "7月1日，施耐德电气宣布已签署协议，以31亿美元（约合210.69亿元人民币）全现金收购私人持股的工业AI公司Cognite Holding。交易完成后，Cognite将并入施耐德旗下的工业软件业务单元AVEVA，预计于未来几个季度内落地。Cognite成立于2016年，核心产品Cognite Data Fusion是一个工业数据平台，帮助能源、制造等重资产行业整合和情境化运营数据，以支持人工智能和分析应用。施耐德表示，此次收购旨在将Cognite的工业数据平台与AVEVA的软件组合相结合，增强工业人工智能和数据管理能力。CEO奥利维尔·布鲁姆此前也曾表示，通过AI实现电力系统智能化和自动化管理，家庭、制造业和数据中心的能耗最多可降低30%。",
+    "category": "人工智能",
+    "tags": [
+      "工业AI",
+      "企业收购",
+      "AVEVA",
+      "能源数字化"
+    ],
+    "source": "IT之家",
+    "time": "4分钟前",
+    "ts": "2026-07-01T09:13:30+00:00",
+    "url": "https://www.ithome.com/0/971/235.htm",
+    "image": "https://img.ithome.com/newsuploadfiles/2026/7/cffa62d8-582c-4728-af0f-b9598b049a1a.jpg?x-bce-process=image/format,f_auto",
+    "stocks": [
+      {
+        "name": "施耐德电气",
+        "ticker": "SU.PA",
+        "reason": "全现金收购Cognite将强化AVEVA工业软件与AI数据平台能力，拓展能源和制造业数字化市场",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "b11d6533e14a28a0",
+    "title": "ATK梵塔FUZZY 63V2/60V2磁轴键盘发布",
+    "summary": "ATK梵塔7月1日发布FUZZY 63V2与60V2标准版磁轴键盘，首发到手价1299元，将于7月8日开售。新品采用自研三核帧同步方案，具备8kHz轮询率、0.001mm RT精度与0.22ms全链路触发延迟，主打高端电竞外设市场。",
+    "body": "ATK梵塔于7月1日正式推出FUZZY 63V2标准版与FUZZY 60V2标准版磁轴键盘，官方定价1299元，将于7月8日20:00在京东等渠道开售。63V2标准版为左移64%配列，可选6系铝合金定位板或编织碳纤维定位板；60V2标准版为60%配列，仅提供编织碳纤维定位板。外观有冰蓝（阳极银）与黑冰（阳极黑）两种配色，分别采用“海浪”与“岩石”浮雕风格，并辅以流光阳极工艺打造羽毛纹理。\n\n性能方面，该系列键盘搭载全球首款三核帧擎自研帧同步方案，通过三颗高主频MCU构建分布式协同算力架构，官方称可从底层抑制时序偏移与输入抖动，实现“按下即触发”。其参数标称通道扫描率4696kHz、轮询率8kHz、RT精度0.001mm、全链路触发延迟0.22ms。\n\n轴体方面，产品配备银摄政王轴，全面适配烈风猛禽RAPTOR磁轴方案，轴体行程3.2±0.1mm，触发力度35±5gf，磁通量600Gs，使用寿命达1亿次。整体来看，这款新品意在强化ATK梵塔在高端游戏键盘市场的技术标签，并进一步拉高国产磁轴键盘的性能与价格上限。",
+    "category": "消费电子",
+    "tags": [
+      "磁轴键盘",
+      "电竞外设",
+      "游戏硬件",
+      "ATK 梵塔"
+    ],
+    "source": "IT之家",
+    "time": "8分钟前",
+    "ts": "2026-07-01T09:08:41+00:00",
+    "url": "https://www.ithome.com/0/971/226.htm",
+    "image": "https://img.ithome.com/newsuploadfiles/2026/7/3a7f3beb-eeaf-465c-8bfe-df6da2ccb89e.jpg",
+    "stocks": []
+  },
+  {
     "id": "34d4a14f1ed5c69e",
     "title": "七彩虹推出PRIME系列进军B端行业存储",
     "summary": "七彩虹正式发布面向B端行业客户的PRIME系列存储产品，涵盖固态硬盘与内存模组，主打BOM长期供应与专属客户服务，以应对AI需求导致的存储资源倾斜。",
@@ -155,6 +200,32 @@ const newsData = [
         "name": "利通电子",
         "ticker": "603629.SH",
         "reason": "控股孙公司海纳利通作为Rafay软件经销商，将软件与自身算力产品集成销售，直接利好公司算力业务收入。",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "ec2dac2ca74859f1",
+    "title": "美团发布万亿参数LongCat-2.0大模型",
+    "summary": "美团发布总参数1.6万亿的MoE大模型LongCat-2.0，从预训练到部署全程基于5万张国产芯片，并在多个Agent评测中追平国际顶尖模型。",
+    "body": "美团正式发布LongCat-2.0大模型，总参数规模达1.6万亿，每个token激活约480亿参数，采用MoE架构。该模型从预训练到大规模部署全程运行在5万张国产算力芯片上，训练消耗超35万亿tokens，过程中未出现回滚或不可恢复的loss突刺。在Agent场景下，LongCat-2.0在Terminal-Bench 2.1和SWE-bench Pro编程任务上追平Gemini 3.1 Pro，在FORTE通用Agent任务上持平Claude Opus 4.6。\n\n模型最大输出128K，最高支持1M上下文，采用LSA稀疏注意力机制和N-gram Embedding以优化长上下文与工具调用。目前LongCat-2.0已开放API接入，兼容OpenAI和Anthropic API生态，可直接接入Claude Code、Codex等开发工作流。这一发布标志着美团在基础模型领域的深度布局，也体现了国产算力支撑大规模AI训练的可行性。",
+    "category": "人工智能",
+    "tags": [
+      "大模型",
+      "美团",
+      "国产算力",
+      "Agent"
+    ],
+    "source": "AIHOT精选",
+    "time": "17分钟前",
+    "ts": "2026-07-01T08:59:35+00:00",
+    "url": "https://mp.weixin.qq.com/s/pqR8XyOSejvDNcNHjiy8mg",
+    "image": "",
+    "stocks": [
+      {
+        "name": "美团-W",
+        "ticker": "3690.HK",
+        "reason": "发布LongCat-2.0万亿参数大模型并开放API，AI能力可强化自身业务并拓展开发者生态",
         "confidence": "high"
       }
     ]
