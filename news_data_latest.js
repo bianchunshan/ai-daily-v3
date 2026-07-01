@@ -1,5 +1,50 @@
 const newsData = [
   {
+    "id": "127e4a4d0f70d911",
+    "title": "谷歌AI智能体Gemini Spark登陆Mac",
+    "summary": "谷歌宣布其AI智能体Gemini Spark已整合进Mac版Gemini桌面客户端，可实时追踪资讯、读取本地文件并连接更多应用。该功能目前仅向美国AI Ultra订阅用户开放测试。",
+    "body": "谷歌将AI智能体Gemini Spark引入苹果Mac平台，通过整合进现有Gemini桌面客户端，使其能够读取本地文件、实时追踪赛事比分、股价波动、突发新闻等动态，并支持调用Google Tasks、Google Keep等应用。此外，Spark还接入Canva、Dropbox、Instacart、OpenTable、Zillow等第三方服务，可完成订餐、采购、设计海报、预约看房等任务。\n\n这一更新意味着Gemini Spark将直接与Claude Desktop、微软Copilot等桌面端AI智能体展开竞争。谷歌同时透露将推出对自定义模型上下文协议（MCP）的支持，让用户能接入常用软件，构建更个性化的AI智能体。不过，该功能初期仅向美国地区的谷歌AI Ultra订阅会员开放测试，跨设备联动也尚未支持。",
+    "category": "人工智能",
+    "tags": [
+      "AI智能体",
+      "Gemini",
+      "谷歌",
+      "桌面AI"
+    ],
+    "source": "IT之家",
+    "time": "6分钟前",
+    "ts": "2026-07-01T14:42:03+00:00",
+    "url": "https://www.ithome.com/0/971/382.htm",
+    "image": "https://img.ithome.com/newsuploadfiles/2026/7/5fb32bc1-2c72-4a14-9832-663612290706.png?x-bce-process=image/format,f_auto",
+    "stocks": [
+      {
+        "name": "谷歌-A",
+        "ticker": "GOOGL",
+        "reason": "Gemini Spark登陆Mac并扩展应用生态，直接增强谷歌在AI智能体领域的竞争力。",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "4ec722e1cf62822a",
+    "title": "大模型陷入同质化窠臼，澳初创用Flint探索差异化",
+    "summary": "主流大语言模型在回答问题时表现出高度趋同的“群体思维”倾向。澳大利亚初创公司Springboards推出Flint模型，通过在关键决策点注入随机性来打破AI回应的同质化。",
+    "body": "近日，《MIT Technology Review》报道指出，大型语言模型（LLM）的回复往往比用户想象的更具可预测性：当被要求生成1到10之间的随机数时，多数主流聊天机器人经常倾向于给出7等固定答案。这种同质化并非巧合，而是模型训练与推理过程中对常见答案收敛的结果。一项获得NeurIPS奖项的研究甚至发现，当被要求用比喻描述时间时，超过70个LLM中有一半以上会写出“时间是一条河流”的类似表达。\n\n为应对这一问题，澳大利亚初创公司Springboards开发了名为Flint的模型。与以往整体提高“温度”参数来增加随机性、却容易导致输出不连贯的方法不同，Flint选择在关键决策点有针对性地注入随机性，旨在让AI生成更多样、更具创意的回答。不过，即便是该模型的支持者也提醒不要过度依赖AI输出，认为在需要突破边界的创造性工作中，人类思维仍然不可替代。",
+    "category": "人工智能",
+    "tags": [
+      "大模型",
+      "AI同质化",
+      "Flint",
+      "模型创新"
+    ],
+    "source": "MIT Tech Review",
+    "time": "13分钟前",
+    "ts": "2026-07-01T14:35:16+00:00",
+    "url": "https://www.technologyreview.com/2026/07/01/1140003/llms-are-stuck-in-a-groupthink-rut-this-startup-is-trying-to-get-them-out/",
+    "image": "",
+    "stocks": []
+  },
+  {
     "id": "a6ab0c0a276af620",
     "title": "格科微2亿像素传感器开发顺利并达成初步合作意向",
     "summary": "格科微公告称，公司2亿像素CMOS图像传感器产品开发顺利，已与部分客户达成初步合作意向，但尚未形成出货；临港12英寸晶圆厂目前主要生产高端CIS产品。",
