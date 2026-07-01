@@ -1,5 +1,24 @@
 const newsData = [
   {
+    "id": "9c6d24b567c76efc",
+    "title": "SpaceX被曝展示类手机AI设备原型",
+    "summary": "知情人士称，SpaceX在上市前向投资者展示了一款外形类似手机的AI设备原型，此举或暗示其有意进一步拓展无线通信及消费电子业务。",
+    "body": "据TechCrunch报道，SpaceX在计划上市前曾向投资者展示了一款\"类手机\"的AI设备原型。外界普遍认为，这可能是SpaceX有意进军无线通信市场、甚至布局消费级硬件的新信号。目前该设备的具体功能、发布时间和量产计划均未披露，由于SpaceX本身尚未上市，其对二级市场直接标的的影响仍较间接。",
+    "category": "消费电子",
+    "tags": [
+      "SpaceX",
+      "AI硬件",
+      "消费电子",
+      "卫星通信"
+    ],
+    "source": "TechCrunch",
+    "time": "5分钟前",
+    "ts": "2026-07-01T18:54:18+00:00",
+    "url": "https://techcrunch.com/2026/07/01/spacex-has-an-ai-device-prototype-and-it-sure-sounds-phone-ish/",
+    "image": "",
+    "stocks": []
+  },
+  {
     "id": "8cc6ac2fb121c849",
     "title": "机器人坚固化设计正成为刚需",
     "summary": "随着自主机器人走出受控环境，坚固化设计正成为可靠运行的前提；制造商必须应对灰尘、湿度、振动、温差和复杂地形等严苛工况。",
@@ -17,6 +36,32 @@ const newsData = [
     "url": "https://www.therobotreport.com/in-robotics-ruggedization-is-no-longer-optional/",
     "image": "https://www.therobotreport.com/wp-content/uploads/2026/06/wibotic-sponsored-featured-image-july2026-v2.jpg",
     "stocks": []
+  },
+  {
+    "id": "16ab310ab843d7f0",
+    "title": "索尼2028年起停售PlayStation实体游戏光盘",
+    "summary": "索尼宣布自2028年1月起，PlayStation新游戏将仅以数字版形式发售，不再生产实体光盘。这一决定标志着主机游戏产业向全数字化发行加速转型。",
+    "body": "索尼在官方博客中宣布，自2028年1月起，PlayStation新游戏将仅通过PlayStation Store及零售商以数字格式销售，不再推出实体光盘版本。索尼表示，顺应消费者偏好数字媒介的趋势，停止实体光盘是“自然的发展方向”。数据显示，在截至2026年3月31日的财年中，数字下载占PlayStation全游戏购买量的78%，较2024财年的76%进一步提升。此举将降低索尼的制造与分销成本，并强化其数字商店生态控制力，但也引发部分玩家对游戏所有权和二手交易退化的担忧。",
+    "category": "消费电子",
+    "tags": [
+      "索尼",
+      "PlayStation",
+      "数字游戏",
+      "游戏发行"
+    ],
+    "source": "Ars Technica",
+    "time": "17分钟前",
+    "ts": "2026-07-01T18:41:49+00:00",
+    "url": "https://arstechnica.com/gaming/2026/07/sony-will-stop-making-physical-copies-of-playstation-games-in-2028/",
+    "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/07/GettyImages-2186493403-1024x648.jpg",
+    "stocks": [
+      {
+        "name": "索尼集团",
+        "ticker": "SONY",
+        "reason": "停止实体光盘后，数字发行占比提升可降低制造成本并提高数字商店收入分成，利好其游戏业务利润。",
+        "confidence": "medium"
+      }
+    ]
   },
   {
     "id": "7e52902e00be7d4d",
@@ -73,6 +118,25 @@ const newsData = [
     "ts": "2026-07-01T18:29:14+00:00",
     "url": "https://techcrunch.com/2026/07/01/neocloud-together-ai-raises-800m-leaps-to-8-3b-valuation/",
     "image": "",
+    "stocks": []
+  },
+  {
+    "id": "8a270f2da91d4237",
+    "title": "沃尔沃EX30因关税将退出美国市场",
+    "summary": "沃尔沃旗下小型电动跨界车EX30因美国关税及对华政策影响，决定停止进口美国，库存售罄后将无法购买。这款车曾以约3.5万美元起售价成为美国市场较便宜的豪华品牌电动车之一。",
+    "body": "沃尔沃EX30是一款小巧、高效且碳排放较低的电动跨界车，2023年正式亮相时以34,950美元的后驱版起售价引发关注，被认为是美国市场上少数价格亲民的豪华品牌电动车。该车在安全性上没有妥协，定位适合城市通勤与节能需求。\n\n然而，由于美国关税及对华政策的影响，沃尔沃近日决定停止将EX30进口至美国，并已关闭订单。报道称目前美国市场仅剩约1,200辆库存，售罄后将彻底停售。这一变故使这款本应契合当下市场需求的车型被迫退出美国，也反映出地缘政治因素对全球电动车供应链和市场准入的直接影响。",
+    "category": "未来能源",
+    "tags": [
+      "电动汽车",
+      "关税政策",
+      "沃尔沃",
+      "中美贸易"
+    ],
+    "source": "Ars Technica",
+    "time": "35分钟前",
+    "ts": "2026-07-01T18:24:04+00:00",
+    "url": "https://arstechnica.com/cars/2026/07/the-volvo-ex30-cross-country-review-a-victim-of-geopolitics/",
+    "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/07/2026-Volvo-EX30-Cross-Country-1-1152x648.jpg",
     "stocks": []
   },
   {
@@ -697,6 +761,25 @@ const newsData = [
     "ts": "2026-07-01T16:48:58+00:00",
     "url": "https://techcrunch.com/video/autonomous-vehicle-hype-is-back-and-humble-robotics-is-bringing-it-to-freights/",
     "image": "",
+    "stocks": []
+  },
+  {
+    "id": "da4b74e8ab491e1c",
+    "title": "美国取消Anthropic两款Claude模型出口管制",
+    "summary": "美国政府已解除对Anthropic最新Claude模型Fable 5和Mythos 5的出口限制，Fable 5即日起全球可用，Mythos 5也恢复了对美国机构的访问。Anthropic表示正与政府合作，通过Glasswing项目向更多国内外伙伴开放Mythos 5用于网络防御。",
+    "body": "据Anthropic官方博客确认，美国商务部已取消对其Claude Fable 5和Claude Mythos 5 AI模型的出口及境内转让许可要求。Fable 5即日起面向全球发布，Mythos 5自6月26日起恢复对美国组织的开放访问。商务部长霍华德·卢特尼克在致Anthropic的信中称，该公司已与美国政府密切协调，采取措施应对相关模型带来的国家安全风险。\n\nAnthropic还表示，正与美国政府合作，扩大Mythos 5在Glasswing项目中的使用范围，让更多受信任的网络安全研究人员以防御为目的访问该模型。约三周前，特朗普政府曾将这两款模型列为国家安全风险，要求Anthropic在对外发布前与美国官员共同进行安全测试。\n\n此举意味着Anthropic可以更快地向全球用户和合作伙伴推广其最先进模型，减少监管不确定性，同时也反映出美国政府在AI出口管制与国家安全评估之间寻求平衡的最新动向。",
+    "category": "人工智能",
+    "tags": [
+      "Anthropic",
+      "Claude",
+      "AI出口管制",
+      "模型安全"
+    ],
+    "source": "Ars Technica",
+    "time": "2小时前",
+    "ts": "2026-07-01T16:44:18+00:00",
+    "url": "https://arstechnica.com/tech-policy/2026/07/after-spooking-trump-into-safety-testing-anthropic-ai-models-get-global-release/",
+    "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/07/GettyImages-2280258777-1024x648.jpg",
     "stocks": []
   },
   {
