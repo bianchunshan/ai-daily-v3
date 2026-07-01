@@ -147,6 +147,32 @@ const newsData = [
     "stocks": []
   },
   {
+    "id": "4f5d432a93c98dba",
+    "title": "2026年6月机器人十大进展：物理AI工具与新相机受关注",
+    "summary": "2026年6月机器人领域热点显示，人形机器人上市、部署与量产里程碑频登头条；同时英伟达发布面向物理AI开发者的新工具，RealSense推出AI原生D585 Pro深度相机。",
+    "body": "The Robot Report公布的2026年6月最受关注的十篇机器人文章显示，当月人形机器人因公司上市、新部署和达成量产里程碑而多次成为焦点，大额融资也吸引了市场关注。\n\n在技术层面，英伟达于GTC台北站和Computex上发布了多项面向机器人、自动驾驶汽车、视觉AI及工业数字孪生的开源技能与开发工具，声称可帮助降低大规模构建物理AI工作流的成本、时间与复杂度。RealSense则在Automate展会上推出了面向机器人的D585 Pro AI原生深度相机，集成深度感知、边缘AI加速和软件定义平台，可随时间持续优化。\n\n此外，QNX专家在播客中强调，确定性实时系统对机器人而言依然至关重要。整体来看，软硬件协同、部署加速与资本投入正推动机器人产业向规模化应用迈进。",
+    "category": "机器人",
+    "tags": [
+      "机器人",
+      "具身智能",
+      "英伟达",
+      "深度相机"
+    ],
+    "source": "The Robot Report",
+    "time": "22分钟前",
+    "ts": "2026-07-01T16:10:57+00:00",
+    "url": "https://www.therobotreport.com/top-10-robotic-stories-june-2026/",
+    "image": "https://www.therobotreport.com/wp-content/uploads/2026/06/nvidia-agent-tools-skills-physical-ai-copy-300x195.jpg",
+    "stocks": [
+      {
+        "name": "英伟达",
+        "ticker": "NVDA",
+        "reason": "发布面向机器人、自动驾驶等物理AI场景的新开源工具，有望降低开发成本并扩大生态",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
     "id": "4f0c2c0932f78c2c",
     "title": "AI重塑全球能源系统，墨尔本借工程协作抢跑",
     "summary": "随着人工智能加速全球算力需求，数据中心能耗压力日益凸显。澳大利亚墨尔本正试图通过能源与工程领域协作，引领AI基础设施能源系统的转型。",
