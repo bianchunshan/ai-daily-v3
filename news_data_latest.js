@@ -97,6 +97,25 @@ const newsData = [
     "stocks": []
   },
   {
+    "id": "5fe093115e715869",
+    "title": "Apptronik发布Apollo 2人形机器人及训练基地",
+    "summary": "Apptronik发布新一代人形机器人Apollo 2，并在得州奥斯汀启用旗舰数据收集与训练基地Robot Park，旨在让机器人在真实工作场景中持续学习并快速迭代。",
+    "body": "据外媒报道，美国人形机器人公司Apptronik近日推出Apollo 2机器人，并提供双足与轮式底座两种配置，以适应人类空间和高效生产环境。公司称其设计初衷是构建一个大规模数据收集平台，使机器人能在多样化任务和环境中不断积累真实世界经验。\n\nApptronik同时在得克萨斯州奥斯汀开设了全新扩建的Robot Park，这是其人形机器人旗舰数据收集与训练设施。该设施将与其同Google DeepMind的研究合作相结合，Apollo 2采集的数据将用于推进Gemini Robotics机器人基础模型的发展。公司声称，机器人、训练基地和合作伙伴关系共同构成一个闭环系统，用于加速人形机器人智能的开发与部署。\n\nApptronik联合创始人兼CEO Jeff Cardenas表示，行业长期关注机器人在演示中的表现，而公司更关心它们在日常工作中的实际能力。这一布局凸显了人形机器人从实验室Demo走向真实场景应用的关键趋势，也可能加剧该领域数据、训练与模型能力的竞争。",
+    "category": "机器人",
+    "tags": [
+      "人形机器人",
+      "具身智能",
+      "数据训练",
+      "Apptronik"
+    ],
+    "source": "The Robot Report",
+    "time": "15分钟前",
+    "ts": "2026-07-01T12:30:31+00:00",
+    "url": "https://www.therobotreport.com/apptronik-unveils-apollo-2-flagship-data-collection-training-facility/",
+    "image": "https://www.therobotreport.com/wp-content/uploads/2026/06/apollo2-featured.jpg",
+    "stocks": []
+  },
+  {
     "id": "fa7daec30e9c7bba",
     "title": "Vantor发布WorldView 3D高清卫星影像服务",
     "summary": "商业航天企业Vantor（前身为Maxar Intelligence）推出WorldView 3D服务，旨在为客户提供更加实时、高清晰度的卫星影像数据。",
