@@ -1,5 +1,57 @@
 const newsData = [
   {
+    "id": "e9b8d88abcf43cb5",
+    "title": "古尔曼：苹果2027春季更新iPad Pro，搭载M6/M7芯片",
+    "summary": "彭博社记者马克·古尔曼爆料称，苹果计划于2027年春季更新11英寸和13英寸iPad Pro，外形预计变化不大，重点放在内部芯片升级。",
+    "body": "据彭博社马克·古尔曼透露，苹果公司计划在2027年春季推出新款11英寸和13英寸iPad Pro，外观设计大概率不会有重大调整，升级重点在于内部硬件。新款机型将搭载更快的M6或M7芯片，并测试采用均热板散热系统，以提升持续性能、降低过热。古尔曼称，目前尚不确定最终搭载的是M6还是M7芯片。M6芯片预计配备12核GPU，内存带宽提升至200GB/s；M7芯片则进一步强化本地AI处理能力，内存带宽据称约达240GB/s。",
+    "category": "消费电子",
+    "tags": [
+      "苹果",
+      "iPad Pro",
+      "M系列芯片",
+      "消费电子"
+    ],
+    "source": "IT之家",
+    "time": "1分钟前",
+    "ts": "2026-07-01T22:54:12+00:00",
+    "url": "https://www.ithome.com/0/971/395.htm",
+    "image": "https://img.ithome.com/newsuploadfiles/2026/7/e5c09b64-ea0f-4a07-9644-9f3f3c1a52a4.png",
+    "stocks": [
+      {
+        "name": "苹果公司",
+        "ticker": "AAPL",
+        "reason": "新款iPad Pro升级自研M6/M7芯片，有望推动高端平板销售与生态粘性",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "426b2aa05ccc7f4d",
+    "title": "苹果明年或将焕新入门级MacBook Pro外观",
+    "summary": "据Engadget报道，苹果计划在明年春季对入门级MacBook Pro进行外观更新，并可能同期推出新款iPad与iPhone。",
+    "body": "报道称，明年春季苹果产品线或迎来密集更新，包括入门级MacBook Pro的视觉焕新，以及新款iPad、MacBook和iPhone。入门级MacBook Pro自推出以来外观变化不大，此次更新有望提升产品吸引力并刺激换机需求。若传闻属实，这轮新品发布有望为苹果的消费电子业务带来新的增长动能，并对相关供应链产生积极影响。",
+    "category": "消费电子",
+    "tags": [
+      "苹果",
+      "MacBook Pro",
+      "消费电子",
+      "新品发布"
+    ],
+    "source": "Engadget",
+    "time": "3分钟前",
+    "ts": "2026-07-01T22:52:09+00:00",
+    "url": "https://www.engadget.com/2206465/apple-is-reportedly-planning-a-visual-refresh-of-the-entry-level-macbook-pro-next-year/",
+    "image": "https://www.engadget.com/img/gallery/apple-is-reportedly-planning-a-visual-refresh-of-the-entry-level-macbook-pro-next-year/l-intro-1782946073.jpg",
+    "stocks": [
+      {
+        "name": "苹果公司",
+        "ticker": "AAPL",
+        "reason": "新品迭代有望提振MacBook及整体硬件销量，直接利好公司业绩",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
     "id": "caf67364722e21a4",
     "title": "苹果入门级MacBook Pro或将重新设计",
     "summary": "彭博社报道称，苹果正开发“改版”入门级MacBook Pro，最快2027年上半年发布；同时还在测试四款新iPad Pro，预计明年春季推出，重点在内部升级。",
