@@ -1,5 +1,24 @@
 const newsData = [
   {
+    "id": "5280f63224638f5b",
+    "title": "实测：Steam Machine 加一条内存性能最高提升20%",
+    "summary": "硬件评测显示，Valve 的 Steam Machine 出厂仅配单条 DDR5 内存，默认单通道运行，用户加装第二条内存开启双通道后，性能最高可提升约20%。",
+    "body": "IT之家报道，Valve 的 Steam Machine 零售版标配一根 16GB DDR5-5600 SO-DIMM 内存条，Valve 称此举受 DDR5 供货紧张限制；出厂单通道模式未能发挥双通道的高带宽优势。硬件评测媒体 Gamers Nexus 的对比测试显示，加装第二条内存后，7-Zip 压缩速度提升约 19%，多款 3A 游戏帧数也有明显提升，其中《博德之门 3》提高 15%，《天外世界 2》提高 14%，整体最高提升约 20%；而解压、部分对内存带宽不敏感的游戏几乎无差别。\n\n测试结果与 Valve 此前“单双通道性能差异可忽略”的说法相悖。Valve 澄清目前所有在售主机均统一配备单根 16GB 内存，此前可能存在的 2×8GB 方案已作废，用户需自行加装第二条内存才能开启双通道。这一结论再次说明，双通道内存位宽翻倍在需要高内存吞吐的负载中具有明显优势。",
+    "category": "消费电子",
+    "tags": [
+      "Steam Machine",
+      "内存双通道",
+      "游戏硬件",
+      "Valve"
+    ],
+    "source": "IT之家",
+    "time": "3分钟前",
+    "ts": "2026-07-01T15:15:05+00:00",
+    "url": "https://www.ithome.com/0/971/386.htm",
+    "image": "https://img.ithome.com/newsuploadfiles/2025/12/0338ec7e-287b-4fb2-a0f4-59120f2f483b.jpg?x-bce-process=image/format,f_auto",
+    "stocks": []
+  },
+  {
     "id": "bea7ebea417162ca",
     "title": "全新坦克300官图发布：搭载激光雷达，7月6日预售",
     "summary": "长城汽车发布全新一代坦克300官图，新车尺寸升级并配备激光雷达，预计强化智能辅助驾驶能力，将于7月6日开启预售。",
