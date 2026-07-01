@@ -77,6 +77,25 @@ const newsData = [
     "stocks": []
   },
   {
+    "id": "ea1941e76b832b76",
+    "title": "GLM团队推出类Claude Code编程智能体ZCode",
+    "summary": "Hacker News消息显示，GLM开发团队发布了名为ZCode的AI编程工具，产品定位与Claude Code相近，聚焦代码生成与开发辅助。",
+    "body": "据报道，GLM模型的开发团队推出了一款名为ZCode的人工智能编程工具，被外界视为对标Anthropic Claude Code的产品。该消息在Hacker News上引发关注，显示出AI编程助手赛道持续升温，国内外大模型团队均在加速布局代码生成与软件开发Agent能力。\n\nZCode的出现进一步丰富了GLM生态的应用层，若其在代码理解、多步任务执行和工程场景适配方面具备竞争力，或将加剧企业级AI编程工具市场的竞争，并推动大模型在软件工程领域的商业化落地。",
+    "category": "人工智能",
+    "tags": [
+      "编程智能体",
+      "GLM",
+      "Claude Code",
+      "AI编程"
+    ],
+    "source": "Hacker News",
+    "time": "18分钟前",
+    "ts": "2026-07-01T19:11:38+00:00",
+    "url": "https://zcode.z.ai/cn",
+    "image": "",
+    "stocks": []
+  },
+  {
     "id": "3106cf2b8d701194",
     "title": "Meta据称将自建云计算业务",
     "summary": "据外媒报道，Meta正计划通过出售服务器基础设施进军云计算市场，这将使其与亚马逊、谷歌直接竞争。若落地，Meta有望把自研算力资源变现为新的营收来源。",
