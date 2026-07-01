@@ -1,5 +1,95 @@
 const newsData = [
   {
+    "id": "b9c4ac5b33468f49",
+    "title": "Meta筹建云服务业务，拟对外出售闲置AI算力",
+    "summary": "据外媒报道，Meta正规划新云基础设施业务，计划向外部客户出售闲置AI算力与模型调用权限，直接与亚马逊AWS、微软Azure和谷歌云竞争。",
+    "body": "Meta公司正在筹建一项全新云基础设施业务，计划成立新部门，将公司闲置的AI算力出售给外部客户，并考虑开放其AI基础设施上托管模型的调用权限，向开发者收取使用费。知情人士称，相关业务隶属于Meta Compute内部项目。\n\n若该计划落地，Meta将在AI云基础设施赛道与亚马逊AWS、微软Azure和谷歌云正面竞争，有望把巨额基础设施投资转化为新的营收来源，同时缓解闲置算力成本压力。扎克伯格此前多次表示，AI行业算力瓶颈严重，Meta应尽可能多地囤积算力。",
+    "category": "AI 基础设施",
+    "tags": [
+      "Meta",
+      "云计算",
+      "AI算力",
+      "模型即服务"
+    ],
+    "source": "IT之家",
+    "time": "5分钟前",
+    "ts": "2026-07-01T13:03:09+00:00",
+    "url": "https://www.ithome.com/0/971/339.htm",
+    "image": "",
+    "stocks": [
+      {
+        "name": "Meta Platforms",
+        "ticker": "META",
+        "reason": "公司直接计划对外出售闲置算力与模型调用，拓展新收入来源",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "5977041895f082b6",
+    "title": "NASA钱德拉望远镜发布美国250周年“红白蓝”宇宙图像",
+    "summary": "美国国家航空航天局钱德拉X射线天文台为迎接美国独立250周年，发布四张以红、白、蓝三色呈现的宇宙图像，涵盖遥远星系团、螺旋星系、银河系星云及超新星遗迹；研究团队还将X射线数据转化为声波，制作“宇宙音乐”声化作品。",
+    "body": "美国航空航天局（NASA）钱德拉X射线天文台近日发布四张宇宙图像，将X射线数据与可见光数据合成，以红、白、蓝三色呈现，以配合美国7月4日独立250周年庆典。四张图像分别为星系团ZwCl 0024+1652、螺旋星系Messier 94、银河系内的发光星云，以及仙后座A超新星遗迹。其中，星系团图像结合了钱德拉的X射线数据（红色）和哈勃望远镜的光学数据（蓝色），后者的引力透镜效应可帮助天文学家推断暗物质的存在。\n\n除了视觉图像，钱德拉团队还发布了“声化”版本，将X射线数据映射到不同音频频率和乐器音色，让公众能够以听觉方式感受宇宙结构。这类科学传播活动不仅展示了深空探测的观测能力，也将尖端天文学成果与公众文化事件结合，有助于提升空间科学与天文探索的社会关注度。",
+    "category": "商业航天",
+    "tags": [
+      "NASA",
+      "钱德拉望远镜",
+      "深空探测",
+      "科学传播"
+    ],
+    "source": "Space.com",
+    "time": "7分钟前",
+    "ts": "2026-07-01T13:00:49+00:00",
+    "url": "https://www.space.com/astronomy/galaxies/new-nasa-space-telescope-images-reveal-the-universe-in-stunning-red-white-and-blue-for-america-250",
+    "image": "https://cdn.mos.cms.futurecdn.net/NADM62uLKc8RsYwTJhAMiQ-1280-80.png",
+    "stocks": []
+  },
+  {
+    "id": "b78e4d616cee2da7",
+    "title": "摩托罗拉手机内置旅行eSIM服务海外上网",
+    "summary": "摩托罗拉宣布与Gigs合作，在部分市场为其手机内置旅行eSIM功能，方便用户出国前直接购买数据套餐，无需额外安装或设置。",
+    "body": "摩托罗拉宣布与eSIM平台Gigs合作，在部分市场为其手机推出内置旅行eSIM功能。用户可在设置中直接购买海外数据套餐，无需下载第三方应用或扫描二维码，简化了出国旅行前的上网准备流程。该功能目前为数据专用，不替代语音和短信服务，仅在特定市场可用。此举反映手机厂商正通过软件和服务集成提升用户体验，也可能带动eSIM在消费电子领域的进一步普及。",
+    "category": "消费电子",
+    "tags": [
+      "eSIM",
+      "摩托罗拉",
+      "智能手机",
+      "移动数据"
+    ],
+    "source": "Wired",
+    "time": "8分钟前",
+    "ts": "2026-07-01T13:00:00+00:00",
+    "url": "https://www.wired.com/story/exclusive-motorola-phones-now-get-a-built-in-travel-esim/",
+    "image": "https://media.wired.com/photos/6a43bed9c37a6fbccfbb539e/master/pass/motorola-esim-row-pdp-benefits-03-d-.jpg",
+    "stocks": [
+      {
+        "name": "联想集团",
+        "ticker": "0992.HK",
+        "reason": "摩托罗拉手机为联想旗下品牌，eSIM服务集成有望增强其产品竞争力与用户体验。",
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
+    "id": "874d9c5f73cbb891",
+    "title": "无人机威胁美国火箭发射场，单次可致数百万美元损失",
+    "summary": "美国商业与政府火箭发射场正面临无人机带来的安全威胁，一架误闯的小型无人机即可导致发射取消，造成数百万美元延误损失。",
+    "body": "据SpaceNews报道，小型无人机对美国火箭发射场构成日益严重的安全威胁。一旦无人机误入发射空域，任务可能被取消，单次延误可达数百万美元，并波及多家商业与政府发射服务商。随着航天发射频次增加和无人机普及，低空安全管理已成为影响航天基础设施运营的重要挑战。",
+    "category": "商业航天",
+    "tags": [
+      "无人机",
+      "火箭发射",
+      "商业航天",
+      "低空安全"
+    ],
+    "source": "SpaceNews",
+    "time": "8分钟前",
+    "ts": "2026-07-01T13:00:00+00:00",
+    "url": "https://spacenews.com/unseen-threats-overhead-drones-endanger-u-s-rocket-launch-sites/",
+    "image": "https://i0.wp.com/spacenews.com/wp-content/uploads/2026/06/f9-starfall-scaled.jpeg?fit=1024%2C683&amp;ssl=1",
+    "stocks": []
+  },
+  {
     "id": "52f1b63e80afb588",
     "title": "PlayStation 2028年起新游戏停售实体光盘",
     "summary": "索尼PlayStation宣布，自2028年1月起所有PlayStation主机新游戏将仅提供数字版，不再发行实体光盘，此前已发售及2028年前推出的光盘游戏不受影响。",
