@@ -261,6 +261,25 @@ const newsData = [
     "stocks": []
   },
   {
+    "id": "d75a91f4b24059de",
+    "title": "Weave Robotics推出7999美元家用机器人Isaac 1",
+    "summary": "美国机器人公司Weave Robotics发布家用机器人Isaac 1，定价7999美元，预计2026年秋季交付。",
+    "body": "美国初创公司Weave Robotics推出家用机器人Isaac 1，售价7999美元，计划于2026年秋季开始向用户交付。该产品定位为家庭场景下的智能机器人，可执行家务等任务。\n\nIsaac 1的发布反映出家用机器人赛道正加速从实验室走向消费市场，具身智能与家庭自动化的结合受到持续关注。不过，较高的售价和较长的交付周期也意味着其仍面临规模化与用户体验的挑战。",
+    "category": "机器人",
+    "tags": [
+      "家用机器人",
+      "具身智能",
+      "智能家居",
+      "自动化"
+    ],
+    "source": "Hacker News",
+    "time": "1小时前",
+    "ts": "2026-07-01T18:12:18+00:00",
+    "url": "https://runtimewire.com/article/weave-robotics-isaac-1-home-robot-launch",
+    "image": "",
+    "stocks": []
+  },
+  {
     "id": "8ea2d31412c06e75",
     "title": "新网站可举报AI危险及不当行为",
     "summary": "据Wired报道，一个新兴网站允许用户举报AI聊天机器人的危险或不当行为，例如疑似协助制造危险物品或泄露个人信息。",
