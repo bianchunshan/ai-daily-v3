@@ -76,6 +76,25 @@ const newsData = [
     "stocks": []
   },
   {
+    "id": "7ba98dc94a420722",
+    "title": "智谱推出GLM-5.2官方开发环境ZCode",
+    "summary": "智谱发布GLM-5.2官方开发环境ZCode，支持订阅用户1.5倍配额、BYOK及多平台下载，进一步扩展开发者生态。",
+    "body": "智谱宣布推出ZCode，作为其大模型GLM-5.2的官方集成开发环境。该产品面向GLM Coding Plan订阅用户提供1.5倍使用配额，并支持BYOK（自带密钥）模式，可兼容用户现有订阅与API调用，覆盖macOS、Windows和Linux三大桌面平台。此举有助于完善GLM开发者生态，提升模型在代码辅助场景下的易用性与用户粘性。",
+    "category": "人工智能",
+    "tags": [
+      "智谱",
+      "GLM-5.2",
+      "ZCode",
+      "AI开发环境"
+    ],
+    "source": "AIHOT精选",
+    "time": "19分钟前",
+    "ts": "2026-07-01T15:59:46+00:00",
+    "url": "https://x.com/Zai_org/status/2072349453361557898",
+    "image": "",
+    "stocks": []
+  },
+  {
     "id": "2fdfcc3f379938c9",
     "title": "奇瑞发布犀牛电池安全计划：全系满足新国标并兜底赔付",
     "summary": "奇瑞汽车正式发布犀牛电池安全保障计划，承诺已售及在售车型动力电池均满足最新国家标准，并推出热失控赔付同款新车、三电终身质保等兜底措施。",
@@ -151,6 +170,24 @@ const newsData = [
         "confidence": "high"
       }
     ]
+  },
+  {
+    "id": "d94bb0791fddae5c",
+    "title": "Meta儿童成瘾诉讼撤诉请求被法院驳回",
+    "summary": "美国各州指控Facebook和Instagram的算法设计致儿童成瘾并损害心理健康，法院驳回Meta的撤诉动议，诉讼将继续推进。",
+    "body": "美国多州联合起诉Meta，指控其旗下Facebook和Instagram通过算法推荐和产品设计使未成年人上瘾，并造成焦虑、抑郁等心理健康问题。Meta此前向法院提出撤诉动议，但近日该请求被驳回，意味着各州主张可进入后续诉讼程序。该案体现了美国监管机构对大型社交媒体平台未成年人保护责任的强化，Meta可能面临更严格的合规义务与潜在处罚，同时也可能对全球科技平台的算法治理和儿童安全标准产生示范影响。",
+    "category": "地缘科技",
+    "tags": [
+      "Meta",
+      "社交媒体监管",
+      "儿童保护"
+    ],
+    "source": "Hacker News",
+    "time": "38分钟前",
+    "ts": "2026-07-01T15:40:56+00:00",
+    "url": "https://www.reuters.com/legal/government/meta-loses-bid-dismiss-us-states-claims-that-facebook-instagram-addict-children-2026-06-30/",
+    "image": "",
+    "stocks": []
   },
   {
     "id": "bfa2f74b5bd889cb",
@@ -758,6 +795,25 @@ const newsData = [
     "time": "37分钟前",
     "ts": "2026-07-01T14:00:52+00:00",
     "url": "https://www.aljazeera.com/video/counting-the-cost/2026/7/1/caught-between-the-us-and-china-can-europe-remain-competitive?traffic_source=rss",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "eef34f11d3dd14c1",
+    "title": "C 代码迁移 Rust 指南书引开发者关注",
+    "summary": "一本介绍如何将 C 项目逐步迁移到 Rust 的新书在 Hacker News 上获得关注，讨论了内存安全与工程实践等技术话题。",
+    "body": "近日，一本名为《The C to Rust migration book》的指南在 Hacker News 社区引发讨论。该书聚焦于将 C 语言项目迁移至 Rust 的方法论与实战经验，强调 Rust 在内存安全、并发控制等方面的优势。此类迁移实践有助于减少传统 C 代码中的安全漏洞，提升底层软件与系统基础设施的健壮性，对关注软件供应链安全的开发者具有一定参考价值。",
+    "category": "网络安全",
+    "tags": [
+      "Rust",
+      "C语言",
+      "代码迁移",
+      "软件安全"
+    ],
+    "source": "Hacker News",
+    "time": "2小时前",
+    "ts": "2026-07-01T14:00:29+00:00",
+    "url": "https://mainmatter.com/c-to-rust-migration-book/",
     "image": "",
     "stocks": []
   },
