@@ -45,6 +45,32 @@ const newsData = [
     "stocks": []
   },
   {
+    "id": "0be91a29d0ae519e",
+    "title": "外星人首款39英寸5K2K OLED显示器国行上市",
+    "summary": "戴尔外星人首款39英寸5K2K RGB条纹OLED显示器AW3926QW已上架戴尔中国官网，售价为12999元。该显示器采用38.9英寸OLED面板，支持双模高刷新率与多项自适应同步技术。",
+    "body": "外星人（Alienware）首款39英寸5K2K RGB条纹OLED显示器AW3926QW已上架戴尔中国官网，售价为12999元。这款显示器采用38.9英寸OLED面板，曲率为1500R，支持5120×2160@165Hz与2560×1080@330Hz双模显示，并兼容AMD FreeSync Premium Pro、NVIDIA G-SYNC Compatible及VESA AdaptiveSync等自适应同步技术。\n\n该显示器具备0.03ms GTG响应时间（极限模式）、10bit色深、99% DCI-P3色域、300cd/m2亮度（峰值1300cd/m2），接口方面配备两个HDMI 2.1、一个DisplayPort 2.1及多个USB-A/USB-C上行/下行端口。作为外星人首款39英寸5K2K OLED产品，其上市进一步丰富了高端电竞显示器市场。\n\n此类高端显示器的推出，反映出OLED在大屏、高刷新率电竞领域的持续渗透，同时也将加剧国内高端显示器市场竞争，推动相关供应链技术升级。",
+    "category": "消费电子",
+    "tags": [
+      "OLED显示器",
+      "外星人",
+      "电竞显示器",
+      "戴尔"
+    ],
+    "source": "IT之家",
+    "time": "9分钟前",
+    "ts": "2026-07-01T05:27:12+00:00",
+    "url": "https://www.ithome.com/0/971/024.htm",
+    "image": "https://img.ithome.com/newsuploadfiles/2026/7/6adc152b-bc24-4be3-8efb-84bbc924807e.jpg",
+    "stocks": [
+      {
+        "name": "戴尔科技",
+        "ticker": "DELL",
+        "reason": "外星人系戴尔旗下高端游戏品牌，新品上市直接贡献消费电子业务收入",
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
     "id": "fa432a7e7db77561",
     "title": "韩国拟缩短核电站建设周期应对AI用电荒",
     "summary": "为满足人工智能发展带来的巨大电力需求，韩国政府计划研究缩短核电站建设周期，加快扩大电力供应。该方案将纳入即将发布的长期电力供需基本计划。",
