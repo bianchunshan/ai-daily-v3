@@ -1,5 +1,63 @@
 const newsData = [
   {
+    "id": "185e69091446d395",
+    "title": "TCL华星独家供屏红米K90至尊版",
+    "summary": "小米REDMI K90至尊版手机正式发布，TCL华星宣布独家供应其屏幕，该屏最高支持165Hz刷新率与3500nits峰值亮度。",
+    "body": "7月1日消息，小米REDMI K90至尊版已正式发布，搭载高通骁龙8至尊版处理器及主动散热风扇，首销到手价2799元起。同日，TCL华星宣布该机屏幕由其独家供应，成为该机型显示模组的核心供应商。\n\n据介绍，这块屏幕的核心优势在于最高支持165Hz高刷新率，已完成40余款主流游戏的165fps原生适配，并可实现百款游戏1.5K分辨率与165fps并发运行，提升高速对战场景下的画面连贯性与触控跟手性。此外，屏幕采用最新发光材质，峰值亮度达3500nits，并支持杜比视界、HDR Vivid等标准。\n\n此次独家供屏不仅强化了TCL华星在高端AMOLED/手机显示领域的客户绑定，也反映出国产面板厂商在高端机型供应链中的份额继续提升，对上游面板产能去化及技术迭代具有积极意义。",
+    "category": "消费电子",
+    "tags": [
+      "TCL华星",
+      "小米手机",
+      "手机屏幕",
+      "消费电子"
+    ],
+    "source": "IT之家",
+    "time": "刚刚",
+    "ts": "2026-07-01T15:51:50+00:00",
+    "url": "https://www.ithome.com/0/971/390.htm",
+    "image": "https://img.ithome.com/newsuploadfiles/2026/6/f2b7f8bd-6f77-4c18-a673-2052de8bbbb0.jpg?x-bce-process=image/format,f_auto",
+    "stocks": [
+      {
+        "name": "TCL科技",
+        "ticker": "000100.SZ",
+        "reason": "TCL华星为TCL科技旗下核心面板业务，独家供应红米K90至尊版屏幕直接增厚显示业务收入。",
+        "confidence": "high"
+      },
+      {
+        "name": "小米集团-W",
+        "ticker": "1810.HK",
+        "reason": "REDMI K90至尊版为小米旗下新机发布，面板规格提升有助于增强产品竞争力并带动销量。",
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
+    "id": "7f78d288d40864c0",
+    "title": "现代IONIQ 5上半年销量破2万辆，IONIQ 9激增380%",
+    "summary": "现代汽车2026年上半年售出逾2万辆IONIQ 5纯电SUV，三排座电动SUV IONIQ 9销量同比暴涨380%，电动化产品线持续放量。",
+    "body": "据Electrek报道，现代汽车旗下纯电动车型IONIQ 5在2026年上半年累计销量突破2万辆，延续强劲销售势头。与此同时，定位三排座中大型纯电SUV的IONIQ 9表现更为亮眼，销量同比增长380%。\n\n这两款车型均基于现代E-GMP纯电平台打造，销量走高反映出消费者对现代汽车电动化产品线的接受度提升。在北美新能源市场竞争加剧的背景下，IONIQ系列的增长有助于现代进一步巩固其在电动SUV细分市场的地位，并推动整体电动化转型。",
+    "category": "未来能源",
+    "tags": [
+      "电动汽车",
+      "现代汽车",
+      "销量",
+      "新能源"
+    ],
+    "source": "Electrek",
+    "time": "刚刚",
+    "ts": "2026-07-01T15:51:26+00:00",
+    "url": "https://electrek.co/2026/07/01/hyundai-ioniq-5-sales-top-20000-ioniq-9-up-380-h1-2026/",
+    "image": "https://electrek.co/wp-content/uploads/sites/3/2026/06/Hyundai-IONIQ-5-EV-sales-May.jpeg?quality=82&#038;strip=all&#038;w=1400",
+    "stocks": [
+      {
+        "name": "现代汽车",
+        "ticker": "005380.KS",
+        "reason": "IONIQ 5/9销量大增直接利好公司电动车业务与营收",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
     "id": "bfa2f74b5bd889cb",
     "title": "昆士兰州每年数十万皮肤癌诊疗，专家呼吁加强预防",
     "summary": "一项新研究显示，昆士兰州每年进行数十万次皮肤癌就诊和医疗操作，专家呼吁加大预防投入，以保护公众健康并减轻医疗系统负担。",
