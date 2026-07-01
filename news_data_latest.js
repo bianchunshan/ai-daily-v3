@@ -1,5 +1,82 @@
 const newsData = [
   {
+    "id": "4ccea67daf747410",
+    "title": "Meta拟进军云计算市场，出售AI算力",
+    "summary": "Meta正筹划云基础设施业务，计划向企业出售AI算力和模型访问权限，将与亚马逊AWS、谷歌云和微软Azure等云巨头正面竞争。",
+    "body": "据外媒报道，Meta正在开发一项云基础设施业务，计划将富余的AI算力以及自研AI模型对外出售，使企业客户能够按需访问。这一举措意味着Meta将直接切入目前由亚马逊AWS、谷歌云和微软Azure主导的企业云服务市场。若该业务落地，Meta有望把AI领域的巨额投入转化为新的收入来源，同时可能改变云计算市场的竞争格局，成为其商业模式的重要补充。",
+    "category": "AI 基础设施",
+    "tags": [
+      "Meta",
+      "云计算",
+      "AI算力",
+      "云基础设施"
+    ],
+    "source": "TechCrunch",
+    "time": "1分钟前",
+    "ts": "2026-07-01T13:43:07+00:00",
+    "url": "https://techcrunch.com/2026/07/01/meta-like-spacex-looks-to-turn-excess-ai-compute-into-cash/",
+    "image": "",
+    "stocks": [
+      {
+        "name": "Meta Platforms",
+        "ticker": "META",
+        "reason": "新闻主体，Meta若成功推出AI算力与模型云服务，有望将AI投入转化为新收入流。",
+        "confidence": "high"
+      },
+      {
+        "name": "英伟达",
+        "ticker": "NVDA",
+        "reason": "Meta云基础设施扩张将拉动对GPU等AI算力芯片的需求。",
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
+    "id": "caf438eb75b16f68",
+    "title": "电池安全新国标今日实施，吉利全系通过测试",
+    "summary": "被称作“史上最严电池安全令”的强制性国标GB38031-2025今日正式实施，吉利神盾金砖电池已于5月完成新国标全部检测，成为行业首批全系通过认证的品牌。",
+    "body": "7月1日，强制性国家标准GB38031-2025《电动汽车用动力蓄电池安全要求》正式落地实施。新国标大幅提升动力电池安全门槛，要求热失控后至少2小时内不起火、不爆炸，报警后5分钟内烟气不进入乘员舱，并新增底部撞击、快充循环后外部短路等测试项目。吉利汽车集团今日宣布，其神盾金砖电池已于今年5月完成新国标全部检测，成为行业首批全系通过认证的品牌；其中“底部撞击”测试规范由吉利牵头主导起草。这一进展意味着吉利在电池安全领域具备先发优势，并有望借助新国标落地提升产品竞争力和消费者信任度。",
+    "category": "未来能源",
+    "tags": [
+      "动力电池",
+      "新能源汽车",
+      "吉利",
+      "电池安全国标"
+    ],
+    "source": "IT之家",
+    "time": "1分钟前",
+    "ts": "2026-07-01T13:42:54+00:00",
+    "url": "https://www.ithome.com/0/971/366.htm",
+    "image": "https://img.ithome.com/newsuploadfiles/2026/7/ae3f2ed6-b396-4289-8ff5-ccb9416678ae.jpg?x-bce-process=image/format,f_auto",
+    "stocks": [
+      {
+        "name": "吉利汽车",
+        "ticker": "0175.HK",
+        "reason": "吉利神盾金砖电池全系通过新国标，并牵头起草底部撞击测试，标准落地将强化其品牌与产品竞争力",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "205997145bb9cdd1",
+    "title": "研究显示：青少年充足睡眠有助于稳定血糖",
+    "summary": "哥本哈根大学与COPSAC的新研究表明，健康年轻人在睡眠更充足后，次日血糖水平更稳定；这种关联可能是双向的，提示睡眠在糖尿病发病前就已影响代谢。",
+    "body": "哥本哈根大学与COPSAC的研究人员发现，即使是健康的年轻人，夜间睡眠时间较长也与次日更稳定的血糖水平相关。该研究提示，睡眠与血糖之间的联系似乎是双向的，充足的休息可能对代谢健康产生积极影响。这一发现意味着，睡眠在糖尿病等疾病发生之前，可能就已经在调节人体代谢方面发挥重要作用。研究者建议青少年重视作息规律，将睡眠视为维护血糖稳态的重要生活方式因素之一。",
+    "category": "生物医药",
+    "tags": [
+      "睡眠健康",
+      "血糖代谢",
+      "青少年健康",
+      "生命科学"
+    ],
+    "source": "MedicalXpress",
+    "time": "4分钟前",
+    "ts": "2026-07-01T09:40:01-04:00",
+    "url": "https://medicalxpress.com/news/2026-07-teens-bed-good-blood-sugar.html",
+    "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/teen-on-phone-in-bed.jpg",
+    "stocks": []
+  },
+  {
     "id": "287096f3c024fef0",
     "title": "索尼2028年起停产实体PlayStation游戏光盘",
     "summary": "索尼宣布自2028年1月起停止生产实体PlayStation游戏光盘，新游戏仅通过数字渠道发售。该公司同时宣布将关闭PS3与PS Vita的PlayStation商店，标志着其全面转向数字化。",
