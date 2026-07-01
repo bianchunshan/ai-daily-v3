@@ -1,40 +1,47 @@
 const newsData = [
   {
-    "id": "285d3fbb2640f4a7",
-    "title": "七彩虹上架RP600X PRO 512GB固态U盘",
-    "summary": "七彩虹在京东上架512GB容量的RP600X PRO固态U盘，售价899元，读取速度达1000MB/s，支持苹果Apple ProRes即拍即存。",
-    "body": "据IT之家7月1日消息，七彩虹已在京东上架容量为512GB的RP600X PRO固态U盘。该产品采用全锌合金压铸外壳并配有嵌入式散热槽，提供USB-A/C双接口，基于USB 3.2 Gen 2协议，读取速度可达1000MB/s，并支持苹果Apple ProRes格式的即拍即存，定价899元。\n\n作为一款面向专业移动存储与内容创作的高性能固态U盘，RP600X PRO体现了消费级存储设备在读写速度、散热设计与接口兼容性上的持续升级，也反映出国内品牌在高端移动存储细分市场的竞争布局。",
+    "id": "287096f3c024fef0",
+    "title": "索尼2028年起停产实体PlayStation游戏光盘",
+    "summary": "索尼宣布自2028年1月起停止生产实体PlayStation游戏光盘，新游戏仅通过数字渠道发售。该公司同时宣布将关闭PS3与PS Vita的PlayStation商店，标志着其全面转向数字化。",
+    "body": "索尼已确认PlayStation将全面转向数字化，实体游戏光盘生产将于2028年1月停止。此后，新游戏只能通过PlayStation Store及部分零售商的数字渠道购买。索尼称这一决定源于“消费者偏好的变化趋势”，目前数字销售已远超实体，去年实体游戏发行仅占PlayStation收入的约3%。已发售或计划于2028年1月前发售的实体游戏不受影响。\n\n此外，索尼还将关闭PS3和PS Vita的PlayStation Store，届时将无法购买新游戏或内容，但已购内容仍可下载。部分地区将于2026年8月关闭，美国则延至2027年7月。这一转型对二手游戏市场和实体零售商构成显著冲击，也显示主机游戏行业正加速从实体媒介转向数字分发。",
     "category": "消费电子",
     "tags": [
-      "消费电子",
+      "索尼",
+      "PlayStation",
+      "数字游戏",
+      "游戏主机"
+    ],
+    "source": "Engadget",
+    "time": "4分钟前",
+    "ts": "2026-07-01T13:35:32+00:00",
+    "url": "https://www.engadget.com/2205792/sony-will-stop-making-disc-based-playstation-games-starting-2028/",
+    "image": "https://www.engadget.com/img/gallery/sony-will-stop-making-disc-based-playstation-games-starting-2028/l-intro-1782912766.jpg",
+    "stocks": [
+      {
+        "name": "索尼集团",
+        "ticker": "SONY",
+        "reason": "停产实体光盘、推进数字发行可降低制造与渠道成本，强化平台生态收入",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "285d3fbb2640f4a7",
+    "title": "七彩虹推出512GB高速固态U盘，售价899元",
+    "summary": "七彩虹在京东上架RP600X PRO 512GB固态U盘，读取速度达1000MB/s，售价899元，并支持苹果ProRes即拍即存。",
+    "body": "7月1日，七彩虹在京东上架一款容量为512GB的RP600X PRO固态U盘，定价899元，主打1000MB/s的高速读取性能，面向专业创作和高负载移动存储需求。\n\n该产品采用全锌合金压铸外壳，并配备嵌入式散热槽，提供USB-A/C双接口，基于标准USB 3.2 Gen 2协议，能够实现高达1000MB/s的读取速度。同时，它支持苹果Apple ProRes格式视频的即拍即存，适用于iPhone摄影师和视频创作者。\n\n作为消费电子领域的高端存储外设，这款固态U盘体现了国产品牌在大容量、高速移动存储产品上的持续布局，有望满足专业用户对传输效率和便携性的双重要求。",
+    "category": "消费电子",
+    "tags": [
+      "七彩虹",
       "固态U盘",
       "移动存储",
-      "七彩虹"
+      "消费电子"
     ],
     "source": "IT之家",
-    "time": "4分钟前",
+    "time": "5分钟前",
     "ts": "2026-07-01T13:33:47+00:00",
     "url": "https://www.ithome.com/0/971/359.htm",
     "image": "https://img.ithome.com/newsuploadfiles/2026/7/c113ac99-3e12-4aac-9d65-beb3dfa58e56.png",
-    "stocks": []
-  },
-  {
-    "id": "4444b5d8044daa2c",
-    "title": "Plex、Jellyfin与Emby三大媒体服务器对比",
-    "summary": "文章对比了Plex、Jellyfin和Emby三款主流媒体服务器的使用体验与成本差异。Plex以便捷性见长，但部分高级功能需付费；Jellyfin和Emby则更适合愿意动手配置的用户。",
-    "body": "Engadget对Plex、Jellyfin和Emby三款主流媒体服务器进行了比较。Plex凭借更成熟的界面和便捷设置占据优势，适合追求开箱即用的用户，但部分高级功能需要订阅付费。Jellyfin作为开源免费方案，在隐私控制和成本上更具吸引力，但配置和维护门槛较高。Emby介于两者之间，提供了更多自定义选项，但部分核心功能同样需要付费解锁。总体而言，三者分别代表了便捷付费、免费开源和平衡方案的不同路线，选择取决于用户对便利性、成本和隐私的取舍。",
-    "category": "消费电子",
-    "tags": [
-      "媒体服务器",
-      "流媒体",
-      "开源软件",
-      "家庭影音"
-    ],
-    "source": "Engadget",
-    "time": "8分钟前",
-    "ts": "2026-07-01T13:30:00+00:00",
-    "url": "https://www.engadget.com/2204587/plex-vs-jellyfin-comparison/",
-    "image": "https://www.engadget.com/img/gallery/plex-vs-jellyfin-vs-emby-heres-how-the-three-media-servers-really-compare/l-intro-1782773759.jpg",
     "stocks": []
   },
   {
