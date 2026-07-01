@@ -1,5 +1,31 @@
 const newsData = [
   {
+    "id": "a6ef8a964ea266e7",
+    "title": "苹果升级专业摄影应用：iPhone 17 Pro 支持纯净 HDMI 输出",
+    "summary": "苹果发布 Final Cut Camera 2.3 版，为 iPhone 17 Pro 系列新增“纯净 HDMI 输出”功能，可将无界面叠加的原始视频信号输出至外部监视器或录机，进一步强化专业拍摄能力。",
+    "body": "7月1日，苹果公司更新 Final Cut Camera 应用至 2.3 版本，专为 iPhone 17 Pro 与 iPhone 17 Pro Max 加入“纯净 HDMI 输出”功能。该模式下，设备经 HDMI 接口输出不含取景框、参数文字、按钮等界面元素的视频信号，仅保留纯净拍摄画面，便于连接外接监视器、切换台或专业录机使用。\n\n除新增 HDMI 输出外，2.3 版还支持从 ProRes 422 HQ、ProRes 422 或 ProRes 422 LT 中选取编码格式，以平衡画质与文件体积，并新增“停用数码缩放”选项，确保以全光学分辨率录制。用户还能将 iPhone 直接连接 Mac，把 Final Cut Camera 拍摄的素材导入 Final Cut Pro 进行剪辑。\n\nFinal Cut Camera 是苹果面向专业视频创作者推出的拍摄应用，支持多机位拍摄与精细拍摄控制。此次更新进一步提升了 iPhone 在专业影视工作流中的兼容性，有望吸引对移动拍摄有更高要求的创作者与小型制作团队。",
+    "category": "消费电子",
+    "tags": [
+      "苹果",
+      "iPhone",
+      "视频拍摄",
+      "专业影像"
+    ],
+    "source": "IT之家",
+    "time": "1分钟前",
+    "ts": "2026-07-01T23:38:12+00:00",
+    "url": "https://www.ithome.com/0/971/403.htm",
+    "image": "https://img.ithome.com/newsuploadfiles/2026/7/d5e0c563-826e-438a-b7db-ba2dec8ea1b3.png?x-bce-process=image/format,f_auto",
+    "stocks": [
+      {
+        "name": "苹果公司",
+        "ticker": "AAPL",
+        "reason": "新功能直接提升 iPhone 17 Pro 在专业影像市场的竞争力，利好苹果硬件生态与专业软件服务。",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
     "id": "b48f18e2234bdc6e",
     "title": "微软XBOX测试光盘转数字授权功能",
     "summary": "微软正在为XBOX测试Disc2Digital功能，玩家可将Xbox Series X和Xbox One实体光盘转换为数字版授权，转换后无需插盘即可运行游戏并享有数字版相关权益。",
@@ -471,6 +497,25 @@ const newsData = [
     "ts": "2026-07-01T18:30:01-04:00",
     "url": "https://medicalxpress.com/news/2026-07-mechanical-restraint-linked-small-short.html",
     "image": "https://scx1.b-cdn.net/csz/news/tmb/2025/blood-clot.jpg",
+    "stocks": []
+  },
+  {
+    "id": "db3e345494938c71",
+    "title": "开放零知识证明技术强化年龄验证隐私保护",
+    "summary": "Hacker News上的一篇帖子提出，应开放零知识证明技术，在年龄验证中更好地保护用户隐私，避免直接收集敏感身份信息。",
+    "body": "该报道指出，随着网络平台对年龄合规验证需求增加，如何在验证用户年龄的同时保护个人隐私成为焦点。文章倡导采用“零知识证明”（Zero-Knowledge Proof）技术，使验证方能够确认用户达到法定年龄，而无需获取出生日期、身份证件等具体敏感信息。若该技术在年龄验证场景中得到推广，有望降低数据泄露风险，并为数字身份认证与隐私保护提供新的范式。",
+    "category": "网络安全",
+    "tags": [
+      "零知识证明",
+      "隐私计算",
+      "身份认证",
+      "网络安全"
+    ],
+    "source": "Hacker News",
+    "time": "1小时前",
+    "ts": "2026-07-01T22:27:47+00:00",
+    "url": "https://blog.google/innovation-and-ai/technology/safety-security/opening-up-zero-knowledge-proof-technology-to-promote-privacy-in-age-assurance/",
+    "image": "",
     "stocks": []
   },
   {
