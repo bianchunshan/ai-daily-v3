@@ -1,5 +1,37 @@
 const newsData = [
   {
+    "id": "a7d04521b6a3b845",
+    "title": "GLP-1药物对房颤合并2型糖尿病患者更优",
+    "summary": "一项研究表明，对于合并房颤的2型糖尿病患者，GLP-1类药物的治疗效果优于SGLT-2抑制剂。这一发现可能影响相关临床用药选择。",
+    "body": "房颤患者本身面临更高的卒中、慢性肾病和心力衰竭风险；若同时患有2型糖尿病，这些风险会进一步加剧。布法罗大学药学院研究人员指出，针对这类共病患者，选择合适的降糖药物具有重要意义。\n\n据英国医学新闻网站MedicalXpress报道，一项最新研究显示，GLP-1类药物在合并房颤的2型糖尿病患者中表现优于SGLT-2抑制剂。该结论或将推动临床优先使用GLP-1受体激动剂，并利好相关药物研发企业。",
+    "category": "生物医药",
+    "tags": [
+      "GLP-1",
+      "SGLT-2抑制剂",
+      "2型糖尿病",
+      "房颤"
+    ],
+    "source": "MedicalXpress",
+    "time": "1分钟前",
+    "ts": "2026-07-01T15:20:07-04:00",
+    "url": "https://medicalxpress.com/news/2026-07-glp-drugs-outperform-sglt-patients.html",
+    "image": "https://scx1.b-cdn.net/csz/news/tmb/2025/glp-1.jpg",
+    "stocks": [
+      {
+        "name": "诺和诺德",
+        "ticker": "NVO",
+        "reason": "全球GLP-1类药物龙头，研究若推动临床偏好将直接受益",
+        "confidence": "high"
+      },
+      {
+        "name": "礼来",
+        "ticker": "LLY",
+        "reason": "GLP-1/GIP双靶点药物替尔泊肽生产商，共病患者用药选择偏向利好其产品线",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
     "id": "09cdaecf920fbd25",
     "title": "苹果Hide My Email被曝漏洞，真实邮箱或泄露",
     "summary": "一名安全研究人员称，苹果的“隐藏邮件地址”功能存在漏洞，可能使真实电子邮箱地址意外暴露。该问题若属实，将削弱该功能的隐私保护效果。",
@@ -91911,12 +91943,6 @@ const newsData = [
   }
 ];
 const newsDigest = {
-  "text": "今日科技前沿聚焦AI基础设施竞速：Meta传自建云计算、Together AI融资8亿美元；机器人与消费电子受关注，Weave Robotics推家用机器人、索尼2028年停售PS实体光盘；生物医药亦有疟疾疫苗新靶点等进展。",
-  "highlights": [
-    "3106cf2b8d701194",
-    "6e89872055ece851",
-    "d75a91f4b24059de",
-    "16ab310ab843d7f0",
-    "c02f825d533c05a1"
-  ]
+  "text": "",
+  "highlights": []
 };
