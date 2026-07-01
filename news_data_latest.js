@@ -1,5 +1,215 @@
 const newsData = [
   {
+    "id": "745e3562f20eeb04",
+    "title": "小马智行在重庆成立新公司，注册资本3000万元",
+    "summary": "小马智行在重庆设立全资子公司重庆小马智行科技有限公司，注册资本3000万元，经营范围涵盖网约车、人工智能基础软件、智能车载设备及新能源汽车整车销售，显示其加速自动驾驶及出行服务商业化布局。",
+    "body": "据36氪报道，天眼查App显示，近日重庆小马智行科技有限公司成立，法定代表人为张宁，注册资本3000万元人民币，由北京小马易行科技有限公司全资持股。新公司经营范围包括网络预约出租汽车经营服务、软件开发、人工智能基础软件开发、智能车载设备制造以及新能源汽车整车销售等。\n\n小马智行作为自动驾驶企业，此次在重庆设立子公司，意味着其正在进一步扩展Robotaxi运营、智能车载硬件及新能源车相关业务的地域布局。重庆是智能网联汽车测试与示范应用的重要城市，新公司的成立有望为其自动驾驶商业化落地提供更多支撑。",
+    "category": "机器人",
+    "tags": [
+      "自动驾驶",
+      "Robotaxi",
+      "小马智行",
+      "智能网联"
+    ],
+    "source": "36氪",
+    "time": "刚刚",
+    "ts": "2026-07-01T02:44:04.274582+00:00",
+    "url": "https://36kr.com/newsflashes/3876463093592321?f=rss",
+    "image": "",
+    "stocks": [
+      {
+        "name": "小马智行",
+        "ticker": "PONY",
+        "reason": "全资子公司设立拓展自动驾驶网约车、智能车载设备及新能源汽车整车销售业务，利好公司商业化扩张。",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "4951cd4a6e819682",
+    "title": "前安克CMO创业推出AI记忆硬件Memoket",
+    "summary": "前安克CMO王时远创立穗升科技，推出AI Memory可穿戴硬件Memoket，可将线下语音信息结构化并供AI Agent调用，试图探索AI原生硬件形态。",
+    "body": "前安克CMO、中国区总裁王时远2024年离开供职九年的安克后，于2025年创立穗升科技，并推出首款AI Memory可穿戴硬件Memoket。该产品仅11克，提供表带款和手环款两种形态，待机超过30天，连续录音续航20小时，可将物理世界中听到的信息结构化，并在需要时调用给AI Agent，实现跨时间聚合与上下文串联。\n王时远认为，传统硬件出海路径ROI持续走低，众筹和海外营销渠道碎片化使粗放式产品思路难以为继。与此同时，AI硬件浪潮已至，但何为AI原生产品尚无定论。Memoket的差异化在于不满足于“录音笔升级版”的语音转文字，而是希望成为个人线下信息流的记忆入口，让物理世界中未被数字化的信息被AI检索、串联和调用。\n这一创业方向也代表了AI硬件领域的新共识：硬件是数据采集入口，真正的护城河在于后端AI能力。不过，将线下信息深度数字化、结构化，仍需在成本、效率、合规、隐私安全和下游Agent接口等方面做大量工程化努力。",
+    "category": "人工智能",
+    "tags": [
+      "AI硬件",
+      "可穿戴设备",
+      "AI Agent",
+      "软硬一体"
+    ],
+    "source": "36氪",
+    "time": "刚刚",
+    "ts": "2026-07-01T02:43:12.793521+00:00",
+    "url": "https://36kr.com/p/3867992509125636?f=rss",
+    "image": "https://img.36krcdn.com/hsossms/20260626/v2_3cd8257ac8da4c6ebe702ec250e8635b@6022551_oswg530099oswg1080oswg568_img_jpg?x-oss-process=image/quality,q_90/format,jpg/interlace,1",
+    "stocks": [
+      {
+        "name": "安克创新",
+        "ticker": "300866.SZ",
+        "reason": "王时远曾任安克CMO及中国区总裁，创业动向引发市场对其人才与品牌出海经验延续的关注。",
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
+    "id": "095e41aea9f2dfdf",
+    "title": "利民推出TG-GM系列ATX 3.1金牌全模组电源，覆盖650W至850W",
+    "summary": "利民（Thermalright）近日推出TG-GM系列ATX 3.1全模组电源，具备80 PLUS金牌转换效率，提供650W、750W、850W三种功率规格，并搭载多重安全保护机制与5年质保。",
+    "body": "利民（Thermalright）近日推出TG-GM系列ATX 3.1全模组电源，该系列采用140mm标准长度设计，符合ATX 3.1规范，获得80 PLUS金牌转换效率认证，提供650W、750W、850W三种版本。产品采用LLC谐振加DC-DC转换电路拓扑，配备尼吉康、红宝石、贵弥功三大品牌的105℃耐温主电容，可承受200%整机峰值负载，750W及以上版本提供12V-2×6供电接口。TG-GM系列支持100~240V宽幅电压，具备OVP、UVP、OPP、SCP、OTP、OCP等多重安全保护机制，并提供5年质保。该系列电源的推出，进一步丰富了利民在PC电源市场的产品布局，满足主流消费者对高性能、高可靠性供电方案的需求。",
+    "category": "消费电子",
+    "tags": [
+      "电源",
+      "PC硬件",
+      "利民",
+      "ATX 3.1"
+    ],
+    "source": "IT之家",
+    "time": "2分钟前",
+    "ts": "2026-07-01T02:39:57+00:00",
+    "url": "https://www.ithome.com/0/970/906.htm",
+    "image": "https://img.ithome.com/newsuploadfiles/2026/7/14749583-451c-4015-8e50-4d3a30510221.jpg?x-bce-process=image/format,f_auto",
+    "stocks": []
+  },
+  {
+    "id": "d41cbeca0cea2329",
+    "title": "小米米家智能电压力锅 2 Pro 5L 开售，首发价 899 元",
+    "summary": "小米米家智能电压力锅 2 Pro 5L 正式开售，支持 2200W IH 猛火炖煮、112kPa 高压速烹及 0 氟涂层双胆，可通过米家 App 智联，适合 4-8 人家庭。",
+    "body": "小米米家智能电压力锅 2 Pro 5L 今日开售，首发到手价 899 元，国补价 721.65 元。新品主打速热、高压、快排体验，支持 2200W 猛火 IH 炖煮、112kPa 高压速烹，并配备 0 氟涂层双内胆与食品接触级材质，兼顾烹饪效率与健康安全。\n\n该电压力锅具备智能无级调压，可为不同食材匹配压力曲线；自动快排与风冷降压技术可在 88 秒内快速开盖。产品支持小米澎湃智联，提供 100 多款云食谱，并可通过小爱同学语音控制及 24 小时预约，进一步丰富小米智能家居生态。",
+    "category": "消费电子",
+    "tags": [
+      "智能家居",
+      "小米",
+      "厨房电器",
+      "IoT"
+    ],
+    "source": "IT之家",
+    "time": "6分钟前",
+    "ts": "2026-07-01T02:35:52+00:00",
+    "url": "https://www.ithome.com/0/970/904.htm",
+    "image": "https://img14.360buyimg.com/pop/jfs/t1/454957/21/15241/80001/6a3a43baFf1b4fd34/00833203201f21bf.jpg",
+    "stocks": [
+      {
+        "name": "小米集团",
+        "ticker": "1810.HK",
+        "reason": "小米为该智能电压力锅的品牌方和制造商，新品有助于拓展其智能家居家电产品线。",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "2741bd128d092081",
+    "title": "6款AI浏览器曝漏洞：诱导AI可泄露用户敏感信息",
+    "summary": "安全公司LayerX披露名为BioShocking的漏洞，ChatGPT Atlas、Perplexity Comet等6款AI浏览器可被恶意网页诱导，泄露用户密码、Cookie和Token等敏感数据。",
+    "body": "据科技媒体digitaltrends报道，安全公司LayerX披露了一个名为BioShocking的漏洞，影响ChatGPT Atlas、Perplexity Comet、Fellou、Genspark Browser、Sigma Browser以及Anthropic面向Chrome的Claude扩展共6款AI浏览器产品。攻击者可通过恶意网页隐藏提示，让AI进入\"寻找秘密字符串\"的游戏语境，并以答错得分的方式改写判断逻辑，从而削弱其安全约束，诱导AI复制用户登录信息。\n该漏洞能够导致用户已保存密码、会话Cookie、私有Token等敏感数据被泄露。修复进展方面，LayerX已于2025年10月至2026年1月期间向相关厂商通报，OpenAI已修复ChatGPT Atlas的相关问题；Perplexity关闭报告但未采取处置；Anthropic虽尝试修复Claude扩展，但补丁未通过后续验证。",
+    "category": "网络安全",
+    "tags": [
+      "AI安全",
+      "浏览器漏洞",
+      "数据泄露",
+      "提示注入"
+    ],
+    "source": "IT之家",
+    "time": "24分钟前",
+    "ts": "2026-07-01T02:18:28+00:00",
+    "url": "https://www.ithome.com/0/970/876.htm",
+    "image": "https://img.ithome.com/newsuploadfiles/2026/7/98eefac7-9d20-4fa0-b0aa-f3235edb36cd.jpg?x-bce-process=image/format,f_auto",
+    "stocks": []
+  },
+  {
+    "id": "8824530ad2d0a4ab",
+    "title": "特朗普解除对Anthropic Mythos和Fable模型限制",
+    "summary": "据外媒报道，特朗普政府已取消对Anthropic旗下Mythos和Fable模型的限制，该公司将于7月1日恢复Fable模型访问。",
+    "body": "据TechCrunch报道，特朗普政府已取消对人工智能公司Anthropic旗下Mythos和Fable模型的相关限制。Anthropic方面表示，将从7月1日起恢复用户对Fable模型的访问。\n\n这一政策调整意味着此前针对这两款模型的限制已被解除，有助于Anthropic按既定节奏恢复或推进相关模型的服务，并降低其在美国本土AI业务面临的监管不确定性。作为AI模型领域的代表性公司，Anthropic的发布节奏与合规状态变化也折射出美国AI监管风向的调整。",
+    "category": "人工智能",
+    "tags": [
+      "Anthropic",
+      "大模型",
+      "监管政策"
+    ],
+    "source": "TechCrunch",
+    "time": "26分钟前",
+    "ts": "2026-07-01T02:16:06+00:00",
+    "url": "https://techcrunch.com/2026/06/30/trump-drops-restrictions-on-anthropics-mythos-and-fable-models/",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "28f6998cc5523d65",
+    "title": "Anthropic发布科学家AI工作平台Claude Science",
+    "summary": "Anthropic推出面向科学家的AI工作平台Claude Science，旨在整合研究工具、简化文献分析与实验流程，提高科研效率。",
+    "body": "Anthropic当地时间6月30日宣布以beta测试版推出面向科学家的AI工作平台Claude Science。该平台提供统一研究环境，帮助科研人员分析文献、执行多步骤研究、生成图表与文稿，并记录可审计的生成历史，便于验证和复现。\n据介绍，Claude Science内置一个通用智能体，拥有超过60种精选技能与连接器，可启动多个子智能体协同工作，另设审阅智能体进行核查。此前内测阶段已应用于RNA测序、CRISPR选型、蛋白质结构预测和化学信息学等领域。该平台目前向Claude Pro/Max/Team/Enterprise用户开放，Anthropic还将资助最多50个科学项目。",
+    "category": "人工智能",
+    "tags": [
+      "AI科研平台",
+      "Claude Science",
+      "智能体",
+      "科学计算"
+    ],
+    "source": "IT之家",
+    "time": "33分钟前",
+    "ts": "2026-07-01T02:09:10+00:00",
+    "url": "https://www.ithome.com/0/970/873.htm",
+    "image": "https://img.ithome.com/newsuploadfiles/2026/7/a9105ccf-dd63-4592-96a6-d99100ed2111.png?x-bce-process=image/format,f_auto",
+    "stocks": []
+  },
+  {
+    "id": "bfbfc8aa769d31e2",
+    "title": "Wayve启动8500万美元员工要约回购，估值85亿美元",
+    "summary": "英国自动驾驶AI公司Wayve启动一项8500万美元的员工要约回购，估值达85亿美元，这反映了AI初创公司通过员工要约回购吸引和留住人才的趋势。",
+    "body": "Wayve是一家专注于自动驾驶的英国AI公司，致力于开发基于具身智能的自动驾驶系统。近日，该公司宣布启动一项8500万美元的员工要约回购，估值定为85亿美元，旨在为员工提供流动性并激励核心人才。此类员工要约回购在AI初创公司中正变得越来越普遍，既能在不立即上市的情况下回馈员工，也被视为吸引和保留高端技术人才的战略工具。",
+    "category": "机器人",
+    "tags": [
+      "Wayve",
+      "自动驾驶",
+      "员工要约回购",
+      "AI初创"
+    ],
+    "source": "TechCrunch",
+    "time": "38分钟前",
+    "ts": "2026-07-01T02:04:40+00:00",
+    "url": "https://techcrunch.com/2026/06/30/wayve-launches-85m-employee-tender-offer-at-8-5b-valuation/",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "f09cfc2759e738af",
+    "title": "实时花粉数据对部分季节性过敏患者被认为有价值",
+    "summary": "据6月1日发表于《Frontiers in Allergy》的一项研究，季节性过敏人群存在未被满足的信息需求，而实时花粉数据对部分患者被认为具有实用价值。",
+    "body": "该研究发表于《Frontiers in Allergy》，聚焦季节性过敏人群的信息需求。结果发现，许多患者仍面临信息不足的问题，而实时花粉数据被部分过敏者视为有价值的参考工具。这一发现提示，改善花粉监测、预报及信息推送服务，有助于患者更好地安排户外活动、及时采取防护措施。不过，研究也暗示不同个体对花粉数据的感知价值存在差异，相关服务需进一步贴合用户需求。",
+    "category": "生物医药",
+    "tags": [
+      "花粉监测",
+      "季节性过敏",
+      "数字健康",
+      "过敏研究"
+    ],
+    "source": "MedicalXpress",
+    "time": "42分钟前",
+    "ts": "2026-06-30T22:00:01-04:00",
+    "url": "https://medicalxpress.com/news/2026-06-real-pollen-valuable-seasonal-allergies.html",
+    "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/real-time-pollen-data.jpg",
+    "stocks": []
+  },
+  {
+    "id": "f2f542c9b8d75ad4",
+    "title": "美国政府批准Anthropic重新部署Mythos与Fable模型",
+    "summary": "美国政府已批准人工智能公司Anthropic重新部署其Mythos和Fable AI模型，Anthropic计划于7月1日恢复用户访问。",
+    "body": "据外媒报道，美国政府已批准人工智能公司Anthropic重新部署其Mythos和Fable AI模型。Anthropic计划于7月1日（明日）起恢复用户对这两款模型的访问权限。\n\n此次获批意味着此前受限或暂停的模型服务将重新上线，有助于Anthropic恢复产品节奏并维护用户与开发者生态。不过，公告未披露具体的监管细节以及模型此前受限的原因，其长期影响仍需观察。",
+    "category": "人工智能",
+    "tags": [
+      "Anthropic",
+      "AI模型",
+      "监管审批",
+      "Mythos"
+    ],
+    "source": "Engadget",
+    "time": "43分钟前",
+    "ts": "2026-07-01T01:59:26+00:00",
+    "url": "https://www.engadget.com/2205599/anthropic-redeploy-mythos-fable-ai-models/",
+    "image": "https://www.engadget.com/img/gallery/us-government-allows-anthropic-to-redeploy-its-mythos-and-fable-ai-models/l-intro-1782871024.jpg",
+    "stocks": []
+  },
+  {
     "id": "4f4e39f4371de262",
     "title": "鸿蒙智行6月交付5.06万台，累计破143万",
     "summary": "鸿蒙智行6月交付50624台，环比增长9.7%；上半年累计交付24万台，同比增长18.6%，全系累计交付突破143万台。",
