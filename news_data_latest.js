@@ -454,6 +454,25 @@ const newsData = [
     ]
   },
   {
+    "id": "eb543516408dc14a",
+    "title": "Claude Fable 5 明日全球上线",
+    "summary": "人工智能公司Anthropic旗下Claude的Fable 5功能或版本将于明日面向全球开放，进一步扩大其AI产品的可用范围。",
+    "body": "据外媒报道，Anthropic的Claude Fable 5将于明日在全球上线。该消息来自Hacker News，显示这一AI产品功能或版本正由有限范围扩展至全球市场。Fable 5的全球可用性意味着更多用户将能使用Anthropic的Claude服务，也可能加剧生成式AI助手领域的竞争。由于原文信息有限，具体功能细节尚待官方进一步披露。",
+    "category": "人工智能",
+    "tags": [
+      "Anthropic",
+      "Claude",
+      "AI助手",
+      "大模型"
+    ],
+    "source": "Hacker News",
+    "time": "2小时前",
+    "ts": "2026-07-01T04:25:50+00:00",
+    "url": "https://twitter.com/anthropicai/status/2072163884430229756",
+    "image": "",
+    "stocks": []
+  },
+  {
     "id": "ae85c26ae1acde79",
     "title": "Omdia：2026年Q1美国PC出货量同比降7%",
     "summary": "Omdia最新研究显示，2026年第一季度美国PC（不含平板电脑）出货量同比下降7.0%至1580万台，为2023年第三季度以来最大同比跌幅。市场下滑主要受内存与存储涨价、Windows 11升级周期结束及高基数效应影响。",
