@@ -1,5 +1,76 @@
 const newsData = [
   {
+    "id": "52f1b63e80afb588",
+    "title": "PlayStation 2028年起新游戏停售实体光盘",
+    "summary": "索尼PlayStation宣布，自2028年1月起所有PlayStation主机新游戏将仅提供数字版，不再发行实体光盘，此前已发售及2028年前推出的光盘游戏不受影响。",
+    "body": "索尼互动娱乐旗下PlayStation于当地时间7月1日发布声明称，2028年1月起，所有在PlayStation主机上发售的新游戏将不再推出实体光盘版本，仅通过PlayStation商店及合作零售商以数字版形式销售。这一调整不会影响已经发售或将在2028年1月前以光盘形式推出的游戏。此举意味着PlayStation将全面转向数字发行模式，有助于降低光盘生产、物流与渠道成本，同时可能进一步推高数字商店收入占比；但也可能引发部分依赖实体收藏与二手交易玩家群体的争议，并对线下游戏零售渠道造成持续压力。",
+    "category": "消费电子",
+    "tags": [
+      "游戏主机",
+      "数字发行",
+      "索尼",
+      "实体光盘"
+    ],
+    "source": "36氪",
+    "time": "刚刚",
+    "ts": "2026-07-01T12:58:31.604582+00:00",
+    "url": "https://36kr.com/newsflashes/3877079726469121?f=rss",
+    "image": "",
+    "stocks": [
+      {
+        "name": "索尼集团",
+        "ticker": "SONY",
+        "reason": "PlayStation为索尼核心业务，全面数字化有望提升游戏销售毛利率并强化数字生态收入",
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
+    "id": "8f375e7a98122551",
+    "title": "GPD预告WIN MAX 3掌机：搭载AMD锐龙AI Max+ 395/388",
+    "summary": "GPD即将推出搭载AMD锐龙AI Max+ 395/388处理器的PC掌机WIN MAX 3，配备9.06英寸165Hz OLED屏幕和模块化电池设计，进一步丰富高端PC掌机市场选择。",
+    "body": "GPD（中软赢科）近日预告了新款PC掌机GPD WIN MAX 3。该机搭载AMD锐龙AI Max+ 395 / 388处理器，配备9.06英寸2400×1504分辨率、165Hz刷新率OLED屏幕，内置至高128GB LPDDR5X-8000内存，并提供M.2 2280、M.2 2230双固态硬盘位及Mini SSD扩展能力。\n\n产品采用模块化电池设计，可选装110W外置风扇散热模块，在便携性与扩展性之间取得平衡。接口方面包含USB-C 40Gbps、多个USB 10Gbps、HDMI 2.1等，同时支持电容式摇杆、4096级霍尔效应扳机、指纹识别及DTS:X Ultra音效。\n\n此次新品进一步提升了PC掌机的性能上限，反映出高端掌上游戏设备对高性能APU与大屏高刷OLED方案的需求增长，也为AMD移动处理器在细分游戏设备市场的渗透提供了新的产品落地案例。",
+    "category": "消费电子",
+    "tags": [
+      "PC掌机",
+      "AMD",
+      "GPD",
+      "WIN MAX 3"
+    ],
+    "source": "IT之家",
+    "time": "3分钟前",
+    "ts": "2026-07-01T12:54:55+00:00",
+    "url": "https://www.ithome.com/0/971/338.htm",
+    "image": "https://img.ithome.com/newsuploadfiles/2026/7/cc760b08-3f1e-4f72-8168-cf993d30581e.jpg",
+    "stocks": [
+      {
+        "name": "超威半导体",
+        "ticker": "AMD",
+        "reason": "GPD新款掌机搭载AMD锐龙AI Max+ 395/388处理器，有助于AMD移动APU在高端掌机细分市场渗透。",
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
+    "id": "099f719f7598a920",
+    "title": "索尼宣布将关闭 PS3 与 PS Vita 线上商店",
+    "summary": "索尼宣布将逐步关闭 PS3 和 PS Vita 的 PlayStation 线上商店，未来玩家无法通过这两款设备购买新数字内容，但已购内容仍可下载。",
+    "body": "索尼 PlayStation 官方博客于 7 月 1 日发布公告，PS3 主机线上商店已运营近二十年，PS3 与 PS Vita 端商店将陆续在全球不同市场下线。自今年起，部分地区的 PS3 商店率先关停，墨西哥、洪都拉斯、尼加拉瓜等拉美市场及中东国家将在 2026 年陆续关闭，其余国家和地区计划于 2027 年 7 月全面关停。商店关闭后，玩家将无法再通过这两款设备购买全新数字内容，但此前已购买的游戏和道具可在可预见的未来继续重新下载游玩。索尼解释称，PS3 与 PS Vita 的硬件架构已无法满足新版 PlayStation 商店的支付合规与运行适配要求，因此选择下线旧商店。PS4 商店仍将保留。",
+    "category": "消费电子",
+    "tags": [
+      "索尼",
+      "PlayStation",
+      "PS3",
+      "PS Vita"
+    ],
+    "source": "IT之家",
+    "time": "7分钟前",
+    "ts": "2026-07-01T12:51:02+00:00",
+    "url": "https://www.ithome.com/0/971/337.htm",
+    "image": "https://img.ithome.com/newsuploadfiles/2026/7/c5e17219-bcf4-4685-84bc-8250397108f3.jpg?x-bce-process=image/format,f_auto",
+    "stocks": []
+  },
+  {
     "id": "9da3fe526aa4ba6b",
     "title": "Meta拟出售闲置AI算力以开拓云服务收入",
     "summary": "Meta Platforms正筹划构建云基础设施业务，计划向外部客户出售闲置AI算力和模型使用权，以期将巨额AI投入转化为新收入来源。",
