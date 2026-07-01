@@ -1,5 +1,62 @@
 const newsData = [
   {
+    "id": "6e89872055ece851",
+    "title": "AI新云Together AI融资8亿美元，估值达83亿美元",
+    "summary": "专注开源模型托管的AI新云服务商Together AI完成8亿美元融资，估值从2025年初的33亿美元跃升至83亿美元，反映市场对开源模型推理基础设施的强烈需求。",
+    "body": "据TechCrunch报道，AI新云（neocloud）服务商Together AI宣布完成8亿美元融资，公司估值达到83亿美元。该公司在2025年初上一轮融资时估值为33亿美元，不到一年时间内估值增长约1.5倍，显示出资本市场对开源大模型托管与推理服务的高度看好。\n\nTogether AI专注于为开发者和企业提供开源模型的训练、推理与部署服务，其商业模式依赖于大规模GPU集群与云原生AI基础设施。本轮融资将用于扩充算力资源、优化模型服务平台，并进一步拓展企业级生成式AI市场。\n\n作为AI基础设施赛道的重要玩家，Together AI估值快速攀升也反映出市场对替代性云算力供给模式的认可，同时加剧了与主流云厂商及同类新云服务商在开源模型生态上的竞争。",
+    "category": "AI 基础设施",
+    "tags": [
+      "AI新云",
+      "开源模型",
+      "Together AI",
+      "融资"
+    ],
+    "source": "TechCrunch",
+    "time": "刚刚",
+    "ts": "2026-07-01T18:29:14+00:00",
+    "url": "https://techcrunch.com/2026/07/01/neocloud-together-ai-raises-800m-leaps-to-8-3b-valuation/",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "2a2c9ac494ba4e38",
+    "title": "运动后步态检测可评估青少年脑震荡恢复",
+    "summary": "美国得州西南医学中心与Scottish Rite儿童医院研究发现，结合运动负荷后的步态分析检查，可反映青少年脑震荡恢复情况并帮助判断能否重返运动。",
+    "body": "该研究发表于《Clinical Journal of Sport Medicine》。研究人员让受试青少年在实验性运动负荷后接受步态分析与认知测试，发现脑震荡青少年的行走模式和认知表现与未受伤者存在显著差异。这一方法有望为青少年运动员重返赛场提供更客观、个性化的医学依据，降低再次受伤风险。不过目前仍处于临床研究阶段，距离大规模临床推广尚需进一步验证。",
+    "category": "生物医药",
+    "tags": [
+      "脑震荡",
+      "运动医学",
+      "步态分析",
+      "青少年健康"
+    ],
+    "source": "MedicalXpress",
+    "time": "9分钟前",
+    "ts": "2026-07-01T14:20:06-04:00",
+    "url": "https://medicalxpress.com/news/2026-07-exertion-insight-recovery-youth-concussions.html",
+    "image": "https://scx1.b-cdn.net/csz/news/tmb/2024/concussion.jpg",
+    "stocks": []
+  },
+  {
+    "id": "039b1bc3b69e111a",
+    "title": "罕见干细胞样T细胞或为攻克慢性病关键",
+    "summary": "T细胞是免疫系统清除病变细胞的“精锐部队”，但机体在对抗病毒慢性感染或癌症等长期疾病时需要源源不断补充这些杀伤细胞；研究发现，罕见的干细胞样T细胞可能正是维持这种持续供给的关键来源。",
+    "body": "T细胞作为免疫系统的核心攻击力量，能够识别并清除受感染或癌变的细胞。然而，在慢性病（如持续病毒感染或癌症）的漫长斗争中，机体需要持续补充具有杀伤功能的T细胞，以维持有效的免疫压力。\n\n研究人员将关注焦点投向一种罕见的干细胞样T细胞，认为它们可能在生成和补充杀伤性T细胞方面发挥关键作用。若这一机制得到证实，将为理解免疫系统的持久应答提供新视角，并有望推动针对慢性感染、癌症等疾病的免疫治疗新策略。",
+    "category": "生物医药",
+    "tags": [
+      "T细胞",
+      "免疫疗法",
+      "癌症治疗",
+      "慢性病"
+    ],
+    "source": "MedicalXpress",
+    "time": "9分钟前",
+    "ts": "2026-07-01T14:20:03-04:00",
+    "url": "https://medicalxpress.com/news/2026-07-rare-stem-cells-key-chronic.html",
+    "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/rare-stem-t-cells-may.jpg",
+    "stocks": []
+  },
+  {
     "id": "8ea2d31412c06e75",
     "title": "新网站可举报AI危险及不当行为",
     "summary": "据Wired报道，一个新兴网站允许用户举报AI聊天机器人的危险或不当行为，例如疑似协助制造危险物品或泄露个人信息。",
