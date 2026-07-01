@@ -56,6 +56,24 @@ const newsData = [
     "stocks": []
   },
   {
+    "id": "f9233538c9508aea",
+    "title": "伊朗与美谈判之际展现军事实力与修复迹象",
+    "summary": "随着与美国展开谈判，伊朗对外展示军事实力与防御韧性；尽管美以宣称造成广泛破坏，卫星图像显示伊朗正迅速修复受损设施。",
+    "body": "据报道，在美国与伊朗进行谈判的背景下，外界关注伊朗当前仍具备哪些军事能力。美国和以色列方面此前声称对伊朗目标实施了打击并造成广泛破坏，但伊朗方面表现出强硬姿态，强调其防御体系与反击意志。\n\n卫星图像显示，伊朗相关设施正快速尝试恢复运转，这被解读为伊朗意在展示其受损后的复原能力与持续作战能力。\n\n这一局势不仅使军事实力成为谈判桌上的潜在筹码，也进一步影响地区安全格局与大国之间的战略博弈。",
+    "category": "地缘科技",
+    "tags": [
+      "伊朗军事",
+      "美伊谈判",
+      "地缘冲突"
+    ],
+    "source": "Al Jazeera",
+    "time": "19分钟前",
+    "ts": "2026-07-01T17:19:55+00:00",
+    "url": "https://www.aljazeera.com/news/2026/7/1/what-military-capabilities-does-iran-possess-as-it-negotiates-with-us?traffic_source=rss",
+    "image": "",
+    "stocks": []
+  },
+  {
     "id": "1d6ba25fd3972516",
     "title": "Google Cloud发布VS Code云端Jupyter扩展",
     "summary": "Google Cloud Workbench Notebooks扩展正式上线，开发者可直接在VS Code中连接可扩展的云端Jupyter环境，利用Google Cloud基础设施完成机器学习开发。",
