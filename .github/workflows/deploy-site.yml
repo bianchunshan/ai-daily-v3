@@ -1,6 +1,9 @@
 name: 手动部署网站
 
 on:
+  schedule:
+    # 低频部署代码壳；新闻数据走 GitHub raw，不再靠 Vercel 每 10 分钟部署。
+    - cron: '52 16 * * *'
   workflow_dispatch: {}
 
 jobs:
