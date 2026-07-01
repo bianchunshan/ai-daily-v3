@@ -32,6 +32,32 @@ const newsData = [
     ]
   },
   {
+    "id": "47233817109edac2",
+    "title": "Xbox被曝测试实体光盘数字化，应对PlayStation去光驱化",
+    "summary": "据报道，微软Xbox正内部测试“Disc2Digital”功能，允许玩家将Xbox One及Xbox Series X/S实体光盘转为数字版，以顺应游戏行业向全数字转型的趋势。",
+    "body": "据The Verge报道，微软正在Xbox平台测试名为“Disc2Digital”的功能，支持将Xbox One和Xbox Series X/S实体光盘转换为数字授权。转换后光盘仍可运行，但若将光盘转借或出售，数字权利将失效；相关游戏若支持Xbox Play Anywhere，还可进行串流游玩。该功能暂不覆盖初代Xbox与Xbox 360光盘，部分早期光盘也可能因制造信息不足而无法使用此功能。\n\n这一动作被解读为在索尼PlayStation逐步弱化实体光盘、游戏行业加速全数字化的背景下，微软为下一代主机Project Helix可能取消光驱所做的铺垫。微软目前尚未最终决定下一代Xbox是否保留光驱，但光盘数字化方案有助于缓解玩家对实体游戏收藏失效的担忧，同时推动数字游戏与订阅服务生态。",
+    "category": "消费电子",
+    "tags": [
+      "Xbox",
+      "微软",
+      "数字游戏",
+      "游戏主机"
+    ],
+    "source": "Tom's Hardware",
+    "time": "3分钟前",
+    "ts": "2026-07-01T19:19:25+00:00",
+    "url": "https://www.tomshardware.com/video-games/console-gaming/xbox-reportedly-testing-a-way-to-digitize-physical-games-in-the-wake-of-playstation-killing-game-discs-feature-said-to-go-back-to-xbox-one-era-games",
+    "image": "https://cdn.mos.cms.futurecdn.net/mFKpufMPUKRTroyPTjZEZA-1280-80.png",
+    "stocks": [
+      {
+        "name": "微软",
+        "ticker": "MSFT",
+        "reason": "Xbox隶属微软，光盘数字化及潜在全数字主机策略有助于扩大数字游戏与订阅服务收入。",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
     "id": "09cdaecf920fbd25",
     "title": "苹果Hide My Email被曝漏洞，真实邮箱或泄露",
     "summary": "一名安全研究人员称，苹果的“隐藏邮件地址”功能存在漏洞，可能使真实电子邮箱地址意外暴露。该问题若属实，将削弱该功能的隐私保护效果。",
