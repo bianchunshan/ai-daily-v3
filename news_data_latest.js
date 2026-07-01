@@ -1,5 +1,97 @@
 const newsData = [
   {
+    "id": "3f76bf8f7d3fc7a6",
+    "title": "可穿戴设备揭示大学生四年睡眠变化规律",
+    "summary": "美国天普大学一项发表于PLOS One的研究表明，可穿戴设备能够提供准确、长期的睡眠数据，帮助分析大学生从入学到毕业期间睡眠模式的变化。",
+    "body": "睡眠是影响认知功能、学业表现和社交互动的重要健康基础。美国天普大学赵瑶等研究人员在PLOS One发表的研究指出，可穿戴设备可连续、准确地追踪睡眠指标，为纵向分析睡眠模式变化提供可靠数据支持。\n\n该研究聚焦于大学生从大一至大四的睡眠变化，展示了可穿戴设备在健康监测与学术研究中的潜力。随着睡眠健康日益受到关注，相关数据采集技术有望推动个性化健康干预和数字医疗应用的发展。",
+    "category": "消费电子",
+    "tags": [
+      "可穿戴设备",
+      "睡眠监测",
+      "数字健康"
+    ],
+    "source": "MedicalXpress",
+    "time": "5分钟前",
+    "ts": "2026-07-01T14:00:21-04:00",
+    "url": "https://medicalxpress.com/news/2026-06-wearable-device-reveals-freshman-senior.html",
+    "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/wearable-devices-shed.jpg",
+    "stocks": []
+  },
+  {
+    "id": "6c21cfaf705f4bfc",
+    "title": "调整措辞短信可提高干细胞捐献者依从性",
+    "summary": "大阪大学研究人员发现，通过调整短信措辞，可显著降低干细胞捐献者在确认分型前流失的比例，有助于扩大可移植供体库。",
+    "body": "造血干细胞移植是治疗血液疾病的重要手段，但部分已注册的潜在捐献者在进一步确认分型前会退出，导致可用供体减少。大阪大学等机构的研究者开展了一项行为经济学干预试验，探讨短信中不同措辞对捐献者继续配合筛查意愿的影响。\n\n研究结果表明，仅需对通知短信进行小幅措辞调整，就能有效提升捐献者的依从性，使更多潜在供体顺利完成确认分型。这一发现为优化医疗招募沟通、扩大干细胞捐献库提供了低成本且可推广的实践策略。该研究已发表于《Journal of Economic Behavior & Organization》。",
+    "category": "生物医药",
+    "tags": [
+      "干细胞捐献",
+      "行为经济学",
+      "数字医疗",
+      "医疗沟通"
+    ],
+    "source": "MedicalXpress",
+    "time": "5分钟前",
+    "ts": "2026-07-01T14:00:14-04:00",
+    "url": "https://medicalxpress.com/news/2026-07-simple-message-stem-cell-donors.html",
+    "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/a-simple-message-helps.jpg",
+    "stocks": []
+  },
+  {
+    "id": "cd0f6e7bb542d826",
+    "title": "CAR-T疗法靶向驱动罕见血癌的关键突变",
+    "summary": "伦敦大学学院与牛津大学研究团队开发出一种新型CAR-T细胞疗法，可精准识别并清除导致骨髓增殖性肿瘤（MPNs）的致癌干细胞，同时不损伤健康血细胞。",
+    "body": "据英国伦敦大学学院与牛津大学研究人员主导的一项新研究，科学家已设计出一种新型CAR-T细胞疗法，能够寻找并摧毁驱动骨髓增殖性肿瘤（MPNs）这类罕见血癌的致癌干细胞，同时保留健康血细胞。该疗法通过靶向关键突变相关的肿瘤干细胞，有望解决传统治疗难以根除病变根源的问题。研究人员表示，这一策略为治疗骨髓增殖性肿瘤等难治性血液癌症提供了新的临床方向，但仍需进一步研究验证其安全性与有效性。",
+    "category": "生物医药",
+    "tags": [
+      "CAR-T疗法",
+      "血液肿瘤",
+      "基因治疗"
+    ],
+    "source": "MedicalXpress",
+    "time": "5分钟前",
+    "ts": "2026-07-01T14:00:03-04:00",
+    "url": "https://medicalxpress.com/news/2026-07-car-cell-therapy-key-mutation.html",
+    "image": "https://scx1.b-cdn.net/csz/news/tmb/2025/blood.jpg",
+    "stocks": []
+  },
+  {
+    "id": "aa269891c6851428",
+    "title": "母亲对婴儿回应迟缓或预示儿童后期精神障碍",
+    "summary": "英国格拉斯哥大学发表于《PLOS One》的研究显示，母亲对1岁婴儿发声回应越慢，孩子在7岁前被诊断为精神障碍的可能性越高。",
+    "body": "一项发表在《PLOS One》上的研究由英国格拉斯哥大学Bethany Stanley等人完成，追踪了母婴互动与儿童后期精神健康之间的关联。研究发现，当母亲对1岁婴儿的发声反应较慢时，这些儿童在7岁前被诊断患有精神障碍的概率更高。该结果表明，生命早期的亲子互动质量可能是影响儿童神经心理发育的重要风险因素，有望为儿童精神疾病的早期识别、筛查和预防干预提供新的研究方向。",
+    "category": "生物医药",
+    "tags": [
+      "儿童精神健康",
+      "早期发育",
+      "生命科学"
+    ],
+    "source": "MedicalXpress",
+    "time": "5分钟前",
+    "ts": "2026-07-01T14:00:01-04:00",
+    "url": "https://medicalxpress.com/news/2026-06-moms-responsiveness-babies-childhood-psychiatric.html",
+    "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/moms-responsiveness-to.jpg",
+    "stocks": []
+  },
+  {
+    "id": "c3ed211c4ebaa7bb",
+    "title": "热木星CoRoT-2 b热点位置异常挑战行星模型",
+    "summary": "天文学家发现热木星CoRoT-2 b可能并未被潮汐锁定，其热点位置偏离预期，挑战了此前对这些极端系外行星的统一认识。",
+    "body": "热木星是宇宙中极端的行星类型，它们与木星或土星类似，但距离恒星极近，公转周期仅需数天。新研究聚焦系外行星CoRoT-2 b，其质量约为木星的3.5倍、半径约为木星的1.5倍，距离地球约696光年，公转周期仅约41小时。\n\n研究团队由NASA系外行星科学研究所的Aurora Kesseli领导，他们发现CoRoT-2 b似乎没有被潮汐锁定，这与大多数热木星一侧永朝向恒星的常识相悖。这意味着其大气中的热点不在常规位置，现有“一刀切”的模型无法解释。\n\n这一发现表明天文学家对热木星的形成与大气动力学仍需更多观测，每个天体可能都有独特特征，将推动系外行星大气模型的修正。",
+    "category": "商业航天",
+    "tags": [
+      "系外行星",
+      "热木星",
+      "潮汐锁定",
+      "天文学"
+    ],
+    "source": "Space.com",
+    "time": "5分钟前",
+    "ts": "2026-07-01T18:00:00+00:00",
+    "url": "https://www.space.com/astronomy/exoplanets/this-weird-hot-jupiter-exoplanet-has-a-hotspot-in-the-wrong-place-and-astronomers-arent-sure-how",
+    "image": "https://cdn.mos.cms.futurecdn.net/F8C3LcrQRMo9BRaegeGbXY-1280-80.png",
+    "stocks": []
+  },
+  {
     "id": "896bc20de2613151",
     "title": "Cloudflare要求AI企业为出版内容付费",
     "summary": "Cloudflare要求AI公司在9月15日前将搜索爬虫与用于AI训练和智能体的爬虫分离，否则将在许多出版商网站默认拦截；此举意在推动AI企业为使用出版商内容付费。",
@@ -114,6 +206,44 @@ const newsData = [
         "confidence": "high"
       }
     ]
+  },
+  {
+    "id": "270e5a08ff3b2d61",
+    "title": "AnalystAIPack发布118项AI智能体技能用于恶意软件分析",
+    "summary": "Hacker News上出现名为AnalystAIPack的开源项目，提供118个可运行的AI Agent技能，专门用于恶意软件分析与逆向工程（RE）。该项目将大模型智能体能力引入网络安全攻防与代码分析场景。",
+    "body": "AnalystAIPack在Hacker News上亮相，宣称包含118个可直接运行的AI Agent技能（skills），覆盖恶意软件分析与逆向工程任务。该项目把大语言模型驱动的Agent能力下沉到二进制分析、样本调试、行为提取等安全研究环节，旨在提升安全分析师和逆向工程师的自动化水平。\n\n从产业影响看，此类工具反映了AI Agent在网络安全攻防、威胁狩猎与代码审计中的渗透加速。安全研究者和企业蓝队可借助模块化技能降低重复性分析成本，但也意味着黑灰产可能更快获得自动化分析能力，攻防双方的技术迭代可能同步提速。目前该项目尚处社区分享阶段，未披露商业化计划或企业合作。",
+    "category": "网络安全",
+    "tags": [
+      "AI Agent",
+      "网络安全",
+      "恶意软件分析",
+      "逆向工程"
+    ],
+    "source": "Hacker News",
+    "time": "38分钟前",
+    "ts": "2026-07-01T17:27:00+00:00",
+    "url": "https://meltedinhex.com/posts/analyst-ai-pack/",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "f4c879f14978c94e",
+    "title": "读者是否正用AI模型创作小说？",
+    "summary": "Hacker News上的一则讨论提出，读者是否正在利用AI模型生成小说等虚构作品。该问题折射出生成式AI在文学创作领域日益受到关注。",
+    "body": "这则来自Hacker News的消息以提问形式引发关注：普通读者是否正在使用AI模型进行小说等虚构内容的创作。随着大语言模型能力的提升，生成式AI已逐步进入故事创作、角色设计和文本润色等文学相关场景。\n\n该讨论反映出AIGC（人工智能生成内容）正在从专业工具向普通用户渗透，也提示出版、阅读与创作生态可能因AI辅助写作而发生变化。不过，原文仅呈现问题与基本互动数据，未提供具体案例、平台或用户规模等信息。",
+    "category": "人工智能",
+    "tags": [
+      "生成式AI",
+      "AIGC",
+      "文学创作",
+      "大语言模型"
+    ],
+    "source": "Hacker News",
+    "time": "44分钟前",
+    "ts": "2026-07-01T17:21:07+00:00",
+    "url": "https://arxiv.org/abs/2606.22748",
+    "image": "",
+    "stocks": []
   },
   {
     "id": "3fd11deee29c19b5",
