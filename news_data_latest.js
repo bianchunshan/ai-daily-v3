@@ -1,5 +1,83 @@
 const newsData = [
   {
+    "id": "9da3fe526aa4ba6b",
+    "title": "Meta拟出售闲置AI算力以开拓云服务收入",
+    "summary": "Meta Platforms正筹划构建云基础设施业务，计划向外部客户出售闲置AI算力和模型使用权，以期将巨额AI投入转化为新收入来源。",
+    "body": "据报道，Meta Platforms正在规划一项云基础设施业务，准备把其数据中心和AI训练集群中的闲置算力，以及部分AI模型的使用权，出售给外部企业以创造收入。这一举措意味着Meta可能从单纯为自有产品采购GPU和数据中心，转向对外提供AI算力与模型服务，提高资产利用效率。\n\n目前Meta是全球最大的AI算力买家之一，拥有庞大的GPU集群。若将闲置资源商业化，不仅有望缓解其持续攀升的资本开支压力，还可能使其成为AWS、Google Cloud、Microsoft Azure之外又一AI云算力供应商，对全球AI基础设施市场格局产生影响。不过，具体上线时间、定价模式和目标客户等细节尚未披露。",
+    "category": "AI 基础设施",
+    "tags": [
+      "Meta",
+      "AI算力",
+      "云服务",
+      "算力租赁"
+    ],
+    "source": "36氪",
+    "time": "刚刚",
+    "ts": "2026-07-01T12:43:23.251497+00:00",
+    "url": "https://36kr.com/newsflashes/3877069027913989?f=rss",
+    "image": "",
+    "stocks": [
+      {
+        "name": "Meta Platforms",
+        "ticker": "META",
+        "reason": "Meta自身若成功将闲置AI算力商业化，有望直接新增云服务收入并提升资产回报。",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "61f867209e2419f2",
+    "title": "特斯拉6月欧洲多国销量回暖，法国翻倍增长",
+    "summary": "6月特斯拉在欧洲丹麦、瑞典、西班牙和法国等市场的新车注册量均出现上涨，法国同比增幅更超一倍；但挪威因前期政策刺激透支需求，销量同比大跌43%。",
+    "body": "据路透社报道，6月特斯拉在欧洲多个主要市场的新车注册量明显回升。丹麦、瑞典和西班牙分别大涨39%、56%和5.6%，法国表现尤为突出，注册量同比翻倍以上。分析指出，法国电动汽车补贴政策和企业车队电动化推动了需求，特斯拉也逐步摆脱了因首席执行官马斯克政治立场引发的负面舆论影响。\n\n不过挪威市场走势与整体相反。由于当地此前推出力度较大的新能源购车激励，并计划在2026年缩减税收优惠，大量消费者提前购车，导致今年需求被透支，6月特斯拉在挪威注册量同比大跌43%。\n\n此次欧洲多市场回暖为特斯拉即将公布的二季度交付数据奠定了积极基调。分析师预测，特斯拉二季度汽车交付量同比将上涨约5%，其中大部分增量可能来自欧洲市场。",
+    "category": "未来能源",
+    "tags": [
+      "特斯拉",
+      "欧洲电动车市场",
+      "新能源汽车",
+      "销量"
+    ],
+    "source": "IT之家",
+    "time": "刚刚",
+    "ts": "2026-07-01T12:42:29+00:00",
+    "url": "https://www.ithome.com/0/971/334.htm",
+    "image": "https://img.ithome.com/newsuploadfiles/2026/1/023e55fe-a725-43c8-8bcd-d8e734504ee0.jpg",
+    "stocks": [
+      {
+        "name": "特斯拉",
+        "ticker": "TSLA",
+        "reason": "6月欧洲多市场新车注册量显著回暖，二季度交付预期有望改善，直接利好其汽车销售与业绩表现。",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "a5eb12406da88bd6",
+    "title": "阿维塔6月交付7459辆，07L本月预售",
+    "summary": "阿维塔官方宣布6月新车交付7,459辆，全新07L将于本月开启预售并首批搭载华为乾崑智驾ADS 5。",
+    "body": "阿维塔官方宣布，6月新车交付7,459辆，并计划年内将全新旗舰店覆盖超20城。与此同时，阿维塔07L即将开启预售，预计本月正式发布。\n\n据官方预热，阿维塔07L延续家族化前脸设计，车顶配备华为乾崑896线激光雷达，B柱间带有华为乾崑标识，车内采用鸿蒙座舱，并将首批搭载华为乾崑智驾ADS 5。此外，阿维塔已获颁L3级自动驾驶测试牌照，正在多场景道路实测中推进。\n\n新车交付量增长、旗舰新品预售及L3级自动驾驶测试的推进，表明阿维塔在高端智能电动车市场的产品节奏加快，也有望提升其在智能驾驶领域的竞争力和品牌关注度。",
+    "category": "机器人",
+    "tags": [
+      "阿维塔",
+      "自动驾驶",
+      "新能源汽车",
+      "华为智驾"
+    ],
+    "source": "IT之家",
+    "time": "2分钟前",
+    "ts": "2026-07-01T12:40:26+00:00",
+    "url": "https://www.ithome.com/0/971/332.htm",
+    "image": "https://img.ithome.com/newsuploadfiles/2026/7/9746687e-4d7a-40e8-977f-396fc9ae9236.jpg",
+    "stocks": [
+      {
+        "name": "长安汽车",
+        "ticker": "000625.SZ",
+        "reason": "阿维塔是长安汽车旗下高端智能电动车品牌，销量增长及新车预售有望带动母公司业绩",
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
     "id": "6baf677b56e13d2f",
     "title": "北航团队创立航墨科技，近亿元天使轮押注智能变刚度关节",
     "summary": "航墨科技完成近亿元天使轮融资，专注智能变刚度关节与消费级智能外骨骼，核心产品FlexmoJoint已实现抗冲击、能量回收和多样性刚度能力。",
@@ -265,6 +343,25 @@ const newsData = [
     "ts": "2026-07-01T12:14:13+00:00",
     "url": "https://www.ithome.com/0/971/329.htm",
     "image": "https://img.ithome.com/newsuploadfiles/2026/7/0f1977d0-1263-4288-9ff9-829fecbd1ec6.png?x-bce-process=image/format,f_auto",
+    "stocks": []
+  },
+  {
+    "id": "2a999425f3492518",
+    "title": "Anthropic推出Claude Science，AI助力科学研究",
+    "summary": "Anthropic发布面向科研人员与生物医药从业者的新产品Claude Science，可基于简洁指令自主执行计算生物学、药物研发等任务，显示该公司正加码AI for Science布局。",
+    "body": "Anthropic在一场面向制药企业高管、生物科技创始人和科研人员的活动中发布旗舰新品Claude Science。该产品定位类似于Claude Code之于软件工程，旨在通过简洁的高层指令自主完成有意义的科研工作，并内置计算生物学与药物开发工具。Anthropic表示，公司将把该产品用于自身针对罕见病和 neglected diseases 的药物研究，进一步拓展AI在生命科学领域的应用。",
+    "category": "人工智能",
+    "tags": [
+      "人工智能",
+      "AI for Science",
+      "药物研发",
+      "Anthropic"
+    ],
+    "source": "MIT Tech Review",
+    "time": "32分钟前",
+    "ts": "2026-07-01T12:10:00+00:00",
+    "url": "https://www.technologyreview.com/2026/07/01/1139996/the-download-anthropic-claude-science-california-carbon-manure/",
+    "image": "https://wp.technologyreview.com/wp-content/uploads/2023/02/Selman-MIT-pill-resize.jpeg?w=3000",
     "stocks": []
   },
   {
