@@ -1,5 +1,31 @@
 const newsData = [
   {
+    "id": "0b7bc0e33ac44e75",
+    "title": "雪佛兰探界者EV销量下滑41%，Bolt与凯迪拉克接棒",
+    "summary": "通用汽车最畅销的雪佛兰探界者EV在2026年上半年销量同比下降41%，但新雪佛兰Bolt EV与凯迪拉克豪华电动SUV的销量增长部分抵消了整体下滑。",
+    "body": "通用汽车旗下最畅销的电动车型雪佛兰探界者EV在2026年上半年遭遇销量下滑，同比降幅达41%。不过，新款雪佛兰Bolt EV以及凯迪拉克品牌豪华电动SUV的销售表现较好，在一定程度上缓解了这一影响。\n\n该数据反映出通用汽车电动车产品组合正在发生变化，主力车型销量波动的同时，新车型和豪华品牌产品正在成为新的增长来源。这对通用汽车整体电动化转型节奏与市场表现具有一定参考意义。",
+    "category": "未来能源",
+    "tags": [
+      "电动汽车",
+      "通用汽车",
+      "销量数据",
+      "豪华车电动化"
+    ],
+    "source": "Electrek",
+    "time": "2分钟前",
+    "ts": "2026-07-01T17:07:18+00:00",
+    "url": "https://electrek.co/2026/07/01/chevy-equinox-ev-sales-fall-41-new-bolt-picks-up-slack/",
+    "image": "https://electrek.co/wp-content/uploads/sites/3/2026/07/Chevy-Equinox-Bolt-EV-sales-2026.jpeg?quality=82&#038;strip=all&#038;w=1400",
+    "stocks": [
+      {
+        "name": "通用汽车",
+        "ticker": "GM",
+        "reason": "新闻直接涉及通用汽车雪佛兰与凯迪拉克电动车型的销量变化，与其电动化业务表现直接相关。",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
     "id": "aee36dbd92da0d62",
     "title": "MIT研发便携超声系统助力乳腺癌早筛",
     "summary": "麻省理工学院团队开发出一种便携式超声探测器，有望让乳腺癌高风险人群更频繁地接受影像检查，从而实现更早诊断。",
