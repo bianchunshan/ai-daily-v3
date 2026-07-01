@@ -1,5 +1,24 @@
 const newsData = [
   {
+    "id": "0501cd39639cb335",
+    "title": "FDA科学家反对扩大多肽药物可及性 肯尼迪改组顾问委员会",
+    "summary": "美国联邦卫生科学家对放宽有争议多肽药物获取渠道发出警告。与此同时，美国食品药品监督管理局（FDA）正在改组将审议是否放宽相关限制的顾问委员会。",
+    "body": "美国联邦卫生科学家敦促对扩大获取有争议的多肽药物保持谨慎。这些药物因其潜在疗效与安全性问题而备受关注，监管机构内部对此存在分歧。与此同时，美国食品药品监督管理局（FDA）正在重新改组负责审议是否放宽相关限制的顾问委员会。这一人事与架构调整发生在小罗伯特·肯尼迪（Robert F. Kennedy Jr.）领导卫生与公众服务部期间，引发外界对FDA科学独立性与药品监管取向的关注。",
+    "category": "生物医药",
+    "tags": [
+      "FDA",
+      "多肽药物",
+      "药品监管",
+      "肯尼迪"
+    ],
+    "source": "MedicalXpress",
+    "time": "3分钟前",
+    "ts": "2026-07-01T18:20:07-04:00",
+    "url": "https://medicalxpress.com/news/2026-07-fda-scientists-peptide-access-kennedy.html",
+    "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/fda-scientists-warn-ag.jpg",
+    "stocks": []
+  },
+  {
     "id": "7610eae6e5b1d1bb",
     "title": "加州大学戴维斯分校研究有望阻止肿瘤药物耐药",
     "summary": "加州大学戴维斯分校科学家揭示了癌细胞如何逃避BET抑制剂，为预防耐药性和开发更有效疗法提供新思路。",
