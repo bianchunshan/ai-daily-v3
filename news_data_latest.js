@@ -1,5 +1,24 @@
 const newsData = [
   {
+    "id": "f64fd47d0a495645",
+    "title": "马斯克否认SpaceX曾展示AI手机原型",
+    "summary": "马斯克否认《华尔街日报》关于SpaceX在6月IPO前向部分投资者展示AI手机原型的报道，并称该报道“完全虚假”。",
+    "body": "据《华尔街日报》周三报道，SpaceX在今年6月创纪录的首次公开募股（IPO）之前，曾向部分投资者展示了一款“类似手机的手持设备原型”。报道称该设备“比iPhone更薄”，但报道内容在马斯克的回应中被指为不实。\n\n马斯克随后在社交媒体上明确否认了这一消息，称有关SpaceX AI手机原型的报道“完全虚假”。这一传闻曾引发市场对SpaceX可能进入智能手机领域的猜测。\n\n若该传闻属实，将意味着SpaceX可能凭借星链（Starlink）通信生态涉足消费级移动通信硬件市场，但马斯克的否认使相关预期落空，事件目前更多是市场传闻层面的波动。",
+    "category": "商业航天",
+    "tags": [
+      "SpaceX",
+      "马斯克",
+      "AI手机",
+      "星链"
+    ],
+    "source": "The Verge",
+    "time": "刚刚",
+    "ts": "2026-07-01T16:10:21-04:00",
+    "url": "https://www.theverge.com/science/960442/spacex-phone-prototype-elon-musk",
+    "image": "",
+    "stocks": []
+  },
+  {
     "id": "dd3321b75dcf8789",
     "title": "SpaceX被曝测试手持AI设备",
     "summary": "据Engadget报道，SpaceX正内部测试一款手持AI设备，可让用户无需智能手机即可访问xAI的人工智能模型。",
