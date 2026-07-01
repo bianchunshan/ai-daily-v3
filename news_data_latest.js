@@ -1,5 +1,24 @@
 const newsData = [
   {
+    "id": "09cdaecf920fbd25",
+    "title": "苹果Hide My Email被曝漏洞，真实邮箱或泄露",
+    "summary": "一名安全研究人员称，苹果的“隐藏邮件地址”功能存在漏洞，可能使真实电子邮箱地址意外暴露。该问题若属实，将削弱该功能的隐私保护效果。",
+    "body": "据外媒报道，安全研究人员指出苹果“Hide My Email”（隐藏邮件地址）功能存在一项漏洞，可能导致用户的真实电子邮件地址在特定情况下被泄露，使该功能的匿名保护作用大打折扣。\n\n“Hide My Email”是苹果iCloud+服务的一项隐私功能，旨在通过生成随机邮箱地址，保护用户真实身份不被应用和网站获取。如果漏洞确实存在，用户在注册或使用第三方服务时的匿名性将面临风险，也可能引发对苹果隐私安全承诺的关注。\n\n目前该研究结论尚待苹果官方确认与回应。事件再次凸显消费者隐私保护功能的安全性审计与漏洞响应的重要性，也可能促使相关企业加强对隐私功能的测试与修复。",
+    "category": "网络安全",
+    "tags": [
+      "苹果",
+      "隐私保护",
+      "安全漏洞",
+      "iCloud"
+    ],
+    "source": "TechCrunch",
+    "time": "1分钟前",
+    "ts": "2026-07-01T19:18:07+00:00",
+    "url": "https://techcrunch.com/2026/07/01/apples-hide-my-email-feature-has-a-bug-thats-been-exposing-real-email-addresses-researcher-claims/",
+    "image": "",
+    "stocks": []
+  },
+  {
     "id": "3106cf2b8d701194",
     "title": "Meta据称将自建云计算业务",
     "summary": "据外媒报道，Meta正计划通过出售服务器基础设施进军云计算市场，这将使其与亚马逊、谷歌直接竞争。若落地，Meta有望把自研算力资源变现为新的营收来源。",
@@ -91892,6 +91911,12 @@ const newsData = [
   }
 ];
 const newsDigest = {
-  "text": "",
-  "highlights": []
+  "text": "今日科技前沿聚焦AI基础设施竞速：Meta传自建云计算、Together AI融资8亿美元；机器人与消费电子受关注，Weave Robotics推家用机器人、索尼2028年停售PS实体光盘；生物医药亦有疟疾疫苗新靶点等进展。",
+  "highlights": [
+    "3106cf2b8d701194",
+    "6e89872055ece851",
+    "d75a91f4b24059de",
+    "16ab310ab843d7f0",
+    "c02f825d533c05a1"
+  ]
 };
