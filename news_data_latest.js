@@ -1,5 +1,50 @@
 const newsData = [
   {
+    "id": "74c0a2b6b4bb0cb5",
+    "title": "苹果\"Hide My Email\"被曝漏洞，匿名邮箱可关联真实地址",
+    "summary": "据报道，苹果\"Hide My Email\"功能存在安全漏洞，可能将用户匿名邮箱地址与其真实邮箱地址关联，威胁用户隐私安全。",
+    "body": "据Engadget报道，苹果用于保护用户隐私的\"Hide My Email\"功能被指存在漏洞。该漏洞据称能够将用户生成的匿名邮件地址与其真实邮件地址关联起来，从而可能暴露用户的真实身份。\n目前关于该漏洞的具体技术细节和利用方式披露有限，但如果问题属实，将削弱用户对苹果隐私保护能力的信任，并可能引发对邮件转发与隐私保护机制的进一步安全审查。",
+    "category": "网络安全",
+    "tags": [
+      "网络安全",
+      "隐私保护",
+      "软件漏洞",
+      "苹果公司"
+    ],
+    "source": "Engadget",
+    "time": "3分钟前",
+    "ts": "2026-07-01T20:57:11+00:00",
+    "url": "https://www.engadget.com/2206382/apple-s-hide-my-email-may-not-be-hiding-anything/",
+    "image": "https://www.engadget.com/img/gallery/apples-hide-my-email-may-not-be-hiding-anything/l-intro-1782939230.jpg",
+    "stocks": []
+  },
+  {
+    "id": "6972d196c8759a42",
+    "title": "福特3万美元电动皮卡再曝路试，内饰细节首现",
+    "summary": "福特一款定价约3万美元的中型电动皮卡近日再度被拍到路试，部分外观与内饰设计首次曝光。该车型将进一步降低福特电动皮卡的入手门槛，有望扩大其在大众市场的覆盖。",
+    "body": "据外媒报道，福特中型电动皮卡 prototype 近日再次现身公共道路测试。谍照显示，新车比例接近传统燃油皮卡，同时首次揭示了部分内饰布局，包括悬浮式中控屏与新型方向盘设计。作为福特电动化战略的重要产品，该车定位约3万美元价位，明显低于现款 F-150 Lightning，意在切入更广阔的大众消费市场。若这款车型能够按计划实现较低售价与实用续航，将有助于福特在北美电动皮卡市场与特斯拉 Cybertruck、Rivian 等竞品展开差异化竞争，并推动其电动车整体销量增长。",
+    "category": "未来能源",
+    "tags": [
+      "电动汽车",
+      "电动皮卡",
+      "福特",
+      "新能源汽车"
+    ],
+    "source": "Electrek",
+    "time": "9分钟前",
+    "ts": "2026-07-01T20:51:04+00:00",
+    "url": "https://electrek.co/2026/07/01/fords-30000-ev-pickup-captured-again-new-details-emerge/",
+    "image": "https://electrek.co/wp-content/uploads/sites/3/2026/06/Ford-30000-EV-pickup-spotted-testing.jpeg?quality=82&#038;strip=all&#038;w=1400",
+    "stocks": [
+      {
+        "name": "福特汽车",
+        "ticker": "F",
+        "reason": "新闻主体为福特旗下电动皮卡，产品进展直接影响其电动车业务预期",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
     "id": "69c215f0bf184a30",
     "title": "Claude Code v2.1.198发布，智能体功能再升级",
     "summary": "Anthropic发布Claude Code v2.1.198版本，Claude in Chrome全面可用，新增后台智能体通知、/dataviz数据可视化技能及AWS上游网关支持，并修复多项稳定性问题。",
