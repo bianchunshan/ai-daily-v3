@@ -26,6 +26,24 @@ const newsData = [
     ]
   },
   {
+    "id": "3d77a4bdafe2a0c3",
+    "title": "全球海洋六月气温创新高，科学家警告更热将至",
+    "summary": "欧盟监测机构称2026年前六个月海洋持续异常温暖，全球海洋六月平均气温创历史新高。",
+    "body": "欧盟监测数据显示，2026年6月全球海洋表面温度达到有记录以来同期最高，科学家预计后续热量还将加剧。该机构指出，2026年上半年“持续且异常地温暖”，与大气候变暖趋势一致。海洋升温可能对海洋生态、渔业和沿海气候产生深远影响。",
+    "category": "未来能源",
+    "tags": [
+      "海洋升温",
+      "气候变化",
+      "环境监测"
+    ],
+    "source": "Al Jazeera",
+    "time": "16分钟前",
+    "ts": "2026-07-01T04:38:43+00:00",
+    "url": "https://www.aljazeera.com/news/2026/7/1/worlds-oceans-experience-hottest-june-ever-scientists-say-more-heat-ahead?traffic_source=rss",
+    "image": "",
+    "stocks": []
+  },
+  {
     "id": "c21e71e0f12a5d7f",
     "title": "问界6月交付新车超3万台，上半年累计增长10.2%",
     "summary": "问界汽车公布6月交付数据，单月交付新车30199台，上半年累计交付同比增长10.2%。",
@@ -85251,6 +85269,12 @@ const newsData = [
   }
 ];
 const newsDigest = {
-  "text": "",
-  "highlights": []
+  "text": "今日AI端侧模型与基础设施液冷持续升温，新能源车交付保持增长，商业航天与国际空间站动态亦受关注。",
+  "highlights": [
+    "1e67c580d4aa63ee",
+    "786a72d94049df78",
+    "c21e71e0f12a5d7f",
+    "d9c063a031bceaae",
+    "7892a82eb1bcd646"
+  ]
 };
