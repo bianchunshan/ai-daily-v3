@@ -1,5 +1,50 @@
 const newsData = [
   {
+    "id": "2918486d29664411",
+    "title": "隐私AI平台Venice AI获6500万美元A轮融资跻身独角兽",
+    "summary": "Venice AI宣布完成6500万美元A轮融资，估值达到独角兽级别；其CEO表示，该公司已盈利，年化经常性收入超过7000万美元。",
+    "body": "隐私优先的人工智能平台 Venice AI 近日宣布完成 6500 万美元 A 轮融资，正式跻身独角兽行列。公司创始人兼首席执行官 Erik Voorhees 透露，Venice AI 目前已实现盈利，年化经常性收入（ARR）超过 7000 万美元。\n\n本轮融资显示出资本市场对强调用户隐私、去中心化数据处理的 AI 应用兴趣升温。Venice AI 以“隐私优先”作为差异化卖点，试图在竞争激烈的生成式 AI 市场中占据一席之地。\n\n若 Venice AI 能够持续扩大用户规模并推动商业化，其发展模式或为隐私计算与去中心化 AI 赛道提供参考。不过，该公司尚未上市，目前没有直接利好标的。",
+    "category": "人工智能",
+    "tags": [
+      "隐私AI",
+      "独角兽",
+      "A轮融资",
+      "AI应用"
+    ],
+    "source": "TechCrunch",
+    "time": "3分钟前",
+    "ts": "2026-07-01T14:25:23+00:00",
+    "url": "https://techcrunch.com/2026/07/01/venice-ai-becomes-a-unicorn-with-65m-series-a-as-its-privacy-first-ai-platform-takes-off/",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "8e34f2832b03e0fb",
+    "title": "谷歌智能体助手Gemini Spark登陆Mac",
+    "summary": "谷歌7×24小时智能体助手Gemini Spark正式推出Mac版本，并新增实时追踪和更多应用支持。",
+    "body": "谷歌宣布其名为Gemini Spark的“agentic”智能助手已正式上线Mac平台。该助手被定位为全天候运行的智能体，能够跨应用执行任务，此次更新还带来了实时追踪能力以及对更多第三方应用的支持。业内人士认为，此举有助于谷歌在桌面端拓展AI智能体生态，并与苹果Siri、微软Copilot等助手形成更直接竞争。",
+    "category": "人工智能",
+    "tags": [
+      "智能体",
+      "Gemini",
+      "谷歌",
+      "AI应用"
+    ],
+    "source": "TechCrunch",
+    "time": "8分钟前",
+    "ts": "2026-07-01T14:20:19+00:00",
+    "url": "https://techcrunch.com/2026/07/01/gemini-spark-googles-agentic-assistant-is-now-available-on-mac/",
+    "image": "",
+    "stocks": [
+      {
+        "name": "Alphabet（谷歌）",
+        "ticker": "GOOGL",
+        "reason": "Gemini Spark是谷歌力推的AI智能体助手，登陆Mac有助于扩大其AI应用生态和用户覆盖。",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
     "id": "088e81367b548227",
     "title": "索尼2028年起停止生产新PlayStation实体光盘",
     "summary": "索尼宣布自2028年起所有新PlayStation游戏将不再发行实体光盘，全面转向数字化发行。这一决定标志着其主机游戏业务将进一步依赖数字商店与订阅服务。",
@@ -196,6 +241,24 @@ const newsData = [
         "confidence": "high"
       }
     ]
+  },
+  {
+    "id": "808811b188eb2abb",
+    "title": "美国校车或将变身移动监控车辆",
+    "summary": "有报道称儿童校车可能加装监控设备，成为移动监视工具，引发隐私与校园安全方面的讨论。",
+    "body": "该报道指出，儿童乘坐的校车可能配备各类监控技术，使其成为移动式监控平台。这种做法虽可能提升校园安全与车辆管理效率，但也引发对儿童隐私、数据收集边界及监控滥用的担忧。由于原文信息有限，具体技术方案、部署范围及监管框架尚不明确。",
+    "category": "网络安全",
+    "tags": [
+      "校车监控",
+      "隐私安全",
+      "校园安全"
+    ],
+    "source": "Hacker News",
+    "time": "34分钟前",
+    "ts": "2026-07-01T13:54:25+00:00",
+    "url": "https://www.thedrive.com/news/your-kids-school-bus-is-about-to-become-a-roaming-surveillance-vehicle",
+    "image": "",
+    "stocks": []
   },
   {
     "id": "89027b3cfc1b804f",
@@ -561,6 +624,32 @@ const newsData = [
     "url": "https://www.space.com/astronomy/galaxies/new-nasa-space-telescope-images-reveal-the-universe-in-stunning-red-white-and-blue-for-america-250",
     "image": "https://cdn.mos.cms.futurecdn.net/NADM62uLKc8RsYwTJhAMiQ-1280-80.png",
     "stocks": []
+  },
+  {
+    "id": "6ed4f8aaa0e3b2e4",
+    "title": "Cloudflare推出AI流量管理新选项，保护广告页面",
+    "summary": "Cloudflare为网站所有者提供更精细的AI爬虫流量管控，可分别管理搜索、AI智能体和训练爬虫，并新增保护广告变现页面的能力。",
+    "body": "Cloudflare宣布推出全新的AI流量管理选项，取代过去“一刀切”的屏蔽方式。网站所有者现在能够区分搜索爬虫、AI智能体爬虫和训练爬虫，并针对不同类型进行精细化管理。同时，该选项新增保护广告变现页面的能力，帮助发布商在AI爬虫大量访问时减少服务器与带宽压力，并维护广告收入。这一功能有助于平衡内容可见性、AI生态合作与网站商业利益之间的关系。",
+    "category": "网络安全",
+    "tags": [
+      "Cloudflare",
+      "AI爬虫",
+      "流量管理",
+      "网络安全"
+    ],
+    "source": "AIHOT精选",
+    "time": "1小时前",
+    "ts": "2026-07-01T13:00:00+00:00",
+    "url": "https://blog.cloudflare.com/content-independence-day-ai-options",
+    "image": "",
+    "stocks": [
+      {
+        "name": "Cloudflare",
+        "ticker": "NET",
+        "reason": "Cloudflare推出新功能强化对AI爬虫及广告页面的管理能力，有望提升其安全与CDN平台竞争力。",
+        "confidence": "high"
+      }
+    ]
   },
   {
     "id": "b78e4d616cee2da7",
@@ -1067,6 +1156,25 @@ const newsData = [
     "ts": "2026-07-01T12:14:13+00:00",
     "url": "https://www.ithome.com/0/971/329.htm",
     "image": "https://img.ithome.com/newsuploadfiles/2026/7/0f1977d0-1263-4288-9ff9-829fecbd1ec6.png?x-bce-process=image/format,f_auto",
+    "stocks": []
+  },
+  {
+    "id": "69ad68a9b294f1d0",
+    "title": "Box2D 团队宣布推出 3D 物理引擎 Box3D",
+    "summary": "知名开源 2D 物理引擎 Box2D 正式发布 3D 版本 Box3D，面向游戏、仿真与自动化领域提供刚体动力学与碰撞检测能力。",
+    "body": "Box2D 官方宣布推出 Box3D，这是广受欢迎的 2D 物理引擎向三维空间的延伸。Box3D 提供刚体动力学、碰撞检测等核心功能，可用于游戏开发、机器人仿真和自动化测试等场景。作为开源物理引擎生态的重要进展，Box3D 的发布有望降低 3D 物理仿真门槛，为游戏、具身智能和工业仿真社区提供新的基础工具。",
+    "category": "机器人",
+    "tags": [
+      "物理引擎",
+      "Box2D",
+      "3D 仿真",
+      "开源软件"
+    ],
+    "source": "Hacker News",
+    "time": "2小时前",
+    "ts": "2026-07-01T12:12:17+00:00",
+    "url": "https://box2d.org/posts/2026/06/announcing-box3d/",
+    "image": "",
     "stocks": []
   },
   {
