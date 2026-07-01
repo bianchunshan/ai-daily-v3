@@ -1,5 +1,57 @@
 const newsData = [
   {
+    "id": "088e81367b548227",
+    "title": "索尼2028年起停止生产新PlayStation实体光盘",
+    "summary": "索尼宣布自2028年起所有新PlayStation游戏将不再发行实体光盘，全面转向数字化发行。这一决定标志着其主机游戏业务将进一步依赖数字商店与订阅服务。",
+    "body": "据TechCrunch报道，索尼计划从2028年开始停止为所有新PlayStation游戏生产实体光盘，全面拥抱数字化未来。这意味着PlayStation游戏的发行、销售和分销将主要依赖PlayStation Store等数字渠道，实体零售商和光盘制造供应链可能受到冲击。\n\n对于索尼而言，全面数字化有助于降低制造、物流与库存成本，同时推动数字版销售、订阅服务（如PlayStation Plus）及附加内容收入。不过，取消实体光盘也可能影响依赖二手盘和收藏市场的部分玩家，并改变主机游戏零售生态。",
+    "category": "消费电子",
+    "tags": [
+      "索尼",
+      "PlayStation",
+      "数字游戏",
+      "实体光盘"
+    ],
+    "source": "TechCrunch",
+    "time": "1分钟前",
+    "ts": "2026-07-01T14:16:32+00:00",
+    "url": "https://techcrunch.com/2026/07/01/sony-to-end-physical-playstation-game-discs-in-2028/",
+    "image": "",
+    "stocks": [
+      {
+        "name": "索尼集团",
+        "ticker": "SONY",
+        "reason": "公司宣布自2028年起新PlayStation游戏全面停止发行实体光盘，转向全数字化战略，直接影响其主机游戏业务模式与收入结构",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "2d38c118bce0407c",
+    "title": "小米无线鼠标4 Pro发布，199元搭载TOG传感器",
+    "summary": "小米发布无线鼠标4 Pro新品，采用TOG全域传感器和动态电磁滚轮，支持三设备切换，定价199元，将于7月7日开售，进一步扩充其消费级外设产品线。",
+    "body": "7月1日，小米正式发布小米无线鼠标4 Pro，定价199元，并将于7月7日开售。该鼠标提供黑白双色，重约66g，采用贴合中小尺寸手型的外形设计，支持2.4G无线和两个蓝牙设备共三设备切换。\n核心功能方面，鼠标搭载TOG全域传感器，可在厚度不小于4mm的玻璃表面直接使用，无需鼠标垫；同时配备动态电磁滚轮，可根据指尖滚动力度和速度在段落模式与无极模式之间切换。此外，产品采用磁吸式上盖和网页版驱动，便于更换电池、收纳接收器并省去安装步骤。\n作为小米个人硬件生态的又一外设更新，该产品的发布有助于丰富其消费级IoT与办公配件布局，强化品牌在性价比外设市场的竞争力。",
+    "category": "消费电子",
+    "tags": [
+      "小米",
+      "无线鼠标",
+      "消费电子",
+      "外设"
+    ],
+    "source": "IT之家",
+    "time": "3分钟前",
+    "ts": "2026-07-01T14:15:46+00:00",
+    "url": "https://www.ithome.com/0/971/373.htm",
+    "image": "https://img.ithome.com/newsuploadfiles/2026/7/5a8364c0-d0bb-443f-a5f7-9ae50a325733.png?x-bce-process=image/format,f_auto",
+    "stocks": [
+      {
+        "name": "小米集团",
+        "ticker": "1810.HK",
+        "reason": "小米自有品牌外设新品上市，直接扩充消费级硬件产品矩阵。",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
     "id": "80da3652c4c1cdc9",
     "title": "火箭军60周年：东风-26被指带小弹翼可突破反导",
     "summary": "中国战略导弹部队组建60周年之际，多款东风系列导弹亮相。专家研判东风-26与东风-17一样带有“小弹翼”，具备突破防空与反导系统的能力。",
@@ -303,6 +355,25 @@ const newsData = [
     "ts": "2026-07-01T13:33:47+00:00",
     "url": "https://www.ithome.com/0/971/359.htm",
     "image": "https://img.ithome.com/newsuploadfiles/2026/7/c113ac99-3e12-4aac-9d65-beb3dfa58e56.png",
+    "stocks": []
+  },
+  {
+    "id": "6f6e6287d0838055",
+    "title": "欧盟年龄验证机制引发讨论",
+    "summary": "一篇题为“What's wrong with EU age verification? (Nothing)”的文章认为，欧盟年龄验证机制并无问题。",
+    "body": "近日，一篇题为“What's wrong with EU age verification? (Nothing)”的文章出现在Hacker News上，标题暗示作者认为欧盟的年龄验证机制并不存在外界所指的问题。该话题围绕欧盟地区的在线年龄验证与未成年人保护展开。由于年龄验证涉及身份认证、隐私合规及平台责任，相关讨论对互联网企业如何落实欧盟数字监管要求具有一定参考价值。",
+    "category": "网络安全",
+    "tags": [
+      "年龄验证",
+      "网络安全",
+      "欧盟监管",
+      "未成年人保护"
+    ],
+    "source": "Hacker News",
+    "time": "51分钟前",
+    "ts": "2026-07-01T13:27:07+00:00",
+    "url": "https://blog.vrypan.net/2026/06/29/260629-whats-wrong-with-eu-age-verification/",
+    "image": "",
     "stocks": []
   },
   {
