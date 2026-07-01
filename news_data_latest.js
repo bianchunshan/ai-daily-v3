@@ -1,5 +1,62 @@
 const newsData = [
   {
+    "id": "c7f719a761dc3274",
+    "title": "AI潮玩品牌查无此园获数千万融资，入局陪伴机器人",
+    "summary": "AI-Native科技潮玩品牌ZuzuZoos查无此园近日完成数千万元Pre-A轮融资，锦秋领投、上海复容跟投。该品牌聚焦\"AI陪伴机器人+AI潮玩\"，希望将AI、硬件与IP世界观结合，打造具有\"活人感\"的情绪陪伴体验。",
+    "body": "ZuzuZoos查无此园（杭州多蓝艾梦智能科技旗下）成立于2025年，近日完成数千万元Pre-A轮融资，由锦秋领投、上海复容跟投。资金将主要用于AI大模型迭代、硬件产品扩建、IP生态深化、全球市场拓展及核心团队扩容。创始人董晓楠曾任新消费品牌moody事业部总经理，硬件负责人来自大疆，IP设计团队来自泡泡玛特、迪士尼，AI团队来自智谱等头部大模型公司。该团队试图将陪伴机器人从\"会聊天的电子宠物\"升级为\"有生命力的硅基伙伴\"。",
+    "category": "机器人",
+    "tags": [
+      "AI陪伴机器人",
+      "具身智能",
+      "AI潮玩",
+      "消费机器人"
+    ],
+    "source": "36氪",
+    "time": "刚刚",
+    "ts": "2026-07-01T11:48:13.362934+00:00",
+    "url": "https://36kr.com/p/3877015761039619?f=rss",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "8ba93753fc5493c8",
+    "title": "谷歌反垄断败诉被判赔Klarna子公司143亿瑞典克朗",
+    "summary": "瑞典法院裁定谷歌须向Klarna旗下比价平台PriceRunner支付约143亿瑞典克朗反垄断赔偿金，谷歌不认同判决并考虑上诉。",
+    "body": "据路透社消息，瑞典当地法院周三裁定，Alphabet旗下的谷歌须向瑞典先买后付巨头Klarna的子公司PriceRunner支付143亿瑞典克朗（约合99.79亿元人民币）的反垄断损害赔偿金。2022年，PriceRunner起诉谷歌，指控其通过操纵搜索结果偏袒自家的商品比价服务，违反反垄断法。法院认为，谷歌多年来非法偏袒自身服务，导致PriceRunner遭受损害。\n\n谷歌发言人回应称不认同判决，并将考虑采取法律途径维权。该裁决是欧洲监管机构对大型科技公司“自我优待”行为持续施压的又一案例，可能对谷歌在欧洲的搜索与比较购物业务合规成本产生深远影响。PriceRunner成立于1999年，是商品比价和购物搜索平台，2022年被Klarna收购。",
+    "category": "地缘科技",
+    "tags": [
+      "谷歌",
+      "反垄断",
+      "Klarna",
+      "PriceRunner"
+    ],
+    "source": "IT之家",
+    "time": "刚刚",
+    "ts": "2026-07-01T11:47:33+00:00",
+    "url": "https://www.ithome.com/0/971/322.htm",
+    "image": "https://img.ithome.com/newsuploadfiles/2026/7/eceaae9f-a3b1-47a2-9c8a-7e2697cbdb6e.png?x-bce-process=image/format,f_auto",
+    "stocks": []
+  },
+  {
+    "id": "e991598e9b2becbc",
+    "title": "DNA甲基化或揭示前列腺癌致命机制",
+    "summary": "研究表明，DNA甲基化模式可能解释部分前列腺癌为何会变得致命。前列腺癌是美国男性最常见的癌症之一，预计今年将新增约33万例。",
+    "body": "前列腺癌是美国男性发病率最高的癌症，现有约400万美国男性患病，预计今年还将新增约33万例。近期研究发现，DNA甲基化模式可能与部分前列腺癌从可控状态转变为致命疾病有关。\n\n这一发现有助于揭示前列腺癌进展的分子机制，为未来的早期识别、风险分层和精准治疗提供潜在靶点与新思路。",
+    "category": "生物医药",
+    "tags": [
+      "DNA甲基化",
+      "前列腺癌",
+      "癌症研究",
+      "精准医疗"
+    ],
+    "source": "MedicalXpress",
+    "time": "7分钟前",
+    "ts": "2026-07-01T07:40:02-04:00",
+    "url": "https://medicalxpress.com/news/2026-07-dna-methylation-patterns-prostate-cancers.html",
+    "image": "https://scx1.b-cdn.net/csz/news/tmb/2025/prostate-cancer.jpg",
+    "stocks": []
+  },
+  {
     "id": "a1ead1b4470f00e2",
     "title": "多氟多：半导体级氢氟酸营收占比不足2%，尚无六氟化钨产线",
     "summary": "多氟多公告称，现有半导体级氢氟酸产能4万吨，但2025年度及2026年第一季度该产品营收占比不足2%，对业绩影响有限；公司目前没有六氟化钨生产线，亦未签署任何实质性订单。",
@@ -16,6 +73,25 @@ const newsData = [
     "ts": "2026-07-01T11:38:23.892111+00:00",
     "url": "https://36kr.com/newsflashes/3877004539490561?f=rss",
     "image": "",
+    "stocks": []
+  },
+  {
+    "id": "3987239370d12e28",
+    "title": "2026年最佳自动猫砂盆：Petkit与Litter-Robot入选",
+    "summary": "美国科技媒体Wired发布2026年最佳自动猫砂盆评测，Petkit和Litter-Robot凭借智能化设计减少日常清理和异味，展现智能宠物家居硬件的发展方向。",
+    "body": "美国科技媒体Wired发布题为《2026年最佳自动猫砂盆：Petkit与Litter-Robot》的评测，推荐了两款以高科技为卖点的自动猫砂盆。这些产品通过自动化清理、气味控制等功能，帮助用户减少手动铲屎的频率，并改善养宠环境，属于智能家居和宠物科技的结合产品。\n\nPetkit（小佩）是中国智能宠物用品品牌，产品涵盖自动喂食器、饮水机和猫砂盆等；Litter-Robot则是美国品牌Whisker旗下的明星产品，采用旋转分离技术处理猫砂。两家企业的产品方向一致，均强调通过自动化和传感器技术提升宠物主的使用体验。\n\n此次入选Wired评测，反映了智能宠物硬件在家庭消费场景中的渗透率持续提升，也体现出消费电子向细分生活场景延伸的趋势。不过，该内容主要属于产品评测，对相关上市公司的业绩直接影响有限。",
+    "category": "消费电子",
+    "tags": [
+      "智能家居",
+      "宠物科技",
+      "智能硬件",
+      "消费产品"
+    ],
+    "source": "Wired",
+    "time": "9分钟前",
+    "ts": "2026-07-01T11:38:00+00:00",
+    "url": "https://www.wired.com/gallery/best-automatic-cat-litter-boxes/",
+    "image": "https://media.wired.com/photos/69d4403d94490f13c636bd21/master/pass/The-Best-Automatic-Litter-Boxes-Tested-by-Our-Spoiled-Cats.jpg",
     "stocks": []
   },
   {
@@ -43,6 +119,25 @@ const newsData = [
         "confidence": "high"
       }
     ]
+  },
+  {
+    "id": "084fc7dde187967c",
+    "title": "Claude Code 被曝隐蔽识别中国用户，Anthropic已回滚",
+    "summary": "网友披露，Anthropic 的 Claude Code 自 2.1.91 版起在系统提示中暗藏代码，通过比对时区、代理 URL 及中国 AI 实验室域名等方式判断用户是否位于中国，结果以隐蔽格式回传。Anthropic 解释称这是 3 月启动的防止账户滥用和知识蒸馏的实验，已合并回滚请求并于次日版本移除。",
+    "body": "据网友发现，Claude Code 从 2.1.91 版本开始，在系统提示词中利用隐写术秘密判别用户是否位于中国：代码会比对时区、代理 URL 以及中国 AI 实验室域名等信息，再通过不易察觉的格式差异将结果传输出去。该检测代码使用 XOR 加密（密钥 91）隐藏，且未出现在发布说明中，引发“根本性违反用户信任”的批评。\n\nAnthropic 员工回应称，这是一项于今年 3 月启动的实验，初衷是防止账户滥用和知识蒸馏，团队已合并回滚请求，并在次日的版本中完全移除相关代码。Anthropic 因国家安全原因未在中国提供模型，此前曾指控 DeepSeek、月之暗面、MiniMax 和阿里巴巴未经授权使用 Claude 输出训练模型。",
+    "category": "人工智能",
+    "tags": [
+      "Claude Code",
+      "Anthropic",
+      "AI安全",
+      "模型蒸馏"
+    ],
+    "source": "AIHOT精选",
+    "time": "20分钟前",
+    "ts": "2026-07-01T11:27:06+00:00",
+    "url": "https://the-decoder.com/hidden-code-in-claude-code-secretly-flagged-chinese-users",
+    "image": "",
+    "stocks": []
   },
   {
     "id": "f369f18d5193c134",
