@@ -1,5 +1,62 @@
 const newsData = [
   {
+    "id": "69c215f0bf184a30",
+    "title": "Claude Code v2.1.198发布，智能体功能再升级",
+    "summary": "Anthropic发布Claude Code v2.1.198版本，Claude in Chrome全面可用，新增后台智能体通知、/dataviz数据可视化技能及AWS上游网关支持，并修复多项稳定性问题。",
+    "body": "Anthropic旗下AI编程助手Claude Code迎来v2.1.198版本更新。本次更新中，Claude in Chrome结束测试阶段并全面开放；为claude agents新增后台智能体通知机制（agent_needs_input / agent_completed），并支持后台智能体在worktree中完成代码后自动提交、推送乃至创建草稿PR；同时新增/dataviz技能，提供图表与仪表盘设计指导及配色验证。",
+    "category": "人工智能",
+    "tags": [
+      "Claude",
+      "AI智能体",
+      "编程助手",
+      "Anthropic"
+    ],
+    "source": "AIHOT精选",
+    "time": "4分钟前",
+    "ts": "2026-07-01T20:45:36+00:00",
+    "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.198",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "7ce122138175879c",
+    "title": "研究发现脂肪肝助推结肠癌恶性转移",
+    "summary": "比利时鲁汶大学等机构研究人员在《自然》期刊发文，揭示脂肪肝可驱动转移性结直肠癌向更危险形式发展。该发现解释了部分患者预后较差的原因，并为基于患者代谢状态的精准治疗提供了新方向。",
+    "body": "国际研究团队由VIB与比利时鲁汶大学主导，在《自然》发表研究指出，脂肪肝等代谢性疾病可能直接促进结直肠癌发生更具侵袭性的转移。研究进一步阐明了部分患者预后显著较差背后的机制，即肝脏代谢异常可影响肿瘤进展。该成果强调，将患者代谢健康纳入治疗考量，有望推动更个体化的精准抗癌疗法。",
+    "category": "生物医药",
+    "tags": [
+      "结直肠癌",
+      "脂肪肝",
+      "癌症转移",
+      "精准医疗"
+    ],
+    "source": "MedicalXpress",
+    "time": "10分钟前",
+    "ts": "2026-07-01T16:40:07-04:00",
+    "url": "https://medicalxpress.com/news/2026-07-fatty-liver-dangerous-colorectal-cancer.html",
+    "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/liver-organ.jpg",
+    "stocks": []
+  },
+  {
+    "id": "6791f8700dd359ef",
+    "title": "研究显示抗炎饮食或有助降低痴呆风险",
+    "summary": "一项新研究表明，富含抗炎食物的饮食可能有助于降低痴呆症风险，尤其对阿尔茨海默病高危人群具有潜在保护作用。",
+    "body": "一项最新研究指出，富含抗炎食物的饮食可能帮助人们预防痴呆症，特别是对阿尔茨海默病患病风险较高的人群。该研究提示，通过调整饮食结构减少体内慢性炎症水平，或许能在一定程度上延缓认知功能衰退。尽管目前证据尚未确立明确的因果关系，但这一发现为营养干预与神经退行性疾病预防的关联提供了新的研究方向。",
+    "category": "生物医药",
+    "tags": [
+      "阿尔茨海默病",
+      "抗炎饮食",
+      "痴呆症",
+      "神经科学"
+    ],
+    "source": "MedicalXpress",
+    "time": "10分钟前",
+    "ts": "2026-07-01T16:40:05-04:00",
+    "url": "https://medicalxpress.com/news/2026-07-diets-inflammation-dementia.html",
+    "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/diets-that-lower-infla.jpg",
+    "stocks": []
+  },
+  {
     "id": "62e1136e576c0998",
     "title": "研究发现致幻剂尚未准备好用于ADHD临床治疗",
     "summary": "一项新研究指出，尽管网络上流传着成人ADHD患者微量服用裸盖菇素和LSD后专注力提升的个人经历，但经典致幻剂目前尚未达到可用于ADHD临床治疗的标准。",
