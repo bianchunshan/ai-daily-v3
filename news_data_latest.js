@@ -1,5 +1,50 @@
 const newsData = [
   {
+    "id": "7610eae6e5b1d1bb",
+    "title": "加州大学戴维斯分校研究有望阻止肿瘤药物耐药",
+    "summary": "加州大学戴维斯分校科学家揭示了癌细胞如何逃避BET抑制剂，为预防耐药性和开发更有效疗法提供新思路。",
+    "body": "加州大学戴维斯分校的研究人员发现，癌细胞能够快速适应并逃避一类名为BET抑制剂的抗肿瘤药物。研究阐明了癌症产生耐药性的机制，有望在治疗初期就阻止耐药的发生。",
+    "category": "生物医药",
+    "tags": [
+      "生物医药",
+      "癌症治疗",
+      "BET抑制剂",
+      "药物耐药"
+    ],
+    "source": "MedicalXpress",
+    "time": "刚刚",
+    "ts": "2026-07-01T18:20:05-04:00",
+    "url": "https://medicalxpress.com/news/2026-07-discovery-cancer-drug-resistance.html",
+    "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/discovery-could-help-p-1.jpg",
+    "stocks": []
+  },
+  {
+    "id": "38e70b4987d121c9",
+    "title": "报告指波音星际客机问题源于过度自信与进度不切实际",
+    "summary": "一份新报告称，波音CST-100“星际客机”长期技术问题与过度自信、不切实际的进度安排以及NASA对该飞船缺乏了解有关。",
+    "body": "据报道，一份最新报告将波音CST-100“星际客机”（Starliner）载人飞船长期存在的技术问题归因于波音过度自信、制定不切实际的进度安排，以及美国航空航天局（NASA）对该飞船缺乏足够了解。这些问题导致Starliner项目进展受阻，影响了其执行商业载人航天任务的能力。报告突显了商业载人航天项目中项目管理、监管透明度和风险控制的重要性。",
+    "category": "商业航天",
+    "tags": [
+      "波音",
+      "星际客机",
+      "商业航天",
+      "NASA"
+    ],
+    "source": "SpaceNews",
+    "time": "1分钟前",
+    "ts": "2026-07-01T22:19:01+00:00",
+    "url": "https://spacenews.com/report-links-starliner-problems-to-overconfidence-and-unrealistic-schedules/",
+    "image": "https://i0.wp.com/spacenews.com/wp-content/uploads/2025/02/53988402529_bec93e5a26_k.jpg?fit=1024%2C683&amp;ssl=1",
+    "stocks": [
+      {
+        "name": "波音",
+        "ticker": "BA",
+        "reason": "Starliner为波音研制的商业载人飞船，技术问题与项目延误直接冲击其航天业务声誉与前景",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
     "id": "ab2a4a46b603ba2e",
     "title": "索尼宣布2028年起新游戏停产光盘",
     "summary": "索尼宣布自2028年1月起停止为新游戏生产PlayStation实体光盘，全面转向数字发行，引发玩家与实体零售商对游戏所有权及收藏价值的担忧。",
@@ -15,6 +60,25 @@ const newsData = [
     "time": "6分钟前",
     "ts": "2026-07-01T18:03:37-04:00",
     "url": "https://www.theverge.com/games/960476/playstation-physical-games-discs-stop-production-preservation-retail-stores",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "174b2123091e16a7",
+    "title": "ZCode harness for GLM-5.2引发社区热议",
+    "summary": "技术社区Hacker News出现题为“ZCode – Harness for GLM-5.2”的帖子，获得29点赞与141条评论，显示GLM系列大模型相关工具链受到开发者关注。",
+    "body": "据外媒技术社区Hacker News信息，一篇标题为“ZCode – Harness for GLM-5.2”的文章获得29个点赞并引发141条评论，讨论热度较高。从标题看，ZCode可能是一款面向GLM-5.2模型的测试、适配或应用框架（harness），用于帮助开发者调用、评估或部署该模型。\n\nGLM是国内智谱AI推出的大模型系列，近年来在开源与商业应用中持续迭代。围绕GLM-5.2出现专门的工具/harness，意味着其开发者生态正在丰富，有助于降低模型使用门槛、提升可复现性和落地效率。\n\n此类工具链活跃反映了大模型开源社区与应用生态的繁荣，对GLM系列模型的推广和行业落地具有积极意义，但具体产品功能、性能表现及商业化影响仍有待进一步信息披露。",
+    "category": "人工智能",
+    "tags": [
+      "大模型",
+      "GLM",
+      "AI工具链",
+      "开源生态"
+    ],
+    "source": "Hacker News",
+    "time": "16分钟前",
+    "ts": "2026-07-01T22:03:36+00:00",
+    "url": "https://zcode.z.ai/en",
     "image": "",
     "stocks": []
   },
