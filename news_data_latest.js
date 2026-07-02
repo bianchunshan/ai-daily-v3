@@ -115,6 +115,25 @@ const newsData = [
     ]
   },
   {
+    "id": "b1ace1e3f9bfc6b7",
+    "title": "browser-use 开源 AI 视频剪辑 Skill「video-use」",
+    "summary": "browser-use 团队发布面向 AI 编码智能体的开源 Skill「video-use」，使大模型可基于音频转写与关键帧决策完成视频剪辑与渲染。该工具支持 EDL 生成、ffmpeg 渲染、多轮自评估及多种动画引擎。",
+    "body": "browser-use 团队推出名为「video-use」的开源 Skill，面向 Codex、Claude Code 等 AI 编码智能体，旨在让 LLM 参与视频编辑工作流。它通过 ElevenLabs Scribe 将音频转写为约 12KB 的文本，包含逐词时间戳、说话人分离与事件标记，并仅在决策点调用 timeline_view.py 生成 PNG 帧图，以降低上下文负载。\n\n技术流水线涵盖转写、打包、生成 JSON 格式 EDL、ffmpeg 渲染以及最多 3 轮自评估。渲染环节支持分段提取与 `-c copy` 拼接、30ms 淡入淡出、PTS 时移、字幕叠加、HDR 映射、竖屏缩放、两-pass loudnorm 等专业处理，动画则可调用 HyperFrames、Remotion、Manim 等引擎。项目还附带 12 条硬规则，以保障生产级输出的正确性。",
+    "category": "人工智能",
+    "tags": [
+      "AI 视频剪辑",
+      "开源工具",
+      "AI Agent",
+      "ffmpeg"
+    ],
+    "source": "AIHOT精选",
+    "time": "9分钟前",
+    "ts": "2026-07-02T11:33:01+00:00",
+    "url": "https://x.com/shao__meng/status/2072644710523691110",
+    "image": "",
+    "stocks": []
+  },
+  {
     "id": "abb1cad19da4f80f",
     "title": "抖音电商上线“肖像保护功能”打击AI仿冒",
     "summary": "抖音电商近日正式上线“肖像保护功能”，利用模型识别等技术主动拦截AI仿冒、盗用素材等交易类侵权内容，已处置大量侵权账号与商品。",
@@ -282,6 +301,32 @@ const newsData = [
         "name": "泰科电子",
         "ticker": "TEL",
         "reason": "公司直接发布铝代铜连接方案及高压连接器新品，为其核心连接业务的技术与产品拓展。",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "93d430ce90c02a12",
+    "title": "谷歌AI扩张致2025年用电量激增37%",
+    "summary": "2025年谷歌年度用电量同比增长37%，创历史最大增幅，数据中心全年耗电超4200万兆瓦时。用电激增主要由Google Cloud、YouTube及支撑AI产品与服务的数据中心建设运营驱动。",
+    "body": "2025年，谷歌年度用电量同比大涨37%，为该公司有史以来最大年度增幅。其数据中心全年用电量超过4200万兆瓦时，已超过新西兰、丹麦、尼日利亚等国的全国总用电量；自2019年以来，谷歌总用电量已增长逾250%。\n\n用电需求暴增主要来自Google Cloud云服务、YouTube视频流，以及为AI产品和服务提供算力支撑的数据中心扩建与运营。谷歌承认，AI基础设施建设速度已超出电网脱碳速度，但公司仍承诺扩大全球清洁电力采购规模，并通过技术创新降低运营排放。",
+    "category": "AI 基础设施",
+    "tags": [
+      "数据中心",
+      "电力消耗",
+      "谷歌",
+      "清洁电力"
+    ],
+    "source": "AIHOT精选",
+    "time": "27分钟前",
+    "ts": "2026-07-02T11:15:49+00:00",
+    "url": "https://arstechnica.com/ai/2026/07/googles-ai-buildout-drove-37-increase-in-electricity-use-in-2025",
+    "image": "",
+    "stocks": [
+      {
+        "name": "Alphabet",
+        "ticker": "GOOGL",
+        "reason": "新闻直接涉及谷歌自身AI数据中心用电激增，反映其AI基础设施高速扩张带来的能耗与成本压力",
         "confidence": "high"
       }
     ]
