@@ -121,6 +121,25 @@ const newsData = [
     ]
   },
   {
+    "id": "049f243883b19f91",
+    "title": "EFF致信FTC就X同意令发表评论",
+    "summary": "电子前沿基金会（EFF）就X与美国联邦贸易委员会（FTC）的同意令提交意见函，涉及隐私保护和平台监管议题。",
+    "body": "据外媒报道，电子前沿基金会（EFF）于2026年7月2日向美国联邦贸易委员会（FTC）致信，就X（前Twitter）与FTC之间的同意令提交评论意见。EFF长期关注数字权益、用户隐私与平台责任，通常会就数据安全和隐私合规等问题向监管机构发声。此次致信反映出科技平台在隐私与监管方面仍受到持续关注和审查。",
+    "category": "网络安全",
+    "tags": [
+      "隐私保护",
+      "社交媒体",
+      "科技监管",
+      "FTC"
+    ],
+    "source": "Hacker News",
+    "time": "1小时前",
+    "ts": "2026-07-02T19:27:38+00:00",
+    "url": "https://cdn.arstechnica.net/wp-content/uploads/2026/07/EFF-letter-to-FTC-on-X-consent-order-7-2-26.pdf",
+    "image": "",
+    "stocks": []
+  },
+  {
     "id": "e6b874dff71bef20",
     "title": "钙钛矿电池企业Verde Technologies转向太空市场",
     "summary": "美国钙钛矿太阳能电池初创企业Verde Technologies将商业化重心从屋顶光伏转向太空，希望以薄膜技术为轨道数据中心及大型星座供电。",
