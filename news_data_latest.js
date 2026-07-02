@@ -1,5 +1,50 @@
 const newsData = [
   {
+    "id": "346d633b280f3ac1",
+    "title": "前列腺癌两种突变对铁死亡疗法反应相反",
+    "summary": "MD安德森癌症中心研究发现，前列腺癌中两种基因突变决定对铁死亡疗法的相反反应，或可为现有治疗无效患者提供新的精准治疗方向。",
+    "body": "美国MD安德森癌症中心研究人员在《Nature Communications》发表研究，揭示了前列腺癌中两种基因突变对铁死亡（ferroptosis）疗法的相反反应。铁死亡是一种依赖铁离子和脂质过氧化的细胞死亡方式，近年来被视为肿瘤治疗的潜在突破口。该研究指出，特定遗传背景可决定前列腺癌细胞是否容易被诱导进入铁死亡状态。\n\n这一发现为去势抵抗或难治性前列腺癌提供了潜在的分型依据，未来或可据此筛选对现有疗法无效的患者，并设计针对性的联合用药方案。不过，相关机制仍需更多临床前和临床验证，距离实际治疗应用尚有转化研究空间。",
+    "category": "生物医药",
+    "tags": [
+      "前列腺癌",
+      "铁死亡",
+      "精准医疗",
+      "Nature Communications"
+    ],
+    "source": "MedicalXpress",
+    "time": "4分钟前",
+    "ts": "2026-07-02T15:40:03-04:00",
+    "url": "https://medicalxpress.com/news/2026-07-prostate-cancer-mutations-reveal-responses.html",
+    "image": "https://scx1.b-cdn.net/csz/news/tmb/2021/prostate-cancer-2.jpg",
+    "stocks": []
+  },
+  {
+    "id": "102811ff2de0b399",
+    "title": "斯巴鲁375马力四驱Trailseeker电动SUV起售价不到4万美元",
+    "summary": "斯巴鲁Trailseeker电动SUV起售价低于4万美元，标配四驱和375马力，上月已成为该品牌最畅销电动SUV。",
+    "body": "斯巴鲁推出Trailseeker纯电动SUV，起售价低于4万美元，定位为“无所不能的硬派SUV”。新车标配全轮驱动，综合输出功率达375马力，并拥有宽敞的内部空间。该车型上月已成为斯巴鲁最畅销的电动SUV，显示出其在平价电动SUV市场的竞争力，或将助力斯巴鲁加速电动化转型并扩大北美市场份额。",
+    "category": "未来能源",
+    "tags": [
+      "电动汽车",
+      "斯巴鲁",
+      "SUV",
+      "电池"
+    ],
+    "source": "Electrek",
+    "time": "9分钟前",
+    "ts": "2026-07-02T19:35:19+00:00",
+    "url": "https://electrek.co/2026/07/02/subarus-375-hp-awd-trailseeker-ev-starts-under-40000/",
+    "image": "https://electrek.co/wp-content/uploads/sites/3/2026/07/Subaru-Trailseeker-EV-2027-price.jpeg?quality=82&#038;strip=all&#038;w=1400",
+    "stocks": [
+      {
+        "name": "斯巴鲁",
+        "ticker": "FUJHY",
+        "reason": "Trailseeker为斯巴鲁新上市电动SUV，直接受益于产品销量与电动化转型",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
     "id": "e6b874dff71bef20",
     "title": "钙钛矿电池企业Verde Technologies转向太空市场",
     "summary": "美国钙钛矿太阳能电池初创企业Verde Technologies将商业化重心从屋顶光伏转向太空，希望以薄膜技术为轨道数据中心及大型星座供电。",
@@ -132,6 +177,44 @@ const newsData = [
         "confidence": "high"
       }
     ]
+  },
+  {
+    "id": "01028f6f51eb7300",
+    "title": "PostgreSQL事务：分布式系统的隐藏超能力",
+    "summary": "Hacker News上出现一篇讨论PostgreSQL事务机制的技术文章，指出其事务能力是分布式系统中的一项强大优势。文章强调，合理利用Postgres事务可简化分布式一致性与故障恢复设计。",
+    "body": "该报道转发了一篇题为《Postgres transactions are a distributed systems superpower》的技术文章。文章认为，PostgreSQL成熟的事务语义（ACID、隔离级别、可串行化快照等）使其在构建分布式系统时具备独特优势，开发者可以借助数据库本身的事务能力来处理一致性、幂等性和故障回滚，从而降低系统复杂度。",
+    "category": "AI 基础设施",
+    "tags": [
+      "数据库",
+      "分布式系统",
+      "PostgreSQL",
+      "开源软件"
+    ],
+    "source": "Hacker News",
+    "time": "1小时前",
+    "ts": "2026-07-02T18:38:32+00:00",
+    "url": "https://www.dbos.dev/blog/co-locating-workflow-state-with-your-data",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "47caf98b4a828c98",
+    "title": "Claude工具60秒无应答即自动继续执行",
+    "summary": "Hacker News 上的一则帖文指出，Claude 的 AskUserQuestion 工具在用户超过 60 秒未回复后，会自动继续运行而不再等待答案。这一现象引发了外界对 AI Agent 超时机制和人在回路交互体验的关注。",
+    "body": "据 Hacker News 帖文显示，Claude 的 AskUserQuestion 功能存在一个触发机制：当用户在被询问后 60 秒内没有作出回应，系统会默认“未获得答案”并继续后续操作。该帖文仅获得 5 个赞同和 1 条评论，但所描述的行为关系到 AI Agent 在需要人工确认场景下的可靠性。\n\n对于依赖用户输入才能安全推进的任务，这种超时后继续执行的设计可能导致未预期的结果，例如跳过关键确认步骤或基于不完整信息继续推理。这也反映出当前大模型工具在人机协作流程中，对等待时长、超时回退策略以及用户意图判断的设计仍面临挑战。\n\n从更广泛的意义看，该事件提示 AI 应用在将复杂决策权交给 Agent 时，需要更明确的人机边界和异常处理机制，以保证交互的可控性与安全性。",
+    "category": "人工智能",
+    "tags": [
+      "Claude",
+      "智能体",
+      "人机交互",
+      "Anthropic"
+    ],
+    "source": "Hacker News",
+    "time": "1小时前",
+    "ts": "2026-07-02T18:37:57+00:00",
+    "url": "https://github.com/anthropics/claude-code/issues/73125",
+    "image": "",
+    "stocks": []
   },
   {
     "id": "932770ad9b031b15",
@@ -102408,6 +102491,12 @@ const newsData = [
   }
 ];
 const newsDigest = {
-  "text": "",
-  "highlights": []
+  "text": "今日科技前沿聚焦AI应用与芯片博弈：Meta发布游戏生成应用、Claude自动继续执行，Anthropic与三星洽谈定制AI芯片；生物医药领域，Medicare覆盖GLP-1减重药、前列腺癌铁死亡疗法现新发现。",
+  "highlights": [
+    "53ef1c4a45bf6e22",
+    "47caf98b4a828c98",
+    "23ff659d49776e8b",
+    "972e8098155b25c0",
+    "346d633b280f3ac1"
+  ]
 };
