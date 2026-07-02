@@ -1,5 +1,30 @@
 const newsData = [
   {
+    "id": "4f855a35e7b8033d",
+    "title": "Meta推出新应用Pocket，可用AI提示词制作互动小工具",
+    "summary": "Meta推出名为Pocket的新社交应用，用户可通过AI提示词创建并分享互动式“小装置”。这体现了Meta将AI视为下一代社交媒介的战略方向。",
+    "body": "据Business Insider报道，Meta发布了一款名为Pocket的新社交应用，用户只需输入AI提示词，就能制作并分享小型互动“gizmos”。该应用由Meta CEO马克·扎克伯格推动，与其此前描绘的“用户用AI创造内容”的社交愿景一致。\n\nPocket的推出显示Meta正加速把生成式AI嵌入社交产品，试图降低内容创作门槛并提升用户互动。若该应用获得市场认可，可能为Meta带来新的用户增长和广告场景，但也面临同类产品竞争与监管审查。",
+    "category": "人工智能",
+    "tags": [
+      "Meta",
+      "AI应用",
+      "社交应用"
+    ],
+    "source": "The Verge",
+    "time": "5分钟前",
+    "ts": "2026-07-02T17:09:06-04:00",
+    "url": "https://www.theverge.com/tech/961086/meta-pocket-app-gizmo-ai",
+    "image": "",
+    "stocks": [
+      {
+        "name": "Meta Platforms",
+        "ticker": "META",
+        "reason": "Pocket是Meta推出的AI驱动社交新应用，有望增强其社交生态与用户粘性",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
     "id": "78aaab8458fe5bc3",
     "title": "澳研新药激活难靶免疫受体 有望治疗运动神经元病",
     "summary": "昆士兰大学研究人员开发出一种可激活难靶向免疫受体的新药，可能为运动神经元病等神经退行性疾病提供新疗法。",
@@ -17,6 +42,38 @@ const newsData = [
     "url": "https://medicalxpress.com/news/2026-07-drug-elusive-immune-receptor-path.html",
     "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/advancement-in-search.jpg",
     "stocks": []
+  },
+  {
+    "id": "457e95cf2cb4f575",
+    "title": "阿里开源Page Agent：自然语言操控网页DOM",
+    "summary": "阿里巴巴发布开源JavaScript库Page Agent，可将网页DOM压缩为文本映射，让大模型直接通过自然语言指令操作页面元素。",
+    "body": "Page Agent采用MIT许可证，嵌入网页后继承用户cookies和会话，无需独立后端。它通过FlatDomTree文本映射让纯文本模型精准执行点击、表单填写等任务，支持任意OpenAI兼容端点。该技术可降低AI副驾、智能表单填充和无障碍控制的开发门槛，但风险操作仍需服务端验证，目前仅适用于单页面范围。",
+    "category": "人工智能",
+    "tags": [
+      "阿里巴巴",
+      "Page Agent",
+      "网页自动化",
+      "AI Agent"
+    ],
+    "source": "AIHOT精选",
+    "time": "22分钟前",
+    "ts": "2026-07-02T20:51:39+00:00",
+    "url": "https://www.marktechpost.com/2026/07/02/meet-alibabas-page-agent-a-javascript-in-page-gui-agent-that-controls-web-interfaces-with-natural-language-through-the-dom",
+    "image": "",
+    "stocks": [
+      {
+        "name": "阿里巴巴",
+        "ticker": "BABA",
+        "reason": "公司发布并开源Page Agent，强化AI Agent与应用生态，有望提升其在AI开发者社区与B端SaaS场景的竞争力",
+        "confidence": "high"
+      },
+      {
+        "name": "阿里巴巴-SW",
+        "ticker": "9988.HK",
+        "reason": "港股标的直接受益于阿里巴巴AI Agent产品布局及开源生态影响力",
+        "confidence": "high"
+      }
+    ]
   },
   {
     "id": "30b4610c2a52e190",
@@ -102749,12 +102806,6 @@ const newsData = [
   }
 ];
 const newsDigest = {
-  "text": "今日科技前沿：量子计算迎来欧洲首家上市企业，微软豪掷25亿美元组建AI工程师军团，退役动力电池回收规模化提速，Meta发布AI小游戏生成应用；同时生物医药在免疫受体与脑机接口成像上亦有重要进展。",
-  "highlights": [
-    "c5b3db7713be19e2",
-    "d46c588e8d7fa323",
-    "30b4610c2a52e190",
-    "53ef1c4a45bf6e22",
-    "01ad9663c2e8fb2c"
-  ]
+  "text": "",
+  "highlights": []
 };
