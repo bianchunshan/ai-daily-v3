@@ -1,5 +1,23 @@
 const newsData = [
   {
+    "id": "2e9ee33b78310532",
+    "title": "印度科技大亨自掏3000万美元打造AI办公套件挑战微软",
+    "summary": "印度连续创业者Bhavin Turakhia推出名为Neo的AI企业软件，试图以自有资金3000万美元挑战微软Office和Google Workspace。",
+    "body": "印度科技企业家Bhavin Turakhia宣布投入3000万美元个人资金，推出名为Neo的AI办公套件，直接对标微软Office和Google Workspace。这是他创办的第五家企业，专注于企业软件领域。Turakhia计划通过AI原生能力重塑文档、表格、邮件等日常办公工具，挑战传统办公软件巨头的市场地位。",
+    "category": "人工智能",
+    "tags": [
+      "AI办公",
+      "企业软件",
+      "印度科技"
+    ],
+    "source": "TechCrunch",
+    "time": "1分钟前",
+    "ts": "2026-07-02T05:30:00+00:00",
+    "url": "https://techcrunch.com/2026/07/01/indian-tech-tycoon-bets-30m-to-build-an-ai-alternative-to-microsoft-office/",
+    "image": "",
+    "stocks": []
+  },
+  {
     "id": "0aa8edb9a025e89f",
     "title": "微软刚承认Copilot影响效率，转头夸按键有\"主角能量\"",
     "summary": "微软在承认Copilot按键影响部分Windows 11用户效率后，又在社交平台高调宣传该按键\"具备主角能量\"，引发用户嘲讽和质疑。",
