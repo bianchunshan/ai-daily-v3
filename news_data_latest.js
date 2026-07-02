@@ -1,5 +1,56 @@
 const newsData = [
   {
+    "id": "7cd141bcde18a44f",
+    "title": "Palantir CEO炮轰OpenAI等：窃取企业数据且收取无效token费用",
+    "summary": "Palantir首席执行官Alex Karp在接受CNBC采访时批评OpenAI、Anthropic等前沿AI公司窃取客户数据，并让企业为没有价值的token付费。他借此强调Palantir本地部署、合规安全的企业AI方案优势，采访中还提到与英伟达在Sovereign AI OS Architecture上的合作。",
+    "body": "Palantir CEO Alex Karp近日在CNBC《Squawk Box》节目中直言，OpenAI、Anthropic等前沿AI公司正在“窃取客户的权重和alpha”，即企业的业务流程、数据关联以及数据本身，同时向企业收取大量“毫无价值”的token费用。他表示，美国大型企业对此“怒不可遏”，因为它们为无法创造实际价值的AI输出买单。此番言论恰逢Palantir与英伟达围绕Sovereign AI OS Architecture的合作发布。\n\nKarp的批评与Palantir自身产品定位形成鲜明对比：Palantir大量提供本地化或类本地部署方案，并拥有CMMC Level 2、ISO27001/17/18等多项安全合规认证。这意味着其平台更强调数据不出域、客户资产可控，迎合了对数据主权和隐私高度敏感的企业与政府客户。\n\n该采访发布后，Palantir股价当日上涨约9%，而其他AI公司股价则出现下跌。此事凸显了企业在生成式AI落地过程中对数据安全、投入产出比和主权AI架构的日益关注，也可能加剧公共云/闭源大模型与本地合规AI方案之间的竞争。",
+    "category": "人工智能",
+    "tags": [
+      "Palantir",
+      "企业AI",
+      "数据隐私",
+      "AI商业化"
+    ],
+    "source": "Tom's Hardware",
+    "time": "6分钟前",
+    "ts": "2026-07-02T16:27:40+00:00",
+    "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/palantir-ceo-alex-karp-claims-ai-companies-are-stealing-customers-data-while-charging-them-for-unproductive-tokens-says-livid-businesses-are-paying-for-tokens-that-create-no-value",
+    "image": "https://cdn.mos.cms.futurecdn.net/3qm792AztrV8h5dq6a4g2i-1280-80.jpg",
+    "stocks": [
+      {
+        "name": "Palantir",
+        "ticker": "PLTR",
+        "reason": "CEO公开批评竞品并凸显其本地/合规企业AI方案优势，当日股价获市场积极反应",
+        "confidence": "high"
+      },
+      {
+        "name": "英伟达",
+        "ticker": "NVDA",
+        "reason": "与Palantir合作推出Sovereign AI OS Architecture，布局主权AI基础设施市场",
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
+    "id": "5f6848e30c5aad81",
+    "title": "Anthropic与五角大楼就Claude军事用途起分歧",
+    "summary": "据WSJ法庭文件，Anthropic CEO与五角大楼副部长围绕Claude军事用途护栏存在数月分歧；五角大楼随后将Anthropic列为供应链风险，导致多数军方合作已转向其他AI工具。",
+    "body": "法庭文件显示，Anthropic首席执行官Dario Amodei与美国国防部副部长Emil Michael就Claude的军事用途护栏进行了长达数月的邮件沟通。Anthropic要求禁止Claude用于全自主武器及部分监控用途，而五角大楼则希望该模型可在所有合法的国家安全场景中使用；Michael表示，若双方分歧过大，他不会“强行推动”。\n\n因谈判未果，五角大楼将Anthropic列为供应链风险，禁止其合作伙伴在国防部项目中使用Claude模型。目前法院已暂停部分措施，美国政府正在上诉。Michael透露，原先使用Anthropic的军方相关操作中，已有三分之二切换至其他AI工具。\n\n这一事件凸显了AI公司在安全原则与国防需求之间的张力，也可能影响其获取政府订单和参与国家安全项目的能力，成为AI治理与军政关系交织的标志性案例。",
+    "category": "人工智能",
+    "tags": [
+      "人工智能",
+      "军事应用",
+      "AI安全",
+      "五角大楼"
+    ],
+    "source": "AIHOT精选",
+    "time": "9分钟前",
+    "ts": "2026-07-02T16:24:50+00:00",
+    "url": "https://x.com/kimmonismus/status/2072718147279335507",
+    "image": "",
+    "stocks": []
+  },
+  {
     "id": "2f93ddd5d33263f7",
     "title": "研究发现肿瘤会劫持清除死细胞的巨噬细胞",
     "summary": "特拉维夫大学研究人员通过实时追踪技术发现，巨噬细胞在吞噬死亡癌细胞后会被肿瘤劫持，行为发生改变并促进癌症进展。",
