@@ -1,5 +1,24 @@
 const newsData = [
   {
+    "id": "a066967f2e914b40",
+    "title": "华为称ADS 4升级ADS 5无硬件限制",
+    "summary": "华为乾崑智能汽车解决方案官方表示，乾崑智驾ADS 4 Max/Pro/SE可对应升级至ADS 5 Max/Pro/SE，不存在硬件限制。此举将提升存量车主的智驾体验，降低升级门槛。",
+    "body": "7月2日，华为乾崑智能汽车解决方案发布《乾崑答网友问》，对即将开放升级的HUAWEI ADS 5辅助驾驶系统进行了说明。目前，ADS 5共有Max、Pro、SE三个版本，用户可通过车机端的ADS App查看当前车辆所搭载的版本信息。\n\n针对网友关心的“ADS 4升级到ADS 5是否存在硬件限制”问题，华为方面明确回应：ADS 4 Max/Pro/SE升级到ADS 5对应版本不存在硬件限制。这意味着此前搭载华为乾崑智驾ADS 4的存量车型有望通过软件更新获得新功能，增强了智驾系统的可持续升级能力。",
+    "category": "机器人",
+    "tags": [
+      "华为",
+      "自动驾驶",
+      "智能驾驶",
+      "乾崑智驾"
+    ],
+    "source": "IT之家",
+    "time": "1分钟前",
+    "ts": "2026-07-02T14:29:50+00:00",
+    "url": "https://www.ithome.com/0/971/939.htm",
+    "image": "https://img.ithome.com/newsuploadfiles/2026/7/0d328824-4d82-4c18-9a88-8ede930ca3d3.png?x-bce-process=image/format,f_auto",
+    "stocks": []
+  },
+  {
     "id": "88db1ffe96a62e8a",
     "title": "企业AI成本失控，花旗Adobe等限制大模型使用",
     "summary": "据泄露的内部资料，花旗、Adobe、Atlassian等企业因人工智能调用成本激增，开始限制员工使用高性能大模型，并改用能力更低、token消耗更少的模型以控制开支。",
