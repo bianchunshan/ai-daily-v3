@@ -1,5 +1,50 @@
 const newsData = [
   {
+    "id": "cd44717703d88d8d",
+    "title": "特斯拉在美推出Model Y L：6座续航325英里售61990美元",
+    "summary": "特斯拉在美国及波多黎各正式推出加长三排六座电动SUV Model Y L首发版，起售价61990美元，续航里程约325英里。该车型售价高于Model Y Performance及主要三排电动SUV竞品。",
+    "body": "特斯拉已在美国和波多黎各市场推出Model Y L，这是一款加长轴距、三排六座布局的电动SUV。首发版本定价61990美元，目前消费者可在线配置订购。该车型售价不仅高于特斯拉自家的Model Y Performance，也高于其主要的三排电动SUV竞品。\n\nModel Y L的推出填补了特斯拉在六座家用电动SUV细分市场的产品空白，有望帮助其在竞争加剧的三排电动SUV领域争夺更多家庭用户。凭借更长的续航和三排座椅布局，该车型可能成为特斯拉提升北美市场销量和平均售价的重要产品。",
+    "category": "未来能源",
+    "tags": [
+      "特斯拉",
+      "电动汽车",
+      "Model Y",
+      "新车发布"
+    ],
+    "source": "Electrek",
+    "time": "4分钟前",
+    "ts": "2026-07-02T18:07:59+00:00",
+    "url": "https://electrek.co/2026/07/02/tesla-model-y-l-us-launch-61990/",
+    "image": "https://electrek.co/wp-content/uploads/sites/3/2026/07/Tesla-Model-YL-US-Launch-1.jpeg?quality=82&#038;strip=all&#038;w=1600",
+    "stocks": [
+      {
+        "name": "特斯拉",
+        "ticker": "TSLA",
+        "reason": "公司直接推出全新六座电动SUV车型，有望带动销量增长和市场份额提升",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "e170951e0600aa6e",
+    "title": "Claude Enterprise 新增用量分析与成本管控功能",
+    "summary": "Anthropic 旗下 Claude Enterprise 推出更丰富的管理分析工具与成本控制功能，帮助企业按群组、用户追踪用量与支出，并通过告警和 Admin API 实现精细化预算管理。",
+    "body": "Claude Enterprise 近日升级企业管理后台，新增用量与成本分析、支出管控等多项功能。管理员现在可以在仪表板按 SCIM 群组、用户维度查看成本，覆盖制品创建、文件编辑、技能与连接器等多项使用场景；Claude Code 管理控制台新增“使用量”和“价值”选项卡，可展示活跃开发者、会话次数、常用命令，以及生产力提升估算、每次提交成本和年度价值估算。同时，自然语言分析聊天支持生成可导出的图表，Analytics API 还能将数据接入 Datadog Cloud Cost Management 与 CloudZero。\n在成本控制方面，Claude Enterprise 允许管理员设置模型默认和权限控制，配置组织级支出限额 75%、90% 的告警通知，用户也会在达到 75% 和 95% 时收到应用内提醒。Admin API 支持自动审批额度提升、标记接近限额用户以及快速变化的用量。这些升级反映出企业级 AI 应用正从“可用”向“可管、可算、可控”演进，有助于提升大模型在组织中的采购透明度与合规性。",
+    "category": "人工智能",
+    "tags": [
+      "大模型企业应用",
+      "AI成本管理",
+      "Claude",
+      "企业软件"
+    ],
+    "source": "AIHOT精选",
+    "time": "9分钟前",
+    "ts": "2026-07-02T18:03:22.345000+00:00",
+    "url": "https://claude.com/blog/giving-admins-more-visibility-and-control-over-claude-usage-and-spend",
+    "image": "",
+    "stocks": []
+  },
+  {
     "id": "60847e4c5328301d",
     "title": "SpaceX收购Cursor后能否保留第三方AI模型平台",
     "summary": "AI编程工具Cursor在被SpaceX收购后，希望继续提供OpenAI和Anthropic等第三方前沿模型，这将考验各大AI实验室之间的合作关系。",
@@ -109,6 +154,25 @@ const newsData = [
     "ts": "2026-07-02T18:00:00+00:00",
     "url": "https://www.space.com/astronomy/stars/stellar-death-is-not-the-end-james-webb-space-telescope-glimpses-the-fate-of-the-solar-system-in-a-weird-exoplanet-orbiting-a-dead-star",
     "image": "https://cdn.mos.cms.futurecdn.net/ecXycQmzHxKTLfDFVnjMZA-1280-80.png",
+    "stocks": []
+  },
+  {
+    "id": "1177ef6cec9cd416",
+    "title": "Fable 5 仅 4.44 美元即可生成鲁布·戈德堡机械",
+    "summary": "OpenRouter 在 X 平台分享称，使用 Fable 5 构建一段鲁布·戈德堡机械仅需 4.44 美元，展现了该 AI 工具以低成本生成复杂创意内容的能力。",
+    "body": "据 OpenRouter 在 X 平台发布的推文，用户借助 Fable 5 以仅 4.44 美元的成本即可完成一段鲁布·戈德堡机械的构建，相关提示词也一并公开。鲁布·戈德堡机械以连锁反应和复杂步骤著称，通常需要较高的设计与制作投入。该案例表明，Fable 5 这类 AI 生成工具可能显著降低复杂创意内容的试错与执行成本。若此类能力成熟，影视、游戏、广告及互动娱乐等领域的内容生产流程有望进一步被 AI 重塑。",
+    "category": "人工智能",
+    "tags": [
+      "Fable 5",
+      "OpenRouter",
+      "AI内容生成",
+      "创意生成"
+    ],
+    "source": "AIHOT精选",
+    "time": "25分钟前",
+    "ts": "2026-07-02T17:46:31+00:00",
+    "url": "https://x.com/OpenRouter/status/2072738704922439689",
+    "image": "",
     "stocks": []
   },
   {
@@ -1451,6 +1515,24 @@ const newsData = [
     "ts": "2026-07-02T14:17:25+00:00",
     "url": "https://www.ithome.com/0/971/936.htm",
     "image": "https://img.ithome.com/newsuploadfiles/2026/7/1b37034f-4edb-4c8f-bad5-95b33d568a93.jpg?x-bce-process=image/format,f_auto",
+    "stocks": []
+  },
+  {
+    "id": "e4c33c654314338d",
+    "title": "开发者呼吁：软件依赖项中不应含LLM代码",
+    "summary": "Hacker News上出现题为“No LLM Code in Dependencies”的帖子，获15点热度，讨论软件依赖项中是否应排除大语言模型生成的代码。",
+    "body": "该帖子在Hacker News上获得15个赞、0条评论，标题为“No LLM Code in Dependencies”，暗示作者主张软件项目的依赖关系中不应包含由大语言模型（LLM）生成的代码。这一话题与当前AI辅助编程快速普及的背景相关，涉及代码溯源、质量控制及软件供应链安全等议题。由于原文仅提供标题与热度信息，具体论证细节未披露。",
+    "category": "网络安全",
+    "tags": [
+      "AI编程",
+      "供应链安全",
+      "软件依赖"
+    ],
+    "source": "Hacker News",
+    "time": "3小时前",
+    "ts": "2026-07-02T14:17:23+00:00",
+    "url": "https://joeyh.name/blog/entry/no_LLM_code_in_dependencies/",
+    "image": "",
     "stocks": []
   },
   {
