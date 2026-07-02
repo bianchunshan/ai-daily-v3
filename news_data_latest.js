@@ -1,5 +1,50 @@
 const newsData = [
   {
+    "id": "9197d4f43279fe2f",
+    "title": "Iberdrola启动美国首个大型电池储能项目",
+    "summary": "西班牙可再生能源与电力巨头Iberdrola开始在美国建设其首个大型电池储能项目，以加强电网稳定性并扩大储能业务布局。",
+    "body": "西班牙可再生能源与电力巨头Iberdrola宣布，正在美国建设其首个大型电池储能项目。随着美国公用事业公司竞相增加储能设施以强化电网韧性，该项目标志着Iberdrola在北美储能市场的首次大规模布局。电池储能被视为平衡可再生能源波动性、提升电网可靠性的关键基础设施，此次投资也反映出全球能源转型中对储能需求的持续增长。",
+    "category": "未来能源",
+    "tags": [
+      "储能",
+      "电网",
+      "电池",
+      "可再生能源"
+    ],
+    "source": "Electrek",
+    "time": "1分钟前",
+    "ts": "2026-07-02T22:33:31+00:00",
+    "url": "https://electrek.co/2026/07/02/iberdrola-kicks-off-its-first-large-scale-battery-project-in-the-us/",
+    "image": "https://electrek.co/wp-content/uploads/sites/3/2026/07/RRSS_bater_a_de_almacenamiento_de_ara_uelo_extremadura.jpg?quality=82&#038;strip=all&#038;w=1500",
+    "stocks": [
+      {
+        "name": "Iberdrola",
+        "ticker": "IBE.MC",
+        "reason": "公司启动美国首个大型电池储能项目，直接受益于储能业务扩张",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "7885afc5b995fa7f",
+    "title": "双动髋关节置换假体可降低术后脱位风险70%",
+    "summary": "发表于《柳叶刀》的一项涵盖瑞典和英国44家医院约1600名患者的研究表明，新型双动髋关节置换假体可将术后关节脱位风险降低70%，其通过小球嵌入更大塑料球的结构设计提升稳定性。",
+    "body": "一项发表于《柳叶刀》的研究显示，新型双动髋关节置换假体可将术后关节脱位风险降低70%。该研究纳入了瑞典和英国44家医院的约1600名患者，结果显示新假体通过将小球置于更大的塑料球内，显著增强了关节稳定性。\n\n髋关节置换术后脱位是常见且严重的并发症之一，往往需要再次手术或住院治疗，给患者和医疗系统带来较大负担。\n\n这种双动结构的设计为改善假体稳定性提供了新思路，未来若广泛应用，有望降低翻修率、减少并发症并改善患者术后生活质量。",
+    "category": "生物医药",
+    "tags": [
+      "医疗器械",
+      "骨科植入物",
+      "生物医药",
+      "临床研究"
+    ],
+    "source": "MedicalXpress",
+    "time": "4分钟前",
+    "ts": "2026-07-02T18:30:02-04:00",
+    "url": "https://medicalxpress.com/news/2026-07-dual-mobility-hip-implant-dislocation.html",
+    "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/70-per-cent-lower-risk.jpg",
+    "stocks": []
+  },
+  {
     "id": "59edd2e76917685f",
     "title": "大型研究发现病毒影响罕见脑淋巴瘤",
     "summary": "海德堡大学医学院一项大型研究发现，病毒对免疫缺陷相关原发性中枢神经系统淋巴瘤具有重要影响。该罕见脑癌与免疫系统受损及特定遗传改变密切相关。",
