@@ -1,5 +1,24 @@
 const newsData = [
   {
+    "id": "7cdfe7ca00061b29",
+    "title": "儿童癌症治疗后冷冻睾丸组织可产生早期生殖细胞",
+    "summary": "卡罗林斯卡医学院的研究显示，面临癌症治疗的男童所冷冻保存的睾丸组织，可在体外生成早期生殖细胞。这项研究有望为保护及恢复儿童癌症患者的生育能力提供新途径。",
+    "body": "瑞典卡罗林斯卡医学院的研究人员在《Human Reproduction Open》上发表研究，证明可以从即将接受癌症治疗的男童冷冻保存的睾丸组织中培养出早期生殖细胞。这意味着，未来或许能利用这些冷冻组织恢复儿童癌症幸存者的精子生成能力。该方法目前仍处于早期研究阶段，但为减少癌症治疗对患儿未来生育能力的影响带来了新的希望。",
+    "category": "生物医药",
+    "tags": [
+      "生殖医学",
+      "儿童癌症",
+      "组织冷冻保存",
+      "生育力保护"
+    ],
+    "source": "MedicalXpress",
+    "time": "刚刚",
+    "ts": "2026-07-02T18:40:01-04:00",
+    "url": "https://medicalxpress.com/news/2026-07-testicular-tissue-early-germ-cells.html",
+    "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/pipette-and-test-tube.jpg",
+    "stocks": []
+  },
+  {
     "id": "9197d4f43279fe2f",
     "title": "Iberdrola启动美国首个大型电池储能项目",
     "summary": "西班牙可再生能源与电力巨头Iberdrola开始在美国建设其首个大型电池储能项目，以加强电网稳定性并扩大储能业务布局。",
@@ -24,6 +43,25 @@ const newsData = [
         "confidence": "high"
       }
     ]
+  },
+  {
+    "id": "0632842746bbfbf4",
+    "title": "SpaceX猎鹰9号自加州再送24颗星链卫星入轨",
+    "summary": "SpaceX于加州范登堡发射猎鹰9号火箭，将24颗星链卫星送入近地轨道，使其在轨活跃卫星总数超过10700颗。",
+    "body": "美国东部时间7月1日晚10时58分，SpaceX一枚猎鹰9号火箭从加利福尼亚州范登堡太空军基地4E发射台升空，执行星链第17组第46批次（Group 17-46）任务。约一小时后，SpaceX确认24颗卫星已成功部署至近地轨道。此次任务的一级助推器B1100完成第七次飞行并回收，降落在太平洋上的“当然我还爱你”无人船上。\n\n据追踪者Jonathan McDowell统计，SpaceX星链巨型星座目前在轨活跃卫星已超10700颗，为全球用户提供互联网接入、航空机载连接以及直连手机等服务。本次发射是SpaceX今年第79次猎鹰9号发射，显示出其高频率、可复用发射能力持续增强，有助于进一步巩固其在商业航天发射和卫星互联网市场的领先地位。",
+    "category": "商业航天",
+    "tags": [
+      "SpaceX",
+      "星链",
+      "猎鹰9号",
+      "商业航天"
+    ],
+    "source": "Space.com",
+    "time": "8分钟前",
+    "ts": "2026-07-02T22:32:50+00:00",
+    "url": "https://www.space.com/space-exploration/launches-spacecraft/spacex-starlink-17-46-b1100-vsfb-ocisly",
+    "image": "https://cdn.mos.cms.futurecdn.net/omrAvhRd3fNFuBAZeMh3Ef-1280-80.jpg",
+    "stocks": []
   },
   {
     "id": "7885afc5b995fa7f",
