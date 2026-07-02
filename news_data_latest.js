@@ -1,65 +1,65 @@
 const newsData = [
   {
     "id": "4c32e8578292c4ad",
-    "title": "算力租赁商Nebius与CoreWeave盘前转涨",
-    "summary": "36氪消息，算力租赁商Nebius和CoreWeave的股价在美股盘前由跌转涨，分别上涨3%和2%，此前一个交易日两股分别收跌17%和14%。",
-    "body": "36氪报道，算力租赁商Nebius与CoreWeave的股价在盘前交易中由跌转涨，其中Nebius上涨3%，CoreWeave上涨2%。此前一个交易日，受市场情绪等因素影响，两家公司股价分别大跌17%和14%。作为AI算力租赁与GPU云服务领域的重要参与者，其股价波动反映出市场对AI基础设施需求与估值的高度敏感。",
+    "title": "算力租赁商Nebius与CoreWeave盘前反弹",
+    "summary": "AI算力租赁商Nebius和CoreWeave在上一交易日大幅下跌后，股价于盘前交易时段反弹，分别上涨3%和2%。",
+    "body": "AI算力租赁商Nebius和CoreWeave的股价在盘前交易时段由跌转涨，分别上涨3%和2%。此前一个交易日，两家公司股价分别收跌17%和14%，出现显著回调。此次盘前反弹显示市场对AI算力租赁标的的短期情绪有所修复，但整体波动仍受行业估值与资金情绪影响。",
     "category": "AI 基础设施",
     "tags": [
       "算力租赁",
-      "AI基础设施",
-      "美股"
+      "美股",
+      "AI基础设施"
     ],
     "source": "36氪",
     "time": "刚刚",
-    "ts": "2026-07-02T12:22:43.450303+00:00",
+    "ts": "2026-07-02T12:23:25.399776+00:00",
     "url": "https://36kr.com/newsflashes/3878460813832192?f=rss",
     "image": "",
     "stocks": [
       {
         "name": "Nebius",
         "ticker": "NBIS",
-        "reason": "公司主营AI算力租赁，股价盘前直接反弹，受益最直接",
+        "reason": "新闻直接涉及的算力租赁商，盘前股价反弹",
         "confidence": "high"
       },
       {
         "name": "CoreWeave",
         "ticker": "CRWV",
-        "reason": "作为GPU云与算力租赁服务商，盘前转涨与其主营业务直接相关",
+        "reason": "新闻直接涉及的算力租赁商，盘前股价反弹",
         "confidence": "high"
       }
     ]
   },
   {
     "id": "0c09cf4bf82e5692",
-    "title": "德国无人机巨头Quantum Systems融资12亿美元",
-    "summary": "德国国防科技公司Quantum Systems宣布完成12亿美元私募融资，估值达约80亿美元，为欧洲国防科技领域最大规模私募融资之一，估值较一年前增长约八倍。",
-    "body": "德国国防科技公司、无人机制造商Quantum Systems周四宣布完成12亿美元新融资，公司估值升至约80亿美元。该公司表示，本轮融资获得国际投资者支持，融资规模在欧洲国防科技私募融资中位居前列。值得注意的是，这一估值较一年前高出约八倍，反映出资本市场对军用及安防无人机领域的高度关注。总部位于慕尼黑的Quantum Systems专注于无人机系统研发，其产品广泛应用于国防、情报侦察等场景。",
+    "title": "德无人机企业Quantum Systems融资12亿美元",
+    "summary": "德国国防科技公司Quantum Systems宣布完成12亿美元新融资，估值约达80亿美元，为欧洲国防科技领域最大规模私募融资之一。",
+    "body": "德国国防科技公司、无人机制造商Quantum Systems周四宣布，已成功筹集12亿美元新资金，公司估值由此达到约80亿美元。这一估值较一年前增长约八倍，显示出资本市场对其无人机及国防科技业务的高度看好。公司表示，本轮融资获得了国际投资者的支持，总部位于慕尼黑。\n\nQuantum Systems此轮融资是迄今为止欧洲国防科技公司获得的最大规模私募融资之一，反映出欧洲防务科技赛道正受到全球资本密切关注。无人机作为现代国防与低空经济的重要载体，其技术研发和产能扩张有望借此加速。",
     "category": "机器人",
     "tags": [
       "无人机",
       "国防科技",
-      "低空经济",
-      "私募融资"
+      "融资",
+      "低空经济"
     ],
     "source": "36氪",
     "time": "刚刚",
-    "ts": "2026-07-02T12:22:40.252909+00:00",
+    "ts": "2026-07-02T12:23:23.916449+00:00",
     "url": "https://36kr.com/newsflashes/3878457699463430?f=rss",
     "image": "",
     "stocks": []
   },
   {
     "id": "91e19621d4cbfa1c",
-    "title": "卓威发布27英寸360Hz电竞显示器XQ2766X",
-    "summary": "卓威同步推出27英寸QHD 360Hz TN电竞显示器XQ2766X，与24.1英寸XQ2566X共享技术堆栈，支持DyAc 3动态精准及抗“毒圈”色彩过滤技术。",
-    "body": "IT之家7月2日消息，ZOWIE（卓威）在发布24.1英寸QHD 360Hz TN LCD显示器XQ2566X的同时，推出了同技术平台的27英寸型号XQ2766X。该显示器分辨率为QHD，刷新率达360Hz，亮度350nits，静态对比度1000:1。\n\nXQ2766X支持DyAc 3动态精准技术以及抗“毒圈”色彩过滤器技术，可提升电竞场景下的画面清晰度与视觉辨识度。接口方面，该产品配备3个HDMI 2.1接口、1个DisplayPort 1.4接口以及3.5mm音频输出插孔。\n\n作为卓威面向高端电竞市场的新品，XQ2766X进一步丰富了其高刷新率TN面板显示器产品线，满足FPS玩家对大尺寸、高帧率显示设备的需求。",
+    "title": "卓威发布27英寸QHD 360Hz TN电竞显示器XQ2766X",
+    "summary": "电竞外设品牌ZOWIE（卓威）推出与XQ2566X共享技术平台的27英寸QHD 360Hz TN LCD显示器XQ2766X，具备350nits亮度、1000:1静态对比度及DyAc 3动态精准技术，面向高端FPS电竞玩家。",
+    "body": "据IT之家报道，ZOWIE（卓威）在发布24.1英寸QHD 360Hz TN LCD显示器XQ2566X的同时，也推出了采用相同技术堆栈的27英寸型号XQ2766X。该显示器拥有350nits亮度和1000:1的静态对比度，支持DyAc 3动态精准技术与抗“毒圈”色彩过滤器技术，以提升高速运动画面的清晰度与辨识度。\n\n接口方面，XQ2766X提供3个HDMI 2.1接口、1个DisplayPort 1.4接口以及3.5mm音频输出插孔。此次新品进一步完善了卓威在高刷新率TN电竞显示器市场的产品线，强化其在专业FPS电竞场景中的竞争力。",
     "category": "消费电子",
     "tags": [
-      "电竞显示器",
-      "卓威",
-      "高刷新率",
-      "消费电子"
+      "显示器",
+      "电竞",
+      "消费电子",
+      "卓威"
     ],
     "source": "IT之家",
     "time": "7分钟前",
@@ -70,59 +70,47 @@ const newsData = [
   },
   {
     "id": "235b394d6158f673",
-    "title": "Nothing Phone 4b外观官宣，推RCB联名款",
-    "summary": "Nothing官方揭晓Nothing Phone（4b）手机外观设计，并将推出印度板球超级联赛RCB球队联名款，定位中端市场。",
-    "body": "7月2日，Nothing在X平台正式公布Nothing Phone（4b）手机外观，并宣布将联合印度板球超级联赛“班加罗尔皇家挑战者”（RCB）球队推出联名款。据官方预热及博主爆料，该机正面搭载6.7英寸120Hz AMOLED屏幕，后置居左相机模组，主摄为5000万像素，保留标志性的竖向灯阵设计；RCB联名款采用红色机身，背面印有球队Logo。配置方面，该机搭载高通骁龙6 Gen 4处理器，配备8GB RAM及128/256GB存储，内置5400mAh电池。此次发布是Nothing进一步深耕印度市场、借助热门体育赛事IP提升品牌辨识度的举措。",
+    "title": "Nothing Phone（4b）外观官宣，推出RCB板球联名款",
+    "summary": "Nothing官方揭晓Nothing Phone（4b）手机外观设计，并宣布将推出印度板球超级联赛RCB球队联名款。新机搭载高通骁龙6 Gen 4处理器，配备6.7英寸120Hz AMOLED屏与5400mAh电池。",
+    "body": "7月2日，Nothing在X平台正式公布了Nothing Phone（4b）的外观设计，并宣布将为该机推出印度板球超级联赛“班加罗尔皇家挑战者”（RCB）球队联名版本。根据官方预热与博主爆料，该机正面采用6.7英寸120Hz AMOLED屏幕，后置相机模组位于机身左侧，主摄为5000万像素，并延续Nothing标志性的竖向灯阵设计。RCB联名款采用红色机身，背面印有球队Logo。\n\n规格方面，Nothing Phone（4b）搭载高通骁龙6 Gen 4处理器，配备8GB运行内存与128/256GB存储空间，内置5400mAh电池。此次联名款的推出体现了Nothing进一步深耕印度市场的策略，板球作为印度最受欢迎的运动之一，有望提升该机型在当地的品牌认知度和销量。",
     "category": "消费电子",
     "tags": [
       "智能手机",
       "Nothing",
-      "消费电子",
-      "新品发布"
+      "高通",
+      "印度市场"
     ],
     "source": "IT之家",
-    "time": "8分钟前",
+    "time": "9分钟前",
     "ts": "2026-07-02T12:13:51+00:00",
     "url": "https://www.ithome.com/0/971/890.htm",
     "image": "https://img.ithome.com/newsuploadfiles/2026/7/2943fd80-c4be-4ffc-89ba-dc0d6f34691f.jpg?x-bce-process=image/format,f_auto",
-    "stocks": []
+    "stocks": [
+      {
+        "name": "高通",
+        "ticker": "QCOM",
+        "reason": "新机搭载高通骁龙6 Gen 4处理器，芯片供应直接受益",
+        "confidence": "medium"
+      }
+    ]
   },
   {
     "id": "4ee89db8e7e9f970",
-    "title": "初创公司要用Flint打破大模型“群体思维”",
-    "summary": "大型语言模型在回答开放式问题时往往给出雷同答案，澳大利亚初创公司Springboards推出名为Flint的模型，专门训练以生成更多样化的回应。",
-    "body": "据《MIT Technology Review》报道，当前主流大语言模型在面对“给出一个1到10之间的随机数”或“欧洲哪里值得去”等开放式问题时，往往倾向于选择相似答案，表现出明显的“群体思维”倾向。这种可预测性在编程、检索等任务中无伤大雅，但在头脑风暴、旅行规划等需要创意的场景中却成为短板。澳大利亚初创公司Springboards为此开发了名为Flint的大语言模型，通过针对性训练鼓励模型给出更广泛、更少见的回答，试图让聊天机器人跳出“安全而平庸”的答案区间。文章还提到，科学家近日宣称首次用实验室合成的DNA构建出可生长繁殖的细胞，向合成生命迈出重要一步。",
+    "title": "初创公司Springboards用新模型破解AI“群体思维”",
+    "summary": "澳大利亚初创公司Springboards推出大语言模型Flint，旨在让聊天机器人在开放式问题上给出更多样化的回答，突破主流模型的同质化倾向。",
+    "body": "据MIT Tech Review报道，当前主流大语言模型（LLM）在回答“1到10的随机数”或“欧洲旅行推荐”等开放式问题时，往往给出高度趋同的答案，这种现象被称为AI的“群体思维”。它虽然对编程、研究等任务影响有限，但在头脑风暴、创意规划等场景中明显削弱了模型的实用性。澳大利亚初创公司Springboards开发了一款名为Flint的LLM，通过针对性训练提升回答多样性，试图让聊天机器人跳出“安全但平庸”的回应模式。业内人士认为，这一方向若获验证，可能为AI应用带来新的差异化体验。",
     "category": "人工智能",
     "tags": [
-      "大模型",
+      "大语言模型",
       "生成式AI",
-      "创业公司",
+      "AI应用",
       "模型多样性"
     ],
     "source": "MIT Tech Review",
-    "time": "12分钟前",
+    "time": "13分钟前",
     "ts": "2026-07-02T12:10:00+00:00",
     "url": "https://www.technologyreview.com/2026/07/02/1140027/the-download-ai-groupthink-llms/",
     "image": "https://wp.technologyreview.com/wp-content/uploads/2026/06/260626_LLMhallucinations.jpg?fit=2128,1196",
-    "stocks": []
-  },
-  {
-    "id": "2b53d1bcd6152550",
-    "title": "OpenAI拟向美政府转让5%股权，Altman建议建AI公共基金",
-    "summary": "据英国《金融时报》援引知情人士报道，OpenAI正在讨论向美国政府提供5%的公司股权，CEO山姆·阿尔特曼还提议所有美国领先AI实验室按相同比例出资，仿照阿拉斯加永久基金模式设立公共基金。",
-    "body": "据英国《金融时报》报道，OpenAI正在早期概念性讨论中研究让美国政府获得5%的公司股权。按OpenAI今年3月融资时8520亿美元的估值计算，该股权价值约426亿美元。要实现此类安排，可能需美国国会通过相应法案。\n\n阿尔特曼已向美国总统特朗普、商务部长卢特尼克、财政部长贝森特以及参议员桑德斯等人提出这一想法。他建议谷歌、Meta和Anthropic等美国主要AI开发商都将5%的股权注入一个仿照阿拉斯加永久基金的公共载体，由该基金每年向美国民众分红。目前其他公司尚未表态参与，OpenAI和白宫均未置评。\n\n相比桑德斯议员此前提出的《美国AI主权财富基金法案》（要求获得50%投票权、基金规模达7万亿美元），5%的出资比例明显更低。分析人士指出，这一方案折射出美国政府试图以股权或基金形式分享AI产业收益、增强对领先AI企业影响的意图，但该构想尚处初期，能否落地仍存较大不确定性。",
-    "category": "地缘科技",
-    "tags": [
-      "OpenAI",
-      "美国AI政策",
-      "主权财富基金",
-      "阿尔特曼"
-    ],
-    "source": "Tom's Hardware",
-    "time": "15分钟前",
-    "ts": "2026-07-02T12:06:36+00:00",
-    "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/openai-floats-5-percent-government-stake-days-after-washington-delayed-gpt-5-6",
-    "image": "https://cdn.mos.cms.futurecdn.net/mwQA35pySeUsDEDFacZ4RF-1280-80.jpg",
     "stocks": []
   },
   {
@@ -141,6 +129,25 @@ const newsData = [
     "ts": "2026-07-02T12:03:21.728689+00:00",
     "url": "https://36kr.com/newsflashes/3878445115322370?f=rss",
     "image": "",
+    "stocks": []
+  },
+  {
+    "id": "63c31501b66b22bf",
+    "title": "Luxonis完成1400万美元A轮融资拓展机器人感知",
+    "summary": "Luxonis宣布完成1400万美元A轮融资，将扩大OAK相机生产、完善OAK4云感知生态，并加速机器人与工业自动化领域的商业化拓展。",
+    "body": "Luxonis近日完成1400万美元A轮融资，计划加速商业扩张、推进产品路线图，并扩大其OAK相机产能以满足不断增长的市场需求。该公司成立于2019年，致力于将传感器、端侧计算与开源软件整合为统一平台，为机器人提供简化的视觉感知能力。\n\n本轮融资还将帮助Luxonis扩展供应链能力，并推进其于2025年12月推出的OAK4云感知生态系统。Luxonis表示，其OAK设备将多类视觉传感器与端侧算力集成于一体，开源软件生态则支持开发者利用智能体AI快速构建和部署自动化应用。\n",
+    "category": "机器人",
+    "tags": [
+      "机器人视觉",
+      "具身智能",
+      "工业自动化",
+      "OAK相机"
+    ],
+    "source": "The Robot Report",
+    "time": "22分钟前",
+    "ts": "2026-07-02T12:00:32+00:00",
+    "url": "https://www.therobotreport.com/luxonis-closes-series-a-round-to-scale-physical-ai-perception-layer/",
+    "image": "https://www.therobotreport.com/wp-content/uploads/2026/07/Luxonis-Series-A-cover.jpg",
     "stocks": []
   },
   {
