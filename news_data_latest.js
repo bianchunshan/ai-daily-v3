@@ -1,5 +1,24 @@
 const newsData = [
   {
+    "id": "68f1a8f38126b20b",
+    "title": "荣耀MagicOS七月更新首曝",
+    "summary": "荣耀MagicOS 10七月版本将聚焦动效、灵动胶囊、锁屏、AI与智慧互联升级，并行业首发三端120Hz投屏功能，进一步提升系统体验与生态互联能力。",
+    "body": "据博主爆料，荣耀MagicOS 10系统七月更新将围绕动效、灵动胶囊、锁屏、AI功能和智慧互联进行优化。新版本将带来动态图片水印拍摄、TOP级游戏应用分身、三端120Hz投屏、3D照片锁屏、蓝牙耳机电量等小组件，以及YOYO语音一语微信等功能。其中三端120Hz投屏属于行业首发，有望提升跨设备协同体验。\n\n此次升级强化AI交互、锁屏个性化和智慧互联能力，有助于提升荣耀手机在高端消费电子市场的差异化竞争力，并进一步完善其软硬件生态。",
+    "category": "消费电子",
+    "tags": [
+      "荣耀",
+      "MagicOS",
+      "手机系统",
+      "AI功能"
+    ],
+    "source": "IT之家",
+    "time": "1分钟前",
+    "ts": "2026-07-02T14:57:38+00:00",
+    "url": "https://www.ithome.com/0/971/945.htm",
+    "image": "https://img.ithome.com/newsuploadfiles/2026/7/4c61acad-27a1-431d-8318-0a874a5563b7.png",
+    "stocks": []
+  },
+  {
     "id": "a6020dea5e26fb15",
     "title": "Lucid Motors CFO离职，新任CEO继续高管改组",
     "summary": "美国电动汽车制造商Lucid Motors宣布首席财务官离职，并新任命一批高管以推动公司扭转颓势；其Gravity SUV销量未达预期。",
