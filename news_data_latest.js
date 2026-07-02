@@ -1,5 +1,119 @@
 const newsData = [
   {
+    "id": "5badeebcfb645d0f",
+    "title": "新研究揭示咖啡护肝的生物学线索",
+    "summary": "一项大型研究将较高的咖啡摄入量与肝硬化、肝癌及肝病相关死亡风险降低联系起来，并提供了潜在的生物学解释。",
+    "body": "西达赛奈医疗中心的研究人员开展了迄今最大规模之一的咖啡与肝脏健康研究，发现饮用更多咖啡与肝硬化、肝癌及肝病相关死亡风险降低显著相关。该成果发表于《临床胃肠病学与肝病学》期刊。\n\n研究团队还识别出可能解释这种保护作用的生物学机制，涉及咖啡成分对肝脏代谢、炎症及纤维化的影响。\n\n专家表示，这一发现为适量咖啡有益肝脏健康提供了新的流行病学与生物学证据，但尚需更多临床研究，不能简单建议通过喝咖啡防治肝病。",
+    "category": "生物医药",
+    "tags": [
+      "咖啡",
+      "肝脏健康",
+      "生物医学",
+      "流行病学"
+    ],
+    "source": "MedicalXpress",
+    "time": "3分钟前",
+    "ts": "2026-07-02T09:00:04-04:00",
+    "url": "https://medicalxpress.com/news/2026-07-biological-clues-coffee-benefit-liver.html",
+    "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/coffee-1.jpg",
+    "stocks": []
+  },
+  {
+    "id": "50eb8304d64f19b1",
+    "title": "Threads虚假MrBeast推广泛滥，实为加密诈骗网络",
+    "summary": "据报道，Meta旗下社交平台Threads上充斥大量假冒网红MrBeast的虚假推广信息，这些内容属于一个大规模加密货币诈骗网络的一部分。",
+    "body": "据外媒报道，Meta旗下社交平台Threads上出现大量假冒知名网红MrBeast的虚假推广 spam，经调查这些 spam 与一个大规模加密货币诈骗网络有关。诈骗者借助MrBeast的影响力发布虚假促销内容，诱导用户参与加密货币骗局。该事件反映出大型社交平台在反欺诈和内容审核方面仍面临严峻挑战，若处理不当可能损害用户信任与平台生态。",
+    "category": "网络安全",
+    "tags": [
+      "社交平台安全",
+      "加密货币诈骗",
+      "内容审核"
+    ],
+    "source": "Engadget",
+    "time": "3分钟前",
+    "ts": "2026-07-02T13:00:00+00:00",
+    "url": "https://www.engadget.com/2206409/threads-ubiquitous-mr-beast-spam-is-part-of-a-massive-crypto-scam-network/",
+    "image": "https://www.engadget.com/img/gallery/threads-ubiquitous-mr-beast-spam-is-part-of-a-massive-crypto-scam-network/l-intro-1782941700.jpg",
+    "stocks": []
+  },
+  {
+    "id": "46e8d3ac2c26d91e",
+    "title": "华硕B850-Creator Wifi Neo主板评测：创作者定位但缺USB4",
+    "summary": "华硕B850-Creator Wifi Neo主板面向3D渲染、动画等媒体创作人群，配备双5GbE网口与双PCIe 5.0 M.2插槽，但缺少USB4/40 Gbps高速外接接口，扩展性受到一定限制。",
+    "body": "华硕B850-Creator Wifi Neo属于ProArt系列，定位创作者市场，强调高速网络、存储与USB连接，以提升大型文件处理效率。该主板售价约299.99美元，在同价位中提供了少见的双5GbE有线网口和两个PCIe 5.0 x4 M.2插槽，适合需要高带宽存储与网络传输的用户。\n\n其他配置方面，该板搭载160 MHz Wi-Fi 7无线网卡、总计八个USB接口（其中六个为Type-A）、三个M.2插槽以及上一代旗舰级音频解码芯片，并留有两个额外的PCIe扩展槽可供用户自行加装更多高速接口。不过，与定位更高的X870E-Creator Wifi相比，B850-Creator Wifi Neo并未配备USB4/40 Gbps端口，依赖外接高速存储的用户可能需要通过内部接口或扩展卡解决。\n\n总体来看，这款产品试图以较低价格为预算型创作者提供接近专业级主板的核心连接能力，但缺少USB4使其在部分外置高速设备场景下略显不足，也反映出华硕在不同价位段产品之间的功能区分策略。",
+    "category": "消费电子",
+    "tags": [
+      "主板",
+      "华硕",
+      "创作者PC",
+      "消费电子"
+    ],
+    "source": "Tom's Hardware",
+    "time": "3分钟前",
+    "ts": "2026-07-02T13:00:00+00:00",
+    "url": "https://www.tomshardware.com/pc-components/motherboards/asus-b850-creator-wifi-neo-motherboard-review",
+    "image": "https://cdn.mos.cms.futurecdn.net/LAp4ncsPxmHKtm25BF6o5K-1280-80.jpg",
+    "stocks": [
+      {
+        "name": "华硕",
+        "ticker": "2357.TW",
+        "reason": "新闻直接涉及华硕推出的B850-Creator Wifi Neo主板产品，与其消费电子业务相关",
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
+    "id": "50289c287e940e6b",
+    "title": "英国公司发布可倒置行驶电动超跑，售价130万美元",
+    "summary": "McMurtry发布Spéirling电动超跑量产版，依靠巨型风扇产生强大下压力并刷新赛道纪录，售价约130万美元。",
+    "body": "McMurtry Automotive正式发布了Spéirling电动超跑的量产版本。该车通过车身前后巨型风扇制造“吸力”，在静止或低速状态下也能获得极大下压力，理论上甚至可在天花板上倒置行驶。官方表示，这款双座电动超跑已刷新多项赛道纪录，展现了极端的空气动力学性能。\n\n这款车售价约为130万美元，采用限量生产模式。其核心亮点在于高性能电池、电驱系统与主动空气动力学的深度融合；虽然面向小众豪华市场，但也代表了电动车在极限性能与工程创新方向上的突破。",
+    "category": "未来能源",
+    "tags": [
+      "电动超跑",
+      "电池技术",
+      "空气动力学",
+      "赛道纪录"
+    ],
+    "source": "Electrek",
+    "time": "3分钟前",
+    "ts": "2026-07-02T13:00:00+00:00",
+    "url": "https://electrek.co/2026/07/02/this-electric-race-car-can-drive-upside-down-and-can-be-yours-for-a-cool-1-3m/",
+    "image": "https://electrek.co/wp-content/uploads/sites/3/2026/07/1.-McMurtry-Speirling-track-hero-e1782921942680.jpg?quality=82&#038;strip=all&#038;w=1600",
+    "stocks": []
+  },
+  {
+    "id": "e4ae052f9582b967",
+    "title": "英特尔上调旗舰桌面CPU售价 最高涨50美元",
+    "summary": "英特尔近日悄然上调其Arrow Lake Refresh系列Core Ultra 270K Plus与250K Plus桌面处理器的官方建议零售价，涨幅在30至50美元之间，目前新价格已反映在亚马逊等零售渠道。",
+    "body": "据报道，英特尔于2026年3月发布的Core Ultra 200S Plus桌面处理器近日出现官方定价上调。其中，Core Ultra 270K Plus的建议客户价从原来的289至299美元涨至339至349美元，Core Ultra 250K Plus则从189至199美元涨至219至229美元，最高涨幅达50美元。这两款芯片属于Arrow Lake Refresh产品线，主打修复初代Arrow Lake架构瓶颈，并在1080p游戏性能上最高提升15%。目前亚马逊等零售渠道已按新价格销售。此次涨价有望改善英特尔消费级CPU业务的平均售价与利润，但也可能影响其在桌面处理器市场的价格竞争力。",
+    "category": "消费电子",
+    "tags": [
+      "英特尔",
+      "桌面处理器",
+      "CPU",
+      "PC芯片"
+    ],
+    "source": "Tom's Hardware",
+    "time": "4分钟前",
+    "ts": "2026-07-02T12:58:25+00:00",
+    "url": "https://www.tomshardware.com/pc-components/cpus/intel-hikes-pricing-for-its-flagship-desktop-pc-chips-by-up-to-usd50-official-core-ultra-270k-plus-and-250k-plus-product-pages-now-recommend-prices-of-up-to-usd349-and-usd229-respectively",
+    "image": "https://cdn.mos.cms.futurecdn.net/gosLhsgzty5wZ8HXekG75j-1280-80.jpg",
+    "stocks": [
+      {
+        "name": "英特尔",
+        "ticker": "INTC",
+        "reason": "涨价产品的直接供应商，消费级桌面CPU均价提升有望改善利润率",
+        "confidence": "medium"
+      },
+      {
+        "name": "超威半导体",
+        "ticker": "AMD",
+        "reason": "英特尔桌面CPU涨价可能使部分消费者转向AMD平台",
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
     "id": "dc9b29c3de0f4197",
     "title": "华为Pura X Max销量破45万台 典藏版更畅销",
     "summary": "消息称华为横向阔折叠手机Pura X Max系列总销量已突破45万台，其中定价更高的典藏版销量超过普通版约5万台。",
@@ -368,6 +482,25 @@ const newsData = [
         "confidence": "medium"
       }
     ]
+  },
+  {
+    "id": "a5b4e110faf3ea55",
+    "title": "单层Transformer可媲美全参数强化学习训练",
+    "summary": "一项在Hacker News分享的研究提出，单个Transformer层即可在性能上媲美全参数强化学习训练。该成果若被验证，可能为降低大模型RL训练成本提供新思路。",
+    "body": "据报道，一项以\"Is One Layer Enough?\"为题的研究探讨了极简Transformer架构在强化学习训练中的潜力。研究显示，仅使用单个Transformer层便能在某些场景下达到与完整参数强化学习训练相当的效果。\n\n这一发现挑战了\"模型越深、参数越多则性能越好\"的固有认知，表明通过精巧的架构设计与训练策略，或可用更轻量的模型实现相近的RL能力。若后续研究能够复现并拓展该结论，将为大模型后训练、Agent开发及算力成本优化提供新的研究方向。\n\n不过，目前公开信息较为有限，具体实验设置、任务范围与可复现性仍需等待论文或更详细的技术报告披露。",
+    "category": "人工智能",
+    "tags": [
+      "Transformer",
+      "强化学习",
+      "模型效率",
+      "AI研究"
+    ],
+    "source": "Hacker News",
+    "time": "52分钟前",
+    "ts": "2026-07-02T12:10:24+00:00",
+    "url": "https://arxiv.org/abs/2607.01232",
+    "image": "",
+    "stocks": []
   },
   {
     "id": "4ee89db8e7e9f970",
