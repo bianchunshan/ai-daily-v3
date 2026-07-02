@@ -1,5 +1,31 @@
 const newsData = [
   {
+    "id": "23ff659d49776e8b",
+    "title": "Anthropic与三星洽谈定制AI芯片",
+    "summary": "AI公司Anthropic正与三星电子商讨开发一款定制AI芯片，以优化模型训练与推理；此前OpenAI刚宣布与博通合作自研AI芯片。",
+    "body": "据TechCrunch报道，Anthropic正在与三星电子就一款新的定制AI芯片进行洽谈。消息人士称，双方讨论的重点可能围绕用于AI训练和推理的专用处理器，以降低对主流GPU供应的依赖并提升算力效率。\n\n这一消息发布距OpenAI宣布与Broadcom合作开发自研AI芯片仅约一周，显示出头部AI实验室正加速布局专属算力硬件。若Anthropic与三星达成合作，三星有望在先进制程晶圆代工和AI加速器市场获得重要客户。\n\n不过，目前双方仍处于讨论阶段，具体代工角色、芯片架构及量产时间表尚未披露，合作能否落地仍存不确定性。",
+    "category": "半导体与先进制造",
+    "tags": [
+      "Anthropic",
+      "三星",
+      "定制AI芯片",
+      "晶圆代工"
+    ],
+    "source": "TechCrunch",
+    "time": "2分钟前",
+    "ts": "2026-07-02T18:31:09+00:00",
+    "url": "https://techcrunch.com/2026/07/02/anthropic-is-discussing-a-new-custom-chip-with-samsung/",
+    "image": "",
+    "stocks": [
+      {
+        "name": "三星电子",
+        "ticker": "005930.KS",
+        "reason": "若洽谈落地，三星有望为Anthropic提供先进制程代工或芯片制造服务，带动其半导体业务。",
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
     "id": "d73d9129ebf41c49",
     "title": "Isar Aerospace将为Planet发射德国造遥感卫星",
     "summary": "德国火箭初创公司Isar Aerospace赢得Planet德国子公司的发射合同，将把一颗德国制造的成像卫星送入太空。",
@@ -1465,6 +1491,24 @@ const newsData = [
     "ts": "2026-07-02T14:29:50+00:00",
     "url": "https://www.ithome.com/0/971/939.htm",
     "image": "https://img.ithome.com/newsuploadfiles/2026/7/0d328824-4d82-4c18-9a88-8ede930ca3d3.png?x-bce-process=image/format,f_auto",
+    "stocks": []
+  },
+  {
+    "id": "04050d171986b648",
+    "title": "Podman 6.0.0 版本发布",
+    "summary": "开源容器引擎 Podman 发布 6.0.0 大版本更新，但原文未披露具体新特性与改进细节。",
+    "body": "Hacker News 上出现题为“Podman v6.0.0”的条目，显示该开源容器引擎已推出 6.0.0 版本，不过材料中未给出文章链接及功能说明。Podman 是由 Red Hat 主导的容器管理工具，支持无守护进程、rootless 容器以及与 Kubernetes 兼容的 Pod 管理，常用于替代 Docker 或在 CI/CD、边缘计算等场景部署容器化工作负载。作为大版本迭代，v6.0.0 通常意味着 API、CLI 或兼容性层面的重要变更，具体影响有待官方发布说明进一步确认。",
+    "category": "AI 基础设施",
+    "tags": [
+      "容器",
+      "开源软件",
+      "云原生"
+    ],
+    "source": "Hacker News",
+    "time": "4小时前",
+    "ts": "2026-07-02T14:23:09+00:00",
+    "url": "https://blog.podman.io/2026/07/introducing-podman-v6-0-0/",
+    "image": "",
     "stocks": []
   },
   {
