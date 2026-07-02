@@ -1,5 +1,24 @@
 const newsData = [
   {
+    "id": "1987a2dac86cc105",
+    "title": "SpaceX星舰六台发动机完成静态点火备战第13次试飞",
+    "summary": "SpaceX新一代星舰上面级“Ship 40”在得克萨斯州星基地完成全部六台猛禽发动机长达60秒的静态点火测试，为第十三次全箭堆叠试飞扫清关键障碍。",
+    "body": "当地时间7月2日，SpaceX在X账号发布了“Ship 40”六台猛禽发动机同时点火的测试视频。三台海平面版与三台真空优化版发动机按飞行工况持续燃烧约一分钟，模拟真实飞行条件。这是该上面级自上周首次单台发动机15秒点火后，又一次更接近实战状态的综合考核。\n\nShip 40将执行SpaceX第二次“Version 3”星舰发射任务，也是星舰全箭堆叠后的第13次试飞，预计将在未来一个月左右进行。此前5月22日的V3首飞总体顺利，但超重型助推器未能按计划完成海面软溅落，本次全面静态点火被视为验证改进后的关键步骤。\n",
+    "category": "商业航天",
+    "tags": [
+      "SpaceX",
+      "星舰",
+      "静态点火",
+      "商业航天"
+    ],
+    "source": "Space.com",
+    "time": "4分钟前",
+    "ts": "2026-07-02T22:00:00+00:00",
+    "url": "https://www.space.com/space-exploration/launches-spacecraft/spacex-fires-up-all-6-of-starships-engines-ahead-of-13th-test-flight-video",
+    "image": "https://cdn.mos.cms.futurecdn.net/BV4x7899JorURbkoW8q5n4-1280-80.jpg",
+    "stocks": []
+  },
+  {
     "id": "5d5ebeb11a0963e7",
     "title": "FDA批准赛诺菲Tzield用于儿童新发3期1型糖尿病",
     "summary": "美国FDA加速批准赛诺菲Tzield（teplizumab）用于8至17岁近期确诊3期1型糖尿病患儿，以延缓内源性胰岛素分泌下降。",
