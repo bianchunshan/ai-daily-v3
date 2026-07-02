@@ -1,5 +1,24 @@
 const newsData = [
   {
+    "id": "55211082d7870608",
+    "title": "吸入镇痛药早期止痛效果与吗啡相当",
+    "summary": "一项发表于《柳叶刀》的研究显示，在院前急救早期难以建立静脉通路时，吸入镇痛药的止痛效果与吗啡相当，可为现场镇痛提供有效替代方案。",
+    "body": "该研究指出，在野外或院前急救环境中为患者镇痛往往面临静脉通路建立困难等挑战。研究人员发现，吸入镇痛药在急救最早期即可提供与吗啡相近的疼痛缓解效果，为院前镇痛提供了新的有效选择。\n\n这一发现有望改善战场、灾害救援及日常急救中的疼痛管理流程，减少对静脉注射的依赖，提升救治效率。不过，相关药物的具体产品化和临床应用仍需进一步验证。",
+    "category": "生物医药",
+    "tags": [
+      "吸入镇痛",
+      "院前急救",
+      "吗啡替代",
+      "柳叶刀"
+    ],
+    "source": "MedicalXpress",
+    "time": "2分钟前",
+    "ts": "2026-07-02T13:00:05-04:00",
+    "url": "https://medicalxpress.com/news/2026-07-inhaled-analgesia-effective-morphine-early.html",
+    "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/inhaled-analgesia-is-a-1.jpg",
+    "stocks": []
+  },
+  {
     "id": "a31a24df59d3c1bc",
     "title": "新格伦火箭爆炸后，NASA登月重型火箭时间表承压",
     "summary": "Ars Technica近日邀请航天专家探讨Blue Origin新格伦火箭5月底爆炸后的行业影响，重点分析其对NASA阿耳忒弥斯IV载人登月任务的冲击。Blue Origin计划推出的更强型号9x4尚无官方时间表，消息人士称或瞄准2027年底至2028年初首飞。",
