@@ -1,5 +1,100 @@
 const newsData = [
   {
+    "id": "daf02d8d2b4de7d5",
+    "title": "优步AI数据标注业务两高管离职",
+    "summary": "优步近期对其人工智能数据标注业务管理层进行调整，AI解决方案工程高级总监纳加·卡苏与产品总监潘卡吉·卡马特已离职。两人在优步任职均超过十年，此前曾领导核心的打车与配送业务部门。",
+    "body": "据外媒报道，优步近期对其人工智能数据标注业务的管理层进行了调整，两名技术高管已从该部门离职。离职者分别为优步AI解决方案工程高级总监纳加·卡苏（Naga Kasu）和产品总监潘卡吉·卡马特（Pankaj Kamat），两人均在优步任职超过十年。\n\n在负责AI数据标注业务之前，卡苏和卡马特曾领导优步核心的打车与配送业务部门。此次高管离职反映出优步内部AI相关团队正经历管理层变动，可能对其AI数据标注、模型训练支撑等业务方向带来影响。\n\nAI数据标注是训练和优化机器学习模型的关键环节，管理层变动或将影响优步在自动驾驶、派单算法等AI业务上的推进节奏与资源配置。",
+    "category": "人工智能",
+    "tags": [
+      "优步",
+      "人工智能",
+      "数据标注",
+      "管理层变动"
+    ],
+    "source": "36氪",
+    "time": "刚刚",
+    "ts": "2026-07-02T23:25:07.656118+00:00",
+    "url": "https://36kr.com/newsflashes/3879114512347136?f=rss",
+    "image": "",
+    "stocks": [
+      {
+        "name": "优步",
+        "ticker": "UBER",
+        "reason": "公司AI数据标注业务两名资深高管离职，管理层变动可能反映其AI业务战略调整，或对运营产生影响",
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
+    "id": "1354d6a3b2b1bbde",
+    "title": "PamStealer恶意软件曝光：专盯Mac用户窃取隐私",
+    "summary": "Jamf Threat Labs披露名为PamStealer的新型恶意软件，该软件伪装成Maccy剪贴板管理器攻击macOS用户，通过伪造系统授权提示骗取管理员密码，并加载Rust载荷窃取浏览器Cookie、凭据及加密货币钱包等隐私数据。",
+    "body": "据Jamf Threat Labs发布的博文，PamStealer主要针对苹果macOS用户，通过虚假网站分发伪装成Maccy剪贴板管理器的恶意AppleScript应用。用户安装后，该恶意软件会仿冒macOS授权提示索要管理员密码，并调用苹果Pluggable Authentication Modules验证密码有效性，从而筛选可用凭据。\n\n在确认系统特征、键盘布局和区域设置后，PamStealer会获取第二阶段Rust载荷并建立持久化机制，进而收集浏览器Cookie、浏览历史、已保存密码、SQLite数据库、剪贴板内容以及加密货币钱包信息。攻击者会对窃取的数据加密，再回传至命令与控制服务器。Jamf指出，该恶意软件大量使用Rust语言，增加了逆向分析难度。\n\n此次披露再次凸显了macOS平台面临的针对性威胁，也表明企业端点安全、身份验证与持续威胁监测的重要性日益提升。",
+    "category": "网络安全",
+    "tags": [
+      "网络安全",
+      "恶意软件",
+      "macOS",
+      "Jamf"
+    ],
+    "source": "IT之家",
+    "time": "1分钟前",
+    "ts": "2026-07-02T23:23:22+00:00",
+    "url": "https://www.ithome.com/0/971/966.htm",
+    "image": "https://img.ithome.com/newsuploadfiles/2026/7/865e9121-9f03-461e-a555-2deb6d670200.jpg?x-bce-process=image/format,f_auto",
+    "stocks": [
+      {
+        "name": "Jamf控股",
+        "ticker": "JAMF",
+        "reason": "Jamf Threat Labs披露该威胁，彰显其在苹果生态端点安全研究与威胁情报方面的能力，有助于提升其企业安全业务认知度。",
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
+    "id": "4dd199f2d50168de",
+    "title": "扎克伯格称AI智能体进展慢于预期",
+    "summary": "Meta CEO扎克伯格在内部全员会上表示，AI智能体技术的发展比他此前预期的要慢，公司仍需投入更多时间和精力方能迈向“超级智能”。",
+    "body": "据《商业内幕》报道，Meta首席执行官马克·扎克伯格在上周四的一场内部全员会上坦言，尽管公司正投入数百亿美元建设AI基础设施、招募人才并全力开发AI模型，但AI智能体（AI Agent）技术的发展速度并未达到他的预期。Meta近期一次内部战略调整也反映出其AI战略面临的两难：一方面要加速研发以追赶行业竞争，另一方面又需在开发速度、员工信任与团队士气之间取得平衡，因为AI开发最终仍依赖人。不过扎克伯格仍表示，Meta正继续向超级智能迈进，预计未来3至6个月内能看到部分成果。",
+    "category": "人工智能",
+    "tags": [
+      "Meta",
+      "AI智能体",
+      "超级智能"
+    ],
+    "source": "IT之家",
+    "time": "2分钟前",
+    "ts": "2026-07-02T23:22:40+00:00",
+    "url": "https://www.ithome.com/0/971/965.htm",
+    "image": "https://img.ithome.com/newsuploadfiles/2026/7/fcbd09f6-bc54-424c-a978-d3f2115d394d.png?x-bce-process=image/format,f_auto",
+    "stocks": [
+      {
+        "name": "Meta Platforms",
+        "ticker": "META",
+        "reason": "新闻直接涉及Meta的AI战略与内部预期，影响市场对其AI投入转化效率的判断。",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "09241b2422f7147f",
+    "title": "风险导向策略优于美国肺癌筛查推荐标准",
+    "summary": "一项发表于《内科学年鉴》的研究显示，基于个体风险的肺癌筛查策略在提升效率和减少种族/族裔间筛查差异方面，优于美国预防服务工作组现行推荐标准。",
+    "body": "该研究于6月30日在线发表在《内科学年鉴》（Annals of Internal Medicine）。研究人员比较了风险导向筛查策略与美国预防服务工作组（USPSTF）的肺癌筛查标准，发现前者能更高效地识别高危人群，同时降低不同种族和族裔群体之间的筛查率差异。\n\n目前USPSTF主要依据年龄和吸烟史设定筛查门槛，而风险导向策略则综合更多个体风险因素进行分层。研究认为，采用风险导向方法有助于优化医疗资源配置，推动肺癌早筛更加公平和精准。",
+    "category": "生物医药",
+    "tags": [
+      "肺癌筛查",
+      "早筛策略",
+      "预防医学"
+    ],
+    "source": "MedicalXpress",
+    "time": "4分钟前",
+    "ts": "2026-07-02T19:20:03-04:00",
+    "url": "https://medicalxpress.com/news/2026-07-based-strategies-superior-task-criteria.html",
+    "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/risk-based-strategies.jpg",
+    "stocks": []
+  },
+  {
     "id": "99e2cb40e2259b28",
     "title": "AI创企ElevenLabs拟要约收购，估值或达220亿美元",
     "summary": "人工智能初创公司ElevenLabs正与投资者初步洽谈二次股份发行，交易估值或达220亿美元，约为2月融资后估值的两倍。",
