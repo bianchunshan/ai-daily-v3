@@ -1,5 +1,50 @@
 const newsData = [
   {
+    "id": "d8fa82a469d96b81",
+    "title": "研究显示勃方鲁肽降糖效果优于司美格鲁肽",
+    "summary": "发表于《内科学年鉴》的研究指出，GLP-1受体激动剂勃方鲁肽在降低成年2型糖尿病患者糖化血红蛋白（HbA1c）水平方面优于司美格鲁肽。",
+    "body": "这项在线发表于6月30日《内科学年鉴》的研究表明，对于成年2型糖尿病患者，新型GLP-1受体激动剂勃方鲁肽与更显著的糖化血红蛋白（HbA1c）下降相关，降幅优于司美格鲁肽（semaglutide）。\n\nHbA1c是衡量长期血糖控制的关键指标，该结果为勃方鲁肽作为2型糖尿病潜在治疗选择提供了临床证据，也可能影响GLP-1类药物的市场竞争格局。",
+    "category": "生物医药",
+    "tags": [
+      "GLP-1受体激动剂",
+      "2型糖尿病",
+      "降糖药",
+      "临床试验"
+    ],
+    "source": "MedicalXpress",
+    "time": "4分钟前",
+    "ts": "2026-07-02T17:20:06-04:00",
+    "url": "https://medicalxpress.com/news/2026-07-bofanglutide-linked-meaningful-reductions-hba1c.html",
+    "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/bofanglutide-linked-to.jpg",
+    "stocks": []
+  },
+  {
+    "id": "f9fabf76ffa2d665",
+    "title": "Cloudflare将过滤服务AI公司的网络爬虫",
+    "summary": "Cloudflare推出新工具，帮助网站识别并阻止受AI公司雇用的网络爬虫，从而让站长对自家内容被用于AI训练拥有更大控制权。",
+    "body": "据外媒报道，Cloudflare计划上线一项过滤功能，帮助网站拦截那些为人工智能公司抓取内容的网络爬虫。该功能可让网站运营者了解哪些AI公司在采集其数据，并决定是否允许访问，以减少内容在未经授权的情况下被用于训练大语言模型。\n\n这一举措正值内容所有者与AI企业围绕数据使用权的博弈加剧之际。Cloudflare通过强化其CDN与网络安全服务，可能吸引更多希望保护内容版权的出版商与站长，同时也将影响AI训练数据的获取成本与合规生态。",
+    "category": "网络安全",
+    "tags": [
+      "Cloudflare",
+      "网络爬虫",
+      "AI训练数据",
+      "内容版权"
+    ],
+    "source": "Engadget",
+    "time": "7分钟前",
+    "ts": "2026-07-02T21:17:10+00:00",
+    "url": "https://www.engadget.com/2207360/cloudflare-will-filter-out-web-crawlers-that-serve-ai-companies/",
+    "image": "https://www.engadget.com/img/gallery/cloudflare-will-filter-out-web-crawlers-that-serve-ai-companies/l-intro-1783026774.jpg",
+    "stocks": [
+      {
+        "name": "Cloudflare",
+        "ticker": "NET",
+        "reason": "公司直接推出针对AI爬虫的过滤功能，有望增强其CDN与安全产品对网站主的吸引力",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
     "id": "4f855a35e7b8033d",
     "title": "Meta推出新应用Pocket，可用AI提示词制作互动小工具",
     "summary": "Meta推出名为Pocket的新社交应用，用户可通过AI提示词创建并分享互动式“小装置”。这体现了Meta将AI视为下一代社交媒介的战略方向。",
@@ -250,6 +295,24 @@ const newsData = [
     "ts": "2026-07-02T15:40:03-04:00",
     "url": "https://medicalxpress.com/news/2026-07-prostate-cancer-mutations-reveal-responses.html",
     "image": "https://scx1.b-cdn.net/csz/news/tmb/2021/prostate-cancer-2.jpg",
+    "stocks": []
+  },
+  {
+    "id": "3fac75f4b228638e",
+    "title": "新型macOS恶意软件PamStealer窃取登录密码",
+    "summary": "安全研究人员发现一款名为PamStealer的新型macOS信息窃取恶意软件，它伪装成剪贴板管理工具Maccy的磁盘映像进行传播，并利用macOS内置的PAM接口验证并窃取用户登录密码，显示出针对Mac平台的复杂窃密攻击正持续升级。",
+    "body": "研究人员发现了一款前所未见的macOS恶意软件PamStealer。该软件采用两阶段攻击方式：第一阶段通过伪装成Mac剪贴板管理器Maccy的磁盘映像分发，文件实际为AppleScript；用户双击后会在macOS脚本编辑器中打开，恶意功能被深藏在文件内部，从而增强隐蔽性。\n\n第二阶段为一组用Rust编写的信息窃取程序。它会调用macOS系统内置的可插拔认证模块（PAM）接口，验证并获取目标用户的登录密码，随后将凭证发送至攻击者控制的服务器。这种将磁盘映像、AppleScript与PAM机制组合使用的执行链，在Mac恶意软件中相对少见，反映出攻击者正加大对Mac生态的针对性投入。\n\n这一发现再次提醒，随着Mac用户和平台价值上升，macOS已成为信息窃取者的重要目标。用户需警惕非官方渠道下载的应用程序，及时更新系统与安全防护，以降低凭证泄露和账户被接管的风险。",
+    "category": "网络安全",
+    "tags": [
+      "网络安全",
+      "macOS恶意软件",
+      "信息窃取"
+    ],
+    "source": "Ars Technica",
+    "time": "1小时前",
+    "ts": "2026-07-02T19:38:57+00:00",
+    "url": "https://arstechnica.com/security/2026/07/new-pamstealer-macos-malware-uses-clever-tradecraft-to-remain-stealthy/",
+    "image": "https://cdn.arstechnica.net/wp-content/uploads/2022/04/GettyImages-1299483011-1152x648.jpg",
     "stocks": []
   },
   {
@@ -575,6 +638,25 @@ const newsData = [
         "confidence": "medium"
       }
     ]
+  },
+  {
+    "id": "18acc1c508cbceb2",
+    "title": "笔记本充电器为何正告别笨重时代",
+    "summary": "如今笔记本电脑充电器越来越便携，主要归功于某一项特定的小型化高效充电技术。这一趋势正改善用户的出行与办公体验。",
+    "body": "长期以来，笔记本电脑充电器因体积大、重量沉而被用户诟病。然而，随着相关充电技术的进步，如今的充电器正变得更加轻巧紧凑，便于随身携带。\n\n文章指出，当前笔记本充电器便携性的提升主要得益于一项特定技术。该技术能够在保持甚至提升功率输出的同时，显著缩小充电器体积，让用户在日常通勤与差旅中更加轻松。\n\n这一变化不仅改善了消费电子产品的使用体验，也体现出上游功率半导体与电源管理方案在推动终端设备小型化方面的重要作用。",
+    "category": "消费电子",
+    "tags": [
+      "消费电子",
+      "笔记本配件",
+      "充电器",
+      "电源管理"
+    ],
+    "source": "Engadget",
+    "time": "2小时前",
+    "ts": "2026-07-02T18:30:00+00:00",
+    "url": "https://www.engadget.com/2204249/why-bulky-laptop-chargers-are-outdated/",
+    "image": "https://www.engadget.com/img/gallery/why-bulky-laptop-chargers-are-a-relic-of-the-past/l-intro-1782755634.jpg",
+    "stocks": []
   },
   {
     "id": "d73d9129ebf41c49",
