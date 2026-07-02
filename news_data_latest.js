@@ -1,5 +1,24 @@
 const newsData = [
   {
+    "id": "78aaab8458fe5bc3",
+    "title": "澳研新药激活难靶免疫受体 有望治疗运动神经元病",
+    "summary": "昆士兰大学研究人员开发出一种可激活难靶向免疫受体的新药，可能为运动神经元病等神经退行性疾病提供新疗法。",
+    "body": "昆士兰大学研究团队开发出一种能够激活一种此前难以靶向的免疫受体的药物。该突破被认为有望推动运动神经元病（MND）等神经退行性疾病新疗法的研发。运动神经元病目前缺乏有效治疗手段，这一进展为针对免疫系统与神经系统相互作用的药物开发提供了新的方向。",
+    "category": "生物医药",
+    "tags": [
+      "运动神经元病",
+      "免疫受体",
+      "神经退行性疾病",
+      "新药研发"
+    ],
+    "source": "MedicalXpress",
+    "time": "4分钟前",
+    "ts": "2026-07-02T17:00:06-04:00",
+    "url": "https://medicalxpress.com/news/2026-07-drug-elusive-immune-receptor-path.html",
+    "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/advancement-in-search.jpg",
+    "stocks": []
+  },
+  {
     "id": "30b4610c2a52e190",
     "title": "Moment Energy建成全球最大退役动力电池工厂",
     "summary": "Moment Energy宣布其全球最大的退役电动汽车动力电池梯次利用工厂正式投产，从项目公布到启用仅用时六周，将为电网及工商业储能提供二次利用电池系统制造能力。",
@@ -177,6 +196,24 @@ const newsData = [
     "stocks": []
   },
   {
+    "id": "7c707394f6d9af98",
+    "title": "Hacker News现“Wireless LAN SD”帖文",
+    "summary": "Hacker News上出现一条标题为“Wireless LAN SD”的帖子，目前仅显示标题及3个投票、0条评论，未提供文章正文或链接详情。该标题暗示内容可能涉及支持无线局域网功能的SD卡或相关存储/网络技术。",
+    "body": "该材料仅为Hacker News平台的一条帖子标题“Wireless LAN SD”，未附带可访问的文章正文或详细链接，因此无法确认具体产品、公司或技术细节。从标题推测，相关内容可能围绕支持无线局域网（WLAN）功能的SD存储卡、SDIO无线模块，或消费级/物联网设备中的无线存储方案展开。此类技术通常用于相机、无人机、智能家居等设备的便捷无线传输。由于信息过于简略，其实际意义与产业影响无法进一步评估。",
+    "category": "消费电子",
+    "tags": [
+      "存储",
+      "无线通信",
+      "消费电子"
+    ],
+    "source": "Hacker News",
+    "time": "1小时前",
+    "ts": "2026-07-02T19:35:20+00:00",
+    "url": "https://www.sdcard.org/developers/sd-standard-overview/sdio-isdio/wireless-lan-sd/",
+    "image": "",
+    "stocks": []
+  },
+  {
     "id": "102811ff2de0b399",
     "title": "斯巴鲁375马力四驱Trailseeker电动SUV起售价不到4万美元",
     "summary": "斯巴鲁Trailseeker电动SUV起售价低于4万美元，标配四驱和375马力，上月已成为该品牌最畅销电动SUV。",
@@ -301,6 +338,24 @@ const newsData = [
     "time": "9分钟前",
     "ts": "2026-07-02T19:14:46+00:00",
     "url": "https://techcrunch.com/2026/07/02/a-warning-sign-about-ais-real-cost-courtesy-of-google-and-amazon/",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "9e5663cb740fc845",
+    "title": "Claude-real-video项目据称可让任意LLM观看视频",
+    "summary": "Hacker News出现名为“Claude-real-video”的帖子，暗示一款可让大型语言模型理解视频内容的项目，但具体细节未披露。",
+    "body": "Hacker News上出现一条题为“Claude-real-video － any LLM can watch a video”的帖子，显示一个名为Claude-real-video的项目可能具备让任意大型语言模型（LLM）“观看”并理解视频内容的能力。\n\n目前公开信息极为有限，仅包含标题、来源及Hacker News的投票数据，未见具体技术方案、作者背景或实现细节。若该项目落地，或意味着多模态视频理解能力可通过某种方式嫁接到现有LLM之上，进一步降低视频内容处理的门槛。",
+    "category": "人工智能",
+    "tags": [
+      "Claude",
+      "多模态",
+      "视频理解"
+    ],
+    "source": "Hacker News",
+    "time": "1小时前",
+    "ts": "2026-07-02T19:10:12+00:00",
+    "url": "https://github.com/HUANGCHIHHUNGLeo/claude-real-video",
     "image": "",
     "stocks": []
   },
@@ -102694,6 +102749,12 @@ const newsData = [
   }
 ];
 const newsDigest = {
-  "text": "",
-  "highlights": []
+  "text": "今日科技前沿：量子计算迎来欧洲首家上市企业，微软豪掷25亿美元组建AI工程师军团，退役动力电池回收规模化提速，Meta发布AI小游戏生成应用；同时生物医药在免疫受体与脑机接口成像上亦有重要进展。",
+  "highlights": [
+    "c5b3db7713be19e2",
+    "d46c588e8d7fa323",
+    "30b4610c2a52e190",
+    "53ef1c4a45bf6e22",
+    "01ad9663c2e8fb2c"
+  ]
 };
