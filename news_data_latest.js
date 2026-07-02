@@ -1,5 +1,24 @@
 const newsData = [
   {
+    "id": "a6020dea5e26fb15",
+    "title": "Lucid Motors CFO离职，新任CEO继续高管改组",
+    "summary": "美国电动汽车制造商Lucid Motors宣布首席财务官离职，并新任命一批高管以推动公司扭转颓势；其Gravity SUV销量未达预期。",
+    "body": "据外媒报道，电动汽车公司Lucid Motors的首席财务官（CFO）已经离职，这是该公司新任首席执行官上任后高管团队持续震荡的最新一例。Lucid同时宣布了一批新高管任命，希望借此改善经营局面。然而，公司寄予厚望的Gravity SUV市场表现疲软，销量并未如预期起飞。此次人事调整反映出Lucid在产能爬坡、市场竞争加剧和高端电动车需求承压背景下面临的转型压力，其后续产品节奏与现金流状况值得持续关注。",
+    "category": "未来能源",
+    "tags": [
+      "电动车",
+      "高管变动",
+      "Lucid Motors",
+      "SUV销量"
+    ],
+    "source": "TechCrunch",
+    "time": "1分钟前",
+    "ts": "2026-07-02T14:53:39+00:00",
+    "url": "https://techcrunch.com/2026/07/02/lucid-motors-cfo-is-out-as-its-new-ceo-continues-leadership-shakeup/",
+    "image": "",
+    "stocks": []
+  },
+  {
     "id": "1e87e382d88ee1ec",
     "title": "别克至境E7推交付关怀礼：芯片紧张延迟一天补100元",
     "summary": "上汽通用别克针对至境E7推出“交车关怀礼”，承诺锁单后30天内交付，逾期每天补贴100元，并将延期归因于全球半导体供应链波动导致芯片供货紧张。",
