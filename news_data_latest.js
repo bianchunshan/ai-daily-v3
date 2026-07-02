@@ -1,5 +1,23 @@
 const newsData = [
   {
+    "id": "b9059ba4e2b27b13",
+    "title": "葡萄牙发布首个欧洲葡语开源大模型AMALIA",
+    "summary": "葡萄牙政府宣布发布首个基于欧洲葡萄牙语的开源大语言模型AMALIA，项目先期投资550万欧元，计划年内推出22B版本并赋予智能体能力。",
+    "body": "葡萄牙政府于7月1日正式发布首个基于欧洲葡萄牙语的开源大语言模型AMALIA。该模型是葡萄牙的国家战略项目，由来自葡萄牙多家学术机构的60余位研究人员历时18个月开发完成，先期投资达550万欧元，并利用了Deucalion、MareNostrum 5等算力基础设施。项目第一阶段使用了约4万亿个葡语单词，训练出90亿参数规模的模型，并在多模态升级后具备理解文本、图像、声音的能力。葡萄牙政府还计划在今年内推出220亿参数版本，并为其增加智能体能力，这部分追加投资预计为150万欧元。",
+    "category": "人工智能",
+    "tags": [
+      "开源大模型",
+      "葡萄牙语",
+      "国家战略"
+    ],
+    "source": "IT之家",
+    "time": "刚刚",
+    "ts": "2026-07-02T01:30:15+00:00",
+    "url": "https://www.ithome.com/0/971/439.htm",
+    "image": "https://img.ithome.com/newsuploadfiles/2026/7/2c649fa5-ea57-41a1-846f-ff445721ad15.jpg?x-bce-process=image/format,f_auto",
+    "stocks": []
+  },
+  {
     "id": "47d41a527918ceaa",
     "title": "谷歌关停Tenor API致Win11 GIF功能异常 微软已修复",
     "summary": "微软承认部分Windows 11版本因谷歌关闭Tenor API外部服务，导致表情符号面板无法调用GIF，并已通过更新切换至GIPHY修复。",
