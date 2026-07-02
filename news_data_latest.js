@@ -1,5 +1,69 @@
 const newsData = [
   {
+    "id": "933e0e1c1698c2d4",
+    "title": "VirtualBox 7.2.12发布：修复Arch Linux崩溃并提升Win11 DX11性能",
+    "summary": "甲骨文发布开源虚拟化工具VirtualBox 7.2.12维护版本，重点修复Arch Linux虚拟机内核卡死问题，并提升Windows来宾系统DX11性能。",
+    "body": "甲骨文近日更新了开源虚拟化软件VirtualBox，推出7.2.12维护版本。本次更新重点修复了7.2.10版本中存在的严重缺陷：在启动Arch Linux虚拟机后，主机内核可能完全卡死并截断日志，导致用户不得不重启系统才能恢复。此次维护还清理了构建工具链，采纳Fedora打包补丁，将Guest Additions的汇编器从已停止维护的YASM迁移至NASM。\n\n在Windows来宾系统方面，新版本进一步优化了DirectX 11性能，并修复了多项问题，但官方更新日志未披露更多细节。VirtualBox作为广泛使用的桌面虚拟化方案，其稳定性与图形性能的持续改进，有助于巩固其在开发测试、跨平台兼容等场景中的用户基础，对甲骨文旗下的云基础设施与虚拟化软件生态也具有一定积极意义。",
+    "category": "AI 基础设施",
+    "tags": [
+      "VirtualBox",
+      "甲骨文",
+      "虚拟化",
+      "开源软件"
+    ],
+    "source": "IT之家",
+    "time": "4分钟前",
+    "ts": "2026-07-02T01:47:52+00:00",
+    "url": "https://www.ithome.com/0/971/444.htm",
+    "image": "https://img.ithome.com/newsuploadfiles/2026/7/b0f601c9-bebd-4e3e-9e02-2a68f12cb112.png",
+    "stocks": [
+      {
+        "name": "甲骨文",
+        "ticker": "ORCL",
+        "reason": "甲骨文维护VirtualBox，新版本提升稳定性与图形性能，有助于其虚拟化及云基础设施软件生态。",
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
+    "id": "b8d7120384c3719f",
+    "title": "国巨全系列电容涨价约50%，覆盖半数营收",
+    "summary": "被动元件大厂国巨自7月2日起调涨全系列电容产品价格，涨幅约50%，且涨价对象首次从代理商扩展至EMS/OEM等直接客户，覆盖其约五成营收。",
+    "body": "据上海证券报报道，被动元件龙头国巨已向客户发出调价通知，自7月2日起全面上调钽电容、MLCC、铝电容、固态铝电容、薄膜电容及超级电容等产品价格。多家国巨代理商证实涨价属实，并指出此次调价首次将直接客户（EMS/OEM）纳入范围，意味着现货价与合约价同步上涨，其中原厂价格涨幅约50%，现货市场涨幅可能更大。分析认为，作为全球主要无源元件供应商，国巨此举有望带动MLCC等被动元件行业价格回升，改善相关厂商盈利水平。",
+    "category": "半导体与先进制造",
+    "tags": [
+      "被动元件",
+      "MLCC",
+      "国巨",
+      "电子元器件"
+    ],
+    "source": "IT之家",
+    "time": "10分钟前",
+    "ts": "2026-07-02T01:41:42+00:00",
+    "url": "https://www.ithome.com/0/971/443.htm",
+    "image": "https://img.ithome.com/newsuploadfiles/2026/7/7174353f-4014-40ce-ab53-b0017667fc1c.jpg?x-bce-process=image/format,f_auto",
+    "stocks": [
+      {
+        "name": "国巨",
+        "ticker": "2327.TW",
+        "reason": "涨价主体，全系列电容提价约50%且覆盖约半数营收，直接增厚利润",
+        "confidence": "high"
+      },
+      {
+        "name": "风华高科",
+        "ticker": "000636.SZ",
+        "reason": "国内MLCC龙头之一，被动元件行业涨价有望带动其产品均价与盈利改善",
+        "confidence": "medium"
+      },
+      {
+        "name": "三环集团",
+        "ticker": "300408.SZ",
+        "reason": "国内电子陶瓷及MLCC重要厂商，被动元件价格回暖预期利好业务",
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
     "id": "5962871fd36b45e5",
     "title": "魁北克研究显示年轻人最早感染新冠",
     "summary": "一项针对魁北克新冠疫情的研究发现，在前两年的七波感染浪潮中，SARS-CoV-2病毒倾向于先在年轻成年人群体中传播，随后才扩散至其他人群。",
@@ -94199,6 +94263,12 @@ const newsData = [
   }
 ];
 const newsDigest = {
-  "text": "",
-  "highlights": []
+  "text": "今日科技要闻聚焦：可灵AI完成30亿美元融资、投后估值180亿美元；联合国专家组警告AI能力进步速度超科学认知；国巨全系列电容涨价约50%；智驾辅助系统强制性国标发布；Valve VR头显Steam Frame上市在即。",
+  "highlights": [
+    "e39852505cdc77cd",
+    "dd2329cc2789120e",
+    "b8d7120384c3719f",
+    "8a78481105ddf6ac",
+    "e706eb81e42e68ca"
+  ]
 };
