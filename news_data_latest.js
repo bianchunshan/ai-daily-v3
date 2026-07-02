@@ -1,5 +1,140 @@
 const newsData = [
   {
+    "id": "ccea02fd5375e0bb",
+    "title": "泰坦军团G2785W显示器开售：4K 240Hz QD-OLED售4999元",
+    "summary": "泰坦军团27英寸4K 240Hz QD-OLED显示器G2785W已在京东发售，定价4999元，部分地区国补后低至4499.1元。该产品预计搭载三星第四代QD-OLED面板，具备0.03ms GtG响应、1000尼特峰值亮度、原生10-Bit色彩与99% DCI-P3色域。",
+    "body": "IT之家消息，泰坦军团旗下“G2785W”27英寸显示器（实际为26.5英寸面板）已在京东正式发售，主打4K 240Hz高刷体验，官方售价4999元，叠加部分地区国补后到手价可低至4499.1元。\n\n该显示器配备3840×2160分辨率、240Hz刷新率的QD-OLED面板，预计采用三星第四代方案，GtG响应速度为0.03ms，峰值亮度达1000尼特，支持原生10-Bit色彩并覆盖99% DCI-P3色域。机身支架支持升降、倾斜、旋转并带有刻度标记，背部设有氛围灯和耳机挂架，支持VESA 100×100mm壁挂，内置双扬声器。\n\n接口方面，G2785W提供2个HDMI 2.1、2个DP 2.1、2个USB-A（KVM）、1个USB-C 65W以及1个3.5mm音频接口，整体面向高端电竞与内容创作用户，反映国产显示器品牌在高分辨率OLED电竞细分市场持续发力。",
+    "category": "消费电子",
+    "tags": [
+      "显示器",
+      "QD-OLED",
+      "电竞",
+      "消费电子"
+    ],
+    "source": "IT之家",
+    "time": "1分钟前",
+    "ts": "2026-07-02T14:01:53+00:00",
+    "url": "https://www.ithome.com/0/971/922.htm",
+    "image": "https://img14.360buyimg.com/pop/jfs/t1/463938/30/3647/112943/6a3a63afF8483e5f5/00833203204db8b9.jpg",
+    "stocks": []
+  },
+  {
+    "id": "19e8b44ff3fae22b",
+    "title": "超小磁电天线问世 或可催生新一代植入式医疗设备",
+    "summary": "格拉斯哥大学领衔的国际团队研发出一种超小型磁电天线，可在人体组织中无线传输数据，为微型植入式诊疗设备的发展铺平道路。",
+    "body": "该天线基于磁电效应设计，体积极小，能够穿透生物组织将数据无线传输至体外设备，有望用于多种疾病的诊断、监测和治疗。相比传统天线方案，新技术可有效克服人体组织对信号的衰减问题，从而显著缩小植入式电子器件的尺寸并降低功耗。若未来实现临床转化，该突破有望推动新一代植入式医疗设备落地，对远程健康监测和精准医疗具有积极意义。",
+    "category": "生物医药",
+    "tags": [
+      "植入式医疗",
+      "生物医学工程",
+      "无线通信",
+      "医疗器械"
+    ],
+    "source": "MedicalXpress",
+    "time": "3分钟前",
+    "ts": "2026-07-02T10:00:07-04:00",
+    "url": "https://medicalxpress.com/news/2026-07-ultra-small-magnetoelectric-antenna-generation.html",
+    "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/ultra-small-magnetoele.jpg",
+    "stocks": []
+  },
+  {
+    "id": "99342dc5ac68874b",
+    "title": "糖尿病患者听力损失成“隐性流行病”",
+    "summary": "昆士兰大学研究人员呼吁将听力检测纳入糖尿病常规护理，并把听力损失列为糖尿病的重要并发症。",
+    "body": "昆士兰大学公共卫生学院的 Mehwish Nisar 博士指出，大多数人并未意识到听力损失与糖尿病之间存在关联，而糖尿病患者的听力损失已成为一场“隐性流行病”。研究团队因此呼吁将听力测试纳入糖尿病的标准护理流程，并把听力损失正式认定为该疾病的重要并发症之一。若这一建议被临床指南采纳，有望推动糖尿病管理与听力保健的整合，提升早期筛查和干预的普及度，并可能带动听力诊断、助听器及相关医疗器械的需求。",
+    "category": "生物医药",
+    "tags": [
+      "糖尿病",
+      "听力损失",
+      "数字医疗",
+      "医疗器械"
+    ],
+    "source": "MedicalXpress",
+    "time": "3分钟前",
+    "ts": "2026-07-02T10:00:01-04:00",
+    "url": "https://medicalxpress.com/news/2026-07-loss-diabetes-patients-hidden-epidemic.html",
+    "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/hearing-test.jpg",
+    "stocks": []
+  },
+  {
+    "id": "d84f6b17099d4f90",
+    "title": "NASA“飞碟”部件运抵肯尼迪航天中心，备战阿尔忒弥斯3号",
+    "summary": "用于太空发射系统（SLS）芯级的防护罩近日由NASA驳船运抵肯尼迪航天中心，将为2027年中期执行的阿尔忒弥斯3号载人绕地任务提供气象与热控保护。",
+    "body": "美国国家航空航天局（NASA）用于太空发射系统（SLS）巨型火箭芯级的“天气防护罩”已搭乘Pegasus驳船运抵佛罗里达州肯尼迪航天中心。这个外形酷似科幻飞碟的大型装置将在发射场覆盖火箭芯级，保护其箭体及热控系统免受沿海地区多变天气影响。该部件的到位，标志着阿尔忒弥斯3号任务的地面试验与发射准备工作持续推进。",
+    "category": "商业航天",
+    "tags": [
+      "NASA",
+      "阿尔忒弥斯计划",
+      "SLS火箭",
+      "载人登月"
+    ],
+    "source": "Space.com",
+    "time": "3分钟前",
+    "ts": "2026-07-02T14:00:00+00:00",
+    "url": "https://www.space.com/space-exploration/human-spaceflight/flying-saucer-arrives-at-nasa-for-artemis-3-moon-mission-space-photo-of-the-day-for-july-2-2026",
+    "image": "https://cdn.mos.cms.futurecdn.net/hQYA5XXJc9jWWNSp5wLKgD-1280-80.png",
+    "stocks": [
+      {
+        "name": "波音",
+        "ticker": "BA",
+        "reason": "波音是SLS火箭芯级的主承包商，阿尔忒弥斯任务进展直接利好其航天业务。",
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
+    "id": "45486157208ba06f",
+    "title": "消息称Anthropic启动自研AI芯片 拟采用三星2纳米工艺",
+    "summary": "Anthropic已启动自研人工智能芯片的早期规划，并有意采用三星2纳米制程及先进封装。目前该项目仍处于方案阶段，尚未进入详细设计与量产。",
+    "body": "据The Information报道，Anthropic正与三星洽谈定制人工智能芯片事宜，并已启动自研AI芯片的早期开发工作。知情人士称，公司尚未确定该处理器的功能定位、算力规格及部署方式，但计划采用三星2纳米制程工艺和先进封装技术。\n\n目前Anthropic仍处于方案规划阶段，虽与多家芯片设计企业交流，但未进入详细设计、测试与量产环节。值得关注的是，Anthropic本月初挖来了OpenAI初代自研芯片团队核心成员克莱夫·陈，显示出其在芯片自研领域的长线布局。\n\n若该计划落地，将使三星晶圆代工业务获得一家头部AI公司的2纳米订单与技术验证，也可能加剧AI企业对定制化、差异化算力芯片的投入趋势。",
+    "category": "半导体与先进制造",
+    "tags": [
+      "AI芯片",
+      "自研芯片",
+      "三星",
+      "先进制程"
+    ],
+    "source": "IT之家",
+    "time": "3分钟前",
+    "ts": "2026-07-02T13:59:49+00:00",
+    "url": "https://www.ithome.com/0/971/921.htm",
+    "image": "https://img.ithome.com/newsuploadfiles/2026/7/9203ae86-9ba5-4fec-a6ec-12c131967748.jpg?x-bce-process=image/format,f_auto",
+    "stocks": [
+      {
+        "name": "三星电子",
+        "ticker": "005930.KS",
+        "reason": "若Anthropic最终采用三星2纳米工艺代工自研AI芯片，将直接利好其晶圆代工业务订单与先进制程验证。",
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
+    "id": "22d3bd2cddec2b55",
+    "title": "长安金钟罩电池通过新国标安全测试",
+    "summary": "被称为“史上最严电池安全令”的《电动汽车用动力蓄电池安全要求》（GB 38031-2025）将于2026年7月1日正式实施，长安汽车宣布其自研金钟罩电池已高标准通过全部新国标测试。",
+    "body": "2026年7月1日，《电动汽车用动力蓄电池安全要求》（GB 38031-2025）将正式实施，该标准对动力电池热安全等提出更高要求，被称为“史上最严电池安全令”。长安汽车今日宣布，其自研的金钟罩电池已于2025年5月完整通过新国标全部测试，成为行业内首批完成新规认证的车企之一。\n\n据介绍，长安自2022年起便以“不起火、不爆炸”为目标进行前瞻性设计。金钟罩电池采用新型隔热材料，隔热性能较行业平均提升30%，并搭载全球首创脉冲加热技术，在-30℃低温环境下温升速率超过4℃/min，低温动力性能提升55%以上，充电时间缩短30%以上。该电池循环寿命可达5000次以上，车辆行驶60万公里后性能衰减无感知，且已率先量产6C高压快充方案。\n\n长安汽车同时推出全系车型合规保障及非营运首任车主三电终身质保服务。这一进展有助于增强消费者对长安新能源汽车安全性的信任，并可能在日趋严格的电池安全监管环境下形成竞争优势。",
+    "category": "未来能源",
+    "tags": [
+      "动力电池",
+      "新能源汽车",
+      "电池安全",
+      "长安汽车"
+    ],
+    "source": "IT之家",
+    "time": "4分钟前",
+    "ts": "2026-07-02T13:58:46+00:00",
+    "url": "https://www.ithome.com/0/971/919.htm",
+    "image": "https://img.ithome.com/newsuploadfiles/2026/7/21cb706a-ec54-45bd-8fdf-c31508498ff5.jpg?x-bce-process=image/format,f_auto",
+    "stocks": [
+      {
+        "name": "长安汽车",
+        "ticker": "000625.SZ",
+        "reason": "其自研金钟罩电池率先通过新国标全部测试，有望提升新能源汽车产品安全竞争力",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
     "id": "944603ff993ba5f1",
     "title": "微软出资25亿美元成立AI部署公司",
     "summary": "微软宣布出资25亿美元成立自有AI部署公司，效仿亚马逊、OpenAI与Anthropic，加大AI基础设施投资与部署力度。",
@@ -50,6 +185,25 @@ const newsData = [
         "confidence": "high"
       }
     ]
+  },
+  {
+    "id": "7e36ea3e58421b7b",
+    "title": "索尼2027年将关闭PS3商店 模拟器社区急抢救游戏数据",
+    "summary": "索尼宣布将于2027年7月永久关闭PS3和PS Vita的PlayStation Store，开源PS3模拟器团队RPCS3呼吁用户抓紧时间保存数字内容，以免游戏数据永久丢失。",
+    "body": "索尼近日宣布，PlayStation Store将于2027年7月起永久停止对PS3和PS Vita主机的服务，届时玩家将无法再购买数字版游戏、DLC等内容。这一消息引发了数字保存社区的紧急行动，知名开源PS3模拟器项目RPCS3公开呼吁用户协助保存PS3数字内容及相关元数据，以免历史游戏资源随商店关闭而彻底消失。\n\nRPCS3方面表示，模拟器的价值依赖于可运行的软件资源，因此游戏数据的保存与模拟器发展密不可分。该团队推荐使用no-intro.org等数据库来追踪和记录待保存的内容。此次事件也再次引发了业界对于数字版游戏所有权、在线服务依赖以及经典游戏长期保存问题的讨论。",
+    "category": "消费电子",
+    "tags": [
+      "游戏主机",
+      "数字保存",
+      "模拟器",
+      "索尼"
+    ],
+    "source": "Tom's Hardware",
+    "time": "10分钟前",
+    "ts": "2026-07-02T13:52:33+00:00",
+    "url": "https://www.tomshardware.com/video-games/playstation/digital-archivists-rush-to-save-ps3-game-data-before-sony-shuts-down-the-store-forever-in-2027-rpcs3-emulator-urges-users-to-preserve-all-content",
+    "image": "https://cdn.mos.cms.futurecdn.net/UgivybYyXt5eaaDwdthgT5-1280-80.png",
+    "stocks": []
   },
   {
     "id": "60c0171ad8e659e0",
