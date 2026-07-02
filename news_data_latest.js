@@ -1,5 +1,24 @@
 const newsData = [
   {
+    "id": "f897a576f2752849",
+    "title": "游戏光盘时代走向终结",
+    "summary": "The Verge 文章指出，玩家长期积累的实体游戏光盘、卡带等媒介正逐渐被数字发行取代，实体游戏时代似乎正在落幕。",
+    "body": "过去几十年，玩家往往意味着囤积大量物品：主机、手柄、配件，以及形形色色的游戏实体载体。The Verge 指出，从光盘到卡带，这些实体媒介的形态丰富多样，但如今这一时代似乎正在走向终结。随着数字下载和订阅服务成为主流，游戏分发方式正加速从实体转向线上，这对主机厂商、零售商以及玩家收藏习惯都可能带来深远影响。",
+    "category": "消费电子",
+    "tags": [
+      "游戏光盘",
+      "数字发行",
+      "主机游戏",
+      "实体媒介"
+    ],
+    "source": "The Verge",
+    "time": "12分钟前",
+    "ts": "2026-07-02T12:31:09-04:00",
+    "url": "https://www.theverge.com/podcast/960810/video-game-disc-dead-vergecast",
+    "image": "",
+    "stocks": []
+  },
+  {
     "id": "7cd141bcde18a44f",
     "title": "Palantir CEO炮轰OpenAI等：窃取企业数据且收取无效token费用",
     "summary": "Palantir首席执行官Alex Karp在接受CNBC采访时批评OpenAI、Anthropic等前沿AI公司窃取客户数据，并让企业为没有价值的token付费。他借此强调Palantir本地部署、合规安全的企业AI方案优势，采访中还提到与英伟达在Sovereign AI OS Architecture上的合作。",
@@ -557,6 +576,32 @@ const newsData = [
         "ticker": "0700.HK",
         "reason": "微信输入法为腾讯旗下产品，新功能可增强微信生态粘性与用户活跃度",
         "confidence": "medium"
+      }
+    ]
+  },
+  {
+    "id": "a61dd49d576da77f",
+    "title": "西班牙下令公共及私营企业禁用Palantir",
+    "summary": "据外媒报道，西班牙已下令在公共和私营企业中封杀大数据分析公司Palantir，此事可能与数据安全、隐私监管及科技主权有关。",
+    "body": "据Hacker News消息，西班牙政府已要求公共机构和私营企业把Palantir列入黑名单，限制其参与相关项目与采购。该举措若属实，意味着Palantir在该国的公共数据分析和政府业务将面临明显阻碍。\n\n目前外界尚不清楚具体政策细节与生效范围，但此类黑名单通常涉及数据主权、隐私保护或国家安全审查。对Palantir而言，欧洲市场本就对其政府背景和数据处理方式高度敏感，西班牙的决定可能引发其他欧洲国家效仿，进一步影响其海外扩张。",
+    "category": "地缘科技",
+    "tags": [
+      "Palantir",
+      "西班牙",
+      "科技监管",
+      "数据安全"
+    ],
+    "source": "Hacker News",
+    "time": "1小时前",
+    "ts": "2026-07-02T15:02:26+00:00",
+    "url": "https://clashreport.com/world/articles/spain-orders-blacklist-of-us-tech-giant-palantir-from-public-and-private-companies-fsnc2z17gjv",
+    "image": "",
+    "stocks": [
+      {
+        "name": "Palantir Technologies",
+        "ticker": "PLTR",
+        "reason": "西班牙公共与私营部门封杀将直接限制其在当地的市场机会与潜在收入",
+        "confidence": "high"
       }
     ]
   },
