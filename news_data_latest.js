@@ -1,5 +1,125 @@
 const newsData = [
   {
+    "id": "88db1ffe96a62e8a",
+    "title": "企业AI成本失控，花旗Adobe等限用大模型",
+    "summary": "据404 Media获取的多份内部资料显示，花旗、Adobe、Atlassian、亚马逊等企业因按量计费导致AI开销激增，正限制员工调用Claude Opus、GPT-5.5等高端大模型，要求改用更低能力版本以控制成本。",
+    "body": "据外媒从六家企业泄露的Slack记录、内部邮件及后台截图显示，科技、文娱、银行等行业的企业正收紧员工对人工智能工具的使用权限，要求改用推理能力更低的大模型，防止AI成本失控。据报道，至少有一家企业AI月度开支已增至三倍，超过1500万美元。\n\n收费模式转向按实际调用量计费是重要诱因。花旗银行内部邮件显示，该行已于6月24日禁用Claude Opus 4.6/4.7及GPT-5.5等旗舰模型，全公司共享统一AI词元池；Adobe取消了Claude无限制使用权限；Atlassian则取消内部AI工具不限量使用权并上线成本看板。部分企业甚至完全切断了对特定模型的访问。\n\n这一现象暴露出企业此前全速落地AI后面临的成本反噬，也反映出企业在模型选型、预算管控和按需调用机制上正趋于理性。对AI服务商而言，按量计费模式可能抑制客户的旗舰模型调用量，进而影响高端大模型的商业化渗透。",
+    "category": "人工智能",
+    "tags": [
+      "大模型",
+      "企业AI",
+      "AI成本",
+      "商业化"
+    ],
+    "source": "IT之家",
+    "time": "刚刚",
+    "ts": "2026-07-02T14:22:49+00:00",
+    "url": "https://www.ithome.com/0/971/937.htm",
+    "image": "https://img.ithome.com/newsuploadfiles/2026/7/35449f30-cdcb-4b89-8924-acd1a2320deb.jpg?x-bce-process=image/watermark,text_QUnnlJ_miJA,type_RlpMYW5UaW5nSGVpU0JHQg==,size_28,color_ffffffdd,skw_1,skc_00000051,g_7,blr_50,bls_50,x_11,y_11/format,f_auto",
+    "stocks": []
+  },
+  {
+    "id": "e2c30a2082d447cd",
+    "title": "美国政府称其情报共享网络再遭黑客入侵",
+    "summary": "美国国土安全部情报共享网络遭入侵，参议院情报委员会民主党高层警告，被获取的信息可能危及国家安全。",
+    "body": "据报道，美国政府披露其国土安全部下属的情报共享网络遭到黑客攻击，这是近期又一起针对联邦机构的网络入侵事件。参议院情报委员会资深民主党成员警告称，攻击者可能已访问到涉及国家安全的敏感信息。该事件再次凸显美国政府网络防御和关键基础设施安全面临的严峻挑战，可能推动相关网络安全审查与防护投入。",
+    "category": "网络安全",
+    "tags": [
+      "网络攻击",
+      "政府安全",
+      "国家安全",
+      "情报共享"
+    ],
+    "source": "TechCrunch",
+    "time": "刚刚",
+    "ts": "2026-07-02T14:22:36+00:00",
+    "url": "https://techcrunch.com/2026/07/02/us-government-says-it-got-hacked-again/",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "6f39f373be4f88e8",
+    "title": "低成本利妥昔单抗治疗多发性硬化症疗效比肩标准疗法",
+    "summary": "一项挪威-瑞典临床试验发表在《新英格兰医学杂志》上，显示低成本的B细胞清除药物利妥昔单抗在新诊断复发型多发性硬化症（MS）中的疗效与奥瑞利珠单抗相当。该头对头研究或为降低MS治疗成本、改变临床用药选择提供依据。",
+    "body": "这项名为OVERLORD-MS的随机、双盲、头对头试验，纳入挪威和瑞典多地新诊断的早期复发型多发性硬化症患者，进行了为期30个月的MRI影像学及临床评估。结果显示，价格低廉的利妥昔单抗在控制疾病活动方面并不劣于当前常用的标准疗法奥瑞利珠单抗。该结论若被纳入临床指南，有望减轻患者和医保支出，并可能重塑多发性硬化症一线治疗格局。",
+    "category": "生物医药",
+    "tags": [
+      "多发性硬化",
+      "利妥昔单抗",
+      "奥瑞利珠单抗",
+      "临床试验"
+    ],
+    "source": "MedicalXpress",
+    "time": "3分钟前",
+    "ts": "2026-07-02T10:20:07-04:00",
+    "url": "https://medicalxpress.com/news/2026-07-treatment-multiple-sclerosis-shown-effective.html",
+    "image": "https://scx1.b-cdn.net/csz/news/tmb/2025/medical-lab.jpg",
+    "stocks": []
+  },
+  {
+    "id": "d66e2eb9116ac12e",
+    "title": "利用超声波精准打击口腔癌细胞",
+    "summary": "研究人员正探索用超声波攻击口腔癌细胞，以期在杀伤肿瘤的同时减少对健康组织的损伤，改善患者生活质量。",
+    "body": "口腔癌在印度等疾病高发地区构成重大健康负担，传统手术、化疗和放疗虽不断进步，但常伴随健康组织受损、吞咽或言语功能受影响等副作用。为此，科学家正在研究利用超声波作为靶向手段攻击癌细胞，从而提升治疗的精准度并降低对周围正常组织的伤害。这一方向若取得突破，有望为口腔癌等头颈部肿瘤提供更安全、更低创伤的治疗选择。",
+    "category": "生物医药",
+    "tags": [
+      "口腔癌",
+      "超声治疗",
+      "肿瘤精准医疗",
+      "医疗器械"
+    ],
+    "source": "MedicalXpress",
+    "time": "3分钟前",
+    "ts": "2026-07-02T10:20:03-04:00",
+    "url": "https://medicalxpress.com/news/2026-07-ultrasound-oral-cancer-cells.html",
+    "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/using-ultrasound-to-at.jpg",
+    "stocks": []
+  },
+  {
+    "id": "771a1188efaf004f",
+    "title": "哈苏与Capture One合作，原生支持3FR格式RAW",
+    "summary": "哈苏与Capture One宣布战略合作，Capture One将为哈苏中画幅相机的3FR RAW文件提供原生编辑支持，覆盖X2D II 100C、X2D 100C与CFV 100C三款机型。",
+    "body": "7月2日，哈苏与摄影后期软件Capture One宣布达成战略合作。Capture One在16.8.3桌面版及3.3.4移动版中新增对哈苏3FR格式RAW文件的原生支持，用户可直接导入、整理并处理哈苏RAW照片，使用图层、蒙版、色彩编辑等完整工具。此外，Capture One还为每款哈苏机型创建了专属色彩配置文件，并配套XCD镜头配置文件以校正畸变、色差与暗角。\n\n此次合作填补了专业中画幅相机与主流后期工作流之间的格式兼容空白，意味着哈苏用户无需转换格式即可在Capture One中完成全流程后期处理，提升了专业摄影尤其是商业、风光摄影的效率。联机拍摄功能预计将于2026年晚些时候推出。",
+    "category": "消费电子",
+    "tags": [
+      "哈苏",
+      "Capture One",
+      "RAW格式",
+      "摄影后期"
+    ],
+    "source": "IT之家",
+    "time": "6分钟前",
+    "ts": "2026-07-02T14:17:25+00:00",
+    "url": "https://www.ithome.com/0/971/936.htm",
+    "image": "https://img.ithome.com/newsuploadfiles/2026/7/1b37034f-4edb-4c8f-bad5-95b33d568a93.jpg?x-bce-process=image/format,f_auto",
+    "stocks": []
+  },
+  {
+    "id": "eeccdd2d2a2752a3",
+    "title": "特斯拉二季度交付量同比增长25%",
+    "summary": "特斯拉发布第二季度产销报告，二季度共生产45.18万辆汽车，交付量同比增长25%，显示公司正从2025年初的销售低谷中逐步复苏。",
+    "body": "特斯拉公布2025年第二季度交付与生产数据。4月至6月期间，公司共生产451,758辆汽车，其中Model 3与Model Y合计442,936辆，其他车型8,822辆。公司当季交付量同比增长25%，表明在经历2025年颇为艰难的销售表现后，市场需求出现回暖迹象。此次业绩反弹有助于提振投资者信心，并为下半年产能爬坡和新车型交付奠定基础。",
+    "category": "未来能源",
+    "tags": [
+      "特斯拉",
+      "电动车",
+      "交付量"
+    ],
+    "source": "The Verge",
+    "time": "8分钟前",
+    "ts": "2026-07-02T10:14:48-04:00",
+    "url": "https://www.theverge.com/transportation/957685/tesla-q2-2026-sales-production-delivery-report",
+    "image": "",
+    "stocks": [
+      {
+        "name": "特斯拉",
+        "ticker": "TSLA",
+        "reason": "二季度交付量同比增长25%，产销回暖直接利好公司业绩与估值",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
     "id": "49ae943384820ec0",
     "title": "雅迪在Eurobike 2026展出全避震通勤电动自行车",
     "summary": "雅迪在2026年欧洲自行车展上展示了新款全避震通勤电动自行车Yadea Como。作为全球产量领先的电动两轮车制造商，雅迪正进一步扩展其高端电动自行车产品线。",
