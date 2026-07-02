@@ -52,6 +52,32 @@ const newsData = [
     ]
   },
   {
+    "id": "5d090e73e9194155",
+    "title": "Meta智能眼镜开征订阅费，消费电子迈入订阅时代",
+    "summary": "Meta宣布为其智能眼镜的高级功能收取订阅费，用户购买硬件后需付费解锁“扩展访问”服务。这一模式标志着消费电子正从一次性硬件销售向持续性订阅服务转型。",
+    "body": "据报道，Meta开始对其智能眼镜的部分高级功能实行订阅收费，用户在购入设备后，仍需支付费用以获得更先进能力的“扩展访问”。这意味着消费科技产品不再只是单次硬件交易，而是向“硬件+服务”的经常性收入模式演进。\n\n对Meta而言，此举有助于提升可穿戴业务的用户黏性与长期盈利能力，并测试消费者对智能眼镜、AI硬件付费订阅的接受度。同时，这也可能为整个消费电子行业探索新的变现路径提供参考，推动智能眼镜及AR/AI设备商业模式的进一步成熟。",
+    "category": "消费电子",
+    "tags": [
+      "Meta",
+      "智能眼镜",
+      "订阅服务",
+      "消费电子"
+    ],
+    "source": "Wired",
+    "time": "12分钟前",
+    "ts": "2026-07-02T09:30:00+00:00",
+    "url": "https://www.wired.com/story/why-meta-is-charging-a-subscription-for-on-device-smart-glasses-features/",
+    "image": "https://media.wired.com/photos/6a39b04cb817861918a9c777/master/pass/Meta%20Fury%20SOURCE%20Julian%20Chokkattu.jpg",
+    "stocks": [
+      {
+        "name": "Meta Platforms",
+        "ticker": "META",
+        "reason": "为智能眼镜高级功能推出订阅服务，有望提升可穿戴业务的经常性收入和用户粘性",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
     "id": "04c211ae6596e1cb",
     "title": "全球内河首艘万吨级纯电动船完成智能实船测试",
     "summary": "全球内河首艘万吨级纯电动散货船“葛洲坝”号在长江归州段完成远程驾控等多项智能实船功能测试，其“船电分离+快速补能”架构有效解决了内河电动船舶补能慢、续航短的行业难题。",
