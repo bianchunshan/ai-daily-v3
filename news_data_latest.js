@@ -1,15 +1,41 @@
 const newsData = [
   {
+    "id": "33d1f1a8106b18cf",
+    "title": "三星高管到访联想总部，或洽谈存储芯片长期供应",
+    "summary": "韩国三星电子高管团队到访联想集团总部，双方交流内容或涉及存储芯片供应、AI硬件协同及长期合作机制。此次高层互访正值全球存储芯片供需紧张的背景下，联想正加速AI PC与AI基础设施业务扩张。",
+    "body": "据知情人士透露，韩国三星电子高管团队近日到访联想集团总部，双方交流内容可能涉及存储芯片供应、AI硬件协同以及长期合作机制等议题。截至目前，联想集团与三星方面均未就具体合作内容作出公开回应。\n\n此次高层互访发生在全球存储芯片供需格局持续紧张的背景下。今年以来，随着AI服务器、AI PC及高端智能终端需求提升，DRAM、NAND Flash、HBM等存储产品价格持续受到市场关注。对于大型终端及服务器厂商而言，存储芯片已不再只是成本项，而是影响产品交付能力、供应链稳定性和盈利弹性的关键变量。\n\n联想集团正处于AI PC与AI基础设施业务共同扩张阶段，若其与三星等国际存储大厂进一步深化长期供应合作，将有助于其在AI PC、AI服务器和企业AI基础设施交付中获得更强的供应链保障。三星作为全球主要存储芯片厂商，在DRAM、NAND Flash及高带宽存储等领域具备较强市场地位，联想亦是其在AI硬件周期中不可忽视的下游合作伙伴。",
+    "category": "半导体与先进制造",
+    "tags": [
+      "存储芯片",
+      "三星电子",
+      "联想集团",
+      "AI服务器"
+    ],
+    "source": "IT之家",
+    "time": "4分钟前",
+    "ts": "2026-07-02T06:18:30+00:00",
+    "url": "https://www.ithome.com/0/971/543.htm",
+    "image": "",
+    "stocks": [
+      {
+        "name": "联想集团",
+        "ticker": "0992.HK",
+        "reason": "若与三星深化存储芯片长期供应合作，将增强其AI PC、AI服务器业务的供应链保障与交付能力。",
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
     "id": "39822092252f830f",
-    "title": "微软通报假冒Perplexity Chrome扩展可劫持搜索流量",
-    "summary": "微软安全团队通报，一款名为“Search for perplexity ai”的第三方Chrome扩展冒用Perplexity AI品牌，可劫持用户地址栏搜索请求并重定向至攻击者服务器，存在监控风险。",
-    "body": "微软安全研究团队于6月30日发布通报称，Chrome网上应用店中出现一款名为“Search for perplexity ai”的第三方扩展，冒用Perplexity AI品牌，诱导用户安装后可监控其搜索记录。该扩展会申请chrome_settings_overrides权限，将自身设为默认搜索引擎，从而拦截用户在地址栏输入的搜索请求；同时利用declarativeNetRequest权限，把请求转发至攻击者控制的perplexity-ai.online服务器，实现流量重定向与URL重写。\n\n目前，该假冒扩展已被从Chrome Web Store移除，但此前已安装的用户仍面临隐私泄露风险，需手动卸载。微软提醒用户开启Chrome扩展的开发者模式，核对扩展ID是否为flkebkiofojicogddingbdmcmkpbplcd，若匹配应立即删除。此事再次暴露了浏览器扩展供应链中的品牌仿冒与权限滥用问题，对AI应用的品牌安全和用户隐私保护敲响警钟。",
+    "title": "微软通报假冒Perplexity Chrome扩展劫持搜索流量",
+    "summary": "微软安全团队指出，名为“Search for perplexity ai”的第三方Chrome扩展冒用Perplexity AI品牌，可劫持用户地址栏搜索并将其重定向至攻击者服务器。该扩展虽已被Chrome网上应用店移除，但已安装用户仍面临监控风险，需手动卸载。",
+    "body": "据微软安全研究团队6月30日发布的通报，该假冒扩展通过申请chrome_settings_overrides权限，将自身设为默认搜索引擎，从而拦截用户在Chrome地址栏中的搜索请求。合法请求应发往perplexity.ai，而该扩展却把流量导向perplexity-ai.online，并借助declarativeNetRequest权限将用户请求转发至攻击者控制的服务器，实现流量重定向与URL重写。\n\n这意味着安装该扩展的用户在不知情的情况下，其搜索记录可能被持续监控。微软提醒用户进入chrome://extensions/开启开发者模式，核对扩展ID，若ID为flkebkiofojicogddingbdmcmkpbplcd，应立即删除。此事也凸显了浏览器扩展权限管理、品牌冒用监测和用户安全意识的重要性。",
     "category": "网络安全",
     "tags": [
       "网络安全",
       "浏览器扩展",
-      "隐私安全",
-      "恶意软件"
+      "搜索劫持",
+      "品牌冒用"
     ],
     "source": "IT之家",
     "time": "9分钟前",
