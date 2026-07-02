@@ -367,6 +367,25 @@ const newsData = [
     "stocks": []
   },
   {
+    "id": "153ab4853de4c7c9",
+    "title": "LibreCAD 上线浏览器版本",
+    "summary": "开源二维 CAD 软件 LibreCAD 已可在浏览器中运行，用户无需安装桌面客户端即可使用。这一变化有望降低 CAD 工具的使用门槛，并提升跨平台可及性。",
+    "body": "浏览器化是专业工业软件近年来的重要趋势之一。通过网页端访问，用户可减少安装部署成本，并在不同操作系统和设备间快速切换。不过，由于目前披露的信息有限，LibreCAD 浏览器版在功能完整性、性能表现以及商业模式上的具体影响仍有待观察。",
+    "category": "半导体与先进制造",
+    "tags": [
+      "CAD",
+      "工业软件",
+      "开源软件",
+      "浏览器应用"
+    ],
+    "source": "Hacker News",
+    "time": "1小时前",
+    "ts": "2026-07-02T01:00:31+00:00",
+    "url": "https://magik.net/librecad/",
+    "image": "",
+    "stocks": []
+  },
+  {
     "id": "d8f3653ac0517055",
     "title": "设计工程师发布AI动效Skills，提升编码Agent审美",
     "summary": "Emil Kowalski 将多年 UI/动画原则沉淀为三个 Skill，让 Codex、Claude Code、Cursor 等 Coding Agent 具备资深设计工程师的审美判断，并能审查动画代码、把模糊描述转为专业动效术语。",
@@ -94263,12 +94282,6 @@ const newsData = [
   }
 ];
 const newsDigest = {
-  "text": "今日科技要闻聚焦：可灵AI完成30亿美元融资、投后估值180亿美元；联合国专家组警告AI能力进步速度超科学认知；国巨全系列电容涨价约50%；智驾辅助系统强制性国标发布；Valve VR头显Steam Frame上市在即。",
-  "highlights": [
-    "e39852505cdc77cd",
-    "dd2329cc2789120e",
-    "b8d7120384c3719f",
-    "8a78481105ddf6ac",
-    "e706eb81e42e68ca"
-  ]
+  "text": "",
+  "highlights": []
 };
