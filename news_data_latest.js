@@ -83,6 +83,32 @@ const newsData = [
     "stocks": []
   },
   {
+    "id": "d46c588e8d7fa323",
+    "title": "微软成立Frontier Company，斥资25亿美元派驻6000名AI工程师",
+    "summary": "微软新设业务部门\"Frontier Company\"，计划投入25亿美元并派驻6000名行业与工程专家到企业客户现场，共同设计、部署并持续优化AI系统。",
+    "body": "微软宣布成立新业务部门\"Frontier Company\"，拨款25亿美元，将6000名行业与工程专家派驻企业客户现场，\"共同设计、共同创新、部署并持续改进AI系统\"。该部门由Rodrigo Kede Lima领导，目标是超越传统的\"前部署工程\"模式，打造\"最大、以结果为导向的工程组织\"。此举显示微软正从单纯提供AI工具转向深度参与客户现场实施与运营。\n\n微软将自己定位为OpenAI和Anthropic的\"平台中立\"替代方案，后两者也已设立专门的公司来推进企业AI部署。为进一步扩大覆盖范围，微软还将借助埃森哲、凯捷、安永等系统集成商的力量。该部门有望加速企业AI落地，同时可能加剧企业级AI服务市场的竞争。",
+    "category": "人工智能",
+    "tags": [
+      "微软",
+      "企业AI",
+      "AI部署",
+      "Frontier Company"
+    ],
+    "source": "AIHOT精选",
+    "time": "35分钟前",
+    "ts": "2026-07-02T19:18:29+00:00",
+    "url": "https://the-decoder.com/microsoft-launches-2-5-billion-frontier-company-to-embed-6000-ai-engineers-inside-enterprise-clients",
+    "image": "",
+    "stocks": [
+      {
+        "name": "微软",
+        "ticker": "MSFT",
+        "reason": "直接设立Frontier Company并投入25亿美元，强化企业AI部署服务能力",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
     "id": "b99d0c08b1f17b81",
     "title": "谷歌亚马逊净零承诺受挫，AI真实成本引警示",
     "summary": "人工智能的快速发展正加大科技巨头的碳排放压力。谷歌和亚马逊均表示，AI扩张使其兑现净零排放承诺的难度显著增加。",
@@ -102491,12 +102517,6 @@ const newsData = [
   }
 ];
 const newsDigest = {
-  "text": "今日科技前沿聚焦AI应用与芯片博弈：Meta发布游戏生成应用、Claude自动继续执行，Anthropic与三星洽谈定制AI芯片；生物医药领域，Medicare覆盖GLP-1减重药、前列腺癌铁死亡疗法现新发现。",
-  "highlights": [
-    "53ef1c4a45bf6e22",
-    "47caf98b4a828c98",
-    "23ff659d49776e8b",
-    "972e8098155b25c0",
-    "346d633b280f3ac1"
-  ]
+  "text": "",
+  "highlights": []
 };
