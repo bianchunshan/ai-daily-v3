@@ -1,5 +1,68 @@
 const newsData = [
   {
+    "id": "f89268ce07afd34c",
+    "title": "特斯拉二季度交付量激增",
+    "summary": "特斯拉第二季度全球交付量超过48万辆电动汽车，主要受益于地理扩张及更低价车型推动。",
+    "body": "据报道，特斯拉在第二季度实现销量大幅增长，全球交付量超过48万辆电动汽车。该公司将增长归因于地理市场的扩张，以及价格更低的Model 3、Model Y和Cybertruck版本。这一交付数据反映出特斯拉在产品定价和市场拓展方面的策略成效，对其季度营收及全球电动车市场份额具有积极影响。",
+    "category": "未来能源",
+    "tags": [
+      "特斯拉",
+      "电动车",
+      "汽车交付",
+      "新能源"
+    ],
+    "source": "TechCrunch",
+    "time": "刚刚",
+    "ts": "2026-07-02T13:20:15+00:00",
+    "url": "https://techcrunch.com/2026/07/02/tesla-saw-a-massive-sales-jump-in-the-second-quarter/",
+    "image": "",
+    "stocks": [
+      {
+        "name": "特斯拉",
+        "ticker": "TSLA",
+        "reason": "二季度全球交付量超48万辆，销量大幅增长直接利好公司业绩与市场份额",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "5f57968178244835",
+    "title": "阴离子间隙仍是糖尿病酮症酸中毒治疗的关键目标",
+    "summary": "研究指出，在危及生命的糖尿病酮症酸中毒治疗与恢复过程中，阴离子间隙仍是实用且重要的治疗监测目标，可指导胰岛素等干预措施。",
+    "body": "糖尿病酮症酸中毒（DKA）是一种可能危及生命的急性并发症，患者需要迅速接受胰岛素输注及其他医疗干预，并在严密监护下恢复血糖与酮体平衡。新研究强调，在整个治疗与缓解过程中，阴离子间隙依然是临床上一个切实可行、便于监测的目标指标。这一结论有助于医护人员更客观地评估治疗效果，及时调整方案，从而降低并发症风险并改善患者预后。",
+    "category": "生物医药",
+    "tags": [
+      "糖尿病酮症酸中毒",
+      "阴离子间隙",
+      "临床研究"
+    ],
+    "source": "MedicalXpress",
+    "time": "1分钟前",
+    "ts": "2026-07-02T09:20:06-04:00",
+    "url": "https://medicalxpress.com/news/2026-07-anion-gap-pragmatic-diabetic-ketoacidosis.html",
+    "image": "https://scx1.b-cdn.net/csz/news/tmb/2019/2-bloodtest.jpg",
+    "stocks": []
+  },
+  {
+    "id": "f59038c050f4f189",
+    "title": "临床试验：ICU祛痰治疗未改善呼吸或有害",
+    "summary": "一项临床试验发现，常用于重症监护病房急性呼吸衰竭患者的祛痰药（黏液活性药物）并未帮助患者更轻松地呼吸，反而可能带来伤害。",
+    "body": "急性呼吸衰竭患者的常规治疗包括清除气道黏液，黏液活性药物因此被广泛使用。然而，一项最新临床试验显示，这类常见祛痰治疗并未帮助重症监护病房（ICU）患者改善呼吸，甚至可能造成伤害。研究结果对现行临床实践提出了质疑，可能影响相关药物的使用指南和市场需求。",
+    "category": "生物医药",
+    "tags": [
+      "临床试验",
+      "呼吸衰竭",
+      "ICU",
+      "祛痰药"
+    ],
+    "source": "MedicalXpress",
+    "time": "1分钟前",
+    "ts": "2026-07-02T09:20:01-04:00",
+    "url": "https://medicalxpress.com/news/2026-07-common-mucus-treatments-dont-icu.html",
+    "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/common-mucus-clearing.jpg",
+    "stocks": []
+  },
+  {
     "id": "5b9efcc49b869e7c",
     "title": "Lucid二季度生产4774辆电动车，交付3953辆",
     "summary": "Lucid发布2026财年第二季度业绩预告，第二季度共生产4774辆、交付3953辆电动汽车，并同步宣布多项高管任命及组织架构调整。",
@@ -161,6 +224,32 @@ const newsData = [
         "name": "超威半导体",
         "ticker": "AMD",
         "reason": "英特尔桌面CPU涨价可能使部分消费者转向AMD平台",
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
+    "id": "0a28dbcbc283d880",
+    "title": "AI进入能源重工业：Woodside训练涡轮助手",
+    "summary": "人工智能正从消费级工具深入能源等重工业场景。澳大利亚伍德赛德能源通过AI副驾驶系统辅助操作员完成涡轮机等复杂设备的启动与运维，以提升安全性和运营效率。",
+    "body": "尽管聊天机器人和图像生成器让AI广受公众关注，但其最具变革性的应用之一正发生在远离消费端的重工业领域。在基础设施密集、运营连续性要求高的能源行业，AI正逐渐成为核心操作层。澳大利亚伍德赛德能源（Woodside Energy）多年来在勘探、钻井、维护和工厂运营中部署预测分析、优化系统和机器学习工具，积累了海量运营数据。\n\n公司数字业务副总裁Andrew Melouney表示，来自设备和资产的运营数据为其创造了明确且高价值的AI应用场景。基于长期的数据基础设施与治理投入，Woodside正向智能体AI（agentic AI）拓展，其“Startup Advisor”AI副驾驶可在高风险环境中辅助人类操作员完成复杂流程，而非取代人工判断。\n\n这一案例表明，工业AI正从辅助决策走向支持复杂工作流，尤其在能源、制造等对安全和连续性要求极高的行业，AI有望成为提升运营效率与降低风险的关键基础设施。",
+    "category": "人工智能",
+    "tags": [
+      "工业AI",
+      "能源数字化",
+      "智能运维",
+      "AI Agent"
+    ],
+    "source": "MIT Tech Review",
+    "time": "29分钟前",
+    "ts": "2026-07-02T12:51:44+00:00",
+    "url": "https://www.technologyreview.com/2026/07/02/1138433/teaching-ai-to-run-with-the-turbines/",
+    "image": "",
+    "stocks": [
+      {
+        "name": "伍德赛德能源",
+        "ticker": "WDS",
+        "reason": "公司在油气资产运营中积极部署AI副驾驶与智能体系统，有望提升运营效率与安全水平",
         "confidence": "medium"
       }
     ]
@@ -99739,12 +99828,6 @@ const newsData = [
   }
 ];
 const newsDigest = {
-  "text": "今日科技前沿聚焦：Meta进军AI算力租赁冲击云市场；Rivian二季度交付超预期并上调全年指引；比亚迪海豹08与创维S710等新车密集上市；华为Pura X Max销量突破45万台；德国无人机企业Quantum Systems获12亿美元融资。",
-  "highlights": [
-    "3fee1d489c02256b",
-    "307d0b24a39170e5",
-    "dc9b29c3de0f4197",
-    "0c09cf4bf82e5692",
-    "ee5ef648f780409d"
-  ]
+  "text": "",
+  "highlights": []
 };
