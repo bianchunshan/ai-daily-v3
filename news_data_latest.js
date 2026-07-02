@@ -1,5 +1,37 @@
 const newsData = [
   {
+    "id": "d0272b2566cf9077",
+    "title": "阿里拟整合三大Agent产品打造企业级AI新品",
+    "summary": "阿里巴巴计划以QoderWork为基础，整合“悟空”与“MuleRun”的能力，推出面向企业生产力场景的全新AI产品，现有用户权益将不受影响。",
+    "body": "据新浪科技报道，阿里巴巴计划以桌面AI智能体QoderWork为基础，整合“悟空”企业级AI工作平台与面向全球市场的MuleRun AI Agent产品，打造一款面向企业生产力场景的全新AI产品。新品将由钉钉CEO陈宇森负责，QoderWork现有用户权益不会受到影响。\n\nQoderWork是阿里于2026年1月推出的桌面AI智能体，可通过自然语言操控本地应用与文件，已与钉钉、微信、飞书等主流IM打通，并在集团AI工具中活跃度领先；“悟空”则是内嵌于钉钉的企业级AI原生工作平台，强调安全沙箱与原生调用钉钉能力；MuleRun已服务43个国家，支持多Agent协作及代码、数据分析、图像视频生成等技能。\n\n此次整合意味着阿里正将内部多条AI Agent产品线统一，避免资源分散，强化其在企业级AI生产力市场的竞争力，同时通过“无缝升级”降低用户迁移成本，有助于加速AI Agent在B端场景的商业化落地。",
+    "category": "人工智能",
+    "tags": [
+      "人工智能",
+      "AI Agent",
+      "阿里巴巴",
+      "企业级AI"
+    ],
+    "source": "IT之家",
+    "time": "2分钟前",
+    "ts": "2026-07-02T06:29:12+00:00",
+    "url": "https://www.ithome.com/0/971/554.htm",
+    "image": "https://img.ithome.com/newsuploadfiles/2026/7/93093128-eb4e-4856-81f3-8347e75a5319.png",
+    "stocks": [
+      {
+        "name": "阿里巴巴",
+        "ticker": "BABA",
+        "reason": "公司直接推进三大AI Agent产品整合，有望强化企业级AI产品矩阵与商业化前景。",
+        "confidence": "high"
+      },
+      {
+        "name": "阿里巴巴-SW",
+        "ticker": "9988.HK",
+        "reason": "阿里港股同样受益于AI Agent产品整合及B端AI商业化加速。",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
     "id": "c8e76a55906b33be",
     "title": "苹果据悉今年计划生产1000万部折叠屏iPhone",
     "summary": "据报道，苹果已要求供应商为今年生产约1000万部可折叠iPhone做准备，数量高于此前市场预估的700万至800万部。苹果还计划在今下半年至明年上半年推出至少5款新机型。",
@@ -95750,12 +95782,6 @@ const newsData = [
   }
 ];
 const newsDigest = {
-  "text": "今日科技前沿聚焦：苹果据悉计划年内生产1000万部折叠屏iPhone，阿里整合Agent产品线推出新生产力AI产品，中电科20亿元人工智能产业股权基金落地苏州，三星高管到访联想总部洽谈存储芯片长期供应，上海6G信通智谷启动打通中试产业化闭环。",
-  "highlights": [
-    "c8e76a55906b33be",
-    "772c22209e84f1c4",
-    "940233503b9d07dc",
-    "33d1f1a8106b18cf",
-    "6c120d6ee2ab9c27"
-  ]
+  "text": "",
+  "highlights": []
 };
