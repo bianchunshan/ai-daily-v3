@@ -1,5 +1,50 @@
 const newsData = [
   {
+    "id": "5d5ebeb11a0963e7",
+    "title": "FDA批准赛诺菲Tzield用于儿童新发3期1型糖尿病",
+    "summary": "美国FDA加速批准赛诺菲Tzield（teplizumab）用于8至17岁近期确诊3期1型糖尿病患儿，以延缓内源性胰岛素分泌下降。",
+    "body": "美国食品药品监督管理局（FDA）已加速批准赛诺菲的Tzield（teplizumab-mzwv）新适应症，用于治疗8至17岁近期确诊为新发3期1型糖尿病的儿童，目的是延缓其内源性胰岛素分泌功能的衰退。Tzield是一种CD3靶向单克隆抗体，此前已获批用于延缓8岁及以上2期1型糖尿病患者进展为3期。此次将适应症扩展至3期儿童患者，有望覆盖更广泛的人群并改善早期治疗选择。",
+    "category": "生物医药",
+    "tags": [
+      "医药监管",
+      "1型糖尿病",
+      "赛诺菲",
+      "生物药"
+    ],
+    "source": "MedicalXpress",
+    "time": "3分钟前",
+    "ts": "2026-07-02T17:40:03-04:00",
+    "url": "https://medicalxpress.com/news/2026-07-fda-tzield-children-stage-diabetes.html",
+    "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/fda-approves-tzield-fo.jpg",
+    "stocks": [
+      {
+        "name": "赛诺菲",
+        "ticker": "SNY",
+        "reason": "其糖尿病药物Tzield获FDA新适应症批准，扩大适用人群，有望提升商业化前景",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "21506dc55ba7f006",
+    "title": "现代IONIQ 3电动掀背车续航超300英里，美国市场无缘",
+    "summary": "现代汽车发布全新纯电动掀背车IONIQ 3，单次充电续航超过300英里，并率先在欧洲搭载Pleos Connect信息娱乐系统，但该车型不会进入美国市场。",
+    "body": "据报道，现代IONIQ 3是一款高性价比的全电动掀背车，具备超过300英里（约483公里）的续航能力，并首次在欧洲市场搭载现代全新的Pleos Connect信息娱乐系统。由于市场策略或法规等原因，该车型将不在美国销售，引发当地消费者关注。新车的推出进一步丰富了现代在欧洲的电动产品矩阵，也体现出车企在区域化产品布局与智能座舱技术上的差异化策略。",
+    "category": "未来能源",
+    "tags": [
+      "电动汽车",
+      "现代汽车",
+      "智能座舱",
+      "续航"
+    ],
+    "source": "Electrek",
+    "time": "3分钟前",
+    "ts": "2026-07-02T21:39:54+00:00",
+    "url": "https://electrek.co/2026/07/02/hyundai-ioniq-3-electric-hatch-we-want-but-cant-have/",
+    "image": "https://electrek.co/wp-content/uploads/sites/3/2026/07/hyundai-ioniq-3-US.jpeg?quality=82&#038;strip=all&#038;w=1400",
+    "stocks": []
+  },
+  {
     "id": "6ab00486e6b48988",
     "title": "刚果（金）启动埃博拉治疗药物临床试验",
     "summary": "世界卫生组织数据显示，刚果（金）已确诊1406例埃博拉病例，疑似301例，死亡438例。当地已启动新治疗药物临床试验，以评估其抗疫效果。",
@@ -87,6 +132,25 @@ const newsData = [
         "confidence": "high"
       }
     ]
+  },
+  {
+    "id": "e35f0adbce7c3b4a",
+    "title": "美国弗吉尼亚州立法禁止销售地理位置数据",
+    "summary": "美国弗吉尼亚州通过新法，禁止出售个人地理位置数据。该立法意在加强居民隐私保护，并可能对数据经纪行业带来合规压力。",
+    "body": "据外媒报道，美国弗吉尼亚州已通过立法，禁止销售地理位置数据。该法针对的是可被用于追踪个人行踪的位置信息交易行为，反映出美国各州在数据隐私监管方面持续收紧的趋势。\n\n此项禁令主要影响从事位置数据收集、聚合与销售的数据经纪商及相关技术服务方。企业需重新评估其数据获取、使用和商业化流程，以符合新的合规要求。该立法也可能为其他州制定类似隐私保护法规提供参考。",
+    "category": "网络安全",
+    "tags": [
+      "数据隐私",
+      "地理位置",
+      "网络安全",
+      "美国立法"
+    ],
+    "source": "Hacker News",
+    "time": "39分钟前",
+    "ts": "2026-07-02T21:03:45+00:00",
+    "url": "https://www.hunton.com/privacy-and-cybersecurity-law-blog/virginia-bans-sale-of-geolocation-data",
+    "image": "",
+    "stocks": []
   },
   {
     "id": "78aaab8458fe5bc3",
