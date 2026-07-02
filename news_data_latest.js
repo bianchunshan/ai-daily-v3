@@ -1,5 +1,50 @@
 const newsData = [
   {
+    "id": "78afb2b04880e569",
+    "title": "华为鸿蒙API设备量数据更新：7.0 Beta1占比破0.17%",
+    "summary": "华为开发者官网更新了HarmonyOS存量设备API版本使用数据，截至6月19日，HarmonyOS 7.0.0 Beta1设备量占比已突破0.17%，而5.0多个旧版本占比归零。",
+    "body": "华为开发者官网近日更新了存量设备API版本使用数量参考，数据显示，HarmonyOS 6.1.0（API 23）设备量占比为60.20%，6.1.1（API 24）升至34.40%，两者合计占比达94.77%；而新发布的HarmonyOS 7.0.0 Beta1（API 26.0.0 Beta1）设备量占比已来到0.17%。与此同时，HarmonyOS 5.0系列多个版本占比归零，包括5.0.0（12）、5.0.1（13）、5.0.4（16），显示旧版本正加速被淘汰。\n\nHarmonyOS 7已于6月12日正式发布并开启开发者Beta 1版公开招募，首批支持Mate 80 Pro、Mate X7、Pura 90 Pro Max等机型。新版本在视觉材质、文件安全、图形加速、通知管理及ArkWeb内核等方面均有升级，随着Beta设备占比逐步扩大，鸿蒙生态正向新一代系统迁移。",
+    "category": "消费电子",
+    "tags": [
+      "华为",
+      "鸿蒙",
+      "HarmonyOS",
+      "操作系统"
+    ],
+    "source": "IT之家",
+    "time": "1分钟前",
+    "ts": "2026-07-02T15:52:17+00:00",
+    "url": "https://www.ithome.com/0/971/956.htm",
+    "image": "https://img.ithome.com/newsuploadfiles/2026/7/cf239298-d523-4b1f-834d-8821de01f367.jpg?x-bce-process=image/format,f_auto",
+    "stocks": []
+  },
+  {
+    "id": "b527b2847b01b656",
+    "title": "英伟达新融资模式：卖硬件后再分AI云收入",
+    "summary": "英伟达发布新的收入分成与信贷支持模式，向资金紧张的AI初创公司提供算力代币，换取其未来云收入的一部分；公司在售出硬件之外，还可获得与使用情况挂钩的经常性收入。",
+    "body": "英伟达在其博客中提出一项名为“收入分成与信贷支持”的新商业模式：参与该计划的AI云服务商采购英伟达基础设施，并向终端客户提供基于英伟达的云计算服务。作为交换，英伟达不仅按常规价格收取硬件产品收入，还能从该硬件产生的云收入中抽取一定比例，形成持续、与使用量挂钩的收益流。\n\n该模式首批公开的合作对象包括澳大利亚的Sharon AI和新加坡的Firmus Technologies。对于这些现金流紧张的AI开发商而言，它们可以用未来销售额的一部分换取当下的算力代币，从而降低 upfront 资本支出；对英伟达而言，这则在硬件销售之外开辟了第二条收入来源，并有助于锁定更多使用其生态系统的客户。\n\n不过，由于英伟达及其合作方尚未披露具体的收入分成比例，外界仍难以评估该模式对云服务定价和初创企业长期盈利能力的实际影响。",
+    "category": "AI 基础设施",
+    "tags": [
+      "英伟达",
+      "AI云",
+      "收入分成",
+      "算力租赁"
+    ],
+    "source": "Tom's Hardware",
+    "time": "7分钟前",
+    "ts": "2026-07-02T15:46:31+00:00",
+    "url": "https://www.tomshardware.com/tech-industry/nvidia-to-take-a-cut-of-ai-cloud-revenue-on-top-of-hardware-sales",
+    "image": "https://cdn.mos.cms.futurecdn.net/vmfpT5LqUXTgKosXsbK9nj-1280-80.jpg",
+    "stocks": [
+      {
+        "name": "英伟达",
+        "ticker": "NVDA",
+        "reason": "新模式让英伟达在硬件销售之外获得AI云收入的持续分成，扩大其AI基础设施客户群与经常性收入来源。",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
     "id": "4df1ae07b51ac3da",
     "title": "研究：奥密克戎后新冠后遗症减少但未消失",
     "summary": "广岛大学一项长期研究发现，奥密克戎变异株出现后，新冠病毒长期症状明显变少，但部分感染者数年后仍有健康问题。该研究结果已发表于5月8日的《PLOS One》。",
