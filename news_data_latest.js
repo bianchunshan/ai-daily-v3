@@ -1,5 +1,57 @@
 const newsData = [
   {
+    "id": "5b9efcc49b869e7c",
+    "title": "Lucid二季度生产4774辆电动车，交付3953辆",
+    "summary": "Lucid发布2026财年第二季度业绩预告，第二季度共生产4774辆、交付3953辆电动汽车，并同步宣布多项高管任命及组织架构调整。",
+    "body": "Lucid公告称，2026财年第二季度公司共生产4774辆电动汽车，交付3953辆。该公告仅涉及产量、交付量及管理层变动信息，未披露完整财务数据。\n\n公司同步进行组织架构调整，将直接向CEO汇报的人数减半，以强化问责机制，聚焦客户、品质与创新。新高管任命包括：Alexander De Bock出任首席财务官、Raja Ramana Macha出任首席技术官、Billy Hayes出任首席客户官、Hugo Martinho出任首席转型官、Kay Stepper出任Lucid Technologies总裁兼首席数字官，Christian Appel晋升为项目管理副总裁。原首席财务官Taoufiq Boussaid将在完成交接后离任。\n\n此次产销数据与管理层变动显示出公司在产能爬坡与组织效率上的持续调整。Lucid计划于2026年8月4日举行财报电话会议，届时将公布完整财务业绩，市场尚未形成一致预期。",
+    "category": "未来能源",
+    "tags": [
+      "电动汽车",
+      "Lucid",
+      "产销数据",
+      "管理层变动"
+    ],
+    "source": "IT之家",
+    "time": "6分钟前",
+    "ts": "2026-07-02T13:07:17+00:00",
+    "url": "https://www.ithome.com/0/971/904.htm",
+    "image": "https://img.ithome.com/newsuploadfiles/2026/7/874de5fa-d391-4c1c-b9f2-96966c163526.jpg",
+    "stocks": [
+      {
+        "name": "Lucid Group",
+        "ticker": "LCID",
+        "reason": "公司为本公告主体，直接披露季度产量、交付量及管理层变动，属于直接相关标的",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "3fee1d489c02256b",
+    "title": "Meta被曝进军AI算力租赁，与AWS正面竞争",
+    "summary": "据彭博报道，Meta正筹划推出名为“Meta Compute”的云服务，向开发者出租闲置AI算力，可能直接挑战AWS、Google Cloud和Microsoft Azure；同时也将削弱其对CoreWeave、Nebius等“新云”厂商的GPU租赁依赖，引发相关AI算力股重估。",
+    "body": "彭博援引知情人士报道称，Meta正在搭建云业务，拟出售过剩的AI计算能力。该项目据称命名为“Meta Compute”，由基础设施负责人Santosh Janardhan、Meta Superintelligence Labs负责人Daniel Gross以及总裁Dina Powell McCormick牵头。Meta考虑两种模式：一是在自有基础设施上托管AI模型供开发者调用，类似AWS Bedrock；二是直接出售原始算力，类似CoreWeave等“新云”供应商。\n\n无论采取哪种路径，Meta都将与亚马逊AWS、谷歌云和微软Azure形成正面竞争。值得注意的是，Meta此前是“新云”行业最重要客户之一：今年4月刚将对CoreWeave的云计算协议扩大至210亿美元，并与Nebius签署了最高270亿美元的合同，总计约480亿美元用于租用外部GPU。一旦Meta自研算力对外出租，这部分外部租赁需求可能面临收缩。\n\n消息传出后，投资者迅速重新定价相关公司。Meta股价当日大涨逾10%，创五个多月来最大单日涨幅；而与其深度绑定的算力租赁供应商则承压，市场认为“新云”厂商比传统云巨头更易受到冲击。该计划若落地，可能改变AI算力市场的供需格局与客户结构。",
+    "category": "AI 基础设施",
+    "tags": [
+      "Meta",
+      "AI算力租赁",
+      "云服务",
+      "新云"
+    ],
+    "source": "Tom's Hardware",
+    "time": "11分钟前",
+    "ts": "2026-07-02T13:01:25+00:00",
+    "url": "https://www.tomshardware.com/tech-industry/meta-reportedly-plans-to-rent-out-its-ai-compute",
+    "image": "https://cdn.mos.cms.futurecdn.net/5DrUKzfgk2vDQzjnVtVpkJ-1280-80.jpg",
+    "stocks": [
+      {
+        "name": "Meta Platforms",
+        "ticker": "META",
+        "reason": "若成功出租闲置AI算力，可提高资本开支利用率并开辟新收入来源，消息当日股价大涨逾10%",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
     "id": "5badeebcfb645d0f",
     "title": "新研究揭示咖啡护肝的生物学线索",
     "summary": "一项大型研究将较高的咖啡摄入量与肝硬化、肝癌及肝病相关死亡风险降低联系起来，并提供了潜在的生物学解释。",
@@ -99687,6 +99739,12 @@ const newsData = [
   }
 ];
 const newsDigest = {
-  "text": "",
-  "highlights": []
+  "text": "今日科技前沿聚焦：Meta进军AI算力租赁冲击云市场；Rivian二季度交付超预期并上调全年指引；比亚迪海豹08与创维S710等新车密集上市；华为Pura X Max销量突破45万台；德国无人机企业Quantum Systems获12亿美元融资。",
+  "highlights": [
+    "3fee1d489c02256b",
+    "307d0b24a39170e5",
+    "dc9b29c3de0f4197",
+    "0c09cf4bf82e5692",
+    "ee5ef648f780409d"
+  ]
 };
