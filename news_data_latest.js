@@ -1,5 +1,151 @@
 const newsData = [
   {
+    "id": "93f8840580417b44",
+    "title": "vivo下一代新品曝光：2nm电竞小平板、耳夹耳机、云台相机",
+    "summary": "博主@数码闲聊站曝光vivo下一代新品，涵盖2nm旗舰电竞小平板、耳夹耳机及首款云台相机，硬件堆料有望升级，Ultra超大杯持续迭代。",
+    "body": "IT之家7月2日消息，博主@数码闲聊站曝光了vivo下一代新品，包括2nm旗舰电竞小平板、耳夹耳机以及首款云台相机。该博主称新品硬件用料会比传统大厂更“卷”，Ultra超大杯也在持续迭代。目前vivo旗舰平板均为大屏产品，如vivo Pad6 Pro/iQOO Pad6 Pro，新品小平板有望延续电竞定位。\n\n耳机方面，vivo现有产品多为入耳式，今年5月首次推出头戴降噪耳机，耳夹耳机的加入将进一步完善其音频产品线。此外，vivo Pocket云台相机预计于今年第四季度发布，由立讯精密代工，配备1/1.1英寸传感器，备货预期约百万台。这标志着vivo在平板、音频和影像配件领域的布局持续扩张。",
+    "category": "消费电子",
+    "tags": [
+      "vivo",
+      "消费电子",
+      "立讯精密",
+      "可穿戴"
+    ],
+    "source": "IT之家",
+    "time": "刚刚",
+    "ts": "2026-07-02T13:33:11+00:00",
+    "url": "https://www.ithome.com/0/971/912.htm",
+    "image": "https://img.ithome.com/newsuploadfiles/2026/7/bbac5e92-2589-41cf-9326-7e64a7d71523.png",
+    "stocks": [
+      {
+        "name": "立讯精密",
+        "ticker": "002475.SZ",
+        "reason": " reportedly代工vivo Pocket云台相机，预计Q4发布、备货约百万台，有望直接受益配件订单增长",
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
+    "id": "9617ba5b3cadf9ec",
+    "title": "应调整的七项谷歌账户隐私设置",
+    "summary": "Wired 发布指南，建议用户检查并调整谷歌账户的恢复选项、广告个性化偏好及公开个人资料等设置，以提升隐私与账户安全。",
+    "body": "文章指出，许多用户并不熟悉 Google 账户中若干影响隐私与安全的选项。Wired 列出了七项值得调整的设置，包括账户恢复方式、广告个性化开关，以及个人资料中哪些信息会对公众可见。及时调整这些选项，有助于降低账号被盗与个人信息泄露的风险。在数字服务深度渗透日常生活的背景下，主动管理账户权限对用户数据安全具有重要意义。",
+    "category": "网络安全",
+    "tags": [
+      "隐私保护",
+      "账户安全",
+      "谷歌",
+      "数字身份"
+    ],
+    "source": "Wired",
+    "time": "3分钟前",
+    "ts": "2026-07-02T13:30:00+00:00",
+    "url": "https://www.wired.com/story/7-google-account-settings-you-should-change/",
+    "image": "https://media.wired.com/photos/6a43de2b329ca5a09d2b7803/master/pass/Gear_7%20Lesser-Known%20Google%20Account%20Settings%20You%20Should%20Change_v3.jpg",
+    "stocks": []
+  },
+  {
+    "id": "91ac190a000c4fa8",
+    "title": "显示器接口对比：HDMI 2.1、USB-C 与 DP 谁更优",
+    "summary": "Engadget 文章对比了 HDMI 2.1、USB-C 与 DisplayPort 三种主流显示器连接方案，指出 HDMI 更适合影音消费场景，而 PC 游戏玩家更偏好 DisplayPort。",
+    "body": "这篇评测从带宽、刷新率、兼容性和使用场景等维度比较了 HDMI 2.1、USB-C 与 DisplayPort 三种接口。作者认为，HDMI 2.1 在电视、游戏主机和影音播放设备上表现出色，适合媒体消费；而 DisplayPort 凭借更高的带宽和灵活的适配能力，更受高端 PC 显示器与游戏玩家青睐。USB-C 则因支持一线连通的音视频、数据和供电，成为笔记本电脑与移动设备外接显示器的便利选择。",
+    "category": "消费电子",
+    "tags": [
+      "显示器",
+      "接口标准",
+      "消费电子"
+    ],
+    "source": "Engadget",
+    "time": "3分钟前",
+    "ts": "2026-07-02T13:30:00+00:00",
+    "url": "https://www.engadget.com/2205560/hdmi-2-1-vs-usb-c-displayport-monitor/",
+    "image": "https://www.engadget.com/img/gallery/hdmi-2-1-vs-usb-c-vs-displayport-which-connection-is-better-for-your-monitor/l-intro-1782861816.jpg",
+    "stocks": []
+  },
+  {
+    "id": "14fb80971f6cba3d",
+    "title": "Montech NX600评测：不到30美元的双塔风冷",
+    "summary": "Montech NX600是一款面向预算用户的双塔CPU风冷散热器，配备六根铜热管和两个高性能E28风扇，标准版售价29.90美元，在不足30美元的价位上提供了超过248W的解热能力。",
+    "body": "台湾厂商Montech PC近期推出NX600风冷散热器，采用双塔结构并配备六根铜热管，将CPU热量从接触底座传导至散热鳍片。其最大特点是附带两把高性能加厚E28风扇，标准版售价仅29.90美元，ARGB版本售价34.90美元。评测显示，该产品在搭配AMD Ryzen 9 9950X3D时最大解热能力超过248W，散热性能优于同价位多数竞品。\n\nNX600的散热鳍片边缘采用锯齿设计，可在空气进出鳍片群时降低湍流噪声。该产品支持AMD AM5及Intel LGA 1700/1851/1200/115x等多种平台，并提供一年质保。对于追求性价比的PC装机用户而言，NX600在入门价位提供了接近高端风冷的散热表现，进一步加剧了CPU散热器市场的价格竞争。",
+    "category": "消费电子",
+    "tags": [
+      "CPU散热器",
+      "风冷散热",
+      "PC硬件",
+      "消费电子"
+    ],
+    "source": "Tom's Hardware",
+    "time": "3分钟前",
+    "ts": "2026-07-02T13:30:00+00:00",
+    "url": "https://www.tomshardware.com/pc-components/air-cooling/montech-nx600-review",
+    "image": "https://cdn.mos.cms.futurecdn.net/vdcrGXGHEFxM8poNQdqGJb-1280-80.jpg",
+    "stocks": []
+  },
+  {
+    "id": "785e73064fef8bb7",
+    "title": "微软注资25亿美元成立新公司，助力企业落地AI",
+    "summary": "微软宣布将注资25亿美元成立“微软前沿公司”，专门帮助大型企业挑选并整合适合自身业务的人工智能技术，落地成果归客户所有。这反映出企业客户需求正从单一模型转向可灵活切换的多模型方案。",
+    "body": "7月2日，微软宣布成立全新运营实体“微软前沿公司”（Microsoft Frontier Company），初期将获得25亿美元注资，旨在协助客户挑选适合其业务的人工智能技术并实现投资回报。首批合作客户包括联合利华、诺和诺德等大型企业。该公司将帮助客户整合微软自研及第三方AI工具，对接企业内部专属数据，且相关落地产出成果完全归客户所有，无需回传给微软。\n\n当前大型企业已不再满足于单一依赖OpenAI、Anthropic等前沿实验室提供模型服务，而是倾向于组合使用开源大模型等多样技术，并根据自身需求定制。然而，这种模式成本高昂且拉长投资回收周期。微软此举意在解决上述痛点，同时回应市场对模型灵活性与数据自主权的关注。\n\n行业分析师指出，企业担心长期使用OpenAI、Anthropic模型会让这些实验室掌握足以与其竞争的能力。微软商用业务总裁也表示，三年前Copilot仅绑定OpenAI模型是一大教训，如今DeepSeek、Gemini等模型正快速追赶，企业需要的是可替换、可微调并能放大自身业务能力的多模型方案。",
+    "category": "人工智能",
+    "tags": [
+      "微软",
+      "企业AI",
+      "AI落地",
+      "多模型"
+    ],
+    "source": "IT之家",
+    "time": "4分钟前",
+    "ts": "2026-07-02T13:29:00+00:00",
+    "url": "https://www.ithome.com/0/971/911.htm",
+    "image": "https://img.ithome.com/newsuploadfiles/2025/12/0a1271c1-d078-45c8-a2c7-ce93a08a56ea.jpg?x-bce-process=image/format,f_auto",
+    "stocks": [
+      {
+        "name": "微软",
+        "ticker": "MSFT",
+        "reason": "微软前沿公司直接拓展其企业AI服务业务，帮助客户整合多模型AI工具，增强云服务与AI应用竞争力",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "5b05095132536f53",
+    "title": "特朗普公布AI行动计划当日买入多只科技股",
+    "summary": "财务披露显示，特朗普在公布“AI行动计划”当天买入多只科技股，此举引发外界对其潜在利益冲突的关注。",
+    "body": "据报道，特朗普在宣布其“AI行动计划”的同日买入了多只科技股。披露文件未明确列出具体公司名称或交易金额，但交易时点与政策发布高度重合，引发外界对其个人投资与AI政策立场之间可能存在利益冲突的质疑。分析人士指出，高层人物在政策重大节点前后进行相关科技资产交易，可能削弱政策公信力，并带来监管与舆论压力。",
+    "category": "人工智能",
+    "tags": [
+      "特朗普",
+      "AI政策",
+      "科技股",
+      "利益冲突"
+    ],
+    "source": "Engadget",
+    "time": "5分钟前",
+    "ts": "2026-07-02T13:27:42+00:00",
+    "url": "https://www.engadget.com/2206671/donald-trump-bought-a-bunch-of-tech-stock-the-same-day-he-announced-his-ai-action-plan/",
+    "image": "https://www.engadget.com/img/gallery/donald-trump-bought-a-bunch-of-tech-stock-the-same-day-he-announced-his-ai-action-plan/l-intro-1782998790.jpg",
+    "stocks": []
+  },
+  {
+    "id": "3509afd9c41adb37",
+    "title": "华为鸿蒙HarmonyOS 7新Beta版开启推送",
+    "summary": "华为鸿蒙HarmonyOS 7.0.0.23 SP52 Developer Beta版本已开启推送，包体约2.59GB，面向开发者用于调测新版本API应用。首批支持Mate 80 Pro、Mate X7、Pura X等多款旗舰机型。",
+    "body": "7月2日消息，据用户反馈，华为鸿蒙HarmonyOS 7.0.0.23 SP52 Developer Beta版本已开启推送，安装包大小约2.59GB。本次更新主要面向开发者，用于开发调测基于HarmonyOS 7（API 26）的新应用。此前，HarmonyOS 7已于6月12日正式发布，官方同步开启开发者Beta 1版公开招募，并在HDC2026上发布了HarmonyOS开发套件26.0.0 Beta1版本。\n\n首批支持设备包括HUAWEI Mate 80 Pro、Mate X7、Mate XTs非凡大师、Pura 90 Pro Max、Pura X、Pura X典藏版以及nova 15 Pro等机型。此次开发者Beta版本的推送，标志着鸿蒙生态进入新一轮测试与适配阶段，有助于加速HarmonyOS 7应用生态的完善与商用落地。",
+    "category": "消费电子",
+    "tags": [
+      "华为",
+      "鸿蒙系统",
+      "移动操作系统",
+      "消费电子"
+    ],
+    "source": "IT之家",
+    "time": "6分钟前",
+    "ts": "2026-07-02T13:26:39+00:00",
+    "url": "https://www.ithome.com/0/971/910.htm",
+    "image": "https://img.ithome.com/newsuploadfiles/2026/7/0dde870f-d79f-4eeb-ba3d-72aa26f24546.jpg",
+    "stocks": []
+  },
+  {
     "id": "09348f390e20b202",
     "title": "联想天禧AI Agent拍职场短剧演绎系统流爽文",
     "summary": "联想天禧AI推出定制短剧《我的AI搭档之“禧”从天降》，将网文“系统流”与AI Agent能力结合，展示AI作为全能职场辅助的形象，反映消费级AI助手向个人场景落地的趋势。",
