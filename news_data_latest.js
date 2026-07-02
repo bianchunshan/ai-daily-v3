@@ -1,5 +1,23 @@
 const newsData = [
   {
+    "id": "dc9b29c3de0f4197",
+    "title": "华为Pura X Max销量破45万台 典藏版更畅销",
+    "summary": "消息称华为横向阔折叠手机Pura X Max系列总销量已突破45万台，其中定价更高的典藏版销量超过普通版约5万台。",
+    "body": "据博主@RD观测数据，截至2026年第25周（6月15日至21日），华为Pura X Max普通版销量约20.08万台，典藏版约25.13万台，系列合计约45.21万台。该系列于今年4月25日开售，搭载麒麟9030 Pro处理器，售价10999元起。\n\n开售首月合计销量约34.37万台，第二个月销量约10.84万台，显示高端版本需求强劲。作为行业首款横向阔折叠手机，其市场表现反映了华为在高端折叠屏产品线的品牌号召力，也可能加剧高端折叠屏市场竞争。",
+    "category": "消费电子",
+    "tags": [
+      "华为",
+      "折叠屏手机",
+      "消费电子"
+    ],
+    "source": "IT之家",
+    "time": "4分钟前",
+    "ts": "2026-07-02T12:48:20+00:00",
+    "url": "https://www.ithome.com/0/971/901.htm",
+    "image": "https://img.ithome.com/newsuploadfiles/2026/7/9ba33287-b7e7-490c-ba8d-65264bf7786d.png",
+    "stocks": []
+  },
+  {
     "id": "c410a534242996c1",
     "title": "三星Galaxy S27系列将全系标配防窥显示屏",
     "summary": "韩媒称三星计划明年在Galaxy S27系列旗舰机上标配防窥显示屏，把S26 Ultra独占的Flex Magic Pixel隐私显示技术扩展至全系；小米、OPPO、vivo也在探索类似方案。",
@@ -24,6 +42,25 @@ const newsData = [
         "confidence": "medium"
       }
     ]
+  },
+  {
+    "id": "f1d85e98cefe43d8",
+    "title": "Fable 5在RLI基准自动化率达16.1%，八个月提升六倍",
+    "summary": "Remote Labor Index通过240个付费自由职业项目评估AI智能体的专业质量，Fable 5以16.1%的自动化率领先，较八个月前最佳水平提升六倍，但多数项目仍难以达到专业标准。",
+    "body": "Remote Labor Index（RLI）评估AI智能体完成240个总值14.4万美元的付费自由职业项目的专业质量比例。最新结果显示，Fable 5的自动化率达到16.1%，不仅较八个月前的最佳系统2.5%提升逾六倍，也超过了Opus 4.8（8.3%）和GPT-5.5（6.3%）。由于美国政府限制访问，Fable 5仅完成218/240个项目评估，即使按最坏情况计算也达14.6%。相比之下，Gemini 3 Pro仅为1.25%，表现甚至落后于部分旧模型。\n测试在配备30余款专业应用的虚拟Linux环境中进行，每个项目最多拥有24小时计算时间，涵盖需要打开Blender等软件检验几何模型等细节任务。研究同时指出，AI裁判会系统性地高估模型表现，例如GPT-5.5的AI评分偏高近三倍，因此仍需人类评估员介入核验。\n这一结果表明，AI智能体在复杂远程专业任务上的自动化能力正快速进步，但距离真正替代人类专业人士仍有显著差距，且评测方法中的裁判偏差和样本完成度问题也提示行业需建立更严谨的人类评估标准。",
+    "category": "人工智能",
+    "tags": [
+      "AI智能体",
+      "大模型评测",
+      "自动化办公",
+      "远程劳动"
+    ],
+    "source": "AIHOT精选",
+    "time": "15分钟前",
+    "ts": "2026-07-02T12:37:49+00:00",
+    "url": "https://the-decoder.com/ai-agents-can-now-complete-16-percent-of-freelance-jobs-at-pro-quality-up-from-2-5-percent-eight-months-ago",
+    "image": "",
+    "stocks": []
   },
   {
     "id": "13702da6dd8a442a",
@@ -56,6 +93,24 @@ const newsData = [
         "confidence": "high"
       }
     ]
+  },
+  {
+    "id": "b42391a7847726cb",
+    "title": "机器人复杂装配需兼顾灵活性与机械定位",
+    "summary": "专家指出，在自动化装配中，机械定位系统对机器人的移动性、工作范围和速度影响重大；将机器人灵活性与精密机械定位相结合，可显著提升复杂装配作业的效率与可靠性。",
+    "body": "自动化行业正迎来快速增长，专家们日益认识到机械定位对机器人性能的重要性。定位不仅决定了机器人的活动范围，还影响其关节、执行器等部件能否发挥最大潜力。线性传输系统等定位装置能够拓展机器人运动范围，使其适用于航空航天、国防等大型产品的自动化生产。\n\n将机器人末端灵活性与精密机械定位相结合，有助于在复杂装配场景中实现更高的效率、速度与可靠性。这种融合思路正成为智能制造和高端装配领域的重要发展方向。",
+    "category": "机器人",
+    "tags": [
+      "工业机器人",
+      "自动化装配",
+      "机械定位"
+    ],
+    "source": "The Robot Report",
+    "time": "16分钟前",
+    "ts": "2026-07-02T12:36:09+00:00",
+    "url": "https://www.therobotreport.com/why-you-should-combine-robot-dexterity-with-mechanical-positioning-for-complex-assembly-operations/",
+    "image": "https://www.therobotreport.com/wp-content/uploads/2026/07/Untitled-design-1.jpg",
+    "stocks": []
   },
   {
     "id": "ee5ef648f780409d",
@@ -242,6 +297,32 @@ const newsData = [
     "url": "https://36kr.com/newsflashes/3878457699463430?f=rss",
     "image": "",
     "stocks": []
+  },
+  {
+    "id": "5f9a80d3494b1ae6",
+    "title": "Karp炮轰Anthropic/OpenAI：窃取客户IP且token价值低",
+    "summary": "Palantir首席执行官Alex Karp公开指责Anthropic和OpenAI窃取客户知识产权，并认为其模型生成的token价值有限。这一言论将AI竞争从模型能力延伸至数据权属与商业价值之争。",
+    "body": "据Hacker News消息，Palantir CEO Alex Karp在评论中称，Anthropic和OpenAI正在“窃取”客户知识产权，且其模型token的实际价值不高。该表态直接指向当前头部大模型公司，反映出在企业级AI市场，数据安全、知识产权与商业模式正成为竞争焦点。不过，目前公开信息仅为Karp单方面观点，Anthropic与OpenAI尚未作出回应，其后续影响仍需观察。",
+    "category": "人工智能",
+    "tags": [
+      "大模型",
+      "知识产权",
+      "Palantir",
+      "AI竞争"
+    ],
+    "source": "Hacker News",
+    "time": "35分钟前",
+    "ts": "2026-07-02T12:17:58+00:00",
+    "url": "https://twitter.com/Ric_RTP/status/2072403984304984202",
+    "image": "",
+    "stocks": [
+      {
+        "name": "Palantir",
+        "ticker": "PLTR",
+        "reason": "Karp为Palantir CEO，其言论强化公司在企业数据安全与AI平台差异化定位的关注度",
+        "confidence": "medium"
+      }
+    ]
   },
   {
     "id": "91e19621d4cbfa1c",
