@@ -1,5 +1,24 @@
 const newsData = [
   {
+    "id": "30b4610c2a52e190",
+    "title": "Moment Energy建成全球最大退役动力电池工厂",
+    "summary": "Moment Energy宣布其全球最大的退役电动汽车动力电池梯次利用工厂正式投产，从项目公布到启用仅用时六周，将为电网及工商业储能提供二次利用电池系统制造能力。",
+    "body": "加拿大储能企业Moment Energy宣布，其位于不列颠哥伦比亚省菲莎河谷的“全球最大”退役电动汽车电池梯次利用工厂正式启用。该公司表示，从宣布项目到工厂投产仅用时六周，目前储能系统年产能已达约1 GWh。\n\n该工厂主要对回收的退役动力电池进行检测、重组和再利用，生产面向电网储能、工商业储能等场景的二次利用电池系统。这一模式有助于降低储能系统成本，并延缓电池进入拆解回收环节的时间。\n\n随着全球电动汽车保有量快速增长，退役动力电池的规模化梯次利用正成为储能产业链的重要补充，也可能对电池回收、储能集成和电网调节市场产生长期影响。",
+    "category": "未来能源",
+    "tags": [
+      "动力电池回收",
+      "储能",
+      "电池梯次利用",
+      "未来能源"
+    ],
+    "source": "Electrek",
+    "time": "3分钟前",
+    "ts": "2026-07-02T20:50:35+00:00",
+    "url": "https://electrek.co/2026/07/02/worlds-largest-second-life-ev-battery-factory-opens-in-just-six-weeks/",
+    "image": "https://electrek.co/wp-content/uploads/sites/3/2026/07/Moment-Energy.jpg?quality=82&#038;strip=all&#038;w=1600",
+    "stocks": []
+  },
+  {
     "id": "c5b3db7713be19e2",
     "title": "欧洲首家量子公司IQM纳斯达克上市",
     "summary": "芬兰全栈量子计算公司IQM在纳斯达克上市，估值约19亿美元，并坦承量子技术未来发展仍存不确定性。",
