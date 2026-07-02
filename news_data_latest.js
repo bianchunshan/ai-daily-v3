@@ -1,5 +1,76 @@
 const newsData = [
   {
+    "id": "cbd9cc009f99c045",
+    "title": "研究显示CBD可减少儿童难治性癫痫发作",
+    "summary": "一项新研究发现，大麻二酚（CBD，药用大麻）对多种耐药性儿童癫痫具有治疗潜力，为难治性癫痫患儿家庭带来新希望。",
+    "body": "该研究指出，大麻二酚（cannabidiol，CBD）在多种药物难治性儿童癫痫中显示出减少发作的潜力，进一步支持其作为辅助治疗方案的证据。这一发现对推动相关疗法的临床应用、改善患儿生活质量具有重要意义，同时也为相关药物开发商带来积极信号。",
+    "category": "生物医药",
+    "tags": [
+      "CBD",
+      "儿童癫痫",
+      "药用大麻",
+      "生物医药"
+    ],
+    "source": "MedicalXpress",
+    "time": "3分钟前",
+    "ts": "2026-07-02T10:40:07-04:00",
+    "url": "https://medicalxpress.com/news/2026-07-cbd-seizures-drug-resistant-pediatric.html",
+    "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/advancement-in-drug-re.jpg",
+    "stocks": [
+      {
+        "name": "Jazz Pharmaceuticals",
+        "ticker": "JAZZ",
+        "reason": "旗下Epidiolex（CBD口服溶液）已获批用于多种儿童难治性癫痫，研究结果强化其临床价值与市场需求预期。",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "92d0d804604b9e3e",
+    "title": "华为MateBook Pro推送HarmonyOS 6.1.0.130 SP15升级",
+    "summary": "华为MateBook Pro鸿蒙笔记本近日推送HarmonyOS 6.1.0.130 SP15版本升级，安装包约2.16GB。新版本新增用户分级管理、连接相机读取照片和视频等功能，并优化文件管理、浏览器、打印机等场景体验。",
+    "body": "IT之家7月2日消息，华为MateBook Pro鸿蒙笔记本开启HarmonyOS 6.1.0.130 SP15版本升级，系统包大小约2.16GB。本次更新新增用户分级管理能力，管理员可新增或删除普通用户，以提升多用户场景的安全性；同时新增连接相机读取照片和视频、鸿蒙键最近应用移除、桌面与锁屏分别设置壁纸、应用安装后自动生成桌面图标、状态栏图标显示管理等功能。\n此外，更新还优化了扩展屏输入法、截图拖拽、打印机连接与稳定性、设置中“关于本机”界面显示效果，并修复了单应用音量配置失效、U盘文件搜索、压缩包解压、华为云盘文件显示不全、网络邻居共享失效等问题。浏览器方面则新增同步Windows版华为浏览器书签的能力，并优化部分网页摄像头画面效果。\n华为通常采用分批推送方式升级，未收到更新的用户仍需等待。此次升级进一步丰富了鸿蒙笔记本的生态互联与多设备协同体验，有助于提升华为PC产品竞争力。",
+    "category": "消费电子",
+    "tags": [
+      "华为",
+      "鸿蒙系统",
+      "笔记本电脑",
+      "HarmonyOS"
+    ],
+    "source": "IT之家",
+    "time": "4分钟前",
+    "ts": "2026-07-02T14:39:07+00:00",
+    "url": "https://www.ithome.com/0/971/943.htm",
+    "image": "https://img.ithome.com/newsuploadfiles/2025/12/530fa7ce-16fc-42dc-9aed-6018aa37a0c0.jpg?x-bce-process=image/auto-orient,o_1",
+    "stocks": []
+  },
+  {
+    "id": "4592c051d02d73c5",
+    "title": "Lucid新任CEO全面改组核心高管团队",
+    "summary": "美国电动汽车制造商Lucid在新任CEO Silvio Napoli主导下几乎更换全部核心管理层，并新任命CFO、CTO等六位C级高管。此前该公司刚裁员18%并撤回了2026年生产指引。",
+    "body": "美国电动汽车制造商Lucid近日宣布，在新任首席执行官Silvio Napoli的主导下，公司几乎更换了整个核心管理团队，包括新任首席财务官、首席技术官在内的六位C级高管同时上任。\n\n此次管理层大调整发生在Lucid裁员约18%并撤回2026年产量指引后的一周多时间。这家困境中的电动汽车企业正试图通过高层换血与成本削减来扭转经营局面。\n\n集中更替核心高管通常意味着企业战略与运营方向将出现重大调整，Lucid此举反映出其在产能爬坡、现金流与市场竞争方面仍面临持续压力。",
+    "category": "未来能源",
+    "tags": [
+      "电动汽车",
+      "Lucid",
+      "管理层变动",
+      "裁员"
+    ],
+    "source": "Electrek",
+    "time": "9分钟前",
+    "ts": "2026-07-02T14:33:57+00:00",
+    "url": "https://electrek.co/2026/07/02/lucid-c-suite-overhaul-napoli/",
+    "image": "https://electrek.co/wp-content/uploads/sites/3/2026/06/Lucid-hands-free-driving.jpeg?quality=82&#038;strip=all&#038;w=1600",
+    "stocks": [
+      {
+        "name": "Lucid Group",
+        "ticker": "LCID",
+        "reason": "新闻直接涉及该公司的管理层重组与裁员，经营前景受其直接影响",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
     "id": "d3dc6675504234a3",
     "title": "曝小米REDMI正测试2nm骁龙8E6旗舰新机",
     "summary": "博主爆料称某厂子系正在测试基于2nm工艺的骁龙8E6处理器，新机暂定2027年上半年发布，预计为小米REDMI旗下性能旗舰。若属实，这将是REDMI在高端性能机型上的一次重要升级。",
