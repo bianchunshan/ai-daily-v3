@@ -1,5 +1,24 @@
 const newsData = [
   {
+    "id": "6ab00486e6b48988",
+    "title": "刚果（金）启动埃博拉治疗药物临床试验",
+    "summary": "世界卫生组织数据显示，刚果（金）已确诊1406例埃博拉病例，疑似301例，死亡438例。当地已启动新治疗药物临床试验，以评估其抗疫效果。",
+    "body": "据BBC报道，刚果（金）已启动埃博拉治疗药物的临床试验。世界卫生组织的数据显示，当地已报告1406例确诊病例、301例疑似病例和438例死亡病例，疫情形势严峻。\n\n此次试验旨在评估潜在治疗药物的安全性与有效性，为控制疫情提供更多医学选择。该研究也凸显了新发传染病药物研发与全球公共卫生应急响应的重要性。",
+    "category": "生物医药",
+    "tags": [
+      "埃博拉",
+      "新药试验",
+      "刚果（金）",
+      "公共卫生"
+    ],
+    "source": "BBC World",
+    "time": "12分钟前",
+    "ts": "2026-07-02T21:21:36+00:00",
+    "url": "https://www.bbc.co.uk/news/articles/c75ykve4zzxo?at_medium=RSS&at_campaign=rss",
+    "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9745/live/6c75c790-7652-11f1-a627-714adb4eed6e.jpg",
+    "stocks": []
+  },
+  {
     "id": "d8fa82a469d96b81",
     "title": "研究显示勃方鲁肽降糖效果优于司美格鲁肽",
     "summary": "发表于《内科学年鉴》的研究指出，GLP-1受体激动剂勃方鲁肽在降低成年2型糖尿病患者糖化血红蛋白（HbA1c）水平方面优于司美格鲁肽。",
@@ -360,6 +379,25 @@ const newsData = [
     ]
   },
   {
+    "id": "0786256f7af968a1",
+    "title": "开源本地优先密码管理器Bramble发布",
+    "summary": "开发者推出名为Bramble的开源密码管理器，采用本地优先架构与P2P跨设备同步，最新版本支持通行密钥存储，无需云端服务器保存用户数据。",
+    "body": "Bramble是一款开源密码管理工具，主打本地优先与点对点跨设备同步，旨在替代依赖云端的商业密码管理服务。其最新版本已推出Chrome扩展和Android应用，iOS版本正在等待苹果审核，并新增了对通行密钥（passkey）的存储支持。该工具通过可自托管的Nostr中继实现设备发现，数据经WebRTC直接传输并采用端到端加密，避免在云端保留密码副本。\n\n开发者表示，密码学相关代码使用Rust编写，可更精确地控制密钥材料在内存中的生命周期，敏感数据在使用完毕后会被清零，以降低内存泄漏风险。Bramble的推出反映了用户对云端密码服务透明度、定价与数据泄露风险的担忧，也体现了去中心化、本地优先工具在身份认证与隐私保护领域的探索趋势。",
+    "category": "网络安全",
+    "tags": [
+      "密码管理",
+      "开源软件",
+      "P2P同步",
+      "通行密钥"
+    ],
+    "source": "Hacker News",
+    "time": "2小时前",
+    "ts": "2026-07-02T19:29:58+00:00",
+    "url": "https://github.com/flythenimbus/bramble",
+    "image": "",
+    "stocks": []
+  },
+  {
     "id": "049f243883b19f91",
     "title": "EFF致信FTC就X同意令发表评论",
     "summary": "电子前沿基金会（EFF）就X与美国联邦贸易委员会（FTC）的同意令提交意见函，涉及隐私保护和平台监管议题。",
@@ -458,6 +496,24 @@ const newsData = [
     "time": "9分钟前",
     "ts": "2026-07-02T19:14:46+00:00",
     "url": "https://techcrunch.com/2026/07/02/a-warning-sign-about-ais-real-cost-courtesy-of-google-and-amazon/",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "4d4c122ecd267ebc",
+    "title": "紧约束 AI 编程法据称可攻克 Fable",
+    "summary": "Hacker News 上出现一篇题为《The Short Leash AI Coding Method for Beating Fable》的技术帖，作者提出一种对 AI 保持紧密控制、分步验证的编程方法；该帖目前仅 13 个赞、1 条评论，具体内容有限。",
+    "body": "据 Hacker News 帖子标题显示，该文介绍了一种名为 \"Short Leash\" 的 AI 编程方法，核心思路是在让 AI 辅助编码时保持高度约束、分小步推进并频繁校验结果，以应对名为 \"Fable\" 的项目或挑战。帖文仅显示 13 个积分和 1 条评论，未提供文章详细内容、实验数据或具体实现。若该方法确有价值，可能为 AI 辅助编程、代码生成质量控制提供一种可借鉴的实践思路，但其效果与适用范围仍需更多案例验证。",
+    "category": "人工智能",
+    "tags": [
+      "AI编程",
+      "代码生成",
+      "Hacker News"
+    ],
+    "source": "Hacker News",
+    "time": "2小时前",
+    "ts": "2026-07-02T19:11:57+00:00",
+    "url": "https://blog.okturtles.org/2026/07/short-leash-ai-method/",
     "image": "",
     "stocks": []
   },
