@@ -1,5 +1,24 @@
 const newsData = [
   {
+    "id": "6c61bba2e3c3714a",
+    "title": "特斯拉司机因自动驾驶撞入民宅致死被控过失杀人",
+    "summary": "美国得克萨斯州一名特斯拉Model 3司机上月驾车撞入民宅致一名女性死亡，他声称当时正在使用FSD全自动驾驶功能，目前已被逮捕并面临过失杀人指控。",
+    "body": "据《华尔街日报》及当地媒体KHOU 11报道，44岁的Michael Butler于周三被捕，其驾驶的特斯拉Model 3上月撞入得州一所住宅，导致屋内一名女性死亡。Butler声称事发时车辆启用了特斯拉Full-Self Driving（FSD）全自动驾驶功能。警方尚未确认FSD是否确实处于激活状态，但事故已将特斯拉自动驾驶技术的安全性与责任认定再次推向风口浪尖。若调查指向系统缺陷或误导宣传，可能引发更严格监管，并对自动驾驶行业的公众信任与商业化进程带来压力。",
+    "category": "机器人",
+    "tags": [
+      "特斯拉",
+      "自动驾驶",
+      "FSD",
+      "交通安全"
+    ],
+    "source": "The Verge",
+    "time": "4分钟前",
+    "ts": "2026-07-02T18:09:33-04:00",
+    "url": "https://www.theverge.com/transportation/961161/tesla-fsd-katy-tx-manslaughter-charges",
+    "image": "",
+    "stocks": []
+  },
+  {
     "id": "1987a2dac86cc105",
     "title": "SpaceX星舰六台发动机完成静态点火备战第13次试飞",
     "summary": "SpaceX新一代星舰上面级“Ship 40”在得克萨斯州星基地完成全部六台猛禽发动机长达60秒的静态点火测试，为第十三次全箭堆叠试飞扫清关键障碍。",
