@@ -1,5 +1,43 @@
 const newsData = [
   {
+    "id": "1218daade5c42928",
+    "title": "人类红细胞生成机制与鼠模型不同",
+    "summary": "西北医学院研究发现，人类红细胞生成不需要小鼠模型中的中央“枢纽”，颠覆了基于动物实验数十年来的生理学认知。该成果发表于《自然·遗传学》。",
+    "body": "美国西北医学院科学家在《自然·遗传学》发表研究，揭示人体最基本的生物学过程之一——红细胞生成——在人类体内的工作方式与此前基于小鼠等动物模型的假设不同。人类红细胞发育过程中并未出现小鼠模型中依赖的中央“枢纽”结构，这一发现推翻了沿用数十年的经典认知。研究提示，人类造血机制可能存在物种特异性，未来在贫血、血液疾病及红细胞相关疗法研究中需更多依赖人类模型。",
+    "category": "生物医药",
+    "tags": [
+      "生命科学",
+      "红细胞生成",
+      "Nature Genetics",
+      "血液疾病"
+    ],
+    "source": "MedicalXpress",
+    "time": "3分钟前",
+    "ts": "2026-07-02T13:40:08-04:00",
+    "url": "https://medicalxpress.com/news/2026-07-human-red-blood-cells-central.html",
+    "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/blood-cell-nurseries-u-2.jpg",
+    "stocks": []
+  },
+  {
+    "id": "1046a59cbf0ab585",
+    "title": "波兰航天科技公司融资进军美国市场",
+    "summary": "波兰国有银行BGK与欧洲风投3TS Capital Partners向波兰航天科技企业Sybilla Technologies投资约3500万兹罗提（约1000万美元），以助其进入美国市场。",
+    "body": "据SpaceNews报道，波兰国有银行BGK与欧洲风险投资机构3TS Capital Partners近日宣布，向波兰航天科技公司Sybilla Technologies投资约3500万兹罗提（约合1000万美元）。本轮资金将用于支持该公司拓展美国市场业务。\n\nSybilla Technologies是一家波兰航天科技企业，此次融资标志着波兰本土航天力量正加速国际化布局。借助欧洲资本与波兰国家金融机构的支持，该公司有望在商业航天领域扩大其在美国市场的影响力，并进一步促进欧美航天产业链的合作与竞争。",
+    "category": "商业航天",
+    "tags": [
+      "商业航天",
+      "卫星技术",
+      "国际市场",
+      "风险投资"
+    ],
+    "source": "SpaceNews",
+    "time": "5分钟前",
+    "ts": "2026-07-02T17:38:50+00:00",
+    "url": "https://spacenews.com/polish-space-tech-company-sybilla-technologies-secures-funds-to-enter-u-s-market/",
+    "image": "https://i0.wp.com/spacenews.com/wp-content/uploads/2026/07/Photo-by-Sybilla-Technologies.jpg?fit=768%2C1024&amp;ssl=1",
+    "stocks": []
+  },
+  {
     "id": "03eb9c15a1b21e15",
     "title": "Wisk Aero前经理称因提出安全疑虑遭解雇",
     "summary": "波音旗下自动驾驶飞行器公司Wisk Aero的一名前软件经理指控，公司在他对2025年关键飞行测试前的软件测试流程提出安全担忧后将其解雇。",
