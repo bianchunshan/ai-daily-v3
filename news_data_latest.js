@@ -1,5 +1,31 @@
 const newsData = [
   {
+    "id": "4b4d3ba0b9bad6ce",
+    "title": "Jeep Recon EV 2027年登陆欧洲，并将推中国产新SUV",
+    "summary": "Jeep计划2027年初在欧洲开售Recon纯电动越野车，并加码推出三款新SUV，其中包含一款中国制造车型。",
+    "body": "Stellantis旗下Jeep品牌正加速电动化布局，计划于2027年初在欧洲市场推出Recon纯电动越野车。与此同时，Jeep还将展开新一轮产品攻势，新增三款SUV车型，其中一款将在中国本土生产。\n\n这一举措显示出Jeep希望通过扩大电动化产品线和本地化生产来提振其在全球关键市场的销量与竞争力，尤其是在欧洲和中国这两大新能源汽车竞争激烈的市场。",
+    "category": "未来能源",
+    "tags": [
+      "电动汽车",
+      "Jeep",
+      "Stellantis",
+      "SUV"
+    ],
+    "source": "Electrek",
+    "time": "1分钟前",
+    "ts": "2026-07-02T15:54:54+00:00",
+    "url": "https://electrek.co/2026/07/02/jeep-recon-ev-launch-europe-plus-china-made-suv/",
+    "image": "https://electrek.co/wp-content/uploads/sites/3/2026/06/Jeep-Recon-EV-Europe-1.jpeg?quality=82&#038;strip=all&#038;w=1400",
+    "stocks": [
+      {
+        "name": "Stellantis",
+        "ticker": "STLA",
+        "reason": "Jeep母公司，新车型投放与本地化生产有望带动销量",
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
     "id": "78afb2b04880e569",
     "title": "华为鸿蒙API设备量数据更新：7.0 Beta1占比破0.17%",
     "summary": "华为开发者官网更新了HarmonyOS存量设备API版本使用数据，截至6月19日，HarmonyOS 7.0.0 Beta1设备量占比已突破0.17%，而5.0多个旧版本占比归零。",
