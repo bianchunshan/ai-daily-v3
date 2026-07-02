@@ -1,5 +1,50 @@
 const newsData = [
   {
+    "id": "c8db9b61a2775696",
+    "title": "特朗普称AI需护栏但应尽量减少限制",
+    "summary": "美国总统特朗普表示，人工智能需要一定标准和护栏，但应避免繁重限制妨碍美国企业；他称会迅速制止存在风险的不良行为者，但未指明具体案例。",
+    "body": "美国总统唐纳德·特朗普在白宫接受采访时表示，他认为人工智能技术需要一定的标准和“护栏”，但希望监管措施尽可能少，避免对美国企业造成沉重负担。特朗普强调，当发现“不良参与者”并存在风险时，政府会迅速有效地加以制止，并提到近期处理过一个案例，但未透露具体所指。\n\n此番表态显示出美国政府在人工智能领域倾向于轻监管、促创新的政策取向。其立场可能影响美国AI产业的发展环境，并在全球AI治理规则的制定过程中产生示范效应。",
+    "category": "地缘科技",
+    "tags": [
+      "人工智能",
+      "AI监管",
+      "特朗普",
+      "美国政策"
+    ],
+    "source": "36氪",
+    "time": "刚刚",
+    "ts": "2026-07-02T23:05:06.068061+00:00",
+    "url": "https://36kr.com/newsflashes/3879099501981952?f=rss",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "55f907561d56e5f2",
+    "title": "美国太空军委托私人公司执行轨道伴飞任务",
+    "summary": "Rocket Lab与True Anomaly正为美国太空军进行近距离卫星飞越演练，测试轨道态势感知与对抗能力。",
+    "body": "据美国太空军透露，商业航天公司True Anomaly与Rocket Lab正在执行类似“壮志凌云”的近距离卫星飞越任务。这些轨道演练旨在训练太空操作员如何在真实空间环境中接近、观察和评估其他航天器，提升美国军方在地球轨道上的态势感知能力。这一合作标志着商业航天力量越来越多地参与军事空间任务，也反映出轨道安全与空间域感知正在成为国防和商业航天的交汇点。",
+    "category": "商业航天",
+    "tags": [
+      "商业航天",
+      "卫星",
+      "太空军",
+      "Rocket Lab"
+    ],
+    "source": "TechCrunch",
+    "time": "3分钟前",
+    "ts": "2026-07-02T23:01:06+00:00",
+    "url": "https://techcrunch.com/2026/07/02/private-space-pilots-are-flying-orbital-missions-for-the-us-space-force/",
+    "image": "",
+    "stocks": [
+      {
+        "name": "Rocket Lab",
+        "ticker": "RKLB",
+        "reason": "Rocket Lab作为任务执行方之一，直接受益于美国太空军商业航天任务订单增加。",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
     "id": "db86366d9ea1619c",
     "title": "Meta推出生成式AI游戏创作应用Pocket",
     "summary": "Meta发布了一款名为Pocket的生成式AI游戏创作应用，目前已上架应用商店，但在美国市场似乎尚未开放使用。",
@@ -103200,12 +103245,6 @@ const newsData = [
   }
 ];
 const newsDigest = {
-  "text": "今日科技前沿：Meta发布AI游戏创作应用Pocket，SpaceX星舰六台发动机静态点火备战第13次试飞，欧洲量子公司IQM登陆纳斯达克，FDA批准赛诺菲Tzield用于儿童新发1型糖尿病，Cloudflare将过滤AI爬虫服务。",
-  "highlights": [
-    "db86366d9ea1619c",
-    "1987a2dac86cc105",
-    "c5b3db7713be19e2",
-    "5d5ebeb11a0963e7",
-    "f9fabf76ffa2d665"
-  ]
+  "text": "",
+  "highlights": []
 };
