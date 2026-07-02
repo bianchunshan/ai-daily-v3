@@ -1,5 +1,31 @@
 const newsData = [
   {
+    "id": "0aa8edb9a025e89f",
+    "title": "微软刚承认Copilot影响效率，转头夸按键有\"主角能量\"",
+    "summary": "微软在承认Copilot按键影响部分Windows 11用户效率后，又在社交平台高调宣传该按键\"具备主角能量\"，引发用户嘲讽和质疑。",
+    "body": "6月29日，微软在Facebook、Instagram和X平台发布宣传文案，展示Windows 11 AI+ PC上的专属Copilot按键，配文称其\"拥有主角能量\"。\n\n然而这一营销时机颇为尴尬。就在两周前的6月16日，微软刚承认Copilot按键会影响部分Windows 11用户的效率，并承诺用户可以根据自身需求将该按键重新映射为其他功能。\n\n评论区以调侃吐槽为主，有网友直言Copilot按键是\"AI垃圾\"，也有人误以为是网友PS的梗图。此番官方下场宣传与其此前的功能调整表态形成反差，折射出用户对Windows强制集成AI功能的抵触情绪。",
+    "category": "人工智能",
+    "tags": [
+      "微软",
+      "Copilot",
+      "Windows 11",
+      "AI PC"
+    ],
+    "source": "IT之家",
+    "time": "3分钟前",
+    "ts": "2026-07-02T05:18:49+00:00",
+    "url": "https://www.ithome.com/0/971/521.htm",
+    "image": "https://img.ithome.com/newsuploadfiles/2026/7/51f407d1-ad1e-4d69-a428-a41023296a28.jpg?x-bce-process=image/format,f_auto",
+    "stocks": [
+      {
+        "name": "微软",
+        "ticker": "MSFT",
+        "reason": "Copilot是微软Windows 11核心AI应用，专属按键营销直接关系其产品体验与用户接受度",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
     "id": "0abaea179cd2b52f",
     "title": "零跑汽车董事长及股东合计增持481万股H股",
     "summary": "零跑汽车公告称，朱江明与傅利泉近期于二级市场合计购入481.42万股H股，均价约35.86港元；近半年二人累计增持金额约9亿港元，持股比例升至25.05%。",
