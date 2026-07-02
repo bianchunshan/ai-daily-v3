@@ -1,5 +1,69 @@
 const newsData = [
   {
+    "id": "e78d0d9353aeed9a",
+    "title": "吉田修平体验Steam Machine：定价过高，难向普通玩家推荐",
+    "summary": "前索尼高管吉田修平体验 Valve 新款主机 Steam Machine 后认为其操作便捷、可在大屏电视上流畅运行 Steam 游戏，但 3D 性能与加载表现平平，且定价超过 1000 美元，难以向普通玩家推荐。",
+    "body": "Steam Machine 是 Valve 新推出的高端家用主机，主打顶尖家用主机定位。前索尼互动娱乐全球工作室总裁吉田修平在社交平台 X 上分享数小时体验后表示，该主机界面简单易懂，按 Steam 手柄按键即可直接开机是“绝杀级亮点”，可自定义外壳、开机动画，并能在电视大屏上流畅运行 Steam 游戏。\n\n不过他也指出明显短板：3D 画面性能“差强人意”，系统默认推荐 1080P 分辨率，部分游戏加载耗时极长。更令人关注的是，吉田修平认为 Steam Machine 定价“实在不够亲民”，已知售价将超过 1000 美元，除非用于行业研究，否则很难向普通玩家推荐。另有消息称，Valve 似乎已收回此前关于该机可 4K 60 帧运行游戏的说法。\n",
+    "category": "消费电子",
+    "tags": [
+      "游戏主机",
+      "Steam Machine",
+      "Valve",
+      "消费电子"
+    ],
+    "source": "IT之家",
+    "time": "1分钟前",
+    "ts": "2026-07-02T11:20:11+00:00",
+    "url": "https://www.ithome.com/0/971/874.htm",
+    "image": "https://img.ithome.com/newsuploadfiles/2026/7/e6b204ce-80fc-42cf-82df-45253a574a93.jpg?x-bce-process=image/format,f_auto",
+    "stocks": []
+  },
+  {
+    "id": "296135b9a5579a35",
+    "title": "芝加哥儿童医院手术安全提升逾13倍",
+    "summary": "芝加哥卢里儿童医院在手术室推行基于高可靠性原则的一系列干预措施后，严重安全事件发生率下降逾13倍，连续585天、近4万例手术无严重安全事件。",
+    "body": "美国芝加哥安与罗伯特·H·卢里儿童医院（Ann & Robert H. Lurie Children's Hospital of Chicago）在其手术室全面引入基于高可靠性组织原则的系列干预措施后，手术安全显著改善。该院严重安全事件发生率从约每2,977例手术发生一次，改善为连续585天、共39,654例手术未发生任何严重安全事件，提升幅度超过13倍。相关成果已发表于《Pediatrics》期刊。\n\n高可靠性原则强调在复杂高风险环境中通过标准化流程、团队协作和持续监测来减少失误。此次研究表明，将航空、核电等领域的高可靠性理念系统应用于儿科手术室，可显著降低患者伤害风险，为其他医疗机构提升手术安全提供了可复制的实践范式。",
+    "category": "生物医药",
+    "tags": [
+      "儿科医疗",
+      "手术安全",
+      "高可靠性组织",
+      "医疗质量"
+    ],
+    "source": "MedicalXpress",
+    "time": "1分钟前",
+    "ts": "2026-07-02T07:20:01-04:00",
+    "url": "https://medicalxpress.com/news/2026-07-safety-surgery-children.html",
+    "image": "https://scx1.b-cdn.net/csz/news/tmb/2018/1-surgery.jpg",
+    "stocks": []
+  },
+  {
+    "id": "8affa7ea06a73510",
+    "title": "亚马逊准备部署Leo低轨卫星宽带服务",
+    "summary": "亚马逊已拥有足够数量的Leo低轨卫星，可正式启动其卫星宽带服务部署，但目前星座规模仍远小于SpaceX的Starlink。",
+    "body": "亚马逊宣布其代号为\"Leo\"的低轨卫星宽带项目已具备服务部署条件，现有在轨卫星数量足以支撑业务启动。这标志着亚马逊正式加入由SpaceX Starlink主导的消费级卫星互联网市场竞争，为全球偏远地区用户提供宽带接入成为可能。不过，与Starlink已部署数千颗卫星的星座相比，亚马逊当前的低轨星座规模仍然较小，后续需要加快发射节奏以扩大覆盖能力与服务容量。",
+    "category": "商业航天",
+    "tags": [
+      "卫星互联网",
+      "低轨卫星",
+      "亚马逊",
+      "Starlink"
+    ],
+    "source": "Engadget",
+    "time": "3分钟前",
+    "ts": "2026-07-02T11:18:30+00:00",
+    "url": "https://www.engadget.com/2206582/amazon-leo-is-ready-to-go/",
+    "image": "https://www.engadget.com/img/gallery/amazon-is-ready-to-deploy-the-leo-satellite-broadband-service/l-intro-1782990997.jpg",
+    "stocks": [
+      {
+        "name": "亚马逊",
+        "ticker": "AMZN",
+        "reason": "新闻主体，其Leo低轨卫星宽带服务即将正式部署，有望开辟新的消费者与企业宽带收入增长点",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
     "id": "0db54cac2940c71b",
     "title": "泰科电子发布铝代铜连接方案 最高可减铜100%",
     "summary": "泰科电子在2026慕尼黑上海电子展上展示全新一代铝线、铝排连接方案及系统总成方案，可帮助客户实现电子电气回路减铜18%至100%，并同步推出多款铝线焊接版高压连接器。",
@@ -98583,6 +98647,12 @@ const newsData = [
   }
 ];
 const newsDigest = {
-  "text": "",
-  "highlights": []
+  "text": "今日科技前沿聚焦：亚马逊将部署低轨卫星宽带，Meta拟出售闲置AI算力；神州数码中标中移动服务器集采，北京君正看DRAM涨价；小米米家空调抽真空订单破百万。",
+  "highlights": [
+    "8affa7ea06a73510",
+    "eec4b60d30f0b27e",
+    "a3b12d09f431f456",
+    "8fe96f71b856bffa",
+    "57b5dcc3b64e2cd4"
+  ]
 };
