@@ -1,5 +1,50 @@
 const newsData = [
   {
+    "id": "07606d30b356b35b",
+    "title": "谷歌仍在打磨 Android 17 原生应用锁功能",
+    "summary": "Android 17 正式版已推送，但原生应用锁功能仍未上线；最新测试更新中出现的字符串显示，谷歌正持续开发批量加锁与仅生物识别解锁选项。",
+    "body": "Android 17 正式版上月已向 Pixel 等设备推送，带来多项新功能，但备受期待的原生应用锁并未亮相。此前 Android Canary 2603 版本曾短暂出现该功能，但随后被移除，令外界猜测其开发进度。\n在最新的 Android 17 QPR1 Beta 6 测试更新中，系统新增多段文本字符串，包括“现在你可在设置中批量为多款应用开启应用锁”“随时快速添加、管理应用锁”以及“为提升安全性，你可设置仅通过生物识别验证解锁应用”等。这表明谷歌正在后台持续打磨，未来用户或可直接在系统设置中一次性为多个应用加锁，并选择仅通过指纹、人脸等生物识别方式解锁。\n不过，当前测试版尚未实际开放该功能，因此它大概率不会随 Android 17 QPR1 正式版推出，用户仍需等待后续版本。该功能补齐后，有望进一步提升 Pixel 及 Android 设备的隐私保护与使用安全性。",
+    "category": "消费电子",
+    "tags": [
+      "Android 17",
+      "应用锁",
+      "谷歌",
+      "智能手机"
+    ],
+    "source": "IT之家",
+    "time": "1分钟前",
+    "ts": "2026-07-02T15:12:12+00:00",
+    "url": "https://www.ithome.com/0/971/949.htm",
+    "image": "https://img.ithome.com/newsuploadfiles/2026/7/1636610d-192f-43ba-a8a7-c5b3ef22e16e.jpg?x-bce-process=image/format,f_auto",
+    "stocks": []
+  },
+  {
+    "id": "a55fdeac986d7ecc",
+    "title": "微信输入法上线语音转文字整理功能",
+    "summary": "微信输入法推出“语音转文字整理”新功能，已覆盖 iOS、Android、Mac 及 Windows 全端；同时新增“隔空传送”文件传输与聊天自动匹配表情包功能。",
+    "body": "7月2日，微信派宣布微信输入法新增“语音转文字整理”功能。用户在使用“语音转文字”后，界面会出现“文字整理”选项，可对转换后的文字进行整理。目前该功能已随新版微信输入法全量上线手机与PC端。\n\n此外，微信输入法还推出“隔空传送”功能，只要两台设备均安装了微信输入法，即可通过“小飞机”标识快速传输照片和文件。同时，新版本的微信输入法支持聊天自动匹配表情包，用户打出文字后可在待选框看到笑脸标识并快速查询表情包。\n\n这些更新强化了微信输入法作为AI输入工具的竞争力，并进一步丰富腾讯微信生态内的交互体验，有望提升用户粘性与使用频率。",
+    "category": "人工智能",
+    "tags": [
+      "微信输入法",
+      "语音转文字",
+      "腾讯",
+      "AI应用"
+    ],
+    "source": "IT之家",
+    "time": "2分钟前",
+    "ts": "2026-07-02T15:11:38+00:00",
+    "url": "https://www.ithome.com/0/971/948.htm",
+    "image": "https://img.ithome.com/newsuploadfiles/2026/7/40ce3850-0f41-41ab-8598-854d5cd81d0c.jpg?x-bce-process=image/format,f_auto",
+    "stocks": [
+      {
+        "name": "腾讯控股",
+        "ticker": "0700.HK",
+        "reason": "微信输入法为腾讯旗下产品，新功能可增强微信生态粘性与用户活跃度",
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
     "id": "3ec5700a1f4acf4c",
     "title": "孕期高果糖摄入或损害胎儿脑神经干细胞功能",
     "summary": "研究表明，孕期过量摄入果糖可能损害胎儿大脑神经干细胞功能，并增加后代代谢与认知障碍风险。",
@@ -1111,6 +1156,24 @@ const newsData = [
     "ts": "2026-07-02T09:20:01-04:00",
     "url": "https://medicalxpress.com/news/2026-07-common-mucus-treatments-dont-icu.html",
     "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/common-mucus-clearing.jpg",
+    "stocks": []
+  },
+  {
+    "id": "d4bf603889ae923a",
+    "title": "Fable与10款大模型重构LangGraph代码节点对比",
+    "summary": "该文章对比了Fable与另外10款大语言模型在重构LangGraph“上帝节点”任务上的表现，属于AI代码生成与Agent工程能力评估。",
+    "body": "近日，Hacker News上出现一篇技术文章，对Fable与另外10款大语言模型在重构LangGraph“上帝节点”（god node）时的表现进行了比较。所谓“上帝节点”通常指承担过多职责的单一节点，重构目标是提升代码模块化与可维护性。该对比关注的是各模型在代码理解、规划与生成方面的实际能力。此类评测可为开发者选择编程辅助模型提供参考，也反映出当前大语言模型在复杂软件工程任务中的差异。",
+    "category": "人工智能",
+    "tags": [
+      "大语言模型",
+      "代码重构",
+      "LangGraph"
+    ],
+    "source": "Hacker News",
+    "time": "1小时前",
+    "ts": "2026-07-02T13:19:56+00:00",
+    "url": "https://wtf.korridzy.com/twilight-of-the-gods/",
+    "image": "",
     "stocks": []
   },
   {
