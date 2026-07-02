@@ -1,5 +1,31 @@
 const newsData = [
   {
+    "id": "d73d9129ebf41c49",
+    "title": "Isar Aerospace将为Planet发射德国造遥感卫星",
+    "summary": "德国火箭初创公司Isar Aerospace赢得Planet德国子公司的发射合同，将把一颗德国制造的成像卫星送入太空。",
+    "body": "德国火箭初创企业Isar Aerospace宣布获得Planet德国子公司的发射合同，负责将一颗德国制造的成像卫星送入轨道。此次任务意味着德国有望在同一链条上实现卫星制造与本土发射，展示其端到端航天能力。对Planet而言，这也是其遥感星座在欧洲本地化布局的重要一步。",
+    "category": "商业航天",
+    "tags": [
+      "商业航天",
+      "卫星发射",
+      "遥感卫星",
+      "德国航天"
+    ],
+    "source": "SpaceNews",
+    "time": "刚刚",
+    "ts": "2026-07-02T18:20:48+00:00",
+    "url": "https://spacenews.com/isar-aerospace-to-launch-german-built-planet-imaging-satellite/",
+    "image": "https://i0.wp.com/spacenews.com/wp-content/uploads/2025/03/spectrum-liftoff.jpeg?fit=1024%2C551&amp;ssl=1",
+    "stocks": [
+      {
+        "name": "Planet Labs PBC",
+        "ticker": "PL",
+        "reason": "Planet德国子公司为卫星所有者，发射任务有助于扩展其遥感数据服务能力",
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
     "id": "9a3e840aa6923aa9",
     "title": "世卫组织在刚果（金）启动埃博拉潜在疗法试验",
     "summary": "世界卫生组织表示，针对导致刚果（金）致命疫情的邦迪布焦型埃博拉病毒，两种潜在疗法的临床试验已于该国启动。",
