@@ -230,6 +230,25 @@ const newsData = [
     ]
   },
   {
+    "id": "569e11046f072050",
+    "title": "Linux 6.9 LUKS 挂起未清除磁盘加密密钥",
+    "summary": "报道称自 Linux 6.9 起，LUKS 挂起（suspend）功能不再从内存中擦除磁盘加密密钥，导致设备在挂起状态下存在密钥泄露风险。该问题属于磁盘加密与系统安全漏洞范畴。",
+    "body": "据外媒报道，自 Linux 6.9 版本起，LUKS（Linux Unified Key Setup）在系统挂起时不再将磁盘加密密钥从内存中擦除。这意味着进入挂起状态后，加密密钥仍可能驻留在 RAM 中，从而削弱全盘加密本应提供的物理安全保护。\n\n如果攻击者能够在设备挂起期间获取内存访问权限，理论上存在读取或导出密钥的风险，进而可能绕过加密直接访问磁盘数据。该问题暴露了内核电源管理与加密子系统之间的安全回归，相关社区可能需要发布补丁以恢复挂起前清除密钥的行为。",
+    "category": "网络安全",
+    "tags": [
+      "网络安全",
+      "Linux",
+      "磁盘加密",
+      "LUKS"
+    ],
+    "source": "Hacker News",
+    "time": "48分钟前",
+    "ts": "2026-07-02T15:25:16+00:00",
+    "url": "https://mathstodon.xyz/@iblech/116769502749142438",
+    "image": "",
+    "stocks": []
+  },
+  {
     "id": "b92ad434e2d98a07",
     "title": "何小鹏：2030年新能源车渗透率将超90%，未来汽车皆为机器人",
     "summary": "小鹏汽车CEO何小鹏预测，2030年中国新能源汽车渗透率将超过90%，未来十年汽车行业的核心变革在于AI与汽车的深度融合，每辆车都将成为“四个轮子的机器人”。",
@@ -353,6 +372,38 @@ const newsData = [
         "ticker": "XPEV",
         "reason": "小鹏为中国智能驾驶头部企业，L4/L5落地预期及全球法规利好直接推动其技术与出海进程。",
         "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "ac182f2dc5ba141b",
+    "title": "特朗普政府洽购OpenAI 5%股权，规模低于桑德斯目标",
+    "summary": "据英国《金融时报》援引知情人士报道，OpenAI首席执行官山姆·阿尔特曼正与特朗普政府就美国收购OpenAI约5%股份进行早期谈判。特朗普对这一想法表示支持，美国政府据称还接触了谷歌和Meta等AI公司探讨类似持股安排。",
+    "body": "知情人士称，OpenAI CEO Sam Altman正与美国政府就潜在股权安排进行“早期阶段”磋商，阿尔特曼认为让公众在公司中拥有财务权益，是分享AI发展红利的最佳方式。报道称，特朗普总统支持这一构想，其政府已向包括谷歌、Meta在内的多家AI公司接触，讨论类似持股可能性。不过，5%的比例远低于部分政客此前提出的更高目标，相关谈判尚存较大不确定性。",
+    "category": "地缘科技",
+    "tags": [
+      "OpenAI",
+      "人工智能",
+      "美国政府",
+      "股权合作"
+    ],
+    "source": "Ars Technica",
+    "time": "1小时前",
+    "ts": "2026-07-02T15:12:25+00:00",
+    "url": "https://arstechnica.com/tech-policy/2026/07/openai-floats-giving-us-5-stake-to-win-over-ai-haters/",
+    "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/07/GettyImages-2267710211-1024x648.jpg",
+    "stocks": [
+      {
+        "name": "Alphabet（谷歌）",
+        "ticker": "GOOGL",
+        "reason": "报道称美国政府接触谷歌，探讨类似入股AI企业的安排，若成行或带来资金与政策层面的支持。",
+        "confidence": "low"
+      },
+      {
+        "name": "Meta",
+        "ticker": "META",
+        "reason": "报道称Meta亦被美国政府接触，讨论潜在股权合作，相关进展尚处早期。",
+        "confidence": "low"
       }
     ]
   },
@@ -585,6 +636,25 @@ const newsData = [
         "confidence": "high"
       }
     ]
+  },
+  {
+    "id": "01066e19f4809ef9",
+    "title": "马斯克X被批严重威胁美国人隐私，FTC遭敦促继续监管",
+    "summary": "消费者权益倡导者警告美国联邦贸易委员会（FTC），必须继续监督马斯克旗下的X平台，并拒绝其终止数据安全审计的请求，理由是存在数据隐私与人工智能相关风险。",
+    "body": "在7月2日公众意见提交截止日前，多名倡导者向FTC发出警告，要求该机构继续密切监管马斯克执掌的X平台，并坚决反对X提出的终止持续审计的请求。X方面上月声称，由于马斯克已对平台做出改革，早前的FTC命令已不再必要。\n\n该命令源于FTC此前的调查：当时尚未改名的Twitter因代码错误，将用户用于两步验证的联系方式不当用于广告定向，因此被要求接受第三方独立审计。根据命令，FTC有权直接要求X提交文件，以确保其遵守数据隐私法规。\n",
+    "category": "网络安全",
+    "tags": [
+      "数据隐私",
+      "平台监管",
+      "FTC",
+      "马斯克"
+    ],
+    "source": "Ars Technica",
+    "time": "1小时前",
+    "ts": "2026-07-02T14:39:17+00:00",
+    "url": "https://arstechnica.com/tech-policy/2026/07/musks-x-poses-serious-risk-to-americans-privacy-advocates-warn-ftc/",
+    "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/07/GettyImages-2280413039-1024x648.jpg",
+    "stocks": []
   },
   {
     "id": "92d0d804604b9e3e",
