@@ -1,5 +1,42 @@
 const newsData = [
   {
+    "id": "5962871fd36b45e5",
+    "title": "魁北克研究显示年轻人最早感染新冠",
+    "summary": "一项针对魁北克新冠疫情的研究发现，在前两年的七波感染浪潮中，SARS-CoV-2病毒倾向于先在年轻成年人群体中传播，随后才扩散至其他人群。",
+    "body": "蒙特利尔大学研究人员开展的一项新研究分析了魁北克省新冠疫情前两年的七波感染浪潮。结果显示，SARS-CoV-2病毒通常先在年轻成年人群体中传播，随后才波及其他年龄段人口。\n\n研究人员指出，年轻成年人是监测新发病毒浪潮的关键人群，公共卫生官员可通过关注该群体的感染趋势，及早发现新变异株或新一波疫情的苗头。\n\n这一发现为疫情早期预警、精准防控策略以及资源调配提供了重要参考，有助于在未来应对类似呼吸道病毒时优化监测体系。",
+    "category": "生物医药",
+    "tags": [
+      "新冠疫情",
+      "公共卫生",
+      "流行病学"
+    ],
+    "source": "MedicalXpress",
+    "time": "1分钟前",
+    "ts": "2026-07-01T21:40:02-04:00",
+    "url": "https://medicalxpress.com/news/2026-07-quebec-young-adults-pandemic.html",
+    "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/teens-wearing-masks.jpg",
+    "stocks": []
+  },
+  {
+    "id": "d47ec9ed64757072",
+    "title": "微软应用商店下架3D查看器应用",
+    "summary": "微软已从其应用商店下架3D Viewer（3D查看器）应用，该应用于今年6月30日结束官方支持，后续不再接收安全更新和错误修复，已安装用户仍可继续使用。",
+    "body": "消息源指出，微软Microsoft Store已下架3D Viewer应用，现阶段下载入口被隐藏，但用户仍可通过直链方式直接下载安装包。微软此前通知用户，该应用将于6月30日停止支持，之后不再提供安全更新与错误修复，已安装用户可以免费继续使用。作为替代方案，微软建议用户访问开源在线3D查看器Babylon.js Sandbox。",
+    "category": "消费电子",
+    "tags": [
+      "微软",
+      "Windows",
+      "3D Viewer",
+      "应用商店"
+    ],
+    "source": "IT之家",
+    "time": "5分钟前",
+    "ts": "2026-07-02T01:35:39+00:00",
+    "url": "https://www.ithome.com/0/971/441.htm",
+    "image": "https://img.ithome.com/newsuploadfiles/2026/7/e20a1eac-e7b4-47f2-bf07-8c11ceca603d.png?x-bce-process=image/format,f_auto",
+    "stocks": []
+  },
+  {
     "id": "e39852505cdc77cd",
     "title": "可灵AI完成30亿美元融资，投后估值180亿美元",
     "summary": "快手旗下可灵AI即将完成30亿美元融资，投后估值达180亿美元，腾讯参投。公司预计一年内启动赴港上市，资金主要用于扩充算力与数据中心。",
