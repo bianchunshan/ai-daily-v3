@@ -1,5 +1,107 @@
 const newsData = [
   {
+    "id": "cd44a9b11034a5fa",
+    "title": "ASML上调全年营收指引，确认半导体设备景气",
+    "summary": "光刻机巨头ASML因AI芯片先进光刻设备需求旺盛而上调全年营收指引，台积电、三星等加速采购高数值孔径EUV，3nm及以下先进制程扩产确定性增强，半导体设备产业链景气度获确认。",
+    "body": "光刻机巨头ASML宣布上调全年营收指引，核心驱动力来自AI芯片制造所需的先进光刻设备需求持续增长。作为全球光刻设备龙头，ASML的订单前景直接反映了晶圆厂在AI加速器产能上的资本开支力度。\n\n台积电、三星等全球领先晶圆代工厂正为满足AI加速器需求，加速导入高数值孔径EUV光刻机，3nm及以下先进制程的扩产确定性进一步增强。这意味着先进制程正从规划阶段进入实际采购与设备交付阶段。\n\n业内普遍认为，ASML的指引上调是半导体设备产业链景气度的风向标，确认AI资本开支仍处于扩张周期。应用材料、泛林半导体等设备龙头的订单数据同样验证了设备端需求强劲，而设备交付周期延长也进一步印证了当前供需紧平衡的格局。",
+    "category": "半导体与先进制造",
+    "tags": [
+      "光刻机",
+      "半导体设备",
+      "先进制程",
+      "AI芯片"
+    ],
+    "source": "36氪",
+    "time": "刚刚",
+    "ts": "2026-07-02T10:22:53.512688+00:00",
+    "url": "https://36kr.com/newsflashes/3878342417936640?f=rss",
+    "image": "",
+    "stocks": [
+      {
+        "name": "阿斯麦",
+        "ticker": "ASML",
+        "reason": "作为新闻主体，直接受益于AI驱动的先进光刻设备需求增长及全年营收指引上调",
+        "confidence": "high"
+      },
+      {
+        "name": "台积电",
+        "ticker": "TSM",
+        "reason": "为满足AI加速器需求加速导入高NA EUV并推进3nm扩产",
+        "confidence": "high"
+      },
+      {
+        "name": "应用材料",
+        "ticker": "AMAT",
+        "reason": "半导体设备龙头，先进制程扩产带动刻蚀、沉积等设备采购需求",
+        "confidence": "medium"
+      },
+      {
+        "name": "泛林半导体",
+        "ticker": "LRCX",
+        "reason": "同属半导体设备龙头，设备端订单强劲且交付周期延长验证需求景气",
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
+    "id": "027a145306a2a3a8",
+    "title": "Meta出租算力盘活旧卡，高端GPU采购节奏不变",
+    "summary": "Meta筹划对外出租算力的云计算业务，包括模型能力与裸算力，但更接近将老旧算力变现回收；同时其全年资本开支指引仍维持高位，显示并未放缓高端算力追逐。",
+    "body": "据报道，Meta正在筹划开展出租算力的云计算业务，一方面向外部开放部署在自身AI基础设施上的模型能力，另一方面出租更底层的“裸算力”。不过分析指出，此举更可能是对存量老旧算力（如H系列GPU）进行现金流回收，而非停止追逐高端算力。6月中下旬，Meta被曝已与Crusoe签约，拟从Texas和Missouri两州数据中心获取合计约1.6GW的AI计算容量。Meta在2026年第一季度仍将全年资本开支指引上调至1250亿至1450亿美元。两相结合，意味着Meta是在对不同代际、不同用途的资源进行再配置：继续采购新卡用于前沿模型训练，而将旧卡用于推理、大流量产品及托管外部模型等场景。",
+    "category": "AI 基础设施",
+    "tags": [
+      "Meta",
+      "算力出租",
+      "AI基础设施",
+      "GPU"
+    ],
+    "source": "36氪",
+    "time": "刚刚",
+    "ts": "2026-07-02T10:22:51.470542+00:00",
+    "url": "https://36kr.com/newsflashes/3878343236759558?f=rss",
+    "image": "",
+    "stocks": [
+      {
+        "name": "Meta Platforms",
+        "ticker": "META",
+        "reason": "公司探索算力出租变现模式，同时维持高额AI资本开支，利好其AI业务商业化与估值预期。",
+        "confidence": "high"
+      },
+      {
+        "name": "英伟达",
+        "ticker": "NVDA",
+        "reason": "Meta明确继续追逐并采购高端GPU用于训练，强化对英伟达高端芯片的持续需求预期。",
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
+    "id": "16a7071aa2f6ad7c",
+    "title": "英特尔扩建加州光罩厂，聚焦EUV与High-NA EUV",
+    "summary": "英特尔本周在加州圣克拉拉Bowers园区启动扩产，新建制造厂房以增产光罩，重点支持DUV、EUV及高数值孔径EUV等先进制程节点。",
+    "body": "英特尔本周正式在加州圣克拉拉市的Bowers园区动工扩建，计划新建一座约107,000平方英尺、配备Class 1洁净室的制造厂房及相关配套设施，以提升在美国本土的光罩（photomask/reticle）产能。该新 facility 将能够生产6英寸×6英寸的光罩，覆盖从32nm到1.4nm级别的DUV与EUV层，重点面向Intel 18A、18A-P、14A等先进制程。这些节点依赖先进DUV、EUV以及未来的High-NA EUV设备，需要使用图案密度极高、采用曲线光学邻近校正等更复杂技术的光罩。\n\n此次扩建将巩固Bowers园区作为英特尔关键光罩生产基地的地位，强化其在美先进制程供应链的自主能力，并为其下一代芯片量产提供支撑。",
+    "category": "半导体与先进制造",
+    "tags": [
+      "英特尔",
+      "光罩",
+      "EUV",
+      "先进制程"
+    ],
+    "source": "Tom's Hardware",
+    "time": "2分钟前",
+    "ts": "2026-07-02T10:20:00+00:00",
+    "url": "https://www.tomshardware.com/tech-industry/semiconductors/intel-expands-production-of-photomasks-in-california-euv-and-high-na-euv-in-the-focal-point",
+    "image": "https://cdn.mos.cms.futurecdn.net/Vu6N9RDjut8Yy6FiGKNSCB-1280-80.png",
+    "stocks": [
+      {
+        "name": "英特尔",
+        "ticker": "INTC",
+        "reason": "直接投资建设本土光罩产能，强化先进制程供应链，利好18A/14A等下一代节点推进。",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
     "id": "e47b74f0def49277",
     "title": "水晶光电：AI光学短期难成业绩主引擎",
     "summary": "水晶光电公告称，公司AI光学板块的光存储与光连接业务尚处验证或送样阶段，2025年至今未贡献收入，短期难以成为主要业绩增长来源。",
@@ -97863,6 +97965,12 @@ const newsData = [
   }
 ];
 const newsDigest = {
-  "text": "",
-  "highlights": []
+  "text": "今日科技要闻聚焦半导体、AI基础设施与商业航天：ASML上调全年营收指引提振设备景气，三星4nm产能售罄，Meta出租算力与软银百亿OpenAI融资谈判引关注，亚马逊柯伊伯星座再扩容。",
+  "highlights": [
+    "cd44a9b11034a5fa",
+    "d42a4e859982c9a7",
+    "027a145306a2a3a8",
+    "36322efd8c4719af",
+    "147aa68d2e81f5c5"
+  ]
 };
