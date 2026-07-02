@@ -1,5 +1,68 @@
 const newsData = [
   {
+    "id": "47d41a527918ceaa",
+    "title": "谷歌关停Tenor API致Win11 GIF功能异常 微软已修复",
+    "summary": "微软承认部分Windows 11版本因谷歌关闭Tenor API外部服务，导致表情符号面板无法调用GIF，并已通过更新切换至GIPHY修复。",
+    "body": "微软于6月30日更新Windows健康控制台，确认Windows 11 26H1、25H2及24H2版本的表情符号面板存在无法使用GIF的问题。微软指出，该问题源于谷歌关闭GIF搜索服务Tenor的API对外服务，用户打开表情符号面板时可能看不到GIF选项，并会遇到“GIF服务不可用”报错。\n\nTenor成立于2014年，最初名为Riffsy，主营移动端GIF搜索与分享业务。谷歌出于“将资源更集中投入核心产品生态”的考虑，决定关闭Tenor API的对外服务，进而影响了Windows系统内置的GIF调用能力。\n\n微软表示，已通过6月23日发布的KB5095091更新修复该问题，受影响设备安装更新后，系统将切换至GIPHY作为新的GIF提供程序。这一事件反映出大型互联网平台API策略调整，可能对下游软硬件生态及用户体验产生连锁影响。",
+    "category": "消费电子",
+    "tags": [
+      "Windows 11",
+      "微软",
+      "谷歌",
+      "GIF服务"
+    ],
+    "source": "IT之家",
+    "time": "1分钟前",
+    "ts": "2026-07-02T01:25:17+00:00",
+    "url": "https://www.ithome.com/0/971/438.htm",
+    "image": "https://img.ithome.com/newsuploadfiles/2026/7/83455d71-b4d1-4060-b7ce-fe358af6b136.jpg?x-bce-process=image/format,f_auto",
+    "stocks": []
+  },
+  {
+    "id": "e706eb81e42e68ca",
+    "title": "Valve VR头显Steam Frame上市在即：驱动状态已发布",
+    "summary": "Valve旗下VR头显Steam Frame的无线适配器驱动程序状态已被标记为“Released”，外界普遍认为这是产品即将正式上市的信号。同时，Steam平台也已开始为部分游戏标注Steam Frame兼容性评级。",
+    "body": "据IT之家消息，Valve三款硬件新品中的Steam控制器与Steam Machine均已上市，而最后一款VR头显Steam Frame似乎也已进入发布前的最后准备阶段。近期，Valve为Steam Frame的无线适配器推送了最新驱动，其状态首次被标记为“Released”，并在SteamDB中列为Windows工具。硬件厂商通常会在产品上市前最终确定驱动和配套软件版本，因此这一变化被解读为Steam Frame临近发售。SteamDB还显示，目前已有至少21名用户使用该新版驱动，可能是评测样机已分发至相关媒体，预示着最终定价与发售日期有望在短期内公布。\n\n除了驱动进展，Steam后台也出现了更多铺垫动作。Valve已开始为游戏赋予Steam Frame兼容性评级，例如《传送门2》已于6月29日获得“可玩”评级。这表明Valve正在为游戏库进行新硬件适配与验证工作，进一步印证新品发布临近。\n\n根据官方开发者文档，Steam Frame被定位为Valve Index的继任者，搭载高通骁龙8 Gen 3处理器、16GB LPDDR5X内存，提供256GB与1TB两种存储规格，并运行基于Arch Linux的SteamOS系统。该产品若顺利上市，将为高端独立VR头显市场带来新变量。",
+    "category": "消费电子",
+    "tags": [
+      "VR头显",
+      "Steam Frame",
+      "Valve",
+      "消费电子"
+    ],
+    "source": "IT之家",
+    "time": "3分钟前",
+    "ts": "2026-07-02T01:23:03+00:00",
+    "url": "https://www.ithome.com/0/971/437.htm",
+    "image": "https://img.ithome.com/newsuploadfiles/2026/7/4c42ad2a-6822-4223-889d-d78a6f534cb8.jpg?x-bce-process=image/format,f_auto",
+    "stocks": [
+      {
+        "name": "高通",
+        "ticker": "QCOM",
+        "reason": "Steam Frame搭载高通骁龙8 Gen 3芯片，产品上市有望带动相关SoC需求。",
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
+    "id": "dd2329cc2789120e",
+    "title": "联合国专家组警告AI能力进步速度超科学认知",
+    "summary": "联合国AI独立科学小组发布首份报告指出，AI能力进步速度已超越科学界认知及各国政策调整速度，高度自主AI系统的可控手段仍然有限，亟须以科学证据为基础加强治理。",
+    "body": "联合国官网7月1日公报，由40名顶尖科学家和专家组成的联合国AI独立科学小组发布首份报告，认为AI快速发展在为全球创造巨大机遇的同时，也带来了不容忽视的风险。报告指出，政策制定者需要以科学证据为基础治理AI，AI能力的进步速度已经超过科学界的认知，也超过各国政府调整政策的速度。面对高度自主的AI系统，目前可用的控制手段仍然很少，科学界无法保证AI不会“自行或因恶意使用者”造成灾难性后果。报告还提到，全球每周使用对话式AI的人数已超过10亿，但发展中国家普及速度相对滞后；全球算力最强的500台AI超级计算机中，美国掌握75%的算力，中国占15%。",
+    "category": "人工智能",
+    "tags": [
+      "AI治理",
+      "AI安全",
+      "联合国报告"
+    ],
+    "source": "IT之家",
+    "time": "4分钟前",
+    "ts": "2026-07-02T01:22:07+00:00",
+    "url": "https://www.ithome.com/0/971/436.htm",
+    "image": "https://img.ithome.com/newsuploadfiles/2024/10/1e49cd7b-4b1b-4d78-b322-580914f2f7fa.png?x-bce-process=image/watermark,text_QUnnlJ_miJA,type_RlpMYW5UaW5nSGVpU0JHQg==,size_23,color_ffffffdd,skw_1,skc_00000051,g_7,blr_50,bls_50,x_9,y_9/format,f_auto",
+    "stocks": []
+  },
+  {
     "id": "8a78481105ddf6ac",
     "title": "智驾辅助系统强制性国标发布",
     "summary": "工业和信息化部组织制定的《智能网联汽车 组合驾驶辅助系统安全要求》（GB 47955—2026）强制性国家标准正式发布，将于2027年1月1日起实施。",
@@ -186,6 +249,25 @@ const newsData = [
     "time": "刚刚",
     "ts": "2026-07-02T00:51:13.559086+00:00",
     "url": "https://36kr.com/newsflashes/3877779458158599?f=rss",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "9d5c67502e43b15b",
+    "title": "开源扫地机器人项目 Oomwoo 亮相",
+    "summary": "Oomwoo 是一款开源扫地机器人项目，旨在让用户自主搭建、修改和定制家用清洁机器人硬件与软件。",
+    "body": "Hacker News 上出现了一款名为 Oomwoo 的开源扫地机器人项目，聚焦家用清洁机器人的 DIY 与可定制性。该项目将硬件设计与控制软件对外开放，允许开发者和技术爱好者自行组装、修改功能并扩展应用。Oomwoo 的出现为消费级机器人领域提供了一个开放的实验平台，也体现了机器人硬件开源社区持续活跃的趋势。",
+    "category": "机器人",
+    "tags": [
+      "开源硬件",
+      "扫地机器人",
+      "机器人",
+      "DIY"
+    ],
+    "source": "Hacker News",
+    "time": "38分钟前",
+    "ts": "2026-07-02T00:48:01+00:00",
+    "url": "https://makerspet.com/blog/building-an-open-source-robot-vacuum-meet-oomwoo/",
     "image": "",
     "stocks": []
   },
