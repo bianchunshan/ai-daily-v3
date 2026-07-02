@@ -1,5 +1,24 @@
 const newsData = [
   {
+    "id": "39822092252f830f",
+    "title": "微软通报假冒Perplexity Chrome扩展可劫持搜索流量",
+    "summary": "微软安全团队通报，一款名为“Search for perplexity ai”的第三方Chrome扩展冒用Perplexity AI品牌，可劫持用户地址栏搜索请求并重定向至攻击者服务器，存在监控风险。",
+    "body": "微软安全研究团队于6月30日发布通报称，Chrome网上应用店中出现一款名为“Search for perplexity ai”的第三方扩展，冒用Perplexity AI品牌，诱导用户安装后可监控其搜索记录。该扩展会申请chrome_settings_overrides权限，将自身设为默认搜索引擎，从而拦截用户在地址栏输入的搜索请求；同时利用declarativeNetRequest权限，把请求转发至攻击者控制的perplexity-ai.online服务器，实现流量重定向与URL重写。\n\n目前，该假冒扩展已被从Chrome Web Store移除，但此前已安装的用户仍面临隐私泄露风险，需手动卸载。微软提醒用户开启Chrome扩展的开发者模式，核对扩展ID是否为flkebkiofojicogddingbdmcmkpbplcd，若匹配应立即删除。此事再次暴露了浏览器扩展供应链中的品牌仿冒与权限滥用问题，对AI应用的品牌安全和用户隐私保护敲响警钟。",
+    "category": "网络安全",
+    "tags": [
+      "网络安全",
+      "浏览器扩展",
+      "隐私安全",
+      "恶意软件"
+    ],
+    "source": "IT之家",
+    "time": "9分钟前",
+    "ts": "2026-07-02T06:12:58+00:00",
+    "url": "https://www.ithome.com/0/971/540.htm",
+    "image": "https://img.ithome.com/newsuploadfiles/2026/7/887b2bca-b4db-451e-a4a1-fefb2a8d8f79.png?x-bce-process=image/format,f_auto",
+    "stocks": []
+  },
+  {
     "id": "772c22209e84f1c4",
     "title": "阿里整合旗下Agent产品线，将推出新生产力AI产品",
     "summary": "阿里巴巴正以QoderWork为基础，整合悟空、MuleRun的能力，升级推出面向企业生产力场景的AI产品，由陈宇森负责，现有用户权益不受影响。",
