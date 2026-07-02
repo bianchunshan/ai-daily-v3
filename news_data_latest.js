@@ -123,6 +123,25 @@ const newsData = [
     ]
   },
   {
+    "id": "7121f277d26f6eaf",
+    "title": "UC伯克利EECS系主任加盟Anthropic预训练团队",
+    "summary": "加州大学伯克利分校EECS系主任、算法学者Jelani Nelson宣布暂离学界，加入AI公司Anthropic的预训练团队，将参与Claude核心知识与能力相关的大规模数据处理及算法研究。",
+    "body": "据量子位报道，加州大学伯克利分校电气工程与计算机科学系（EECS）系主任Jelani Nelson已暂离大学职位，加盟AI公司Anthropic，进入其预训练团队。Anthropic发言人确认，Nelson将参与Claude核心知识与能力的研究工作。Nelson长期从事高维、大规模、资源受限数据场景下的算法研究，其学术方向与大模型预训练中的数据筛选、分布估计、训练效率等底层问题高度契合。\n\nNelson因在哈佛大学YouTube频道讲授的《Advanced Algorithms》课程走红，该视频播放量超过2100万。他先后在MIT完成本硕博学业，博士论文即聚焦 sketching 与 streaming 等大规模数据高效处理方法，并获MIT博士杰出论文奖；2019年加入UC伯克利，2024年任计算机科学分部主任，2025年升任EECS系主任。\n\n此次加盟反映出Anthropic持续吸纳顶尖学术人才以强化大模型底层算法能力，也加剧了AI巨头间的人才竞争。此前，Nelson还在谷歌兼职担任研究科学家，他的离开也意味着谷歌再次损失一位核心研究者。",
+    "category": "人工智能",
+    "tags": [
+      "Anthropic",
+      "人才流动",
+      "预训练",
+      "大模型"
+    ],
+    "source": "量子位",
+    "time": "28分钟前",
+    "ts": "2026-07-02T03:49:58+00:00",
+    "url": "https://www.qbitai.com/2026/07/441447.html",
+    "image": "",
+    "stocks": []
+  },
+  {
     "id": "cf221af9f09d4193",
     "title": "惠普暗影精灵MAX 16上架RTX 5090版：29999元",
     "summary": "惠普为旗下HyperX暗影精灵MAX 16英寸游戏本新增搭载RTX 5090显卡的顶配版本，国补后售价29999元，并同步提供多款RTX 50系显卡配置可选。",
