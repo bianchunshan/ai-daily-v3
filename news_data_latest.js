@@ -1,5 +1,31 @@
 const newsData = [
   {
+    "id": "33f59cf02e19c04a",
+    "title": "优必选CEO周剑：20年后多数工作或由机器人承担",
+    "summary": "优必选CEO周剑在2026年度发布会上预测，未来5至20年内机器人或将替代大量人类劳动岗位，并强调劳动力成本上升与产业人口缺失将加速这一进程。",
+    "body": "优必选董事长兼CEO周剑在6月30日举行的2026年度全球发布会上表示，未来5至20年内，机器人或将大量替代人类从事重复、枯燥的劳动岗位，甚至可能取代大部分工作。他以温州工厂招工难、年轻人不愿进入流水线为例，指出机器人首先将补充产业人口缺口，降低制造业成本。\n\n周剑认为，随着老龄化加剧和劳动力成本上升，若人形机器人在各类岗位全面落地，不仅能缓解欧美国家产业人口缺失与制造业空心化问题，也会重塑全球制造业竞争格局。他强调，社会生产力极大丰富后，人类应更多从事艺术、哲学等创造性工作，而中国企业必须把握这一窗口期，以维持制造业优势。",
+    "category": "机器人",
+    "tags": [
+      "优必选",
+      "人形机器人",
+      "具身智能",
+      "劳动力替代"
+    ],
+    "source": "IT之家",
+    "time": "9分钟前",
+    "ts": "2026-07-02T01:02:01+00:00",
+    "url": "https://www.ithome.com/0/971/428.htm",
+    "image": "https://img.ithome.com/newsuploadfiles/2026/7/1103c509-eeb1-45a0-a7ac-8c193585709d.jpg",
+    "stocks": [
+      {
+        "name": "优必选-W",
+        "ticker": "09880.HK",
+        "reason": "公司为人形机器人核心厂商，CEO言论直接指向机器人大规模替代劳动力的产业前景与应用落地",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
     "id": "5f141f37855e76a1",
     "title": "融捷股份：南沙正极材料项目尚未投产",
     "summary": "融捷股份在互动平台表示，公司南沙磷酸铁锂正极材料项目目前尚未投产，回应了市场对其正极材料量产进度的关注。",
@@ -15,6 +41,24 @@ const newsData = [
     "time": "刚刚",
     "ts": "2026-07-02T01:01:21.133310+00:00",
     "url": "https://36kr.com/newsflashes/3877798593310723?f=rss",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "d8f3653ac0517055",
+    "title": "设计工程师发布AI动效Skills，提升编码Agent审美",
+    "summary": "Emil Kowalski 将多年 UI/动画原则沉淀为三个 Skill，让 Codex、Claude Code、Cursor 等 Coding Agent 具备资深设计工程师的审美判断，并能审查动画代码、把模糊描述转为专业动效术语。",
+    "body": "该技能集包含一套核心设计原则：动画必须存在明确理由；每天使用超过 100 次的高频操作应避免动画；UI 动画时长控制在 300ms 以内；仅对 transform 和 opacity 做动画；入口动画从 scale(0.95) 与 opacity:0 开始；并尊重 prefers-reduced-motion 设置，仅移除位移动画。这些规则可帮助 AI 编码工具在生成界面时减少过度动效，提升可用性与可访问性。\n\n除设计原则外，该 Skill 还提供 review-animations 功能，可按照严格标准审查动画代码，并输出 Before/After/Why 对比表格；animation-vocabulary 则把“弹一下的效果”等模糊描述转换为专业动效术语。整体来看，这套工具把设计工程师的经验编码为可复用的提示工程资产，有望改善 AI 生成前端代码的界面品质与一致性。",
+    "category": "人工智能",
+    "tags": [
+      "AI编程",
+      "UI动画",
+      "Coding Agent"
+    ],
+    "source": "AIHOT精选",
+    "time": "13分钟前",
+    "ts": "2026-07-02T00:56:56+00:00",
+    "url": "https://x.com/shao__meng/status/2072484635955900792",
     "image": "",
     "stocks": []
   },
@@ -187,6 +231,44 @@ const newsData = [
         "ticker": "MSFT",
         "reason": "Facilitator为Microsoft Teams原生AI功能，有望提升企业订阅意愿与办公产品竞争力。",
         "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "58fa0ebf6fff5ffe",
+    "title": "全球回顾研究确认mRNA疫苗安全有效",
+    "summary": "一项覆盖全球的大规模回顾分析显示，在数十亿剂接种后，mRNA新冠疫苗仍被证实具有良好的安全性与有效性。",
+    "body": "报道指出，基于全球范围内数十亿剂mRNA疫苗接种后的真实世界数据与研究，多项系统回顾再次确认这类疫苗总体安全、有效，能够显著降低重症、住院及死亡风险。该结论为mRNA疫苗平台提供了有力背书，有助于缓解公众对长期安全性的担忧。\n\n分析还认为，随着更多长期安全性证据的积累，mRNA技术不仅在传染病疫苗领域前景可期，也可能加速肿瘤疫苗、个性化疫苗等新管线的研发与应用，对整个生物医药行业具有深远意义。",
+    "category": "生物医药",
+    "tags": [
+      "mRNA疫苗",
+      "疫苗安全",
+      "生物医药",
+      "公共卫生"
+    ],
+    "source": "Hacker News",
+    "time": "30分钟前",
+    "ts": "2026-07-02T00:40:14+00:00",
+    "url": "https://news.ubc.ca/2026/06/mrna-vaccines-are-safe-effective-and-full-of-promise/",
+    "image": "",
+    "stocks": [
+      {
+        "name": "Moderna",
+        "ticker": "MRNA",
+        "reason": "核心mRNA疫苗厂商，安全性与有效性获全球回顾确认，有助于稳固产品信心与后续管线拓展",
+        "confidence": "medium"
+      },
+      {
+        "name": "BioNTech",
+        "ticker": "BNTX",
+        "reason": "与辉瑞合作开发mRNA新冠疫苗，全球安全性数据背书有利于其mRNA平台长期价值",
+        "confidence": "medium"
+      },
+      {
+        "name": "辉瑞",
+        "ticker": "PFE",
+        "reason": "其复必泰（Comirnaty）为广泛接种的mRNA疫苗之一，安全性获确认可支撑疫苗业务预期",
+        "confidence": "medium"
       }
     ]
   },
