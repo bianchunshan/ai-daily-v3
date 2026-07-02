@@ -1,5 +1,24 @@
 const newsData = [
   {
+    "id": "de96679292cae671",
+    "title": "研究呼吁加强筛查与宫颈癌及HIV相关的寄生虫病",
+    "summary": "利物浦热带医学院的新研究指出，应扩大对女性生殖器血吸虫病（FGS）的筛查，这种被忽视的疾病可能增加慢性病、HIV和宫颈癌风险。",
+    "body": "利物浦热带医学院（LSTM）的一项新研究强调，有必要对数百万妇女和女童进行女性生殖器血吸虫病（FGS）筛查。FGS是一种被忽视的热带疾病，由血吸虫感染引起，可导致生殖道慢性炎症，并显著增加HIV感染和宫颈癌的发生风险。\n\n研究人员呼吁各国卫生系统提高对该病的认识，扩大检测与早期干预，以减少相关并发症和长期健康危害。由于FGS常被漏诊，加强筛查有助于及时发现感染者并提供治疗。\n\n该研究凸显了将寄生虫病筛查纳入全球女性健康与公共卫生政策的重要性，对防控HIV和宫颈癌具有潜在意义。",
+    "category": "生物医药",
+    "tags": [
+      "生物医药",
+      "公共卫生",
+      "女性健康",
+      "寄生虫病"
+    ],
+    "source": "MedicalXpress",
+    "time": "1分钟前",
+    "ts": "2026-07-02T16:00:04-04:00",
+    "url": "https://medicalxpress.com/news/2026-07-screening-parasitic-disease-linked-hiv.html",
+    "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/researchers-call-for-i.jpg",
+    "stocks": []
+  },
+  {
     "id": "346d633b280f3ac1",
     "title": "前列腺癌两种突变对铁死亡疗法反应相反",
     "summary": "MD安德森癌症中心研究发现，前列腺癌中两种基因突变决定对铁死亡疗法的相反反应，或可为现有治疗无效患者提供新的精准治疗方向。",
@@ -102517,6 +102536,12 @@ const newsData = [
   }
 ];
 const newsDigest = {
-  "text": "",
-  "highlights": []
+  "text": "今日科技前沿：微软豪掷250亿美元组建6000人AI军团，Meta发布AI小游戏生成应用，Anthropic联手三星定制AI芯片；生物医药领域，美国Medicare启动GLP-1减重药覆盖计划；新能源市场，特斯拉推出六座Model Y L。",
+  "highlights": [
+    "d46c588e8d7fa323",
+    "53ef1c4a45bf6e22",
+    "23ff659d49776e8b",
+    "972e8098155b25c0",
+    "cd44717703d88d8d"
+  ]
 };
