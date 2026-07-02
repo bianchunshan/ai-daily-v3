@@ -1,5 +1,127 @@
 const newsData = [
   {
+    "id": "0f56cd744b378249",
+    "title": "国际专家共识发布，规范类风湿关节炎肺病诊疗",
+    "summary": "《柳叶刀·呼吸医学》发表国际专家共识声明，为类风湿关节炎相关严重肺部并发症的识别、监测和治疗提供临床指导。",
+    "body": "《柳叶刀·呼吸医学》近日发表一项国际专家共识声明，针对类风湿关节炎（RA）患者常见的严重肺部并发症，为临床医生提供识别、监测和治疗的规范化建议。该指南旨在提升对RA相关肺病的早期发现与长期管理水平。\n\n此类肺部并发症可显著影响患者预后与生活质量，统一的诊疗标准有助于促进全球范围内临床实践的同质化，并可能推动相关诊断技术与治疗药物的研发和应用。",
+    "category": "生物医药",
+    "tags": [
+      "类风湿关节炎",
+      "肺病",
+      "临床指南",
+      "柳叶刀"
+    ],
+    "source": "MedicalXpress",
+    "time": "2分钟前",
+    "ts": "2026-07-02T07:00:01-04:00",
+    "url": "https://medicalxpress.com/news/2026-07-expert-aim-lung-disease-people.html",
+    "image": "https://scx1.b-cdn.net/csz/news/tmb/2021/lung-disease.jpg",
+    "stocks": []
+  },
+  {
+    "id": "ae0beb1e09ad7083",
+    "title": "新加坡查封4200万美元豪宅 涉英伟达AI芯片走私案",
+    "summary": "新加坡当局指控多名嫌疑人涉嫌通过该国港口向中国非法转运AI服务器并洗钱，已查封价值5500万新元豪宅并冻结100万新元银行账户。此案源于美国针对DeepSeek是否借道新加坡第三方获取受管制英伟达GPU的调查。",
+    "body": "据报道，新加坡警方以洗钱和欺诈罪名起诉Lim Jenny、Woon Guo Jie Aaron等多名嫌疑人，指控其利用新加坡港口作为中转站，购买数据中心AI服务器后转运至中国，并从中获得非法收益。当局已查封一处价值约4200万美元（5500万新元）的豪宅，并冻结约77.2万美元（100万新元）的银行账户资金。\n\n此案源于美国在DeepSeek于2024年底发布前沿模型后发起的调查。美方怀疑这家中国AI公司通过新加坡第三方企业获取当时被禁止对华出口的英伟达GPU。调查显示，尽管新加坡占英伟达收入约28%，但实际交付到该国的比例仅约1%。2025年第一季度，涉案人员已被逮捕。新加坡政府表示，尽管其并非有法律义务执行美国单边出口管制，但会依法打击本地违法行为。\n\n该案反映出AI算力芯片出口管制链条下的走私与合规风险，也可能促使相关国家加强对GPU转运、数据中心设备流向的审查力度。",
+    "category": "地缘科技",
+    "tags": [
+      "英伟达",
+      "GPU走私",
+      "出口管制",
+      "新加坡"
+    ],
+    "source": "Tom's Hardware",
+    "time": "2分钟前",
+    "ts": "2026-07-02T11:00:00+00:00",
+    "url": "https://www.tomshardware.com/tech-industry/singapore-cops-seize-usd42-million-mansion-freeze-usd772k-bank-account-of-suspected-nvidia-ai-gpu-smugglers-individuals-alleged-to-have-illegally-exported-data-center-servers-to-china-charged-with-fraud-money-laundering",
+    "image": "https://cdn.mos.cms.futurecdn.net/aFJjGQQTwHMzc6BoUd36mj-1280-80.jpg",
+    "stocks": [
+      {
+        "name": "英伟达",
+        "ticker": "NVDA",
+        "reason": "公司GPU为走私案核心标的，事件凸显其中国市场出口管制风险及新加坡渠道真实性问题",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "53f17a9c18ee49d9",
+    "title": "AMD RX 7900 XTX 工程样品现身二手市场",
+    "summary": "二手市场出现一张疑似AMD RX 7900 XTX早期工程样卡的显卡，采用红色PCB、无零售背板并带有调试接口，软件识别为7900 XTX但硬件规格更接近RX 7900 GRE。",
+    "body": "据外媒报道，TikTok用户Shav Tech在二手市场购得一张疑似AMD RX 7900 XTX工程样卡的显卡。该卡采用AMD工程样品常见的红色PCB，缺少零售版的背板，PCB中部还设有额外的I2C、PMBus和JTAG调试接口，可供工程师直接读取核心、内存控制器及电源管理数据。软件层面虽将其识别为RX 7900 XTX，但实际硬件规格与RX 7900 GRE更为接近。这一发现为外界了解AMD高端RDNA 3显卡从原型到零售产品的设计迭代提供了实物参考。",
+    "category": "半导体与先进制造",
+    "tags": [
+      "AMD",
+      "显卡",
+      "GPU",
+      "工程样品"
+    ],
+    "source": "Tom's Hardware",
+    "time": "2分钟前",
+    "ts": "2026-07-02T11:00:00+00:00",
+    "url": "https://www.tomshardware.com/pc-components/gpus/possible-amd-rx-7900-xtx-engineering-sample-with-red-pcb-surfaces-prototype-came-with-no-backplate-and-custom-vbios-but-matches-rx-7900-gre-specs",
+    "image": "https://cdn.mos.cms.futurecdn.net/VYiyJYZmi5PRuTfy9ycexM-1280-80.png",
+    "stocks": [
+      {
+        "name": "超威半导体",
+        "ticker": "AMD",
+        "reason": "新闻主角，RX 7900 XTX工程样卡属其Radeon GPU产品线，反映高端显卡研发与流片历程。",
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
+    "id": "7b155df83ecb9a8c",
+    "title": "美国独立日促销：游戏电脑、GPU及外设折扣汇总",
+    "summary": "Tom's Hardware整理了2026年美国独立日期间游戏台式机、笔记本电脑、GPU、显示器及外设等消费电子产品的促销信息，涵盖亚马逊、Best Buy、Newegg、Dell等多家零售商的折扣。此类季节性促销活动主要利好消费者短期采购，对相关硬件厂商的业绩影响较为间接。",
+    "body": "据外媒Tom's Hardware汇总，2026年美国独立日（7月4日）周末期间，多家零售商推出消费电子促销活动，涉及游戏台式机、游戏笔记本、GPU、CPU、显示器、游戏椅及外设等品类。参与商家包括Amazon、Best Buy、Dell、Newegg、Lenovo、HP和Walmart等，部分折扣幅度最高可达七成以上。\n\n报道列举了若干具体优惠，例如搭载英特尔酷睿Ultra 9 275HX处理器与英伟达GeForce RTX 5080笔记本GPU的高性能游戏本，以及配备10核CPU/GPU、16GB内存和512GB SSD的M5 MacBook Air等。此类促销为消费者升级游戏或生产力设备提供了短期窗口，但本质上属于季节性零售营销，对相关硬件品牌及渠道商的业绩拉动具有不确定性。",
+    "category": "消费电子",
+    "tags": [
+      "消费电子",
+      "独立日促销",
+      "游戏硬件",
+      "PC配件"
+    ],
+    "source": "Tom's Hardware",
+    "time": "3分钟前",
+    "ts": "2026-07-02T10:58:46+00:00",
+    "url": "https://www.tomshardware.com/gift-guides-seasonal-sales/the-best-tech-deals-this-july-4th-save-on-gaming-desktops-laptops-gpus-gaming-chairs-monitors-and-more",
+    "image": "https://cdn.mos.cms.futurecdn.net/BF8yTGg4NhSCqB8EYD3xg7-1280-80.jpg",
+    "stocks": []
+  },
+  {
+    "id": "2618cb0cd744ba7a",
+    "title": "Opera推新功能，阻断恶意网站复制粘贴攻击",
+    "summary": "Opera浏览器新增安全功能，可防范名为“ClickFix”的恶意剪贴板攻击，阻止恶意网站篡改用户复制内容。",
+    "body": "Opera浏览器日前推出一项新的安全功能，专门用于防御恶意网站发起的“ClickFix”剪贴板攻击。该攻击方式通常通过篡改用户复制到剪贴板的内容，诱导用户执行危险操作或泄露敏感信息。新功能可在用户复制内容时进行安全检测，阻止恶意代码注入剪贴板。此举有助于提升浏览器的安全防护能力，增强用户信任，并对企业级与个人用户的数据安全形成更主动的保护。",
+    "category": "网络安全",
+    "tags": [
+      "浏览器安全",
+      "剪贴板攻击",
+      "网络安全",
+      "Opera"
+    ],
+    "source": "Engadget",
+    "time": "5分钟前",
+    "ts": "2026-07-02T10:57:18+00:00",
+    "url": "https://www.engadget.com/2206574/opera-new-security-feature-stops-copy-paste-clickfix-attacks/",
+    "image": "https://www.engadget.com/img/gallery/operas-new-security-feature-stops-copy-paste-attacks-from-malicious-websites/l-intro-1782989717.jpg",
+    "stocks": [
+      {
+        "name": "Opera Limited",
+        "ticker": "OPRA",
+        "reason": "公司直接发布浏览器安全新功能，有助于提升产品竞争力与用户信任",
+        "confidence": "high"
+      },
+      {
+        "name": "昆仑万维",
+        "ticker": "300418.SZ",
+        "reason": "其为Opera控股股东，Opera安全能力增强对集团品牌与业务有正面影响",
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
     "id": "8fe96f71b856bffa",
     "title": "北京君正预计DRAM三季度继续涨价，四季度或再调价",
     "summary": "北京君正接受机构调研时表示，公司DRAM产品二季度国内外客户持续涨价，预计三季度价格继续上调；四季度供应仍偏紧，存在继续调价可能，毛利率有望逐季环比增长。",
@@ -69,6 +191,32 @@ const newsData = [
     "url": "https://www.ithome.com/0/971/868.htm",
     "image": "https://img14.360buyimg.com/pop/jfs/t1/427114/14/19764/56361/69fc4921Ff776884e/00833203208ed6b6.jpg",
     "stocks": []
+  },
+  {
+    "id": "eec4b60d30f0b27e",
+    "title": "Meta拟推云业务，出售闲置AI算力",
+    "summary": "Meta正在筹建云计算业务，计划向外部企业出租其数据中心内未充分利用的人工智能算力，以提高AI基础设施投资回报。",
+    "body": "据外媒消息，Meta正计划搭建面向企业的云服务，将内部数据中心和GPU集群中过剩的AI算力对外出售。此举意味着Meta在持续大举投资AI基础设施后，开始尝试把闲置资源变现，有望带来新的收入来源。\n\n目前Meta的AI算力主要用于支撑自身社交产品、广告推荐以及Llama等开源模型。若将剩余容量推向市场，Meta将与亚马逊AWS、Google Cloud、微软Azure等云厂商形成潜在竞争，同时也可能改变其AI资本开支的商业化路径。\n\n分析认为，这一业务若能落地，将有助于缓解Meta在AI基础设施上的成本压力，但也对其销售、企业服务和运营能力提出更高要求。",
+    "category": "AI 基础设施",
+    "tags": [
+      "Meta",
+      "云计算",
+      "AI算力",
+      "数据中心"
+    ],
+    "source": "Hacker News",
+    "time": "19分钟前",
+    "ts": "2026-07-02T10:43:41+00:00",
+    "url": "https://www.reuters.com/business/meta-sell-excess-ai-computing-capacity-via-cloud-business-bloomberg-news-reports-2026-07-01/",
+    "image": "",
+    "stocks": [
+      {
+        "name": "Meta Platforms",
+        "ticker": "META",
+        "reason": "新闻主体即为Meta，出售闲置AI算力有望创造新收入并提升AI投资回报。",
+        "confidence": "high"
+      }
+    ]
   },
   {
     "id": "41d166f0efbbca80",
@@ -1543,6 +1691,24 @@ const newsData = [
         "confidence": "medium"
       }
     ]
+  },
+  {
+    "id": "c7f6d31a3c14a2f5",
+    "title": "疑似“Scattered Spider”黑客在芬兰被捕并引渡美国",
+    "summary": "一名19岁拥有美国和爱沙尼亚双重国籍的男子在芬兰被捕，已被引渡至美国，面临与黑客组织“Scattered Spider”相关的联邦指控。",
+    "body": "据外媒报道，一名19岁、拥有美国和爱沙尼亚双重国籍的男子因涉嫌参与黑客组织“Scattered Spider”在芬兰被捕，并已被引渡至美国接受审判。他将在美国面临联邦刑事指控，案件可能涉及针对企业和机构的网络入侵、数据窃取及勒索活动。此次抓捕和跨境引渡表明，执法机构正加大对跨国网络犯罪集团的打击力度，对全球网络安全治理具有警示意义。",
+    "category": "网络安全",
+    "tags": [
+      "网络犯罪",
+      "黑客组织",
+      "网络安全"
+    ],
+    "source": "BBC World",
+    "time": "3小时前",
+    "ts": "2026-07-02T08:02:35+00:00",
+    "url": "https://www.bbc.co.uk/news/articles/cwy0we4yw1lo?at_medium=RSS&at_campaign=rss",
+    "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e962/live/1f88eaa0-75f5-11f1-8c3f-e37c76e39331.jpg",
+    "stocks": []
   },
   {
     "id": "4b9c4f2992c416c6",
