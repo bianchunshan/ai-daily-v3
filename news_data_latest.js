@@ -1,5 +1,23 @@
 const newsData = [
   {
+    "id": "b0cd5daf9a6b4948",
+    "title": "研究揭示癌症在基因突变与肿瘤出现间存在潜伏期",
+    "summary": "巴塞罗那大学团队发现，致癌突变并不会立即引发癌症，而是存在一个细胞处于潜伏状态的中间阶段，为癌症早期干预提供了新思路。",
+    "body": "一项由巴塞罗那大学贝尔维特奇生物医学研究所（IDIBELL）Antonio Gentilella 教授团队主导的研究指出，癌症发展并非由致癌突变立即触发。突变后的细胞会在一段尚不明确的中间阶段保持潜伏状态，持续积聚生长潜能，如同“生物定时炸弹”。\n\n这一发现为理解癌症发生机制提供了新视角，意味着未来或可针对该潜伏期开发更早的筛查与治疗策略，在肿瘤尚未形成 biomass 之前阻断疾病进程。",
+    "category": "生物医药",
+    "tags": [
+      "癌症研究",
+      "肿瘤生物学",
+      "早期诊断"
+    ],
+    "source": "MedicalXpress",
+    "time": "3分钟前",
+    "ts": "2026-07-02T09:40:01-04:00",
+    "url": "https://medicalxpress.com/news/2026-07-cancer-uncovers-hidden-mutation-tumor.html",
+    "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/study-uncovers-the-hid.jpg",
+    "stocks": []
+  },
+  {
     "id": "93f8840580417b44",
     "title": "vivo下一代新品曝光：2nm电竞小平板、耳夹耳机、云台相机",
     "summary": "博主@数码闲聊站曝光vivo下一代新品，涵盖2nm旗舰电竞小平板、耳夹耳机及首款云台相机，硬件堆料有望升级，Ultra超大杯持续迭代。",
