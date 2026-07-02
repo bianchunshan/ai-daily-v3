@@ -1,5 +1,31 @@
 const newsData = [
   {
+    "id": "772c22209e84f1c4",
+    "title": "阿里整合三款Agent产品，将推出新生产力AI产品",
+    "summary": "阿里巴巴正整合旗下QoderWork、悟空、MuleRun三款Agent产品，升级为面向企业生产力场景的新AI产品，由陈宇森负责，现有用户权益不受影响。",
+    "body": "36氪获悉，阿里巴巴正在对其Agent产品线进行整合，计划以QoderWork为基础，融合悟空、MuleRun的能力，升级成一款更强大的面向企业生产力场景的AI产品。新产品将由陈宇森负责，阿里方面表示现有产品服务将无缝升级，所有用户权益不受影响。这一整合有望统一阿里的企业级AI Agent布局，提升其在智能办公、流程自动化等场景的竞争力。",
+    "category": "人工智能",
+    "tags": [
+      "阿里巴巴",
+      "AI Agent",
+      "企业生产力",
+      "智能办公"
+    ],
+    "source": "36氪",
+    "time": "刚刚",
+    "ts": "2026-07-02T06:12:04.870016+00:00",
+    "url": "https://36kr.com/newsflashes/3878095243522311?f=rss",
+    "image": "",
+    "stocks": [
+      {
+        "name": "阿里巴巴",
+        "ticker": "BABA",
+        "reason": "公司整合自研Agent产品并推出新AI产品，有望强化企业级AI应用竞争力",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
     "id": "27b86a5e6a715228",
     "title": "工信部部署“十五五”系列规划，巩固工业经济向好态势",
     "summary": "工业和信息化部召开会议，强调编制实施工业和信息化领域“十五五”系列规划，着力提升制造业供给体系质量和信息通信业服务水平，全力巩固工业经济稳中向好态势。",
@@ -199,6 +225,24 @@ const newsData = [
     "time": "1分钟前",
     "ts": "2026-07-02T05:30:00+00:00",
     "url": "https://techcrunch.com/2026/07/01/indian-tech-tycoon-bets-30m-to-build-an-ai-alternative-to-microsoft-office/",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "ce872f03d2ee6754",
+    "title": "CursorBench 3.1 现身 Hacker News",
+    "summary": "Hacker News 上出现一条题为 CursorBench 3.1 的帖子，目前仅获得 5 个赞且无评论，未披露更多具体内容。CursorBench 通常被视为与 AI 代码编辑器 Cursor 相关的评测基准，3.1 版本可能涉及代码生成能力的测试更新。",
+    "body": "据外媒 Hacker News 社区信息，一则标题为“CursorBench 3.1”的帖子获得 5 分、评论数为 0，且未附带文章链接，因此无法确认其发布背景与详细改动。CursorBench 作为与 AI 编程助手 Cursor 相关的基准测试，其版本迭代通常用于衡量代码生成、补全或辅助编程等能力的进步。\n\n由于当前材料仅包含标题与社区互动数据，缺乏技术细节与官方说明，尚难判断 3.1 版本相比前代的具体改进点。若后续披露评测方法或数据集更新，可进一步评估其对 AI 代码生成模型与相关产品竞争力的参考价值。",
+    "category": "人工智能",
+    "tags": [
+      "Cursor",
+      "AI编程",
+      "基准测试"
+    ],
+    "source": "Hacker News",
+    "time": "52分钟前",
+    "ts": "2026-07-02T05:19:34+00:00",
+    "url": "https://cursor.com/evals",
     "image": "",
     "stocks": []
   },
