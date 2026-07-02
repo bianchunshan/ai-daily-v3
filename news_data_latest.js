@@ -1,5 +1,24 @@
 const newsData = [
   {
+    "id": "a31a24df59d3c1bc",
+    "title": "New Glenn爆炸后NASA登月火箭何时能就绪",
+    "summary": "Ars Technica近日举办直播，讨论Blue Origin New Glenn火箭5月底爆炸的后续影响，以及NASA阿尔忒弥斯四号载人登月任务所需重型火箭的最新进展。",
+    "body": "5月底，Blue Origin的New Glenn火箭发生爆炸，引发业界对NASA阿尔忒弥斯计划后续安排的担忧。Ars Technica本周邀请航天专家Caleb Henry与Anthony Colangelo等展开直播讨论，重点分析此次失败对阿尔忒弥斯四号载人登月任务的潜在影响。\n\nBlue Origin与SpaceX均为该任务研制载人登月器及运载工具。Eric Berger在节目中透露，Blue Origin当前载人登月架构需要发射一种名为“9x4”的New Glenn改进型，即第一级采用九台发动机、上面级采用四台发动机，推力高于此前爆炸的“7x2”版本。\n\nBlue Origin尚未公布9x4构型的首飞日期，但消息人士称目标可能在2027年底或2028年初。整体看，重型火箭进度的不确定性给NASA月球着陆时间表带来新变量。",
+    "category": "商业航天",
+    "tags": [
+      "商业航天",
+      "New Glenn",
+      "阿尔忒弥斯计划",
+      "登月"
+    ],
+    "source": "Ars Technica",
+    "time": "10分钟前",
+    "ts": "2026-07-02T16:46:47+00:00",
+    "url": "https://arstechnica.com/space/2026/07/ars-live-recap-when-are-the-big-rockets-nasa-desperately-needs-going-to-be-ready/",
+    "image": "https://cdn.arstechnica.net/wp-content/uploads/2025/11/new-glenn-9x4-1-1152x648.jpg",
+    "stocks": []
+  },
+  {
     "id": "1827d9033d5cf935",
     "title": "开发者发布QUALITY.md：面向AI项目的质量评估开放格式",
     "summary": "一名开发者在Hacker News发布了QUALITY.md，包含开放格式、Agent技能定义与CLI工具，用于在软件项目中建立全面的质量评估流程，并推动从“事后修复”转向“主动维护”。",
@@ -19,6 +38,25 @@ const newsData = [
     "stocks": []
   },
   {
+    "id": "721cf993ad4af0a3",
+    "title": "Plex推出250美元五年会员订阅",
+    "summary": "Plex昨日正式上线五年期Plex Pass订阅服务，售价250美元；同时终身会员价格从250美元涨至750美元，显示公司正推动用户转向更频繁、更高价值的付费模式。",
+    "body": "Plex最初于2012年以75美元出售终身访问权限，2014年上调至120美元，2025年3月又涨至250美元。如今同样的250美元仅能购买五年订阅，终身会员则涨价至750美元。这一变化标志着Plex从一次性授权向经常性订阅收入转型，试图提升长期可持续性。 Plex尚未宣布盈利，据CB Insights数据，公司已累计完成九轮融资、募资约8760万美元。新定价策略意在提高用户生命周期价值，为后续产品开发与运营提供资金支持。",
+    "category": "消费电子",
+    "tags": [
+      "流媒体",
+      "订阅服务",
+      "个人媒体",
+      "Plex"
+    ],
+    "source": "Ars Technica",
+    "time": "21分钟前",
+    "ts": "2026-07-02T16:35:59+00:00",
+    "url": "https://arstechnica.com/gadgets/2026/07/250-used-to-get-you-a-lifetime-plex-pass-now-you-get-a-five-year-subscription/",
+    "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/06/GettyImages-2276656517-1152x648-1783004998.jpg",
+    "stocks": []
+  },
+  {
     "id": "f897a576f2752849",
     "title": "游戏光盘时代走向终结",
     "summary": "The Verge 文章指出，玩家长期积累的实体游戏光盘、卡带等媒介正逐渐被数字发行取代，实体游戏时代似乎正在落幕。",
@@ -35,6 +73,25 @@ const newsData = [
     "ts": "2026-07-02T12:31:09-04:00",
     "url": "https://www.theverge.com/podcast/960810/video-game-disc-dead-vergecast",
     "image": "",
+    "stocks": []
+  },
+  {
+    "id": "bc8e0dd39024d14e",
+    "title": "非洲疾控中心确认乌干达出现马尔堡病例",
+    "summary": "非洲疾病预防控制中心确认，乌干达一名一岁半儿童感染马尔堡病毒并已死亡。目前该患儿接触者尚未出现症状，亦无其他活跃病例，疫情据信局限于当地。",
+    "body": "非洲疾病预防控制中心（Africa CDC）证实，乌干达卫生当局在对持续进行的埃博拉疫情监测过程中，发现一名一岁半儿童感染马尔堡病毒病，该患儿已经死亡。马尔堡病毒与埃博拉病毒同属丝状病毒，会引发类似的出血热疾病，传播途径和预防措施也相近。\n据非洲疾控中心援引乌干达卫生部门的消息，截至周三，这名死亡幼童的接触者尚未出现症状，乌干达国内也没有其他现症病例，疫情被认为仍局限于当地。不过，乌干达卫生部发言人在接受路透社询问时表示，自己并不知晓马尔堡疫情相关情况，显示出官方信息披露方面存在不一致。",
+    "category": "生物医药",
+    "tags": [
+      "马尔堡病毒",
+      "埃博拉",
+      "传染病监测",
+      "公共卫生"
+    ],
+    "source": "Ars Technica",
+    "time": "27分钟前",
+    "ts": "2026-07-02T16:30:37+00:00",
+    "url": "https://arstechnica.com/health/2026/07/africa-cdc-confirms-marburg-case-in-uganda-as-ebola-outbreak-rages/",
+    "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/07/GettyImages-2279919981-1152x648.jpg",
     "stocks": []
   },
   {
@@ -108,6 +165,25 @@ const newsData = [
     "stocks": []
   },
   {
+    "id": "19012dbb8e6c262e",
+    "title": "明尼苏达大学研发出可分裂数代的人工细胞",
+    "summary": "美国明尼苏达大学实验室构建了一种简化人工细胞系统，其膜结构可包裹遗传物质并持续从外界摄取原料，还能自发分裂数代。该系统仍高度依赖人为添加物质，研究或有助于探索生命起源与最小生命形式。",
+    "body": "明尼苏达大学研究团队宣布开发出一种简化的人工细胞系统：脂质膜能够包裹遗传物质，并持续从外界溶液中导入所需的新原料，从而避免封闭体系内化学反应因原料耗尽而停滞。该系统还能自发完成细胞分裂，产生几代“后代”，但仅能在数代之后维持功能。\n\n该实验目前仍高度依赖人工干预和大量外加材料，距离真正自主的“人造生命”还很遥远。不过，它为研究生命起源、原始细胞膜的形成以及最简生命形式应具备的特征提供了新的实验模型，属于合成生物学与生命科学领域的基础性探索。",
+    "category": "生物医药",
+    "tags": [
+      "合成生物学",
+      "人工细胞",
+      "生命起源",
+      "生命科学"
+    ],
+    "source": "Ars Technica",
+    "time": "36分钟前",
+    "ts": "2026-07-02T16:21:23+00:00",
+    "url": "https://arstechnica.com/science/2026/07/artificial-cell-manages-a-few-rounds-of-cell-division/",
+    "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/07/image-1152x648-1783004554.jpeg",
+    "stocks": []
+  },
+  {
     "id": "2f93ddd5d33263f7",
     "title": "研究发现肿瘤会劫持清除死细胞的巨噬细胞",
     "summary": "特拉维夫大学研究人员通过实时追踪技术发现，巨噬细胞在吞噬死亡癌细胞后会被肿瘤劫持，行为发生改变并促进癌症进展。",
@@ -143,6 +219,25 @@ const newsData = [
     "ts": "2026-07-02T12:20:03-04:00",
     "url": "https://medicalxpress.com/news/2026-07-marburg-virus-case-uganda.html",
     "image": "https://scx1.b-cdn.net/csz/news/tmb/2021/world-health-organizat.jpg",
+    "stocks": []
+  },
+  {
+    "id": "3d1aced2b9176be5",
+    "title": "谷歌欧盟反垄断上诉败诉，将支付47亿美元罚款",
+    "summary": "欧洲最高法院终审判定谷歌滥用安卓系统垄断地位，维持约41亿欧元（47亿美元）创纪录反垄断罚款，谷歌已无上诉空间。",
+    "body": "欧盟法院近日驳回谷歌就2018年安卓反垄断案提出的上诉，确认其在安卓设备中预装谷歌搜索和Chrome浏览器的行为违反欧盟反垄断法。尽管2022年下级法院将罚款金额从43.4亿欧元微调至41亿欧元（约合47亿美元），但终审裁决意味着谷歌必须缴清这笔罚金。\n\n该案源于欧盟委员会认定谷歌通过安卓授权协议，要求三星、小米等手机厂商将谷歌服务设为默认，从而巩固其搜索和浏览器市场支配地位。此次终裁强化了欧盟对大型科技平台的监管立场，可能为后续数字市场法案执行及全球反垄断执法提供参考。",
+    "category": "地缘科技",
+    "tags": [
+      "反垄断",
+      "欧盟监管",
+      "谷歌",
+      "科技平台监管"
+    ],
+    "source": "Ars Technica",
+    "time": "42分钟前",
+    "ts": "2026-07-02T16:15:41+00:00",
+    "url": "https://arstechnica.com/gadgets/2026/07/google-loses-long-running-appeal-of-record-eu-fine-will-have-to-cough-up-4-7-billion/",
+    "image": "https://cdn.arstechnica.net/wp-content/uploads/2021/06/GettyImages-1005907962-1152x648.jpg",
     "stocks": []
   },
   {
