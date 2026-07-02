@@ -1,5 +1,114 @@
 const newsData = [
   {
+    "id": "a3b12d09f431f456",
+    "title": "神州数码控股子公司中标中国移动PC服务器集采",
+    "summary": "神州数码公告，其控股子公司神州鲲泰中标中国移动2026年至2027年PC服务器产品集中采购项目，协议含税总金额上限为13.41亿元。该项目若顺利实施，将对公司未来信创业务及整体经营业绩产生积极影响。",
+    "body": "神州数码公告称，公司下属控股子公司北京神州鲲泰信息技术有限公司近日收到《中标通知书》及《中国移动2026年至2027年PC服务器产品集中采购框架协议（包1、2、3、4）-鲲泰》，被确定为中国移动2026年至2027年PC服务器产品集中采购项目的供应商。根据协议，含税总金额上限为13.41亿元，产品数量上限为4319台。\n\n此次中标覆盖多个标包，显示出神州鲲泰在PC服务器及信息技术应用创新（信创）领域的综合竞争力获得国内大型电信运营商认可。中国移动作为重要的算力与通信基础设施采购方，其集采规模庞大，对供应商的产品性能、交付能力和服务品质均有较高要求。\n",
+    "category": "AI 基础设施",
+    "tags": [
+      "神州数码",
+      "中国移动",
+      "服务器集采",
+      "信创"
+    ],
+    "source": "36氪",
+    "time": "刚刚",
+    "ts": "2026-07-02T11:13:02.319962+00:00",
+    "url": "https://36kr.com/newsflashes/3878398586499331?f=rss",
+    "image": "",
+    "stocks": [
+      {
+        "name": "神州数码",
+        "ticker": "000034.SZ",
+        "reason": "控股子公司神州鲲泰中标中国移动大额PC服务器集采，有望直接增厚公司信创业务收入与利润。",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "9d781352b936541a",
+    "title": "联想高管称长期看算力没有过剩",
+    "summary": "联想集团副总裁阿不力克木·阿不力米提表示，从长远看，无论中国还是海外市场，AI算力需求仍有很大空间，尚未出现算力过剩。他还警示当前AI产业链存在供给侧话语权过强、供需循环失衡的结构性问题。",
+    "body": "据第一财经报道，联想集团副总裁、联想中国首席战略官阿不力克木·阿不力米提在接受采访时指出，针对近期市场对AI算力过剩的担忧，从长期看，AI算力需求无论在中国还是海外市场都仍有巨大空间，并未出现过剩。他认为，C端真正成熟且具有头部地位的AI产品数量有限，B端企业级应用的商业化潜力也尚未充分释放，而历次生产力变革的增长红利主要源自产业端，因此长期算力需求依然旺盛。\n\n与此同时，该高管也指出AI产业链存在结构性问题：当前供给侧话语权过强，导致上下游供需循环失衡。近期Meta计划出售算力的消息引发市场对算力是否过剩的讨论，而此番表态有助于缓解相关担忧。",
+    "category": "AI 基础设施",
+    "tags": [
+      "AI算力",
+      "联想集团",
+      "数据中心",
+      "AI基础设施"
+    ],
+    "source": "IT之家",
+    "time": "6分钟前",
+    "ts": "2026-07-02T11:06:54+00:00",
+    "url": "https://www.ithome.com/0/971/870.htm",
+    "image": "https://img.ithome.com/newsuploadfiles/2026/4/f0ab67e6-9e71-4d95-ac65-31fa692dae0a.png?x-bce-process=image/format,f_auto",
+    "stocks": [
+      {
+        "name": "联想集团",
+        "ticker": "0992.HK",
+        "reason": "公司深耕AI服务器与算力基础设施，高管明确长期算力需求仍大，有助缓解市场对算力过剩的担忧并支撑其AI业务预期",
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
+    "id": "e680d100cd31bc4c",
+    "title": "CyberPowerPC RTX 5070游戏主机降价至1349美元",
+    "summary": "沃尔玛正对CyberPowerPC搭载英特尔酷睿Ultra 5 250KF与英伟达RTX 5070的游戏主机降价约521美元，现价仅1349美元，定位为高性价比4K游戏整机。",
+    "body": "据Tom's Hardware报道，沃尔玛当前对CyberPowerPC一款游戏主机进行大幅促销，该机配置包括英特尔酷睿Ultra 5 250KF处理器、英伟达GeForce RTX 5070显卡、16GB DDR5内存和1TB NVMe固态硬盘，原价约1870美元，现降价520.99美元至1349美元。\n\n在AI热潮推高PC硬件价格的背景下，这一价位对预算型玩家具有较强吸引力。该配置可在1440p乃至4K分辨率下运行现代游戏，被评价为同价位中规格出众的选择。\n\n此次促销反映出，尽管高端旗舰游戏整机价格高昂，但面向主流消费者的高性价比产品仍在市场中有明确需求，也有助于英特尔和英伟达的中端硬件进一步渗透消费级市场。",
+    "category": "消费电子",
+    "tags": [
+      "游戏主机",
+      "PC硬件",
+      "RTX 5070",
+      "英特尔"
+    ],
+    "source": "Tom's Hardware",
+    "time": "6分钟前",
+    "ts": "2026-07-02T11:06:45+00:00",
+    "url": "https://www.tomshardware.com/desktops/gaming-pcs/save-usd521-on-this-4k-capable-rtx-5070-gaming-pc-from-cyberpowerpc-now-just-usd1-349-huge-price-drop-for-budget-friendly-rig-with-impressive-intel-core-ultra-250kf-cpu-16gb-ddr5-and-1tb-ssd",
+    "image": "https://cdn.mos.cms.futurecdn.net/eRpTBEhFN5Fi836ydqfijT-1280-80.png",
+    "stocks": []
+  },
+  {
+    "id": "b92200d79a449fc0",
+    "title": "HP Omen Max游戏本独立日降价1300美元",
+    "summary": "惠普在独立日促销期间将Omen Max 16英寸游戏本降价1300美元，该款机型搭载英伟达RTX 5080移动显卡、英特尔酷睿Ultra 9 275HX处理器，配备32GB内存与1TB SSD。",
+    "body": "据Tom's Hardware报道，惠普（HP）为纪念美国独立日，在其官网对Omen Max 16英寸游戏本推出限时优惠，原价3799美元的配置直降1300美元，降幅34%，现价2499美元。该机型搭载英伟达RTX 5080移动版显卡（16GB显存、7680个CUDA核心）、英特尔酷睿Ultra 9 275HX 24核处理器、32GB内存和1TB固态硬盘，屏幕为2560×1600分辨率、240Hz刷新率的IPS面板。报道指出，受AI元件供应紧张影响，游戏本近期价格普遍偏高，此次促销在高端配置中具备较强竞争力。该机型在游戏与生产力测试中表现优于同CPU竞品，也反映出高性能移动GPU与CPU在高端游戏本市场的持续渗透。",
+    "category": "消费电子",
+    "tags": [
+      "游戏本",
+      "惠普",
+      "独立日促销",
+      "RTX 5080"
+    ],
+    "source": "Tom's Hardware",
+    "time": "7分钟前",
+    "ts": "2026-07-02T11:05:37+00:00",
+    "url": "https://www.tomshardware.com/laptops/gaming-laptops/hp-has-slashed-usd1-300-off-this-colossal-5080-gaming-laptop-for-july-4-34-percent-discount-gets-you-32gb-of-ram-and-24-core-arrow-lake-mobile-gaming-for-usd2-499",
+    "image": "https://cdn.mos.cms.futurecdn.net/Q9xFwMwCMCeBPAzQ7oXAJL-1280-80.jpg",
+    "stocks": [
+      {
+        "name": "惠普",
+        "ticker": "HPQ",
+        "reason": "Omen Max为HP旗下高端游戏本产品，直接受益于促销销量。",
+        "confidence": "medium"
+      },
+      {
+        "name": "英伟达",
+        "ticker": "NVDA",
+        "reason": "该机型搭载英伟达RTX 5080移动版GPU，是其消费级显卡在游戏本市场的应用。",
+        "confidence": "medium"
+      },
+      {
+        "name": "英特尔",
+        "ticker": "INTC",
+        "reason": "该机型搭载英特尔酷睿Ultra 9 275HX处理器，代表其移动高性能CPU在游戏本中的采用。",
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
     "id": "0f56cd744b378249",
     "title": "国际专家共识发布，规范类风湿关节炎肺病诊疗",
     "summary": "《柳叶刀·呼吸医学》发表国际专家共识声明，为类风湿关节炎相关严重肺部并发症的识别、监测和治疗提供临床指导。",
@@ -16,6 +125,25 @@ const newsData = [
     "ts": "2026-07-02T07:00:01-04:00",
     "url": "https://medicalxpress.com/news/2026-07-expert-aim-lung-disease-people.html",
     "image": "https://scx1.b-cdn.net/csz/news/tmb/2021/lung-disease.jpg",
+    "stocks": []
+  },
+  {
+    "id": "566cdc8be079cdd0",
+    "title": "特朗普政策助推美国最便宜电动车采用中国电池",
+    "summary": "美国电动汽车初创公司Slate Auto转向采用在中国成熟应用的成本更低的电池技术，部分原因系特朗普政府取消了对电池材料须本土采购的电动汽车税收抵免要求。",
+    "body": "据Wired报道，美国电动汽车初创公司Slate Auto成为最新一家转向采用中国成熟低成本电池的整车制造商。报道称，特朗普政府废除要求电池材料本土采购的电动汽车税收抵免政策，是推动这一转变的部分原因。这一动向反映出中国电池技术与成本优势对美国汽车产业链的持续渗透，也可能对美国本土供应链规则及相关贸易政策产生连锁影响。",
+    "category": "未来能源",
+    "tags": [
+      "电动汽车",
+      "动力电池",
+      "特朗普关税",
+      "供应链"
+    ],
+    "source": "Wired",
+    "time": "12分钟前",
+    "ts": "2026-07-02T11:00:00+00:00",
+    "url": "https://www.wired.com/story/how-trump-helped-china-make-slate-americas-cheapest-ev/",
+    "image": "https://media.wired.com/photos/6a3ae9474f9749be536e0518/master/pass/GettyImages-2253542353.jpg",
     "stocks": []
   },
   {
