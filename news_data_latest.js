@@ -1,5 +1,50 @@
 const newsData = [
   {
+    "id": "049cd4a3d374e714",
+    "title": "新能源车“提车即过时”焦虑蔓延，新品红利周期显著缩短",
+    "summary": "新能源汽车市场新品红利周期被大幅压缩，消费者普遍存在“提车即过时”的迭代焦虑，导致销量呈现冲高后迅速回落的脉冲式走势。",
+    "body": "燃油车时代一款主力车型可热销数年才换代，而新能源汽车的新品红利周期正被显著压缩。新车往往依靠上市营销造势和首发专属权益在短期内冲量，但交付高峰过后，销量随即快速回落。\n\n这一现象的背后，是同价位竞品密集上新、同质化车型扎堆入场，叠加消费者观望情绪升温，使得购车群体陷入“提车即过时”的焦虑。一轮轮冲高、回落循环往复，形成典型的脉冲式销量走势，车企面临的产品节奏与市场预期管理压力明显加大。",
+    "category": "未来能源",
+    "tags": [
+      "新能源汽车",
+      "汽车消费",
+      "产品迭代",
+      "市场竞争"
+    ],
+    "source": "36氪",
+    "time": "刚刚",
+    "ts": "2026-07-02T00:31:16.627369+00:00",
+    "url": "https://36kr.com/newsflashes/3877768269967616?f=rss",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "01a66eca59a2e6e2",
+    "title": "微软Win11原生支持Linux容器，无需Docker",
+    "summary": "科技媒体 Windows Latest 实测微软 6 月推出的 WSL 容器公共预览版，显示用户可在 Windows 11 上直接构建、运行和管理 Linux 容器，无需 Docker Desktop 等第三方运行环境。该功能由 wslc.exe 命令行工具和 WSL Container API 组成，目前处于预发布通道。",
+    "body": "据外媒体验，WSL 容器是微软在 WSL（Windows Subsystem for Linux）体系内新增的 Linux 容器能力。它分为 wslc.exe 命令行工具和 WSL Container API 两部分：前者随 WSL 更新自动加入 PATH，后者以 NuGet 包形式分发，支持 C、C++ 和 C# 调用，让 Windows 应用可直接嵌入 Linux 容器。测试中，外媒成功用 wslc run -it debian:latest 拉取并运行 Debian 容器，并可用 Containerfile（与 Dockerfile 用法类似）打包 Linux 工具。",
+    "category": "AI 基础设施",
+    "tags": [
+      "WSL",
+      "容器",
+      "微软",
+      "Windows 11"
+    ],
+    "source": "IT之家",
+    "time": "3分钟前",
+    "ts": "2026-07-02T00:27:46+00:00",
+    "url": "https://www.ithome.com/0/971/415.htm",
+    "image": "https://img.ithome.com/newsuploadfiles/2026/7/992e1ae3-3725-4958-826d-1337cf737a04.png",
+    "stocks": [
+      {
+        "name": "微软",
+        "ticker": "MSFT",
+        "reason": "微软在 Windows 11 中原生集成 WSL 容器能力，强化开发者生态与混合云/容器布局。",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
     "id": "3a4a370cb985f1cc",
     "title": "我国成功发射海洋二号E卫星",
     "summary": "北京时间2026年7月2日，我国在酒泉卫星发射中心使用长征四号乙运载火箭成功将海洋二号E卫星送入预定轨道。该卫星是海洋动力环境监测星座的新成员，可为海洋灾害预警、资源开发及气候变化研究提供数据支撑。",
