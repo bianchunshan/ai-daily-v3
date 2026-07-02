@@ -1,5 +1,43 @@
 const newsData = [
   {
+    "id": "d984d4c08b373611",
+    "title": "三明治品牌Jersey Mike's IPO也蹭AI，凸显AI炒作之盛",
+    "summary": "美国连锁三明治品牌Jersey Mike's在其IPO文件中提及人工智能，反映出当前AI热潮已蔓延至与其核心业务关联甚弱的传统消费餐饮领域。",
+    "body": "据报道，科技媒体TechCrunch在查阅Jersey Mike's的IPO招股书时发现，这家主营潜艇三明治的连锁餐饮品牌也在文件中提到人工智能，引发市场对AI概念炒作的热议。\n\n这一现象被视为当前AI热潮的典型例证：即便是与科技几乎无关的传统餐饮企业，也希望在资本市场叙事中搭上AI概念，以吸引投资者关注并提升估值。\n\n市场人士认为，此举凸显出AI概念已高度泛化，投资者在追捧AI主题的同时，需警惕非科技公司蹭热点带来的估值泡沫与叙事风险。",
+    "category": "人工智能",
+    "tags": [
+      "AI炒作",
+      "IPO",
+      "人工智能",
+      "餐饮"
+    ],
+    "source": "TechCrunch",
+    "time": "2分钟前",
+    "ts": "2026-07-02T20:11:59+00:00",
+    "url": "https://techcrunch.com/2026/07/02/jersey-mikes-ipo-illustrates-how-bad-the-ai-hype-has-become/",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "4f3110a2cc71325e",
+    "title": "LMDB 1.0正式发布：高性能键值数据库",
+    "summary": "开源嵌入式键值数据库LMDB发布1.0正式版，其基于内存映射技术，以高性能、低占用和事务安全著称。",
+    "body": "Lightning Memory-Mapped Database Manager（LMDB）近日发布1.0正式版本。该数据库采用内存映射文件机制，支持多线程并发读取与单线程写入，专为高吞吐量、低延迟场景设计，常被用于身份认证、区块链、机器学习数据加载等底层系统。\n\n作为一款轻量级嵌入式数据库，LMDB 1.0的发布意味着其API与存储格式进入稳定阶段，可为上层应用提供更可靠的数据持久化能力。该版本此前历经多年开发与测试，标志着这一开源项目在关键基础设施存储领域进一步成熟。",
+    "category": "AI 基础设施",
+    "tags": [
+      "数据库",
+      "开源软件",
+      "存储",
+      "基础设施"
+    ],
+    "source": "Hacker News",
+    "time": "13分钟前",
+    "ts": "2026-07-02T20:01:20+00:00",
+    "url": "http://www.lmdb.tech/doc/",
+    "image": "",
+    "stocks": []
+  },
+  {
     "id": "de96679292cae671",
     "title": "研究呼吁加强筛查与宫颈癌及HIV相关的寄生虫病",
     "summary": "利物浦热带医学院的新研究指出，应扩大对女性生殖器血吸虫病（FGS）的筛查，这种被忽视的疾病可能增加慢性病、HIV和宫颈癌风险。",
@@ -102536,12 +102574,6 @@ const newsData = [
   }
 ];
 const newsDigest = {
-  "text": "今日科技前沿：微软豪掷250亿美元组建6000人AI军团，Meta发布AI小游戏生成应用，Anthropic联手三星定制AI芯片；生物医药领域，美国Medicare启动GLP-1减重药覆盖计划；新能源市场，特斯拉推出六座Model Y L。",
-  "highlights": [
-    "d46c588e8d7fa323",
-    "53ef1c4a45bf6e22",
-    "23ff659d49776e8b",
-    "972e8098155b25c0",
-    "cd44717703d88d8d"
-  ]
+  "text": "",
+  "highlights": []
 };
