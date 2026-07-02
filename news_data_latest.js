@@ -1,5 +1,68 @@
 const newsData = [
   {
+    "id": "cb71daaa9fbb5ed6",
+    "title": "中信证券：液冷产业进入业绩兑现阶段，关注三条主线",
+    "summary": "中信证券研报指出，液冷产业正从主题预期迈入订单与业绩兑现阶段，具备产能弹性、客户认证和核心部件能力的供应链公司有望受益。",
+    "body": "中信证券研报认为，液冷产业正由主题预期阶段进入订单与业绩兑现阶段，建议关注具备产能弹性、客户认证和核心部件能力的供应链企业。\n\n报告提出三条主线：一是代工链，受英伟达GB200/GB300量产推动，台系及国际龙头产能紧张，大陆企业凭借精密加工和组装能力承接外溢订单，短期业绩弹性较大；二是自主品牌供应链，依托认证资产和客户接口卡位CSP、ODM及国产GPU生态，长期成长性最强，目前处于样机和小批量验证阶段；三是横向新品类，如配电系统、光模块液冷等，价值量较低但客户覆盖面广、切入门槛相对容易，可提供差异化机会。\n\n随着AI算力集群对散热效率要求持续提升，液冷从可选配套向核心基础设施演进，产业链订单落地和业绩兑现将成为下一阶段投资的关键验证点。",
+    "category": "AI 基础设施",
+    "tags": [
+      "液冷",
+      "算力",
+      "AI服务器",
+      "产业链"
+    ],
+    "source": "36氪",
+    "time": "刚刚",
+    "ts": "2026-07-02T00:51:13.559086+00:00",
+    "url": "https://36kr.com/newsflashes/3877779458158599?f=rss",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "5b574d173d9125f4",
+    "title": "卡普空《鬼武者：剑之道》提前至9月4日发售",
+    "summary": "卡普空宣布《鬼武者：剑之道》反向跳票，发售日提前三周至9月4日，登陆PS5、Xbox Series、Switch 2和PC平台，支持中文字幕与中文配音。",
+    "body": "卡普空宣布其动作游戏《鬼武者：剑之道》将反向跳票，发售日期从原定的9月25日提前至9月4日，提前三周上市。该作将登陆PlayStation 5、Xbox Series、Switch 2和PC平台，PC版可通过Steam、Epic游戏商城和Microsoft Store购买，Steam页面显示支持中文字幕与中文音频。\n\n本作主打刀光血影、以牙还牙的极致刀剑动作体验，玩家将在面目全非的京都扮演佩戴\"鬼之笼手\"的武士，斩杀猖獗肆虐的幻魔。游戏强调爽快打击感与挑战适中的战斗，难度不会达到\"魂系列\"的高门槛，旨在让更多玩家享受劈砍妖魔的快感。\n\n作为卡普空自研自发的经典IP续作，提前发售有助于避开9月下旬的发行高峰，有望提振其当季销售表现，并强化其在中国等市场的本地化竞争力。",
+    "category": "消费电子",
+    "tags": [
+      "游戏",
+      "卡普空",
+      "主机游戏"
+    ],
+    "source": "IT之家",
+    "time": "3分钟前",
+    "ts": "2026-07-02T00:47:57+00:00",
+    "url": "https://www.ithome.com/0/971/421.htm",
+    "image": "https://img.ithome.com/newsuploadfiles/2026/7/47b828d6-5d06-4cfd-bb84-d74d5d7464ac.jpg",
+    "stocks": [
+      {
+        "name": "卡普空",
+        "ticker": "9697.T",
+        "reason": "《鬼武者：剑之道》为其自研自发产品，提前发售并支持中文配音有望提振销量",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "c891ba5b83448c44",
+    "title": "华为鸿蒙HarmonyOS 6终端设备突破7000万台",
+    "summary": "华为宣布鸿蒙HarmonyOS 6终端设备数突破7000万台，从6000万到7000万仅用时约46天，生态规模持续快速扩张。",
+    "body": "据IT之家消息，华为鸿蒙操作系统终端设备数已官宣突破7000万台。此前的里程碑包括：5月14日突破6000万，6月12日突破6600万，这意味着从6000万到7000万仅用时约46天。HarmonyOS 6于2025年6月20日在华为开发者大会HDC 2025上正式发布。\n\n截至2026年6月，全球鸿蒙开发者规模已超1100万，华为应用市场可获取的鸿蒙应用与服务数量突破38万。同时，开源鸿蒙（OpenHarmony）生态设备已超过13亿台。第三方数据显示，鸿蒙已稳居中国第二大智能手机操作系统，2026年第一季度在中国智能手机市场份额达19%。\n\n这一数据表明，鸿蒙生态正进入加速渗透阶段，华为自有操作系统在终端市场的竞争力进一步提升，对国产移动操作系统生态的成熟具有标志性意义。",
+    "category": "消费电子",
+    "tags": [
+      "鸿蒙系统",
+      "华为",
+      "智能终端",
+      "操作系统"
+    ],
+    "source": "IT之家",
+    "time": "6分钟前",
+    "ts": "2026-07-02T00:44:27+00:00",
+    "url": "https://www.ithome.com/0/971/420.htm",
+    "image": "https://img.ithome.com/newsuploadfiles/2026/7/d7f11e27-c7b6-4905-823f-2eabe2507309.jpg?x-bce-process=image/format,f_auto",
+    "stocks": []
+  },
+  {
     "id": "37c35d72ceb3012e",
     "title": "美图CEO吴欣鸿：AI产品难以提前策划",
     "summary": "美图CEO吴欣鸿在专访中表示，AI时代做产品必须快速迭代、让产品自然生长；美图已通过AI重构影像与设计业务，并借Wink、RoboNeo等工具加速海外市场拓展。",
@@ -81,6 +144,58 @@ const newsData = [
     "url": "https://36kr.com/newsflashes/3877776878202889?f=rss",
     "image": "",
     "stocks": []
+  },
+  {
+    "id": "fc9a9e5da7e711f0",
+    "title": "微软Teams下月上线Facilitator AI会议助手实时答疑",
+    "summary": "微软计划2026年8月为Microsoft Teams推出AI会议协调助手Facilitator，可在标准会议中实时分析对话，识别未解答问题并在聊天区补充上下文答案。",
+    "body": "微软将于2026年8月为Microsoft Teams推出名为Facilitator的AI会议协调助手。该功能可在标准Teams会议期间实时分析对话内容，识别参会者提出的疑问、未获解答的问题或表达不清之处，并在会议聊天中主动提供与当前议题相关的上下文答案，帮助参会者补齐信息缺口。Facilitator默认关闭，不会在会议中直接发言，需用户主动启用，且管理员可控制其显示范围，回复频率通常低于每场会议一次。\n\n在数据处理方面，微软确认Facilitator会实时处理会议对话，必要时还将执行网络搜索以生成更完整的响应。不过，该功能目前仅支持标准Teams会议，暂不支持通话、网络研讨会或Town Hall活动。按计划，该功能将于2026年8月上旬向Targeted Release用户推送，8月下旬全面上线。此举意味着微软正持续将生成式AI能力深度嵌入办公协作场景，进一步提升Teams的智能化会议体验与产品粘性。",
+    "category": "人工智能",
+    "tags": [
+      "微软",
+      "Teams",
+      "AI会议助手",
+      "Facilitator"
+    ],
+    "source": "IT之家",
+    "time": "10分钟前",
+    "ts": "2026-07-02T00:40:36+00:00",
+    "url": "https://www.ithome.com/0/971/418.htm",
+    "image": "https://img.ithome.com/newsuploadfiles/2026/7/3d9c2632-97e5-44b6-b91d-4f9a24f8448f.jpg",
+    "stocks": [
+      {
+        "name": "微软",
+        "ticker": "MSFT",
+        "reason": "Facilitator为Microsoft Teams原生AI功能，有望提升企业订阅意愿与办公产品竞争力。",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "20f72ac88b97e232",
+    "title": "菲亚特发布复古纯电小车Multiplina",
+    "summary": "菲亚特展示了四座城市纯电小车Multiplina，定位介于Topolino与菲亚特500之间，起售价约1.4万英镑，主打复古设计与高空间利用率。",
+    "body": "当地时间6月30日，菲亚特发布了一款名为Multiplina的四座城市纯电小车，官方将其视为1956年传奇车型600 Multipla的重新诠释。新车采用简洁圆润的车身、可向下折叠的车窗和可折叠帆布车顶，前脸与保险杠组合形成“微笑”表情，车内为四座布局，强调空间利用率。\n\n动力方面，Multiplina最高时速约89公里，电池容量高于5.4kWh，电机功率超过仅有8马力的入门级纯电代步车Topolino。新车起售价预计为1.4万英镑（约12.6万元人民币），介于Topolino与菲亚特500之间，主要竞争对手可能包括达契亚Spring和零跑T03。\n\n作为菲亚特电动化产品线的补充，Multiplina瞄准城市代步微车市场，凭借复古造型和亲民价格，有望帮助品牌在入门级纯电市场扩大份额。",
+    "category": "未来能源",
+    "tags": [
+      "电动汽车",
+      "菲亚特",
+      "微型电动车",
+      "Stellantis"
+    ],
+    "source": "IT之家",
+    "time": "18分钟前",
+    "ts": "2026-07-02T00:32:20+00:00",
+    "url": "https://www.ithome.com/0/971/416.htm",
+    "image": "https://img.ithome.com/newsuploadfiles/2026/7/40b398cb-22bb-4b94-bc18-4d667e446c28.png?x-bce-process=image/format,f_auto",
+    "stocks": [
+      {
+        "name": "Stellantis",
+        "ticker": "STLA",
+        "reason": "菲亚特为Stellantis旗下品牌，新纯电车型亮相可丰富其电动微车产品矩阵。",
+        "confidence": "medium"
+      }
+    ]
   },
   {
     "id": "049cd4a3d374e714",
@@ -258,6 +373,25 @@ const newsData = [
     "ts": "2026-07-01T20:00:05-04:00",
     "url": "https://medicalxpress.com/news/2026-07-digital-mindfulness-intervention-beneficial-late.html",
     "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/digital-mindfulness-in.jpg",
+    "stocks": []
+  },
+  {
+    "id": "f2442a47018effbc",
+    "title": "Meta拟限制内部AI token支出，因2026年成本或逼近数十亿",
+    "summary": "据报道，Meta正对其员工内部使用AI模型的token消耗设定上限，以避免2026年相关支出逼近数十亿美元。",
+    "body": "报道称，Meta正在采取措施控制内部AI工具的使用成本，要求员工减少不必要的token消耗。这一限制源于公司内部AI token开支预计将在2026年达到数十亿美元级别。此举反映出大型科技公司在规模化部署生成式AI时面临的巨大推理成本压力。\n\n若内部AI token费用持续膨胀，可能促使企业优化模型调用策略、推广更高效的AI使用规范，并对AI推理成本、商业模式乃至整个行业的AI支出预期产生深远影响。",
+    "category": "人工智能",
+    "tags": [
+      "Meta",
+      "AI成本",
+      "大模型应用",
+      "企业IT支出"
+    ],
+    "source": "Hacker News",
+    "time": "52分钟前",
+    "ts": "2026-07-01T23:58:48+00:00",
+    "url": "https://mlq.ai/news/meta-caps-internal-ai-token-spending-after-costs-approach-billions-in-2026/",
+    "image": "",
     "stocks": []
   },
   {
