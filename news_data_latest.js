@@ -1,5 +1,42 @@
 const newsData = [
   {
+    "id": "b0c75f1859d76b31",
+    "title": "超加工食品或与幼儿大脑差异相关",
+    "summary": "美国幼儿摄入热量中超半数来自超加工食品，一项研究提示这种饮食模式可能与幼儿大脑结构及发育差异存在关联。",
+    "body": "据MedicalXpress报道，美国低龄儿童摄入的热量中，超过一半来源于超加工食品。研究人员进一步发现，这种高度加工的饮食模式可能与幼儿大脑的某些结构差异相关。该发现为儿童早期营养干预和公共卫生饮食指南提供了新的科学依据，也提醒家长和社会关注婴幼儿饮食结构对神经发育的潜在影响。",
+    "category": "生物医药",
+    "tags": [
+      "营养健康",
+      "神经科学",
+      "儿童健康",
+      "生命科学"
+    ],
+    "source": "MedicalXpress",
+    "time": "3分钟前",
+    "ts": "2026-07-02T12:00:07-04:00",
+    "url": "https://medicalxpress.com/news/2026-07-ultra-foods-linked-brain-differences.html",
+    "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/ultra-processed-foods-2.jpg",
+    "stocks": []
+  },
+  {
+    "id": "506a7a3f0704e2cb",
+    "title": "天文学家发现距地球25光年潜在宜居行星",
+    "summary": "天文学家在距地球仅25光年的红矮星宜居带内发现潜在宜居岩石行星GJ 3378b，但其是否拥有大气层乃至生命仍有待进一步观测确认。",
+    "body": "天文学家在鹿豹座一颗暗淡红矮星周围发现了名为GJ 3378b的潜在宜居岩石行星，它距离地球仅25光年，是迄今离我们最近的潜在宜居世界之一。该行星最初由法国天文学家于2024年利用夏威夷莫纳克亚山的加拿大-法国-夏威夷望远镜发现，后经美国天文学家修正数据，认为它可能比此前认为的更像地球。\n\n目前研究人员仅确定GJ 3378b的质量和轨道，尚不清楚它是否拥有大气层、陆地、海洋甚至生命，也可能只是一颗无空气、布满陨石坑的荒凉星球。由于该行星不发生凌日现象，科学家是通过其引力对母恒星的拖拽作用探测到它的存在。这一发现为寻找临近太阳系的宜居世界和地外生命提供了新的观测目标。",
+    "category": "商业航天",
+    "tags": [
+      "系外行星",
+      "宜居带",
+      "天文发现"
+    ],
+    "source": "Space.com",
+    "time": "3分钟前",
+    "ts": "2026-07-02T16:00:00+00:00",
+    "url": "https://www.space.com/astronomy/exoplanets/astronomers-discover-a-potentially-habitable-planet-just-25-light-years-away-this-one-is-exciting",
+    "image": "https://cdn.mos.cms.futurecdn.net/7B9482Ga44x4B79hzESCof-1280-80.jpg",
+    "stocks": []
+  },
+  {
     "id": "4b4d3ba0b9bad6ce",
     "title": "Jeep Recon EV 2027年登陆欧洲，并将推中国产新SUV",
     "summary": "Jeep计划2027年初在欧洲开售Recon纯电动越野车，并加码推出三款新SUV，其中包含一款中国制造车型。",
