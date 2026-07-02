@@ -1,5 +1,49 @@
 const newsData = [
   {
+    "id": "49ae943384820ec0",
+    "title": "雅迪在Eurobike 2026展出全避震通勤电动自行车",
+    "summary": "雅迪在2026年欧洲自行车展上展示了新款全避震通勤电动自行车Yadea Como。作为全球产量领先的电动两轮车制造商，雅迪正进一步扩展其高端电动自行车产品线。",
+    "body": "全球产量最大的电动车制造商雅迪（Yadea）在Eurobike 2026欧洲自行车展上亮相了其全新全避震通勤电动自行车Yadea Como。该公司长期以电动滑板车和摩托车闻名，此次展出标志着其电动自行车产品线进一步丰富。\n\n随着城市绿色出行需求增长，全避震设计能够提升通勤舒适性与道路适应性，雅迪此举有助于其在欧洲电动自行车市场扩大品牌影响力。新车型也反映出中国电动两轮车企业正加速向高端化、国际化方向布局。",
+    "category": "未来能源",
+    "tags": [
+      "电动自行车",
+      "绿色出行",
+      "雅迪"
+    ],
+    "source": "Electrek",
+    "time": "3分钟前",
+    "ts": "2026-07-02T14:09:59+00:00",
+    "url": "https://electrek.co/2026/07/02/yadea-shows-off-full-suspension-commuter-e-bike-at-eurobike-2026/",
+    "image": "https://electrek.co/wp-content/uploads/sites/3/2026/06/yadea-eurobike-head.jpg?quality=82&#038;strip=all&#038;w=1600",
+    "stocks": [
+      {
+        "name": "雅迪控股",
+        "ticker": "1585.HK",
+        "reason": "公司直接推出Yadea Como新品，拓展欧洲高端电动自行车市场",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "06d0d58e13ccd0d6",
+    "title": "WinRAR 7.23 修复内存溢出与路径遍历漏洞",
+    "summary": "压缩软件WinRAR发布7.23版本，修复堆缓冲区溢出和符号链接路径遍历两项安全漏洞，官方建议用户尽快升级以降低被攻击风险。",
+    "body": "WinRAR近日发布7.23版本更新，修复了两项安全漏洞。其中一项为堆缓冲区溢出漏洞，源头出在用于修复损坏压缩包的“恢复卷”机制，攻击者可构造特殊RAR5格式恢复数据文件，在WinRAR尝试重建损坏数据时触发内存损坏，导致程序异常崩溃。另一项漏洞涉及符号链接处理逻辑，WinRAR在解压特殊RAR压缩包时可能创建指向目标目录之外的符号链接，带来路径遍历风险，使文件被写入非预期位置。\n\n目前这两项漏洞尚未分配CVE编号，也未公布CVSS严重性评分，官方仅提供了简要的漏洞成因说明，尚未看到实际利用案例。但由于漏洞本身属于典型高风险的内存破坏和路径遍历类型，且WinRAR在Windows平台使用率极高，一旦被黑客实战利用，潜在影响面可能相当广泛。WinRAR 7.23已增加额外的路径校验机制，官方建议用户尽快升级。",
+    "category": "网络安全",
+    "tags": [
+      "网络安全",
+      "软件漏洞",
+      "WinRAR",
+      "路径遍历"
+    ],
+    "source": "IT之家",
+    "time": "3分钟前",
+    "ts": "2026-07-02T14:09:42+00:00",
+    "url": "https://www.ithome.com/0/971/929.htm",
+    "image": "https://img.ithome.com/newsuploadfiles/2026/7/a8eed0c2-3137-459e-806d-0c8b2e451a24.jpg",
+    "stocks": []
+  },
+  {
     "id": "ccea02fd5375e0bb",
     "title": "泰坦军团G2785W显示器开售：4K 240Hz QD-OLED售4999元",
     "summary": "泰坦军团27英寸4K 240Hz QD-OLED显示器G2785W已在京东发售，定价4999元，部分地区国补后低至4499.1元。该产品预计搭载三星第四代QD-OLED面板，具备0.03ms GtG响应、1000尼特峰值亮度、原生10-Bit色彩与99% DCI-P3色域。",
@@ -293,6 +337,25 @@ const newsData = [
         "confidence": "medium"
       }
     ]
+  },
+  {
+    "id": "9ab57c059797837d",
+    "title": "ZeroFS：面向S3的日志结构文件系统开源",
+    "summary": "ZeroFS 是一款面向 Amazon S3 的日志结构文件系统，旨在将对象存储以更友好的文件系统接口形式暴露给用户。该项目目前处于早期展示阶段，主要面向开发者和技术社区。",
+    "body": "ZeroFS 是一个基于日志结构（log-structured）设计的文件系统，底层直接构建在 Amazon S3 对象存储之上。它试图把 S3 的存储桶和对象抽象成可被应用程序直接挂载和读写的文件系统接口，从而简化数据访问与管理。\n\n作为一款在 Hacker News 上展示的开发者项目，ZeroFS 目前更偏向概念验证与早期开源探索。其意义在于进一步桥接对象存储与文件语义之间的鸿沟，对云原生应用、数据湖以及需要低成本持久化存储的场景具有一定参考价值。然而，该项目尚未成熟，距离企业级生产部署仍有距离。",
+    "category": "AI 基础设施",
+    "tags": [
+      "文件系统",
+      "云存储",
+      "S3",
+      "开源"
+    ],
+    "source": "Hacker News",
+    "time": "32分钟前",
+    "ts": "2026-07-02T13:41:11+00:00",
+    "url": "https://www.zerofs.net/",
+    "image": "",
+    "stocks": []
   },
   {
     "id": "b0cd5daf9a6b4948",
@@ -774,6 +837,32 @@ const newsData = [
     "url": "https://www.ithome.com/0/971/901.htm",
     "image": "https://img.ithome.com/newsuploadfiles/2026/7/9ba33287-b7e7-490c-ba8d-65264bf7786d.png",
     "stocks": []
+  },
+  {
+    "id": "c0282f77830713ce",
+    "title": "英飞凌57亿美元德国新晶圆厂投产，欧盟强化科技自主",
+    "summary": "英飞凌正式启用总投资约57亿美元的德国新芯片工厂，旨在扩大功率半导体产能并响应欧盟提升本土芯片供应链自主可控的战略。",
+    "body": "德国半导体企业英飞凌正式启用一座总投资约57亿美元的新晶圆厂，主要生产功率半导体及模拟/混合信号芯片，面向汽车电子、工业控制和物联网等应用。该工厂被视作欧盟推动本土芯片制造、降低对外依赖的重要举措，有助于增强欧洲在关键功率器件领域的供应能力。新厂投产还将为英飞凌带来新增产能，巩固其在功率半导体和汽车芯片市场的领先地位。",
+    "category": "半导体与先进制造",
+    "tags": [
+      "英飞凌",
+      "芯片制造",
+      "欧盟芯片法案",
+      "功率半导体"
+    ],
+    "source": "Hacker News",
+    "time": "1小时前",
+    "ts": "2026-07-02T12:46:31+00:00",
+    "url": "https://www.rfi.fr/en/international-news/20260702-germany-s-infineon-opens-major-chip-plant-as-eu-seeks-tech-autonomy",
+    "image": "",
+    "stocks": [
+      {
+        "name": "英飞凌",
+        "ticker": "IFX.DE",
+        "reason": "新晶圆厂投产将直接扩大其功率半导体产能并巩固欧洲市场份额",
+        "confidence": "high"
+      }
+    ]
   },
   {
     "id": "c410a534242996c1",
