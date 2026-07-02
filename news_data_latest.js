@@ -1,5 +1,24 @@
 const newsData = [
   {
+    "id": "750d94bb72cf98d0",
+    "title": "生物标志物匹配药物组合缩小耐药黑色素瘤",
+    "summary": "MD安德森癌症中心的研究团队通过依据特定肿瘤生物学特征匹配药物组合，在临床前模型中有效缩小了治疗耐药性晚期黑色素瘤。",
+    "body": "一项由德克萨斯大学MD安德森癌症中心主导的新研究发现，可根据黑色素瘤的具体肿瘤生物学特征来定制药物组合，从而改善治疗耐药性晚期黑色素瘤的疗效。在临床前模型中，这种基于生物标志物的联合用药策略能够显著缩小肿瘤，为克服耐药提供了新的思路。该研究凸显了精准医疗在肿瘤治疗中的潜力，但仍需进一步临床验证。",
+    "category": "生物医药",
+    "tags": [
+      "黑色素瘤",
+      "肿瘤耐药",
+      "精准医疗",
+      "临床前研究"
+    ],
+    "source": "MedicalXpress",
+    "time": "3分钟前",
+    "ts": "2026-07-02T16:40:04-04:00",
+    "url": "https://medicalxpress.com/news/2026-07-biomarker-drug-combos-treatment-resistant.html",
+    "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/biomarker-guided-drug.jpg",
+    "stocks": []
+  },
+  {
     "id": "08f7ccef19e35525",
     "title": "美国禁售后Polestar 4降价2.5万美元清库存",
     "summary": "因美国商务部禁止Polestar在美销售电动车，Polestar 4现提供约2.5万美元折扣，售价已接近美国市场最低电动车水平。",
