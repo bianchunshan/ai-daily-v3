@@ -1,5 +1,60 @@
 const newsData = [
   {
+    "id": "41d166f0efbbca80",
+    "title": "AI创作平台“灵珠”完成天使轮融资",
+    "summary": "AI创作平台“灵珠”近日完成天使轮融资，由TikTok天使投资人韦海军领投，资金将用于产品研发与市场拓展。",
+    "body": "据36氪报道，AI创作平台“灵珠”近日完成天使轮融资，本轮融资由TikTok天使投资人韦海军领投。“灵珠”专注于利用人工智能技术辅助内容创作，旨在降低创作门槛并提升生产效率。此次融资将为平台技术研发、产品迭代及市场推广提供支持，也反映出资本市场对AI应用层创新项目的持续关注。",
+    "category": "人工智能",
+    "tags": [
+      "AI应用",
+      "内容创作",
+      "天使轮"
+    ],
+    "source": "36氪",
+    "time": "刚刚",
+    "ts": "2026-07-02T10:42:53.969229+00:00",
+    "url": "https://36kr.com/newsflashes/3878368439841029?f=rss",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "2dc3d82881ce85a3",
+    "title": "苹果“隐藏邮件地址”功能被指易泄露真实邮箱",
+    "summary": "据外媒报道，苹果iCloud的“隐藏邮件地址”功能存在安全漏洞，攻击者可轻易获取用户真实邮箱地址。该问题据称已存在一年多，苹果至今未彻底修复。",
+    "body": "据404 Media报道，苹果在其iCloud付费服务中提供的“隐藏邮件地址”（Hide My Email）功能存在隐私漏洞，攻击者可将匿名邮件别名与用户真实邮箱地址关联起来。数据移除公司EasyOptOuts联合创始人Tyler Murphy最早报告了该问题，404 Media自行测试后声称破解成功率达100%。\n\n报道称苹果似乎已知晓该漏洞超过一年。Murphy于2025年6月披露问题后，苹果直到2026年3月才执行修复，但Murphy验证后发现漏洞依然存在。他最近一次收到苹果的回复是在今年5月，当时苹果表示仍在处理中。\n\n该事件暴露出苹果在隐私保护功能实现上的安全缺陷，可能削弱用户对iCloud匿名邮件服务的信任，也对苹果一向强调的用户隐私形象造成负面影响。",
+    "category": "网络安全",
+    "tags": [
+      "苹果",
+      "隐私安全",
+      "邮件服务",
+      "安全漏洞"
+    ],
+    "source": "Tom's Hardware",
+    "time": "2分钟前",
+    "ts": "2026-07-02T10:40:00+00:00",
+    "url": "https://www.tomshardware.com/tech-industry/cyber-security/apples-hide-my-email-service-reportedly-reveals-users-actual-email-addresses-with-little-effort-cupertino-has-seemingly-known-about-the-problem-for-a-year-but-has-yet-to-fix-it",
+    "image": "https://cdn.mos.cms.futurecdn.net/LHZ4Rgs8Ttj8heEhX9c7K7-1280-80.jpg",
+    "stocks": []
+  },
+  {
+    "id": "b801139836e58e6e",
+    "title": "酷态科推出69元MFi认证C to L苹果转接头",
+    "summary": "酷态科近日在京东上架一款CP苹果转接头，可将USB-C充电线转换为苹果Lightning接口，售价69元，产品获得苹果MFi认证并采用铝合金外壳。",
+    "body": "7月2日消息，酷态科在京东上架一款CP苹果转接头C to L，定价69元。该转接头采用铝合金外壳，获得苹果MFi认证，并配有硅胶绳套，便于固定在其他USB-C充电头线缆上。其传输速率为USB 2.0 480Mbps，主要面向仍在使用Lightning接口的苹果设备用户，进一步丰富了第三方苹果配件市场的选择。",
+    "category": "消费电子",
+    "tags": [
+      "消费电子",
+      "苹果配件",
+      "酷态科"
+    ],
+    "source": "IT之家",
+    "time": "4分钟前",
+    "ts": "2026-07-02T10:38:00+00:00",
+    "url": "https://www.ithome.com/0/971/867.htm",
+    "image": "https://img14.360buyimg.com/pop/jfs/t1/459874/14/18648/50019/6a450b2fF62452192/0083320320a948bf.jpg",
+    "stocks": []
+  },
+  {
     "id": "993cf8e3bb75e6dc",
     "title": "富祥股份子公司托拉塞米原料药获批上市",
     "summary": "富祥股份全资子公司祥太科学收到国家药监局签发的托拉塞米原料药上市申请批准通知书。托拉塞米为高效利尿剂，获批有助于公司拓展原料药业务。",
@@ -21,6 +76,50 @@ const newsData = [
         "name": "富祥股份",
         "ticker": "300497.SZ",
         "reason": "全资子公司祥太科学的托拉塞米原料药获国家药监局批准上市，丰富原料药产品线。",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "22242cf28e008ce2",
+    "title": "WAIC 2026七月上海举行，首发AI企业家论坛阵容",
+    "summary": "2026世界人工智能大会定于7月17日至20日在上海举办，主题为“智能伙伴 共创未来”；大会将首发AI企业家论坛阵容，并迎来千亿级实业巨头参与。",
+    "body": "据量子位报道，2026世界人工智能大会暨人工智能全球治理高级别会议（WAIC 2026）将于2026年7月17日至7月20日在上海举行。本届大会以“智能伙伴 共创未来”为主题，设置浦东世博、浦东张江、徐汇西岸三大会场，旨在通过多区域联动将人工智能前沿技术融入城市发展，打造全城AI体验生态。\n\n大会将首发AI企业家论坛阵容，并透露将有千亿级实业巨头“突袭”亮相，但目前未公布具体企业及嘉宾名单。WAIC作为全球人工智能领域的顶级盛会，通常聚焦大模型、AI应用、产业落地与全球治理等议题。\n\n此次活动选址上海并扩大会场布局，反映出人工智能产业在政策和资本层面的持续高热，也将进一步吸引国内外企业、投资机构和开发者关注中国AI生态的最新进展。",
+    "category": "人工智能",
+    "tags": [
+      "WAIC",
+      "人工智能大会",
+      "AI企业家论坛"
+    ],
+    "source": "量子位",
+    "time": "13分钟前",
+    "ts": "2026-07-02T10:29:03+00:00",
+    "url": "https://www.qbitai.com/2026/07/442037.html",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "c14d762ca28b3202",
+    "title": "天工3.2推出Skywork Tags，让AI Agent加入工作群聊",
+    "summary": "昆仑万维旗下天工AI发布3.2升级，推出Skywork Tags功能，可将AI Agent以共享同事身份接入Slack、飞书、钉钉、Discord、Telegram等即时通讯工具，参与团队协作。",
+    "body": "天工AI宣布3.2版本重磅升级，正式上线Skywork Tags。与多数Agent产品要求用户把上下文迁移到新的工作空间不同，Skywork Tags选择让Agent进入团队已有的沟通环境——用户只需将Skywork机器人拉入工作群并@它，即可使其读取上下文、参与讨论、异步推进任务，无需切换窗口或导出资料。该功能支持Slack、飞书/Lark、钉钉、Discord、Telegram等主流即时通讯平台。\n\nSkywork Tags的核心定位是“团队共享的同事”，而非每人的私人助手。同一频道内只有一个Skywork，所有成员都能看到它的处理进度，避免信息黑盒；任务可在成员间接力推进，Agent持续在场并沉淀团队上下文，用得越久越贴合团队工作方式。天工团队内部的对照实验显示，经过多岗位、多轮对话喂养的共享版Agent，两三周后表现反超个人精调版本。这一模式强调“共享不是妥协，而是让Agent突破个人视野、快速变强的最短路径”。",
+    "category": "人工智能",
+    "tags": [
+      "AI Agent",
+      "团队协作",
+      "天工AI",
+      "即时通讯"
+    ],
+    "source": "量子位",
+    "time": "18分钟前",
+    "ts": "2026-07-02T10:24:32+00:00",
+    "url": "https://www.qbitai.com/2026/07/442030.html",
+    "image": "",
+    "stocks": [
+      {
+        "name": "昆仑万维",
+        "ticker": "300418.SZ",
+        "reason": "天工AI为其核心产品，Skywork Tags直接拓展企业级AI Agent的落地场景与商业化空间。",
         "confidence": "high"
       }
     ]
@@ -98,6 +197,38 @@ const newsData = [
         "ticker": "NVDA",
         "reason": "Meta明确继续追逐并采购高端GPU用于训练，强化对英伟达高端芯片的持续需求预期。",
         "confidence": "medium"
+      }
+    ]
+  },
+  {
+    "id": "63e856da06a3d112",
+    "title": "千问团队朱达：C端Agent的“多快好省”与主动服务探索",
+    "summary": "阿里千问团队朱达介绍其C端通用复杂任务Agent的“多快好省”工程实践，任务执行时间已降至初期三分之一，Token成本仅为海外同类产品十分之一；团队同时探索由被动响应向主动服务演进，认为“情商”是其中的核心难点。",
+    "body": "千问团队于2026年1月在千问App胶囊入口上线通用复杂任务Agent，支持信息搜集、研究分析等复杂任务。团队总结“多快好省”方法论：通过搜索范式与上下文管理优化交付质量，使任务执行时间降至初始的三分之一，Token消耗仅为海外同类产品的十分之一。\n\n朱达提出，Agent工程正从Prompt Engineering演进到Harness Engineering，下一阶段是AI Ware Engineering，并强调“低功耗、够用就行”的设计理念。与此同时，团队正探索从被动响应转向主动服务，构建User Memory、Environment、Task System、Assistant四大组件，指出“情商”是主动服务中最难突破的环节。\n\n这一路径显示，国产大模型团队正在加速C端Agent的工程化与商业化落地，围绕效率、成本和用户体验展开竞争，并可能推动相关云服务与模型生态的进一步迭代。",
+    "category": "人工智能",
+    "tags": [
+      "Agent",
+      "大模型",
+      "阿里巴巴",
+      "AI应用"
+    ],
+    "source": "AIHOT精选",
+    "time": "20分钟前",
+    "ts": "2026-07-02T10:22:07+00:00",
+    "url": "https://mp.weixin.qq.com/s/l70iUM0bIpG9EdV9Px7QPQ",
+    "image": "",
+    "stocks": [
+      {
+        "name": "阿里巴巴",
+        "ticker": "BABA",
+        "reason": "千问App及Agent为阿里通义千问团队产品，C端Agent能力进展直接利好其核心AI应用与云生态",
+        "confidence": "high"
+      },
+      {
+        "name": "阿里巴巴-SW",
+        "ticker": "9988.HK",
+        "reason": "同阿里港股标的，千问Agent能力提升有望增强其AI to C竞争力与估值预期",
+        "confidence": "high"
       }
     ]
   },
