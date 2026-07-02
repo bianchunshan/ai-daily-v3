@@ -1,5 +1,69 @@
 const newsData = [
   {
+    "id": "5145199f05b51875",
+    "title": "华泰证券：看好锂电涨价周期及钠电/固态电池产业化",
+    "summary": "华泰证券研报指出，7月锂电产业链排产延续上行，国内外储能需求强劲，下半年排产有望加速；机构重申看好本轮锂电涨价周期，并看好钠电池与固态电池的产业化趋势。",
+    "body": "据36氪援引华泰证券研报，鑫椤锂电发布的数据显示，7月锂电产业链样本企业排产继续增长：电池排产约181.4GWh，环比增长3.2%；正极、负极、隔膜、电解液等环节环比均有不同程度上扬，反映行业旺季效应持续。\n\n需求端来看，国内外储能需求保持强劲，全球汽车电动化进程持续加速；叠加年底出口退税抢出口与储能并网旺季等因素，华泰证券预计下半年产业链排产有望进一步加速提升。\n",
+    "category": "未来能源",
+    "tags": [
+      "锂电池",
+      "钠电池",
+      "固态电池",
+      "储能"
+    ],
+    "source": "36氪",
+    "time": "刚刚",
+    "ts": "2026-07-02T00:01:09.086384+00:00",
+    "url": "https://36kr.com/newsflashes/3877734956855555?f=rss",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "ec32c15d622992ef",
+    "title": "数字正念联合EEG反馈可改善老年抑郁",
+    "summary": "发表于《Journal of Psychiatric Research》的研究显示，基于脑电图（EEG）反馈的数字正念干预系统FocusZen，能够减轻老年抑郁患者的抑郁、焦虑及睡眠症状。",
+    "body": "该研究采用FocusZen正念减压系统，对患有晚发性抑郁（LLD）的参与者进行数字正念干预，并通过EEG反馈辅助调节。结果显示，干预后参与者的抑郁、焦虑和睡眠相关症状均有所改善。\n\n这一结果表明，将数字正念训练与神经反馈技术结合，有望成为老年抑郁非药物干预的新方向，为老年心理健康管理提供可及性更强的数字化方案。\n\n不过，研究未披露该系统背后的商业主体与上市标的，其大规模临床应用效果仍有待进一步验证。",
+    "category": "脑机接口",
+    "tags": [
+      "数字疗法",
+      "正念干预",
+      "老年抑郁",
+      "神经反馈"
+    ],
+    "source": "MedicalXpress",
+    "time": "刚刚",
+    "ts": "2026-07-01T20:00:05-04:00",
+    "url": "https://medicalxpress.com/news/2026-07-digital-mindfulness-intervention-beneficial-late.html",
+    "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/digital-mindfulness-in.jpg",
+    "stocks": []
+  },
+  {
+    "id": "99b8cdf10ac6bdc2",
+    "title": "苹果拟明年初发布新款iPad Pro与MacBook Pro",
+    "summary": "据报道，苹果公司正计划于明年初推出多款新款iPad Pro平板电脑，以及一款价格更亲民的MacBook Pro，以更新其高端个人设备产品线。",
+    "body": "据TechCrunch援引相关报道，苹果公司正在为明年初的新品发布做准备，产品线涵盖多款iPad Pro新机型以及一款定位更具性价比的MacBook Pro。这一消息显示苹果仍在持续迭代其旗舰级个人计算设备，以满足专业用户和大众市场的需求。若按计划推出，相关新品有望带动苹果硬件业务在销售旺季后的新一轮增长，并进一步巩固其在高端平板与笔记本电脑市场的地位。",
+    "category": "消费电子",
+    "tags": [
+      "苹果",
+      "iPad Pro",
+      "MacBook Pro",
+      "消费电子"
+    ],
+    "source": "TechCrunch",
+    "time": "2分钟前",
+    "ts": "2026-07-01T23:57:55+00:00",
+    "url": "https://techcrunch.com/2026/07/01/apple-is-reportedly-planning-new-ipad-pro-and-macbook-pro-releases-early-next-year/",
+    "image": "",
+    "stocks": [
+      {
+        "name": "苹果公司",
+        "ticker": "AAPL",
+        "reason": "新品发布直接利好其iPad与Mac硬件销售及生态系统增长。",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
     "id": "e5b82b64cd838d40",
     "title": "苹果新iPhone相机防抖专利：机械旋转传感器保持画面水平",
     "summary": "据外媒报道，苹果一项新获批的相机防抖专利显示，未来iPhone可能通过物理旋转图像传感器来抵消相机滚动，使画面地平线保持水平，减少对后期裁切的依赖。该技术有望改善手持拍摄时因轻微转腕导致的“歪斜感”。",
