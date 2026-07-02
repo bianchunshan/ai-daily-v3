@@ -1,5 +1,56 @@
 const newsData = [
   {
+    "id": "972e8098155b25c0",
+    "title": "美国Medicare启动Bridge计划覆盖GLP-1减重药",
+    "summary": "7月1日起，美国联邦医疗保险Medicare推出名为Bridge的新项目，首次为符合体重及健康标准的部分参保人覆盖减重药物，包括GLP-1类药物。这一政策调整有望扩大减肥药的可及性与市场需求。",
+    "body": "长期以来，法律禁止Medicare支付减肥药物费用。自7月1日起，这一规定被打破，Medicare启动名为Bridge的新项目，向部分65岁以上或因其他原因参加Medicare、并符合特定体重和健康标准的人群提供体重管理药物。该项目标志着联邦医保首次覆盖部分减重药，包括热门的GLP-1类药物。政策落地后，预计将有更多符合条件的患者获得处方，直接利好GLP-1药物制造商。",
+    "category": "生物医药",
+    "tags": [
+      "GLP-1",
+      "减重药",
+      "Medicare",
+      "医药政策"
+    ],
+    "source": "MedicalXpress",
+    "time": "刚刚",
+    "ts": "2026-07-02T14:40:02-04:00",
+    "url": "https://medicalxpress.com/news/2026-07-medicare-glp-coverage.html",
+    "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/weight-loss-medication-1.jpg",
+    "stocks": [
+      {
+        "name": "礼来",
+        "ticker": "LLY",
+        "reason": "其GLP-1/GIP受体激动剂Zepbound等减肥药将因Medicare覆盖扩大而受益。",
+        "confidence": "high"
+      },
+      {
+        "name": "诺和诺德",
+        "ticker": "NVO",
+        "reason": "旗下Wegovy等GLP-1减重产品有望获得Medicare参保患者增量需求。",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "932770ad9b031b15",
+    "title": "SGLang探索Agent辅助开发，优化LLM推理基础设施",
+    "summary": "LMSYS旗下SGLang团队正将LLM服务、GPU内核与扩散管线等工作流编码为可执行的SKILL.md、脚本与审查循环，推动AI基础设施开发从人工调优向\"Loop Engineering\"演进。",
+    "body": "据报道，SGLang团队把大模型服务、分布式运行时、GPU内核、扩散管道等开发工作流编码为可执行的SKILL.md文件、脚本、基准合约和审查循环，并已形成多个技能库，包括SGLang .claude/skills（CUDA调试、内核集成、性能分析等）、SGLang diffusion .claude/skills（扩散模型添加与调优）、BBuf/AI-Infra-Auto-Driven-SKILLS（跨框架SOTA循环）、KDA（MLSys 2026 FlashInfer内核竞赛方案）以及BBuf/KDA-Pilot（已合并三个SGLang集成PR）。\n\n在性能优化方面，团队强调Profile证据是核心，长期优化思路转向\"Loop Engineering\"——即将追求SOTA分解为公平基准测试、差距决策、性能分析、补丁和再验证的闭环；Humanize/RLCR引入外部审查，Codex Goal则目标以更低的协调开销运行同一循环。与此同时，评审的重要性上升，开发者需要定义问题、选择证据、设计工作流，并判断结果是否可用于生产。",
+    "category": "AI 基础设施",
+    "tags": [
+      "SGLang",
+      "AI Agent",
+      "LLM推理",
+      "性能优化"
+    ],
+    "source": "AIHOT精选",
+    "time": "2分钟前",
+    "ts": "2026-07-02T18:37:56.676000+00:00",
+    "url": "https://www.lmsys.org/blog/2026-07-02-agent-assisted-sglang-development",
+    "image": "",
+    "stocks": []
+  },
+  {
     "id": "23ff659d49776e8b",
     "title": "Anthropic与三星洽谈定制AI芯片",
     "summary": "AI公司Anthropic正与三星电子商讨开发一款定制AI芯片，以优化模型训练与推理；此前OpenAI刚宣布与博通合作自研AI芯片。",
@@ -102255,6 +102306,12 @@ const newsData = [
   }
 ];
 const newsDigest = {
-  "text": "",
-  "highlights": []
+  "text": "美国联邦医保扩大GLP-1减重药覆盖，Anthropic与三星洽谈定制AI芯片，心衰复方药试验显效，商业航天与遥感合作加速。",
+  "highlights": [
+    "972e8098155b25c0",
+    "23ff659d49776e8b",
+    "545bdd68a41e4588",
+    "9a3e840aa6923aa9",
+    "d73d9129ebf41c49"
+  ]
 };
