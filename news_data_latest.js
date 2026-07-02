@@ -1,5 +1,98 @@
 const newsData = [
   {
+    "id": "5753479fb1106d92",
+    "title": "基因检测改变肺纤维化患者诊疗路径",
+    "summary": "梅奥诊所一项新研究表明，将端粒长度评估与基因检测整合进肺病护理，可显著改变肺纤维化的诊断与治疗方式，甚至改变治疗方向。",
+    "body": "梅奥诊所发布的一项研究指出，在肺纤维化患者的临床管理中引入端粒长度评估和基因检测，能够帮助医生更精准地判断病因并调整治疗方案，部分病例因此改变了整体治疗方向。肺纤维化是一种进行性肺部瘢痕疾病，传统诊断常难以明确潜在遗传因素，而基因检测可揭示与端粒缩短等相关的遗传风险。该研究凸显了精准医学在呼吸系统疾病中的应用价值，有望推动相关临床指南的更新。",
+    "category": "生物医药",
+    "tags": [
+      "基因检测",
+      "肺纤维化",
+      "精准医疗",
+      "端粒评估"
+    ],
+    "source": "MedicalXpress",
+    "time": "3分钟前",
+    "ts": "2026-07-02T14:00:14-04:00",
+    "url": "https://medicalxpress.com/news/2026-07-genetic-pulmonary-fibrosis-patients.html",
+    "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/genetic-test.jpg",
+    "stocks": []
+  },
+  {
+    "id": "8593724e9d08b28e",
+    "title": "母亲先天性心脏病关联子女发育风险升高",
+    "summary": "一项发表于《PLOS Medicine》的研究显示，出生时患有先天性心脏病的母亲，其子女出现发育脆弱的风险更高，包括身体健康、情绪成熟和沟通能力等方面。",
+    "body": "瑞典卡罗林斯卡研究所Muhammad Zakir Hossin团队主导的一项新研究指出，母亲若出生时患有先天性心脏病，其后代在发育评估中更易表现为“发育脆弱”，即在身体健康、情绪成熟、沟通能力等领域面临挑战。该研究已在《PLOS Medicine》发表。",
+    "category": "生物医药",
+    "tags": [
+      "先天性心脏病",
+      "发育脆弱",
+      "围产期医学"
+    ],
+    "source": "MedicalXpress",
+    "time": "3分钟前",
+    "ts": "2026-07-02T14:00:08-04:00",
+    "url": "https://medicalxpress.com/news/2026-07-congenital-heart-defects-mothers-developmental.html",
+    "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/congenital-heart-defec.jpg",
+    "stocks": []
+  },
+  {
+    "id": "2fc1f45588f3e149",
+    "title": "科学家培育“合成组织中心细胞”改进肾脏类器官",
+    "summary": "南加州大学研究团队通过工程化“合成组织中心细胞”，显著提升了由干细胞培育的肾脏类器官的结构保真度与可重复性，相关成果发表于《科学》期刊。",
+    "body": "《科学》期刊发表了南加州大学研究团队的一项成果。研究人员将生物学发现与工程手段结合，设计出“合成组织中心细胞”，用于引导干细胞定向分化并自我组装，从而培育出结构更逼真、批次间更一致的肾脏类器官。肾脏类器官是模拟真实肾脏的微型三维组织，可用于疾病建模、药物筛选和再生医学研究。该技术有望减少当前类器官培养的异质性，为肾病研究和体外模型构建提供更可靠的平台。",
+    "category": "生物医药",
+    "tags": [
+      "干细胞",
+      "类器官",
+      "再生医学",
+      "肾病研究"
+    ],
+    "source": "MedicalXpress",
+    "time": "3分钟前",
+    "ts": "2026-07-02T14:00:06-04:00",
+    "url": "https://medicalxpress.com/news/2026-07-stem-cell-scientists-synthetic-cells.html",
+    "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/usc-stem-cell-scientis.jpg",
+    "stocks": []
+  },
+  {
+    "id": "e8c110445c92d999",
+    "title": "久坐与癌症死亡风险上升相关",
+    "summary": "英国格拉斯哥大学发表于《PLOS Medicine》的研究显示，每日长时间不间断久坐每增加一小时，癌症死亡风险可能上升9%。",
+    "body": "这项由英国格拉斯哥大学Frederick Ho及其同事开展的研究发表于《PLOS Medicine》。研究发现，一个人每天长时间、不间断的久坐行为每增加一小时，与癌症死亡风险增加9%相关。该研究为理解久坐行为对健康的长期影响提供了新的流行病学证据，提示减少连续久坐、增加活动间断可能对癌症预防具有公共卫生意义。",
+    "category": "生物医药",
+    "tags": [
+      "癌症研究",
+      "流行病学",
+      "公共卫生"
+    ],
+    "source": "MedicalXpress",
+    "time": "3分钟前",
+    "ts": "2026-07-02T14:00:02-04:00",
+    "url": "https://medicalxpress.com/news/2026-07-bouts-linked-cancer.html",
+    "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/prolonged-sedentary-be.jpg",
+    "stocks": []
+  },
+  {
+    "id": "f49cac95acd2a227",
+    "title": "韦伯望远镜瞥见太阳系在60亿年后的命运",
+    "summary": "天文学家借助詹姆斯·韦伯太空望远镜观测到一颗围绕白矮星运行的气态系外行星，为太阳耗尽燃料、演化为白矮星后太阳系的命运提供了重要参考。",
+    "body": "研究团队利用詹姆斯·韦伯太空望远镜（JWST）观测了约80光年外的一个“死星”系统：一颗木星大小的系外行星WD 1856 b正围绕着白矮星WD 1856+534运行。通过观测该行星凌越白矮星的过程，天文学家测量了其质量、温度，并分析了大气成分，发现它比预期更热，同时揭示了它如何进入如此接近白矮星的紧密轨道。\\n这一发现被视为太阳系未来可能图景的“预兆”——约60亿年后，太阳将膨胀为红巨星，吞噬包括地球在内的内侧岩石行星，随后外层剥落、核心坍缩成白矮星，外侧气态巨行星则可能以改变后的形态继续存续。该研究不仅拓展了人们对恒星演化末期行星系统命运的理解，也展示了JWST在深空天体大气与轨道动力学研究中的持续价值。",
+    "category": "商业航天",
+    "tags": [
+      "天文观测",
+      "系外行星",
+      "詹姆斯·韦伯望远镜",
+      "恒星演化"
+    ],
+    "source": "Space.com",
+    "time": "3分钟前",
+    "ts": "2026-07-02T18:00:00+00:00",
+    "url": "https://www.space.com/astronomy/stars/stellar-death-is-not-the-end-james-webb-space-telescope-glimpses-the-fate-of-the-solar-system-in-a-weird-exoplanet-orbiting-a-dead-star",
+    "image": "https://cdn.mos.cms.futurecdn.net/ecXycQmzHxKTLfDFVnjMZA-1280-80.png",
+    "stocks": []
+  },
+  {
     "id": "c8ddad962edb3c72",
     "title": "特斯拉二季度交付量同比增长25%",
     "summary": "特斯拉第二季度全球车辆交付量较去年同期增长25%，在欧洲市场的销售势头持续增强。",
@@ -263,6 +356,24 @@ const newsData = [
     "ts": "2026-07-02T16:30:37+00:00",
     "url": "https://arstechnica.com/health/2026/07/africa-cdc-confirms-marburg-case-in-uganda-as-ebola-outbreak-rages/",
     "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/07/GettyImages-2279919981-1152x648.jpg",
+    "stocks": []
+  },
+  {
+    "id": "f3dc73c35af29cda",
+    "title": "美国政府成为26家公司股东",
+    "summary": "据外媒报道，美国联邦政府已成为26家公司的股东，这一情形引发市场对政府角色、企业治理及科技政策走向的关注。",
+    "body": "据Hacker News转载，美国政府目前已是26家公司的股东。材料未披露具体企业名单、持股比例及交易背景，但政府直接持有企业股份通常与救助安排、资产处置或产业政策工具相关。\n\n若相关公司涉及科技、半导体或关键产业，此举可能对市场定价、公司治理、资本结构及行业竞争格局产生深远影响。投资者需关注后续披露细节与潜在政策合规风险。",
+    "category": "地缘科技",
+    "tags": [
+      "美国政府持股",
+      "科技政策",
+      "企业治理"
+    ],
+    "source": "Hacker News",
+    "time": "1小时前",
+    "ts": "2026-07-02T16:29:13+00:00",
+    "url": "https://moeonmargin.substack.com/p/the-us-government-is-now-a-shareholder",
+    "image": "",
     "stocks": []
   },
   {
@@ -101935,12 +102046,6 @@ const newsData = [
   }
 ];
 const newsDigest = {
-  "text": "今日前沿：谷歌反垄断上诉败诉，特斯拉二季度交付量同比增长25%，心衰复方药试验住院急诊大降六成，新格伦火箭爆炸牵动NASA重型登月火箭进度，Anthropic与五角大楼就Claude军事应用现分歧。",
-  "highlights": [
-    "3d1aced2b9176be5",
-    "c8ddad962edb3c72",
-    "545bdd68a41e4588",
-    "a31a24df59d3c1bc",
-    "5f6848e30c5aad81"
-  ]
+  "text": "",
+  "highlights": []
 };
