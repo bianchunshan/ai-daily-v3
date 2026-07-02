@@ -1,5 +1,24 @@
 const newsData = [
   {
+    "id": "e6b874dff71bef20",
+    "title": "钙钛矿电池企业Verde Technologies转向太空市场",
+    "summary": "美国钙钛矿太阳能电池初创企业Verde Technologies将商业化重心从屋顶光伏转向太空，希望以薄膜技术为轨道数据中心及大型星座供电。",
+    "body": "Verde Technologies是一家专注于钙钛矿太阳能电池的初创企业。该公司近日宣布，将商业化方向从屋顶光伏转向太空应用，寄望其薄膜电池技术能够为轨道数据中心和大型卫星星座提供能源。此举反映出钙钛矿材料因其轻薄、可柔性制备等特性，在航天领域被视为潜在的高效能供电方案。若技术成熟，或将降低空间基础设施的能源系统重量与发射成本，对商业航天和新能源产业链均有示范意义。",
+    "category": "未来能源",
+    "tags": [
+      "钙钛矿",
+      "太阳能",
+      "商业航天",
+      "空间能源"
+    ],
+    "source": "SpaceNews",
+    "time": "6分钟前",
+    "ts": "2026-07-02T19:27:36+00:00",
+    "url": "https://spacenews.com/perovskite-solar-panel-startup-verde-technologies-shifts-focus-to-space/",
+    "image": "https://i0.wp.com/spacenews.com/wp-content/uploads/2026/07/RTR-perovskite-manufaturing-scaled.jpeg?fit=1024%2C768&amp;ssl=1",
+    "stocks": []
+  },
+  {
     "id": "01ad9663c2e8fb2c",
     "title": "高精度fMRI可在个体层面绘制前额叶皮层精细结构",
     "summary": "研究人员利用高精度功能磁共振成像（fMRI），在个体层面绘制出前额叶皮层的精细结构。该进展提示，对人脑活动的测量方式会显著影响我们对其结构与功能的理解。",
