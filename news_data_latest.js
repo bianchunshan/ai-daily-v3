@@ -1,5 +1,31 @@
 const newsData = [
   {
+    "id": "db86366d9ea1619c",
+    "title": "Meta推出生成式AI游戏创作应用Pocket",
+    "summary": "Meta发布了一款名为Pocket的生成式AI游戏创作应用，目前已上架应用商店，但在美国市场似乎尚未开放使用。",
+    "body": "Meta近日推出了一款名为Pocket的新应用，旨在让用户借助生成式AI技术创作游戏。该应用已出现在应用商店中，但据报道在美国地区似乎还无法下载或使用，可能处于分阶段推出或区域测试阶段。此举显示Meta正将生成式AI从聊天、内容生成进一步延伸至互动娱乐与游戏创作领域，有望降低游戏开发门槛并丰富其AI应用生态。",
+    "category": "人工智能",
+    "tags": [
+      "生成式AI",
+      "游戏开发",
+      "Meta",
+      "AI应用"
+    ],
+    "source": "Engadget",
+    "time": "4分钟前",
+    "ts": "2026-07-02T22:53:42+00:00",
+    "url": "https://www.engadget.com/2207426/meta-has-released-an-app-for-making-generative-ai-games/",
+    "image": "https://www.engadget.com/img/gallery/meta-has-released-an-app-for-making-generative-ai-games/l-intro-1783032213.jpg",
+    "stocks": [
+      {
+        "name": "Meta Platforms",
+        "ticker": "META",
+        "reason": "推出Pocket应用，拓展生成式AI在游戏创作领域的应用场景。",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
     "id": "0d768d92f6fc055e",
     "title": "前SIE高管称索尼PC移植意在扩展IP而非赚钱",
     "summary": "前索尼互娱高管肖恩·莱登近日受访时表示，此前PlayStation游戏移植PC并非以盈利为主要目的，而是希望让PS生态外的玩家接触《地平线》等IP，为跨媒介扩展铺垫受众基础。",
@@ -103174,6 +103200,12 @@ const newsData = [
   }
 ];
 const newsDigest = {
-  "text": "",
-  "highlights": []
+  "text": "今日科技前沿：Meta发布AI游戏创作应用Pocket，SpaceX星舰六台发动机静态点火备战第13次试飞，欧洲量子公司IQM登陆纳斯达克，FDA批准赛诺菲Tzield用于儿童新发1型糖尿病，Cloudflare将过滤AI爬虫服务。",
+  "highlights": [
+    "db86366d9ea1619c",
+    "1987a2dac86cc105",
+    "c5b3db7713be19e2",
+    "5d5ebeb11a0963e7",
+    "f9fabf76ffa2d665"
+  ]
 };
