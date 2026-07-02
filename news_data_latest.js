@@ -1,5 +1,31 @@
 const newsData = [
   {
+    "id": "53ef1c4a45bf6e22",
+    "title": "Meta推出AI小游戏生成应用Pocket",
+    "summary": "Meta低调发布实验性AI应用Pocket，用户可通过文本提示生成并分享互动小游戏，进一步拓展生成式AI在创意娱乐场景的应用。",
+    "body": "Meta近日低调上线了一款名为Pocket的实验性AI应用，用户只需输入文本提示即可生成并分享互动小游戏。该产品属于“氛围编程”方向，目标是降低游戏创作门槛，让普通用户也能快速生成可玩的迷你游戏。此举体现出Meta持续将生成式AI能力转化为消费级应用，并强化其在社交娱乐与AI工具融合领域的布局。",
+    "category": "人工智能",
+    "tags": [
+      "Meta",
+      "AI应用",
+      "生成式AI",
+      "小游戏"
+    ],
+    "source": "TechCrunch",
+    "time": "1分钟前",
+    "ts": "2026-07-02T18:44:02+00:00",
+    "url": "https://techcrunch.com/2026/07/02/meta-quietly-launches-vibe-coded-gaming-app-pocket/",
+    "image": "",
+    "stocks": [
+      {
+        "name": "Meta Platforms",
+        "ticker": "META",
+        "reason": "公司直接推出并运营Pocket应用，是生成式AI向游戏创作场景落地的重要载体",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
     "id": "972e8098155b25c0",
     "title": "美国Medicare启动Bridge计划覆盖GLP-1减重药",
     "summary": "7月1日起，美国联邦医疗保险Medicare推出名为Bridge的新项目，首次为符合体重及健康标准的部分参保人覆盖减重药物，包括GLP-1类药物。这一政策调整有望扩大减肥药的可及性与市场需求。",
@@ -102306,12 +102332,6 @@ const newsData = [
   }
 ];
 const newsDigest = {
-  "text": "美国联邦医保扩大GLP-1减重药覆盖，Anthropic与三星洽谈定制AI芯片，心衰复方药试验显效，商业航天与遥感合作加速。",
-  "highlights": [
-    "972e8098155b25c0",
-    "23ff659d49776e8b",
-    "545bdd68a41e4588",
-    "9a3e840aa6923aa9",
-    "d73d9129ebf41c49"
-  ]
+  "text": "",
+  "highlights": []
 };
