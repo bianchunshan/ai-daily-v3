@@ -1,5 +1,31 @@
 const newsData = [
   {
+    "id": "c8ddad962edb3c72",
+    "title": "特斯拉二季度交付量同比增长25%",
+    "summary": "特斯拉第二季度全球车辆交付量较去年同期增长25%，在欧洲市场的销售势头持续增强。",
+    "body": "据Engadget报道，特斯拉今年第二季度车辆交付量同比增长25%，反映出全球电动车需求依然强劲。该公司在欧洲市场的拓展取得进展，销量增长动能明显提升。交付量的回升有助于改善产能利用率，并强化市场对特斯拉全年业绩目标的预期。",
+    "category": "未来能源",
+    "tags": [
+      "特斯拉",
+      "电动车",
+      "交付量",
+      "欧洲市场"
+    ],
+    "source": "Engadget",
+    "time": "9分钟前",
+    "ts": "2026-07-02T17:44:50+00:00",
+    "url": "https://www.engadget.com/2207032/tesla-q2-vehicle-deliveries-up-25-percent-over-last-year/",
+    "image": "https://www.engadget.com/img/gallery/tesla-q2-vehicle-deliveries-are-up-25-percent-over-last-year/l-intro-1783013749.jpg",
+    "stocks": [
+      {
+        "name": "特斯拉",
+        "ticker": "TSLA",
+        "reason": "交付量同比增长25%且欧洲市场扩张，直接利好公司业绩预期",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
     "id": "1218daade5c42928",
     "title": "人类红细胞生成机制与鼠模型不同",
     "summary": "西北医学院研究发现，人类红细胞生成不需要小鼠模型中的中央“枢纽”，颠覆了基于动物实验数十年来的生理学认知。该成果发表于《自然·遗传学》。",
@@ -101909,6 +101935,12 @@ const newsData = [
   }
 ];
 const newsDigest = {
-  "text": "",
-  "highlights": []
+  "text": "今日前沿：谷歌反垄断上诉败诉，特斯拉二季度交付量同比增长25%，心衰复方药试验住院急诊大降六成，新格伦火箭爆炸牵动NASA重型登月火箭进度，Anthropic与五角大楼就Claude军事应用现分歧。",
+  "highlights": [
+    "3d1aced2b9176be5",
+    "c8ddad962edb3c72",
+    "545bdd68a41e4588",
+    "a31a24df59d3c1bc",
+    "5f6848e30c5aad81"
+  ]
 };
