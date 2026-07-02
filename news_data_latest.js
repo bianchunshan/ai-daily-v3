@@ -236,6 +236,25 @@ const newsData = [
     ]
   },
   {
+    "id": "5988429fc84a18cb",
+    "title": "Rust编译器整体转译C语言项目亮相",
+    "summary": "开源项目crustc将整个Rust编译器rustc转译为C代码，引发开发者对编译器自主构建与供应链安全的关注。",
+    "body": "据Hacker News报道，名为crustc的项目实现了Rust编译器rustc完整代码库到C语言的转译。该项目若成熟，可降低Rust工具链对外部二进制编译器的依赖，为从源头构建可信Rust编译器提供新路径。业内人士认为，此举对解决编译器“信任信任”问题、增强开源软件供应链安全具有一定意义，但工程化落地与维护成本仍需观察。",
+    "category": "网络安全",
+    "tags": [
+      "Rust",
+      "编译器",
+      "开源软件",
+      "供应链安全"
+    ],
+    "source": "Hacker News",
+    "time": "34分钟前",
+    "ts": "2026-07-02T22:57:35+00:00",
+    "url": "https://github.com/FractalFir/crustc",
+    "image": "",
+    "stocks": []
+  },
+  {
     "id": "db86366d9ea1619c",
     "title": "Meta推出生成式AI游戏创作应用Pocket",
     "summary": "Meta发布了一款名为Pocket的生成式AI游戏创作应用，目前已上架应用商店，但在美国市场似乎尚未开放使用。",
