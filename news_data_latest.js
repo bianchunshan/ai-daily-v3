@@ -1,5 +1,165 @@
 const newsData = [
   {
+    "id": "24816151d2ebf4dc",
+    "title": "乘联会：6月新能源车批发预估151万辆，同比增22%",
+    "summary": "乘联分会发布的数据显示，2026年6月全国乘用车厂商新能源批发预估151万辆，同比增长22%，环比增长12%，延续增长态势。",
+    "body": "据乘联分会公布的数据，2026年6月全国乘用车厂商新能源批发预估达151万辆，同比增长22%，环比增长12%。该数据反映国内新能源乘用车市场需求持续回暖，产销节奏保持稳健。\n\n从同环比双增来看，新能源车在乘用车市场的渗透率有望进一步提升，动力电池及充电基础设施等相关产业链仍将受益于终端销量的扩张。不过，数据为厂商预估口径，实际批发量仍需以官方最终统计为准。",
+    "category": "未来能源",
+    "tags": [
+      "新能源汽车",
+      "乘用车销量",
+      "乘联会数据"
+    ],
+    "source": "36氪",
+    "time": "刚刚",
+    "ts": "2026-07-02T12:03:21.728689+00:00",
+    "url": "https://36kr.com/newsflashes/3878445115322370?f=rss",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "def61c7572861d82",
+    "title": "联想扬天S660一体机新增Ultra 7版本 售价6999元",
+    "summary": "联想为扬天S660 27英寸一体机新增“Ultra 7 256V + 16GB RAM + 1TB SSD”配置，售价6999元。新品搭载酷睿Ultra处理器与高刷屏，面向商用办公场景。",
+    "body": "7月2日消息，联想为旗下扬天S660 27英寸一体机新增“Ultra 7 256V + 16GB RAM + 1TB SSD”配置，定价6999元（含键鼠）。该机采用黑色外观，配备27英寸1080P 100Hz IPS屏幕，亮度300尼特，覆盖99% sRGB色域，同时集成5MP会议摄像头及哈曼2.0定制音响系统。\n\n核心配置方面，扬天S660搭载英特尔酷睿Ultra 7 256V处理器，配备16GB LPDDR5x 8533内存和1TB PCIe SSD。机身背部支架位提供HDMI in、HDMI out、USB-A 2.0、USB-A 3.2 Gen 2及RJ45等接口，可满足会议办公与外接扩展需求。\n\n此次配置升级进一步丰富了联想在商用一体机市场的产品矩阵，有助于巩固其在企业办公PC领域的竞争力。",
+    "category": "消费电子",
+    "tags": [
+      "联想",
+      "一体机",
+      "商用PC",
+      "英特尔"
+    ],
+    "source": "IT之家",
+    "time": "2分钟前",
+    "ts": "2026-07-02T12:00:09+00:00",
+    "url": "https://www.ithome.com/0/971/887.htm",
+    "image": "https://img14.360buyimg.com/pop/jfs/t1/440393/6/14818/453454/6a195a75Fd36d9679/08ee3203206ad12e.png",
+    "stocks": [
+      {
+        "name": "联想集团",
+        "ticker": "0992.HK",
+        "reason": "公司旗下扬天S660新增高端配置，直接利好其商用PC产品线",
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
+    "id": "5c753db25898f006",
+    "title": "有人用OpenClaw和AI脚本在Instagram上约会",
+    "summary": "开发者Ben Guez利用OpenClaw、Claude Code和Instagram Trials搭建自动化脚本，在私信中批量筛选“潜在国际对象”。这一案例展示了AI Agent在社交/约会场景中的新应用，也引发对自动化交友伦理与平台规则的讨论。",
+    "body": "据TechCrunch报道，开发者Ben Guez借助OpenClaw、Claude Code以及Instagram的Trials功能，编写了一套自动化流程，帮他筛选和管理Instagram私信中的潜在约会对象。他自称现在收件箱里已有“一堆潜在的国际妻子”。该案例显示，AI工具正被用户创造性地用于婚恋社交场景，将原本耗时的浏览、筛选和私信互动流程自动化。\n\nOpenClaw似乎是一款可调用Claude等模型的AI Agent/自动化工具；Claude Code是Anthropic推出的编程助手；Instagram Trials则是Meta近期测试的限时内容功能。三者的组合说明，普通用户已经能够用现成的AI与社交平台功能搭建个人“约会代理”。不过，这也带来平台规则、隐私、真实互动与伦理等方面的争议，社交平台对自动化行为通常有限制。\n\n从产业角度看，AI约会助手属于AI应用层创新，短期内难以直接映射到单一上市公司的业绩，更多反映大模型与Agent生态在C端场景的快速渗透。",
+    "category": "人工智能",
+    "tags": [
+      "AI约会",
+      "OpenClaw",
+      "AI Agent",
+      "Instagram"
+    ],
+    "source": "TechCrunch",
+    "time": "2分钟前",
+    "ts": "2026-07-02T12:00:00+00:00",
+    "url": "https://techcrunch.com/2026/07/02/yep-were-using-openclaw-to-date-now/",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "4599392626514174",
+    "title": "大疆发布Mic Mini 2S：自研降噪无线麦，399元起",
+    "summary": "大疆正式发布迷你无线麦克风DJI Mic Mini 2S，主打32-bit浮点内录、28小时循环内录与四发一收混连，内置自研AI降噪模型，售价399元至1199元。该产品进一步补齐大疆OsmoAudio生态，面向Vlog、直播与播客等移动创作场景。",
+    "body": "7月2日，大疆推出全新四发内录迷你无线麦克风DJI Mic Mini 2S。发射器仅重约12克，内置14.5GB存储，在24-bit规格下支持最长28小时循环内录，并首次支持32-bit浮点内录，可保留更宽动态范围；同时可作为独立录音笔使用，并直连Osmo Pocket 4、Osmo Action 6等影像设备。接收器最多可混连四个发射器，支持单声道、立体声与四声道独立输出，相机版无线传输距离最远达400米。",
+    "category": "消费电子",
+    "tags": [
+      "大疆",
+      "无线麦克风",
+      "AI降噪",
+      "消费电子"
+    ],
+    "source": "IT之家",
+    "time": "3分钟前",
+    "ts": "2026-07-02T12:00:00+00:00",
+    "url": "https://www.ithome.com/0/971/886.htm",
+    "image": "https://img14.360buyimg.com/pop/jfs/t1/474352/38/868/165151/6a460d8fFafb285da/00835dc5dc4bd698.jpg",
+    "stocks": []
+  },
+  {
+    "id": "2cf3f50a03626f7b",
+    "title": "初创公司现场启动核微反应堆为英伟达AI工厂供电",
+    "summary": "核技术初创公司Valar Atomics在活动现场启动其Ward 250核微反应堆，为搭载英伟达Blackwell芯片的RTX Spark台式机供电，并宣布与英伟达合作建设一座30兆瓦、不依赖本地水源的闭环AI工厂。",
+    "body": "核技术初创公司Valar Atomics在一场现场活动中激活了其Ward 250核微反应堆。活动中，工作人员将一台英伟达RTX Spark台式机接入反应堆，并把功率提升至满负荷的37%，成功点亮这台搭载Blackwell芯片的电脑。公司还展示了完全由该反应堆供电的服务器所运行的nuclearwebsite.com网页。\n\nValar Atomics首席执行官Isiah Taylor介绍，反应堆内铀原子每秒发生裂变反应，产生100千瓦热能，通过加压氦气冷却回路传递至热电发电机，再转化为电能驱动英伟达芯片。该公司同时宣布与英伟达合作，规划建设一座30兆瓦的闭环AI工厂，可在不消耗当地水资源的情况下为AI算力提供稳定电力。\n\n若该技术走向规模化，或为数据中心能源供应提供一种新的低碳、本地化解决方案，有助于缓解AI算力扩张面临的电力与水资源约束。",
+    "category": "未来能源",
+    "tags": [
+      "核微反应堆",
+      "AI基础设施",
+      "英伟达",
+      "清洁能源"
+    ],
+    "source": "Tom's Hardware",
+    "time": "4分钟前",
+    "ts": "2026-07-02T11:58:58+00:00",
+    "url": "https://www.tomshardware.com/tech-industry/data-centers/startup-activates-nuclear-microreactor-live-on-stage-to-power-an-nvidia-rtx-spark-desktop-pc-firm-working-with-nvidia-to-build-a-30mw-closed-loop-ai-factory-that-doesnt-use-local-water",
+    "image": "https://cdn.mos.cms.futurecdn.net/PFapTDucFKscafUxmqqEWM-1280-80.png",
+    "stocks": [
+      {
+        "name": "英伟达",
+        "ticker": "NVDA",
+        "reason": "与Valar Atomics合作建设30MW闭环AI工厂，其Blackwell芯片由该核微反应堆现场供电。",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "6f0bcc1e544296e2",
+    "title": "英伟达推收益分成计划扶持AI初创企业获取算力",
+    "summary": "英伟达推出一项全新扶持计划，通过收益分成与信贷支持帮助AI初创企业获得高性能算力，同时巩固自身在AI基础设施产业链中的核心地位。",
+    "body": "据IT之家消息，英伟达推出了一项面向人工智能初创企业的全新扶持计划，采用收益分成与信贷支持模式，帮助这些企业获取高性能计算基础设施资源。根据该计划，AI云服务商将部署搭载英伟达技术的云服务，英伟达既可通过硬件销售获得收入，又能分享云服务商后续经营收益。首批落地该合作模式的企业包括Sharon AI与Firmus，多家云运营商也已基于英伟达DSX数据中心平台搭建AI算力中心。\n\n英伟达表示，该方案旨在降低新兴AI企业面临的资金门槛，避免其在算力基础设施上投入巨额资金。伴随全球AI算力需求持续激增，这一扶持计划有望进一步扩大英伟达高端处理器的市场渗透率，并深化与云服务商及AI初创企业的合作关系。\n\n整体来看，该计划是英伟达构建多元合作伙伴体系战略的一部分，通过联合云服务商和数据中心运营商，巩固其在整个AI产业链中的核心地位，并为公司开辟硬件销售之外的持续性收入来源。",
+    "category": "AI 基础设施",
+    "tags": [
+      "英伟达",
+      "AI 算力",
+      "收益分成",
+      "初创企业"
+    ],
+    "source": "IT之家",
+    "time": "5分钟前",
+    "ts": "2026-07-02T11:57:24+00:00",
+    "url": "https://www.ithome.com/0/971/885.htm",
+    "image": "https://img.ithome.com/newsuploadfiles/2026/3/950275db-035d-450e-8e73-926b627305e8.jpg?x-bce-process=image/format,f_auto",
+    "stocks": [
+      {
+        "name": "英伟达",
+        "ticker": "NVDA",
+        "reason": "该计划直接扩大其GPU在AI云和初创企业中的渗透率，并通过硬件销售与收益分成为公司创造新收入",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "095361a091690b9d",
+    "title": "英特尔酷睿Ultra 200S Plus处理器涨价30-50美元",
+    "summary": "英特尔已悄然上调全部三款酷睿Ultra 200S Plus系列处理器的建议客户价格，涨幅在30至50美元之间。此次涨价反映PC CPU供应持续偏紧，可能进一步推高整机硬件成本。",
+    "body": "据IT之家消息，英特尔已调整全部三款酷睿Ultra 200S Plus处理器的盒装建议零售价：Ultra 7 270K Plus从299美元上调至349美元，Ultra 5 250K Plus从199美元上调至229美元，Ultra 5 250KF Plus从184美元上调至214美元，涨幅分别为50美元和30美元；散片价格则统一享受10美元优惠。\n\n此次涨价与此前市场传闻的CPU供应紧张、英特尔及AMD全线处理器价格上调的趋势相吻合，显示出PC核心零部件成本压力仍在传导。对于消费者和OEM厂商而言，中端与高端桌面CPU价格同步上扬，可能带动整机与DIY市场定价上行；对英特尔来说，涨价有助于缓解供应缺口并改善产品毛利，但也需关注终端需求对价格弹性的承受能力。",
+    "category": "半导体与先进制造",
+    "tags": [
+      "英特尔",
+      "CPU",
+      "处理器涨价",
+      "PC硬件"
+    ],
+    "source": "IT之家",
+    "time": "10分钟前",
+    "ts": "2026-07-02T11:53:07+00:00",
+    "url": "https://www.ithome.com/0/971/884.htm",
+    "image": "https://img.ithome.com/newsuploadfiles/2026/3/9252d6ec-9f4c-45fa-a35d-de288d372a47.jpg",
+    "stocks": [
+      {
+        "name": "英特尔",
+        "ticker": "INTC",
+        "reason": "作为新闻主体，酷睿处理器涨价有望改善其PC芯片毛利率。",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
     "id": "2a705edcb0c2c37a",
     "title": "申联生物获兽药产品批准文号批件",
     "summary": "申联生物公告，公司兰州分公司生产的牛多杀性巴氏杆菌病灭活疫苗已通过农业农村部审查，获准核发兽药产品批准文号批件，产品可正式上市销售。",
