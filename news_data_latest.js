@@ -1,5 +1,62 @@
 const newsData = [
   {
+    "id": "3ec5700a1f4acf4c",
+    "title": "孕期高果糖摄入或损害胎儿脑神经干细胞功能",
+    "summary": "研究表明，孕期过量摄入果糖可能损害胎儿大脑神经干细胞功能，并增加后代代谢与认知障碍风险。",
+    "body": "最新研究指出，孕期摄入过多果糖（常见于甜味食品和饮料）可能影响胎儿大脑神经干细胞功能。营养失衡对胎儿健康及成年后疾病易感性具有长期影响；此前观察发现，孕期高果糖摄入与后代糖尿病、心血管疾病及神经认知障碍风险增加相关。不过，生命早期果糖暴露如何在细胞和分子层面产生持久影响，目前机制尚未完全阐明。",
+    "category": "生物医药",
+    "tags": [
+      "神经科学",
+      "孕期营养",
+      "代谢健康",
+      "干细胞"
+    ],
+    "source": "MedicalXpress",
+    "time": "3分钟前",
+    "ts": "2026-07-02T11:00:09-04:00",
+    "url": "https://medicalxpress.com/news/2026-07-high-fructose-pregnancy-impair-stem.html",
+    "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/high-fructose-during-p.jpg",
+    "stocks": []
+  },
+  {
+    "id": "43987dd79232029b",
+    "title": "血管类器官贴片为冠心病治疗带来新希望",
+    "summary": "研究人员开发的血管类器官贴片有望为缺血性心脏病提供新疗法，特别是修复心脏微小血管。",
+    "body": "缺血性心脏病又称冠心病，是西方国家主要死因之一。该病由心脏血管堵塞导致心肌细胞缺氧、营养不足并死亡，最终引发心梗或心力衰竭。目前大血管可手术替换恢复血流，但负责心肌均匀供血的小血管尚无有效治疗手段。血管类器官贴片技术提供了针对微血管修复的新思路，可能改善受损心肌的血液再灌注，为患者带来新的治疗选择。",
+    "category": "生物医药",
+    "tags": [
+      "血管类器官",
+      "冠心病",
+      "心肌修复",
+      "器官芯片"
+    ],
+    "source": "MedicalXpress",
+    "time": "3分钟前",
+    "ts": "2026-07-02T11:00:07-04:00",
+    "url": "https://medicalxpress.com/news/2026-07-vascular-organoid-patches-coronary-artery.html",
+    "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/vascular-organoid-patc.jpg",
+    "stocks": []
+  },
+  {
+    "id": "d4fcf9e4c88b384d",
+    "title": "小鼠研究揭示心理压力通过肠道菌群加速造血干细胞衰老",
+    "summary": "发表于《Cell Stem Cell》的研究显示，心理压力可通过改变小鼠肠道菌群，加速骨髓造血干细胞的老化样变化，为理解压力相关疾病提供新机制。",
+    "body": "越来越多的研究将心理压力视为心血管疾病、糖尿病等健康问题的风险因素，尤其在免疫功能受损时更为明显。Cell Stem Cell 上发表的一项小鼠研究进一步揭示了这一关联的潜在机制：心理压力会改变肠道微生物群，进而加速骨髓中造血干细胞的衰老样变化。\n\n研究人员发现，压力诱导的肠道菌群变化可影响造血干细胞的稳态，使其呈现出类似老化的特征。这一过程提示，肠道微生物与造血系统之间存在跨器官调控通路。\n\n该研究为理解长期心理压力如何损害免疫系统、增加慢病风险提供了新的分子与细胞层面解释，并可能为干预策略提供方向，但相关结论仍需在临床试验中验证。",
+    "category": "生物医药",
+    "tags": [
+      "肠道菌群",
+      "造血干细胞",
+      "心理压力",
+      "衰老机制"
+    ],
+    "source": "MedicalXpress",
+    "time": "3分钟前",
+    "ts": "2026-07-02T11:00:03-04:00",
+    "url": "https://medicalxpress.com/news/2026-07-psychological-stress-gut-microbes-ages.html",
+    "image": "https://scx1.b-cdn.net/csz/news/tmb/2022/gut-3.jpg",
+    "stocks": []
+  },
+  {
     "id": "68f1a8f38126b20b",
     "title": "荣耀MagicOS七月更新首曝",
     "summary": "荣耀MagicOS 10七月版本将聚焦动效、灵动胶囊、锁屏、AI与智慧互联升级，并行业首发三端120Hz投屏功能，进一步提升系统体验与生态互联能力。",
@@ -62,6 +119,25 @@ const newsData = [
         "confidence": "medium"
       }
     ]
+  },
+  {
+    "id": "8203dd1b249eb04e",
+    "title": "Godox桌面LED补光灯降至年内最低价",
+    "summary": "Godox ES45桌面LED补光灯首次降价至119美元，亮度与可调色温等功能接近售价180美元的Elgato Key Light，为内容创作者提供更经济的补光选择。",
+    "body": "据外媒报道，Godox ES45 Desktop LED Key Light近期迎来今年首次降价，售价降至119美元，创下该款产品的年内新低。该产品支持亮度与色温调节，功能与亮度表现接近市场热门产品Elgato Key Light，但价格明显更低，主要面向直播、视频创作及远程会议等场景。",
+    "category": "消费电子",
+    "tags": [
+      "补光灯",
+      "直播设备",
+      "摄影器材",
+      "消费电子"
+    ],
+    "source": "The Verge",
+    "time": "17分钟前",
+    "ts": "2026-07-02T10:46:06-04:00",
+    "url": "https://www.theverge.com/gadgets/960664/godox-key-light-elgato-insta360-deal-sale",
+    "image": "",
+    "stocks": []
   },
   {
     "id": "7ee7722dde7da019",
