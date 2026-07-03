@@ -19,6 +19,24 @@ const newsData = [
     "stocks": []
   },
   {
+    "id": "45ca8d17b7af7222",
+    "title": "Hacker News热文：联邦政府被指将AI置于人与环境之上",
+    "summary": "一篇登上Hacker News的文章指出，美国联邦政府正将人工智能发展置于民众福祉与地球环境之上，引发政策与伦理层面的关注和讨论。",
+    "body": "据外媒Hacker News转载的一篇文章《AI First: How the Federal Government Is Prioritizing AI over People and Planet》称，联邦政府正在把人工智能放在优先位置，而这种优先可能以牺牲普通民众利益与地球生态环境为代价。该文引发了对政府AI战略价值取向的质疑，提示在追求技术领先的同时，需关注社会公平与可持续发展等议题。文章在Hacker News获得12点热度并收到3条评论，反映出技术社区对相关政策的高度敏感。",
+    "category": "地缘科技",
+    "tags": [
+      "人工智能",
+      "科技政策",
+      "AI伦理"
+    ],
+    "source": "Hacker News",
+    "time": "30分钟前",
+    "ts": "2026-07-03T21:21:08+00:00",
+    "url": "https://stopgreedbuildgreen.climateandcommunity.org/posts/ai-first",
+    "image": "",
+    "stocks": []
+  },
+  {
     "id": "117a33adee785f45",
     "title": "TechCrunch发布2025年AI术语指南",
     "summary": "TechCrunch整理了一份人工智能领域的新术语与俚语词汇表，旨在帮助读者理解AI快速发展带来的大量新概念和行业用语。",
@@ -33,6 +51,25 @@ const newsData = [
     "time": "8分钟前",
     "ts": "2026-07-03T21:20:00+00:00",
     "url": "https://techcrunch.com/2026/07/03/artificial-intelligence-definition-glossary-hallucinations-guide-to-common-ai-terms/",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "49f762ec6dbfdb58",
+    "title": "非洲用户加速转向Starlink卫星上网",
+    "summary": "据报道，越来越多的非洲用户开始使用Starlink卫星互联网服务。这一趋势反映出非洲部分地区对宽带连接的旺盛需求，也凸显了卫星互联网在地面基础设施薄弱地区的替代价值。",
+    "body": "非洲用户正加速转向SpaceX旗下Starlink卫星互联网服务。与传统地面宽带相比，卫星网络可覆盖光纤和基站难以到达的偏远地区，成为非洲部分用户接入高速互联网的重要选择。\n\n这一现象表明，卫星互联网在基础设施欠发达市场具有巨大潜力，同时也可能对当地电信运营商形成竞争压力。若Starlink在非洲持续扩张，相关卫星通信设备、地面站和终端需求或将增加，商业航天领域的应用场景也将进一步拓展。",
+    "category": "商业航天",
+    "tags": [
+      "卫星互联网",
+      "Starlink",
+      "非洲市场",
+      "商业航天"
+    ],
+    "source": "Hacker News",
+    "time": "43分钟前",
+    "ts": "2026-07-03T21:08:37+00:00",
+    "url": "https://www.economist.com/middle-east-and-africa/2026/07/02/africans-are-turning-to-starlink",
     "image": "",
     "stocks": []
   },
