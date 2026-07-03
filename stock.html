@@ -5,7 +5,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
   <meta name="theme-color" content="#e60012">
   <title>实时行情 · 前沿科技日报</title>
-  <link rel="stylesheet" href="assets/theme.css?v=20260623b">
+  <meta name="description" content="前沿科技日报实时行情:当日资讯关联标的的 A股/港股/美股行情。">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="assets/theme.css?v=20260703a">
   <script>
     (function () {
       try {
@@ -53,7 +55,7 @@
     <div class="tabbar-btn" id="themeBtn"><span class="ti">🌓</span><span>主题</span></div>
   </nav>
 
-  <script src="assets/app.js?v=20260627a"></script>
+  <script src="assets/app.js?v=20260703a"></script>
   <script>
     var A = window.AID;
     document.getElementById('themeBtn').onclick = function () { A.toggleTheme(); };
@@ -104,7 +106,7 @@
       });
       if (!hit.length) return '';
       var h = '<div class="section-title"><span class="bar"></span>相关资讯</div><div class="rel-news">';
-      hit.forEach(function (n) { h += '<a href="detail.html?id=' + n.id + '">' + A.esc(n.title) + '</a>'; });
+      hit.slice(0, 20).forEach(function (n) { h += '<a href="detail.html?id=' + encodeURIComponent(String(n.id)) + '">' + A.esc(n.title) + '</a>'; });
       return h + '</div>';
     }
 
@@ -112,18 +114,25 @@
       var main = document.getElementById('main');
       var symbol = A.getParam('symbol');
 
-      A.loadNews([], async function (news) {
-        if (symbol) {
+      if (symbol) {
+        // 单标的页:行情先出,相关资讯用小的热索引补充(不阻塞行情)
+        (async function () {
           var d = await getQuotes([symbol]);
           var q = (d.quotes || [])[0];
           main.innerHTML = (q ? heroCard(q) : '<div class="empty">未找到 ' + A.esc(symbol) + ' 的行情</div>') +
-            noteHTML(d) + relatedNews(symbol, news);
-        } else {
-          // 行情 tab:汇总今日资讯里的全部利好标的
+            noteHTML(d) + '<div id="rel"></div>';
+          A.fetchJSON('data/index-hot.json', 10000).then(function (idx) {
+            document.getElementById('rel').innerHTML = relatedNews(symbol, idx && idx.items);
+          }).catch(function () {});
+        })();
+      } else {
+        // 行情 tab:直接读管线产出的当日标的清单(几 KB),不再下载新闻数据
+        (async function () {
           var syms = [];
-          (news || []).forEach(function (n) {
-            (n.stocks || []).forEach(function (s) { if (s.ticker && syms.indexOf(s.ticker) < 0) syms.push(s.ticker); });
-          });
+          try {
+            var tk = await A.fetchJSON('data/tickers.json', 10000);
+            syms = (tk || []).map(function (t) { return t.ticker; }).filter(Boolean);
+          } catch (e) {}
           if (!syms.length) { main.innerHTML = '<div class="empty">今日资讯暂无关联标的</div>'; return; }
           var limit = 60;
           var d = await getQuotes(syms.slice(0, limit));
@@ -131,8 +140,8 @@
           main.innerHTML = '<div class="section-title"><span class="bar"></span>今日资讯关联标的</div>' +
             (d.quotes && d.quotes.length ? listRows(d.quotes) : '<div class="empty">行情加载失败</div>') +
             truncated + noteHTML(d);
-        }
-      });
+        })();
+      }
     })();
   </script>
 </body>

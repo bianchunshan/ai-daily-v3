@@ -5,7 +5,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
   <meta name="theme-color" content="#e60012">
   <title>前沿科技日报</title>
-  <link rel="stylesheet" href="assets/theme.css?v=20260623b">
+  <meta name="description" content="AI 驱动的中文科技日报:每 10 分钟聚合全球科技资讯,AI 翻译摘要、分类打标,并推断关联标的与实时行情。">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="前沿科技日报">
+  <meta property="og:description" content="AI 驱动的中文科技日报:全球科技资讯 AI 翻译摘要、今日综述、关联标的实时行情。">
+  <meta property="og:url" content="https://ai-daily-v3.vercel.app/">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="assets/theme.css?v=20260703a">
   <script>
     // 预绘制主题，避免暗色闪屏
     (function () {
@@ -25,6 +31,10 @@
         <button class="icon-btn" id="searchBtn" aria-label="搜索">🔍</button>
         <button class="icon-btn" id="themeBtn" aria-label="切换主题">🌙</button>
       </div>
+    </div>
+    <div class="searchbar" id="searchBar" hidden>
+      <input id="searchInput" type="search" placeholder="搜索标题、摘要、标的…" maxlength="60" autocomplete="off">
+      <button id="searchGo">搜索</button>
     </div>
     <nav class="tabs" id="tabs"></nav>
   </header>
@@ -67,20 +77,22 @@
     </div>
   </div>
 
-  <script src="assets/app.js?v=20260627a"></script>
+  <script src="assets/app.js?v=20260703a"></script>
   <script>
     var FALLBACK_NEWS = [
       { id: 1, title: "出口管制重塑全球芯片供应链", summary: "关键技术和先进制程设备成为地缘科技竞争焦点，企业供应链布局面临调整。", category: "地缘科技", tags: ["出口管制"], source: "示例资讯", time: "2小时前", url: "#", stocks: [] },
-      { id: 2, title: "英伟达GTC大会聚焦Rubin架构 AI算力再跃升", summary: "英伟达展示最新AI芯片与基础设施技术突破，市场期待新一代架构发布。", category: "AI 基础设施", tags: ["AI芯片"], source: "示例资讯", time: "4小时前", url: "#", stocks: [{ name: "英伟达", change: "+2.1%", trend: "up" }] },
+      { id: 2, title: "英伟达GTC大会聚焦Rubin架构 AI算力再跃升", summary: "英伟达展示最新AI芯片与基础设施技术突破，市场期待新一代架构发布。", category: "AI 基础设施", tags: ["AI芯片"], source: "示例资讯", time: "4小时前", url: "#", stocks: [{ name: "英伟达", ticker: "NVDA", confidence: "high" }] },
       { id: 3, title: "SpaceX星舰第四次试飞成功 助推器软着陆", summary: "星舰完成第四次轨道试飞，助推器成功在墨西哥湾软着陆。", category: "商业航天", tags: ["SpaceX"], source: "澎湃新闻", time: "6小时前", url: "#", stocks: [] }
     ];
 
     var A = window.AID;
-    var ALL = [], CURRENT = '推荐', DIGEST = null;
+    var ALL = [], CURRENT = '推荐', DIGEST = null, LOADED_FULL = false;
     var FEED = [], SHOWN = 0, PAGE = 60;   // 分页:累计后内容多,逐页渲染
+    var SEARCHQ = '';                       // 非空表示处于搜索结果视图
+    var STATE_KEY = 'aid.home.v1';
 
     function newsTime(n) { return A.relTime(n.ts) || n.time || ''; }
-    function goCall(id) { return 'go(' + JSON.stringify(String(id)).replace(/"/g, '&quot;') + ')'; }
+    function detailHref(n) { return 'detail.html?id=' + encodeURIComponent(String(n.id)); }
 
     function metaRow(n) {
       var h = '<span class="chip">' + A.esc(n.category) + '</span>';
@@ -93,35 +105,35 @@
     }
 
     function heroHTML(n) {
-      return '<div class="hero" onclick="' + goCall(n.id) + '">' +
+      return '<a class="hero" href="' + detailHref(n) + '">' +
         A.coverHTML(n, { label: false }) +
         '<div class="hero-scrim"></div>' +
         '<div class="hero-text">' +
           '<span class="hero-badge">🔥 头条 · ' + A.esc(n.category) + '</span>' +
           '<div class="hero-title">' + A.esc(n.title) + '</div>' +
           '<div class="hero-meta">' + A.esc(n.source || '') + (newsTime(n) ? ' · ' + A.esc(newsTime(n)) : '') + '</div>' +
-        '</div></div>';
+        '</div></a>';
     }
 
     function itemHTML(n) {
-      return '<div class="item" onclick="' + goCall(n.id) + '">' +
+      return '<a class="item" href="' + detailHref(n) + '">' +
         '<div class="item-body">' +
           '<div class="item-title">' + A.esc(n.title) + '</div>' +
           (n.summary ? '<div class="item-summary">' + A.esc(n.summary) + '</div>' : '') +
           '<div class="item-meta">' + metaRow(n) + '</div>' +
         '</div>' +
         A.coverHTML(n) +
-      '</div>';
+      '</a>';
     }
 
     function hotHTML(list) {
       var top = list.slice().sort(function (a, b) { return A.heat(b) - A.heat(a); }).slice(0, 6);
       var h = '<div class="hot"><div class="hot-head">🔥 热度指数</div>';
       top.forEach(function (n, i) {
-        h += '<div class="hot-row" onclick="' + goCall(n.id) + '">' +
+        h += '<a class="hot-row" href="' + detailHref(n) + '">' +
           '<span class="hot-rank">' + (i + 1) + '</span>' +
           '<span class="hot-title">' + A.esc(n.title) + '</span>' +
-          '<span class="hot-heat">' + A.heat(n) + '°</span></div>';
+          '<span class="hot-heat">' + A.heat(n) + '°</span></a>';
       });
       return h + '</div>';
     }
@@ -131,12 +143,12 @@
       var h = '<div class="digest"><div class="digest-head">🤖 今日综述 · AI 生成</div>' +
         '<div class="digest-text">' + A.esc(DIGEST.text) + '</div>';
       var hls = (DIGEST.highlights || []).map(function (id) {
-        return ALL.filter(function (x) { return x.id === id; })[0];
+        return ALL.filter(function (x) { return String(x.id) === String(id); })[0];
       }).filter(Boolean);
       if (hls.length) {
         h += '<div class="digest-hl">';
         hls.forEach(function (n, i) {
-          h += '<a href="javascript:void(0)" onclick="' + goCall(n.id) + '">' +
+          h += '<a href="' + detailHref(n) + '">' +
             '<span class="n">' + (i + 1) + '</span><span class="t">' + A.esc(n.title) + '</span></a>';
         });
         h += '</div>';
@@ -144,8 +156,15 @@
       return h + '</div>';
     }
 
-    function renderFeed() {
-      document.getElementById('feed').innerHTML = FEED.slice(0, SHOWN).map(itemHTML).join('');
+    // 分页渲染:只把新增区间 append 进列表,不重建已渲染的 DOM
+    var RENDERED = 0;
+    function renderFeed(reset) {
+      var feed = document.getElementById('feed');
+      if (reset) { feed.innerHTML = ''; RENDERED = 0; }
+      if (SHOWN > RENDERED) {
+        feed.insertAdjacentHTML('beforeend', FEED.slice(RENDERED, SHOWN).map(itemHTML).join(''));
+        RENDERED = Math.min(SHOWN, FEED.length);
+      }
       var more = document.getElementById('more');
       more.innerHTML = SHOWN < FEED.length
         ? '<div class="more-btn" onclick="loadMore()">加载更多(剩 ' + (FEED.length - SHOWN) + ' 条)</div>'
@@ -153,27 +172,45 @@
     }
     window.loadMore = function () { SHOWN += PAGE; renderFeed(); };
 
-    function render() {
-      var list = CURRENT === '推荐' ? ALL : ALL.filter(function (n) { return n.category === CURRENT; });
-      var view = document.getElementById('view');
-      if (!list.length) { view.innerHTML = '<div class="empty">该分类暂无内容</div>'; return; }
+    function searchHits(q) {
+      var needle = q.toLowerCase();
+      return ALL.filter(function (n) {
+        var stocks = (n.stocks || []).map(function (s) { return (s.name || '') + ' ' + (s.ticker || ''); }).join(' ');
+        var tags = (n.tags || []).join(' ');
+        var hay = [n.title, n.summary, n.category, n.source, tags, stocks].join(' ').toLowerCase();
+        return hay.indexOf(needle) >= 0;
+      });
+    }
 
+    // opts.keepShown: 静默刷新时保留已展开的分页;opts.keepScroll: 不回到顶部
+    function render(opts) {
+      opts = opts || {};
+      var view = document.getElementById('view');
       var html = '';
-      if (CURRENT === '推荐') {
-        html += digestHTML();
-        html += heroHTML(list[0]);
-        html += hotHTML(list);
-        html += '<div class="section-title"><span class="bar"></span>最新资讯</div>';
-        FEED = list.slice(1);
+
+      if (SEARCHQ) {
+        FEED = searchHits(SEARCHQ);
+        html += '<div class="section-title"><span class="bar"></span>“' + A.esc(SEARCHQ) + '” · ' + FEED.length + ' 条</div>';
+        if (!FEED.length) { view.innerHTML = html + '<div class="empty">没有匹配的新闻</div>'; return; }
       } else {
-        html += '<div class="section-title"><span class="bar"></span>' + A.esc(CURRENT) + ' · ' + list.length + ' 条</div>';
-        FEED = list;
+        var list = CURRENT === '推荐' ? ALL : ALL.filter(function (n) { return n.category === CURRENT; });
+        if (!list.length) { view.innerHTML = '<div class="empty">该分类暂无内容</div>'; return; }
+        if (CURRENT === '推荐') {
+          html += digestHTML();
+          html += heroHTML(list[0]);
+          html += hotHTML(list);
+          html += '<div class="section-title"><span class="bar"></span>最新资讯</div>';
+          FEED = list.slice(1);
+        } else {
+          html += '<div class="section-title"><span class="bar"></span>' + A.esc(CURRENT) + ' · ' + list.length + ' 条</div>';
+          FEED = list;
+        }
       }
       html += '<div class="feed" id="feed"></div><div id="more"></div>';
       view.innerHTML = html;
-      SHOWN = PAGE;
-      renderFeed();
-      window.scrollTo(0, 0);
+      if (!opts.keepShown || SHOWN < PAGE) SHOWN = PAGE;
+      renderFeed(true);
+      if (!opts.keepScroll) window.scrollTo(0, 0);
     }
 
     function buildTabs() {
@@ -187,6 +224,7 @@
         if (ib < 0) ib = 999;
         return ia - ib || a.localeCompare(b, 'zh-Hans-CN');
       }));
+      if (cats.indexOf(CURRENT) < 0) CURRENT = '推荐';
       var el = document.getElementById('tabs');
       el.innerHTML = cats.map(function (c) {
         return '<div class="tab' + (c === CURRENT ? ' active' : '') + '" data-cat="' + A.esc(c) + '">' + A.esc(c) + '</div>';
@@ -194,6 +232,8 @@
       el.querySelectorAll('.tab').forEach(function (t) {
         t.onclick = function () {
           CURRENT = t.getAttribute('data-cat');
+          SEARCHQ = '';
+          document.getElementById('searchInput').value = '';
           el.querySelectorAll('.tab').forEach(function (x) { x.classList.remove('active'); });
           t.classList.add('active');
           render();
@@ -201,12 +241,49 @@
       });
     }
 
-    window.go = function (id) { location.href = 'detail.html?id=' + id; };
+    // ---------- 浏览状态记忆:从详情页返回时恢复分类、分页和滚动位置 ----------
+    function saveState() {
+      try {
+        sessionStorage.setItem(STATE_KEY, JSON.stringify({ cat: CURRENT, shown: SHOWN, y: window.scrollY || 0 }));
+      } catch (e) {}
+    }
+    function readState() {
+      try { return JSON.parse(sessionStorage.getItem(STATE_KEY) || 'null'); } catch (e) { return null; }
+    }
+    window.addEventListener('pagehide', saveState);
+
+    var pendingY = -1;
+    function applyPendingScroll() {
+      if (pendingY >= 0) { window.scrollTo(0, pendingY); }
+    }
 
     // 主题切换（两个入口）
     function bindTheme(btn) { if (btn) btn.onclick = function () { A.toggleTheme(); }; }
     bindTheme(document.getElementById('themeBtn'));
     bindTheme(document.getElementById('themeBtn2'));
+
+    // ---------- 搜索 ----------
+    function doSearch() {
+      var q = document.getElementById('searchInput').value.trim();
+      SEARCHQ = q;
+      if (!q) { render(); return; }
+      render();
+    }
+    document.getElementById('searchBtn').onclick = function () {
+      var bar = document.getElementById('searchBar');
+      bar.hidden = !bar.hidden;
+      if (!bar.hidden) { document.getElementById('searchInput').focus(); }
+      else if (SEARCHQ) { SEARCHQ = ''; document.getElementById('searchInput').value = ''; render(); }
+    };
+    document.getElementById('searchGo').onclick = doSearch;
+    document.getElementById('searchInput').addEventListener('keydown', function (e) {
+      if (e.key === 'Enter' && !e.isComposing) doSearch();
+    });
+    document.getElementById('searchInput').addEventListener('search', function () {
+      // 点输入框自带的 ✕ 清空时退出搜索视图
+      if (!this.value && SEARCHQ) { SEARCHQ = ''; render(); }
+    });
+
     // ---------- AI 对话 ----------
     var chatBusy = false;
     function openChat() {
@@ -266,32 +343,33 @@
     document.getElementById('chatClose').onclick = closeChat;
     document.getElementById('chatMask').onclick = closeChat;
     document.getElementById('chatSend').onclick = sendChat;
-    document.getElementById('chatInput').addEventListener('keydown', function (e) { if (e.key === 'Enter') sendChat(); });
+    document.getElementById('chatInput').addEventListener('keydown', function (e) {
+      // isComposing:中文输入法选词的回车不触发发送
+      if (e.key === 'Enter' && !e.isComposing) sendChat();
+    });
 
-    document.getElementById('searchBtn').onclick = function () {
-      var q = prompt('搜索新闻关键词：');
-      if (q == null) return;
-      q = q.trim();
-      if (!q) { CURRENT = '推荐'; buildTabs(); render(); return; }
-      var needle = q.toLowerCase();
-      var hits = ALL.filter(function (n) {
-        var stocks = (n.stocks || []).map(function (s) { return (s.name || '') + ' ' + (s.ticker || '') + ' ' + (s.reason || ''); }).join(' ');
-        var tags = (n.tags || []).join(' ');
-        var hay = [n.title, n.summary, n.body, n.category, n.source, tags, stocks].join(' ').toLowerCase();
-        return hay.indexOf(needle) >= 0;
-      });
-      document.getElementById('view').innerHTML =
-        '<div class="section-title"><span class="bar"></span>“' + A.esc(q) + '” · ' + hits.length + ' 条</div>' +
-        (hits.length ? '<div class="feed">' + hits.map(itemHTML).join('') + '</div>' : '<div class="empty">没有匹配的新闻</div>');
-    };
-
-    A.loadNews(FALLBACK_NEWS, function (data, digest) {
+    // ---------- 数据加载:热索引先渲染,全量到达后静默补齐 ----------
+    var firstRender = true;
+    A.loadNews(FALLBACK_NEWS, function (data, digest, done) {
       ALL = data;
-      DIGEST = digest;
+      DIGEST = digest || DIGEST;
+      LOADED_FULL = !!done;
       document.getElementById('skeleton').style.display = 'none';
-      buildTabs();
-      render();
-      if (A.getParam('chat') === '1') openChat();
+      if (firstRender) {
+        firstRender = false;
+        var st = readState();
+        if (st && st.cat) { CURRENT = st.cat; SHOWN = Math.max(PAGE, st.shown || PAGE); pendingY = st.y || 0; }
+        buildTabs();
+        render({ keepShown: true, keepScroll: true });
+        applyPendingScroll();
+        if (A.getParam('chat') === '1') openChat();
+      } else {
+        // 全量索引到达:更新分类计数与尾部列表;顶部内容不变,保留滚动位置
+        buildTabs();
+        render({ keepShown: true, keepScroll: true });
+        applyPendingScroll();
+      }
+      if (done) pendingY = -1;
     });
   </script>
 </body>

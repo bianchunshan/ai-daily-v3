@@ -5,7 +5,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
   <meta name="theme-color" content="#e60012">
   <title>资讯详情 · 前沿科技日报</title>
-  <link rel="stylesheet" href="assets/theme.css?v=20260623b">
+  <meta name="description" content="前沿科技日报资讯详情:AI 整理的中文正文与关联标的。">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="assets/theme.css?v=20260703a">
   <script>
     (function () {
       try {
@@ -26,19 +28,18 @@
     <div class="empty">加载中…</div>
   </article>
 
-  <script src="assets/app.js?v=20260627a"></script>
+  <script src="assets/app.js?v=20260703a"></script>
   <script>
-    var FALLBACK_NEWS = [
-      { id: 1, title: "出口管制重塑全球芯片供应链", summary: "关键技术和先进制程设备成为地缘科技竞争焦点，企业供应链布局面临调整。", category: "地缘科技", tags: ["出口管制"], source: "示例资讯", time: "2小时前", url: "#", stocks: [] }
-    ];
     var A = window.AID;
 
-    function render(list) {
-      var id = A.getParam('id');
+    function notFound() {
+      document.getElementById('article').innerHTML =
+        '<div class="empty">未找到这条新闻<br><br><a class="srclink" href="index.html" style="color:var(--brand-ink)">← 返回首页</a></div>';
+    }
+
+    function render(news) {
       var el = document.getElementById('article');
-      var news = null;
-      for (var i = 0; i < list.length; i++) { if (String(list[i].id) === String(id)) { news = list[i]; break; } }
-      if (!news) { el.innerHTML = '<div class="empty">未找到这条新闻<br><br><a class="srclink" href="index.html" style="color:var(--brand-ink)">← 返回首页</a></div>'; return; }
+      if (!news) { notFound(); return; }
 
       document.title = news.title + ' · 前沿科技日报';
 
@@ -47,7 +48,7 @@
       html += '<div class="article-meta"><span class="chip">' + A.esc(news.category) + '</span>' +
         (news.source ? '<span>' + A.esc(news.source) + '</span>' : '') +
         ((A.relTime(news.ts) || news.time) ? '<span class="dot"></span><span>' + A.esc(A.relTime(news.ts) || news.time) + '</span>' : '') +
-        '<span class="dot"></span><span>热度指数 ' + A.heat(news) + '</span></div>';
+        '</div>';
 
       var fallbackBody = news.summary || '这条资讯的正文暂未整理完成,可先查看原文报道。';
       var paras = (news.body && news.body.trim()) ? news.body.split(/\n+/) : [fallbackBody];
@@ -79,7 +80,8 @@
       if (cov) { cov.style.height = '190px'; cov.style.borderRadius = '14px'; cov.style.marginBottom = '18px'; }
     }
 
-    A.loadNews(FALLBACK_NEWS, render);
+    // 只取这条新闻所在的分片(几十 KB),不再下载全量数据
+    A.loadItem(A.getParam('id'), render);
   </script>
 </body>
 </html>

@@ -1,6 +1,11 @@
 #!/usr/bin/env python3
 """
-AI 富化管线:抓取英文新闻 -> 用 Kimi/Qwen 翻译/改写/分类/关联 -> 写中文 news_data_latest.js
+AI 富化管线:抓取英文新闻 -> 用 Kimi/Qwen 翻译/改写/分类/关联 -> 写 data/ 下的拆分 JSON
+- data/index.json      全量瘦索引(无 body),供首页/搜索/问AI
+- data/index-hot.json  最新 HOT 条,首屏先渲染
+- data/items/<xx>.json 按 id 前 2 位分片的完整条目(含 body),详情页按需取
+- data/tickers.json    当日全部关联标的,行情页直读
+- sitemap.xml          详情页 URL 清单
 - 默认模型:kimi-for-coding(Kimi Coding Plan Anthropic 兼容端点),key 取环境变量 KIMI_KEY
 - 仅用标准库,无需 pip 依赖(与 GitHub Action 保持一致)
 - 原则:股票只输出 名称+代码+关联理由,绝不编造价格/涨跌
@@ -21,6 +26,12 @@ from fetch_rss import fetch_all  # RSS 抓取(免费、无配额,英文国际源
 
 KEEP = int(os.environ.get('AID_KEEP', 2000))  # 每个板块的累计上限(到顶才淘汰该板块最旧;可环境变量覆盖)
 CAP = int(os.environ.get('AID_CAP', 50))       # 单次最多富化多少条新条目(封顶模型成本;可覆盖)
+HOT = int(os.environ.get('AID_HOT', 400))      # 首屏热索引条数(index-hot.json,先渲染再补全量)
+SITE_BASE = os.environ.get('AID_SITE_BASE', 'https://ai-daily-v3.vercel.app').rstrip('/')
+DATA_DIR = 'data'
+ITEMS_DIR = os.path.join(DATA_DIR, 'items')
+# 索引里只放列表/搜索需要的字段;body、标的理由等重字段留在按 id 分片的详情文件里
+INDEX_FIELDS = ('id', 'title', 'summary', 'category', 'source', 'time', 'ts', 'url', 'image', 'tags')
 MIN_SOURCE_CHARS = 80                          # 原始材料太少时先补抓,仍不足则不入库
 MIN_SUMMARY_CHARS = 20
 MIN_BODY_CHARS = 50
@@ -347,7 +358,19 @@ def _extract_array(txt, varname):
 
 
 def read_existing():
-    """读取已有 news_data_latest.js 的 newsData,用于去重与保留最近条目。"""
+    """读取已有数据(data/items/ 分片),用于去重与保留最近条目。兼容旧版 news_data_latest.js。"""
+    if os.path.isdir(ITEMS_DIR):
+        items = []
+        try:
+            for fn in sorted(os.listdir(ITEMS_DIR)):
+                if fn.endswith('.json'):
+                    shard = json.load(open(os.path.join(ITEMS_DIR, fn), encoding='utf-8'))
+                    items.extend(shard.values())
+            items.sort(key=ts_key, reverse=True)
+            return items
+        except Exception as e:
+            print('读取分片数据失败,当作空:', e)
+            return []
     if not os.path.exists('news_data_latest.js'):
         return []
     try:
@@ -376,14 +399,64 @@ def write_seen(seen):
     json.dump(seen[-SEEN_MAX:], open(SEEN_FILE, 'w', encoding='utf-8'), ensure_ascii=False)
 
 
+def _dump_json(path, obj):
+    with open(path, 'w', encoding='utf-8') as f:
+        json.dump(obj, f, ensure_ascii=False, separators=(',', ':'), sort_keys=False)
+        f.write('\n')
+
+
+def _index_entry(n):
+    """列表/搜索用的瘦身条目:去掉 body,标的只留 名称/代码/置信度。"""
+    e = {k: n.get(k, '') for k in INDEX_FIELDS}
+    e['stocks'] = [{'name': s.get('name', ''), 'ticker': s.get('ticker', ''),
+                    'confidence': s.get('confidence', '')}
+                   for s in (n.get('stocks') or []) if s.get('name')]
+    return e
+
+
+def shard_of(item_id):
+    return str(item_id)[:2]
+
+
+def write_sitemap(items):
+    urls = [f'{SITE_BASE}/', f'{SITE_BASE}/stock.html']
+    urls += [f'{SITE_BASE}/detail.html?id={n["id"]}' for n in items]
+    with open('sitemap.xml', 'w', encoding='utf-8') as f:
+        f.write('<?xml version="1.0" encoding="UTF-8"?>\n')
+        f.write('<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n')
+        for u in urls:
+            f.write(f'  <url><loc>{u.replace("&", "&amp;")}</loc></url>\n')
+        f.write('</urlset>\n')
+
+
 def write_data(items, digest):
-    with open('news_data_latest.js', 'w', encoding='utf-8') as f:
-        f.write('const newsData = ')
-        json.dump(items, f, ensure_ascii=False, indent=2)
-        f.write(';\n')
-        f.write('const newsDigest = ')
-        json.dump(digest, f, ensure_ascii=False, indent=2)
-        f.write(';\n')
+    """写拆分后的数据:瘦索引(全量+热门) + 按 id 前缀分片的详情 + 当日标的 + sitemap。"""
+    os.makedirs(ITEMS_DIR, exist_ok=True)
+    meta = {'generatedAt': now_iso(), 'total': len(items), 'digest': digest}
+
+    index_items = [_index_entry(n) for n in items]
+    _dump_json(os.path.join(DATA_DIR, 'index.json'), dict(meta, items=index_items))
+    _dump_json(os.path.join(DATA_DIR, 'index-hot.json'), dict(meta, items=index_items[:HOT]))
+
+    shards = {}
+    for n in items:
+        shards.setdefault(shard_of(n['id']), {})[n['id']] = n
+    for key, shard in shards.items():
+        _dump_json(os.path.join(ITEMS_DIR, f'{key}.json'), dict(sorted(shard.items())))
+    for fn in os.listdir(ITEMS_DIR):   # 清掉已无条目的旧分片
+        if fn.endswith('.json') and fn[:-5] not in shards:
+            os.remove(os.path.join(ITEMS_DIR, fn))
+
+    tickers, seen_tk = [], set()
+    for n in items:
+        for s in (n.get('stocks') or []):
+            tk = (s.get('ticker') or '').strip()
+            if tk and tk not in seen_tk:
+                seen_tk.add(tk)
+                tickers.append({'ticker': tk, 'name': s.get('name', '')})
+    _dump_json(os.path.join(DATA_DIR, 'tickers.json'), tickers)
+
+    write_sitemap(items)
 
 
 def main():

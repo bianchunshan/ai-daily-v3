@@ -111,89 +111,66 @@
     return next;
   }
 
-  var DEFAULT_NEWS_DATA_URL = 'https://raw.githubusercontent.com/bianchunshan/ai-daily-v3/main/news_data_latest.js';
-
-  function parseNewsModule(txt) {
-    var data = new Function(
-      txt + '\n;return {' +
-      'newsData: (typeof newsData !== "undefined" && Array.isArray(newsData)) ? newsData : [],' +
-      'newsDigest: (typeof newsDigest !== "undefined") ? newsDigest : null' +
-      '};'
-    )();
-    return data || { newsData: [], newsDigest: null };
-  }
-
-  // 加载数据：优先 GitHub raw 最新数据，失败再读部署包内的数据，最后用内置兜底。
-  // 回调 cb(newsList, digest)，digest 可能为 null。
-  function loadNews(fallback, cb) {
-    if (!global.fetch) {
-      loadBundledNews(fallback, cb);
-      return;
-    }
-    var remoteUrl = global.AID_NEWS_DATA_URL || DEFAULT_NEWS_DATA_URL;
+  // 数据与站点同源部署(data/*.json),走浏览器 ETag 协商缓存,无需 cache-buster。
+  function fetchJSON(url, timeoutMs) {
     var controller = global.AbortController ? new AbortController() : null;
-    var remoteTimer = controller ? setTimeout(function () { controller.abort(); }, 8000) : null;
-
-    fetch(remoteUrl + '?t=' + Date.now(), {
-      cache: 'no-store',
-      signal: controller && controller.signal
-    }).then(function (r) {
-      if (!r.ok) throw new Error('news data HTTP ' + r.status);
-      return r.text();
-    }).then(function (txt) {
-      if (remoteTimer) clearTimeout(remoteTimer);
-      var parsed = parseNewsModule(txt);
-      if (parsed.newsData && parsed.newsData.length) {
-        cb(parsed.newsData, parsed.newsDigest || null);
-        return;
-      }
-      throw new Error('empty remote news data');
-    }).catch(function () {
-      if (remoteTimer) clearTimeout(remoteTimer);
-      loadBundledNews(fallback, cb);
+    var timer = controller ? setTimeout(function () { controller.abort(); }, timeoutMs || 15000) : null;
+    return fetch(url, { signal: controller && controller.signal }).then(function (r) {
+      if (timer) clearTimeout(timer);
+      if (!r.ok) throw new Error(url + ' HTTP ' + r.status);
+      return r.json();
+    }, function (e) {
+      if (timer) clearTimeout(timer);
+      throw e;
     });
   }
 
-  function loadBundledNews(fallback, cb) {
-    var s = document.createElement('script');
-    var done = false;
-    var timer = setTimeout(function () {
-      if (done) return;
-      done = true;
-      cb(fallback, null);
-    }, 12000);
-    s.src = 'news_data_latest.js';
-    s.onload = function () {
-      if (done) return;
-      done = true;
-      clearTimeout(timer);
-      var data = (typeof newsData !== 'undefined' && newsData.length) ? newsData : fallback;
-      var digest = (typeof newsDigest !== 'undefined') ? newsDigest : null;
-      cb(data, digest);
-    };
-    s.onerror = function () {
-      if (done) return;
-      done = true;
-      clearTimeout(timer);
-      cb(fallback, null);
-    };
-    document.body.appendChild(s);
+  // 加载新闻索引:先取小的热索引(index-hot.json)快速首屏,再后台补全量(index.json)。
+  // 回调 cb(newsList, digest, done);done=false 表示热索引先到、全量稍后还会再回调一次。
+  function loadNews(fallback, cb) {
+    function digestOf(d) { return (d && d.digest && d.digest.text) ? d.digest : null; }
+    fetchJSON('data/index-hot.json', 10000).then(function (hot) {
+      if (!hot || !hot.items || !hot.items.length) throw new Error('empty hot index');
+      cb(hot.items, digestOf(hot), false);
+      fetchJSON('data/index.json', 30000).then(function (full) {
+        if (full && full.items && full.items.length >= hot.items.length) {
+          cb(full.items, digestOf(full) || digestOf(hot), true);
+        }
+      }).catch(function () {});
+    }).catch(function () {
+      // 热索引失败(比如老部署),直接尝试全量,再不行用内置兜底
+      fetchJSON('data/index.json', 30000).then(function (full) {
+        if (full && full.items && full.items.length) cb(full.items, digestOf(full), true);
+        else cb(fallback, null, true);
+      }).catch(function () { cb(fallback, null, true); });
+    });
+  }
+
+  // 详情条目按 id 前 2 位分片存放,详情页只取所在分片(~几十 KB)。
+  function loadItem(id, cb) {
+    id = String(id || '');
+    if (!/^[0-9a-f]{6,}$/.test(id)) { cb(null); return; }
+    fetchJSON('data/items/' + id.slice(0, 2) + '.json', 15000).then(function (shard) {
+      cb((shard && shard[id]) || null);
+    }).catch(function () { cb(null); });
   }
 
   // 关联标的标签：只展示 名称(+代码)，鼠标悬停看关联理由；绝不显示价格/涨跌
+  // 新闻卡片本身是 <a>,这里用 span+跳转避免嵌套链接;stopPropagation 防止触发卡片"进详情"
   function stockTag(s) {
     if (!s || !s.name) return '';
     var label = esc(s.name) + (s.ticker ? ' ' + esc(s.ticker) : '');
     var href = s.ticker ? 'stock.html?symbol=' + encodeURIComponent(s.ticker) : 'stock.html';
     var title = s.reason ? ' title="' + esc(s.reason) + '"' : '';
-    // stopPropagation:别让点击冒泡到新闻卡片的"进详情"
-    return '<a class="stock-pill rel" href="' + href + '" onclick="event.stopPropagation()"' + title + '>📈 ' + label + '</a>';
+    return '<span class="stock-pill rel" role="link" tabindex="0"' + title +
+      ' onclick="event.stopPropagation();event.preventDefault();location.href=\'' + href + '\'">📈 ' + label + '</span>';
   }
 
   global.AID = {
     catMeta: catMeta, coverHTML: coverHTML, heat: heat, comments: comments,
     esc: esc, getParam: getParam, initTheme: initTheme, toggleTheme: toggleTheme,
-    loadNews: loadNews, stockTag: stockTag, relTime: relTime, safeUrl: safeUrl,
+    loadNews: loadNews, loadItem: loadItem, fetchJSON: fetchJSON,
+    stockTag: stockTag, relTime: relTime, safeUrl: safeUrl,
     catOrder: CAT_ORDER.slice()
   };
 })(window);

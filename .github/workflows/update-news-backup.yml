@@ -42,11 +42,11 @@ jobs:
       - name: 校验数据非空（防止把线上覆盖成空白）
         id: guard
         run: |
-          COUNT=$(grep -c '"id"' news_data_latest.js || echo 0)
-          echo "本次抓到 $COUNT 条新闻"
+          COUNT=$(python3 -c "import json;print(len(json.load(open('data/index.json'))['items']))" 2>/dev/null || echo 0)
+          echo "当前数据共 $COUNT 条新闻"
           if [ "$COUNT" -lt 10 ]; then
-            echo "::warning::抓取结果少于 10 条，放弃本次更新，保留旧数据"
-            git checkout -- news_data_latest.js
+            echo "::warning::数据少于 10 条，放弃本次更新，保留旧数据"
+            git checkout -- data sitemap.xml 2>/dev/null || true
             echo "ok=false" >> "$GITHUB_OUTPUT"
           else
             echo "ok=true" >> "$GITHUB_OUTPUT"
@@ -58,11 +58,11 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          if git diff --quiet -- news_data_latest.js seen_urls.json; then
+          git add data sitemap.xml seen_urls.json
+          if git diff --cached --quiet; then
             echo "数据无变化，跳过提交"
             echo "changed=false" >> "$GITHUB_OUTPUT"
           else
-            git add news_data_latest.js seen_urls.json
             git commit -m "chore: 自动更新新闻（AI 中文富化）"
             pushed=0
             for i in 1 2 3 4 5; do
