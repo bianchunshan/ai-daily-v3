@@ -1,5 +1,128 @@
 const newsData = [
   {
+    "id": "f9fccce1c98bf543",
+    "title": "一加性能新机曝光：搭载骁龙8E5与185Hz直屏",
+    "summary": "博主爆料称一加子系性能线迭代工程机将搭载骁龙8E5处理器、6.78英寸1.5K 185Hz直屏、9000mAh电池及百瓦级快充。若最终量产，该机在屏幕刷新率、电池容量与芯片性能上均较一加Ace 6有进一步提升。",
+    "body": "据数码博主@数码闲聊站爆料，某厂子系性能线迭代新机预计为一加旗下产品。该系列工程机搭载骁龙8E5（SM8850）及骁龙8E5 XX版（SM8850Q）处理器，正面采用6.78英寸1.5K 185Hz超高刷直屏，内置约9000mAh电池，支持100/120W满血闪充与风扇散热，外观设计偏向简约。影像方面，Pro版本可能会配备5000万像素3.5X JN5潜望镜头，具体规格尚待确认。\n\n爆料还指出，SM8850为满血版，SM8850Q版本可能缩减部分外围配置，性能体质或略逊。作为参考，去年10月发布的一加Ace 6搭载骁龙8至尊版处理器、165Hz高刷屏、7800mAh电池及120W快充，起售价2599元。\n\n此次曝光意味着一加仍在子系性能线上持续堆料，通过更高刷新率屏幕、更大电池与新一代骁龙平台强化产品竞争力，相关供应链厂商有望受益。",
+    "category": "消费电子",
+    "tags": [
+      "智能手机",
+      "一加",
+      "高通",
+      "骁龙"
+    ],
+    "source": "IT之家",
+    "time": "刚刚",
+    "ts": "2026-07-03T13:07:03+00:00",
+    "url": "https://www.ithome.com/0/972/438.htm",
+    "image": "https://img.ithome.com/newsuploadfiles/2026/7/6d470a3e-d42a-46ec-ab23-93eeb06de6e6.png?x-bce-process=image/format,f_auto",
+    "stocks": [
+      {
+        "name": "高通",
+        "ticker": "QCOM",
+        "reason": "新机搭载骁龙8E5（SM8850）平台，若放量将直接拉动高通旗舰SoC出货",
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
+    "id": "27f21a7298979f1e",
+    "title": "美国州际公路70周年：Quarterhill探讨交通智能化升级",
+    "summary": "在美国州际公路系统启用70周年之际，加拿大智能交通公司Quarterhill表示，其AI平台正帮助全球交通机构优化道路安全、缓解拥堵，并支持自动驾驶车队发展。",
+    "body": "1956年6月29日，美国总统艾森豪威尔签署《联邦援助公路法》，授权建设总长41,000英里的州际公路网络。该体系如今承担美国近25%的汽车交通量，每年运输数万亿美元货物。随着独立日出行高峰临近，美国道路桥梁老化、货运安全管理以及自动驾驶车队增长带来的挑战受到关注。\n\nQuarterhill成立于1992年，总部位于多伦多，自称是智能交通系统（ITS）行业领导者，通过智能基础设施系统提升出行效率与道路安全。该公司表示，其AI平台每年处理数十亿笔交易，对数百万辆商用车进行安全检查，并帮助全球交通机构优化数千条车道的车流。在自动驾驶卡车等车队规模不断扩大的背景下，智能交通基础设施被视为保障安全与效率的关键支撑。",
+    "category": "机器人",
+    "tags": [
+      "自动驾驶",
+      "智能交通系统",
+      "基础设施数字化",
+      "Quarterhill"
+    ],
+    "source": "The Robot Report",
+    "time": "5分钟前",
+    "ts": "2026-07-03T13:01:26+00:00",
+    "url": "https://www.therobotreport.com/quarterhill-discusses-transport-modernization-u-s-marks-70-years-federal-highways/",
+    "image": "https://www.therobotreport.com/wp-content/uploads/2026/07/HEPGIS.jpg",
+    "stocks": [
+      {
+        "name": "Quarterhill",
+        "ticker": "QTRH.TO",
+        "reason": "公司主营智能交通系统，AI平台直接服务于交通基础设施现代化与自动驾驶车队管理",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "8a02543cf0c2943d",
+    "title": "DeepSeek-V4原厂直供模型将上线腾讯云并推峰谷定价",
+    "summary": "腾讯云宣布DeepSeek-V4正式版原厂直供模型计划于2026年7月中旬在TokenHub和智能体开发平台上线，并同步引入峰谷定价机制，高峰时段API调用价格较平时翻倍。",
+    "body": "腾讯云发布公告称，DeepSeek-V4正式版【原厂直供】模型将于2026年7月中旬在腾讯云大模型服务平台TokenHub及智能体开发平台正式上线。该模型由DeepSeek原厂直接提供，新版本将在功能与性能上带来优化提升，平台将同步上线DeepSeek-V4-Pro和DeepSeek-V4-Flash两款模型。\n\n与此同时，腾讯云将引入峰谷定价机制，高峰时段为每日9:00—12:00和14:00—18:00（北京时间）。以DeepSeek-V4-Pro为例，推理输入、推理输出及缓存命中的高峰价格均为平时的两倍，Token Plan企业版的积分抵扣规则也相应调整。\n\n腾讯云方面表示，将在计费调整生效前24小时通过邮件、站内信及短信等方式提前通知用户。此举有助于引导用户错峰调用，缓解高峰算力压力，同时进一步丰富腾讯云的大模型服务生态。",
+    "category": "人工智能",
+    "tags": [
+      "DeepSeek",
+      "腾讯云",
+      "大模型",
+      "API定价"
+    ],
+    "source": "IT之家",
+    "time": "6分钟前",
+    "ts": "2026-07-03T13:01:08+00:00",
+    "url": "https://www.ithome.com/0/972/437.htm",
+    "image": "https://img.ithome.com/newsuploadfiles/2026/7/4c2b1bb7-b2bc-4ca0-87e2-2e808e4e5408.png?x-bce-process=image/format,f_auto",
+    "stocks": [
+      {
+        "name": "腾讯控股",
+        "ticker": "0700.HK",
+        "reason": "腾讯云上线DeepSeek-V4原厂直供模型并引入峰谷定价，有望带动云业务及AI生态增长。",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "ca19843207d99a63",
+    "title": "生数科技发布Vidu S1实时交互模型，支持实时视频通话",
+    "summary": "生数科技发布新一代Vidu S1实时交互模型，支持实时视频通话、语音控制角色行为及无限时长连续互动。该模型采用自回归扩散路线，可基于历史画面与语音指令持续生成后续内容。",
+    "body": "生数科技今日发布面向实时交互场景的新一代模型——Vidu S1实时交互模型。官方介绍，Vidu S1支持实时视频通话和语音控制视频走向，用户可通过语音控制数字人行为，并实现无限时长连续互动。该模型支持540P高清分辨率、25FPS帧率（最高42FPS），可基于真人、动漫、萌宠等任意初始形象及个性化音色快速创建专属交互角色。\n\nVidu S1采用自回归扩散模型（AR+Diffusion）路线，不再一次性生成完整视频，而是基于已生成的历史画面，结合当前语音指令和对话上下文，持续预测并生成后续内容。当用户发出新语音指令时，模型可实时理解并调整角色表情、动作及后续视频走向，使视频从固定内容转变为持续生成、实时响应、动态演化的交互过程。目前，Vidu S1已开启内测。",
+    "category": "人工智能",
+    "tags": [
+      "生数科技",
+      "Vidu S1",
+      "视频生成模型",
+      "实时交互"
+    ],
+    "source": "IT之家",
+    "time": "6分钟前",
+    "ts": "2026-07-03T13:00:49+00:00",
+    "url": "https://www.ithome.com/0/972/436.htm",
+    "image": "https://img.ithome.com/newsuploadfiles/2026/7/2f27ea5b-d681-4acb-9da3-06e5ead136be.jpg?x-bce-process=image/format,f_auto",
+    "stocks": []
+  },
+  {
+    "id": "e8d190b803976afc",
+    "title": "戴尔与外星人游戏PC独立日促销最高省47%",
+    "summary": "戴尔及旗下Alienware品牌在独立日周末推出限时促销，覆盖游戏PC、笔记本、显示器及电竞椅，部分产品最高可享47%折扣。",
+    "body": "据Tom's Hardware报道，美国独立日周末期间，戴尔与Alienware正进行快闪促销，涵盖游戏PC、笔记本、显示器及电竞椅等高端设备，部分商品折扣最高达47%。此次促销还包含搭载英伟达RTX 50系列显卡的笔记本电脑以及高规格显示器，热门型号可能随时售罄。\n\n文章指出，受AI需求推动，近期整个计算市场价格普遍上涨，整机反而具备更高性价比；戴尔产品通常定价偏高，此类大促是入手戴尔或Alienware设备的较好时机。消费者还可叠加优惠码JULY4PC25（部分PC/笔记本减25美元）和JULY4PC50（减50美元），但需以商品页面说明为准。该活动限时进行。",
+    "category": "消费电子",
+    "tags": [
+      "消费电子",
+      "游戏PC",
+      "戴尔",
+      "促销"
+    ],
+    "source": "Tom's Hardware",
+    "time": "7分钟前",
+    "ts": "2026-07-03T13:00:00+00:00",
+    "url": "https://www.tomshardware.com/gift-guides-seasonal-sales/save-up-to-47-percent-on-dell-and-alienware-gaming-pcs-and-laptops-in-this-july-4th-flash-sale-big-sale-discounts-on-pricey-kit-including-gaming-chairs-and-monitors-for-a-limited-time-only",
+    "image": "https://cdn.mos.cms.futurecdn.net/Lbjspf53xNF2FdMRrkTzUa-1280-80.png",
+    "stocks": [
+      {
+        "name": "戴尔科技",
+        "ticker": "DELL",
+        "reason": "促销活动直接覆盖戴尔及旗下Alienware游戏PC与笔记本，有望短期刺激相关产品销售。",
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
     "id": "fa5efefe960bd69c",
     "title": "小鹏与神州租车深化合作 批量交付1300台新能源车",
     "summary": "小鹏汽车与神州租车签署全场景合作协议，并完成1300台新能源车批量交付。神州租车累计采购小鹏新能源车已超5000台，未来一年内计划再采购至少5000台。",
@@ -109277,12 +109400,6 @@ const newsData = [
   }
 ];
 const newsDigest = {
-  "text": "今日科技前沿聚焦：苹果、索尼消费电子路线调整，工信部加码量子标准布局，全球首例AI Agent勒索攻击曝光，AI数据中心水耗争议再升温，新能源车企合作与储能项目并进。",
-  "highlights": [
-    "821b8f69849e92b1",
-    "f1f870a75b77a438",
-    "d3d0456952b20858",
-    "065c0c83539d3a6f",
-    "e48d235b8acc4cce"
-  ]
+  "text": "",
+  "highlights": []
 };
