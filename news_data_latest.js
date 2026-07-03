@@ -1,5 +1,24 @@
 const newsData = [
   {
+    "id": "9d51a1abd496e31b",
+    "title": "辰显光电发布全球首款Micro LED透明手表",
+    "summary": "辰显光电正式发布全球首款Micro LED透明手表，表盘透光率达65%，峰值亮度3000nits，可在机械指针上方悬浮显示信息。",
+    "body": "7月3日，辰显光电（Vistar）发布全球首款Micro LED透明手表。该产品采用小于2英寸的TFT基透明Micro LED微显示器与轻量化超薄玻璃基材，Micro LED芯片尺寸仅25μm，表盘透光率达65%，峰值亮度达3000nits，即便在夏天正午强光或倾斜60°观看，信息仍清晰可见。\n\n手表在息屏或普通模式下机械指针清晰可见，亮屏或智能模式下则可在机械结构之上悬浮显示通知与数据。这一产品展示了Micro LED透明显示技术在可穿戴设备中的创新应用，有望推动透明智能手表及下一代显示方案的发展。",
+    "category": "消费电子",
+    "tags": [
+      "Micro LED",
+      "智能手表",
+      "透明显示",
+      "可穿戴设备"
+    ],
+    "source": "IT之家",
+    "time": "刚刚",
+    "ts": "2026-07-03T09:43:27+00:00",
+    "url": "https://www.ithome.com/0/972/346.htm",
+    "image": "https://img.ithome.com/newsuploadfiles/2026/7/04ff6dea-838f-46eb-9392-50ad7e67251d.jpg?x-bce-process=image/format,f_auto",
+    "stocks": []
+  },
+  {
     "id": "9bbcf36e7e6c85bf",
     "title": "腾讯QClaw产品经理离职，称与workbuddy无赛马",
     "summary": "7月2日消息，腾讯QClaw产品经理张舒昱已于6月29日离职，并在社交平台回应称，腾讯内部QClaw与workbuddy从未“赛马”，两者由同一老板负责、部分增长团队相同。",
