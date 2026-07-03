@@ -1,5 +1,50 @@
 const newsData = [
   {
+    "id": "49c88ab8e32cac58",
+    "title": "法拉第未来8月召开特别股东大会，拟更名聚焦物理AI生态",
+    "summary": "法拉第未来宣布将于北京时间8月13日在线召开特别股东大会，拟将公司英文名由“Faraday Future Intelligent Electric Inc.”变更为“Faraday Future Physical AI Ecosystem Inc.”，以支持其全球EAI机器人世界落地及长期增长。",
+    "body": "法拉第未来北京时间7月3日公告称，计划于北京时间8月13日0:00在线上召开特别股东大会，审议并寻求批准多项与公司战略转型相关的提案。其中核心提案之一是修订公司注册证书，将公司名称由“Faraday Future Intelligent Electric Inc.”更改为“Faraday Future Physical AI Ecosystem Inc.”，以匹配其全球EAI（Embodied AI）机器人世界落地及长期增长的愿景。\n\n公司方面表示，此次更名旨在更准确地反映业务重心从智能电动汽车向物理AI生态系统的演进，并强化其在机器人、具身智能等前沿领域的品牌形象。若提案获股东通过，法拉第未来将以新名称开展后续资本市场与业务拓展活动，这一动作也可能影响投资者对其估值逻辑的判断。",
+    "category": "机器人",
+    "tags": [
+      "法拉第未来",
+      "具身智能",
+      "机器人",
+      "公司更名"
+    ],
+    "source": "36氪",
+    "time": "刚刚",
+    "ts": "2026-07-03T04:12:09.669532+00:00",
+    "url": "https://36kr.com/newsflashes/3879387599581440?f=rss",
+    "image": "",
+    "stocks": [
+      {
+        "name": "法拉第未来",
+        "ticker": "FFIE",
+        "reason": "公司拟更名为Faraday Future Physical AI Ecosystem Inc.，直接关联其EAI机器人世界战略落地。",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "85b898716dc43960",
+    "title": "Anthropic收紧Claude Fable 5访问，改为用量计费",
+    "summary": "Anthropic计划于7月7日起从现有订阅服务中移除最强AI模型Claude Fable 5，并转为按使用量积分计费，引发开发者与用户争议。",
+    "body": "据外媒报道，Anthropic公司将于7月7日后，从Pro、Max、Team及部分Enterprise订阅中移除其最强模型Claude Fable 5的访问权限，并改为基于使用量的积分计费模式。此前，该公司曾因美国商务部撤销对Fable和Mythos AI模型的出口限制，宣布在全球范围内部署Fable 5服务，但表示由于需求极高且难以预测，不得不收紧访问权限。Anthropic核心工程师回应称，待容量允许时，计划尽快将Fable 5重新纳入现有订阅体系。此举反映出顶尖大模型在规模化供给与商业化定价之间的压力，短期内或影响开发者生态与用户体验。",
+    "category": "人工智能",
+    "tags": [
+      "Anthropic",
+      "Claude Fable 5",
+      "大模型商业化",
+      "AI订阅服务"
+    ],
+    "source": "IT之家",
+    "time": "2分钟前",
+    "ts": "2026-07-03T04:09:45+00:00",
+    "url": "https://www.ithome.com/0/972/110.htm",
+    "image": "https://img.ithome.com/newsuploadfiles/2026/7/53c73943-fd6b-435b-af20-25b717ac8c49.png",
+    "stocks": []
+  },
+  {
     "id": "e427cfc428c04790",
     "title": "蓝思科技：玻璃基板业务尚未创收",
     "summary": "蓝思科技在互动平台表示，公司玻璃基板相关业务尚未产生收入，未来发展存在不确定性，提醒投资者注意相关风险。",
