@@ -1,5 +1,69 @@
 const newsData = [
   {
+    "id": "f733723172951034",
+    "title": "雪佛兰Silverado EV销量遇冷，电动皮卡前路何在",
+    "summary": "雪佛兰Silverado EV作为美式纯电动皮卡的重要尝试，虽具备不错的产品基础，但市场反响冷淡，销量未达预期。",
+    "body": "据TechCrunch报道，雪佛兰推出的Silverado EV是一款颇具潜力的纯电动皮卡初号作品，却遭遇市场冷遇。文章指出，该车在续航、充电能力及美式皮卡实用性方面具备一定竞争力，但在价格定位、设计取舍和品牌电动化认知上仍存在明显短板。\n\n电动皮卡被视为美国汽车市场电动化转型的关键赛道，Silverado EV的遇冷反映出传统车企在向电动化切换时面临的普遍挑战：既要满足皮卡用户对性能、载重与工具属性的高期待，又需在成本控制、充电基础设施体验和消费者教育上持续投入。其后续改款能否有效改善这些问题，将直接影响通用汽车在北美电动皮卡市场的竞争地位。",
+    "category": "未来能源",
+    "tags": [
+      "电动汽车",
+      "电动皮卡",
+      "通用汽车",
+      "新能源汽车"
+    ],
+    "source": "TechCrunch",
+    "time": "7分钟前",
+    "ts": "2026-07-03T16:30:00+00:00",
+    "url": "https://techcrunch.com/2026/07/03/chevy-built-an-all-american-ev-truck-why-is-nobody-buying-it/",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "0d95f60b296c701e",
+    "title": "DeepMind工会谈判开局不顺",
+    "summary": "谷歌DeepMind员工与高管就工会化事宜展开谈判，员工指责管理层缺乏实质性沟通意愿，劳资对话开局遇阻。",
+    "body": "据外媒报道，谷歌DeepMind员工与公司于周三就工会化议题进行了谈判。员工对管理层态度表示不满，认为高管并未认真对待工会成立的前景，导致谈判开局不佳。这一事件反映出全球顶尖AI研究机构内部在劳动关系、员工权益与公司治理方面存在张力，可能对DeepMind的研发节奏和组织稳定带来一定不确定性。",
+    "category": "人工智能",
+    "tags": [
+      "DeepMind",
+      "工会化",
+      "谷歌",
+      "劳动关系"
+    ],
+    "source": "Wired",
+    "time": "7分钟前",
+    "ts": "2026-07-03T16:30:00+00:00",
+    "url": "https://www.wired.com/story/google-deepmind-unionization-talks-are-off-to-a-rocky-start/",
+    "image": "https://media.wired.com/photos/6a47cb0ef78eee0a42c7fd67/master/pass/GettyImages-2273112054.jpg",
+    "stocks": []
+  },
+  {
+    "id": "fa134d1b01e7a382",
+    "title": "Turtle Beach KP7评测：可独立使用的模块化游戏小键盘",
+    "summary": "Tom's Hardware 评测了Turtle Beach Command Series系列新品KP7，这款28键模块化游戏小键盘既可搭配KB7旗舰键盘扩展为全尺寸键盘，也能单独使用，且单独使用时表现甚至更佳。",
+    "body": "Turtle Beach KP7属于Command Series系列，是一款28键模块化游戏小键盘，售价99.99美元。它设计上可与同系列旗舰KB7（TKL键盘，售价199.99美元）左右接驳，扩展出数字小键盘和额外宏键，整套组合接近300美元。不过评测指出，KP7作为独立小键盘的表现非常出色，甚至可能优于与KB7搭配的场景，为需要独立数字键盘的用户提供了一个中高端选择。",
+    "category": "消费电子",
+    "tags": [
+      "游戏外设",
+      "机械键盘",
+      "模块化键盘",
+      "Turtle Beach"
+    ],
+    "source": "Tom's Hardware",
+    "time": "11分钟前",
+    "ts": "2026-07-03T16:26:03+00:00",
+    "url": "https://www.tomshardware.com/peripherals/gaming-keyboards/turtle-beach-kp7-review",
+    "image": "https://cdn.mos.cms.futurecdn.net/7FLKqaKBFr96CjN2aa4LsB-1280-80.jpg",
+    "stocks": [
+      {
+        "name": "Turtle Beach",
+        "ticker": "HEAR",
+        "reason": "KP7为Turtle Beach旗下游戏外设新品，评测正面或有望带动其配件销售",
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
     "id": "bf369dd3b3b22efe",
     "title": "苹果内部测试iOS 27.4，预计明年春季发布",
     "summary": "根据MacRumors网站日志，苹果软件工程师正在内部测试iOS 27.4版本，该版本预计将于2027年春季发布，主要侧重于错误修复、性能优化与安全补丁。",
