@@ -1,5 +1,24 @@
 const newsData = [
   {
+    "id": "2162db9c86626ede",
+    "title": "荣耀被曝开案7英寸185Hz超大直屏新机",
+    "summary": "博主爆料称某厂7英寸185Hz超大直屏已开案，预计为荣耀旗下新机。若属实，荣耀或将加入旗舰大屏手机市场角逐。",
+    "body": "IT之家7月3日消息，数码博主@数码闲聊站爆料称，除了6.89英寸2K+185Hz大直屏新机外，某厂7英寸185Hz超大直屏也最近开案。结合该博主此前的爆料习惯，外界普遍推测这款新机属于荣耀。此前该博主曾透露荣耀迭代线已开多块大尺寸屏幕，包括6.89英寸±2K OLED大直屏和7英寸±1.5K OLED大直屏。",
+    "category": "消费电子",
+    "tags": [
+      "荣耀",
+      "智能手机",
+      "OLED屏幕",
+      "大屏手机"
+    ],
+    "source": "IT之家",
+    "time": "9分钟前",
+    "ts": "2026-07-03T09:47:48+00:00",
+    "url": "https://www.ithome.com/0/972/348.htm",
+    "image": "https://img.ithome.com/newsuploadfiles/2026/7/68a8e96c-6a6e-45b2-b4ed-bb7da0bd387e.png?x-bce-process=image/format,f_auto",
+    "stocks": []
+  },
+  {
     "id": "9d51a1abd496e31b",
     "title": "辰显光电发布全球首款Micro LED透明手表",
     "summary": "辰显光电正式发布全球首款Micro LED透明手表，表盘透光率达65%，峰值亮度3000nits，可在机械指针上方悬浮显示信息。",
