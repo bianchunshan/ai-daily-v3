@@ -1,5 +1,81 @@
 const newsData = [
   {
+    "id": "99dbc96aacbfa8c5",
+    "title": "光大证券：Meta算力出租不改中长期扩产规划",
+    "summary": "光大证券研报指出，Meta进军云计算意在为其巨额AI基础设施投资开辟新的变现通道，云计算是快速回收前期投入、提升回报的重要途径；公司中长期持续加码AI算力的整体规划并未转向。",
+    "body": "光大证券最新研报认为，Meta进军云计算的底层逻辑在于，为巨额AI基础设施投资创造新的变现通道。通过将算力资源对外出租，Meta能够更快收回前期资本开支、提高当期回报率，使对外变现能力成为支撑其持续扩大AI投资的现金流保证。\n\n研报强调，Meta算力出租更多是一种资源优化与变现手段，并不意味着其AI战略的收缩。从中长期看，Meta持续加码AI算力的整体规划并未转向，云计算业务有望成为其AI投资的重要补充。",
+    "category": "AI 基础设施",
+    "tags": [
+      "Meta",
+      "云计算",
+      "AI算力",
+      "算力租赁"
+    ],
+    "source": "36氪",
+    "time": "刚刚",
+    "ts": "2026-07-03T00:55:26.200637+00:00",
+    "url": "https://36kr.com/newsflashes/3879199133151232?f=rss",
+    "image": "",
+    "stocks": [
+      {
+        "name": "Meta Platforms",
+        "ticker": "META",
+        "reason": "研报认为其云计算变现能力为持续扩大AI投资提供现金流保证，中长期算力扩产规划不变，利好AI战略兑现。",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "ee26855d69de77cc",
+    "title": "瑞银：AI热潮推高股市，全球新增近百万百万富翁",
+    "summary": "瑞银报告显示，受AI热潮带动股市上涨影响，2025年全球新增近100万名百万富翁，亿万富翁人数与财富增速均创纪录。",
+    "body": "据IT之家援引英国《卫报》及美国CNBC报道，瑞银最新数据显示，全球亿万富翁人数增长13%，达到创纪录的3302人；截至4月的一年里，亿万富翁财富平均增长25%，远高于全球个人财富10.8%的平均增幅。瑞银经济学家詹姆斯·马佐指出，亿万富翁的大部分财富与上市公司挂钩，AI热潮推高了股市，在股市参与度较高的国家，个人财富随之增长。受股市上涨推动，2025年全球新增近100万名百万富翁，总人数超过5750万，其中美国新增超过44万名，仍是全球最多；欧洲和中东部分市场增速更高，土耳其增长6.4%，阿联酋增长3.5%。该报告反映出AI叙事对全球资产价格的显著提振作用，同时也凸显了财富加速向顶层集中的趋势。",
+    "category": "人工智能",
+    "tags": [
+      "AI热潮",
+      "财富报告",
+      "全球股市"
+    ],
+    "source": "IT之家",
+    "time": "2分钟前",
+    "ts": "2026-07-03T00:53:03+00:00",
+    "url": "https://www.ithome.com/0/971/988.htm",
+    "image": "https://img.ithome.com/newsuploadfiles/2025/10/4a69b0e1-e67d-41db-8ef8-6057568dfcee.jpg?x-bce-process=image/watermark,text_QUnnlJ_miJA,type_RlpMYW5UaW5nSGVpU0JHQg==,size_28,color_ffffffdd,skw_1,skc_00000051,g_7,blr_50,bls_50,x_11,y_11/format,f_auto",
+    "stocks": []
+  },
+  {
+    "id": "fc8a1602e1a29936",
+    "title": "Opera 推出浏览器原生剪贴板攻击防御功能",
+    "summary": "Opera 发布内置功能 Paste Protect，可实时监测剪贴板中的潜在恶意命令，直接阻断日益猖獗的 ClickFix 攻击，提升浏览器原生安全防护能力。",
+    "body": "Opera 于挪威当地时间 7 月 2 日宣布，在其桌面浏览器中上线业界首个针对剪切板攻击的原生防御功能 Paste Protect，且默认开启。该功能可实时监控剪贴板活动，检测用户复制或网站植入的可疑命令，并针对 Windows、macOS 与 Linux 采用定制化的检测技术识别恶意脚本模式。\n\n当 Paste Protect 发现威胁时，会立即阻止复制操作，弹出警告说明原因，并在地址栏显示红色图标，用户还可查看被阻止内容的前 120 个字符。Opera 指出，诱导用户亲手粘贴恶意代码的 ClickFix 攻击已占恶意软件加载网络攻击的一半以上，且能绕过大多数现有防御，内置剪贴板防护因此具有重要意义。",
+    "category": "网络安全",
+    "tags": [
+      "网络安全",
+      "浏览器安全",
+      "剪贴板攻击",
+      "ClickFix"
+    ],
+    "source": "IT之家",
+    "time": "7分钟前",
+    "ts": "2026-07-03T00:47:22+00:00",
+    "url": "https://www.ithome.com/0/971/986.htm",
+    "image": "https://img.ithome.com/newsuploadfiles/2026/7/b24711ce-d7f4-4f48-bf84-de19ac1ab51e.jpg?x-bce-process=image/format,f_auto",
+    "stocks": [
+      {
+        "name": "Opera Ltd",
+        "ticker": "OPRA",
+        "reason": "Opera 直接推出 Paste Protect 安全功能，有望增强浏览器竞争力并吸引注重安全的用户。",
+        "confidence": "medium"
+      },
+      {
+        "name": "昆仑万维",
+        "ticker": "300418.SZ",
+        "reason": "昆仑万维为 Opera 重要股东，浏览器安全功能升级可能对其海外互联网业务形成正面影响。",
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
     "id": "da566218f8da278d",
     "title": "近半数痴呆症病例可预防但需行为改变",
     "summary": "科廷大学发表于《柳叶刀·健康长寿》的综述指出，近半数痴呆症病例可通过干预缺乏运动、吸烟、低教育水平和社交孤立等可改变风险因素来预防，但现有公共卫生宣传在促成实际行为改变方面效果有限。",
@@ -104401,6 +104477,12 @@ const newsData = [
   }
 ];
 const newsDigest = {
-  "text": "",
-  "highlights": []
+  "text": "今日科技前沿聚焦算力与AI：Meta富余算力出售引发市场波动，国产算力主线获机构看好；英飞凌启用全球最大功率半导体晶圆厂；欧盟拟推未成年人社媒禁令，全球科技治理再添变量。",
+  "highlights": [
+    "4dfe2939d5f1f53c",
+    "4f5795cfee281ddc",
+    "6f87f00e9521d5d0",
+    "82235aecac073dd3",
+    "ee26855d69de77cc"
+  ]
 };
