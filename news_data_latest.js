@@ -1,5 +1,121 @@
 const newsData = [
   {
+    "id": "5e61b1aa1c18340e",
+    "title": "Valve Steam Machine初印象与索尼PS弃光盘计划",
+    "summary": "本期Engadget播客分享了Valve高价Steam Machine的初步体验，并讨论了索尼计划在2028年放弃PlayStation实体光盘的传闻。",
+    "body": "本周Engadget播客重点关注两款游戏硬件动态。主持人团队带来了对Valve新款Steam Machine的第一手使用感受，指出其定位高端、价格不菲。同时，节目还聊到索尼可能在2028年让PlayStation主机告别实体光盘的行业传闻。若成真，这将进一步推动游戏产业向全数字化发行转型，对二手游戏市场及实体零售商带来持续冲击。",
+    "category": "消费电子",
+    "tags": [
+      "游戏主机",
+      "Steam Machine",
+      "PlayStation",
+      "数字发行"
+    ],
+    "source": "Engadget",
+    "time": "1分钟前",
+    "ts": "2026-07-03T13:35:55+00:00",
+    "url": "https://www.engadget.com/2207598/engadget-podcast-who-needs-valve-steam-machine/",
+    "image": "https://www.engadget.com/img/gallery/engadget-podcast-who-needs-valves-steam-machine/l-intro-1783085552.jpg",
+    "stocks": [
+      {
+        "name": "索尼集团",
+        "ticker": "SONY",
+        "reason": "PlayStation若全面转向数字发行，索尼数字内容生态及订阅服务收入有望进一步增长。",
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
+    "id": "8084e155ef8ef9b5",
+    "title": "英特尔提交Nova Lake核显驱动，支持多屏同步与低功耗",
+    "summary": "英特尔向Linux 7.3提交首批图形驱动补丁，主要为下一代Nova Lake处理器集成的Xe3P核显启用CMTG多屏时钟同步与DC3CO低功耗状态，显示其Linux图形驱动适配正稳步推进。",
+    "body": "当地时间7月2日，英特尔向Linux内核社区提交了针对Linux 7.3版本的首批drm-intel-next图形驱动更新。据Phoronix报道，这批补丁绝大部分工作聚焦于下一代Nova Lake处理器所集成的Xe3P核显及显示模块的适配与功能完善。\n\n此次补丁为Nova Lake启用了两项关键显示特性。其一是“通用模式时序发生器”（CMTG），可实现笔记本原生屏幕与外接显示器等多屏之间的画面时序同步；其二是“DC3CO”低功耗状态，允许显示引擎在PSR2面板自刷新空闲期间关闭相应电源域，进一步降低集成显卡功耗。\n\nNova Lake预计于2026年底至2027年初发布，将采用Coyote Cove性能核与Arctic Wolf能效核的混合架构，并集成Xe3P图形架构。Linux 7.3内核合并窗口预计2026年8月下旬开启，在此之前英特尔还可能提交多轮针对Nova Lake的图形驱动优化补丁。",
+    "category": "半导体与先进制造",
+    "tags": [
+      "英特尔",
+      "核显",
+      "Linux驱动",
+      "Nova Lake"
+    ],
+    "source": "IT之家",
+    "time": "1分钟前",
+    "ts": "2026-07-03T13:35:37+00:00",
+    "url": "https://www.ithome.com/0/972/443.htm",
+    "image": "https://img.ithome.com/newsuploadfiles/2026/7/6d133d7f-e78c-4152-a1b3-9fe1ab1b14f4.jpg?x-bce-process=image/format,f_auto",
+    "stocks": [
+      {
+        "name": "英特尔",
+        "ticker": "INTC",
+        "reason": "该消息直接涉及英特尔下一代Nova Lake处理器的核显驱动进展，反映其产品路线图稳步推进。",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "1704c9ec86e2c87e",
+    "title": "黑石旗下QTS放弃全球最大数据中心园区计划",
+    "summary": "因多年诉讼及报纸通知程序等技术性问题，黑石集团旗下数据中心开发商QTS正式终止在弗吉尼亚州建设“数字门户”巨型数据中心园区的部分计划，相关地块将维持原有乡村区划。",
+    "body": "黑石集团旗下的数据中心开发商QTS已正式终止其位于弗吉尼亚州“数字门户”园区的部分建设计划。据彭博报道，QTS于7月2日向弗吉尼亚州最高法院提交书面文件，称经审慎考虑后撤回最后一项上诉，这标志着该项目的正式终结。\n\n该“数字门户”园区原计划占地约2,100英亩、总建筑面积达2,200万平方英尺、规模达吉瓦级，其中QTS负责800多英亩，Compass Datacenters负责约800至1,000英亩。项目选址靠近马纳萨斯国家战场公园，因居民和历史保护团体反对而长期陷入诉讼。\n\n最终，项目因报纸公告等技术性程序问题夭折，邻近战场公园的土地将继续保持原有乡村区划。这一结果不仅对QTS和黑石构成挫折，也可能影响弗吉尼亚北部大型数据中心供给格局，并为历史保护和地方区划政策提供先例。",
+    "category": "AI 基础设施",
+    "tags": [
+      "数据中心",
+      "黑石集团",
+      "QTS",
+      "弗吉尼亚"
+    ],
+    "source": "Tom's Hardware",
+    "time": "4分钟前",
+    "ts": "2026-07-03T13:32:53+00:00",
+    "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/blackstone-owned-qts-abandons-planned-worlds-largest-data-center-campus-after-years-of-lawsuits-2-100-acre-virginia-digital-gateway-project-dies-over-a-newspaper-notice-technicality",
+    "image": "https://cdn.mos.cms.futurecdn.net/Mmp3MeVfMAxqZQ3Z9geEz4-1280-80.jpg",
+    "stocks": []
+  },
+  {
+    "id": "2d67eee917e44d2a",
+    "title": "市场监管总局发布多项宇航国家标准 支撑低轨星座建设",
+    "summary": "市场监管总局批准发布《平板式堆叠卫星星箭机械接口要求》等多项宇航领域国家标准，明确星箭接口设计，为我国大规模低轨星座建设提供关键共性技术支撑。",
+    "body": "7月3日，市场监管总局批准发布《平板式堆叠卫星星箭机械接口要求》《全球卫星导航系统（GNSS）定位增强中心要求》等多项宇航领域国家标准。其中，《平板式堆叠卫星星箭机械接口要求》充分吸收星网计划与千帆星座的研制经验，聚焦平板式堆叠卫星与运载火箭机械接口的标准化、统一化设计，规定了组合体、卫星、堆叠柱、压紧分离机构等术语定义及机械接口设计要求，明确了接口尺寸系列推荐数值和验证要求。\n\n该标准适用于国网星座、千帆星座等低轨卫星互联网项目的星箭接口设计，将推动相关产品机械接口统型，增强通用性与互换性，满足低轨星座规模化部署、经济性制造和快速组网发射需求。同时发布的GNSS定位增强中心和接收机分类代码两项国家标准等同采用ISO国际标准，将为我国高精度定位服务及产品对接国际规范、走向海外市场提供指导，促进卫星导航应用国际化发展。",
+    "category": "商业航天",
+    "tags": [
+      "低轨星座",
+      "卫星互联网",
+      "国家标准",
+      "星箭接口"
+    ],
+    "source": "IT之家",
+    "time": "9分钟前",
+    "ts": "2026-07-03T13:27:42+00:00",
+    "url": "https://www.ithome.com/0/972/442.htm",
+    "image": "https://img.ithome.com/newsuploadfiles/2026/7/45aff4cd-d351-4333-850c-55fc561fceba.jpg?x-bce-process=image/format,f_auto",
+    "stocks": []
+  },
+  {
+    "id": "2f2dd22116f52993",
+    "title": "华境S大六座SUV交付破万，标配华为乾崑智驾",
+    "summary": "上汽通用五菱与华为合作的首款大六座SUV华境S交付量已突破一万台，全系标配华为乾崑智驾ADS Pro增强版与鸿蒙座舱，官方指导价15.98万元起。该车型将高阶智驾带入15万元级市场，或进一步推动智能驾驶渗透率提升。",
+    "body": "据IT之家报道，五菱品牌与市场总监确认，华境S交付已破万。华境S是上汽通用五菱与华为合作的首款搭载华为乾崑科技的旗舰大六座SUV，全系标配华为乾崑智驾ADS Pro增强版与鸿蒙座舱。该车于5月8日上市，官方指导价15.98万元起，提供200km乾崑悦享版、255km乾崑臻享版、255km乾崑尊享版及235km四驱乾崑尊享版四款车型。\n\n华境S车身长5235mm、宽1999mm、高1800mm，轴距3105mm，采用三排六座布局，并提供两驱与四驱版本。其中两驱最大功率200kW，峰值扭矩310N·m，百公里加速8.3秒；四驱最大功率386kW，峰值扭矩620N·m，百公里加速5.2秒。作为一款中大型SUV，其以相对较低的价格标配高阶智驾系统，体现出智能驾驶技术向主流家用车市场下沉的趋势。",
+    "category": "机器人",
+    "tags": [
+      "华境S",
+      "上汽通用五菱",
+      "华为乾崑智驾",
+      "自动驾驶"
+    ],
+    "source": "IT之家",
+    "time": "11分钟前",
+    "ts": "2026-07-03T13:26:05+00:00",
+    "url": "https://www.ithome.com/0/972/441.htm",
+    "image": "https://img.ithome.com/newsuploadfiles/2026/7/d8e6de69-1f41-4c69-87f0-53e791902f85.jpg?x-bce-process=image/format,f_auto",
+    "stocks": [
+      {
+        "name": "上汽集团",
+        "ticker": "600104.SH",
+        "reason": "上汽通用五菱为上汽集团控股子公司，华境S销量提升有望贡献集团新能源与智能化业务增量。",
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
     "id": "708008d90de20059",
     "title": "数字糖尿病管理平台被证实可改善护理并降本",
     "summary": "曼彻斯特大学研究人员的一项新研究表明，名为 MyWay Diabetes 的NHS数字平台可帮助2型糖尿病患者更好地控制血糖，并有望为英国国家医疗服务体系带来长期成本节约。",
