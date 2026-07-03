@@ -940,6 +940,24 @@ const newsData = [
     "stocks": []
   },
   {
+    "id": "ef39aef3f42d2c2c",
+    "title": "教师与学生签订AI使用契约，取代一禁了之",
+    "summary": "一位教师未在课堂全面禁止人工智能，而是与学生共同拟定使用契约，要求在透明、负责的前提下合理利用AI工具，以引导学生批判性地使用生成式AI。",
+    "body": "近日，一位教师在教学实践中分享了管理学生使用人工智能的经验。她没有选择一刀切地禁止ChatGPT等生成式AI工具，而是与学生共同制定了一份\"AI课堂契约\"，明确何时可以求助AI、必须注明使用情况，以及如何对生成内容负责。该做法强调教育应从\"围堵\"转向\"引导\"，帮助学生在真实使用场景中建立对AI的批判性判断能力。",
+    "category": "人工智能",
+    "tags": [
+      "AI教育",
+      "生成式AI",
+      "教育科技"
+    ],
+    "source": "Hacker News",
+    "time": "4小时前",
+    "ts": "2026-07-03T14:28:33+00:00",
+    "url": "https://www.science.org/content/article/instead-banning-ai-i-made-classroom-contract-my-students",
+    "image": "",
+    "stocks": []
+  },
+  {
     "id": "e555928c3e9d0fea",
     "title": "开发者展示TaskPeace：AI编程Agent的MCP任务队列",
     "summary": "一名开发者在Hacker News发布TaskPeace，一款供AI编程Agent通过MCP协议从任务队列拉取工作的工具，用于协调多Agent协作。",
