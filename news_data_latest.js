@@ -339,6 +339,32 @@ const newsData = [
     ]
   },
   {
+    "id": "520a28dcc244ff95",
+    "title": "百度智能云与WorldClaw战略合作，文心5.0接入WorldRouter",
+    "summary": "7月3日，百度智能云与WorldClaw达成战略合作，文心大模型5.0系列通过千帆平台上架WorldRouter模型聚合平台，面向开发者开放调用。双方还将在Skill共建、A2A场景及AgentOS建设方面展开合作。",
+    "body": "WorldClaw是由World Liberty Financial（WLFI）支持的AI基础设施项目，定位为面向Agent经济的开放操作系统，其旗下WorldRouter通过单一API聚合了300余个大语言、图像与视频模型。此次合作中，百度智能云将文心大模型5.0系列接入WorldRouter，并在网关层完成协议适配，开发者可在统一接口下直接调用文心模型，实现模型调用、结果返回、工具调用与用量统计的一体化。\n\n文心5.0系列采用原生全模态统一建模技术与超稀疏混合专家（MoE）架构，旗舰模型参数规模超2.4万亿，支持文本、图像、音频、视频等多模态理解与生成。除模型服务接入外，百度智能云还计划将智能编程、视频生成、模型安全治理等能力封装为Skill上架至WorldClaw的Skill市场，并共同探索任务编排、多智能体工作流与长链条任务管理在AgentOS中的应用。\n\n当前大模型应用正从单一模型调用向多模型组合演进，统一模型入口已成为连接模型服务与Agent应用开发的关键基础设施。此次合作有助于百度文心模型触达更广泛的开发者生态，同时也为WorldRouter补充了具备全模态能力的国产大模型选项。",
+    "category": "人工智能",
+    "tags": [
+      "百度智能云",
+      "文心大模型",
+      "WorldClaw",
+      "Agent生态"
+    ],
+    "source": "量子位",
+    "time": "1小时前",
+    "ts": "2026-07-03T07:12:27+00:00",
+    "url": "https://www.qbitai.com/2026/07/442447.html",
+    "image": "",
+    "stocks": [
+      {
+        "name": "百度",
+        "ticker": "BIDU",
+        "reason": "百度智能云作为合作主体直接提供文心5.0模型及千帆平台能力，有助于扩大文心模型在Agent开发者生态中的调用量与商业化空间。",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
     "id": "0873a5a0101f8205",
     "title": "GitHub Copilot 接入 Kimi K2.7 Code",
     "summary": "月之暗面 Kimi 宣布其开源编程模型 Kimi K2.7 Code 正式接入 GitHub Copilot，这是 Copilot 首次引入开源模型，由微软 Azure 托管并按量计费。",
@@ -107291,6 +107317,12 @@ const newsData = [
   }
 ];
 const newsDigest = {
-  "text": "",
-  "highlights": []
+  "text": "今日科技前沿：半导体先进制程与AI基础设施持续升温，三星4nm产能满载并披露2nm路线图，铠侠闪存新一代送样；AI方面，GitHub Copilot接入Kimi，百度文心5.0牵手WorldRouter；消费电子亦有荣耀、雷神新品亮相。",
+  "highlights": [
+    "07ced6a4f2c336da",
+    "7d2ca44d9138da95",
+    "b76ed59cd1bb2905",
+    "0873a5a0101f8205",
+    "520a28dcc244ff95"
+  ]
 };
