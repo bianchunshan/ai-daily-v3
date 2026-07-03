@@ -1,5 +1,31 @@
 const newsData = [
   {
+    "id": "298407e965eaf1fb",
+    "title": "微软修复经典版Outlook Copilot入口缺失问题",
+    "summary": "微软承认经典版Outlook升级后，部分Copilot Chat基础版用户无法看到Copilot入口，目前已通过服务变更修复该问题。",
+    "body": "7月1日微软更新官方文档，称经典版Outlook在升级至Build 20026.20182版本后，持有Copilot Chat（基础版）许可证的用户会出现所有Copilot入口消失的情况，包括右上角按钮、左侧应用栏图标及“添加应用”打开无响应等。微软表示，该Bug未影响Premium许可证的付费用户，Copilot仍可通过Outlook网页版或Microsoft 365 Copilot独立应用访问。Outlook团队已通过服务变更解决该问题，若用户仍未看到入口，建议重启邮件客户端。",
+    "category": "人工智能",
+    "tags": [
+      "微软",
+      "Outlook",
+      "Copilot",
+      "AI办公"
+    ],
+    "source": "IT之家",
+    "time": "1分钟前",
+    "ts": "2026-07-03T23:37:35+00:00",
+    "url": "https://www.ithome.com/0/972/472.htm",
+    "image": "https://img.ithome.com/newsuploadfiles/2026/7/4864a4f4-7872-4206-85e6-c09d34472f3f.png?x-bce-process=image/format,f_auto",
+    "stocks": [
+      {
+        "name": "微软",
+        "ticker": "MSFT",
+        "reason": "Copilot是微软核心AI办公产品，入口问题及修复直接影响其AI订阅体验与商业化推进",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
     "id": "2f9d92b0784301fc",
     "title": "IT早报：大疆影石互诉专利侵权，阿里禁用Claude",
     "summary": "大疆与影石在国内互相提起专利侵权诉讼，涉及全景相机、云台及Luna系列产品；阿里巴巴因安全合规顾虑宣布禁用Anthropic旗下Claude，字节豆包智能体功能也将下线。此外，国内成品油价格大幅下调，新能源汽车车船税优惠政策明年调整。",
@@ -111495,12 +111521,6 @@ const newsData = [
   }
 ];
 const newsDigest = {
-  "text": "今日科技前沿聚焦：大疆影石专利互诉与阿里禁用Claude引AI合规热议，iOS 27泄AirPods摄像头端倪，NASA三臂飞船救援望远镜，Firefox安卓Root漏洞警示安全。",
-  "highlights": [
-    "2f9d92b0784301fc",
-    "7067c3564c735181",
-    "a777bcf7d3d2422e",
-    "49f762ec6dbfdb58",
-    "f526b96725478e18"
-  ]
+  "text": "",
+  "highlights": []
 };
