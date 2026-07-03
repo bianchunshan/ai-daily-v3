@@ -1,5 +1,50 @@
 const newsData = [
   {
+    "id": "90fbdfea048ec1ec",
+    "title": "中国卫星制造商鸿擎科技融资1.91亿美元",
+    "summary": "商业火箭公司蓝箭航天旗下的卫星制造企业鸿擎科技完成约1.91亿美元融资，创下中国商业卫星制造领域单轮融资纪录之一。",
+    "body": "据SpaceNews报道，鸿擎科技是民营火箭公司蓝箭航天的卫星制造子公司，近日宣布完成约1.91亿美元融资，金额在中国商业卫星制造企业中位居前列。本轮融资将有望用于扩大卫星研制产能、推进批量交付及提升市场竞争力。此次融资也显示出资本市场持续看好中国商业航天产业链的扩张与成熟。",
+    "category": "商业航天",
+    "tags": [
+      "商业航天",
+      "卫星制造",
+      "蓝箭航天",
+      "融资"
+    ],
+    "source": "SpaceNews",
+    "time": "2分钟前",
+    "ts": "2026-07-03T13:10:37+00:00",
+    "url": "https://spacenews.com/chinese-satellite-manufacturer-hongqing-raises-191-million/",
+    "image": "https://i0.wp.com/spacenews.com/wp-content/uploads/2026/06/Zhuque-2E-Spacesail-DTC-ChinaMobile02-9june2026-landspace.jpg?fit=1024%2C576&amp;ssl=1",
+    "stocks": []
+  },
+  {
+    "id": "55b5ca8e8885fe08",
+    "title": "索尼推出经典音频主题官方周边 7月10日开售",
+    "summary": "索尼宣布首款官方周边系列“VOL.1”，灵感源自三款经典音频产品，将于2026年7月10日开售，包含T恤、帆布包与钥匙扣。",
+    "body": "索尼宣布推出官方周边产品系列“VOL.1”，由索尼创意中心原创设计，首波产品将于2026年7月10日正式发售。该系列以索尼音频发展史上的三款经典产品为设计灵感，包括CDixIV Metal46金属磁带、Flamingo便携黑胶唱片机以及1983年问世的WM-F5运动型Walkman。\n\n基于上述产品的标志性视觉元素，VOL.1系列将推出T恤、帆布包和钥匙扣三款实用单品，将经典音频设计语言融入日常生活用品。除索尼官方商城及全国十家直营店外，该系列还将在BW 2026展会现场同步首发，展位位于上海国家会展中心2H馆2A11号。",
+    "category": "消费电子",
+    "tags": [
+      "索尼",
+      "消费电子",
+      "品牌周边",
+      "音频产品"
+    ],
+    "source": "IT之家",
+    "time": "4分钟前",
+    "ts": "2026-07-03T13:09:34+00:00",
+    "url": "https://www.ithome.com/0/972/439.htm",
+    "image": "https://img.ithome.com/newsuploadfiles/2026/7/57a54f2c-ae8b-40bb-8da2-96258701fd85.jpg",
+    "stocks": [
+      {
+        "name": "索尼",
+        "ticker": "SONY",
+        "reason": "公司推出官方周边产品，强化品牌文化与粉丝消费触点",
+        "confidence": "low"
+      }
+    ]
+  },
+  {
     "id": "f9fccce1c98bf543",
     "title": "一加性能新机曝光：搭载骁龙8E5与185Hz直屏",
     "summary": "博主爆料称一加子系性能线迭代工程机将搭载骁龙8E5处理器、6.78英寸1.5K 185Hz直屏、9000mAh电池及百瓦级快充。若最终量产，该机在屏幕刷新率、电池容量与芯片性能上均较一加Ace 6有进一步提升。",
