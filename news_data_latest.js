@@ -1,5 +1,31 @@
 const newsData = [
   {
+    "id": "0873a5a0101f8205",
+    "title": "GitHub Copilot 接入 Kimi K2.7 Code",
+    "summary": "月之暗面 Kimi 宣布其开源编程模型 Kimi K2.7 Code 正式接入 GitHub Copilot，这是 Copilot 首次引入开源模型，由微软 Azure 托管并按量计费。",
+    "body": "7 月 3 日，月之暗面 Kimi 宣布 GitHub Copilot 正式接入其开源模型 Kimi K2.7 Code，由 GitHub 托管于微软 Azure 平台，采用按量计费模式，正逐步向 Copilot Pro、Pro+ 与 Max 订阅方案开放。GitHub 表示将分批推送并监测模型质量，未来几周扩展至 Business、Enterprise 等版本。\n\nKimi K2.7 Code 于今年 6 月 12 日开源，官方称其在长上下文编程场景的指令遵循、长程编程任务性能方面较 K2.6 显著提升，并有效减少长程任务中的过度思考，平均 token 消耗降低约 30%。此次接入标志着开源模型首次进入 GitHub Copilot 生态，可能增强其在代码补全、多语言支持等场景的竞争力。",
+    "category": "人工智能",
+    "tags": [
+      "AI编程助手",
+      "开源模型",
+      "GitHub Copilot",
+      "Kimi"
+    ],
+    "source": "IT之家",
+    "time": "5分钟前",
+    "ts": "2026-07-03T07:10:44+00:00",
+    "url": "https://www.ithome.com/0/972/269.htm",
+    "image": "https://img.ithome.com/newsuploadfiles/2026/7/bf60d351-136a-4cb4-9dd9-de3fbe6b62e3.jpg",
+    "stocks": [
+      {
+        "name": "微软",
+        "ticker": "MSFT",
+        "reason": "GitHub Copilot 由微软运营，Kimi K2.7 Code 托管于 Azure，接入有望带动订阅与云服务用量",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
     "id": "1f502f9e8a815b7b",
     "title": "日本监管机构终止对博通反垄断调查",
     "summary": "日本公平交易委员会7月3日宣布，因未发现博通违反《反垄断法》的充分事实，终止对其在虚拟化软件领域滥用优越议价地位的反垄断调查。",
