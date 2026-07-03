@@ -1,5 +1,24 @@
 const newsData = [
   {
+    "id": "708008d90de20059",
+    "title": "数字糖尿病平台改善血糖控制并降低医疗成本",
+    "summary": "曼彻斯特大学研究显示，NHS支持的MyWay Diabetes数字平台可帮助2型糖尿病患者更好控制血糖、改善健康状况，并有望为医疗系统带来长期成本节约。",
+    "body": "据英国曼彻斯特大学的一项新研究，名为MyWay Diabetes的数字化平台与2型糖尿病患者的血糖改善、健康状况提升以及英国国家医疗服务体系（NHS）的长期潜在成本节约相关。该平台在新冠疫情期间在大曼彻斯特地区推广，用户可通过网站和App查看糖尿病健康记录、跟踪检测结果，并获取健康教育课程与建议。",
+    "category": "生物医药",
+    "tags": [
+      "数字医疗",
+      "糖尿病管理",
+      "移动医疗",
+      "NHS"
+    ],
+    "source": "MedicalXpress",
+    "time": "2分钟前",
+    "ts": "2026-07-03T09:20:05-04:00",
+    "url": "https://medicalxpress.com/news/2026-07-digital-diabetes-tool-shown-patient.html",
+    "image": "https://scx1.b-cdn.net/csz/news/tmb/2020/6-diabetes.jpg",
+    "stocks": []
+  },
+  {
     "id": "90fbdfea048ec1ec",
     "title": "中国卫星制造商鸿擎科技融资1.91亿美元",
     "summary": "商业火箭公司蓝箭航天旗下的卫星制造企业鸿擎科技完成约1.91亿美元融资，创下中国商业卫星制造领域单轮融资纪录之一。",
