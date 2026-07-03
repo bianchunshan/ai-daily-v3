@@ -76,13 +76,14 @@ const newsData = [
   {
     "id": "616f8e70b9f85b56",
     "title": "Claude Mythos Preview发布前后严重漏洞激增",
-    "summary": "Hacker News消息称，Anthropic Claude Mythos Preview发布前后，新的严重漏洞报告数量显著上升，引发对AI模型发布周期与安全风险的关註。",
-    "body": "据Hacker News消息，在Anthropic Claude Mythos Preview发布前后，新的严重漏洞（serious vulnerabilities）报告数量出现明显激增。由于Claude属于大语言模型产品线，这一时间点上的漏洞高峰引发业界对AI模型发布与安全披露节奏之间关联的讨论。\n\n目前尚不清楚这些漏洞是否直接源自Claude Mythos Preview本身，但这一现象提示，随着AI产品快速迭代，围绕模型、接口及供应链的安全风险可能同步上升。若后续研究确认二者存在关联，或将促使开发者和企业加大对AI安全与漏洞响应的投入，利好网络安全领域。",
+    "summary": "Hacker News 消息称，在 Anthropic 发布 Claude Mythos Preview 前后，新的严重安全漏洞报告数量明显上升，目前尚不清楚这些漏洞是否与该产品直接相关。",
+    "body": "据 Hacker News 报道，在 Claude Mythos Preview 发布节点前后，新的严重漏洞数量出现显著增长。Claude Mythos Preview 是 Anthropic 旗下 Claude 产品线相关的一项预览功能，其发布时间窗口与安全漏洞报告波峰的重合引发了安全社区的关注。\n\n目前该报道未披露漏洞的具体类型、影响范围，也未说明这些漏洞是否与 Claude 的模型、API 或配套基础设施存在直接因果关联。不过，这一趋势提示，AI 新产品快速迭代和广泛试用可能伴随安全风险的集中暴露。\n",
     "category": "网络安全",
     "tags": [
-      "Claude",
+      "网络安全",
       "AI安全",
-      "漏洞"
+      "漏洞",
+      "Claude"
     ],
     "source": "Hacker News",
     "time": "1小时前",
