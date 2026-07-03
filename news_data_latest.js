@@ -1,5 +1,24 @@
 const newsData = [
   {
+    "id": "5ff2558e1c7598cf",
+    "title": "肯尼亚居家咨询显著提升夫妻HIV检测率与母婴病毒抑制",
+    "summary": "一项在肯尼亚开展的研究显示，针对孕妇及其男性伴侣的居家咨询项目使夫妻共同HIV检测率提高逾四倍，并帮助感染HIV的母亲实现病毒抑制。",
+    "body": "密歇根大学与阿拉巴马大学伯明翰分校联合开展的研究在肯尼亚评估了居家咨询项目的效果。结果显示，与常规医疗机构服务相比，接受上门咨询的夫妻在产后12个月时的联合HIV检测率达到56%，而仅接受常规服务的对照组仅为13.6%。\n\n研究还发现，该咨询模式有助于HIV阳性母亲实现病毒抑制，对降低母婴传播风险、改善孕产妇健康具有积极意义。这一干预策略为资源有限地区优化艾滋病防控、促进伴侣共同参与提供了可借鉴的公共卫生方案。",
+    "category": "生物医药",
+    "tags": [
+      "HIV检测",
+      "数字医疗",
+      "公共卫生",
+      "母婴健康"
+    ],
+    "source": "MedicalXpress",
+    "time": "刚刚",
+    "ts": "2026-07-03T07:40:01-04:00",
+    "url": "https://medicalxpress.com/news/2026-07-home-hiv-couples-viral-suppression.html",
+    "image": "https://scx1.b-cdn.net/csz/news/tmb/2022/hiv-2.jpg",
+    "stocks": []
+  },
+  {
     "id": "5d5e81f2f2e72b23",
     "title": "Wired 2026年骨传导耳机推荐：Shokz、Suunto、Mojawa",
     "summary": "《连线》发布了2026年最佳骨传导耳机选购指南，推荐了Shokz、Suunto和Mojawa等品牌的运动耳机产品，强调其在户外跑步时兼顾音乐与安全。",
