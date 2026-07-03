@@ -426,6 +426,43 @@ const newsData = [
     "stocks": []
   },
   {
+    "id": "e555928c3e9d0fea",
+    "title": "开发者展示TaskPeace：AI编程Agent的MCP任务队列",
+    "summary": "一名开发者在Hacker News发布TaskPeace，一款供AI编程Agent通过MCP协议从任务队列拉取工作的工具，用于协调多Agent协作。",
+    "body": "近日，一名开发者在Hacker News展示名为TaskPeace的项目，它允许AI编程Agent通过模型上下文协议（MCP）从任务队列中拉取并执行工作。该工具可用于协调多个AI编码Agent之间的任务分配，减少人工干预，提升自动化开发流程的连贯性。此类面向Agent的协调基础设施，反映出AI在软件工程自动化方向的持续探索，但目前该项目仅为个人展示，尚未形成商业化产品。",
+    "category": "人工智能",
+    "tags": [
+      "AI Agent",
+      "MCP",
+      "开发工具"
+    ],
+    "source": "Hacker News",
+    "time": "1小时前",
+    "ts": "2026-07-03T14:27:26+00:00",
+    "url": "https://taskpeace.com/",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "2e89ed19a21be4f5",
+    "title": "持久记忆方案对比：ContextNest、Mem0、Zep",
+    "summary": "该文章对比了 ContextNest、Mem0 和 Zep 三款面向 AI Agent 的持久记忆方案，分析其在上下文保持、长期记忆与检索等层面的设计差异。随着智能体对多轮交互和个性化能力的要求提升，持久记忆层正成为影响 AI 应用连续性与用户体验的关键基础设施。",
+    "body": "Hacker News 上分享的一篇文章对 ContextNest、Mem0 和 Zep 三种持久记忆（Persistent Memory）方案进行了比较，尝试从架构层面梳理 AI Agent 在上下文保持、长期记忆存储与召回等环节的不同实现路径。文章指出，持久记忆并非单一模块，而是由多个层次组成，各方案在数据组织、检索策略与记忆更新机制上各有取舍。\n\nContextNest、Mem0 与 Zep 分别代表了当前 AI 记忆层设计的不同思路：有的侧重短期会话上下文的嵌套管理，有的强调长期用户画像与事实的渐进式累积，还有的致力于降低记忆检索的延迟与幻觉风险。对于构建需要连续交互、个性化响应的智能体而言，选择合适的记忆基础设施将直接影响产品体验和系统复杂度。",
+    "category": "AI 基础设施",
+    "tags": [
+      "持久记忆",
+      "AI Agent",
+      "上下文管理",
+      "记忆层"
+    ],
+    "source": "Hacker News",
+    "time": "1小时前",
+    "ts": "2026-07-03T14:27:21+00:00",
+    "url": "https://promptowl.ai/resources/persistent-memory-ai-agents/",
+    "image": "",
+    "stocks": []
+  },
+  {
     "id": "f3c3d97a74890f23",
     "title": "小米终止12、12 Pro等多款机型软件支持",
     "summary": "小米安全中心更新终止软件支持产品列表，小米12系列、12S Ultra、Redmi Note 12T Pro、K60E及小米平板6系列等多款设备在列，后续将不再提供软件、固件及安全更新。",
@@ -1595,6 +1632,25 @@ const newsData = [
     ]
   },
   {
+    "id": "a01c4885e9873c15",
+    "title": "生数科技发布Vidu S1，开启视频实时交互新时代",
+    "summary": "生数科技在2026全球数字经济大会上发布Vidu S1实时交互模型，支持实时视频通话、语音控制视频走向及无限时长连续互动，并已开启内测。",
+    "body": "7月3日，生数科技在2026全球数字经济大会上正式发布Vidu S1实时交互模型。该模型支持实时视频通话和语音控制视频走向，能够实现无限时长的连续互动，标志着视频生成从“离线创作”向“实时交互”迈进。\nVidu S1采用自回归与扩散相结合的路线，可基于已生成画面和语音指令持续预测后续内容。用户无需传统建模流程，仅凭一张图片即可创建角色并自定义音色。\n在性能方面，Vidu S1在540P分辨率下实现25FPS实时生成，最高可达42FPS，并通过TurboDiffusion等技术降低计算成本。该产品目前已开启内测。",
+    "category": "人工智能",
+    "tags": [
+      "生数科技",
+      "Vidu S1",
+      "视频生成模型",
+      "实时交互"
+    ],
+    "source": "AIHOT精选",
+    "time": "4小时前",
+    "ts": "2026-07-03T11:17:47+00:00",
+    "url": "https://mp.weixin.qq.com/s/RuukpnoOA2tI0ERCNrLgtQ",
+    "image": "",
+    "stocks": []
+  },
+  {
     "id": "ba19b6f9fe7a09b4",
     "title": "摩托罗拉推出官方旅行eSIM应用，覆盖超160国",
     "summary": "摩托罗拉与Gigs合作推出Global Connect应用，为海外出行用户提供eSIM数据服务，新用户可享1GB免费流量，覆盖160余个国家。",
@@ -2261,6 +2317,38 @@ const newsData = [
         "ticker": "688117.SH",
         "reason": "控股股东拟大额增持公司股份并获得银行专项贷款，彰显对公司价值的信心。",
         "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "dbb9e0804735e20a",
+    "title": "JoyAI App上线UGC数字人，可定制专属虚拟玩伴",
+    "summary": "JoyAI App近日上线UGC数字人功能，用户上传照片即可生成写实或卡通风格的虚拟分身，搭配个人语音实现全双工对话，兼具情绪陪伴与生活助手能力。",
+    "body": "京东旗下的JoyAI App近日推出UGC数字人功能，用户只需上传一张照片，即可一键复刻写实形象或重塑为卡通风格，并用自己的语音生成专属虚拟玩伴。该功能复用“万能博士”技术底座，集成JoyAI语言、语音、数字人大模型，实现全双工对话，支持随时打断与自然接话。数字人不仅提供情绪陪伴，还能完成点外卖、金融咨询、学英语、规划行程等生活服务，标志着情感陪伴型AI应用进一步向消费端落地。",
+    "category": "人工智能",
+    "tags": [
+      "数字人",
+      "AI应用",
+      "情感陪伴",
+      "京东"
+    ],
+    "source": "AIHOT精选",
+    "time": "5小时前",
+    "ts": "2026-07-03T10:03:25+00:00",
+    "url": "https://mp.weixin.qq.com/s/XfpxdblzNWa5HxahRoT9pg",
+    "image": "",
+    "stocks": [
+      {
+        "name": "京东集团（美股）",
+        "ticker": "JD",
+        "reason": "JoyAI为京东旗下AI应用，新功能有助于提升C端用户粘性与AI产品矩阵竞争力",
+        "confidence": "medium"
+      },
+      {
+        "name": "京东集团（港股）",
+        "ticker": "9618.HK",
+        "reason": "JoyAI为京东旗下AI应用，新功能有助于提升C端用户粘性与AI产品矩阵竞争力",
+        "confidence": "medium"
       }
     ]
   },
