@@ -1,5 +1,24 @@
 const newsData = [
   {
+    "id": "df88424112590458",
+    "title": "浏览器之争不再围绕搜索，Chrome和Safari替代方案盘点",
+    "summary": "TechCrunch整理了当前可挑战Chrome和Safari主流地位的几款替代浏览器，反映浏览器竞争焦点已发生转移。",
+    "body": "科技媒体TechCrunch发布了一份关于当前主流浏览器替代方案的概览，关注能够挑战Google Chrome与Apple Safari市场地位的产品。文章指出，浏览器之间的竞争已不再仅仅围绕搜索功能展开，当前市场已出现多款试图打破双寡头格局的替代浏览器。这一趋势意味着用户对浏览器的需求正从单一的搜索入口向更多元化的功能与体验演进。",
+    "category": "消费电子",
+    "tags": [
+      "浏览器",
+      "Chrome",
+      "Safari",
+      "消费软件"
+    ],
+    "source": "TechCrunch",
+    "time": "6分钟前",
+    "ts": "2026-07-03T18:43:00+00:00",
+    "url": "https://techcrunch.com/2026/07/03/as-the-browser-wars-heat-up-here-are-the-hottest-alternatives-to-chrome-and-safari-in-2026/",
+    "image": "",
+    "stocks": []
+  },
+  {
     "id": "ecc071e81a3274ee",
     "title": "国际版谷歌Pixel与美国版差异解析",
     "summary": "外媒指出，谷歌Pixel手机的国际版本与美国版本存在差异，消费者在跨境购买前应留意目标市场的具体规格与兼容性。",
