@@ -74,6 +74,24 @@ const newsData = [
     "stocks": []
   },
   {
+    "id": "616f8e70b9f85b56",
+    "title": "Claude Mythos Preview发布前后严重漏洞激增",
+    "summary": "Hacker News消息称，Anthropic Claude Mythos Preview发布前后，新的严重漏洞报告数量显著上升，引发对AI模型发布周期与安全风险的关註。",
+    "body": "据Hacker News消息，在Anthropic Claude Mythos Preview发布前后，新的严重漏洞（serious vulnerabilities）报告数量出现明显激增。由于Claude属于大语言模型产品线，这一时间点上的漏洞高峰引发业界对AI模型发布与安全披露节奏之间关联的讨论。\n\n目前尚不清楚这些漏洞是否直接源自Claude Mythos Preview本身，但这一现象提示，随着AI产品快速迭代，围绕模型、接口及供应链的安全风险可能同步上升。若后续研究确认二者存在关联，或将促使开发者和企业加大对AI安全与漏洞响应的投入，利好网络安全领域。",
+    "category": "网络安全",
+    "tags": [
+      "Claude",
+      "AI安全",
+      "漏洞"
+    ],
+    "source": "Hacker News",
+    "time": "1小时前",
+    "ts": "2026-07-03T21:16:16+00:00",
+    "url": "https://epoch.ai/data-insights/cve-severity-spike",
+    "image": "",
+    "stocks": []
+  },
+  {
     "id": "49f762ec6dbfdb58",
     "title": "非洲用户加速转向Starlink卫星上网",
     "summary": "据报道，越来越多的非洲用户开始使用Starlink卫星互联网服务。这一趋势反映出非洲部分地区对宽带连接的旺盛需求，也凸显了卫星互联网在地面基础设施薄弱地区的替代价值。",
