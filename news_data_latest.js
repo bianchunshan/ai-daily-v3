@@ -1,5 +1,56 @@
 const newsData = [
   {
+    "id": "4eda6907b6c62b1d",
+    "title": "网易MuMu模拟器6.0发布：首发安卓15内核，支持480帧",
+    "summary": "网易旗下MuMu模拟器发布6.0版本，率先适配Android 15内核，并开放最高480帧超高帧率，同时覆盖Windows、macOS、Android及iOS全平台。",
+    "body": "网易MuMu模拟器迎来十周年并推出6.0版本更新，首次适配Android 15内核，并支持在Android 12与Android 15双内核间自由切换，以兼顾经典应用兼容与新旗舰手游性能释放。新版本最高支持480帧超高帧率与4K超高清画质，新增OpenGL渲染模式并升级Vulkan多核渲染效率，官方宣称在主流配置下可实现更低CPU与内存占用、长时间挂机稳定运行。此次全平台覆盖Windows、macOS（含Apple M芯片）、Windows ARM、Android及iOS，有望巩固网易在手游模拟器及跨端游戏工具市场的产品竞争力。",
+    "category": "消费电子",
+    "tags": [
+      "网易",
+      "安卓模拟器",
+      "手游",
+      "跨端工具"
+    ],
+    "source": "IT之家",
+    "time": "刚刚",
+    "ts": "2026-07-03T11:07:51+00:00",
+    "url": "https://www.ithome.com/0/972/414.htm",
+    "image": "https://img.ithome.com/newsuploadfiles/2026/7/d3e7ed0f-8660-4e58-854d-4eaf6bc58fc2.jpg?x-bce-process=image/format,f_auto",
+    "stocks": [
+      {
+        "name": "网易",
+        "ticker": "NTES",
+        "reason": "MuMu模拟器为网易旗下产品，新版本强化其在手游PC端及跨平台工具市场的竞争力",
+        "confidence": "high"
+      },
+      {
+        "name": "网易-S",
+        "ticker": "9999.HK",
+        "reason": "MuMu模拟器为网易旗下产品，新版本强化其在手游PC端及跨平台工具市场的竞争力",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "6c14c9333b0375a8",
+    "title": "AI芯片短缺再推涨手机电脑等电子产品价格",
+    "summary": "受人工智能算力需求驱动的全球芯片短缺影响，智能手机、电脑和游戏机等主流消费电子产品价格持续走高。",
+    "body": "据外媒Wired报道，由AI算力需求引发的芯片短缺正在向消费电子产品蔓延，智能手机、个人电脑和游戏机等设备价格已处高位，并可能继续上涨。本轮涨价主要源于数据中心和AI训练对先进制程芯片的巨大需求挤占了产能，使面向消费市场的处理器、存储等零部件供应趋紧，成本上升最终传导至终端售价。对消费者而言，换机成本增加；对产业链而言，则凸显半导体产能分配与供应链韧性的重要性，也可能促使厂商调整采购与定价策略。",
+    "category": "消费电子",
+    "tags": [
+      "消费电子",
+      "芯片短缺",
+      "AI算力",
+      "涨价"
+    ],
+    "source": "Wired",
+    "time": "7分钟前",
+    "ts": "2026-07-03T11:00:00+00:00",
+    "url": "https://www.wired.com/story/we-are-in-the-knockout-round-of-price-increases-for-consumer-electronics/",
+    "image": "https://media.wired.com/photos/6a459359c28e761b85a7ec73/master/pass/gear_product_price_GettyImages-2281531744.jpg",
+    "stocks": []
+  },
+  {
     "id": "d121cd37aff4e789",
     "title": "Intel 18A工艺晶圆间良率问题据称已解决",
     "summary": "据BlueFin Research Partners报告，英特尔已解决18A制程的晶圆间良率波动问题，两座工厂月产能正爬升至1.2万至1.5万片晶圆。",
