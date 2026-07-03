@@ -1,5 +1,23 @@
 const newsData = [
   {
+    "id": "a777bcf7d3d2422e",
+    "title": "NASA发射三臂机器人飞船营救坠落望远镜",
+    "summary": "美国国家航空航天局（NASA）发射一艘配备三条机械臂的机器人航天器进入轨道，以营救一台面临坠回地球风险的望远镜，展示在轨服务与空间机器人能力。",
+    "body": "美国国家航空航天局（NASA）启动了一项机器人救援任务，将一艘配备三条机械臂的航天器送入轨道，目标是一台可能失控再入地球大气层的望远镜。该任务旨在通过近距离交会、捕获或修复等手段，阻止望远镜坠毁于地面，从而保护地面人员和资产安全。这一行动标志着在轨服务、空间机器人抓捕与空间碎片主动管理技术的实际应用取得进展，对延长高价值空间资产寿命、提升航天器在轨维修能力具有重要示范意义。",
+    "category": "商业航天",
+    "tags": [
+      "在轨服务",
+      "空间机器人",
+      "NASA"
+    ],
+    "source": "Al Jazeera",
+    "time": "13分钟前",
+    "ts": "2026-07-03T21:05:39+00:00",
+    "url": "https://www.aljazeera.com/news/2026/7/3/nasa-launches-robotic-mission-to-save-telescope-falling-back-to-earth?traffic_source=rss",
+    "image": "",
+    "stocks": []
+  },
+  {
     "id": "b9f15ae359b647b1",
     "title": "华盛顿特区将启用首批中途电动巴士充电桩",
     "summary": "美国华盛顿都会区即将部署首批中途架空受电弓式电动巴士充电桩，可在巴士行驶途中补能，提升电动公交运营效率。",
@@ -63,6 +81,25 @@ const newsData = [
     "stocks": []
   },
   {
+    "id": "551c2101be1077c2",
+    "title": "Kagi发布7月2日更新：新增AI开关和抛硬币功能",
+    "summary": "搜索引擎Kagi在7月2日更新日志中提到新增AI切换开关以及“Heads/Tails”抛硬币功能，显示其在AI搜索与实用工具上的持续迭代。",
+    "body": "据报道，Kagi于7月2日发布更新日志，标题涉及“Heads, tails, and an AI toggle”。该日志提及平台新增AI开关与抛硬币（Heads/Tails）功能，但具体实现细节未进一步披露。\n\nKagi是一款主打无广告、隐私保护的付费搜索引擎，近年来持续引入AI能力。此次更新反映其进一步将AI选项产品化，并尝试加入轻量决策工具，以丰富用户体验。\n\n由于Kagi尚未上市且公告内容较为简略，该更新对资本市场的直接影响有限，更多体现AI搜索赛道在产品功能层面的演进趋势。",
+    "category": "人工智能",
+    "tags": [
+      "AI搜索",
+      "Kagi",
+      "搜索引擎",
+      "AI应用"
+    ],
+    "source": "Hacker News",
+    "time": "1小时前",
+    "ts": "2026-07-03T20:08:01+00:00",
+    "url": "https://kagi.com/changelog#10959",
+    "image": "",
+    "stocks": []
+  },
+  {
     "id": "331a04e789a32197",
     "title": "Oak：面向AI Agent的Git版本控制工具",
     "summary": "HackerNews上出现介绍Oak的文章，该工具被称为“AI Agent的Git”，旨在为智能体提供类似Git的版本控制能力。",
@@ -78,6 +115,25 @@ const newsData = [
     "time": "53分钟前",
     "ts": "2026-07-03T20:05:27+00:00",
     "url": "https://oak.space/",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "53fdaa1d78732244",
+    "title": "Hacker News 用户展示“Topics, Not Feeds”项目",
+    "summary": "一名用户在 Hacker News 的 Show HN 板块展示了名为“Topics, Not Feeds”的项目，其核心理念是以主题聚合内容，替代传统的信息流浏览方式。目前公开的物料仅包含项目名称与极少的互动数据，具体功能与商业模式尚不明确。",
+    "body": "“Show HN”是 Hacker News 上供开发者展示个人或团队新项目的固定板块。此次亮相的“Topics, Not Feeds”从名称看，主打按主题（Topics）组织信息，而非依赖按时间线或算法排序的信息流（Feeds）。这种设计思路通常旨在降低信息过载、提升阅读效率，常见于内容聚合、RSS 替代、知识管理或基于机器学习的推荐工具。由于原文仅提供了标题、来源、3 个赞和 1 条评论，项目的具体形态、技术栈、目标用户及商业化路径均无从判断，需等待更多详情或访问原文链接后才能进一步评估其影响。",
+    "category": "人工智能",
+    "tags": [
+      "内容聚合",
+      "信息筛选",
+      "Hacker News",
+      "产品展示"
+    ],
+    "source": "Hacker News",
+    "time": "1小时前",
+    "ts": "2026-07-03T19:49:56+00:00",
+    "url": "https://blogsreader.com",
     "image": "",
     "stocks": []
   },
@@ -111154,6 +111210,12 @@ const newsData = [
   }
 ];
 const newsDigest = {
-  "text": "",
-  "highlights": []
+  "text": "今日科技前沿聚焦：NASA机器人飞船营救坠落望远镜，三家核能初创取得反应堆设计突破，AI Agent开发工具、数据中心能耗压力与癌症免疫新机制亦受关注。",
+  "highlights": [
+    "a777bcf7d3d2422e",
+    "7838a09110c13c3b",
+    "331a04e789a32197",
+    "1c240cc6ac5450b8",
+    "fb307fbe2f3f4c72"
+  ]
 };
