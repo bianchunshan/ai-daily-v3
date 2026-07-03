@@ -1,5 +1,82 @@
 const newsData = [
   {
+    "id": "7157f7b1accc6014",
+    "title": "A股午间全线飘红，机器人概念领涨",
+    "summary": "A股三大指数午间收盘集体上涨，机器人、汽车、贵金属板块表现强势，林木及文化传媒板块走弱。",
+    "body": "36氪消息，A股三大指数午间收盘集体上涨，沪指涨0.69%，深成指涨1.39%，创业板指涨1.58%。盘面上，贵金属、汽车、机器人概念领涨，其中奥比中光涨超11%，比亚迪涨超3%，晓程科技涨超12%。\n\n与此同时，林木、文化传媒、互联网板块表现较弱，康欣新材跌超4%，佳云科技跌超3%，光云科技跌超2%。机器人概念股再度成为资金关注焦点，反映出市场对具身智能及机器人产业链的乐观预期。",
+    "category": "机器人",
+    "tags": [
+      "A股",
+      "机器人",
+      "具身智能",
+      "午间收盘"
+    ],
+    "source": "36氪",
+    "time": "刚刚",
+    "ts": "2026-07-03T03:45:55.481495+00:00",
+    "url": "https://36kr.com/newsflashes/3879363635769350?f=rss",
+    "image": "",
+    "stocks": [
+      {
+        "name": "奥比中光",
+        "ticker": "688322.SH",
+        "reason": "公司是国内3D视觉传感器龙头，深度布局机器人视觉，机器人概念走强直接利好其估值与业务预期。",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "6b8b60181e11eddd",
+    "title": "铁威马F6-425 Pro开售：双万兆网口+9盘位",
+    "summary": "铁威马F6-425 Pro NAS已在京东开售，首发价5599元，面向影视后期与独立导演等用户，配备双万兆网口、双USB 4接口及6机械+3固态盘位，最高可扩容至216TB，并搭载宣称“全球首个深度适配AI场景”的TOS 7系统。",
+    "body": "铁威马F6-425 Pro NAS定位影视后期、独立导演等专业创作人群，采用英特尔酷睿i3-1315U处理器，提供6个机械硬盘位和3个M.2固态硬盘位，系统盘与缓存盘分离，最大容量可达216TB。接口方面配备双万兆网口，带宽可达20Gbps，双USB 4接口支持网桥直连，线性写入速度约2090MB/s，并支持4K硬件解码、虚拟机与多种备份方案。\n\n新品搭载TOS 7操作系统，新增50余项功能，并号称“全球首个深度适配AI场景的NAS系统”。在当前AI生成内容与高清创作数据快速增长的背景下，该产品强调本地大容量、高速存取与AI工作流适配，反映了专业用户与个人工作室对高性能网络存储的需求升级。",
+    "category": "消费电子",
+    "tags": [
+      "NAS",
+      "网络存储",
+      "消费电子",
+      "数据存储"
+    ],
+    "source": "IT之家",
+    "time": "2分钟前",
+    "ts": "2026-07-03T03:43:00+00:00",
+    "url": "https://www.ithome.com/0/972/092.htm",
+    "image": "https://img.ithome.com/newsuploadfiles/2026/7/c4f07f5b-960a-46d6-93ab-abda58a81f10.jpg",
+    "stocks": []
+  },
+  {
+    "id": "d6cbde3f3567bace",
+    "title": "三星首款AI眼镜Galaxy Glasses曝光",
+    "summary": "科技媒体Android Authority曝光三星首款AI眼镜Galaxy Glasses渲染视频。该产品运行谷歌Android XR系统，深度集成Gemini AI模型，支持拍照、实时翻译、语音问答等免提交互功能。",
+    "body": "据媒体报道，三星首款AI眼镜Galaxy Glasses外观接近传统太阳镜，元件集中于厚镜腿，整体造型与Meta Ray-Ban智能眼镜相似。系统层面，该设备运行谷歌Android XR，并深度集成Gemini AI模型，核心功能围绕免提AI交互展开，包括拍照、录像、语音问答、实时翻译、音乐播放和导航。\n\n硬件方面，Galaxy Glasses预计配备1200万像素摄像头、内置麦克风与扬声器，并支持触控操作；光致变色镜片可根据环境光线自动调节，以适应室内外不同场景。作为三星在AI可穿戴硬件领域的重要尝试，该产品有望加剧智能眼镜市场竞争，并推动AI Agent向多模态、随身化方向发展。",
+    "category": "消费电子",
+    "tags": [
+      "AI眼镜",
+      "智能穿戴",
+      "三星",
+      "Gemini"
+    ],
+    "source": "IT之家",
+    "time": "15分钟前",
+    "ts": "2026-07-03T03:29:55+00:00",
+    "url": "https://www.ithome.com/0/972/090.htm",
+    "image": "https://img.ithome.com/newsuploadfiles/2026/7/1f351152-62a4-4d9e-9351-cbcc474187e5.jpg?x-bce-process=image/format,f_auto",
+    "stocks": [
+      {
+        "name": "三星电子",
+        "ticker": "005930.KS",
+        "reason": "Galaxy Glasses为三星首款AI眼镜，直接拓展其智能穿戴与AI硬件生态",
+        "confidence": "high"
+      },
+      {
+        "name": "Alphabet/谷歌",
+        "ticker": "GOOGL",
+        "reason": "眼镜搭载谷歌Android XR系统并深度集成Gemini AI模型",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
     "id": "60df21ccc26d3eec",
     "title": "腾讯游戏暑期未成年人限玩升级，AI双引擎防沉迷",
     "summary": "腾讯游戏发布2026年暑期未成年人保护专项行动，对未成年人每周限玩3小时，并通过接入腾讯混元与DeepSeek双模型升级AI防沉迷系统，利用声纹、年龄识别等多模态验证提高冒用、代过门槛。",
@@ -11951,6 +12028,25 @@ const newsData = [
     "ts": "2026-07-01T20:00:05-04:00",
     "url": "https://medicalxpress.com/news/2026-07-digital-mindfulness-intervention-beneficial-late.html",
     "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/digital-mindfulness-in.jpg",
+    "stocks": []
+  },
+  {
+    "id": "2ccb289025e5acac",
+    "title": "RDM实现一步视觉生成新突破",
+    "summary": "表示分布匹配（RDM）通过匹配冻结预训练编码器下的生成与参考特征分布，可将多步扩散模型蒸馏为一步图像生成器。改进版iRDM在ImageNet一步生成任务上达到SOTA，并成功将FLUX.2后训练为一步生成器，性能超越原版。",
+    "body": "表示分布匹配（Representation Distribution Matching, RDM）是一种新的视觉生成训练方法，它通过匹配冻结预训练编码器下生成样本与参考样本的特征分布，来训练一步图像生成器。研究团队提出了三项关键发现：经典的最大均值差异（MMD）在正确估计后可作为可扩展的训练目标；生成批次大小的最优值超过2048；单一表示容易被欺骗，因此需要匹配一组平衡的编码器组合，并采用独立于训练损失的SW_r14指标进行评估。\n\n基于上述发现改进的iRDM方法，在ImageNet数据集上以SW_r14指标1.30的成绩达到一步生成SOTA，并且在71.2%的样本上获得更高的PickScore评分。研究团队还将四步FLUX.2模型通过后训练蒸馏为一步生成器，在GenEval基准上得分从0.794提升至0.826，PickScore从22.58提升至22.76，整个训练过程仅需90个H200 GPU小时。这一方法有望显著降低高质量图像生成的推理成本，推动实时图像生成应用的发展。",
+    "category": "人工智能",
+    "tags": [
+      "图像生成",
+      "扩散模型",
+      "模型蒸馏",
+      "FLUX"
+    ],
+    "source": "AIHOT精选",
+    "time": "1天前",
+    "ts": "2026-07-02T00:00:00+00:00",
+    "url": "https://arxiv.org/abs/2607.02375",
+    "image": "",
     "stocks": []
   },
   {
