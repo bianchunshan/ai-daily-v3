@@ -1,5 +1,23 @@
 const newsData = [
   {
+    "id": "ea1daaff417a4eb9",
+    "title": "奋进号航天飞机将于今年年底公开展出",
+    "summary": "奋进号航天飞机将于今年晚些时候在加州科学中心永久公开展出。该航天飞机自2012年起停放在洛杉矶，此次搬迁将为其提供新的永久展示场所。",
+    "body": "奋进号航天飞机将于今年晚些时候向公众正式展出。这架航天飞机自2012年以来一直停留在洛杉矶，如今将迁至加州科学中心作为永久新家。作为美国航天飞机计划的重要组成部分，奋进号的公开展示将有助于公众了解载人航天历史与空间探索技术，具有重要的科普教育与历史文化价值。",
+    "category": "商业航天",
+    "tags": [
+      "航天飞机",
+      "太空探索",
+      "加州科学中心"
+    ],
+    "source": "Engadget",
+    "time": "10分钟前",
+    "ts": "2026-07-03T19:41:47+00:00",
+    "url": "https://www.engadget.com/2207813/space-shuttle-endeavour-goes-on-public-display-later-this-year/",
+    "image": "https://www.engadget.com/img/gallery/the-space-shuttle-endeavour-goes-on-public-display-later-this-year/l-intro-1783107534.jpg",
+    "stocks": []
+  },
+  {
     "id": "fb307fbe2f3f4c72",
     "title": "诱导癌细胞死亡可唤醒免疫系统增强抗肿瘤攻击",
     "summary": "最新研究表明，通过程序性细胞死亡（如凋亡和坏死性凋亡）促使癌细胞死亡，可向免疫系统发出警报，从而增强抗肿瘤攻击。",
