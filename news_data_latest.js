@@ -1,5 +1,50 @@
 const newsData = [
   {
+    "id": "1147357a7037ee24",
+    "title": "飞马座XL火箭完成Swift卫星升轨任务",
+    "summary": "诺斯罗普·格鲁曼公司的飞马座XL空射火箭执行了NASA Swift天体物理卫星的轨道再提升任务，此次发射可能是该型火箭的最后一次飞行。",
+    "body": "诺斯罗普·格鲁曼公司（Northrop Grumman）的飞马座XL（Pegasus XL）空射火箭近日执行了一次特殊发射任务，为NASA的Swift天体物理卫星实施轨道再提升（reboost），以延缓轨道衰减、延长卫星在轨科学观测寿命。由于高空大气阻力会使卫星轨道逐渐降低，此次任务通过火箭推力将Swift推回更高轨道。\n\nSwift卫星主要用于监测伽马射线暴等高能宇宙现象。采用飞马座XL火箭为成熟科学卫星提供升轨服务，展示了商业火箭在卫星延寿与空间基础设施维护方面的应用潜力。此次任务若确为飞马座系列火箭的最后一次飞行，也意味着这一具有标志性的空射小型运载火箭即将谢幕。",
+    "category": "商业航天",
+    "tags": [
+      "火箭发射",
+      "卫星延寿",
+      "NASA",
+      "商业航天"
+    ],
+    "source": "SpaceNews",
+    "time": "3分钟前",
+    "ts": "2026-07-03T20:55:34+00:00",
+    "url": "https://spacenews.com/pegasus-launches-swift-reboost-mission/",
+    "image": "https://i0.wp.com/spacenews.com/wp-content/uploads/2026/07/pegasus-swift.jpeg?fit=1024%2C683&amp;ssl=1",
+    "stocks": [
+      {
+        "name": "诺斯罗普·格鲁曼",
+        "ticker": "NOC",
+        "reason": "飞马座XL火箭由该公司研制并运营，此次任务直接体现其商业发射服务与卫星支持能力。",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "331a04e789a32197",
+    "title": "Oak：面向AI Agent的Git版本控制工具",
+    "summary": "HackerNews上出现介绍Oak的文章，该工具被称为“AI Agent的Git”，旨在为智能体提供类似Git的版本控制能力。",
+    "body": "近日，技术社区HackerNews出现一篇题为《Oak：Git for Agents》的文章，引发关注。文章将Oak定位为面向AI Agent的“Git”，意在解决自主智能体在工作流中的版本控制、状态追踪或协作需求。虽然该文目前热度有限（7 points、2条评论），但其概念触及AI Agent开发工具链的潜在缺口，若后续获得开发者认可，可能推动Agent基础设施的演进。",
+    "category": "人工智能",
+    "tags": [
+      "AI Agent",
+      "开发者工具",
+      "版本控制",
+      "人工智能"
+    ],
+    "source": "Hacker News",
+    "time": "53分钟前",
+    "ts": "2026-07-03T20:05:27+00:00",
+    "url": "https://oak.space/",
+    "image": "",
+    "stocks": []
+  },
+  {
     "id": "1c240cc6ac5450b8",
     "title": "美国热浪凸显AI数据中心能耗重压",
     "summary": "美国多地遭遇持续热浪，电网负荷激增，暴露出人工智能数据中心快速扩张对电力基础设施造成的严峻压力。",
