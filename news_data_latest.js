@@ -89,6 +89,25 @@ const newsData = [
     ]
   },
   {
+    "id": "c97e80e2cf933e09",
+    "title": "Valve开源Steam电子墨水屏供玩家自制",
+    "summary": "Valve宣布开源Steam Machine电子墨水屏相关设计，玩家与开发者可据此自行制作兼容屏幕。此举体现了Valve对开放硬件生态的支持，有望推动Steam周边设备的社区创新。",
+    "body": "据外媒报道，Valve已将Steam Machine配套的电子墨水（e-ink）屏幕设计开源，公布了相关硬件资料，供玩家和第三方开发者自行制造兼容屏幕。该屏幕可能用于Steam主机或控制器的显示与交互，开源后社区可以基于此进行二次开发、定制硬件，降低个人创作门槛。\n\n这一动作延续了Valve对开放硬件生态的支持，与Steam平台一贯的PC开放理念一致。对于硬件爱好者和独立开发者而言，这意味着可以更自由地设计、改装Steam相关配件，激发周边配件与改装市场的创新活力。",
+    "category": "消费电子",
+    "tags": [
+      "Valve",
+      "开源硬件",
+      "电子墨水屏",
+      "Steam"
+    ],
+    "source": "Hacker News",
+    "time": "23分钟前",
+    "ts": "2026-07-03T13:01:49+00:00",
+    "url": "https://www.gamingonlinux.com/2026/07/valve-open-source-the-steam-machine-e-ink-screen-so-you-can-make-your-own/",
+    "image": "",
+    "stocks": []
+  },
+  {
     "id": "27f21a7298979f1e",
     "title": "美国州际公路70周年：Quarterhill探讨交通智能化升级",
     "summary": "在美国州际公路系统启用70周年之际，加拿大智能交通公司Quarterhill表示，其AI平台正帮助全球交通机构优化道路安全、缓解拥堵，并支持自动驾驶车队发展。",
@@ -160,6 +179,25 @@ const newsData = [
     "stocks": []
   },
   {
+    "id": "895401670e988bd5",
+    "title": "PostgreSQL 与 OOM Killer：为何应使用严格内存过量使用",
+    "summary": "文章探讨了在 Linux 上运行 PostgreSQL 时，内存过量使用（overcommit）设置不当可能触发 OOM Killer 的风险，并建议采用严格模式以提升数据库稳定性。",
+    "body": "该文聚焦 PostgreSQL 在 Linux 内核内存过量使用策略下的运行风险。作者指出，若系统启用宽松 overcommit，PostgreSQL 等大内存进程可能在内存紧张时被 OOM Killer 强制终止，导致数据库宕机或事务中断。建议通过严格模式让内存分配失败在应用层暴露，便于提前处理并避免突发 kill。\n\n这类调优对依赖 PostgreSQL 的云服务、数据密集型应用和企业核心数据库具有重要参考意义，有助于减少生产环境因内存压力导致的非预期故障。",
+    "category": "AI 基础设施",
+    "tags": [
+      "PostgreSQL",
+      "数据库",
+      "内存管理",
+      "OOM"
+    ],
+    "source": "Hacker News",
+    "time": "24分钟前",
+    "ts": "2026-07-03T13:00:31+00:00",
+    "url": "https://www.ubicloud.com/blog/postgresql-and-the-oom-killer-why-we-use-strict-memory-overcommit",
+    "image": "",
+    "stocks": []
+  },
+  {
     "id": "e8d190b803976afc",
     "title": "戴尔与外星人游戏PC独立日促销最高省47%",
     "summary": "戴尔及旗下Alienware品牌在独立日周末推出限时促销，覆盖游戏PC、笔记本、显示器及电竞椅，部分产品最高可享47%折扣。",
@@ -210,6 +248,24 @@ const newsData = [
         "confidence": "high"
       }
     ]
+  },
+  {
+    "id": "9b40a0a6a0ae5097",
+    "title": "请停止AI“自信表演”",
+    "summary": "Hacker News上出现一篇题为《Please Stop the AI Confidence Theater》的文章，呼吁科技界停止围绕人工智能能力过度渲染信心的表演。",
+    "body": "这条Hacker News热帖转载了一篇题为《Please Stop the AI Confidence Theater》的文章，当前得分为3分、暂无评论。仅从标题判断，作者很可能在批评人工智能领域常见的夸大宣传与过度自信——即将尚不确定的技术进展包装成必然趋势，以营造市场或舆论上的确定性。\n\n这种批评本身反映当下AI行业的一个持续争议：在模型能力、产品落地与商业回报之间，是否存在过度的信心表演。若文章进一步展开，可能会讨论这种表演对研发资源分配、公众认知以及投资者预期的潜在影响。",
+    "category": "人工智能",
+    "tags": [
+      "人工智能",
+      "行业评论",
+      "AI炒作"
+    ],
+    "source": "Hacker News",
+    "time": "33分钟前",
+    "ts": "2026-07-03T12:51:17+00:00",
+    "url": "https://www.elenaverna.com/p/please-stop-the-ai-confidence-theater",
+    "image": "",
+    "stocks": []
   },
   {
     "id": "fbdc3452fa461ff5",
