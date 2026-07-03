@@ -1,5 +1,31 @@
 const newsData = [
   {
+    "id": "f23adc8c6f7dfb80",
+    "title": "索尼调整PS实体盘停产计划：2028年前游戏仍可生产光盘",
+    "summary": "索尼已向发行合作伙伴确认，2028年1月停产日期前发售的PlayStation游戏仍可继续生产实体光盘，2028年后发售的新游戏则可选择以数字兑换码形式在线下销售。",
+    "body": "据IT之家报道，索尼近日宣布PlayStation实体游戏将于2028年1月后停止生产，引发玩家广泛关注。随后该公司调整口径，向发行合作伙伴表示，凡在2028年停产日期之前发售的游戏，未来仍可继续生产实体光盘，但光盘订购流程将发生变化，具体细节后续公布。对于2028年之后发售的新游戏，发行商可选择以数字兑换码形式在线下渠道销售。这一调整有助于安抚实体盘玩家情绪，也反映出游戏行业在数字化转型过程中仍面临来自传统用户的阻力。",
+    "category": "消费电子",
+    "tags": [
+      "索尼",
+      "PlayStation",
+      "实体游戏",
+      "游戏光盘"
+    ],
+    "source": "IT之家",
+    "time": "4分钟前",
+    "ts": "2026-07-03T22:54:35+00:00",
+    "url": "https://www.ithome.com/0/972/465.htm",
+    "image": "https://img.ithome.com/newsuploadfiles/2026/7/8a106194-f159-4008-943e-6d98eadbcf4b.jpg?x-bce-process=image/format,f_auto",
+    "stocks": [
+      {
+        "name": "索尼集团",
+        "ticker": "SONY",
+        "reason": "政策调整安抚实体游戏玩家，有助于稳定PlayStation生态与用户情绪",
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
     "id": "7067c3564c735181",
     "title": "iOS 27代码曝光B790：苹果AirPods或配摄像头",
     "summary": "开发者在iOS 27测试版中发现代号B790的设备描述，指向配备双侧摄像头的AirPods。该产品原计划量产，但因视觉AI模型优化和Siri AI挑战，已推迟至2027年发布。",
