@@ -1,5 +1,56 @@
 const newsData = [
   {
+    "id": "e1f373dfb833b48c",
+    "title": "神牛推出带透明LCD取景器的超薄卡片机",
+    "summary": "摄影灯光厂商神牛（Godox）加入复古卡片机热潮，发布一款搭载透明LCD屏幕取景器的超薄相机，瞄准追求便携与仪式感的摄影爱好者。",
+    "body": "尽管智能手机拍照能力日益强大，独立式卡片机却正在迎来复兴。以摄影灯光产品著称的神牛（Godox）也加入这一潮流，推出一款机身超薄、采用透明LCD屏幕作为取景器的卡片机。该产品延续了近年柯达、佳能复古机型在社交平台上的热度，主打轻便、易用和“实体拍摄”体验。业内人士认为，这类设备更多面向内容创作者和年轻消费者，能否在智能手机主导的市场中持续走红，仍取决于成像素质和价格定位。",
+    "category": "消费电子",
+    "tags": [
+      "卡片机",
+      "数码相机",
+      "摄影器材",
+      "消费电子"
+    ],
+    "source": "The Verge",
+    "time": "3分钟前",
+    "ts": "2026-07-03T10:51:38-04:00",
+    "url": "https://www.theverge.com/tech/961362/godox-c100-digital-camera-transparent-lcd-screen",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "2e946dcf5d3f0fa2",
+    "title": "英特尔确认上调部分消费级与服务器CPU价格",
+    "summary": "英特尔确认因供应链成本上升和市场需求强劲，已上调部分桌面酷睿Ultra 200S Plus及数据中心至强处理器价格，部分Xeon涨幅超过1000美元。",
+    "body": "英特尔发言人向Tom's Hardware证实，公司近期提高了部分消费级和服务器CPU的建议客户价格。桌面端Core Ultra 7 270K Plus与250K Plus等Arrow Lake系列处理器涨价30至50美元，该系列由台积电代工生产；数据中心级的部分至强处理器涨幅更达数百甚至上千美元。英特尔称，此次调价反映了当前市场动态、供应链成本上涨以及强劲需求，并与其他近期涨价产品线的原因一致。作为CPU市场的重要供应商，此次涨价有助于改善英特尔毛利率，但也可能促使部分价格敏感客户考虑竞争方案。",
+    "category": "半导体与先进制造",
+    "tags": [
+      "英特尔",
+      "CPU",
+      "至强",
+      "半导体"
+    ],
+    "source": "Tom's Hardware",
+    "time": "9分钟前",
+    "ts": "2026-07-03T14:45:33+00:00",
+    "url": "https://www.tomshardware.com/pc-components/cpus/intel-confirms-price-hikes-on-select-consumer-and-server-cpus-citing-supply-costs-and-demand-select-xeon-processors-now-over-usd1-000-more-expensive",
+    "image": "https://cdn.mos.cms.futurecdn.net/wUsSLzuor4dtkrjsTZUnB3-1280-80.jpg",
+    "stocks": [
+      {
+        "name": "英特尔",
+        "ticker": "INTC",
+        "reason": "公司直接提价，有助于缓解供应链成本压力并改善毛利率",
+        "confidence": "high"
+      },
+      {
+        "name": "AMD",
+        "ticker": "AMD",
+        "reason": "英特尔CPU涨价可能推动部分桌面与服务器客户转向AMD竞品",
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
     "id": "e9f70fe3037b2ef5",
     "title": "vivo X500工程机影像曝光：5000万主摄+6400万潜望长焦",
     "summary": "数码博主爆料称vivo下一代旗舰X500标准版工程机搭载5000万像素索尼超大底主摄、5000万像素超广角及6400万像素潜望长焦，Pro Max版或采用2亿像素长焦方案。",
