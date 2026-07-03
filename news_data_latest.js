@@ -1,5 +1,83 @@
 const newsData = [
   {
+    "id": "a8ff9340722077ca",
+    "title": "Robinhood CEO：AI智能体将媲美人类交易员",
+    "summary": "美国券商Robinhood首席执行官特内夫预测，AI智能体很快将具备与人类交易员相当的能力，并计划让散户投资者获得机构级交易工具和算力。",
+    "body": "据CNBC报道，Robinhood首席执行官弗拉德·特内夫近日表示，\"智能体交易\"的核心概念是让AI智能体完成人类交易员的每一项工作。他透露，自己创业前曾从事机构程序化交易，Robinhood的终极目标是让散户能够使用与机构投资者、高频交易公司相同的工具和算力。\n\n特内夫还表示，Robinhood近期裁员约10%以提升运营效率，强调公司业务强劲，但需要打造精简、高度专注的团队。此番表态显示出Robinhood正将AI智能体视为未来交易服务的重要方向，可能重塑散户与机构之间的能力差距。",
+    "category": "人工智能",
+    "tags": [
+      "AI智能体",
+      "智能交易",
+      "Robinhood",
+      "散户投资"
+    ],
+    "source": "IT之家",
+    "time": "刚刚",
+    "ts": "2026-07-03T02:35:22+00:00",
+    "url": "https://www.ithome.com/0/972/037.htm",
+    "image": "https://img.ithome.com/newsuploadfiles/2026/7/a4138206-7d12-4481-83b2-8506cc1fb216.png?x-bce-process=image/format,f_auto",
+    "stocks": [
+      {
+        "name": "Robinhood",
+        "ticker": "HOOD",
+        "reason": "公司CEO明确提出'智能体交易'战略，计划让散户获得机构级AI交易能力，直接利好其平台业务与技术差异化",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "c7a9c53b934d8b24",
+    "title": "韩国政府拟用AI税收红利购入万片Rubin GPU推进主权AI",
+    "summary": "据外媒报道，韩国政府计划将AI热潮带来的额外税收用于加速主权人工智能发展，拟采购约1万块英伟达Rubin GPU，由单一精英团队集中研发，目标2027年上半年推出先进模型。",
+    "body": "综合《首尔新闻》《韩国经济日报》消息，三星电子、SK海力士及上下游企业在AI革命中获利丰厚，间接为韩国政府带来大量税收。韩国科学技术信息通信部计划在补充预算到位后，斥资约5万亿韩元购买约10000块英伟达Rubin GPU，交由单一精英团队使用，以解决此前国内AI研发资源分散的问题，目标在2027年上半年完成先进模型开发。\n\n近期Anthropic、OpenAI等前沿模型遭遇出口或发布管制，使韩国意识到传统盟友关系在AI时代出现裂痕，发展自有模型、降低对海外模型依赖成为保障AI供应链安全的关键举措。该计划若落地，将显著提升韩国主权AI算力基础，同时巩固英伟达在高性能AI芯片市场的核心地位。",
+    "category": "AI 基础设施",
+    "tags": [
+      "主权AI",
+      "韩国",
+      "英伟达",
+      "GPU"
+    ],
+    "source": "IT之家",
+    "time": "5分钟前",
+    "ts": "2026-07-03T02:30:31+00:00",
+    "url": "https://www.ithome.com/0/972/036.htm",
+    "image": "https://img.ithome.com/newsuploadfiles/2026/7/c9a380d5-b704-4b98-8fe4-d5291a655fa6.jpg",
+    "stocks": [
+      {
+        "name": "英伟达",
+        "ticker": "NVDA",
+        "reason": "韩国政府计划采购约1万块英伟达Rubin GPU用于主权AI研发，直接拉动其高端AI芯片需求",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "3cad98911e49fcc3",
+    "title": "OPPO Reno16“半夏青”配色今日开售，3299元起",
+    "summary": "OPPO Reno16全新配色“半夏青”今日开售，官方零售价3299元起，国补后最低2804.15元。该机搭载联发科天玑8550 SUPER处理器，并配备AI一键闪记、山海通信增强芯片等功能。",
+    "body": "7月3日，OPPO Reno16全新配色“半夏青”正式开售，12GB+256GB简装版零售价3299元，国补后到手价2804.15元起；12GB+256GB标准版国补后2999元，12GB+512GB国补后3499元，16GB+512GB国补后3799元。新机配备6.32英寸2640×1216 OLED直屏，首发搭载联发科天玑8550 SUPER处理器，辅以LPDDR5X内存和UFS 3.1闪存，内置OPPO山海通信增强芯片与独立Wi-Fi加速芯片，采用纳米冰晶散热，配备6700mAh冰川电池并支持80W快充，后置2亿像素超清四摄。\n\n此次新配色上市，丰富了Reno16系列的产品线，叠加国补政策有望进一步拉动中端5G手机市场销量。新机还搭载AI键，支持OPPO AI一键闪记，可在任意场景下快速提取屏幕内容、生成攻略与笔记，体现了AI功能向中端机型的持续渗透。",
+    "category": "消费电子",
+    "tags": [
+      "OPPO",
+      "智能手机",
+      "联发科",
+      "AI手机"
+    ],
+    "source": "IT之家",
+    "time": "6分钟前",
+    "ts": "2026-07-03T02:29:19+00:00",
+    "url": "https://www.ithome.com/0/972/035.htm",
+    "image": "https://img.ithome.com/newsuploadfiles/2026/7/6ae58062-1c03-48e2-9f8e-50bd36c551ac.jpg?x-bce-process=image/format,f_auto",
+    "stocks": [
+      {
+        "name": "联发科",
+        "ticker": "2454.TW",
+        "reason": "OPPO Reno16首发搭载联发科天玑8550 SUPER处理器，新配色开售有望带动芯片需求。",
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
     "id": "a491cb33f869cbb2",
     "title": "三星Galaxy S27 Ultra前摄升级1600万像素方形传感器",
     "summary": "据外媒消息，三星Galaxy S27 Pro与S27 Ultra有望配备1600万像素前置摄像头，并采用方形传感器设计。该系列预计2027年1月发布。",
@@ -105110,6 +105188,12 @@ const newsData = [
   }
 ];
 const newsDigest = {
-  "text": "",
-  "highlights": []
+  "text": "今日科技前沿：AI智能体冲击交易员、腾讯升级防沉迷声纹识别、韩国押注Rubin GPU主权AI、人社部新增数字孪生与具身智能职业、2000亿元设备更新资金下达。",
+  "highlights": [
+    "a8ff9340722077ca",
+    "80386707021ed475",
+    "c7a9c53b934d8b24",
+    "dd80f21a4cc1c840",
+    "105504a3b054a637"
+  ]
 };
