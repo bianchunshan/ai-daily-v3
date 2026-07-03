@@ -1,5 +1,24 @@
 const newsData = [
   {
+    "id": "e9cedf73386af26a",
+    "title": "惠普独立日大促：游戏PC最高降价71%",
+    "summary": "惠普借美国独立日假期推出大型促销活动，旗下游戏本、台式机、显示器及配件最高可享71%折扣，部分机型还可叠加优惠码进一步减价。",
+    "body": "美国独立日周末期间，惠普（HP）开启大型促销活动，Omen系列游戏台式机、游戏笔记本、显示器及配件最高优惠71%。此次活动涵盖RTX 5080/5090等高端配置机型，部分产品可使用JULY4PC25、JULY4PC50等优惠码再减25或50美元。在当前DIY装机成本较高的背景下，大幅降价的预装整机为消费者提供了相对高性价比的4K游戏方案。",
+    "category": "消费电子",
+    "tags": [
+      "惠普",
+      "游戏PC",
+      "独立日促销",
+      "消费电子"
+    ],
+    "source": "Tom's Hardware",
+    "time": "3分钟前",
+    "ts": "2026-07-03T11:49:56+00:00",
+    "url": "https://www.tomshardware.com/gift-guides-seasonal-sales/save-up-to-71-percent-on-hp-gaming-desktops-and-laptops-this-july-4-weekend-sale-could-land-you-a-gaming-pc-for-less",
+    "image": "https://cdn.mos.cms.futurecdn.net/G4ZXJ9VeAUH2Z6ssdomNCo-1280-80.jpg",
+    "stocks": []
+  },
+  {
     "id": "5ff2558e1c7598cf",
     "title": "肯尼亚居家咨询显著提升夫妻HIV检测率与母婴病毒抑制",
     "summary": "一项在肯尼亚开展的研究显示，针对孕妇及其男性伴侣的居家咨询项目使夫妻共同HIV检测率提高逾四倍，并帮助感染HIV的母亲实现病毒抑制。",
