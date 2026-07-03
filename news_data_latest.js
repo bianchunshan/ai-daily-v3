@@ -1,5 +1,31 @@
 const newsData = [
   {
+    "id": "13500fbffb68b492",
+    "title": "吉利银河战舰700内饰公布：悬浮屏+大量物理按键",
+    "summary": "吉利汽车发布银河战舰700内饰官图，该车定位“AI全地形硬核SUV”，采用三电机四驱插混系统并集成多项越野与智能驾驶辅助功能，计划年内上市。",
+    "body": "7月3日，吉利汽车公布了银河战舰700的内饰官图。新车配备悬浮式中控屏、三幅式多功能方向盘及副驾长条形信息屏，并保留大量物理按键，可通过旋钮切换智能、经济、舒适和运动四种驾驶模式，兼顾科技感与越野场景的操作便利性。\n\n银河战舰700采用方盒子造型，搭载三电机四驱插电式混合动力系统，系统综合功率达830千瓦，并配备差速锁、GVMC动态控制系统及AI智能四驱系统，支持蟹行模式、原地掉头、爆胎行驶及障碍物连续自动避让等功能，意在强化硬派越野与智能化标签。目前吉利尚未公布具体售价和详细配置。",
+    "category": "机器人",
+    "tags": [
+      "吉利汽车",
+      "新能源汽车",
+      "自动驾驶",
+      "SUV"
+    ],
+    "source": "IT之家",
+    "time": "刚刚",
+    "ts": "2026-07-03T08:39:59+00:00",
+    "url": "https://www.ithome.com/0/972/331.htm",
+    "image": "https://img.ithome.com/newsuploadfiles/2026/7/8ed6438c-3fe5-4df6-bf3e-21117c7d9ad8.jpg?x-bce-process=image/format,f_auto",
+    "stocks": [
+      {
+        "name": "吉利汽车",
+        "ticker": "0175.HK",
+        "reason": "新车年内上市可丰富吉利高端新能源SUV产品矩阵，强化越野与智能化卖点，有望拉动销量与品牌溢价。",
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
     "id": "8c9671608e9d9f83",
     "title": "阿里云发布Qoder企业版，加码企业AI服务",
     "summary": "阿里云正式发布Qoder企业版，面向企业提供云端知识库QMind与Credits资源池化付费模式，助力企业跨产品、跨设备、跨人员共享知识。",
@@ -221,6 +247,25 @@ const newsData = [
     "ts": "2026-07-03T08:23:47+00:00",
     "url": "https://www.ithome.com/0/972/326.htm",
     "image": "https://img.ithome.com/newsuploadfiles/2026/7/3fee9dd6-2a6a-4be1-a306-e3bf280bca47.png?x-bce-process=image/format,f_auto",
+    "stocks": []
+  },
+  {
+    "id": "a3021376dfdeb60f",
+    "title": "欧洲议员遭以色列Pegasus间谍软件攻击",
+    "summary": "据加拿大公民实验室分析，希腊前议员、欧洲议会议员斯泰利奥斯·库洛格卢遭以色列Pegasus间谍软件入侵，他曾参与调查欧洲监视丑闻。",
+    "body": "外媒援引加拿大公民实验室（Citizen Lab）报告称，希腊前议员、欧洲议会议员斯泰利奥斯·库洛格卢（Stelios Kouloglou）的手机被以色列Pegasus间谍软件入侵。库洛格卢此前参与调查欧洲范围内的监视丑闻，其遭攻击引发外界对商业间谍软件被用于针对立法者和监督人士的关注。\n\nPegasus由以色列NSO集团开发，可秘密访问手机通讯录、短信、通话及定位等信息。此次事件再次凸显商业间谍软件滥用对民主监督、隐私安全和欧盟相关监管议程的冲击。",
+    "category": "网络安全",
+    "tags": [
+      "间谍软件",
+      "Pegasus",
+      "网络安全",
+      "隐私监管"
+    ],
+    "source": "Al Jazeera",
+    "time": "19分钟前",
+    "ts": "2026-07-03T08:20:51+00:00",
+    "url": "https://www.aljazeera.com/economy/2026/7/3/eu-lawmaker-investigating-surveillance-hacked-by-israeli-spyware-report-says?traffic_source=rss",
+    "image": "",
     "stocks": []
   },
   {
