@@ -51,6 +51,25 @@ const newsData = [
     ]
   },
   {
+    "id": "d40e693ededc71bd",
+    "title": "Simon Willison分享Claude Code团队Fable使用技巧",
+    "summary": "开发者Simon Willison分享了从Claude Code团队获得的实践经验，建议让Fable等模型自主判断任务处理方式，并通过将子任务委托给低功耗模型来节省token成本。",
+    "body": "近期，开发者Simon Willison在AIE活动上与Claude Code团队交流后，提出应让Fable（及Opus）依靠自身判断力工作，而非用硬性规则约束其行为。例如，直接要求Fable自行决定何时编写测试，效果优于给出具体规则。\n\n为应对价格即将上涨并节省Fable token消耗，Jesse Vincent建议让Fable将较小任务委派给功耗更低的模型：由Sonnet承担实质性实现，Haiku处理机械性修改，而主循环则保留判断、审计和数据合成等核心任务。Willison已将这些提示词存入Claude Code记忆文件，反馈称实际效果良好，token消耗速度明显下降。\n\n这类实践为开发者使用大模型编码Agent提供了可落地的成本优化思路，也反映出模型协作与提示工程在AI应用中的持续演进。",
+    "category": "人工智能",
+    "tags": [
+      "AI编程",
+      "Claude Code",
+      "大模型应用",
+      "提示工程"
+    ],
+    "source": "AIHOT精选",
+    "time": "37分钟前",
+    "ts": "2026-07-03T18:51:06+00:00",
+    "url": "https://simonwillison.net/2026/Jul/3/judgement",
+    "image": "",
+    "stocks": []
+  },
+  {
     "id": "df88424112590458",
     "title": "浏览器之争不再围绕搜索，Chrome和Safari替代方案盘点",
     "summary": "TechCrunch整理了当前可挑战Chrome和Safari主流地位的几款替代浏览器，反映浏览器竞争焦点已发生转移。",
