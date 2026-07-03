@@ -1,5 +1,31 @@
 const newsData = [
   {
+    "id": "8bbe608af5aa149a",
+    "title": "英特尔被曝Nova Lake新增两款22核大缓存游戏CPU",
+    "summary": "消息称英特尔计划在Nova Lake-S桌面处理器阵容中新增两款Core Ultra 5级别22核心SKU，均配备大容量末级缓存（bLLC），分别为125W解锁版和65W锁频版，单芯片缓存最高可达144MB。",
+    "body": "据Tom's Hardware报道，泄密者Jaykihn称英特尔为下一代桌面处理器家族Nova Lake-S新增了两款Core Ultra 5级别SKU。两款芯片均采用单Tile设计，拥有6个性能核、12个能效核和4个低功耗能效核，共22核心，并配备最高144MB的bLLC（Big Last Level Cache），旨在提升游戏性能。其中一款为125W TDP的解锁版，另一款为65W TDP的锁频版，除此之外两者似乎没有区别。泄露者最初误发了规格参数，随后发布了更正。\n\n据此前传闻，Nova Lake的P核将采用Coyote Cove架构，E核将采用Arctic Wolf架构。分析认为，这将成为英特尔回应AMD X3D系列产品的举措，通过在主流级别产品中提供大容量缓存来增强游戏市场竞争力。更高定位的双Tile版本预计可提供最高288MB缓存，但可能仅用于高端SKU。",
+    "category": "半导体与先进制造",
+    "tags": [
+      "英特尔",
+      "CPU",
+      "游戏处理器",
+      "桌面芯片"
+    ],
+    "source": "Tom's Hardware",
+    "time": "1分钟前",
+    "ts": "2026-07-03T15:44:10+00:00",
+    "url": "https://www.tomshardware.com/pc-components/cpus/intel-reportedly-adding-two-new-22-core-skus-with-game-boosting-cache-to-nova-lake-s-lineup-125w-unlocked-and-65w-locked-part-rumored-to-be-part-of-single-tile-core-ultra-5-tier",
+    "image": "https://cdn.mos.cms.futurecdn.net/rxLeKvgEq52xDLyGj6HuGA-1280-80.jpg",
+    "stocks": [
+      {
+        "name": "英特尔",
+        "ticker": "INTC",
+        "reason": "新闻主角，其Nova Lake-S产品线据传新增大缓存SKU以增强游戏市场竞争力",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
     "id": "e2d261f987bca7ed",
     "title": "亚马逊Fire HD 10平板小幅升级，RAM增至4GB",
     "summary": "亚马逊更新了中端平板Fire HD 10，将内存从3GB提升至4GB，处理器、屏幕等核心规格保持不变，起售价约155美元。",
