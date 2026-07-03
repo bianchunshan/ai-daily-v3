@@ -1,5 +1,31 @@
 const newsData = [
   {
+    "id": "bf369dd3b3b22efe",
+    "title": "苹果内部测试iOS 27.4，预计明年春季发布",
+    "summary": "根据MacRumors网站日志，苹果软件工程师正在内部测试iOS 27.4版本，该版本预计将于2027年春季发布，主要侧重于错误修复、性能优化与安全补丁。",
+    "body": "MacRumors网站日志显示，苹果正在同时推进2026年秋季大版本iOS 27.0与2027年春季小版本iOS 27.4的内部测试。目前iOS 27.4的具体更新内容尚未公开，但按照苹果过往惯例，类似x.4版本多为错误修复、性能优化及安全补丁的完善型更新。\n\n作为2026年主力系统更新，iOS 27.0已在WWDC 2026上正式发布，将于2026年7月中旬开启公测，并计划于9月随新款iPhone推送正式版。其功能亮点包括基于Apple Intelligence的上下文感知Siri、相机应用整合视觉智能、照片应用支持AI智能扩展墙纸、Safari浏览器自动整理标签页，以及支持自然语言创建提醒事项与日历日程等。\n\niOS 27将支持与iOS 26相同的设备列表，即从iPhone 11及第二代iPhone SE起跳的机型均可获得更新。此次双版本并行测试反映出苹果在推进年度大版本功能创新的同时，仍保持对系统稳定性、长期软件支持及用户体验打磨的重视。",
+    "category": "消费电子",
+    "tags": [
+      "苹果",
+      "iOS",
+      "软件更新",
+      "智能手机"
+    ],
+    "source": "IT之家",
+    "time": "2分钟前",
+    "ts": "2026-07-03T16:15:31+00:00",
+    "url": "https://www.ithome.com/0/972/461.htm",
+    "image": "https://img.ithome.com/newsuploadfiles/2026/7/3417e46a-366f-4c55-bb96-3bd949a8d075.png?x-bce-process=image/format,f_auto",
+    "stocks": [
+      {
+        "name": "苹果公司",
+        "ticker": "AAPL",
+        "reason": "作为iOS系统与iPhone生态核心厂商，新系统测试与发布节奏有助于维持其软硬件产品竞争力",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
     "id": "ee0eb18cd95cf332",
     "title": "研究发现低出生体重与成年后慢性病存在分子关联",
     "summary": "研究人员正揭示为何出生时体重低于同胎龄平均水平的“小于胎龄儿”（SGA），成年后更易患心脏、肺部和代谢性疾病。",
@@ -16,6 +42,32 @@ const newsData = [
     "url": "https://medicalxpress.com/news/2026-07-molecules-link-weight-babies-chronic.html",
     "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/weigh-newborn.jpg",
     "stocks": []
+  },
+  {
+    "id": "01a0ce2a68503e7d",
+    "title": "英特尔Nova Lake-S新增22核主流型号，配144MB大缓存",
+    "summary": "英特尔下一代Nova Lake-S桌面处理器规划两款22核主流SKU，均搭载144MB大容量末级缓存，提供125W可超频与65W锁频双版本，预计明年年初上市。",
+    "body": "据IT之家消息，爆料人@Jaykihn透露，英特尔正为下一代Nova Lake-S桌面处理器（即酷睿Ultra 400S系列）规划两款新的22核心SKU，均将归属Ultra 5级别。这两款新品采用单计算模块设计，核心配置为6个Coyote Cove性能核、12个Arctic Wolf能效核以及4个低功耗能效核，共计22核心。\n\n两款新品的主要区别在于功耗与超频能力：一款为125W不锁频的K系列版本，另一款为65W锁频版本。它们均将搭载bLLC（大容量末级缓存）技术，单计算模块型号最大缓存可达144MB，旨在降低核心对系统内存的访问延迟，提升游戏及计算密集型任务性能。\n\n据悉，整个Nova Lake-S系列将采用全新LGA 1954插槽，搭配900系列芯片组，并支持DDR5-8000内存。更高端产品线还将提供双计算模块旗舰型号，核心数最高可达52核，配备288MB bLLC缓存。该系列产品预计将于明年年初陆续上市，标志着英特尔在桌面CPU市场的又一重要布局。",
+    "category": "半导体与先进制造",
+    "tags": [
+      "英特尔",
+      "桌面处理器",
+      "CPU",
+      "Nova Lake"
+    ],
+    "source": "IT之家",
+    "time": "18分钟前",
+    "ts": "2026-07-03T15:59:36+00:00",
+    "url": "https://www.ithome.com/0/972/460.htm",
+    "image": "https://img.ithome.com/newsuploadfiles/2026/7/a0f5bd1e-a85d-4632-92f8-ca735571e211.png?x-bce-process=image/format,f_auto",
+    "stocks": [
+      {
+        "name": "英特尔",
+        "ticker": "INTC",
+        "reason": "Nova Lake-S新品扩展将强化其桌面CPU产品矩阵，有望提振市场份额与营收。",
+        "confidence": "medium"
+      }
+    ]
   },
   {
     "id": "8bbe608af5aa149a",
