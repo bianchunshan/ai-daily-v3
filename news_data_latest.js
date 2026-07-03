@@ -1,5 +1,56 @@
 const newsData = [
   {
+    "id": "fb307fbe2f3f4c72",
+    "title": "诱导癌细胞死亡可唤醒免疫系统增强抗肿瘤攻击",
+    "summary": "最新研究表明，通过程序性细胞死亡（如凋亡和坏死性凋亡）促使癌细胞死亡，可向免疫系统发出警报，从而增强抗肿瘤攻击。",
+    "body": "程序性细胞死亡是细胞在受损、应激、癌变或感染时主动启动的自我毁灭机制，主要包括凋亡和坏死性凋亡等形式。与意外死亡不同，这种受控死亡不仅能清除异常细胞，还可能释放信号，提醒免疫系统前来识别和攻击肿瘤。研究提示，若能利用该机制引导癌细胞死亡，有望提高免疫治疗的效果，为肿瘤治疗提供新策略。",
+    "category": "生物医药",
+    "tags": [
+      "生物医药",
+      "肿瘤免疫",
+      "细胞凋亡",
+      "免疫疗法"
+    ],
+    "source": "MedicalXpress",
+    "time": "8分钟前",
+    "ts": "2026-07-03T15:00:03-04:00",
+    "url": "https://medicalxpress.com/news/2026-07-cancer-cells-die-immune-anti.html",
+    "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/forcing-cancer-cells-t.jpg",
+    "stocks": []
+  },
+  {
+    "id": "e449e21fed86b10a",
+    "title": "Electrek播客：特斯拉Model YL、宝马iX5及二季度电动车交付",
+    "summary": "本期Electrek播客聚焦可持续交通与能源领域热点，讨论了特斯拉Model YL的推出、宝马iX5新车动态以及第二季度电动汽车销量表现，反映出高端纯电市场竞争持续升温。",
+    "body": "Electrek最新一期播客围绕全球可持续交通与能源动态展开，重点聊了特斯拉Model YL的市场发布、宝马iX5车型进展，以及第二季度电动汽车整体交付数据。这些内容体现出电动车市场竞争加剧、传统豪华品牌加速电动化转型，以及消费者对高端纯电车型的关注度持续上升。二季度交付数据也被视为判断全年电动车市场走势的重要参考。",
+    "category": "未来能源",
+    "tags": [
+      "电动汽车",
+      "特斯拉",
+      "宝马",
+      "销量数据"
+    ],
+    "source": "Electrek",
+    "time": "10分钟前",
+    "ts": "2026-07-03T18:58:10+00:00",
+    "url": "https://electrek.co/2026/07/03/podcast-tesla-model-yl-q2-deliveries-bmw-ix5-and-more/",
+    "image": "https://electrek.co/wp-content/uploads/sites/3/2017/12/business_card-1.jpg?quality=82&#038;strip=all&#038;w=1600",
+    "stocks": [
+      {
+        "name": "特斯拉",
+        "ticker": "TSLA",
+        "reason": "播客核心话题涉及Model YL发布及二季度交付表现",
+        "confidence": "high"
+      },
+      {
+        "name": "宝马",
+        "ticker": "BMWYY",
+        "reason": "iX5车型被提及，反映其电动化产品布局",
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
     "id": "df88424112590458",
     "title": "浏览器之争不再围绕搜索，Chrome和Safari替代方案盘点",
     "summary": "TechCrunch整理了当前可挑战Chrome和Safari主流地位的几款替代浏览器，反映浏览器竞争焦点已发生转移。",
