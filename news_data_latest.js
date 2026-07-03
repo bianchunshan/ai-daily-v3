@@ -1,5 +1,31 @@
 const newsData = [
   {
+    "id": "e5aebe07e6d85e4a",
+    "title": "Meta下一代AI模型“西瓜”追平GPT-5.5",
+    "summary": "Meta超级智能业务负责人汪滔透露，公司下一代AI模型Watermelon在基准测试中已追平OpenAI旗舰模型GPT-5.5，算力投入较上一代高出一个数量级，显示Meta正加速追赶AI前沿。",
+    "body": "据《商业内幕》报道，Meta超级智能业务负责人汪滔在内部全员大会上披露，Meta下一代AI模型Watermelon（西瓜）已在备受关注的基准测试中追平OpenAI旗舰模型GPT-5.5。Watermelon是Avocado之后的下一代模型，目前仍在训练，其使用的算力比Avocado高出一个数量级。\n\n汪滔还在社交平台X上公开提及该进展，称Muse Spark很快将迎来更新，编程和智能体能力将大幅提升，目标是缩小与竞争对手模型的差距。此前Meta于4月发布的Muse Spark系列首款模型虽表现良好，但尚未追平OpenAI、Anthropic等领先模型。\n\n若汪滔的判断准确，意味着Meta在AI领域的高额投入与激进人才策略开始显现成效。该公司预计全年将在芯片、数据中心和其他基础设施上投入1250亿至1450亿美元，高于此前预测，反映出其对AI竞赛的持续加码。",
+    "category": "人工智能",
+    "tags": [
+      "大模型",
+      "Meta",
+      "OpenAI",
+      "超级智能"
+    ],
+    "source": "IT之家",
+    "time": "2分钟前",
+    "ts": "2026-07-03T04:48:11+00:00",
+    "url": "https://www.ithome.com/0/972/120.htm",
+    "image": "",
+    "stocks": [
+      {
+        "name": "Meta Platforms",
+        "ticker": "META",
+        "reason": "新闻直接披露Meta下一代AI模型Watermelon取得关键进展，若属实将强化其AI产品竞争力与长期估值预期。",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
     "id": "37c1fac214ef889c",
     "title": "何小鹏：小鹏GX本月产能将提升10%",
     "summary": "何小鹏透露，小鹏MONA L03顶配版本订单占绝大多数并打破小鹏所有车型同期小订纪录；同时小鹏GX产能在本月将提升10%，四季度有望冲击该细分市场前三。",
@@ -137,6 +163,25 @@ const newsData = [
     "ts": "2026-07-03T04:22:59+00:00",
     "url": "https://www.ithome.com/0/972/117.htm",
     "image": "https://img.ithome.com/newsuploadfiles/2026/7/8cd366a9-2f23-4a46-b207-4b8fdfe4bede.png",
+    "stocks": []
+  },
+  {
+    "id": "0eeb3ecf9f1e5f01",
+    "title": "Wasmer推出基于WebAssembly的轻量安全容器",
+    "summary": "WebAssembly运行时Wasmer发布新一代容器方案，强调快速、安全、轻量，可在边缘与云端运行。",
+    "body": "Wasmer是一款基于WebAssembly（Wasm）的容器运行时，其最新产品主打“快速、安全、轻量”的容器化能力，允许开发者将应用打包为Wasm模块后在多种环境中运行。相比传统容器，Wasm容器通常启动更快、体积更小，并具备沙箱级安全隔离特性，因而适用于边缘计算、微服务以及云原生部署场景。该方案有望降低部署成本并提升跨平台可移植性，但其实际落地规模与生态成熟度仍有待观察。",
+    "category": "AI 基础设施",
+    "tags": [
+      "WebAssembly",
+      "容器",
+      "云原生",
+      "边缘计算"
+    ],
+    "source": "Hacker News",
+    "time": "27分钟前",
+    "ts": "2026-07-03T04:22:41+00:00",
+    "url": "https://wasmer.io/",
+    "image": "",
     "stocks": []
   },
   {
@@ -330,6 +375,25 @@ const newsData = [
         "confidence": "high"
       }
     ]
+  },
+  {
+    "id": "1daed5cb68204451",
+    "title": "Manticore重建ONNX嵌入路径：速度提升14倍",
+    "summary": "Manticore团队重构了ONNX嵌入生成路径，使嵌入计算速度提升约14倍，有望改善搜索与AI应用的向量生成效率。",
+    "body": "开源搜索引擎 Manticore 的团队宣布重建其 ONNX 路径，用于生成文本嵌入，整体速度提升了 14 倍。虽然材料未披露具体技术细节，但“重建 ONNX 路径”通常意味着对模型推理流程、批量处理或运行时集成进行了深度优化。\n\n嵌入向量是语义搜索、检索增强生成（RAG）等 AI 应用的关键环节，推理速度的提升可直接降低向量生成的延迟与计算成本。该优化对需要在本地或边缘部署嵌入模型的场景具有积极意义，有望改善搜索产品的响应体验和资源效率。",
+    "category": "人工智能",
+    "tags": [
+      "ONNX",
+      "嵌入向量",
+      "Manticore",
+      "语义搜索"
+    ],
+    "source": "Hacker News",
+    "time": "1小时前",
+    "ts": "2026-07-03T03:49:47+00:00",
+    "url": "https://manticoresearch.com/blog/onnx-embeddings-speedup/",
+    "image": "",
+    "stocks": []
   },
   {
     "id": "6e483d592ac33071",
