@@ -1,5 +1,31 @@
 const newsData = [
   {
+    "id": "ba19b6f9fe7a09b4",
+    "title": "摩托罗拉推出官方旅行eSIM应用",
+    "summary": "摩托罗拉宣布与Gigs合作推出官方旅行eSIM应用Global Connect，新用户可享1GB免费流量，覆盖超160个国家，旨在为海外出行用户提供便捷数据服务。",
+    "body": "7月1日，摩托罗拉宣布与嵌入式连接方案提供商Gigs合作，面向安卓用户推出官方旅行eSIM应用Global Connect。该应用已在巴西、墨西哥、阿根廷、秘鲁和智利等拉美市场上线，并预装在数百万台兼容摩托罗拉设备上，计划2026年晚些时候扩展至德国、英国等欧洲市场。用户注册后可获赠1GB、覆盖160多个国家的免费流量，后续可在应用内购买3美元至14美元不等的数据套餐；激活一个eSIM即可在多国无缝切换，服务仅支持数据连接，由Gigs通过全球数百家运营商提供技术支持。此次合作标志着摩托罗拉首次在智能手机中集成原生旅行eSIM体验，有助于提升其手机生态的海外用户体验与增值服务空间。",
+    "category": "消费电子",
+    "tags": [
+      "eSIM",
+      "摩托罗拉",
+      "移动通信",
+      "旅行上网"
+    ],
+    "source": "IT之家",
+    "time": "刚刚",
+    "ts": "2026-07-03T11:16:09+00:00",
+    "url": "https://www.ithome.com/0/972/417.htm",
+    "image": "https://img.ithome.com/newsuploadfiles/2026/7/b7ea1714-0cca-46dc-b6e1-d78bac37bcd1.png?x-bce-process=image/format,f_auto",
+    "stocks": [
+      {
+        "name": "联想集团",
+        "ticker": "0992.HK",
+        "reason": "摩托罗拉为联想集团旗下手机品牌，新eSIM服务有望增强其智能手机海外用户粘性与增值服务收入。",
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
     "id": "7e5f3be7f883d7ff",
     "title": "韩国拟2035年建成低轨卫星通信网络",
     "summary": "韩国政府计划在2035年前建成由数百颗卫星组成的低轨卫星通信网络，以维护国家安全与通信主权，并作为支撑6G时代的国家战略基础设施。",
@@ -17,6 +43,32 @@ const newsData = [
     "url": "https://36kr.com/newsflashes/3879815486025993?f=rss",
     "image": "",
     "stocks": []
+  },
+  {
+    "id": "4937e8e01ca041f6",
+    "title": "索尼投资3400万美元将欧洲PS光盘厂改造成光学微透镜工厂",
+    "summary": "索尼已投入约3400万美元，将其位于欧洲的PlayStation光盘工厂改造为光学微透镜制造厂，以拓展光学与半导体相关业务。",
+    "body": "据报道，索尼计划将原本用于生产PlayStation光盘的欧洲工厂改造为光学微透镜制造厂，并已为该改造项目投入约3400万美元。\n\n光学微透镜广泛应用于图像传感器、半导体光刻设备及光学传感等领域。此次改造意味着索尼正将传统光盘产能转向附加值更高的光学与半导体上游组件制造。\n\n这一投资有望帮助索尼优化其制造资产配置，并巩固其在光学元件和影像传感器供应链中的竞争力。",
+    "category": "半导体与先进制造",
+    "tags": [
+      "索尼",
+      "光学微透镜",
+      "半导体制造",
+      "工厂转型"
+    ],
+    "source": "Engadget",
+    "time": "4分钟前",
+    "ts": "2026-07-03T11:12:15+00:00",
+    "url": "https://www.engadget.com/2207546/sony-repurposing-austrian-playstation-disc-factory/",
+    "image": "https://www.engadget.com/img/gallery/sony-already-invested-34-million-to-repurpose-its-playstation-disc-factory/l-intro-1783077019.jpg",
+    "stocks": [
+      {
+        "name": "索尼集团",
+        "ticker": "SONY",
+        "reason": "索尼投资改造欧洲光盘工厂以生产光学微透镜，直接拓展其光学与半导体上游组件业务。",
+        "confidence": "high"
+      }
+    ]
   },
   {
     "id": "4eda6907b6c62b1d",
