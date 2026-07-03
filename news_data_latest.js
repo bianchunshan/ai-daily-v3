@@ -1,18 +1,18 @@
 const newsData = [
   {
     "id": "ba19b6f9fe7a09b4",
-    "title": "摩托罗拉推出官方旅行eSIM应用",
-    "summary": "摩托罗拉宣布与Gigs合作推出官方旅行eSIM应用Global Connect，新用户可享1GB免费流量，覆盖超160个国家，旨在为海外出行用户提供便捷数据服务。",
-    "body": "7月1日，摩托罗拉宣布与嵌入式连接方案提供商Gigs合作，面向安卓用户推出官方旅行eSIM应用Global Connect。该应用已在巴西、墨西哥、阿根廷、秘鲁和智利等拉美市场上线，并预装在数百万台兼容摩托罗拉设备上，计划2026年晚些时候扩展至德国、英国等欧洲市场。用户注册后可获赠1GB、覆盖160多个国家的免费流量，后续可在应用内购买3美元至14美元不等的数据套餐；激活一个eSIM即可在多国无缝切换，服务仅支持数据连接，由Gigs通过全球数百家运营商提供技术支持。此次合作标志着摩托罗拉首次在智能手机中集成原生旅行eSIM体验，有助于提升其手机生态的海外用户体验与增值服务空间。",
+    "title": "摩托罗拉推出官方旅行eSIM应用，覆盖超160国",
+    "summary": "摩托罗拉与Gigs合作推出Global Connect应用，为海外出行用户提供eSIM数据服务，新用户可享1GB免费流量，覆盖160余个国家。",
+    "body": "7月1日，摩托罗拉宣布与嵌入式连接解决方案商Gigs合作，面向安卓用户推出官方旅行eSIM应用Global Connect。该应用已预装在数百万台兼容摩托罗拉设备上，目前已在巴西、墨西哥、阿根廷、秘鲁、智利五个拉美市场的Google Play上线，新用户注册可获得1GB免费流量，覆盖超过160个国家。用户激活一个eSIM后可在多国无缝切换，无需每次跨境安装新SIM卡，套餐价格从3美元/1GB到14美元/20GB不等。\n\n这是摩托罗拉首次在智能手机中集成原生旅行eSIM体验，计划在2026年晚些时候扩展至德国、英国等欧洲市场，美国市场时间表尚未公布。该服务仅支持数据连接，不含通话和短信功能，摩托罗拉认为WhatsApp等即时通讯应用已能弥补这一局限。",
     "category": "消费电子",
     "tags": [
-      "eSIM",
       "摩托罗拉",
-      "移动通信",
-      "旅行上网"
+      "eSIM",
+      "消费电子",
+      "跨境通信"
     ],
     "source": "IT之家",
-    "time": "刚刚",
+    "time": "1分钟前",
     "ts": "2026-07-03T11:16:09+00:00",
     "url": "https://www.ithome.com/0/972/417.htm",
     "image": "https://img.ithome.com/newsuploadfiles/2026/7/b7ea1714-0cca-46dc-b6e1-d78bac37bcd1.png?x-bce-process=image/format,f_auto",
@@ -20,7 +20,7 @@ const newsData = [
       {
         "name": "联想集团",
         "ticker": "0992.HK",
-        "reason": "摩托罗拉为联想集团旗下手机品牌，新eSIM服务有望增强其智能手机海外用户粘性与增值服务收入。",
+        "reason": "摩托罗拉为联想旗下智能手机品牌，原生eSIM旅行服务有助于提升用户体验并带来增值服务收入。",
         "confidence": "medium"
       }
     ]
@@ -45,16 +45,34 @@ const newsData = [
     "stocks": []
   },
   {
+    "id": "1c5fcc0735f34bdf",
+    "title": "Secretlab电竞椅和办公桌独立日促销最高省129美元",
+    "summary": "为庆祝美国独立日，电竞椅和办公桌品牌Secretlab对其Titan Evo、Magnus等热门产品推出最高129美元的限时折扣，这是该高端外设品牌较为罕见的优惠。",
+    "body": "为庆祝美国独立日，知名电竞椅和办公桌厂商Secretlab推出独立日限时促销活动，Titan Evo、Magnus等热门产品最高可优惠129美元。Secretlab以鲜明的电竞风格和扎实的做工闻名，产品定价较高，因此此类折扣并不常见。本次促销涵盖多尺寸、多材质的Titan Evo电竞椅，其配备冷固化泡沫坐垫、4D扶手、磁吸头枕和腰部支撑，适合长时间游戏或办公使用。",
+    "category": "消费电子",
+    "tags": [
+      "电竞椅",
+      "Secretlab",
+      "促销"
+    ],
+    "source": "Tom's Hardware",
+    "time": "3分钟前",
+    "ts": "2026-07-03T11:13:58+00:00",
+    "url": "https://www.tomshardware.com/peripherals/gaming-chairs/up-to-usd129-off-secretlab-gaming-chairs-and-desks-in-july-4-sale-save-on-the-titan-evo-magnus-and-more",
+    "image": "https://cdn.mos.cms.futurecdn.net/ZfLXXR4NcFFwDfYrEENEza-1280-80.jpg",
+    "stocks": []
+  },
+  {
     "id": "4937e8e01ca041f6",
-    "title": "索尼投资3400万美元将欧洲PS光盘厂改造成光学微透镜工厂",
-    "summary": "索尼已投入约3400万美元，将其位于欧洲的PlayStation光盘工厂改造为光学微透镜制造厂，以拓展光学与半导体相关业务。",
-    "body": "据报道，索尼计划将原本用于生产PlayStation光盘的欧洲工厂改造为光学微透镜制造厂，并已为该改造项目投入约3400万美元。\n\n光学微透镜广泛应用于图像传感器、半导体光刻设备及光学传感等领域。此次改造意味着索尼正将传统光盘产能转向附加值更高的光学与半导体上游组件制造。\n\n这一投资有望帮助索尼优化其制造资产配置，并巩固其在光学元件和影像传感器供应链中的竞争力。",
+    "title": "索尼3400万美元改造欧洲光盘工厂转产光学微透镜",
+    "summary": "索尼已投资约3400万美元，将其位于欧洲的PlayStation光盘工厂改造为光学微透镜生产厂。这一转型标志着索尼正将传统游戏媒体产能转向半导体与传感器供应链的上游光学元件领域。",
+    "body": "据外媒报道，索尼已投入约3400万美元，对位于欧洲的PlayStation光盘工厂进行改造，将其转产为光学微透镜制造工厂。该工厂原本用于生产PlayStation游戏光盘，改造后将用于制造应用于传感器、半导体光刻等高端领域的精密光学元件。\n\n光学微透镜是半导体制造、图像传感器、医疗设备及通信系统中的关键组件。索尼此次产能转型，既反映了实体游戏光盘需求的持续下滑，也显示出其在先进光学与半导体供应链领域加码布局的战略意图。\n\n该投资预计将进一步强化索尼在欧洲的光学元件制造能力，并有望为其图像传感器、半导体设备等核心业务提供上游支撑，提升在高端光学市场的竞争力。",
     "category": "半导体与先进制造",
     "tags": [
       "索尼",
       "光学微透镜",
-      "半导体制造",
-      "工厂转型"
+      "半导体",
+      "工厂改造"
     ],
     "source": "Engadget",
     "time": "4分钟前",
@@ -63,9 +81,9 @@ const newsData = [
     "image": "https://www.engadget.com/img/gallery/sony-already-invested-34-million-to-repurpose-its-playstation-disc-factory/l-intro-1783077019.jpg",
     "stocks": [
       {
-        "name": "索尼集团",
+        "name": "索尼",
         "ticker": "SONY",
-        "reason": "索尼投资改造欧洲光盘工厂以生产光学微透镜，直接拓展其光学与半导体上游组件业务。",
+        "reason": "索尼直接投资建设光学微透镜工厂，拓展半导体上游光学元件业务",
         "confidence": "high"
       }
     ]
