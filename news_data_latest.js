@@ -1,5 +1,24 @@
 const newsData = [
   {
+    "id": "b9f15ae359b647b1",
+    "title": "华盛顿特区将启用首批中途电动巴士充电桩",
+    "summary": "美国华盛顿都会区即将部署首批中途架空受电弓式电动巴士充电桩，可在巴士行驶途中补能，提升电动公交运营效率。",
+    "body": "据外媒报道，华盛顿特区都会区将迎来首批中途（en-route）架空受电弓式电动巴士充电桩。这类充电桩通常安装在公交站点或沿线关键位置，允许电动巴士在停靠上下客时快速补电，而无需长时间返回场站充电。\n\n中途充电设施的部署有助于降低电动巴士对超大容量电池的依赖，减少车辆自重和购置成本，同时提升线路运营弹性与准点率。此举也被视为推动公共交通电气化、减少城市尾气排放的重要基础设施升级。",
+    "category": "未来能源",
+    "tags": [
+      "电动巴士",
+      "充电桩",
+      "公共交通电气化",
+      "绿色交通"
+    ],
+    "source": "Electrek",
+    "time": "6分钟前",
+    "ts": "2026-07-03T21:01:56+00:00",
+    "url": "https://electrek.co/2026/07/03/the-dc-metro-area-is-getting-its-first-en-route-electric-bus-chargers/",
+    "image": "https://electrek.co/wp-content/uploads/sites/3/2026/07/Pantograph-bus-charging-Siemens-emobility.jpg?quality=82&#038;strip=all&#038;w=1280",
+    "stocks": []
+  },
+  {
     "id": "1147357a7037ee24",
     "title": "飞马座XL火箭完成Swift卫星升轨任务",
     "summary": "诺斯罗普·格鲁曼公司的飞马座XL空射火箭执行了NASA Swift天体物理卫星的轨道再提升任务，此次发射可能是该型火箭的最后一次飞行。",
@@ -24,6 +43,24 @@ const newsData = [
         "confidence": "high"
       }
     ]
+  },
+  {
+    "id": "e92d92b88d8961d6",
+    "title": "SearXNG：免费开源互联网元搜索引擎",
+    "summary": "SearXNG 是一款免费开源的互联网元搜索引擎，能够聚合多个搜索引擎结果并强调保护用户隐私。",
+    "body": "SearXNG 是一款免费、开源的互联网元搜索引擎，可同时调用多个搜索引擎返回结果，并突出不追踪用户、不建立个人画像的特性。该工具支持私有化部署，主要面向注重隐私的用户和开发者社区。\n\n其出现反映了在主流搜索引擎之外，开源与隐私保护类搜索工具持续受到技术社区关注。尽管目前仍属小众工具，但对搜索去中心化与数据隐私议题具有一定示范意义。",
+    "category": "网络安全",
+    "tags": [
+      "元搜索引擎",
+      "开源软件",
+      "隐私保护"
+    ],
+    "source": "Hacker News",
+    "time": "52分钟前",
+    "ts": "2026-07-03T20:15:49+00:00",
+    "url": "https://github.com/searxng/searxng",
+    "image": "",
+    "stocks": []
   },
   {
     "id": "331a04e789a32197",
