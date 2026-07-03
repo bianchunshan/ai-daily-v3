@@ -1,5 +1,43 @@
 const newsData = [
   {
+    "id": "ecead491fcba1841",
+    "title": "全汉发布M370中塔机箱：上下分舱，支持400mm显卡",
+    "summary": "全汉（FSP）官网上线中塔ATX机箱M370，采用上下分舱与双面玻璃直角侧透设计，兼容背插主板并支持超长显卡。",
+    "body": "IT之家7月3日消息，全汉（FSP）上月末在其官网上线了M370中塔ATX机箱。该机箱采用上下分舱布局，配合双面玻璃直角侧透外观设计，机身尺寸为242×430×475（mm），基于0.8~0.6mm厚SPCC钢板打造，并随附四颗风扇。\n\n在兼容性方面，M370拥有7条扩展槽，支持背插主板，可安装最长400mm显卡、220mm ATX电源以及180mm处理器散热器；存储上提供1个3.5英寸盘位和1个可兼容1×3.5英寸/2×2.5英寸的盘位，前置I/O包括2个USB-A 5Gbps接口和1个USB-C接口。散热方面，机箱右侧前方预装3颗120mm PWM ARGB风扇，顶部支持3×120mm或2×140mm风扇及360冷排，后方预装1颗120mm ARGB风扇。",
+    "category": "消费电子",
+    "tags": [
+      "全汉",
+      "电脑机箱",
+      "游戏硬件",
+      "背插主板"
+    ],
+    "source": "IT之家",
+    "time": "刚刚",
+    "ts": "2026-07-03T01:17:48+00:00",
+    "url": "https://www.ithome.com/0/971/997.htm",
+    "image": "https://img.ithome.com/newsuploadfiles/2026/7/3c210198-6cb6-44de-ba11-68ee19519fac.jpg?x-bce-process=image/format,f_auto",
+    "stocks": []
+  },
+  {
+    "id": "77b288f737811ee8",
+    "title": "吉田修平批评Steam Machine性能与定价",
+    "summary": "前索尼PlayStation高管吉田修平体验Valve的Steam Machine后表示，其3D性能一般、默认1080p分辨率体验退步，且定价过高，难以向普通用户推荐。",
+    "body": "7月2日，曾在索尼任职31年、并长期担任SIE全球工作室总裁的吉田修平在社交平台分享了对Valve新款Steam Machine的使用体验。他认为该设备3D性能表现平平，系统默认建议1080p分辨率令他联想到PS4时代，部分游戏启动时间过长，Steam手柄摇杆略显松垮、触控板又过于灵敏。不过他也肯定了系统界面简洁、按下Steam键即开机的便捷性，以及机身小巧安静、面板可更换等优点。",
+    "category": "消费电子",
+    "tags": [
+      "Steam Machine",
+      "游戏硬件",
+      "客厅主机",
+      "Valve"
+    ],
+    "source": "IT之家",
+    "time": "2分钟前",
+    "ts": "2026-07-03T01:15:40+00:00",
+    "url": "https://www.ithome.com/0/971/995.htm",
+    "image": "https://img.ithome.com/newsuploadfiles/2026/7/ab8a3ca4-455b-4eae-8754-cf394607eb73.png?x-bce-process=image/format,f_auto",
+    "stocks": []
+  },
+  {
     "id": "09a5d1e806c82aee",
     "title": "开源系统ReactOS首次实现NT6系统调用",
     "summary": "ReactOS项目迎来重要里程碑，首次实现Windows NT6系统调用，向兼容Windows Vista及更新版本软件迈出关键一步。",
