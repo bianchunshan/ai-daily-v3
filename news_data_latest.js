@@ -1,5 +1,23 @@
 const newsData = [
   {
+    "id": "ee0eb18cd95cf332",
+    "title": "研究发现低出生体重与成年后慢性病存在分子关联",
+    "summary": "研究人员正揭示为何出生时体重低于同胎龄平均水平的“小于胎龄儿”（SGA），成年后更易患心脏、肺部和代谢性疾病。",
+    "body": "长期以来，科学家试图解释为何出生时体重偏低的婴儿（即小于胎龄儿，SGA）在成年后面临更高的心脏、肺部及代谢性疾病风险。新研究从分子层面发现，这类出生状况与日后慢性病之间存在可检测的生物学联系。这一发现有助于理解早期发育对终身健康的影响，并可能为相关疾病的早期筛查和干预提供新靶点。",
+    "category": "生物医药",
+    "tags": [
+      "出生体重",
+      "慢性病",
+      "生命科学"
+    ],
+    "source": "MedicalXpress",
+    "time": "7分钟前",
+    "ts": "2026-07-03T12:00:04-04:00",
+    "url": "https://medicalxpress.com/news/2026-07-molecules-link-weight-babies-chronic.html",
+    "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/weigh-newborn.jpg",
+    "stocks": []
+  },
+  {
     "id": "8bbe608af5aa149a",
     "title": "英特尔被曝Nova Lake新增两款22核大缓存游戏CPU",
     "summary": "消息称英特尔计划在Nova Lake-S桌面处理器阵容中新增两款Core Ultra 5级别22核心SKU，均配备大容量末级缓存（bLLC），分别为125W解锁版和65W锁频版，单芯片缓存最高可达144MB。",
