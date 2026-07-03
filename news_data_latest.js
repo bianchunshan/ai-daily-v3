@@ -1,5 +1,23 @@
 const newsData = [
   {
+    "id": "075ec792308fe000",
+    "title": "美国独立250年：太空科学认知演进史",
+    "summary": "在美国独立250周年之际，Space.com回顾了自1776年以来人类对宇宙认知的重大转变，以及美国科研机构在驱散宇宙迷思中发挥的作用。",
+    "body": "1776年时，牛顿力学体系已确立近90年，古希腊人早已发现五大行星，哥白尼与伽利略也推翻了地心说。然而，此后两个半世纪里，人类对宇宙的理解仍在持续深化。\n为庆祝美国独立250周年，Space.com梳理了历史上关于宇宙的常见误解，以及NASA、加州理工学院、麻省理工学院、西北大学等美国科研机构如何逐步澄清这些迷思、推动现代太空科学发展。\n这一历程不仅展现了科学认知的累积性突破，也反映出美国在基础天文学与空间科学领域的长期积累。",
+    "category": "商业航天",
+    "tags": [
+      "太空科学",
+      "天文学史",
+      "NASA"
+    ],
+    "source": "Space.com",
+    "time": "1分钟前",
+    "ts": "2026-07-03T14:54:32+00:00",
+    "url": "https://www.space.com/astronomy/space-science-has-come-a-long-way-since-july-4-1776-heres-a-look-back-at-the-saga",
+    "image": "https://cdn.mos.cms.futurecdn.net/4Jeb9ELDtMbpruY4E6VPSG-1280-80.png",
+    "stocks": []
+  },
+  {
     "id": "e1f373dfb833b48c",
     "title": "神牛推出带透明LCD取景器的超薄卡片机",
     "summary": "摄影灯光厂商神牛（Godox）加入复古卡片机热潮，发布一款搭载透明LCD屏幕取景器的超薄相机，瞄准追求便携与仪式感的摄影爱好者。",
