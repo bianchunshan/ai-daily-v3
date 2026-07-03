@@ -243,6 +243,24 @@ const newsData = [
     "stocks": []
   },
   {
+    "id": "c8aa0f752ce966b9",
+    "title": "网友批评Claude存在随机信息记忆问题",
+    "summary": "Hacker News上出现一篇题为《Claude, please stop trying to memorize random crap》的帖子，获得11个赞，反映了部分用户对Anthropic旗下Claude人工智能助手记忆无关信息行为的批评。",
+    "body": "该帖子发布于Hacker News平台，标题直指Claude似乎在对话中过度记忆或调用无关细节。目前该帖暂无评论，但标题获得11个赞，显示出部分用户对该AI助手记忆机制的关注与不满。这一现象也可能引发业界对大型语言模型记忆能力、上下文管理以及用户体验之间平衡的进一步讨论。",
+    "category": "人工智能",
+    "tags": [
+      "Claude",
+      "AI助手",
+      "大语言模型"
+    ],
+    "source": "Hacker News",
+    "time": "1小时前",
+    "ts": "2026-07-03T15:32:51+00:00",
+    "url": "https://12gramsofcarbon.com/p/agentics-memorizing-session-transcripts",
+    "image": "",
+    "stocks": []
+  },
+  {
     "id": "4ab4e139f2f1a863",
     "title": "领克20无伪装实车图曝光，三季度上市在即",
     "summary": "领克20实车无伪装图曝光，新车预计于今年三季度正式上市，基于领克Z20升级，新增激光雷达并强化高阶智驾能力。",
