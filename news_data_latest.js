@@ -1,5 +1,50 @@
 const newsData = [
   {
+    "id": "fcd1bd70fdacb9ca",
+    "title": "Claude Fable 5重上架被指“降智”",
+    "summary": "Anthropic旗下Claude Fable 5模型解除出口管制并重新上线后，多名用户反馈其实际表现弱于此前版本，且因安全护栏触发频繁自动回退至Opus 4.8。",
+    "body": "据IT之家援引bleepingcomputer报道，Anthropic最强模型Claude Fable 5于6月30日解除出口管制、7月1日重新上架，但用户实际体验引发争议。Reddit与X平台多名用户称，恢复后的Fable 5出现“降智”现象，实际能力强于此前版本的说法受到质疑，@arena测试平台的相关测试结果也显示差异不大。\n\n除性能争议外，用户还反馈Fable 5的安全护栏明显收紧，多数任务会触发安全限制并自动回退到Opus 4.8模型。同时，官方对该模型设有额度限制，当前每周最多使用总额的50%，并将于7月7日后转为按用量积分计费。这一事件反映出大模型在能力释放、安全合规与商业运营之间的平衡仍面临挑战。",
+    "category": "人工智能",
+    "tags": [
+      "Claude",
+      "大模型",
+      "AI安全",
+      "Anthropic"
+    ],
+    "source": "IT之家",
+    "time": "2分钟前",
+    "ts": "2026-07-03T23:57:11+00:00",
+    "url": "https://www.ithome.com/0/972/477.htm",
+    "image": "https://img.ithome.com/newsuploadfiles/2026/7/265585e2-08cd-4584-9604-7e1620219d88.png",
+    "stocks": []
+  },
+  {
+    "id": "d397c8443835de1e",
+    "title": "iPhone Air 2 曝光：升级 48MP 双摄与 A20 Pro 芯片",
+    "summary": "爆料显示苹果 iPhone Air 2 将搭载 A20 Pro 芯片、2nm 工艺，并新增 4800 万像素超广角镜头，为轻薄机身引入双摄。为腾出内部空间，苹果可能缩小面容 ID 组件体积。",
+    "body": "据 Jon Prosser 爆料，iPhone Air 2 将延续钛合金轻薄旗舰定位，芯片从传闻中的 A20 标准版升级为 A20 Pro，并采用 WMCM（晶圆级多芯片模块）封装技术，将 DRAM 与 SoC 分离，以改善散热、兼顾轻薄与性能。同时，新机将由原来的单颗 4800 万像素主摄升级为 4800 万像素主摄加 4800 万像素超广角双摄组合，但双摄模组需要更多内部空间。\n\n由于初代 iPhone Air 的摄像头区域已被主板占据，苹果计划通过缩面容 ID 组件体积来为第二颗镜头腾出空间，目前尚不清楚是否会在镜头光圈、CMOS 尺寸等方面做出妥协。此外，iPhone Air 2 将采用 2nm 制程工艺，能效与续航有望进一步提升，初代 Air 上的一些妥协设计也可能得到改善。",
+    "category": "消费电子",
+    "tags": [
+      "苹果",
+      "iPhone",
+      "手机硬件",
+      "芯片"
+    ],
+    "source": "IT之家",
+    "time": "5分钟前",
+    "ts": "2026-07-03T23:53:23+00:00",
+    "url": "https://www.ithome.com/0/972/476.htm",
+    "image": "https://img.ithome.com/newsuploadfiles/2026/7/259d0f3b-273f-452a-ba01-43753ce30c8b.jpg?x-bce-process=image/format,f_auto",
+    "stocks": [
+      {
+        "name": "苹果公司",
+        "ticker": "AAPL",
+        "reason": "iPhone Air 2 是苹果下一代轻薄旗舰，硬件升级有望带动其手机销量与平均售价。",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
     "id": "f6e61721c4796002",
     "title": "AYANEO预告KONKR复古掌机及新款小尺寸Windows掌机",
     "summary": "AYANEO在新一期产品分享会上预告将推出KONKR子品牌复古掌机，并宣布热门小尺寸Windows掌机系列将迎来迭代新品。",
