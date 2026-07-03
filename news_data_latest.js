@@ -745,6 +745,25 @@ const newsData = [
     "stocks": []
   },
   {
+    "id": "00b6f7d80666ecd6",
+    "title": "史密森尼推出VR沉浸式天文体验《Starstruck》",
+    "summary": "史密森尼推出的《Starstruck：An Immersive Experience》是一场约40分钟的VR步行体验，带观众近距离探访太阳周边、银河系中心黑洞及41光年外的系外行星等天体；该体验已在华盛顿特区亮相，并计划今年晚些时候扩展至丹佛、奥兰多和圣安东尼奥等城市。",
+    "body": "据Ars Technica报道，名为《Smithsonian Starstruck: An Immersive Experience》的VR沉浸式天文展于5月在华盛顿特区首秀，成人单人票价约为29至35美元，四人及以上团体票每人18美元起，目前享有15%折扣。体验者需佩戴VR头显，在约40分钟内“步行”穿越宇宙，到访太阳附近、银河系中心超大质量黑洞，以及距离地球41光年的炽热系外行星等场景。\n\n该体验通过虚拟现实技术将天文观测台、恒星与行星等天体呈现在观众眼前，兼具科普与沉浸娱乐属性。报道提到，体验现场还设置了字幕等无障碍选项，并配有座椅供观众在入场前后休息。\n\n除华盛顿特区外，《Starstruck》预计今年晚些时候在丹佛、佛罗里达州奥兰多和得克萨斯州圣安东尼奥等地开放。这一项目展示了VR/XR技术在科学传播与文化展览中的应用潜力，也有望推动沉浸式天文科普内容的商业化探索。",
+    "category": "消费电子",
+    "tags": [
+      "虚拟现实",
+      "XR",
+      "天文科普",
+      "沉浸式体验"
+    ],
+    "source": "Ars Technica",
+    "time": "1小时前",
+    "ts": "2026-07-03T11:15:35+00:00",
+    "url": "https://arstechnica.com/culture/2026/07/smithsonian-starstruck-vr-exhibit-lets-you-stroll-through-the-stars/",
+    "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/07/image-2-1152x648.jpeg",
+    "stocks": []
+  },
+  {
     "id": "1c5fcc0735f34bdf",
     "title": "Secretlab电竞椅和办公桌独立日促销最高省129美元",
     "summary": "为庆祝美国独立日，电竞椅和办公桌品牌Secretlab对其Titan Evo、Magnus等热门产品推出最高129美元的限时折扣，这是该高端外设品牌较为罕见的优惠。",
