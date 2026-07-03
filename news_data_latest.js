@@ -1,5 +1,49 @@
 const newsData = [
   {
+    "id": "ecc071e81a3274ee",
+    "title": "国际版谷歌Pixel与美国版差异解析",
+    "summary": "外媒指出，谷歌Pixel手机的国际版本与美国版本存在差异，消费者在跨境购买前应留意目标市场的具体规格与兼容性。",
+    "body": "据外媒报道，谷歌Pixel手机的国际版本与美国本土版本存在差异，准备出境购买的用户需注意区分。由于不同国家和地区的市场策略、监管要求及运营商网络标准各异，同一Pixel机型可能在功能、服务或兼容性上有所不同。这一差异提醒跨国消费者，应提前了解目标市场的具体规格，避免买到不适合本地使用的产品。",
+    "category": "消费电子",
+    "tags": [
+      "Pixel手机",
+      "消费电子",
+      "谷歌"
+    ],
+    "source": "Engadget",
+    "time": "8分钟前",
+    "ts": "2026-07-03T18:30:00+00:00",
+    "url": "https://www.engadget.com/2205901/how-international-google-pixel-phones-different-american/",
+    "image": "https://www.engadget.com/img/gallery/international-google-pixels-are-different-than-american-models-heres-how/l-intro-1782917013.jpg",
+    "stocks": [
+      {
+        "name": "Alphabet",
+        "ticker": "GOOGL",
+        "reason": "Pixel手机是谷歌硬件生态的核心产品，国际版差异化布局有助于其拓展全球市场",
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
+    "id": "94aed0523eff6b5a",
+    "title": "Dune推出149美元键盘，可作会议控制器与脚本触发器",
+    "summary": "初创公司Dune发布一款售价149美元的键盘设备，可作为会议控制器使用，也能执行自定义脚本。该产品面向追求效率的职场用户，属于生产力硬件新品。",
+    "body": "据外媒TechCrunch报道，Dune推出了一款名为Dune的键盘设备，售价149美元。它的基本功能可用作视频会议等场景的控制器，进阶用法则是作为可执行自定义脚本的快捷按键面板，帮助用户快速触发常用操作。\n\n该产品定位生产力硬件，目标用户为需要频繁切换会议、控制软件或运行自动化脚本的职场人士。通过物理按键实现一键执行，可减少在屏幕上寻找功能入口的时间。\n\n目前这一新品主要面向个人效率工具市场，尚未显示与企业级软件生态深度整合，其后续表现取决于用户自定义场景的丰富程度和市场接受度。",
+    "category": "消费电子",
+    "tags": [
+      "智能硬件",
+      "生产力工具",
+      "键盘外设",
+      "会议设备"
+    ],
+    "source": "TechCrunch",
+    "time": "9分钟前",
+    "ts": "2026-07-03T18:28:30+00:00",
+    "url": "https://techcrunch.com/2026/07/03/the-dune-keypad-device-can-be-your-meeting-controller-and-more/",
+    "image": "",
+    "stocks": []
+  },
+  {
     "id": "7838a09110c13c3b",
     "title": "三家核能初创公司取得反应堆设计里程碑",
     "summary": "美国三家核能初创公司的新型反应堆设计即将上线，标志着先进核能在监管与工程上迈出重要一步；但要实现规模化供电仍面临建设周期、成本和许可等多重挑战。",
