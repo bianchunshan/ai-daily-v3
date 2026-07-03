@@ -1,5 +1,50 @@
 const newsData = [
   {
+    "id": "7838a09110c13c3b",
+    "title": "三家核能初创公司取得反应堆设计里程碑",
+    "summary": "美国三家核能初创公司的新型反应堆设计即将上线，标志着先进核能在监管与工程上迈出重要一步；但要实现规模化供电仍面临建设周期、成本和许可等多重挑战。",
+    "body": "据外媒Wired报道，三家核能初创公司计划在近期将其新型反应堆设计投入运行或进入关键阶段，这被视作美国先进核能产业发展的一大里程碑。该进展意味着小型模块化反应堆及非轻水堆等新技术在商业化道路上更进一步，有望为数据中心等高耗能场景提供低碳基荷电力。不过报道也指出，从设计上线到真正大规模并网供电仍有较长距离，项目落地还受到审批流程、融资环境、供应链能力和建设周期的多重制约。",
+    "category": "未来能源",
+    "tags": [
+      "核能",
+      "先进反应堆",
+      "清洁能源",
+      "能源转型"
+    ],
+    "source": "Wired",
+    "time": "4分钟前",
+    "ts": "2026-07-03T18:13:15+00:00",
+    "url": "https://www.wired.com/story/nuclear-startups-hit-milestone-why-it-matters/",
+    "image": "https://media.wired.com/photos/6a4458adca4ecb6c5b11ffa9/master/pass/Nuclear-Startups-Hit-Big-Milestone-Science.jpg",
+    "stocks": []
+  },
+  {
+    "id": "0c5c5231d0e372f6",
+    "title": "现代IONIQ 5上半年美国销量突破2万辆",
+    "summary": "现代汽车旗下纯电动车型IONIQ 5在2026年上半年美国销量突破2万辆，继续位居美国电动车市场畅销车型之列。",
+    "body": "据Electrek报道，现代IONIQ 5在美国电动车市场持续热销，2026年上半年累计销量已超过2万辆，成为美国市场最受欢迎的电动车型之一。这一销量表现使IONIQ 5在竞争激烈的美国电动车市场中领先多数对手。分析认为，IONIQ 5的热销有助于巩固现代汽车在北美电动化转型中的市场地位，并为其后续电动车型布局提供积极信号。",
+    "category": "未来能源",
+    "tags": [
+      "现代汽车",
+      "IONIQ 5",
+      "电动车",
+      "美国市场"
+    ],
+    "source": "Electrek",
+    "time": "7分钟前",
+    "ts": "2026-07-03T18:10:24+00:00",
+    "url": "https://electrek.co/2026/07/03/hyundai-ioniq-5-remains-top-selling-ev-sales-top-20000/",
+    "image": "https://electrek.co/wp-content/uploads/sites/3/2026/07/Hyundai-IONIQ-5-top-selling-EV.jpeg?quality=82&#038;strip=all&#038;w=1400",
+    "stocks": [
+      {
+        "name": "现代汽车",
+        "ticker": "005380.KS",
+        "reason": "IONIQ 5是现代汽车旗下主力纯电车型，美国销量领先直接利好母公司业绩与电动化品牌认知。",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
     "id": "98aa6a31620a8cfa",
     "title": "人类能否登陆土卫六？AI机器人或成探索主角",
     "summary": "首届“人类登陆土卫六峰会”近日在美国科罗拉多州博尔德召开，科学家围绕人类宇航员与AI驱动的人形机器人谁更适合探索土星最大卫星土卫六展开讨论。",
@@ -106,6 +151,44 @@ const newsData = [
         "confidence": "medium"
       }
     ]
+  },
+  {
+    "id": "efcab49eeb707b1b",
+    "title": "AI可节省约3%工时，却难转化为经济效益",
+    "summary": "一篇来自Hacker News的讨论指出，当前AI工具平均仅能节省约3%的工作时间，且这些效率提升很少转化为实际收入或利润。",
+    "body": "该文章认为，尽管AI在部分任务中能够替代人工、压缩流程，但节省下来的时间大多被其他事务吸收，未能直接体现在企业盈利或个人收入上。作者进一步指出，AI带来的生产力红利尚未有效转化为可量化的经济回报，其实际商业价值的兑现仍面临组织、流程与定价等多重障碍。这一现象也引发市场对AI应用落地节奏及投资回报的持续关注。",
+    "category": "人工智能",
+    "tags": [
+      "AI应用",
+      "生产力",
+      "经济效益",
+      "投资回报"
+    ],
+    "source": "Hacker News",
+    "time": "1小时前",
+    "ts": "2026-07-03T17:03:22+00:00",
+    "url": "https://okaneland.com/study/ai-productivity-roi-at-work/",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "6dd39e80e7d5625d",
+    "title": "Mcpsnoop：MCP 协议的 Wireshark 调试工具",
+    "summary": "开源工具 Mcpsnoop 为 Model Context Protocol（MCP）提供透明代理与实时终端界面，帮助开发者捕获和分析 AI Agent 与外部服务之间的协议流量。",
+    "body": "MCP（Model Context Protocol）是 Anthropic 推出的开放协议，旨在让 AI Agent 安全地访问外部数据源与工具。随着 MCP 生态快速发展，开发者对协议流量的可视化与排障需求上升。Mcpsnoop 作为一款轻量级透明代理工具，可在终端实时展示 MCP 通信内容，功能定位类似网络分析工具 Wireshark。\n\n该工具支持在 AI 应用与 MCP 服务器之间转发请求，并以 TUI（文本用户界面）形式呈现会话细节，便于调试集成问题、检查上下文传递与安全策略。由于目前 Anthropic 仍为私人公司，且 Mcpsnoop 属于社区开源项目，尚未形成明确的上市公司直接受益链条。",
+    "category": "人工智能",
+    "tags": [
+      "MCP",
+      "AI Agent",
+      "开发者工具",
+      "协议分析"
+    ],
+    "source": "Hacker News",
+    "time": "1小时前",
+    "ts": "2026-07-03T16:53:50+00:00",
+    "url": "https://github.com/kerlenton/mcpsnoop",
+    "image": "",
+    "stocks": []
   },
   {
     "id": "75865617f071b1d9",
