@@ -1,5 +1,54 @@
 const newsData = [
   {
+    "id": "19fad8aa522fac2f",
+    "title": "生物主动脉瓣可改善妊娠结局，但再手术率更高",
+    "summary": "瑞典卡罗林斯卡研究所一项注册研究表明，对于希望怀孕的严重主动脉瓣病年轻女性，生物主动脉瓣能带来良好的妊娠和分娩结局，但需要再次手术的比例高于机械瓣。",
+    "body": "该研究发表于《美国心脏病学会杂志》（JACC），利用瑞典全国注册数据，比较了植入生物瓣与机械瓣的年轻女性在妊娠及分娩方面的结果。数据显示，生物瓣患者的妊娠成功率更高、母婴并发症风险更低，对希望保留生育能力的女性更具吸引力。\n\n不过，生物瓣的使用寿命相对较短，研究也发现其再次手术的比例高于机械瓣。因此，医生需要在妊娠安全与瓣膜耐久性之间进行权衡，为患者制定个体化的瓣膜选择方案。",
+    "category": "生物医药",
+    "tags": [
+      "医疗器械",
+      "心脏瓣膜",
+      "临床研究"
+    ],
+    "source": "MedicalXpress",
+    "time": "7分钟前",
+    "ts": "2026-07-03T09:40:01-04:00",
+    "url": "https://medicalxpress.com/news/2026-07-biological-aortic-valves-linked-pregnancy.html",
+    "image": "https://scx1.b-cdn.net/csz/news/tmb/2024/heart-1.jpg",
+    "stocks": [
+      {
+        "name": "爱德华生命科学",
+        "ticker": "EW",
+        "reason": "全球生物瓣和经导管主动脉瓣置换领先企业，研究若推动生物瓣接受度将受益",
+        "confidence": "medium"
+      },
+      {
+        "name": "美敦力",
+        "ticker": "MDT",
+        "reason": "拥有生物主动脉瓣及外科瓣产品线，行业导向利好相关业务",
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
+    "id": "5a73a9956118c767",
+    "title": "特斯拉司机撞死人被控过失杀人 曾抱怨FSD太保守",
+    "summary": "美国德州一名特斯拉司机在社区道路以约117公里时速撞入民宅，致一名76岁老妇死亡，被控过失杀人。起诉文件显示，事发前数周该司机曾在网上搜索抱怨FSD不够激进。",
+    "body": "据Electrek报道，美国哈里斯县检方指控一名特斯拉司机在德州凯蒂市（Katy）一处住宅区的尽头路以约73英里/小时（117公里/小时）的车速撞入民宅，造成一名76岁女性死亡，罪名是过失杀人。检方称，司机当时覆盖了特斯拉Full Self-Driving（FSD）系统的控制并猛踩油门。\n\n起诉文件还披露了新细节：在事发前几周，该司机曾在谷歌上搜索关于FSD“不够激进”的内容。检方据此认为，司机明知FSD系统的工作方式，却主动选择以危险方式接管车辆。\n\n此案再次将自动驾驶系统的人为接管边界、责任归属以及安全性问题推向公众视野，可能对特斯拉FSD的市场信任度和监管审查带来压力，也为自动驾驶行业的法律与伦理讨论提供了新案例。",
+    "category": "机器人",
+    "tags": [
+      "特斯拉",
+      "自动驾驶",
+      "FSD"
+    ],
+    "source": "Electrek",
+    "time": "9分钟前",
+    "ts": "2026-07-03T13:37:45+00:00",
+    "url": "https://electrek.co/2026/07/03/tesla-fsd-driver-manslaughter-katy-crash/",
+    "image": "https://electrek.co/wp-content/uploads/sites/3/2026/06/Tesla-Autopilot-crash-home-texas.jpeg?quality=82&#038;strip=all&#038;w=1600",
+    "stocks": []
+  },
+  {
     "id": "5e61b1aa1c18340e",
     "title": "Valve Steam Machine初印象与索尼PS弃光盘计划",
     "summary": "本期Engadget播客分享了Valve高价Steam Machine的初步体验，并讨论了索尼计划在2028年放弃PlayStation实体光盘的传闻。",
