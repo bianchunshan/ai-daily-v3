@@ -1,5 +1,23 @@
 const newsData = [
   {
+    "id": "117a33adee785f45",
+    "title": "TechCrunch发布2025年AI术语指南",
+    "summary": "TechCrunch整理了一份人工智能领域的新术语与俚语词汇表，旨在帮助读者理解AI快速发展带来的大量新概念和行业用语。",
+    "body": "这篇指南汇总了当前人工智能浪潮中涌现的关键术语与俚语，覆盖模型、智能体（Agent）、AI应用及相关技术概念，为读者提供快速查阅的参考。文章指出，随着生成式AI和各类智能产品的快速迭代，新的专业名词和行业黑话不断涌现，普通读者甚至从业者都可能感到困惑。该词汇表的意义在于降低理解门槛，帮助公众和产业人士更准确地把握AI技术动态，同时也反映出整个行业生态的日趋复杂。",
+    "category": "人工智能",
+    "tags": [
+      "AI术语",
+      "人工智能",
+      "行业科普"
+    ],
+    "source": "TechCrunch",
+    "time": "8分钟前",
+    "ts": "2026-07-03T21:20:00+00:00",
+    "url": "https://techcrunch.com/2026/07/03/artificial-intelligence-definition-glossary-hallucinations-guide-to-common-ai-terms/",
+    "image": "",
+    "stocks": []
+  },
+  {
     "id": "a777bcf7d3d2422e",
     "title": "NASA发射三臂机器人飞船营救坠落望远镜",
     "summary": "美国国家航空航天局（NASA）发射一艘配备三条机械臂的机器人航天器进入轨道，以营救一台面临坠回地球风险的望远镜，展示在轨服务与空间机器人能力。",
@@ -111210,12 +111228,6 @@ const newsData = [
   }
 ];
 const newsDigest = {
-  "text": "今日科技前沿聚焦：NASA机器人飞船营救坠落望远镜，三家核能初创取得反应堆设计突破，AI Agent开发工具、数据中心能耗压力与癌症免疫新机制亦受关注。",
-  "highlights": [
-    "a777bcf7d3d2422e",
-    "7838a09110c13c3b",
-    "331a04e789a32197",
-    "1c240cc6ac5450b8",
-    "fb307fbe2f3f4c72"
-  ]
+  "text": "",
+  "highlights": []
 };
