@@ -1,5 +1,31 @@
 const newsData = [
   {
+    "id": "a216a9a80fb842bf",
+    "title": "优必选等烟台成立智能机器人新公司",
+    "summary": "优必选与烟台深蓝人才发展集团共同成立蔚蓝优智科技（烟台）有限公司，注册资本3200万元，经营范围涵盖智能机器人研发、销售及服务消费机器人制造。",
+    "body": "据36氪报道，天眼查App显示，7月1日，蔚蓝优智科技（烟台）有限公司正式成立，法定代表人为李海明，注册资本3200万人民币。该公司经营范围包括智能机器人的研发、智能机器人销售、服务消费机器人制造等业务。股东信息显示，该公司由烟台深蓝人才发展集团有限公司与优必选共同持股。此次合作有助于优必选进一步拓展智能机器人业务布局，深化与地方产业资源的协同。",
+    "category": "机器人",
+    "tags": [
+      "智能机器人",
+      "优必选",
+      "服务消费机器人",
+      "烟台"
+    ],
+    "source": "36氪",
+    "time": "刚刚",
+    "ts": "2026-07-03T06:06:28.000587+00:00",
+    "url": "https://36kr.com/newsflashes/3879506941817095?f=rss",
+    "image": "",
+    "stocks": [
+      {
+        "name": "优必选",
+        "ticker": "9880.HK",
+        "reason": "作为新成立智能机器人公司的共同股东，直接扩大机器人业务布局",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
     "id": "7050539791a4ac65",
     "title": "GitHub Copilot接入Kimi K2.7开源模型",
     "summary": "月之暗面宣布，GitHub Copilot已接入其开源模型Kimi K2.7，成为该平台首个开源模型。此举有望丰富GitHub Copilot的模型选择，提升开发者AI编程体验。",
@@ -1519,6 +1545,25 @@ const newsData = [
     "ts": "2026-07-03T01:39:50+00:00",
     "url": "https://www.ithome.com/0/972/005.htm",
     "image": "https://img.ithome.com/newsuploadfiles/2026/7/b6fdf9b7-a99d-4282-b58c-d4f1562b1315.png?x-bce-process=image/format,f_auto",
+    "stocks": []
+  },
+  {
+    "id": "7c70aaf21743378b",
+    "title": "Safari浏览器MCP服务器面向Web开发者",
+    "summary": "Hacker News出现一款面向Web开发者的Safari MCP服务器工具，旨在通过模型上下文协议让AI与Safari浏览器交互。",
+    "body": "该帖文介绍了一款为苹果Safari浏览器开发的MCP（Model Context Protocol）服务器，目标用户为Web开发者。MCP是Anthropic推动的开放协议，用于让AI模型安全调用外部工具与上下文数据。若此类工具成熟，开发者或可让AI Agent直接操作Safari完成页面调试、自动化测试等任务，进一步融合浏览器与AI开发流程。但目前公开信息仅有一则标题，功能细节、项目背景及可用性均不明朗。",
+    "category": "人工智能",
+    "tags": [
+      "MCP",
+      "Safari",
+      "Web开发",
+      "AI工具"
+    ],
+    "source": "Hacker News",
+    "time": "4小时前",
+    "ts": "2026-07-03T01:37:11+00:00",
+    "url": "https://webkit.org/blog/18136/introducing-the-safari-mcp-server-for-web-developers/",
+    "image": "",
     "stocks": []
   },
   {
