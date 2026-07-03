@@ -1,5 +1,76 @@
 const newsData = [
   {
+    "id": "1f502f9e8a815b7b",
+    "title": "日本监管机构终止对博通反垄断调查",
+    "summary": "日本公平交易委员会7月3日宣布，因未发现博通违反《反垄断法》的充分事实，终止对其在虚拟化软件领域滥用优越议价地位的反垄断调查。",
+    "body": "日本公平交易委员会（JFTC）7月3日发布声明称，在未发现足以认定存在违反《反垄断法》的事实下，终止对博通的调查。此前，JFTC一直在调查博通是否利用其在虚拟化软件方面相对于贸易伙伴的优越议价地位，存在不公平交易行为。此次调查的结束意味着博通在日本市场的相关经营行为未被认定违法，有助于消除监管不确定性，稳定其软件与半导体业务在当地的市场预期。",
+    "category": "半导体与先进制造",
+    "tags": [
+      "博通",
+      "反垄断",
+      "虚拟化软件",
+      "日本市场"
+    ],
+    "source": "36氪",
+    "time": "刚刚",
+    "ts": "2026-07-03T07:06:40.954333+00:00",
+    "url": "https://36kr.com/newsflashes/3879571635499264?f=rss",
+    "image": "",
+    "stocks": [
+      {
+        "name": "博通",
+        "ticker": "AVGO",
+        "reason": "日本反垄断调查被终止，监管风险消除，利好其在虚拟化软件及相关半导体业务的日本市场布局。",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "889955583d48809b",
+    "title": "特斯拉Model Y长轴距版美国上市，六座起价6.2万美元",
+    "summary": "特斯拉已在美国及波多黎各开放Model Y长轴距版预订，新车采用三排六座布局，起售价约6.2万美元。",
+    "body": "特斯拉正式宣布在美国本土及波多黎各市场开售Model Y长轴距版（Model Y L），车内采用三排六座布局，起售价为6.2万美元。该车型的上市进一步丰富了特斯拉在美国市场的产品线，瞄准有多人乘坐需求的家庭用户。相较于标准版Model Y，长轴距版在空间和座椅数量上有所升级，有望帮助特斯拉扩大在高端电动SUV市场的覆盖范围。",
+    "category": "未来能源",
+    "tags": [
+      "特斯拉",
+      "Model Y",
+      "电动汽车",
+      "美国市场"
+    ],
+    "source": "Engadget",
+    "time": "5分钟前",
+    "ts": "2026-07-03T07:00:33+00:00",
+    "url": "https://www.engadget.com/2207503/teslas-model-y-long-wheelbase-comes-to-the-us/",
+    "image": "https://www.engadget.com/img/gallery/teslas-model-y-l-finally-comes-to-the-us-with-six-seats-and-a-62000-price-tag/l-intro-1783061915.jpg",
+    "stocks": [
+      {
+        "name": "特斯拉",
+        "ticker": "TSLA",
+        "reason": "新车型在美国及波多黎各上市，直接利好公司销量与市场份额",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "c12b9b65669040dd",
+    "title": "Steam Machine 主机出现首例“死亡红线”GPU 故障",
+    "summary": "科技媒体报道称，Valve 的 Steam Machine 游戏主机出现全球首例“死亡红线”故障，设备运行约20分钟后因 GPU 问题无法正常启动。目前尚不清楚该问题的影响范围，可能为个案，也可能是早期产品存在硬件隐患。",
+    "body": "据 IT 之家 7 月 3 日消息，科技媒体 Wccftech 报道，Steam Machine 游戏主机首次出现所谓“死亡红线”（RLOD）。该警报是 Valve 设计的硬件故障可视化提示，以红色竖线的位置与宽度表示不同故障类型。网友反馈称，主机运行约20分钟后触发 RLOD，系统检测到 GPU 故障，导致无法启动。\n\n目前该问题影响范围不明，可能仅属个案，但也不排除早期批次产品存在硬件缺陷。此事反映出高端游戏主机在散热、GPU 可靠性等方面仍可能面临品控挑战，或对 Valve 新品口碑与用户信任造成一定影响。",
+    "category": "消费电子",
+    "tags": [
+      "游戏主机",
+      "GPU 故障",
+      "消费电子",
+      "硬件品控"
+    ],
+    "source": "IT之家",
+    "time": "7分钟前",
+    "ts": "2026-07-03T06:58:32+00:00",
+    "url": "https://www.ithome.com/0/972/265.htm",
+    "image": "https://img.ithome.com/newsuploadfiles/2026/7/c989405d-bcac-4ffd-8f57-10f055071108.jpg?x-bce-process=image/format,f_auto",
+    "stocks": []
+  },
+  {
     "id": "0cba846a1094c80e",
     "title": "苹果发布岳云鹏主演新广告，强调iPhone隐私由用户掌控",
     "summary": "苹果今日上线由相声演员岳云鹏主演的iPhone隐私保护宣传片，借理发店生活化场景展示App过度索取权限问题，并介绍App审核、隐私标签、权限许可与跟踪透明度等功能。",
