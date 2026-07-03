@@ -1,5 +1,76 @@
 const newsData = [
   {
+    "id": "19b7ca9773ccfd92",
+    "title": "苹果iOS 27 Beta开放下载并内置Apple智能功能",
+    "summary": "苹果宣布iOS 27 Beta版操作系统已可下载，最新SDK新增Apple智能功能与AI开发框架，进一步将AI能力融入其移动生态。",
+    "body": "36氪消息，苹果开发者微信公众号发文宣布，iOS 27 Beta版操作系统现已可下载。最新SDK带来平台设计优化、Apple智能功能以及新的AI开发框架。这些更新显示苹果正把更多AI能力直接集成到iOS系统与开发者工具中，推动移动端AI应用生态建设，有望提升用户体验并增强开发者粘性。",
+    "category": "消费电子",
+    "tags": [
+      "苹果",
+      "iOS 27",
+      "Apple智能",
+      "AI开发框架"
+    ],
+    "source": "36氪",
+    "time": "刚刚",
+    "ts": "2026-07-03T03:55:50.607933+00:00",
+    "url": "https://36kr.com/newsflashes/3879365257719810?f=rss",
+    "image": "",
+    "stocks": [
+      {
+        "name": "苹果公司",
+        "ticker": "AAPL",
+        "reason": "iOS 27 Beta及新SDK由苹果发布，Apple智能功能落地将直接利好其软硬件生态与终端吸引力",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "fb747e5cff2321bf",
+    "title": "兆勤发布户外点对点无线桥接器NWA55AX PTP",
+    "summary": "兆勤科技推出户外型无线基站NWA55AX PTP，采用成对式设计，支持Wi-Fi 6与5GHz频段，最远传输距离达5km，速率可达2400Mbps，适用于工业、SMB及校园等需要延伸无线覆盖的场景。",
+    "body": "兆勤科技（Zyxel Networks）宣布推出户外型无线基站NWA55AX PTP。该设备采用出厂成对式设计，支持Wi-Fi 6规范并仅以5GHz频段提供连接，传输速率可达2400Mbps，最远可建立5km的稳定无线传输。其内置指向性天线，提供一个1GbE网口，支持PoE供电，具备IP55防尘防水等级，可在-30℃至+50℃温度及10%-90%相对湿度环境下运行。\n\n兆勤表示，NWA55AX PTP适用于工业、中小型企业（SMB）以及需要延伸无线覆盖范围的各类环境，可支持校园、线下活动、交通枢纽等应用场景。此外，兆勤后续还将推出规格更高的AX3000版本NWA55AX PRO。",
+    "category": "AI 基础设施",
+    "tags": [
+      "无线网络",
+      "Wi-Fi 6",
+      "网络设备",
+      "企业网络"
+    ],
+    "source": "IT之家",
+    "time": "1分钟前",
+    "ts": "2026-07-03T03:54:18+00:00",
+    "url": "https://www.ithome.com/0/972/096.htm",
+    "image": "https://img.ithome.com/newsuploadfiles/2026/7/3c099c56-e2fa-4686-af17-60fe5e834eb6.jpg?x-bce-process=image/format,f_auto",
+    "stocks": [
+      {
+        "name": "兆勤科技",
+        "ticker": "3704.TW",
+        "reason": "公司为本产品发布主体，NWA55AX PTP为其新推出的户外无线桥接设备",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "6e483d592ac33071",
+    "title": "亚马逊回应Alexa数数字现“恐怖音效”：已定位修复",
+    "summary": "亚马逊确认其Echo智能音箱的Alexa在长时间数数等长序列输出中，文本转语音引擎出现异常，会夹杂类似恐怖片的呼吸声与喉音，并导致漏数或重复，目前正部署修复。",
+    "body": "据外媒报道，Reddit用户6月反馈称，让Echo智能音箱陪孩子从1数到40时，Alexa会发出类似恐怖片音效的呼吸声、喉音等杂音，且该情况可多次复现，还伴随数字跳跃、重复或遗漏等问题。\n\n亚马逊在声明中表示，问题根源在于Alexa的文本转语音引擎在处理长序列输出时触发逻辑错误，导致模型出现异常行为。团队已查明具体原因并开发相应解决方案，目前正在部署修复程序。\n\n该事件反映出AI语音助手在长文本或长序列语音生成中的稳定性仍有提升空间，也引发了用户对智能音箱日常交互可靠性的关注。",
+    "category": "人工智能",
+    "tags": [
+      "Alexa",
+      "智能音箱",
+      "语音合成",
+      "亚马逊"
+    ],
+    "source": "IT之家",
+    "time": "6分钟前",
+    "ts": "2026-07-03T03:48:58+00:00",
+    "url": "https://www.ithome.com/0/972/094.htm",
+    "image": "https://img.ithome.com/newsuploadfiles/2026/7/d4027146-1248-4fac-af95-05d33cc82aa8.jpg?x-bce-process=image/format,f_auto",
+    "stocks": []
+  },
+  {
     "id": "7157f7b1accc6014",
     "title": "A股午间全线飘红，机器人概念领涨",
     "summary": "A股三大指数午间收盘集体上涨，机器人、汽车、贵金属板块表现强势，林木及文化传媒板块走弱。",
