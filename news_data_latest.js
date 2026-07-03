@@ -1,5 +1,83 @@
 const newsData = [
   {
+    "id": "fd0a63b612ef54fb",
+    "title": "天赐材料：PEEK改性材料小批量销售，占比尚低",
+    "summary": "天赐材料在互动平台表示，公司PEEK改性材料目前已有小批量销售，但占公司营收比例较低；氢氟酸产品目前尚未供货半导体公司。",
+    "body": "天赐材料近日在投资者互动平台披露，公司PEEK改性材料业务目前已有小批量销售，但该业务占公司整体营收比例仍然较低。同时，公司氢氟酸产品目前尚未向半导体公司供货。PEEK（聚醚醚酮）属于高性能特种工程塑料，广泛应用于航空航天、汽车、电子电气及机器人等领域，改性材料的布局有助于公司拓展新材料赛道、积累技术与客户资源，但短期内对公司整体业绩影响有限。",
+    "category": "新材料",
+    "tags": [
+      "天赐材料",
+      "PEEK材料",
+      "新材料",
+      "特种工程塑料"
+    ],
+    "source": "36氪",
+    "time": "刚刚",
+    "ts": "2026-07-03T01:05:30.757649+00:00",
+    "url": "https://36kr.com/newsflashes/3879217088901381?f=rss",
+    "image": "",
+    "stocks": [
+      {
+        "name": "天赐材料",
+        "ticker": "002709.SZ",
+        "reason": "公司自身披露PEEK改性材料已有小批量销售，直接涉及该新材料业务",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "9eaedeb566882f2a",
+    "title": "索尼为两款旗舰耳机推送游戏音频配置文件支持",
+    "summary": "索尼近日为1000X十周年典藏版和WH-1000XM6头戴降噪耳机推送新固件，新增低延迟游戏音频配置文件（GMAP）支持，并优化整体性能。",
+    "body": "据IT之家报道，索尼于上月底为1000X十周年典藏版（WH-1000XX）和WH-1000XM6两款头戴降噪耳机推送固件更新，版本号分别为1.3.0和3.1.5。此次更新加入了对游戏音频配置文件（GMAP）的支持，该低延迟蓝牙配置专为游戏场景优化，有望提升耳机在游戏中的音画同步体验，同时新固件还进一步提升了耳机的整体性能。\n\n1000X十周年典藏版与WH-1000XM6均于今年5月发布，搭载相同的降噪技术堆栈，包括HD降噪处理器QN3、12颗高性能降噪麦克风及自适应噪声优化器。新增游戏音频配置支持，将强化这两款旗舰产品在电竞与主机游戏用户中的吸引力，并进一步巩固索尼在高端消费音频市场的竞争力。",
+    "category": "消费电子",
+    "tags": [
+      "索尼",
+      "耳机",
+      "游戏音频",
+      "消费电子"
+    ],
+    "source": "IT之家",
+    "time": "2分钟前",
+    "ts": "2026-07-03T01:03:21+00:00",
+    "url": "https://www.ithome.com/0/971/990.htm",
+    "image": "https://img.ithome.com/newsuploadfiles/2026/7/d2acfccf-8bfd-4240-a393-c744acf61ee9.jpg?x-bce-process=image/format,f_auto",
+    "stocks": [
+      {
+        "name": "索尼",
+        "ticker": "SONY",
+        "reason": "新固件为旗舰耳机增加游戏低延迟音频支持，提升产品竞争力与游戏玩家吸引力",
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
+    "id": "d6c06d01c8b00821",
+    "title": "DDR5内存超频新纪录首破13600 MT/s",
+    "summary": "超频玩家saltycroissant使用美商海盗船24GB DDR5内存，在液氮冷却下创下13606 MT/s新纪录，获HWBot和CPU-Z官方认证。",
+    "body": "据IT之家报道，科技媒体Wccftech称，超频专家saltycroissant使用单条Corsair 24GB DDR5内存，在液氮冷却条件下将其频率推至13606 MT/s（6802 MHz），首次突破13600 MT/s大关。该成绩已获得HWBot和CPU-Z的官方认证，刷新了DDR5内存频率世界纪录。\\n此次超频基于技嘉Z890 AORUS Tachyon Duo X ICE主板，搭配英特尔酷睿Ultra 7 270K Plus处理器，内存型号为Corsair Vengeance LP 24GB DDR5。CPU-Z验证信息显示，在达到13606 MT/s时，时序为CL68-127-127-127-2。该玩家还上传了另一张截图，显示内存曾短暂运行至约13722 MT/s，但未获官方验证。\\n这一纪录主要体现极限超频场景下的性能潜力，属于高端PC硬件与玩家生态的技术展示，对消费级内存市场的实际产品规格影响有限，但有助于提升相关品牌在发烧友群体中的关注度。",
+    "category": "消费电子",
+    "tags": [
+      "DDR5内存",
+      "超频",
+      "PC硬件",
+      "海盗船"
+    ],
+    "source": "IT之家",
+    "time": "7分钟前",
+    "ts": "2026-07-03T00:58:09+00:00",
+    "url": "https://www.ithome.com/0/971/989.htm",
+    "image": "https://img.ithome.com/newsuploadfiles/2026/7/602ec20f-bafb-4e7f-9830-1a11188c273c.jpg?x-bce-process=image/format,f_auto",
+    "stocks": [
+      {
+        "name": "美商海盗船",
+        "ticker": "CRSR",
+        "reason": "其Vengeance DDR5内存被用于刷新世界纪录，有助于提升品牌在高端游戏/发烧硬件市场的曝光",
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
     "id": "99dbc96aacbfa8c5",
     "title": "光大证券：Meta算力出租不改中长期扩产规划",
     "summary": "光大证券研报指出，Meta进军云计算意在为其巨额AI基础设施投资开辟新的变现通道，云计算是快速回收前期投入、提升回报的重要途径；公司中长期持续加码AI算力的整体规划并未转向。",
@@ -269,6 +347,25 @@ const newsData = [
     "time": "5分钟前",
     "ts": "2026-07-03T00:19:09.468000+00:00",
     "url": "https://www.anthropic.com/news/fable-safeguards-jailbreak-framework",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "e6ffe7b397c78012",
+    "title": "高盛报告《AI Job Apocalypse?》引热议",
+    "summary": "Hacker News上出现一份高盛研究报告《An AI Job Apocalypse?》，聚焦人工智能对就业市场的潜在影响，目前讨论热度尚低。",
+    "body": "Hacker News平台分享了一份来自高盛（Goldman Sachs）的研究报告，标题为《An AI Job Apocalypse?》。该链接目前在平台上获得6个赞同和2条评论，显示这一关于人工智能对就业市场冲击的话题正在科技社区引发初步关注。\n\n由于当前提供的材料仅包含报告标题与链接信息，具体研究结论、数据与政策建议尚无法完整转述。若后续披露详细内容，可进一步分析其对劳动力市场、企业用工成本以及AI产业发展的实际影响。",
+    "category": "人工智能",
+    "tags": [
+      "人工智能",
+      "就业市场",
+      "高盛报告",
+      "Hacker News"
+    ],
+    "source": "Hacker News",
+    "time": "47分钟前",
+    "ts": "2026-07-03T00:18:11+00:00",
+    "url": "https://www.goldmansachs.com/static-libs/pdf-redirect/prod/index.html?path=/pdfs/insights/goldman-sachs-research/an-ai-job-apocalypse/report.pdf&originalQuery=&referrer=",
     "image": "",
     "stocks": []
   },
@@ -104477,12 +104574,6 @@ const newsData = [
   }
 ];
 const newsDigest = {
-  "text": "今日科技前沿聚焦算力与AI：Meta富余算力出售引发市场波动，国产算力主线获机构看好；英飞凌启用全球最大功率半导体晶圆厂；欧盟拟推未成年人社媒禁令，全球科技治理再添变量。",
-  "highlights": [
-    "4dfe2939d5f1f53c",
-    "4f5795cfee281ddc",
-    "6f87f00e9521d5d0",
-    "82235aecac073dd3",
-    "ee26855d69de77cc"
-  ]
+  "text": "",
+  "highlights": []
 };
