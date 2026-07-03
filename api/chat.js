@@ -155,9 +155,15 @@ async function loadNewsData() {
 
 function terms(text) {
   const s = String(text || '').toLowerCase();
-  const cn = (s.match(/[\u4e00-\u9fa5]{2,}/g) || []);
+  const runs = (s.match(/[\u4e00-\u9fa5]{2,}/g) || []);
+  // 中文没有空格分词:整段连续汉字很难命中标题,补充相邻二字组合提高召回
+  const cn = [];
+  for (const run of runs) {
+    cn.push(run);
+    for (let i = 0; i + 2 <= run.length && cn.length < 40; i++) cn.push(run.slice(i, i + 2));
+  }
   const en = (s.match(/[a-z0-9.]{2,}/g) || []);
-  return [...new Set(cn.concat(en))].slice(0, 24);
+  return [...new Set(cn.concat(en))].slice(0, 40);
 }
 
 async function selectContext(question) {
@@ -178,7 +184,8 @@ async function selectContext(question) {
   });
   scored.sort((a, b) => b.score - a.score || a.idx - b.idx);
   const picked = scored.filter((x) => x.score > 0).slice(0, 80);
-  const strongHits = scored.filter((x) => x.score >= 8).length;
+  // 强匹配:标题至少命中 2 个词(单个二字组合太容易撞上,不算强)
+  const strongHits = scored.filter((x) => x.score >= 16).length;
   const items = (picked.length ? picked : scored.slice(0, 80)).map(({ n }) => ({
     title: String(n.title || '').slice(0, 80),
     summary: String(n.summary || '').slice(0, 180),
