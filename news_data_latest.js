@@ -1,9 +1,9 @@
 const newsData = [
   {
     "id": "09a5d1e806c82aee",
-    "title": "ReactOS首次实现NT6系统调用，向Vista兼容迈进",
-    "summary": "开源操作系统ReactOS近日迎来里程碑，首次实现了Windows NT6系统调用，为兼容Windows Vista及更新软件奠定基础。",
-    "body": "据科技媒体Phoronix报道，致力于成为“Windows开源替代品”的ReactOS项目近日在代码库中合并了首批NT6处理器函数，正式实现了首个NT6系统调用“NtGetCurrentProcessorNumberEx”，用于返回当前调用线程所在逻辑处理器的编号。此前ReactOS主要兼容Windows NT 5.2架构，即Windows XP/Server 2003，开发团队多年来一直希望迈向NT 6.0，以支持运行Vista及更新版本的软件。尽管首个NT6调用功能相对基础，但对坚持近30年的开源净室开发项目而言，这标志着向现代Windows兼容迈出了关键一步。",
+    "title": "开源系统ReactOS首次实现NT6系统调用",
+    "summary": "ReactOS项目迎来重要里程碑，首次实现Windows NT6系统调用，向兼容Windows Vista及更新版本软件迈出关键一步。",
+    "body": "据IT之家援引Phoronix报道，致力于打造“Windows开源替代品”的ReactOS项目首次实现了Windows NT6系统调用，名为“NtGetCurrentProcessorNumberEx”，作用是返回当前调用线程正在运行的逻辑处理器编号。此前ReactOS主要以兼容Windows NT 5.2架构（即Windows XP/Windows Server 2003）为目标，开发团队长期希望迈向NT 6.0，从而支持Windows Vista及更新系统的软件。虽然单个系统调用的实现看似微不足道，但对坚持近30年的开源净室开发项目而言，这是向现代Windows兼容目标迈出的实质性一步。",
     "category": "消费电子",
     "tags": [
       "ReactOS",
@@ -12,52 +12,26 @@ const newsData = [
       "系统调用"
     ],
     "source": "IT之家",
-    "time": "1分钟前",
+    "time": "2分钟前",
     "ts": "2026-07-03T01:10:57+00:00",
     "url": "https://www.ithome.com/0/971/993.htm",
     "image": "https://img.ithome.com/newsuploadfiles/2026/7/a4e75636-b972-4bd8-9da2-3105e4c6ee16.jpg?x-bce-process=image/format,f_auto",
     "stocks": []
   },
   {
-    "id": "1bc0d370e0c42e00",
-    "title": "AMD RX 7900 XTX原型显卡曝光：红色PCB、256-bit位宽",
-    "summary": "Reddit网友曝光了AMD Radeon RX 7900 XTX显卡的工程样品，该原型卡采用醒目的红色PCB，GPU-Z显示其显存位宽为256-bit，低于市售版的384-bit，性能接近RX 7900 XT。",
-    "body": "7月1日，网友u/Shav_tech在Reddit社区发布了一组图片，展示了AMD Radeon RX 7900 XTX显卡的工程样品。这款原型卡采用红色PCB，顶部额外配备了I2C、PMBus和JTAG等调试与验证接口，工程师可通过JTAG直接从GPU核心或内存控制器采集诊断数据。PCB围绕Navi 31核心配置了12个显存封装位，理论上可组成24GB GDDR6显存，但GPU-Z仅识别出16GB，且显存位宽显示为256-bit，而市售RX 7900 XTX为384-bit，推测是工程阶段部分显存通道被禁用所致。该用户表示，这块工程样卡的性能接近RX 7900 XT，但尝试刷入RX 7900 GRE的BIOS以恢复完整功能并未成功。",
-    "category": "消费电子",
-    "tags": [
-      "显卡",
-      "工程样品",
-      "PC硬件",
-      "半导体"
-    ],
-    "source": "IT之家",
-    "time": "2分钟前",
-    "ts": "2026-07-03T01:10:39+00:00",
-    "url": "https://www.ithome.com/0/971/992.htm",
-    "image": "https://img.ithome.com/newsuploadfiles/2026/7/dae74a80-9f4a-42cb-8ef7-ad52e03b6a92.jpg?x-bce-process=image/format,f_auto",
-    "stocks": [
-      {
-        "name": "超威半导体（AMD）",
-        "ticker": "AMD",
-        "reason": "该原型卡为AMD旗下Radeon高端显卡工程样品，直接涉及其产品设计与研发进展",
-        "confidence": "high"
-      }
-    ]
-  },
-  {
     "id": "94a3c44952bf81f4",
-    "title": "索尼PlayStation光盘工厂已开始转型",
-    "summary": "据报道，索尼位于奥地利萨尔茨堡州塔尔高（Thalgau）的光盘工厂已开始转型，该工厂日产约60万张光盘，其中一半供应PlayStation。这反映出实体游戏光盘需求持续萎缩，游戏发行数字化趋势进一步加速。",
-    "body": "据奥地利媒体报道，索尼DADC总裁Dietmar Tanzer透露，公司位于Thalgau的工厂每天生产约60万张光盘，其中约一半用于PlayStation游戏。随着数字下载和订阅服务成为主流，实体游戏光盘市场长期承压，索尼已开始为该工厂寻找新的用途。\n\nThalgau工厂的转型被视为“游戏光盘已死”这一行业判断的最新例证。索尼近年来持续推动PlayStation数字版主机及线上内容销售，减少对传统光盘载体的依赖。此次工厂用途调整，标志着索尼在实体媒介供应链端的收缩进入实际操作阶段。\n\n这一转变对索尼而言是把双刃剑：一方面可降低实体制造与物流成本，顺应数字化发行潮流；另一方面也意味着其硬件生态中部分依赖光盘的商业模式正加速退场。整体看，游戏产业的内容分发格局正进一步向数字平台倾斜。",
+    "title": "索尼PlayStation光盘工厂已转型",
+    "summary": "据奥地利媒体报道，索尼位于塔尔高的光盘工厂已开始转型，该厂日产60万张光盘，其中半数供应PlayStation。这反映出实体游戏光盘需求持续下滑，索尼正加速淡出物理媒介生产。",
+    "body": "奥地利广播公司ORF Salzburg援引索尼DADC总裁Dietmar Tanzer的话报道称，索尼位于奥地利Thalgau的工厂每天生产约60万张光盘，其中一半用于PlayStation游戏。随着数字下载和订阅服务成为主流，实体游戏光盘市场持续萎缩，索尼已开始对该工厂进行重新定位与用途改造。这一动向标志着传统物理游戏媒介进一步边缘化，也可能影响相关光盘制造、物流及零售产业链。对索尼而言，缩减实体光盘产能有助于降低运营成本，并使其游戏业务更聚焦于数字发行与PlayStation Network生态。",
     "category": "消费电子",
     "tags": [
       "索尼",
       "PlayStation",
-      "游戏光盘",
-      "数字化"
+      "实体光盘",
+      "数字发行"
     ],
     "source": "The Verge",
-    "time": "3分钟前",
+    "time": "4分钟前",
     "ts": "2026-07-02T21:08:43-04:00",
     "url": "https://www.theverge.com/games/961203/sony-austria-thalgau-end-disc-production-microlenses-instead",
     "image": "",
@@ -65,16 +39,16 @@ const newsData = [
       {
         "name": "索尼集团",
         "ticker": "SONY",
-        "reason": "索尼拥有PlayStation及DADC光盘业务，工厂转型直接关联其游戏硬件与实体媒介布局，数字化发行长期利于内容分发效率，但新闻未明确构成短期利好",
+        "reason": "新闻主体公司，其PlayStation实体光盘产能收缩并改造工厂，反映游戏业务向数字发行转型的战略调整",
         "confidence": "medium"
       }
     ]
   },
   {
     "id": "c6bef1bcd7b0fd28",
-    "title": "小鹏MONA L03预售14.38万元起，何小鹏冀其成全球销量冠军",
-    "summary": "小鹏MONA L03在中国市场开启预售，起售价14.38万元，预售订单创小鹏车型同期小订纪录。何小鹏表示，希望L03成为小鹏全球销量最大的一款车，并计划明年在大部分国家和区域逐步开通VLA智驾功能。",
-    "body": "7月2日晚，小鹏汽车正式发布MONA L03，预售价14.38万元起，新车将于7月16日上市。官方称该车预售订单量已打破小鹏所有车型同期小订纪录，车型产品高级总监杨光称其为“小鹏历史上最好卖、销量目标最高、首款完全为全球打造的车型”，预计未来一年约30%至40%销量来自海外。\n\n小鹏汽车董事长、CEO何小鹏透露，从今年起小鹏将正式加速海外扩张，目前约20%销量来自海外，且单价多在4.5万欧元以上。他还表示，小鹏从去年开始已在海外部分国家测试VLA（视觉-语言-动作）智驾系统，计划今年8月后加速推进，力争明年一季度至四季度逐步覆盖全球大部分国家和区域，并实现本地离线语音控车与多语言自由交互。",
+    "title": "小鹏MONA L03预售14.38万元起，剑指全球爆款",
+    "summary": "小鹏MONA L03开启预售，售价14.38万元起，何小鹏期望其成为全球销量最大车型，并计划明年在大部分国家和区域逐步开通第二代VLA智驾系统。",
+    "body": "7月2日，小鹏MONA L03在中国首秀并公布预售价为14.38万元起，新车将于7月16日正式上市。官方称预售订单已打破小鹏所有车型同期小订纪录，何小鹏表示期望L03成为小鹏全球销量最大的一款车，因其尺寸更适配多国市场，并将把科技能力带向全球。",
     "category": "机器人",
     "tags": [
       "小鹏汽车",
@@ -83,15 +57,21 @@ const newsData = [
       "VLA"
     ],
     "source": "IT之家",
-    "time": "4分钟前",
+    "time": "5分钟前",
     "ts": "2026-07-03T01:07:58+00:00",
     "url": "https://www.ithome.com/0/971/991.htm",
     "image": "https://img.ithome.com/newsuploadfiles/2026/7/42e90892-cf9f-4957-8758-a2422d886396.jpg",
     "stocks": [
       {
-        "name": "小鹏汽车-W",
+        "name": "小鹏汽车",
+        "ticker": "XPEV",
+        "reason": "MONA L03为小鹏新车型，直接受益销量增长与海外智驾扩张预期。",
+        "confidence": "high"
+      },
+      {
+        "name": "小鹏汽车",
         "ticker": "9868.HK",
-        "reason": "MONA L03预售破纪录且被定位为小鹏全球销量主力车型，海外销售占比目标提升，直接利好公司销量与全球化扩张。",
+        "reason": "小鹏港股标的，L03放量与全球化落地将直接影响公司业绩。",
         "confidence": "high"
       }
     ]
