@@ -1,5 +1,23 @@
 const newsData = [
   {
+    "id": "f6e61721c4796002",
+    "title": "AYANEO预告KONKR复古掌机及新款小尺寸Windows掌机",
+    "summary": "AYANEO在新一期产品分享会上预告将推出KONKR子品牌复古掌机，并宣布热门小尺寸Windows掌机系列将迎来迭代新品。",
+    "body": "AYANEO于7月3日举行新一期产品分享会，介绍了多款已公布产品的最新进展，并带来近期新品预告。该公司表示将推出KONKR子品牌，以REMAKE设计理念、结合现代科技复刻被视为“掌机黄金时代经典象征”的经典产品美学。同时，AYANEO宣布其热门的小尺寸Windows操作系统掌机系列将迎来迭代型号。此次产品布局显示出AYANEO在复古情怀与小尺寸高性能Windows掌机细分市场的持续投入。",
+    "category": "消费电子",
+    "tags": [
+      "掌机",
+      "Windows掌机",
+      "复古游戏"
+    ],
+    "source": "IT之家",
+    "time": "1分钟前",
+    "ts": "2026-07-03T23:50:15+00:00",
+    "url": "https://www.ithome.com/0/972/475.htm",
+    "image": "https://img.ithome.com/newsuploadfiles/2026/7/e50df064-0450-4f2f-a992-656217e9dd2a.jpg?x-bce-process=image/format,f_auto",
+    "stocks": []
+  },
+  {
     "id": "37b79d14b2e51ee1",
     "title": "华硕ROG预热新款游戏手柄：性能颜值双升级",
     "summary": "华硕玩家国度（ROG）预告即将推出新款游戏手柄控制器，强调“性能颜值双升级”，并延续非对称布局、支持8kHz高回报率。",
