@@ -125,6 +125,25 @@ const newsData = [
     "stocks": []
   },
   {
+    "id": "9ca5767998b94861",
+    "title": "HammerDB v6.0 新增响应时间与百分位采样功能",
+    "summary": "开源数据库基准测试工具 HammerDB 发布 v6.0 版本，新增响应时间指标、百分位统计以及水库采样（Reservoir Sampling）能力，可更精细地评估数据库在高负载下的性能表现。",
+    "body": "HammerDB 是一款广泛应用于 TPC-C、TPC-H 等数据库负载测试的开源基准测试工具，其 v6.0 版本在原有吞吐量和事务指标基础上，进一步引入响应时间（Response Times）与百分位（Percentiles）统计，并采用水库采样技术控制数据采集开销。这些改进能够帮助数据库管理员和开发者更直观地观察尾延迟分布与性能抖动，而不仅仅是看平均吞吐量。\n\n通过百分位数据，用户可以识别高并发场景下少数慢事务对整体体验的影响；水库采样则能在保留关键统计信息的同时，避免海量原始数据带来的存储与分析压力。这一更新对于云数据库厂商、企业级数据库优化以及 DevOps 性能调优均具有参考价值。",
+    "category": "AI 基础设施",
+    "tags": [
+      "数据库基准测试",
+      "HammerDB",
+      "性能测试",
+      "云数据库"
+    ],
+    "source": "Hacker News",
+    "time": "1小时前",
+    "ts": "2026-07-03T18:45:28+00:00",
+    "url": "https://www.hammerdb.com/blog/uncategorized/hammerdb-v6-0-response-times-percentiles-and-reservoir-sampling/",
+    "image": "",
+    "stocks": []
+  },
+  {
     "id": "df88424112590458",
     "title": "浏览器之争不再围绕搜索，Chrome和Safari替代方案盘点",
     "summary": "TechCrunch整理了当前可挑战Chrome和Safari主流地位的几款替代浏览器，反映浏览器竞争焦点已发生转移。",
