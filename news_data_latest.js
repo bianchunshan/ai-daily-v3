@@ -1,5 +1,69 @@
 const newsData = [
   {
+    "id": "d2d0b27f72b8ba0a",
+    "title": "特斯拉迈阿密划定Robotaxi小范围运营区",
+    "summary": "特斯拉在迈阿密发布了一个地理围栏，仅覆盖该市西侧及通往多拉尔、斯威特沃特的一小片区域，成为其最新规划的Robotaxi服务城市。然而，该进展与特斯拉在德州一年多来仍未能扩大运营规模的困境形成对比。",
+    "body": "据报道，特斯拉已在迈阿密绘制出其Robotaxi服务区域，发布的地理围栏仅覆盖都会区的一小部分，主要包括西迈阿密以及延伸至多拉尔和斯威特沃特的一条狭长地带。这是特斯拉最新划定运营边界的城市，显示出其仍在推进自动驾驶出租车的地理落地。不过，这一消息的份量因德州市场的发展情况而大打折扣。过去一年多，特斯拉在德州仍未能实现Robotaxi业务的有效规模化扩张。这反映出其在自动驾驶商业化进程中，地理复制能力与运营范围拓展仍面临现实挑战。",
+    "category": "机器人",
+    "tags": [
+      "自动驾驶",
+      "Robotaxi",
+      "特斯拉",
+      "智慧出行"
+    ],
+    "source": "Electrek",
+    "time": "5分钟前",
+    "ts": "2026-07-03T14:02:11+00:00",
+    "url": "https://electrek.co/2026/07/03/tesla-robotaxi-miami-service-area-map/",
+    "image": "https://electrek.co/wp-content/uploads/sites/3/2026/07/Tesla-Robotaxi-Miami-launch-map.jpeg?quality=82&#038;strip=all&#038;w=1600",
+    "stocks": [
+      {
+        "name": "特斯拉",
+        "ticker": "TSLA",
+        "reason": "新闻直接关联其Robotaxi业务的城市扩张与规模化落地进展",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "37b3c92652905e79",
+    "title": "绝经后卵巢或转向免疫系统“新职能”",
+    "summary": "新研究发现，女性卵巢在结束生殖功能后可能并未“退休”，而是转向参与免疫系统工作。这一发现为理解更年期后的身体变化及相关健康风险提供了新视角。",
+    "body": "更年期通常发生在女性四五十岁，以连续12个月无月经为标志，意味着生育期的结束。长期以来，科学家对卵巢在活跃生育期的功能已有较多了解，但绝经后这一器官的去向在很大程度上仍是未解之谜。最新研究提示，卵巢在完成生殖任务后，可能承担起免疫系统相关的新角色，这一发现有助于深化对更年期生理变化及相关疾病机制的理解。",
+    "category": "生物医药",
+    "tags": [
+      "卵巢",
+      "免疫系统",
+      "更年期",
+      "生殖健康"
+    ],
+    "source": "MedicalXpress",
+    "time": "7分钟前",
+    "ts": "2026-07-03T10:00:10-04:00",
+    "url": "https://medicalxpress.com/news/2026-07-ovaries-job-immune-tenure-reproductive.html",
+    "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/post-menopause-ovaries-1.jpg",
+    "stocks": []
+  },
+  {
+    "id": "4745e27b355a42d7",
+    "title": "夏威夷癌症患者三年外州就医花费超2.3亿美元",
+    "summary": "夏威夷大学癌症中心研究发现，2021至2023年间夏威夷患者在外州接受癌症治疗的花费至少达2.3亿美元，反映出地理隔离给患者和医疗系统带来的沉重经济负担。",
+    "body": "夏威夷大学癌症中心一项新研究显示，2021年至2023年期间，夏威夷患者因在外州接受癌症护理至少花费2.3亿美元。该研究指出，地理隔离显著推高了癌症患者的就医成本，并对当地医疗系统造成压力。\n\n这一数据凸显了偏远地区居民在获取肿瘤专科治疗方面面临的结构性挑战。研究团队认为，相关发现可为优化本地癌症医疗资源、减少患者外流及完善区域卫生政策提供参考依据。",
+    "category": "生物医药",
+    "tags": [
+      "癌症治疗",
+      "医疗支出",
+      "公共卫生",
+      "地理医疗差异"
+    ],
+    "source": "MedicalXpress",
+    "time": "7分钟前",
+    "ts": "2026-07-03T10:00:05-04:00",
+    "url": "https://medicalxpress.com/news/2026-07-patients-hawaii-spent-230m-state.html",
+    "image": "https://scx1.b-cdn.net/csz/news/tmb/2023/medical-cost-1.jpg",
+    "stocks": []
+  },
+  {
     "id": "b4fd6ded1793a8f4",
     "title": "Anthropic将推出AI科学工作台并自研药物",
     "summary": "人工智能公司Anthropic在“The Briefing: AI for Science”活动上发布Claude Science，这是一款面向科学家的AI工作台，并透露有意利用AI自行开发药物。",
