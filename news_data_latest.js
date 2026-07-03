@@ -1,5 +1,31 @@
 const newsData = [
   {
+    "id": "d121cd37aff4e789",
+    "title": "Intel 18A工艺晶圆间良率问题据称已解决",
+    "summary": "据BlueFin Research Partners报告，英特尔已解决18A制程的晶圆间良率波动问题，两座工厂月产能正爬升至1.2万至1.5万片晶圆。",
+    "body": "据报道，BlueFin Research Partners发布研报称，英特尔18A工艺（约1.8nm级）的晶圆间良率差异问题已经得到解决，两座工厂正将月产能提升至1.2万至1.5万片晶圆。晶圆间差异是指同一生产流程中不同晶圆之间出现良率波动，解决这一问题意味着英特尔可以持续、可预期地推进良率改善。不过需要指出的是，晶圆间差异只是影响良率的多个因素之一，整体良率是否已达到目标水平仍待观察。18A是英特尔寄予厚望的下一代先进制程，其进展关系到英特尔代工业务的竞争力以及后续产品的量产节奏。",
+    "category": "半导体与先进制造",
+    "tags": [
+      "英特尔",
+      "18A制程",
+      "晶圆代工",
+      "先进制程"
+    ],
+    "source": "Tom's Hardware",
+    "time": "7分钟前",
+    "ts": "2026-07-03T10:49:40+00:00",
+    "url": "https://www.tomshardware.com/tech-industry/semiconductors/intel-18a-wafer-to-wafer-yield-issues-fixed-report-claims-says-production-up-to-15-000-wafers-per-month-at-both-sites",
+    "image": "https://cdn.mos.cms.futurecdn.net/fJDMeVAgTgJrUtvsaJJdYe-1280-80.jpg",
+    "stocks": [
+      {
+        "name": "英特尔",
+        "ticker": "INTC",
+        "reason": "18A是英特尔先进制程与代工业务核心节点，良率改善直接利好其产能爬坡与产品竞争力",
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
     "id": "15f4f497f69e581d",
     "title": "理想汽车调整组织架构：智驾与整车产品回归研发",
     "summary": "理想汽车计划将产品部的电动本体定义团队和自动驾驶终端产品团队分别并入整车研发和基座模型研发团队，以缩短产品决策流程、提升组织效率。",
