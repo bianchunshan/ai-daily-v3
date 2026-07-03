@@ -1,5 +1,69 @@
 const newsData = [
   {
+    "id": "e2d261f987bca7ed",
+    "title": "亚马逊Fire HD 10平板小幅升级，RAM增至4GB",
+    "summary": "亚马逊更新了中端平板Fire HD 10，将内存从3GB提升至4GB，处理器、屏幕等核心规格保持不变，起售价约155美元。",
+    "body": "据外媒报道，亚马逊近日对其Fire HD 10平板电脑进行了一次小幅升级，主要变化为RAM由3GB增加到4GB，这是该机型多年来首次扩容内存。其他核心配置基本不变，包括2GHz八核处理器、10.1英寸全高清触控屏以及约13小时续航；充电时间则从5小时缩短至4小时左右。\n\n不过新款Fire HD 10目前仅提供32GB存储版本，不再提供64GB选项，且只能购买带锁屏广告的版本，售价约155美元，较前代上涨约15美元。分析认为，这次升级使该平板在流媒体播放、儿童教育等日常场景下的多任务体验略有提升，但整体仍属于入门级到中端定位，对高端创意应用吸引力有限。",
+    "category": "消费电子",
+    "tags": [
+      "平板电脑",
+      "亚马逊",
+      "消费电子",
+      "硬件升级"
+    ],
+    "source": "Engadget",
+    "time": "4分钟前",
+    "ts": "2026-07-03T15:40:03+00:00",
+    "url": "https://www.engadget.com/2207669/amazon-fire-hd-10-ram-refresh/",
+    "image": "https://www.engadget.com/img/gallery/amazons-fire-hd-10-tablet-just-got-a-refresh-with-a-bit-more-ram/l-intro-1783093073.jpg",
+    "stocks": [
+      {
+        "name": "亚马逊",
+        "ticker": "AMZN",
+        "reason": "Fire HD 10为亚马逊旗下消费硬件产品，小幅升级有望提振其平板硬件业务",
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
+    "id": "3824755e3420e1c7",
+    "title": "AI工具可预测癌症患者对免疫疗法反应",
+    "summary": "研究人员开发的AI工具有助于预测哪些患者会对免疫检查点抑制剂类癌症免疫疗法药物产生反应，从而弥补当前治疗响应不确定性的知识缺口。",
+    "body": "免疫检查点抑制剂（ICIs）等癌症免疫疗法药物对部分患者效果显著，甚至能将致命疾病转为可控慢性病，但只对部分人群有效，且目前难以判断原因。新研究开发的AI工具可改善对患者响应情况的预测能力，帮助识别更可能受益的人群。\n\n这一进展有望改善患者预后，优化临床试验入组筛选，并推动新疗法研发。通过提升对免疫治疗响应的预判精度，该工具有助于实现更精准的个体化癌症治疗。",
+    "category": "人工智能",
+    "tags": [
+      "人工智能",
+      "癌症免疫治疗",
+      "精准医疗",
+      "数字医疗"
+    ],
+    "source": "MedicalXpress",
+    "time": "4分钟前",
+    "ts": "2026-07-03T11:40:01-04:00",
+    "url": "https://medicalxpress.com/news/2026-07-ai-tool-cancer-immunotherapy-drugs.html",
+    "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/ai-tool-improves-predi-1.jpg",
+    "stocks": []
+  },
+  {
+    "id": "8d4801c8db3f6aa6",
+    "title": "2026美国太阳能挑战赛：46支高校车队参赛",
+    "summary": "2026年Electrek美国太阳能挑战赛将于7月举行，来自美国、加拿大、比利时和荷兰的46支高校车队将参加Formula Sun Grand Prix资格赛，争夺1500英里公路赛入场券。",
+    "body": "2026年Electrek美国太阳能挑战赛进入最后筹备阶段，Formula Sun Grand Prix赛道资格赛将于两周内开赛。今年共有来自美国、加拿大、比利时和荷兰的46支高校车队报名，规模创历史新高。参赛学生需亲手设计并制造太阳能汽车，通过资格赛证明车辆具备上路能力，方可参加之后横跨美国、里程超过1500英里的美国太阳能挑战赛正赛。\n\n该赛事不仅是高校工程教育与清洁能源技术创新的竞技平台，也有助于推动太阳能汽车、轻量化材料、能效管理及电动传动系统的技术验证与人才储备。作为可再生能源与交通电气化交叉领域的传统赛事，其成果对太阳能应用技术发展和青年工程师培养具有一定示范意义。",
+    "category": "未来能源",
+    "tags": [
+      "太阳能汽车",
+      "可再生能源",
+      "科技竞赛",
+      "未来能源"
+    ],
+    "source": "Electrek",
+    "time": "7分钟前",
+    "ts": "2026-07-03T15:37:45+00:00",
+    "url": "https://electrek.co/2026/07/03/electrek-american-solar-challenge-2026-about-the-race-full-schedule-and-teams-competing/",
+    "image": "https://electrek.co/wp-content/uploads/sites/3/2026/07/solarcars.jpg?quality=82&#038;strip=all&#038;w=1600",
+    "stocks": []
+  },
+  {
     "id": "4ab4e139f2f1a863",
     "title": "领克20无伪装实车图曝光，三季度上市在即",
     "summary": "领克20实车无伪装图曝光，新车预计于今年三季度正式上市，基于领克Z20升级，新增激光雷达并强化高阶智驾能力。",
@@ -124,6 +188,25 @@ const newsData = [
     "time": "7分钟前",
     "ts": "2026-07-03T15:19:52.792000+00:00",
     "url": "https://mistral.ai/news/leanstral-1-5",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "24e2bdc663328f39",
+    "title": "本地部署前沿大语言模型指南受关注",
+    "summary": "技术社区Hacker News上出现一篇关于如何在本地运行最先进大语言模型的指南，反映出开发者对本地部署高性能LLM的兴趣。",
+    "body": "近日，技术社区Hacker News上流传一篇由Jamesob撰写的指南，主题是如何在本地运行当前最先进（SOTA）的大语言模型，并获得一定关注。在数据隐私、推理成本和自主可控等需求驱动下，越来越多的技术用户希望将大模型运行在自己的硬件环境中，而非完全依赖云端API。\n\n本地部署SOTA LLM涉及算力、内存、模型框架和推理优化等多方面挑战，通常需要合适的硬件配置与相应的开源工具支持。这一现象反映出AI应用形态正从集中式云服务向边缘化、本地化部署延伸。\n\n此类实践有望推动个人及企业级算力硬件、开源模型生态和推理优化工具的进一步发展，同时也对相关技术的易用性提出了更高要求。",
+    "category": "人工智能",
+    "tags": [
+      "大语言模型",
+      "本地部署",
+      "AI推理",
+      "开源生态"
+    ],
+    "source": "Hacker News",
+    "time": "41分钟前",
+    "ts": "2026-07-03T15:03:43+00:00",
+    "url": "https://github.com/jamesob/local-llm",
     "image": "",
     "stocks": []
   },
