@@ -1,5 +1,24 @@
 const newsData = [
   {
+    "id": "5cfb15fe8cb5120a",
+    "title": "研究发现清醒时也能做梦，睡眠与清醒边界比想象中模糊",
+    "summary": "发表于《Cell Reports》的研究显示，人在入睡前就可能已经开始做梦，而在入睡后仍能进行计划性思考，清醒与睡眠之间并非泾渭分明。",
+    "body": "《Cell Reports》发表的一项研究指出，人们通常认为清醒时思考、睡眠时做梦，但二者之间的边界实际上更为模糊。实验发现，参与者可以在尚未完全入睡时就开始做梦，也可以在刚刚睡着后继续规划未来事务。研究团队通过高密度脑电图等技术捕捉了从清醒到入睡的连续过渡过程，发现大脑活动并非在入睡瞬间发生切换，而是渐进变化。该发现有助于重新认识意识状态的转换机制，对睡眠障碍、梦境研究及神经科学等领域具有参考意义。",
+    "category": "脑机接口",
+    "tags": [
+      "神经科学",
+      "睡眠研究",
+      "意识状态",
+      "脑电图"
+    ],
+    "source": "MedicalXpress",
+    "time": "5分钟前",
+    "ts": "2026-07-03T17:40:01-04:00",
+    "url": "https://medicalxpress.com/news/2026-07-youre-boundary-lot-blurrier-youd.html",
+    "image": "https://scx1.b-cdn.net/csz/news/tmb/2023/dream-1.jpg",
+    "stocks": []
+  },
+  {
     "id": "117a33adee785f45",
     "title": "TechCrunch发布2025年AI术语指南",
     "summary": "TechCrunch整理了一份人工智能领域的新术语与俚语词汇表，旨在帮助读者理解AI快速发展带来的大量新概念和行业用语。",
