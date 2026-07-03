@@ -1,5 +1,93 @@
 const newsData = [
   {
+    "id": "a491cb33f869cbb2",
+    "title": "三星Galaxy S27 Ultra前摄升级1600万像素方形传感器",
+    "summary": "据外媒消息，三星Galaxy S27 Pro与S27 Ultra有望配备1600万像素前置摄像头，并采用方形传感器设计。该系列预计2027年1月发布。",
+    "body": "科技媒体Galaxy Club报道称，三星Galaxy S27系列内部代号为“Next Miracle”，包含S27、S27+、S27 Pro和S27 Ultra四款机型。其中Galaxy S27 Pro与S27 Ultra的前置摄像头将从S26 Ultra的1200万像素升级至1600万像素，并可能采用方形传感器，类似苹果iPhone 17系列的Center Stage设计。消息源预计三星将在2027年1月发布该系列旗舰手机。此次升级反映出手机厂商在自拍与视频通话体验上的持续投入，也可能推动前摄模组与传感器供应链的技术迭代。",
+    "category": "消费电子",
+    "tags": [
+      "智能手机",
+      "摄像头",
+      "三星"
+    ],
+    "source": "IT之家",
+    "time": "刚刚",
+    "ts": "2026-07-03T02:25:20+00:00",
+    "url": "https://www.ithome.com/0/972/034.htm",
+    "image": "https://img.ithome.com/newsuploadfiles/2024/1/9ce1b00a-f839-4ea9-bdc9-7b3fbcacc5cf.jpg?x-bce-process=image/auto-orient,o_1",
+    "stocks": []
+  },
+  {
+    "id": "b396b6b8b51cd458",
+    "title": "雷神炽刃X7s Pro Max鼠标预售：双8KHz轮询率299元",
+    "summary": "雷神炽刃X7s Pro Max游戏鼠标在京东开启预售，搭载定制PAW3955 Turbo传感器与Airoha Ab16主控，支持双8KHz轮询率，售价299元。",
+    "body": "据IT之家7月3日消息，雷神旗下炽刃系列新品X7s Pro Max鼠标已在京东开启预售，定价299元。该鼠标提供黑、白、红三种配色，重量52g，采用右手非对称竞技模具，表面覆盖纳米UV手感涂层，底部配备PTFE脚贴。\n\n核心配置方面，X7s Pro Max搭载雷神定制的PAW3955 Turbo传感器，DPI精度达40000，并采用Airoha Ab16系列主控，实现有线/无线双8KHz轮询率。此外，鼠标还配备TTC光学编码器、自研SPDT微动以及500mAh电池，面向电竞玩家市场，展示了国产外设品牌在高端游戏鼠标领域的持续发力。",
+    "category": "消费电子",
+    "tags": [
+      "游戏外设",
+      "电竞鼠标",
+      "雷神科技"
+    ],
+    "source": "IT之家",
+    "time": "5分钟前",
+    "ts": "2026-07-03T02:20:15+00:00",
+    "url": "https://www.ithome.com/0/972/030.htm",
+    "image": "https://img.ithome.com/newsuploadfiles/2026/7/b0bdff0b-98d5-4cc1-b83b-e694e6197808.png",
+    "stocks": [
+      {
+        "name": "雷神科技",
+        "ticker": "872190.BJ",
+        "reason": "雷神为该鼠标品牌方，新品预售有望带动其游戏外设业务关注度",
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
+    "id": "a5be666a907d8f42",
+    "title": "欧盟批准新型食品添加剂，可助防止体重增加",
+    "summary": "欧盟将科学家研发的菊粉丙酸酯（IPE）纳入新型食品清单，确认其作为膳食纤维可安全食用，有望通过延长饱腹感减少日常热量盈余。",
+    "body": "据外媒报道，欧盟已将一种名为菊粉丙酸酯（Inulin propionate ester，IPE）的食品添加剂列入欧盟新型食品清单，表明该成分被认为可安全供人类食用。IPE由伦敦帝国理工学院和格拉斯哥大学同位素科学中心（SUERC）的科学家开发并测试，属于一种膳食纤维。\n\n据介绍，IPE能够放大高纤维饮食的已知益处，帮助人们获得更持久的饱腹感，从而减少可能导致长期体重增加的每日热量盈余。该获批被视为功能性食品与体重管理领域的一项重要监管进展。",
+    "category": "生物医药",
+    "tags": [
+      "食品添加剂",
+      "膳食纤维",
+      "体重管理",
+      "生命科学"
+    ],
+    "source": "MedicalXpress",
+    "time": "5分钟前",
+    "ts": "2026-07-02T22:20:01-04:00",
+    "url": "https://medicalxpress.com/news/2026-07-special-food-additive-weight-gain.html",
+    "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/white-powder.jpg",
+    "stocks": []
+  },
+  {
+    "id": "ce931cfd024a9e7e",
+    "title": "iQOO Z11i正式开售：水滴屏+骁龙4，首发1199元起",
+    "summary": "iQOO Z11i手机于7月3日正式发售，采用复古水滴屏设计，搭载高通第二代骁龙4处理器，配备6500mAh电池，首发价1199元起，国补后到手价1019.15元起。",
+    "body": "这款手机采用6.74英寸1600×720分辨率120Hz LCD屏，色彩饱和度83% NTSC，机身尺寸为167.40mm×77.10mm×8.39mm，重量约209g，支持IP65防尘防水。影像方面配备5MP前置镜头、13MP后置镜头及红外遥控模组，定位入门5G市场。在国补政策加持下，该机价格下探至千元以下，有望提振下沉市场换机需求，但720P屏幕与15W充电等配置相对基础。",
+    "category": "消费电子",
+    "tags": [
+      "智能手机",
+      "iQOO",
+      "千元机",
+      "高通"
+    ],
+    "source": "IT之家",
+    "time": "9分钟前",
+    "ts": "2026-07-03T02:16:08+00:00",
+    "url": "https://www.ithome.com/0/972/028.htm",
+    "image": "https://img.ithome.com/newsuploadfiles/2026/7/639a95c5-0bc3-4404-8539-13fa050c7f24.jpg",
+    "stocks": [
+      {
+        "name": "高通",
+        "ticker": "QCOM",
+        "reason": "iQOO Z11i搭载高通第二代骁龙4移动平台，芯片供应直接受益",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
     "id": "105504a3b054a637",
     "title": "2000亿元“两新”设备更新资金已全部下达",
     "summary": "国家发展改革委表示，今年2000亿元超长期特别国债支持“两新”设备更新资金已全部下达，将推动大规模设备更新和消费品以旧换新政策落地。",
