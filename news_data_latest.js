@@ -1,5 +1,31 @@
 const newsData = [
   {
+    "id": "de732559d26dd965",
+    "title": "iPhone 18 Pro Max 电池曝光：5187mAh，欣旺达代工",
+    "summary": "消息源曝光苹果 iPhone 18 Pro Max 电池电芯细节，容量为 5187mAh，由欣旺达生产，不同版本容量略有差异。",
+    "body": "据 IT 之家 7 月 3 日消息，爆料者 @phonefuturist 在 X 平台首次展示了适用于苹果 iPhone 18 Pro Max 的电池电芯图片。图中两款电芯均由欣旺达电子股份有限公司生产，其中型号 A3166 配备 3.903V、5187mAh 容量电池，较此前曝光的 eSIM 版（5425mAh）和实体 SIM 卡版（5235mAh）略小。\n\n结合此前资料，iPhone 18 Pro Max 欧盟版因保留 SIM 卡槽，电池容量为 5235mAh，较 iPhone 17 Pro Max 增加约 8.5%；美国双 eSIM 版则提升至 5425mAh。此次曝光再次确认中国大陆供应链在苹果高端机型电池中的关键地位，也对相关电池供应商的订单预期形成支撑。",
+    "category": "消费电子",
+    "tags": [
+      "iPhone 18",
+      "苹果",
+      "欣旺达",
+      "手机电池"
+    ],
+    "source": "IT之家",
+    "time": "刚刚",
+    "ts": "2026-07-03T02:44:48+00:00",
+    "url": "https://www.ithome.com/0/972/045.htm",
+    "image": "https://img.ithome.com/newsuploadfiles/2026/7/dddd5bd0-ba2a-44f8-86f9-214839f32011.png?x-bce-process=image/format,f_auto",
+    "stocks": [
+      {
+        "name": "欣旺达",
+        "ticker": "300207.SZ",
+        "reason": "被曝为 iPhone 18 Pro Max 提供电池电芯，苹果高端机型订单预期提升。",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
     "id": "a8ff9340722077ca",
     "title": "Robinhood CEO：AI智能体将媲美人类交易员",
     "summary": "美国券商Robinhood首席执行官特内夫预测，AI智能体很快将具备与人类交易员相当的能力，并计划让散户投资者获得机构级交易工具和算力。",
@@ -11677,6 +11703,38 @@ const newsData = [
     "url": "https://medicalxpress.com/news/2026-07-digital-mindfulness-intervention-beneficial-late.html",
     "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/digital-mindfulness-in.jpg",
     "stocks": []
+  },
+  {
+    "id": "1d17667aee7366d8",
+    "title": "PAW模糊函数编程：0.6B模型性能比肩32B",
+    "summary": "Program-as-Weights提出将自然语言函数编译为本地可执行神经制品的新范式，使0.6B参数的Qwen3解释器在推理内存降至约五十分之一的同时，性能可匹敌直接提示的Qwen3-32B。",
+    "body": "Program-as-Weights（PAW）是一种面向模糊函数的编程范式，旨在将自然语言描述的函数编译为紧凑、可本地执行的神经制品。该方法使用在1000万示例数据集FuzzyBench上训练的40亿参数编译器，为冻结的轻量级解释器输出参数高效适配器。\n\n实验显示，仅0.6B参数的Qwen3解释器执行PAW程序，性能即可匹敌直接提示的Qwen3-32B，而推理内存仅约为后者的五十分之一，在MacBook M3上可达到每秒30个token的生成速度。\n\n这一方法将基础模型从每次输入的求解器重新定义为工具构建器：函数只需定义一次，生成的神经制品即可离线、低成本复用，有望推动大模型在端侧和轻量化场景下的部署效率。",
+    "category": "人工智能",
+    "tags": [
+      "大模型",
+      "模型压缩",
+      "Qwen",
+      "边缘AI"
+    ],
+    "source": "AIHOT精选",
+    "time": "1天前",
+    "ts": "2026-07-02T00:00:00+00:00",
+    "url": "https://arxiv.org/abs/2607.02512",
+    "image": "",
+    "stocks": [
+      {
+        "name": "阿里巴巴",
+        "ticker": "BABA",
+        "reason": "Qwen3为阿里云通义千问系列模型，PAW实验以其为基座展现端侧高效推理潜力，利好模型生态与云业务。",
+        "confidence": "high"
+      },
+      {
+        "name": "阿里巴巴-SW",
+        "ticker": "9988.HK",
+        "reason": "同上，阿里云Qwen模型生态直接受益于该轻量化编程范式带来的端侧部署效率提升。",
+        "confidence": "high"
+      }
+    ]
   },
   {
     "id": "b9f1984a667ce68e",
@@ -105188,12 +105246,6 @@ const newsData = [
   }
 ];
 const newsDigest = {
-  "text": "今日科技前沿：AI智能体冲击交易员、腾讯升级防沉迷声纹识别、韩国押注Rubin GPU主权AI、人社部新增数字孪生与具身智能职业、2000亿元设备更新资金下达。",
-  "highlights": [
-    "a8ff9340722077ca",
-    "80386707021ed475",
-    "c7a9c53b934d8b24",
-    "dd80f21a4cc1c840",
-    "105504a3b054a637"
-  ]
+  "text": "",
+  "highlights": []
 };
