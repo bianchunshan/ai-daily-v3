@@ -22,9 +22,12 @@ full product/architecture overview and the list of files.
   real data offline.
 - **Full app including `/api/*` — intended tool is `vercel dev`, but it requires auth.**
   `vercel dev` / `npx vercel dev` fails headless with "No existing credentials found"
-  unless a `VERCEL_TOKEN` is provided (set the `VERCEL_TOKEN` secret, then
-  `npx vercel dev --token "$VERCEL_TOKEN"`). The frontend calls **relative** `/api/...`
-  paths, so pages and functions must be served from the **same origin**.
+  unless a `VERCEL_TOKEN` is provided. In non-interactive mode it also needs an explicit
+  team scope, otherwise it aborts with `missing_scope`. Working invocation:
+  `npx vercel dev --listen 3000 --token "$VERCEL_TOKEN" --scope <team-slug> --yes`
+  (first run auto-creates/links a Vercel project and writes a gitignored `.vercel/`).
+  The frontend calls **relative** `/api/...` paths, so pages and functions must be served
+  from the **same origin**.
 - **Running `/api/*` locally without a Vercel token:** the functions are plain Node
   CommonJS `(req, res)` handlers (`api/quote.js`, `api/chat.js`). You can mount them in a
   tiny local Node HTTP server (parse the query string into `req.query`, add
