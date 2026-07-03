@@ -1,5 +1,24 @@
 const newsData = [
   {
+    "id": "94641a90c3900481",
+    "title": "三星Galaxy Z Fold8渲染图曝光：将推出浅紫色配色",
+    "summary": "科技媒体Android Headline曝光了三星Galaxy Z Fold8系列贴膜渲染图，显示标准版将提供接近S22“幻夜紫”的浅紫色，Ultra版或推酒红色与iPhone竞争。",
+    "body": "7月2日，科技媒体Android Headline发布博文，展示了适用于三星Galaxy Z Fold8、Galaxy Z Fold8 Ultra及Galaxy Z Flip8的屏幕贴膜渲染图。渲染图显示，Galaxy Z Fold8标准版将推出类似Galaxy S22系列“幻夜紫”的浅紫色配色；定位更高的Galaxy Z Fold8 Ultra（即前代Z Fold7继任者）则可能提供勃艮第酒红色，外界认为意在对标传闻中的“樱桃红”版苹果iPhone 18 Pro。目前泄露的贴膜未透露更多硬件规格，但新配色体现了三星在折叠屏产品线上持续强化差异化设计、与竞品争夺高端用户的市场策略。",
+    "category": "消费电子",
+    "tags": [
+      "折叠屏",
+      "三星",
+      "智能手机",
+      "苹果"
+    ],
+    "source": "IT之家",
+    "time": "5分钟前",
+    "ts": "2026-07-03T01:39:50+00:00",
+    "url": "https://www.ithome.com/0/972/005.htm",
+    "image": "https://img.ithome.com/newsuploadfiles/2026/7/b6fdf9b7-a99d-4282-b58c-d4f1562b1315.png?x-bce-process=image/format,f_auto",
+    "stocks": []
+  },
+  {
     "id": "c797101f7a8d96ec",
     "title": "英特尔发布锐炫Pro显卡新驱动，提升基准测试性能",
     "summary": "英特尔于6月30日发布2026Q2版锐炫Pro显卡Windows驱动，版本号32.0.101.8804，重点优化了SPECviewperf 15基准测试中的1080p表现。",
