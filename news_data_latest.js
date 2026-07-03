@@ -1,5 +1,24 @@
 const newsData = [
   {
+    "id": "ae70108362e82df8",
+    "title": "xTool发布O1 UV打印机：四合一打印+AI设计",
+    "summary": "xTool在德国柏林发布O1 UV打印机，将UV、DTF、DTG、UV DTF四种打印能力整合进一台设备，可覆盖木材、金属、亚克力、玻璃、织物等多种材料，并配套Atomm创作者平台与AImake等AI工具。",
+    "body": "36氪消息，近日xTool在德国柏林举办欧洲品牌发布会，正式向全球推出xTool O1 UV打印机。该设备将UV、DTF、DTG、UV DTF四种打印工艺集成于一体，支持在木材、金属、亚克力、玻璃、石材、织物、皮革等多种材质上打印，面向定制化创作和小批量生产场景。\n\n同时，xTool还发布了Atomm创作者平台，并通过AImake等AI工具帮助用户把想法转化为设计，再完成制作。这一组合降低了创意实现门槛，也体现了AI与传统硬件制造工具的结合趋势，有望拓展个人创作、文创定制及小型工坊市场。",
+    "category": "消费电子",
+    "tags": [
+      "UV打印",
+      "消费电子",
+      "AI设计",
+      "创作工具"
+    ],
+    "source": "36氪",
+    "time": "刚刚",
+    "ts": "2026-07-03T08:06:54.545725+00:00",
+    "url": "https://36kr.com/newsflashes/3879627924353032?f=rss",
+    "image": "",
+    "stocks": []
+  },
+  {
     "id": "3283ec7f4c4dbce7",
     "title": "三星SDI获2万亿韩元AIDC电池电芯订单",
     "summary": "三星SDI与电池模组企业新普科技签署约2万亿韩元供货合同，为其供应用于人工智能数据中心的电池电芯，反映AIDC备电需求持续扩张。",
@@ -2315,6 +2334,24 @@ const newsData = [
         "confidence": "medium"
       }
     ]
+  },
+  {
+    "id": "b65aa2c7be29a8dc",
+    "title": "AI“不够聪明”，人工智能下一步向何处去？",
+    "summary": "Hacker News上一条讨论帖以“AI is 'not smart'”为题，引发对当前人工智能能力与下一步发展方向的热议。由于原文链接缺失，具体论点不详。",
+    "body": "近日，技术社区Hacker News出现了一篇题为“AI is 'not smart' so what's next in artificial intelligence?”的讨论帖，帖文质疑当前AI是否真正“聪明”，并就人工智能的未来演进方向展开探讨。该帖获得22个赞和9条评论，反映出开发者社区对AI能力边界与下一步技术路线的高度关注。由于提供的材料仅包含标题和互动数据，具体涉及的技术观点或案例尚无法确认。",
+    "category": "人工智能",
+    "tags": [
+      "人工智能",
+      "AI能力",
+      "技术趋势"
+    ],
+    "source": "Hacker News",
+    "time": "6小时前",
+    "ts": "2026-07-03T01:42:40+00:00",
+    "url": "https://www.bbc.com/news/articles/cj6gr0xkyr3o",
+    "image": "",
+    "stocks": []
   },
   {
     "id": "94641a90c3900481",
