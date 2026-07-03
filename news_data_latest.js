@@ -1,5 +1,76 @@
 const newsData = [
   {
+    "id": "c797101f7a8d96ec",
+    "title": "英特尔发布锐炫Pro显卡新驱动，提升基准测试性能",
+    "summary": "英特尔于6月30日发布2026Q2版锐炫Pro显卡Windows驱动，版本号32.0.101.8804，重点优化了SPECviewperf 15基准测试中的1080p表现。",
+    "body": "英特尔当地时间6月30日为锐炫Pro显卡推出2026Q2版本Windows驱动程序，版本号为32.0.101.8804。该版本主要改进了Arc Pro GPU在SPECviewperf 15基准测试中的1080p表现，提升集中在blender-01项目上。\n\n具体来看，锐炫Pro B系列独立显卡在该项目中的性能最多可提升15%，而搭载于第三代酷睿Ultra“Panther Lake”处理器的“Xe3”集成显卡也能获得最高约5%的提升。这一更新主要面向专业工作站用户，有助于改善英特尔在专业图形市场的驱动体验与产品竞争力。",
+    "category": "消费电子",
+    "tags": [
+      "英特尔",
+      "显卡驱动",
+      "锐炫Pro",
+      "GPU"
+    ],
+    "source": "IT之家",
+    "time": "1分钟前",
+    "ts": "2026-07-03T01:33:53+00:00",
+    "url": "https://www.ithome.com/0/972/004.htm",
+    "image": "https://img.ithome.com/newsuploadfiles/2026/7/6e122b21-f3c8-46c0-b2ba-a7f541628a71.jpg?x-bce-process=image/format,f_auto",
+    "stocks": [
+      {
+        "name": "英特尔",
+        "ticker": "INTC",
+        "reason": "公司发布锐炫Pro显卡新驱动，提升专业显卡基准性能，利好其GPU业务口碑",
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
+    "id": "f0f9b27cf368f7a4",
+    "title": "特斯拉限员工AI周开支200美元，xAI测试版除外",
+    "summary": "The Information援引特斯拉内部备忘录称，自7月6日起，特斯拉将每名员工的AI使用费用限制在每周200美元，xAI测试版除外。此举反映企业在大力押注AI的同时，正面临快速增长的AI使用成本压力。",
+    "body": "报道称，特斯拉将从7月6日起把员工AI使用费限制在每周200美元，超过部分需审批，但xAI产品测试版产生的费用不受限制。就在几个月前，特斯拉还鼓励员工积极使用AI，部分团队甚至按Token消耗量制作内部排行榜，导致软件工程师每周Token消耗经常达数千美元；统一AI工具和安全规范方案刚成形，公司便迅速转向限流开支。\n\n特斯拉的急转弯并非孤例，Uber、Meta、亚马逊和沃尔玛等企业也已设置AI支出上限或要求使用更便宜模型，按Token计费让企业开始严控AI使用量。特斯拉的特殊之处在于变化极快，且马斯克持续推动员工使用其体系内工具，特斯拉工程师也成为Grok和Composer的早期测试人员，但内部推广效果不佳，许多员工仍偏好Anthropic的Claude。",
+    "category": "人工智能",
+    "tags": [
+      "特斯拉",
+      "xAI",
+      "企业AI开支",
+      "大模型应用"
+    ],
+    "source": "IT之家",
+    "time": "5分钟前",
+    "ts": "2026-07-03T01:30:17+00:00",
+    "url": "https://www.ithome.com/0/972/001.htm",
+    "image": "",
+    "stocks": [
+      {
+        "name": "特斯拉",
+        "ticker": "TSLA",
+        "reason": "新闻主体，特斯拉直接收紧员工AI开支以控制成本，同时xAI测试版获豁免，反映集团AI战略与内部协同预期",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "cff76807ab824406",
+    "title": "荣耀MagicOS七月升级一碰传，新增B站小红书淘宝等应用",
+    "summary": "据爆料，荣耀MagicOS系统7月更新将升级一碰传功能，新增支持B站、快手、小红书和淘宝等应用。该功能目前已支持抖音、美团、支付宝等App，并可实现荣耀与苹果设备间的文件互传。",
+    "body": "据IT之家7月3日消息，微博博主@旺仔百事通爆料称，荣耀MagicOS系统将在7月更新中升级“一碰传”功能，新增支持哔哩哔哩（B站）、快手、小红书和淘宝等应用。荣耀手机用户可通过两台设备碰一碰的方式，分享视频、音乐、优惠券及转账等内容。\n\n目前，荣耀一碰传已支持抖音、酷狗音乐、美团、支付宝、WPS文档、三国杀等应用。值得注意的是，该功能还可连接苹果iPhone，用户需在苹果设备安装“荣耀互联”App后，即可在荣耀、iPhone与Mac设备之间互传照片、视频、文件和联系人。\n\n此次升级进一步扩展了荣耀MagicOS跨应用、跨生态的互联互通能力，有助于提升用户体验和设备间协同效率，也反映出手机厂商正加速打破应用与系统生态壁垒。",
+    "category": "消费电子",
+    "tags": [
+      "荣耀MagicOS",
+      "一碰传",
+      "跨端互联",
+      "消费电子"
+    ],
+    "source": "IT之家",
+    "time": "6分钟前",
+    "ts": "2026-07-03T01:28:28+00:00",
+    "url": "https://www.ithome.com/0/972/000.htm",
+    "image": "https://img.ithome.com/newsuploadfiles/2026/7/c5f3bfa1-7d77-408c-a158-c0ed97a954cc.jpg?x-bce-process=image/format,f_auto",
+    "stocks": []
+  },
+  {
     "id": "57f3bd8a071f0166",
     "title": "阿里云AI数据库Databridge Agent将商业化收费",
     "summary": "阿里云宣布其AI原生数据库服务产品Databridge Agent将于2026年8月1日正式转商业化计费，标志该产品从免费试用阶段进入正式收费运营阶段。",
