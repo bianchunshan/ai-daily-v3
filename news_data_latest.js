@@ -1,5 +1,31 @@
 const newsData = [
   {
+    "id": "c236c341e2ef5def",
+    "title": "两协会倡议规范情感陪伴人形机器人发展",
+    "summary": "中国人形机器人百人会与中国机械工业联合会联合发布倡议，规范引导情感陪伴人形机器人健康发展，强调要将安全伦理、隐私保护和质量管理贯穿产品全生命周期。",
+    "body": "据央视新闻及IT之家报道，中国人形机器人百人会与中国机械工业联合会于7月4日联合发布《关于规范和引导情感陪伴人形机器人发展的倡议》，倡导科技向善、推动产业健康发展。当前，我国人形机器人产业正加速融入工业、特种和服务等场景，近期多款“情感陪伴人形机器人”产品发布，标志其正逐步走进家庭生活。",
+    "category": "机器人",
+    "tags": [
+      "人形机器人",
+      "情感陪伴",
+      "行业倡议",
+      "优必选"
+    ],
+    "source": "IT之家",
+    "time": "5分钟前",
+    "ts": "2026-07-04T07:14:29+00:00",
+    "url": "https://www.ithome.com/0/972/586.htm",
+    "image": "https://img.ithome.com/newsuploadfiles/2026/7/d4d2775f-0d54-440e-bec5-e61f9cb74801.jpg?x-bce-process=image/watermark,text_QUnnlJ_miJA,type_RlpMYW5UaW5nSGVpU0JHQg==,size_28,color_ffffffdd,skw_1,skc_00000051,g_7,blr_50,bls_50,x_11,y_11/format,f_auto",
+    "stocks": [
+      {
+        "name": "优必选",
+        "ticker": "9880.HK",
+        "reason": "公司重点布局家庭陪伴机器人赛道，U1系列搭载养成系情感大模型，直接受行业规范与政策导向影响",
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
     "id": "5ab937e19c0587b8",
     "title": "比亚迪方程豹豹5三周年版车衣发布，售3999元",
     "summary": "比亚迪方程豹为庆祝豹5定名三周年，推出售价3999元的特别版车衣，可用79980积分抵扣；同期豹5 210KM天神MAX版限时惊喜价为25.38万元。",
