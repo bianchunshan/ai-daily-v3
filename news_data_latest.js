@@ -1,5 +1,24 @@
 const newsData = [
   {
+    "id": "86b98c3e70757cc0",
+    "title": "索尼曾开发内置PS1的手柄主机但因版税分歧取消",
+    "summary": "据游戏开发者Brian Watson爆料，索尼曾开发一款名为PlayStation Puga的原型产品，将整台PS1主机集成在DualShock手柄中，面向巴西市场并计划本地制造，但最终因与游戏工作室的版税谈判破裂而取消。",
+    "body": "游戏开发者Brian \"Biscuit\" Watson在YouTube频道The Retro Collective上透露，索尼曾打造一款名为PlayStation Puga的原型设备，将整台PlayStation 1游戏机塞进DualShock手柄中，通过线缆连接电视即可游玩。该产品专为巴西市场设计，由于当地进口法规严格，计划在当地生产，并内置4GB存储空间可容纳10款游戏，由四节AA电池供电。\n\nWatson表示，原型机运行良好，但游戏授权成为致命障碍。索尼授权部门无法与Rockstar等第三方工作室就版税条款达成一致，即便是索尼第一方游戏，也需要与集团内其他部门单独谈判。由于该手柄主机定价低廉，每台利润仅约10美分，难以满足各方版税要求，项目最终流产。\n\n这一爆料揭示了上世纪末游戏机厂商在进入新兴市场时面临的供应链与授权挑战，也说明低价硬件在内容成本压力下难以持续。PlayStation Puga最终未能量产，成为PlayStation历史中一个被取消的有趣注脚。",
+    "category": "消费电子",
+    "tags": [
+      "PlayStation",
+      "游戏硬件",
+      "索尼",
+      "主机历史"
+    ],
+    "source": "Tom's Hardware",
+    "time": "5分钟前",
+    "ts": "2026-07-04T15:16:24+00:00",
+    "url": "https://www.tomshardware.com/video-games/console-gaming/sony-crammed-an-entire-ps1-into-a-dualshock-controller-that-connects-to-your-tv-but-killed-the-project-playstation-puga-offered-game-studios-a-mere-10-cents-per-unit-sold",
+    "image": "https://cdn.mos.cms.futurecdn.net/bYeaK6WnC8fJsoEJX9BMBS-1280-80.png",
+    "stocks": []
+  },
+  {
     "id": "324a90dd66e413f8",
     "title": "我国团队为银心中等质量黑洞提供最强动力学证据",
     "summary": "北京天文馆领衔的国际团队通过大规模数值模拟，首次建立统一动力学模型，为银河系中心可能潜伏中等质量黑洞提供了迄今最强证据。该发现有助于填补黑洞演化“缺失的一环”，并可通过未来巡天望远镜进一步验证。",
@@ -87,6 +106,25 @@ const newsData = [
     "ts": "2026-07-04T14:49:50+00:00",
     "url": "https://www.ithome.com/0/972/669.htm",
     "image": "https://img.ithome.com/newsuploadfiles/2026/7/878af91a-d0aa-4179-b312-2c89cc3d9622.jpg?x-bce-process=image/format,f_auto",
+    "stocks": []
+  },
+  {
+    "id": "96eb6361d26efe02",
+    "title": "开发者发现隐藏于TailwindCSS配置文件中的恶意软件",
+    "summary": "一篇发布在Hacker News上的文章称，开发者在其TailwindCSS配置文件中发现了隐藏的恶意软件。该事件再次凸显前端开发依赖与配置文件供应链安全风险。",
+    "body": "据报道，一名开发者在个人TailwindCSS配置文件中发现了潜藏的恶意软件，并在Hacker News上分享了这一情况。TailwindCSS是广泛使用的前端CSS框架，此类事件表明恶意代码可能通过配置文件、构建脚本或第三方依赖潜入开发环境。由于原文仅提供标题与链接信息，具体攻击手法、影响范围及样本细节尚不明确。此类安全事件提醒开发者在引入前端工具链与开源依赖时，应加强配置审计与依赖扫描，以降低供应链被污染的风险。",
+    "category": "网络安全",
+    "tags": [
+      "网络安全",
+      "恶意软件",
+      "供应链安全",
+      "前端开发"
+    ],
+    "source": "Hacker News",
+    "time": "39分钟前",
+    "ts": "2026-07-04T14:42:39+00:00",
+    "url": "https://infosecwriteups.com/i-found-north-korean-dprk-malware-hiding-in-my-tailwind-config-js-45af2283742c",
+    "image": "",
     "stocks": []
   },
   {
