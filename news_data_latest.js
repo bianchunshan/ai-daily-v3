@@ -1,5 +1,31 @@
 const newsData = [
   {
+    "id": "a8ca70baecf11681",
+    "title": "谷歌Pixel手机将迎Linux内核升级",
+    "summary": "爆料称谷歌计划为Pixel 7/8/9及Pixel 10系列升级Linux内核至6.12版本，并同步升级Android系统，预计将提升设备流畅性、安全性与发热控制。",
+    "body": "据Android Police报道，谷歌正计划为近期发布的Pixel系列手机进行底层Linux内核升级。Pixel 7、8、9系列将从Linux 6.1-Android 14升级至Linux 6.12-Android 16，Pixel 10系列则从Linux 6.6-Android 15升级至Linux 6.12-Android 16。新内核包含大量修复和性能改进，涉及CPU调度、内存管理优化等，有望提升启动速度、运行流畅度并改善发热问题。\n\n此次更新预计随Android 17 QPR2于今年年底推送，但测试过程中若遇到问题，升级计划也可能推迟。Pixel 6因官方支持将于今年10月结束，将无缘此次底层升级。",
+    "category": "消费电子",
+    "tags": [
+      "Pixel手机",
+      "谷歌",
+      "Linux内核",
+      "Android系统"
+    ],
+    "source": "IT之家",
+    "time": "6分钟前",
+    "ts": "2026-07-04T06:53:52+00:00",
+    "url": "https://www.ithome.com/0/972/573.htm",
+    "image": "https://img.ithome.com/newsuploadfiles/2026/7/47e67e92-36c3-40d2-b1a9-798028415730.png?x-bce-process=image/format,f_auto",
+    "stocks": [
+      {
+        "name": "Alphabet",
+        "ticker": "GOOGL",
+        "reason": "Pixel系列手机制造商，底层升级有望提升产品体验与竞争力",
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
     "id": "fe6bacafb9442c00",
     "title": "鸿蒙智行问界M9全系累计交付突破30万台",
     "summary": "华为终端BG CEO何刚宣布，鸿蒙智行问界M9全系累计交付突破30万台，其中全新一代M9自6月14日全国交付以来仅用三周累计交付已破万台。",
