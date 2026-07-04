@@ -1,5 +1,31 @@
 const newsData = [
   {
+    "id": "e13ac05d9b23c82f",
+    "title": "零刻海外首发Wildcat Lake迷你主机，配UFS 3.1闪存",
+    "summary": "零刻（Beelink）在海外发布EQi 304迷你主机，首次搭载英特尔Wildcat Lake酷睿3 304处理器与512GB UFS 3.1闪存，并提供双雷电4、双网口及丰富的扩展能力，起售价509美元。",
+    "body": "零刻EQi 304迷你主机近日在海外上市，机身尺寸仅126×126×44.2mm。该机搭载英特尔酷睿3 304处理器（Wildcat Lake架构），为5核5线程，最高睿频4.3GHz，集成24 TOPS本地AI算力的Xe3-LPG核显；存储方面全系标配512GB UFS 3.1闪存，理论读取速度约2.1GB/s，并预留两个M.2 2280扩展插槽。接口配置上提供双雷电4、HDMI、10G与2.5G双网口，支持Wi-Fi 6和蓝牙5.2，内置85W电源。\n\n该产品是业内首款采用Wildcat Lake处理器的迷你主机，将常见于智能手机的UFS闪存引入PC形态，在兼顾成本与体积的同时，通过雷电4和双高速网口增强了外接与网络扩展能力。其推出显示出低功耗x86平台与移动端存储方案在小型化桌面设备中的融合趋势，也可能进一步推动入门级AI PC市场的价格下探。",
+    "category": "消费电子",
+    "tags": [
+      "迷你主机",
+      "英特尔",
+      "UFS闪存",
+      "AI PC"
+    ],
+    "source": "IT之家",
+    "time": "刚刚",
+    "ts": "2026-07-04T11:57:31+00:00",
+    "url": "https://www.ithome.com/0/972/646.htm",
+    "image": "https://img.ithome.com/newsuploadfiles/2026/7/b734ebbe-b380-4f05-99b0-835391afc6bc.jpg?x-bce-process=image/format,f_auto",
+    "stocks": [
+      {
+        "name": "英特尔",
+        "ticker": "INTC",
+        "reason": "零刻EQi 304首发搭载英特尔Wildcat Lake酷睿3 304处理器，有助于英特尔低功耗x86平台进入迷你主机等新兴桌面形态。",
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
     "id": "9c4a75b625e9cce3",
     "title": "云南消费品以旧换新补贴品类扩容：新增智能影音、无人机等",
     "summary": "云南省商务厅公告，自2026年7月起，消费品以旧换新及购新补贴范围新增智能影音、无人机、智能门锁、智能扫地机器人及吸油烟机、洗碗机等9大类，按最终售价15%补贴，每件最高1500元。",
