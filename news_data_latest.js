@@ -1,5 +1,31 @@
 const newsData = [
   {
+    "id": "38eb3c963256ec4e",
+    "title": "Alienware RTX 5090顶配主机大幅降价2580美元",
+    "summary": "戴尔旗下Alienware Area-51顶配游戏主机降价30%，搭载RTX 5090显卡、24核处理器与64GB内存，定位高端4K游戏市场。",
+    "body": "据外媒报道，戴尔正对Alienware Area-51高端游戏台式机进行大幅促销，原价约8579.99美元，现价5999.99美元，降幅达2580美元。该机型搭载英特尔酷睿Ultra 9 285K处理器、NVIDIA GeForce RTX 5090旗舰显卡、64GB DDR5-6400内存及4TB PCIe 4.0 SSD，被视为当前顶级4K游戏配置之一。\n\n此次降价虽与消费级PC促销周期相关，但反映出高端游戏硬件市场需求与库存压力。对追求极致4K游戏体验的玩家而言，降价提升了顶配RTX 5090整机的性价比，也可能带动戴尔高端消费硬件的销量。",
+    "category": "消费电子",
+    "tags": [
+      "游戏主机",
+      "RTX 5090",
+      "戴尔",
+      "高端PC"
+    ],
+    "source": "Tom's Hardware",
+    "time": "4分钟前",
+    "ts": "2026-07-04T11:43:13+00:00",
+    "url": "https://www.tomshardware.com/desktops/gaming-pcs/the-ultimate-4k-rtx-5090-gaming-titan-plummets-usd2-580-huge-discount-makes-the-alienware-area-51-with-24-core-cpu-and-64gb-ram-irresistible",
+    "image": "https://cdn.mos.cms.futurecdn.net/YnybiRYw9Z42PycfamzQyb-1280-80.jpg",
+    "stocks": [
+      {
+        "name": "戴尔科技",
+        "ticker": "DELL",
+        "reason": "Alienware为戴尔旗下高端品牌，降价促销有望拉动高端游戏PC销售。",
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
     "id": "eae3bbe0f9b37bb3",
     "title": "Midjourney要求好莱坞片方向法庭披露AI使用情况",
     "summary": "AI图像生成公司Midjourney向法院提出申请，要求起诉它的迪士尼、华纳兄弟和环球等好莱坞片方提交各自使用人工智能的相关信息。",
