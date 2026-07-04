@@ -1,5 +1,50 @@
 const newsData = [
   {
+    "id": "1cd3caccd0c6a589",
+    "title": "微软Edge 150稳定版发布：支持谷歌账号登录",
+    "summary": "微软Edge 150稳定版已支持用户使用谷歌账号登录，并调整macOS最低支持版本至macOS 12 Monterey，同时推进工作区V2架构迁移。",
+    "body": "微软近日推送Microsoft Edge 150.0.4078.48浏览器稳定版，正式开放谷歌账号登录。该功能属于“受控功能推送”，将逐步覆盖所有Windows和macOS用户；企业管理员可通过NonMicrosoftAccountSignInEnabled策略进行管控。新增登录方式后，用户无需微软账户即可将书签、浏览历史等数据导入Edge，降低换浏览器门槛。\n\n版本支持方面，Edge 150是最后一个支持macOS 12 Monterey的版本，151及后续版本将要求macOS 13 Ventura及以上系统。工作区（Workspaces）方面，微软加速迁移到V2架构，原有工作区数据将从OneDrive和SharePoint迁移至Edge Sync服务，并移除协作与共享功能；迁移后新建的V2工作区将仅保留在本地设备，不再跨设备同步。",
+    "category": "消费电子",
+    "tags": [
+      "微软",
+      "Edge浏览器",
+      "谷歌账号",
+      "浏览器"
+    ],
+    "source": "IT之家",
+    "time": "刚刚",
+    "ts": "2026-07-04T00:08:53+00:00",
+    "url": "https://www.ithome.com/0/972/479.htm",
+    "image": "https://img.ithome.com/newsuploadfiles/2026/7/e81db78d-d6f2-4793-b3ee-91fd6d4b3652.jpg?x-bce-process=image/format,f_auto",
+    "stocks": [
+      {
+        "name": "微软",
+        "ticker": "MSFT",
+        "reason": "Edge是微软核心消费级产品，新增谷歌账号登录可降低用户迁移门槛，有望提升浏览器份额与生态黏性。",
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
+    "id": "638df6e02a648cad",
+    "title": "印度学龄儿童面临营养不良与肥胖双重负担",
+    "summary": "印度韦洛尔一项出生队列研究显示，低收入城区学龄儿童同时存在长期消瘦与超重肥胖问题，7至9岁儿童超重肥胖率近三倍增长，凸显“营养双重负担”加剧。",
+    "body": "该研究追踪了印度韦洛尔一个低收入城市社区的251名儿童，发现他们在小学阶段同时面临两种看似矛盾的营养问题：持续消瘦与不断上升的超重肥胖。数据显示，虽然消瘦仍然普遍，但7至9岁儿童中超重和肥胖的患病率几乎增长了两倍。",
+    "category": "生物医药",
+    "tags": [
+      "公共卫生",
+      "营养流行病学",
+      "儿童健康",
+      "印度"
+    ],
+    "source": "MedicalXpress",
+    "time": "9分钟前",
+    "ts": "2026-07-03T20:00:01-04:00",
+    "url": "https://medicalxpress.com/news/2026-07-vellore-cohort-reveals-india-burden.html",
+    "image": "https://scx1.b-cdn.net/csz/news/tmb/2024/children-in-india.jpg",
+    "stocks": []
+  },
+  {
     "id": "fcd1bd70fdacb9ca",
     "title": "Claude Fable 5重上架被指“降智”",
     "summary": "Anthropic旗下Claude Fable 5模型解除出口管制并重新上线后，多名用户反馈其实际表现弱于此前版本，且因安全护栏触发频繁自动回退至Opus 4.8。",
