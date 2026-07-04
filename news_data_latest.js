@@ -1,5 +1,24 @@
 const newsData = [
   {
+    "id": "760704587ffa2454",
+    "title": "阿里巴巴 reportedly 禁止员工使用 Claude Code",
+    "summary": "据报道，阿里巴巴已将Claude Code列为高风险软件并禁止员工使用，反映出大型科技企业对外部AI工具安全风险的审慎态度。",
+    "body": "据报道，阿里巴巴已将Anthropic推出的AI编程工具Claude Code列为高风险软件，并禁止员工在工作中使用。公司此举可能出于代码泄露、数据安全或合规性等方面的考虑。\n\n该禁令凸显出大型科技公司在引入第三方AI助手时的谨慎姿态，也可能对其他企业评估外部AI工具的安全性产生影响。目前尚不清楚这一限制覆盖的具体业务单元及生效范围。",
+    "category": "人工智能",
+    "tags": [
+      "阿里巴巴",
+      "Claude Code",
+      "企业AI安全",
+      "AI工具"
+    ],
+    "source": "TechCrunch",
+    "time": "9分钟前",
+    "ts": "2026-07-04T16:32:08+00:00",
+    "url": "https://techcrunch.com/2026/07/04/alibaba-reportedly-bans-employees-from-using-claude-code/",
+    "image": "",
+    "stocks": []
+  },
+  {
     "id": "25d101b902e9e3d9",
     "title": "美国航天播客回顾：从独立日到太空里程碑",
     "summary": "《This Week In Space》第217期回顾美国自1958年以来在航天领域的领先地位，盘点在7月4日前后发射或着陆的标志性任务，并讨论NASA营救Swift太空望远镜的最新动向。",
