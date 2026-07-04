@@ -1,5 +1,56 @@
 const newsData = [
   {
+    "id": "6a2837aaaf49321f",
+    "title": "阿里云Qoder企业版全球发布",
+    "summary": "阿里云AI编程工具Qoder正式上线企业版，并在国内及国际阿里云市场同步开售，新增Credits资源池化计费、按人按库模型分发、企业级安全合规等功能。",
+    "body": "7月3日，阿里宣布Qoder全球站正式发布“企业版”，Qoder CN与Qoder国际版将在国内、国际阿里云市场同步开售。该版本针对企业级需求升级了多项能力：采用Credits完全资源池化计费，管理员可按需为成员或计费组动态分配额度；支持席位在云市场后台灵活新增、调整与续费；并可将内置模型按人和代码库进行分组开放或屏蔽，实现模型开关、代码资产与使用角色对齐。\n此外，Qoder企业版还配备企业专属Plugin / Skill市场，员工可在Qoder Desktop或QoderWork中直接调用AI流程资产；同时拥有覆盖传输加密、身份与访问控制、AI运行时、数据存储、审计合规五大领域的纵深防御体系，并通过ISO / IEC 27001:2022国际认证，强调其安全能力对齐企业级标准。\n这一产品发布标志着阿里云在AI编程助手领域加速商业化落地，面向中大型企业提供更灵活、可控、安全的代码AI解决方案，有望提升其在企业级AI应用市场的竞争力。",
+    "category": "人工智能",
+    "tags": [
+      "阿里云",
+      "AI编程",
+      "企业软件",
+      "Qoder"
+    ],
+    "source": "IT之家",
+    "time": "4分钟前",
+    "ts": "2026-07-04T01:04:59+00:00",
+    "url": "https://www.ithome.com/0/972/491.htm",
+    "image": "https://img.ithome.com/newsuploadfiles/2026/7/de339ab2-03fa-4027-baff-fcd67684a1a2.png",
+    "stocks": [
+      {
+        "name": "阿里巴巴集团",
+        "ticker": "BABA",
+        "reason": "Qoder为阿里云旗下AI编程工具，企业版全球发布有望带动阿里云企业客户与AI应用收入。",
+        "confidence": "high"
+      },
+      {
+        "name": "阿里巴巴-SW",
+        "ticker": "9988.HK",
+        "reason": "阿里云AI产品商业化落地，利好母公司企业软件与云计算业务增长预期。",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "19a27582a15e637b",
+    "title": "MSI Center被曝秒级获取SYSTEM权限漏洞",
+    "summary": "安全研究人员披露微星MSI Center软件存在本地提权漏洞，攻击者可在数秒内获得Windows SYSTEM权限，对终端安全构成威胁。",
+    "body": "Hacker News上披露的一项安全研究显示，微星（MSI）旗下的MSI Center软件存在本地权限提升漏洞，攻击者能够在极短时间内获取Windows系统的最高权限SYSTEM，从而完全控制受影响终端。\n\n获得SYSTEM权限意味着可执行任意系统级操作，包括安装恶意软件、修改关键配置、删除日志等。此类漏洞通常需要配合钓鱼、社工或其他初始入侵手段，但一旦利用成功，将显著扩大攻击面并提升后续破坏能力。\n\n该事件再次凸显终端软件供应链安全的重要性，提醒用户及时安装官方补丁并关注安全更新，同时也可能推动厂商加强安全审计与漏洞响应能力。",
+    "category": "网络安全",
+    "tags": [
+      "MSI Center",
+      "本地提权",
+      "SYSTEM权限",
+      "网络安全"
+    ],
+    "source": "Hacker News",
+    "time": "11分钟前",
+    "ts": "2026-07-04T00:57:44+00:00",
+    "url": "https://mrbruh.com/msicenter/",
+    "image": "",
+    "stocks": []
+  },
+  {
     "id": "7410ed4de3c16383",
     "title": "三星Exynos 2700改分离封装散热，内存带宽或提升三四成",
     "summary": "三星为优化Exynos 2700芯片散热，将把DRAM内存与SoC改为并排分离封装（SBS），避免内存堆叠在处理器上方导致的积热问题，同时有望将内存带宽提升30%至40%。",
@@ -98,6 +149,25 @@ const newsData = [
     "ts": "2026-07-04T00:28:21+00:00",
     "url": "https://www.ithome.com/0/972/484.htm",
     "image": "https://img.ithome.com/newsuploadfiles/2026/7/a238b731-616d-4bf7-b5cb-695687fb3035.png",
+    "stocks": []
+  },
+  {
+    "id": "4a7a09d66f72cd69",
+    "title": "消费级无人机暗藏致命风险",
+    "summary": "一篇Hacker News文章指出，普通消费级无人机在不当使用或改装下可能具备致命杀伤力，引发对低空飞行物安全与监管的关注。",
+    "body": "该文以醒目的标题揭示，当前市售消费级无人机凭借足够的动能、载荷能力或被改装后，可能对人身安全构成直接威胁。文章借此强调，随着无人机价格下降与普及，相关的空域管理、反制技术和使用规范亟待完善。这一讨论对低空经济、无人机监管及公共安全领域具有一定警示意义。",
+    "category": "机器人",
+    "tags": [
+      "无人机",
+      "低空经济",
+      "公共安全",
+      "监管"
+    ],
+    "source": "Hacker News",
+    "time": "47分钟前",
+    "ts": "2026-07-04T00:22:06+00:00",
+    "url": "https://www.defenseone.com/ideas/2017/06/i-could-kill-you-consumer-drone/139012/",
+    "image": "",
     "stocks": []
   },
   {
