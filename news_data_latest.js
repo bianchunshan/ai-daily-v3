@@ -1,5 +1,24 @@
 const newsData = [
   {
+    "id": "d307a3d6a7526fe4",
+    "title": "智能手表结合AI或可预警疾病早期征兆",
+    "summary": "可穿戴设备擅长发现用户日常生理指标的异常偏离，这些异常模式可能提示需要进一步就医检查。",
+    "body": "智能手表等可穿戴设备通过持续监测心率、体温、睡眠质量及活动量等数据，能够识别出偏离个人正常基线的异常模式。这些早期异常信号可能与潜在健康问题相关，从而提醒用户及时就医。结合人工智能技术分析长期健康数据后，可穿戴设备有望更精准地发现疾病前兆，为预防性健康管理提供参考。",
+    "category": "消费电子",
+    "tags": [
+      "可穿戴设备",
+      "智能手表",
+      "AI健康",
+      "数字医疗"
+    ],
+    "source": "Engadget",
+    "time": "5分钟前",
+    "ts": "2026-07-04T18:30:00+00:00",
+    "url": "https://www.engadget.com/2206130/how-smartwatch-use-ai-to-detect-sickness/",
+    "image": "https://www.engadget.com/img/gallery/how-your-smartwatch-and-ai-can-detect-early-signs-of-illness/l-intro-1782925052.jpg",
+    "stocks": []
+  },
+  {
     "id": "2fb297b7efa2630b",
     "title": "Space.com推出“美国250：从1776到月球及更远”系列",
     "summary": "Space.com借美国独立250周年之机发布系列报道，回顾自1776年以来人类对太空认知的变化、NASA及美国航天成就，并展望下一个250年的探索前景。",
