@@ -45,6 +45,25 @@ const newsData = [
     "stocks": []
   },
   {
+    "id": "6c0cb1e74c799b11",
+    "title": "有人悬赏20万美元求Google Books全书扫描数据集",
+    "summary": "Hacker News上出现一则高额悬赏，出价20万美元希望获得Google Books或类似平台的完整图书扫描数据，引发对大规模数字化图书语料价值的关注。",
+    "body": "近日，Hacker News上的一则帖子显示，有人愿支付20万美元以获取Google Books或同类数字图书馆的完整图书扫描数据。该悬赏指向的是一个可能包含数千万册图书的大规模数字化语料库。由于Google Books项目曾对海量图书进行扫描，这类数据被外界视为训练大型语言模型、开展数字人文与文本分析研究的潜在重要资源。此事也再次引发关于数据可得性、版权边界以及学术与商业用途之间关系的讨论。",
+    "category": "人工智能",
+    "tags": [
+      "AI训练数据",
+      "Google Books",
+      "数字化图书",
+      "语料库"
+    ],
+    "source": "Hacker News",
+    "time": "49分钟前",
+    "ts": "2026-07-04T16:51:26+00:00",
+    "url": "https://software.annas-archive.gl/AnnaArchivist/annas-archive/-/work_items/234",
+    "image": "",
+    "stocks": []
+  },
+  {
     "id": "b8efcc3f3d664e47",
     "title": "YouTube创作者私密视频遭泄露",
     "summary": "有消息称 YouTube 平台可能存在漏洞，导致创作者设置为私密的视频被泄露，引发对用户隐私与平台数据安全的关注。",
