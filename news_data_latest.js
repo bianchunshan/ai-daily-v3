@@ -394,6 +394,25 @@ const newsData = [
     "stocks": []
   },
   {
+    "id": "7b1e20e683ffb43f",
+    "title": "Fable发布新型4D splat格式",
+    "summary": "据外媒Hacker News消息，Fable团队宣布推出一种新型4D splat格式，可用于动态三维场景的表示与渲染。目前披露信息有限，其商业化与生态影响尚待观察。",
+    "body": "Hacker News上的一则消息称，名为Fable的团队/公司创建了一种全新的4D splat格式。4D splat通常指在三维空间基础上加入时间维度的场景表达形式，相关技术常用于动态三维重建、XR内容渲染等领域。\n\n相较于静态的三维高斯泼溅（3D Gaussian Splatting），4D版本有望支持动态场景的高效表示，为虚拟现实、增强现实或实时渲染应用提供新的数据格式基础。\n\n目前该消息仅提及Fable推出了这一格式，尚未公布详细技术规格、开源计划及商业合作信息。其对XR内容生态、图形管线工具的潜在影响仍需进一步观察。",
+    "category": "消费电子",
+    "tags": [
+      "4D高斯泼溅",
+      "三维渲染",
+      "XR",
+      "Fable"
+    ],
+    "source": "Hacker News",
+    "time": "4小时前",
+    "ts": "2026-07-04T15:49:08+00:00",
+    "url": "https://adamraudonis.github.io/splats4D/",
+    "image": "",
+    "stocks": []
+  },
+  {
     "id": "18ba3b8f1c6682b1",
     "title": "德州特斯拉撞入民宅致人死亡，司机被控过失杀人",
     "summary": "美国德州一名特斯拉司机驾车冲入住宅，导致屋内一名女性死亡，现已被控过失杀人；美国国家公路交通安全管理局（NHTSA）正在对此事展开调查。",
