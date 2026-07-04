@@ -1,5 +1,24 @@
 const newsData = [
   {
+    "id": "4eb0802c0d21b4cb",
+    "title": "研究揭示人类如何通过视觉辨别物体材质",
+    "summary": "日本丰桥理工大学研究团队利用虚拟现实技术开展心理物理学实验，探究人类在辨别物体材质属性时如何灵活运用头部移动和手部操作等探索行为。",
+    "body": "日本丰桥理工大学认知神经技术、视觉与行动以及视觉知觉与认知实验室的研究人员开展了一项心理物理学研究，借助虚拟现实（VR）技术探究人类如何灵活运用探索性行为来辨别物体材质属性。研究发现，受试者会通过移动头部改变视角以及用双手操控物体等方式，主动收集视觉信息以区分不同材质。\n\n该研究有助于理解人类视觉系统如何从复杂场景中提取材质信息，为计算机视觉、虚拟现实渲染及具身智能等领域的算法设计提供了认知科学依据，或将推动更逼真的人机交互与材料识别技术发展。",
+    "category": "消费电子",
+    "tags": [
+      "虚拟现实",
+      "视觉认知",
+      "材质识别",
+      "心理物理学"
+    ],
+    "source": "MedicalXpress",
+    "time": "2分钟前",
+    "ts": "2026-07-04T15:40:01-04:00",
+    "url": "https://medicalxpress.com/news/2026-07-humans-visually-discriminate-materials.html",
+    "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/how-do-humans-visually.jpg",
+    "stocks": []
+  },
+  {
     "id": "0bc7a0fbad3ec669",
     "title": "NASA紧急委托Katalyst阻止Swift天文台坠毁",
     "summary": "NASA委托太空服务公司Katalyst Space Technologies，由其Link航天器执行紧急轨道提升任务，以挽救可能在今年坠入大气层的Swift天文台。",
