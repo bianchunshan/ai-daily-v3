@@ -1,5 +1,31 @@
 const newsData = [
   {
+    "id": "833f4202db7e3761",
+    "title": "谷歌新广告畅想：AI辅助起草《独立宣言》",
+    "summary": "谷歌发布一则新广告，设想美国开国元勋借助Google Workspace和AI工具协作起草《独立宣言》，展示其在办公协作场景中的AI应用。",
+    "body": "为纪念《独立宣言》签署250周年，谷歌推出了一则新广告，设想美国开国元勋若能使用Google Workspace和AI助手，会以何种方式协作起草《独立宣言》。广告通过历史场景与现代AI能力的结合，展示了谷歌在文档协作、内容生成等办公场景中的AI应用。\n\n这一营销活动凸显了谷歌正将生成式AI深度整合进Workspace办公套件，以强化其在企业协作和生产力工具市场的竞争力，同时也反映出科技巨头正通过更具象化的场景向普通用户普及AI能力。",
+    "category": "人工智能",
+    "tags": [
+      "谷歌",
+      "生成式AI",
+      "办公协作",
+      "Google Workspace"
+    ],
+    "source": "TechCrunch",
+    "time": "7分钟前",
+    "ts": "2026-07-04T20:55:25+00:00",
+    "url": "https://techcrunch.com/2026/07/04/new-google-commercial-imagines-a-declaration-of-independence-written-with-help-from-ai/",
+    "image": "",
+    "stocks": [
+      {
+        "name": "Alphabet（谷歌）",
+        "ticker": "GOOGL",
+        "reason": "广告主角为谷歌Workspace AI功能，直接关联其AI办公产品线",
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
     "id": "e686f9e6a9151a40",
     "title": "童年虐待创伤记忆长期稳定，儿童期报告变化更大",
     "summary": "伦敦国王学院发表于《自然·心理健康》的研究显示，受虐待儿童的创伤记忆随时间整体稳定，但儿童期报告的一致性显著低于成年期报告。",
