@@ -1,5 +1,24 @@
 const newsData = [
   {
+    "id": "28516c25744f3cb9",
+    "title": "日本测试消防栓标识搭载星链天线提供应急Wi-Fi",
+    "summary": "日本消防栓标识公司近日在神奈川支店附近完成技术验证，将星链卫星宽带天线加装于现有约12万块消防栓标识杆上，可在地震等灾害导致地面网络中断时提供应急Wi-Fi回退连接。",
+    "body": "日本地处多个板块交汇处，地震、海啸、火山喷发及极端天气频发，地面光纤和移动通信基站容易在灾害中受损。为此，日本消防栓标识公司（Fire Hydrant Sign Co., Ltd.）利用遍布全国的街道路侧基础设施，将星链卫星宽带天线加装在消防栓标识杆上，使其兼具消防水源指示和应急通信枢纽功能。\n\n该公司近日在东京附近的神奈川县完成了一项星链支持的Wi-Fi网络技术演示。由于无需额外征地或新建杆塔，现有约12万块消防栓标识可直接升级为卫星回传节点，在地面网络瘫痪时提供关键备用连接。\n\n这一方案的意义在于以极低的额外基建成本，把既有的城市“街具”网格转化为灾害通信备份网络，对提升防灾韧性和推动卫星互联网地面融合应用具有示范价值。",
+    "category": "商业航天",
+    "tags": [
+      "卫星互联网",
+      "应急通信",
+      "星链",
+      "日本"
+    ],
+    "source": "Tom's Hardware",
+    "time": "刚刚",
+    "ts": "2026-07-04T10:00:00+00:00",
+    "url": "https://www.tomshardware.com/networking/fire-hydrant-signs-with-starlink-antennas-tested-for-emergency-wi-fi-in-disaster-prone-japan-existing-widespread-grid-of-street-level-furniture-can-be-used-for-communications-network-fallback",
+    "image": "https://cdn.mos.cms.futurecdn.net/EJVP4dcQWzymLvV5VMVznV-1280-80.jpg",
+    "stocks": []
+  },
+  {
     "id": "27ceb776ff8917b2",
     "title": "三星Q3 DRAM拟提价20%，终端厂已接通知",
     "summary": "三星电子计划今年第三季度将DRAM平均售价环比提高约20%，并已向部分客户发出口头通知。TrendForce预计，受AI需求带动原厂产出调配影响，DRAM供给持续紧张，合约价将继续上行。",
