@@ -1,5 +1,24 @@
 const newsData = [
   {
+    "id": "28c8a863a3d3f4b5",
+    "title": "玩家用光纤HDMI线与Steam手柄2打造客厅游戏主机",
+    "summary": "一名玩家未购买Valve新款主机，而是借助约15米光纤HDMI线、Steam Controller 2及Bazzite系统，将已有PC改造成低延迟的客厅游戏主机。",
+    "body": "据外媒报道，PC玩家Matthew Brunelle没有入手Valve的新款主机，而是把位于自己房间的PC，通过一根50英尺长的光纤HDMI线连接到客厅电视，再搭配Steam Controller 2，打造了一套沙发游戏方案。相比Moonlight、Sunshine或Steam远程串流等无线方式，有线连接能显著降低延迟，也更接近主机即开即用的体验。\n\n为了让PC更像游戏机，他在第三块SSD上安装了基于Linux的Bazzite系统，并进入Steam“大屏模式”以简化界面操作。不过，由于他还在使用NixOS，每次切换游戏场景时仍需手动插拔线缆、调整声音和显示输出，过程并不算完全无缝。\n\n这一DIY做法被视为爱好者对“Steam Machine”理念的自我实现：用现有PC硬件加上合适的线材、手柄和操作系统，就能获得类主机体验。它也反映出玩家对客厅低延迟、无缝游戏体验方案的持续兴趣。",
+    "category": "消费电子",
+    "tags": [
+      "游戏硬件",
+      "客厅娱乐",
+      "Steam生态",
+      "DIY装机"
+    ],
+    "source": "Tom's Hardware",
+    "time": "3分钟前",
+    "ts": "2026-07-04T16:58:51+00:00",
+    "url": "https://www.tomshardware.com/video-games/pc-gaming/50-feet-long-fiber-optic-hdmi-cable-and-steam-controller-2-is-enthusiasts-answer-to-the-steam-machine-dismisses-valves-new-console-for-a-diy-bazzite-setup-with-a-controller",
+    "image": "https://cdn.mos.cms.futurecdn.net/DCa2UoRteUkXkmJXZFjBde-1280-80.jpg",
+    "stocks": []
+  },
+  {
     "id": "760704587ffa2454",
     "title": "阿里巴巴 reportedly 禁止员工使用 Claude Code",
     "summary": "据报道，阿里巴巴已将Claude Code列为高风险软件并禁止员工使用，反映出大型科技企业对外部AI工具安全风险的审慎态度。",
