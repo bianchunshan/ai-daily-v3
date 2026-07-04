@@ -1,5 +1,24 @@
 const newsData = [
   {
+    "id": "e5a5809e7ca62bc3",
+    "title": "2026上半年CVE漏洞榜：Linux内核居首",
+    "summary": "2026年上半年披露的CVE漏洞统计显示，Linux内核以2308个漏洞位居榜首，谷歌以1752个紧随其后。",
+    "body": "科技媒体Linuxiac援引Linux内核维护者Greg Kroah-Hartman发布的2026年上半年漏洞统计数据称，在CVE漏洞数量排名中，Linux以2308个位居第一，谷歌以1752个位列第二，微软、甲骨文、Adobe、红帽、Apache、苹果等也位列前十。按产品排序，Linux仍以约2309个CVE居首，Chrome以1584个排名第二，Windows 10 Version 1607、Firefox、安卓、iOS/iPadOS等也榜上有名。该榜单反映了主流操作系统和软件生态的安全漏洞披露规模，凸显开源与闭源软件均面临持续的漏洞治理与补丁更新压力。",
+    "category": "网络安全",
+    "tags": [
+      "CVE漏洞",
+      "Linux内核",
+      "网络安全",
+      "漏洞统计"
+    ],
+    "source": "IT之家",
+    "time": "2分钟前",
+    "ts": "2026-07-04T01:47:17+00:00",
+    "url": "https://www.ithome.com/0/972/498.htm",
+    "image": "https://img.ithome.com/newsuploadfiles/2026/7/5cf4e882-598a-499c-8af3-064a0bf2b769.jpg",
+    "stocks": []
+  },
+  {
     "id": "c8a8192c50f6c296",
     "title": "前PS高管：索尼全面数字化将震动微软与任天堂",
     "summary": "前SIE高管肖恩·莱登表示，索尼PlayStation若全面取消实体光盘，将对微软、任天堂等主机厂商产生重大影响。索尼已宣布2026年起PS新作不再推出实体版本，引发业界与玩家广泛争议。",
