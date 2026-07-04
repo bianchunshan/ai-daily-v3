@@ -1,5 +1,62 @@
 const newsData = [
   {
+    "id": "9c4a75b625e9cce3",
+    "title": "云南消费品以旧换新补贴品类扩容：新增智能影音、无人机等",
+    "summary": "云南省商务厅公告，自2026年7月起，消费品以旧换新及购新补贴范围新增智能影音、无人机、智能门锁、智能扫地机器人及吸油烟机、洗碗机等9大类，按最终售价15%补贴，每件最高1500元。",
+    "body": "7月3日，云南省商务厅发布公告，明确自2026年7月起，在现有家电以旧换新、数码和智能产品购新补贴基础上新增补贴品类，并同步开放商户增补报名通道。本次新增9大类产品分为两类：数码和智能产品购新补贴新增智能门锁、智能影音、智能扫地机器人、无人机、数码相机；家电以旧换新新增吸油烟机、家用燃气灶、洗碗机、净水器。\n补贴标准为按产品剔除折扣后最终售价的15%给予立减补贴，每位消费者每类产品可补贴1件，每件最高不超过1500元。参与产品须具备69码、SN码，涉及能效水效的产品须达1级标准。公告明确商户报名不设行业、规模、区域门槛，支持中小企业公平参与。这一扩容有望提振智能家电、无人机等消费电子终端的换新需求，带动相关产业链销售。",
+    "category": "消费电子",
+    "tags": [
+      "以旧换新",
+      "消费电子",
+      "智能家居",
+      "无人机"
+    ],
+    "source": "IT之家",
+    "time": "2分钟前",
+    "ts": "2026-07-04T11:51:33+00:00",
+    "url": "https://www.ithome.com/0/972/645.htm",
+    "image": "https://img.ithome.com/newsuploadfiles/2026/6/e76fa51c-927c-4f4f-ba67-a78886e92807.jpg?x-bce-process=image/watermark,text_QUnnlJ_miJA,type_RlpMYW5UaW5nSGVpU0JHQg==,size_28,color_ffffffdd,skw_1,skc_00000051,g_7,blr_50,bls_50,x_11,y_11",
+    "stocks": []
+  },
+  {
+    "id": "8da504169c490132",
+    "title": "内存涨价趋缓但AI需求仍支撑价格涨至2026年Q3",
+    "summary": "TrendForce报告显示，尽管消费端承受能力触及上限使内存涨价势头降温，但AI推理与超大规模数据中心需求仍将推动DRAM和NAND Flash合约价持续上涨至2026年第三季度。",
+    "body": "据TrendForce最新内存定价调查，2026年第三季度常规DRAM合约价预计环比增长13%至18%，NAND Flash合约价预计增长10%至15%。虽然这仍是可观涨幅，但较第二季度约60%的跳升明显放缓。\n\n本轮降温主要源于消费电子厂商在数月涨价后无力继续吸收更高内存成本，而非供应改善。实际上，内存整体仍处于短缺状态，只是终端消费者不愿继续为更高价格买单。\n\nAI需求仍是市场核心驱动力。AI推理系统及超大规模数据中心对DRAM和NAND的强劲需求使供应持续紧张，同时内存厂商继续将产能转向利润率更高的服务器产品，进一步挤压消费级内存供给。这导致内存市场在企业级与消费级客户之间愈发分化。",
+    "category": "半导体与先进制造",
+    "tags": [
+      "内存",
+      "DRAM",
+      "NAND闪存",
+      "AI服务器"
+    ],
+    "source": "Tom's Hardware",
+    "time": "6分钟前",
+    "ts": "2026-07-04T11:47:34+00:00",
+    "url": "https://www.tomshardware.com/pc-components/ram/memory-price-surge-begins-to-cool-as-consumers-hit-affordability-limit-ai-demand-still-keeps-dram-and-nand-prices-climbing-through-q3-2026",
+    "image": "https://cdn.mos.cms.futurecdn.net/nZwytLfsByvped6J8HtRKP-1280-80.jpg",
+    "stocks": [
+      {
+        "name": "美光科技",
+        "ticker": "MU",
+        "reason": "DRAM/NAND价格上涨直接利好存储芯片制造商，AI服务器需求持续强劲",
+        "confidence": "high"
+      },
+      {
+        "name": "SK海力士",
+        "ticker": "000660.KS",
+        "reason": "AI服务器DRAM及HBM核心供应商，企业级内存供需紧张将持续受益",
+        "confidence": "high"
+      },
+      {
+        "name": "三星电子",
+        "ticker": "005930.KS",
+        "reason": "全球最大存储芯片厂商之一，DRAM/NAND涨价及产能转向服务器产品将增厚利润",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
     "id": "38eb3c963256ec4e",
     "title": "Alienware RTX 5090顶配主机大幅降价2580美元",
     "summary": "戴尔旗下Alienware Area-51顶配游戏主机降价30%，搭载RTX 5090显卡、24核处理器与64GB内存，定位高端4K游戏市场。",
