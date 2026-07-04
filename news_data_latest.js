@@ -1,5 +1,31 @@
 const newsData = [
   {
+    "id": "27ceb776ff8917b2",
+    "title": "三星Q3 DRAM拟提价20%，终端厂已接通知",
+    "summary": "三星电子计划今年第三季度将DRAM平均售价环比提高约20%，并已向部分客户发出口头通知。TrendForce预计，受AI需求带动原厂产出调配影响，DRAM供给持续紧张，合约价将继续上行。",
+    "body": "据IT之家7月4日消息，三星电子拟将今年第三季度DRAM（动态随机存取存储器）的平均售价环比上一季度提高20%，已有消费电子终端厂商负责人确认收到三星的口头涨价通知。另一位业内人士也证实，三星已通过口头报价通知部分客户，消息属实。",
+    "category": "半导体与先进制造",
+    "tags": [
+      "DRAM",
+      "存储芯片",
+      "三星",
+      "存储器涨价"
+    ],
+    "source": "IT之家",
+    "time": "4分钟前",
+    "ts": "2026-07-04T09:46:40+00:00",
+    "url": "https://www.ithome.com/0/972/616.htm",
+    "image": "https://img.ithome.com/newsuploadfiles/2026/7/15269444-5dad-495a-82fa-ce4671c33e5f.jpg?x-bce-process=image/format,f_auto",
+    "stocks": [
+      {
+        "name": "三星电子",
+        "ticker": "005930.KS",
+        "reason": "作为全球最大DRAM厂商之一，DRAM涨价将直接提升其存储业务收入和盈利能力。",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
     "id": "c9f5cf1b83f6fff1",
     "title": "全球首个完整生命周期合成细胞问世",
     "summary": "美国明尼苏达大学团队开发出名为SpudCell的合成细胞系统，可在无天然生命体支持下完成生长、摄食、DNA复制与分裂等完整生命周期，为合成生物学提供全新的“自下而上”研究平台。",
