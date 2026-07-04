@@ -1,5 +1,24 @@
 const newsData = [
   {
+    "id": "4b59efd85cf2ca35",
+    "title": "美问责局警示太空军卫星成本与发射风险",
+    "summary": "美国政府问责局发布报告指出，太空军导弹预警卫星等项目成本持续攀升，数字工程能力不足，发射岗位人员缩减可能危及国家安全发射进度。",
+    "body": "美国政府问责局（GAO）在其最新报告中对太空军（Space Force）航天项目组合提出警告，称导弹预警卫星等关键系统的成本正在不断上升，存在预算超支风险。同时，报告还指出太空军在数字工程能力方面存在缺口，可能影响复杂航天系统的研发、测试与集成效率。",
+    "category": "商业航天",
+    "tags": [
+      "美国太空军",
+      "导弹预警卫星",
+      "发射风险",
+      "GAO报告"
+    ],
+    "source": "SpaceNews",
+    "time": "3分钟前",
+    "ts": "2026-07-04T10:17:06+00:00",
+    "url": "https://spacenews.com/gao-flags-satellite-costs-launch-risks-in-space-force-portfolio/",
+    "image": "https://i0.wp.com/spacenews.com/wp-content/uploads/2022/07/FYsxAiQVQAE6yUJ.jpg?fit=800%2C467&amp;ssl=1",
+    "stocks": []
+  },
+  {
     "id": "28516c25744f3cb9",
     "title": "日本测试消防栓标识搭载星链天线提供应急Wi-Fi",
     "summary": "日本消防栓标识公司近日在神奈川支店附近完成技术验证，将星链卫星宽带天线加装于现有约12万块消防栓标识杆上，可在地震等灾害导致地面网络中断时提供应急Wi-Fi回退连接。",
@@ -305,6 +324,25 @@ const newsData = [
     "ts": "2026-07-04T07:54:56+00:00",
     "url": "https://www.ithome.com/0/972/599.htm",
     "image": "https://img.ithome.com/newsuploadfiles/2026/7/8886c25b-4c3a-47b5-b741-05a02fcb78d8.jpg?x-bce-process=image/format,f_auto",
+    "stocks": []
+  },
+  {
+    "id": "e7b844fb909394b1",
+    "title": "非洲能源转型中“僵尸能源系统”隐忧浮现",
+    "summary": "文章指出非洲在推进能源转型过程中，仍大量存在老旧、低效或已失去经济性的化石能源基础设施，即“僵尸能源系统”，可能拖累脱碳进程并增加投资风险。",
+    "body": "该报道聚焦非洲能源转型中的“僵尸能源系统”现象，指那些虽已过时、低效或难以盈利，却因政策惯性、补贴或债务问题继续运行的化石燃料发电与输配电设施。这些系统在消耗有限财政资源的同时，挤占了清洁能源投资空间，延缓了区域电网现代化。作者认为，若不加以识别和妥善处置，这类“活死人”资产将成为非洲实现净零排放和扩大电力可及性的结构性障碍。",
+    "category": "未来能源",
+    "tags": [
+      "能源转型",
+      "非洲电力",
+      "清洁能源",
+      "化石能源"
+    ],
+    "source": "Hacker News",
+    "time": "2小时前",
+    "ts": "2026-07-04T07:53:12+00:00",
+    "url": "https://www.catf.us/resource/unearthing-reality-zombie-energy-systems-africas-energy-transition/",
+    "image": "",
     "stocks": []
   },
   {
