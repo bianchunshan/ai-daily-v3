@@ -1,5 +1,24 @@
 const newsData = [
   {
+    "id": "25d101b902e9e3d9",
+    "title": "美国航天播客回顾：从独立日到太空里程碑",
+    "summary": "《This Week In Space》第217期回顾美国自1958年以来在航天领域的领先地位，盘点在7月4日前后发射或着陆的标志性任务，并讨论NASA营救Swift太空望远镜的最新动向。",
+    "body": "Space.com旗下播客《This Week In Space》第217期聚焦“美国与太空”，主持人Rod Pyle与Tariq Malik梳理了美国自1958年投身航天、并于20世纪60年代中期起在多数关键领域保持领先的历程。本期节目特别回顾了历年独立日前后发射或着陆的美国航天任务，并重温了若干经典美国太空任务。\n\n本期还涉及近期太空新闻，包括NASA启动救援任务，试图让Swift太空望远镜脱离近地轨道、避免再入大气层烧毁；以及哈佛天文学家被任命为“特朗普首席外星猎人”后，先假设UFO为人造物体的争议性做法。\n\n此外，节目推荐了面向初学者的Celestron Astro Fi 102望远镜，并提到模型火箭厂商Estes推出的可发射SpaceX Falcon 9比例模型。整体内容偏向航天科普与历史回顾，对美国公众航天热情和商业航天文化具有一定传播意义。",
+    "category": "商业航天",
+    "tags": [
+      "商业航天",
+      "美国航天史",
+      "NASA任务",
+      "航天科普"
+    ],
+    "source": "Space.com",
+    "time": "5分钟前",
+    "ts": "2026-07-04T16:26:21+00:00",
+    "url": "https://www.space.com/entertainment/space-movies-shows/this-week-in-space-podcast-episode-217-america-in-space",
+    "image": "https://cdn.mos.cms.futurecdn.net/8j2XJaMrDsUBJwYbrtw8cS-1280-80.jpg",
+    "stocks": []
+  },
+  {
     "id": "820e4304fc694478",
     "title": "NASA发射救援Swift天文台任务",
     "summary": "NASA已成功与为Swift Boost任务制造的机器人航天器LINK取得联系，该任务旨在拯救轨道高度不断下降的Swift伽马射线暴观测台。",
