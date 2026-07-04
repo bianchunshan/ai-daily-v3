@@ -1,5 +1,43 @@
 const newsData = [
   {
+    "id": "a8f481f5cf898cb7",
+    "title": "Epic CEO暗示AI可降低《命运》长期运营成本",
+    "summary": "Epic Games CEO蒂姆·斯威尼暗示，人工智能有望降低长期运营游戏的内容生产成本，让《命运》这类作品得以持续发展。",
+    "body": "据外媒VGC报道，Epic Games CEO蒂姆·斯威尼近日在社交媒体上回应《命运2》相关报道时，讽刺地表示“要是有某种新奇技术能解决内容成本问题，让《命运》继续发展就好了”，暗示AI技术可帮助降低长期运营游戏的内容制作成本。\n\n报道指出，《命运》系列需要持续产出大量新内容，导致其在整个运营周期中盈利时间极少。斯威尼认为，AI可以简化内容制作流程，甚至直接生成玩家所需的新内容，从而改善长期服务型游戏的经济模型。\n\n斯威尼此前曾批评Steam要求开发者披露AI使用情况的做法。同时，Epic已宣布虚幻引擎6将加入AI工具，以减少开发中的繁琐工作。这一表态再次凸显了AI在游戏开发与运营中的潜在应用价值。",
+    "category": "人工智能",
+    "tags": [
+      "AI游戏",
+      "游戏开发",
+      "Epic Games",
+      "虚幻引擎"
+    ],
+    "source": "IT之家",
+    "time": "刚刚",
+    "ts": "2026-07-04T00:28:21+00:00",
+    "url": "https://www.ithome.com/0/972/484.htm",
+    "image": "https://img.ithome.com/newsuploadfiles/2026/7/a238b731-616d-4bf7-b5cb-695687fb3035.png",
+    "stocks": []
+  },
+  {
+    "id": "09597464f7920881",
+    "title": "iOS 27 Outlook联系人将系统级显示于iPhone",
+    "summary": "微软计划在2027年1月为iOS 27版Outlook升级联系人系统级集成功能，借助苹果Contact Provider框架，让Outlook联系人在来电显示、电话、信息和Siri等原生场景中直接显示，无需完整通讯录权限或本地复制。",
+    "body": "据NeoWin报道，微软路线图显示，iOS 27版Outlook预计在2027年1月支持通过苹果Contact Provider框架，将Outlook联系人以系统级方式呈现在iPhone上。新功能上线后，用户无需授予Outlook完整的地址簿访问权限，也无需手动把联系人复制到本地“通讯录”应用，即可在来电显示、电话、信息和Siri等iOS原生入口调用Outlook联系人。\n\n目前，Outlook联系人主要局限于应用内部，若要在iPhone原生场景中使用，需完成权限授权和数据复制。新方案简化了这一流程，有助于提升企业用户和重度Outlook用户的使用体验，也可能增强微软移动办公服务在苹果生态中的黏性。",
+    "category": "消费电子",
+    "tags": [
+      "Outlook",
+      "iOS",
+      "微软",
+      "苹果"
+    ],
+    "source": "IT之家",
+    "time": "8分钟前",
+    "ts": "2026-07-04T00:21:12+00:00",
+    "url": "https://www.ithome.com/0/972/482.htm",
+    "image": "https://img.ithome.com/newsuploadfiles/2026/7/8f15fbaa-e6f2-4f54-b3b9-5a366f92254b.jpg",
+    "stocks": []
+  },
+  {
     "id": "ebd5fbfc26cc79f5",
     "title": "印度AI岗位招聘逆势增长，增速领跑IT行业",
     "summary": "6月印度AI岗位招聘量同比增长16%，而整体IT岗位下降3%。Naukri调查显示，IT企业正加速向AI转型，将资源投向新业务能力建设。",
