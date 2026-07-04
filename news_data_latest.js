@@ -19,6 +19,25 @@ const newsData = [
     "stocks": []
   },
   {
+    "id": "944998d16f3d4dde",
+    "title": "AI正冲击初级程序员就业市场",
+    "summary": "Hacker News上一篇热帖称，生成式AI正在“烧毁”初级程序员就业市场，入门级编程岗位需求面临收缩。",
+    "body": "这篇以“AI has torched the market for junior programmers”为题的讨论在Hacker News上引发关注，核心观点认为生成式AI编程工具的普及正在削弱企业对初级程序员的需求。入门级别的代码编写、调试和简单功能实现等工作，越来越多地由AI助手完成，导致相关岗位市场竞争加剧。\n\n尽管AI能否完全替代初级程序员仍存在争议，但这一趋势可能改变科技行业的招聘标准和人才培养路径。未来，从业者或许需要更强的系统设计、架构能力和业务理解，而单纯的编码技能可能难以支撑职业起点。",
+    "category": "人工智能",
+    "tags": [
+      "生成式AI",
+      "初级程序员",
+      "AI就业",
+      "劳动力市场"
+    ],
+    "source": "Hacker News",
+    "time": "22分钟前",
+    "ts": "2026-07-04T19:50:08+00:00",
+    "url": "https://seldo.com/posts/ai-has-torched-the-market-for-junior-programmers/",
+    "image": "",
+    "stocks": []
+  },
+  {
     "id": "ac1081ecb90307c0",
     "title": "薇拉·鲁宾天文台启动十年“宇宙电影”巡天",
     "summary": "位于智利的薇拉·鲁宾天文台已开启为期十年的“时空遗产巡天”，将每数晚扫描一次南天，为暗能量、暗物质和宇宙膨胀等研究提供海量数据；同期科研人员还为半机械蟑螂开发出微型潜水服。",
