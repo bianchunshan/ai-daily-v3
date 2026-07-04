@@ -1,5 +1,95 @@
 const newsData = [
   {
+    "id": "53f594d393634589",
+    "title": "蔚来NIO Day 2026候选城市公布",
+    "summary": "蔚来汽车公布NIO Day 2026申办候选城市，哈尔滨、武汉、厦门入围下一轮。该年度活动通常发布重磅新品，是观察蔚来产品与技术进展的重要窗口。",
+    "body": "7月4日，蔚来汽车宣布，八座城市参与NIO Day 2026申办陈述，最终哈尔滨、武汉、厦门三城入围下一阶段。今年申办城市还包括长春、重庆、济南、南京、青岛。官方尚未公布具体举办时间与活动内容。\n\n自2017年以来，NIO Day已连续举办九届，历届均发布重要车型或核心技术，如首款车型ES8、ET9行政旗舰轿车、自研智驾芯片“神玑NX9031”以及换电站迭代等。NIO Day 2026预计仍将承载重磅产品发布功能，对蔚来品牌形象与市场节奏具有一定风向标意义。\n\n此次候选城市花落东北、华中及东南三地，也反映出蔚来在用户基础与市场覆盖上的区域布局策略。后续具体举办城市及新品信息仍需关注官方披露。",
+    "category": "未来能源",
+    "tags": [
+      "蔚来汽车",
+      "NIO Day",
+      "新能源汽车",
+      "产品发布"
+    ],
+    "source": "IT之家",
+    "time": "刚刚",
+    "ts": "2026-07-04T14:08:15+00:00",
+    "url": "https://www.ithome.com/0/972/666.htm",
+    "image": "https://img.ithome.com/newsuploadfiles/2026/7/f12fbb0f-ad2c-485d-bfca-1e6fd51c14a3.jpg?x-bce-process=image/format,f_auto",
+    "stocks": [
+      {
+        "name": "蔚来",
+        "ticker": "NIO",
+        "reason": "NIO Day是蔚来年度旗舰活动，通常发布新车型及核心技术，直接影响公司品牌关注度与市场预期。",
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
+    "id": "a83583d22a591878",
+    "title": "索尼FX5电影机被曝配3.5英寸16:9全向翻转屏",
+    "summary": "据爆料，索尼FX5电影摄影机将搭载一块3.5英寸16:9全向翻转屏，预计于7月中下旬发布。新屏在16:9模式下显示面积大于FX3，但在Open Gate片门全开模式下反而受限。",
+    "body": "IT之家援引SonyAlphaRumors消息称，索尼新一代电影摄影机FX5将采用全新的3.5英寸全向翻转屏，屏幕比例为16:9，与CineAltaB（Burano）相近。在16:9拍摄模式下，该屏幕相较FX3可提供更大的画面显示面积；但在Open Gate（片门全开）模式下，由于其物理高度较窄，非16:9画面的显示比例受限，显示面积反而可能变小。\n\n爆料还披露了FX5的核心规格：1600万像素全堆栈式传感器、支持5K 3:2片门全开录制、三档原生ISO、Venice电影机菜单风格、X-OCN LT格式RAW内录、新型可拆卸式倾斜电子取景器，以及独立的伪色按钮。该产品有望进一步丰富索尼Cinema Line产品线，强化其在专业影像市场的竞争力。",
+    "category": "消费电子",
+    "tags": [
+      "消费电子",
+      "索尼",
+      "电影摄影机",
+      "FX5"
+    ],
+    "source": "IT之家",
+    "time": "1分钟前",
+    "ts": "2026-07-04T14:07:44+00:00",
+    "url": "https://www.ithome.com/0/972/665.htm",
+    "image": "https://img.ithome.com/newsuploadfiles/2026/7/7bc430f1-5719-4347-befd-590478eb6345.jpg?x-bce-process=image/format,f_auto",
+    "stocks": [
+      {
+        "name": "索尼",
+        "ticker": "SONY",
+        "reason": "FX5为索尼新一代电影摄影机新品，有望提振其专业影像业务收入",
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
+    "id": "b0c5a02c459d7ccc",
+    "title": "Meta怀俄明数据中心排污被叫停，市政供水遭耐金属菌污染",
+    "summary": "美国怀俄明州夏延市公共事业委员会已停止接收Meta数据中心的工业废水，因其冷却系统冲洗水中检出罕见耐金属细菌Cupriavidus gilardii，导致两座再生水厂受干扰并被迫停运数月清理。",
+    "body": "据Tom's Hardware报道，夏延市公共事业委员会（Board of Public Utilities）追溯发现，该市再生水中的稀有细菌源自Goat Systems LLC——Meta夏延园区建设的承包商。该细菌Cupriavidus gilardii具有耐金属性，来自数据中心“注水冲洗”（fill-and-flush）及闭式冷却系统的排液，随后被排入城市卫生下水道，干扰了两座水再生厂的正常运行。\n\n委员会已于3月24日吊销Goat Systems的注水冲洗排放许可，并进一步扩大禁令，暂停所有接入城市服务的数据中心相关工业废水排放。 officials表示，冲洗用水购自委员会，细菌来源尚不清楚，但实验室在2月常规粪便细菌采样中发现了该菌种，目前正在开展数月的清理工作。此事暴露了大型数据中心在调试与冷却水排放环节的生物安全与合规风险。",
+    "category": "AI 基础设施",
+    "tags": [
+      "Meta",
+      "数据中心",
+      "水污染",
+      "环保合规"
+    ],
+    "source": "Tom's Hardware",
+    "time": "6分钟前",
+    "ts": "2026-07-04T14:02:22+00:00",
+    "url": "https://www.tomshardware.com/tech-industry/data-centers/cheyenne-suspends-data-center-fill-and-flush-and-closed-loop-discharges-after-meta-contractor-contaminated-its-reuse-water-system",
+    "image": "https://cdn.mos.cms.futurecdn.net/5DrUKzfgk2vDQzjnVtVpkJ-1280-80.jpg",
+    "stocks": []
+  },
+  {
+    "id": "6f047a0cbacf6096",
+    "title": "从热气球到重返月球：人类飞天史诗续篇",
+    "summary": "文章回顾了从1776年人类尚不能飞行，到1783年热气球升空、1903年莱特兄弟动力飞行、1969年阿波罗登月的历史跨越，指出如今人类正再次筹划重返月球，延续对深空的探索。",
+    "body": "1776年美国诞生之际，人类仍未实现载人飞行；直到1783年，蒙戈尔菲埃兄弟的热气球才在巴黎搭载两人飞行约25分钟，开启了人类离开地面的篇章。随后仅用约120年，莱特兄弟便完成了有动力、重于空气的飞行；又过了不到60年，加加林进入太空，阿姆斯特朗和奥尔德林更是在1969年踏上了月球表面。\n\n阿波罗计划后，人类一度未再登陆月球，但如今各国正重新推进月球探测与载人登月任务，试图在数十年后再次将宇航员送至地球最近的邻居。这一进程不仅象征着航天技术的持续跃升，也关系到深空科学、空间资源利用以及未来星际探索的战略布局。\n\n从仰望飞鸟到重返月球，人类用了不到两个半世纪跨越了从天空到星际的距离。新的登月努力将再次检验并推动火箭、生命保障、月面作业等一系列航天能力的发展。",
+    "category": "商业航天",
+    "tags": [
+      "载人航天",
+      "月球探测",
+      "深空探索",
+      "商业航天"
+    ],
+    "source": "Space.com",
+    "time": "8分钟前",
+    "ts": "2026-07-04T14:00:00+00:00",
+    "url": "https://www.space.com/astronomy/moon/human-flight-was-still-7-years-away-in-1776-now-were-headed-back-to-the-moon",
+    "image": "https://cdn.mos.cms.futurecdn.net/jAQ3ZZWbchHmNU9qcMe8Ec-1280-80.jpg",
+    "stocks": []
+  },
+  {
     "id": "0b072eec59ee254f",
     "title": "小米推送新规2026年生效：消息类型扩至75类",
     "summary": "小米推送团队宣布将于2026年8月1日起实施新消息分类规则，消息类型由16类大幅扩充至75类，并上线需用户手动授权的订阅消息功能。",
