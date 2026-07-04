@@ -1,5 +1,24 @@
 const newsData = [
   {
+    "id": "1c046554877efb1a",
+    "title": "Mistral AI：OpenAI的开源模型劲敌",
+    "summary": "Mistral AI成立于2023年，提供部分开源AI模型，并以“让前沿AI人人可用”为目标，是OpenAI的重要竞争者之一。",
+    "body": "Mistral AI于2023年成立，专注于开发并提供部分开源的前沿人工智能模型。自成立以来，该公司已获得多轮重要融资，资金规模可观，旨在推动先进AI技术更广泛地普及。\n\n作为OpenAI的有力竞争者之一，Mistral AI强调模型的开放性和可及性，试图降低企业使用前沿大模型的门槛。其开源策略在AI开发者社区和产业界均受到关注，可能对生成式AI市场的竞争格局产生影响。\n\n目前，Mistral AI仍处于快速扩张阶段，其技术路线、商业模式以及开源与闭源之间的平衡，将持续影响全球生成式AI行业的发展方向。",
+    "category": "人工智能",
+    "tags": [
+      "开源大模型",
+      "生成式AI",
+      "Mistral AI",
+      "OpenAI"
+    ],
+    "source": "TechCrunch",
+    "time": "刚刚",
+    "ts": "2026-07-04T15:51:32+00:00",
+    "url": "https://techcrunch.com/2026/07/04/what-is-mistral-ai-everything-to-know-about-the-openai-competitor/",
+    "image": "",
+    "stocks": []
+  },
+  {
     "id": "9cb023fc58dfe795",
     "title": "法国AI新星Mistral AI：欧洲主权AI的代表？",
     "summary": "法国AI初创公司Mistral AI因特朗普政府指令导致Anthropic下线最新模型、以及欧洲降低对美技术依赖的“主权科技”呼声高涨而备受关注。该公司专注研发大语言模型，被视为欧洲AI自主的重要力量。",
