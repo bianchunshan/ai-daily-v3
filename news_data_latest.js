@@ -1,5 +1,43 @@
 const newsData = [
   {
+    "id": "c8a8192c50f6c296",
+    "title": "前PS高管：索尼全面数字化将震动微软与任天堂",
+    "summary": "前SIE高管肖恩·莱登表示，索尼PlayStation若全面取消实体光盘，将对微软、任天堂等主机厂商产生重大影响。索尼已宣布2026年起PS新作不再推出实体版本，引发业界与玩家广泛争议。",
+    "body": "据外媒Eurogamer报道，曾在PS4鼎盛时期领导PlayStation全球工作室的肖恩·莱登（Shawn Layden）表示，如果索尼作为行业领导者决定全面取消实体光盘，微软、任天堂等其他主机厂商势必受到很大影响。他透露，PlayStation内部过去20年几乎每年都会讨论停止实体发行，但他此前因全球宽带条件不足以支撑大规模数字下载而未推动该决定。",
+    "category": "消费电子",
+    "tags": [
+      "索尼",
+      "PlayStation",
+      "游戏主机",
+      "数字发行"
+    ],
+    "source": "IT之家",
+    "time": "7分钟前",
+    "ts": "2026-07-04T01:31:45+00:00",
+    "url": "https://www.ithome.com/0/972/495.htm",
+    "image": "https://img.ithome.com/newsuploadfiles/2025/12/b7b9f4f3-0d54-42d0-bb7b-621be9277131.jpg?x-bce-process=image/format,f_auto/auto-orient,o_1",
+    "stocks": [
+      {
+        "name": "索尼集团",
+        "ticker": "SONY",
+        "reason": "PlayStation全面数字化直接关乎索尼游戏业务分发模式与收入结构",
+        "confidence": "high"
+      },
+      {
+        "name": "微软",
+        "ticker": "MSFT",
+        "reason": "Xbox与PlayStation同为游戏主机竞争厂商，行业数字化趋势将带来竞争格局变化",
+        "confidence": "medium"
+      },
+      {
+        "name": "任天堂",
+        "ticker": "NTDOY",
+        "reason": "作为主机三巨头之一，索尼取消实体光盘的策略可能迫使其重新评估发行与硬件策略",
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
     "id": "deaf7285236151ff",
     "title": "HMD推四款诺基亚功能机：独立AI键+可拆卸电池",
     "summary": "HMD Global 发布四款诺基亚品牌功能手机，均配备 1450mAh 可拆卸电池和 Sikey AI 助手独立按键，支持语音控制手电筒、相机、闹钟等功能。该系列定位入门级市场，AI服务购机后 180 天免费，之后需额外付费。",
