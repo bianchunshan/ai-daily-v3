@@ -1,5 +1,31 @@
 const newsData = [
   {
+    "id": "7410ed4de3c16383",
+    "title": "三星Exynos 2700改分离封装散热，内存带宽或提升三四成",
+    "summary": "三星为优化Exynos 2700芯片散热，将把DRAM内存与SoC改为并排分离封装（SBS），避免内存堆叠在处理器上方导致的积热问题，同时有望将内存带宽提升30%至40%。",
+    "body": "据外媒报道，三星计划在Exynos 2700芯片上调整封装策略，DRAM内存与SoC芯片采用分离设计（SBS封装），不再像Exynos 2600那样将LPDDR5X内存堆叠在SoC上方。此前Exynos 2600虽在硅片顶部加入HPB导热模块，但因DRAM与SoC间距过近仍存在积热问题。新的SBS方案将内存与SoC并排布局，散热器直接覆盖两者，可减少热量聚集并提升散热效率。该设计还能缩短数据传输路径， reportedly提升内存带宽30%至40%。苹果即将推出的A20 Pro芯片也据悉将采用类似的WMCM封装，将DRAM移至芯片封装侧面以缓解高负载散热压力，反映出先进封装正成为移动SoC散热与性能平衡的关键方向。",
+    "category": "半导体与先进制造",
+    "tags": [
+      "三星电子",
+      "Exynos",
+      "芯片封装",
+      "散热"
+    ],
+    "source": "IT之家",
+    "time": "1分钟前",
+    "ts": "2026-07-04T00:57:33+00:00",
+    "url": "https://www.ithome.com/0/972/490.htm",
+    "image": "https://img.ithome.com/newsuploadfiles/2026/4/b6dde572-970d-4b83-a44b-2f34cb129243.jpg?x-bce-process=image/format,f_auto/auto-orient,o_1",
+    "stocks": [
+      {
+        "name": "三星电子",
+        "ticker": "005930.KS",
+        "reason": "Exynos 2700是三星自研旗舰SoC，新封装策略若改善散热与性能，将提升其手机芯片竞争力",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
     "id": "fa8fa12fb1216c38",
     "title": "皮尤民调：超半数美国人支持16岁以下禁用社交媒体",
     "summary": "美国皮尤研究中心最新调查显示，56%的美国成年人支持禁止16岁以下未成年人使用社交媒体，有子女的家长支持率更高达65%；同时绝大多数受访者支持家长同意、年龄验证和使用时长限制等配套措施。",
@@ -16,6 +42,24 @@ const newsData = [
     "ts": "2026-07-04T00:49:03+00:00",
     "url": "https://www.ithome.com/0/972/488.htm",
     "image": "https://img.ithome.com/newsuploadfiles/2026/7/8adf204d-57a6-4f93-8055-7f5f56379874.png?x-bce-process=image/format,f_auto",
+    "stocks": []
+  },
+  {
+    "id": "54da0db44c921b4e",
+    "title": "Soatok发布非正式威胁模型指南",
+    "summary": "网络安全从业者Soatok发布了一篇关于威胁模型的非正式指南，旨在帮助开发者与安全人员理解威胁建模与风险评估的基本方法。",
+    "body": "网络安全社区成员Soatok发布了一篇题为《非正式威胁模型指南》的文章，围绕威胁建模的基本思路与实践方法展开讨论。威胁模型是安全开发生命周期中的关键环节，用于系统性地识别潜在攻击面、评估风险并制定防护策略。\n\n该指南以非正式、易懂的方式面向安全从业者与软件开发者，提供了关于如何思考、构建和应用威胁模型的实用视角。此类社区驱动的安全知识分享有助于降低安全工程门槛，推动更广泛的威胁建模实践。",
+    "category": "网络安全",
+    "tags": [
+      "网络安全",
+      "威胁模型",
+      "安全开发"
+    ],
+    "source": "Hacker News",
+    "time": "23分钟前",
+    "ts": "2026-07-04T00:35:49+00:00",
+    "url": "https://soatok.blog/2026/06/30/soatoks-informal-guide-to-threat-models/",
+    "image": "",
     "stocks": []
   },
   {
