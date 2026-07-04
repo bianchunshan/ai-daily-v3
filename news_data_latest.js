@@ -26,6 +26,25 @@ const newsData = [
     ]
   },
   {
+    "id": "680455180bdace79",
+    "title": "路由器厂商的Wi-Fi 7标签可能误导消费者",
+    "summary": "Wi-Fi标准认证体系仍然混乱，部分路由器厂商可能在产品标签上夸大或误导性地使用Wi-Fi 7标识，令消费者难以辨别真实规格与性能。",
+    "body": "据报道，无线路由器市场的Wi-Fi 7标签正引发争议。由于Wi-Fi标准与认证流程复杂，部分品牌可能在宣传中模糊处理，使普通用户误以为产品已完整支持新一代无线协议。这种情况再次凸显了消费级网络设备在标准合规与市场营销之间存在的鸿沟。对消费者而言， misleading label 会导致选购困难，并影响实际网络体验；对行业而言，则可能促使认证机构与监管方进一步规范命名与测试标准，推动市场透明化。",
+    "category": "消费电子",
+    "tags": [
+      "Wi-Fi 7",
+      "路由器",
+      "消费电子",
+      "网络标准"
+    ],
+    "source": "Engadget",
+    "time": "11分钟前",
+    "ts": "2026-07-04T13:30:00+00:00",
+    "url": "https://www.engadget.com/2206012/router-brands-could-be-misleading-you-with-that-wi-fi-7-label/",
+    "image": "https://www.engadget.com/img/gallery/router-brands-could-be-misleading-you-with-that-wi-fi-7-label/l-intro-1782921555.jpg",
+    "stocks": []
+  },
+  {
     "id": "1ac188d53d2f67b2",
     "title": "科学家首次实时捕捉免疫细胞用神经递质“对话”",
     "summary": "德国研究团队首次在活细胞中证实，人体中性粒细胞能像神经细胞一样摄取、储存并定向释放儿茶酚胺类神经递质进行通讯。这一发现为炎症性疾病治疗提供了潜在新靶点。",
