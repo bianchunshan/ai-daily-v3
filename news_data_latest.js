@@ -1,5 +1,37 @@
 const newsData = [
   {
+    "id": "2bd51877b1f1370b",
+    "title": "System76预告Adder Pro 15.3笔记本：搭载酷睿Ultra 7 356H与RTX 5070",
+    "summary": "美国电脑厂商System76即将推出新一代Adder Pro 15.3笔记本，搭载英特尔Panther Lake平台与英伟达RTX 50系显卡，定位高性能移动工作站。",
+    "body": "据外媒TechPower Up报道，System76计划于7月中旬发布Adder Pro 15.3笔记本电脑。该机采用15.3英寸QHD+ OLED屏幕，搭载英特尔酷睿Ultra 7 356H处理器（16核设计，最高睿频4.7GHz），可选英伟达RTX 5060或RTX 5070显卡，配备8GB GDDR7显存，最高支持96GB DDR5内存和双M.2 SSD扩展。",
+    "category": "消费电子",
+    "tags": [
+      "笔记本电脑",
+      "英特尔",
+      "英伟达",
+      "System76"
+    ],
+    "source": "IT之家",
+    "time": "2分钟前",
+    "ts": "2026-07-04T00:11:16+00:00",
+    "url": "https://www.ithome.com/0/972/480.htm",
+    "image": "https://img.ithome.com/newsuploadfiles/2026/7/a8e81783-77da-41d2-90da-d4d0788f9259.jpg?x-bce-process=image/format,f_auto",
+    "stocks": [
+      {
+        "name": "英特尔",
+        "ticker": "INTC",
+        "reason": "为新品提供Panther Lake平台酷睿Ultra 7 356H处理器",
+        "confidence": "medium"
+      },
+      {
+        "name": "英伟达",
+        "ticker": "NVDA",
+        "reason": "为新品提供可选RTX 5060/5070显卡",
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
     "id": "1cd3caccd0c6a589",
     "title": "微软Edge 150稳定版发布：支持谷歌账号登录",
     "summary": "微软Edge 150稳定版已支持用户使用谷歌账号登录，并调整macOS最低支持版本至macOS 12 Monterey，同时推进工作区V2架构迁移。",
