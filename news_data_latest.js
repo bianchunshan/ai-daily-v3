@@ -1,5 +1,23 @@
 const newsData = [
   {
+    "id": "eae3bbe0f9b37bb3",
+    "title": "Midjourney要求好莱坞片方向法庭披露AI使用情况",
+    "summary": "AI图像生成公司Midjourney向法院提出申请，要求起诉它的迪士尼、华纳兄弟和环球等好莱坞片方提交各自使用人工智能的相关信息。",
+    "body": "据报道，因版权纠纷遭迪士尼、华纳兄弟和环球等好莱坞制片公司起诉的AI图像生成公司Midjourney，正要求法庭迫使这些片方披露其内部如何使用人工智能技术。Midjourney此举意在证明对方同样大量使用AI工具，从而削弱其关于AI侵权的指控立场。该法律攻防反映出生成式AI快速发展与传统影视产业之间的版权争议正日趋激烈。",
+    "category": "人工智能",
+    "tags": [
+      "生成式AI",
+      "版权诉讼",
+      "好莱坞"
+    ],
+    "source": "Engadget",
+    "time": "7分钟前",
+    "ts": "2026-07-04T11:33:18+00:00",
+    "url": "https://www.engadget.com/2207936/midjourney-wants-studios-that-sued-show-court-ai-use/",
+    "image": "https://www.engadget.com/img/gallery/midjourney-wants-the-studios-that-sued-it-to-show-the-court-how-they-use-ai/l-intro-1783164583.jpg",
+    "stocks": []
+  },
+  {
     "id": "e191d17375f9f702",
     "title": "三部门发文规范国际科技组织成立登记",
     "summary": "民政部、科技部、中国科协联合制定《国际科技组织成立登记指引》，明确发起条件、会员构成、活动资金不低于200万元及申请程序，以支持国际科技组织在华规范发展。",
@@ -15,6 +33,44 @@ const newsData = [
     "ts": "2026-07-04T11:30:43+00:00",
     "url": "https://www.ithome.com/0/972/642.htm",
     "image": "https://img.ithome.com/newsuploadfiles/2026/7/8d85bbdb-aac5-42c7-8d19-d5482911cfa2.jpg?x-bce-process=image/format,f_auto",
+    "stocks": []
+  },
+  {
+    "id": "9917a80f28f2b2d2",
+    "title": "2026年最佳MagSafe无线充电器选购指南",
+    "summary": "Wired发布2026年最佳MagSafe无线充电器清单，涵盖磁吸充电宝、立式支架、桌面充电板及车载充电器，兼容MagSafe iPhone与Qi2安卓手机。",
+    "body": "Wired发布了2026年最佳MagSafe无线充电器推荐清单，涵盖磁吸充电宝、立式支架、桌面充电板及车载充电器等多种形态，支持MagSafe iPhone和兼容Qi2标准的安卓手机。\n\n文章重点根据使用场景、充电功率、便携性与设计进行筛选，旨在帮助消费者挑选合适的无线充电配件。该清单反映出在苹果MagSafe与Qi2标准推动下，磁吸无线充电生态正从苹果设备向更广泛的安卓阵营扩展，相关配件市场有望持续升温。",
+    "category": "消费电子",
+    "tags": [
+      "MagSafe",
+      "无线充电",
+      "消费电子",
+      "iPhone"
+    ],
+    "source": "Wired",
+    "time": "11分钟前",
+    "ts": "2026-07-04T11:30:00+00:00",
+    "url": "https://www.wired.com/gallery/best-magsafe-wireless-chargers/",
+    "image": "https://media.wired.com/photos/685ab0fbecbfc34a8f85ebcc/master/pass/MagSafe%20Chargers%20Reviewer%20Collage_Source_Amazon.png",
+    "stocks": []
+  },
+  {
+    "id": "74fb2e4e778245ca",
+    "title": "Windows老将用斯特林发动机为AMD线程撕裂者辅助散热",
+    "summary": "前Windows开发工程师Dave W. Plummer近日展示了一项趣味实验：在AMD Threadripper 3970X平台旁加装一台约40美元的斯特林发动机，利用芯片废热驱动飞轮旋转以辅助散热。该方案更多是物理原理的演示，并非成熟的商用散热技术。",
+    "body": "据外媒Tom's Hardware报道，知名Windows开发者Dave W. Plummer分享了一段短视频，展示其将一台19世纪风格的斯特林发动机用于AMD Threadripper 3970X平台的辅助散热。发动机连接在芯片散热器上，废热使气体活塞膨胀、推动飞轮转动，随后气体冷却降压，依靠飞轮惯性完成循环，从而把部分废热转化为机械能。Plummer也坦承这并非真正解决芯片过热问题的方案，但确实体现了斯特林发动机将热能转化为机械功的物理特性。\n\n斯特林发动机由Robert Stirling于1816年发明，曾因比蒸汽机更安全而被提出，后在水泵、家用设备等 niche 领域有所应用。如今该技术主要见于太阳能、热电联产、低温制冷和潜艇等场景。Plummer使用的这款小型发动机可在电商平台以约40美元购得，并常见促销优惠券，门槛低、结构简单，适合作为DIY爱好者的热力学演示装置。\n\n这一实验反映出个人极客社群对PC散热与废热利用的持续兴趣。不过，从产业角度看，它距离数据中心或高端消费级散热方案仍有巨大差距，短期内不太可能对服务器液冷、热管理等成熟市场产生实质影响。",
+    "category": "消费电子",
+    "tags": [
+      "斯特林发动机",
+      "PC散热",
+      "AMD",
+      "废热利用"
+    ],
+    "source": "Tom's Hardware",
+    "time": "11分钟前",
+    "ts": "2026-07-04T11:30:00+00:00",
+    "url": "https://www.tomshardware.com/pc-components/cooling/windows-guru-uses-stirling-engine-to-cool-amd-threadripper-3970x-waste-heat-energy-spins-the-engines-flywheel",
+    "image": "https://cdn.mos.cms.futurecdn.net/5ERbDoEZVjoPz5Jv3s3PEh-1280-80.jpg",
     "stocks": []
   },
   {
