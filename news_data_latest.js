@@ -1,5 +1,24 @@
 const newsData = [
   {
+    "id": "5349480bc65fd894",
+    "title": "部分Win10/Win11开机现白窗，疑为Chrome后台任务所致",
+    "summary": "近日有用户反映Windows 10/11开机后出现白色方框，禁用开机启动项后问题依旧。多方排查后，怀疑该白窗与谷歌Chrome浏览器的RunPlatformExperienceHelperOnUnlock后台任务相关。",
+    "body": "近日，Reddit网友u/NeveSs7发帖称，其Windows 10电脑启动后总会出现一个白色方框，即使禁用所有开机启动项也无法消除，随后多名用户跟帖称遇到同样情况。科技媒体NeoWin也在Windows 11 25H2预览版上复现了该问题。\n用户最初怀疑是AMD显卡驱动导致，但英特尔平台同样出现这一现象，使该推测被弱化。进一步排查发现，白窗与GoogleUserPEH文件夹中的RunPlatformExperienceHelperOnUnlock任务有关，该任务属于谷歌Chrome浏览器后台组件，用于协调浏览器与扩展、插件及更新等外部组件的交互。\n目前该问题影响范围已覆盖部分Windows 10和Windows 11用户，但尚未确认是否为Chrome更新或Windows系统层面的兼容性问题。若最终确认由Chrome后台任务触发，谷歌可能需通过浏览器更新进行修复。",
+    "category": "消费电子",
+    "tags": [
+      "Windows",
+      "Chrome浏览器",
+      "软件Bug",
+      "开机异常"
+    ],
+    "source": "IT之家",
+    "time": "6分钟前",
+    "ts": "2026-07-04T00:33:08+00:00",
+    "url": "https://www.ithome.com/0/972/485.htm",
+    "image": "https://img.ithome.com/newsuploadfiles/2026/7/e7e57e71-bff0-40f8-8503-a9241ac54c00.jpg?x-bce-process=image/format,f_auto",
+    "stocks": []
+  },
+  {
     "id": "a8f481f5cf898cb7",
     "title": "Epic CEO暗示AI可降低《命运》长期运营成本",
     "summary": "Epic Games CEO蒂姆·斯威尼暗示，人工智能有望降低长期运营游戏的内容生产成本，让《命运》这类作品得以持续发展。",
@@ -111744,6 +111763,12 @@ const newsData = [
   }
 ];
 const newsDigest = {
-  "text": "",
-  "highlights": []
+  "text": "今日科技前沿聚焦：AI在游戏降本与人才需求上持续发酵，消费电子新品扎堆曝光，iPhone Air 2、带摄像头的AirPods及索尼PS实体盘政策反转引发关注，另有两项生物医药研究值得关注。",
+  "highlights": [
+    "a8f481f5cf898cb7",
+    "ebd5fbfc26cc79f5",
+    "d397c8443835de1e",
+    "7067c3564c735181",
+    "f23adc8c6f7dfb80"
+  ]
 };
