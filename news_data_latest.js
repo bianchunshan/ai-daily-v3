@@ -1,5 +1,24 @@
 const newsData = [
   {
+    "id": "2fb297b7efa2630b",
+    "title": "Space.com推出“美国250：从1776到月球及更远”系列",
+    "summary": "Space.com借美国独立250周年之机发布系列报道，回顾自1776年以来人类对太空认知的变化、NASA及美国航天成就，并展望下一个250年的探索前景。",
+    "body": "为配合美国独立日及建国250周年，Space.com推出“America 250: From 1776 to the moon and beyond”专题系列，探讨从1776年独立之夜的天空景象，到现代载人航天、深空探测的跨越。该系列既包含对美国航天史的回顾，也涉及对未来太空探索方向的思考。\n\n系列内容还配套了“This Week In Space”播客第217期，主持人Rod Pyle与Space.com主编Tariq Malik回顾了美国自1958年以来参与并主导的太空飞行任务，重温经典航天时刻。整体来看，该系列更偏向科普与纪念性质，旨在唤起公众对美国及人类太空探索历程的关注。",
+    "category": "商业航天",
+    "tags": [
+      "航天探索",
+      "NASA",
+      "美国航天",
+      "深空探测"
+    ],
+    "source": "Space.com",
+    "time": "3分钟前",
+    "ts": "2026-07-04T18:18:45+00:00",
+    "url": "https://www.space.com/space-exploration/america-250-from-1776-to-the-moon-and-beyond-a-space-com-series",
+    "image": "https://cdn.mos.cms.futurecdn.net/Hhyi9C54HHfhDToDhExe8Z-1280-80.png",
+    "stocks": []
+  },
+  {
     "id": "ae006f7d6163cee7",
     "title": "Midjourney要求好莱坞片厂披露AI使用细节",
     "summary": "AI图像生成公司Midjourney在与三家好莱坞片厂的法律纠纷中，要求对方披露其自身使用AI的具体情况。此举可能使生成式AI的版权与数据训练争议进一步升温。",
@@ -43,6 +62,25 @@ const newsData = [
         "confidence": "high"
       }
     ]
+  },
+  {
+    "id": "17d53711e53d430a",
+    "title": "Verizon网络变动或致智能手表失效",
+    "summary": "Hacker News消息称，Verizon即将实施的网络调整可能影响智能手表正常使用，引发用户对可穿戴设备兼容性与服务连续性的关注。",
+    "body": "据Hacker News报道，Verizon即将进行的一项网络政策或技术调整，可能导致部分智能手表无法正常工作。这一消息引发用户对其可穿戴设备兼容性与服务连续性的担忧。智能手表普遍依赖运营商蜂窝网络实现独立通话、定位与数据功能，运营商网络制式调整或服务变更可能对相关设备的实际体验产生影响，并波及消费电子市场的用户预期。",
+    "category": "消费电子",
+    "tags": [
+      "智能手表",
+      "运营商网络",
+      "可穿戴设备",
+      "Verizon"
+    ],
+    "source": "Hacker News",
+    "time": "29分钟前",
+    "ts": "2026-07-04T17:52:36+00:00",
+    "url": "https://www.jefftk.com/p/verizon-is-about-to-break-our-watches",
+    "image": "",
+    "stocks": []
   },
   {
     "id": "fb1a0cd41ab12f1e",
