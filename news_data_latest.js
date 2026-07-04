@@ -1,5 +1,50 @@
 const newsData = [
   {
+    "id": "ae006f7d6163cee7",
+    "title": "Midjourney要求好莱坞片厂披露AI使用细节",
+    "summary": "AI图像生成公司Midjourney在与三家好莱坞片厂的法律纠纷中，要求对方披露其自身使用AI的具体情况。此举可能使生成式AI的版权与数据训练争议进一步升温。",
+    "body": "据TechCrunch报道，Midjourney正卷入与三家好莱坞片厂的法律纠纷，并寻求迫使这些片厂披露它们在自身业务中使用AI的细节。目前尚不清楚被要求披露的具体范围，但这一动向凸显出娱乐产业与生成式AI公司之间在知识产权、训练数据来源及内容使用上的紧张关系。\n\n若法院支持Midjourney的请求，好莱坞片厂在AI应用方面的内部实践将被摆上台面，这可能影响未来关于生成式AI训练数据合法性、版权归属及内容授权的判例与行业规则。对整个影视与AI行业而言，这一案件的进展具有重要的风向标意义。",
+    "category": "人工智能",
+    "tags": [
+      "Midjourney",
+      "生成式AI",
+      "好莱坞",
+      "AI版权"
+    ],
+    "source": "TechCrunch",
+    "time": "2分钟前",
+    "ts": "2026-07-04T18:00:05+00:00",
+    "url": "https://techcrunch.com/2026/07/04/midjourney-wants-hollywood-studios-to-reveal-the-details-of-their-ai-usage/",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "f210f775305e2b1d",
+    "title": "Kalmar在华量产电动正面吊并斩获新订单",
+    "summary": "芬兰卡尔玛公司自2023年起在上海工厂生产45吨级ERG450电动正面吊，以贴近亚洲客户。该投资初见成效，公司宣布第二季度末新增四笔订单。",
+    "body": "卡尔玛（Kalmar）自2023年开始在其上海制造基地生产45吨级ERG450电动正面吊（electric reach stacker），旨在将重型货物装卸设备的生产重心靠近亚洲潜在客户，缩短交付与响应周期。近期该公司宣布，第二季度末已斩获四笔新订单，显示其本地化电动化战略正逐步兑现。\n\n电动正面吊是港口、铁路货场及物流枢纽用于堆叠与搬运集装箱的关键重型装备。ERG450的电动化转型有助于降低港口装卸环节的碳排放与噪声污染，契合全球航运及物流行业脱碳趋势。卡尔玛在中国实现量产并连续获得订单，也反映出中国及亚洲市场对高端电动港口装备的需求正在增长。",
+    "category": "未来能源",
+    "tags": [
+      "电动化",
+      "港口机械",
+      "重型装备",
+      "物流自动化"
+    ],
+    "source": "Electrek",
+    "time": "5分钟前",
+    "ts": "2026-07-04T17:56:36+00:00",
+    "url": "https://electrek.co/2026/07/04/kalmar-is-building-and-selling-these-massive-electric-reach-stackers-in-china/",
+    "image": "https://electrek.co/wp-content/uploads/sites/3/2026/07/kalmar-electric-reachstacker_MAIN.png?w=1600",
+    "stocks": [
+      {
+        "name": "卡尔玛",
+        "ticker": "KALMAR.HE",
+        "reason": "公司电动正面吊在华量产并获得新订单，直接利好其亚太电动港口装备业务",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
     "id": "5650e791c3c81576",
     "title": "特斯拉Robotaxi服务进驻迈阿密",
     "summary": "特斯拉将其Robotaxi自动驾驶出租车服务扩展至迈阿密部分区域，并计划进一步推向奥兰多与坦帕，持续推进自动驾驶商业化落地。",
