@@ -1,5 +1,31 @@
 const newsData = [
   {
+    "id": "5650e791c3c81576",
+    "title": "特斯拉Robotaxi服务进驻迈阿密",
+    "summary": "特斯拉将其Robotaxi自动驾驶出租车服务扩展至迈阿密部分区域，并计划进一步推向奥兰多与坦帕，持续推进自动驾驶商业化落地。",
+    "body": "据外媒报道，特斯拉已将Robotaxi自动驾驶出租车服务扩展至美国迈阿密的一小部分地区。公司公布的路线图显示，未来还将把该服务推向佛罗里达州的奥兰多和坦帕等城市。这一扩张是特斯拉在自动驾驶商业化方面的重要一步，有助于其在Robotaxi市场积累运营经验、测试算法并获取更多真实道路数据。不过，服务目前覆盖范围有限，未来能否顺利扩大仍取决于当地监管审批、安全表现以及市场竞争格局。",
+    "category": "机器人",
+    "tags": [
+      "自动驾驶",
+      "Robotaxi",
+      "特斯拉",
+      "智能出行"
+    ],
+    "source": "Engadget",
+    "time": "2分钟前",
+    "ts": "2026-07-04T17:30:00+00:00",
+    "url": "https://www.engadget.com/2207974/tesla-expands-robotaxi-service-to-small-section-of-miami/",
+    "image": "https://www.engadget.com/img/gallery/tesla-expands-robotaxi-service-to-small-section-of-miami/l-intro-1783184696.jpg",
+    "stocks": [
+      {
+        "name": "特斯拉",
+        "ticker": "TSLA",
+        "reason": "特斯拉直接运营并扩展Robotaxi服务，是其自动驾驶商业化落地的核心受益标的。",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
     "id": "28c8a863a3d3f4b5",
     "title": "玩家用光纤HDMI线与Steam手柄2打造客厅游戏主机",
     "summary": "一名玩家未购买Valve新款主机，而是借助约15米光纤HDMI线、Steam Controller 2及Bazzite系统，将已有PC改造成低延迟的客厅游戏主机。",
