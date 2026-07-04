@@ -1,5 +1,24 @@
 const newsData = [
   {
+    "id": "2d25479cd4f1d955",
+    "title": "Midjourney反击好莱坞：要求迪士尼等披露自身AI使用情况",
+    "summary": "AI图像生成公司Midjourney在与迪士尼、环球、华纳的法律纠纷中，申请强制制片厂全面披露其生成式AI使用情况，以支持自身关于版权合理使用的辩护。",
+    "body": "据IT之家消息，人工智能初创公司Midjourney正与三家好莱坞影业公司陷入持续法律纠纷。此前，迪士尼与环球影业以涉嫌侵犯著作权为由起诉Midjourney，称其模型可生成巴特·辛普森、达斯·维达等版权角色图像；数月后，华纳兄弟也加入诉讼。Midjourney则辩称，使用受版权保护的角色图像训练AI模型属于合理使用范畴。\n\n争议焦点集中在证据开示阶段制片厂需提交的书面材料范围。一名法官此前裁定，制片厂仅需披露产生“面向消费者”视频和图片的生成式AI使用情况；Midjourney在最新法律文件中请求撤销该限制，认为制片厂可能选择性提交有利于其“市场受损”主张的材料，同时扣留对Midjourney有利的证据。Midjourney还表示，若制片厂内部也在研发图像生成AI用于分镜绘制或创意构思，将证明行业普遍存在使用未授权素材训练AI的惯例。\n\n制片厂首席代理律师戴维·辛格回应称，Midjourney的要求属于大范围证据搜寻，并强调制片厂并非要封杀AI技术，而是要求Midjourney停止未经授权复制、演绎和传播旗下知名角色。",
+    "category": "人工智能",
+    "tags": [
+      "Midjourney",
+      "版权纠纷",
+      "生成式AI",
+      "好莱坞"
+    ],
+    "source": "IT之家",
+    "time": "1分钟前",
+    "ts": "2026-07-04T23:09:24+00:00",
+    "url": "https://www.ithome.com/0/972/681.htm",
+    "image": "https://img.ithome.com/newsuploadfiles/2026/7/edebdde7-f43a-46f2-a9d0-a40b9e2d20a0.jpg?x-bce-process=image/format,f_auto",
+    "stocks": []
+  },
+  {
     "id": "e9689c0d913b1aaa",
     "title": "索尼下架 PS5 版《GTA6》推广物料",
     "summary": "在实体游戏争议升温背景下，索尼突然撤下 PS5 版《GTA6》的预售宣传图，引发玩家猜测与社交媒体讨论。",
