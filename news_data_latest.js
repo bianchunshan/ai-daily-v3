@@ -38,6 +38,25 @@ const newsData = [
     "stocks": []
   },
   {
+    "id": "18ba3b8f1c6682b1",
+    "title": "德州特斯拉撞入民宅致人死亡，司机被控过失杀人",
+    "summary": "美国德州一名特斯拉司机驾车冲入住宅，导致屋内一名女性死亡，现已被控过失杀人；美国国家公路交通安全管理局（NHTSA）正在对此事展开调查。",
+    "body": "据报道，美国德克萨斯州发生了一起涉及特斯拉车辆的严重事故：一名司机驾车撞入民宅，造成屋内一名女性当场死亡。当地检方已对该司机提出过失杀人指控，事故原因和责任归属仍在进一步调查中。美国国家公路交通安全管理局（NHTSA）也已介入调查，显示出监管机构对智能汽车安全事件的高度关注。该事件再次引发公众对自动驾驶/辅助驾驶系统安全性、驾驶人责任界定以及车企技术可靠性的讨论。",
+    "category": "机器人",
+    "tags": [
+      "特斯拉",
+      "自动驾驶",
+      "交通安全",
+      "监管调查"
+    ],
+    "source": "Engadget",
+    "time": "14分钟前",
+    "ts": "2026-07-04T15:47:31+00:00",
+    "url": "https://www.engadget.com/2207957/tesla-driver-charged-manslaughter-texas-crash-killed-woman-in-home/",
+    "image": "https://www.engadget.com/img/gallery/tesla-driver-charged-with-manslaughter-for-texas-crash-that-killed-a-woman-in-her-home/l-intro-1783179817.jpg",
+    "stocks": []
+  },
+  {
     "id": "265edd94a9e6b5b1",
     "title": "中国海水淡化日产突破300万吨，国家级测试平台天津投用",
     "summary": "由自然资源部天津海水淡化与综合利用研究所打造的国家级海水淡化公共测试平台，7月2日在天津港保税区临港片区正式投入运行。当前我国海水淡化日产水量已超300万吨，年产能增速保持在10%至15%。",
@@ -114664,6 +114683,12 @@ const newsData = [
   }
 ];
 const newsDigest = {
-  "text": "",
-  "highlights": []
+  "text": "今日科技前沿：Mistral AI崛起挑战OpenAI，苹果新Siri秋季仅限部分iPhone；中国海水淡化日产破300万吨，宁德/蔚来换电布局提速；垣信千帆组网达218颗，澜起MRDIMM量产试用。",
+  "highlights": [
+    "1c046554877efb1a",
+    "eaa9046d36c0e5e0",
+    "265edd94a9e6b5b1",
+    "87908b30b4cc7615",
+    "eeb27f1cf8cade59"
+  ]
 };
