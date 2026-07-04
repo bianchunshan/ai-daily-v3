@@ -1,5 +1,43 @@
 const newsData = [
   {
+    "id": "ff92832055c5d4fc",
+    "title": "欧洲四国调查显示公众支持公共资助生育与胚胎研究",
+    "summary": "在欧洲人类生殖与胚胎学会第42届年会期间发布的一项跨国调查显示，受访者普遍支持国家资助不孕不育治疗及部分生殖研究领域，同时也反映出公众认知和伦理意见仍在形成中。",
+    "body": "这项覆盖欧洲四国的新调查于欧洲人类生殖与胚胎学会（ESHRE）第42届年会期间发布，旨在了解公众对生育治疗、胚胎研究及相关公共资助政策的看法。结果显示，多数受访者支持由国家出资提供辅助生殖服务，并对包括胚胎研究在内的多个生殖医学研究领域持开放态度。\n\n与此同时，调查也指出，在某些具体议题上，公众的理解程度和伦理观点仍有发展空间，政策制定者在推进相关立法和资金安排时需谨慎平衡科学进步与社会接受度。该调查为欧洲各国的生殖健康政策提供了重要的民意参考。",
+    "category": "生物医药",
+    "tags": [
+      "辅助生殖",
+      "胚胎研究",
+      "生殖医学",
+      "公共医疗政策"
+    ],
+    "source": "MedicalXpress",
+    "time": "3分钟前",
+    "ts": "2026-07-04T18:10:01-04:00",
+    "url": "https://medicalxpress.com/news/2026-07-survey-europeans-state-funded-fertility.html",
+    "image": "https://scx1.b-cdn.net/csz/news/tmb/2018/1-ivf.jpg",
+    "stocks": []
+  },
+  {
+    "id": "7e9ffc3a6038f105",
+    "title": "GPT-5.5 Codex 推理 token 聚类或致性能下降",
+    "summary": "Hacker News 上的一则帖子称，GPT-5.5 Codex 的 reasoning-token 聚类现象可能是导致其性能下降的原因，引发开发者对代码生成模型稳定性的关注。",
+    "body": "该 Hacker News 条目标题为《GPT-5.5 Codex reasoning-token clustering may be leading to degraded performance》，仅提及 GPT-5.5 Codex 的推理 token 聚类可能是模型性能下降的原因之一，但未给出文章正文、测试数据或具体案例。由于原始链接缺失，目前无法判断问题的触发条件与影响范围。\n\n若这一现象属实，意味着面向开发者的代码生成模型在高频、复杂推理场景下可能出现输出质量下滑，进而影响开发者体验和工具可信度。对依赖 Codex 及其衍生产品（如 GitHub Copilot）的用户而言，模型稳定性将成为重要关注点。相关厂商或需通过算法优化、后训练调整或推理策略改进来缓解此类退化。",
+    "category": "人工智能",
+    "tags": [
+      "OpenAI",
+      "Codex",
+      "代码生成",
+      "模型性能"
+    ],
+    "source": "Hacker News",
+    "time": "21分钟前",
+    "ts": "2026-07-04T21:51:09+00:00",
+    "url": "https://github.com/openai/codex/issues/30364",
+    "image": "",
+    "stocks": []
+  },
+  {
     "id": "833f4202db7e3761",
     "title": "谷歌新广告畅想：AI辅助起草《独立宣言》",
     "summary": "谷歌发布一则新广告，设想美国开国元勋借助Google Workspace和AI工具协作起草《独立宣言》，展示其在办公协作场景中的AI应用。",
