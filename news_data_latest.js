@@ -64,6 +64,25 @@ const newsData = [
     ]
   },
   {
+    "id": "1ebf93c6041682e7",
+    "title": "AirDrop与Quick Share协议安全漏洞研究",
+    "summary": "安全研究人员针对苹果AirDrop及三星/谷歌Quick Share文件传输协议开展漏洞研究，揭示了近场无线分享场景下的协议安全风险，引发对零点击攻击与隐私泄露的关注。",
+    "body": "据外媒报道，一项题为“Protocol Prying: Vulnerability Research in AirDrop and Quick Share”的研究聚焦于苹果AirDrop及三星/谷歌Quick Share两大近场文件分享协议，分析其握手、认证与数据传输机制中可能存在的安全问题。该研究属于协议层安全分析，旨在发现潜在的漏洞与隐私风险。\n\nAirDrop与Quick Share被广泛应用于手机、平板等设备间快速交换文件，研究其协议缺陷有助于理解零点击或近距离攻击面。相关发现通常会推动厂商发布补丁、修复漏洞，并提醒用户在公共场所谨慎开启可见性。\n\n此类研究对移动生态安全具有警示意义，凸显了消费级无线协议在设计与实现中需持续加强安全审查，也进一步提升了市场对网络安全与终端隐私保护的重视。",
+    "category": "网络安全",
+    "tags": [
+      "网络安全",
+      "漏洞研究",
+      "AirDrop",
+      "Quick Share"
+    ],
+    "source": "Hacker News",
+    "time": "1小时前",
+    "ts": "2026-07-04T20:38:39+00:00",
+    "url": "https://arxiv.org/abs/2606.26967",
+    "image": "",
+    "stocks": []
+  },
+  {
     "id": "5feaf1f732818d88",
     "title": "更好的模型，更差的工具",
     "summary": "一篇来自 Hacker News 的文章指出，人工智能模型能力持续提升，但相关工具与生态可能正在退步。",
@@ -115178,6 +115197,12 @@ const newsData = [
   }
 ];
 const newsDigest = {
-  "text": "",
-  "highlights": []
+  "text": "今日科技前沿聚焦AI模型效率隐忧与初级程序员就业承压，AirDrop/Quick Share安全漏洞引关注，商业航天领域薇拉·鲁宾天文台启幕十年巡天，特斯拉Robotaxi落地迈阿密。",
+  "highlights": [
+    "7e9ffc3a6038f105",
+    "944998d16f3d4dde",
+    "1ebf93c6041682e7",
+    "ac1081ecb90307c0",
+    "5650e791c3c81576"
+  ]
 };
