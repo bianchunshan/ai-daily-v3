@@ -19,6 +19,25 @@ const newsData = [
     "stocks": []
   },
   {
+    "id": "b8efcc3f3d664e47",
+    "title": "YouTube创作者私密视频遭泄露",
+    "summary": "有消息称 YouTube 平台可能存在漏洞，导致创作者设置为私密的视频被泄露，引发对用户隐私与平台数据安全的关注。",
+    "body": "据外媒报道，YouTube 创作者设为私密的视频疑似出现泄露情况，具体情况和漏洞成因尚待官方进一步披露。若属实，这不仅威胁到内容创作者的个人隐私与商业机密，也可能影响用户对平台的信任。\n\n私密视频泄露事件再次凸显大型内容平台在访问控制、权限验证和数据保护方面面临的安全挑战。市场或将关注 Alphabet 旗下 YouTube 的后续回应以及网络安全防护需求是否上升。",
+    "category": "网络安全",
+    "tags": [
+      "网络安全",
+      "隐私保护",
+      "YouTube",
+      "数据泄露"
+    ],
+    "source": "Hacker News",
+    "time": "26分钟前",
+    "ts": "2026-07-04T16:45:10+00:00",
+    "url": "https://javoriuski.com/post/youtube",
+    "image": "",
+    "stocks": []
+  },
+  {
     "id": "760704587ffa2454",
     "title": "阿里巴巴 reportedly 禁止员工使用 Claude Code",
     "summary": "据报道，阿里巴巴已将Claude Code列为高风险软件并禁止员工使用，反映出大型科技企业对外部AI工具安全风险的审慎态度。",
