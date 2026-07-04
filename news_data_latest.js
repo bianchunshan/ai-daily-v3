@@ -1,5 +1,24 @@
 const newsData = [
   {
+    "id": "0bc7a0fbad3ec669",
+    "title": "NASA紧急委托Katalyst阻止Swift天文台坠毁",
+    "summary": "NASA委托太空服务公司Katalyst Space Technologies，由其Link航天器执行紧急轨道提升任务，以挽救可能在今年坠入大气层的Swift天文台。",
+    "body": "NASA的Swift天文台于2004年发射升空，用于观测宇宙中的伽马射线暴等高能现象。然而，近期强烈的太阳风暴使其轨道显著降低，最快可能在今年内再入地球大气层并烧毁。为延缓其陨落，NASA紧急与商业航天公司Katalyst Space Technologies合作，该公司的Link航天器已于上周五发射，计划与Swift交会并尝试提升其轨道。\n\n这次任务属于新兴的“在轨服务”领域，即由商业航天器为老化的卫星或科学平台提供延寿、维修或轨道维持服务。若成功，将为未来商业航天器拯救高价值在轨资产提供重要验证。\n\n不过，Katalyst Space Technologies为非上市公司，目前尚无直接受益的公开交易标的；该事件更多体现商业航天在太空资产延寿领域的应用前景。",
+    "category": "商业航天",
+    "tags": [
+      "在轨服务",
+      "卫星延寿",
+      "NASA",
+      "商业航天"
+    ],
+    "source": "The Verge",
+    "time": "15分钟前",
+    "ts": "2026-07-04T15:06:27-04:00",
+    "url": "https://www.theverge.com/science/961459/nasa-emergency-save-swift-observatory-katalyst-space-technologies",
+    "image": "",
+    "stocks": []
+  },
+  {
     "id": "d307a3d6a7526fe4",
     "title": "智能手表结合AI或可预警疾病早期征兆",
     "summary": "可穿戴设备擅长发现用户日常生理指标的异常偏离，这些异常模式可能提示需要进一步就医检查。",
