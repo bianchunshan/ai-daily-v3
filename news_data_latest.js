@@ -1,5 +1,50 @@
 const newsData = [
   {
+    "id": "292be4f208e299b5",
+    "title": "苹果隐藏功能让iPhone变身儿童“傻瓜手机”",
+    "summary": "苹果为认知障碍用户设计的辅助功能被发现同样适合作为儿童手机设置，可简化iPhone界面并限制应用，成为家长眼中的“傻瓜手机”新方案。",
+    "body": "据《Wired》报道，苹果在其iPhone中内置了一项面向认知障碍用户的辅助功能，但作者意外发现，这一设置也极为适合儿童使用，可将iPhone转变为一款界面精简、功能受限的“傻瓜手机”。\n\n该功能并非专门为儿童设计，却能让家长更精细地控制孩子可访问的应用和内容，从而减少智能手机带来的过度屏幕时间与分心问题。文章指出，这一用途目前鲜为人知，甚至连苹果自身也未曾大力宣传。\n\n若这一“隐藏”用法得到普及，有望提升iPhone在家庭及儿童用户市场的吸引力，并为苹果在青少年数字健康领域提供差异化卖点。",
+    "category": "消费电子",
+    "tags": [
+      "苹果",
+      "iPhone",
+      "儿童手机",
+      "数字健康"
+    ],
+    "source": "Wired",
+    "time": "4分钟前",
+    "ts": "2026-07-04T10:30:00+00:00",
+    "url": "https://www.wired.com/story/this-buried-apple-feature-turns-an-iphone-into-the-perfect-kids-dumb-phone/",
+    "image": "https://media.wired.com/photos/6a464811cdac8962d86f5c0f/master/pass/070226_iPhone-Dum-Phone-GIF.gif",
+    "stocks": [
+      {
+        "name": "苹果公司",
+        "ticker": "AAPL",
+        "reason": "该功能有望增强iPhone在家庭及儿童用户中的吸引力，带动硬件与服务生态需求。",
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
+    "id": "20b82550155aa125",
+    "title": "苹果“隐藏邮件地址”被指未能真正隐藏邮箱",
+    "summary": "据Wired报道，苹果iCloud+的“隐藏邮件地址”服务存在缺陷，未能有效隐匿用户真实邮箱；同期一名疑似Scattered Spider黑客成员被引渡，车牌识别系统出现多起误判，印度官员亦对WhatsApp用户名功能表示担忧。",
+    "body": "Wired安全综述指出，苹果公司为iCloud+用户提供的“隐藏邮件地址”服务在部分场景下未能真正隐藏用户的真实邮箱地址，引发隐私保护争议。该功能旨在通过生成随机转发地址来减少个人信息暴露，但相关缺陷可能削弱其保护效果。\n\n同周其他安全动态包括：一名涉嫌隶属于Scattered Spider黑客组织的成员被引渡；多地车牌识别系统出现数十起识别错误；印度官方对WhatsApp推出用户名功能可能带来的隐私与监管风险表示关切。\n\n这些事件集中反映了云服务、身份认证、加密通信和公共安全技术中仍存的隐私与安全隐患，相关科技公司面临的合规与安全审查压力或将上升。",
+    "category": "网络安全",
+    "tags": [
+      "网络安全",
+      "隐私保护",
+      "苹果",
+      "WhatsApp"
+    ],
+    "source": "Wired",
+    "time": "4分钟前",
+    "ts": "2026-07-04T10:30:00+00:00",
+    "url": "https://www.wired.com/story/security-roundup-apples-hide-my-email-service-fails-to-hide-your-email/",
+    "image": "https://media.wired.com/photos/6a459c14043fba997ea26852/master/pass/security_roudnup_GettyImages-1157988186.jpg",
+    "stocks": []
+  },
+  {
     "id": "ffc05bc10137afb2",
     "title": "方程豹钛7 EV闪充版四驱车型本周开启交付",
     "summary": "比亚迪方程豹事业部总经理熊甜波宣布，钛7 EV闪充版四驱车型本周已全面开启交付，当前全链条正全力冲刺提升产能，保障用户交付。",
