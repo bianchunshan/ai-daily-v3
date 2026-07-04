@@ -1,5 +1,50 @@
 const newsData = [
   {
+    "id": "6108907dc1deb400",
+    "title": "微软重构Copilot：合并应用并新增AutoPilot智能体",
+    "summary": "据The Information披露的内部备忘录，微软计划8月发布全面升级后的Copilot，将消费者版与企业版合并为单一产品，并新增AutoPilot智能体以处理日程、邮件摘要等任务，同时精简Podcasts、Labs等冗余功能。",
+    "body": "报道称，微软执行副总裁Jacob Andreou在备忘录中表示，团队已移除Copilot Podcasts、Copilot Labs等“无效部分”，并将面向消费者与企业的Copilot应用整合为一个统一产品，预计于今年8月推出。新版本将加入AI编程工具，并引入名为AutoPilot的新型AI智能体，可在后台自动处理日程安排、邮件摘要等办公任务。\n\n此次重构旨在让Copilot聚焦真实工作场景，以结果为导向，突出其区别于其他AI助手的独有价值。若升级顺利落地，有望提升Copilot的用户黏性与企业订阅转化，进一步巩固微软在AI生产力工具市场的领先地位。",
+    "category": "人工智能",
+    "tags": [
+      "微软",
+      "Copilot",
+      "AI智能体",
+      "AI应用"
+    ],
+    "source": "IT之家",
+    "time": "3分钟前",
+    "ts": "2026-07-04T06:06:23+00:00",
+    "url": "https://www.ithome.com/0/972/542.htm",
+    "image": "https://img.ithome.com/newsuploadfiles/2026/7/ee995b8a-6f98-48fc-b5af-f0a19a36634c.png?x-bce-process=image/format,f_auto",
+    "stocks": [
+      {
+        "name": "微软",
+        "ticker": "MSFT",
+        "reason": "Copilot是微软核心AI产品线，重构升级有望推动订阅增长和企业用户渗透。",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "d31ec549f6ccf6e8",
+    "title": "宇树陈立：具身智能“ChatGPT时刻”需达成两个80%",
+    "summary": "宇树科技联合创始人陈立判断，智能机器人行业将在未来两到五年迎来突破，具身智能真正迎来“ChatGPT时刻”的标志是在80%的陌生场景中，机器人能通过语音或文字指令完成约80%的任务。",
+    "body": "2026亚布力论坛创新年会今日在上海举行。宇树科技股份有限公司联合创始人陈立在会上表示，智能机器人行业有望在未来两到五年实现关键突破，并指出行业突破有三大核心要点：一是统一的端到端机器人大模型，这是最关键的核心；二是成本更低、寿命更长的硬件，以及超大规模批量化生产，使硬件边际成本大幅下降；三是低成本、规模化的算力，借助分布式算力解决端侧续航、散热、成本以及云端延时等痛点，例如楼宇专属AI算力基站可为机器人和智能设备提供算力支撑。\n\n陈立认为，具身智能“ChatGPT时刻”的核心标志可归纳为“两个80%”：即在80%的陌生场景中，机器人通过语音或文字指令能够顺利完成约80%的任务。他预测，到2030年，具身智能机器人将引领全新消费浪潮，并显著推动社会生产力与劳动力结构的升级。",
+    "category": "机器人",
+    "tags": [
+      "具身智能",
+      "机器人",
+      "宇树科技",
+      "人形机器人"
+    ],
+    "source": "IT之家",
+    "time": "5分钟前",
+    "ts": "2026-07-04T06:04:16+00:00",
+    "url": "https://www.ithome.com/0/972/540.htm",
+    "image": "https://img.ithome.com/newsuploadfiles/2026/7/b7e95c0c-e5d3-4a19-9add-7f5e88d5b019.png?x-bce-process=image/format,f_auto",
+    "stocks": []
+  },
+  {
     "id": "09880bdd26bd7daf",
     "title": "Anthropic最强抓虫AI推升高危漏洞报告数创新高",
     "summary": "网络安全公司Epoch AI报告显示，2026年6月21家机构报告约1500个高危与关键漏洞，为此前月度最高纪录的3.5倍以上。这一激增趋势与Anthropic 4月发布的Claude Mythos Preview抓虫模型密切相关。",
