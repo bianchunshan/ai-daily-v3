@@ -166,6 +166,13 @@
       ' onclick="event.stopPropagation();event.preventDefault();location.href=\'' + href + '\'">📈 ' + label + '</span>';
   }
 
+  // PWA:注册 Service Worker(https 或 localhost 下生效),支持添加到主屏幕与离线回看
+  if ('serviceWorker' in navigator) {
+    global.addEventListener('load', function () {
+      navigator.serviceWorker.register('sw.js').catch(function () {});
+    });
+  }
+
   global.AID = {
     catMeta: catMeta, coverHTML: coverHTML, heat: heat, comments: comments,
     esc: esc, getParam: getParam, initTheme: initTheme, toggleTheme: toggleTheme,

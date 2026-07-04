@@ -82,6 +82,25 @@ fetch_rss.py 抓多路中外科技 RSS/AIHOT 源
 - 如使用普通 Moonshot OpenAI-compatible API,设 `KIMI_API_STYLE=openai`、`MOONSHOT_API_KEY`;API base 默认 `https://api.moonshot.ai/v1`,中国区可设 `KIMI_BASE_URL=https://api.moonshot.cn/v1`。
 - 防刷:端点默认公开(有限流);在 Vercel 设 `CHAT_TOKEN` 后,请求必须带 `x-chat-token` 头(适合私有部署;注意公开网页无法安全携带该口令)。
 
+## 移动端(App / PWA)
+
+站点已是可安装的 PWA(`manifest.webmanifest` + `sw.js`,支持离线回看),`mobile/` 下另有 Capacitor 原生壳工程(WebView 加载线上站点)。
+
+**iPhone(免上架、零成本,推荐)**:Safari 打开站点 → 分享 → 「添加到主屏幕」,即得全屏、带图标的类 App 体验。
+
+**安卓**:
+- 方式一:Chrome 打开站点 → 菜单 → 「安装应用」(PWA)。
+- 方式二:直接安装 APK(设置里允许「安装未知应用」)。本地构建:
+  ```bash
+  cd mobile && npm install && npx cap sync android
+  cd android && ./gradlew assembleDebug     # 产物在 app/build/outputs/apk/debug/
+  ```
+  需要 JDK 17+ 与 Android SDK(`local.properties` 里配 `sdk.dir`)。release 版用自己的 keystore 通过 `-Pandroid.injected.signing.*` 参数签名。
+
+**iOS 原生壳(需要 Mac)**:`cd mobile && npx cap open ios`,Xcode 里用免费 Apple ID 个人签名(Signing & Capabilities → 选自己的 Team),连接 iPhone 直接安装(免开发者年费,签名 7 天有效期,到期重新点一次安装;或用 AltStore 自动续签)。
+
+说明:壳应用加载 `mobile/capacitor.config.json` 里 `server.url` 指向的线上站点,站点更新后 App 内容自动更新,无需重新打包。
+
 ## 部署 / Secrets
 
 - GitHub→Vercel 自动部署未接通,由 `deploy-site.yml` 每 30 分钟 `vercel --prod` 部署代码 + 数据。

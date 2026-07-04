@@ -1,0 +1,15 @@
+{
+  "appId": "com.aidaily.app",
+  "appName": "前沿日报",
+  "webDir": "www",
+  "server": {
+    "url": "https://ai-daily-v3.vercel.app",
+    "androidScheme": "https"
+  },
+  "android": {
+    "allowMixedContent": false
+  },
+  "ios": {
+    "contentInset": "automatic"
+  }
+}
