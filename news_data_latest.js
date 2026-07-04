@@ -1,5 +1,24 @@
 const newsData = [
   {
+    "id": "820e4304fc694478",
+    "title": "NASA发射救援Swift天文台任务",
+    "summary": "NASA已成功与为Swift Boost任务制造的机器人航天器LINK取得联系，该任务旨在拯救轨道高度不断下降的Swift伽马射线暴观测台。",
+    "body": "NASA宣布，旨在救援轨道高度正在衰减的Swift伽马射线暴观测台的Swift Boost任务已正式启动，并已成功与名为LINK的机器人航天器建立联系。Swift天文台自2004年发射以来持续监测宇宙中的伽马射线暴，为高能天体物理研究作出了重要贡献，但因轨道衰减面临再入大气层烧毁的风险。\n\n此次任务如果成功，将有望显著延长Swift的科学寿命，并继续支持多信使天文学观测。同时，这一在轨服务与延寿尝试也将为未来的卫星维护、太空碎片管理和商业在轨服务技术积累宝贵经验。",
+    "category": "商业航天",
+    "tags": [
+      "NASA",
+      "Swift天文台",
+      "空间任务",
+      "在轨服务"
+    ],
+    "source": "Engadget",
+    "time": "10分钟前",
+    "ts": "2026-07-04T16:00:37+00:00",
+    "url": "https://www.engadget.com/2207959/nasa-boost-mission-rescue-falling-swift-observatory-launched/",
+    "image": "https://www.engadget.com/img/gallery/nasa-mission-to-rescue-the-falling-swift-observatory-has-launched/l-intro-1783180769.jpg",
+    "stocks": []
+  },
+  {
     "id": "1c046554877efb1a",
     "title": "Mistral AI：OpenAI的开源模型劲敌",
     "summary": "Mistral AI成立于2023年，提供部分开源AI模型，并以“让前沿AI人人可用”为目标，是OpenAI的重要竞争者之一。",
@@ -114683,12 +114702,6 @@ const newsData = [
   }
 ];
 const newsDigest = {
-  "text": "今日科技前沿：Mistral AI崛起挑战OpenAI，苹果新Siri秋季仅限部分iPhone；中国海水淡化日产破300万吨，宁德/蔚来换电布局提速；垣信千帆组网达218颗，澜起MRDIMM量产试用。",
-  "highlights": [
-    "1c046554877efb1a",
-    "eaa9046d36c0e5e0",
-    "265edd94a9e6b5b1",
-    "87908b30b4cc7615",
-    "eeb27f1cf8cade59"
-  ]
+  "text": "",
+  "highlights": []
 };
