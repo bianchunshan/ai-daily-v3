@@ -1,5 +1,43 @@
 const newsData = [
   {
+    "id": "d9a470f2efe67435",
+    "title": "玩家将游戏PC藏进客厅风扇：3D打印支架+塔扇散热",
+    "summary": "硬件爱好者Zac Builds把AtomMan G7 PT迷你主机拆解后，用3D打印支架固定到Dreo 519S塔扇背部，实现“隐身”客厅主机并借助塔扇气流强化散热。",
+    "body": "据Tom's Hardware报道，硬件改装爱好者Zac Builds在社交平台分享了一项创意DIY：将一台AtomMan G7 PT迷你游戏主机拆机，测量尺寸后3D打印出底座与四个重型支架，把主板等核心部件固定在Dreo 519S塔扇背面，并用3D打印外壳保护组件、引导气流。该塔扇最高风速可达每秒28英尺，能在帮助迷你主机散热的同时降低其内置风扇转速。这一改装不仅实现了客厅环境中的“隐藏式”主机方案，也展示了3D打印与消费级散热设备在个性化PC改造中的潜力，但目前仍属于个人项目，尚无商业化迹象。",
+    "category": "消费电子",
+    "tags": [
+      "游戏电脑",
+      "3D打印",
+      "散热改装",
+      "迷你主机"
+    ],
+    "source": "Tom's Hardware",
+    "time": "11分钟前",
+    "ts": "2026-07-04T11:00:00+00:00",
+    "url": "https://www.tomshardware.com/3d-printing/enthusiast-hides-gaming-pc-inside-living-room-fan-using-3d-printed-parts-disassembled-atomman-g7-cooled-by-dreo-tower-fan-that-shifts-air-at-28-feet-per-second",
+    "image": "https://cdn.mos.cms.futurecdn.net/zEPKUjjsXqVQBDU4k88MPV-1280-80.png",
+    "stocks": []
+  },
+  {
+    "id": "8b8354355f808dc4",
+    "title": "初创公司发布全球首款3D打印钍核反应堆模块供AI数据中心",
+    "summary": "核能初创企业Ampera发布了首个全尺寸3D打印核反应堆模块，宣称这是全球首款次临界、固态、工厂制造的钍核反应堆，可用于为AI数据中心供电。",
+    "body": "美国核能初创公司Ampera近日发布了其首个全尺寸3D打印核反应堆模块，宣称这是\"全球首款次临界、固态、工厂制造的钍核反应堆\"，可用于为AI数据中心供电。该反应堆模块属于Ampera综合能源架构的一部分，可与余热回收模块或传统燃料发电模块配套使用。\n\n据介绍，\"次临界\"意味着该反应堆燃料无法自行达到临界状态，需要外部中子源维持核反应。公司创始人兼首席执行官Brian Matthews表示，这一下一代核芯和压力容器为工厂化、大规模生产的核能奠定了基础，所采用的先进技术和增材制造展示了新型核技术加速商业化的清晰路径。\n\n该项目凸显了AI数据中心快速扩张带来的电力需求正推动核能成为受关注的基荷能源解决方案之一。若该技术未来能够实现规模化部署，或将为高密度算力设施提供低碳、稳定的能源供应，但目前仍处于技术展示阶段，商业化落地时间尚不明确。",
+    "category": "未来能源",
+    "tags": [
+      "核能",
+      "3D打印",
+      "AI数据中心",
+      "钍基反应堆"
+    ],
+    "source": "Tom's Hardware",
+    "time": "11分钟前",
+    "ts": "2026-07-04T11:00:00+00:00",
+    "url": "https://www.tomshardware.com/3d-printing/startup-unveils-3d-printed-nuclear-reactor-module-to-power-ai-data-centers-touted-as-the-worlds-first-subcritical-solid-state-factory-built-thorium-nuclear-reactor",
+    "image": "https://cdn.mos.cms.futurecdn.net/JBwe5tYq5MsT2GxEcvNJTZ-1280-80.png",
+    "stocks": []
+  },
+  {
     "id": "8ad3c7c815a0876e",
     "title": "宇树科技陈立：关节电机上游仅原材料商，完全自主可控",
     "summary": "宇树科技联合创始人陈立表示，公司关节电机上游仅铜线、磁铁等原材料供应商，核心零部件完全自研自产，四足机器人出货量行业占比约70%。",
