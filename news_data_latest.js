@@ -1,5 +1,31 @@
 const newsData = [
   {
+    "id": "eaa9046d36c0e5e0",
+    "title": "今年秋季新Siri AI仅支持部分iPhone机型",
+    "summary": "苹果计划今年秋季在部分iPhone机型上推出新版Siri AI功能，旧款设备因硬件能力限制将被排除在外。",
+    "body": "据报道，苹果将于今年秋季为部分iPhone机型带来新一代Siri AI能力，用户有望获得更自然的语音交互和上下文理解体验。然而，该功能对设备算力要求较高，因此并非所有iPhone都能升级。\n\n兼容限制意味着苹果正通过软件功能差异推动用户更换新机，这可能影响秋季iPhone的销售结构。具体支持机型名单预计将在秋季发布会或iOS更新说明中正式公布。",
+    "category": "人工智能",
+    "tags": [
+      "苹果",
+      "Siri",
+      "iPhone",
+      "人工智能"
+    ],
+    "source": "Engadget",
+    "time": "3分钟前",
+    "ts": "2026-07-04T15:30:00+00:00",
+    "url": "https://www.engadget.com/2206159/iphone-models-getting-new-siri-ai/",
+    "image": "https://www.engadget.com/img/gallery/only-these-iphone-models-are-getting-the-new-siri-ai-this-fall/l-intro-1782923551.jpg",
+    "stocks": [
+      {
+        "name": "苹果公司",
+        "ticker": "AAPL",
+        "reason": "新版Siri AI是苹果AI生态落地的核心功能，有望带动新机升级与服务活跃度提升",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
     "id": "87908b30b4cc7615",
     "title": "垣信卫星千帆组网卫星增至218颗",
     "summary": "7月4日，长征六号改运载火箭成功将千帆极轨13组18颗低轨宽带卫星送入预定轨道，千帆组网在轨卫星数量增至218颗。",
@@ -114581,6 +114607,12 @@ const newsData = [
   }
 ];
 const newsDigest = {
-  "text": "",
-  "highlights": []
+  "text": "今日科技前沿聚焦：苹果新Siri AI仅限部分iPhone；垣信千帆组网卫星增至218颗；澜起MRDIMM第二子代规模试用；宁德时代换电站破2000座；小鹏称中国辅助驾驶全球领先并加速出海。",
+  "highlights": [
+    "eaa9046d36c0e5e0",
+    "87908b30b4cc7615",
+    "eeb27f1cf8cade59",
+    "c634c7cb9e7f384c",
+    "faee17cbb5636570"
+  ]
 };
