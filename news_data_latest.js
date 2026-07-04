@@ -1,5 +1,24 @@
 const newsData = [
   {
+    "id": "ffeac28ee063c685",
+    "title": "Avride为配送机器人引入云端VLM增强环境感知",
+    "summary": "Avride将重型云端视觉语言模型（VLM）接入配送机器人系统，作为“VLM-watcher”提供更高层次的环境理解与情境判断，弥补本地感知在复杂、敏感场景下的不足。",
+    "body": "Avride的配送机器人已在城市街道高度自主运行，依靠车载计算单元处理传感器数据，能够识别行人、自行车、儿童、轮椅和紧急车辆等目标。然而，面对异常、敏感或高风险的城市场景，仅检测单个物体还不够，机器人需要整体情境理解来判断如何恰当行动。\n\n为此，Avride引入云端视觉语言模型（VLM）作为自动化的“VLM-watcher”，在本地感知栈之外增加一层主动的环境意识。这一方案实现了从物体检测到整体场景理解的跃升，有望在复杂、边缘情况下提升机器人的安全性与行为适当性。",
+    "category": "机器人",
+    "tags": [
+      "配送机器人",
+      "视觉语言模型",
+      "自动驾驶",
+      "具身智能"
+    ],
+    "source": "The Robot Report",
+    "time": "10分钟前",
+    "ts": "2026-07-04T12:30:37+00:00",
+    "url": "https://www.therobotreport.com/how-avride-uses-cloud-vlms-safety-net-delivery-robots/",
+    "image": "https://www.therobotreport.com/wp-content/uploads/2026/07/Avride_robot_Arlington-1024x576.png",
+    "stocks": []
+  },
+  {
     "id": "2f2c044b7cc94de1",
     "title": "英格兰肥胖率升至30%，贫富分化显著",
     "summary": "一项覆盖5500万成人的分析显示，英格兰成人肥胖率从2019年的26%升至2025年的30%，但不同收入群体的增幅差异明显。",
