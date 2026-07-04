@@ -1,5 +1,24 @@
 const newsData = [
   {
+    "id": "ebd5fbfc26cc79f5",
+    "title": "印度AI岗位招聘逆势增长，增速领跑IT行业",
+    "summary": "6月印度AI岗位招聘量同比增长16%，而整体IT岗位下降3%。Naukri调查显示，IT企业正加速向AI转型，将资源投向新业务能力建设。",
+    "body": "据招聘平台Naukri发布的JobSpeak报告，6月印度AI相关岗位招聘量同比增长16%，明显跑赢IT行业整体水平，而同期IT岗位招聘量下降3%。该报告汇总了平台上超过15万家公司的招聘信息；在Naukri覆盖的14个行业中，AI与机器学习岗位招聘量整体增长25%。这一现象反映出印度IT企业在技术快速迭代背景下，正把更多资源转向新业务与新能力建设。\n印度IT产业规模约为3150亿美元，但宏观经济疲软导致客户削减技术支出，AI兴起又冲击传统商业模式，行业持续承压。印度最大软件出口商塔塔咨询服务公司（TCS）上月预计IT企业招聘速度将放缓，并计划调整人员结构，最终让员工与AI智能体数量大致相当；该公司在去年7月裁减超过1.2万个岗位，截至2026年3月的财年员工总数净减少超过2.3万人。\nNaukri母公司Info Edge首席执行官希特什·奥贝罗伊表示，AI岗位与整体IT岗位招聘走势分化，说明科技企业仍愿意在部分领域加大投入。在招聘需求转向更资深、更专业人才的情况下，AI正逐渐成为企业的核心能力，标志着印度IT业从传统外包向AI驱动服务转型的深化。",
+    "category": "人工智能",
+    "tags": [
+      "印度IT",
+      "AI招聘",
+      "人才结构",
+      "塔塔咨询"
+    ],
+    "source": "IT之家",
+    "time": "2分钟前",
+    "ts": "2026-07-04T00:16:26+00:00",
+    "url": "https://www.ithome.com/0/972/481.htm",
+    "image": "https://img.ithome.com/newsuploadfiles/2026/7/0b6dc1f7-8d4e-4568-b2fa-8a98539e043a.jpg?x-bce-process=image/watermark,text_QUnnlJ_miJA,type_RlpMYW5UaW5nSGVpU0JHQg==,size_28,color_ffffffdd,skw_1,skc_00000051,g_7,blr_50,bls_50,x_11,y_11/format,f_auto",
+    "stocks": []
+  },
+  {
     "id": "2bd51877b1f1370b",
     "title": "System76预告Adder Pro 15.3笔记本：搭载酷睿Ultra 7 356H与RTX 5070",
     "summary": "美国电脑厂商System76即将推出新一代Adder Pro 15.3笔记本，搭载英特尔Panther Lake平台与英伟达RTX 50系显卡，定位高性能移动工作站。",
