@@ -19,6 +19,24 @@ const newsData = [
     "stocks": []
   },
   {
+    "id": "c6444be85c4152e9",
+    "title": "Agentic 编程实践笔记",
+    "summary": "Hacker News 上出现一篇题为“来自加拉帕戈斯群岛的 Agentic 编程笔记”的帖子，涉及 AI Agent 在代码生成与软件开发中的应用观察。",
+    "body": "该材料仅包含 Hacker News 上一条标题及基本互动数据，未提供正文内容。标题中的“Agentic coding”指向由 AI Agent 主导或协作的编程模式，是当前生成式人工智能在软件工程领域的重要探索方向。由于信息有限，无法判断具体技术方案、项目细节或商业影响，仅能从主题层面反映 AI Agent 对开发者工作流的持续渗透。",
+    "category": "人工智能",
+    "tags": [
+      "AI Agent",
+      "智能体编程",
+      "软件开发"
+    ],
+    "source": "Hacker News",
+    "time": "22分钟前",
+    "ts": "2026-07-04T04:37:15+00:00",
+    "url": "https://danluu.com/ai-coding/#appendix-agentic-loops-and-writing-this-post",
+    "image": "",
+    "stocks": []
+  },
+  {
     "id": "2cb8a655464c70e7",
     "title": "印度政府调查苹果手机供应链数据泄露事件",
     "summary": "印度电子和信息技术部首次就塔塔电子大规模数据泄露事件发声，称已上报计算机应急响应小组展开调查。泄露数据涉及未发布的iPhone 18 Pro零部件供应链信息和测试素材。",
