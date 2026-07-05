@@ -1,5 +1,57 @@
 const newsData = [
   {
+    "id": "df822b47150b9e34",
+    "title": "美的酷省电2代空调升级搭载华为海思芯片",
+    "summary": "美的酷省电2代1.5匹空调升级搭载华为海思芯片，国补叠加以旧换新后到手价1599元，由京东发货并提供美的官方6年质保。",
+    "body": "美的酷省电2代大1.5匹空调KFR-35GW/N8KS1-1升级搭载华为海思芯片，日常大促价2099元，京东旗舰店在国补叠加以旧换新后到手价低至1599元。产品由京东发货，并享受美的官方6年质保。此次芯片升级意味着国产半导体进一步渗透至智能家居核心控制环节，也反映出家电厂商在能效与智能化上的持续投入；补贴后1599元的定价或将加剧1.5匹变频空调市场的价格竞争。",
+    "category": "消费电子",
+    "tags": [
+      "智能家居",
+      "华为海思",
+      "美的空调",
+      "国补"
+    ],
+    "source": "IT之家",
+    "time": "9分钟前",
+    "ts": "2026-07-05T10:36:04+00:00",
+    "url": "https://www.ithome.com/0/972/821.htm",
+    "image": "https://img14.360buyimg.com/pop/jfs/t1/427739/1/4065/2180408/69f06024F12911e0f/00835a05a0521f28.png",
+    "stocks": [
+      {
+        "name": "美的集团",
+        "ticker": "000333.SZ",
+        "reason": "该款空调为美的旗下主力产品，搭载华为海思芯片并参与国补促销，有望带动销量与品牌曝光。",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "8d0a70db696b4b12",
+    "title": "Wired评测TCL 85英寸RGB-Mini LED旗舰电视RM9L",
+    "summary": "Wired发布TCL 2026款RGB-Mini LED电视RM9L评测，认为这款85英寸巨屏可定制性高，但售价令人咋舌。",
+    "body": "科技媒体Wired近日评测了TCL 2026款RGB-Mini LED电视RM9L。该机型尺寸高达85英寸，具备高度可定制的设置选项，但在高端定位下价格同样惊人。作为TCL在Mini LED显示技术上的新旗舰，RM9L体现了电视厂商在超大尺寸与画质调校上的持续突破，同时也反映出高端Mini LED电视仍属高溢价市场。",
+    "category": "消费电子",
+    "tags": [
+      "TCL",
+      "Mini LED",
+      "电视评测",
+      "RGB背光"
+    ],
+    "source": "Wired",
+    "time": "11分钟前",
+    "ts": "2026-07-05T10:34:00+00:00",
+    "url": "https://www.wired.com/review/tcl-rm9l/",
+    "image": "https://media.wired.com/photos/6a47e564859a99ea1a378dc1/master/pass/Review--TCL-RM9L-RGB-Mini-LED-Smart-TV.jpg",
+    "stocks": [
+      {
+        "name": "TCL电子",
+        "ticker": "1070.HK",
+        "reason": "RM9L为TCL高端Mini LED电视新品，评测热度或强化其旗舰电视品牌形象。",
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
     "id": "14efcd7db0ca729a",
     "title": "国家税务总局：前5个月具身智能企业销售收入同比增长22.4%",
     "summary": "国家税务总局最新税收数据显示，今年1月至5月我国具身智能产业企业销售收入同比增长22.4%，工业企业购进具身智能机器人总金额同比增长2.3倍，产业对下游软件与信息技术服务、科研技术服务的收入占比明显提升。",
