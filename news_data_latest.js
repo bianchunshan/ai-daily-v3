@@ -1,5 +1,31 @@
 const newsData = [
   {
+    "id": "377fb68a7be02d1f",
+    "title": "欧洲航天局选定空客研制Aeolus-2风场监测卫星",
+    "summary": "欧洲航天局已选定空客防务与航天公司，启动Aeolus-2风场监测卫星的研制工作。Aeolus-2将接替Aeolus卫星，继续从太空监测全球风速与风向。",
+    "body": "欧洲航天局（ESA）已选择空客防务与航天公司（Airbus Defence and Space），着手研制Aeolus-2风场监测卫星。Aeolus-2是Aeolus卫星的继任者，旨在延续并升级从太空对全球风场进行观测的能力。\n\n风场数据对数值天气预报和气候变化研究具有重要价值。Aeolus-2项目的推进，将有助于欧洲维持自主、连续的空间风场监测能力，并提升相关气象与科研数据的质量和覆盖范围。\n\n对于空客而言，该订单进一步巩固了其在商业航天及地球观测卫星制造领域的地位，也体现了欧洲在关键空间基础设施方面持续投入的决心。",
+    "category": "商业航天",
+    "tags": [
+      "商业航天",
+      "卫星",
+      "空客",
+      "欧洲航天局"
+    ],
+    "source": "SpaceNews",
+    "time": "1分钟前",
+    "ts": "2026-07-05T15:17:47+00:00",
+    "url": "https://spacenews.com/airbus-to-build-aeolus-2-wind-monitoring-satellite/",
+    "image": "https://i0.wp.com/spacenews.com/wp-content/uploads/2026/07/aeolus2.jpeg?fit=1024%2C724&amp;ssl=1",
+    "stocks": [
+      {
+        "name": "空中客车",
+        "ticker": "AIR.PA",
+        "reason": "空客防务与航天部门获ESA Aeolus-2卫星研制订单，直接利好卫星制造业务",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
     "id": "8ef00b908d8c8b34",
     "title": "Meta将下线Llama API公共预览版",
     "summary": "Meta宣布将于2026年7月6日正式下线处于公共预览阶段的Llama API，但Llama模型本身仍可下载，用户需迁移至第三方服务商。",
