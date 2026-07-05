@@ -1,5 +1,43 @@
 const newsData = [
   {
+    "id": "1f1db6b7f4c659c0",
+    "title": "“Token工厂”硅基流动冲刺港股IPO",
+    "summary": "成立仅34个月的AI基础设施企业硅基流动已向港交所递交招股书，拟按18C章特专科技规则上市，2025年营收同比大增653%，但亏损亦显著扩大。",
+    "body": "据港交所官网文件，硅基流动于6月30日递交招股书，拟按18C章特专科技规则在港交所主板上市。招股书显示，公司2024年、2025年营收分别为735万元、5533万元，2025年同比增幅达653%；同期年内亏损分别为8192万元和3.45亿元，经调整净亏损为5401万元和1.87亿元。\n\n硅基流动成立于2023年8月，定位为全球领先的AI能力提供商，核心产品包括API服务、专属实例、企业级MaaS平台及大模型一体机等，覆盖大语言模型、文生图、视频生成等场景。受益于2025年AI应用爆发，其注册用户突破1000万，服务企业客户超1.3万家，日均Token吞吐量从2024年底的478亿次跃升至2026年4月的5785亿次，单峰突破万亿次。\n\n若成功上市，硅基流动将成为港股18C规则下又一家高成长特专科技公司，反映出资本市场对AI基础设施及大模型推理服务需求的高度关注。",
+    "category": "AI 基础设施",
+    "tags": [
+      "硅基流动",
+      "港股IPO",
+      "AI基础设施",
+      "大模型推理"
+    ],
+    "source": "IT之家",
+    "time": "4分钟前",
+    "ts": "2026-07-05T15:51:24+00:00",
+    "url": "https://www.ithome.com/0/972/866.htm",
+    "image": "https://img.ithome.com/newsuploadfiles/2026/7/30ba67ef-384e-4565-b375-c10da85271ae.jpg",
+    "stocks": []
+  },
+  {
+    "id": "d9411d615626e810",
+    "title": "极客用苏联零件复刻阿波罗磁芯存储U盘",
+    "summary": "国外创客Polymatt从旧苏联计算机上拆下磁环，手工打造出一款容量仅64比特（8字节）的USB存储设备，复活了阿波罗飞船导航计算机曾使用的磁芯存储技术。",
+    "body": "面对玩家对内存涨价的调侃，DIY社区正尝试用另类方案应对元件紧张。创客Polymatt近日发布了一款“世界上最差的U盘”：它由64个手工穿线的铁氧体磁环组成，浸在硅油中，每个磁环只存1比特，总计64比特（8字节）。该设备的核心部件来自一台报废的苏联计算机，制作过程还用到电烙铁、CNC机床以及Bambu Lab A2L 3D打印机。",
+    "category": "半导体与先进制造",
+    "tags": [
+      "DIY存储",
+      "磁芯存储器",
+      "复古计算",
+      "硬件DIY"
+    ],
+    "source": "Tom's Hardware",
+    "time": "5分钟前",
+    "ts": "2026-07-05T15:50:00+00:00",
+    "url": "https://www.tomshardware.com/pc-components/storage/rampocalyse-pricing-prompts-maker-to-construct-his-own-memory-using-ancient-apollo-era-tech-usb-drive-resurrects-hand-threaded-magnetic-core-memory-using-salvaged-russian-computer-parts",
+    "image": "https://cdn.mos.cms.futurecdn.net/nJWGLDoa47mPF24CtJTXu6-1280-80.jpg",
+    "stocks": []
+  },
+  {
     "id": "d4c0d2fd3eacdedc",
     "title": "飓风热浪下家庭电池守护电网稳定",
     "summary": "极端天气频发使家庭电池成为维持供电的关键工具，虚拟电厂（VPP）与分布式储能获得公用事业更多投资，以增强电网在用电高峰期的稳定性。",
@@ -181,6 +219,25 @@ const newsData = [
     "ts": "2026-07-05T14:52:06+00:00",
     "url": "https://www.ithome.com/0/972/862.htm",
     "image": "https://img.ithome.com/newsuploadfiles/2026/7/f1e86a59-de38-4806-9094-f949b2c4336e.jpg",
+    "stocks": []
+  },
+  {
+    "id": "2587378649a39d5a",
+    "title": "瑞士铁路太阳能发电试验成功，欧洲或推广",
+    "summary": "瑞士已成功试验在铁路沿线安装太阳能光伏装置，这一模式有望在欧洲推广，为铁路系统提供清洁能源。",
+    "body": "据报道，瑞士完成了一项“太阳能铁路”试验，将光伏面板设置在铁路轨道旁或相关基础设施上，收集太阳能为铁路运营供电。试验结果积极，表明该技术具备规模化推广的可行性。若在欧洲普及，太阳能铁路有望降低交通领域碳排放，并提升铁路能源自给能力。",
+    "category": "未来能源",
+    "tags": [
+      "太阳能",
+      "轨道交通",
+      "清洁能源",
+      "欧洲能源"
+    ],
+    "source": "Hacker News",
+    "time": "1小时前",
+    "ts": "2026-07-05T14:49:42+00:00",
+    "url": "https://www.euronews.com/2026/07/05/italy-could-be-the-next-country-to-build-a-solar-railway-after-switzerlands-successful-tri",
+    "image": "",
     "stocks": []
   },
   {
