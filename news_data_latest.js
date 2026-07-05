@@ -1,5 +1,42 @@
 const newsData = [
   {
+    "id": "08f94042fe1e3516",
+    "title": "微星RTX 3060 12GB显卡重返新蛋，售价329.99美元",
+    "summary": "微星GeForce RTX 3060 Ventus 2X 12GB OC显卡再次在新蛋（Newegg）上架，售价329.99美元并包邮。其12GB显存可应对多数1080p游戏，也能用于本地运行部分轻量级AI模型。",
+    "body": "据Tom's Hardware报道，英伟达旧款GeForce RTX 3060显卡重返市场已成现实。微星Ventus 2X 12GB OC版本目前在新蛋以329.99美元的价格出售，并包含免费 shipping。该显卡此前一度缺货，重新上市时价格曾接近400美元。\n\n这款显卡配备12GB显存，采用双风扇散热设计，GPU加速频率为1087 MHz，并带有钢制背板以增强散热和防止PCB弯曲。接口方面提供三个DisplayPort和一个HDMI 2.1输出，在1080p分辨率下可流畅运行大多数游戏，在1440p分辨率下也有不错表现。\n\n在当前8GB显存逐渐成为游戏瓶颈的背景下，12GB显存配置具有一定吸引力。此外，较大的显存容量也使其能够用于本地运行部分大型语言模型等轻量级AI任务，兼具游戏与入门AI应用的实用性。",
+    "category": "消费电子",
+    "tags": [
+      "显卡",
+      "消费电子",
+      "游戏硬件",
+      "AI推理"
+    ],
+    "source": "Tom's Hardware",
+    "time": "8分钟前",
+    "ts": "2026-07-05T19:08:22+00:00",
+    "url": "https://www.tomshardware.com/pc-components/get-an-rtx-3060-with-12-gb-of-vram-for-just-usd329-99-at-newegg-msi-ventus-2x-oc-model-back-in-stock-with-free-shipping",
+    "image": "https://cdn.mos.cms.futurecdn.net/esDyKzmWaKR96VNBebEnVS-1280-80.png",
+    "stocks": []
+  },
+  {
+    "id": "54e97f468046c5fd",
+    "title": "AI导师在达特茅斯课程中显著提升学习效果",
+    "summary": "一项新研究显示，AI导师在达特茅斯课程中实现0.71至1.30个标准差的效果量，表明个性化AI辅导可显著改善学生学业表现。",
+    "body": "据Hacker News报道，一项针对达特茅斯课程的新研究指出，AI导师的教学效果量达到0.71至1.30个标准差，远超传统教学改进幅度。该结果表明，AI驱动的个性化辅导在高等教育场景具有显著提分潜力。若相关技术进一步规模化应用，可能对在线教育、智能辅导平台及高校教学模式产生深远影响。",
+    "category": "人工智能",
+    "tags": [
+      "AI教育",
+      "智能辅导",
+      "高等教育"
+    ],
+    "source": "Hacker News",
+    "time": "28分钟前",
+    "ts": "2026-07-05T18:47:43+00:00",
+    "url": "https://intextbooks.science.uu.nl/workshop2026/files/itb26_s1s2.pdf",
+    "image": "",
+    "stocks": []
+  },
+  {
     "id": "ef7b4943ff0f757e",
     "title": "3D电视失败启示录：体验差与烂片拖累好莱坞3D",
     "summary": "3D电视因使用体验繁琐、配套内容不足以及好莱坞大量低质3D电影而未能赢得主流消费者，最终退出市场。",
