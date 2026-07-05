@@ -1,5 +1,24 @@
 const newsData = [
   {
+    "id": "8113be29e7a3563c",
+    "title": "猫途鹰AI摘要为问题酒店生成好评引发质疑",
+    "summary": "旅游平台猫途鹰（Tripadvisor）的AI摘要功能被指为存在安全等问题的酒店生成过于正面的评价，引发对生成式AI内容真实性与可信度的担忧。",
+    "body": "据报道，Tripadvisor推出的AI摘要功能在汇总用户评价时，对部分被投诉存在安全隐患或服务质量问题的酒店仍给出了“好评如潮”式的总结。这类失实的AI摘要可能误导消费者预订决策，并损害平台信誉。事件再次凸显生成式AI在内容摘要场景中面临的“幻觉”与信息准确性挑战，也引发对在线旅游平台AI审核与合规责任的讨论。",
+    "category": "人工智能",
+    "tags": [
+      "生成式AI",
+      "AI摘要",
+      "内容安全",
+      "在线旅游"
+    ],
+    "source": "Hacker News",
+    "time": "1小时前",
+    "ts": "2026-07-05T20:09:34+00:00",
+    "url": "https://www.euronews.com/travel/2026/07/03/tripadvisor-ai-summaries-give-glowing-reviews-to-dangerous-hotels-consumer-watchdog-finds",
+    "image": "",
+    "stocks": []
+  },
+  {
     "id": "08f94042fe1e3516",
     "title": "微星RTX 3060 12GB显卡重返新蛋，售价329.99美元",
     "summary": "微星GeForce RTX 3060 Ventus 2X 12GB OC显卡再次在新蛋（Newegg）上架，售价329.99美元并包邮。其12GB显存可应对多数1080p游戏，也能用于本地运行部分轻量级AI模型。",
