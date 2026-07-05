@@ -83,6 +83,32 @@ const newsData = [
     "stocks": []
   },
   {
+    "id": "9c447cfb3acb96b1",
+    "title": "苹果神经引擎可直接训练并运行Transformer模型",
+    "summary": "Hacker News上出现一篇题为《Train and run transformers directly on Apple's Neural Engine》的文章，提出可直接在苹果神经引擎上训练并运行Transformer模型，有望推动端侧AI能力升级。",
+    "body": "该报道称，研究人员或开发者已实现让Transformer模型直接在苹果Neural Engine上进行训练与推理。这意味着复杂的AI工作负载不再完全依赖云端GPU，而可以在iPhone、Mac等苹果设备的专用神经网络加速器上本地完成。\n\n若该技术成熟并落地，将显著降低端侧AI的延迟与能耗，同时提升用户隐私保护水平。对苹果而言，这能进一步发挥其自研芯片与软硬一体化生态的优势，增强设备在生成式AI时代的竞争力。\n\n不过，目前公开信息仅为文章标题与链接，具体实现方法、性能表现及可用性尚待进一步披露。",
+    "category": "人工智能",
+    "tags": [
+      "苹果",
+      "Transformer",
+      "端侧AI",
+      "神经引擎"
+    ],
+    "source": "Hacker News",
+    "time": "43分钟前",
+    "ts": "2026-07-05T15:02:43+00:00",
+    "url": "https://github.com/christopherkarani/Espresso",
+    "image": "",
+    "stocks": [
+      {
+        "name": "苹果公司",
+        "ticker": "AAPL",
+        "reason": "新闻直接涉及苹果神经引擎运行Transformer，若端侧AI能力增强将利好其硬件生态与用户体验。",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
     "id": "47602c994fe7ff3a",
     "title": "基因信息可预测青光眼发病与进展",
     "summary": "最新研究表明，结合遗传信息有助于预测青光眼的发病时间和病情进展，有望推动早期筛查与干预。",
