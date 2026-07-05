@@ -1,5 +1,43 @@
 const newsData = [
   {
+    "id": "639623c36a82f11d",
+    "title": "联想GeekPro主机上新酷睿7-245HX+RTX 5060",
+    "summary": "联想推出搭载英特尔酷睿7-245HX处理器与RTX 5060显卡的GeekPro设计师台式电脑主机，定价9999元，面向设计师及游戏用户。",
+    "body": "7月5日，联想在京东上架新款GeekPro设计师台式电脑主机，采用英特尔酷睿7-245HX处理器与英伟达RTX 5060显卡组合，配备16GB DDR5 5600内存和1TB PCIe 4.0 SSD，售价9999元。该主机搭载14核心14线程处理器，理论单核睿频可达5.1GHz，并提供3年有限保修及3年上门服务。机箱容量为17L，正面配备呼吸灯效，兼顾电竞与商务风格，接口覆盖USB-A 3.2 Gen 2、USB-C 3.2 Gen 2x2、HDMI 2.1和DP 2.1等。此次上新丰富了联想面向创作者与主流游戏用户的产品线，也体现出英特尔HX系列移动/桌面融合处理器在品牌主机中的进一步渗透。",
+    "category": "消费电子",
+    "tags": [
+      "联想",
+      "台式电脑",
+      "RTX 5060",
+      "英特尔"
+    ],
+    "source": "IT之家",
+    "time": "2分钟前",
+    "ts": "2026-07-05T12:49:58+00:00",
+    "url": "https://www.ithome.com/0/972/838.htm",
+    "image": "https://img14.360buyimg.com/pop/jfs/t1/359571/1/7144/22915/691413deF6355fa5e/0f7faf6d94a7835e.png",
+    "stocks": [
+      {
+        "name": "联想集团",
+        "ticker": "0992.HK",
+        "reason": "GeekPro为联想自有品牌主机新品，直接拉动其消费PC业务",
+        "confidence": "high"
+      },
+      {
+        "name": "英伟达",
+        "ticker": "NVDA",
+        "reason": "新品搭载英伟达RTX 5060显卡，体现其主流游戏GPU在OEM主机中的应用",
+        "confidence": "medium"
+      },
+      {
+        "name": "英特尔",
+        "ticker": "INTC",
+        "reason": "新品采用英特尔酷睿7-245HX处理器，为其HX系列处理器带来品牌主机订单",
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
     "id": "6089e83508679588",
     "title": "今年以来全球新增近90家独角兽 AI为首要驱动力",
     "summary": "据TechCrunch报道，受人工智能投资热潮推动，今年以来全球已有近90家初创企业估值突破10亿美元，跻身独角兽行列。",
