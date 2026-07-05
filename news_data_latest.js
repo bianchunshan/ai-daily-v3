@@ -154,6 +154,25 @@ const newsData = [
     ]
   },
   {
+    "id": "ae60d5911c447396",
+    "title": "LlamaIndex 发布法律文档智能检索参考应用 legal-kb",
+    "summary": "LlamaIndex 发布 legal-kb，一个基于 Index v2（LlamaParse Platform）的法律文档知识库参考应用，通过 Retrieval Harness 模式赋予 Agent 文件系统风格的检索工具链，实现可溯源的法律内容定位。",
+    "body": "LlamaIndex 近日发布 legal-kb，这是一款基于 Index v2（即 LlamaParse Platform）构建的法律文档知识库参考应用，采用 Retrieval Harness 模式，旨在让 AI Agent 更精准、可解释地完成法律资料检索。该应用赋予 Agent 四个文件系统风格的工具：retrieve（支持混合语义检索、重排序与引用）、findFiles（精确或模糊文件名搜索）、readFile（带偏移量的原始内容读取）以及 grepFile（正则匹配并返回字符位置）。\n\n在实际工作流中，Agent 需先调用 findFiles 确定可用文件清单，再按需要使用 retrieve、readFile 或 grepFile 定位具体内容。这种分步调用机制使检索过程具备可追溯性和引用依据，适合对准确性要求较高的法律场景。\n\n该项目底层基于 Vercel AI SDK 6 的 ToolLoopAgent，可接入 OpenAI 或 Anthropic 的模型，并支持用户自带 API key。应用以 TanStack Start web app 形式运行，上传文件后可自动解析并建立索引；同一文件名重复上传会生成多个版本，检索时可通过版本元数据字段进行过滤。legal-kb 为法律科技领域提供了一个可参考的 Agentic RAG 架构范例。",
+    "category": "人工智能",
+    "tags": [
+      "AI应用",
+      "Agent",
+      "法律科技",
+      "RAG"
+    ],
+    "source": "AIHOT精选",
+    "time": "34分钟前",
+    "ts": "2026-07-05T07:50:19+00:00",
+    "url": "https://www.marktechpost.com/2026/07/05/llamaindex-legal-kb-agentic-retrieval-over-index-v2-with-retrieve-find-read-and-grep-tools",
+    "image": "",
+    "stocks": []
+  },
+  {
     "id": "1529c978b22cb94c",
     "title": "Fedora AI桌面计划因社区强烈反对暂停",
     "summary": "据外媒报道，Fedora社区因强烈反对已暂停其“AI桌面”提案，该计划原本希望降低开发者构建AI应用的环境配置门槛，此事凸显Linux社区对AI集成的分歧态度。",
@@ -117194,6 +117213,12 @@ const newsData = [
   }
 ];
 const newsDigest = {
-  "text": "",
-  "highlights": []
+  "text": "今日科技前沿：鸿海6月销售额创新高，AI机柜需求强劲；Anthropic计划在澳布局1.4GW数据中心；比亚迪智能座舱冠军作品上车海豹08；李飞飞团队发布Real2Sim系统SimFoundry；华南农大严查智能眼镜作弊。",
+  "highlights": [
+    "6282d6ee230c8d2d",
+    "82bcbcfe975d71c0",
+    "715bd7f6e1e2e7c4",
+    "2eae5f0cf86b8180",
+    "065e3cb455e1b017"
+  ]
 };
