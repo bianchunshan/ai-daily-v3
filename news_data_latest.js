@@ -1,5 +1,50 @@
 const newsData = [
   {
+    "id": "9d90c6fcae130cea",
+    "title": "长征十号乙7月10-13日首飞 验证海上网系回收",
+    "summary": "长征十号乙首飞窗口锁定7月10日至13日，将在文昌商业航天发射场验证全球首创的“海上网系回收”技术，为载人登月与低成本商业发射积累关键数据。",
+    "body": "据财联社报道，长征十号乙首飞时间窗口已确定为7月10日至7月13日，发射地点为文昌商业航天发射场。此次任务将验证全球首创的“海上网系回收”技术，即一子级分离再入后，箭体末端释放挂钩，由专用回收船“领航者号”上的巨型阻拦网精准锁钩并缓冲回收。\n长征十号乙是长征十号家族中的两级可重复使用商业货运火箭，由航天科技集团一院抓总研制，定位为面向低轨卫星互联网、大型商业卫星及深空货运的低成本高频发射平台，同时承担载人登月同源一子级复用、7台YF-100K并联动力、液氧甲烷二级等关键技术验证。若海上网系回收成功，将为我国火箭复用提供原创技术路径，降低发射成本并提升任务频次。",
+    "category": "商业航天",
+    "tags": [
+      "长征十号乙",
+      "火箭回收",
+      "载人登月",
+      "商业航天"
+    ],
+    "source": "IT之家",
+    "time": "2分钟前",
+    "ts": "2026-07-05T13:52:54+00:00",
+    "url": "https://www.ithome.com/0/972/847.htm",
+    "image": "https://img.ithome.com/newsuploadfiles/2025/12/d52230e1-208c-49ed-90c6-5929b089a0ba.png?x-bce-process=image/auto-orient,o_1",
+    "stocks": []
+  },
+  {
+    "id": "4e600c8c54794b72",
+    "title": "吉利银河TT官图发布，将搭载千里浩瀚智驾H7方案",
+    "summary": "吉利汽车发布C级AI纯电运动轿车银河TT官图，新车配备激光雷达，有望搭载千里浩瀚辅助驾驶H7方案，并提供多种动力与续航版本。",
+    "body": "7月5日，吉利汽车正式发布旗下C级AI纯电运动轿车银河TT的官方图片，新车将于次日正式亮相。官图显示，银河TT采用封闭式前格栅、L形大灯、半隐藏式门把手、双五辐式轮圈及贯穿式尾灯，并配备随速电动尾翼；车顶带有激光雷达，有望搭载千里浩瀚辅助驾驶H7方案。\n\n车身尺寸方面，银河TT长宽高分别为4999×1919×1479mm，轴距2920mm。动力提供最大功率425kW的四驱版与245kW的后驱版；电池容量有52.5kWh、63.8kWh、75.2kWh三种选择，对应纯电续航为540km、640km、650km、725km。\n\n作为吉利银河系列的新成员，银河TT进一步丰富了品牌在高端智能电动轿车市场的产品矩阵，其高阶智驾硬件配置也体现出吉利在自动驾驶领域的持续投入，有望增强其在智能化赛道上的竞争力。",
+    "category": "机器人",
+    "tags": [
+      "吉利汽车",
+      "银河TT",
+      "自动驾驶",
+      "智能电动汽车"
+    ],
+    "source": "IT之家",
+    "time": "3分钟前",
+    "ts": "2026-07-05T13:51:51+00:00",
+    "url": "https://www.ithome.com/0/972/846.htm",
+    "image": "https://img.ithome.com/newsuploadfiles/2026/7/65f93439-a157-4a86-9873-37a84a31a436.jpg?x-bce-process=image/format,f_auto",
+    "stocks": [
+      {
+        "name": "吉利汽车",
+        "ticker": "0175.HK",
+        "reason": "新车发布将丰富其产品矩阵并强化高端智能电动轿车与自动驾驶标签，有望带动销量与品牌溢价。",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
     "id": "683f69252d714df0",
     "title": "安克京东上线官翻旗舰店销售退货充电产品",
     "summary": "安克创新已在京东上线\"ANKER 安克官翻旗舰店\"，销售\"7天无理由\"等渠道退货的移动电源和充电头，经专业检验后按\"近新\"标准重新封装销售，并提供官方保修与售后保障。",
@@ -42,6 +87,24 @@ const newsData = [
     "ts": "2026-07-05T13:30:00+00:00",
     "url": "https://www.engadget.com/2206707/these-popular-smartphones-are-in-their-last-year-of-software-support/",
     "image": "https://www.engadget.com/img/gallery/these-popular-smartphones-are-in-their-last-year-of-software-support/l-intro-1783000290.jpg",
+    "stocks": []
+  },
+  {
+    "id": "b70c8b2dac920c4f",
+    "title": "Phosh 0.56.0 版本发布",
+    "summary": "面向 Linux 移动设备的 Phosh 桌面 Shell 发布 0.56.0 版本，该消息在 Hacker News 上获得一定关注。",
+    "body": "Phosh 0.56.0 已正式发布。Phosh 是为 Linux 手机等移动设备设计的类 GNOME Shell，常用于 Purism Librem 5 等 Linux 移动设备。此次版本更新在 Hacker News 上引发关注，反映出开源移动操作系统生态的持续演进。虽然原文未披露具体更新日志，但新版本的迭代有助于改善 Linux 移动设备的日常可用性与开发者体验。",
+    "category": "消费电子",
+    "tags": [
+      "开源软件",
+      "Linux手机",
+      "移动操作系统"
+    ],
+    "source": "Hacker News",
+    "time": "27分钟前",
+    "ts": "2026-07-05T13:28:11+00:00",
+    "url": "https://phosh.mobi/releases/rel-0.56.0/",
+    "image": "",
     "stocks": []
   },
   {
@@ -864,6 +927,24 @@ const newsData = [
     "time": "1分钟前",
     "ts": "2026-07-05T09:25:56+00:00",
     "url": "https://www.ithome.com/0/972/807.htm",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "861527f6d1b85724",
+    "title": "Hacker News热议：直觉理解量子电动力学",
+    "summary": "技术社区Hacker News出现一篇题为《Intuitive Quantum Electrodynamics》的文章链接，获8个点赞，内容聚焦量子电动力学的基础直观阐释。该材料属于量子物理基础科普，未涉及具体产业应用或企业动态。",
+    "body": "近日，技术社区Hacker News上分享了题为《Intuitive Quantum Electrodynamics》的文章，目前获得8个点赞。该文旨在以直观方式介绍量子电动力学（QED）的基本思想，帮助读者理解光与物质相互作用的量子描述。\n\n量子电动力学是粒子物理标准模型的核心组成部分，也是现代量子科技、量子计算等前沿领域的理论基础之一。此类科普与学术资源的传播，有助于降低公众和专业人员理解量子物理的门槛，但原文材料未提及具体技术突破、企业产品或商业化进展。\n\n从产业视角看，该链接本身仅为基础知识分享，对上市公司的直接利好关系不明显，更多体现量子物理领域的持续关注度。",
+    "category": "量子科技",
+    "tags": [
+      "量子电动力学",
+      "量子物理",
+      "Hacker News"
+    ],
+    "source": "Hacker News",
+    "time": "4小时前",
+    "ts": "2026-07-05T09:00:58+00:00",
+    "url": "https://forwardscattering.org/page/Intuitive%20Quantum%20Electrodynamics",
     "image": "",
     "stocks": []
   },
