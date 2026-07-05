@@ -19,6 +19,25 @@ const newsData = [
     "stocks": []
   },
   {
+    "id": "c1fa6955c216f4e4",
+    "title": "非官方移植版让《半条命2》在浏览器中百帧运行",
+    "summary": "开发者Slqnt与98006历时三个月推出《半条命2》浏览器移植版，完整呈现主线战役及两部DLC，支持存档与控制台功能，无需下载即可在本地运行。",
+    "body": "该移植版并非云游戏，而是借助WebGL 2直接调用GPU，并通过WebAssembly将Source引擎的C++代码转译为浏览器可执行的JavaScript，实现本地流畅运行。首次加载时需在浏览器中缓存压缩资源，之后即可在浏览器中以超过100 FPS运行，并支持将存档直接写入浏览器缓存或IndexedDB。这一项目展示了现代浏览器图形性能与WebAssembly能力的显著进步，也为经典游戏的免安装、跨平台传播提供了新思路。",
+    "category": "消费电子",
+    "tags": [
+      "浏览器游戏",
+      "WebGL",
+      "WebAssembly",
+      "游戏移植"
+    ],
+    "source": "Tom's Hardware",
+    "time": "5分钟前",
+    "ts": "2026-07-05T11:40:00+00:00",
+    "url": "https://www.tomshardware.com/video-games/pc-gaming/you-can-now-play-half-life-2-right-inside-your-browser-at-over-100-fps-with-save-states-and-console-support-ingenious-port-recreates-the-entire-game-campaign-using-webgl-2",
+    "image": "https://cdn.mos.cms.futurecdn.net/XMfmH5i98535zzdaXLTk7A-1280-80.png",
+    "stocks": []
+  },
+  {
     "id": "9d12f121174d112d",
     "title": "康宁“玻璃桥”冲击光通信链，玻璃基板环节迎利好",
     "summary": "康宁面向AI数据中心推出玻璃基光互连技术“Glass Bridge”，引发光通信产业链重估。光纤阵列单元环节面临替代压力，光模块集成商受影响有限，玻璃基板与TGV精密加工环节有望受益。",
@@ -117601,6 +117620,12 @@ const newsData = [
   }
 ];
 const newsDigest = {
-  "text": "",
-  "highlights": []
+  "text": "今日科技前沿聚焦AI基础设施与终端落地：康宁玻璃基板搅动光通信链，具身智能机器人销售提速；消费电子新品迭出，DARPA核废料电池谋长远续航，AI质检与人类工程师的角力亦引关注。",
+  "highlights": [
+    "9d12f121174d112d",
+    "14efcd7db0ca729a",
+    "6b8de04c44ce14ee",
+    "9008e659cca68e3c",
+    "715bd7f6e1e2e7c4"
+  ]
 };
