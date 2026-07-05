@@ -1,5 +1,31 @@
 const newsData = [
   {
+    "id": "754e9a2f5cea50e7",
+    "title": "AYANEO Pocket PLAY手机仍在打磨细节，将加快开发进程",
+    "summary": "AYANEO官方表示Pocket PLAY手机项目研发进展顺利，团队仍在配色、滑轨、触控板、摄像头、散热等细节上持续调优，并将继续加快开发进度。",
+    "body": "7月3日，AYANEO举行产品分享会，介绍多款产品进展及新品预告，并透露Pocket PLAY手机项目整体研发顺利。官方称，为了贯彻精益求精的产品理念，团队正从配色方案、滑轨结构、触控板手感、摄像头调校、信号优化到整机散热等方面持续打磨。\n\nAYANEO Pocket PLAY于今年一季度亮相，搭载联发科天玑9300处理器，采用经典侧滑结构并内置全功能游戏手柄，配备6.8英寸无挖孔高刷OLED屏，支持120Hz/144Hz/165Hz刷新率切换。该项目面向游戏手机细分市场，若后续量产上市，有望进一步丰富高端安卓游戏掌机/手机产品形态。",
+    "category": "消费电子",
+    "tags": [
+      "游戏手机",
+      "安卓掌机",
+      "AYANEO",
+      "联发科"
+    ],
+    "source": "IT之家",
+    "time": "8分钟前",
+    "ts": "2026-07-05T03:15:28+00:00",
+    "url": "https://www.ithome.com/0/972/720.htm",
+    "image": "https://img.ithome.com/newsuploadfiles/2026/7/0ce2637b-dfe0-4a47-b687-f5aa19a8a5c7.png?x-bce-process=image/format,f_auto",
+    "stocks": [
+      {
+        "name": "联发科",
+        "ticker": "2454.TW",
+        "reason": "Pocket PLAY搭载联发科天玑9300处理器，项目推进意味着潜在芯片订单增加。",
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
     "id": "e397dedf610ecd98",
     "title": "荣耀MagicOS七月升级将支持120FPS高刷投屏",
     "summary": "消息称荣耀MagicOS七月系统升级将新增120FPS高刷投屏，解除此前Magic UI与华为电脑管家时代的60FPS限制，并带来三端互联、3D锁屏等新功能。",
@@ -170,6 +196,25 @@ const newsData = [
     "ts": "2026-07-05T01:39:09+00:00",
     "url": "https://www.ithome.com/0/972/707.htm",
     "image": "https://img.ithome.com/newsuploadfiles/2026/7/d9ea58e5-07c0-4253-b538-7a875e3b0915.png",
+    "stocks": []
+  },
+  {
+    "id": "8a094630e847c683",
+    "title": "裸盖菇素治疗难治性抑郁症研究受关注",
+    "summary": "一项研究关注裸盖菇素在治疗难治性重度抑郁症中的疗效与安全性，为精神健康领域带来新思路。",
+    "body": "近日，一项关于裸盖菇素（psilocybin）治疗难治性重度抑郁症的研究受到关注，重点评估了其临床疗效与安全性。难治性抑郁症患者对常规抗抑郁药物反应不佳，亟需新疗法，而裸盖菇素作为一种致幻剂成分，正被探索用于精神心理疾病干预。\n\n该方向属于精神疾病创新药研发的前沿领域，若后续临床试验能证明其安全有效，可能为抑郁症治疗提供全新机制选择。不过，该类药物仍面临监管审批、社会认知和长期安全性验证等多重挑战。",
+    "category": "生物医药",
+    "tags": [
+      "裸盖菇素",
+      "抑郁症",
+      "精神健康",
+      "创新药"
+    ],
+    "source": "Hacker News",
+    "time": "1小时前",
+    "ts": "2026-07-05T01:39:05+00:00",
+    "url": "https://jamanetwork.com/journals/jamapsychiatry/fullarticle/2846478",
+    "image": "",
     "stocks": []
   },
   {
