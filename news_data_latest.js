@@ -1,5 +1,24 @@
 const newsData = [
   {
+    "id": "8ef00b908d8c8b34",
+    "title": "Meta将下线Llama API公共预览版",
+    "summary": "Meta宣布将于2026年7月6日正式下线处于公共预览阶段的Llama API，但Llama模型本身仍可下载，用户需迁移至第三方服务商。",
+    "body": "据IT之家报道，Meta宣布随着开发者工具持续迭代，将于2026年7月6日正式关闭Llama API公共预览版服务。届时所有API请求将返回停用提示，并附带重定向指引。Meta建议开发者迁移至支持Llama模型的第三方提供商。值得注意的是，Llama模型本身不受影响，用户仍可通过Meta Llama下载页面获取并下载模型。Meta还表示，未来将推出让开发者使用Meta AI模型进行开发的新途径，更多细节将于近期公布。",
+    "category": "人工智能",
+    "tags": [
+      "Meta",
+      "Llama",
+      "AI模型",
+      "API"
+    ],
+    "source": "IT之家",
+    "time": "刚刚",
+    "ts": "2026-07-05T15:15:14+00:00",
+    "url": "https://www.ithome.com/0/972/864.htm",
+    "image": "https://img.ithome.com/newsuploadfiles/2026/7/b49476d0-d3d8-48c9-aa29-e19aa48c00d9.jpg?x-bce-process=image/format,f_auto",
+    "stocks": []
+  },
+  {
     "id": "47602c994fe7ff3a",
     "title": "基因信息可预测青光眼发病与进展",
     "summary": "最新研究表明，结合遗传信息有助于预测青光眼的发病时间和病情进展，有望推动早期筛查与干预。",
