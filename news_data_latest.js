@@ -1,5 +1,24 @@
 const newsData = [
   {
+    "id": "5d32a95f49c2c23f",
+    "title": "欧洲刑警组织打击入侵144万WordPress网站的黑客团伙",
+    "summary": "欧洲刑警组织公布“Operation Endgame”行动最新成果，成功打击传播SocGholish木马的犯罪团伙。该团伙三年间累计入侵超过144万个WordPress网站，影响全球187个国家和地区。",
+    "body": "欧洲刑警组织（Europol）于6月末公布“Operation Endgame”网络执法行动成果，查封了106个与SocGholish木马相关的域名和服务器，并清理了14971个被植入恶意代码的WordPress网站。参与行动的网络安全机构Shadowserver基金会进一步披露了技术细节。\n\n据通报，从2023年5月17日至2026年5月25日，黑客在三年间累计入侵超过144万个WordPress网站，影响范围覆盖187个国家和地区，涉及1550个自治系统编号、113万余个域名及27万余个IP地址。攻击得手后，黑客在网站中植入恶意代码和钓鱼文件，用于传播SocGholish木马。\n\n研究人员指出，该团伙采用了密码喷洒、暴力撞库、利用安全漏洞以及“域名影子”等隐蔽手段批量攻击。此次执法行动再次凸显了网站安全防护、域名管理及供应链治理的重要性，也对全球网络犯罪生态形成有力震慑。",
+    "category": "网络安全",
+    "tags": [
+      "网络犯罪",
+      "WordPress安全",
+      "SocGholish",
+      "欧洲刑警组织"
+    ],
+    "source": "IT之家",
+    "time": "5分钟前",
+    "ts": "2026-07-05T12:17:22+00:00",
+    "url": "https://www.ithome.com/0/972/833.htm",
+    "image": "https://img.ithome.com/newsuploadfiles/2026/7/fe753d39-9d52-47a1-93bb-9782e9d64531.png?x-bce-process=image/format,f_auto",
+    "stocks": []
+  },
+  {
     "id": "9efbb1e14e4a9e68",
     "title": "Turtle Beach推触控屏KB7机械键盘",
     "summary": "Turtle Beach发布Command Series旗舰产品KB7 TKL机械键盘，配备4.3英寸触控屏、磁吸霍尔效应轴体及可扩展数字小键盘，售价199.99美元，模块化数字键盘KP7单独售价99.99美元。",
