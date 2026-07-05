@@ -57,6 +57,25 @@ const newsData = [
     "stocks": []
   },
   {
+    "id": "d900ec4b1bf6b253",
+    "title": "自动飞行伞可跟随用户遮阳挡雨",
+    "summary": "一款自动飞行伞能够跟随用户移动，在雨天挡雨、晴天遮阳，结合了无人机与便携式遮蔽设备的概念。",
+    "body": "据 Hacker News 报道，一款被称为“自动飞行伞”的设备可自主跟随用户，实时提供遮雨与遮阳功能。该产品将无人机自主飞行能力与个人遮阳避雨工具相结合，可在双手被占用时为用户提供无感遮挡。若技术成熟，这类产品有望拓展到低空出行辅助、户外服务及个人穿戴设备场景，但也面临续航、安全和空域监管等挑战。",
+    "category": "机器人",
+    "tags": [
+      "无人机",
+      "具身智能",
+      "消费电子",
+      "低空经济"
+    ],
+    "source": "Hacker News",
+    "time": "36分钟前",
+    "ts": "2026-07-05T15:49:18+00:00",
+    "url": "https://www.designboom.com/technology/autonomous-flying-umbrella-follows-users-rain-sunlight-i-build-stuff-01-13-2026/",
+    "image": "",
+    "stocks": []
+  },
+  {
     "id": "d4c0d2fd3eacdedc",
     "title": "飓风热浪下家庭电池守护电网稳定",
     "summary": "极端天气频发使家庭电池成为维持供电的关键工具，虚拟电厂（VPP）与分布式储能获得公用事业更多投资，以增强电网在用电高峰期的稳定性。",
@@ -164,6 +183,25 @@ const newsData = [
         "confidence": "high"
       }
     ]
+  },
+  {
+    "id": "42cd1aa0ddf85468",
+    "title": "DMARC新NP标签或与DNSSEC失效",
+    "summary": "技术文章指出，DMARC协议新增的NP标签在启用DNSSEC的场景下可能出现验证失败，给邮件认证安全带来隐患。",
+    "body": "DMARC（基于域的消息认证、报告和一致性）是防止邮件伪造的重要标准，而DNSSEC用于保护DNS记录不被篡改。近日有技术讨论指出，DMARC规范中新增的NP标签在与DNSSEC配合时可能出现问题，导致认证流程无法正常完成。这一潜在兼容性风险可能影响依赖邮件认证的企业与邮件服务提供商，值得网络安全社区持续关注。",
+    "category": "网络安全",
+    "tags": [
+      "DMARC",
+      "DNSSEC",
+      "邮件安全",
+      "域名安全"
+    ],
+    "source": "Hacker News",
+    "time": "1小时前",
+    "ts": "2026-07-05T15:00:21+00:00",
+    "url": "https://dmarcwise.io/blog/dmarc-np-incompatibility-with-dnssec",
+    "image": "",
+    "stocks": []
   },
   {
     "id": "47602c994fe7ff3a",
