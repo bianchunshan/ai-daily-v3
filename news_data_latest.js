@@ -1,5 +1,24 @@
 const newsData = [
   {
+    "id": "1a1508dbff78c6d6",
+    "title": "Eight Sleep Pod 5评测：最智能也最“窥探”的床",
+    "summary": "Eight Sleep的Pod 5智能床垫能够精准监测睡眠并自动调节温度，但其强大功能也意味着它在持续“观看”用户睡觉。",
+    "body": "外媒Wired评测了Eight Sleep最新款Pod 5智能床垫，认为该产品在睡眠温度调节和生物数据追踪方面表现出色，堪称目前市面上最聪明的床。Pod 5通过传感器收集心率、呼吸、体动等数据，并利用算法动态调节床面温度，以提升深睡时长和恢复质量。不过，评测也指出，这款床垫需要大量个人健康数据才能发挥作用，带来了隐私与数据安全方面的担忧，反映出智能家居产品在便利性与用户隐私之间的张力。",
+    "category": "消费电子",
+    "tags": [
+      "智能家居",
+      "睡眠科技",
+      "健康监测",
+      "消费电子"
+    ],
+    "source": "Wired",
+    "time": "6分钟前",
+    "ts": "2026-07-05T10:08:00+00:00",
+    "url": "https://www.wired.com/review/eight-sleep-pod-5/",
+    "image": "https://media.wired.com/photos/6a47e7e93d5c75c63167831f/master/pass/Eight-Sleep-Pod-5-Hub-%5Bcourtesy-of-Eight-Sleep%5D.jpg",
+    "stocks": []
+  },
+  {
     "id": "6927f6ac0b8319d6",
     "title": "复旦课程期末“人考AI”：4名学生让AI得0分",
     "summary": "复旦大学“数据挖掘技术”课程期末考核让学生出题考三个AI模型，AI答错越多得分越高。结果显示4名学生能让模型整张卷得0分，最强的Claude模型未被完全考倒。",
@@ -117339,6 +117358,12 @@ const newsData = [
   }
 ];
 const newsDigest = {
-  "text": "",
-  "highlights": []
+  "text": "今日科技前沿聚焦AI落地与产业共振：复旦期末“人考AI”引发AI能力反思，AI原生企业更重专家人才；鸿海6月营收创新高，AI机柜需求强劲，Anthropic布局澳洲1.4GW算力；比亚迪智能座舱冠军作品将上车海豹08。",
+  "highlights": [
+    "6927f6ac0b8319d6",
+    "48dae64b35d05936",
+    "301f3ef902dc699e",
+    "6282d6ee230c8d2d",
+    "82bcbcfe975d71c0"
+  ]
 };
