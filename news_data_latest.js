@@ -1,5 +1,88 @@
 const newsData = [
   {
+    "id": "9192cbb48709e376",
+    "title": "谷歌AI基础设施扩张致用电量增37% 碳排放反降2%",
+    "summary": "谷歌2025年环境报告显示，快速扩展AI基础设施使公司用电量同比增长37%，但通过能效提升和可再生能源采购，运营碳排放同比下降2%。",
+    "body": "谷歌本周发布的新一期公司环境报告指出，2025年因快速扩展AI基础设施，公司用电需求创下历史新高，同比增长37%。尽管如此，谷歌通过提升数据中心运行效率、大规模采购可再生能源以及优化AI计算与软件系统，实现了运营碳排放同比下降2%，称已实现业务增长与碳排放增长的“脱钩”。\n\n报告提出“AI Stack”理念，强调AI基础设施能效需从硬件、系统软件、AI模型到计算资源调度进行全栈优化，包括提升自研TPU每瓦性能、优化编译器和内存管理、降低数据中心PUE、提高服务器部署密度等。\n\n在能源供应方面，谷歌2025年新增签署超过12GW可再生能源采购协议，累计绿色电力合同总装机约35GW，并连续九年实现100%可再生能源电力匹配。此举不仅减少约5800万吨二氧化碳排放，也通过地图路线规划、建筑温控等AI应用帮助外部用户减排约4100万吨。",
+    "category": "AI 基础设施",
+    "tags": [
+      "谷歌",
+      "数据中心能效",
+      "可再生能源",
+      "碳排放"
+    ],
+    "source": "IT之家",
+    "time": "2分钟前",
+    "ts": "2026-07-05T12:40:04+00:00",
+    "url": "https://www.ithome.com/0/972/837.htm",
+    "image": "https://img.ithome.com/newsuploadfiles/2026/7/34e5a85d-e35b-4899-b43d-df1ea7d367c5.jpg?x-bce-process=image/format,f_auto",
+    "stocks": [
+      {
+        "name": "谷歌-A",
+        "ticker": "GOOGL",
+        "reason": "谷歌自身大幅扩张AI基础设施并通过能效与可再生能源实现减排，直接体现其AI基础设施运营进展。",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "15d0462ec5d55dcb",
+    "title": "宏碁RTX 5070 Ti游戏本降价300美元",
+    "summary": "宏碁Predator Helios Neo 16S AI游戏本在Best Buy降价至1899.99美元，搭载RTX 5070 Ti显卡、240Hz OLED屏与酷睿Ultra 9 275HX处理器。",
+    "body": "据外媒报道，宏碁Predator Helios Neo 16S AI游戏本目前在Best Buy以1899.99美元促销，较原价2199.99美元降低300美元。该机配备16英寸QHD+分辨率OLED屏幕，刷新率达240Hz，支持G-Sync并覆盖100% DCI-P3色域，搭载英伟达GeForce RTX 5070 Ti显卡、英特尔酷睿Ultra 9 275HX处理器及32GB DDR5-6400内存。此类高端游戏本促销反映出当前PC及笔记本市场在高内存价格与消费需求变化背景下的价格竞争态势，也为追求高性能移动游戏体验的消费者提供了更具性价比的选择。",
+    "category": "消费电子",
+    "tags": [
+      "游戏本",
+      "宏碁",
+      "英伟达",
+      "英特尔"
+    ],
+    "source": "Tom's Hardware",
+    "time": "3分钟前",
+    "ts": "2026-07-05T12:38:55+00:00",
+    "url": "https://www.tomshardware.com/pc-components/grab-this-rtx-5070-ti-oled-gaming-laptop-at-usd300-off-acer-predator-helios-neo-16s-ai-drops-to-usd1-899-99",
+    "image": "https://cdn.mos.cms.futurecdn.net/RcdEvT7RdgN8B36M58cu3d-1280-80.jpg",
+    "stocks": []
+  },
+  {
+    "id": "bdff3012242a587c",
+    "title": "清华火神队卫冕RoboCup 2026人形Large组冠军",
+    "summary": "7月5日，在韩国仁川举行的RoboCup 2026机器人世界杯上，清华大学火神队凭借国产Booster T1机器人战胜中国农业大学山海队，成功卫冕双足人形Large组冠军；武汉大学Invic队夺得Small组冠军。",
+    "body": "本届RoboCup 2026机器人世界杯在韩国仁川举行，清华大学火神队与中国农业大学山海队再度会师双足人形Large组决赛，最终火神队成功卫冕，两队均使用国产Booster T1人形机器人。去年在巴西萨尔瓦多，火神队已首次为中国夺得该赛事人形组成人组冠军。此外，武汉大学Invic队还在双足人形Small组比赛中夺冠。据悉，本届赛事采用“AI赛”模式，机器人依据预设AI策略在场上自主决策、灵活应战，展现了我国在双足人形机器人运动控制与人工智能协同方面的持续进步。",
+    "category": "机器人",
+    "tags": [
+      "人形机器人",
+      "RoboCup",
+      "具身智能",
+      "清华大学"
+    ],
+    "source": "IT之家",
+    "time": "6分钟前",
+    "ts": "2026-07-05T12:36:28+00:00",
+    "url": "https://www.ithome.com/0/972/836.htm",
+    "image": "https://img.ithome.com/newsuploadfiles/2026/7/835d59c3-3646-4595-87a5-f365be3d7741.png?x-bce-process=image/format,f_auto",
+    "stocks": []
+  },
+  {
+    "id": "8a5574cc93ddfccc",
+    "title": "Humanoid推出KinetIQ Ascend，强化学习逼近人类级灵巧度",
+    "summary": "英国人形机器人公司Humanoid发布强化学习方案KinetIQ Ascend，声称可在工业任务中以人类速度甚至更快达到99.9%的操作可靠性。",
+    "body": "总部位于伦敦的人形机器人公司Humanoid日前推出KinetIQ Ascend强化学习（RL）方案，称其可在工业任务中以人类速度甚至更快达到99.9%的操作可靠性。该技术基于该公司四层AI框架KinetIQ，通过试错学习让机器人在数天内超越人类演示，而不再依赖数月的人工调参。\n\nHumanoid成立于2024年，由Artem Sokolov创立，目前拥有超过250名工程师、研究人员和创新者，在伦敦、波士顿、温哥华和圣地亚哥设有办公室。该公司目标是两年内成为全球第一通用型工业人形机器人公司，并与博世、舍弗勒合作扩产其HMND机器人。\n\nKinetIQ Ascend被定位为“能力工厂”的核心支撑，旨在实现真实场景下的部署。公司首席技术官Jarad Cannon表示，真实世界强化学习将成为人形机器人规模化问题的关键答案之一。",
+    "category": "机器人",
+    "tags": [
+      "人形机器人",
+      "具身智能",
+      "强化学习",
+      "工业自动化"
+    ],
+    "source": "The Robot Report",
+    "time": "12分钟前",
+    "ts": "2026-07-05T12:30:20+00:00",
+    "url": "https://www.therobotreport.com/humanoid-announces-kinetiq-ascend-reinforcement-learning-approach/",
+    "image": "https://www.therobotreport.com/wp-content/uploads/2026/07/Humanoid_testing.jpg",
+    "stocks": []
+  },
+  {
     "id": "1067ae274b620e32",
     "title": "一汽解放自研氢内燃机通过国家认证试验",
     "summary": "一汽解放自主研发的CA6HV3重型氢内燃机顺利通过国家环保排放认证，成为行业首个“双零排放”氢内燃机产品，并完成超10万公里整车可靠性验证。",
