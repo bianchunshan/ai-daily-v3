@@ -1,5 +1,24 @@
 const newsData = [
   {
+    "id": "96f4ed59e1ada59b",
+    "title": "SpaceX半年销毁260颗星链卫星，环保争议升温",
+    "summary": "SpaceX向FCC提交的半年报告显示，2025年12月至2026年5月间260颗星链卫星已在大气层中焚毁，另有349颗退役待处理，引发外界对大型卫星退役环保风险的担忧。",
+    "body": "SpaceX在提交给美国联邦通信委员会（FCC）的半年度报告中确认，去年12月至今年5月期间，共有260颗星链卫星通过受控再入地球大气层的方式销毁，其中176颗为第一代星链卫星，其余为第二代。报告指出，另有349颗卫星在同一时期内退役，将在未来数月内再入销毁。SpaceX称，星链卫星设计寿命约5年，燃尽燃料后会主动降低轨道，在大气层中完全焚毁。\n\n由于星链星座规模已超过1万颗，且SpaceX计划推出直连手机的Starlink Mobile服务，未来退役卫星数量预计持续增加。2024年12月至2025年5月，SpaceX已从轨道移除超过472颗卫星。外界担忧每颗重达2700磅的\"轨道数据中心\"在大气层中燃烧可能产生污染物，FCC正寻求在相关法规上给予卫星豁免。",
+    "category": "商业航天",
+    "tags": [
+      "SpaceX",
+      "星链",
+      "卫星退役",
+      "太空环保"
+    ],
+    "source": "Tom's Hardware",
+    "time": "6分钟前",
+    "ts": "2026-07-05T16:00:00+00:00",
+    "url": "https://www.tomshardware.com/tech-industry/space/spacex-vaporizes-260-starlink-satellites-in-six-months-using-earths-atmosphere-new-environmental-concerns-emerge-over-burning-2-700-pound-orbital-data-centers-fcc-seeks-to-exempt-satellites-from-regulations",
+    "image": "https://cdn.mos.cms.futurecdn.net/weuJYZ7wRLJCvauEdrFjPP-1280-80.jpg",
+    "stocks": []
+  },
+  {
     "id": "1f1db6b7f4c659c0",
     "title": "“Token工厂”硅基流动冲刺港股IPO",
     "summary": "成立仅34个月的AI基础设施企业硅基流动已向港交所递交招股书，拟按18C章特专科技规则上市，2025年营收同比大增653%，但亏损亦显著扩大。",
