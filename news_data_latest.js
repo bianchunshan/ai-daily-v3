@@ -1,5 +1,31 @@
 const newsData = [
   {
+    "id": "c461eb1af2847610",
+    "title": "索尼确认2028年后仍生产旧游戏实体光盘",
+    "summary": "索尼表示2028年之后仍会继续制造实体光盘，但仅限于2028年前发售的游戏；此后新作将仅提供数字版，不再发行实体光盘。",
+    "body": "据报道，索尼确认在2028年之后仍会继续生产实体游戏光盘，但前提是该游戏必须在2028年之前发售。2028年及之后推出的新游戏将仅提供数字版，不再发行实体光盘。这一表态回应了市场对其可能全面转向数字发行的担忧，也显示出索尼在流媒体与数字分销时代仍对既有实体游戏生态保持一定支持。不过，长期来看，实体媒介在游戏业务中的角色仍将逐步边缘化。",
+    "category": "消费电子",
+    "tags": [
+      "索尼",
+      "PlayStation",
+      "实体光盘",
+      "数字发行"
+    ],
+    "source": "Engadget",
+    "time": "6分钟前",
+    "ts": "2026-07-05T17:27:08+00:00",
+    "url": "https://www.engadget.com/2208083/sony-will-make-physical-discs-after-2028-if-game-came-out-before-then/",
+    "image": "https://www.engadget.com/img/gallery/sony-will-make-physical-discs-after-2028-if-game-came-out-before-then/l-intro-1783272503.jpg",
+    "stocks": [
+      {
+        "name": "索尼集团",
+        "ticker": "SONY",
+        "reason": "新闻主体为索尼，其游戏业务确认延续旧作实体光盘生产政策",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
     "id": "22259cc3a4277f22",
     "title": "康复训练项目可缓解长新冠“脑雾”症状",
     "summary": "一项康复项目显示能帮助长新冠患者改善“脑雾”，提升记忆、注意力和思维敏捷度。",
