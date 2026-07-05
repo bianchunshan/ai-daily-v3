@@ -1,5 +1,24 @@
 const newsData = [
   {
+    "id": "564b9db0197a9c5f",
+    "title": "B站UP主实测“RTX 4080M”魔改显卡：功耗低但性价比一般",
+    "summary": "一名B站评测者测试了采用笔记本核心魔改的桌面版“RTX 4080M”显卡。该卡游戏功耗仅约100W，但性能不及价格相近的AMD RX 9070 GRE，且无官方保修与驱动支持。",
+    "body": "据报道，B站评测者“杰某”近期测试了一款采用移动版GPU核心、经第三方魔改后的桌面显卡“RTX 4080M”。这类产品出现在美国对RTX 4090实施出口管制后，是中国部分卖家为规避限制而推出的替代方案。该卡为无官方保修、无官方驱动的定制产品，存在较大使用风险。\n测试平台为英特尔酷睿Ultra 270K Plus、铭瑄Z890-A主板及32GB DDR5-8200内存。在3DMark TimeSpy中，该卡得分约18600分（有用户反馈可达19500分），游戏功耗仅约100W，能效表现亮眼；但其综合性能仍低于价格相近的AMD RX 9070 GRE，也面临英伟达RTX 5060 Ti的竞争。\n该卡最初售价约2000元人民币，受AI热潮引发的元器件紧缺影响，现价已涨至2700至2800元，与全新有保的主流中端卡接近，而同类型魔改RTX 4090M更高达约1万元。这一现象反映出出口管制下高端GPU供应紧张所催生的灰色市场需求。",
+    "category": "消费电子",
+    "tags": [
+      "显卡",
+      "GPU",
+      "出口管制",
+      "消费电子"
+    ],
+    "source": "Tom's Hardware",
+    "time": "5分钟前",
+    "ts": "2026-07-05T14:46:02+00:00",
+    "url": "https://www.tomshardware.com/pc-components/gpus/reviewer-tests-rtx-4080m-desktop-graphics-card-powered-by-salvaged-laptop-silicon-performs-worse-than-slightly-more-expensive-rx-9070-gre-but-draws-only-100w-in-games",
+    "image": "https://cdn.mos.cms.futurecdn.net/hJxwicRSD7T933qqLCofqR-1280-80.jpg",
+    "stocks": []
+  },
+  {
     "id": "4b7a18f5e4d92e58",
     "title": "Linux内核曝“Bad Epoll”高危漏洞，波及安卓系统",
     "summary": "首尔大学研究人员发现Linux内核epoll子系统存在本地提权漏洞CVE-2026-46242，CVSS评分7.8，影响Linux桌面、服务器及谷歌安卓系统，修复补丁已合并主线。",
@@ -118596,6 +118615,12 @@ const newsData = [
   }
 ];
 const newsDigest = {
-  "text": "",
-  "highlights": []
+  "text": "今日科技前沿聚焦网络安全高危漏洞、商业航天新进展、半导体制造创新及消费电子新品动态。",
+  "highlights": [
+    "4b7a18f5e4d92e58",
+    "09a268605170abc7",
+    "9d90c6fcae130cea",
+    "8b3ed90e2ae55de1",
+    "e8ecf02769768011"
+  ]
 };
