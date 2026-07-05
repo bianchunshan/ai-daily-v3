@@ -1,5 +1,24 @@
 const newsData = [
   {
+    "id": "eb3ba64b0d8ef3e0",
+    "title": "KDE Plasma 6.8 将优化动画体验，预计10月中旬发布",
+    "summary": "KDE Plasma 6.8 桌面环境预计将于今年10月中旬发布，新版本主要改进动画效果、表情符号选择器及数字时钟等细节体验。",
+    "body": "KDE 开发者 Nate Graham 在最新一期《This Week in Plasma》周报中介绍了 Plasma 6.8 的开发进展。新版本将对程序启动弹跳图标、消息通知淡入淡出等动画进行优化，采用更自然的缓动曲线与物理模型，使视觉效果更流畅。\n\n同时，系统内置的 Emoji 选择器将升级至 Unicode Emoji 17 标准，数字时钟小部件改用等宽数字显示，避免时间变化导致界面抖动。此外，新版本还将移除 Meta + Ctrl + X 剪切板快捷键，并新增 Emulated Input System 1.6 支持，KWin 窗口管理器也将切换至 OpenGL ES 内部渲染接口，以进一步提升系统兼容性与视觉表现。",
+    "category": "消费电子",
+    "tags": [
+      "开源桌面",
+      "Linux",
+      "桌面环境",
+      "KDE"
+    ],
+    "source": "IT之家",
+    "time": "7分钟前",
+    "ts": "2026-07-05T00:16:34+00:00",
+    "url": "https://www.ithome.com/0/972/695.htm",
+    "image": "https://img.ithome.com/newsuploadfiles/2026/7/ba65972b-0ab9-4dbe-aae6-aa1324f5e53c.jpg?x-bce-process=image/format,f_auto",
+    "stocks": []
+  },
+  {
     "id": "6149c4c69bf33d5d",
     "title": "索尼Puga项目曝光：手柄内置PS1因授权夭折",
     "summary": "资深游戏开发者透露，索尼曾开发一款内置完整PS1主机的手柄原型机PlayStation Puga，专为巴西市场设计，但因游戏版权分润谈判破裂而取消。",
