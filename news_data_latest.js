@@ -1,5 +1,43 @@
 const newsData = [
   {
+    "id": "d4c0d2fd3eacdedc",
+    "title": "飓风热浪下家庭电池守护电网稳定",
+    "summary": "极端天气频发使家庭电池成为维持供电的关键工具，虚拟电厂（VPP）与分布式储能获得公用事业更多投资，以增强电网在用电高峰期的稳定性。",
+    "body": "自去年探讨家庭电池在飓风、热浪等极端天气中保供电作用以来，这一趋势变得更加明显。越来越多公用事业公司正加大对分布式电池和虚拟电厂的投入，以应对创纪录的能源需求并维持电网稳定。这不仅让家庭储能从备用电源升级为提升电网韧性与灵活性的关键资源，也可能加速户用储能及相关能源管理平台的普及。",
+    "category": "未来能源",
+    "tags": [
+      "家庭储能",
+      "虚拟电厂",
+      "电网韧性",
+      "VPP"
+    ],
+    "source": "Electrek",
+    "time": "5分钟前",
+    "ts": "2026-07-05T15:20:00+00:00",
+    "url": "https://electrek.co/2026/07/05/hurricanes-heat-domes-and-holding-up-the-grid-with-home-batteries/",
+    "image": "https://electrek.co/wp-content/uploads/sites/3/2025/06/power_lines.jpg?quality=82&#038;strip=all&#038;w=1600",
+    "stocks": [
+      {
+        "name": "特斯拉",
+        "ticker": "TSLA",
+        "reason": "拥有Powerwall家用电池及多个虚拟电厂项目，直接受益于家庭储能与VPP需求增长。",
+        "confidence": "medium"
+      },
+      {
+        "name": "Sunrun",
+        "ticker": "RUN",
+        "reason": "美国领先的家庭光伏与储能服务商，参与虚拟电厂运营，需求提升利好其业务。",
+        "confidence": "medium"
+      },
+      {
+        "name": "Enphase Energy",
+        "ticker": "ENPH",
+        "reason": "提供家庭储能系统与能源管理软件，受益于分布式储能普及。",
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
     "id": "377fb68a7be02d1f",
     "title": "欧洲航天局选定空客研制Aeolus-2风场监测卫星",
     "summary": "欧洲航天局已选定空客防务与航天公司，启动Aeolus-2风场监测卫星的研制工作。Aeolus-2将接替Aeolus卫星，继续从太空监测全球风速与风向。",
@@ -994,6 +1032,25 @@ const newsData = [
         "confidence": "high"
       }
     ]
+  },
+  {
+    "id": "bbaeaf520e1aeed8",
+    "title": "欧盟理事会推动快速通过“聊天监控”法案",
+    "summary": "欧盟理事会正推动以快速程序通过备受争议的“聊天监控”提案，要求平台扫描用户私密通讯以查找非法内容，引发隐私与加密安全担忧。",
+    "body": "据外媒报道，欧盟理事会试图通过快速通道推进所谓“Chat Control”（聊天监控）立法。该提案要求加密通讯服务商部署技术措施，扫描用户私信以识别儿童性虐待材料等非法内容。由于此举可能破坏端到端加密并扩大大规模监控范围，隐私倡导者和网络安全专家已表达强烈反对。该法案若强行通过，将对欧洲数字隐私保护、加密技术及社交平台合规成本产生深远影响。",
+    "category": "网络安全",
+    "tags": [
+      "欧盟立法",
+      "聊天监控",
+      "隐私保护",
+      "加密安全"
+    ],
+    "source": "Hacker News",
+    "time": "3小时前",
+    "ts": "2026-07-05T11:44:04+00:00",
+    "url": "https://www.heise.de/en/news/Chat-Control-1-0-EU-Council-forces-messenger-scans-via-fast-track-11353659.html",
+    "image": "",
+    "stocks": []
   },
   {
     "id": "b1b7eb99922dad36",
