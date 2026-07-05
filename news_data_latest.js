@@ -1,5 +1,24 @@
 const newsData = [
   {
+    "id": "a36af4403d8c8f7f",
+    "title": "亚马逊众包平台MTurk停止接纳新客户",
+    "summary": "亚马逊宣布将停止其众包平台 Amazon Mechanical Turk 接受新客户注册，该平台未来走向引发关注。Mechanical Turk 长期被用于数据标注、问卷调查等任务。",
+    "body": "据 TechCrunch 报道，亚马逊将停止为其众包平台 Amazon Mechanical Turk（MTurk）接受新客户。MTurk 自 2005 年推出以来，允许企业发布人类智能任务（HITs），由全球分散的劳动者完成，广泛应用于数据标注、内容审核和问卷调查等场景。分析认为，这一调整可能意味着亚马逊正在重新评估该业务，甚至逐步关闭这一平台。若 MTurk 最终下线，AI 训练数据、众包标注等需求将流向其他替代平台，对相关市场格局产生一定影响。",
+    "category": "人工智能",
+    "tags": [
+      "亚马逊",
+      "Mechanical Turk",
+      "众包平台",
+      "数据标注"
+    ],
+    "source": "TechCrunch",
+    "time": "1分钟前",
+    "ts": "2026-07-05T17:43:36+00:00",
+    "url": "https://techcrunch.com/2026/07/05/amazon-will-stop-accepting-new-customers-for-mechanical-turk/",
+    "image": "",
+    "stocks": []
+  },
+  {
     "id": "c461eb1af2847610",
     "title": "索尼确认2028年后仍生产旧游戏实体光盘",
     "summary": "索尼表示2028年之后仍会继续制造实体光盘，但仅限于2028年前发售的游戏；此后新作将仅提供数字版，不再发行实体光盘。",
