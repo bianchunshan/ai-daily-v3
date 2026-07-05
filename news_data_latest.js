@@ -32,6 +32,25 @@ const newsData = [
     ]
   },
   {
+    "id": "ed874df6fc8237b9",
+    "title": "V社推送SteamOS 3.8.14修复Steam Deck Wi-Fi降速",
+    "summary": "Valve发布SteamOS 3.8.14稳定版更新，修复部分路由器因MCS规格错误导致Steam Deck Wi-Fi速度被限制在较低水平的问题，同时提升系统安全性与稳定性。",
+    "body": "IT之家7月5日消息，Valve现已面向所有Steam Deck掌机推送SteamOS 3.8.14正式版更新。此次通用更新重点修复特定路由器因错误MCS规格导致Wi-Fi速率被限制在较低水平的故障，用户可通过系统设置检查并下载安装。\n\n此外，新版本还带来安全与稳定性改进，旨在提升掌机日常使用体验与系统可靠性。作为基于Linux的掌上游戏PC，Steam Deck通过持续的系统迭代优化网络连接与安全性。",
+    "category": "消费电子",
+    "tags": [
+      "Steam Deck",
+      "掌机",
+      "SteamOS",
+      "消费电子"
+    ],
+    "source": "IT之家",
+    "time": "2分钟前",
+    "ts": "2026-07-05T08:12:10+00:00",
+    "url": "https://www.ithome.com/0/972/486.htm",
+    "image": "https://img.ithome.com/newsuploadfiles/2026/7/6206bd1d-f8ac-4880-b9ba-debc7ac1c22a.jpg",
+    "stocks": []
+  },
+  {
     "id": "215a1b18e7b8cdd4",
     "title": "生物股份上半年净利润预增50.6%至80.39%",
     "summary": "生物股份预告2026年上半年归母净利润同比增长50.6%至80.39%，主要受反刍和宠物动保业务增长、产业并购协同、降本增效及新产品上市等因素驱动。",
