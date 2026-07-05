@@ -1,5 +1,50 @@
 const newsData = [
   {
+    "id": "2198274626f8525b",
+    "title": "华为公布平板/鸿蒙电脑星闪支持清单",
+    "summary": "华为官网更新了MatePad与MateBook系列的星闪设备清单，仅MatePad Pro Max支持星闪E2.0规格，其余机型多为E1.0。",
+    "body": "华为官网日前公布支持星闪（NearLink）功能的平板及鸿蒙电脑设备清单，详细列出各机型在星闪连接、音频、精确查找、电竞专链、手写笔/键盘/鼠标连接等能力上的差异。清单显示，MatePad Pro Max是目前华为平板中唯一支持星闪音频、并独享星闪E2.0规格的产品，其余MatePad Mini、Air、Pro及MateBook系列机型主要支持星闪E1.0。官方说明指出，星闪功能与硬件能力相关，无法通过软件升级获得。此次清单公开有助于消费者选购配套星闪外设，也反映出华为正推动星闪生态在自有终端上的分层落地。",
+    "category": "消费电子",
+    "tags": [
+      "华为",
+      "星闪",
+      "消费电子",
+      "HarmonyOS"
+    ],
+    "source": "IT之家",
+    "time": "刚刚",
+    "ts": "2026-07-05T06:53:39+00:00",
+    "url": "https://www.ithome.com/0/972/769.htm",
+    "image": "https://img.ithome.com/newsuploadfiles/2026/7/e473f73b-d463-4066-ae6c-2838e86c22b8.jpg?x-bce-process=image/format,f_auto",
+    "stocks": []
+  },
+  {
+    "id": "eb88a2e9780f18c0",
+    "title": "机械革命耀世18 Pro上新配置：Ultra 7+RTX5060售10999元",
+    "summary": "机械革命为耀世18 Pro新增“Ultra 7 251HX+16GB+1TB+RTX5060”配置，定价10999元，进一步补强高端游戏本产品线。",
+    "body": "IT之家7月5日消息，机械革命为旗下耀世18 Pro 18英寸游戏本新增一款配置，搭载英特尔酷睿Ultra 7 251HX处理器、16GB DDR5 5600MT/s内存、1TB PCIe 4.0 SSD以及RTX 5060 Laptop显卡，售价10999元。该机采用铝镁合金A面、18英寸2.5K 180Hz广色域屏幕、全区RGB背光键盘，整机重2.8kg、厚21.85mm，并配备三风扇+双D10热管散热，可实现至高200W双烤性能释放。\n\n新配置在接口、音效与快充方面亦有亮点：机身提供雷电4、Mini DP 2.1、HDMI 2.1等接口，内置四扬声器并支持Nahimic音效，标配250W SiC电源适配器并支持140W私有PD快充。此次上新丰富了机械革命高端游戏本价格段选择，有望借助RTX 50系显卡新品周期提升品牌竞争力。",
+    "category": "消费电子",
+    "tags": [
+      "游戏本",
+      "机械革命",
+      "RTX5060",
+      "英特尔酷睿Ultra"
+    ],
+    "source": "IT之家",
+    "time": "9分钟前",
+    "ts": "2026-07-05T06:45:12+00:00",
+    "url": "https://www.ithome.com/0/972/766.htm",
+    "image": "https://img14.360buyimg.com/pop/jfs/t1/471927/30/5385/118219/6a477e6aFff1dae18/0083320320e436c9.jpg",
+    "stocks": [
+      {
+        "name": "同方股份",
+        "ticker": "600100.SH",
+        "reason": "机械革命为其旗下游戏本品牌，新SKU上市有望带动相关业务收入。",
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
     "id": "b582ec9387dc08ca",
     "title": "欧洲高温催生空调刚需，中国品牌销量大涨",
     "summary": "受极端高温与欧洲空调保有量低、安装成本高等因素影响，中国品牌空调在欧洲需求激增，易安装、低能耗产品尤受欢迎。",
@@ -87,6 +132,25 @@ const newsData = [
         "confidence": "high"
       }
     ]
+  },
+  {
+    "id": "bfc47b487d206678",
+    "title": "电动车电池高里程后表现超预期",
+    "summary": "有报道称，电动汽车电池在长期使用和高里程之后，性能衰减低于此前预期，缓解了消费者对电池寿命的担忧。",
+    "body": "近日，一则关于电动汽车电池耐久性的报道引发关注，标题指出电动车电池在行驶数万公里后仍“超预期”地保持性能。这意味着实际使用中的电池衰减可能低于此前市场普遍预期。\n\n如果这一趋势得到更大规模数据验证，将有助于缓解消费者对电动车电池寿命和二手车残值的焦虑，提升二手车市场接受度，并可能加速电动车的普及。不过，由于具体测试标准、样本量和车型差异不同，仍需结合更多实际数据加以判断。",
+    "category": "未来能源",
+    "tags": [
+      "电动车电池",
+      "电池寿命",
+      "新能源汽车",
+      "动力电池"
+    ],
+    "source": "Hacker News",
+    "time": "23分钟前",
+    "ts": "2026-07-05T06:30:40+00:00",
+    "url": "https://www.wsj.com/business/autos/ev-batteries-are-defying-expectations-after-hundreds-of-thousands-of-miles-8579de13",
+    "image": "",
+    "stocks": []
   },
   {
     "id": "5de3f73465797b2d",
