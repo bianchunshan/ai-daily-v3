@@ -1,5 +1,30 @@
 const newsData = [
   {
+    "id": "9efbb1e14e4a9e68",
+    "title": "Turtle Beach推触控屏KB7机械键盘",
+    "summary": "Turtle Beach发布Command Series旗舰产品KB7 TKL机械键盘，配备4.3英寸触控屏、磁吸霍尔效应轴体及可扩展数字小键盘，售价199.99美元，模块化数字键盘KP7单独售价99.99美元。",
+    "body": "Turtle Beach近期推出Command Series系列高端外设，包括两款键盘、一款模块化数字小键盘和三只鼠标。其中旗舰型号KB7 TKL为低轴、有线机械键盘，采用磁吸霍尔效应轴体，在传统导航键区位置嵌入一块4.3英寸触控\"Command Center\"，并配有独立媒体和宏键、硅胶透光掌托，两侧还可磁吸连接KP7模块化10键数字键盘。KP7带有额外按键、可编程旋钮，可独立使用。\n\n该键盘被评价为Corsair Galleon 100 SD的模块化、触控化竞品，目前已上市，黑色版售价199.99美元，KP7需另付99.99美元。作为Turtle Beach在高端游戏外设市场的最新布局，KB7体现了外设向集成触控交互和高度客制化方向发展的趋势。",
+    "category": "消费电子",
+    "tags": [
+      "游戏外设",
+      "机械键盘",
+      "Turtle Beach"
+    ],
+    "source": "Tom's Hardware",
+    "time": "5分钟前",
+    "ts": "2026-07-05T12:10:00+00:00",
+    "url": "https://www.tomshardware.com/peripherals/gaming-keyboards/turtle-beach-command-series-kb7-review",
+    "image": "https://cdn.mos.cms.futurecdn.net/zAFwJpJpMZFpxcr4wwseid-1280-80.jpg",
+    "stocks": [
+      {
+        "name": "Turtle Beach",
+        "ticker": "HEAR",
+        "reason": "KB7为公司旗舰消费电子产品，直接关联其游戏外设主营业务",
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
     "id": "841d0850924cd87b",
     "title": "索尼PS5光驱限购早于停光盘决定",
     "summary": "索尼宣布2028年起新PlayStation游戏不再发行实体光盘后，外界普遍认为PS5光驱因恐慌性购买而限购。但网页存档显示，PlayStation Direct上“因需求旺盛，每笔订单限购1台”的提示至少在2025年3月就已存在。",
