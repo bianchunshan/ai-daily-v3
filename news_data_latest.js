@@ -683,6 +683,32 @@ const newsData = [
     ]
   },
   {
+    "id": "6819bbcdbee9eba8",
+    "title": "美团开源1.6T MoE模型LongCat-2.0",
+    "summary": "美团宣布LongCat-2.0在MIT许可下完全开源，公开1.6T总参数的MoE模型权重与推理代码，并在多项编程与Agent基准测试中表现突出。",
+    "body": "美团今日宣布其自研大模型LongCat-2.0完全开源，采用MIT许可证，已公开模型权重与推理代码。该模型基于MoE架构，总参数量达1.6T，每token激活约48B参数，支持长达100万token的上下文窗口，可运行在GPU与NPU上，并已在国内大规模集群完成验证。\n\n技术层面，LongCat-2.0引入了LongCat Sparse Attention以高效处理长文本、Zero-Compute Experts实现33B-56B的动态零浪费计算，以及MOPD任务路由机制，分别调度Agent、Reasoning与Interaction三类专家。模型还原生集成Claude Code、OpenClaw、Hermes Agent等工具，面向代码生成与智能体场景。\n\n在多项基准测试中，LongCat-2.0取得Terminal-Bench 2.1 70.8、SWE-bench Pro 59.5（超过GPT-5.5的58.6）、SWE-bench Multilingual 77.3、BrowseComp 79.9等成绩。此次开源有望吸引开发者共建生态，并提升美团在AI大模型与智能体赛道的技术影响力。",
+    "category": "人工智能",
+    "tags": [
+      "大模型",
+      "开源",
+      "MoE",
+      "智能体"
+    ],
+    "source": "AIHOT精选",
+    "time": "4小时前",
+    "ts": "2026-07-05T14:00:18+00:00",
+    "url": "https://x.com/Meituan_LongCat/status/2073768940078317713",
+    "image": "",
+    "stocks": [
+      {
+        "name": "美团-W",
+        "ticker": "3690.HK",
+        "reason": "公司自研1.6T MoE大模型开源，有助于提升AI技术品牌、吸引开发者生态并推动业务智能化。",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
     "id": "09a268605170abc7",
     "title": "NASA加州沙漠测试新型火星车原型",
     "summary": "NASA喷气推进实验室开发的ERNEST火星车原型在加州沙漠完成为期七天的16英里自主测试，工程师干预极少。该技术有望用于未来的月球和火星探测车，提升其在极端地形下的自主导航能力。",
