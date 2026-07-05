@@ -1,5 +1,50 @@
 const newsData = [
   {
+    "id": "d0377165ad9c455e",
+    "title": "美国海军测试3D打印战机部件用于前线快速维修",
+    "summary": "美国海军正在测试在前沿基地用3D打印技术制造F/A-18“超级大黄蜂”战斗机的复合材料备件，以将维修时间缩短约50%，提升战备效率。",
+    "body": "美军F/A-18“超级大黄蜂”等先进战机因复合材料部件短缺，常因等待备件而长时间停飞。美国海军希望通过在全球维护点部署3D打印能力，使地勤人员能够现场打印复合材料补丁并直接修补受损机体，而不必依赖跨越数千英里的漫长供应链运送完整替换件。美国海军航空作战中心飞机分部（NAWCAD）表示，该技术已在实验室和地面测试中验证可行性，目标是将复杂维修简化到可在前沿基地完成，从而让舰载机中队更快恢复作战能力，增强自给自足和战备状态。",
+    "category": "地缘科技",
+    "tags": [
+      "3D打印",
+      "国防科技",
+      "军事维修",
+      "复合材料"
+    ],
+    "source": "Tom's Hardware",
+    "time": "4分钟前",
+    "ts": "2026-07-05T14:11:16+00:00",
+    "url": "https://www.tomshardware.com/3d-printing/us-navy-testing-3d-printed-fighter-jet-parts-for-quick-repairs-composite-parts-printed-at-forward-deployed-3d-printers-to-be-flight-tested-on-operational-f-a-18-super-hornets",
+    "image": "https://cdn.mos.cms.futurecdn.net/e4zwm9WyyGGyfxxyR9owYY-1280-80.jpg",
+    "stocks": []
+  },
+  {
+    "id": "b401f53c06e1722e",
+    "title": "飞利浦27英寸显示器首销：2K 275Hz三模1199元",
+    "summary": "飞利浦“27M4N5500PT”27英寸显示器在京东首销，支持2K 275Hz、FHD 360Hz与HD 540Hz三种显示模式，首发价1199元。该产品面向电竞玩家，强调高刷新率与广色域。",
+    "body": "IT之家报道，飞利浦型号为“27M4N5500PT”的27英寸显示器已在京东开启首销，首发价1199元。该显示器搭载Fast IPS面板，可在2560×1440分辨率下达到275Hz、1920×1080分辨率下达到360Hz、1280×720分辨率下达到540Hz，GtG响应时间为1ms，亮度350尼特，覆盖100% sRGB、98% DCI-P3及94% AdobeRGB色域。\n\n在接口与外观方面，该显示器支架支持升降、倾斜和旋转，背部配备氛围灯，并提供两个HDMI 2.1接口、一个DP接口和一个3.5mm音频接口。以1199元定价提供三模高刷新率规格，预计将加剧中端电竞显示器市场竞争。",
+    "category": "消费电子",
+    "tags": [
+      "飞利浦",
+      "显示器",
+      "电竞显示器",
+      "消费电子"
+    ],
+    "source": "IT之家",
+    "time": "5分钟前",
+    "ts": "2026-07-05T14:10:41+00:00",
+    "url": "https://www.ithome.com/0/972/852.htm",
+    "image": "https://img14.360buyimg.com/pop/jfs/t1/459245/40/18752/101259/6a41effdF18e807b6/0083320320bfaa72.jpg",
+    "stocks": [
+      {
+        "name": "飞利浦",
+        "ticker": "PHG",
+        "reason": "新品为旗下高刷新率电竞显示器，有望带动相关消费业务收入，但单一产品影响有限",
+        "confidence": "low"
+      }
+    ]
+  },
+  {
     "id": "09a268605170abc7",
     "title": "NASA加州沙漠测试新型火星车原型",
     "summary": "NASA喷气推进实验室开发的ERNEST火星车原型在加州沙漠完成为期七天的16英里自主测试，工程师干预极少。该技术有望用于未来的月球和火星探测车，提升其在极端地形下的自主导航能力。",
