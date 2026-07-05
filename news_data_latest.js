@@ -274,6 +274,38 @@ const newsData = [
     ]
   },
   {
+    "id": "1a3c8c0b8edc3323",
+    "title": "Meta拟推Meta Compute开放算力变现",
+    "summary": "据外媒报道，Meta正考虑推出“Meta Compute”，将庞大AI基础设施向外部客户出租，以托管第三方模型并提供模型即服务，意图把过剩GPU算力转化为高收入业务。该消息推动Meta股价大涨近9%，并引发AI云厂商股票遭抛售。",
+    "body": "据彭博社及SemiAnalysis报道，Meta正考虑推出名为“Meta Compute”的算力业务，把其持续扩张的数据中心与GPU集群开放给外部客户。Meta今年上半年已签订超过5GW的云与托管数据中心容量，自2024年初以来相关交易接近10GW。该公司可能效仿SpaceX的“neocloud”模式，将部分算力高价出租，也可能托管Anthropic Claude等第三方模型，向企业提供类似AWS Bedrock、Azure Foundry的模型服务平台。\n\n这一转向被视为Meta在自研模型进展不及预期、内部AI agent推进放缓、资本开支高企背景下的务实选择。Meta 2026年资本开支指引已上调至1250亿至1450亿美元，但Llama生态变现仍难，自研模型Muse Spark与正在训练的Watermelon尚未重回第一梯队。通过出租算力和托管模型，Meta可将GPU与数据中心资产直接货币化，降低模型研发不确定性带来的财务压力。\n\n资本市场对此反应积极，Meta股价大涨近9%；而CoreWeave、Nebius等独立AI云公司则因潜在竞争加剧遭遇抛售。若Meta Compute成形，Meta的竞争对手将从OpenAI、Anthropic等模型公司扩展至AWS、Azure、Google Cloud及新兴AI云厂商。",
+    "category": "AI 基础设施",
+    "tags": [
+      "算力出租",
+      "Meta",
+      "AI云",
+      "数据中心"
+    ],
+    "source": "量子位",
+    "time": "1小时前",
+    "ts": "2026-07-05T14:30:31+00:00",
+    "url": "https://www.qbitai.com/2026/07/443339.html",
+    "image": "",
+    "stocks": [
+      {
+        "name": "Meta Platforms",
+        "ticker": "META",
+        "reason": "直接推出Meta Compute，将海量GPU算力开放出租并托管第三方模型，开辟高利润收入源",
+        "confidence": "high"
+      },
+      {
+        "name": "英伟达",
+        "ticker": "NVDA",
+        "reason": "Meta数据中心与GPU采购继续加速，持续支撑高端GPU需求",
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
     "id": "27710906dff6aade",
     "title": "谷歌新广告让开国元勋用AI起草独立宣言引争议",
     "summary": "谷歌为Workspace发布新广告，设想美国开国元勋借助Gemini和协作工具起草《独立宣言》，被评价为尴尬且令人恼火，引发对AI营销边界的讨论。",
