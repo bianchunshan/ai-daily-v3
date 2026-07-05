@@ -1,5 +1,23 @@
 const newsData = [
   {
+    "id": "63ccfa75fe8c55a3",
+    "title": "美国富豪转向AI教育替代传统学校",
+    "summary": "尽管多数美国公众对AI仍存疑虑，但部分富裕家庭已开始让孩子接受AI教学，以替代传统学校教育。相关企业如Forge Prep和Alpha等正受到这一群体的青睐。",
+    "body": "据The Verge报道，尽管大多数美国公众对人工智能仍持怀疑态度，部分美国富裕家庭已开始让孩子接受AI教学，以替代传统学校。相关企业如Forge Prep和Alpha等正受到这一群体的青睐。\n\n这一趋势反映出AI技术正在向教育场景加速渗透，为个性化学习等应用提供了新的可能性。与此同时，AI教育的实际效果、公平性以及对孩子成长的影响，也引发外界关注和讨论。",
+    "category": "人工智能",
+    "tags": [
+      "AI教育",
+      "个性化学习",
+      "智能辅导"
+    ],
+    "source": "The Verge",
+    "time": "6分钟前",
+    "ts": "2026-07-05T18:30:54-04:00",
+    "url": "https://www.theverge.com/ai-artificial-intelligence/961505/wealthy-ai-schools-alpha-forge-prep",
+    "image": "",
+    "stocks": []
+  },
+  {
     "id": "f47d113d788b307e",
     "title": "研究发现会说多种语言或有助延缓大脑衰老",
     "summary": "在欧洲神经科学学会联合会（FENS）2026论坛上公布的研究显示，掌握多门语言的人大脑连通性更强，似乎拥有更“年轻”的大脑，这可能有助于减缓随年龄增长出现的记忆力和思维速度下降。",
