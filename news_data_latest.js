@@ -1,5 +1,37 @@
 const newsData = [
   {
+    "id": "15c2016e581fead4",
+    "title": "联想ThinkPad X1 Carbon Gen 14评测：轻薄商务旗舰再进化",
+    "summary": "Tom's Hardware评测了联想ThinkPad X1 Carbon第14代Aura Edition，认为其延续极致轻薄设计，搭载英特尔新一代\"Panther Lake\"处理器，配备OLED屏幕与顶级键盘，仍是商务旗舰本的代表作。",
+    "body": "这篇评测指出，ThinkPad X1 Carbon Gen 14 Aura Edition重量仅约2.15磅，机身主要由轻质镁合金打造，保留了经典的黑色方正外观与品牌血统，同时在摄像头等细节上进行了现代化更新。其搭载英特尔\"Panther Lake\"芯片，配合OLED显示屏和企业级功能，在移动性与易用性方面表现出色。\n\n评测认为，该款产品在超轻商务本领域继续保持领先地位，尤其在键盘手感、屏幕素质和整机质感上具备旗舰水准。不过，随着戴尔XPS 14等竞品不断提升，ThinkPad X1 Carbon能否持续领跑仍有待市场检验。总体而言，这一代产品进一步巩固了联想在高端商用笔记本市场的竞争力。",
+    "category": "消费电子",
+    "tags": [
+      "联想",
+      "ThinkPad",
+      "笔记本电脑",
+      "英特尔"
+    ],
+    "source": "Tom's Hardware",
+    "time": "5分钟前",
+    "ts": "2026-07-05T13:10:00+00:00",
+    "url": "https://www.tomshardware.com/laptops/lenovo-thinkpad-x1-carbon-gen-14-aura-edition-review",
+    "image": "https://cdn.mos.cms.futurecdn.net/w7bbf2HowpkN28qnG3Uoi3-1280-80.jpg",
+    "stocks": [
+      {
+        "name": "联想集团",
+        "ticker": "0992.HK",
+        "reason": "评测对象为其旗舰商务本产品，设计与性能获好评有望推动销售",
+        "confidence": "high"
+      },
+      {
+        "name": "英特尔",
+        "ticker": "INTC",
+        "reason": "搭载其新一代Panther Lake处理器，体现新芯片在高端商务本中的落地应用",
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
     "id": "9a5f3ea4a833ff3f",
     "title": "HMD Skyline 2手机仍将发布：搭载骁龙7s Gen 4",
     "summary": "消息称HMD Skyline 2标准版未被取消，仅GT机型被砍。该机将搭载高通骁龙7s Gen 4处理器，相机模组设计与初代保持一致。",
@@ -267,6 +299,25 @@ const newsData = [
     ]
   },
   {
+    "id": "2157e9d880a307dd",
+    "title": "KiCad PCB设计套件实现浏览器端运行",
+    "summary": "开源PCB EDA工具KiCad被成功移植到浏览器中，用户无需安装本地软件即可在线进行电路板设计。该项目由匈牙利开发团队Emergence Engineering主导，目前支持Firefox、Chrome及Safari浏览器。",
+    "body": "据Hacker News消息，开源印刷电路板（PCB）电子设计自动化（EDA）套件KiCad已可在浏览器中运行。用户可通过网页直接体验演示工程或导入自有项目，目前Firefox兼容性最佳，Chrome表现良好，Safari仍在完善中。该项目名为PCBJam，最初是Emergence Engineering首席技术官Viktor的个人爱好项目，后逐步发展为公司重点投入的产品方向。\n\n实现过程中，团队将KiCad的OpenGL画布渲染迁移至WebGL，并借助Emscripten将多线程应用移植到Web平台，以支持设计规则检查（DRC）等功能。此外，团队还基于已有的wxWidgets网页移植版本进行大量改造，使KiCad能够在浏览器环境中运行。\n",
+    "category": "半导体与先进制造",
+    "tags": [
+      "EDA",
+      "PCB",
+      "浏览器",
+      "开源软件"
+    ],
+    "source": "Hacker News",
+    "time": "1小时前",
+    "ts": "2026-07-05T12:06:57+00:00",
+    "url": "https://demo.pcbjam.com/",
+    "image": "",
+    "stocks": []
+  },
+  {
     "id": "841d0850924cd87b",
     "title": "索尼PS5光驱限购早于停光盘决定",
     "summary": "索尼宣布2028年起新PlayStation游戏不再发行实体光盘后，外界普遍认为PS5光驱因恐慌性购买而限购。但网页存档显示，PlayStation Direct上“因需求旺盛，每笔订单限购1台”的提示至少在2025年3月就已存在。",
@@ -291,6 +342,25 @@ const newsData = [
         "confidence": "high"
       }
     ]
+  },
+  {
+    "id": "ecd68ce38d984142",
+    "title": "大麻使用者心脏病发作风险显著升高",
+    "summary": "一项研究指出，吸食大麻的人群面临明显更高的心脏病发作风险。该发现为评估大麻心血管危害提供了新的流行病学证据。",
+    "body": "据外媒报道，最新研究提示大麻使用者的心脏病发作风险显著增加。尽管标题信息有限，但这一结论指向大麻使用与心血管健康之间的潜在关联，可能引发公共卫生领域对大麻危害的再评估。",
+    "category": "生物医药",
+    "tags": [
+      "大麻研究",
+      "心血管健康",
+      "公共卫生",
+      "流行病学"
+    ],
+    "source": "Hacker News",
+    "time": "1小时前",
+    "ts": "2026-07-05T11:59:27+00:00",
+    "url": "https://www.acc.org/about-acc/press-releases/2025/03/17/15/35/cannabis-users-face-substantially-higher-risk",
+    "image": "",
+    "stocks": []
   },
   {
     "id": "4cbe8e770fb54a1a",
