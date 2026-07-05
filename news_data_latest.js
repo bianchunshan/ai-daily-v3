@@ -77,6 +77,24 @@ const newsData = [
     ]
   },
   {
+    "id": "cfcbed36fbf02dea",
+    "title": "Mouse为AI编程Agent推出精准编辑工具",
+    "summary": "Mouse项目为AI编程Agent提供了一套精准编辑工具，支持对代码进行局部、精细修改，有望提升Agent的编码效率与输出可控性。",
+    "body": "据报道，名为Mouse的项目专注于为AI编程Agent打造精准编辑能力，使Agent在面对代码任务时不必进行整段或整文件重写，而是能定位到具体位置进行局部修改。这种方式有助于降低AI生成代码的冗余与错误率，提高代码改动的可解释性与可控性。\n\n目前AI编程Agent在复杂工程中的应用日益广泛，但在长文件、多模块场景下，粗放式编辑常导致上下文丢失与冲突。精准编辑工具因此被视为提升Agent实用性的关键方向之一，也可能推动AI辅助开发工具从“建议生成”向“可靠执行”演进。",
+    "category": "人工智能",
+    "tags": [
+      "AI编程",
+      "Agent",
+      "代码编辑工具"
+    ],
+    "source": "Hacker News",
+    "time": "46分钟前",
+    "ts": "2026-07-05T05:01:14+00:00",
+    "url": "https://hic-ai.com",
+    "image": "",
+    "stocks": []
+  },
+  {
     "id": "b9f96d38f4c8f8cc",
     "title": "鸿蒙智行享界MPV谍照再曝，支持后轮转向",
     "summary": "鸿蒙智行旗下享界品牌的中大型MPV新车再次现身路试谍照，图片显示该车将搭载后轮转向功能。北汽官方同日透露享界“重磅车型”已进入量产冲刺阶段。",
@@ -162,6 +180,24 @@ const newsData = [
     "ts": "2026-07-05T04:23:35+00:00",
     "url": "https://www.ithome.com/0/972/730.htm",
     "image": "https://img.ithome.com/newsuploadfiles/2026/7/23fa3587-09b2-469e-b01e-ac93563eb6b8.jpg?x-bce-process=image/format,f_auto",
+    "stocks": []
+  },
+  {
+    "id": "8f0d56074b6598af",
+    "title": "超声读取大脑意图：新型低侵入式脑机接口技术",
+    "summary": "2021年报道显示，研究人员探索利用超声波以低侵入方式读取大脑活动并解码意图，有望为脑机接口提供更安全的路径。",
+    "body": "该报道标题为《Reading Minds with Ultrasound: Less-Invasive Technique for Brain's Intentions》，介绍了一项基于超声波的低侵入式神经技术，旨在探测大脑活动并推断出个体的行为意图。与传统植入式脑机接口相比，超声方案可能减少对脑组织的损伤和手术风险，提升技术的安全性与可及性。尽管公开信息有限，这一方向仍被视为脑机接口向非侵入或微创化发展的重要探索，未来可能在医疗康复、人机交互等领域产生影响。",
+    "category": "脑机接口",
+    "tags": [
+      "脑机接口",
+      "超声技术",
+      "神经科技"
+    ],
+    "source": "Hacker News",
+    "time": "1小时前",
+    "ts": "2026-07-05T04:18:54+00:00",
+    "url": "https://www.caltech.edu/about/news/reading-minds-with-ultrasound-a-less-invasive-technique-to-decode-the-brains-intentions",
+    "image": "",
     "stocks": []
   },
   {
