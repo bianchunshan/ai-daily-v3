@@ -19,6 +19,25 @@ const newsData = [
     "stocks": []
   },
   {
+    "id": "f290bfb646202c35",
+    "title": "DNSGlobe：Rust终端工具实时追踪全球DNS传播",
+    "summary": "DNSGlobe是一款基于Rust开发的TUI工具，可帮助用户观察DNS解析记录在全球各地的传播情况。",
+    "body": "DNSGlobe是一个用Rust编写的终端用户界面（TUI）工具，用于实时观察DNS记录在全球不同区域的传播过程。用户可通过该工具直观地追踪DNS变更在各地DNS服务器上的生效状态，适用于排查DNS配置、验证迁移结果等场景。该工具体现了Rust在底层网络工具开发中的应用，也为开发者和运维人员提供了一款轻量、高效的开源辅助工具。",
+    "category": "AI 基础设施",
+    "tags": [
+      "DNS",
+      "Rust",
+      "网络监控",
+      "开源工具"
+    ],
+    "source": "Hacker News",
+    "time": "21分钟前",
+    "ts": "2026-07-05T21:55:53+00:00",
+    "url": "https://github.com/514-labs/dnsglobe",
+    "image": "",
+    "stocks": []
+  },
+  {
     "id": "d3f0eb40a9ef8152",
     "title": "CoCom出口管制波及气球与立方星GPS接收机",
     "summary": "该话题讨论冷战时期延续的CoCom出口管制法规如何适用于气球和立方星所用的GPS接收机等军民两用导航设备，反映出小型航天器在供应链安全上面临的合规风险。",
