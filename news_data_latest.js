@@ -1,5 +1,69 @@
 const newsData = [
   {
+    "id": "ed62328d4865bd1a",
+    "title": "胰腺癌新靶向疗法早期临床结果积极",
+    "summary": "一种针对晚期胰腺癌常见基因驱动突变的在研靶向疗法，在联合一线标准化疗的早期研究中显示出积极疗效信号。",
+    "body": "据外媒报道，在2026年ESMO胃肠道肿瘤大会上公布的一项研究显示，一种在研靶向疗法通过阻断胰腺癌最常见的基因驱动突变之一，与一线标准化疗联合使用时，在晚期胰腺癌患者中展现出令人鼓舞的早期疗效。",
+    "category": "生物医药",
+    "tags": [
+      "胰腺癌",
+      "靶向治疗",
+      "肿瘤药",
+      "早期临床"
+    ],
+    "source": "MedicalXpress",
+    "time": "5分钟前",
+    "ts": "2026-07-05T09:20:03-04:00",
+    "url": "https://medicalxpress.com/news/2026-07-therapy-early-results-advanced-pancreatic.html",
+    "image": "https://scx1.b-cdn.net/csz/news/tmb/2014/pancreaticca.jpg",
+    "stocks": []
+  },
+  {
+    "id": "2f31f65f23f43806",
+    "title": "中际旭创：康宁“玻璃桥”非光模块替代，公司可适配",
+    "summary": "中际旭创回应投资者称，康宁“Glass Bridge”玻璃桥技术是CPO内部光耦合组件的新方案，并非光模块产品替代；即使未来中长期成为主流，公司多元化的技术布局也能充分适配。",
+    "body": "康宁公司在6月24日举行的“AI数据中心光通信与互连技术大会”上推出面向下一代AI数据中心架构的玻璃基光互连技术“Glass Bridge（玻璃桥）”。该技术基于玻璃波导，用于实现光纤与光子集成电路（PIC）之间的直接光学连接。\n\n针对投资者关于康宁玻璃桥是否对公司构成利空的提问，中际旭创在投资者关系平台回应称，康宁玻璃桥技术是CPO内部光耦合组件的新方案，不是光模块产品的方案替代；即便未来中长期成为主流，公司凭借多元化的技术布局也能够充分适配。\n\n这一回应有助于缓解市场对新技术冲击光模块龙头现有产品体系的担忧，同时也反映出在下一代AI数据中心架构演进中，CPO与共封装光学相关耦合方案正呈现多元化发展趋势。",
+    "category": "AI 基础设施",
+    "tags": [
+      "光模块",
+      "CPO",
+      "数据中心",
+      "中际旭创"
+    ],
+    "source": "IT之家",
+    "time": "8分钟前",
+    "ts": "2026-07-05T13:16:49+00:00",
+    "url": "https://www.ithome.com/0/972/842.htm",
+    "image": "https://img.ithome.com/newsuploadfiles/2026/7/5e9dee7f-0b11-426f-a581-b307ded0eb0d.jpg?x-bce-process=image/format,f_auto",
+    "stocks": [
+      {
+        "name": "中际旭创",
+        "ticker": "300308.SZ",
+        "reason": "光模块龙头，官方明确康宁玻璃桥并非替代光模块，且公司多元化布局可适配新技术，核心受益于AI算力网络建设需求。",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "e8ecf02769768011",
+    "title": "Jim Keller 初创公司 Fab2 欲量产小型晶圆厂",
+    "summary": "由芯片架构师 Jim Keller 与 Sam Zeloof 联合创立的半导体初创公司 Atomic Semi 已更名为 Fab2，并将业务迁至德州，计划以‘晶圆厂的晶圆厂’模式批量生产小型软件定义晶圆厂及其内部自研设备。",
+    "body": "据 Fab2 官网信息，原名为 Atomic Semi 的半导体设备初创公司已正式更名为 Fab2，并将运营迁至美国德州。公司提出‘fab fab’概念，即一座专门批量制造小型晶圆厂的工厂，且晶圆厂内部的泵阀、气管、光刻、真空腔等所有设备均由 Fab2 自主设计制造。Fab2 还提供名为 Studio 的浏览器端协作式 EDA 工具，用于版图、原理图与仿真，前身为 Atomic Studio。\n\n与传统 300 毫米晶圆的大型产线不同，Fab2 瞄准的是小型、软件定义的晶圆厂，其芯片图形远小于整片晶圆，可在数小时内完成原型迭代。Zeloof 在青少年时期已在家中车库用电子束光刻制作出约 300 纳米特征尺寸的芯片，成为该理念的早期验证，随后他与 Keller 于 2022 年共同创立该公司。\n\n不过该模式当前的主要瓶颈是产能。由于采用电子束直写光刻，图案无需掩膜直接绘制，导致单步图形化速度较慢，吞吐量受限。这一动向反映出业界正尝试以模块化、小型化方式降低芯片原型与制造的门槛。",
+    "category": "半导体与先进制造",
+    "tags": [
+      "半导体",
+      "晶圆厂",
+      "EDA",
+      "先进制造"
+    ],
+    "source": "Tom's Hardware",
+    "time": "10分钟前",
+    "ts": "2026-07-05T13:15:00+00:00",
+    "url": "https://www.tomshardware.com/tech-industry/atomic-semi-rebrands-as-fab2-and-shifts-operations-to-texas",
+    "image": "https://cdn.mos.cms.futurecdn.net/groRd4wteVARFynpqoPiqc-1280-80.png",
+    "stocks": []
+  },
+  {
     "id": "15c2016e581fead4",
     "title": "联想ThinkPad X1 Carbon Gen 14评测：轻薄商务旗舰再进化",
     "summary": "Tom's Hardware评测了联想ThinkPad X1 Carbon第14代Aura Edition，认为其延续极致轻薄设计，搭载英特尔新一代\"Panther Lake\"处理器，配备OLED屏幕与顶级键盘，仍是商务旗舰本的代表作。",
