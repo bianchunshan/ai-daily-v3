@@ -1,5 +1,37 @@
 const newsData = [
   {
+    "id": "640e241634ff2a7d",
+    "title": "联想二合一翻转本海外上市，最高配Ultra 7 355",
+    "summary": "联想IdeaPad 5二合一翻转本（14IPH11）已在海外市场开售，搭载英特尔Panther Lake平台，可选酷睿Ultra 5/7处理器、最高32GB DDR5内存，并提供三种配色。新品起售价为999英镑。",
+    "body": "IT之家7月5日消息，联想IdeaPad 5二合一翻转本（14IPH11）现已在海外市场发售。该机提供宇宙蓝、月光灰、苔藓绿三种配色，搭载英特尔Panther Lake平台，可选酷睿Ultra 5 322与Ultra 7 355处理器，并支持16GB/32GB DDR5双通道内存，用户可自行升级。存储方面配备M.2 2242与M.2 2280双SSD插槽，内置60Wh电池，提供Wi-Fi 6/7及蓝牙5.3/5.4等无线规格。\n该机采用14英寸IPS触控屏，分辨率为1920×1200，最高亮度400尼特，刷新率60Hz，接口包括双USB-A、双USB-C与HDMI。售价为999英镑起，按现汇率约合人民币9056元。此举丰富了联想在海外市场的高端二合一笔记本产品线，也反映出PC厂商持续加码移动办公与触控形态产品的趋势。",
+    "category": "消费电子",
+    "tags": [
+      "联想",
+      "笔记本电脑",
+      "英特尔",
+      "二合一"
+    ],
+    "source": "IT之家",
+    "time": "2分钟前",
+    "ts": "2026-07-05T05:21:32+00:00",
+    "url": "https://www.ithome.com/0/972/738.htm",
+    "image": "https://img.ithome.com/newsuploadfiles/2026/7/c013ee11-95d5-4eee-b4c1-188b0c52a47f.jpg",
+    "stocks": [
+      {
+        "name": "联想集团",
+        "ticker": "0992.HK",
+        "reason": "旗下IdeaPad 5二合一翻转本海外发售，有望带动笔记本业务销量",
+        "confidence": "medium"
+      },
+      {
+        "name": "英特尔",
+        "ticker": "INTC",
+        "reason": "新品搭载其Panther Lake平台酷睿Ultra处理器，利好相关CPU出货",
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
     "id": "4797abbc4b889685",
     "title": "小米REDMI K90至尊版开启澎湃OS正式版内测招募",
     "summary": "7月5日，小米社区宣布REDMI K90至尊版手机已开启澎湃HyperOS系统正式版内测招募，用于在正式发布前测试未发布功能的稳定性并收集用户反馈。",
