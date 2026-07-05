@@ -1,5 +1,24 @@
 const newsData = [
   {
+    "id": "ef7b4943ff0f757e",
+    "title": "3D电视为何失败：好莱坞3D内容难辞其咎",
+    "summary": "3D电视因使用体验差和优质内容匮乏而衰落，而质量不佳的3D电影进一步削弱了消费者的兴趣与市场需求。",
+    "body": "3D电视曾是消费电子行业的热门概念，但因佩戴眼镜繁琐、画面亮度不足等使用体验问题，始终未能成为客厅娱乐的主流选择。与此同时，好莱坞大量质量参差不齐的3D电影透支了观众兴趣，导致3D内容生态难以壮大。业内人士认为，技术与内容的脱节是3D电视未能普及的关键原因，这一教训也为后来的XR等沉浸式显示技术发展提供了前车之鉴。",
+    "category": "消费电子",
+    "tags": [
+      "3D电视",
+      "消费电子",
+      "好莱坞",
+      "显示技术"
+    ],
+    "source": "Engadget",
+    "time": "6分钟前",
+    "ts": "2026-07-05T18:30:00+00:00",
+    "url": "https://www.engadget.com/2206391/why-3d-tvs-failed/",
+    "image": "https://www.engadget.com/img/gallery/why-3d-tvs-failed/l-intro-1782937722.jpg",
+    "stocks": []
+  },
+  {
     "id": "7922f10f113dbcc3",
     "title": "扎克伯格：Meta正建千兆瓦级AI集群Prometheus",
     "summary": "扎克伯格透露Meta正在建设名为Prometheus的首个千兆瓦级以上单一AI集群，涉及数千亿美元资本投入，旨在集中顶尖人才与基础设施。",
