@@ -1,5 +1,57 @@
 const newsData = [
   {
+    "id": "841d0850924cd87b",
+    "title": "索尼PS5光驱限购早于停光盘决定",
+    "summary": "索尼宣布2028年起新PlayStation游戏不再发行实体光盘后，外界普遍认为PS5光驱因恐慌性购买而限购。但网页存档显示，PlayStation Direct上“因需求旺盛，每笔订单限购1台”的提示至少在2025年3月就已存在。",
+    "body": "索尼本周确认，自2028年1月起，新发布的PlayStation游戏将仅以数字版形式销售，实体光盘将逐步退出历史舞台。该消息引发玩家对PS5可拆卸光驱的抢购，eBay上该配件价格一度涨至100至130美元。不过，Tom's Hardware援引网页存档指出，PlayStation Direct上“因需求旺盛，每笔订单限购1台”的提示早在2025年3月就已出现，并非针对此次公告的临时防抢购措施。\n\n索尼本周确实在产品页面新增了加粗通知，说明2028年后新游戏仅提供数字版，但此前发行的光盘仍可在支持主机上运行。目前美国官网同时显示限购提示与新通知。这款售价79.99美元的可拆卸光驱是PS5数字版和PS5 Pro游玩实体游戏或蓝光电影的唯一途径。截至7月4日上午，反对取消光盘的在线请愿签名已超过7.4万，逼近7.5万目标。",
+    "category": "消费电子",
+    "tags": [
+      "索尼",
+      "PS5",
+      "游戏主机",
+      "数字版游戏"
+    ],
+    "source": "Tom's Hardware",
+    "time": "5分钟前",
+    "ts": "2026-07-05T12:00:00+00:00",
+    "url": "https://www.tomshardware.com/video-games/playstation/ps5-disc-drive-purchase-cap-predates-sonys-disc-cutoff",
+    "image": "https://cdn.mos.cms.futurecdn.net/cVv7pajuCXkp7bEa7u9RiU-1280-80.jpg",
+    "stocks": [
+      {
+        "name": "索尼",
+        "ticker": "SONY",
+        "reason": "公司宣布2028年起新PlayStation游戏仅发行数字版，并销售PS5可拆卸光驱配件，直接影响其游戏硬件与PlayStation Store业务。",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "4cbe8e770fb54a1a",
+    "title": "Meta低调推出社交AI应用Pocket，支持自然语言生成小程序",
+    "summary": "Meta近日悄然上线名为Pocket的社交AI应用，用户可用自然语言通过“Vibe Coding”生成小程序或小游戏，并保存到播放列表分享给他人。该产品源自Meta今年初收购的Atma Sciences团队及其Gizmo应用相关技术。",
+    "body": "据外媒报道，Meta近日低调推出一款名为Pocket的社交AI应用。与传统AI平台主要分享图片、影音不同，Pocket的核心卖点是允许用户用自然语言创建并分享AI生成的小工具和小游戏，生成后还可在编辑器中进一步调整完善，全程无需编写代码。用户既可以将作品保存在“播放列表”中分享给他人，也能在应用首页浏览其他用户创作的内容。\n\nBusiness Insider指出，Pocket的技术来源可追溯至Meta今年初收购的初创公司Atma Sciences，该公司曾开发名为Gizmo的应用，Meta还获得了其技术的非独占许可。这一动作显示出Meta正持续将AI能力向消费者社交场景延伸，试图降低内容创作门槛并增强用户互动。",
+    "category": "人工智能",
+    "tags": [
+      "AI应用",
+      "社交软件",
+      "Vibe Coding",
+      "小程序"
+    ],
+    "source": "IT之家",
+    "time": "6分钟前",
+    "ts": "2026-07-05T11:58:57+00:00",
+    "url": "https://www.ithome.com/0/972/832.htm",
+    "image": "https://img.ithome.com/newsuploadfiles/2026/7/6b57f8aa-b0b5-4bde-8f09-abe6467e7b65.png",
+    "stocks": [
+      {
+        "name": "Meta Platforms",
+        "ticker": "META",
+        "reason": "Pocket为Meta旗下新AI社交应用，有望丰富其AI to C产品矩阵并带动用户时长。",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
     "id": "6bd248232a0a5c5a",
     "title": "中际旭创辟谣上游物料被封锁传言",
     "summary": "中际旭创在互动平台回应投资者称，“公司上游物料炫光片被封锁”的市场传言不符合事实，核心物料均保持正常采购渠道。公司同时强调光模块行业并非简单组装，高端产品涵盖硅光、相干等核心技术。",
@@ -17246,6 +17298,25 @@ const newsData = [
         "confidence": "high"
       }
     ]
+  },
+  {
+    "id": "4a0ccb50bebeba5e",
+    "title": "The Verge：Xbox 陷入困境",
+    "summary": "科技媒体 The Verge 的每周通讯《The Stepback》以“Xbox is a disaster”为题，指出 Xbox 当前处境严峻，并将其置于全球视频游戏行业整体低迷的背景下审视。",
+    "body": "据 The Verge 通讯《The Stepback》报道，其最新一期以“Xbox is a disaster”为标题，称微软旗下的 Xbox 业务正面临严重困境。文章开篇从“Microsoft closed out Summer”切入，试图梳理 Xbox 危机的起因与表现。\n\n该报道将 Xbox 的问题与整个视频游戏行业的黯淡态势联系起来，认为主机市场增长乏力、玩家支出收缩等因素加剧了 Xbox 的挑战。作为微软消费硬件与游戏生态的重要入口，Xbox 的低迷状态可能对其在游戏市场的长期布局构成压力。",
+    "category": "消费电子",
+    "tags": [
+      "Xbox",
+      "微软",
+      "游戏主机",
+      "消费电子"
+    ],
+    "source": "The Verge",
+    "time": "2天前",
+    "ts": "2026-07-02T09:52:42-04:00",
+    "url": "https://www.theverge.com/column/960600/xbox-is-a-disaster",
+    "image": "",
+    "stocks": []
   },
   {
     "id": "732794e5de1f845d",
