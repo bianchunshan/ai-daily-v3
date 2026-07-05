@@ -292,6 +292,24 @@ const newsData = [
     "stocks": []
   },
   {
+    "id": "f2aca3c59c5e3a3f",
+    "title": "sqlite-utils 新版发布，AI 生成大部分代码",
+    "summary": "开源 SQLite 工具库 sqlite-utils 发布 4.0rc2 候选版本，据称该版本大部分代码由 Claude Fable 辅助生成，整体成本仅约 149.25 美元。",
+    "body": "sqlite-utils 是一款流行的 Python 命令行工具与库，用于创建、管理和查询 SQLite 数据库。其 4.0rc2 候选版本的发布说明提到，该版本大部分代码由 Claude Fable 编写完成，开发成本约为 149.25 美元。这一案例体现了 AI 编程助手在成熟开源项目中的实际落地潜力，可能进一步引发开发者对 AI 辅助软件开发效率与成本的关注，但目前尚难直接对应到具体上市公司的业绩影响。",
+    "category": "人工智能",
+    "tags": [
+      "AI编程",
+      "开源软件",
+      "SQLite"
+    ],
+    "source": "Hacker News",
+    "time": "1小时前",
+    "ts": "2026-07-05T06:19:34+00:00",
+    "url": "https://simonwillison.net/2026/Jul/5/sqlite-utils-fable/",
+    "image": "",
+    "stocks": []
+  },
+  {
     "id": "75306515992bd202",
     "title": "5月中国家用路由器线上均价上涨，华为小米普联居前三",
     "summary": "洛图科技数据显示，2026年5月中国家用路由器线上市场销量同比下降，但WiFi 6/7与多千兆规格升级推动零售均价上行，华为、小米、普联销量份额分列前三。",
