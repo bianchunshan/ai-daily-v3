@@ -1,5 +1,43 @@
 const newsData = [
   {
+    "id": "f47d113d788b307e",
+    "title": "研究发现会说多种语言或有助延缓大脑衰老",
+    "summary": "在欧洲神经科学学会联合会（FENS）2026论坛上公布的研究显示，掌握多门语言的人大脑连通性更强，似乎拥有更“年轻”的大脑，这可能有助于减缓随年龄增长出现的记忆力和思维速度下降。",
+    "body": "这项研究指出，随着年龄增长，大脑中数十亿神经细胞之间的连通性会逐渐退化，导致记忆力和思维速度下降。而会说多种语言的人，其大脑连通性似乎保持得更好，相当于拥有更年轻的大脑结构。研究者认为，双语或多语经验可能通过持续调动认知控制网络，对大脑起到一种“锻炼”作用，从而在衰老过程中提供认知储备。这一发现进一步支持了语言学习与大脑健康之间的关联，但具体机制仍需更多研究验证。",
+    "category": "生物医药",
+    "tags": [
+      "神经科学",
+      "认知健康",
+      "大脑衰老",
+      "双语研究"
+    ],
+    "source": "MedicalXpress",
+    "time": "7分钟前",
+    "ts": "2026-07-05T18:00:02-04:00",
+    "url": "https://medicalxpress.com/news/2026-07-language-aging-brain.html",
+    "image": "https://scx1.b-cdn.net/csz/news/tmb/2019/1-language.jpg",
+    "stocks": []
+  },
+  {
+    "id": "d3f0eb40a9ef8152",
+    "title": "CoCom出口管制波及气球与立方星GPS接收机",
+    "summary": "该话题讨论冷战时期延续的CoCom出口管制法规如何适用于气球和立方星所用的GPS接收机等军民两用导航设备，反映出小型航天器在供应链安全上面临的合规风险。",
+    "body": "原文仅提供了Hacker News上的标题信息，核心议题是“CoCom regulations and GPS receivers for balloons and cubesats”。CoCom（多边出口管制统筹委员会）及其后继机制长期对高精度导航、航天元器件等军民两用技术实施出口限制；随着高空气球、CubeSat等低成本航天平台普及，原本面向大型卫星或导弹系统的管制条款可能同样适用于其搭载的GPS接收机。该议题凸显小型航天与气球探测项目在元器件采购、跨境交付和使用合规方面可能面临的额外审查与供应链不确定性。",
+    "category": "地缘科技",
+    "tags": [
+      "出口管制",
+      "GPS",
+      "CubeSat",
+      "高空气球"
+    ],
+    "source": "Hacker News",
+    "time": "27分钟前",
+    "ts": "2026-07-05T21:39:05+00:00",
+    "url": "https://space.stackexchange.com/questions/14687/current-situation-with-cocom-regulations-and-gps-receivers-for-balloons-and-cube",
+    "image": "",
+    "stocks": []
+  },
+  {
     "id": "fd7f8c59090753f1",
     "title": "可修复开源纸张打印机受关注",
     "summary": "一款强调可修复性与开源设计的纸张打印机在Hacker News上受到关注，呼应了维修权运动与可持续消费电子的趋势。",
@@ -79,6 +117,24 @@ const newsData = [
     "time": "1小时前",
     "ts": "2026-07-05T20:09:34+00:00",
     "url": "https://www.euronews.com/travel/2026/07/03/tripadvisor-ai-summaries-give-glowing-reviews-to-dangerous-hotels-consumer-watchdog-finds",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "fd62813f03eb702f",
+    "title": "人类语音音高估计语音与噪声语料库发布",
+    "summary": "该材料介绍了用于人类语音音高估计的语音与噪声语料库，可为语音信号处理、语音合成及相关AI研究提供数据支持。",
+    "body": "该语料库专注于人类语音音高估计任务，包含语音与噪声数据，适用于语音识别、语音合成、音频分析及说话人识别等研究方向。音高估计是语音处理中的关键环节，对提升合成语音自然度、改进语音转写准确性具有基础意义。该数据集有望为学术界与产业界的算法开发与模型训练提供参考基准。",
+    "category": "人工智能",
+    "tags": [
+      "语音处理",
+      "数据集",
+      "音高估计"
+    ],
+    "source": "Hacker News",
+    "time": "2小时前",
+    "ts": "2026-07-05T20:00:42+00:00",
+    "url": "https://zenodo.org/records/3920591",
     "image": "",
     "stocks": []
   },
