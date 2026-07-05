@@ -1,5 +1,50 @@
 const newsData = [
   {
+    "id": "9524312aa965d032",
+    "title": "Discord正式登陆Meta Quest头显平台",
+    "summary": "多人社交应用Discord已正式上架Meta Quest头显平台，用户下载登录可获赠一个月Nitro会员。该应用支持文字/语音聊天及第一人称VR画面直播，但目前稳定性和评分表现欠佳。",
+    "body": "IT之家报道，Discord应用现已正式登陆Meta Quest头显平台，不过当前仅支持2D平面显示。官方介绍称，Quest版Discord支持文字聊天、语音聊天和观看好友直播，玩家还可将自己的第一人称VR画面直接直播给好友。为推广该应用，Meta与Discord推出限时活动，用户在9月30日前下载并登录账号可获赠一个月Nitro会员，但已有Nitro订阅的用户无法领取。\n\n目前该应用体验仍不成熟。据外媒UploadVR报道，Quest版Discord稳定性不理想，直播功能表现较差。在Meta Horizon商店中，该应用评分仅为3星，不少用户反馈其会随机导致正在运行的VR游戏崩溃，并存在大量Bug、卡顿和运行异常等问题。\n\n此次Discord上架标志着Meta Quest的社交功能进一步完善，有助于提升VR设备的社交属性和用户粘性。然而，若基础体验问题得不到快速修复，反而可能影响用户对Quest生态的满意度。",
+    "category": "消费电子",
+    "tags": [
+      "虚拟现实",
+      "社交应用",
+      "Meta Quest",
+      "Discord"
+    ],
+    "source": "IT之家",
+    "time": "4分钟前",
+    "ts": "2026-07-05T14:31:01+00:00",
+    "url": "https://www.ithome.com/0/972/857.htm",
+    "image": "https://img.ithome.com/newsuploadfiles/2026/7/f33f2cc8-4d45-4f9b-8ec9-f86253e9fd3c.png?x-bce-process=image/format,f_auto",
+    "stocks": [
+      {
+        "name": "Meta Platforms",
+        "ticker": "META",
+        "reason": "作为Meta Quest头显平台所有者，Discord整合增强Quest社交生态与用户粘性",
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
+    "id": "27710906dff6aade",
+    "title": "谷歌新广告让开国元勋用AI起草独立宣言引争议",
+    "summary": "谷歌为Workspace发布新广告，设想美国开国元勋借助Gemini和协作工具起草《独立宣言》，被评价为尴尬且令人恼火，引发对AI营销边界的讨论。",
+    "body": "据外媒报道，谷歌近日为Google Workspace推出一支宣传广告，以\"小组作业，但设定在1776年\"开场，想象本杰明·富兰克林通过短信与托马斯·杰斐逊沟通，并利用Gemini等AI协作工具共同起草《独立宣言》。该广告试图将现代办公协作与生成式AI能力投射到历史场景中，但外界反应普遍负面，认为其将重大历史事件轻佻地包装成\"小组作业\"，显得尴尬且引发不适。这一案例再次凸显科技公司在推广生成式AI时面临的叙事风险：如何在展示产品能力的同时，避免让公众感到营销过度消费历史或文化符号。",
+    "category": "人工智能",
+    "tags": [
+      "谷歌",
+      "Gemini",
+      "AI营销",
+      "Google Workspace"
+    ],
+    "source": "The Verge",
+    "time": "12分钟前",
+    "ts": "2026-07-05T10:23:11-04:00",
+    "url": "https://www.theverge.com/ai-artificial-intelligence/961468/google-ai-commercial-founding-fathers-declaration-of-independence",
+    "image": "",
+    "stocks": []
+  },
+  {
     "id": "c89b5fc099dcdd2b",
     "title": "Yeelight智能护眼无叶风扇灯发售：首发569元",
     "summary": "Yeelight旗下智能无叶风扇灯已在小米有品开启众筹并达成目标，首发价569元，预计8月25日前发货。该产品采用无叶化设计，支持正反转双模式，并接入米家App实现智能控制。",
