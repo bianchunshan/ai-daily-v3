@@ -1,5 +1,62 @@
 const newsData = [
   {
+    "id": "9a5f3ea4a833ff3f",
+    "title": "HMD Skyline 2手机仍将发布：搭载骁龙7s Gen 4",
+    "summary": "消息称HMD Skyline 2标准版未被取消，仅GT机型被砍。该机将搭载高通骁龙7s Gen 4处理器，相机模组设计与初代保持一致。",
+    "body": "据IT之家报道，消息源smashx_60确认HMD Skyline 2“被砍”消息系误解，仅GT机型取消，标准版仍将发布。最新工程机谍照显示，该机背面相机模组设计与初代相同，位于手机左上，并非此前曝光的Lumia 1020“奥利奥”圆形居中风格。\n\n配置方面，HMD Skyline 2预计搭载高通骁龙7s Gen 4处理器（此前曝光为7s Gen 3），配备6.55英寸FHD+ 144Hz OLED屏幕、5000mAh电池，支持40W有线及15W无线充电，同时具备IP54认证与第二代快拆设计。作为HMD旗下主打可维修性的手机产品线，新机的持续推出显示厂商仍在细分市场中寻找差异化竞争空间。",
+    "category": "消费电子",
+    "tags": [
+      "智能手机",
+      "HMD",
+      "骁龙",
+      "可维修设计"
+    ],
+    "source": "IT之家",
+    "time": "3分钟前",
+    "ts": "2026-07-05T13:02:09+00:00",
+    "url": "https://www.ithome.com/0/972/840.htm",
+    "image": "https://img.ithome.com/newsuploadfiles/2026/7/8ce6e7ae-0217-48fe-a2cc-cf7159a0d028.jpg?x-bce-process=image/format,f_auto",
+    "stocks": []
+  },
+  {
+    "id": "956f4846b2d10e52",
+    "title": "2026中国互联网大会将聚焦智能体互联网与token经济",
+    "summary": "2026（第二十五届）中国互联网大会将于7月8日至10日在北京国家会议中心举办，议程围绕人工智能赋能新质生产力、AI数字消费、Data For AI与未来产业等方向，并设置智能体互联网、token经济、算力互联网等专题论坛。",
+    "body": "2026（第二十五届）中国互联网大会定于7月8日至10日在北京国家会议中心举行。7月8日上午为开幕式，随后特色论坛将围绕人工智能赋能新质生产力创新发展、AI赋能数字消费新生态、Data For AI、未来产业创新发展四大核心方向展开。\n\n行业论坛覆盖人工智能、算力网络、数据安全、数字孪生、开源生态、网络法治等赛道。7月8日下午将率先举办算电协同发展、智能体互联网、智能体安全、算力互联网与token经济、智能体终端高质量发展五大论坛；7月9日聚焦AI医疗健康、未成年人健康用网、数据安全、个人信息保护、智能体创新推进等议题；7月10日则讨论数字孪生与智能城市、法治护航新兴产业、网络文化及跨芯片智算生态等。\n\n大会密集设置智能体、token经济、算电协同等前沿议题，反映出国内互联网行业正从通用AI讨论转向Agent应用、算力网络与经济机制融合的深水区，对相关技术标准、产业生态和政策走向具有风向标意义。",
+    "category": "人工智能",
+    "tags": [
+      "中国互联网大会",
+      "智能体互联网",
+      "token经济",
+      "人工智能"
+    ],
+    "source": "IT之家",
+    "time": "7分钟前",
+    "ts": "2026-07-05T12:58:07+00:00",
+    "url": "https://www.ithome.com/0/972/839.htm",
+    "image": "https://img.ithome.com/newsuploadfiles/2026/7/a07cb5b3-ff6a-478c-8ebe-d9908dbefc02.jpg?x-bce-process=image/format,f_auto",
+    "stocks": []
+  },
+  {
+    "id": "a99ed19014583e0e",
+    "title": "微软协助FBI追踪，19岁Scattered Spider黑客被捕",
+    "summary": "美国司法部在FBI和芬兰警方的协助下，逮捕了19岁美爱双重国籍黑客Peter Stokes，其被指与勒索团伙Scattered Spider有关。微软提供的Windows 11设备标识信息在定位嫌疑人过程中发挥了作用。",
+    "body": "美国司法部宣布，19岁美爱双重国籍男子Peter Stokes在赫尔辛基机场准备登机前往日本时被捕，他被指控与全球知名网络犯罪集团Scattered Spider有关联，面临合谋、网络入侵和欺诈等指控。执法行动由美国FBI与芬兰国家调查局联合开展，微软向FBI共享的信息以及Windows 11设备标识（GDID）被用于追踪该嫌疑人。\n\nScattered Spider（又名Octo Tempest、UNC3944、Oktapus）以社会工程学攻击著称，美国司法部称该组织已通过勒索获取超过1亿美元。针对Stokes的主要指控涉及2025年5月对美国一家 luxury jewelry dealer 的攻击：嫌疑人通过Google Voice冒充员工致电IT服务台，骗取管理员账号凭证重置权限，进而入侵系统、窃取数据并索要800万美元加密货币赎金。受害公司最终恢复了基础设施访问，未支付赎金。\n\n此次逮捕显示了跨国执法协作与科技公司数据共享在打击网络犯罪中的重要作用，也可能对以社会工程为核心的勒索组织形成一定震慑。",
+    "category": "网络安全",
+    "tags": [
+      "网络安全",
+      "网络犯罪",
+      "勒索软件",
+      "微软"
+    ],
+    "source": "Tom's Hardware",
+    "time": "10分钟前",
+    "ts": "2026-07-05T12:55:00+00:00",
+    "url": "https://www.tomshardware.com/software/windows-11-identifier-used-to-track-scattered-spider-perp-after-microsoft-shared-info-with-fbi-19-year-old-us-estonian-hacker-arrested-over-alleged-ties-to-infamous-extortion-group",
+    "image": "https://cdn.mos.cms.futurecdn.net/33BfSCDDVkgxxQT43TtZuf-1280-80.jpg",
+    "stocks": []
+  },
+  {
     "id": "639623c36a82f11d",
     "title": "联想GeekPro主机上新酷睿7-245HX+RTX 5060",
     "summary": "联想推出搭载英特尔酷睿7-245HX处理器与RTX 5060显卡的GeekPro设计师台式电脑主机，定价9999元，面向设计师及游戏用户。",
@@ -14658,6 +14715,32 @@ const newsData = [
     "url": "https://medicalxpress.com/news/2026-07-testicular-tissue-early-germ-cells.html",
     "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/pipette-and-test-tube.jpg",
     "stocks": []
+  },
+  {
+    "id": "51f0c4620a5830eb",
+    "title": "Vizio推低价Mini LED电视获评最佳非智能电视",
+    "summary": "外媒评测Vizio被沃尔玛收购后推出的65英寸Mini LED量子点电视，认为其意外成为市面上“最佳非智能电视”，售价低于398美元，主打基础画质体验。",
+    "body": "The Verge近日评测了Vizio在2024年被沃尔玛收购后推出的65英寸Mini LED量子点电视。该产品以不到398美元的定价成为市面上最便宜的量子点电视之一，评测者认为其在关闭智能功能、作为“非智能电视”使用时表现出色。作为沃尔玛旗下品牌，Vizio此次以低价回归电视市场，可能进一步加剧入门级Mini LED电视的价格竞争，并强化沃尔玛在消费电子领域的布局。",
+    "category": "消费电子",
+    "tags": [
+      "智能电视",
+      "Mini LED",
+      "沃尔玛",
+      "消费电子"
+    ],
+    "source": "The Verge",
+    "time": "2天前",
+    "ts": "2026-07-02T18:37:05-04:00",
+    "url": "https://www.theverge.com/tech/960916/vizio-mini-led-quantum-tv-review",
+    "image": "",
+    "stocks": [
+      {
+        "name": "沃尔玛",
+        "ticker": "WMT",
+        "reason": "沃尔玛于2024年收购Vizio，Vizio电视销售表现可间接利好沃尔玛零售与广告业务",
+        "confidence": "medium"
+      }
+    ]
   },
   {
     "id": "9197d4f43279fe2f",
