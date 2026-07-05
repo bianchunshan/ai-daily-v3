@@ -1,5 +1,31 @@
 const newsData = [
   {
+    "id": "d28fc2c68cfb7caa",
+    "title": "英伟达Kyber NVL144推迟至2028年",
+    "summary": "英伟达新一代AI GPU架构Kyber NVL144遭遇重大延迟，发布时间从原预期推迟超过12个月至2028年，同期NVL72x2背靠背机架方案也被取消，限制了Rubin Ultra的扩展能力。",
+    "body": "据SemiAnalysis消息，英伟达CEO黄仁勋在GTC大会上展示Kyber NVL144仅三个月后，该项目遭遇重大挫折，已推迟超过12个月，延至2028年。报道同时指出，英伟达的NVL72x2背靠背机架架构已被取消，导致Rubin Ultra的扩展域受限。这一延迟可能影响下一代AI算力集群的部署节奏，并对数据中心客户的采购规划带来不确定性，也反映出大规模AI基础设施系统在工程实现上面临的复杂挑战。",
+    "category": "AI 基础设施",
+    "tags": [
+      "英伟达",
+      "GPU",
+      "算力",
+      "数据中心"
+    ],
+    "source": "AIHOT精选",
+    "time": "26分钟前",
+    "ts": "2026-07-05T21:00:27+00:00",
+    "url": "https://x.com/SemiAnalysis_/status/2073874671498387899",
+    "image": "",
+    "stocks": [
+      {
+        "name": "英伟达",
+        "ticker": "NVDA",
+        "reason": "Kyber NVL144延迟及架构调整直接影响公司下一代数据中心GPU产品路线图",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
     "id": "8113be29e7a3563c",
     "title": "猫途鹰AI摘要为问题酒店生成好评引发质疑",
     "summary": "旅游平台猫途鹰（Tripadvisor）的AI摘要功能被指为存在安全等问题的酒店生成过于正面的评价，引发对生成式AI内容真实性与可信度的担忧。",
