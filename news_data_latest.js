@@ -1,5 +1,24 @@
 const newsData = [
   {
+    "id": "09a268605170abc7",
+    "title": "NASA加州沙漠测试新型火星车原型",
+    "summary": "NASA喷气推进实验室开发的ERNEST火星车原型在加州沙漠完成为期七天的16英里自主测试，工程师干预极少。该技术有望用于未来的月球和火星探测车，提升其在极端地形下的自主导航能力。",
+    "body": "美国国家航空航天局（NASA）喷气推进实验室（JPL）研发的\"探索极端斜坡地形探测车\"（ERNEST）原型机近日在加州南部沙漠完成为期七天的测试。ERNEST在累计37小时的行驶时间内完成了约16英里（26公里）的路程，且几乎全程自主运行，工程师仅进行了极少干预。测试还涵盖了低光照及夜间条件下的行驶能力验证。\n\nNASA希望将ERNEST的自主导航与移动技术应用于未来的月球和火星探测车，使其能够依靠车载程序实时评估并穿越以往探测器难以到达的危险地形，从而比前辈探测车行驶得更远、更快。项目负责人表示，此次测试有助于优化移动硬件与自主软件，以应对月球表面复杂的地形和光照条件。该原型机的研发始于2022年，由JPL内部研究经费支持。",
+    "category": "商业航天",
+    "tags": [
+      "NASA",
+      "火星探测",
+      "自主导航",
+      "深空探测"
+    ],
+    "source": "Space.com",
+    "time": "5分钟前",
+    "ts": "2026-07-05T14:00:00+00:00",
+    "url": "https://www.space.com/space-exploration/nasa-tests-advanced-new-mars-rover-prototype-in-the-california-desert-video",
+    "image": "https://cdn.mos.cms.futurecdn.net/FnanyVzD9bdTtB7uRzCd2K-1280-80.jpg",
+    "stocks": []
+  },
+  {
     "id": "9d90c6fcae130cea",
     "title": "长征十号乙7月10-13日首飞 验证海上网系回收",
     "summary": "长征十号乙首飞窗口锁定7月10日至13日，将在文昌商业航天发射场验证全球首创的“海上网系回收”技术，为载人登月与低成本商业发射积累关键数据。",
@@ -5842,6 +5861,24 @@ const newsData = [
     "ts": "2026-07-04T03:19:05+00:00",
     "url": "https://www.ithome.com/0/972/514.htm",
     "image": "https://img.ithome.com/newsuploadfiles/2026/7/3d3ac360-99a9-4c5f-8c9e-3b8df8a1e52b.png",
+    "stocks": []
+  },
+  {
+    "id": "38e3f76ac076a708",
+    "title": "King Arthur推出酸面团自动烘焙设备",
+    "summary": "King Arthur面粉品牌推出名为Sourdough Sidekick的厨房设备，旨在自动化酸面团面包制作中揉面、发酵等枯燥环节。",
+    "body": "Sourdough Sidekick是一款由King Arthur面粉公司背书和品牌化的厨房设备，专门用于简化传统酸面团面包的制作流程。酸面团面包依赖天然发酵和野生酵母，制作过程传统且耗时，而该产品承诺自动化其中重复繁琐的步骤。这一产品体现了智能家居设备向细分生活场景渗透的趋势，也反映出传统烘焙品牌正借助自动化工具吸引家庭烘焙爱好者。",
+    "category": "消费电子",
+    "tags": [
+      "智能家居",
+      "厨房电器",
+      "消费电子"
+    ],
+    "source": "The Verge",
+    "time": "1天前",
+    "ts": "2026-07-03T23:05:59-04:00",
+    "url": "https://www.theverge.com/tech/959604/sourdough-sidekick-review-king-arthur-starter",
+    "image": "",
     "stocks": []
   },
   {
