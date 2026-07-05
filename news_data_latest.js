@@ -1,5 +1,31 @@
 const newsData = [
   {
+    "id": "6b8de04c44ce14ee",
+    "title": "DARPA拟用核废料打造30年续航无人机电池",
+    "summary": "报道称，DARPA的SYMPHONEE项目计划从核废料中提取锶-90，研制可续航30年的核电池，为下一代军用无人机提供持久电力。",
+    "body": "美国国防高级研究计划局（DARPA）的“Rads to Watts”项目正推动新一代放射性同位素电池技术发展。摩根州立大学近日获得337万美元合同，用于推进名为SYMPHONEE的项目，旨在从核废料中提取锶-90等放射性同位素，制造可在极端环境下工作数十年的微型辐射伏打电源系统。\n\n该项目团队包括Northrop Grumman、PNNL、Project Omega、ARA和Widetronix等。传统放射性同位素电源已广泛用于烟雾探测器和航天器，但新计划希望大幅提升功率密度，以支撑下一代持久飞行的军用无人机。若技术成功，将显著延长无人机任务时间并降低后勤保障需求。",
+    "category": "未来能源",
+    "tags": [
+      "核电池",
+      "无人机",
+      "DARPA",
+      "锶-90"
+    ],
+    "source": "Tom's Hardware",
+    "time": "3分钟前",
+    "ts": "2026-07-05T10:49:55+00:00",
+    "url": "https://www.tomshardware.com/tech-industry/drones/darpa-plans-30-year-endurance-nuclear-waste-batteries-to-power-next-gen-drones-says-report-project-symphonee-aims-to-harvest-strontium-90-to-power-persistent-military-drones",
+    "image": "https://cdn.mos.cms.futurecdn.net/ABEWvbG3L8j8iGuj2rjwUk-1280-80.jpg",
+    "stocks": [
+      {
+        "name": "诺斯罗普·格鲁曼",
+        "ticker": "NOC",
+        "reason": "作为SYMPHONEE项目团队成员，参与开发下一代核废料电池及持久无人机电源系统。",
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
     "id": "4c71e944fc70c95b",
     "title": "铭瑄B850M WIFI6E主板开售，定价849元",
     "summary": "铭瑄推出MS-eSport B850M WIFI6E电竞主板，宣称可跑满锐龙7 9850X3D/锐龙9 9900X3D处理器，采用8+2+1相供电与“冰蓝星环”外观，国行售价849元并提供3年质保。",
