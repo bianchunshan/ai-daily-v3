@@ -1,5 +1,24 @@
 const newsData = [
   {
+    "id": "22259cc3a4277f22",
+    "title": "康复训练项目可缓解长新冠“脑雾”症状",
+    "summary": "一项康复项目显示能帮助长新冠患者改善“脑雾”，提升记忆、注意力和思维敏捷度。",
+    "body": "报道称，许多长新冠患者饱受“脑雾”困扰，表现为记忆力下降、反应迟钝和注意力难以集中。一项康复项目为这类患者提供帮助，旨在缓解认知功能障碍，改善日常生活能力。该进展为长新冠康复干预提供了新的实践方向，也可能减轻相关医疗负担。",
+    "category": "生物医药",
+    "tags": [
+      "长新冠",
+      "脑雾",
+      "康复医疗",
+      "认知障碍"
+    ],
+    "source": "MedicalXpress",
+    "time": "6分钟前",
+    "ts": "2026-07-05T13:00:06-04:00",
+    "url": "https://medicalxpress.com/news/2026-07-rehab-covid-brain-fog.html",
+    "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/rehab-program-helps-li.jpg",
+    "stocks": []
+  },
+  {
     "id": "96f4ed59e1ada59b",
     "title": "SpaceX半年销毁260颗星链卫星，环保争议升温",
     "summary": "SpaceX向FCC提交的半年报告显示，2025年12月至2026年5月间260颗星链卫星已在大气层中焚毁，另有349颗退役待处理，引发外界对大型卫星退役环保风险的担忧。",
