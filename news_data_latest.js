@@ -75,6 +75,25 @@ const newsData = [
     "stocks": []
   },
   {
+    "id": "f9445fdaff216e77",
+    "title": "开发者提出带简易Vim模式的Rust编辑器构想",
+    "summary": "一名开发者在Hacker News分享了一个为Rust编程初学者设计的编辑器想法，内置简化的Vim模式以降低学习曲线。",
+    "body": "据Hacker News帖子，有开发者构思了一款面向Rust语言的代码编辑器，核心卖点是集成简化的Vim编辑模式，帮助新手在写Rust的同时逐步熟悉Vim操作。该想法目前处于非常早期的概念阶段，尚未有具体产品或开源项目细节披露。如果落地，这类工具可能降低Rust与Vim的双重学习门槛，吸引编程教育和个人开发者市场关注，但距离实际商业化和投资价值还很远。",
+    "category": "消费电子",
+    "tags": [
+      "编程工具",
+      "Rust",
+      "Vim",
+      "开发者工具"
+    ],
+    "source": "Hacker News",
+    "time": "1小时前",
+    "ts": "2026-07-05T21:36:28+00:00",
+    "url": "https://github.com/electronicsleep/rust-vim",
+    "image": "",
+    "stocks": []
+  },
+  {
     "id": "fd7f8c59090753f1",
     "title": "可修复开源纸张打印机受关注",
     "summary": "一款强调可修复性与开源设计的纸张打印机在Hacker News上受到关注，呼应了维修权运动与可持续消费电子的趋势。",
