@@ -1,5 +1,24 @@
 const newsData = [
   {
+    "id": "b0b0514e1e37249d",
+    "title": "DJI Osmo Pocket 3 平替 Xtra Muse 降至329美元",
+    "summary": "便携云台相机 DJI Osmo Pocket 3 近期在多家零售商降价至 378 美元，而外观与功能相近的 Xtra Muse 现仅售 329 美元，性价比更为突出。",
+    "body": "据报道，DJI Osmo Pocket 3 今年多数时间售价约为 500 美元，目前在多家零售商处已降至 378 美元。与此同时，与其极为相似的便携相机 Xtra Muse 售价仅为 329 美元，价格更具竞争力。此类高性价比便携影像设备的涌现，可能加剧消费级云台相机市场的竞争，并影响消费者的购买决策。",
+    "category": "消费电子",
+    "tags": [
+      "消费电子",
+      "便携相机",
+      "DJI",
+      "Xtra Muse"
+    ],
+    "source": "The Verge",
+    "time": "8分钟前",
+    "ts": "2026-07-06T11:09:18-04:00",
+    "url": "https://www.theverge.com/gadgets/961612/xtra-muse-dji-osmo-pocket-3-ipad-air-magic-mouse-deal-sale",
+    "image": "",
+    "stocks": []
+  },
+  {
     "id": "bb33d4c5ffcaebc0",
     "title": "轻拍背部为何能安抚婴儿？研究揭示跨物种镇静机制",
     "summary": "一项新研究关注人类与小鼠幼崽在被轻抚背部时产生的镇静效应，试图解释这一普遍安抚行为背后的神经生物学机制。",
@@ -17,6 +36,32 @@ const newsData = [
     "url": "https://medicalxpress.com/news/2026-07-calms-infants-mouse-pups.html",
     "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/why-the-back-how-strok.jpg",
     "stocks": []
+  },
+  {
+    "id": "b719c88aa7f5b453",
+    "title": "AMD推出Ryzen AI Halo AI开发套件，售价4000美元",
+    "summary": "Hacker News曝光AMD一款名为Ryzen AI Halo的AI开发套件，售价约4000美元，面向AI开发者与边缘AI场景。",
+    "body": "根据Hacker News上的资讯，AMD被曝光正在准备一款名为Ryzen AI Halo的AI开发套件，定价约为4000美元，目标用户为AI开发者，适用于端侧或边缘AI的开发与部署。该动向显示AMD正在进一步加码AI处理器生态，试图在AIPC和本地AI推理市场与英特尔、高通等竞争对手展开更直接较量。不过目前信息有限，具体硬件规格、发售时间与官方定位尚待AMD进一步披露。",
+    "category": "半导体与先进制造",
+    "tags": [
+      "AMD",
+      "AI开发套件",
+      "端侧AI",
+      "处理器"
+    ],
+    "source": "Hacker News",
+    "time": "17分钟前",
+    "ts": "2026-07-06T15:01:18+00:00",
+    "url": "https://www.lttlabs.com/articles/2026/07/06/amd-ryzen-ai-halo",
+    "image": "",
+    "stocks": [
+      {
+        "name": "超威半导体（AMD）",
+        "ticker": "AMD",
+        "reason": "Ryzen AI Halo开发套件直接体现其在端侧AI处理器与开发者生态的投入，利好芯片及AI业务",
+        "confidence": "high"
+      }
+    ]
   },
   {
     "id": "2a6a98b0bb7c5e50",
@@ -64,6 +109,25 @@ const newsData = [
     "stocks": []
   },
   {
+    "id": "41109083375d6ffe",
+    "title": "已有Postgres，还需单独系统吗？",
+    "summary": "一篇来自Hacker News的文章/讨论提出，既然组织已经部署了PostgreSQL数据库，是否真的还需要额外引入独立的专门系统来处理各类数据负载。",
+    "body": "该讨论围绕“在已有Postgres的情况下是否仍需单独系统”展开，意在重新审视为不同业务场景拆分数据库、队列、缓存或搜索引擎等专用组件的必要性。主张复用PostgreSQL的一方认为，这可以简化数据架构、降低运维复杂度与总拥有成本，同时减少多系统之间的数据一致性问题。不过，这种思路通常适用于特定负载与规模，企业在实际选型时仍需权衡性能、扩展性与功能专精程度。",
+    "category": "AI 基础设施",
+    "tags": [
+      "PostgreSQL",
+      "数据库",
+      "云原生",
+      "数据基础设施"
+    ],
+    "source": "Hacker News",
+    "time": "21分钟前",
+    "ts": "2026-07-06T14:57:05+00:00",
+    "url": "https://postgresisenough.dev/",
+    "image": "",
+    "stocks": []
+  },
+  {
     "id": "bcee6cfb13df01c0",
     "title": "山灵ET3 EVO CD转盘7月8日开售",
     "summary": "山灵音响宣布ET3 EVO CD转盘将于7月8日全网开售，售价3998元。新品在外观与调音上均有所升级，但官方尚未公布具体规格。",
@@ -80,6 +144,24 @@ const newsData = [
     "ts": "2026-07-06T14:50:08+00:00",
     "url": "https://www.ithome.com/0/973/297.htm",
     "image": "https://img.ithome.com/newsuploadfiles/2026/7/fc48b91f-3106-4d4e-8886-79434df24ac8.jpg?x-bce-process=image/format,f_auto",
+    "stocks": []
+  },
+  {
+    "id": "57dc69a29952fd9f",
+    "title": "语言学家本德为“随机鹦鹉”论文正名",
+    "summary": "语言学家艾米丽·本德就“随机鹦鹉”论文公开澄清误解，重申其对大语言模型风险与局限的学术立场。",
+    "body": "“随机鹦鹉”（Stochastic Parrots）是2021年由艾米丽·本德（Emily Bender）等人发表的关于大语言模型风险的重要论文，提出LLM可能像“随机鹦鹉”一样生成看似连贯但缺乏真正理解的文本。本德此次出面澄清，旨在纠正公众与业界对该论文的误读，强调其关注点不仅限于技术性能，还包括训练数据采掘、环境成本、偏见放大及模型部署责任等议题。该表态再次将AI伦理与大型模型安全讨论推向公众视野，对当前生成式AI的治理与研发具有警示意义。",
+    "category": "人工智能",
+    "tags": [
+      "大语言模型",
+      "AI伦理",
+      "学术研究"
+    ],
+    "source": "Hacker News",
+    "time": "32分钟前",
+    "ts": "2026-07-06T14:45:31+00:00",
+    "url": "https://spectrum.ieee.org/stochastic-parrot",
+    "image": "",
     "stocks": []
   },
   {
