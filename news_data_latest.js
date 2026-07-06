@@ -83,6 +83,25 @@ const newsData = [
     ]
   },
   {
+    "id": "83852b5c58bff88e",
+    "title": "德国Quantum Systems获12亿美元D轮融资扩产无人机",
+    "summary": "德国防务无人机企业Quantum Systems宣布完成12亿美元D轮融资，估值超过80亿美元；本轮资金将用于扩大产能、增强供应链韧性并加速全球部署。",
+    "body": "Quantum Systems总部位于德国Gilching，由Florian Seibel于2015年创立，专注于为前线部队开发、设计和制造全自主无人机系统（UAS），并通过多传感器空中情报提升政府机构和商业企业的作战效率与决策能力。公司上周表示，最新D轮融资使其估值突破80亿美元，目前账上拥有超过12亿美元现金储备，并将把资金主要用于扩大生产能力、强化供应链韧性及推进更多部署。\n\n该公司近年来营收和员工人数均实现三位数同比增长，并已在美国加利福尼亚州Moorpark设立子公司Quantum-Systems Inc.，服务国防与安全市场。Seibel表示，未来战争将越来越依赖跨域协同的自主系统，Quantum Systems正致力于打造新一代防务核心供应商。",
+    "category": "机器人",
+    "tags": [
+      "无人机",
+      "国防科技",
+      "低空经济",
+      "融资"
+    ],
+    "source": "The Robot Report",
+    "time": "26分钟前",
+    "ts": "2026-07-06T18:29:07+00:00",
+    "url": "https://www.therobotreport.com/quantum-systems-raises-1-2b-expand-drone-production-deployments/",
+    "image": "https://www.therobotreport.com/wp-content/uploads/2026/07/quantumsystems-featured.jpg",
+    "stocks": []
+  },
+  {
     "id": "d8fcc4a1be8af56b",
     "title": "OpenWrt One 开源硬件路由器亮相",
     "summary": "OpenWrt 项目推出名为 OpenWrt One 的开源硬件路由器，强调软硬件的开放可控，面向开发者与网络爱好者。",
@@ -228,6 +247,25 @@ const newsData = [
     "time": "28分钟前",
     "ts": "2026-07-06T17:45:30+00:00",
     "url": "https://x.com/openclaw/status/2074187998602871212",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "22b32121ee2aaa0e",
+    "title": "论文提出语言模型全局工作空间机制",
+    "summary": "Hacker News上一篇关于语言模型全局工作空间的研究文章引发关注，文章探讨将认知科学中的全局工作空间理论引入大语言模型，或有助于改善模型的信息整合与可解释性。",
+    "body": "这篇题为《A global workspace in language models》的文章在Hacker News上获得7个赞、暂无评论。文章方向聚焦于把认知科学的“全局工作空间”概念应用于语言模型，试图通过类似人类意识的广播机制，让模型不同模块共享关键信息。\n\n如果这一思路在模型架构层面落地，可能提升大语言模型在长上下文推理、注意力分配和可解释性方面的表现，并为认知启发式的人工智能系统设计提供新视角。\n\n目前公开信息有限，具体方法、实验设置与结论尚待阅读原文进一步确认，但该方向属于当前大模型架构探索的前沿议题之一。",
+    "category": "人工智能",
+    "tags": [
+      "大语言模型",
+      "全局工作空间",
+      "认知科学",
+      "AI架构"
+    ],
+    "source": "Hacker News",
+    "time": "1小时前",
+    "ts": "2026-07-06T17:44:08+00:00",
+    "url": "https://www.anthropic.com/research/global-workspace",
     "image": "",
     "stocks": []
   },
