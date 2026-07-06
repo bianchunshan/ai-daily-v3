@@ -1,5 +1,100 @@
 const newsData = [
   {
+    "id": "782a7724619f8bf4",
+    "title": "索尼耳机变身PC头动追踪器，已支持数百款游戏",
+    "summary": "一名开发者推出开源应用 Sony Head Tracker，可将索尼 WH/WF-1000XM 系列等耳机的陀螺仪与加速度计数据实时传输到 PC，供 OpenTrack 在赛车和飞行模拟游戏中实现头部姿态追踪。",
+    "body": "据报道，开发者 Nicholas Slattery 发布了名为“Sony Head Tracker”的开源应用。该应用读取索尼耳机固件内置的 Android Head Tracker 协议数据，包括旋转矢量、陀螺仪和欧拉角等，再通过 UDP 流转发给 OpenTrack，从而把 WH/WF-1000XM6、WH/WF-1000XM5 等多款索尼耳机/耳塞变成 PC 游戏实时头动追踪设备。\n\nOpenTrack 本身已支持超过 200 款 PC 游戏，原本多用于手机、摄像头或专用红外追踪器。新应用让普通索尼耳机也能充当追踪输入，拓展了这些消费级音频硬件在模拟赛车、飞行模拟等场景中的玩法，可能提升相关耳机对游戏玩家的吸引力。",
+    "category": "消费电子",
+    "tags": [
+      "头戴式耳机",
+      "PC游戏",
+      "开源软件",
+      "头部追踪"
+    ],
+    "source": "Tom's Hardware",
+    "time": "1分钟前",
+    "ts": "2026-07-06T14:36:21+00:00",
+    "url": "https://www.tomshardware.com/video-games/pc-gaming/you-can-now-use-your-sony-headphones-as-a-real-time-head-tracker-for-race-and-flight-simulators-on-pc-several-hundred-games-already-supported-enthusiast-creates-open-source-app-that-translates-live-sensor-data-into-in-game-camera-controls",
+    "image": "https://cdn.mos.cms.futurecdn.net/aW8RYDVuq3MwJnPU8GoQjn-1280-80.png",
+    "stocks": [
+      {
+        "name": "索尼集团",
+        "ticker": "SONY",
+        "reason": "应用利用索尼高端耳机的传感器扩展游戏头动追踪用途，有望增强其产品对核心玩家的吸引力。",
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
+    "id": "5f34374bdd886ec8",
+    "title": "比亚迪旗舰电动轿车海豹08上市30小时锁单约6.5万辆",
+    "summary": "比亚迪全新旗舰电动轿车海豹08上周在中国开售，起售价低于3万美元，上市首30小时锁单量约达6.5万辆，显示高端电动轿车需求强劲。",
+    "body": "据Electrek报道，比亚迪旗下全新旗舰电动轿车海豹08（Seal 08）上周在中国市场正式开售，起售价不到3万美元。新车宣称具备“百万豪车的性能”，但定价极具竞争力。开售后的前30小时内，锁单量已达到约6.5万辆。\n\n这一销售成绩反映出中国消费者对高性价比高端电动车的强烈需求，也进一步巩固了比亚迪在新能源汽车市场的领先地位。海豹08的热销可能对比亚迪的销量增长和品牌向上升级产生积极推动，同时也将对同价位燃油车及合资电动车形成更大竞争压力。",
+    "category": "未来能源",
+    "tags": [
+      "比亚迪",
+      "电动汽车",
+      "新能源汽车",
+      "海豹08"
+    ],
+    "source": "Electrek",
+    "time": "2分钟前",
+    "ts": "2026-07-06T14:35:27+00:00",
+    "url": "https://electrek.co/2026/07/06/byds-flagship-electric-sedan-receives-65000-locked-in-orders/",
+    "image": "https://electrek.co/wp-content/uploads/sites/3/2026/07/BYD-Seal-08-orders.jpeg?quality=82&#038;strip=all&#038;w=1400",
+    "stocks": [
+      {
+        "name": "比亚迪股份",
+        "ticker": "1211.HK",
+        "reason": "新旗舰海豹08热销直接利好比亚迪销量、品牌高端化及市场份额提升。",
+        "confidence": "high"
+      },
+      {
+        "name": "比亚迪",
+        "ticker": "002594.SZ",
+        "reason": "海豹08锁单强劲，有助于提振公司整体电动车销售与盈利预期。",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "02c441d362c04eb4",
+    "title": "Windows 版 Claude Desktop 沙箱隔离机制曝安全缺陷",
+    "summary": "安全研究团队 Armadin 披露，Anthropic 旗下 Windows 版 Claude Desktop 应用的沙箱隔离机制存在缺陷，攻击者可借助 DLL 侧载在 Ubuntu 虚拟机中获取 root 权限并突破网络访问限制。",
+    "body": "据 IT之家报道，安全研究团队 Armadin 发现，Windows 版 Claude Desktop 中用于隔离运行 Claude Code 的 Hyper-V Ubuntu 虚拟机存在安全缺陷。该应用的本地服务 CoworkVMService 负责接收 Claude Desktop 请求并转发至虚拟机执行，但研究人员通过 DLL 侧载方式让经 Anthropic 签名的 claude.exe 加载恶意 DLL，从而绕过对调用程序的身份验证。\n\n研究显示，相关执行参数可被篡改以修改虚拟机内部安全配置：一个参数能指定以 root 账户运行命令，使攻击者获得虚拟机最高权限；另一个参数则可覆盖单次任务的域名白名单，突破外部网络访问限制。结合这两项操作，攻击者可在获取 root 权限后窃取虚拟机中的运行进程及工作会话数据，并将其外发至控制服务器。\n\nAnthropic 回应称，该攻击链需以攻击者已获得 Windows 主机本地代码执行能力为前提，因此未将其认定为安全漏洞。Armadin 则建议，如非必需可卸载 Claude Desktop，若必须使用应限制用户权限并监控 claude.exe 是否从非系统目录加载可疑 DLL，以降低相关风险。",
+    "category": "网络安全",
+    "tags": [
+      "网络安全",
+      "Claude",
+      "沙箱逃逸",
+      "漏洞"
+    ],
+    "source": "IT之家",
+    "time": "2分钟前",
+    "ts": "2026-07-06T14:35:14+00:00",
+    "url": "https://www.ithome.com/0/973/292.htm",
+    "image": "https://img.ithome.com/newsuploadfiles/2026/7/d14a7269-578e-4975-9a1a-0b72fc7c6885.jpg",
+    "stocks": []
+  },
+  {
+    "id": "02e896074f9434d4",
+    "title": "研究人员揭示“量子证明”的强大能力",
+    "summary": "科学家发现，在验证某些复杂问题的解时，量子世界的内在复杂性无法被绕过，这进一步凸显了量子计算相对于经典计算机的潜在优势。",
+    "body": "三十多年前，研究人员发现遵循量子物理定律的假想计算机能够快速求解困难的数学问题。此后，他们一直试图精确界定量子计算机在哪些场景下优于普通经典计算机。如今，一支研究团队揭示了“量子证明”的威力：在检查某些问题的解是否正确时，无法回避量子世界固有的复杂性。\n\n这项工作属于量子计算复杂性理论的基础研究，深化了人们对量子计算能力的理解。它不仅为寻找量子优势提供了新的理论视角，也可能推动未来量子算法和验证机制的发展。\n\n尽管该成果目前主要具有理论意义，但它进一步强化了量子计算在特定任务上可能具备根本性优势的观点，对量子科技的长期发展具有启示作用。",
+    "category": "量子科技",
+    "tags": [
+      "量子计算",
+      "量子证明",
+      "计算复杂性"
+    ],
+    "source": "Quanta",
+    "time": "4分钟前",
+    "ts": "2026-07-06T14:33:56+00:00",
+    "url": "https://www.quantamagazine.org/researchers-reveal-the-power-of-quantum-proofs-20260706/",
+    "image": "https://www.quantamagazine.org/wp-content/uploads/2026/07/QuantumProof-cr-Ada-Zejun-Shen-Default.webp",
+    "stocks": []
+  },
+  {
     "id": "8f54dc578cca6750",
     "title": "新算法让全球疫情基因组监测更快更便宜",
     "summary": "一项创新算法可加速病原体基因组监测并降低成本，有望改善全球疫情早期预警和应对能力。",
