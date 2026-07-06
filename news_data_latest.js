@@ -1,5 +1,24 @@
 const newsData = [
   {
+    "id": "78ee24b4ad9231aa",
+    "title": "七彩虹推出MoDT主板ECO HM770-K V20",
+    "summary": "七彩虹推出ECO HM770-K V20 MoDT主板，板载集成英特尔酷睿i9-13900HX处理器，提供2条DDR4内存插槽，尺寸小巧接近ITX规格。",
+    "body": "七彩虹上月推出ECO HM770-K V20主板，采用MoDT（Mobile on Desktop Technology）设计，板载英特尔酷睿i9-13900HX处理器，并提供2条DDR4 UDIMM内存插槽。该主板名义上为M-ATX规格，但尺寸仅为240×190mm，宽度已接近标准ITX主板，适合追求紧凑体积的用户。\n\n扩展性方面，主板配备1条PCIe Gen5 ×16插槽、2个PCIe Gen4 ×4 M.2 SSD盘位，支持2.5GbE有线网络和Wi-Fi 6E无线网络。后置接口包括4个USB-A 5Gbps、1个HDMI 2.0和1个DisplayPort 1.2，板内还可扩展2个USB-A 5Gbps。该产品进一步丰富了国内板卡市场的MoDT产品线，为消费者提供了集成高性能移动处理器的桌面方案。",
+    "category": "消费电子",
+    "tags": [
+      "七彩虹",
+      "主板",
+      "MoDT",
+      "英特尔"
+    ],
+    "source": "IT之家",
+    "time": "2分钟前",
+    "ts": "2026-07-06T05:46:09+00:00",
+    "url": "https://www.ithome.com/0/973/041.htm",
+    "image": "https://img.ithome.com/newsuploadfiles/2026/7/83b4736d-7f1c-4a8b-bd5f-89b8a7bc3304.jpg",
+    "stocks": []
+  },
+  {
     "id": "a4b0eba0c4744548",
     "title": "英特尔确认上调部分CPU价格",
     "summary": "英特尔7月6日确认，因供应链及市场动态变化，将对部分消费级酷睿Ultra及Xeon服务器处理器涨价，其中高端Xeon涨幅达7%至12%。",
