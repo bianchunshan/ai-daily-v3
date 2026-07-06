@@ -1,5 +1,24 @@
 const newsData = [
   {
+    "id": "338b37a1bd140d9e",
+    "title": "微软Xbox将裁员3200人并剥离多家工作室",
+    "summary": "微软旗下Xbox计划未来一年裁员约3200人，占员工总数20%；同时剥离Ninja Theory、Undead Labs等至少四家游戏工作室，并已开始与Arkane Studios洽谈潜在出售或剥离。",
+    "body": "夏尔马称，此前收购虽创造重大价值，但增长未达预期，Xbox通常每投入1美元便亏损约64美分。此次重组不会取消已公开项目，裁员将影响保留工作室，旨在将资源集中到优先级更高的项目。这一调整标志着微软对Xbox业务进行深度整顿，试图改善盈利能力并优化游戏内容资产布局。",
+    "category": "消费电子",
+    "tags": [
+      "微软",
+      "Xbox",
+      "游戏工作室",
+      "裁员"
+    ],
+    "source": "IT之家",
+    "time": "2分钟前",
+    "ts": "2026-07-06T13:57:15+00:00",
+    "url": "https://www.ithome.com/0/973/279.htm",
+    "image": "",
+    "stocks": []
+  },
+  {
     "id": "fc6200c2bcec8f5a",
     "title": "闪迪推出520/320两款SATA固态硬盘，最高4TB",
     "summary": "闪迪正式发布两款SATA固态硬盘新品SANDISK 520和SANDISK 320，均采用2.5英寸7mm规格与3D NAND闪存，最高容量达4TB，分别面向专业用户和机械硬盘升级市场。",
@@ -171,6 +190,32 @@ const newsData = [
     "url": "https://medicalxpress.com/news/2026-07-airway-cells-immune-trigger-silicosis.html",
     "image": "https://scx1.b-cdn.net/csz/news/tmb/2024/lung.jpg",
     "stocks": []
+  },
+  {
+    "id": "db8d514691f7dda0",
+    "title": "任天堂欧洲推出可更换电池新版硬件",
+    "summary": "任天堂宣布将在欧洲市场推出多款配备可更换电池的新修订版产品，以符合欧盟电池法规对消费电子设备的可持续性要求。",
+    "body": "任天堂宣布将在欧洲推出配备可更换电池的新版硬件产品修订版本。这一调整主要是为了适应欧盟相关电池与设备法规，要求部分消费电子产品采用用户可更换电池设计，以降低电子废弃物并延长产品使用寿命。对任天堂而言，新版产品有助于其维持在欧洲市场的合规销售，同时可能改善设备的可维修性形象。该举措也可能对公司的供应链、产品设计和欧洲市场策略产生一定影响。",
+    "category": "消费电子",
+    "tags": [
+      "任天堂",
+      "游戏硬件",
+      "可更换电池",
+      "欧盟法规"
+    ],
+    "source": "Hacker News",
+    "time": "41分钟前",
+    "ts": "2026-07-06T13:18:16+00:00",
+    "url": "https://www.nintendo.com/en-gb/Support/Nintendo-Switch-2/Information-about-upcoming-battery-related-revisions-to-some-Nintendo-products-3132901.html",
+    "image": "",
+    "stocks": [
+      {
+        "name": "任天堂",
+        "ticker": "NTDOY",
+        "reason": "任天堂是新闻主体，新版可换电池硬件直接关联其在欧洲市场的合规销售与产品策略。",
+        "confidence": "high"
+      }
+    ]
   },
   {
     "id": "b990e20a7c8b6af5",
