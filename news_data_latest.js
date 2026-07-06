@@ -1,5 +1,107 @@
 const newsData = [
   {
+    "id": "506f3c6ff46ae951",
+    "title": "2026年科技巨头AI相关裁员动态追踪",
+    "summary": "TechCrunch持续跟踪2026年以来将人工智能列为裁员因素的大型科技公司裁员公告，反映AI对科技行业就业市场的结构性影响。",
+    "body": "科技媒体TechCrunch发布了一份按时间倒序排列的追踪清单，汇总2026年大型科技公司将人工智能列为裁员因素的重大裁员公告。该清单旨在记录AI技术替代人力、优化组织结构过程中引发的就业变化，显示出生成式AI与自动化正在重塑科技行业的劳动力需求。尽管具体受影响企业和岗位规模需持续更新，这一现象凸显了AI从工具应用向企业运营核心变量转变的深远影响。",
+    "category": "人工智能",
+    "tags": [
+      "AI裁员",
+      "科技就业",
+      "人工智能影响",
+      "劳动力市场"
+    ],
+    "source": "TechCrunch",
+    "time": "刚刚",
+    "ts": "2026-07-06T18:35:00+00:00",
+    "url": "https://techcrunch.com/2026/07/06/the-running-list-major-tech-layoffs-in-2026-where-employers-cited-ai/",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "82dde4cf1bf3c1ca",
+    "title": "有线耳机强势回归，无线耳塞为何失宠？",
+    "summary": "有线耳机正迎来复苏，消费者因性价比、续航焦虑、蓝牙连接不稳定及对现代科技的疲劳感，开始重新选择有线耳机。",
+    "body": "近年来，曾被无线蓝牙耳机压制的有线耳机市场出现回暖迹象。消费者发现，相同价位下有线耳机往往能提供接近高端蓝牙耳机的音质，例如森海塞尔百元级产品即可支持24bit/96kHz音频。同时，蓝牙耳机的电池续航、不可更换电池设计、2.4GHz频段干扰导致的断连与延迟等问题，也让部分用户感到不便。\n\n此外，一股“复古科技”消费风潮正在兴起，胶片相机、黑胶唱片和机械手表等“过时”产品重新受到青睐。部分消费者厌倦了AI被塞入所有产品，也有人不满频繁的订阅模式与高昂价格。在经济压力之下，简单、耐用且无需充电的有线耳机重新成为一种务实选择。\n\n这一趋势反映出消费者对无线化、智能化浪潮的反思，也可能促使音频厂商重新审视有线产品的定位与投入，对整个消费电子行业的硬件设计思路产生一定影响。",
+    "category": "消费电子",
+    "tags": [
+      "有线耳机",
+      "消费电子",
+      "音频设备",
+      "复古科技"
+    ],
+    "source": "Engadget",
+    "time": "5分钟前",
+    "ts": "2026-07-06T18:30:00+00:00",
+    "url": "https://www.engadget.com/2207185/wired-iems-vs-wireless-earbuds/",
+    "image": "https://www.engadget.com/img/gallery/why-are-people-ditching-wireless-earbuds-and-are-wired-headphones-really-making-a-comeback/l-intro-1783010048.jpg",
+    "stocks": []
+  },
+  {
+    "id": "f640383b90da93de",
+    "title": "特斯拉Cybercab量产提速，无方向盘车型引发质疑",
+    "summary": "特斯拉在得州超级工厂加速生产Cybercab，已有逾百辆无方向盘双座车下线，但车辆尚无法合法销售且仍需人工监管，外界质疑其当前量产逻辑。",
+    "body": "据Electrek报道，特斯拉正在得州超级工厂加速生产Cybercab robotaxi，工厂出库区已停放超过100辆无方向盘的双座原型车。然而，该款车辆目前既无法向消费者销售，也尚不能实现完全无人驾驶，仍需人类驾驶员监控，这引发了外界对其当前大规模投产必要性的质疑。Cybercab被视为特斯拉自动驾驶与机器人出租车战略的重要载体，但其商业化落地进度和监管批准仍是关键不确定性。",
+    "category": "机器人",
+    "tags": [
+      "特斯拉",
+      "自动驾驶",
+      "Robotaxi",
+      "Cybercab"
+    ],
+    "source": "Electrek",
+    "time": "5分钟前",
+    "ts": "2026-07-06T18:29:40+00:00",
+    "url": "https://electrek.co/2026/07/06/tesla-cybercab-production-before-autonomy/",
+    "image": "https://electrek.co/wp-content/uploads/sites/3/2026/02/Tesla-Cybercab-hero.jpg?quality=82&#038;strip=all&#038;w=1600",
+    "stocks": [
+      {
+        "name": "特斯拉",
+        "ticker": "TSLA",
+        "reason": "特斯拉是Cybercab的制造商，该车承载其Robotaxi与自动驾驶商业化战略。",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "d8fcc4a1be8af56b",
+    "title": "OpenWrt One 开源硬件路由器亮相",
+    "summary": "OpenWrt 项目推出名为 OpenWrt One 的开源硬件路由器，强调软硬件的开放可控，面向开发者与网络爱好者。",
+    "body": "OpenWrt One 是一款由 OpenWrt 社区主导的开源硬件路由器，旨在提供从操作系统到硬件设计的透明可控体验。该设备支持 OpenWrt 开源固件，便于开发者定制网络功能、安全策略与扩展应用。这一产品的推出有助于推动开源网络硬件生态，减少对闭源商用路由设备的依赖。",
+    "category": "AI 基础设施",
+    "tags": [
+      "开源硬件",
+      "路由器",
+      "OpenWrt",
+      "网络设备"
+    ],
+    "source": "Hacker News",
+    "time": "12分钟前",
+    "ts": "2026-07-06T18:23:12+00:00",
+    "url": "https://openwrt.org/toh/openwrt/one",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "e3143bbf805a025f",
+    "title": "新发现蛋白调控细胞凋亡 或为癌症治疗带来新方向",
+    "summary": "研究人员识别出一种参与细胞凋亡调控的蛋白，有助于解释细胞如何在生存与死亡之间取得平衡。该发现可能为癌症等疾病的精准治疗提供潜在新靶点。",
+    "body": "细胞凋亡是生物体清除受损或潜在危险细胞的重要程序性死亡过程。凋亡过少会使异常细胞存活并发展为癌症，过多则可能导致发育异常或退行性疾病。最新研究识别出一种新的凋亡调控蛋白，揭示了细胞如何逃避程序性死亡的分子机制。这一成果有望帮助科学家开发针对癌症等疾病的新型治疗策略，通过精准调控凋亡通路提升治疗效果。不过，相关研究仍处于基础阶段，距离临床应用尚需进一步验证。",
+    "category": "生物医药",
+    "tags": [
+      "细胞凋亡",
+      "癌症治疗",
+      "蛋白质调控",
+      "生命科学"
+    ],
+    "source": "MedicalXpress",
+    "time": "15分钟前",
+    "ts": "2026-07-06T14:20:05-04:00",
+    "url": "https://medicalxpress.com/news/2026-07-cells-dodge-death-newly-protein.html",
+    "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/unveiling-a-new-regula.jpg",
+    "stocks": []
+  },
+  {
     "id": "77066296b7cb34f5",
     "title": "Bookshop.org确认年内支持Kobo电子阅读器",
     "summary": "在线书店Bookshop.org向TechCrunch确认，其与Kobo电子阅读器的合作虽一度推迟，但双方已敲定商业条款并推进整合，预计今年内上线。",
@@ -56,6 +158,25 @@ const newsData = [
     "stocks": []
   },
   {
+    "id": "c43ecca2c4a61968",
+    "title": "曝OpenAI拟让美国政府持股5%分享AI财富",
+    "summary": "据英国《金融时报》报道，OpenAI首席执行官萨姆·奥特曼正与特朗普政府洽谈，计划让美国政府持有OpenAI 5%的股份，作为让美国民众分享人工智能创造财富的机制。该设想此前已有雏形，支持者认为这既是对AI训练使用人类创作成果的一种事后补偿，也有助于缓解AI冲击就业市场带来的公众焦虑。",
+    "body": "据英国《金融时报》报道，OpenAI首席执行官萨姆·奥特曼正与特朗普总统洽谈，计划让美国政府获得OpenAI 5%的股权。这一安排被视为奥特曼此前“让美国人共享AI创造财富”承诺的具体落地方案，也与美国参议员伯尼·桑德斯等人提出的让公众分享顶级AI公司收益的思路相呼应。\n\n该方案的逻辑主要有两点：一方面，AI模型直接学习并使用了人类创作的书籍、影视、艺术作品，但通常未向原作者付费，免费股权可视为一种事后补偿；另一方面，通过分红为公众提供基本安全网，可在一定程度上缓解人们对AI导致大规模失业的焦虑。\n\n不过，这一构想也面临争议。批评者认为，政府持有私人科技公司股权可能带来利益冲突与监管俘获风险，且按目前估值计算，普通民众每年实际能分到的金额可能非常有限，更多带有政治象征意义。",
+    "category": "人工智能",
+    "tags": [
+      "OpenAI",
+      "AI政策",
+      "萨姆·奥特曼",
+      "美国政府"
+    ],
+    "source": "MIT Tech Review",
+    "time": "35分钟前",
+    "ts": "2026-07-06T18:00:00+00:00",
+    "url": "https://www.technologyreview.com/2026/07/06/1140176/your-familys-300-stake-in-openai/",
+    "image": "",
+    "stocks": []
+  },
+  {
     "id": "de6778c5c1da389e",
     "title": "OpenClaw 上线 HuggingFace 本地应用",
     "summary": "OpenClaw 宣布登陆 HuggingFace 本地应用，用户可基于任意 GGUF/MLX 模型构建完全本地的工具调用智能体。该方案无需云端、密钥或外部监控，强调本地化与隐私。",
@@ -109,6 +230,43 @@ const newsData = [
     "ts": "2026-07-06T13:38:24-04:00",
     "url": "https://medicalxpress.com/news/2026-07-ai-breast-cancer-recurrence-hours.html",
     "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/researchers-develop-ai-12.jpg",
+    "stocks": []
+  },
+  {
+    "id": "623c62e0edc4d543",
+    "title": "Januscape：KVM/x86 客户机逃逸至宿主机漏洞",
+    "summary": "安全研究人员披露名为 Januscape 的 KVM/x86 虚拟机逃逸漏洞（CVE-2026-53359），攻击者可从客户机突破至宿主机，威胁云虚拟化环境安全。",
+    "body": "据 Hacker News 消息，一项名为 Januscape 的安全漏洞（CVE-2026-53359）被披露，该漏洞影响基于 x86 架构的 KVM 虚拟化方案，可实现从客户机（Guest）到宿主机（Host）的逃逸。\n\n虚拟机逃逸属于高危安全问题，一旦成功利用，将破坏不同租户或工作负载之间的隔离边界，可能导致宿主机及其他虚拟机被控制。对采用 KVM 作为底层虚拟化技术的云服务和数据中心而言，该漏洞可能带来较大安全风险。\n\n目前帖文仅披露了漏洞名称与编号，具体影响范围、利用条件及补丁进展尚待进一步技术细节与官方通报。",
+    "category": "网络安全",
+    "tags": [
+      "网络安全",
+      "虚拟化",
+      "KVM",
+      "漏洞"
+    ],
+    "source": "Hacker News",
+    "time": "1小时前",
+    "ts": "2026-07-06T17:35:03+00:00",
+    "url": "https://github.com/V4bel/Januscape",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "4f07b2efc12e7168",
+    "title": "Fable构建亚里士多德认知架构3D模型",
+    "summary": "据报道，Fable搭建了亚里士多德认知架构的3D模型，旨在以可视化方式呈现古典认知理论，可能与人工智能认知建模相关。",
+    "body": "该新闻来自Hacker News，标题显示Fable完成了一项名为亚里士多德认知架构的3D模型构建。原文未披露具体技术细节，但从主题看，该项目可能涉及人工智能领域的认知建模与可视化表达。若后续公开更多信息，可进一步关注其在智能体设计、认知科学研究或教育可视化方面的潜在应用。",
+    "category": "人工智能",
+    "tags": [
+      "认知架构",
+      "3D模型",
+      "人工智能"
+    ],
+    "source": "Hacker News",
+    "time": "1小时前",
+    "ts": "2026-07-06T17:33:38+00:00",
+    "url": "https://conceptual-spaces.vercel.app",
+    "image": "",
     "stocks": []
   },
   {
