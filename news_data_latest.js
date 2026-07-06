@@ -1,5 +1,43 @@
 const newsData = [
   {
+    "id": "f90527fea420f611",
+    "title": "索尼宣布2028年停售实体光盘游戏引发玩家抵制",
+    "summary": "PlayStation宣布将于2028年停止推出实体光盘游戏，引发玩家强烈反对，部分用户取消PS Plus订阅，索尼官方社交账号在公告后已连续五天未更新。",
+    "body": "IT之家7月6日消息，PlayStation日前宣布将于2028年停止推出实体光盘游戏，该决定迅速在社交平台引发海量负面声浪，不少玩家取消PS Plus会员以示抵制。\n\n在舆论持续发酵期间，索尼及PlayStation官方X账号自7月1日发布相关公告后已连续五天停更。该公告推文浏览量超过1.4亿次，评论数高达8.8万条，远高于点赞数，显示玩家不满情绪远超官方预期。\n\n此次事件反映出主机游戏数字化转型面临的阻力，也可能影响索尼游戏业务的用户留存与订阅收入，短期内对其品牌形象与市场信心造成一定压力。",
+    "category": "消费电子",
+    "tags": [
+      "索尼",
+      "PlayStation",
+      "实体光盘",
+      "数字发行"
+    ],
+    "source": "IT之家",
+    "time": "3分钟前",
+    "ts": "2026-07-06T04:52:19+00:00",
+    "url": "https://www.ithome.com/0/973/030.htm",
+    "image": "https://img.ithome.com/newsuploadfiles/2026/7/0124f0b0-3b71-4077-b702-276fab8d6869.png?x-bce-process=image/format,f_auto",
+    "stocks": []
+  },
+  {
+    "id": "e2eadae70d0c57ff",
+    "title": "谷歌高管用Claude Fable 5，40分钟把PC游戏移植到iPhone",
+    "summary": "谷歌DeepMind高管Ammaar Reshi使用Anthropic的Claude Fable 5，将含160万行C++代码的2003年PC游戏《命令与征服：将军零点时刻》原生移植到iOS，战役、遭遇战等模式均流畅运行。",
+    "body": "谷歌DeepMind AI Studio产品与设计负责人Ammaar Reshi借助Anthropic的Claude Fable 5，将2003年发行的PC即时战略游戏《命令与征服：将军零点时刻》原生编译至iPhone和iPad。该项目涉及160万行C++代码，需完成DirectX 8到Metal的五层图形接口转换，并替换Windows专属音频、视频、字体组件，最终战役模式、遭遇战、将军挑战赛均流畅运行。\n\nReshi本人并非程序员出身，而是设计师背景，他通过向AI下达指令完成整个移植，包括重写原生触控交互逻辑。首次构建仅耗时40分钟。这一案例凸显了当前大模型在长上下文、跨文件代码理解与复杂工程迭代方面的显著进步，也展示了AI辅助游戏与软件移植的潜力。",
+    "category": "人工智能",
+    "tags": [
+      "Claude Fable 5",
+      "AI编程",
+      "游戏移植",
+      "大模型应用"
+    ],
+    "source": "IT之家",
+    "time": "6分钟前",
+    "ts": "2026-07-06T04:49:22+00:00",
+    "url": "https://www.ithome.com/0/973/029.htm",
+    "image": "https://img.ithome.com/newsuploadfiles/2026/7/5b4ffe06-c287-4188-a0f5-dedc1ea9269e.png",
+    "stocks": []
+  },
+  {
     "id": "fa499c3c37e002e7",
     "title": "高德AI专车升级，“AI专车管家”支持自然语言需求",
     "summary": "高德AI专车近日完成能力升级，用户可用自然语言完整表达出行需求，由“AI专车管家”自动识别关键信息并匹配个性化专车。",
