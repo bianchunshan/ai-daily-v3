@@ -1,18 +1,18 @@
 const newsData = [
   {
     "id": "0fa321b0b8610124",
-    "title": "研究发现天然调控因子可抑制多种癌症进展",
-    "summary": "国际研究团队发现一种天然分子机制，可通过关闭肿瘤相关成纤维细胞来限制多种癌症进展。该发现为开发新的抗癌策略提供了潜在靶点。",
-    "body": "西班牙IBBTEC-CSIC-坎塔布里亚大学与CIC bioGUNE等机构联合主导的国际研究团队，鉴定出一种新的分子机制。该机制能够“关闭”肿瘤相关成纤维细胞，从而减缓多种癌症的进展。\n\n成纤维细胞在肿瘤微环境中常被激活，促进肿瘤生长与扩散。此次研究表明，利用天然调控因子抑制这些细胞，有望成为一种广谱抗癌策略。相关发现为后续开发靶向肿瘤微环境的新疗法奠定了理论基础。",
+    "title": "研究发现天然调节因子可抑制成纤维细胞减缓多种癌症",
+    "summary": "国际研究团队发现一种天然分子机制，可通过关闭癌相关成纤维细胞来限制多种癌症进展，为癌症治疗提供新靶点。",
+    "body": "由西班牙IBBTEC-CSIC-坎塔布里亚大学和CIC bioGUNE等机构共同领导的国际研究团队，在最新研究中揭示了一种新的分子机制，该机制能够抑制肿瘤相关成纤维细胞的活性，从而减缓多种癌症的进展。\n研究显示，机体中的天然调节因子可“关闭”这些成纤维细胞，阻断其促进肿瘤生长的作用。\n该发现为理解肿瘤微环境提供了新视角，并可能为开发广谱抗癌疗法带来潜在靶点。",
     "category": "生物医药",
     "tags": [
+      "生物医药",
       "癌症研究",
       "肿瘤微环境",
-      "成纤维细胞",
-      "分子机制"
+      "基础研究"
     ],
     "source": "MedicalXpress",
-    "time": "2分钟前",
+    "time": "9分钟前",
     "ts": "2026-07-06T16:20:08-04:00",
     "url": "https://medicalxpress.com/news/2026-07-natural-cancers-fibroblasts.html",
     "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/study-identifies-a-nat.jpg",
@@ -20,18 +20,18 @@ const newsData = [
   },
   {
     "id": "e49f7b035ec57ea1",
-    "title": "类风湿关节炎治疗中乌帕替尼持久性优于TNF抑制剂",
-    "summary": "一项发表于《Rheumatology》的研究显示，类风湿关节炎患者对乌帕替尼（Upadacitinib）的治疗持久性优于肿瘤坏死因子抑制剂（TNFi）。",
-    "body": "一项在线发表于《Rheumatology》的研究表明，类风湿关节炎（RA）患者使用乌帕替尼的治疗持久性优于肿瘤坏死因子抑制剂。治疗持久性是衡量患者持续用药情况的重要指标，持久性更高通常意味着患者对药物的耐受性和依从性更好。该发现可能进一步支持JAK抑制剂在类风湿关节炎长期管理中的应用价值，并增强相关药物的市场竞争力。",
+    "title": "乌帕替尼治疗类风湿关节炎患者依从性优于TNF抑制剂",
+    "summary": "一项发表于《Rheumatology》的研究显示，类风湿关节炎患者对乌帕替尼的治疗依从性高于肿瘤坏死因子抑制剂。",
+    "body": "6月23日在线发表于《Rheumatology》的一项研究指出，类风湿关节炎（RA）患者对乌帕替尼（Upadacitinib）的用药依从性优于肿瘤坏死因子抑制剂（TNFi）。乌帕替尼是一种口服JAK抑制剂，已被批准用于类风湿关节炎等自身免疫性疾病的治疗。\n\n治疗依从性更高意味着患者在真实世界中持续用药的时间更长，可能改善长期疾病控制效果，并增强该药物相对传统生物制剂的市场竞争力。",
     "category": "生物医药",
     "tags": [
       "乌帕替尼",
       "类风湿关节炎",
       "JAK抑制剂",
-      "艾伯维"
+      "TNF抑制剂"
     ],
     "source": "MedicalXpress",
-    "time": "2分钟前",
+    "time": "9分钟前",
     "ts": "2026-07-06T16:20:07-04:00",
     "url": "https://medicalxpress.com/news/2026-07-longer-persistence-upadacitinib-tumor-necrosis.html",
     "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/longer-persistence-see.jpg",
@@ -39,25 +39,25 @@ const newsData = [
       {
         "name": "艾伯维",
         "ticker": "ABBV",
-        "reason": "乌帕替尼（Rinvoq）为艾伯维研发的JAK抑制剂，研究显示其治疗持久性优于TNF抑制剂，有望增强该产品的临床价值和市场地位。",
+        "reason": "乌帕替尼（商品名Rinvoq）是艾伯维的核心产品，研究显示其在类风湿关节炎患者中的用药依从性优于TNF抑制剂，有助于扩大市场份额并支撑业绩增长。",
         "confidence": "high"
       }
     ]
   },
   {
     "id": "85ce5bebf96ad920",
-    "title": "星际彗星3I/ATLAS起源新线索：形成于母星原行星盘边缘",
-    "summary": "天文学家对星际彗星3I/ATLAS的同位素分析显示，它可能拥有100亿至120亿年历史，并可能在其母恒星的原行星盘外围形成。",
-    "body": "今年初，NASA戈达德航天中心Martin Cordiner团队利用詹姆斯·韦伯太空望远镜（JWST）数据，通过碳和氘同位素比值推断，3I/ATLAS的年龄约为100亿至120亿年，是太阳系年龄的两倍多。欧洲南方天文台甚大望远镜上的紫外与可见光阶梯光谱仪（UVES）最新观测进一步支持了碳同位素结果，并首次提供了氮同位素测量。\n这些同位素比例表明，这颗星际访客可能在很久以前于其母恒星的原行星盘外围区域形成。相关研究为了解太阳系外行星系统的化学环境与早期演化提供了珍贵线索，也展示了地面与空间望远镜协同观测在深空探测中的重要价值。",
+    "title": "星际彗星3I/ATLAS起源新线索浮现",
+    "summary": "天文学家发现星际彗星3I/ATLAS的同位素特征，支持其形成于数十亿年前、早于太阳系的起源假说。甚大望远镜的新观测为这颗星际天体的诞生环境提供了更多证据。",
+    "body": "美国宇航局戈达德航天中心马丁·科迪纳团队此前利用詹姆斯·韦布空间望远镜（JWST）数据推断，星际彗星3I/ATLAS的年龄约在100亿至120亿年之间，约为太阳系的两倍多，依据是其碳和氘同位素比例。欧洲南方天文台甚大望远镜上的紫外与可见光阶梯光栅光谱仪（UVES）最新观测进一步支持了韦布的碳同位素结果，并首次补充了氮同位素测量。\n\n氮-14与氮-15等同位素在不同恒星环境、不同时间以不同机制形成。3I/ATLAS释放气体中的同位素比值表明，它可能形成于其母星原行星盘的外围区域，并在银河系中游荡了极长时间。这一发现有助于科学家理解太阳系外天体的形成与演化。",
     "category": "商业航天",
     "tags": [
       "星际彗星",
       "深空探测",
-      "詹姆斯·韦伯望远镜",
-      "甚大望远镜"
+      "韦布望远镜",
+      "天文学"
     ],
     "source": "Space.com",
-    "time": "6分钟前",
+    "time": "13分钟前",
     "ts": "2026-07-06T20:16:15+00:00",
     "url": "https://www.space.com/astronomy/comets/more-clues-surface-about-the-origins-of-interstellar-comet-3i-atlas",
     "image": "https://cdn.mos.cms.futurecdn.net/epvWQajZBgjE4vYbwKeNB4-1280-80.jpg",
@@ -80,6 +80,25 @@ const newsData = [
     "ts": "2026-07-06T20:09:47+00:00",
     "url": "https://spacenews.com/blue-origin-continues-work-on-lunar-landers-during-recovery-from-new-glenn-explosion/",
     "image": "https://i0.wp.com/spacenews.com/wp-content/uploads/2026/07/mk2alpha.jpeg?fit=1024%2C720&amp;ssl=1",
+    "stocks": []
+  },
+  {
+    "id": "28696f23a8fefcac",
+    "title": "美国最高法院允许得州执行应用年龄验证法",
+    "summary": "美国最高法院拒绝叫停得克萨斯州一项新法律，该法要求未成年人下载应用程序必须获得家长批准，相关法律争议仍在持续审理中。",
+    "body": "美国最高法院近日裁定，得克萨斯州可继续执行其应用程序年龄验证法。该法规定，未成年人通过应用商店下载应用时需取得父母同意，旨在加强对未成年人的网络保护。目前，围绕该法律的合宪性与执行细节的法律诉讼仍在进行中。若相关法规最终落地，苹果、谷歌等应用商店运营商及社交媒体平台可能面临更严格的合规与身份验证要求，同时也可能推动年龄验证和未成年人网络安全技术的发展。",
+    "category": "网络安全",
+    "tags": [
+      "年龄验证",
+      "未成年人保护",
+      "应用商店",
+      "科技监管"
+    ],
+    "source": "Al Jazeera",
+    "time": "23分钟前",
+    "ts": "2026-07-06T20:06:22+00:00",
+    "url": "https://www.aljazeera.com/news/2026/7/6/us-supreme-court-clears-path-for-texas-to-enforce-app-age-verification-law?traffic_source=rss",
+    "image": "",
     "stocks": []
   },
   {
@@ -135,6 +154,24 @@ const newsData = [
     "time": "38分钟前",
     "ts": "2026-07-06T19:43:36+00:00",
     "url": "https://janilowski.pl/en/blog/2026/price-per-m-tokens/",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "1d520b46d00ea70a",
+    "title": "Python 3.14 新尝试：直接编译为机器码运行",
+    "summary": "Hacker News 上出现关于 Python 3.14 可“编译到金属”、无需解释器运行的讨论。若该技术落地，将意味着 Python 代码可直接生成机器指令执行，有望显著降低解释器开销。",
+    "body": "据外媒及 Hacker News 讨论，一项针对 Python 3.14 的方案声称可将 Python 代码直接编译为机器码，在运行时不依赖传统解释器循环。这种方式若可行，理论上能提升执行效率，降低解释器带来的性能损耗。\n\n对计算密集型、高并发或延迟敏感型 Python 应用而言，这一方向具有潜在价值。Python 目前仍是人工智能、数据科学和自动化领域的主流语言，运行时性能的提升可能带动相关场景的效率改善。\n\n不过，该信息目前主要来自社区讨论，具体实现细节、稳定性、生态兼容性以及是否会被官方纳入主线版本均尚待观察，距离成熟商用仍有一段距离。",
+    "category": "人工智能",
+    "tags": [
+      "Python",
+      "编译器",
+      "运行时优化"
+    ],
+    "source": "Hacker News",
+    "time": "49分钟前",
+    "ts": "2026-07-06T19:40:22+00:00",
+    "url": "https://github.com/can1357/pon",
     "image": "",
     "stocks": []
   },
@@ -127642,12 +127679,6 @@ const newsData = [
   }
 ];
 const newsDigest = {
-  "text": "今日科技前沿：AI Agent架构争议升温，Vercel呼吁与底层模型解耦；谷歌将用户上传搜索媒体用于训练AI引发数据权益关注；Cell揭示铁离子触发哮喘气道炎症新机制；蓝色起源推进月球着陆器研制并恢复New Glenn事故调查；特斯拉Cybercab量产提速，无方向盘设计引监管质疑。",
-  "highlights": [
-    "de9ac07ba87ead79",
-    "5f1f7f3934cd2009",
-    "fee725d272dd5123",
-    "40ee79e9abdadf8f",
-    "f640383b90da93de"
-  ]
+  "text": "",
+  "highlights": []
 };
