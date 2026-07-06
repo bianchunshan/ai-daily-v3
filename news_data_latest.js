@@ -1,5 +1,69 @@
 const newsData = [
   {
+    "id": "bb33d4c5ffcaebc0",
+    "title": "轻拍背部为何能安抚婴儿？研究揭示跨物种镇静机制",
+    "summary": "一项新研究关注人类与小鼠幼崽在被轻抚背部时产生的镇静效应，试图解释这一普遍安抚行为背后的神经生物学机制。",
+    "body": "无论是人类婴儿还是小鼠幼崽，当焦躁不安时，轻柔地抚摸或轻拍背部往往能迅速让其平静下来。尽管这种安抚方式在跨文化中极为常见，但科学界对其为何有效、背部触觉如何转化为镇静信号的认识仍很有限。该研究通过比较婴儿与小鼠幼崽的反应，探索背部触觉在神经回路层面的作用，相关发现有望为理解母婴互动、早期发育以及触觉感知提供新线索。",
+    "category": "生物医药",
+    "tags": [
+      "神经科学",
+      "母婴健康",
+      "触觉感知",
+      "行为研究"
+    ],
+    "source": "MedicalXpress",
+    "time": "3分钟前",
+    "ts": "2026-07-06T11:05:04-04:00",
+    "url": "https://medicalxpress.com/news/2026-07-calms-infants-mouse-pups.html",
+    "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/why-the-back-how-strok.jpg",
+    "stocks": []
+  },
+  {
+    "id": "2a6a98b0bb7c5e50",
+    "title": "老药新用：抗癌药快速缓解罕见自身免疫性神经病变",
+    "summary": "德国耶拿大学医院团队报告，给两名自身免疫性周围神经系统疾病患者使用多发性骨髓瘤药物teclistamab后，症状迅速且显著改善，相关病例详情发表于《Nature Communications》。",
+    "body": "耶拿大学医院多学科团队将原本用于治疗多发性骨髓瘤的双特异性抗体teclistamab用于两名自身免疫性周围神经病变患者，结果观察到罕见且迅速的病情改善。研究人员在《Nature Communications》上详细报告了这一病例系列，认为该药物可能通过清除致病性浆细胞或抗体产生细胞发挥作用。",
+    "category": "生物医药",
+    "tags": [
+      "老药新用",
+      "自身免疫病",
+      "周围神经病变",
+      "teclistamab"
+    ],
+    "source": "MedicalXpress",
+    "time": "8分钟前",
+    "ts": "2026-07-06T11:00:06-04:00",
+    "url": "https://medicalxpress.com/news/2026-07-repurposed-cancer-drug-rapidly-eased.html",
+    "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/repurposed-cancer-drug.jpg",
+    "stocks": [
+      {
+        "name": "强生",
+        "ticker": "JNJ",
+        "reason": "Teclistamab由强生旗下Janssen开发并商业化，若该疗法在自身免疫性神经病变中获得进一步验证，有望拓展新适应症。",
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
+    "id": "40e9400714dfb103",
+    "title": "重置银屑病免疫记忆或可减少复发",
+    "summary": "新研究发现，重置导致银屑病复发的免疫细胞“记忆”，可能帮助机体阻止病情反复；压力、感染、外伤等诱因会触发这种慢性炎症性皮肤病。",
+    "body": "银屑病是一种由免疫系统异常驱动的慢性皮肤病，常见诱因包括压力、恶劣天气、链球菌性咽炎、饮酒和皮肤损伤。当前研究正深入探索其复发的免疫机制，科学家发现部分免疫细胞可能形成类似“记忆”的状态，使皮肤在遭遇诱因后反复发炎。若能清除或重置这种免疫记忆，有望开发出减少银屑病复发的新疗法，也为调控免疫系统相关疾病提供了新的思路。",
+    "category": "生物医药",
+    "tags": [
+      "银屑病",
+      "免疫记忆",
+      "慢性炎症",
+      "生物医药"
+    ],
+    "source": "MedicalXpress",
+    "time": "8分钟前",
+    "ts": "2026-07-06T11:00:04-04:00",
+    "url": "https://medicalxpress.com/news/2026-07-resetting-psoriasis-memory-body-flare.html",
+    "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/making-the-body-forget.jpg",
+    "stocks": []
+  },
+  {
     "id": "bcee6cfb13df01c0",
     "title": "山灵ET3 EVO CD转盘7月8日开售",
     "summary": "山灵音响宣布ET3 EVO CD转盘将于7月8日全网开售，售价3998元。新品在外观与调音上均有所升级，但官方尚未公布具体规格。",
@@ -263,6 +327,32 @@ const newsData = [
         "ticker": "NTDOY",
         "reason": "Switch 2可更换电池版及时落地欧洲，避免法规生效后产品停售风险，利好主力产品线销售",
         "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "e571d8d480507fcc",
+    "title": "Xbox业务或将面临战略重启",
+    "summary": "据外媒报道，微软旗下Xbox游戏主机业务可能正迎来新一轮战略调整。此举或将影响其硬件路线图、订阅服务及跨平台内容生态布局。",
+    "body": "一篇题为《Resetting Xbox》的报道引发关注，暗示微软旗下Xbox业务可能正在进行战略层面的重新定位。作为全球主要游戏主机平台之一，Xbox近年来持续推动Game Pass订阅服务与跨平台发行，但在硬件销量和市场竞争方面仍面临不小压力。\n若微软对Xbox实施“重启”式调整，可能涉及硬件产品规划、独占内容策略以及云服务整合方向。这一变动不仅关系到微软在游戏市场的份额，也可能对整个主机游戏生态、内容开发商以及游戏订阅商业模式产生连锁影响。",
+    "category": "消费电子",
+    "tags": [
+      "游戏主机",
+      "微软",
+      "Xbox",
+      "消费电子"
+    ],
+    "source": "Hacker News",
+    "time": "49分钟前",
+    "ts": "2026-07-06T14:18:23+00:00",
+    "url": "https://news.xbox.com/en-us/2026/07/06/resetting-xbox/",
+    "image": "",
+    "stocks": [
+      {
+        "name": "微软",
+        "ticker": "MSFT",
+        "reason": "Xbox为微软旗下核心游戏硬件与服务业务，相关战略调整将直接影响其游戏板块表现",
+        "confidence": "medium"
       }
     ]
   },
