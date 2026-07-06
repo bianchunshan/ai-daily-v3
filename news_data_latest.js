@@ -1,5 +1,76 @@
 const newsData = [
   {
+    "id": "4d0390c2bf3d1b65",
+    "title": "联想“双翻转”笔电上线官网",
+    "summary": "联想官网PSREF上线ThinkBook Plus G7 Auto Twist笔记本，其屏幕可360°前后旋转并支持左右倾斜，为业内首款量产“双翻转”机型。",
+    "body": "7月6日消息，联想已在官网PSREF站点上架ThinkBook Plus G7 Auto Twist笔记本电脑。该机型屏幕不仅像传统翻转本一样可前后360°旋转，还能左右倾斜，实现更灵活的显示角度，联想称其为业内首款量产“双翻转”笔记本。\n\n配置方面，该机可选英特尔酷睿Ultra 5 325/Ultra X7 358H处理器，搭载14英寸2880×1800分辨率、30~120Hz可变刷新率的OLED十点触控屏，通过VESA DisplayHDR True Black 1000认证，板载32GB LPDDR5X内存，提供一个PCIe Gen5 ×4 M.2 2280 SSD盘位，内置75Wh电池，支持Wi-Fi 7与蓝牙5.4，并配备双雷电4、双USB-A、HDMI 2.1等接口。该产品的形态创新有望进一步丰富联想在高端商用/创意笔记本市场的产品矩阵。",
+    "category": "消费电子",
+    "tags": [
+      "联想",
+      "笔记本电脑",
+      "二合一设备",
+      "消费电子"
+    ],
+    "source": "IT之家",
+    "time": "2分钟前",
+    "ts": "2026-07-06T02:15:34+00:00",
+    "url": "https://www.ithome.com/0/972/912.htm",
+    "image": "https://img.ithome.com/newsuploadfiles/2026/7/2d2b45b2-a7f7-466d-bcb6-e03fd431c978.jpg?x-bce-process=image/format,f_auto",
+    "stocks": [
+      {
+        "name": "联想集团",
+        "ticker": "0992.HK",
+        "reason": "新品为联想自有品牌创新笔电，直接利好其产品竞争力与高端消费市场关注。",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "4c3d60c3f00932ff",
+    "title": "索尼RX10V镜头参数曝光：9.1-210mm f/2.4-4",
+    "summary": "索尼官方预热视频披露RX10V黑卡相机的固定镜头规格为9.1-210mm、光圈f/2.4-4，等效焦距较上一代略有调整，新机将于7月9日正式发布。",
+    "body": "索尼日前在Instagram平台发布RX10V相机预热视频，镜头特写显示该机搭载固定镜头规格为9.1-210mm，光圈f/2.4-4。若沿用1英寸传感器，其等效全画幅焦距约为25-575mm，较RX10 IV的24-600mm在广角端收窄约1mm、长焦端由600mm缩至575mm，远摄能力略有下降。按照计划，这款主题为“经典焕新”的新款黑卡相机将于7月9日22:00正式发布，是索尼高端固定镜头相机产品线的重要迭代。",
+    "category": "消费电子",
+    "tags": [
+      "索尼",
+      "黑卡相机",
+      "影像设备",
+      "消费电子"
+    ],
+    "source": "IT之家",
+    "time": "3分钟前",
+    "ts": "2026-07-06T02:14:14+00:00",
+    "url": "https://www.ithome.com/0/972/911.htm",
+    "image": "https://img.ithome.com/newsuploadfiles/2026/7/a3697844-5e3a-47a2-8e87-38416f7f6890.jpg?x-bce-process=image/format,f_auto",
+    "stocks": [
+      {
+        "name": "索尼",
+        "ticker": "SONY",
+        "reason": "RX10V为索尼旗下黑卡相机新品，产品迭代直接利好其影像与传感业务",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "bb38ea8979600f1c",
+    "title": "DeepSeek开源编程助手Deep Code上线",
+    "summary": "DeepSeek官方API文档收录开源终端AI编程助手Deep Code，该工具专为DeepSeek-V4系列模型适配，支持深度思考、推理强度控制及Agent Skills，并提供CLI与VS Code插件版本。",
+    "body": "Deep Code自今年5月发布首个版本以来，已更新至v0.1.31，定位为基于智能体（Agent）的编程辅助工具。它围绕DeepSeek模型优化使用体验，同时也兼容其他遵循OpenAI接口规范的模型服务。作为编程Agent，Deep Code可保留项目会话记录，支持读取文件、修改内容、执行命令等操作，协助完成真实开发流程。该工具开源上线有助于完善DeepSeek的开发者生态，提升其在AI辅助编程领域的竞争力。",
+    "category": "人工智能",
+    "tags": [
+      "DeepSeek",
+      "AI编程",
+      "开源工具",
+      "智能体"
+    ],
+    "source": "IT之家",
+    "time": "9分钟前",
+    "ts": "2026-07-06T02:08:46+00:00",
+    "url": "https://www.ithome.com/0/972/910.htm",
+    "image": "https://img.ithome.com/newsuploadfiles/2026/7/7e681f0d-9cf9-4c82-8cee-c1ee03c62938.jpg",
+    "stocks": []
+  },
+  {
     "id": "acc7951d35c4b547",
     "title": "特斯拉Model Y L在美、波多黎各及阿联酋上市",
     "summary": "特斯拉官方微博宣布，Model Y L长轴距六座版已在美国、波多黎各和阿联酋同步上市，定位高端家庭出行市场。新车轴距加长150mm，采用2+2+2六座布局，并配备多项豪华与智能配置。",
@@ -120352,12 +120423,12 @@ const newsData = [
   }
 ];
 const newsDigest = {
-  "text": "今日科技前沿：SK海力士拟280亿美元美股上市引关注，半导体与AI供应链表现亮眼；机器人产业加速，日本、法拉第未来及格力吉利各有新动作；消费电子新品亦持续涌现。",
+  "text": "今日科技前沿聚焦：DeepSeek开源编程助手上线，SK海力士拟280亿美元美股IPO；韩国6月出口强劲提振亚洲AI供应链；日本计划2040年部署千万台AI机器人；格力与吉利联手拓展智能制造与车载硬件。",
   "highlights": [
+    "bb38ea8979600f1c",
     "3bc87a70e847001a",
     "4d1ebac89fa28b48",
     "0b7d1362cdc713c7",
-    "2126829c0390439f",
     "6840f7727d729c04"
   ]
 };
