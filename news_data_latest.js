@@ -1,5 +1,37 @@
 const newsData = [
   {
+    "id": "e433ca327820e8e4",
+    "title": "惠普海外更新Omen 15游戏本，搭载英特尔Arrow Lake HX处理器",
+    "summary": "惠普在海外市场上线新款HyperX Omen 15游戏本，最高可选英特尔酷睿Ultra 9 290HX Plus处理器，起售价1999美元。",
+    "body": "惠普近日在海外更新了HyperX Omen 15游戏本产品线，为其配备英特尔Arrow Lake HX系列处理器。新品可选酷睿Ultra 9 275HX及Ultra 9 290HX Plus，最高支持32GB DDR5内存与1TB PCIe Gen 5固态硬盘，标配15.3英寸IPS高刷屏与70Wh电池，起售价1999美元。\n\n此次升级体现了英特尔新一代移动端高性能处理器在主流游戏本中的进一步渗透，也反映出惠普在高端游戏笔记本市场持续迭代的策略。对于玩家而言，更强的CPU与更快的存储配置将提升游戏与创作体验。",
+    "category": "消费电子",
+    "tags": [
+      "惠普",
+      "游戏本",
+      "英特尔",
+      "Arrow Lake"
+    ],
+    "source": "IT之家",
+    "time": "3分钟前",
+    "ts": "2026-07-06T06:25:29+00:00",
+    "url": "https://www.ithome.com/0/973/056.htm",
+    "image": "https://img.ithome.com/newsuploadfiles/2026/7/7a36ac6a-db6f-41d1-9bd7-2fdb629787ef.jpg?x-bce-process=image/format,f_auto",
+    "stocks": [
+      {
+        "name": "惠普",
+        "ticker": "HPQ",
+        "reason": "公司更新Omen游戏本产品线，直接受益于新品销售",
+        "confidence": "medium"
+      },
+      {
+        "name": "英特尔",
+        "ticker": "INTC",
+        "reason": "新品搭载其Arrow Lake HX处理器，有助于拉动移动端高端CPU出货",
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
     "id": "84942279cfa095cf",
     "title": "优必选回应99万机器人续航：行业普遍2-4小时",
     "summary": "针对“99万机器人伴侣续航撑不过一晚”的热议，优必选回应称全尺寸人形机器人续航2-4小时是行业普遍情况，并明确产品定位为情感陪伴而非伴侣，已建立科技伦理委员会。",
@@ -47,6 +79,38 @@ const newsData = [
         "name": "欣旺达",
         "ticker": "300207.SZ",
         "reason": "欣旺达动力为欣旺达核心动力电池业务子公司，增资直接强化母公司新能源业务布局与资本实力",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "fee7021d79c41f5f",
+    "title": "通义发布实时语音模型，支持30种语言16种方言",
+    "summary": "通义实验室发布Fun-ASR-Realtime实时语音识别模型，单模型覆盖30种语言及16种方言，识别准确率领先并已在阿里云百炼平台上线。",
+    "body": "通义实验室发布Fun-ASR-Realtime实时语音识别模型，单模型覆盖30种语言及16种方言，针对东亚、东南亚地区重点优化。该模型在工业级方言测评中取得87.8%的语义准确率，大幅领先现有方案，多地方言识别接近人工水平。\n\n模型引入上下文理解与动态热词注入能力，可实现同音词、品牌名等语义消歧；流式识别首字延迟控制在百毫秒级，准确率接近离线水平，并支持多语言无缝切换。该模型API已上线阿里云百炼平台，有望推动智能客服、会议转写、IoT语音交互等场景落地，进一步丰富通义大模型生态。",
+    "category": "人工智能",
+    "tags": [
+      "语音识别",
+      "大模型",
+      "阿里云",
+      "通义"
+    ],
+    "source": "AIHOT精选",
+    "time": "18分钟前",
+    "ts": "2026-07-06T06:09:29+00:00",
+    "url": "https://mp.weixin.qq.com/s/ntw0SliBi4f8LROnFY26kA",
+    "image": "",
+    "stocks": [
+      {
+        "name": "阿里巴巴",
+        "ticker": "BABA",
+        "reason": "通义实验室及阿里云均为阿里巴巴旗下业务，新模型API已上线阿里云百炼平台",
+        "confidence": "high"
+      },
+      {
+        "name": "阿里巴巴-SW",
+        "ticker": "9988.HK",
+        "reason": "通义实验室及阿里云均为阿里巴巴旗下业务，新模型API已上线阿里云百炼平台",
         "confidence": "high"
       }
     ]
