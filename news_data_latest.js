@@ -1,5 +1,69 @@
 const newsData = [
   {
+    "id": "524024212bc71142",
+    "title": "谷歌更新隐私政策，用户数据可被用于训练AI",
+    "summary": "谷歌调整隐私设置，默认允许使用更多用户数据训练其人工智能模型。用户可通过账户隐私选项选择退出相关数据用于AI训练。",
+    "body": "据TechCrunch报道，谷歌近期修改隐私设置，使其能够利用更多用户数据来训练人工智能模型。这一变化引发了外界对用户隐私及AI训练数据来源的关注。用户可以在Google账户的隐私控制选项中，关闭相关数据用于AI模型改进的权限。此事再次凸显大型科技公司在推进AI能力与保护用户隐私之间面临的平衡挑战。",
+    "category": "人工智能",
+    "tags": [
+      "谷歌",
+      "隐私政策",
+      "AI训练",
+      "数据安全"
+    ],
+    "source": "TechCrunch",
+    "time": "3分钟前",
+    "ts": "2026-07-06T17:04:58+00:00",
+    "url": "https://techcrunch.com/2026/07/06/if-you-use-google-youre-training-its-ai-heres-how-to-opt-out/",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "5aec02f9be7527b8",
+    "title": "现代IONIQ 5热销，电动SUV正赢得市场",
+    "summary": "现代汽车的纯电动SUV IONIQ 5已成为除特斯拉外最受欢迎的电动车之一，其推出的三排座电动SUV也在细分市场找到自己的定位。",
+    "body": "Electrek报道称，现代汽车旗下的IONIQ 5目前在多个市场成为特斯拉之外最受欢迎的纯电动汽车之一，凭借独特设计、800V高压平台和相对亲民的售价吸引了大量消费者。\n\n与此同时，现代汽车的三排座电动SUV也在逐步打开细分市场，显示出传统车企在电动化转型中的产品竞争力。\n\n这一趋势表明，现代汽车在电动车领域的市场份额和品牌价值正在提升，并可能带动其在动力电池、电驱平台及相关供应链方面的持续投入。",
+    "category": "未来能源",
+    "tags": [
+      "现代汽车",
+      "IONIQ 5",
+      "电动SUV",
+      "电动汽车"
+    ],
+    "source": "Electrek",
+    "time": "7分钟前",
+    "ts": "2026-07-06T17:01:15+00:00",
+    "url": "https://electrek.co/2026/07/06/hyundais-evs-winning-over-buyers/",
+    "image": "https://electrek.co/wp-content/uploads/sites/3/2026/04/Hyundai-IONIQ-9-Black-Ink-images.jpeg?quality=82&#038;strip=all&#038;w=1400",
+    "stocks": [
+      {
+        "name": "现代汽车",
+        "ticker": "005380.KS",
+        "reason": "IONIQ 5等电动SUV热销，有望直接推动公司电动车销量和市场份额提升。",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "5754fff6f017d9eb",
+    "title": "研究揭示嗜酸性食管炎新亚型",
+    "summary": "芝加哥Lurie儿童医院研究人员在《过敏与临床免疫学杂志》发文，识别出一种独特的儿童嗜酸性食管炎亚型，约25%患儿伴有关节过度活动及自主神经症状，生活质量显著下降。",
+    "body": "芝加哥安与罗伯特·H·卢里儿童医院的研究团队发表了一项关于嗜酸性食管炎（EoE）的新研究，识别出一种独特的疾病亚型。EoE是一种慢性过敏性炎症疾病，会导致食管狭窄，影响食物正常通过。\n\n研究发现，25%的EoE患儿存在关节过度活动，即关节活动范围超出正常；这些患者还常伴有自主神经症状，最常见的是站立时出现长期头晕。这种症状组合与显著更差的生活质量相关。\n\n该发现提示临床医生在诊治儿童EoE时应关注关节活动度和自主神经症状，有助于更早识别高风险患者并推动个体化管理。研究为儿童医院完成的临床观察性研究，未涉及特定药物、器械或商业产品。",
+    "category": "生物医药",
+    "tags": [
+      "嗜酸性食管炎",
+      "过敏疾病",
+      "临床研究",
+      "儿童医学"
+    ],
+    "source": "MedicalXpress",
+    "time": "8分钟前",
+    "ts": "2026-07-06T13:00:06-04:00",
+    "url": "https://medicalxpress.com/news/2026-07-reveals-distinct-subtype-eosinophilic-esophagitis.html",
+    "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/study-reveals-a-distin.jpg",
+    "stocks": []
+  },
+  {
     "id": "9ad7e9a1aa494ecf",
     "title": "研究发现PARP抑制剂相关严重贫血可治疗原因",
     "summary": "西奈山Tisch癌症中心研究人员发现，部分接受PARP抑制剂治疗的癌症患者出现严重贫血，可能与此前未被充分认识的叶酸缺乏有关。研究提示，常规筛查并补充叶酸有望帮助患者避免输血、住院及癌症治疗中断。",
@@ -162,6 +226,25 @@ const newsData = [
     "ts": "2026-07-06T12:20:03-04:00",
     "url": "https://medicalxpress.com/news/2026-07-molecular-simultaneously-pain.html",
     "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/researchers-discover-m.jpg",
+    "stocks": []
+  },
+  {
+    "id": "226974ecd8709e77",
+    "title": "Pulpie推出网页清洗模型，成本低至Dripper的1/20",
+    "summary": "Feyn发布Pulpie系列模型，可从原始HTML中剔除广告、页脚、侧边栏等模板内容，仅保留主内容。该模型在提取质量上达到SOTA水平，但成本仅为当前主流方案Dripper的二十分之一。",
+    "body": "创业者Shreyash在Hacker News上发布了名为Pulpie的网页清洗模型家族。该模型能将原始HTML中的广告、页脚、导航栏等模板内容剔除，输出干净的HTML或Markdown格式主内容。据其介绍，Pulpie的清洗质量可与当前领先提取器Dripper媲美，但成本大幅降低——清洗10亿网页仅需7900美元，而Dripper则需约15.9万美元。\n\nPulpie采用编码器架构，与现有主流的解码器方案形成差异。解码器需逐token生成输出，每一步都要从内存中读取完整模型，受内存带宽限制；而Pulpie对整段输入HTML执行一次前向传播，为每个区块标注是否为模板内容，因此更偏向计算密集型。这一特性使其能在计算资源相对充裕、内存带宽较低的中低端GPU上高效运行，从而降低部署成本。\n\n该产品的灵感源于构建深度研究系统时的痛点：现有搜索API返回的内容常夹杂广告和导航元素，甚至可能将无关信息送入大语言模型上下文并影响最终答案。Pulpie的出现为AI搜索、RAG系统和数据管道提供了更经济的网页预处理方案。",
+    "category": "人工智能",
+    "tags": [
+      "网页清洗",
+      "数据提取",
+      "AI模型",
+      "RAG"
+    ],
+    "source": "Hacker News",
+    "time": "1小时前",
+    "ts": "2026-07-06T16:04:27+00:00",
+    "url": "https://usefeyn.com/blog/pulpie-pareto-optimal-models-for-cleaning-the-web/",
+    "image": "",
     "stocks": []
   },
   {
