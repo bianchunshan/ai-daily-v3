@@ -694,6 +694,25 @@ const newsData = [
     "stocks": []
   },
   {
+    "id": "00442a7182095778",
+    "title": "开发者推出 Swift 版 LangGraph 框架",
+    "summary": "有开发者在 Hacker News 上展示了为 Swift 语言实现的 LangGraph 版本，旨在将 AI Agent 工作流构建能力引入 Apple 生态。",
+    "body": "一名开发者在 Hacker News 发布了自己为 Swift 编写的 LangGraph 实现，允许开发者用 Swift 构建基于图结构的 AI Agent 工作流。\n\nLangGraph 是 LangChain 生态中用于编排多步骤、有状态 Agent 流程的工具，Swift 版本的出现有助于在 iOS、macOS 等 Apple 平台落地相关 AI 能力。\n\n该实现目前尚属早期个人项目（获 5 个点赞、2 条评论），其意义在于扩展了 LangGraph 的跨语言生态，为 Apple 端侧 AI 应用开发提供新的实验选项。",
+    "category": "人工智能",
+    "tags": [
+      "LangGraph",
+      "Swift",
+      "AI Agent",
+      "端侧 AI"
+    ],
+    "source": "Hacker News",
+    "time": "2小时前",
+    "ts": "2026-07-06T14:47:45+00:00",
+    "url": "https://github.com/christopherkarani/Swarm",
+    "image": "",
+    "stocks": []
+  },
+  {
     "id": "57dc69a29952fd9f",
     "title": "语言学家本德为“随机鹦鹉”论文正名",
     "summary": "语言学家艾米丽·本德就“随机鹦鹉”论文公开澄清误解，重申其对大语言模型风险与局限的学术立场。",
