@@ -1,48 +1,40 @@
 const newsData = [
   {
+    "id": "f66fd25311d8aeed",
+    "title": "马斯克xAI正式更名为SpaceXAI，全新logo同步启用",
+    "summary": "马斯克旗下AI公司xAI已完成品牌切换，正式更名为SpaceXAI，标识与社交平台账号同步更新。此举标志着xAI在并入SpaceX后，AI业务与航天母舰的整合全面落地，并将与数据中心、算力卫星等AI基础设施布局深度绑定。",
+    "body": "北京时间7月7日凌晨，马斯克创立的xAI宣布正式更名为SpaceXAI，同步更换了公司标识和X平台用户名。今年2月，xAI已被SpaceX收购，旗舰聊天机器人Grok与社交平台X也一并纳入SpaceX体系；5月马斯克又宣布撤销xAI独立公司身份，统一使用SpaceXAI品牌。\n\n此次更名发生在SpaceX今年6月完成IPO之后。据其招股书披露，AI已成为SpaceX的主要投资方向：2025年SpaceX在AI领域投入127亿美元资本开支，规模超过航天和连接业务支出的3倍；尽管AI业务目前仍处净亏损状态，公司仍认为其拥有“人类历史最大”的潜在市场总规模。\n\nSpaceX正加速布局太空AI基础设施。按计划，其最早将于2028年部署AI算力卫星，把数据中心送入太空；同时，SpaceX已拿下多笔大型AI基础设施订单，包括Anthropic每月支付12.5亿美元、谷歌每月支付9.2亿美元使用Colossus数据中心算力。",
+    "category": "AI 基础设施",
+    "tags": [
+      "xAI",
+      "SpaceX",
+      "AI基础设施",
+      "数据中心"
+    ],
+    "source": "IT之家",
+    "time": "刚刚",
+    "ts": "2026-07-06T22:57:40+00:00",
+    "url": "https://www.ithome.com/0/973/318.htm",
+    "image": "https://img.ithome.com/newsuploadfiles/2026/7/9b391783-3e4b-4e3f-ad70-030c337b9f19.png",
+    "stocks": []
+  },
+  {
     "id": "a7a0619635cf7348",
-    "title": "苹果macOS 27 Beta 3新增金门日落夜景动态壁纸",
-    "summary": "苹果发布macOS 27.0（Golden Gate）开发者预览版Beta 3，新增金门日落和金门夜景两款动态壁纸，并进一步完善液态玻璃视觉效果。新壁纸在解锁和屏保状态下可呈现海浪、车流等动画。",
-    "body": "IT之家7月7日消息，苹果今日推出macOS 27.0（Golden Gate）开发者预览版Beta 3。该版本在优化液态玻璃视觉设计的同时，为Mac新增了金门日落和金门夜景两款主题壁纸，与此前Beta 1中的金门抽象壁纸共同组成可选壁纸集合。据介绍，当用户解锁Mac或将其设为屏保时，金门日落壁纸会展示海浪拍打金门大桥附近岩石的画面，金门夜景壁纸则会呈现车辆驶过大桥的动态景象。\n\n这一更新延续了苹果在系统版本中新增多套主题壁纸的做法，主要面向Mac用户提升桌面与屏保的视觉体验。目前macOS Golden Gate仍处于开发者测试阶段，公测版预计将很快推出，后续可能还会有更多金门主题壁纸加入。",
+    "title": "苹果macOS 27 Beta 3新增金门动态壁纸",
+    "summary": "苹果发布macOS 27.0开发者预览版Beta 3，为Mac新增金门日落与金门夜景两款动态壁纸，并进一步完善液态玻璃视觉效果。",
+    "body": "IT之家7月7日消息，苹果今日推送了最新的macOS 27.0（代号Golden Gate）开发者预览版Beta 3。该版本在继续完善液态玻璃视觉设计的同时，为Mac新增了金门日落和金门夜景两款主题壁纸。据介绍，这两款壁纸在Mac解锁时会呈现动画效果，也可设置为屏保：金门日落展示海浪拍打金门大桥附近岩石的画面，金门夜景则呈现车辆驶过大桥的景象。目前，macOS Golden Gate仅面向开发者开放测试，公测版预计将很快到来。",
     "category": "消费电子",
     "tags": [
       "苹果",
       "macOS",
-      "动态壁纸",
-      "软件更新"
+      "动态壁纸"
     ],
     "source": "IT之家",
-    "time": "2分钟前",
+    "time": "9分钟前",
     "ts": "2026-07-06T22:48:40+00:00",
     "url": "https://www.ithome.com/0/973/317.htm",
     "image": "https://img.ithome.com/newsuploadfiles/2026/7/597392a2-c745-4c62-99fc-5432e58fbb5a.jpg",
     "stocks": []
-  },
-  {
-    "id": "8d956b9a61f55088",
-    "title": "苹果iOS 27家庭App AI摄像头功能需2TB iCloud+",
-    "summary": "苹果确认，iOS 27、iPadOS 27和macOS 27的家庭App中，Apple Intelligence摄像头功能需订阅2TB及以上iCloud+。新功能可为运动警报生成文字摘要、整合多摄像头画面并支持自然语言搜索。",
-    "body": "据IT之家报道，苹果在第三个macOS Golden Gate测试版说明中确认，即将推出的家庭App Apple Intelligence摄像头功能要求用户订阅2TB或更高容量的iCloud+计划。相关AI特性包括为HomeKit安全视频的运动警报生成文字摘要，将多个摄像头的画面整合为活动概览并提取关键片段，同时支持自然语言搜索。此前WWDC仅透露部分Apple Intelligence功能需要iCloud+订阅，但未说明具体档位。\n\n目前，苹果2TB iCloud+套餐售价为每月9.99美元。除了2TB云存储空间外，该套餐还将解锁上述家庭App AI功能套件。值得注意的是，HomeKit安全视频的云存储本身就需要付费iCloud计划，其中2TB套餐支持无限量摄像头，且视频存储不占用iCloud+的2TB空间。",
-    "category": "消费电子",
-    "tags": [
-      "苹果",
-      "智能家居",
-      "AI应用",
-      "iCloud+"
-    ],
-    "source": "IT之家",
-    "time": "16分钟前",
-    "ts": "2026-07-06T22:34:59+00:00",
-    "url": "https://www.ithome.com/0/973/316.htm",
-    "image": "https://img.ithome.com/newsuploadfiles/2026/7/5c1b2ae6-be37-4883-a298-2d9a0480879b.jpg?x-bce-process=image/format,f_auto",
-    "stocks": [
-      {
-        "name": "苹果公司",
-        "ticker": "AAPL",
-        "reason": "新AI摄像头功能绑定高阶iCloud+订阅，有望带动服务收入与硬件生态粘性提升。",
-        "confidence": "high"
-      }
-    ]
   },
   {
     "id": "94661356fe90d5b7",
@@ -983,6 +975,24 @@ const newsData = [
     "ts": "2026-07-06T18:29:07+00:00",
     "url": "https://www.therobotreport.com/quantum-systems-raises-1-2b-expand-drone-production-deployments/",
     "image": "https://www.therobotreport.com/wp-content/uploads/2026/07/quantumsystems-featured.jpg",
+    "stocks": []
+  },
+  {
+    "id": "cb160dfd70b01e30",
+    "title": "企业采用AI后反而扩招员工",
+    "summary": "一项研究显示，采用人工智能的公司并未普遍裁员，而是出现了招聘人数增加的现象，引发市场对AI与就业关系的新讨论。",
+    "body": "据外媒报道，一项关于企业人工智能应用的观察指出，在引入AI技术之后，相关公司往往扩大了招聘规模，而非削减岗位。这一趋势挑战了“AI必然导致失业”的普遍担忧，表明当前阶段的人工智能更多起到提升业务需求、创造新岗位的作用。分析认为，若该趋势持续，将对劳动力市场结构、企业人才需求以及相关AI应用服务商产生深远影响。",
+    "category": "人工智能",
+    "tags": [
+      "AI应用",
+      "企业招聘",
+      "就业市场"
+    ],
+    "source": "Hacker News",
+    "time": "4小时前",
+    "ts": "2026-07-06T18:24:11+00:00",
+    "url": "https://ramp.com/data/heavy-ai-adopters-hire-more",
+    "image": "",
     "stocks": []
   },
   {
