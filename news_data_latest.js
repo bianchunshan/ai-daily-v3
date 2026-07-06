@@ -1,5 +1,31 @@
 const newsData = [
   {
+    "id": "52b9e97063014be8",
+    "title": "三星Z Fold 8 Ultra折叠屏据悉将回归S Pen",
+    "summary": "据外媒报道，三星Galaxy Z Fold 8 Ultra折叠屏手机有望在屏幕、电池和快充等方面升级，并重新支持S Pen手写笔，但普通版可能无缘该功能。",
+    "body": "消息称，三星Galaxy Z Fold 8 Ultra将配备500 PPI内屏，较Z Fold 7的368 PPI明显提升，电池容量从4400mAh增至5000mAh，有线快充由25W提升至45W，机身展开厚度略降至4.1mm，重量保持215g。此外，S Pen手写笔支持预计将回归，但仅Ultra版本独占，普通版Z Fold 8或不支持。\n\n影像方面，该机可能独享5000万像素超广角镜头，普通版则无缘高像素超广角与S Pen。分析认为，三星此举意在通过配置差异化进一步拉开Ultra与普通版定位，推动高端折叠屏产品溢价。",
+    "category": "消费电子",
+    "tags": [
+      "折叠屏手机",
+      "三星",
+      "S Pen",
+      "智能手机"
+    ],
+    "source": "IT之家",
+    "time": "5分钟前",
+    "ts": "2026-07-06T00:02:26+00:00",
+    "url": "https://www.ithome.com/0/972/879.htm",
+    "image": "https://img.ithome.com/newsuploadfiles/2026/7/17d8510b-3aca-4d38-91ae-a9ed3d659ef5.jpg?x-bce-process=image/format,f_auto",
+    "stocks": [
+      {
+        "name": "三星电子",
+        "ticker": "005930.KS",
+        "reason": "作为Galaxy Z Fold系列制造商，新机升级与Ultra差异化策略有望带动旗舰折叠屏销量",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
     "id": "efcaf97b8f36d31b",
     "title": "中信建投：算力硬件高波动期，等待财报指引落地",
     "summary": "中信建投研报指出，Meta出售部分过剩算力引发市场对AI算力需求见顶的担忧，但认为该个案不应被过度解读为行业拐点，AI算力中长期需求逻辑未改。",
