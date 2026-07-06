@@ -1,5 +1,24 @@
 const newsData = [
   {
+    "id": "bcee6cfb13df01c0",
+    "title": "山灵ET3 EVO CD转盘7月8日开售",
+    "summary": "山灵音响宣布ET3 EVO CD转盘将于7月8日全网开售，售价3998元。新品在外观与调音上均有所升级，但官方尚未公布具体规格。",
+    "body": "山灵音响宣布，ET3 EVO CD转盘将于7月8日全网开售，零售价为3998元。新品采用哑光炭灰铝机身搭配碳纤纹理、烫金LOGO与朱砂红旋钮，圆形高清显示屏与环形玻璃CD仓形成几何呼应，整体设计强调质感与视觉统一。\n\n据官方介绍，此次升级核心在于声音表现。ET3 EVO通过优化内部电路与关键元件，并经过反复校声，相比前作在高频延伸、动态起伏、乐器质感与人声厚度等方面有所提升，旨在营造更具临场感的听觉体验。\n\n目前官方暂未公布该新品的完整规格参数。作为参考，现款ET3支持多种数字输出接口、USB输出、最高2T容量的U盘/硬盘播放，以及PCM 768kHz/32bit、DSD512解码，并支持WiFi与蓝牙流媒体输入。",
+    "category": "消费电子",
+    "tags": [
+      "消费电子",
+      "音频设备",
+      "Hi-Fi",
+      "CD播放器"
+    ],
+    "source": "IT之家",
+    "time": "8分钟前",
+    "ts": "2026-07-06T14:50:08+00:00",
+    "url": "https://www.ithome.com/0/973/297.htm",
+    "image": "https://img.ithome.com/newsuploadfiles/2026/7/fc48b91f-3106-4d4e-8886-79434df24ac8.jpg?x-bce-process=image/format,f_auto",
+    "stocks": []
+  },
+  {
     "id": "68efdeaf23276004",
     "title": "任天堂2027年停售欧洲初代Switch",
     "summary": "任天堂宣布将于2027年2月中旬停止向欧洲零售商供应初代Nintendo Switch游戏机，原因是届时生效的欧盟新《电池法规》对电池可更换性提出强制要求，旧款改造在经济上得不偿失。",
@@ -590,6 +609,25 @@ const newsData = [
     "ts": "2026-07-06T13:30:00+00:00",
     "url": "https://www.engadget.com/2207394/usb4-cables-when-why-pay-more/",
     "image": "https://www.engadget.com/img/gallery/usb4-cables-when-and-why-its-worth-paying-more/l-intro-1783029640.jpg",
+    "stocks": []
+  },
+  {
+    "id": "36a70d53f068bf54",
+    "title": "RoboBusiness 2026 演讲者征集即将截止",
+    "summary": "面向商用机器人开发者和机器人企业创办的 RoboBusiness 2026 大会已开放演讲者征集，截止日期为 2026 年 7 月 8 日。本届会议将聚焦物理 AI、人形机器人、野外机器人、使能技术及商业化部署等议题。",
+    "body": "RoboBusiness 2026 将于 2026 年 10 月 20 日至 21 日在美国加州圣克拉拉举行，目前大会正在征集演讲者，提案提交截止日期为 2026 年 7 月 8 日。作为已有 20 年历史的商用机器人开发与行业趋势盛会，RoboBusiness 2026 设置了物理 AI、使能技术、人形机器人、野外机器人、开发与工程、商业与部署等多个主题分论坛。\n其中，物理 AI 分论坛将探讨机器人如何基于传感器数据学习、适应动态环境并更快掌握新任务；人形机器人分论坛聚焦工业场景下的人形机器人设计、开发与部署；野外机器人分论坛则覆盖农业、建筑等户外应用场景。整体议程反映了机器人产业正加速融合 AI、感知、运动控制与商业化落地能力。",
+    "category": "机器人",
+    "tags": [
+      "机器人",
+      "RoboBusiness",
+      "人形机器人",
+      "行业会议"
+    ],
+    "source": "The Robot Report",
+    "time": "1小时前",
+    "ts": "2026-07-06T13:26:34+00:00",
+    "url": "https://www.therobotreport.com/robobusiness-2026-opens-call-for-speakers/",
+    "image": "https://www.therobotreport.com/wp-content/uploads/2026/06/ROBO_Thur_6090-copy.jpg",
     "stocks": []
   },
   {
