@@ -1,5 +1,30 @@
 const newsData = [
   {
+    "id": "410e0819cbf70cf1",
+    "title": "Solstice与Element Solutions洽谈合并",
+    "summary": "据外媒报道，先进材料企业Solstice Advanced Materials正与特种化学品公司Element Solutions就潜在合并进行谈判，交易最快可能于本周达成，但目前尚未签署正式协议。",
+    "body": "7月6日消息，Solstice Advanced Materials正与Element Solutions就合并事宜进行谈判。报道称，双方正在讨论对等合并方案，交易最快可能于本周内达成。不过，目前尚未达成正式协议，相关谈判仍存在破裂可能。\n\nSolstice Advanced Materials专注于先进材料领域，Element Solutions则主营特种化学品。若两家公司成功合并，将有助于整合先进材料与特种化学品业务，扩大市场覆盖与产品组合。该交易进展仍需关注后续正式协议的签署情况。",
+    "category": "新材料",
+    "tags": [
+      "并购重组",
+      "特种化学品",
+      "先进材料"
+    ],
+    "source": "36氪",
+    "time": "刚刚",
+    "ts": "2026-07-06T05:58:45.897793+00:00",
+    "url": "https://36kr.com/newsflashes/3883752826024200?f=rss",
+    "image": "",
+    "stocks": [
+      {
+        "name": "Element Solutions",
+        "ticker": "ESI",
+        "reason": "作为合并交易直接参与方，若对等合并完成有望扩大其特种化学品与先进材料业务规模",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
     "id": "66a125854a0894d2",
     "title": "美团开源LongCat-2.0模型权重与推理引擎",
     "summary": "美团宣布正式开源LongCat-2.0全部模型权重、推理引擎与核心技术文档，华为昇腾、摩尔线程、沐曦股份等国产芯片厂商同日宣布完成对该模型的推理适配。",
