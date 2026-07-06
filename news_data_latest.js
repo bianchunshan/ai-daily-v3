@@ -1,5 +1,24 @@
 const newsData = [
   {
+    "id": "e83d329c91b5d6dd",
+    "title": "NASA商业卫星数据计划新增三家欧洲企业",
+    "summary": "NASA商业卫星数据采办计划（CSDA）6月23日宣布与8家新的商业卫星数据供应商签约，其中3家为欧洲公司。此举将丰富NASA的遥感数据来源，并推动国际商业航天合作。",
+    "body": "美国国家航空航天局（NASA）旗下的商业卫星数据采办计划（CSDA）于6月23日宣布，已与8家新的商业卫星数据供应商签订合同，其中3家来自欧洲，包括芬兰的Kuva Space以及OroraTech等。CSDA通过采购商业卫星数据，支持地球科学、气候监测、灾害响应等领域的研究任务。\n\n新增供应商意味着NASA可获取更多样化的商业遥感数据，提升其科研和应用服务能力。此次扩容也体现了NASA对商业航天数据生态的进一步开放，并加强了与欧洲新兴卫星企业的合作。\n\n对入选的欧洲卫星公司而言，进入NASA供应链有助于提升数据产品的国际认可度，同时也将促进全球商业遥感市场的竞争与发展。",
+    "category": "商业航天",
+    "tags": [
+      "商业航天",
+      "卫星遥感",
+      "NASA",
+      "欧洲航天"
+    ],
+    "source": "SpaceNews",
+    "time": "1分钟前",
+    "ts": "2026-07-06T15:57:10+00:00",
+    "url": "https://spacenews.com/nasa-adds-three-european-firms-to-the-commercial-data-program/",
+    "image": "https://i0.wp.com/spacenews.com/wp-content/uploads/2026/07/csda-program-hero-2500x1000-200dpi.webp?fit=1024%2C410&amp;ssl=1",
+    "stocks": []
+  },
+  {
     "id": "1b6fff3509525fc1",
     "title": "研究显示暴力或使女性提前20个月进入更年期",
     "summary": "西班牙格拉纳达大学一项综述研究发现，女性一生中遭受暴力与更年期提前及更严重症状相关，绝经时间可能提早约20个月。",
