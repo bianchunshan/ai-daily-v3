@@ -1,5 +1,31 @@
 const newsData = [
   {
+    "id": "47aa7db4ea2209a5",
+    "title": "谷歌将Android备份数据计入存储空间上限",
+    "summary": "谷歌宣布，Android设备的备份数据今后将计入Google账号的15GB存储上限。公司表示，由于数据经过压缩优化，普通用户实际占用的额外空间预计非常有限。",
+    "body": "谷歌近期更新了Android备份政策，所有Android设备的备份数据今后都将计入Google账号的存储空间配额。此前，部分Android备份数据并不占用这15GB的免费空间。谷歌称，备份数据经过压缩和优化，普通用户实际占用的额外空间预计非常有限，因此大多数用户不会立即感受到影响。\n\n这一调整意味着用户可能需要更频繁地管理云存储，或考虑购买Google One等付费扩容服务。同时，也可能促使其他手机厂商审视自身的云服务策略，并影响用户对云存储成本的预期。",
+    "category": "消费电子",
+    "tags": [
+      "谷歌",
+      "Android",
+      "云存储",
+      "Google One"
+    ],
+    "source": "Engadget",
+    "time": "5分钟前",
+    "ts": "2026-07-06T22:09:56+00:00",
+    "url": "https://www.engadget.com/2209189/google-will-now-count-all-android-backup-data-toward-your-storage-cap/",
+    "image": "https://www.engadget.com/img/gallery/google-will-now-count-all-android-backup-data-toward-your-storage-cap/l-intro-1783375302.jpg",
+    "stocks": [
+      {
+        "name": "谷歌-A",
+        "ticker": "GOOGL",
+        "reason": "存储政策调整可能推动用户购买Google One付费扩容，带动云业务收入",
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
     "id": "8d69fe14fd47893c",
     "title": "单次接触可卡因即可改变小鼠脑细胞，影响持续两周",
     "summary": "在欧洲神经科学学会联盟（FENS）2026年论坛上公布的小鼠研究显示，仅一次可卡因暴露即可造成脑细胞改变，并持续至少两周。该发现为理解药物成瘾的神经机制提供了新线索。",
@@ -38,6 +64,24 @@ const newsData = [
     "stocks": []
   },
   {
+    "id": "a8fefbfaf0638973",
+    "title": "土卫六资源及其利用引发关注",
+    "summary": "这篇Hacker News文章以《Titan's Resources and Their Utilization》为题，关注土星最大卫星土卫六的资源潜力及其开发利用方向。",
+    "body": "文章围绕土卫六的资源禀赋与利用方式展开，探讨如何借助外天体资源降低深空探测成本、支撑长期太空活动。对土卫六资源的开发利用，被视为推动太空经济与深空探索的重要方向之一。不过，相关技术路径、经济可行性与行星保护等问题仍有待进一步研究与论证。",
+    "category": "商业航天",
+    "tags": [
+      "深空探测",
+      "太空资源",
+      "土卫六"
+    ],
+    "source": "Hacker News",
+    "time": "36分钟前",
+    "ts": "2026-07-06T21:39:04+00:00",
+    "url": "https://arxiv.org/abs/2606.06608",
+    "image": "",
+    "stocks": []
+  },
+  {
     "id": "bc81c3283b06b613",
     "title": "医疗“神圣时刻”有助缓解医生倦怠",
     "summary": "新研究关注医疗场景中短暂而深刻的人际连接，探讨其在缓解临床医生职业倦怠和增强患者信任方面的价值。",
@@ -72,6 +116,24 @@ const newsData = [
     "ts": "2026-07-06T17:20:02-04:00",
     "url": "https://medicalxpress.com/news/2026-07-scientists-uncover-neuronal-circuits-orchestrating.html",
     "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/scientists-uncover-two.jpg",
+    "stocks": []
+  },
+  {
+    "id": "17011e8826fc024f",
+    "title": "AI投资回报跑道：非科技行业或更长",
+    "summary": "该观点认为，人工智能的投资回报周期与增长空间可能在科技行业之外的领域更为广阔。",
+    "body": "这是一则关于人工智能产业前景的投资观点，核心论题是AI的投资回报（ROI）跑道在科技行业之外可能更长。换言之，虽然科技巨头和互联网公司率先布局AI基础设施与应用，但真正可持续、规模化的价值释放或许出现在制造、能源、医疗、金融等传统行业的数字化转型中。该视角提示市场，评估AI价值时不应仅关注技术供给侧，也要观察需求侧各行业对AI能力的吸收与变现能力。",
+    "category": "人工智能",
+    "tags": [
+      "AI应用",
+      "传统行业",
+      "投资回报率"
+    ],
+    "source": "Hacker News",
+    "time": "1小时前",
+    "ts": "2026-07-06T21:09:23+00:00",
+    "url": "https://www.apollo.com/wealth/insights-news/insights/daily-spark/ai-the-roi-runway-could-be-long-outside-the-tech-sector",
+    "image": "",
     "stocks": []
   },
   {
@@ -494,6 +556,25 @@ const newsData = [
     "ts": "2026-07-06T19:34:28+00:00",
     "url": "https://electrek.co/2026/07/06/kia-killing-off-flagship-sedan-lower-cost-evs/",
     "image": "https://electrek.co/wp-content/uploads/sites/3/2026/07/Kia-flagship-sedan-EVs.jpeg?quality=82&#038;strip=all&#038;w=1400",
+    "stocks": []
+  },
+  {
+    "id": "b7aafd694a45c7e7",
+    "title": "RAG上下文裁剪：只保留答案所需内容",
+    "summary": "Hacker News上的一则技术动态提出，可对RAG检索到的上下文进行裁剪，仅保留回答问题所需的关键信息，以降低噪声和计算成本。",
+    "body": "检索增强生成（RAG）系统通常需要从外部知识库检索大量文本片段，作为大语言模型的上下文输入。然而，过多无关信息可能干扰模型生成质量，并显著增加token开销和推理成本。\n\n该动态介绍的技术思路强调“按需裁剪”：在真正回答问题前，对检索结果进行筛选，仅保留与最终答案直接相关的内容。这样可以减少上下文中的噪声，让模型更专注于有效证据。\n\n这一方法若能在工程上落地，有望提升大语言模型在知识密集型任务中的准确性与效率，对RAG系统的优化具有一定参考价值。",
+    "category": "人工智能",
+    "tags": [
+      "RAG",
+      "大语言模型",
+      "检索增强生成",
+      "上下文压缩"
+    ],
+    "source": "Hacker News",
+    "time": "2小时前",
+    "ts": "2026-07-06T19:28:24+00:00",
+    "url": "https://www.kapa.ai/blog/how-we-prune-rag-context",
+    "image": "",
     "stocks": []
   },
   {
