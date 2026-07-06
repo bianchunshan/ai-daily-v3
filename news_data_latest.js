@@ -1,5 +1,24 @@
 const newsData = [
   {
+    "id": "77066296b7cb34f5",
+    "title": "Bookshop.org确认年内支持Kobo电子阅读器",
+    "summary": "在线书店Bookshop.org向TechCrunch确认，其与Kobo电子阅读器的合作虽一度推迟，但双方已敲定商业条款并推进整合，预计今年内上线。",
+    "body": "作为亚马逊的替代平台，Bookshop.org长期计划让用户在该平台购买的电子书能够在Kobo电子阅读器上阅读。此前，这项备受期待的合作伙伴关系似乎再次延迟，引发外界猜测。不过，Bookshop.org向TechCrunch表示，双方已就商业条款达成一致，目前正在进行技术整合工作。\n\n这意味着Kobo用户有望在今年内直接访问通过Bookshop.org购买的电子书内容。对于Bookshop.org而言，补齐电子阅读器支持可提升其数字书店的用户体验，帮助独立书店和出版商拓展电子书分销渠道。\n\n在电子书市场，亚马逊Kindle生态仍占主导地位。Bookshop.org与Kobo的整合将为消费者和出版方提供Kindle之外的替代选择，也可能增强该平台在数字阅读领域的竞争力。",
+    "category": "消费电子",
+    "tags": [
+      "电子书阅读器",
+      "在线书店",
+      "数字出版",
+      "消费电子"
+    ],
+    "source": "TechCrunch",
+    "time": "2分钟前",
+    "ts": "2026-07-06T18:12:01+00:00",
+    "url": "https://techcrunch.com/2026/07/06/amazon-competitor-bookshop-org-says-kobo-e-reader-support-will-happen-this-year-after-all/",
+    "image": "",
+    "stocks": []
+  },
+  {
     "id": "8b3998063768b49e",
     "title": "德国团队开发AI系统为复杂血癌提供治疗建议",
     "summary": "德国癌症研究中心等机构联合开发了名为HemaGuide的人工智能助手，用于辅助医生制定疑难血癌治疗方案。测试显示，该系统与资深专家意见高度一致，有望提升专科化、个性化癌症治疗的可及性。",
@@ -34,6 +53,24 @@ const newsData = [
     "ts": "2026-07-06T14:00:03-04:00",
     "url": "https://medicalxpress.com/news/2026-07-virus-reveals-pathogens-pose-greatest.html",
     "image": "https://scx1.b-cdn.net/csz/news/tmb/2021/virus-5.jpg",
+    "stocks": []
+  },
+  {
+    "id": "de6778c5c1da389e",
+    "title": "OpenClaw 上线 HuggingFace 本地应用",
+    "summary": "OpenClaw 宣布登陆 HuggingFace 本地应用，用户可基于任意 GGUF/MLX 模型构建完全本地的工具调用智能体。该方案无需云端、密钥或外部监控，强调本地化与隐私。",
+    "body": "OpenClaw 在 X 平台宣布其已登陆 HuggingFace 本地应用。用户只需在 HuggingFace 上挑选任意 GGUF 或 MLX 格式模型，复制 OpenClaw 的 onboard 设置，即可获得一个完全在本地运行的工具调用智能体。该方案无需云端服务、API 密钥，也不会被外部监控。",
+    "category": "人工智能",
+    "tags": [
+      "本地大模型",
+      "AI智能体",
+      "HuggingFace"
+    ],
+    "source": "AIHOT精选",
+    "time": "28分钟前",
+    "ts": "2026-07-06T17:45:30+00:00",
+    "url": "https://x.com/openclaw/status/2074187998602871212",
+    "image": "",
     "stocks": []
   },
   {
@@ -303,6 +340,24 @@ const newsData = [
     "ts": "2026-07-06T13:20:05-04:00",
     "url": "https://medicalxpress.com/news/2026-07-trimester-pregnancy-vital-human-brain.html",
     "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/pregnancy-4.jpg",
+    "stocks": []
+  },
+  {
+    "id": "dda37a3b26bcfbe5",
+    "title": "科技巨头突然转变对AI大规模失业的立场",
+    "summary": "科技巨头对人工智能将引发大规模失业的悲观预测立场出现突然转变，引发市场对AI就业影响的重新审视。",
+    "body": "据Hacker News热门条目标题显示，大型科技公司对“AI将 wipeout 就业岗位”的末日情景预测突然发生态度转变。这一变化暗示业界对生成式人工智能影响劳动力市场的判断可能正在调整，但原文仅提供标题信息，具体转向内容和原因尚不明确。该话题关系到AI技术普及与就业市场的长期互动，值得产业界和投资者持续关注。",
+    "category": "人工智能",
+    "tags": [
+      "人工智能",
+      "就业市场",
+      "科技巨头"
+    ],
+    "source": "Hacker News",
+    "time": "57分钟前",
+    "ts": "2026-07-06T17:16:41+00:00",
+    "url": "https://www.wsj.com/tech/ai/ai-workers-tech-ceos-job-losses-afc71e15",
+    "image": "",
     "stocks": []
   },
   {
@@ -7198,6 +7253,25 @@ const newsData = [
         "confidence": "high"
       }
     ]
+  },
+  {
+    "id": "0afff12e7cc6b2a8",
+    "title": "可解释模型揭示标注者安全策略分歧",
+    "summary": "苹果机器学习研究团队提出Annotator Policy Models（APMs），可仅从标注行为中学习标注者内在的安全策略，验证准确率达80%以上，能识别政策模糊与价值多元导致的安全标注分歧。",
+    "body": "苹果机器学习研究团队（Apple Machine Learning Research）提出一种可解释模型Annotator Policy Models（APMs）。该模型无需额外信息，仅通过标注者的标注行为学习其内在安全策略，经验证准确率超过80%，能够忠实预测反事实编辑并恢复已知的标注差异。\n\n研究团队将APMs同时应用于大语言模型和人类标注者，发现不同标注者对安全指令的解释存在差异，体现出安全政策本身的模糊性；同时，不同人口群体在安全优先级上也呈现出系统性差异，反映出价值观的多元性。\n\n该方法有助于将安全标注分歧归因于操作失败、政策模糊或价值多元等不同来源，从而支持更具针对性、透明和包容的人工智能安全策略设计，为模型对齐与数据标注质量提升提供了新的可解释工具。",
+    "category": "人工智能",
+    "tags": [
+      "可解释性",
+      "大模型安全",
+      "数据标注",
+      "AI对齐"
+    ],
+    "source": "AIHOT精选",
+    "time": "18小时前",
+    "ts": "2026-07-06T00:00:00+00:00",
+    "url": "https://machinelearning.apple.com/research/annotator-safety-policy-interpretability",
+    "image": "",
+    "stocks": []
   },
   {
     "id": "c17dea35fe0a0819",
