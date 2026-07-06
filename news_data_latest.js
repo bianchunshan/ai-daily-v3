@@ -1,5 +1,50 @@
 const newsData = [
   {
+    "id": "8d8c46e0d82618b3",
+    "title": "英伟达Rubin Ultra机架推迟至2028年，过渡方案取消",
+    "summary": "据SemiAnalysis消息，英伟达面向Rubin Ultra GPU的Kyber NVL144整机机架因PCB中板制造难题，出货时间将从2027年推迟至2028年；原定的NVL72x2过渡方案也因客户反对被取消，2027年暂无成熟方案扩展Rubin Ultra的scale-up规模。",
+    "body": "报道称，英伟达原计划2027年推出的Kyber NVL144机架已被推迟到2028年，延迟超过12个月。SemiAnalysis指出，问题出在连接八个Oberon机架之间NVSwitch的PCB中板——即英伟达所称的“正交背板”——该背板采用全铜NVLink互连的刚性板，取代了早期机架的线缆束，但因层数增加导致信号完整性下降，制造难度超出预期。\n\nKyber机架默认采用液冷，可堆叠144个Rubin Ultra封装，容量是现有Oberon NVL72机架的两倍，机柜内所有GPU之间的链路都经过该中板传输。与此同时，英伟达原打算用作过渡的NVL72x2背靠背机架方案 reportedly 因客户反对已被取消，这意味着2027年可能没有可行的替代方案来扩大Rubin Ultra的scale-up规模。\n\n若消息属实，这次延期将影响下游云服务商与大型AI实验室的部署节奏，也可能为AMD、Intel等竞争对手及新兴互连方案提供市场窗口；不过英伟达仍可能通过调整现有Blackwell/Oberon产品线或推出替代架构来缓解客户流失风险。",
+    "category": "AI 基础设施",
+    "tags": [
+      "英伟达",
+      "AI 基础设施",
+      "GPU 机架",
+      "Rubin Ultra"
+    ],
+    "source": "Tom's Hardware",
+    "time": "4分钟前",
+    "ts": "2026-07-06T13:33:34+00:00",
+    "url": "https://www.tomshardware.com/pc-components/gpus/nvidias-kyber-rack-for-rubin-ultra-slips-to-2028",
+    "image": "https://cdn.mos.cms.futurecdn.net/qH9XqmnqHfwSwBhpoXCho6-1280-80.jpg",
+    "stocks": [
+      {
+        "name": "英伟达",
+        "ticker": "NVDA",
+        "reason": "新闻直接涉及其Kyber NVL144机架与Rubin Ultra GPU的出货延期，过渡方案取消可能影响2027年高端AI集群交付节奏与客户订单预期。",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "874ce2e0194443fa",
+    "title": "USB4数据线：何时值得花高价购买",
+    "summary": "USB4线缆不仅能实现更快充电，还可支持更高带宽的数据传输，选购时需结合实际需求判断溢价是否值得。",
+    "body": "USB4是新一代通用串行总线标准，采用USB-C物理接口并兼容Thunderbolt 3协议，最高可支持40Gbps数据传输、视频输出及更高功率供电，远不止是普通充电线。相比一般USB-C线材，认证USB4线缆在抗干扰、兼容性与传输稳定性上更优，适合连接高速固态硬盘、高分辨率显示器或多功能扩展坞等场景。对于仅需慢充的用户，高价USB4线材意义有限；但对专业用户和重度外设用户而言，投资认证线材可减少兼容性问题并充分释放设备性能。",
+    "category": "消费电子",
+    "tags": [
+      "USB4",
+      "数据线",
+      "消费电子",
+      "接口标准"
+    ],
+    "source": "Engadget",
+    "time": "7分钟前",
+    "ts": "2026-07-06T13:30:00+00:00",
+    "url": "https://www.engadget.com/2207394/usb4-cables-when-why-pay-more/",
+    "image": "https://www.engadget.com/img/gallery/usb4-cables-when-and-why-its-worth-paying-more/l-intro-1783029640.jpg",
+    "stocks": []
+  },
+  {
     "id": "4398c03401323401",
     "title": "2026世界机器人大会将于8月在京举行",
     "summary": "2026世界机器人大会定于8月19日至23日在北京经济技术开发区举办，主题为“人机共生，产需共融”。本届大会规模规格提升，将有300余家企业参展、150余件新品首发，国资委还将宣布成立中央企业机器人创新联合体。",
@@ -496,6 +541,24 @@ const newsData = [
         "confidence": "high"
       }
     ]
+  },
+  {
+    "id": "1b1b0105b376aadf",
+    "title": "AI营销遭遇反噬：'AI优先'品牌为何失灵",
+    "summary": "越来越多标榜\"AI优先\"的品牌在营销中遭遇消费者抵触，单纯依赖AI概念已难以打动市场。",
+    "body": "近期，一些以\"AI优先\"为卖点的品牌在营销传播中开始显得乏力，甚至引发反感情绪。随着AI概念快速普及，消费者对\"AI驱动\"等宣传语的新鲜感下降，更关注产品实际价值与真实体验，\"AI优先\"标签不再自动等同于创新与可信。这一现象提示企业需从概念炒作回归真实应用，将AI能力转化为可感知、可验证的用户价值，否则容易在市场竞争中被边缘化。",
+    "category": "人工智能",
+    "tags": [
+      "AI营销",
+      "品牌策略",
+      "人工智能应用"
+    ],
+    "source": "Hacker News",
+    "time": "1小时前",
+    "ts": "2026-07-06T12:33:09+00:00",
+    "url": "https://www.breef.com/breefingroom/articles/the-ai-marketing-backlash-why-ai-first-brands-are-starting-to-fall-flat",
+    "image": "",
+    "stocks": []
   },
   {
     "id": "6b0f42d294a56650",
