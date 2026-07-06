@@ -1,5 +1,120 @@
 const newsData = [
   {
+    "id": "218b7c5da271102c",
+    "title": "Iridium完成对Aireon收购 并入Rocket Lab交易资产",
+    "summary": "卫星运营商Iridium Communications已完成对飞机追踪服务商Aireon的全资收购，将其并入公司资产包。该交易发生在Rocket Lab以约80亿美元收购Iridium计划之前，有助于强化后者的卫星服务版图。",
+    "body": "Iridium Communications日前宣布完成对Aireon的全面收购，将这家以星基广播式自动相关监视（ADS-B）技术提供全球航班追踪与空域安全服务的公司并入体内。Aireon此前由Iridium与多家空管机构合资运营，此次全资控股使Iridium能够直接掌握其收入流与战略方向。\n\n此次整合正值Rocket Lab计划以约80亿美元收购Iridium之际。Aireon的航空安全与空域管理数据服务将为Iridium的卫星通信业务增添稳定的政府与商业客户收入，也可能提升Rocket Lab收购后整合太空数据服务的能力。\n\n该交易反映了低轨卫星运营商向“通信+感知+数据服务”一体化平台演进的趋势，对商业航天产业链的垂直整合具有示范意义。",
+    "category": "商业航天",
+    "tags": [
+      "商业航天",
+      "卫星互联网",
+      "航空安全",
+      "低轨卫星"
+    ],
+    "source": "SpaceNews",
+    "time": "2分钟前",
+    "ts": "2026-07-06T19:02:32+00:00",
+    "url": "https://spacenews.com/iridium-folds-aireon-aviation-safety-service-into-rocket-lab-bound-business/",
+    "image": "https://i0.wp.com/spacenews.com/wp-content/uploads/2019/01/Aireon-Constellation-1.jpg?fit=879%2C494&amp;ssl=1",
+    "stocks": [
+      {
+        "name": "Iridium Communications",
+        "ticker": "IRDM",
+        "reason": "全资收购Aireon增强资产价值，即将被Rocket Lab以约80亿美元收购",
+        "confidence": "high"
+      },
+      {
+        "name": "Rocket Lab USA",
+        "ticker": "RKLB",
+        "reason": "收购Iridium将获得Aireon航空安全数据服务，扩展太空数据业务",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "96edd13ea63be8a4",
+    "title": "iOS 27测试版上线：可自定义Siri语速与表现力",
+    "summary": "苹果在最新iOS 27测试版中为Siri新增语速与表现力调节选项，用户可更灵活地控制语音助手的播报风格。",
+    "body": "据外媒TechCrunch报道，苹果在最新iOS 27测试版中引入了Siri语音自定义功能，允许用户调整Siri的说话速度以及声音表现力。这一更新有望让语音交互更加自然、个性化，提升iPhone用户在语音助手场景下的体验。\n\n对苹果而言，持续优化Siri是其强化端侧AI能力、完善iOS生态体验的重要一环。在语音助手竞争日益激烈的背景下，更富表现力的Siri也有助于提升用户粘性与设备差异化优势。",
+    "category": "消费电子",
+    "tags": [
+      "苹果",
+      "Siri",
+      "iOS 27",
+      "语音助手"
+    ],
+    "source": "TechCrunch",
+    "time": "3分钟前",
+    "ts": "2026-07-06T19:01:59+00:00",
+    "url": "https://techcrunch.com/2026/07/06/you-can-now-customize-siris-pace-and-expressivity-in-the-latest-ios-27-beta/",
+    "image": "",
+    "stocks": [
+      {
+        "name": "苹果公司",
+        "ticker": "AAPL",
+        "reason": "iOS/Siri功能升级直接利好其iPhone生态与用户体验",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "e523502feff11553",
+    "title": "研究发现子宫微生物群或影响试管婴儿成功率",
+    "summary": "都柏林三一学院的研究人员发现，子宫内细菌群落可能在辅助生殖技术（如试管婴儿）后影响妊娠成功与否，并提示用于指导胚胎移植时机的生物信号可能具有误导性。",
+    "body": "一项由都柏林三一学院开展的研究揭示了子宫微生物群与辅助生殖技术（ART）妊娠结局之间的新关联。研究表明，子宫内的细菌群落组成可能在决定试管婴儿等治疗是否成功中发挥重要作用。\n研究团队还指出，长期以来用于判断胚胎移植最佳时机的生物信号，可能并不像过去认为的那样可靠。这一发现或为生殖医学领域提供新的诊断与治疗思路，有望改善不孕不育患者的妊娠结局。\n不过，该研究目前仍处于基础探索阶段，距离临床应用尚需进一步验证。",
+    "category": "生物医药",
+    "tags": [
+      "生殖医学",
+      "微生物组",
+      "试管婴儿",
+      "不孕不育"
+    ],
+    "source": "MedicalXpress",
+    "time": "5分钟前",
+    "ts": "2026-07-06T15:00:04-04:00",
+    "url": "https://medicalxpress.com/news/2026-07-reveals-uterine-microbiome-impact-pregnancy.html",
+    "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/study-reveals-how-the.jpg",
+    "stocks": []
+  },
+  {
+    "id": "1a6ff67f449eb5a7",
+    "title": "伦敦研究团队验证一小时内无创检测口腔癌新方法",
+    "summary": "伦敦玛丽女王大学领衔的跨校团队在《Biomarker Research》发表研究，验证了一种无创刷检活检技术可在一小时内检测出口腔癌，有望实现早期快速筛查。",
+    "body": "口腔癌早期发现对于提高治愈率至关重要。若该技术未来获得监管批准并转化为临床产品，可能改变口腔癌的筛查模式，减轻医疗负担并改善患者预后。",
+    "category": "生物医药",
+    "tags": [
+      "口腔癌",
+      "早期诊断",
+      "无创检测",
+      "医疗器械"
+    ],
+    "source": "MedicalXpress",
+    "time": "5分钟前",
+    "ts": "2026-07-06T15:00:02-04:00",
+    "url": "https://medicalxpress.com/news/2026-07-oral-cancer-hour.html",
+    "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/new-brush-test-detects.jpg",
+    "stocks": []
+  },
+  {
+    "id": "588c4737b6d97226",
+    "title": "NASA借广义相对论从TESS数据中发现隐藏系外行星",
+    "summary": "NASA利用爱因斯坦广义相对论预言的引力微透镜效应，在TESS数据中确认了系外行星Gaia23bra b。该发现表明TESS可探测比传统凌日法更远、轨道更类木星的行星。",
+    "body": "NASA的凌日系外行星巡天卫星TESS通常通过观测行星遮挡恒星造成的亮度下降来寻找系外行星，这一方法对靠近恒星的大型气态行星最有效。但新确认的Gaia23bra b质量约为木星的1.6倍，轨道距离却与木星绕日轨道相近，且其宿主橙矮星位于约4万光年之外，远超TESS约150光年的常规搜索范围。研究团队借助引力微透镜导致恒星短暂增亮的现象，从TESS数据中“挖出”了这颗行星，拓展了该任务的应用范围，也说明既有巡天数据中可能还隐藏着更多未被识别的遥远行星。",
+    "category": "商业航天",
+    "tags": [
+      "系外行星",
+      "引力微透镜",
+      "TESS",
+      "NASA"
+    ],
+    "source": "Space.com",
+    "time": "5分钟前",
+    "ts": "2026-07-06T19:00:00+00:00",
+    "url": "https://www.space.com/astronomy/exoplanets/nasa-just-found-a-planet-hiding-in-tess-spacecraft-data-all-thanks-to-einstein",
+    "image": "https://cdn.mos.cms.futurecdn.net/qowJyUHGPhXsUuPefihQfG-1280-80.png",
+    "stocks": []
+  },
+  {
     "id": "65cdb4db9eb4e6fa",
     "title": "纤连蛋白通路或驱动马凡综合征主动脉损伤",
     "summary": "发表于《自然·通讯》的一项研究揭示了纤连蛋白相关分子信号通路可能促进马凡综合征患者主动脉瘤和主动脉夹层的发生，为开发新疗法提供了潜在靶点。",
