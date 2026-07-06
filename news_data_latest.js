@@ -1,5 +1,139 @@
 const newsData = [
   {
+    "id": "bf3a785bfc09f631",
+    "title": "零跑B03X纯电车型欧洲开启预定",
+    "summary": "零跑汽车宣布旗下纯电动车型B03X在欧洲市场正式开启预定，起售价为2.49万欧元。该车基于国内市场A10升级而来，搭载更强动力电机，定位全球战略车型，加速海外市场拓展。",
+    "body": "7月6日，零跑汽车在欧洲市场开始接受B03X的预定，起售价为2.49万欧元，约合人民币19.3万元。该车型可视作国内A10的海外改款，外形、尺寸、电池等关键特征与A10保持一致，但升级为145kW功率、150N·m扭矩的前置单电机，0~100km/h加速时间缩短至8.6秒。零跑表示，B03X从设计之初即面向国际市场，定位为智能都市跨界车，意在将高端电动出行体验带给更广泛的欧洲用户。这一动作显示出中国新能源车企正在进一步推进产品出海与本地化布局，有望提升其在欧洲市场的品牌认知与销量。",
+    "category": "未来能源",
+    "tags": [
+      "零跑汽车",
+      "新能源汽车",
+      "出海",
+      "电动汽车"
+    ],
+    "source": "IT之家",
+    "time": "1分钟前",
+    "ts": "2026-07-06T15:27:19+00:00",
+    "url": "https://www.ithome.com/0/973/302.htm",
+    "image": "https://img.ithome.com/newsuploadfiles/2026/7/dbe1c473-3909-48b1-9b6e-c4ca409a11fe.jpg?x-bce-process=image/format,f_auto",
+    "stocks": [
+      {
+        "name": "零跑汽车",
+        "ticker": "9868.HK",
+        "reason": "B03X为公司面向欧洲推出的全球战略纯电车型，开启预定将直接带动海外销量预期。",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "1451b69380658d8c",
+    "title": "小米REDMI Turbo 5系列销量突破200万台",
+    "summary": "据数码博主爆料，截至2026年第26周，小米REDMI Turbo 5系列手机累计销量已超200万台，同期REDMI K90标准版销量约239万台。",
+    "body": "IT之家7月6日消息，据长期关注国内手机市场份额的数码博主@RD观测爆料，截至2026年第26周（6月22日-6月28日），小米REDMI Turbo 5系列手机累计销量（Sold Out）已超过200万台，约为200.42万台。该系列于1月29日发布，提供标准版与Max版，分别搭载天玑8500-Ultra与天玑9500s处理器，首销价分别为1999元起与2199元起。\n\n爆料还显示，同期REDMI K90系列各机型销量分化明显：REDMI K90约239.13万台，REDMI K90 Max约41.35万台，REDMI K90 Pro Max约72.48万台。Turbo 5系列在上市约5个月后突破200万台，反映出REDMI在中端价位段仍具备较强的市场竞争力，有助于巩固小米在国内智能手机市场的份额。",
+    "category": "消费电子",
+    "tags": [
+      "智能手机",
+      "小米",
+      "REDMI",
+      "手机市场"
+    ],
+    "source": "IT之家",
+    "time": "3分钟前",
+    "ts": "2026-07-06T15:24:32+00:00",
+    "url": "https://www.ithome.com/0/973/301.htm",
+    "image": "https://img.ithome.com/newsuploadfiles/2026/7/276643a1-a563-4335-b06d-ca0261c1aa68.jpg?x-bce-process=image/format,f_auto",
+    "stocks": [
+      {
+        "name": "小米集团",
+        "ticker": "1810.HK",
+        "reason": "REDMI Turbo 5系列销量突破200万台，直接带动小米手机业务营收与市场份额提升",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "01e02031e105120f",
+    "title": "Reddit用LLM反击AI生成的垃圾信息",
+    "summary": "Reddit正部署大型语言模型来识别并清理主要由AI生成的垃圾内容，以应对AI时代平台内容治理的新挑战。",
+    "body": "据TechCrunch报道，随着AI生成内容泛滥，社交平台正面临越来越严重的垃圾信息问题。Reddit选择以大型语言模型（LLM）对抗LLM，利用AI工具识别和清理AI生成的垃圾帖子与评论。\n\n这一举措反映了AI时代平台治理的范式转变：当生成式AI大幅降低垃圾内容生产成本时，平台也不得不借助同类技术进行防御。对Reddit而言，有效的内容审核不仅关乎用户体验，也影响其社区价值和广告生态。\n\n更广泛地看，这一趋势意味着内容平台可能都需要引入AI驱动的审核系统，以应对AI生成内容带来的规模化挑战。",
+    "category": "人工智能",
+    "tags": [
+      "Reddit",
+      "AI生成内容",
+      "内容审核",
+      "平台治理"
+    ],
+    "source": "TechCrunch",
+    "time": "6分钟前",
+    "ts": "2026-07-06T15:22:08+00:00",
+    "url": "https://techcrunch.com/2026/07/06/reddit-is-using-llms-to-solve-a-problem-llms-largely-created/",
+    "image": "",
+    "stocks": [
+      {
+        "name": "Reddit",
+        "ticker": "RDDT",
+        "reason": "公司正将LLM用于平台反垃圾内容治理，直接关联其核心社区与广告业务",
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
+    "id": "3f50c2e21512a2d9",
+    "title": "付费让商店减少烟酒彩票广告初见成效",
+    "summary": "俄亥俄州立大学研究人员称，一项与零售商合作、减少烟草、酒精和彩票营销影响的举措显示出早期前景，或可为全国公共卫生提供一种更有效的保护方式。",
+    "body": "该研究通过向商店付费，限制烟草、酒精和彩票产品的店内广告和展示，以降低其对消费者的诱惑和影响。初步结果表明，这种基于零售端的干预措施有望减少有害产品的营销暴露，并为公共卫生政策提供一种更具成本效益的全国性方案。研究人员指出，与零售商建立伙伴关系可能比单纯依赖法规限制更灵活、更有效。",
+    "category": "生物医药",
+    "tags": [
+      "公共卫生",
+      "零售营销",
+      "烟草管制"
+    ],
+    "source": "MedicalXpress",
+    "time": "8分钟前",
+    "ts": "2026-07-06T11:20:01-04:00",
+    "url": "https://medicalxpress.com/news/2026-07-paying-curb-tobacco-alcohol-lottery.html",
+    "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/city-mart.jpg",
+    "stocks": []
+  },
+  {
+    "id": "09fa01dfcd4e571d",
+    "title": "任天堂2027年将停售欧洲Switch 1",
+    "summary": "因欧盟电池法规要求，任天堂计划于2027年停止在欧洲销售初代Switch，以符合新的可持续与可拆卸电池规范。",
+    "body": "据Engadget报道，任天堂为遵守欧盟电池法规，将于2027年停止在欧洲市场销售初代Switch。新规对电子设备的电池设计、可更换性和回收提出更高要求，旧款产品难以合规，因此选择退市。此举意味着Switch 1将逐步退出欧洲主流渠道，任天堂将更倚重Switch 2等后续硬件的销售表现。",
+    "category": "消费电子",
+    "tags": [
+      "任天堂",
+      "Switch",
+      "欧盟电池法规",
+      "游戏硬件"
+    ],
+    "source": "Engadget",
+    "time": "10分钟前",
+    "ts": "2026-07-06T15:17:30+00:00",
+    "url": "https://www.engadget.com/2208587/nintendo-will-stop-selling-the-switch-1-in-europe-in-2027/",
+    "image": "https://www.engadget.com/img/gallery/nintendo-will-stop-selling-the-switch-1-in-europe-in-2027/l-intro-1783350980.jpg",
+    "stocks": []
+  },
+  {
+    "id": "69ed47f76de2b4b4",
+    "title": "中日探测器周末接连飞掠小行星",
+    "summary": "上周末，日本老化的隼鸟2号探测器成功飞掠花生状小行星Torifune，中国天问二号也抵达目标小行星，计划明年年底采样返回地球。",
+    "body": "在美国庆祝独立日的这个周末，日本和中国的深空探测器先后带来小行星探测新进展。日本宇宙航空研究开发机构的隼鸟2号在完成主任务多年后，借助扩展任务飞掠了形状酷似花生的小行星Torifune，展示了长寿命探测器的持续科研价值。\n\n几乎在同一时段，中国国家航天局发布了天问二号抵达目标小行星的图像。该探测器已飞行约10亿公里，接下来将尝试在小行星表面采样，并计划于明年年底将样品送回地球。这两次任务反映出亚洲在深空探测与近地天体研究领域的实力持续提升，也为人类了解太阳系起源积累了宝贵数据。",
+    "category": "商业航天",
+    "tags": [
+      "小行星探测",
+      "隼鸟2号",
+      "天问二号",
+      "深空探测"
+    ],
+    "source": "Ars Technica",
+    "time": "12分钟前",
+    "ts": "2026-07-06T15:15:30+00:00",
+    "url": "https://arstechnica.com/space/2026/07/there-were-not-one-but-two-asteroid-encounters-this-weekend/",
+    "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/07/20260706-3-01-1152x648.png",
+    "stocks": []
+  },
+  {
     "id": "b0b0514e1e37249d",
     "title": "DJI Osmo Pocket 3 平替 Xtra Muse 降至329美元",
     "summary": "便携云台相机 DJI Osmo Pocket 3 近期在多家零售商降价至 378 美元，而外观与功能相近的 Xtra Muse 现仅售 329 美元，性价比更为突出。",
@@ -437,6 +571,24 @@ const newsData = [
         "confidence": "medium"
       }
     ]
+  },
+  {
+    "id": "cd0115cda2840935",
+    "title": "英国监管机构警告金融业AI应用催生监管\"军备竞赛\"",
+    "summary": "英国金融行为监管局（FCA）高管警告，随着数百万人使用人工智能辅助个人理财决策，监管机构正面临一场追赶金融业AI应用的\"军备竞赛\"，并需要更大权限监管ChatGPT、Claude、Gemini等大型语言模型的使用。",
+    "body": "英国金融行为监管局（FCA）执行董事谢尔登·米尔斯警告称，随着数百万人使用人工智能技术做出个人理财决策，监管机构正面临一场追赶金融业AI应用的\"军备竞赛\"。他在接受《金融时报》采访时表示，监管机构需要更大权限来应对AI在金融领域的快速增长，并呼吁英国当局重新审视ChatGPT、Claude、Gemini等大型语言模型的使用是否应纳入监管规则。\n\n米尔斯在其撰写的FCA委托报告发布前指出，金融监管者必须主动采用AI技术，以跟上AI给行业带来的\"速度、节奏和规模\"变化，并更有效地\"监测、发现和应对风险\"。这一表态凸显出监管机构在鼓励金融创新与防范新型技术风险之间寻求平衡的压力，也可能影响未来AI在金融服务领域的合规边界与落地节奏。",
+    "category": "人工智能",
+    "tags": [
+      "金融监管",
+      "大语言模型",
+      "AI风险"
+    ],
+    "source": "Ars Technica",
+    "time": "1小时前",
+    "ts": "2026-07-06T14:17:42+00:00",
+    "url": "https://arstechnica.com/ai/2026/07/uk-regulator-warns-of-arms-race-to-keep-up-with-ai-use-in-financial-services/",
+    "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/07/ftcms_90ad2b22-0222-4d93-ab0a-6c1af73b39fc-1-1152x648.jpeg",
+    "stocks": []
   },
   {
     "id": "5ecf83dc2d7e82dd",
