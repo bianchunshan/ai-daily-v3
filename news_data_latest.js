@@ -1,5 +1,50 @@
 const newsData = [
   {
+    "id": "5b250ec460690ce2",
+    "title": "Valve工程师详解Steam Machine：1049美元定价与设计挑战",
+    "summary": "Valve工程师在采访中谈及Steam Machine 1049美元起售价、紧凑设计、零部件短缺及Windows支持等问题，未对市场反应作出明确预测。",
+    "body": "Valve工程师Pierre-Loup Griffais与Yazan Aldehayyat在接受Tom's Hardware采访时，围绕新款Steam Machine展开讨论。这款紧凑型SteamOS PC在美国市场512GB版本起售价为1049美元，工程师坦言难以预测市场对该定价的反应，因为消费者对于高价游戏PC的价值判断因人而异。\n\n采访还涉及产品设计历程、零部件供应短缺带来的挑战，以及Windows系统支持等话题。Valve表示，原始设计方案基于大约两年前的内存与存储价格，而供应链环境的变化给最终定价和成本构成带来了压力。\n\nSteam Machine代表了Valve在客厅游戏PC领域的最新尝试，其市场表现将取决于玩家对SteamOS生态与整机价值的认可度，同时也反映出全球半导体供应链波动对消费电子定价的持续影响。",
+    "category": "消费电子",
+    "tags": [
+      "Steam Machine",
+      "Valve",
+      "游戏PC",
+      "SteamOS"
+    ],
+    "source": "Tom's Hardware",
+    "time": "5分钟前",
+    "ts": "2026-07-06T11:32:00+00:00",
+    "url": "https://www.tomshardware.com/video-games/steam-machine-interview-full-transcript-valve-engineers-discuss-usd1-049-pricing-compact-design-component-shortages-and-windows-support",
+    "image": "https://cdn.mos.cms.futurecdn.net/zsmz9cC6yRWVFB7BoFuEYY-1280-80.jpg",
+    "stocks": []
+  },
+  {
+    "id": "5b34a77027bea4f8",
+    "title": "宾利推出首款纯电SUV Torcal，续航约300英里",
+    "summary": "宾利发布全新纯电动SUV车型Torcal，续航里程约300英里，将于今年9月交付。此举标志着这家英国超豪华品牌正式进入电动化阶段。",
+    "body": "据Wired报道，宾利首款量产纯电动汽车Torcal预计于今年9月上市，单次充电续航里程约300英里。该车型被定位为超豪华电动SUV，是宾利电动化战略的重要开端。在此之前，法拉利、保时捷和梅赛德斯-奔驰等竞争对手已陆续推出或预告电动车型，宾利此时入局将面临激烈的市场考验。\n\nTorcal的定价、完整配置及具体交付安排尚未全面披露，但其亮相意味着传统超豪华品牌正在加速向电动化转型。对于宾利而言，这不仅是一次产品线的扩展，也关乎其能否在高端电动车市场建立品牌认知。同时，该车型的推出也可能对母公司大众汽车集团的豪华电动化布局产生一定影响。",
+    "category": "未来能源",
+    "tags": [
+      "宾利",
+      "电动汽车",
+      "豪华车",
+      "大众集团"
+    ],
+    "source": "Wired",
+    "time": "7分钟前",
+    "ts": "2026-07-06T11:30:00+00:00",
+    "url": "https://www.wired.com/story/bentley-reveals-its-first-electric-car-amid-the-wreckage-of-the-luxury-ev-market/",
+    "image": "https://media.wired.com/photos/6a4680acadcc41d8f6434aee/master/pass/Bentley%20Torcal.jpg",
+    "stocks": [
+      {
+        "name": "大众汽车集团",
+        "ticker": "VWAGY",
+        "reason": "宾利为大众集团旗下超豪华品牌，Torcal上市有助于其在超豪华电动市场占位",
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
     "id": "c5b7576c6c4304f7",
     "title": "彩虹股份拟19.16亿元收购虹阳显示33.42%股权",
     "summary": "彩虹股份公告称，公司拟以自筹资金19.16亿元收购控股子公司虹阳显示少数股东所持33.42%股权；收购完成后，公司对虹阳显示的持股比例将由62.4%提升至95.82%。",
