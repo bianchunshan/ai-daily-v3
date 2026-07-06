@@ -1,5 +1,68 @@
 const newsData = [
   {
+    "id": "0b7d1362cdc713c7",
+    "title": "日本计划2040年部署1000万台AI机器人应对劳动力短缺",
+    "summary": "日本经济产业省6月30日发布修订版《人工智能机器人战略》，目标到2040年在18个领域部署1000万台AI机器人，以缓解老龄化与少子化带来的整体劳动力短缺；未来五年将向软银、NEC、本田、索尼等共同创立的Noetra提供约1万亿日元，用于开发多模态AI机器人基础模型。",
+    "body": "日本经济产业省当地时间6月30日公布了修订后的《人工智能机器人战略》，提出到2040年在18个领域部署1000万台AI机器人，以应对人口老龄化和出生率下降导致的整体劳动力短缺。该战略还提出在全球范围内构建和发展能够充分发挥日本优势的“物理AI”与机器人数据基础设施。\n\n在驱动AI机器人的模型层面，日本经产省计划在未来5年内向由软银、NEC、本田、索尼等共同创立的Noetra提供合计约1万亿日元资金支持，用于多模态平台开发，其中2026财年财政拨款约3873亿日元。此举有望加速日本AI机器人产业链和具身智能技术的发展，并对全球机器人竞争格局产生影响。",
+    "category": "机器人",
+    "tags": [
+      "AI机器人",
+      "具身智能",
+      "日本产业政策",
+      "劳动力短缺"
+    ],
+    "source": "IT之家",
+    "time": "刚刚",
+    "ts": "2026-07-06T01:07:30+00:00",
+    "url": "https://www.ithome.com/0/972/895.htm",
+    "image": "https://img.ithome.com/newsuploadfiles/2026/7/a55b8ea7-d6d7-4b94-9bbf-eda000b1032b.jpg?x-bce-process=image/format,f_auto",
+    "stocks": [
+      {
+        "name": "软银集团",
+        "ticker": "9984.T",
+        "reason": "作为Noetra创始成员之一，直接获得政府万亿日元级AI机器人基础模型 funding 支持",
+        "confidence": "high"
+      },
+      {
+        "name": "日本电气",
+        "ticker": "6701.T",
+        "reason": "参与创立Noetra，受益于日本AI机器人多模态平台开发与产业扩张",
+        "confidence": "high"
+      },
+      {
+        "name": "本田汽车",
+        "ticker": "7267.T",
+        "reason": "共同创立Noetra，有望借助政策支持加速机器人与具身智能应用落地",
+        "confidence": "high"
+      },
+      {
+        "name": "索尼集团",
+        "ticker": "6758.T",
+        "reason": "作为Noetra创始成员，将在日本AI机器人战略中分享模型研发与场景落地红利",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "1f1dbe92d3e79e48",
+    "title": "OPPO Bubble自拍屏iPhone版首销，首发价469元",
+    "summary": "IT之家7月6日消息，OPPO Bubble潮玩自拍屏iPhone版本于当天10点在京东开启首销，定价499元，首发价469元。",
+    "body": "OPPO Bubble潮玩自拍屏iPhone版支持iPhone X及以上机型，系统需升级至iOS 15.0及以上。该产品采用磁吸设计，支持十米远控出片，并可搭配个性化保护壳作为包挂或手机配饰；同时支持动图/静图壁纸切换，内置550mAh电池。\n\n此次OPPO将旗下潮玩自拍屏产品扩展至苹果iPhone生态，是其 accessories 产品线跨品牌布局的一次尝试，有望借助iPhone用户基础拓宽自拍屏等创意配件的市场覆盖，也反映出消费电子市场中跨平台配件需求的增长趋势。",
+    "category": "消费电子",
+    "tags": [
+      "OPPO",
+      "自拍屏",
+      "iPhone配件",
+      "消费电子"
+    ],
+    "source": "IT之家",
+    "time": "7分钟前",
+    "ts": "2026-07-06T01:00:13+00:00",
+    "url": "https://www.ithome.com/0/972/893.htm",
+    "image": "https://img14.360buyimg.com/pop/jfs/t1/462343/13/8247/39230/6a3cc6a9Fad7d8611/0083320320962e74.png",
+    "stocks": []
+  },
+  {
     "id": "4d1ebac89fa28b48",
     "title": "韩国6月出口大超预期 亚洲AI供应链持续受益",
     "summary": "华泰证券研报指出，AI产业链出口高景气推动韩国6月出口大超预期并创历史新高顺差，预示全球AI链贸易仍在上行通道。",
@@ -373,6 +436,24 @@ const newsData = [
     "time": "刚刚",
     "ts": "2026-07-05T23:57:32.563529+00:00",
     "url": "https://36kr.com/newsflashes/3883389371904004?f=rss",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "2a19dd457d0113ae",
+    "title": "构建不会自我崩溃的AI智能体",
+    "summary": "Hacker News上的一篇文章关注AI智能体的可靠性问题，探讨如何设计不会在运行中“自我破坏”的智能体系统。",
+    "body": "据外媒Hacker News报道，一篇题为《Building Agents That Don't Break Themselves》的文章聚焦于人工智能智能体的稳健性设计。文章意在探讨如何避免AI智能体在执行任务过程中因错误反馈、循环决策或不当行动而“自我破坏”。这一议题对提升自主代理系统的安全性与可用性具有重要意义，尤其是在AI Agent逐步落地的背景下。",
+    "category": "人工智能",
+    "tags": [
+      "AI智能体",
+      "人工智能",
+      "AI可靠性"
+    ],
+    "source": "Hacker News",
+    "time": "1小时前",
+    "ts": "2026-07-05T23:54:43+00:00",
+    "url": "https://fly.io/blog/building-agents-that-dont-break-themselves/",
     "image": "",
     "stocks": []
   },
