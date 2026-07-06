@@ -1,5 +1,76 @@
 const newsData = [
   {
+    "id": "fc6200c2bcec8f5a",
+    "title": "闪迪推出520/320两款SATA固态硬盘，最高4TB",
+    "summary": "闪迪正式发布两款SATA固态硬盘新品SANDISK 520和SANDISK 320，均采用2.5英寸7mm规格与3D NAND闪存，最高容量达4TB，分别面向专业用户和机械硬盘升级市场。",
+    "body": "闪迪（Sandisk）近日正式推出SANDISK 520 SATA SSD与SANDISK 320 SATA SSD两款固态硬盘。两款产品均采用2.5英寸7mm外形规格，搭载闪迪3D NAND闪存，未配备外置DRAM缓存。\n520系列面向IT专业人士、内容创作者和专业消费者，提供500GB、1TB、2TB与4TB容量，顺序读取最高560MB/s，顺序写入最高525MB/s，随机读写性能随容量递增，享有5年有限质保。320系列则定位从机械硬盘升级的用户，提供250GB至2TB容量，各版本顺序读取统一最高545MB/s，质保为3年。\n此次新品发布进一步完善了闪迪在消费级SATA存储市场的产品布局，有助于覆盖不同需求的用户群体并强化其在个人存储领域的竞争力。",
+    "category": "消费电子",
+    "tags": [
+      "闪迪",
+      "固态硬盘",
+      "存储",
+      "消费电子"
+    ],
+    "source": "IT之家",
+    "time": "3分钟前",
+    "ts": "2026-07-06T13:44:14+00:00",
+    "url": "https://www.ithome.com/0/973/277.htm",
+    "image": "https://img.ithome.com/newsuploadfiles/2026/7/510faabc-a9f9-4fed-a48e-cda69483a572.jpg?x-bce-process=image/format,f_auto",
+    "stocks": [
+      {
+        "name": "闪迪",
+        "ticker": "SNDK",
+        "reason": "公司为本系列产品制造商，新品发布有助于扩大消费级存储市场份额",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "0b5046d0c59e5a4b",
+    "title": "思锐发布三款全画幅电影镜头，套装12899元",
+    "summary": "思锐光学发布15mm T1.6、75mm T1.4与150mm T4三支全画幅定焦电影镜头，单支售价4399元，套装12899元，面向专业视频创作市场。",
+    "body": "7月6日，思锐光学推出15mm T1.6、75mm T1.4、150mm T4三款全画幅定焦电影镜头，单支售价4399元，三支套装12899元。该系列原生E卡口，并标配L/RF/Z卡口置换模组；其中150mm T4具备1.5倍微距能力，最近对焦距离0.29m。镜头采用铝合金镜身、非球面镜片、ED镜片及HRI高折射镜片，并搭载高清纳米多层镀膜，宣称可有效抑制眩光与鬼影，15mm和75mm镜头在焦点切换时呼吸效应极小。此次新品进一步丰富了国产专业电影镜头产品线，对独立制片人和短视频创作者具有一定吸引力。",
+    "category": "消费电子",
+    "tags": [
+      "思锐",
+      "电影镜头",
+      "摄影器材",
+      "消费电子"
+    ],
+    "source": "IT之家",
+    "time": "8分钟前",
+    "ts": "2026-07-06T13:39:18+00:00",
+    "url": "https://www.ithome.com/0/973/276.htm",
+    "image": "https://img.ithome.com/newsuploadfiles/2026/7/c89ade38-27f8-41fa-b13f-aa638640aede.jpg?x-bce-process=image/format,f_auto",
+    "stocks": []
+  },
+  {
+    "id": "56f267de9a3b2824",
+    "title": "长城阿基米德KM18侧透机箱上市：支持背插主板与360水冷",
+    "summary": "IT之家消息，长城阿基米德KM18侧透机箱已上架京东，售价179元；该机箱支持MicroATX/ITX背插主板、360水冷与多达10把120mm风扇。",
+    "body": "长城阿基米德KM18机箱整体尺寸为480×245×382mm，可容纳MicroATX/ITX主板并支持主板背插设计。该机箱采用侧透外观，顶部和正面设大面积网孔，前置I/O提供USB-A 2.0、USB-A 3.0及USB-C 10Gbps接口；显卡限长430mm，CPU散热器限高160mm，最多可容纳1块2.5英寸硬盘加1块3.5英寸硬盘。\n\n散热方面，该机箱最多可安装10把120mm风扇，其中顶部支持360水冷，后部支持120水冷，底部与前面亦可安装多把风扇。作为一款定价179元的中低端机箱，阿基米德KM18在支持背插主板、360水冷等主流功能的同时，进一步丰富了长城在DIY消费级市场的产品线。",
+    "category": "消费电子",
+    "tags": [
+      "电脑机箱",
+      "背插主板",
+      "360水冷",
+      "长城"
+    ],
+    "source": "IT之家",
+    "time": "9分钟前",
+    "ts": "2026-07-06T13:38:01+00:00",
+    "url": "https://www.ithome.com/0/973/275.htm",
+    "image": "https://img.ithome.com/newsuploadfiles/2026/7/e653b102-eb0a-4ba0-80cc-c9aec469b826.png",
+    "stocks": [
+      {
+        "name": "中国长城",
+        "ticker": "000066.SZ",
+        "reason": "长城品牌个人电脑及配件业务推出该机箱，可视为其消费电子产品的常规更新",
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
     "id": "8d8c46e0d82618b3",
     "title": "英伟达Rubin Ultra机架推迟至2028年，过渡方案取消",
     "summary": "据SemiAnalysis消息，英伟达面向Rubin Ultra GPU的Kyber NVL144整机机架因PCB中板制造难题，出货时间将从2027年推迟至2028年；原定的NVL72x2过渡方案也因客户反对被取消，2027年暂无成熟方案扩展Rubin Ultra的scale-up规模。",
@@ -64,6 +135,25 @@ const newsData = [
     "stocks": []
   },
   {
+    "id": "6d8f4942f5babde4",
+    "title": "LLM的均值回归：论“新事物”的悄然消亡",
+    "summary": "该文章从LLM技术出发，讨论生成式AI是否正使创新趋于平庸，引发对“新事物”逐渐消亡的反思。",
+    "body": "这篇源自Hacker News的文章以《Regression to the Mean: on LLMs and the quiet death of the new》为题，围绕大型语言模型展开讨论。文章标题暗示，LLM通过统计意义上的模式复现生成内容，可能正在将创意与表达拉向“平均值”，从而削弱真正的新颖性与突破性。作者借此反思，当生成式AI日益主导信息生产时，“新”的定义与价值或将面临被稀释的风险。",
+    "category": "人工智能",
+    "tags": [
+      "大语言模型",
+      "生成式AI",
+      "技术创新",
+      "人工智能伦理"
+    ],
+    "source": "Hacker News",
+    "time": "26分钟前",
+    "ts": "2026-07-06T13:20:59+00:00",
+    "url": "https://rruxandra.github.io/regression-to-the-mean.html",
+    "image": "",
+    "stocks": []
+  },
+  {
     "id": "473be7286fe6abcd",
     "title": "气道细胞而非免疫细胞触发硅肺病：致命疾病机制获新解",
     "summary": "一项新研究揭示，硅肺病由气道细胞触发，而非此前认为的免疫细胞。这一发现为理解矽肺病发病机制提供了全新视角，并可能推动未来治疗策略的转向。",
@@ -80,6 +170,25 @@ const newsData = [
     "ts": "2026-07-06T09:20:01-04:00",
     "url": "https://medicalxpress.com/news/2026-07-airway-cells-immune-trigger-silicosis.html",
     "image": "https://scx1.b-cdn.net/csz/news/tmb/2024/lung.jpg",
+    "stocks": []
+  },
+  {
+    "id": "b990e20a7c8b6af5",
+    "title": "Show HN项目：扫描AI Agent的危险能力",
+    "summary": "Hacker News上出现一项新项目，旨在扫描AI智能体（AI agents）可能具备的潜在危险能力，以识别和防范安全风险。",
+    "body": "该Show HN项目提供针对AI agents的危险能力扫描工具，帮助开发者和安全人员检测智能体在执行任务时可能表现出的有害、失控或被滥用的能力。这类工具与大模型安全评估、红队测试（red teaming）方向一致，意在提升AI系统的可控性和安全性。项目的出现反映了业界对AI agent自主决策风险的关注，相关能力若成熟，有望在企业级AI安全、合规审计和模型评测领域发挥作用。",
+    "category": "人工智能",
+    "tags": [
+      "AI Agent",
+      "AI安全",
+      "大模型评测",
+      "网络安全"
+    ],
+    "source": "Hacker News",
+    "time": "30分钟前",
+    "ts": "2026-07-06T13:17:27+00:00",
+    "url": "https://github.com/makerchecker/MakerChecker",
+    "image": "",
     "stocks": []
   },
   {
@@ -541,6 +650,24 @@ const newsData = [
         "confidence": "high"
       }
     ]
+  },
+  {
+    "id": "f87ea7ebe0c8e204",
+    "title": "Anthropic 被指几步之内败光用户好感",
+    "summary": "Hacker News 上出现一篇题为《Anthropic's Method to Losing Goodwill in a Few Easy Steps》的讨论，指 Anthropic 近期的一些做法正在快速消耗其积累的行业好感与用户信任。",
+    "body": "该内容源自 Hacker News，标题为《Anthropic's Method to Losing Goodwill in a Few Easy Steps》，获得 29 点投票和 3 条评论，直接批评 Anthropic 正以若干简单步骤迅速失去用户与开发者的好感。\n\nAnthropic 是全球知名的人工智能公司，以 Claude 系列大模型和 AI 安全研究著称。此类批评帖出现在技术社区，反映出部分用户或开发者对其近期产品策略、沟通方式或规则调整存在不满。\n\n不过，目前可依据的材料仅限于标题与 Hacker News 的元数据，具体争议细节、涉及的产品改动以及对 Anthropic 品牌声誉的实际影响仍有待进一步核实。",
+    "category": "人工智能",
+    "tags": [
+      "Anthropic",
+      "人工智能",
+      "企业声誉"
+    ],
+    "source": "Hacker News",
+    "time": "1小时前",
+    "ts": "2026-07-06T12:37:06+00:00",
+    "url": "https://raheeljunaid.com/blog/anthropics-method-to-losing-goodwill-in-a-few-easy-steps/",
+    "image": "",
+    "stocks": []
   },
   {
     "id": "1b1b0105b376aadf",
