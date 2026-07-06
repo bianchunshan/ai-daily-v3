@@ -1,5 +1,198 @@
 const newsData = [
   {
+    "id": "6bc34c933388ece2",
+    "title": "苹果推送 watchOS 26.6 开发者预览版 Beta 4",
+    "summary": "苹果于 7 月 7 日向 Apple Watch 用户推送了 watchOS 26.6 开发者预览版 Beta 4 更新，内部版本号为 23U5054b，距离上次 Beta/RC 发布间隔 7 天。",
+    "body": "IT之家报道，苹果今日向 Apple Watch 用户推送 watchOS 26.6 开发者预览版 Beta 4 更新（内部版本号 23U5054b）。用户如需升级开发预览版，需先注册苹果开发者计划，随后在设置中完成更新；公开测试版则需通过 Apple Beta 版软件计划注册。此次更新属于常规迭代，IT之家表示稍后将为用户带来具体的更新内容说明。作为苹果可穿戴生态的重要软件更新，watchOS 的持续推进有助于维持 Apple Watch 用户体验和生态活跃度。",
+    "category": "消费电子",
+    "tags": [
+      "苹果",
+      "watchOS",
+      "智能手表",
+      "软件更新"
+    ],
+    "source": "IT之家",
+    "time": "刚刚",
+    "ts": "2026-07-06T17:30:16+00:00",
+    "url": "https://www.ithome.com/0/973/313.htm",
+    "image": "https://img.ithome.com/newsuploadfiles/2025/12/1a5f474f-41a2-4962-a5a9-6b3780e56fde.jpg?x-bce-process=image/watermark,image_aW1nL3dhdGVybWFyay9xdy9xdzEzOC5wbmc=,g_7,x_14,y_14,a_0,t_100",
+    "stocks": [
+      {
+        "name": "苹果公司",
+        "ticker": "AAPL",
+        "reason": "watchOS 是 Apple Watch 核心系统更新，直接利好其可穿戴硬件生态与销售粘性。",
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
+    "id": "4f51156adc5e70d4",
+    "title": "苹果推送macOS 26.6开发者预览版Beta 4",
+    "summary": "苹果向Mac用户发布macOS 26.6开发者预览版Beta 4更新，内部版本号为25G5057c，距上次Beta/RC发布间隔7天。",
+    "body": "7月7日，苹果向Mac电脑用户推送了macOS 26.6开发者预览版Beta 4更新，内部版本号为25G5057c，距离上一次Beta或RC版本发布仅间隔7天。用户如需升级至公开测试版，需先注册Apple Beta版软件计划；如需升级开发预览版，则需登录并注册苹果开发者计划，随后通过系统设置中的软件更新入口完成升级。\n\n此次更新属于苹果年度macOS版本迭代的常规测试节奏，目前IT之家尚未公布Beta 4的具体功能更新内容。macOS作为苹果Mac生态的核心操作系统，其测试版推进节奏关系到后续正式版的稳定性与功能交付，也反映了苹果在桌面端软件持续迭代上的投入。",
+    "category": "消费电子",
+    "tags": [
+      "苹果",
+      "macOS",
+      "软件更新",
+      "开发者预览版"
+    ],
+    "source": "IT之家",
+    "time": "刚刚",
+    "ts": "2026-07-06T17:30:13+00:00",
+    "url": "https://www.ithome.com/0/973/311.htm",
+    "image": "https://img.ithome.com/newsuploadfiles/2025/12/a7f18aa0-8a31-4d67-965a-febba272993f.jpg?x-bce-process=image/watermark,image_aW1nL3dhdGVybWFyay9xdy9xdzEzOC5wbmc=,g_7,x_14,y_14,a_0,t_100",
+    "stocks": [
+      {
+        "name": "苹果公司",
+        "ticker": "AAPL",
+        "reason": "macOS 26.6为苹果自有Mac操作系统更新，直接利好其Mac硬件与软件生态",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "6060e39e6755429a",
+    "title": "苹果推送 iOS/iPadOS 26.6 开发者预览版 Beta 4",
+    "summary": "苹果向 iPhone 和 iPad 用户推送了 iOS/iPadOS 26.6 开发者预览版 Beta 4 更新，内部版本号为 23G5057c。此次更新距上次 Beta 发布仅间隔 7 天，属于常规迭代。",
+    "body": "7 月 7 日，苹果向开发者通道推送 iOS/iPadOS 26.6 开发者预览版 Beta 4，内部版本号 23G5057c，用户可通过 Apple Beta 版软件计划或苹果开发者计划注册后升级。IT之家表示将稍后带来具体更新内容。\n\n从目前信息看，这次更新主要是 iOS 26 系列发布周期中的一次快速迭代，距离上个 Beta/RC 版本仅 7 天，未发现重大功能说明或安全公告。对于普通用户而言，仍可等待正式版或公开测试版。",
+    "category": "消费电子",
+    "tags": [
+      "苹果",
+      "iOS",
+      "开发者预览版",
+      "Beta更新"
+    ],
+    "source": "IT之家",
+    "time": "刚刚",
+    "ts": "2026-07-06T17:30:13+00:00",
+    "url": "https://www.ithome.com/0/973/310.htm",
+    "image": "https://img.ithome.com/newsuploadfiles/2025/12/d0e15ea8-5fc4-406b-a093-9f0f02aee587.jpg?x-bce-process=image/watermark,image_aW1nL3dhdGVybWFyay9xdy9xdzEzOC5wbmc=,g_7,x_14,y_14,a_0,t_100",
+    "stocks": []
+  },
+  {
+    "id": "67807e9a0e6aff7b",
+    "title": "苹果发布 watchOS 27.0 开发者预览版 Beta 3",
+    "summary": "苹果向 Apple Watch 用户推送 watchOS 27.0 开发者预览版 Beta 3 更新，内部版本号为 24R5315i，距上次 Beta/RC 发布仅间隔 12 天。",
+    "body": "7 月 7 日，苹果面向 Apple Watch 用户发布了 watchOS 27.0 开发者预览版 Beta 3，内部版本号为 24R5315i。这是继上版本发布 12 天后的又一次迭代更新，目前 IT之家尚未公布该版本的具体更新内容。\n\n作为一款面向可穿戴设备的新一代系统测试版本，watchOS 27.0 的持续推进意味着苹果在为 Apple Watch 的下一代软件生态做准备。开发者预览版通常用于提前测试兼容性与新功能，最终的正式版有望为消费者带来更稳定的体验，并进一步巩固苹果在智能手表市场的软件优势。",
+    "category": "消费电子",
+    "tags": [
+      "消费电子",
+      "智能手表",
+      "苹果",
+      "watchOS"
+    ],
+    "source": "IT之家",
+    "time": "刚刚",
+    "ts": "2026-07-06T17:30:13+00:00",
+    "url": "https://www.ithome.com/0/973/309.htm",
+    "image": "https://img.ithome.com/newsuploadfiles/2022/4/8bd386fb-ecc7-474d-bd95-4c69ba122e7a.jpg?x-bce-process=image/watermark,image_aW1nL3dhdGVybWFyay9xdy9xdzEzOC5wbmc=,g_7,x_14,y_14,a_0,t_100",
+    "stocks": [
+      {
+        "name": "苹果公司",
+        "ticker": "AAPL",
+        "reason": "watchOS 27.0 更新直接服务于 Apple Watch 软件生态，利好硬件粘性及产品体验。",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "13a6146192212686",
+    "title": "苹果发布 visionOS 27.0 开发者预览版 Beta 3",
+    "summary": "苹果向 Vision Pro 用户推送 visionOS 27.0 开发者预览版 Beta 3，内部版本号为 24M5316k，距上一测试版发布约两周。",
+    "body": "IT之家 7 月 7 日消息，苹果今日向 Vision Pro 用户推送了 visionOS 27.0 开发者预览版 Beta 3 更新，内部版本号为 24M5316k。本次更新距离上次 Beta/RC 发布间隔 14 天，部分区域因服务器缓存原因可能略有延迟。作为苹果空间计算平台的重要软件迭代，visionOS 的持续更新有助于完善 Vision Pro 生态体验，并提振市场对苹果 XR 产品线的关注。",
+    "category": "消费电子",
+    "tags": [
+      "visionOS",
+      "Vision Pro",
+      "苹果",
+      "XR"
+    ],
+    "source": "IT之家",
+    "time": "刚刚",
+    "ts": "2026-07-06T17:30:12+00:00",
+    "url": "https://www.ithome.com/0/973/308.htm",
+    "image": "https://img.ithome.com/newsuploadfiles/2024/2/0a176a39-e916-49c8-ba8b-1241019bd125.jpg?x-bce-process=image/format,f_auto",
+    "stocks": [
+      {
+        "name": "苹果公司",
+        "ticker": "AAPL",
+        "reason": "visionOS 更新直接服务于苹果 Vision Pro 生态，强化其空间计算产品竞争力。",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "b02b12b99c8332f0",
+    "title": "苹果推送 macOS 27.0 开发者预览版 Beta 3",
+    "summary": "苹果向 Mac 用户发布 macOS 27.0 开发者预览版 Beta 3 更新，内部版本号为 26A5378j，距上次 Beta/RC 发布间隔 14 天。用户可通过 Apple Beta 版软件计划或苹果开发者计划升级。",
+    "body": "7 月 7 日消息，苹果今日向 Mac 电脑用户推送了 macOS 27.0 开发者预览版 Beta 3 更新，内部版本号为 26A5378j。这是继 6 月 23 日 Beta 2 与 6 月 9 日首个 Beta 之后的又一次测试版迭代。\n\n公开测试版用户需注册 Apple Beta 版软件计划，开发预览版用户则需加入苹果开发者计划，均可在系统设置的“软件更新”中获取。IT之家表示将由机器人先行发布，稍后将带来具体更新内容。",
+    "category": "消费电子",
+    "tags": [
+      "苹果",
+      "macOS",
+      "操作系统",
+      "开发者预览版"
+    ],
+    "source": "IT之家",
+    "time": "刚刚",
+    "ts": "2026-07-06T17:30:12+00:00",
+    "url": "https://www.ithome.com/0/973/307.htm",
+    "image": "https://img.ithome.com/newsuploadfiles/2022/4/43319a24-e228-40a9-9047-44c5a77893d4.jpg?x-bce-process=image/watermark,image_aW1nL3dhdGVybWFyay9xdy9xdzEzOC5wbmc=,g_7,x_14,y_14,a_0,t_100",
+    "stocks": [
+      {
+        "name": "苹果公司",
+        "ticker": "AAPL",
+        "reason": "苹果是 macOS 27 的发布方，Beta 更新体现其 Mac 软件生态迭代节奏",
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
+    "id": "498132555417bb21",
+    "title": "苹果推送iOS/iPadOS 27开发者预览版Beta 3",
+    "summary": "苹果向iPhone和iPad用户推送iOS/iPadOS 27.0开发者预览版Beta 3更新，内部版本号为24A5380h，距上次Beta发布间隔14天。",
+    "body": "7月7日消息，苹果已向iPhone和iPad用户推送iOS/iPadOS 27.0开发者预览版Beta 3，内部版本号为24A5380h。本次版本是iOS 27迭代周期中的又一次测试更新，用户可通过注册苹果开发者计划或Apple Beta版软件计划获取。\n\n作为面向开发者和尝鲜用户的预览版本，Beta 3的持续发布有助于苹果完善系统稳定性与功能细节，推动生态体验的持续升级。相关正式版的最终功能与发布节奏仍有待苹果官方后续公布。",
+    "category": "消费电子",
+    "tags": [
+      "苹果",
+      "iOS",
+      "系统更新"
+    ],
+    "source": "IT之家",
+    "time": "刚刚",
+    "ts": "2026-07-06T17:30:11+00:00",
+    "url": "https://www.ithome.com/0/973/306.htm",
+    "image": "https://img.ithome.com/newsuploadfiles/2022/4/415e6b6f-de4b-468d-be0e-b92e95688ee8.jpg?x-bce-process=image/watermark,image_aW1nL3dhdGVybWFyay9xdy9xdzEzOC5wbmc=,g_7,x_14,y_14,a_0,t_100",
+    "stocks": [
+      {
+        "name": "苹果公司",
+        "ticker": "AAPL",
+        "reason": "iOS/iPadOS更新直接影响iPhone与iPad生态体验及用户换机周期",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "49eb153a87fae354",
+    "title": "他汀类药物肌肉疼痛成因机制有新发现",
+    "summary": "麦克马斯特大学研究人员发现了一条可能解释他汀类药物引发肌肉疼痛、无力和运动不耐受的生物通路，为开发耐受性更好且保留心血管疗效的他汀疗法提供了新方向。",
+    "body": "他汀类药物被广泛用于降低胆固醇、减少心梗和卒中风险，但部分患者会出现肌肉疼痛、乏力及运动不耐受等副作用，甚至因此停药。加拿大麦克马斯特大学的研究团队近日揭示了一条与该副作用相关的生物通路，可能解释他汀为何在部分人群中引发肌肉不适。这一发现不仅有助于理解他汀相关肌病的分子机制，也为未来改进他汀治疗方案、降低副作用风险奠定了基础。",
+    "category": "生物医药",
+    "tags": [
+      "生物医药",
+      "他汀",
+      "药物副作用",
+      "心血管疾病"
+    ],
+    "source": "MedicalXpress",
+    "time": "刚刚",
+    "ts": "2026-07-06T13:30:01-04:00",
+    "url": "https://medicalxpress.com/news/2026-07-uncover-muscle-pain-widely-cholesterol.html",
+    "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/muscle-pain.jpg",
+    "stocks": []
+  },
+  {
     "id": "8528ffeccaadad25",
     "title": "生物标志物指导治疗有望提高抑郁症用药有效率",
     "summary": "加州大学欧文分校与麦克莱恩医院的一项新研究显示，基于生物标志物的精准诊疗有望提高抑郁症患者对抗抑郁药的应答率，并减少反复试药带来的负担。",
