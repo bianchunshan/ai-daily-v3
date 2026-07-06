@@ -314,6 +314,44 @@ const newsData = [
     "stocks": []
   },
   {
+    "id": "f1c80935e75897bc",
+    "title": "美最高法院或动摇Flock车牌摄像头帝国",
+    "summary": "Hacker News报道指出，美国最高法院一项最新裁决可能给Flock Safety的车牌识别摄像头业务带来重大法律风险。",
+    "body": "该报道标题称，美国最高法院“点燃了Flock车牌摄像头帝国的导火索”。Flock Safety是一家向美国执法部门提供人工智能车牌识别（ALPR）摄像头的公司，其系统可自动捕捉、记录并追踪车辆信息。这一消息暗示，相关司法裁决可能对无差别公共监控的合法性构成挑战，从而波及以AI驱动的执法监控行业。不过，原文未提供具体案件细节与影响范围。",
+    "category": "人工智能",
+    "tags": [
+      "车牌识别",
+      "AI监控",
+      "隐私",
+      "美国最高法院"
+    ],
+    "source": "Hacker News",
+    "time": "35分钟前",
+    "ts": "2026-07-06T16:58:51+00:00",
+    "url": "https://www.yahoo.com/news/politics/articles/supreme-court-just-lit-fuse-130900307.html",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "f99d93502f2535e5",
+    "title": "OfficeCLI：面向AI智能体的Office文件读写套件",
+    "summary": "OfficeCLI是一款专为AI智能体设计的类Office套件，旨在让AI代理能够读取和编辑Microsoft Office文件。",
+    "body": "据报道，名为OfficeCLI的工具被称作面向AI智能体的Office套件，主要解决AI代理对Microsoft Office格式文件的读取与编辑需求。该工具可让AI Agent直接处理Word、Excel、PowerPoint等常见办公文档，从而提升自动化办公能力。业内人士认为，这类工具进一步拓展了AI Agent在企业办公场景中的应用边界，有望推动AI与办公软件生态的深度融合。",
+    "category": "人工智能",
+    "tags": [
+      "AI Agent",
+      "办公软件",
+      "Microsoft Office",
+      "自动化办公"
+    ],
+    "source": "Hacker News",
+    "time": "46分钟前",
+    "ts": "2026-07-06T16:47:44+00:00",
+    "url": "https://github.com/iOfficeAI/OfficeCLI",
+    "image": "",
+    "stocks": []
+  },
+  {
     "id": "9ad7e9a1aa494ecf",
     "title": "研究发现PARP抑制剂相关严重贫血可治疗原因",
     "summary": "西奈山Tisch癌症中心研究人员发现，部分接受PARP抑制剂治疗的癌症患者出现严重贫血，可能与此前未被充分认识的叶酸缺乏有关。研究提示，常规筛查并补充叶酸有望帮助患者避免输血、住院及癌症治疗中断。",
@@ -612,6 +650,24 @@ const newsData = [
     "stocks": []
   },
   {
+    "id": "05f4d7289526a160",
+    "title": "Hacker News热议：AI超级预测者来了",
+    "summary": "Hacker News上出现一篇标题为“The AI Superforecasters Are Here”的帖子，目前获得6个点赞和1条评论，可能指向人工智能在超级预测领域的新应用。",
+    "body": "该材料仅提供了帖子标题、来源Hacker News以及互动数据（6 points、1条评论），未给出文章正文或具体内容，因此无法判断所涉技术细节与具体影响。\n\n从标题“The AI Superforecasters Are Here”推测，该文可能探讨利用人工智能模型（如大语言模型或智能体）提升复杂事件预测准确性的新进展，即“AI驱动的超级预测”。若相关技术成熟，可能在金融预测、政策研判、情报分析等领域带来新工具或新范式。\n\n由于当前信息极为有限，尚无法确认具体技术路线、实验结果或商业落地情况，也难以评估对相关上市公司的直接影响，需等待原文内容进一步披露后再做判断。",
+    "category": "人工智能",
+    "tags": [
+      "人工智能",
+      "超级预测",
+      "Hacker News"
+    ],
+    "source": "Hacker News",
+    "time": "1小时前",
+    "ts": "2026-07-06T15:45:11+00:00",
+    "url": "https://www.astralcodexten.com/p/the-ai-superforecasters-are-here",
+    "image": "",
+    "stocks": []
+  },
+  {
     "id": "1b6fff3509525fc1",
     "title": "研究显示暴力或使女性提前20个月进入更年期",
     "summary": "西班牙格拉纳达大学一项综述研究发现，女性一生中遭受暴力与更年期提前及更严重症状相关，绝经时间可能提早约20个月。",
@@ -789,6 +845,25 @@ const newsData = [
         "confidence": "high"
       }
     ]
+  },
+  {
+    "id": "60b277f204c4531b",
+    "title": "CS2服务器新增服务端反透视遮挡剔除技术",
+    "summary": "《CS2 Fog Of War》介绍了一种在服务器端运行的反透视（anti-wallhack）遮挡剔除方案，可阻止玩家通过墙体获取敌方位置，提升竞技公平性与反作弊能力。",
+    "body": "该技术名为“Fog Of War”，专为《反恐精英2》（CS2）服务器设计，核心思路是在服务器端进行遮挡剔除（occlusion culling），判断敌方角色是否被墙体等障碍物遮挡，只向客户端发送玩家可见范围内的敌人信息，从而从机制上杜绝传统“穿墙透视”外挂的效果。\n\n与依赖客户端反作弊扫描不同，服务器端方案将关键渲染逻辑置于受控服务端执行，外挂无法通过篡改本地数据获取隐藏敌方位置。这对竞技射击游戏的公平性具有重要意义，也可能为其他多人在线游戏的反作弊架构提供参考。\n\n不过，该方法对服务器算力和网络同步精度提出更高要求，需在安全性、性能与延迟之间取得平衡，其实际落地效果仍有待大规模线上环境验证。",
+    "category": "网络安全",
+    "tags": [
+      "反作弊",
+      "游戏安全",
+      "CS2",
+      "服务器端渲染"
+    ],
+    "source": "Hacker News",
+    "time": "2小时前",
+    "ts": "2026-07-06T15:23:34+00:00",
+    "url": "https://github.com/karola3vax/CS2FOW",
+    "image": "",
+    "stocks": []
   },
   {
     "id": "01e02031e105120f",
