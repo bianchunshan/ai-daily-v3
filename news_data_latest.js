@@ -1,5 +1,49 @@
 const newsData = [
   {
+    "id": "58a1241848dc781b",
+    "title": "科学家发现调控肌肉自噬的两条神经回路",
+    "summary": "研究人员新发现两条神经回路可调控骨骼肌自噬水平，为理解与治疗肌肉萎缩等疾病提供新靶点。",
+    "body": "自噬是细胞清除受损蛋白、回收老化细胞器并应对应激的重要机制，对持续承受机械压力的肌肉尤为关键。过高或过低的自噬水平均会导致肌肉功能异常甚至组织降解。此次研究发现两条神经回路在调控肌肉自噬中发挥核心作用，有望为肌肉退行性疾病和萎缩相关病症的干预提供新方向。",
+    "category": "生物医药",
+    "tags": [
+      "神经科学",
+      "肌肉自噬",
+      "生命科学"
+    ],
+    "source": "MedicalXpress",
+    "time": "7分钟前",
+    "ts": "2026-07-06T17:20:02-04:00",
+    "url": "https://medicalxpress.com/news/2026-07-scientists-uncover-neuronal-circuits-orchestrating.html",
+    "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/scientists-uncover-two.jpg",
+    "stocks": []
+  },
+  {
+    "id": "0331b529b7f32a26",
+    "title": "Kraken Robotics 6.15亿加元收购 Covelya Group",
+    "summary": "水下机器人公司 Kraken Robotics 以约 6.15 亿加元收购 Covelya Group，意在扩展其海底技术产品组合与总目标市场，强化全球军民两用海底智能解决方案能力。",
+    "body": "Kraken Robotics Inc. 近日宣布以约 4.32 亿美元（6.15 亿加元）收购 Covelya Group Ltd.。公司表示，此次收购与其通过军民两用技术组合为客户创造价值的战略目标一致，将使其成为全球关键任务海底智能解决方案供应商。Covelya Group 的加入将扩展 Kraken 在海底技术领域的产品线，整合 3D 成像传感器、动力系统及无人海事系统等互补技术与客户关系。公司首席执行官 Greg Reid 称，合并后的工程团队将在综合海底技术解决方案上开展合作，并预计全球国防预算增长、特别是对自主水下系统投资增加，将进一步支撑其长期增长前景。",
+    "category": "机器人",
+    "tags": [
+      "水下机器人",
+      "自主水下系统",
+      "军民两用",
+      "海底技术"
+    ],
+    "source": "The Robot Report",
+    "time": "26分钟前",
+    "ts": "2026-07-06T21:00:54+00:00",
+    "url": "https://www.therobotreport.com/kraken-robotics-acquires-covelya-group-for-615m/",
+    "image": "https://www.therobotreport.com/wp-content/uploads/2026/07/krakenrobotics-featured.jpg",
+    "stocks": [
+      {
+        "name": "Kraken Robotics",
+        "ticker": "PNG.V",
+        "reason": "作为收购方，直接受益于产品线扩展、总目标市场扩大及国防预算增长预期",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
     "id": "42e487a0ce3dc9b6",
     "title": "睡眠轻微不足与心血管代谢高风险成人增重相关",
     "summary": "一项针对两项随机试验的汇总分析发现，心血管代谢风险较高的成年人每晚睡眠时间减少仅1.5小时，与体重、腰围增加及久坐时间延长相关。",
