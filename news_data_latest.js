@@ -1,5 +1,56 @@
 const newsData = [
   {
+    "id": "9844a3f738610270",
+    "title": "B站向“哔哩漫游”发律师函，GitHub代码已删除",
+    "summary": "热门Xposed模块“哔哩漫游”因绕过B站番剧区域限制与付费保护，收到B站律师函，项目方已删除GitHub全部代码。B站要求其停止逆向分析、数据抓取及代码传播，并保留进一步追责权利。",
+    "body": "据IT之家报道，“哔哩漫游（BiliRoaming）”是一款可解除B站客户端番剧区域限制的热门Xposed模块，在GitHub上拥有超过1.14万星标。7月6日，该项目页面删除了全部代码，并在README中贴出B站委托律师发出的侵权告知函。律师函指出，该模块通过逆向分析、Hook播放鉴权、协议层改造、改写CDN回源等方式，绕过B站的认证体系、付费保护与访问控制，已构成侵权及不正当竞争。\n\nB站在函件中要求开发者立即停止数据抓取、解析、适配开发、代码更新及公开传播，删除或回滚相关代码、补丁与文档，并在2日内回复。此举表明B站正在加强对平台内容、付费会员体系及API接口的合规保护，也对同类逆向工具与开源项目形成警示。",
+    "category": "网络安全",
+    "tags": [
+      "B站",
+      "版权保护",
+      "逆向工程",
+      "网络安全"
+    ],
+    "source": "IT之家",
+    "time": "1分钟前",
+    "ts": "2026-07-06T08:57:30+00:00",
+    "url": "https://www.ithome.com/0/973/202.htm",
+    "image": "https://img.ithome.com/newsuploadfiles/2026/7/2c34b210-4741-4c08-a39d-0ab0c66da5df.jpg?x-bce-process=image/format,f_auto",
+    "stocks": [
+      {
+        "name": "哔哩哔哩",
+        "ticker": "BILI",
+        "reason": "清理绕过付费与区域限制的工具，有助于保护会员收入与内容授权合规。",
+        "confidence": "medium"
+      },
+      {
+        "name": "哔哩哔哩-W",
+        "ticker": "9626.HK",
+        "reason": "同上，事件直接涉及B站平台权益与付费内容保护。",
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
+    "id": "71b758e6439fa1cd",
+    "title": "Keychron推出14合1雷电5扩展坞",
+    "summary": "Keychron（渴创）发布旗下首款扩展坞，采用14合1设计与雷电5规范，售价349.99美元，标志着其从键鼠赛道向更广泛的桌面外设领域延伸。",
+    "body": "Keychron（渴创）此前以机械键盘、鼠标等输入设备闻名，近日正式发布其首款扩展坞产品。该设备支持雷电5规范，采用14合1接口设计，铝合金CNC机身并内置无风扇散热系统，提供140W PD输出、3个雷电5下行接口、USB-A/C、HDMI 2.1、2.5GbE网口及SD/microSD读卡器等，售价349.99美元（约合人民币2375元）。\n\n此次产品发布意味着Keychron正从专注键鼠的垂直品类，向桌面外设与生产力配件市场拓展。雷电5扩展坞可满足高端笔记本用户的多屏连接、高速数据传输与供电需求，也反映出第三方外设厂商在接口生态升级背景下的产品创新趋势。",
+    "category": "消费电子",
+    "tags": [
+      "扩展坞",
+      "雷电5",
+      "电脑外设",
+      "消费电子"
+    ],
+    "source": "IT之家",
+    "time": "1分钟前",
+    "ts": "2026-07-06T08:57:22+00:00",
+    "url": "https://www.ithome.com/0/973/201.htm",
+    "image": "https://img.ithome.com/newsuploadfiles/2026/7/e75a65b1-d86c-40a5-ae9c-2435c923754c.jpg?x-bce-process=image/format,f_auto",
+    "stocks": []
+  },
+  {
     "id": "997121bbf7f67085",
     "title": "英国AI公司geoSurge完成1200万美元种子轮融资",
     "summary": "英国AI初创公司geoSurge完成1200万美元超额认购种子轮融资，专注AI可见性领域，帮助品牌在ChatGPT、Gemini、Claude等生成式AI系统中优化自身呈现方式。",
