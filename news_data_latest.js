@@ -1,5 +1,43 @@
 const newsData = [
   {
+    "id": "a5788ae60de68c6a",
+    "title": "安第斯病毒防控：医疗机构需早隔离防护",
+    "summary": "安第斯病毒致死率高达36%， cruise船疫情显示全球医护人员对其认知不足。早期隔离感染者、医护人员佩戴防护装备可有效阻断人际传播。",
+    "body": "安第斯病毒是一种汉坦病毒，今年初在“洪迪乌斯号”邮轮引发疫情，其病死率最高可达36%。该病毒的人际传播1996年才首次被发现，且疫情发生频率低，导致全球临床医生对其临床表现、流行病学危险因素和感染防控策略并不熟悉。\n\n专家指出，在疫情初期采取隔离感染者、医护人员使用个人防护装备等预防措施，可有效防止安第斯病毒在医疗机构内传播。鉴于该病高致死率和潜在的院内传播风险，加强医务人员培训、完善早期识别与防控准备具有重要意义。",
+    "category": "生物医药",
+    "tags": [
+      "安第斯病毒",
+      "汉坦病毒",
+      "院内感染",
+      "公共卫生"
+    ],
+    "source": "MedicalXpress",
+    "time": "8分钟前",
+    "ts": "2026-07-06T13:40:01-04:00",
+    "url": "https://medicalxpress.com/news/2026-07-andes-virus-outbreaks-transmission-health.html",
+    "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/healthcare-room-1.jpg",
+    "stocks": []
+  },
+  {
+    "id": "6a0f8e5211d22fbd",
+    "title": "AI数小时预测乳腺癌复发，覆盖3500名患者验证",
+    "summary": "一项基于人工智能的检测方法可在数小时内预测乳腺癌复发风险，无需等待数周，并已在3500名患者中得到验证。",
+    "body": "尽管乳腺癌的诊断和治疗近年取得显著进展，但复发仍是困扰众多患者和医生的难题。这项新的人工智能测试能够快速评估癌症复发的可能性，将传统需要数周的等待时间缩短至数小时。\n\n该技术在3500名患者中完成了验证，表明其具备规模化应用的潜力。更快的复发风险评估有助于医生及时调整后续治疗方案和随访策略，从而改善患者预后并减轻等待期间的焦虑。\n\n这一进展也体现了人工智能在精准医疗和临床决策支持中的价值，可能成为数字医疗领域的重要应用方向。",
+    "category": "人工智能",
+    "tags": [
+      "人工智能",
+      "数字医疗",
+      "乳腺癌",
+      "医疗AI"
+    ],
+    "source": "MedicalXpress",
+    "time": "10分钟前",
+    "ts": "2026-07-06T13:38:24-04:00",
+    "url": "https://medicalxpress.com/news/2026-07-ai-breast-cancer-recurrence-hours.html",
+    "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/researchers-develop-ai-12.jpg",
+    "stocks": []
+  },
+  {
     "id": "6bc34c933388ece2",
     "title": "苹果推送 watchOS 26.6 开发者预览版 Beta 4",
     "summary": "苹果于 7 月 7 日向 Apple Watch 用户推送了 watchOS 26.6 开发者预览版 Beta 4 更新，内部版本号为 23U5054b，距离上次 Beta/RC 发布间隔 7 天。",
@@ -228,6 +266,25 @@ const newsData = [
     "ts": "2026-07-06T13:20:05-04:00",
     "url": "https://medicalxpress.com/news/2026-07-trimester-pregnancy-vital-human-brain.html",
     "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/pregnancy-4.jpg",
+    "stocks": []
+  },
+  {
+    "id": "fd286c2b5836fc08",
+    "title": "Katalyst启动首个商业卫星救援任务追近NASA Swift",
+    "summary": "Katalyst Space Technologies为NASA研制的Link卫星已成功入轨，将追赶并对接Swift天文卫星以提升其轨道高度。这是NASA首次委托商业公司执行的卫星救援任务，从立项到发射仅用时约九个月。",
+    "body": "美国初创航天企业Katalyst Space Technologies研制的近半吨重Link卫星，在独立日周末由空中发射火箭送入太空，接下来将耗时数周追赶NASA的Swift伽马射线天文观测卫星。Swift卫星轨道高度已明显降低，若不干预将在数月内再入大气层烧毁。NASA去年发出征集，不到一年后Katalyst便完成这颗首创性卫星的建造、测试与发射，速度远超传统航天项目通常需要的数年周期。",
+    "category": "商业航天",
+    "tags": [
+      "商业航天",
+      "卫星救援",
+      "NASA",
+      "Katalyst"
+    ],
+    "source": "Ars Technica",
+    "time": "34分钟前",
+    "ts": "2026-07-06T17:14:09+00:00",
+    "url": "https://arstechnica.com/science/2026/07/katalysts-satellite-rescue-mission-is-now-in-pursuit-of-nasas-swift/",
+    "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/07/Pegasus-Image-2-resized-1000x648.jpg",
     "stocks": []
   },
   {
@@ -533,6 +590,25 @@ const newsData = [
     "ts": "2026-07-06T16:04:27+00:00",
     "url": "https://usefeyn.com/blog/pulpie-pareto-optimal-models-for-cleaning-the-web/",
     "image": "",
+    "stocks": []
+  },
+  {
+    "id": "cec8d0c4a521ff01",
+    "title": "微软Xbox大裁员：3200人离职、五家工作室被剥离",
+    "summary": "微软宣布对Xbox游戏部门进行“重置”，计划裁员约3200人，并剥离五家小型工作室，以重新聚焦核心游戏IP。",
+    "body": "微软本周披露了对Xbox部门的大规模重组方案：计划裁员3200人，约占Xbox团队的20%，同时出售或剥离五家多年来收购的小型游戏工作室。新任Xbox首席执行官Asha Sharma表示，约一半裁员已立即生效，另一半将在2027财年结束前完成。\n\n除了Xbox部门，微软当天还宣布在其他业务部门裁员约1600人，公司整体裁员比例略高于2%。不过据《西雅图时报》报道，由于其他领域仍在招聘，微软整体员工规模基本保持稳定。\n\n此次“Xbox重置”是微软承认其游戏业务面临困境后的产物，标志着公司正从扩张收购转向精简成本、集中资源运营最具价值的游戏IP，短期内将对Xbox内容产出与工作室生态造成冲击。",
+    "category": "消费电子",
+    "tags": [
+      "微软",
+      "Xbox",
+      "游戏行业",
+      "裁员"
+    ],
+    "source": "Ars Technica",
+    "time": "1小时前",
+    "ts": "2026-07-06T16:01:54+00:00",
+    "url": "https://arstechnica.com/gaming/2026/07/the-incredible-shrinking-xbox-five-studios-3200-employees-let-go/",
+    "image": "https://cdn.arstechnica.net/wp-content/uploads/2024/02/xbox-dominoes-1152x648.jpg",
     "stocks": []
   },
   {
@@ -126747,6 +126823,12 @@ const newsData = [
   }
 ];
 const newsDigest = {
-  "text": "",
-  "highlights": []
+  "text": "今日前沿：AI数小时预测乳腺癌复发引关注，谷歌更新隐私政策明确用户数据可训练AI，Katalyst启动首个商业卫星救援任务；苹果密集推送iOS、macOS、watchOS等多系统开发者预览版，生物医药在他汀副作用、抑郁症精准用药上亦有新进展。",
+  "highlights": [
+    "6a0f8e5211d22fbd",
+    "524024212bc71142",
+    "fd286c2b5836fc08",
+    "6060e39e6755429a",
+    "8528ffeccaadad25"
+  ]
 };
