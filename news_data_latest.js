@@ -1,37 +1,82 @@
 const newsData = [
   {
-    "id": "eb7b30e3e86bb025",
-    "title": "谷歌将用户上传的搜索媒体用于训练AI",
-    "summary": "据外媒报道，谷歌已将用户在搜索中上传的媒体内容用于训练AI模型，用户可通过几步简单设置选择退出该计划。此事再次引发关于科技巨头使用用户数据训练AI的隐私讨论。",
-    "body": "据外媒报道，谷歌已调整其服务条款或相关设置，允许将用户在搜索功能中上传的图片、视频等媒体内容用于训练人工智能模型。这意味着用户主动上传的搜索媒体可能成为谷歌生成式AI和搜索增强技术的训练数据来源。\n\n不过，谷歌同时提供了退出选项，用户只需在账户或搜索设置中进行几步简单调整，即可拒绝自己的上传内容被用于AI训练。\n\n此举凸显了大型科技公司在推进生成式AI过程中对用户数据的高度依赖，也可能引发监管机构和公众对数据隐私、知情同意及合规使用个人内容的进一步关注。",
-    "category": "人工智能",
+    "id": "5f1f7f3934cd2009",
+    "title": "研究：地中海饮食或有助于50岁以上人群心理健康",
+    "summary": "一项发表于《BMJ Open》的研究发现，50岁以上人群坚持地中海饮食与更高的心理幸福感相关，提示饮食模式可能带来额外的心理健康益处。",
+    "body": "一项由伦敦大学学院与巴塞罗那全球健康研究所（ISGlobal，获“la Caixa”基金会支持）合作开展的研究已发表在《BMJ Open》上。该研究发现，在50岁以上人群中，遵循地中海饮食与更高水平的心理幸福感存在关联，提示这种饮食模式可能带来额外的心理健康益处。\n\n研究者指出，这一关联为饮食干预促进中老年心理健康提供了新的证据，或有助于指导公共卫生策略与个性化营养建议。不过，相关研究仍属观察性关联，具体因果机制有待进一步验证。",
+    "category": "生物医药",
     "tags": [
-      "谷歌",
-      "AI训练",
-      "用户隐私",
-      "数据合规"
+      "地中海饮食",
+      "心理健康",
+      "生命科学",
+      "老龄化"
     ],
-    "source": "Engadget",
-    "time": "4分钟前",
-    "ts": "2026-07-06T19:13:52+00:00",
-    "url": "https://www.engadget.com/2208978/google-now-uses-your-uploaded-search-media-to-train-ai/",
-    "image": "https://www.engadget.com/img/gallery/google-now-uses-your-uploaded-media-to-train-ai-so-heres-how-to-fix-that/l-intro-1783364935.jpg",
+    "source": "MedicalXpress",
+    "time": "3分钟前",
+    "ts": "2026-07-06T15:20:03-04:00",
+    "url": "https://medicalxpress.com/news/2026-07-mediterranean-diet-psychological.html",
+    "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/mediterranean-diet-1.jpg",
     "stocks": []
   },
   {
+    "id": "3e0ed3590d5fdd30",
+    "title": "血液检测有望筛选结肠癌术后化疗获益人群",
+    "summary": "研究显示，血液检测有望帮助识别肝转移结直肠癌患者中哪些人在手术后最可能从化疗获益，助力精准治疗决策。",
+    "body": "在2026年ESMO胃肠道癌症大会上公布的研究表明，一项血液检测或可识别出结直肠癌已转移至肝脏的患者中，哪些人在手术后最有可能从化疗中获益。该检测若能临床应用，可帮助医生更精准地筛选适合接受辅助化疗的患者群体，避免部分低获益患者承受不必要的化疗副作用。不过，目前该研究尚处于学术发布阶段，其临床有效性和规模化应用仍需进一步验证。",
+    "category": "生物医药",
+    "tags": [
+      "结直肠癌",
+      "液体活检",
+      "精准医疗",
+      "肿瘤标志物"
+    ],
+    "source": "MedicalXpress",
+    "time": "3分钟前",
+    "ts": "2026-07-06T15:20:01-04:00",
+    "url": "https://medicalxpress.com/news/2026-07-blood-colorectal-cancer-patients-benefit.html",
+    "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/blood-test-3.jpg",
+    "stocks": []
+  },
+  {
+    "id": "eb7b30e3e86bb025",
+    "title": "Google将用户上传的搜索媒体用于训练AI",
+    "summary": "Google更新做法，将用户上传至搜索服务的媒体内容用于人工智能训练，用户可通过账户设置选择退出。",
+    "body": "据外媒报道，Google现在开始使用用户上传至搜索服务的图片、语音等媒体资料来训练其AI模型，以改进搜索及相关人工智能产品。这一消息引发了外界对用户隐私和数据使用范围的关注。如果用户不希望自己的上传内容被用于AI训练，可以在Google账户设置中调整相关选项以退出该用途。",
+    "category": "人工智能",
+    "tags": [
+      "AI训练",
+      "隐私",
+      "Google",
+      "用户数据"
+    ],
+    "source": "Engadget",
+    "time": "9分钟前",
+    "ts": "2026-07-06T19:13:52+00:00",
+    "url": "https://www.engadget.com/2208978/google-now-uses-your-uploaded-search-media-to-train-ai/",
+    "image": "https://www.engadget.com/img/gallery/google-now-uses-your-uploaded-media-to-train-ai-so-heres-how-to-fix-that/l-intro-1783364935.jpg",
+    "stocks": [
+      {
+        "name": "谷歌-A",
+        "ticker": "GOOGL",
+        "reason": "利用用户上传的搜索媒体扩大AI训练数据，有望强化其AI模型与搜索产品竞争力。",
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
     "id": "cb93fdb7a13f0ab2",
-    "title": "Claude Code 团队详解四种智能体循环类型",
-    "summary": "Anthropic 旗下 Claude Code 团队系统梳理了智能体工作循环的四种设计模式，帮助开发者根据任务特点选择合适的交互方式。",
-    "body": "Claude Code 团队将“设计循环”定义为智能体重复执行某项工作，直到满足预设的停止条件为止。团队据此划分出四种循环类型：回合循环由手动提示触发，Claude 自行判断是否完成，适合短任务，可借助 SKILL.md 提升验证质量；目标循环通过 `/goal` 手动触发，在达成目标或达到最大轮数后停止，需要明确可验证的完成标准，例如测试通过数量；时间循环利用 `/loop` 和 `/schedule` 按固定间隔触发，适用于同步消息、检查 PR 等重复性任务，并可在云端持续运行；主动循环则由事件或计划触发，无需人工实时参与，每个子任务可独立退出。\n\n团队建议开发者从最简单的方案入手，根据实际需求选择性引入更复杂的循环类型。这一分类为构建和调试 AI 智能体提供了可参考的工程范式，有助于提升智能体在代码协助、自动化运维等场景中的稳定性与可控性。",
+    "title": "Claude Code团队详解四种智能体循环类型",
+    "summary": "Claude Code团队将“设计循环”定义为智能体重复工作直至满足停止条件的机制，并划分为回合、目标、时间和主动四种循环类型。",
+    "body": "Claude Code团队近日详细解析了智能体的“设计循环”概念，将其定义为智能体重复执行某项工作直到满足预设停止条件的运行机制。团队据此划分出四种循环类型：回合循环由手动提示触发，适合短任务；目标循环通过`/goal`触发，以达成明确目标或达到最大轮数为停止条件；时间循环借助`/loop`和`/schedule`按间隔触发，适用于同步消息、检查PR等重复任务；主动循环则由事件或计划触发，可在无人实时参与的情况下独立运行。\n\n团队强调，不同的循环类型适用于不同的应用场景，开发者应从最简单的方案入手，根据实际需求选择性地引入更复杂的循环设计。这一方法论为AI Agent的工程化落地提供了结构化的设计思路，有助于提升智能体任务的可靠性与自动化程度。",
     "category": "人工智能",
     "tags": [
       "Claude Code",
       "智能体",
-      "AI 编程",
-      "Agent"
+      "AI Agent",
+      "循环设计"
     ],
     "source": "AIHOT精选",
-    "time": "9分钟前",
+    "time": "14分钟前",
     "ts": "2026-07-06T19:08:45+00:00",
     "url": "https://x.com/ClaudeDevs/status/2074208949205881033",
     "image": "",
@@ -1030,6 +1075,24 @@ const newsData = [
     "ts": "2026-07-06T12:20:03-04:00",
     "url": "https://medicalxpress.com/news/2026-07-molecular-simultaneously-pain.html",
     "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/researchers-discover-m.jpg",
+    "stocks": []
+  },
+  {
+    "id": "ed3426000bff8687",
+    "title": "Orasort利用甲骨文过期专利实现列排序提速5倍",
+    "summary": "Orasort借助甲骨文一项已过期的专利技术，将列数据排序速度提升约5倍，或为数据库和数据分析场景带来性能优化。",
+    "body": "据报道，Orasort通过使用甲骨文（Oracle）一项已过期的专利技术，实现了列数据排序速度提升约5倍。列排序是数据库、数据分析及大数据处理中的基础操作，性能提升可显著缩短查询与计算时间。由于相关专利已过期，该技术有望被更广泛的开发者和开源项目采用，降低高性能排序方案的法律壁垒。",
+    "category": "AI 基础设施",
+    "tags": [
+      "数据库",
+      "排序算法",
+      "开源软件"
+    ],
+    "source": "Hacker News",
+    "time": "3小时前",
+    "ts": "2026-07-06T16:17:04+00:00",
+    "url": "https://deepsystemstuff.com/how-oracles-secret-column-sorting-technique-became-public-after-its-patent-expired-making-sorting-5x-faster/",
+    "image": "",
     "stocks": []
   },
   {
