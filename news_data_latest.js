@@ -1,5 +1,69 @@
 const newsData = [
   {
+    "id": "8f54dc578cca6750",
+    "title": "新算法让全球疫情基因组监测更快更便宜",
+    "summary": "一项创新算法可显著提升病原体基因组监测的速度并降低成本，有助于在全球疫情暴发初期更及时地发现危险变异株。",
+    "body": "基因组监测通过持续监测和测序病原体，是识别新兴病毒威胁的关键工具。然而，现有的全球监测系统成本高昂、分布不均，往往在危险变异株国际传播之前反应过慢，加剧了未来疫情暴发的风险。\n\n此次报道的创新算法旨在加快基因组数据的处理与分析，降低监测成本，从而让更多国家和地区能够负担并部署相关技术。\n\n如果该算法得到广泛应用，将增强全球公共卫生体系对潜在疫情暴发的早期预警能力，使防控部门能在病毒扩散前采取更有效的干预措施。",
+    "category": "生物医药",
+    "tags": [
+      "基因组监测",
+      "公共卫生",
+      "算法",
+      "传染病防控"
+    ],
+    "source": "MedicalXpress",
+    "time": "1分钟前",
+    "ts": "2026-07-06T10:20:05-04:00",
+    "url": "https://medicalxpress.com/news/2026-07-algorithm-genomic-surveillance-faster-global.html",
+    "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/innovative-algorithm-m.jpg",
+    "stocks": []
+  },
+  {
+    "id": "05128b350f8b71f2",
+    "title": "日本隼鸟2号飞掠双瓣小行星传回清晰影像",
+    "summary": "日本宇宙航空研究开发机构（JAXA）的“隼鸟2号”探测器于7月5日近距离飞掠距地球约1亿公里的小行星“鸟船”，并传回光学与中红外观测数据。此次高速飞掠有望为科学家研究小行星表面温度、热惯性与形貌提供宝贵资料。",
+    "body": "日本“隼鸟2号”探测器在执行扩展任务期间，于7月5日对小行星“鸟船”（Torifune）进行了近距离高速飞掠。这颗小行星直径约450米，当时位于距地球约1亿公里处，探测器利用光学相机拍摄了清晰影像，并通过中红外相机（TIR）测量其表面温度、热惯性和粗糙度。中红外图像显示，小行星背阴区域温度明显更低，而向阳面则更为温暖。\n\n“鸟船”绕太阳公转周期约为383天，自转周期约5小时，属于阿波罗型近地小行星。此次飞掠是“隼鸟2号”继“龙宫”小行星探测之后的新目标探测行动，有助于拓展人类对小行星组成、演化及近地天体特性的认识，对行星防御和太阳系起源研究具有参考意义。",
+    "category": "商业航天",
+    "tags": [
+      "隼鸟2号",
+      "小行星探测",
+      "深空探测",
+      "JAXA"
+    ],
+    "source": "Space.com",
+    "time": "1分钟前",
+    "ts": "2026-07-06T14:20:04+00:00",
+    "url": "https://www.space.com/space-exploration/asteroid-comet-missions/japans-hayabusa2-probe-captures-remarkable-photo-of-a-two-headed-asteroid-62-million-miles-away",
+    "image": "https://cdn.mos.cms.futurecdn.net/ZCSKcoDFPog59bgwJHaA3F-1280-80.jpg",
+    "stocks": []
+  },
+  {
+    "id": "f2b2e2b3ade897a9",
+    "title": "任天堂秋季在欧洲推可换电池Switch 2",
+    "summary": "任天堂宣布，为配合2027年生效的欧盟新电池法规，今年秋季起在欧洲销售可更换电池的Switch 2主机，Joy-Con 2手柄及Pro手柄也将同步升级，初代Switch则将在欧洲停售。",
+    "body": "任天堂官方宣布，为应对将于2027年2月中旬生效的欧洲电池法规最新修订要求，自2026年夏季起，欧洲地区部分任天堂产品将逐步替换为配备可更换电池的改版机型。官方强调，现有机型与可更换电池版在功能上没有区别。\n\n可更换电池版Switch 2主机将于今年秋季在欧洲开售，主机本体和Joy-Con 2手柄均采用新电池，电池容量略减约1%，主机重量由401克增至411克，装上手柄后总重由534克增至548克。今冬起，单独销售的Joy-Con 2手柄也将配备可更换电池。\n\n此外，Switch 2 Pro手柄将同步升级，电池容量减少16%，但整体重量减轻7克。任天堂还表示，不会在欧洲推出可更换电池版初代Switch，而是直接停售该旧机型。",
+    "category": "消费电子",
+    "tags": [
+      "任天堂",
+      "Switch 2",
+      "消费电子",
+      "欧盟电池法规"
+    ],
+    "source": "IT之家",
+    "time": "3分钟前",
+    "ts": "2026-07-06T14:18:55+00:00",
+    "url": "https://www.ithome.com/0/973/284.htm",
+    "image": "https://img.ithome.com/newsuploadfiles/2026/7/6d1d28d6-91b2-4e6a-ba9e-a936c4387b0c.jpg?x-bce-process=image/format,f_auto",
+    "stocks": [
+      {
+        "name": "任天堂",
+        "ticker": "NTDOY",
+        "reason": "可更换电池版Switch 2由任天堂推出，欧洲产品迭代与合规销售直接利好其主机业务",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
     "id": "5ecf83dc2d7e82dd",
     "title": "任天堂明年欧洲停售初代Switch，推可换电池Switch 2",
     "summary": "任天堂确认将于明年在欧洲停售所有版本的初代Switch，同时将为欧洲市场推出可更换电池的Switch 2新机型。",
@@ -21,6 +85,32 @@ const newsData = [
         "name": "任天堂",
         "ticker": "NTDOY",
         "reason": "Switch 2可换电池版新品上市及初代Switch退市，推动产品换代与升级周期",
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
+    "id": "eacabb76a733c3ac",
+    "title": "Xbox确认未来一年裁员约3200人",
+    "summary": "微软旗下Xbox部门确认将在未来一年内裁员约3200人，作为其大规模重组计划的一部分。",
+    "body": "据外媒报道，微软旗下游戏品牌Xbox已确认计划在未来一年内裁减约3200名员工，此举属于其大规模重组计划的一部分。目前Xbox尚未披露具体受影响的岗位与地区细节。此次裁员预计将帮助该部门降低运营成本、精简组织架构，以应对游戏行业竞争压力。",
+    "category": "消费电子",
+    "tags": [
+      "游戏",
+      "消费电子",
+      "微软",
+      "裁员重组"
+    ],
+    "source": "Engadget",
+    "time": "6分钟前",
+    "ts": "2026-07-06T14:15:47+00:00",
+    "url": "https://www.engadget.com/2208480/xbox-confirms-plans-to-lay-off-3200-workers-over-the-next-year/",
+    "image": "https://www.engadget.com/img/gallery/xbox-confirms-plans-to-lay-off-3200-workers-over-the-next-year/l-intro-1783347286.jpg",
+    "stocks": [
+      {
+        "name": "微软",
+        "ticker": "MSFT",
+        "reason": "Xbox为微软旗下游戏业务，裁员有助于降低运营成本并优化结构，利好母公司盈利预期",
         "confidence": "medium"
       }
     ]
