@@ -1,5 +1,24 @@
 const newsData = [
   {
+    "id": "0fed0821b0955600",
+    "title": "JC多瘤病毒突变逃避免疫抗体，助力疫苗与治疗研发",
+    "summary": "国际研究团队在《PNAS》发文揭示，JC多瘤病毒可通过突变干扰人体抗体识别，从而逃避免疫应答，为相关疫苗和疗法开发提供新线索。",
+    "body": "JC多瘤病毒在免疫功能严重低下的人群中可引发一种尚无有效治疗、常致死的脑部疾病。一项发表于《美国科学院院刊》（PNAS）的国际研究发现，病毒突变能够有策略地破坏人体抗体对病毒的识别，使其逃避免疫系统的攻击。该研究深入解析了JC多瘤病毒与人体免疫系统的相互作用机制，为未来开发针对性疫苗和治疗方案奠定了基础。",
+    "category": "生物医药",
+    "tags": [
+      "病毒学",
+      "抗体逃逸",
+      "疫苗研发",
+      "免疫治疗"
+    ],
+    "source": "MedicalXpress",
+    "time": "3分钟前",
+    "ts": "2026-07-06T17:40:04-04:00",
+    "url": "https://medicalxpress.com/news/2026-07-mutations-jc-polyomavirus-evade-antibodies.html",
+    "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/new-insights-on-polyom.jpg",
+    "stocks": []
+  },
+  {
     "id": "bc81c3283b06b613",
     "title": "医疗“神圣时刻”有助缓解医生倦怠",
     "summary": "新研究关注医疗场景中短暂而深刻的人际连接，探讨其在缓解临床医生职业倦怠和增强患者信任方面的价值。",
