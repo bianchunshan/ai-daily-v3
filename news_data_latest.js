@@ -1,5 +1,95 @@
 const newsData = [
   {
+    "id": "9c5f4fc27bde4b06",
+    "title": "Reddit以AI治理AI虚假内容与仇恨言论",
+    "summary": "Reddit正利用大语言模型识别和处置平台上的虚假账号、垃圾内容及不真实的点赞互动，以应对AI生成内容泛滥带来的治理挑战。",
+    "body": "Reddit近日披露，正在平台内部署大语言模型（LLM），从新账号注册阶段便开始侦测可疑活动，包括高度隐蔽的协同造假行为和人为炒作。该公司称，自动化系统目前每天拦截约2300万次垃圾内容曝光、捕捉约2.5万条垃圾帖子和评论，并撤销近200万个非真实投票；2026年1月至3月用户接触到的“AI垃圾内容”较前三个月下降20%。\n\n除打击AI生成的低质内容外，新措施还强化了针对英文内容中仇恨与暴力信息的处置，未来会扩展到更多语言。Reddit表示，从检测到执行的时间已缩短至不到5秒，用户接触有害内容减少逾40%。\n\n值得注意的是，Reddit与AI的关系一向复杂：此前苏黎世大学研究人员曾被曝在子版块中用AI生成评论做实验，Reddit也推出数据授权计划以要求AI爬虫付费。与此同时，Reddit上线了AI搜索功能。此次用AI反制AI，显示出其在自有平台上主动拥抱AI技术的姿态。",
+    "category": "人工智能",
+    "tags": [
+      "Reddit",
+      "AI内容审核",
+      "平台治理",
+      "大语言模型"
+    ],
+    "source": "Engadget",
+    "time": "5分钟前",
+    "ts": "2026-07-06T15:32:39+00:00",
+    "url": "https://www.engadget.com/2208616/reddit-to-combat-ai-with-more-ai/",
+    "image": "https://www.engadget.com/img/gallery/reddit-to-combat-ai-with-more-ai/l-intro-1783351885.jpg",
+    "stocks": [
+      {
+        "name": "Reddit",
+        "ticker": "RDDT",
+        "reason": "公司自身平台正利用LLM强化内容审核与反垃圾能力，有助于提升用户体验与平台健康度",
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
+    "id": "122df485c30352f4",
+    "title": "机械革命极光X新增RTX 5060版 国补7394元起",
+    "summary": "机械革命为2026款极光X游戏本新增i7-14650HX+RTX 5060配置版本，配备16GB DDR5内存与512GB PCIe 4.0 SSD，定价8699元，部分地区国补后低至7394.15元。",
+    "body": "IT之家7月6日消息，机械革命为旗下2026款极光X笔记本新增“i7-14650HX+16G+512G+RTX 5060”版本。该机采用金属A面与镜面不锈钢Logo，B面搭载2560×1600分辨率、300Hz刷新率、500尼特亮度并覆盖100% DCI-P3色域的屏幕，同时配备物理防窥开关与1600万色RGB键盘。\n核心配置方面，这款新品搭载英特尔i7-14650HX处理器与英伟达RTX 5060 Laptop显卡，内置16GB DDR5内存和512GB PCIe 4.0 SSD，采用全新三风扇内吹散热与双D10热管结构，可实现200W极限双烤性能输出。此外，机身内置80Wh电池并支持140W PD快充，标配250W SiC便携适配器，接口则涵盖双USB-C、多USB-A、RJ45、Mini DP 2.1与HDMI 2.1等。该产品以国补后不足7400元的起售价入市，有望在暑期游戏本旺季中增强产品竞争力。",
+    "category": "消费电子",
+    "tags": [
+      "机械革命",
+      "游戏本",
+      "RTX 5060",
+      "国补"
+    ],
+    "source": "IT之家",
+    "time": "7分钟前",
+    "ts": "2026-07-06T15:31:10+00:00",
+    "url": "https://www.ithome.com/0/973/303.htm",
+    "image": "https://img14.360buyimg.com/pop/jfs/t1/472351/16/4877/160647/6a47858eFc599052d/00833203202145f4.jpg",
+    "stocks": [
+      {
+        "name": "同方股份",
+        "ticker": "600100.SH",
+        "reason": "机械革命为同方股份旗下游戏本品牌，新品上市有望带动其消费电子业务销售。",
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
+    "id": "0d8ed02034c872b5",
+    "title": "开源可维修打印机Open Printer原型首曝",
+    "summary": "巴黎初创公司Open Tools发布其“Open Printer”可工作原型视频，主打用户可维修、无DRM、无订阅模式，并采用树莓派Zero W与开源CUPS打印系统，兼容Windows、macOS、Linux、Android和iOS。",
+    "body": "Open Tools近日首次展示了其可维修、开源硬件喷墨打印机“Open Printer”的工作原型，并宣布该产品入围两项法国设计奖。该设备以用户拥有硬件控制权为卖点，使用无DRM的可 refillable HP墨盒，通过集成切刀支持单页纸或卷纸输出，且设计文件以禁止商业再利用的Creative Commons许可发布。\n\n硬件方面，Open Printer由树莓派Zero W运行打印服务器，STMicroelectronics的STM32微控制器驱动墨盒板，并配备1.47英寸TFT LCD与旋钮，接口包括USB-C、USB-A、蓝牙4.1及24V DC输入。打印系统基于开源CUPS，因此无需厂商驱动即可在多平台使用，黑白打印分辨率为600 dpi，原型已支持黑白与彩色输出。\n\n该项目试图挑战传统打印机市场长期存在的DRM芯片、订阅墨水及固件锁 cartridge 等“ vendor lock-in”模式。不过，该原型目前仍未公布售价、发货日期和打印速度，商业化前景尚待观察。",
+    "category": "消费电子",
+    "tags": [
+      "开源硬件",
+      "打印机",
+      "消费电子",
+      "DRM"
+    ],
+    "source": "Tom's Hardware",
+    "time": "8分钟前",
+    "ts": "2026-07-06T15:30:17+00:00",
+    "url": "https://www.tomshardware.com/peripherals/printers/raspberry-pi-powered-open-source-printer-earns-design-award-nomination-but-still-has-no-price-nine-months-after-reveal",
+    "image": "https://cdn.mos.cms.futurecdn.net/tSdc6WL7nF5y2UHwrBZTkW-1280-80.png",
+    "stocks": []
+  },
+  {
+    "id": "a59fe3604f913ccd",
+    "title": "USB-C接口并非都高速：规格差异成谜",
+    "summary": "USB-C接口外观统一，但不同设备支持的协议、速率和功能千差万别，仅凭接口形态无法判断真实性能。",
+    "body": "USB-C曾被寄予厚望，希望用一个接口统一充电、数据传输与视频输出。然而，由于USB-C只是一个物理形态标准，设备厂商可自主选择搭载的底层协议，从USB 2.0、USB 3.2到USB4、雷电（Thunderbolt）等都可能共用同一接口，导致速度和功能差异巨大。\n\n这种规格碎片化让消费者在选购线缆、充电器、显示器和扩展坞时面临困惑：外观相同的USB-C产品，实际体验可能天差地别。用户需要仔细查看设备标注的协议版本与认证标识，才能确保获得预期的传输速率或充电功率。\n\n从行业角度看，USB-C的“统一”优势正因标准混乱而被削弱，也提醒监管机构与厂商在推广通用接口的同时，需要提升标识透明度，帮助消费者做出准确判断。",
+    "category": "消费电子",
+    "tags": [
+      "消费电子",
+      "USB-C",
+      "接口标准",
+      "数码配件"
+    ],
+    "source": "Engadget",
+    "time": "8分钟前",
+    "ts": "2026-07-06T15:30:00+00:00",
+    "url": "https://www.engadget.com/2207881/usb-c-port-cable-types-explained/",
+    "image": "https://www.engadget.com/img/gallery/a-usb-c-port-isnt-a-guarantee-of-high-speeds-heres-why/l-intro-1783119283.jpg",
+    "stocks": []
+  },
+  {
     "id": "bf3a785bfc09f631",
     "title": "零跑B03X纯电车型欧洲开启预定",
     "summary": "零跑汽车宣布旗下纯电动车型B03X在欧洲市场正式开启预定，起售价为2.49万欧元。该车基于国内市场A10升级而来，搭载更强动力电机，定位全球战略车型，加速海外市场拓展。",
