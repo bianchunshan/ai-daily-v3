@@ -1,5 +1,50 @@
 const newsData = [
   {
+    "id": "997121bbf7f67085",
+    "title": "英国AI公司geoSurge完成1200万美元种子轮融资",
+    "summary": "英国AI初创公司geoSurge完成1200万美元超额认购种子轮融资，专注AI可见性领域，帮助品牌在ChatGPT、Gemini、Claude等生成式AI系统中优化自身呈现方式。",
+    "body": "总部位于伦敦的AI公司geoSurge宣布完成1200万美元超额认购的种子轮融资。本轮融资由AlbionVC领投，Play Ventures、Octopus Ventures、Celero Ventures、Boost Capital参投，现有投资方Passion Capital与Tuesday Capital跟投，并获得来自Google DeepMind、Microsoft AI与Signal AI的多位天使投资人支持。\n\n公司表示，融资将用于推进其在AI可见性领域的全新方法，帮助品牌塑造自身在ChatGPT、Gemini、Claude等生成式AI系统中的呈现方式。随着生成式AI成为用户获取信息的重要入口，品牌在AI模型中的可见性正成为数字营销的新前沿。\n\n本轮融资反映出资本市场对生成式AI应用层创新的持续兴趣，特别是在AI搜索与推荐场景下，品牌如何被AI系统理解和呈现，已成为营销技术的新兴细分赛道。",
+    "category": "人工智能",
+    "tags": [
+      "AI可见性",
+      "生成式AI",
+      "品牌营销",
+      "种子融资"
+    ],
+    "source": "36氪",
+    "time": "刚刚",
+    "ts": "2026-07-06T08:49:09.040755+00:00",
+    "url": "https://36kr.com/newsflashes/3883918767665408?f=rss",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "2fba5c4ed48fd43c",
+    "title": "高德AI专车升级：一句话叫来个性化专车",
+    "summary": "高德地图宣布升级AI专车功能，其“AI专车管家”可理解自然语言表达的复合出行需求，自动匹配个性化专车并完成服务配置，目前已在北京、上海、杭州、成都等城市上线。",
+    "body": "高德地图近日上线AI专车功能升级，用户只需长按麦克风用自然语言描述出行场景和状态，“AI专车管家”即可从语句中自动识别多层关键信息，并匹配符合要求的专车，同时向司机下发平稳驾驶、开窗通风、备水、调温等服务提示。\n\n此次升级将传统的翻菜单、选标签、电话沟通简化为“一句话叫车”，体现了大模型与自然语言理解技术在出行服务场景中的落地。通过降低用户操作门槛、提升服务匹配精度，高德有望在本地生活与网约车市场中强化差异化体验，并带动平台订单活跃度。",
+    "category": "人工智能",
+    "tags": [
+      "高德地图",
+      "AI专车",
+      "自然语言处理",
+      "出行服务"
+    ],
+    "source": "IT之家",
+    "time": "4分钟前",
+    "ts": "2026-07-06T08:44:44+00:00",
+    "url": "https://www.ithome.com/0/973/193.htm",
+    "image": "https://img.ithome.com/newsuploadfiles/2026/7/b3f3dbcd-fe0e-4caa-a8ab-31785785c2c4.png?x-bce-process=image/format,f_auto",
+    "stocks": [
+      {
+        "name": "阿里巴巴",
+        "ticker": "BABA",
+        "reason": "高德地图为阿里巴巴旗下业务，AI专车升级有望强化本地生活与出行服务生态。",
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
     "id": "06241f2766c1986f",
     "title": "阿根廷可再生能源公司Genneia冲刺美股IPO",
     "summary": "阿根廷可再生能源生产商Genneia向SEC提交IPO文件，拟最高募资1亿美元，计划在纽约证券交易所与阿根廷交易所双重上市，股票代码为“GENN”。",
@@ -197,6 +242,25 @@ const newsData = [
         "confidence": "high"
       }
     ]
+  },
+  {
+    "id": "4ff266933da8501c",
+    "title": "模型非企业护城河，AI价值归属专业化能力",
+    "summary": "文章指出，大模型与Agent工具普及并不能自动构成企业护城河，AI竞争正转向企业能否将专业know-how沉淀为自有智能资产；衔远科技发布基于真实办公场景的Agent评测基准EnterpriseClawBench。",
+    "body": "随着大模型和Copilot、Agent等工具快速进入企业，许多CEO发现模型虽越来越强，企业自身却未必同步变强。核心问题在于，通用模型解决的是“会做”，而企业竞争力来自“比别人做得更准确、更快、更符合自身业务逻辑”。如果企业只是接入外部模型，却未把专家经验、业务规则转化为可复用的组织资产，一旦底层模型替换或知识被吸走，价值归属将面临空心化风险。\n\n衔远科技创始人周伯文提出，AI应在充分泛化的基础上具备深度专业化能力，且这种专业化能力必须留在企业自己的平台与know-how中。微软CEO纳德拉也提出“Token Capital”概念，强调企业要把AI沉淀为可复用的智能资本。二者共同指向：AI时代企业的分水岭，不是有没有用AI，而是能不能形成属于自己的学习系统与智能引擎。\n\n在此背景下，衔远科技大观研究院发布EnterpriseClawBench评测基准，从真实企业工作会话中抽取任务，覆盖产品、研发、HR、销售、财务等岗位，评估Agent读取异构文件、恢复上下文、调用工具、生成可用交付物及成本效率等能力。该基准同步开放评测协议，意在推动企业Agent能力评估从“考试刷分”走向“真实办公”的行业标准。",
+    "category": "人工智能",
+    "tags": [
+      "企业AI",
+      "Agent评测",
+      "衔远科技",
+      "Token Capital"
+    ],
+    "source": "量子位",
+    "time": "31分钟前",
+    "ts": "2026-07-06T08:17:34+00:00",
+    "url": "https://www.qbitai.com/2026/07/443842.html",
+    "image": "",
+    "stocks": []
   },
   {
     "id": "6d7e6985ead0b4c8",
@@ -450,6 +514,25 @@ const newsData = [
     ]
   },
   {
+    "id": "f49b42a163ceee52",
+    "title": "字节Seedance进军好莱坞，独立电影人拥抱AI视频",
+    "summary": "字节跳动的Seedance视频生成模型正被好莱坞独立电影人和AI创作者用于概念片、长片制作等工作流，凭借低成本和强生成能力快速渗透当地影视圈。",
+    "body": "据《洛杉矶时报》报道，字节跳动自今年春季在美国推出Seedance以来，已主动接触电影人、独立艺术家和娱乐业高管，并在戛纳电影节、Amazon MGM Studios的AI on the Lot等行业活动中亮相。独立制片人用Seedance 2.0制作概念短片、测试镜头风格甚至探索长片，如Higgisfield的95分钟长片《Hell Grind》和YouTube热播剧集《骸骨编年史》均基于该模型完成。\n\nSeedance的吸引力主要来自低成本和高灵活性：其视频加音频生成成本约为每分钟9美元，低于Google Veo；制作人称生成15秒高清画面仅需约5美元，可大幅压缩传统试拍环节。这一趋势也反映了中美AI视频模型竞争加剧，在OpenAI Sora暂停服务后，Seedance、Google Veo、Runway、Luma等正争夺好莱坞创作者生态。",
+    "category": "人工智能",
+    "tags": [
+      "字节Seedance",
+      "AI视频",
+      "好莱坞",
+      "AIGC"
+    ],
+    "source": "量子位",
+    "time": "59分钟前",
+    "ts": "2026-07-06T07:49:13+00:00",
+    "url": "https://www.qbitai.com/2026/07/443665.html",
+    "image": "",
+    "stocks": []
+  },
+  {
     "id": "f30d3d3976a7faaa",
     "title": "郭明錤：苹果折叠iPhone 2026下半年出货或短缺",
     "summary": "知名分析师郭明錤发布行业调查显示，苹果可折叠iPhone预计于2026年下半年出货，下半年组装出货量约为700万至800万部，但第三季度可能仅出货50万至100万部。初期供应紧张或将导致产品转售溢价50%至100%，其实际销售前景需观察2026年末至2027年第一季度的表现。",
@@ -625,6 +708,32 @@ const newsData = [
         "name": "迪恩士",
         "ticker": "7735.T",
         "reason": "日本重要的半导体清洗及涂布显影设备厂商，晶圆厂扩产带动设备销售增长",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "7b8651f0b873ca9c",
+    "title": "Meta考虑开放AI算力，转型卖铲子",
+    "summary": "Meta正考虑推出名为Meta Compute的算力服务，将自有AI基础设施对外开放变现。由于自研模型进展不及预期，扎克伯格希望GPU和数据中心资源先产生收入，并可能与Anthropic等模型厂商合作托管第三方模型。",
+    "body": "据彭博社报道，Meta正考虑推出Meta Compute，把庞大的AI基建开放给外部客户，以出租GPU算力、托管第三方模型等方式变现。SemiAnalysis称，Meta可能与Anthropic谈判引入Claude私有实例，未来搭建类似AWS Bedrock或Microsoft Foundry的模型服务平台。同时，Meta内部仍在训练下一代模型Watermelon，并未放弃自研模型。\n\nMeta今年以来持续加速数据中心布局，上半年已签下超过5GW云和托管数据中心容量，近两年累计接近10GW。若按SpaceX的neocloud模式出租，每GW年收入可达约500亿美元，仅200MW外部算力即可带来约100亿美元收入。消息推动Meta股价大涨近9%，而CoreWeave、Nebius等独立AI云厂商则遭市场抛售。\n\n这一转向意味着Meta的竞争对手将不仅限于OpenAI、Anthropic、Google等模型公司，还会直接撞上AWS、Azure、Google Cloud及neocloud厂商。对华尔街而言，算力资产比遥遥领先的超级智能更容易定价，也让Meta的高额资本开支有了更直接的回报路径。",
+    "category": "AI 基础设施",
+    "tags": [
+      "Meta Compute",
+      "GPU算力",
+      "算力租赁",
+      "AI云计算"
+    ],
+    "source": "量子位",
+    "time": "1小时前",
+    "ts": "2026-07-06T07:38:15+00:00",
+    "url": "https://www.qbitai.com/2026/07/443606.html",
+    "image": "",
+    "stocks": [
+      {
+        "name": "Meta Platforms",
+        "ticker": "META",
+        "reason": "拟推出Meta Compute将AI基建对外开放变现，消息公布后股价大涨近9%，直接受益",
         "confidence": "high"
       }
     ]
