@@ -1,5 +1,43 @@
 const newsData = [
   {
+    "id": "fee725d272dd5123",
+    "title": "Cell发文揭示铁离子触发哮喘气道炎症机制",
+    "summary": "中国科学院团队研究发现，铁离子通过激活特定信号通路在启动过敏性气道炎症中发挥关键作用，为哮喘发病机制研究提供新视角。",
+    "body": "中国科学院分子细胞科学卓越创新中心（生物化学与细胞生物学研究所）孙兵团队联合上海药物研究所刘杏团队开展的研究近日发表于《Cell》。他们发现，铁离子在过敏性气道炎症的启动过程中扮演关键角色，可通过激活相关信号通路促进炎症反应。\n\n该研究提示，铁代谢异常可能是哮喘等过敏性气道疾病发生发展的重要驱动因素之一。深入解析铁离子调控炎症的具体机制，有助于识别新的疾病靶点。\n\n业内认为，这一成果为揭示哮喘发病机制和开发潜在干预策略提供了新的理论依据与研究方向，具有重要的生物医学意义。",
+    "category": "生物医药",
+    "tags": [
+      "生物医药",
+      "哮喘",
+      "过敏",
+      "Cell"
+    ],
+    "source": "MedicalXpress",
+    "time": "2分钟前",
+    "ts": "2026-07-06T15:50:01-04:00",
+    "url": "https://medicalxpress.com/news/2026-07-iron-trigger-asthma-linked-airway.html",
+    "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/researchers-reveal-iro.jpg",
+    "stocks": []
+  },
+  {
+    "id": "de9ac07ba87ead79",
+    "title": "Vercel CEO：AI Agent应与底层模型解耦",
+    "summary": "Vercel CEO Guillermo Rauch 在接受 TechCrunch 采访时表示，面向生产优化时，AI Agent 应与底层大模型解耦，开发者应基于性价比选择模型，而非固守单一模型。",
+    "body": "Vercel 首席执行官 Guillermo Rauch 近日在接受 TechCrunch 采访时表示，AI Agent 与底层大模型应当解耦。他认为，当 AI 产品真正面向生产环境优化时，开发者的核心关注点将从“使用哪个最新模型”转向“性价比”。\n\n将 Agent 架构与模型层分离，可让企业根据任务复杂度、响应速度、调用成本等灵活切换模型，降低对单一模型供应商的依赖。这一趋势有助于推动 AI 应用从实验原型走向规模化生产，并促进行业在模型层与应用层之间形成更明确的分工。\n\n作为面向前端与部署的云平台，Vercel 对 AI 推理成本和应用工程化高度关注。Rauch 的表态也反映出，随着 Agent 应用增多，业界正在围绕模型选择、成本控制和部署效率展开新的竞争。",
+    "category": "人工智能",
+    "tags": [
+      "AI Agent",
+      "大模型",
+      "AI应用",
+      "Vercel"
+    ],
+    "source": "TechCrunch",
+    "time": "3分钟前",
+    "ts": "2026-07-06T19:49:10+00:00",
+    "url": "https://techcrunch.com/2026/07/06/vercel-ceo-guillermo-rauch-on-the-fight-to-split-off-models-from-agents/",
+    "image": "",
+    "stocks": []
+  },
+  {
     "id": "d8ddd2c3c06fe8a4",
     "title": "新研究：轮胎污染物或增加阿尔茨海默病风险",
     "summary": "一项新研究利用网络药理学、转录组学、机器学习和分子对接等方法，系统探讨轮胎磨损颗粒在臭氧作用下生成的6PPD-醌与阿尔茨海默病之间的潜在关联。",
