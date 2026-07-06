@@ -1,5 +1,24 @@
 const newsData = [
   {
+    "id": "65cdb4db9eb4e6fa",
+    "title": "纤连蛋白通路或驱动马凡综合征主动脉损伤",
+    "summary": "发表于《自然·通讯》的一项研究揭示了纤连蛋白相关分子信号通路可能促进马凡综合征患者主动脉瘤和主动脉夹层的发生，为开发新疗法提供了潜在靶点。",
+    "body": "马凡综合征是一种影响结缔组织的遗传性疾病，患者常出现危及生命的主动脉瘤和主动脉夹层。新研究指出，主动脉壁结构改变通过纤连蛋白相关信号通路推动疾病进展。该发现深化了对马凡综合征心血管病变机制的理解，并有望为靶向药物研发提供新方向。",
+    "category": "生物医药",
+    "tags": [
+      "生物医药",
+      "马凡综合征",
+      "药物靶点",
+      "心血管研究"
+    ],
+    "source": "MedicalXpress",
+    "time": "刚刚",
+    "ts": "2026-07-06T14:40:06-04:00",
+    "url": "https://medicalxpress.com/news/2026-07-fibronectin-pathway-marfan-aortic-drug.html",
+    "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/new-study-identifies-k-1.jpg",
+    "stocks": []
+  },
+  {
     "id": "506f3c6ff46ae951",
     "title": "2026年科技巨头AI相关裁员动态追踪",
     "summary": "TechCrunch持续跟踪2026年以来将人工智能列为裁员因素的大型科技公司裁员公告，反映AI对科技行业就业市场的结构性影响。",
@@ -79,6 +98,24 @@ const newsData = [
     "time": "12分钟前",
     "ts": "2026-07-06T18:23:12+00:00",
     "url": "https://openwrt.org/toh/openwrt/one",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "b25a47366a606bc6",
+    "title": "Claude Fable发布：通过澄清未知提升AI协作质量",
+    "summary": "Anthropic推出Claude Fable模型，要求用户在协作中主动识别并澄清未知，以提升代码、设计与实现的工作质量。",
+    "body": "Claude Fable是Anthropic推出的新型AI模型，其特点在于要求用户主动澄清“未知”，才能获得高质量输出。它把问题拆解为已知的已知、已知的未知、未知的已知和未知的未知四类。\n\n用户可在实现前后借助Claude Fable与Claude Code进行盲点检查、头脑风暴、原型设计、实现笔记记录和答辩解释，持续迭代发现潜在问题。\n\n该模式强调人机协作中的认知补全，有助于挖掘代码库与设计实现中的隐藏风险，提高复杂项目的交付质量。",
+    "category": "人工智能",
+    "tags": [
+      "Claude",
+      "大模型",
+      "AI应用"
+    ],
+    "source": "AIHOT精选",
+    "time": "20分钟前",
+    "ts": "2026-07-06T18:20:11.364000+00:00",
+    "url": "https://claude.com/blog/a-field-guide-to-claude-fable-finding-your-unknowns",
     "image": "",
     "stocks": []
   },
