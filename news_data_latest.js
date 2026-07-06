@@ -1,17 +1,36 @@
 const newsData = [
   {
+    "id": "bc81c3283b06b613",
+    "title": "医疗“神圣时刻”有助缓解医生倦怠",
+    "summary": "新研究关注医疗场景中短暂而深刻的人际连接，探讨其在缓解临床医生职业倦怠和增强患者信任方面的价值。",
+    "body": "在医疗实践中，与患者的一次安静交谈、与同事的共同反思，或沉默中握住的一只手，这些短暂却有力的连接被称为“神圣时刻”。最新研究正聚焦于这些时刻，分析它们在应对临床医生职业倦怠和加强患者信任方面的作用。随着医护人员工作压力日益受到关注，理解并主动营造这些意义瞬间，或为改善医疗体验、修复医患关系提供新的实践路径。",
+    "category": "生物医药",
+    "tags": [
+      "医疗人文",
+      "医生倦怠",
+      "医患关系"
+    ],
+    "source": "MedicalXpress",
+    "time": "8分钟前",
+    "ts": "2026-07-06T17:20:06-04:00",
+    "url": "https://medicalxpress.com/news/2026-07-powers-sacred-moments-health.html",
+    "image": "https://scx1.b-cdn.net/csz/news/tmb/2024/doctor-and-patient-2.jpg",
+    "stocks": []
+  },
+  {
     "id": "58a1241848dc781b",
-    "title": "科学家发现调控肌肉自噬的两条神经回路",
-    "summary": "研究人员新发现两条神经回路可调控骨骼肌自噬水平，为理解与治疗肌肉萎缩等疾病提供新靶点。",
-    "body": "自噬是细胞清除受损蛋白、回收老化细胞器并应对应激的重要机制，对持续承受机械压力的肌肉尤为关键。过高或过低的自噬水平均会导致肌肉功能异常甚至组织降解。此次研究发现两条神经回路在调控肌肉自噬中发挥核心作用，有望为肌肉退行性疾病和萎缩相关病症的干预提供新方向。",
+    "title": "科学家发现两条调控肌肉自噬的神经回路",
+    "summary": "科学家发现两条神经回路可协调肌肉自噬水平，维持适度自噬对防止肌肉退化至关重要。",
+    "body": "自噬是细胞清除受损蛋白、回收衰老细胞器（如线粒体）、清理废物并在应激时提供营养的过程。肌肉因持续承受机械压力，对自噬尤为依赖：自噬不足会导致受损蛋白堆积、肌肉逐渐萎缩；自噬过强则可能使肌肉组织自我分解。最新研究揭示了能够协调肌肉自噬的两条神经回路，有助于将其维持在健康水平。该发现为理解肌肉退行性疾病及开发相关干预策略提供了新的神经调控靶点。",
     "category": "生物医药",
     "tags": [
       "神经科学",
       "肌肉自噬",
-      "生命科学"
+      "细胞生物学",
+      "生物医药"
     ],
     "source": "MedicalXpress",
-    "time": "7分钟前",
+    "time": "8分钟前",
     "ts": "2026-07-06T17:20:02-04:00",
     "url": "https://medicalxpress.com/news/2026-07-scientists-uncover-neuronal-circuits-orchestrating.html",
     "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/scientists-uncover-two.jpg",
@@ -19,26 +38,26 @@ const newsData = [
   },
   {
     "id": "0331b529b7f32a26",
-    "title": "Kraken Robotics 6.15亿加元收购 Covelya Group",
-    "summary": "水下机器人公司 Kraken Robotics 以约 6.15 亿加元收购 Covelya Group，意在扩展其海底技术产品组合与总目标市场，强化全球军民两用海底智能解决方案能力。",
-    "body": "Kraken Robotics Inc. 近日宣布以约 4.32 亿美元（6.15 亿加元）收购 Covelya Group Ltd.。公司表示，此次收购与其通过军民两用技术组合为客户创造价值的战略目标一致，将使其成为全球关键任务海底智能解决方案供应商。Covelya Group 的加入将扩展 Kraken 在海底技术领域的产品线，整合 3D 成像传感器、动力系统及无人海事系统等互补技术与客户关系。公司首席执行官 Greg Reid 称，合并后的工程团队将在综合海底技术解决方案上开展合作，并预计全球国防预算增长、特别是对自主水下系统投资增加，将进一步支撑其长期增长前景。",
+    "title": "Kraken Robotics 收购 Covelya，拓展水下机器人业务",
+    "summary": "水下机器人公司 Kraken Robotics 以约 4.32 亿美元（6.15 亿加元）收购 Covelya Group，旨在扩充海底技术产品线与总目标市场，强化双用途海底智能解决方案的全球布局。",
+    "body": "Kraken Robotics Inc. 近日宣布完成对 Covelya Group Ltd. 的收购，交易金额约 4.32 亿美元（约合 6.15 亿加元）。Kraken 表示，此次收购与其通过双用途技术组合为客户创造价值的战略目标一致。Covelya 的加入将扩展 Kraken 在海底技术领域的产品种类与可服务市场，涵盖 3D 成像传感器、动力系统及无人海上系统等关键能力。\n\n公司首席执行官 Greg Reid 称，合并后的 Kraken 将成为全球任务关键型双用途海底智能解决方案供应商。双方的产品、技术能力和客户关系互补，预计将增强 Kraken 的增长潜力与长期前景。客户也对整合工程团队、开发一体化海底技术方案表达了积极反馈。\n\n从行业影响看，全球防务预算上升以及对自主水下系统投资增加，为这类海底机器人和无人潜航器技术带来需求支撑。此次并购不仅提升 Kraken 在国防与商业市场的竞争力，也反映了海洋自主系统向集成化、智能化方向发展的趋势。",
     "category": "机器人",
     "tags": [
       "水下机器人",
-      "自主水下系统",
-      "军民两用",
-      "海底技术"
+      "自主潜航器",
+      "海洋科技",
+      "国防科技"
     ],
     "source": "The Robot Report",
-    "time": "26分钟前",
+    "time": "27分钟前",
     "ts": "2026-07-06T21:00:54+00:00",
     "url": "https://www.therobotreport.com/kraken-robotics-acquires-covelya-group-for-615m/",
     "image": "https://www.therobotreport.com/wp-content/uploads/2026/07/krakenrobotics-featured.jpg",
     "stocks": [
       {
         "name": "Kraken Robotics",
-        "ticker": "PNG.V",
-        "reason": "作为收购方，直接受益于产品线扩展、总目标市场扩大及国防预算增长预期",
+        "ticker": "KRKNF",
+        "reason": "公司直接收购 Covelya，扩展水下机器人、自主潜航器及双用途海底智能业务，强化长期增长潜力。",
         "confidence": "high"
       }
     ]
@@ -98,6 +117,32 @@ const newsData = [
     "url": "https://www.space.com/space-exploration/launches-spacecraft/spacex-falcon-9-transporter-17-rideshare-launch-81-satellites",
     "image": "https://cdn.mos.cms.futurecdn.net/waq39kHranv2VBaP3zDJfg-1280-80.jpg",
     "stocks": []
+  },
+  {
+    "id": "e63e305f73878a3a",
+    "title": "波士顿动力携Atlas与Spot亮相2026世界杯",
+    "summary": "波士顿动力与母公司现代汽车借2026年世界杯，让人形机器人Atlas表演足球技巧，四足机器人Spot参与场馆安防巡逻。",
+    "body": "2026年国际足联世界杯期间，现代汽车集团及旗下波士顿动力公司将派出足式机器人：人形机器人Atlas将展示带球与“Ghost Rabona”等花式射门动作，四足机器人Spot则承担赛事场馆的安全巡逻任务。现代汽车于2021年收购波士顿动力后，进一步拓展了与FIFA长达27年的世界杯合作，意在展示机器人学习、运动与执行实际任务的能力。\n\n业内人士表示，此次合作不仅是体育营销，也为人形机器人的动态平衡、敏捷动作以及四足机器人在安防巡检等场景的落地应用提供了高关注度舞台，有望加速相关技术的验证与商业化进程。",
+    "category": "机器人",
+    "tags": [
+      "机器人",
+      "人形机器人",
+      "四足机器人",
+      "世界杯"
+    ],
+    "source": "The Robot Report",
+    "time": "42分钟前",
+    "ts": "2026-07-06T20:45:48+00:00",
+    "url": "https://www.therobotreport.com/boston-dynamics-brings-its-legged-robots-to-the-fifa-world-cup/",
+    "image": "https://www.therobotreport.com/wp-content/uploads/2026/07/Atlas_soccer.jpg",
+    "stocks": [
+      {
+        "name": "现代汽车",
+        "ticker": "005380.KS",
+        "reason": "现代汽车是波士顿动力母公司，借世界杯展示Atlas/Spot机器人，提升品牌与机器人业务关注度",
+        "confidence": "medium"
+      }
+    ]
   },
   {
     "id": "c7625b05adc9e5d8",
