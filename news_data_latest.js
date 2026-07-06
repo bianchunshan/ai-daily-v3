@@ -1,5 +1,24 @@
 const newsData = [
   {
+    "id": "40ee79e9abdadf8f",
+    "title": "蓝色起源持续推进月球着陆器研制，同时恢复New Glenn事故",
+    "summary": "蓝色起源（Blue Origin）在 New Glenn 火箭发射台爆炸事故过去一个多月后，仍在继续开发 Blue Moon 月球着陆器，目前共有 7 台飞行器处于生产中。",
+    "body": "据 SpaceNews 报道，蓝色起源正继续推进 Blue Moon 月球着陆器项目，当前有 7 台相关飞行器在生产制造中；与此同时，公司还在从一个多月前 New Glenn 火箭发射台爆炸事故中恢复。\n\n这表明，尽管遭遇火箭地面设施的爆炸事故，蓝色起源仍在并行推进载人登月关键硬件的研发工作，显示出其对月球着陆业务的持续投入。\n\n不过，报道未披露事故对 Blue Moon 生产进度或未来发射计划的具体影响，后续仍需关注该公司如何在事故调查与月球着陆器研制之间协调资源与节奏。",
+    "category": "商业航天",
+    "tags": [
+      "蓝色起源",
+      "月球着陆器",
+      "商业航天",
+      "New Glenn"
+    ],
+    "source": "SpaceNews",
+    "time": "5分钟前",
+    "ts": "2026-07-06T20:09:47+00:00",
+    "url": "https://spacenews.com/blue-origin-continues-work-on-lunar-landers-during-recovery-from-new-glenn-explosion/",
+    "image": "https://i0.wp.com/spacenews.com/wp-content/uploads/2026/07/mk2alpha.jpeg?fit=1024%2C720&amp;ssl=1",
+    "stocks": []
+  },
+  {
     "id": "fee725d272dd5123",
     "title": "Cell发文揭示铁离子触发哮喘气道炎症机制",
     "summary": "中国科学院团队研究发现，铁离子通过激活特定信号通路在启动过敏性气道炎症中发挥关键作用，为哮喘发病机制研究提供新视角。",
@@ -34,6 +53,24 @@ const newsData = [
     "time": "3分钟前",
     "ts": "2026-07-06T19:49:10+00:00",
     "url": "https://techcrunch.com/2026/07/06/vercel-ceo-guillermo-rauch-on-the-fight-to-split-off-models-from-agents/",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "78d2d8e1141712a5",
+    "title": "每百万Token定价作为AI成本指标无意义",
+    "summary": "有开发者指出，单纯比较AI模型每百万Token的价格并不能反映真实成本，需结合性能、延迟和可靠性综合评估。",
+    "body": "Hacker News上出现一篇题为《Price per 1M tokens is meaningless》的讨论帖，指出当前以大模型API每百万Token的标价来衡量服务成本的做法存在明显局限。作者认为，不同模型在上下文长度、输出质量、推理速度、可用性和稳定性等方面差异显著，仅以单价对比容易误导选型决策。\n\n该观点提示企业和开发者在采购AI服务时，不应只看名义上的Token单价，而应综合计算总拥有成本与实际业务价值。这一讨论对大模型市场的定价透明度和竞争方式也具有一定参考价值。",
+    "category": "人工智能",
+    "tags": [
+      "大模型",
+      "AI定价",
+      "成本评估"
+    ],
+    "source": "Hacker News",
+    "time": "31分钟前",
+    "ts": "2026-07-06T19:43:36+00:00",
+    "url": "https://janilowski.pl/en/blog/2026/price-per-m-tokens/",
     "image": "",
     "stocks": []
   },
@@ -127541,6 +127578,12 @@ const newsData = [
   }
 ];
 const newsDigest = {
-  "text": "",
-  "highlights": []
+  "text": "今日科技前沿：AI Agent架构争议升温，Vercel呼吁与底层模型解耦；谷歌将用户上传搜索媒体用于训练AI引发数据权益关注；Cell揭示铁离子触发哮喘气道炎症新机制；蓝色起源推进月球着陆器研制并恢复New Glenn事故调查；特斯拉Cybercab量产提速，无方向盘设计引监管质疑。",
+  "highlights": [
+    "de9ac07ba87ead79",
+    "5f1f7f3934cd2009",
+    "fee725d272dd5123",
+    "40ee79e9abdadf8f",
+    "f640383b90da93de"
+  ]
 };
