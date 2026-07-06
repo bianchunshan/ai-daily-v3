@@ -1,5 +1,23 @@
 const newsData = [
   {
+    "id": "1b6fff3509525fc1",
+    "title": "研究显示暴力或使女性提前20个月进入更年期",
+    "summary": "西班牙格拉纳达大学一项综述研究发现，女性一生中遭受暴力与更年期提前及更严重症状相关，绝经时间可能提早约20个月。",
+    "body": "西班牙格拉纳达大学妇产科团队在《Maturitas》期刊发表综述研究指出，女性遭受暴力的影响可持续至中年，经历暴力的女性更年期症状更严重，绝经时间可能比未受暴力女性提前多达20个月。研究还指出，每有一名女性死于暴力，就有超过400名女性因此留下严重残疾，这些后遗症常被误认为是更年期症状或被更年期加重。该研究提示，针对女性的暴力不仅是公共卫生问题，也可能对女性中年健康产生长期影响。",
+    "category": "生物医药",
+    "tags": [
+      "女性健康",
+      "更年期",
+      "暴力研究"
+    ],
+    "source": "MedicalXpress",
+    "time": "8分钟前",
+    "ts": "2026-07-06T11:40:01-04:00",
+    "url": "https://medicalxpress.com/news/2026-07-violence-menopause-months-earlier.html",
+    "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/domestic-violence-2.jpg",
+    "stocks": []
+  },
+  {
     "id": "9c5f4fc27bde4b06",
     "title": "Reddit以AI治理AI虚假内容与仇恨言论",
     "summary": "Reddit正利用大语言模型识别和处置平台上的虚假账号、垃圾内容及不真实的点赞互动，以应对AI生成内容泛滥带来的治理挑战。",
