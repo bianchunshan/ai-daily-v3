@@ -1,5 +1,62 @@
 const newsData = [
   {
+    "id": "1282687f7a6f066a",
+    "title": "APTSell获DCM数百万美元种子轮，要做AI首席销售官",
+    "summary": "AI销售管理创业公司APTSell宣布完成DCM Ventures独家投资的数百万美元种子轮融资，资金将用于产品技术研发迭代与商业化合作。其产品通过组合式Agent整合销售全流程数据，为销售团队提供管理决策与执行建议。",
+    "body": "北京治真治合科技有限公司成立于2024年，旗下产品APTSell定位为\"AI版首席销售官\"，通过行为Agent、项目Agent、Review Agent和Best Practice Agent四类协同Agent，将销售数据采集、项目诊断、管理复盘与经验沉淀串联成闭环，以提升销售效率并降低对传统销售管理经验的依赖。\n\n公司创始人赵雷拥有超过10年Oracle销售及管理经验和多次企业服务销售顾问经历，联合创始人朱振博则具备IBM、微软等企业级软件与机器学习背景。APTSell已进入PMF验证阶段，并已获得DCM Ventures种子轮及Atom Capital天使轮投资。\n\n此次融资将进一步推动APTSell在产品技术研发和商业化合作方面的投入。作为面向销售管理场景的AI Agent应用，其发展也反映出企业对\"离钱最近\"的销售环节进行AI重塑的需求正在升温。",
+    "category": "人工智能",
+    "tags": [
+      "AI Agent",
+      "销售SaaS",
+      "企业软件",
+      "智能体"
+    ],
+    "source": "36氪",
+    "time": "刚刚",
+    "ts": "2026-07-06T07:59:13.030015+00:00",
+    "url": "https://36kr.com/p/3883591654895873?f=rss",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "c157334e1314e019",
+    "title": "Mistral AI开源Leanstral 1.5，专攻数学形式化证明",
+    "summary": "Mistral AI发布面向Lean 4的Leanstral 1.5开源模型，119B总参数仅激活6B，在多项形式数学基准测试中表现领先，并以极低推理成本引发关注。",
+    "body": "欧洲人工智能企业Mistral AI近日推出面向数学形式化证明程序语言Lean 4的Leanstral 1.5模型。该模型总参数量119B、激活参数仅6B，采用Apache-2.0许可开源，并在miniF2F验证集与测试集上均实现100%完成率；在PutnamBench的672道Lean 4问题中可解决587道，在硕士级FATE-H和博士级FATE-X抽象代数基准测试上也取得当前最佳表现。\n\nMistral AI同时强调该模型的成本优势：处理PutnamBench问题的平均开销仅约4美元，远低于Seed-Prover 1.5的300美元以上和Aleph Prover的54至68美元。在实际代码库测试中，Leanstral 1.5在57个代码库里发现47个违规属性，其中11个对应真实缺陷，包括5个此前未在GitHub报告的问题。此举有望推动自动形式化证明与软件验证领域降低门槛并加速落地。",
+    "category": "人工智能",
+    "tags": [
+      "大模型",
+      "开源模型",
+      "数学推理",
+      "形式化证明"
+    ],
+    "source": "IT之家",
+    "time": "4分钟前",
+    "ts": "2026-07-06T07:54:25+00:00",
+    "url": "https://www.ithome.com/0/973/135.htm",
+    "image": "https://img.ithome.com/newsuploadfiles/2026/7/b19eeb9d-a286-446a-bf5d-da3117258fa0.png",
+    "stocks": []
+  },
+  {
+    "id": "72d8cca04462b8a1",
+    "title": "OPPO Find X10 Ultra 影像曝光：2亿主摄+微云台",
+    "summary": "数码博主爆料称，OPPO下一代Ultra旗舰Find X10 Ultra正评估2亿像素主摄与微云台结构，屏幕与影像规格有望进一步升级。",
+    "body": "IT之家7月6日消息，数码博主“数码闲聊站”爆料称，某厂Ultra迭代旗舰预计为OPPO Find X10 Ultra。该机影像系统正在评估2亿像素、1/1.12英寸LOFIC传感器主摄，并同步评估微云台结构，以获得更大光学防抖角度。此前该博主还透露，这款旗舰或配备约6.89英寸2K LTPO显示屏，采用大R角与极窄四等边封装方案，并支持BT.2020色域与新一代发光材料。不过，OPPO Find X系列产品负责人此前已确认，Find X10 Ultra今年不会上市。该爆料更多展示了OPPO在移动影像与屏幕工艺上的技术储备，对旗舰市场具有一定风向标意义。",
+    "category": "消费电子",
+    "tags": [
+      "智能手机",
+      "影像技术",
+      "OPPO",
+      "旗舰手机"
+    ],
+    "source": "IT之家",
+    "time": "6分钟前",
+    "ts": "2026-07-06T07:51:55+00:00",
+    "url": "https://www.ithome.com/0/973/131.htm",
+    "image": "https://img.ithome.com/newsuploadfiles/2026/7/3d6441bb-9487-421f-b232-98efbd4abfd4.png?x-bce-process=image/format,f_auto",
+    "stocks": []
+  },
+  {
     "id": "df84934a4de8d372",
     "title": "SK海力士拟在美发行ADR筹资43万亿韩元",
     "summary": "SK海力士计划通过发行美国存托凭证（ADR）在美国上市，预计筹资约43万亿韩元，以支持其在高端存储及高带宽存储器领域的扩张。",
@@ -505,6 +562,43 @@ const newsData = [
         "confidence": "high"
       }
     ]
+  },
+  {
+    "id": "a293cb3a14b0c637",
+    "title": "AI成本超过工程师薪资引发关注",
+    "summary": "有文章指出，在某些场景下企业使用人工智能的成本可能已超过雇佣工程师的费用，引发对AI投资回报率的讨论。",
+    "body": "该材料援引一篇题为《When AI Costs More Than the Engineer》的文章，关注当前部分企业在使用人工智能时，其模型调用、平台订阅或相关服务费用可能已高于雇佣一名工程师的成本。\n\n这一现象提示，尽管AI被寄予厚望，但在实际落地中仍需权衡投入产出比，避免为技术本身支付过高溢价。\n\n若该趋势持续，可能促使企业更审慎地评估AI采购、内部自建与人力配置，从而影响AI应用的商业化节奏与定价策略。",
+    "category": "人工智能",
+    "tags": [
+      "AI成本",
+      "企业AI",
+      "投资回报率"
+    ],
+    "source": "Hacker News",
+    "time": "53分钟前",
+    "ts": "2026-07-06T07:05:25+00:00",
+    "url": "https://tomtunguz.com/ai-spend-breakeven-2029/",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "61926b0c8af12eaf",
+    "title": "AI数秒内生成可制造参数化3D模型",
+    "summary": "一项新技术能够在数秒内生成参数化、可直接用于制造的3D模型，有望提升工业设计效率。",
+    "body": "据报道，一项新的生成技术可在数秒内输出参数化、可制造的3D模型。这类能力将计算机辅助设计（CAD）与生成式算法结合，帮助工程师和设计师快速迭代原型。若落地成熟，可能缩短产品从概念到制造的周期，并对工业软件、增材制造和智能制造等领域产生影响。目前公开信息有限，具体技术细节和商业落地路径仍需进一步观察。",
+    "category": "人工智能",
+    "tags": [
+      "生成式AI",
+      "3D建模",
+      "工业软件",
+      "智能制造"
+    ],
+    "source": "Hacker News",
+    "time": "54分钟前",
+    "ts": "2026-07-06T07:04:33+00:00",
+    "url": "https://kyrall.com/",
+    "image": "",
+    "stocks": []
   },
   {
     "id": "360a2661b4a27e2a",
