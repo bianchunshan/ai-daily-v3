@@ -1,5 +1,61 @@
 const newsData = [
   {
+    "id": "3d139d0a80e39f8d",
+    "title": "YC孵化隐身机器人初创公司招聘首席工程师",
+    "summary": "一家获Y Combinator支持的隐身机器人初创公司正在加州帕洛阿尔托招聘机械、固件和软件首席工程师。该公司专注可穿戴机器人设备，首款产品旨在降低长距离负重的人体消耗，已在真实用户和严苛场景下测试。",
+    "body": "这家位于帕洛阿尔托的早期机器人公司由Y Combinator及多家深度科技投资者支持，目前仍处于隐身模式。公司正在招聘三名首席工程师，分别负责机械平台、嵌入式固件和软件基础设施，要求候选人在机器人、人形机器人或高性能作动系统等领域有实际开发经验。\n\n公司的首款产品是一款可穿戴机器人设备，用于减轻长距离搬运重物的体力成本，帮助使用者走得更远、携带更多并减少疲劳。该产品已在真实用户和极具挑战的户外环境中进行测试，工程师所开发的硬件和软件可在数周内直接部署到用户端。\n\n此次招聘反映出可穿戴机器人和外骨骼领域正吸引越来越多的创业与资本关注，相关技术有望在物流、户外作业和人体增强等场景逐步落地。",
+    "category": "机器人",
+    "tags": [
+      "机器人",
+      "可穿戴设备",
+      "外骨骼",
+      "Y Combinator"
+    ],
+    "source": "Hacker News",
+    "time": "5分钟前",
+    "ts": "2026-07-06T16:33:04+00:00",
+    "url": "https://news.ycombinator.com/item?id=48806976",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "7c04919a5fd50fa4",
+    "title": "澳洲海滩现神秘金属球 疑为外国火箭残骸",
+    "summary": "澳大利亚航天局称，昆士兰海滩上发现的不明金属球很可能是来自外国火箭箭体的空间碎片，目前当局正在与国际机构确认发射载具及发射国身份。",
+    "body": "据澳大利亚航天局7月5日晚间在X平台发布的声明，昆士兰州福里斯特海滩发现的数枚金属外观球体已被初步确认为航天发射器的压力容器。这些物体的位置和特征与近期从轨道再入大气层的外国火箭残骸相符。\n\n该局正与昆士兰州当局、国家应急管理机构以及国际相关部门合作，以正式确认火箭型号及发射国。同时，航天局提醒民众切勿触碰这些可能存在危险的碎片，发现后应立即报告。这一事件再次引发对火箭残骸再入与空间碎片地面安全风险的关注。",
+    "category": "商业航天",
+    "tags": [
+      "火箭残骸",
+      "空间碎片",
+      "航天安全"
+    ],
+    "source": "Space.com",
+    "time": "8分钟前",
+    "ts": "2026-07-06T16:30:00+00:00",
+    "url": "https://www.space.com/space-exploration/launches-spacecraft/unidentified-metal-spheres-found-on-australian-beach-are-debris-from-a-foreign-rocket-body-space-agency-says",
+    "image": "https://cdn.mos.cms.futurecdn.net/eU9stym4hGmZFSUaPYvVjU-1280-80.jpg",
+    "stocks": []
+  },
+  {
+    "id": "0bcd8eedc44e788b",
+    "title": "AI虚拟角色Tilly Norwood将“主演”电影",
+    "summary": "据外媒报道，由人工智能创造的虚拟角色Tilly Norwood将“主演”一部长片电影，显示出生成式AI正进入影视内容创作领域。",
+    "body": "据外媒Engadget报道，一个名为Tilly Norwood的“AI golem”虚拟角色据称将在一部故事长片中担任“主演”。该角色并非真实存在的人类演员，而是由人工智能技术创造出的数字形象。\n\n这一消息反映出生成式AI的应用正从文本、图像生成向影视内容制作延伸，引发业界对虚拟演员、数字人及AI参与叙事创作的兴趣。不过，目前公开信息有限，影片的制作方、上映安排与技术细节尚未披露。",
+    "category": "人工智能",
+    "tags": [
+      "人工智能",
+      "生成式AI",
+      "虚拟角色",
+      "影视"
+    ],
+    "source": "Engadget",
+    "time": "9分钟前",
+    "ts": "2026-07-06T16:28:38+00:00",
+    "url": "https://www.engadget.com/2208729/ai-golem-tilly-norwood-is-reportedly-starring-in-a-feature-length-movie/",
+    "image": "https://www.engadget.com/img/gallery/ai-golem-tilly-norwood-is-reportedly-starring-in-a-feature-length-movie/l-intro-1783355190.jpg",
+    "stocks": []
+  },
+  {
     "id": "34823863489efe94",
     "title": "苹果在印度恢复Apple Account银行卡支付",
     "summary": "苹果在印度重新启用Apple Account购买的银行卡支付，此前因当地监管要求已暂停近四年。公司表示已完成印度支付框架适配，正分阶段上线。",
