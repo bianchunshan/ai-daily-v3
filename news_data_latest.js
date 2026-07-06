@@ -1,5 +1,24 @@
 const newsData = [
   {
+    "id": "f507408917ef37f2",
+    "title": "PET扫描首次揭示亨廷顿病分期的tau信号",
+    "summary": "西班牙研究机构首次在活体患者脑中发现随亨廷顿病病程变化的tau蛋白信号，为疾病监测生物标志物和新疗法开发提供了可能。",
+    "body": "西班牙圣保罗研究院（IR Sant Pau）与圣保罗医院合作开展的一项研究发现，通过PET扫描可以在活体亨廷顿病患者脑中识别出与tau蛋白相关的脑模式，且该信号随疾病分期而变化。这是首次在活体个体中观察到这一现象，突破了以往依赖尸检或动物模型的限制。\n\n研究人员指出，这一发现不仅为亨廷顿病的病程监测提供了新的潜在生物标志物，还有望推动针对该病的治疗药物研发。目前亨廷顿病尚无任何获批的治疗手段，新的影像学标志物可能加速临床试验设计和疗效评估。",
+    "category": "生物医药",
+    "tags": [
+      "亨廷顿病",
+      "tau蛋白",
+      "PET影像",
+      "神经退行性疾病"
+    ],
+    "source": "MedicalXpress",
+    "time": "5分钟前",
+    "ts": "2026-07-06T07:52:10-04:00",
+    "url": "https://medicalxpress.com/news/2026-07-pet-scans-reveal-stage-linked.html",
+    "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/new-insights-into-the-8.jpg",
+    "stocks": []
+  },
+  {
     "id": "de1f38f7eeb4298f",
     "title": "RTX 5090+9800X3D游戏主机降价超千美元",
     "summary": "新蛋旗下ABS品牌Kaze II Ruby高端游戏PC打折后约4749美元，搭载英伟达RTX 5090与AMD 9800X3D，折扣力度使其仅比单买显卡贵16%。",
