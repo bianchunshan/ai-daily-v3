@@ -1,5 +1,62 @@
 const newsData = [
   {
+    "id": "801925dac170d615",
+    "title": "脑肿瘤疫苗靶向突变带来八年生存获益",
+    "summary": "一项针对恶性脑瘤的新型疫苗策略在临床试验中展现出长期积极结果，可激活患者免疫系统攻击肿瘤常见基因突变，部分患者生存期延长约八年。",
+    "body": "德国癌症研究中心（DKFZ）、曼海姆大学医学中心、海德堡大学医院等多家机构的研究人员公布了一项新型脑瘤疫苗临床试验的长期积极数据。该疫苗通过激活患者自身免疫系统，识别并攻击某些恶性脑肿瘤中常见的基因突变，从而在部分患者中实现了长达八年的生存获益。\n\n研究团队强调，这一疫苗策略有望为恶性脑瘤患者提供根本性治疗改善。尽管相关成果仍来自学术研究阶段的临床试验，但若后续更大规模研究能复现上述长期生存优势，或将推动脑瘤免疫治疗进入新阶段，并对癌症疫苗研发产生示范意义。",
+    "category": "生物医药",
+    "tags": [
+      "脑肿瘤疫苗",
+      "免疫疗法",
+      "癌症疫苗",
+      "基因突变靶向"
+    ],
+    "source": "MedicalXpress",
+    "time": "8分钟前",
+    "ts": "2026-07-06T12:00:09-04:00",
+    "url": "https://medicalxpress.com/news/2026-07-brain-tumor-vaccine-links-mutation.html",
+    "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/vaccine-against-brain.jpg",
+    "stocks": []
+  },
+  {
+    "id": "2030fc9b7719549c",
+    "title": "美国犹他州AI自动续方引发医生担忧",
+    "summary": "美国犹他州今年初悄然上线了一项由人工智能驱动的处方续方项目，引发医学界关于AI能否安全承担传统上只能由医生完成的任务的广泛争论，不少医生对此持谨慎态度。",
+    "body": "据外媒报道，美国犹他州今年初低调推出了一项AI驱动的处方自动续方项目，该项目旋即在医疗界激起大讨论：人工智能是否已经准备好接管以往只能由医生执行的工作？\n\n这一项目的核心在于利用自动化系统处理处方续方流程，理论上可提高效率、减轻医生负担。然而，许多医生对其安全性与可靠性表示担忧，担心AI可能无法充分评估患者的复杂病情、药物相互作用以及个体化治疗需求。\n\n此事折射出医疗领域在引入AI过程中面临的普遍张力：一方面，自动化有望缓解人力不足、提升服务可及性；另一方面，临床决策涉及患者安全，医生与监管机构对将关键职责交给算法仍保持高度审慎。",
+    "category": "生物医药",
+    "tags": [
+      "人工智能",
+      "数字医疗",
+      "处方续方",
+      "医疗监管"
+    ],
+    "source": "MedicalXpress",
+    "time": "8分钟前",
+    "ts": "2026-07-06T12:00:03-04:00",
+    "url": "https://medicalxpress.com/news/2026-07-ai-ready-prescriptions-doctors-wary.html",
+    "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/is-ai-ready-to-take-ov.jpg",
+    "stocks": []
+  },
+  {
+    "id": "42be4889fbda8e5f",
+    "title": "全球首台超导磁推进器在轨测试成功",
+    "summary": "新西兰Zenno Astronautics公司研制的“Supertorquer”超导磁推进器首次在卫星轨道测试中利用地球磁场实现无燃料姿态控制，标志着无需推进剂的太空推进技术迈出关键一步。",
+    "body": "据Space.com报道，新西兰公司Zenno Astronautics（奥克兰大学衍生公司）研制的“Supertorquer”超导磁推进器已完成首次在轨测试。该装置搭载于加州初创公司Impulse Space建造的Mira卫星，在去年11月随SpaceX Transporter 12任务发射升空后不久开始工作。这个鞋盒大小的设备通过超导磁体产生磁场，与地球磁场相互作用，从而控制卫星相对于地球的姿态转向，避免其在太空中剧烈翻滚。\n\n超导磁体由零电阻超导线圈构成，理论上可将太阳能直接转化为动量，为航天器提供无需燃料的加速度。过去这项技术因体积庞大、结构复杂而难以装入卫星，Zenno的最新成果显示其已实现小型化。\n\n若该技术成熟，未来卫星有望摆脱传统化学推进剂，延长在轨寿命、降低运营成本，并可能改变航天器姿态控制与轨道维持方式。",
+    "category": "商业航天",
+    "tags": [
+      "超导推进器",
+      "卫星姿态控制",
+      "无燃料推进",
+      "商业航天"
+    ],
+    "source": "Space.com",
+    "time": "8分钟前",
+    "ts": "2026-07-06T16:00:00+00:00",
+    "url": "https://www.space.com/technology/acceleration-without-fuel-revolutionary-superconducting-thruster-harnesses-earths-magnetic-field-in-1st-orbital-test",
+    "image": "https://cdn.mos.cms.futurecdn.net/CarGj6ho9sApv4c6sWSTqU-1280-80.jpg",
+    "stocks": []
+  },
+  {
     "id": "e83d329c91b5d6dd",
     "title": "NASA商业卫星数据计划新增三家欧洲企业",
     "summary": "NASA商业卫星数据采办计划（CSDA）6月23日宣布与8家新的商业卫星数据供应商签约，其中3家为欧洲公司。此举将丰富NASA的遥感数据来源，并推动国际商业航天合作。",
@@ -34,6 +91,25 @@ const newsData = [
     "ts": "2026-07-06T11:40:01-04:00",
     "url": "https://medicalxpress.com/news/2026-07-violence-menopause-months-earlier.html",
     "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/domestic-violence-2.jpg",
+    "stocks": []
+  },
+  {
+    "id": "6b7e3847e7a74e65",
+    "title": "好莱坞意外道破智能眼镜的文化困境",
+    "summary": "文章认为，Netflix剧集《A Man on the Inside》无意中揭示了当前智能眼镜最大的文化问题：设备普及可能带来的隐私与社交信任危机。",
+    "body": "作者长期认为好莱坞既塑造了公众对智能眼镜的想象，也破坏了人们对其实际体验的预期。在追完两季Netflix剧集《A Man on the Inside》后，他指出该剧或许首次无意中呈现了当下智能眼镜的核心文化问题。智能眼镜因其便于隐蔽拍摄，可能在日常生活中被用于监视，进而引发隐私侵犯和人际信任危机，这对该类产品的大众接受度构成深远影响。",
+    "category": "消费电子",
+    "tags": [
+      "智能眼镜",
+      "可穿戴设备",
+      "隐私",
+      "XR"
+    ],
+    "source": "The Verge",
+    "time": "31分钟前",
+    "ts": "2026-07-06T11:36:19-04:00",
+    "url": "https://www.theverge.com/column/961707/smart-glasses-ai-wearables-meta-surveillance-privacy",
+    "image": "",
     "stocks": []
   },
   {
@@ -297,6 +373,32 @@ const newsData = [
     "url": "https://medicalxpress.com/news/2026-07-calms-infants-mouse-pups.html",
     "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/why-the-back-how-strok.jpg",
     "stocks": []
+  },
+  {
+    "id": "7a6c1a427cbdde1b",
+    "title": "Chrome被曝在用户PC静默安装4GB AI模型",
+    "summary": "消息称，Google Chrome被曝在Windows PC上静默安装一个约4GB的本地AI模型，引发用户对存储占用与隐私的关注。",
+    "body": "据报道，Google Chrome被曝在用户的个人电脑上自动安装了一个体积约4GB的人工智能模型。该行为被指可能在用户未明确授权的情况下进行，引发了对本地存储占用、带宽消耗及隐私处理的讨论。\n\n本地运行AI模型是浏览器与终端设备深度集成的重要趋势，可能用于实现离线智能功能与个性化体验。然而，模型的静默分发也凸显了在AI落地过程中，透明度、用户选择权及资源管理等问题仍需行业与监管共同关注。",
+    "category": "人工智能",
+    "tags": [
+      "Chrome",
+      "Google",
+      "端侧AI",
+      "隐私"
+    ],
+    "source": "Hacker News",
+    "time": "1小时前",
+    "ts": "2026-07-06T15:01:44+00:00",
+    "url": "https://oztalking.com/en/issues/hidden-4gb-ai-model",
+    "image": "",
+    "stocks": [
+      {
+        "name": "Alphabet（谷歌）",
+        "ticker": "GOOGL",
+        "reason": "Chrome为其核心浏览器产品，本地AI模型集成有望强化其终端AI生态与搜索/广告体验",
+        "confidence": "medium"
+      }
+    ]
   },
   {
     "id": "b719c88aa7f5b453",
