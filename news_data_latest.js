@@ -19,6 +19,25 @@ const newsData = [
     "stocks": []
   },
   {
+    "id": "05128b350f8b71f2",
+    "title": "日本隼鸟2号拍下6200万英里外双瓣小行星",
+    "summary": "日本宇宙航空研究开发机构的隼鸟2号探测器近距离飞掠阿波罗群小行星Torifune，传回其光学与中红外影像，为研究小行星成分与热物理特性提供新数据。",
+    "body": "据JAXA消息，隼鸟2号探测器于7月5日近距离飞掠小行星Torifune。该小行星直径约450米，当时距地球约1亿公里，是迄今少数高速近距离掠过的小行星之一。探测器的光学相机拍下其呈双瓣状的外形，并通过中红外相机（TIR）获取表面温度、热惯性和粗糙度数据。科学家发现，光学影像中较阴暗区域在中红外影像中更冷，向阳面则更热。这些数据将有助于了解小行星的形成、演化及表面物理特性。",
+    "category": "商业航天",
+    "tags": [
+      "深空探测",
+      "小行星探测",
+      "日本航天",
+      "隼鸟2号"
+    ],
+    "source": "Space.com",
+    "time": "8分钟前",
+    "ts": "2026-07-06T14:20:04+00:00",
+    "url": "https://www.space.com/space-exploration/asteroid-comet-missions/japans-hayabusa2-probe-captures-remarkable-photo-of-a-two-headed-asteroid-62-million-miles-away",
+    "image": "https://cdn.mos.cms.futurecdn.net/ZCSKcoDFPog59bgwJHaA3F-1280-80.jpg",
+    "stocks": []
+  },
+  {
     "id": "f2b2e2b3ade897a9",
     "title": "任天堂秋季在欧洲推出可更换电池版Switch 2",
     "summary": "任天堂宣布为应对2027年生效的欧盟电池新规，今年秋季起在欧洲销售可更换电池版Switch 2主机及Joy-Con手柄，初代Switch将直接停售。",
