@@ -1,18 +1,164 @@
 const newsData = [
   {
+    "id": "4c738e87ae117eea",
+    "title": "微软Xbox拟裁员3200人并剥离四家游戏工作室",
+    "summary": "微软计划裁减约6400个岗位，其中Xbox部门将在未来一年内裁员3200人，约占该部门员工总数20%，并剥离四家游戏开发工作室，以精简业务并聚焦大型项目。",
+    "body": "据报道，微软正启动新一轮大规模裁员，计划削减约6400个工作岗位。其中，Xbox部门预计在未来一年内裁减约3200个职位，占该部门员工总数的约20%。微软方面表示，此举旨在精简组织架构，将更多资源投入到规模更大的战略项目中。\n\n作为重组计划的一部分，Xbox还将剥离四家电子游戏开发工作室。此次调整反映出微软在游戏业务板块持续优化成本结构、提升运营效率的意图，也可能对全球游戏开发产业链及相关合作方产生一定影响。",
+    "category": "消费电子",
+    "tags": [
+      "微软",
+      "Xbox",
+      "游戏行业",
+      "裁员"
+    ],
+    "source": "36氪",
+    "time": "刚刚",
+    "ts": "2026-07-06T23:05:43.435762+00:00",
+    "url": "https://36kr.com/newsflashes/3884762376663043?f=rss",
+    "image": "",
+    "stocks": [
+      {
+        "name": "微软",
+        "ticker": "MSFT",
+        "reason": "作为Xbox母公司，游戏业务重组直接影响其成本结构与战略聚焦",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "5c43bd8deb2e0583",
+    "title": "激素差异有望催生子宫内膜异位症血液检测",
+    "summary": "研究发现，子宫内膜异位症患者体内一组此前被忽视的雄激素水平存在明显差异，有望通过血液检测识别，从而革新该疾病的诊断方式。",
+    "body": "据英国研究人员在《自然·通讯》发表的研究，子宫内膜异位症患者体内一组此前被忽视的雄激素（即所谓的“男性激素”，女性体内也存在）水平存在显著差异。研究团队据此开发了一种基于血液样本的诊断模型，在独立验证队列中识别该疾病的准确率约为85%。\n\n目前子宫内膜异位症诊断通常依赖侵入性腹腔镜手术，平均确诊延迟可达7至9年。若血液检测方案最终获批并应用于临床，有望大幅缩短诊断时间、减轻患者负担。不过研究者也强调，该方法尚需更大规模临床试验验证。",
+    "category": "生物医药",
+    "tags": [
+      "子宫内膜异位症",
+      "体外诊断",
+      "激素检测",
+      "女性健康"
+    ],
+    "source": "MedicalXpress",
+    "time": "5分钟前",
+    "ts": "2026-07-06T19:00:14-04:00",
+    "url": "https://medicalxpress.com/news/2026-07-hormone-differences-pave-endometriosis-blood.html",
+    "image": "https://scx1.b-cdn.net/csz/news/tmb/2025/endometriosis-1.jpg",
+    "stocks": []
+  },
+  {
+    "id": "d1e88a462cd8bba2",
+    "title": "研究发现超加工食品会升高血液中有害脂肪酸水平",
+    "summary": "一项发表于《Critical Reviews in Food Science and Nutrition》的国际研究首次采用靶向代谢组学，对欧洲大规模队列进行分析，发现摄入超加工食品会在血液中形成独特的代谢“指纹”，并与较高水平的“有害”脂肪酸及潜在不良健康状况相关。",
+    "body": "该研究由国际研究团队完成，首次将靶向代谢组学技术应用于分析超加工食品摄入对欧洲大规模人群的影响。结果显示，大量摄入超加工食品的人群血液中存在明显的代谢特征，这种特征与潜在的健康风险有关，尤其是与某些被认为对健康不利的脂肪酸水平升高相关。\n\n研究人员指出，这一代谢“签名”可能有助于理解超加工食品如何通过代谢途径影响人体健康，并为相关健康风险的早期识别提供潜在的生物标志物。不过，研究主要基于观察性代谢谱分析，具体的因果机制以及公共健康干预策略仍需进一步验证。",
+    "category": "生物医药",
+    "tags": [
+      "超加工食品",
+      "代谢组学",
+      "营养健康",
+      "生物医学"
+    ],
+    "source": "MedicalXpress",
+    "time": "5分钟前",
+    "ts": "2026-07-06T19:00:13-04:00",
+    "url": "https://medicalxpress.com/news/2026-07-ultra-foods-linked-higher-bad.html",
+    "image": "https://scx1.b-cdn.net/csz/news/tmb/2022/potato-chips-1.jpg",
+    "stocks": []
+  },
+  {
+    "id": "b667a7c54b9297be",
+    "title": "2023年欧洲辅助生殖治疗周期超115万例，冻胚移植影响扩大",
+    "summary": "欧洲人类生殖与胚胎学会年会初步数据显示，2023年欧洲辅助生殖技术（ART）治疗周期超过115万例，冻胚移植技术的应用影响持续增长。",
+    "body": "欧洲试管婴儿监测联盟（EIM）在欧洲人类生殖与胚胎学会（ESHRE）第42届年会上发布初步数据，2023年欧洲报告的辅助生殖技术（ART）治疗周期超过115万例。这一数据表明，冻胚移植技术正在对欧洲辅助生殖领域产生越来越重要的影响，逐渐成为主流治疗路径之一。相关趋势反映出辅助生殖服务需求持续上升，对全球辅助生殖医疗服务商及相关医疗器械、胚胎培养耗材市场具有一定参考意义。",
+    "category": "生物医药",
+    "tags": [
+      "辅助生殖",
+      "试管婴儿",
+      "冻胚移植",
+      "生物医药"
+    ],
+    "source": "MedicalXpress",
+    "time": "5分钟前",
+    "ts": "2026-07-06T19:00:11-04:00",
+    "url": "https://medicalxpress.com/news/2026-07-million-fertility-treatment-europe-impact.html",
+    "image": "https://scx1.b-cdn.net/csz/news/tmb/2021/treatment.jpg",
+    "stocks": [
+      {
+        "name": "锦欣生殖",
+        "ticker": "01951.HK",
+        "reason": "亚洲领先的辅助生殖服务提供商，直接受益于全球IVF行业增长与冻胚移植技术渗透率提升",
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
+    "id": "7d97ed815ddba9cc",
+    "title": "辅助生殖费用减半或使出生率翻倍",
+    "summary": "一项大型国际研究发现，患者自付费用减半与辅助生殖技术（ART）婴儿出生数量增加2.67倍相关。",
+    "body": "一项具有里程碑意义的国际研究显示，将患者在接受辅助生殖技术（ART）治疗时的自付费用减半，可使通过该技术出生的婴儿数量增加约2.67倍。该研究覆盖多个国家和人群，揭示了医疗费用对治疗可及性和生育结果的关键影响。专家指出，降低辅助生殖经济门槛可能显著改变不孕不育夫妇的治疗选择，并对公共卫生政策和生育保险制度具有重要参考价值。",
+    "category": "生物医药",
+    "tags": [
+      "辅助生殖",
+      "医疗成本",
+      "生育率",
+      "全球健康"
+    ],
+    "source": "MedicalXpress",
+    "time": "5分钟前",
+    "ts": "2026-07-06T19:00:09-04:00",
+    "url": "https://medicalxpress.com/news/2026-07-halving-fertility-treatment-births-major.html",
+    "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/new-parents.jpg",
+    "stocks": []
+  },
+  {
+    "id": "8fa5efd0d2bc4a04",
+    "title": "空气污染或改变精子基因功能，大型生育研究警示",
+    "summary": "一项发表于《人类生殖》的研究显示，空气污染暴露可能影响与精子发育相关的基因功能，为男性生育力、妊娠结局及子代健康带来新的疑问。",
+    "body": "第42届欧洲人类生殖与胚胎学会（ESHRE）年会发布的一项大型研究指出，空气污染暴露或许会影响与精子发育相关的基因，其功能变化可能波及男性生育力、妊娠结果以及后代健康。该研究已发表于国际期刊《人类生殖》（Human Reproduction）。研究人员强调，这一发现提示环境因素对生殖健康的深远影响，未来需要进一步评估空气质量与生殖结局之间的因果关系，并可能为公共卫生政策和生育保护干预提供新方向。",
+    "category": "生物医药",
+    "tags": [
+      "空气污染",
+      "男性生育",
+      "生殖健康",
+      "基因表达"
+    ],
+    "source": "MedicalXpress",
+    "time": "5分钟前",
+    "ts": "2026-07-06T19:00:05-04:00",
+    "url": "https://medicalxpress.com/news/2026-07-air-pollution-sperm-genes-function.html",
+    "image": "https://scx1.b-cdn.net/csz/news/tmb/2021/air-pollution-1.jpg",
+    "stocks": []
+  },
+  {
+    "id": "275fb7c0da7def25",
+    "title": "研究发现：生活方式相似，男性精子质量仍存在显著地域差异",
+    "summary": "一项新研究发现，即使生活方式相似，不同地区男性的精子质量也存在显著差异，最高地区男性的总活动精子数几乎是最低地区的两倍。",
+    "body": "一项新研究揭示，在生活方式相近的情况下，居住在不同地区的男性在精子质量上仍存在显著差异。研究显示，精子质量最高地区的男性总活动精子数几乎是质量最低地区男性的两倍。研究者指出，这种差异可能与环境、污染、饮食、压力或未知的地域因素有关，提示生育健康评估需考虑地域背景。该发现对公共卫生政策、生殖健康研究以及不孕症防治具有重要意义。",
+    "category": "生物医药",
+    "tags": [
+      "生殖健康",
+      "公共卫生",
+      "生命科学"
+    ],
+    "source": "MedicalXpress",
+    "time": "5分钟前",
+    "ts": "2026-07-06T19:00:01-04:00",
+    "url": "https://medicalxpress.com/news/2026-07-men-regions-differences-sperm-quality.html",
+    "image": "https://scx1.b-cdn.net/csz/news/tmb/2023/men.jpg",
+    "stocks": []
+  },
+  {
     "id": "f66fd25311d8aeed",
-    "title": "马斯克xAI正式更名为SpaceXAI，全新logo同步启用",
-    "summary": "马斯克旗下AI公司xAI已完成品牌切换，正式更名为SpaceXAI，标识与社交平台账号同步更新。此举标志着xAI在并入SpaceX后，AI业务与航天母舰的整合全面落地，并将与数据中心、算力卫星等AI基础设施布局深度绑定。",
-    "body": "北京时间7月7日凌晨，马斯克创立的xAI宣布正式更名为SpaceXAI，同步更换了公司标识和X平台用户名。今年2月，xAI已被SpaceX收购，旗舰聊天机器人Grok与社交平台X也一并纳入SpaceX体系；5月马斯克又宣布撤销xAI独立公司身份，统一使用SpaceXAI品牌。\n\n此次更名发生在SpaceX今年6月完成IPO之后。据其招股书披露，AI已成为SpaceX的主要投资方向：2025年SpaceX在AI领域投入127亿美元资本开支，规模超过航天和连接业务支出的3倍；尽管AI业务目前仍处净亏损状态，公司仍认为其拥有“人类历史最大”的潜在市场总规模。\n\nSpaceX正加速布局太空AI基础设施。按计划，其最早将于2028年部署AI算力卫星，把数据中心送入太空；同时，SpaceX已拿下多笔大型AI基础设施订单，包括Anthropic每月支付12.5亿美元、谷歌每月支付9.2亿美元使用Colossus数据中心算力。",
+    "title": "马斯克旗下xAI更名为SpaceXAI并启用新标识",
+    "summary": "马斯克创立的AI公司xAI已正式更名为SpaceXAI，并同步更换标识与社交平台账号。这标志着其AI业务进一步整合进SpaceX体系，AI基础设施成为核心投资方向。",
+    "body": "北京时间7月7日凌晨，马斯克创立的AI公司xAI官宣正式更名为SpaceXAI，同时更换了全新标识与X平台用户名。xAI于今年2月被马斯克旗下SpaceX收购，旗舰聊天机器人Grok和社交平台X已纳入SpaceX体系；今年5月，马斯克曾宣布xAI将撤销独立公司身份并入SpaceX，旗下AI产品统一使用SpaceXAI品牌。此次更名正是在SpaceX今年6月完成IPO后进行的品牌调整。\n\nIPO文件显示，AI已成为SpaceX的主要投资方向。2025年，SpaceX计划在AI领域投入127亿美元资本开支，规模超过航天和连接业务支出的3倍。尽管AI业务目前仍处于净亏损状态，但公司认为其拥有最大的增长潜力，并宣称具备“人类历史最大”的潜在市场。按计划，SpaceX最早将于2028年部署AI算力卫星，把数据中心送入太空。\n\n在商业化方面，SpaceX已拿下多笔大型AI基础设施订单。其中，Anthropic同意每月支付12.5亿美元使用Colossus数据中心算力，谷歌每月支付费用更高达9.2亿美元。这反映出SpaceX正依托数据中心与太空算力布局，试图在全球AI基础设施竞争中占据重要位置。",
     "category": "AI 基础设施",
     "tags": [
-      "xAI",
-      "SpaceX",
+      "SpaceXAI",
+      "马斯克",
       "AI基础设施",
-      "数据中心"
+      "算力卫星"
     ],
     "source": "IT之家",
-    "time": "刚刚",
+    "time": "7分钟前",
     "ts": "2026-07-06T22:57:40+00:00",
     "url": "https://www.ithome.com/0/973/318.htm",
     "image": "https://img.ithome.com/newsuploadfiles/2026/7/9b391783-3e4b-4e3f-ad70-030c337b9f19.png",
@@ -197,6 +343,25 @@ const newsData = [
     "ts": "2026-07-06T17:20:02-04:00",
     "url": "https://medicalxpress.com/news/2026-07-scientists-uncover-neuronal-circuits-orchestrating.html",
     "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/scientists-uncover-two.jpg",
+    "stocks": []
+  },
+  {
+    "id": "a5c9f335d1f10a8c",
+    "title": "微软Win11预览版推云重建恢复功能",
+    "summary": "微软面向Windows Insider发布多个Win11预览版更新，在Experimental通道引入云重建恢复功能，可在系统无法启动时从云端下载镜像重装系统。",
+    "body": "微软于7月6日发布博文，邀请Windows Insider项目成员测试Windows 11多个预览版更新，涵盖Beta和Experimental通道的多个版本。其中，Experimental通道新增“云重建”恢复功能，可在Windows无法启动时从Windows Update下载系统镜像和设备驱动，无需USB介质或依赖当前系统状态即可恢复设备。\n\n此外，账户控制弹出窗口也迎来现代化设计更新，增加清晰的订阅徽章，帮助用户快速识别账户状态、发现权益并探索升级选项。这些改动体现了微软在系统可靠性、云端服务整合及用户体验方面的持续投入。",
+    "category": "消费电子",
+    "tags": [
+      "微软",
+      "Windows 11",
+      "操作系统",
+      "云恢复"
+    ],
+    "source": "IT之家",
+    "time": "1小时前",
+    "ts": "2026-07-06T21:09:39+00:00",
+    "url": "https://www.ithome.com/0/973/315.htm",
+    "image": "https://img.ithome.com/newsuploadfiles/2026/7/a1270e89-ee24-49eb-aa18-c557fe98927f.png?x-bce-process=image/format,f_auto",
     "stocks": []
   },
   {
@@ -979,14 +1144,14 @@ const newsData = [
   },
   {
     "id": "cb160dfd70b01e30",
-    "title": "企业采用AI后反而扩招员工",
-    "summary": "一项研究显示，采用人工智能的公司并未普遍裁员，而是出现了招聘人数增加的现象，引发市场对AI与就业关系的新讨论。",
-    "body": "据外媒报道，一项关于企业人工智能应用的观察指出，在引入AI技术之后，相关公司往往扩大了招聘规模，而非削减岗位。这一趋势挑战了“AI必然导致失业”的普遍担忧，表明当前阶段的人工智能更多起到提升业务需求、创造新岗位的作用。分析认为，若该趋势持续，将对劳动力市场结构、企业人才需求以及相关AI应用服务商产生深远影响。",
+    "title": "企业采用AI后招聘需求增加",
+    "summary": "Hacker News 上一则题为“Companies hire more after AI adoption”的帖子指出，企业在采用人工智能后反而增加了招聘，引发对AI与劳动力市场关系的关注。",
+    "body": "该信息来自 Hacker News 平台的一则热门帖子，标题为“Companies hire more after AI adoption”，目前仅显示 12 个点赞、0 条评论，原文细节未在材料中给出。帖子暗示，部分公司在引入 AI 工具或流程后，整体用工需求出现增长。若这一现象属实，可能意味着 AI 在提升效率的同时，也催生了新岗位与新技能需求，从而改变就业结构。",
     "category": "人工智能",
     "tags": [
       "AI应用",
-      "企业招聘",
-      "就业市场"
+      "就业市场",
+      "企业招聘"
     ],
     "source": "Hacker News",
     "time": "4小时前",
