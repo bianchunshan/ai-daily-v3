@@ -1,5 +1,75 @@
 const newsData = [
   {
+    "id": "de1f38f7eeb4298f",
+    "title": "RTX 5090+9800X3D游戏主机降价超千美元",
+    "summary": "新蛋旗下ABS品牌Kaze II Ruby高端游戏PC打折后约4749美元，搭载英伟达RTX 5090与AMD 9800X3D，折扣力度使其仅比单买显卡贵16%。",
+    "body": "据美国硬件媒体Tom's Hardware报道，Newegg自有品牌ABS推出的Kaze II Ruby游戏主机当前正以4749.05美元的价格促销，结账时使用优惠码JULY5可再省5%。该整机配备英伟达GeForce RTX 5090显卡、AMD Ryzen 7 9800X3D处理器、32GB DDR5-6000内存及2TB SSD，定位为顶级4K游戏平台。\n\n报道指出，由于RTX 5090目前单独购买价格已高达约4000美元，这款整机仅比单卡价格高出16%，在高端GPU供应紧张的背景下性价比突出。此类高端整机的促销可能进一步拉动发烧级玩家对旗舰显卡与高性能CPU的需求，同时也反映出消费级电竞硬件市场仍在以高价旗舰配置作为卖点。",
+    "category": "消费电子",
+    "tags": [
+      "游戏PC",
+      "显卡",
+      "英伟达",
+      "AMD"
+    ],
+    "source": "Tom's Hardware",
+    "time": "1分钟前",
+    "ts": "2026-07-06T11:45:52+00:00",
+    "url": "https://www.tomshardware.com/desktops/gaming-pcs/score-a-massive-usd1-050-saving-on-this-rtx-5090-gaming-pc-thats-just-16-percent-more-than-the-gpus-standalone-price-right-now-epic-discount-secures-you-a-formidable-4k-gaming-rig-with-a-9800x3d-32gb-ddr5-and-a-2tb-ssd",
+    "image": "https://cdn.mos.cms.futurecdn.net/tFuegWGRccYV9P2bWMxxEY-1280-80.png",
+    "stocks": [
+      {
+        "name": "英伟达",
+        "ticker": "NVDA",
+        "reason": "RTX 5090是该主机的核心显卡，高端整机促销有助于带动旗舰GPU需求与曝光。",
+        "confidence": "medium"
+      },
+      {
+        "name": "美国超微公司（AMD）",
+        "ticker": "AMD",
+        "reason": "Ryzen 7 9800X3D是该主机核心CPU配置之一，促销可提升其高端游戏处理器关注度。",
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
+    "id": "8cad0ffffebd10a5",
+    "title": "谷歌云机密计算升级，新增Blackwell GPU虚拟机",
+    "summary": "谷歌宣布升级Google Cloud机密计算产品，推出基于英伟达Blackwell GPU的机密虚拟机预览版，并开源AI提示词加密工具，以提升AI训练与推理过程中的数据安全保护能力。",
+    "body": "谷歌宣布对Google Cloud机密计算（Confidential Computing）进行全面升级。新推出的机密虚拟机预览版（Confidential G4 VMs）搭载英伟达RTX PRO 6000 Blackwell Server Edition GPU，并采用第五代AMD EPYC Turin处理器，结合AMD安全加密虚拟化（SEV）技术，在可信执行环境（TEE）中对AI计算数据进行硬件级隔离保护，降低敏感数据泄露风险。",
+    "category": "AI 基础设施",
+    "tags": [
+      "机密计算",
+      "云计算",
+      "AI安全",
+      "GPU"
+    ],
+    "source": "IT之家",
+    "time": "8分钟前",
+    "ts": "2026-07-06T11:38:59+00:00",
+    "url": "https://www.ithome.com/0/973/255.htm",
+    "image": "https://img.ithome.com/newsuploadfiles/2026/7/9cebc188-89bc-4d9a-bdb4-b0c203736246.jpg?x-bce-process=image/format,f_auto",
+    "stocks": [
+      {
+        "name": "Alphabet（谷歌）",
+        "ticker": "GOOGL",
+        "reason": "作为Google Cloud的运营主体，新机密计算产品有望增强其云AI基础设施安全竞争力。",
+        "confidence": "high"
+      },
+      {
+        "name": "英伟达",
+        "ticker": "NVDA",
+        "reason": "RTX PRO 6000 Blackwell GPU被用于谷歌新的机密虚拟机，直接带动其企业级GPU在云端应用。",
+        "confidence": "high"
+      },
+      {
+        "name": "AMD",
+        "ticker": "AMD",
+        "reason": "第五代AMD EPYC Turin处理器及SEV技术是谷歌机密虚拟机的核心计算与安全组件。",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
     "id": "5b250ec460690ce2",
     "title": "Valve工程师详解Steam Machine：1049美元定价与设计挑战",
     "summary": "Valve工程师在采访中谈及Steam Machine 1049美元起售价、紧凑设计、零部件短缺及Windows支持等问题，未对市场反应作出明确预测。",
