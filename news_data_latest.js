@@ -83,49 +83,22 @@ const newsData = [
     ]
   },
   {
-    "id": "3b76f92d1898bae5",
-    "title": "起亚停产旗舰轿车，转攻经济型电动车",
-    "summary": "起亚宣布将停产旗舰轿车，把产品重心转向更小、更便宜的电动车型，以优化电动化转型中的产品组合。",
-    "body": "起亚计划结束其旗舰轿车产品线，将资源集中于尺寸更小、成本更低的电动车型。这一调整反映出传统车企在电动化转型中更重视效率与价格竞争力的策略。通过精简高端燃油轿车，起亚希望提升其在主流电动车市场的竞争力，并迎合消费者对经济型电动车的需求。",
-    "category": "未来能源",
+    "id": "fbd2b6da42bda5f1",
+    "title": "北约施压成员国提交防务开支达标计划",
+    "summary": "北约要求成员国提交实现防务开支目标的计划，美国警告没有明确开支方案的盟友将面临后果。",
+    "body": "北约敦促各成员国递交如何达到防务支出目标的具体计划。美国方面发出警告，称未能提交明确开支计划的北约盟友将面临相应后果，显示出华盛顿对盟国提高军费支出的高度期待。防务开支话题长期以来是跨大西洋联盟内部的争议焦点，此次施压可能进一步影响成员国的国防预算安排及军工采购方向。",
+    "category": "地缘科技",
     "tags": [
-      "阿尔茨海默病",
-      "环境污染物",
-      "轮胎磨损颗粒",
-      "网络药理学"
+      "北约",
+      "防务开支",
+      "地缘科技"
     ],
-    "source": "MedicalXpress",
-    "time": "2分钟前",
-    "ts": "2026-07-06T15:40:02-04:00",
-    "url": "https://medicalxpress.com/news/2026-07-emerging-evidence-links-pollution-alzheimer.html",
-    "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/emerging-evidence-link.jpg",
+    "source": "Al Jazeera",
+    "time": "30分钟前",
+    "ts": "2026-07-06T19:35:56+00:00",
+    "url": "https://www.aljazeera.com/news/2026/7/6/nato-urges-members-to-deliver-plans-for-reaching-defence-spending-targets?traffic_source=rss",
+    "image": "",
     "stocks": []
-  },
-  {
-    "id": "8eeade74baee85cd",
-    "title": "特斯拉应用代码披露：FSD启动前将用舱内摄像头核验驾驶者",
-    "summary": "特斯拉最新iOS应用代码显示，系统将利用车内摄像头核验驾驶者身份，只有匹配授权档案后才允许“完全自动驾驶”功能开启，否则将拦截FSD并在App中提示失败。",
-    "body": "据外媒报道，隐藏在特斯拉最新iOS应用更新中的代码揭示了一项新功能：车辆在启动“Full Self-Driving”之前，会通过舱内摄像头验证驾驶者身份，确认其与授权档案一致。若核验失败，系统将阻止FSD激活，并在手机应用中显示失败信息。\n\n这一机制有助于防止未经授权的驾驶者使用高阶辅助驾驶功能，可在事故责任认定、保险理赔和用户安全层面提供更强的可追溯性。同时，随着监管机构对自动驾驶安全与司机监控要求趋严，身份核验功能也可能成为特斯拉FSD合规化落地的重要一环。",
-    "category": "机器人",
-    "tags": [
-      "自动驾驶",
-      "特斯拉",
-      "FSD",
-      "车载摄像头"
-    ],
-    "source": "Electrek",
-    "time": "5分钟前",
-    "ts": "2026-07-06T19:36:17+00:00",
-    "url": "https://electrek.co/2026/07/06/tesla-cabin-camera-fsd-identity-check/",
-    "image": "https://electrek.co/wp-content/uploads/sites/3/2020/04/Tesla-cabin-facing-camera-view-e1586716902856.jpg?quality=82&#038;strip=all&#038;w=1600",
-    "stocks": [
-      {
-        "name": "特斯拉",
-        "ticker": "TSLA",
-        "reason": "新功能直接围绕特斯拉FSD生态，强化驾驶者身份核验与安全管理，有助于提升自动驾驶产品合规性与用户信任。",
-        "confidence": "high"
-      }
-    ]
   },
   {
     "id": "3b76f92d1898bae5",
@@ -559,6 +532,25 @@ const newsData = [
     "stocks": []
   },
   {
+    "id": "23bfeb5e1c11bebd",
+    "title": "美国核管会拟弃用ALARA术语，但保留实质标准",
+    "summary": "美国核管会上周提出新规则，拟用新表述取代“合理可行尽量低”原则，但仍支持现行线性无阈值的辐射安全科学标准，预计每年为核能、医疗及研究行业节省约950万美元合规成本。",
+    "body": "美国核管理委员会（NRC）在上周提出了新规则，拟调整辐射防护的监管表述。特朗普政府正推动美国重启核电站建设，许多拥核人士长期批评现行法规过于严格、阻碍行业发展，因此外界原本预期会有大幅松绑。但NRC的提案实际上支持现有规则背后的科学依据，认为问题主要出在术语过于模糊。\n\n具体而言，NRC计划不再使用“合理可行尽量低”（ALARA）等表述，但采用能达到同样防护效果的新标准，核心仍包括“线性无阈值”（LNT）模型，即认为任何水平的辐射都可能产生生物危害。该机构估计，规则调整每年可为核能、医疗及研究应用领域共减少约950万美元的合规成本。\n",
+    "category": "未来能源",
+    "tags": [
+      "核能监管",
+      "核安全",
+      "ALARA",
+      "美国核电"
+    ],
+    "source": "Ars Technica",
+    "time": "2小时前",
+    "ts": "2026-07-06T17:48:45+00:00",
+    "url": "https://arstechnica.com/science/2026/07/nuclear-regulatory-commission-plans-really-minor-changes-to-safety-regs/",
+    "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/07/GettyImages-2283985401-1024x648.jpg",
+    "stocks": []
+  },
+  {
     "id": "de6778c5c1da389e",
     "title": "OpenClaw 上线 HuggingFace 本地应用",
     "summary": "OpenClaw 宣布登陆 HuggingFace 本地应用，用户可基于任意 GGUF/MLX 模型构建完全本地的工具调用智能体。该方案无需云端、密钥或外部监控，强调本地化与隐私。",
@@ -917,6 +909,25 @@ const newsData = [
     "ts": "2026-07-06T17:16:41+00:00",
     "url": "https://www.wsj.com/tech/ai/ai-workers-tech-ceos-job-losses-afc71e15",
     "image": "",
+    "stocks": []
+  },
+  {
+    "id": "28f8ec0bfcfc36cf",
+    "title": "Katalyst首次太空救援任务追逐NASA Swift卫星",
+    "summary": "美国初创公司Katalyst Space Technologies发射Link卫星，拟与NASA Swift天文台对接并抬升其轨道，这是商业公司首次执行此类在轨救援任务。",
+    "body": "Katalyst Space Technologies为响应NASA去年发布的商业救援征集，在不到一年内建造、测试并发射了约半吨重的Link卫星。该卫星于独立日周末由空中发射火箭送入轨道，将在未来数周内接近NASA的Swift伽马射线天文台，通过与其对接并提升轨道高度，避免卫星在未来几个月内再入大气层烧毁。\\n\\nNASA表示，此类首次由商业卫星执行的紧急在轨救援任务若成功，将证明商业航天公司能够快速响应政府的太空资产延寿与轨道维护需求，可能改变未来卫星在轨服务与空间交通管理市场的格局。",
+    "category": "商业航天",
+    "tags": [
+      "商业航天",
+      "在轨服务",
+      "卫星救援",
+      "NASA"
+    ],
+    "source": "Ars Technica",
+    "time": "2小时前",
+    "ts": "2026-07-06T17:14:09+00:00",
+    "url": "https://arstechnica.com/space/2026/07/katalysts-satellite-rescue-mission-is-now-in-pursuit-of-nasas-swift/",
+    "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/07/Pegasus-Image-2-resized-1000x648.jpg",
     "stocks": []
   },
   {
