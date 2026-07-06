@@ -1,5 +1,95 @@
 const newsData = [
   {
+    "id": "bdf14dd11737865a",
+    "title": "翔丰华定增申请获深交所受理",
+    "summary": "翔丰华公告称，公司向特定对象发行股票申请已获得深交所受理。这意味着公司再融资事项进入交易所审核阶段，若后续获批将为产能扩张与研发提供资金支持。",
+    "body": "翔丰华公告披露，其向特定对象发行股票的申请已获深圳证券交易所正式受理。此次再融资事项进入交易所审核流程，尚需通过深交所审核及中国证监会同意注册后方可实施。若最终落地，募集资金有望用于公司锂电池负极材料产能扩张、技术研发或补充流动资金，进一步巩固其在新能源电池材料领域的布局。",
+    "category": "未来能源",
+    "tags": [
+      "翔丰华",
+      "定向增发",
+      "锂电池",
+      "负极材料"
+    ],
+    "source": "36氪",
+    "time": "刚刚",
+    "ts": "2026-07-06T12:48:26.588538+00:00",
+    "url": "https://36kr.com/newsflashes/3884150735204352?f=rss",
+    "image": "",
+    "stocks": [
+      {
+        "name": "翔丰华",
+        "ticker": "300890.SZ",
+        "reason": "公司定增申请获深交所受理，若获批将为其锂电池负极材料业务扩张提供资金支持",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "83bfe3b9b0e890ab",
+    "title": "宾利首款纯电动车Torcal预告亮相",
+    "summary": "英国超豪华汽车品牌宾利确认将推出其首款纯电动车型Torcal，进一步扩充电动化产品阵容，标志着宾利向电动化转型迈出关键一步。",
+    "body": "宾利（Bentley）正式确认将推出品牌历史上首款纯电动车型，并预告其命名为Torcal。作为拥有百年历史的超豪华汽车制造商，宾利此前已多次表态将在本世纪30年代实现全面电动化，此次Torcal的亮相意味着其电动化战略进入产品落地阶段。新车型的推出不仅将丰富宾利的产品矩阵，也将帮助品牌在日益严格的全球碳排放法规和高端电动车市场竞争中占据主动。",
+    "category": "未来能源",
+    "tags": [
+      "电动汽车",
+      "宾利",
+      "豪华车",
+      "电动化转型"
+    ],
+    "source": "Engadget",
+    "time": "1分钟前",
+    "ts": "2026-07-06T12:46:30+00:00",
+    "url": "https://www.engadget.com/2208295/bentley-teases-the-torcal-its-first-electric-vehicle/",
+    "image": "https://www.engadget.com/img/gallery/bentley-teases-the-torcal-its-first-electric-vehicle/l-intro-1783341898.jpg",
+    "stocks": [
+      {
+        "name": "大众汽车集团",
+        "ticker": "VWAGY",
+        "reason": "宾利为大众集团旗下超豪华品牌，首款电动车推出有助于增强集团高端电动产品竞争力",
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
+    "id": "b19e57f23a141f01",
+    "title": "新型生物标志物研究为结直肠癌防治带来新希望",
+    "summary": "一项新研究显示，液体生物标志物研究的最新进展有望改变结直肠癌的早期检测、诊断和治疗监测方式，为患者提供比手术或组织活检更微创的替代方案。",
+    "body": "该研究聚焦于液体生物标志物在结直肠癌中的应用。与传统方法相比，液体活检通过血液等体液样本即可检测肿瘤相关信息，避免了外科手术或组织活检带来的创伤与风险。研究人员认为，这一技术有望提升早期筛查的覆盖率，并更精准地监测治疗反应，从而改善患者预后。",
+    "category": "生物医药",
+    "tags": [
+      "液体活检",
+      "结直肠癌",
+      "生物标志物",
+      "癌症早筛"
+    ],
+    "source": "MedicalXpress",
+    "time": "8分钟前",
+    "ts": "2026-07-06T08:40:02-04:00",
+    "url": "https://medicalxpress.com/news/2026-07-biomarker-colorectal-cancer.html",
+    "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/novel-biomarker-resear.jpg",
+    "stocks": []
+  },
+  {
+    "id": "12f4006f5100a9ca",
+    "title": "德国电动无人机时速699公里刷新世界纪录，专攻防空拦截",
+    "summary": "德国Quantum Systems公司研发的Apex Recordhunter电动无人机在平飞中达到699 km/h（434 mph），明显超越409 mph的现有官方纪录，目前正被评估用于未来防空拦截项目。",
+    "body": "德国慕尼黑的Quantum Systems集团上月在内部测试中宣布，其Apex Recordhunter电动无人机以699 km/h（约434 mph）的平飞极速刷新了电动无人机世界纪录，远超官方认可的657.59 km/h（409 mph）纪录。该公司表示，正式挑战吉尼斯世界纪录的尝试预计将在未来数周内进行。\n\n据官方新闻稿，Apex Recordhunter历时一年研发，是下一代电动无人机的技术验证平台。Quantum Systems旗下的WIY Drones部门有乌克兰工程师参与该项目，并计划在乌克兰进行多项速度纪录挑战，包括携带0.5 kg载荷的FPV拦截无人机以及防空级FPV拦截无人机。\n\n该机型被视为乌克兰应对俄罗斯越境高速机动空中威胁的潜在方案之一。若相关拦截项目推进，将展示电动无人机在高速度、防空作战场景中的技术潜力，并可能推动军用小型无人机和低空经济的发展。",
+    "category": "机器人",
+    "tags": [
+      "电动无人机",
+      "低空经济",
+      "防空拦截",
+      "世界纪录"
+    ],
+    "source": "Tom's Hardware",
+    "time": "8分钟前",
+    "ts": "2026-07-06T12:39:54+00:00",
+    "url": "https://www.tomshardware.com/tech-industry/drones/electric-drone-breaks-world-air-speed-record-at-434-mph-designed-for-anti-aircraft-interceptor-roles-german-firm-convincingly-smashed-the-official-409-mph-record-hopes-to-get-stamp-of-approval-from-guinness-soon",
+    "image": "https://cdn.mos.cms.futurecdn.net/wLahVvHo2M8S5BtKHzqKT9-1280-80.jpg",
+    "stocks": []
+  },
+  {
     "id": "f9713694fb25face",
     "title": "美光科技与福特汽车签署战略协议强化存储供应",
     "summary": "美光科技与福特汽车达成战略合作，协议将加强面向福特汽车的内存和存储解决方案供应。此举有助于巩固美光在车用半导体领域的客户基础。",
@@ -393,6 +483,25 @@ const newsData = [
         "confidence": "medium"
       }
     ]
+  },
+  {
+    "id": "6cb112401777ba5a",
+    "title": "研究：超黑涂层或可减轻卫星光污染",
+    "summary": "一项研究表明，超黑涂层可显著降低卫星表面反射率，从而减轻其对天文观测造成的光污染，为低轨卫星星座治理提供新思路。",
+    "body": "近日一项研究指出，在卫星表面应用超黑涂层能够有效吸收光线、减少反射，进而降低卫星在夜空中产生的亮度，缓解其对地基天文观测和公众观星造成的光污染。超黑材料通常由纳米结构或碳基材料制成，具有极低的光反射率，此前已在相机、望远镜和航空航天器中得到应用。研究人员认为，若将此类涂层应用于星链等大规模低轨卫星星座，有望在一定程度上减少卫星轨迹对天文界的干扰，但其实际推广还取决于涂层的耐久性、制造成本以及在太空极端环境下的稳定性。",
+    "category": "新材料",
+    "tags": [
+      "超黑涂层",
+      "卫星光污染",
+      "商业航天",
+      "新材料"
+    ],
+    "source": "Hacker News",
+    "time": "1小时前",
+    "ts": "2026-07-06T11:29:30+00:00",
+    "url": "https://www.surrey.ac.uk/news/astrophysicists-show-how-worlds-darkest-coating-could-protect-night-sky-satellite-light-pollution",
+    "image": "",
+    "stocks": []
   },
   {
     "id": "c5b7576c6c4304f7",
@@ -124355,6 +124464,12 @@ const newsData = [
   }
 ];
 const newsDigest = {
-  "text": "",
-  "highlights": []
+  "text": "苹果博通续约定制AI芯片、美光福特达成存储战略协议、SK海力士ADR获超额认购、谷歌云升级Blackwell机密计算、赛意信息净利大增，半导体与AI基础设施成今日焦点。",
+  "highlights": [
+    "f988a147cf5c9eb9",
+    "f9713694fb25face",
+    "a0b233bddc6dd311",
+    "8cad0ffffebd10a5",
+    "8820b2d46ac05504"
+  ]
 };
