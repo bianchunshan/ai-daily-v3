@@ -1,5 +1,95 @@
 const newsData = [
   {
+    "id": "34823863489efe94",
+    "title": "苹果在印度恢复Apple Account银行卡支付",
+    "summary": "苹果在印度重新启用Apple Account购买的银行卡支付，此前因当地监管要求已暂停近四年。公司表示已完成印度支付框架适配，正分阶段上线。",
+    "body": "据TechCrunch报道，苹果已开始在印度分阶段恢复Apple Account购买的银行卡支付功能。该功能此前因印度储备银行的自动扣款新规而暂停，至今已近四年。苹果发言人表示，公司已针对印度本地支付框架完成适配，目前正逐步向用户开放借记卡和信用卡支付选项。\n\n这一调整意味着印度用户在App Store购买应用、游戏、订阅iCloud+和Apple Music等服务时，可直接使用银行卡付款，而不再局限于Apple ID余额、UPI或Netbanking等方式。对于苹果而言，简化支付流程有助于降低交易摩擦，提升印度这一关键新兴市场的数字服务收入与用户留存。",
+    "category": "消费电子",
+    "tags": [
+      "苹果",
+      "印度支付",
+      "App Store",
+      "数字服务"
+    ],
+    "source": "TechCrunch",
+    "time": "7分钟前",
+    "ts": "2026-07-06T16:21:03+00:00",
+    "url": "https://techcrunch.com/2026/07/06/apple-brings-back-card-payments-for-apple-account-purchases-in-india-after-a-four-year-hiatus/",
+    "image": "",
+    "stocks": [
+      {
+        "name": "苹果公司",
+        "ticker": "AAPL",
+        "reason": "恢复银行卡支付可降低印度用户购买应用与订阅服务的门槛，利好服务收入。",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "1e73b9857cd53b99",
+    "title": "国产长鑫DDR5获微星主板高频认证",
+    "summary": "微星为AM5主板发布测试版BIOS，官方认证长鑫存储DDR5内存可在双DIMM主板上稳定运行DDR5-8200、四DIMM主板上达DDR5-7200，突破了此前约6800 MT/s的上限。",
+    "body": "微星中国已为多款AMD AM5主板推出测试版BIOS，正式验证基于长鑫存储（CXMT）3GB颗粒的DDR5内存可稳定运行在更高频率：双DIMM主板支持DDR5-8200，四DIMM主板支持DDR5-7200。此前，采用这些颗粒的内存条即便硬件本身性能更强，实际运行也被限制在约6800 MT/s左右。\n\n据VideoCardz提供的截图，微星测试了Lexar与金百达等面向中国市场的零售内存套装，覆盖2x24GB和2x16GB等配置，其中一套原生EXPO配置文件已达7200 MT/s。目前该测试BIOS仅由微星中国发布，尚未在全球渠道推广，且仅支持部分主板型号。\n\n这一认证意味着国产DRAM在主流消费级高端平台的兼容性与性能得到头部主板厂商认可，有助于提升国产DDR5内存的市场接受度，并进一步丰富AMD AM5平台的内存选择。",
+    "category": "半导体与先进制造",
+    "tags": [
+      "长鑫存储",
+      "DDR5内存",
+      "微星主板",
+      "AMD平台"
+    ],
+    "source": "Tom's Hardware",
+    "time": "7分钟前",
+    "ts": "2026-07-06T16:20:37+00:00",
+    "url": "https://www.tomshardware.com/pc-components/ddr5/china-made-cxmt-memory-now-supports-faster-speeds-on-msis-amd-motherboards-new-bios-adds-ddr5-8200-validation-on-dual-dimm-ddr5-7200-on-quad-dimm-models",
+    "image": "https://cdn.mos.cms.futurecdn.net/nnkvWRAwHdH8xCQXAJiweE-1280-80.jpg",
+    "stocks": [
+      {
+        "name": "微星科技",
+        "ticker": "2377.TW",
+        "reason": "其AMD主板新BIOS率先官方认证长鑫高频DDR5，可增强高端主板产品力并拉动相关需求",
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
+    "id": "d05ce2c62f4c1968",
+    "title": "美国研究显示男性更易在多种癌症晚期确诊",
+    "summary": "2015至2022年间，美国男性在20种非生殖实体瘤中更易被诊断为区域性和/或远处转移期，而女性多较早确诊。该研究发表于美国癌症研究协会旗下期刊。",
+    "body": "一项发表于《Cancer Epidemiology, Biomarkers & Prevention》的研究显示，在2015年至2022年期间，美国男性比女性更有可能被诊断为20种非生殖系统实体瘤的区域性或远处转移期。研究数据提示，除性别特异癌症外，多种常见癌症在男性中存在更晚确诊的现象。这一发现凸显了癌症筛查和早期诊断中的性别差异，可能为公共卫生策略和临床筛查指南的调整提供依据。",
+    "category": "生物医药",
+    "tags": [
+      "癌症筛查",
+      "流行病学",
+      "性别差异",
+      "AACR"
+    ],
+    "source": "MedicalXpress",
+    "time": "8分钟前",
+    "ts": "2026-07-06T12:20:06-04:00",
+    "url": "https://medicalxpress.com/news/2026-07-men-women-stage-cancer.html",
+    "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/men-visiting-doctor.jpg",
+    "stocks": []
+  },
+  {
+    "id": "d287c4991e600575",
+    "title": "研究发现同时调控触觉与慢性疼痛的分子开关TWIK-1",
+    "summary": "韩国DGIST研究团队发现，脊髓和外周体感神经元中的TWIK-1钾离子通道是同时调控触觉反应与慢性疼痛的关键分子开关，为顽固性神经病理性疼痛提供了新的治疗靶点。",
+    "body": "由DGIST大脑科学系李孝相（Hyosang Lee）教授领导的研究团队发现，TWIK-1钾离子通道在脊髓和外周体感神经元中表达，是调控触觉反应与慢性疼痛的关键分子调节因子。该研究揭示了脊髓层面调控触觉反应的全新分子机制，并阐明了难治性神经病理性疼痛的成因。\n\n这项发表于《Signal Transduction and Targeted Therapy》期刊的研究，为理解躯体感觉系统中触觉与疼痛的整合机制提供了新视角，也为开发针对慢性神经病理性疼痛的新型靶向疗法奠定了分子基础。",
+    "category": "生物医药",
+    "tags": [
+      "神经科学",
+      "疼痛治疗",
+      "分子靶点",
+      "生物医药"
+    ],
+    "source": "MedicalXpress",
+    "time": "8分钟前",
+    "ts": "2026-07-06T12:20:03-04:00",
+    "url": "https://medicalxpress.com/news/2026-07-molecular-simultaneously-pain.html",
+    "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/researchers-discover-m.jpg",
+    "stocks": []
+  },
+  {
     "id": "801925dac170d615",
     "title": "脑肿瘤疫苗靶向突变带来八年生存获益",
     "summary": "一项针对恶性脑瘤的新型疫苗策略在临床试验中展现出长期积极结果，可激活患者免疫系统攻击肿瘤常见基因突变，部分患者生存期延长约八年。",
