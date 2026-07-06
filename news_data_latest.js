@@ -1,18 +1,82 @@
 const newsData = [
   {
-    "id": "40ee79e9abdadf8f",
-    "title": "蓝色起源持续推进月球着陆器研制，同时恢复New Glenn事故",
-    "summary": "蓝色起源（Blue Origin）在 New Glenn 火箭发射台爆炸事故过去一个多月后，仍在继续开发 Blue Moon 月球着陆器，目前共有 7 台飞行器处于生产中。",
-    "body": "据 SpaceNews 报道，蓝色起源正继续推进 Blue Moon 月球着陆器项目，当前有 7 台相关飞行器在生产制造中；与此同时，公司还在从一个多月前 New Glenn 火箭发射台爆炸事故中恢复。\n\n这表明，尽管遭遇火箭地面设施的爆炸事故，蓝色起源仍在并行推进载人登月关键硬件的研发工作，显示出其对月球着陆业务的持续投入。\n\n不过，报道未披露事故对 Blue Moon 生产进度或未来发射计划的具体影响，后续仍需关注该公司如何在事故调查与月球着陆器研制之间协调资源与节奏。",
+    "id": "0fa321b0b8610124",
+    "title": "研究发现天然调控因子可抑制多种癌症进展",
+    "summary": "国际研究团队发现一种天然分子机制，可通过关闭肿瘤相关成纤维细胞来限制多种癌症进展。该发现为开发新的抗癌策略提供了潜在靶点。",
+    "body": "西班牙IBBTEC-CSIC-坎塔布里亚大学与CIC bioGUNE等机构联合主导的国际研究团队，鉴定出一种新的分子机制。该机制能够“关闭”肿瘤相关成纤维细胞，从而减缓多种癌症的进展。\n\n成纤维细胞在肿瘤微环境中常被激活，促进肿瘤生长与扩散。此次研究表明，利用天然调控因子抑制这些细胞，有望成为一种广谱抗癌策略。相关发现为后续开发靶向肿瘤微环境的新疗法奠定了理论基础。",
+    "category": "生物医药",
+    "tags": [
+      "癌症研究",
+      "肿瘤微环境",
+      "成纤维细胞",
+      "分子机制"
+    ],
+    "source": "MedicalXpress",
+    "time": "2分钟前",
+    "ts": "2026-07-06T16:20:08-04:00",
+    "url": "https://medicalxpress.com/news/2026-07-natural-cancers-fibroblasts.html",
+    "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/study-identifies-a-nat.jpg",
+    "stocks": []
+  },
+  {
+    "id": "e49f7b035ec57ea1",
+    "title": "类风湿关节炎治疗中乌帕替尼持久性优于TNF抑制剂",
+    "summary": "一项发表于《Rheumatology》的研究显示，类风湿关节炎患者对乌帕替尼（Upadacitinib）的治疗持久性优于肿瘤坏死因子抑制剂（TNFi）。",
+    "body": "一项在线发表于《Rheumatology》的研究表明，类风湿关节炎（RA）患者使用乌帕替尼的治疗持久性优于肿瘤坏死因子抑制剂。治疗持久性是衡量患者持续用药情况的重要指标，持久性更高通常意味着患者对药物的耐受性和依从性更好。该发现可能进一步支持JAK抑制剂在类风湿关节炎长期管理中的应用价值，并增强相关药物的市场竞争力。",
+    "category": "生物医药",
+    "tags": [
+      "乌帕替尼",
+      "类风湿关节炎",
+      "JAK抑制剂",
+      "艾伯维"
+    ],
+    "source": "MedicalXpress",
+    "time": "2分钟前",
+    "ts": "2026-07-06T16:20:07-04:00",
+    "url": "https://medicalxpress.com/news/2026-07-longer-persistence-upadacitinib-tumor-necrosis.html",
+    "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/longer-persistence-see.jpg",
+    "stocks": [
+      {
+        "name": "艾伯维",
+        "ticker": "ABBV",
+        "reason": "乌帕替尼（Rinvoq）为艾伯维研发的JAK抑制剂，研究显示其治疗持久性优于TNF抑制剂，有望增强该产品的临床价值和市场地位。",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "85ce5bebf96ad920",
+    "title": "星际彗星3I/ATLAS起源新线索：形成于母星原行星盘边缘",
+    "summary": "天文学家对星际彗星3I/ATLAS的同位素分析显示，它可能拥有100亿至120亿年历史，并可能在其母恒星的原行星盘外围形成。",
+    "body": "今年初，NASA戈达德航天中心Martin Cordiner团队利用詹姆斯·韦伯太空望远镜（JWST）数据，通过碳和氘同位素比值推断，3I/ATLAS的年龄约为100亿至120亿年，是太阳系年龄的两倍多。欧洲南方天文台甚大望远镜上的紫外与可见光阶梯光谱仪（UVES）最新观测进一步支持了碳同位素结果，并首次提供了氮同位素测量。\n这些同位素比例表明，这颗星际访客可能在很久以前于其母恒星的原行星盘外围区域形成。相关研究为了解太阳系外行星系统的化学环境与早期演化提供了珍贵线索，也展示了地面与空间望远镜协同观测在深空探测中的重要价值。",
     "category": "商业航天",
     "tags": [
-      "蓝色起源",
-      "月球着陆器",
+      "星际彗星",
+      "深空探测",
+      "詹姆斯·韦伯望远镜",
+      "甚大望远镜"
+    ],
+    "source": "Space.com",
+    "time": "6分钟前",
+    "ts": "2026-07-06T20:16:15+00:00",
+    "url": "https://www.space.com/astronomy/comets/more-clues-surface-about-the-origins-of-interstellar-comet-3i-atlas",
+    "image": "https://cdn.mos.cms.futurecdn.net/epvWQajZBgjE4vYbwKeNB4-1280-80.jpg",
+    "stocks": []
+  },
+  {
+    "id": "40ee79e9abdadf8f",
+    "title": "Blue Origin 爆炸后继续推进月球着陆器研发",
+    "summary": "尽管一个多月前 New Glenn 火箭发射台发生爆炸，Blue Origin 仍在继续开发 Blue Moon 月球着陆器，目前有 7 架飞行器正在生产中。",
+    "body": "美国商业航天公司 Blue Origin 在 New Glenn 火箭发射台爆炸事故后进入恢复期，但同时并未放缓月球着陆器项目。公司表示，Blue Moon 月球着陆器仍在持续开发中，当前有 7 架飞行器处于生产阶段。Blue Origin 此举显示出其对 NASA 月球货运与载人任务合同的持续押注，也反映出商业航天企业在面对发射挫折时仍保持多线并进的策略。",
+    "category": "商业航天",
+    "tags": [
       "商业航天",
+      "月球着陆器",
+      "Blue Origin",
       "New Glenn"
     ],
     "source": "SpaceNews",
-    "time": "5分钟前",
+    "time": "12分钟前",
     "ts": "2026-07-06T20:09:47+00:00",
     "url": "https://spacenews.com/blue-origin-continues-work-on-lunar-landers-during-recovery-from-new-glenn-explosion/",
     "image": "https://i0.wp.com/spacenews.com/wp-content/uploads/2026/07/mk2alpha.jpeg?fit=1024%2C720&amp;ssl=1",
@@ -58,17 +122,17 @@ const newsData = [
   },
   {
     "id": "78d2d8e1141712a5",
-    "title": "每百万Token定价作为AI成本指标无意义",
-    "summary": "有开发者指出，单纯比较AI模型每百万Token的价格并不能反映真实成本，需结合性能、延迟和可靠性综合评估。",
-    "body": "Hacker News上出现一篇题为《Price per 1M tokens is meaningless》的讨论帖，指出当前以大模型API每百万Token的标价来衡量服务成本的做法存在明显局限。作者认为，不同模型在上下文长度、输出质量、推理速度、可用性和稳定性等方面差异显著，仅以单价对比容易误导选型决策。\n\n该观点提示企业和开发者在采购AI服务时，不应只看名义上的Token单价，而应综合计算总拥有成本与实际业务价值。这一讨论对大模型市场的定价透明度和竞争方式也具有一定参考价值。",
+    "title": "Hacker News热议：每百万token定价无意义",
+    "summary": "Hacker News上出现题为“Price per 1M tokens is meaningless”的讨论帖，引发对大模型API按token计价方式是否足够科学的关注。该观点认为仅以每百万token价格衡量AI服务价值可能过于简化。",
+    "body": "该帖源自Hacker News，标题为“Price per 1M tokens is meaningless”，目前获得23个点赞和6条评论。帖子本身未展开完整论述，但其标题直指当前大模型API普遍采用的“每百万token价格”这一常见报价口径。业内人士常以此作为不同模型或服务成本的横向比较基准。\n\n评论者可能关注的核心问题是，token价格无法全面反映模型能力、输出质量、响应延迟、上下文长度、可靠性与后续支持等因素。随着多模态、推理密集型Agent和长上下文需求的兴起，单纯比较单位token成本容易误导选型与预算评估。该讨论提醒AI服务采购方和开发者，应结合业务场景综合评估总拥有成本与实际效果。",
     "category": "人工智能",
     "tags": [
-      "大模型",
       "AI定价",
-      "成本评估"
+      "大模型",
+      "API定价"
     ],
     "source": "Hacker News",
-    "time": "31分钟前",
+    "time": "38分钟前",
     "ts": "2026-07-06T19:43:36+00:00",
     "url": "https://janilowski.pl/en/blog/2026/price-per-m-tokens/",
     "image": "",
