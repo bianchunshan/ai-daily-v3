@@ -1,5 +1,31 @@
 const newsData = [
   {
+    "id": "94661356fe90d5b7",
+    "title": "加拿大选定德国TKMS建造新一代潜艇",
+    "summary": "加拿大政府选定德国蒂森克虏伯海洋系统公司（TKMS）与挪威合作，为其建造新型潜艇，韩国韩华海洋落选。",
+    "body": "据报道，加拿大已选定德国蒂森克虏伯海洋系统公司（TKMS）作为新一代潜艇的建造方，TKMS联合北约盟友挪威共同投标，击败了韩国韩华海洋的方案。该决定意味着加拿大水下战力更新项目将进入实施阶段，对TKMS及其母公司构成重大订单利好。此次采购也折射出北约成员国在国防装备领域深化合作的趋势。",
+    "category": "地缘科技",
+    "tags": [
+      "国防科技",
+      "潜艇",
+      "加拿大",
+      "TKMS"
+    ],
+    "source": "Al Jazeera",
+    "time": "12分钟前",
+    "ts": "2026-07-06T22:13:46+00:00",
+    "url": "https://www.aljazeera.com/economy/2026/7/6/canada-picks-germanys-tkms-for-new-submarines?traffic_source=rss",
+    "image": "",
+    "stocks": [
+      {
+        "name": "蒂森克虏伯",
+        "ticker": "TKA.DE",
+        "reason": "TKMS是蒂森克虏伯旗下海军系统子公司，中标加拿大新潜艇项目有望带来大额订单",
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
     "id": "47aa7db4ea2209a5",
     "title": "谷歌将Android备份数据计入存储空间上限",
     "summary": "谷歌宣布，Android设备的备份数据今后将计入Google账号的15GB存储上限。公司表示，由于数据经过压缩优化，普通用户实际占用的额外空间预计非常有限。",
@@ -21,6 +47,56 @@ const newsData = [
         "name": "谷歌-A",
         "ticker": "GOOGL",
         "reason": "存储政策调整可能推动用户购买Google One付费扩容，带动云业务收入",
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
+    "id": "d7dba552bad40067",
+    "title": "Hacker News现Windows GDID完整分析帖",
+    "summary": "Hacker News上出现一篇标题为“Full Writeup of the Windows GDID”的帖子，目前仅有标题与互动数据，缺少正文细节。",
+    "body": "据外媒聚合平台Hacker News的条目显示，一篇题为《Full Writeup of the Windows GDID》的完整分析文章被分享，当前仅有标题、来源链接及点赞/评论数等元数据，未提供文章正文。从标题判断，该内容可能涉及Windows系统GDID组件的技术细节或安全分析，属于操作系统与网络安全相关话题。由于缺乏原文具体内容，尚无法判断其技术机理、潜在影响及对相关产业链的实际意义。",
+    "category": "网络安全",
+    "tags": [
+      "网络安全",
+      "Windows",
+      "操作系统"
+    ],
+    "source": "Hacker News",
+    "time": "23分钟前",
+    "ts": "2026-07-06T22:02:24+00:00",
+    "url": "https://github.com/SmtimesIWndr/gdid-reversal",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "ee8f93ecd6ea9402",
+    "title": "中国Robotaxi能否复制电动车成功？",
+    "summary": "凭借成熟的电动汽车供应链，中国自动驾驶企业正加速Robotaxi技术输出与全球布局，被视为下一个可能领跑的智能出行赛道。",
+    "body": "报道称，中国电动汽车产业链在电池、电机、电控及整车制造方面积累的优势，正为本土自动驾驶公司发展Robotaxi提供先发基础。这些企业不仅在国内大规模测试和运营无人出租车，还尝试将技术和产品推向中东、欧洲等海外市场。分析人士认为，若中国能在监管、数据和安全标准上取得突破，Robotaxi有望成为继电动车之后又一具有全球竞争力的产业。不过，不同国家的道路环境、法律框架和消费者接受度仍是主要挑战。",
+    "category": "机器人",
+    "tags": [
+      "Robotaxi",
+      "自动驾驶",
+      "中国电动车产业链",
+      "出海"
+    ],
+    "source": "BBC World",
+    "time": "24分钟前",
+    "ts": "2026-07-06T22:01:07+00:00",
+    "url": "https://www.bbc.co.uk/news/articles/cvgl8dlxjd3o?at_medium=RSS&at_campaign=rss",
+    "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2748/live/c12bff20-75c1-11f1-bbf6-e1d4fd18895b.jpg",
+    "stocks": [
+      {
+        "name": "百度",
+        "ticker": "BIDU",
+        "reason": "旗下Apollo Go已在中国多城运营Robotaxi，并积极推动自动驾驶技术出海",
+        "confidence": "high"
+      },
+      {
+        "name": "文远知行",
+        "ticker": "WRD",
+        "reason": "专注L4级自动驾驶与Robotaxi，已在全球多地开展商业运营",
         "confidence": "medium"
       }
     ]
