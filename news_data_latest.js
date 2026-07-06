@@ -1,5 +1,24 @@
 const newsData = [
   {
+    "id": "fb382e60f81922ac",
+    "title": "玻璃基板进入关键验证期，良率决定产业化拐点",
+    "summary": "玻璃基板在半导体先进封装领域受关注，其产业化价值取决于量产良率与TGV工艺成熟度。",
+    "body": "玻璃基板概念近期在A股市场持续升温，并在半导体先进封装产业链中获得显著关注。受访人士表示，在传统有机基板逐渐逼近性能与可靠性边界的背景下，玻璃基板产业化进程明显加快。多位专家认为，玻璃基板的产业价值不仅在于样品能力，更取决于能否稳定转化为量产良率和客户订单。其中，TGV（玻璃通孔）工艺被视为决定产业能否进入规模化量产的核心环节，良率表现将成为产业化拐点的关键指标。",
+    "category": "半导体与先进制造",
+    "tags": [
+      "玻璃基板",
+      "先进封装",
+      "TGV工艺",
+      "半导体材料"
+    ],
+    "source": "36氪",
+    "time": "刚刚",
+    "ts": "2026-07-06T23:23:46.515246+00:00",
+    "url": "https://36kr.com/newsflashes/3884779328696323?f=rss",
+    "image": "",
+    "stocks": []
+  },
+  {
     "id": "bfcea6d709668a38",
     "title": "“一人公司”成AI创业新势力，多地政策加码扶持",
     "summary": "AI浪潮下，OPC（一人公司）成为国内新兴创业模式，北京中关村、深圳等地涌现大量单人AI创业项目，部分地区已出台算力与金融扶持政策，助力其商业化与融资。",
@@ -179,6 +198,25 @@ const newsData = [
     "ts": "2026-07-06T22:57:40+00:00",
     "url": "https://www.ithome.com/0/973/318.htm",
     "image": "https://img.ithome.com/newsuploadfiles/2026/7/9b391783-3e4b-4e3f-ad70-030c337b9f19.png",
+    "stocks": []
+  },
+  {
+    "id": "94d69a90ce66ea3d",
+    "title": "Claude Code v2.1.202 发布",
+    "summary": "Claude Code 发布 v2.1.202 版本，新增动态工作流规模设置并增强可观测性，同时修复多项连接、移动与语音交互问题。",
+    "body": "Anthropic 旗下 AI 编程助手 Claude Code 发布 v2.1.202 更新。新版本在 `/config` 中新增 \"Dynamic workflow size\" 选项，用户可按照小、中、大三个级别调整动态工作流派生 agent 的数量规模，该设置仅作为指导性建议而非硬性上限。同时，由工作流派生的 agent 现在会发出包含 `workflow.run_id` 与 `workflow.name` 的 OpenTelemetry 属性，便于开发者进行链路追踪与可观测性管理。\n\n本次更新还修复了多个稳定性与体验问题，包括 mTLS 握手失败、远程控制发送命令失败、移动端无说明图片被静默丢弃、语音听写在麦克风故障时无限重试（改为暂停输入），以及重载已有技能导致重复指令等。此外，工作流 agent 列表布局得到优化，MCP 错误提示更加清晰，`/review` 命令恢复为快速单次审查，若需多 agent 审查可使用 `/code-review`。",
+    "category": "人工智能",
+    "tags": [
+      "Claude Code",
+      "AI Agent",
+      "编程助手",
+      "Anthropic"
+    ],
+    "source": "AIHOT精选",
+    "time": "32分钟前",
+    "ts": "2026-07-06T22:51:16+00:00",
+    "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.202",
+    "image": "",
     "stocks": []
   },
   {
