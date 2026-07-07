@@ -207,18 +207,18 @@ const newsData = [
   },
   {
     "id": "9af14cc051d747dd",
-    "title": "MIRA可玩多人世界模型20 FPS实时生成游戏",
-    "summary": "MIRA是一个可玩的四人多玩家世界模型，能根据按键输入以20 FPS实时生成游戏画面，被称为\"火箭联盟的梦\"。该模型由General Intuition与Kyutai Labs联合开发，Epic Games协作支持，演示、技术报告及代码已开源。",
-    "body": "MIRA基于约1万小时公开机器人数据训练，可学习四玩家游戏动态，并依据玩家按键实时生成画面，帧率达到每秒20帧。该模型由General Intuition与Kyutai Labs联合构建，Epic Games提供协作，已发布演示、技术报告及开源代码，并在ICML Booth 111现场展示。\n\n业内人士认为，从早期扩散模型DOOM到如今多人20 FPS实时生成，MIRA代表了世界模型在交互式、实时游戏体验上的重要进展。若此类技术成熟，有望为游戏开发、实时交互内容生成及AI驱动的可玩环境开辟新路径。",
+    "title": "MIRA世界模型实现20 FPS多人实时交互",
+    "summary": "MIRA是一个可玩的多人世界模型，基于1万小时公开机器人数据训练，能根据按键实时生成20 FPS游戏画面，被誉为“火箭联盟的梦”。",
+    "body": "MIRA由General Intuition与Kyutai Labs联合构建，Epic Games提供协作支持。该模型通过学习四玩家游戏动态，能够实时响应玩家按键并生成画面，帧率达到20 FPS，支持多人同时游玩。",
     "category": "人工智能",
     "tags": [
       "世界模型",
-      "游戏生成",
-      "实时交互",
-      "开源模型"
+      "实时生成",
+      "AI游戏",
+      "开源"
     ],
     "source": "AIHOT精选",
-    "time": "52分钟前",
+    "time": "53分钟前",
     "ts": "2026-07-07T04:22:22+00:00",
     "url": "https://x.com/emollick/status/2074348274136346871",
     "image": "",
