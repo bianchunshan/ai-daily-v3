@@ -197,6 +197,32 @@ const newsData = [
     "stocks": []
   },
   {
+    "id": "6c66b920b7bd3c05",
+    "title": "Meta发布首个媒体生成模型Muse Image与Muse Video",
+    "summary": "Meta Superintelligence Labs推出首个媒体生成模型Muse Image和Muse Video，支持高质量图像与视频生成及音频原生输出，并接入Instagram、WhatsApp等应用生态。",
+    "body": "Meta Superintelligence Labs正式发布其首个媒体生成模型Muse Image与Muse Video。Muse Image被定位为先进的图像生成模型，支持精确指令遵循、精准编辑、多参考构图，并能利用Instagram的社交上下文数据；同时该模型具备智能体工具使用能力，并集成Muse Spark。用户目前可通过Meta AI应用、网页端、Instagram Stories及WhatsApp试用，但初期仅在部分国家上线。\n\nMuse Video基于与Muse Image相同的预训练基础构建，强调高视觉保真度，并原生支持音频生成。此次发布显示出Meta在生成式AI多媒体内容创作方向上的重要布局，有望强化其社交平台的创作者生态与广告业务潜力。",
+    "category": "人工智能",
+    "tags": [
+      "生成式AI",
+      "多模态模型",
+      "Meta",
+      "AI应用"
+    ],
+    "source": "AIHOT精选",
+    "time": "39分钟前",
+    "ts": "2026-07-07T19:33:53+00:00",
+    "url": "https://x.com/AIatMeta/status/2074577662840832382",
+    "image": "",
+    "stocks": [
+      {
+        "name": "Meta Platforms",
+        "ticker": "META",
+        "reason": "作为Muse系列模型发布主体，直接受益于其AI媒体生成能力提升及社交产品矩阵整合。",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
     "id": "3a5bf3a3618d91a8",
     "title": "Discord承认AI审核漏洞误封8000余名用户",
     "summary": "Discord承认其AI内容审核系统存在漏洞，过去两个月误将电子表格、棋盘、游戏纹理及白/灰透明背景等无害图片判定为有害内容，导致超8000名用户被错误封禁。",
@@ -138019,6 +138045,12 @@ const newsData = [
   }
 ];
 const newsDigest = {
-  "text": "",
-  "highlights": []
+  "text": "今日科技前沿聚焦：Meta发布Muse媒体生成模型并接入社交应用，微软加速AI降本并倚重自研模型，比亚迪电动GT实车首次曝光，太空辐射与微重力研究催生抗衰老新思路，先进成像揭示大鼠膝关节神经三维结构。",
+  "highlights": [
+    "6c66b920b7bd3c05",
+    "f9e4ca71e2bb74ac",
+    "7e9d6a97d874b548",
+    "6c0cd917700bd293",
+    "2fb589d6eddd0b17"
+  ]
 };
