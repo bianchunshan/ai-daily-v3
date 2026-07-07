@@ -1,5 +1,89 @@
 const newsData = [
   {
+    "id": "24b9c299b26b7b48",
+    "title": "微软Teams让步：会议中可关闭AI功能",
+    "summary": "因用户强烈反对，微软调整Teams Meeting AI策略，允许在会议中途启用或禁用Recap、Facilitator等AI能力，企业IT管理员也可定制租户策略。",
+    "body": "科技媒体Windows Latest报道称，微软原计划在Microsoft Teams中引入Facilitator协作助手、Intelligent Recap智能回顾及Copilot等AI功能。其中Recap集中展示最近30天的会议录制、文字转写与AI生成摘要，Facilitator则实时分析对话内容，识别未解答问题并在会议聊天中给出相关答案。该预告遭到部分用户强烈反对后，微软澄清将推出\"Meeting AI\"功能，允许用户在会议中途按需启用或禁用相关AI能力。\n\n在企业部署层面，IT管理员可通过租户策略统一控制：若策略关闭Meeting AI，会议界面中不会显示该开关；若策略允许，会议组织者和演示者可直接控制哪些AI功能在会中启用。这一调整体现了微软在推进办公场景AI商业化时对用户隐私担忧和操作控制权的回应，也可能影响Teams在企业客户中的接受度与竞争格局。",
+    "category": "人工智能",
+    "tags": [
+      "微软",
+      "Teams",
+      "AI会议",
+      "智能助手"
+    ],
+    "source": "IT之家",
+    "time": "6分钟前",
+    "ts": "2026-07-07T02:10:01+00:00",
+    "url": "https://www.ithome.com/0/973/376.htm",
+    "image": "https://img.ithome.com/newsuploadfiles/2026/7/ca79fd18-cdb9-466f-b2fa-b354f0a3ec32.jpg?x-bce-process=image/format,f_auto",
+    "stocks": [
+      {
+        "name": "微软",
+        "ticker": "MSFT",
+        "reason": "Teams是微软核心SaaS产品之一，其AI功能策略调整直接影响用户体验、商业化进程及AI产品口碑。",
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
+    "id": "84c0ac61fc6cf928",
+    "title": "支付宝AI开放平台上线，商家可多端接入",
+    "summary": "支付宝正式上线AI开放平台并开放邀测，商家可通过“阿宝”一次接入手机、车机、AI眼镜等多终端，实现AI服务的统一分发与管理。",
+    "body": "7月7日，支付宝宣布AI开放平台正式上线，面向企业开发者与代开发服务商开放邀测。商家和机构可借助“阿宝”将已有小程序、API接口和服务能力升级为AI可调用的MCP、Skill或Agent，并跨端分发至手机、车机、AI眼镜、IoT等智能终端及大模型平台，实现“一次接入、多端分发、统一管理”。\n\n平台将为生态伙伴提供AI能力搭建、触达多端用户、资源商业转化和降低研发成本等核心能力。商家接入后，不仅可通过“阿宝”服务支付宝10亿用户，还可授权各类智能终端推荐和调用其AI化服务，打破单一平台用户壁垒。\n\n支付宝方面表示，此次AI化升级不会影响App内现有小程序服务，并将继续发挥身份核验、支付安全、交易存证、风险防控等能力，为AI时代的商家与用户提供安全可信的服务基础设施。该平台的推出有助于降低商家AI化门槛，拓展支付宝生态的服务边界与商业化场景。",
+    "category": "人工智能",
+    "tags": [
+      "支付宝",
+      "AI开放平台",
+      "智能终端",
+      "Agent"
+    ],
+    "source": "IT之家",
+    "time": "7分钟前",
+    "ts": "2026-07-07T02:09:01+00:00",
+    "url": "https://www.ithome.com/0/973/375.htm",
+    "image": "https://img.ithome.com/newsuploadfiles/2026/7/bb8ce2f1-b42d-45e4-89f4-0a0cbea13d34.png?x-bce-process=image/format,f_auto",
+    "stocks": [
+      {
+        "name": "阿里巴巴",
+        "ticker": "9988.HK",
+        "reason": "支付宝隶属蚂蚁集团，阿里巴巴持有约三分之一股权，AI开放平台拓展生态价值",
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
+    "id": "53644386dad45195",
+    "title": "泽连斯基借北约峰会施压争取更多防空拦截弹",
+    "summary": "乌克兰总统泽连斯基将在土耳其举行的北约会议上敦促成员国提供更多防空系统及拦截导弹，以应对俄军近期大规模空袭。",
+    "body": "据英国广播公司报道，乌克兰总统泽连斯基计划利用在土耳其举行的北约会议，向北约成员国施压，要求提供更多防空系统和拦截导弹。近期俄军对乌克兰发动了多轮高强度空袭，使乌方现有防空能力承压。泽连斯基此举意在强化乌克兰的防空网络，并可能推动北约内部围绕防务援助和军工产能展开进一步讨论。\n\n防空导弹与综合防空系统是现代国防科技的关键组成部分，涉及雷达、指控系统、导弹拦截弹及后勤保障等复杂产业链。若北约响应乌克兰诉求并扩大相关援助，欧美主要防务承包商在防空领域的订单与产能利用率可能受到提振。",
+    "category": "地缘科技",
+    "tags": [
+      "北约",
+      "防空系统",
+      "俄乌冲突",
+      "军工"
+    ],
+    "source": "BBC World",
+    "time": "8分钟前",
+    "ts": "2026-07-07T02:07:15+00:00",
+    "url": "https://www.bbc.co.uk/news/articles/c9d227e5zj6o?at_medium=RSS&at_campaign=rss",
+    "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4c1b/live/497d1190-7994-11f1-af9a-8160843a772b.jpg",
+    "stocks": [
+      {
+        "name": "雷神技术",
+        "ticker": "RTX",
+        "reason": "美军“爱国者”等防空系统与拦截导弹核心供应商，对乌防空援助扩大可能带来新增订单",
+        "confidence": "medium"
+      },
+      {
+        "name": "洛克希德·马丁",
+        "ticker": "LMT",
+        "reason": "THAAD、PAC-3等反导拦截弹及防空系统主要生产商，有望受益于北约防空援助需求上升",
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
     "id": "6f4871bd98fac772",
     "title": "小米发布MiMo-V2.5-ASR全链路语音听觉基座",
     "summary": "小米MiMo-V2.5-ASR全链路语音模型听觉基座正式上线，宣称在方言、双语、强噪音、多说话人等复杂场景下达到业界领先水平，并已开放API供开发者调用。",
