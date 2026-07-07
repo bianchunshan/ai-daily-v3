@@ -1,5 +1,69 @@
 const newsData = [
   {
+    "id": "fe34fe807de18f45",
+    "title": "镁虽必需，健康人群补充益处有限",
+    "summary": "镁是人体必需的矿物质，但科学证据显示，对于饮食均衡的健康人而言，额外补充镁剂带来的收益通常较为有限。",
+    "body": "镁是参与体内数百种生化反应的关键矿物质，对肌肉、神经、骨骼和血糖调节均有重要作用。近期科学综述指出，尽管镁补充剂在市场上广受欢迎，常被宣传可改善睡眠、缓解压力、预防抽筋和提升精力，但多数研究显示，这些益处在本身不缺镁的健康人群中并不明显。\n\n对于肾功能正常、饮食均衡的人，通过全谷物、坚果、深绿色蔬菜和豆类等食物通常即可摄取足够的镁。盲目高剂量补镁不仅可能造成腹泻等胃肠道不适，还可能干扰其他矿物质吸收。因此，补充剂更适合经诊断缺镁或存在特定疾病风险的人群，而非普遍推荐的健康人。",
+    "category": "生物医药",
+    "tags": [
+      "营养补充剂",
+      "镁",
+      "生命科学",
+      "健康科普"
+    ],
+    "source": "MedicalXpress",
+    "time": "1分钟前",
+    "ts": "2026-07-07T18:20:04-04:00",
+    "url": "https://medicalxpress.com/news/2026-07-magnesium-essential-supplements-limited-benefits.html",
+    "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/magnesium.jpg",
+    "stocks": []
+  },
+  {
+    "id": "283528023d882516",
+    "title": "Meta发布AI图像生成器Muse，拓展广告与创作场景",
+    "summary": "Meta推出新款AI图像生成模型Muse，可应用于广告、装饰及创作者内容生产，进一步丰富其生成式AI产品矩阵。",
+    "body": "据报道，Meta已正式推出名为Muse的AI图像生成器。该模型面向广告设计、家居装饰以及创作者经济等多元场景，能够帮助用户与品牌快速生成视觉内容，降低创作门槛并提升生产效率。\n\n这一产品上线标志着Meta在生成式AI应用层的进一步布局，也为其广告业务和创作者生态带来新的变现与增长机会，同时加剧与OpenAI、Adobe等厂商在AI图像生成领域的竞争。",
+    "category": "人工智能",
+    "tags": [
+      "生成式AI",
+      "图像生成",
+      "Meta",
+      "广告科技"
+    ],
+    "source": "TechCrunch",
+    "time": "3分钟前",
+    "ts": "2026-07-07T22:18:10+00:00",
+    "url": "https://techcrunch.com/2026/07/07/meta-rolls-out-muse-a-new-ai-image-generator/",
+    "image": "",
+    "stocks": [
+      {
+        "name": "Meta Platforms",
+        "ticker": "META",
+        "reason": "Muse图像生成器丰富Meta生成式AI应用矩阵，利好广告与创作者生态",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "f309c8288d5910a1",
+    "title": "探访Lectron中国工厂：电动车充电器如何制造",
+    "summary": "Lectron在中国工厂为福特、通用、奔驰等车企及电动车用户生产J1772/CCS与NACS互转充电接头。该公司近日推出第二代家用二级充电桩NEXUS，并开放其中国制造产线供外界参观。",
+    "body": "据外媒报道，电动车充电配件厂商Lectron在中国设有制造工厂，主要生产J1772/CCS与NACS标准之间的互转充电接头，产品被广泛应用于电动汽车用户日常补能场景，并成为福特、通用、奔驰等车企的供应商。\n\n该公司近期发布了第二代家用二级充电桩NEXUS，进一步扩展其充电产品线。报道作者实地参观了Lectron的中国工厂，展示了其充电设备从生产到组装的部分制造流程。\n\n作为一家在美国市场颇具知名度的充电配件供应商，Lectron通过中国产能快速响应北美电动车市场需求，其制造能力与客户覆盖范围也反映出中国在全球电动车充电供应链中的重要地位。",
+    "category": "未来能源",
+    "tags": [
+      "电动车充电",
+      "充电桩",
+      "中国制造",
+      "供应链"
+    ],
+    "source": "Electrek",
+    "time": "4分钟前",
+    "ts": "2026-07-07T22:17:08+00:00",
+    "url": "https://electrek.co/2026/07/07/i-toured-lectron-factory-in-china-heres-what-i-learned/",
+    "image": "https://electrek.co/wp-content/uploads/sites/3/2026/07/Scr_Nexus_Validation00024.jpg?quality=82&#038;strip=all&#038;w=1600",
+    "stocks": []
+  },
+  {
     "id": "1668ccbef3ea9c81",
     "title": "研究揭示帕金森病男性高发背后的脑细胞遗传变化",
     "summary": "在欧洲神经科学学会联合会2026年论坛上发布的新研究发现，脑细胞中的某些遗传变化或可解释为何男性帕金森病发病率高于女性。",
