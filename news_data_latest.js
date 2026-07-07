@@ -195,6 +195,32 @@ const newsData = [
     "stocks": []
   },
   {
+    "id": "87248c3e75db1b14",
+    "title": "微软用自研MAI模型替换OpenAI和Anthropic降本",
+    "summary": "微软正将Copilot中的OpenAI和Anthropic模型逐步替换为自研MAI模型，以降低推理支出，并可能在未来的计费模式中让MAI成为默认选项。",
+    "body": "微软正推动Copilot产品使用自研MAI模型替代部分OpenAI与Anthropic模型，目标在于削减外部模型调用成本。微软AI负责人已表示，公司的目标是减少并最终取消对Anthropic的支出。目前，MAI模型已在Excel和Outlook中每周处理数万次请求，但总体占比仍较小。在Build大会上，微软发布了推理模型MAI-Thinking 1，宣称其编码能力可与Claude Sonnet 4.6和Opus 4.6媲美，但公开基准测试显示其性能明显落后，仅与DeepSeek V3.2相当。微软CEO还暗示未来可能转向按用量计费模式，MAI模型作为默认选项，第三方模型则作为付费附加项。微软声称MAI训练数据来自干净的商业授权数据，但报道称其实际基于Common Crawl。这一策略反映出大型云厂商在自研模型与第三方模型之间寻求成本与性能平衡的趋势。",
+    "category": "人工智能",
+    "tags": [
+      "微软",
+      "大模型",
+      "Copilot",
+      "AI成本"
+    ],
+    "source": "AIHOT精选",
+    "time": "39分钟前",
+    "ts": "2026-07-07T18:35:58+00:00",
+    "url": "https://the-decoder.com/copilot-goes-cheap-as-microsoft-phases-out-openai-and-anthropic-models-to-cut-costs",
+    "image": "",
+    "stocks": [
+      {
+        "name": "微软",
+        "ticker": "MSFT",
+        "reason": "以自研MAI模型替代OpenAI/Anthropic模型可降低推理成本并改善AI业务盈利前景，但模型性能差距亦带来竞争风险。",
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
     "id": "c952b2091a7fbe26",
     "title": "电子产品上的CE标志含义解析",
     "summary": "Engadget介绍了电子产品标签上CE标志的含义，说明它代表产品符合欧盟在安全、健康与环保方面的相关要求。",
