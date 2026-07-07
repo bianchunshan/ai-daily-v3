@@ -1,5 +1,23 @@
 const newsData = [
   {
+    "id": "a0aeece5bc763424",
+    "title": "挪威试点海洛因辅助治疗阿片类药物成瘾",
+    "summary": "挪威奥斯陆和卑尔根的两家诊所为少数阿片类药物成瘾患者提供海洛因辅助治疗，患者在医护人员严密监督下每日两次接受药用级海洛因，旨在改善其健康状况与生活质量。",
+    "body": "据报道，挪威奥斯陆和卑尔根的两家诊所正在开展海洛因辅助治疗试点，为难以通过常规手段戒断的阿片类药物成瘾患者提供新的治疗选择。患者在医护人员严密监督下，每日两次接受药用级海洛因给药，以确保用药安全并减少非法药物使用风险。该试点不仅关注患者的身体健康指标，也重视其生活质量的改善。这一临床实践为药物成瘾治疗领域积累了新经验，但其长期疗效、安全性与更大范围推广的可行性仍有待持续观察。",
+    "category": "生物医药",
+    "tags": [
+      "药物成瘾治疗",
+      "海洛因辅助治疗",
+      "临床试点"
+    ],
+    "source": "MedicalXpress",
+    "time": "5分钟前",
+    "ts": "2026-07-07T12:40:01-04:00",
+    "url": "https://medicalxpress.com/news/2026-07-heroin-treatment-patients-health-quality.html",
+    "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/heroin-assisted-treatm.jpg",
+    "stocks": []
+  },
+  {
     "id": "3d4c1a01fdd53257",
     "title": "Claude Cowork 扩展至网页与移动端",
     "summary": "Anthropic 宣布其 AI 助手 Claude Cowork 已向 Max 订阅用户开放网页版和移动版，打破此前仅限笔记本端的限制。",
