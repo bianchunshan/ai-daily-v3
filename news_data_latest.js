@@ -38,18 +38,18 @@ const newsData = [
   },
   {
     "id": "ff2a5b51bd2fd40f",
-    "title": "Anthropic将Claude Cowork Agent搬上手机",
-    "summary": "Anthropic让Claude Cowork Agent在手机端运行，即使用户合上笔记本，任务仍可在后台继续执行，进一步推动智能手机控制AI Agent的趋势。",
-    "body": "据Wired报道，Anthropic正将其Claude Cowork Agent从电脑扩展至智能手机。用户关闭笔记本后，Agent仍能在云端继续处理任务，并通过手机进行查看与管理。\n\n这一举措反映了AI行业正加速向“随时随地可控的智能体”演进：手机作为最普及的终端，有望成为AI Agent的主要交互与控制入口。对厂商而言，这意味着Agent需要在后台持久运行、跨设备同步，并保证任务执行的可靠性。\n\n如果智能手机 controlled agents 成为主流，AI应用的使用频次和场景将显著扩大，同时也对移动端的隐私、安全和云端算力提出更高要求。",
+    "title": "Anthropic将Claude Cowork Agent推向手机端",
+    "summary": "Anthropic让Claude Cowork Agent支持智能手机远程控制，即便用户合上笔记本电脑，Agent仍可继续处理任务，体现AI智能体向移动化、异步化方向演进。",
+    "body": "据报道，Anthropic正将其Claude Cowork Agent的能力扩展至手机端，允许用户在离开电脑、甚至合上笔记本后，仍可通过手机向Agent下达指令并跟踪任务进展。这一更新意味着AI智能体不再受限于桌面办公场景，而是向随身化、跨设备协作演进，进一步模糊了人机协作的边界。该举措也可能加剧AI Agent赛道的竞争，推动行业在移动体验、任务连续性和异步执行能力上投入更多资源。",
     "category": "人工智能",
     "tags": [
       "AI Agent",
-      "Anthropic",
       "智能手机",
-      "AI应用"
+      "人机协作",
+      "Anthropic"
     ],
     "source": "Wired",
-    "time": "5分钟前",
+    "time": "12分钟前",
     "ts": "2026-07-07T16:00:00+00:00",
     "url": "https://www.wired.com/story/shut-those-laptops-anthropic-puts-its-claude-cowork-agent-on-your-phone/",
     "image": "https://media.wired.com/photos/6a4c0a029897ae33b7e202dc/master/pass/Cowork-Web-Mobile-Press-No-Logo-1920x1080.png",
@@ -57,18 +57,18 @@ const newsData = [
   },
   {
     "id": "5a19554931075451",
-    "title": "Anthropic推出手机端Claude Cowork AI工具",
-    "summary": "Anthropic为旗下Claude推出手机端Cowork AI工具，Max订阅用户可率先体验，这意味着用户能通过手机直接调度Claude处理任务。",
-    "body": "Anthropic近日宣布，其Claude的Cowork功能已可在手机上使用，Max订阅用户将获得抢先体验权限。该工具允许用户指派和引导Claude完成各类工作流，此次扩展到移动端意味着用户可随时随地管理和追踪AI的执行进度。\n\n将AI代理能力从桌面端延伸至手机端，是Anthropic提升产品粘性与用户覆盖的重要一步，也反映出AI助手正从被动问答向主动协作演进。",
+    "title": "Anthropic手机端Claude Cowork上线，Max订户首测",
+    "summary": "Anthropic面向Max订阅用户推出手机版Claude Cowork AI助手，用户可在移动设备上直接指挥AI处理工作任务。",
+    "body": "据Engadget报道，Anthropic为其Claude系列AI推出Cowork手机端功能，首批向Max订阅用户开放。该工具允许用户通过手机直接调度AI助手完成工作任务，进一步拓展Claude在多场景下的协同能力。此举标志着Anthropic正加速将AI Agent能力从桌面端延伸至移动端，以提升用户粘性与日常使用频率，也反映出AI助手市场竞争正从功能丰富度向多终端覆盖延伸。",
     "category": "人工智能",
     "tags": [
-      "Claude",
+      "AI助手",
       "Anthropic",
-      "AI应用",
-      "AI Agent"
+      "Claude",
+      "移动应用"
     ],
     "source": "Engadget",
-    "time": "5分钟前",
+    "time": "12分钟前",
     "ts": "2026-07-07T16:00:00+00:00",
     "url": "https://www.engadget.com/2209495/now-you-can-direct-anthropic-claude-cowork-ai-from-your-phone/",
     "image": "https://www.engadget.com/img/gallery/now-you-can-direct-anthropics-claude-cowork-ai-from-your-phone/l-intro-1783433017.jpg",
@@ -133,25 +133,6 @@ const newsData = [
     ],
     "source": "Hacker News",
     "time": "9分钟前",
-    "ts": "2026-07-07T15:52:22+00:00",
-    "url": "https://better-auth.com/blog/better-auth-joins-vercel",
-    "image": "",
-    "stocks": []
-  },
-  {
-    "id": "ce352603d0c99710",
-    "title": "开源认证库 Better Auth 加入 Vercel",
-    "summary": "开源身份认证库 Better Auth 团队宣布加入云原生平台 Vercel，预计将增强 Vercel 在开发者认证与全栈工具方面的能力。",
-    "body": "Better Auth 是一款面向 JavaScript/TypeScript 生态的开源身份认证库。近日，该团队宣布加入云原生部署平台 Vercel。这意味着 Vercel 可能将更完整的身份认证能力整合进其 Next.js 与云基础设施产品，进一步降低开发者构建全栈应用的门槛。对开源社区而言，也显示出 Vercel 持续投资开发者工具与平台安全的意图。",
-    "category": "网络安全",
-    "tags": [
-      "身份认证",
-      "开源软件",
-      "Vercel",
-      "开发者工具"
-    ],
-    "source": "Hacker News",
-    "time": "12分钟前",
     "ts": "2026-07-07T15:52:22+00:00",
     "url": "https://better-auth.com/blog/better-auth-joins-vercel",
     "image": "",
@@ -136354,11 +136335,6 @@ const newsData = [
   }
 ];
 const newsDigest = {
-  "text": "今日脑机接口揭示记忆保存新机制，“不可成药”肺癌迎新疗法；天问二号传回首张地球准卫星照片，Discord误封事件引发AI安全关注。",
-  "highlights": [
-    "4ba76911488eafad",
-    "8848ed5dedafffad",
-    "e90c7aec57f5549d",
-    "b38a9261226ec8a2"
-  ]
+  "text": "",
+  "highlights": []
 };
