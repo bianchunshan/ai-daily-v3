@@ -1271,6 +1271,25 @@ const newsData = [
     ]
   },
   {
+    "id": "e2be3363623027ac",
+    "title": "Rowboat：开源本地优先的 AI 工作助手",
+    "summary": "Rowboat 是一款开源、本地优先的 AI 助手工具，定位为 Claude Desktop 的替代方案，强调把 AI 辅助嵌入邮件、会议、笔记、编码等实际工作流，而不仅限于聊天交互。",
+    "body": "Rowboat 团队在 Hacker News 上发布了这款开源、本地优先的 AI 工作应用，目标是将 AI 助手从“聊天窗口”转变为真正的工作应用。他们认为，AI 不仅要做对，还要在工作人员实际操作的场景中出现，因此设计了可在 Rowboat 内部自定义的“工作界面”。\n\n具体功能包括内置邮件客户端，可自动区分重要邮件并预生成草稿，还能学习用户语气；类似 Granola 的本地会议记录工具，以 Markdown 文件保存在本机；以及用于笔记、浏览器和并行编码的专属区域。开发团队此前曾为宝洁等品牌的企业客服团队打造深度学习辅助工具，这些经验影响了 Rowboat 在工作流中嵌入 AI 的设计理念。该产品目前面向关注隐私与本地化的用户和开发者提供开源方案。",
+    "category": "人工智能",
+    "tags": [
+      "开源软件",
+      "AI助手",
+      "本地优先",
+      "Claude替代"
+    ],
+    "source": "Hacker News",
+    "time": "3小时前",
+    "ts": "2026-07-07T16:10:44+00:00",
+    "url": "https://github.com/rowboatlabs/rowboat",
+    "image": "",
+    "stocks": []
+  },
+  {
     "id": "4ba76911488eafad",
     "title": "星形胶质细胞通过稳定神经回路保存记忆数周",
     "summary": "研究发现星形胶质细胞可通过稳定神经回路帮助记忆保存数周，为揭示记忆持久性的神经机制提供了新线索。",
@@ -137803,6 +137822,12 @@ const newsData = [
   }
 ];
 const newsDigest = {
-  "text": "",
-  "highlights": []
+  "text": "科技头条：AI模型竞争白热化（Meta、微软、Figma），谷歌Pixel新品发布，北约峰会聚焦重新武装。",
+  "highlights": [
+    "b3ffd50db77ce3cc",
+    "87248c3e75db1b14",
+    "d745d6cafed31ff8",
+    "0230b62d6fa65937",
+    "2cb5c862d10699bf"
+  ]
 };
