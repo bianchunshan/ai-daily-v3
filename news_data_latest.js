@@ -1,5 +1,24 @@
 const newsData = [
   {
+    "id": "f3b23b6eeeb6195a",
+    "title": "Counterpoint：618中国手机销量同比降13%，华为逆势增长",
+    "summary": "Counterpoint Research报告显示，覆盖618大促的四周内中国智能手机销量同比下滑13%，华为以21%份额居首并成为唯一同比增长的主要品牌。",
+    "body": "Counterpoint Research最新《中国智能手机周度零售销量追踪报告》显示，今年618期间中国智能手机销量同比下降13%。存储芯片价格上涨推高了手机成本与售价，压缩了厂商降价空间，进一步抑制了本就疲弱的消费需求。除华为外，苹果、OPPO、vivo、荣耀、小米等主要品牌销量均出现同比下滑。\n\n华为以21%的市场份额位居第一，畅享90 Pro Max和Mate 80凭借长续航、性价比及促销表现突出，成为618期间唯一实现同比增长的主要品牌。苹果提前启动促销，iPhone 17 Pro系列最高优惠约2000元，促销拉动其升至市场第二，但销量仍同比下降9%。OPPO Reno16、荣耀X70、vivo S60和REDMI K90等中低端机型进入销量前十。\n",
+    "category": "消费电子",
+    "tags": [
+      "智能手机",
+      "618大促",
+      "华为",
+      "消费电子市场"
+    ],
+    "source": "IT之家",
+    "time": "11分钟前",
+    "ts": "2026-07-07T05:55:34+00:00",
+    "url": "https://www.ithome.com/0/973/490.htm",
+    "image": "https://img.ithome.com/newsuploadfiles/2026/7/febae78c-eccf-4f0e-97ce-96ee66ca9e65.png?x-bce-process=image/format,f_auto",
+    "stocks": []
+  },
+  {
     "id": "85bce84091e995bf",
     "title": "追觅在武汉成立新信息技术公司",
     "summary": "追觅科技近日在武汉全资成立了一家信息技术子公司，经营范围涵盖信息技术咨询、智能机器人销售与软件开发，显示出其在华中地区的业务拓展与机器人销售布局。",
@@ -223,6 +242,25 @@ const newsData = [
         "confidence": "high"
       }
     ]
+  },
+  {
+    "id": "ed44754b6a478f71",
+    "title": "openJiuwen首发多模态Skill范式Skill-Omni",
+    "summary": "openJiuwen社区发布业界较早工程化落地的多模态Skill范式Skill-Omni，使Agent能够将网页与视频中的视觉经验沉淀为可复用的多模态Skill，弥补纯文本Skill在视觉任务和GUI自动化中的信息缺失。",
+    "body": "当前Agent使用的Skill多为纯文本，难以表达“调整到什么程度”“该点击哪个按钮”等视觉与界面知识。openJiuwen社区因此推出Skill-Omni，通过JiuwenSwarm中的skill-omni-creation工具，将网页图文教程与B站视频等素材自动提取关键截图、关键帧和操作脉络，生成Agent可直接读取的多模态Skill。该范式把原本面向人类观看的内容转化为Agent可调用的经验资产，提升了Agent在视觉编辑、GUI自动化和安装配置等任务中的执行上限。",
+    "category": "人工智能",
+    "tags": [
+      "多模态Agent",
+      "Skill工程",
+      "AI应用",
+      "openJiuwen"
+    ],
+    "source": "量子位",
+    "time": "1小时前",
+    "ts": "2026-07-07T05:03:09+00:00",
+    "url": "https://www.qbitai.com/2026/07/445229.html",
+    "image": "",
+    "stocks": []
   },
   {
     "id": "ff3f3be302f02462",
