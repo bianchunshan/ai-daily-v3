@@ -1,5 +1,172 @@
 const newsData = [
   {
+    "id": "d4952f85a51ad304",
+    "title": "Meta发布Muse Image模型并接入社交应用",
+    "summary": "Meta发布图像生成式AI模型Muse Image，已接入Meta AI聊天机器人，并将嵌入Instagram、WhatsApp等社交应用；用户可通过文本提示生成或修改图片，广告主也可用它制作营销素材。",
+    "body": "Meta Platforms Inc.发布了一款新的图像生成式人工智能模型Muse Image，并已在Meta AI聊天机器人上线。该模型还将嵌入Instagram、WhatsApp等旗下多款社交应用，支持用户根据文本提示生成图像，也能按要求修改现有图片。广告主也将很快能利用该模型制作营销材料。\n\n这是Meta一年前斥资数十亿美元重建AI实验室、并任命Alexandr Wang为首席AI官以来，首次推出图像生成类模型。此次发布意味着Meta正将其生成式AI能力与其庞大的社交和广告生态深度融合，有望提升内容创作效率并增强广告主的投放工具。",
+    "category": "人工智能",
+    "tags": [
+      "Meta",
+      "AI图像生成",
+      "社交应用",
+      "广告营销"
+    ],
+    "source": "36氪",
+    "time": "刚刚",
+    "ts": "2026-07-07T23:09:07.916829+00:00",
+    "url": "https://36kr.com/newsflashes/3886176091320325?f=rss",
+    "image": "",
+    "stocks": [
+      {
+        "name": "Meta Platforms",
+        "ticker": "META",
+        "reason": "Muse Image接入Meta AI聊天机器人及Instagram、WhatsApp等应用，广告主可生成营销素材，利好其社交与广告业务",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "9be76531536baf45",
+    "title": "亚马逊拟发债250亿美元加码AI基础设施",
+    "summary": "亚马逊计划通过八批次债券发行筹集至少250亿美元，用于持续推进大规模人工智能基础设施建设，并承诺年内不再新增发债。",
+    "body": "据知情人士透露，亚马逊计划通过八个批次的债券发行筹集至少250亿美元资金，以支持其大规模人工智能基础设施建设。该公司已向承销商表示，今年内不会再发行任何新债。此次融资若顺利完成，将为亚马逊在AI算力、数据中心等领域的持续投入提供充足资金，进一步巩固其云服务与人工智能业务的竞争壁垒。",
+    "category": "AI 基础设施",
+    "tags": [
+      "亚马逊",
+      "债券发行",
+      "AI基础设施"
+    ],
+    "source": "36氪",
+    "time": "刚刚",
+    "ts": "2026-07-07T23:09:05.845015+00:00",
+    "url": "https://36kr.com/newsflashes/3886177762078721?f=rss",
+    "image": "",
+    "stocks": [
+      {
+        "name": "亚马逊",
+        "ticker": "AMZN",
+        "reason": "公司发债250亿美元直接用于推进AI基础设施建设，支撑云与AI业务扩张",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "fc3fb84c323acc1f",
+    "title": "AI将蛋白质序列翻译成文字，加速药物研发",
+    "summary": "以色列研究团队开发出BetaDescribe AI系统，可将蛋白质序列自动转化为文字描述，帮助理解蛋白质功能，有望加速药物研发和新材料设计。",
+    "body": "以色列理工学院和特拉维夫大学研究团队开发出一种名为BetaDescribe的AI系统。该系统能够将蛋白质序列“翻译”成文字，自动生成对蛋白质功能、特性等信息的描述。\n\n这项技术为理解蛋白质功能开辟了新路径。研究成果已发表于最新一期《美国国家科学院院刊》。研究人员表示，该方法有望加速药物研发和新材料设计，为生命科学和材料科学领域提供新的研究工具。",
+    "category": "人工智能",
+    "tags": [
+      "人工智能",
+      "蛋白质研究",
+      "药物研发",
+      "新材料"
+    ],
+    "source": "36氪",
+    "time": "刚刚",
+    "ts": "2026-07-07T23:09:05.529675+00:00",
+    "url": "https://36kr.com/newsflashes/3886178922541318?f=rss",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "72b755c3e3d61eef",
+    "title": "索尼向退订PS+玩家推送最高五折优惠挽留",
+    "summary": "索尼宣布2028年起停止PS5实体光盘后，部分玩家以退订PlayStation Plus抗议，索尼则通过自动挽留系统向部分用户推送25%至50%不等的订阅折扣。",
+    "body": "索尼在7月1日宣布，自2028年1月起PlayStation平台新发售游戏将不再生产蓝光实体光盘，全部改为数字版发行。该决定引发玩家、收藏者和游戏历史保护者的不满，部分用户在Reddit等社区号召通过取消PS Plus订阅来表达抗议。\n\n据报道，当用户尝试取消PS Plus时，索尼的自动留存系统会弹出折扣挽留提示：PS Plus Extra用户收到三个月订阅50%折扣，Premium用户收到年度订阅25%至33%不等的优惠。此类折扣并非统一发放，可能是基于随机算法或账户活跃记录的定向推送。值得注意的是，这属于业界常见的自动化用户留存策略，但PS Plus向来很少对活跃付费会员提供官方促销。\n\n分析人士指出，若不满实体游戏消亡的玩家接受折扣续约，可能削弱抵制效果；但对无意离开PlayStation生态、仅希望降低订阅费用的用户而言，这成为触发系统优惠的“捷径”。此次事件也反映出索尼在推动全数字发行过程中，仍需平衡订阅收入与用户情绪。",
+    "category": "消费电子",
+    "tags": [
+      "索尼",
+      "PlayStation Plus",
+      "游戏订阅",
+      "数字发行"
+    ],
+    "source": "IT之家",
+    "time": "5分钟前",
+    "ts": "2026-07-07T23:03:06+00:00",
+    "url": "https://www.ithome.com/0/973/818.htm",
+    "image": "https://img.ithome.com/newsuploadfiles/2026/7/ed94fd32-150f-4ffb-b412-e1fd5778c51e.png?x-bce-process=image/format,f_auto",
+    "stocks": [
+      {
+        "name": "索尼集团",
+        "ticker": "SONY",
+        "reason": "PS+订阅折扣直接关系其游戏服务业务收入与用户留存，事件亦影响其数字发行战略的市场接受度。",
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
+    "id": "8617b835fedf573e",
+    "title": "苹果推送AirPods Pro 3测试固件，支持GymKit心率同步",
+    "summary": "苹果向多款AirPods耳机推送9A5314b开发者测试固件，并为Apple Watch用户新增“查找我的AirPods”功能，同时AirPods Pro 3可通过GymKit将心率数据同步至兼容健身器材。",
+    "body": "据AppleInsider报道，苹果已向AirPods 4、AirPods Pro 2（Lightning与USB-C版本）以及AirPods Pro 3推送9A5314b开发者测试版固件，对应版本号9.0.314。用户需将iPhone、iPad或Mac升级至iOS 26、iPadOS 26或macOS 26及以上版本，并在AirPods设置中开启测试版固件选项，耳机在充电且处于连接范围内时会自动安装。\n\n苹果官方尚未公布该固件的完整更新内容，但报道称其新增了两项关键能力：一是为Apple Watch用户带来“查找我的AirPods”功能，便于定位遗失耳机；二是AirPods Pro 3在支持的健身器材上可通过GymKit同步心率数据。这一变化意味着AirPods正进一步融入苹果的健康与运动生态，强化可穿戴设备的场景联动与用户体验。",
+    "category": "消费电子",
+    "tags": [
+      "苹果",
+      "AirPods",
+      "GymKit",
+      "可穿戴设备"
+    ],
+    "source": "IT之家",
+    "time": "8分钟前",
+    "ts": "2026-07-07T23:00:37+00:00",
+    "url": "https://www.ithome.com/0/973/816.htm",
+    "image": "",
+    "stocks": [
+      {
+        "name": "苹果公司",
+        "ticker": "AAPL",
+        "reason": "新固件扩展AirPods健康运动功能，增强可穿戴生态粘性",
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
+    "id": "d7a79b06d67708f5",
+    "title": "英国研究显示流产和宫外孕住院率上升且不平等加剧",
+    "summary": "一项在英国开展的研究显示，近年来流产与宫外孕的住院入院人数呈上升趋势，且不同群体间存在显著差异，相关成果已在欧洲生殖与胚胎学会年会发布。",
+    "body": "据英国一项全国性研究，近年来英格兰地区因流产和宫外孕入院的人数有所增加，该研究在欧洲生殖与胚胎学会（ESHRE）第42届年会上发布，摘要发表于《Human Reproduction》。研究同时指出，相关健康结果中存在明显的社会不平等。这一发现提示，生殖健康负担可能在持续加重，对医疗资源分配、早孕监测与妇女健康服务提出了更高要求。",
+    "category": "生物医药",
+    "tags": [
+      "生殖健康",
+      "流产",
+      "宫外孕",
+      "公共卫生"
+    ],
+    "source": "MedicalXpress",
+    "time": "8分钟前",
+    "ts": "2026-07-07T19:00:03-04:00",
+    "url": "https://medicalxpress.com/news/2026-07-miscarriage-ectopic-pregnancy-admissions-years.html",
+    "image": "https://scx1.b-cdn.net/csz/news/tmb/2021/doctor-2.jpg",
+    "stocks": []
+  },
+  {
+    "id": "52cae8fe89d1f560",
+    "title": "三星Galaxy Unpacked发布会定档7月22日",
+    "summary": "三星宣布下一次Galaxy Unpacked新品发布会将于7月22日举行，预计将带来新一代Galaxy旗舰硬件产品。",
+    "body": "三星电子宣布，下一次Galaxy Unpacked新品发布会将于7月22日举行。作为全球消费电子领域的重要发布活动，Galaxy Unpacked通常会集中亮相Galaxy Z系列折叠屏手机、智能手表、真无线耳机等旗舰新品，因而备受市场与消费者关注。\n\n目前关于发布会的具体时间、地点及完整产品阵容等细节尚未公布。此次发布会日期敲定，有助于三星在下半年旗舰机市场保持节奏与竞争力，并可能带动相关供应链及消费硬件板块的市场关注度。",
+    "category": "消费电子",
+    "tags": [
+      "消费电子",
+      "智能手机",
+      "三星",
+      "新品发布"
+    ],
+    "source": "Engadget",
+    "time": "8分钟前",
+    "ts": "2026-07-07T23:00:00+00:00",
+    "url": "https://www.engadget.com/2209773/the-next-samsung-galaxy-unpacked-launch-is-happening-on-july-22/",
+    "image": "https://www.engadget.com/img/gallery/the-next-samsung-galaxy-unpacked-launch-is-happening-on-july-22/l-intro-1783444881.jpg",
+    "stocks": [
+      {
+        "name": "三星电子",
+        "ticker": "005930.KS",
+        "reason": "发布会为三星旗舰新品造势，有望带动终端销量与品牌影响力提升",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
     "id": "2dcd2eee5769d720",
     "title": "微软自研MAI模型接手Office应用降本",
     "summary": "微软开始在Excel、Outlook等Office产品中采用自研MAI模型处理部分AI提示，以替代OpenAI和Anthropic的模型并降低AI成本。这一转变显示微软在打造低成本、具备竞争力的自研AI模型上取得进展。",
