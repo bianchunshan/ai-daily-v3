@@ -1,5 +1,75 @@
 const newsData = [
   {
+    "id": "f4b0aec9bef16513",
+    "title": "SpaceX Colossus数据中心遭关停令，450亿美元协议或受影响",
+    "summary": "一项诉讼请求法院下令SpaceX关闭为其Colossus 2数据中心供电的燃气轮机，理由是其在未取得所需许可的情况下运营，这可能危及SpaceX与Anthropic签订的450亿美元合同中的部分内容。",
+    "body": "据外媒报道，SpaceX旗下位于美国田纳西州的Colossus 2数据中心正面临关停风险。一项诉讼请求法院下令SpaceX关闭为该数据中心供电的燃气轮机，理由是其未取得所需许可即投入运营。Colossus是SpaceX近年来重点建设的超大规模AI算力集群，旨在满足生成式AI训练和推理的巨大算力需求。\n\n该诉讼若获得法院支持，可能会危及SpaceX与AI公司Anthropic签订的450亿美元合作协议中的部分内容。下级法院很可能会下令在SpaceX获得相关许可期间关停这些涡轮机，但也可能给予其一定时间来履行合规要求。此案反映出AI数据中心高速扩张过程中面临的环保审批与地方监管压力。",
+    "category": "AI 基础设施",
+    "tags": [
+      "SpaceX",
+      "Anthropic",
+      "数据中心",
+      "AI算力"
+    ],
+    "source": "36氪",
+    "time": "刚刚",
+    "ts": "2026-07-07T12:57:43.355239+00:00",
+    "url": "https://36kr.com/newsflashes/3885567094583304?f=rss",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "4c9138fb6ddca347",
+    "title": "Steam Machine“死亡红线”官方解法：清空CMOS即可复活",
+    "summary": "Valve官方在Reddit回应称，因更新陷入“死亡红线”（RLOD）而无法开机的Steam Machine可通过清除CMOS设置的五步操作恢复正常，问题并非硬件永久损坏。",
+    "body": "上周有用户报告称，全新的Steam Machine在更新过程中变砖，屏幕只剩一条红线，被玩家称为“死亡红线”（RLOD），让人联想到Xbox 360时代的“三红”阴影。此事引发硬件爱好者担忧后，Valve官方账号SteamHWFeedback在Reddit上回复了用户me_hill，并提供了正式的恢复步骤。\n\n官方方案的核心是彻底清除CMOS设置，而非更换或维修硬件。目前已公开的步骤首先要求拔掉电源并多次按电源键，以释放机器内部残余电荷，随后进行CMOS清空操作。me_hill表示，在官方回复前，他已根据评论区建议通过重置操作成功救活设备。\n\n这一官方修复方案意味着，遭遇RLOD的Steam Machine大多并非真正“死亡”，用户可自行尝试恢复，降低了售后维修压力，也缓解了玩家对硬件可靠性的疑虑。完整步骤已由Valve在Reddit公布。",
+    "category": "消费电子",
+    "tags": [
+      "Steam Machine",
+      "Valve",
+      "CMOS",
+      "游戏硬件"
+    ],
+    "source": "Tom's Hardware",
+    "time": "1分钟前",
+    "ts": "2026-07-07T12:55:43+00:00",
+    "url": "https://www.tomshardware.com/desktops/mini-pcs/steam-machines-with-the-red-line-of-death-get-a-simple-official-cure-clear-the-cmos-clearing-the-cmos-can-revive-flat-red-lining-cubes",
+    "image": "https://cdn.mos.cms.futurecdn.net/WRkgiCsQCqHDc7sh5mgzWm-1280-80.png",
+    "stocks": []
+  },
+  {
+    "id": "e3d126f36d4a3622",
+    "title": "Even Realities融资1.5亿美元跻身独角兽",
+    "summary": "中国智能眼镜厂商Even Realities完成1.5亿美元Pre-B轮融资，估值达10亿美元，由美团和腾讯领投。资金将用于下一代智能眼镜平台、AI技术整合及全球扩张。",
+    "body": "据IT之家报道，总部位于中国的智能眼镜初创公司Even Realities日前完成Pre-B轮融资，获得1.5亿美元资金，公司估值已达10亿美元，正式跻身独角兽行列。本轮融资由美团和腾讯领投，所筹资金主要用于开发下一代智能眼镜平台、深化AI技术整合以及扩大全球业务布局。\n\nEven Realities产品定位强调隐私保护，与Meta旗下雷朋联名眼镜不同，其产品未配备摄像头。该公司最新款Even G2于今年4月发布，采用640×350分辨率、60Hz刷新率的Micro LED单色绿色显示屏，售价699欧元。此次大额融资及巨头领投，反映资本市场对AI驱动智能眼镜与可穿戴硬件赛道的高度关注。",
+    "category": "消费电子",
+    "tags": [
+      "智能眼镜",
+      "可穿戴设备",
+      "AI硬件",
+      "AR"
+    ],
+    "source": "IT之家",
+    "time": "5分钟前",
+    "ts": "2026-07-07T12:52:03+00:00",
+    "url": "https://www.ithome.com/0/973/775.htm",
+    "image": "https://img.ithome.com/newsuploadfiles/2026/4/9be13f1c-c3bc-4036-b5c0-bfd34f507636.png?x-bce-process=image/format,f_auto",
+    "stocks": [
+      {
+        "name": "腾讯控股",
+        "ticker": "0700.HK",
+        "reason": "作为Even Realities Pre-B轮融资领投方，有望分享智能眼镜/AI可穿戴赛道成长红利",
+        "confidence": "high"
+      },
+      {
+        "name": "美团",
+        "ticker": "3690.HK",
+        "reason": "作为Even Realities Pre-B轮融资领投方，加码AI硬件与未来消费场景布局",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
     "id": "4d13c5a6b6593200",
     "title": "IBM发布z17与LinuxONE 5数据中心系统",
     "summary": "IBM于7月7日发布新一代z17和LinuxONE 5数据中心系统，以应对机房空间与成本瓶颈。新品将于8月12日上市，进一步巩固IBM在企业级主机市场的地位。",
@@ -935,6 +1005,37 @@ const newsData = [
     ]
   },
   {
+    "id": "bcfad725292b46f3",
+    "title": "ULA末枚Atlas V完成亚马逊星座发射，剩余火箭专供波音星际客机",
+    "summary": "联合发射联盟最后一枚用于亚马逊Kuiper低轨宽带星座的Atlas V火箭已成功发射，将29颗卫星送入轨道；ULA剩余6枚Atlas V火箭将只能用于发射波音Starliner飞船。",
+    "body": "美国联合发射联盟（ULA）最后一枚用于亚马逊“Project Kuiper”低轨宽带星座的Atlas V火箭上周从佛罗里达州卡纳维拉尔角发射升空，成功将29颗卫星送入近地轨道。这些卫星将利用自身推进系统从约465公里爬升至630公里的最终工作轨道。亚马逊表示，公司已有足够在轨卫星，计划今年晚些时候在中纬度地区开始初步宽带服务。 此次发射标志着Atlas V火箭一个时代的结束。ULA剩余的6枚Atlas V火箭将全部用于执行波音Starliner载人飞船的发射任务，无法为其他客户服务。这反映了ULA正逐步退役Atlas V、向新一代“火神”（Vulcan）火箭过渡，同时也意味着波音Starliner的发射资源已得到锁定。",
+    "category": "商业航天",
+    "tags": [
+      "商业航天",
+      "卫星互联网",
+      "火箭发射"
+    ],
+    "source": "Ars Technica",
+    "time": "1小时前",
+    "ts": "2026-07-07T11:15:15+00:00",
+    "url": "https://arstechnica.com/space/2026/07/after-a-stellar-career-ulas-atlas-v-rocket-last-act-is-waiting-on-starliner/",
+    "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/07/55370181785_141924edbe_4k-1152x648.jpg",
+    "stocks": [
+      {
+        "name": "亚马逊",
+        "ticker": "AMZN",
+        "reason": "Project Kuiper低轨宽带星座卫星成功入轨，亚马逊称已有足够卫星计划年内开启中纬度地区初步宽带服务",
+        "confidence": "high"
+      },
+      {
+        "name": "波音",
+        "ticker": "BA",
+        "reason": "ULA剩余Atlas V火箭将专供波音Starliner飞船，确保其载人发射资源，且波音为ULA合资方之一",
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
     "id": "2f853f2f2b268d13",
     "title": "IT领导者规模化AI应回归架构基础",
     "summary": "随着AI能力快速进步与智能体系统兴起，企业AI用例持续扩展，但技术迭代也给IT投资带来不确定性。回归AI架构基础——大规模部署和管理可靠、集成AI系统的结构性框架——有助于技术领导者在动态变化中做出稳健决策。",
@@ -1112,6 +1213,25 @@ const newsData = [
         "confidence": "high"
       }
     ]
+  },
+  {
+    "id": "ef414c9b6da47723",
+    "title": "AI有望让机器人成为职场与家庭的自主工作者",
+    "summary": "多家顶尖机器人研究机构与初创企业创始人表示，现代人工智能正推动机器人从简单的导航自主，向处理工作场所乃至家庭中多样化任务的广义自主能力演进。",
+    "body": "在自动驾驶出租车穿梭于城市街道、配送无人机自主飞抵客户家中的背景下，能够在办公室甚至家中协助人类完成各类任务的通用型机器人似乎已不再遥远。这一愿景的实现取决于现代人工智能驱动的机器人自主能力不断提升，这也吸引了大量投资，并促使许多研究人员创办初创公司。波士顿动力软件副总裁马特·马尔查诺回忆，约15年前其团队追求的自主能力只是让机器人从A点导航到B点，而如今“自主”已涵盖能够想象的各类任务空间。这一转变标志着机器人技术正从特定场景执行走向更广泛的任务理解与决策，若技术成熟，可能在制造、物流、家庭服务等领域带来深远影响，同时也对安全性与可靠性提出更高要求。",
+    "category": "机器人",
+    "tags": [
+      "具身智能",
+      "自主机器人",
+      "人形机器人",
+      "AI应用"
+    ],
+    "source": "Ars Technica",
+    "time": "1小时前",
+    "ts": "2026-07-07T11:00:18+00:00",
+    "url": "https://arstechnica.com/features/2026/07/robot-workers-rising-how-ai-may-drive-general-purpose-autonomy-in-robotics/",
+    "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/07/Agility_Digit_06-1152x648.jpg",
+    "stocks": []
   },
   {
     "id": "ff7f3cf9f6527742",
