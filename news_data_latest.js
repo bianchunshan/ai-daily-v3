@@ -1,5 +1,24 @@
 const newsData = [
   {
+    "id": "3c81cf765e3fcb9a",
+    "title": "智谱澄清：撤回A股辅导备案报道失实",
+    "summary": "智谱公告称，有关公司已撤回建议首次公开发行A股辅导备案的媒体报道失实，并指相关报道存在恶意炒作之嫌。公司表示A股发行方案已获股东会批准，且辅导工作已经完成。",
+    "body": "智谱发布澄清公告，针对部分媒体称其已撤回建议首次公开发行A股的辅导备案一事作出回应。公司表示，该等报道陈述失实，所描述事件与实际情况不符，并存在恶意炒作之嫌。据公告，智谱建议A股发行方案已于2026年6月22日召开的2025年年度股东会上经股东审议及批准，且中国证监会官方网站显示相关辅导工作已经完成。公司表示将适时发布进一步公告。",
+    "category": "人工智能",
+    "tags": [
+      "智谱",
+      "A股IPO",
+      "辅导备案",
+      "澄清公告"
+    ],
+    "source": "36氪",
+    "time": "刚刚",
+    "ts": "2026-07-07T03:56:00.820653+00:00",
+    "url": "https://36kr.com/newsflashes/3885042555515144?f=rss",
+    "image": "",
+    "stocks": []
+  },
+  {
     "id": "a2c55b432088a6d0",
     "title": "中国中煤在安徽成立能源新公司",
     "summary": "中国中煤能源集团有限公司近日在安徽成立全资子公司中煤（安徽）能源有限公司，注册资本1亿元，业务覆盖煤炭开采、煤炭销售、矿物洗选及储能技术服务等。",
@@ -3921,6 +3940,25 @@ const newsData = [
     "ts": "2026-07-06T12:00:03-04:00",
     "url": "https://medicalxpress.com/news/2026-07-ai-ready-prescriptions-doctors-wary.html",
     "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/is-ai-ready-to-take-ov.jpg",
+    "stocks": []
+  },
+  {
+    "id": "8eef5f33ade40a13",
+    "title": "字节Seed发布EdgeBench：发现Agent环境学习新Scaling Law",
+    "summary": "字节Seed发布超长程评测集EdgeBench，包含134个真实任务并开源51个任务及完整评测框架。研究发现Agent在真实环境中的学习速度约每三个月翻一倍，呈现高精度log-sigmoid增长曲线。",
+    "body": "字节Seed近日发布超长程评测集EdgeBench，用于衡量AI Agent在真实世界环境中的学习能力。该评测集包含134个真实任务，覆盖六大领域，每个任务支持Agent持续工作至少12小时。基于约38000小时交互数据，研究团队发现Agent环境学习表现遵循高精度log-sigmoid曲线，平均拟合度R2达0.998。数据显示，自2025年9月至2026年5月，前沿模型的学习速度约每三个月翻一倍，揭示出新的Scaling Law规律。EdgeBench已开源51个任务及完整评测框架，有助于推动Agent长程学习与评测标准的进一步发展。",
+    "category": "人工智能",
+    "tags": [
+      "字节Seed",
+      "AI Agent",
+      "评测基准",
+      "Scaling Law"
+    ],
+    "source": "AIHOT精选",
+    "time": "11小时前",
+    "ts": "2026-07-06T16:00:00+00:00",
+    "url": "https://seed.bytedance.com/zh/blog/edgebench-%E8%A1%A1%E9%87%8F%E7%9C%9F%E5%AE%9E%E4%B8%96%E7%95%8C%E7%8E%AF%E5%A2%83%E5%AD%A6%E4%B9%A0-%E5%8F%91%E7%8E%B0%E6%96%B0-scaling-law",
+    "image": "",
     "stocks": []
   },
   {
@@ -56058,6 +56096,24 @@ const newsData = [
         "confidence": "high"
       }
     ]
+  },
+  {
+    "id": "8fb0f5c837c8806b",
+    "title": "细胞分裂的机械力或令其更强韧",
+    "summary": "动物、植物和真菌的细胞在分裂时会承受强大的微观机械力，科学家正研究驱动细胞分裂的分子机器如何化解这种张力。",
+    "body": "细胞在诞生前会先被“撕裂”。分裂前，母细胞会复制核DNA并将其凝缩成X形染色体，随后细胞核解体，染色体漂浮在细胞质中。接着，细胞执行一系列惊人的分裂步骤，这一过程会产生巨大的微观机械力。\n\nQuanta Magazine的报道探讨了驱动细胞分裂的分子机器如何在受力时避免损坏。研究发现，机械压力虽然可能破坏细胞内部结构，却也可能激发修复或强化机制，使细胞变得更强韧。\n\n理解细胞如何感知并承受机械力，有助于揭示生命基本过程，并可能为癌症、发育异常等疾病研究提供新视角，但当前仍处于基础科学阶段。",
+    "category": "生物医药",
+    "tags": [
+      "生命科学",
+      "细胞生物学",
+      "基础研究"
+    ],
+    "source": "Quanta",
+    "time": "7天前",
+    "ts": "2026-06-29T14:00:09+00:00",
+    "url": "https://www.quantamagazine.org/what-breaks-a-cells-ribs-can-make-it-stronger-20260629/",
+    "image": "https://www.quantamagazine.org/wp-content/uploads/2026/06/SpindleForce-cr-Ada-Zejun-Shen-Default.webp",
+    "stocks": []
   },
   {
     "id": "47a40a7c7da61d2e",
@@ -130172,12 +130228,6 @@ const newsData = [
   }
 ];
 const newsDigest = {
-  "text": "今日AI应用与治理消息密集：支付宝上线AI开放平台、Reddit以AI治理AI、工业企业AI普及率超三成；微软涨价与机器人感知模型亦受关注。",
-  "highlights": [
-    "bb5b8fba42f28ab0",
-    "952c4fead54f1bdf",
-    "b103d2156de691ce",
-    "2bcc27027a77b88c",
-    "829f602fd890a9c2"
-  ]
+  "text": "",
+  "highlights": []
 };
