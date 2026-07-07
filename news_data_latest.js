@@ -96,51 +96,6 @@ const newsData = [
     "stocks": []
   },
   {
-    "id": "cb3ca9eca9cbb61c",
-    "title": "iRobot推出首款非机器人地板清洁机",
-    "summary": "iRobot发布其首款非机器人地板清洁设备Roomba Electro Plus，售价399美元，集吸尘、拖地、消毒于一体；同时更新五款Roomba扫地机器人，吸力更强、机身更小巧。",
-    "body": "美国机器人公司iRobot宣布推出首款非机器人地板清洁机Roomba Electro Plus，售价399美元，具备吸尘、拖地、消毒等五项功能，但需用户手动操作。这标志着iRobot在产品线上首次突破扫地机器人范畴，向更广泛的家居清洁市场延伸。与此同时，公司更新了Roomba机器人吸尘器产品线，发布五款新机型，吸力提升、体积更小，意在继续巩固其在智能清洁机器人领域的份额。新品能否有效提振iRobot营收仍取决于市场接受度，但产品矩阵扩张和快速迭代显示出公司在智能家居清洁领域的持续投入。",
-    "category": "机器人",
-    "tags": [
-      "苹果",
-      "App Store",
-      "Epic Games",
-      "反垄断"
-    ],
-    "source": "IT之家",
-    "time": "刚刚",
-    "ts": "2026-07-07T14:11:17+00:00",
-    "url": "https://www.ithome.com/0/973/793.htm",
-    "image": "https://img.ithome.com/newsuploadfiles/2026/7/3400497a-35bf-4c7d-b99d-ffe9e7a97f8d.jpg?x-bce-process=image/format,f_auto",
-    "stocks": [
-      {
-        "name": "苹果公司",
-        "ticker": "AAPL",
-        "reason": "最高法院裁决将决定App Store外部支付政策走向，影响其服务收入与平台生态控制力",
-        "confidence": "medium"
-      }
-    ]
-  },
-  {
-    "id": "67f7cb73092148af",
-    "title": "中国海军成功试射潜射战略导弹国防部称达预期",
-    "summary": "7月6日，中国海军一艘战略核潜艇向太平洋相关公海海域成功发射携载训练模拟弹头的潜射战略导弹，准确落入预定海域。国防部新闻发言人表示，此次年度军事训练例行安排实现了预期目标，中方已事先向有关国家通报。",
-    "body": "据IT之家报道，7月6日12时01分，中国人民解放军海军一艘战略核潜艇向太平洋相关公海海域成功发射一发携载训练模拟弹头的潜射战略导弹，导弹准确落入预定海域，引发国际社会广泛关注。\n\n7月7日，国防部新闻发言人陈曦就此次试射答记者问时表示，中国海军战略核潜艇组织潜射战略导弹试射实现了预期目标。中方强调，这是年度军事训练例行安排，符合国际法和国际惯例，并事先向有关国家作了通报。\n\n国防部指出，中国坚持走和平发展道路，奉行防御性国防政策，恪守自卫防御核战略，推动核力量现代化旨在保障国家战略安全、维护全球战略稳定，不与任何国家进行核军备竞赛。",
-    "category": "地缘科技",
-    "tags": [
-      "国防科技",
-      "核潜艇",
-      "战略导弹",
-      "核力量"
-    ],
-    "source": "IT之家",
-    "time": "1分钟前",
-    "ts": "2026-07-07T14:09:57+00:00",
-    "url": "https://www.ithome.com/0/973/792.htm",
-    "image": "https://img.ithome.com/newsuploadfiles/2026/7/94319dac-b7e0-40bc-9278-c27ebcee16e0.jpg?x-bce-process=image/format,f_auto",
-    "stocks": []
-  },
-  {
     "id": "33dbea17a278b22c",
     "title": "谷歌参投德国核聚变企业，助推欧洲首座商用堆",
     "summary": "德国聚变能源公司Proxima Fusion完成4.11亿欧元融资，谷歌与莱茵集团作为战略投资方参与。该公司计划打造欧洲首座商用核聚变电站，目标在2030年代后半段实现商业化落地。",
@@ -3947,6 +3902,25 @@ const newsData = [
     "ts": "2026-07-07T03:00:01-04:00",
     "url": "https://medicalxpress.com/news/2026-07-oyster-meat-sustainable-solution-intestinal.html",
     "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/oyster-meat-may-provid.jpg",
+    "stocks": []
+  },
+  {
+    "id": "19752addf6b1376e",
+    "title": "HIVE获1500万美元融资，打造工业机器物理AI层",
+    "summary": "英国物理AI初创公司HIVE完成1500万美元Pre-A轮融资，计划为工业机器构建统一的“硅脑”智能层，通过改装现有车辆实现自主感知、决策与执行。该公司已在斯堪的纳维亚多地部署其技术。",
+    "body": "HIVE总部位于伦敦，在挪威设有办公室，并正在拓展美国市场。公司称其正在打造一台“硅脑”，通过一个智能平台统一机器操作，为客户已有的车辆加装传感器和计算核心，使其在仓库、生产线、建筑工地等场景中自主感知、决策和行动。本轮pre-Series A融资金额为1500万美元，将用于支持下一阶段增长和人才招募。\n\nHIVE已在斯堪的纳维亚多个站点部署其技术，让不同机器自主协同运行。例如在挪威条件恶劣的Vikafjellet山口，过去清除雪崩后需等待地质学家批准才能进场；而借助HIVE系统，相关流程可显著提速，体现出物理AI在工业现场的实际价值。\n\n该模式强调对现有设备的低成本改造，而非更换新机器，有望加速工业自动化和自主作业的普及，同时也反映出“物理AI”在重工业、物流与基建领域正获得更多资本关注。",
+    "category": "机器人",
+    "tags": [
+      "物理AI",
+      "工业自动化",
+      "自动驾驶",
+      "机器人"
+    ],
+    "source": "The Robot Report",
+    "time": "7小时前",
+    "ts": "2026-07-07T06:55:51+00:00",
+    "url": "https://www.therobotreport.com/hive-brings-in-15m-to-build-physical-ai-for-industrial-machines/",
+    "image": "https://www.therobotreport.com/wp-content/uploads/2026/07/HIVE_Autonomous_wheeloader-featured.jpg",
     "stocks": []
   },
   {
@@ -135464,6 +135438,12 @@ const newsData = [
   }
 ];
 const newsDigest = {
-  "text": "",
-  "highlights": []
+  "text": "亚马逊拟发债超250亿美元加码AI基建，谷歌参投德国核聚变公司，苹果Epic诉讼寻求暂停审理，iRobot首款非机器人洗地机面世，CAR-T联合放射药物有望攻克实体瘤。",
+  "highlights": [
+    "1dc8cf5a1b25d38c",
+    "33dbea17a278b22c",
+    "02c67cf99569fa0e",
+    "cb3ca9eca9cbb61c",
+    "af3d71fd3ccbd478"
+  ]
 };
