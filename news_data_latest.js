@@ -1,5 +1,101 @@
 const newsData = [
   {
+    "id": "6e292ef534283952",
+    "title": "微软在Excel/Outlook改用自研AI模型，降低外部依赖",
+    "summary": "微软正将Excel和Outlook中部分AI任务切换至内部研发的MAI模型，以降低对OpenAI和Anthropic的依赖并控制AI成本。",
+    "body": "据知情人士透露，微软公司为推动AI降本，已开始在其Excel、Outlook等核心办公软件中以自研MAI模型替代OpenAI和Anthropic的模型，每周完成数以万计的AI任务。此前，这两款软件的AI功能主要依赖OpenAI和Anthropic提供的模型。此举若大规模推广，将有助于微软降低模型调用成本，增强对AI技术栈和用户体验的自主可控能力，同时可能重塑其与外部模型供应商的合作格局。",
+    "category": "人工智能",
+    "tags": [
+      "微软",
+      "自研AI模型",
+      "AI应用",
+      "降本增效"
+    ],
+    "source": "36氪",
+    "time": "刚刚",
+    "ts": "2026-07-07T23:34:48.323735+00:00",
+    "url": "https://36kr.com/newsflashes/3886185002823686?f=rss",
+    "image": "",
+    "stocks": [
+      {
+        "name": "微软",
+        "ticker": "MSFT",
+        "reason": "自研MAI模型替代OpenAI/Anthropic，降低AI成本并强化自有软件生态",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "589775326602e5d0",
+    "title": "卡特彼勒收购Skycatch，加码矿业无人机数据技术",
+    "summary": "工程机械巨头卡特彼勒宣布收购矿业空间数据采集与分析公司Skycatch，进一步扩展其数据驱动型矿业技术组合。",
+    "body": "矿业与工程机械巨头卡特彼勒公司宣布收购Skycatch， Inc.，后者专注于为矿业行业提供空间数据采集、处理与分析解决方案。此次收购紧随卡特彼勒近期完成对RPMGlobal的收购，进一步丰富了公司在数据驱动型矿业技术领域的产品组合。交易的具体财务条款未予披露。\n\n通过此次收购，卡特彼勒有望强化在矿山数字化、无人机航拍数据与现场分析方面的能力，提升为客户提供智能化采矿解决方案的竞争力。此举反映出传统工程机械制造商正加速向数据与软件驱动的矿业科技服务延伸。",
+    "category": "机器人",
+    "tags": [
+      "无人机",
+      "矿业科技",
+      "企业收购",
+      "卡特彼勒"
+    ],
+    "source": "36氪",
+    "time": "刚刚",
+    "ts": "2026-07-07T23:34:47.364776+00:00",
+    "url": "https://36kr.com/newsflashes/3886186043584770?f=rss",
+    "image": "",
+    "stocks": [
+      {
+        "name": "卡特彼勒",
+        "ticker": "CAT",
+        "reason": "直接收购Skycatch，增强矿山空间数据与无人机数据分析能力，利好其矿业科技业务",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "46e6424e7e5b88a1",
+    "title": "Anthropic纽约办公室扩员至千人",
+    "summary": "美国人工智能公司Anthropic宣布将租赁曼哈顿一栋16层办公楼，计划年内将纽约员工规模翻倍至1000人，显示出其快速扩张态势。",
+    "body": "据报道，美国人工智能公司Anthropic于当地时间7月7日宣布，将租赁位于纽约曼哈顿哈德逊街330号的一栋16层办公楼，并计划在今年把纽约办公室员工规模扩大一倍至1000人。该公司表示，扩张前的纽约办公室已是其旧金山总部之外最大的办公地点。此次扩张反映出Anthropic在大模型与AI应用领域的业务增长和人才需求，也体现出其对纽约作为AI研发与商业化重镇的信心。",
+    "category": "人工智能",
+    "tags": [
+      "Anthropic",
+      "大模型",
+      "企业扩张"
+    ],
+    "source": "36氪",
+    "time": "刚刚",
+    "ts": "2026-07-07T23:34:46.947461+00:00",
+    "url": "https://36kr.com/newsflashes/3886185435787523?f=rss",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "4944b7d3e0a8e861",
+    "title": "Meta推出AI检测工具识别其新模型生成内容",
+    "summary": "Meta开发了一款AI检测工具，可识别由其最新模型生成的图片和视频；该工具目前设置了访问速率限制。",
+    "body": "据外媒报道，Meta已研发出一款人工智能检测工具，能够判断图片和视频是否由其新一代AI模型生成。此举旨在提升生成式内容的可识别性与透明度，帮助用户和平台区分真实内容与AI生成内容。不过，该工具目前存在访问速率限制，具体原因尚不明确，未来大规模应用效果仍有待观察。",
+    "category": "人工智能",
+    "tags": [
+      "人工智能",
+      "生成式AI",
+      "内容检测",
+      "Meta"
+    ],
+    "source": "Engadget",
+    "time": "10分钟前",
+    "ts": "2026-07-07T23:23:52+00:00",
+    "url": "https://www.engadget.com/2210223/meta-built-an-ai-detection-tool-to-id-images-and-video-created-with-its-new-models/",
+    "image": "https://www.engadget.com/img/gallery/meta-built-an-ai-detection-tool-to-id-images-and-video-created-with-its-new-models/l-intro-1783466213.jpg",
+    "stocks": [
+      {
+        "name": "Meta Platforms",
+        "ticker": "META",
+        "reason": "检测工具由Meta推出并服务于其自研AI模型生态，直接利好平台信任与AI产品布局。",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
     "id": "8aa26a391f4ac0a5",
     "title": "华为余承东展示享界G9实车，车顶可升降成帐篷",
     "summary": "华为余承东发布鸿蒙智行享界G9实车预告图，新车采用可升降车顶设计，搭载华为自研电机、800V高压增程及多激光雷达，将于第三季度发布。",
