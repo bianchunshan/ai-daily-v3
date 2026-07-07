@@ -1,5 +1,23 @@
 const newsData = [
   {
+    "id": "584f39fb3c897822",
+    "title": "Apolink首颗中继卫星成功建立联系",
+    "summary": "Apolink搭乘SpaceX拼车任务发射的首颗卫星已成功建立联系，将利用FCC新型实验许可证开展数据中继演示。",
+    "body": "Apolink宣布，其于7月7日搭乘SpaceX拼车任务发射的首颗卫星已成功建立联系。该公司计划利用美国联邦通信委员会（FCC）颁发的新型实验许可证，开展数据中继演示。\n\n此次里程碑标志着Apolink在构建卫星数据中继网络方面迈出关键一步。数据中继服务可提升卫星通信效率，对商业航天及卫星互联网生态具有潜在意义。",
+    "category": "商业航天",
+    "tags": [
+      "商业航天",
+      "卫星通信",
+      "数据中继"
+    ],
+    "source": "SpaceNews",
+    "time": "5分钟前",
+    "ts": "2026-07-07T18:11:41+00:00",
+    "url": "https://spacenews.com/apolink-makes-contact-with-first-relay-satellite/",
+    "image": "https://i0.wp.com/spacenews.com/wp-content/uploads/2026/07/DSC04781-1-scaled.jpg?fit=1024%2C683&amp;ssl=1",
+    "stocks": []
+  },
+  {
     "id": "16ea11d18572f24d",
     "title": "冥王星与土卫六发现神秘吸光化合物",
     "summary": "科学家在冥王星和土星卫星土卫六（Titan）表面发现某种未知物质，其吸收光线的特征无法被现有光谱数据库中的任何已知化合物解释。",
@@ -509,6 +527,25 @@ const newsData = [
     "stocks": []
   },
   {
+    "id": "fdd141f2b60e3995",
+    "title": "Lola T70S赛车采用植物纤维、火山岩与海水新材料",
+    "summary": "英国Lola Cars推出复刻版T70S赛车，车身大量采用植物纤维、火山岩及海水提取物等可持续新材料，提供赛事认证版与英国道路合法版两种配置。",
+    "body": "Lola Cars在2022年破产重组后重新出发，推出全新T70S系列。该车可选择FIA认证的历史赛车版本，或英国道路合法的T70S GT版本。新车最引人注目的亮点在于其创新材料应用，包括植物纤维、火山岩成分以及海水提取物等，体现高性能汽车工程向可持续方向探索的趋势。\n\n上世纪60年代的原版T70曾在Can-Am、勒芒和戴通纳等赛事中表现优异。如今Lola以\"延续版车型\"形式复刻经典，既面向历史赛车收藏市场，也展示了先进材料在轻量化与性能结合方面的潜力。\n\n这种从赛车运动延伸至公路车的材料创新，不仅为经典赛车注入新技术内涵，也可能为高性能汽车制造提供环保化的新路径，但相关技术距离规模化商业应用仍有距离。",
+    "category": "新材料",
+    "tags": [
+      "新材料",
+      "汽车工程",
+      "可持续材料",
+      "赛车"
+    ],
+    "source": "Ars Technica",
+    "time": "1小时前",
+    "ts": "2026-07-07T16:45:18+00:00",
+    "url": "https://arstechnica.com/cars/2026/07/this-race-car-is-made-from-plant-fibers-volcanoes-and-seawater/",
+    "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/07/3O0A6846-1152x648.jpg",
+    "stocks": []
+  },
+  {
     "id": "152863b85fd54232",
     "title": "2026年迄今最严重网络入侵与数据泄露事件盘点",
     "summary": "TechCrunch盘点了2026年以来影响重大的安全事件，包括美国DOGE大规模数据泄露、关键能源与供水系统遭黑，以及FBI监控系统被入侵。事件凸显了关键基础设施与政府系统的网络安全脆弱性。",
@@ -715,6 +752,25 @@ const newsData = [
     "stocks": []
   },
   {
+    "id": "8c08d51e348185f7",
+    "title": "DeepSeek拟自研芯片应对美国出口管制",
+    "summary": "据路透社报道，中国AI初创公司DeepSeek计划自研芯片，以降低对英伟达和华为的依赖。该计划已推进约一年，公司正接触潜在硬件与芯片合作伙伴并招募工程师。",
+    "body": "路透社援引三位知情人士报道称，DeepSeek已酝酿进入芯片领域约一年时间，正与潜在硬件及芯片合作伙伴洽谈，并为该项目招聘工程师。此举旨在减少对美国出口管制下受限的英伟达GPU以及华为芯片的依赖。DeepSeek因推出可与OpenAI和Anthropic竞争的大模型而受到广泛关注。\n\n若自研芯片落地，将标志着这家大模型公司向上游半导体环节延伸，有助于强化算力自主可控能力。不过，该计划仍处于早期阶段，未来在设计、制造、软件生态及供应链等方面均面临较大挑战。",
+    "category": "半导体与先进制造",
+    "tags": [
+      "DeepSeek",
+      "自研芯片",
+      "出口管制",
+      "AI芯片"
+    ],
+    "source": "Ars Technica",
+    "time": "2小时前",
+    "ts": "2026-07-07T16:14:53+00:00",
+    "url": "https://arstechnica.com/ai/2026/07/facing-us-export-controls-chinas-deepseek-plans-to-make-its-own-chips/",
+    "image": "https://cdn.arstechnica.net/wp-content/uploads/2025/01/GettyImages-2195894561-1152x648.jpg",
+    "stocks": []
+  },
+  {
     "id": "23c22a3292358720",
     "title": "福特3万美元电动皮卡曝光，尺寸直逼全尺寸SUV",
     "summary": "福特一款定价约3万美元的中型电动皮卡近日被拍到与Expedition全尺寸SUV同框路试，照片显示该车体型庞大，甚至让旁边的全尺寸SUV显得较小，揭示其真实尺寸远超预期。",
@@ -876,6 +932,25 @@ const newsData = [
     "ts": "2026-07-07T15:58:13+00:00",
     "url": "https://30papers.com/",
     "image": "",
+    "stocks": []
+  },
+  {
+    "id": "cff867e390597c53",
+    "title": "雄性蜻蜓空战机动竟与战机飞行员相似",
+    "summary": "《英国皇家学会界面期刊》新研究指出，雄性蜻蜓在领地争夺中的空中缠斗遵循相对简单的视觉规则，战术定位方式与人类战斗机飞行员相似。该发现或为研发基于简单视觉引导的智能无人机提供新思路。",
+    "body": "雄性蜻蜓为保卫繁殖领地会进行激烈的空中“狗斗”，这与捕猎时使用的飞行策略不同。一项发表于《英国皇家学会界面期刊》的研究表明，这些复杂的空中格斗行为背后是相对简单的视觉制导规则：蜻蜓试图保持有利的战术位置。这种互相追逐的模式更接近对称空战，而非捕食或求偶时的非对称追逐。\n\n研究团队选择研究赤红蜻蜓，因其领地意识强且便于视觉追踪。通过分析飞行轨迹，他们发现蜻蜓依靠简单视觉输入完成高机动飞行控制，而不依赖复杂计算。研究认为，类似昆虫或猛禽的飞行策略研究，可揭示底层制导规律。\n\n该成果有望推动无人机技术发展，使其通过简单的视觉导航完成复杂机动，降低对高算力和复杂传感系统的依赖，在微型无人机、自主飞行和低空经济等场景具有潜在应用价值。",
+    "category": "机器人",
+    "tags": [
+      "仿生学",
+      "无人机",
+      "自主导航",
+      "视觉制导"
+    ],
+    "source": "Ars Technica",
+    "time": "2小时前",
+    "ts": "2026-07-07T15:54:18+00:00",
+    "url": "https://arstechnica.com/science/2026/07/dragonflies-maneuver-like-fighter-pilots/",
+    "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/07/dragonfly1-1152x648.jpg",
     "stocks": []
   },
   {
