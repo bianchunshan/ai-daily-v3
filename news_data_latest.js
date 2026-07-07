@@ -1,5 +1,56 @@
 const newsData = [
   {
+    "id": "cb3ca9eca9cbb61c",
+    "title": "iRobot首推非机器人洗地机，同步更新五款Roomba",
+    "summary": "iRobot发布了首款非机器人地板清洁机Roomba Electro Plus，同时推出吸力更强、体积更小的五款Roomba扫地机器人新品，进一步丰富家庭清洁产品矩阵。",
+    "body": "iRobot刚刚发布其首款非机器人地板清洁设备Roomba Electro Plus，售价399美元。该设备集吸尘、拖地与消毒功能于一体，但需要用户手动操作。\n\n与此同时，iRobot还更新了Roomba扫地机器人产品线，推出五款新机型，具备更强吸力、更小机身等特点，继续巩固其在智能清洁机器人市场的布局。\n\n此次发布标志着iRobot在坚守机器人主业的同时，向手动清洁家电领域拓展，有望覆盖更广泛的家庭清洁需求，但也意味着公司将在传统家电品牌竞争加剧的市场中面临新挑战。",
+    "category": "消费电子",
+    "tags": [
+      "iRobot",
+      "扫地机器人",
+      "智能家居",
+      "洗地机"
+    ],
+    "source": "The Verge",
+    "time": "1分钟前",
+    "ts": "2026-07-07T10:15:46-04:00",
+    "url": "https://www.theverge.com/tech/962034/irobot-roomba-electro-plus-smaller-cheaper-robot-vacuums",
+    "image": "",
+    "stocks": [
+      {
+        "name": "iRobot",
+        "ticker": "IRBT",
+        "reason": "作为新品发布主体，新机型及非机器人洗地机有望扩大其家庭清洁产品覆盖与市场份额。",
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
+    "id": "cf92d43013581f02",
+    "title": "苹果官网上架Beats超能粉充电线",
+    "summary": "苹果官网近日上架新款Beats超能粉配色充电线，提供USB-C转USB-C及USB-C转USB-A两种接口版本，可选1.5米或3米线长，售价145元至229元。",
+    "body": "苹果官网已上架新款Beats超能粉配色充电线，进一步扩充其配件产品线。该充电线提供USB-C转USB-C及USB-C转USB-A两种接口版本，长度可选1.5米或3米，售价145元至229元不等。线缆采用编织工艺，并经过加固处理以防磨损，所有线缆均为USB 2.0传输速率。\n\n充电功率方面，USB-C转USB-A版本支持在指定iPhone和iPad上最高15W充电；USB-C转USB-C（1.5米）版本最高支持60W快充，而3米版本最高支持240W快充。该产品面向注重外观设计与苹果生态兼容性的消费者，属于Beats品牌周边配件的常规上新。",
+    "category": "消费电子",
+    "tags": [
+      "苹果",
+      "Beats",
+      "充电配件"
+    ],
+    "source": "IT之家",
+    "time": "3分钟前",
+    "ts": "2026-07-07T14:14:23+00:00",
+    "url": "https://www.ithome.com/0/973/794.htm",
+    "image": "https://img.ithome.com/newsuploadfiles/2026/7/3c28e4fa-432e-43fd-a3b7-d54ec8541b4a.jpg?x-bce-process=image/format,f_auto",
+    "stocks": [
+      {
+        "name": "苹果公司",
+        "ticker": "AAPL",
+        "reason": "Beats为苹果旗下品牌，新品通过苹果官网销售，可小幅丰富配件生态",
+        "confidence": "low"
+      }
+    ]
+  },
+  {
     "id": "02c67cf99569fa0e",
     "title": "苹果请求暂停审理Epic案，等待美最高法院判决",
     "summary": "苹果公司已向美国加利福尼亚州北区联邦法院申请暂停审理其与Epic Games的诉讼，等待美国最高法院就App Store外部支付链接禁令争议作出最终裁决。",
