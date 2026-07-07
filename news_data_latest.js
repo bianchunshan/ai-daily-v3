@@ -52,32 +52,6 @@ const newsData = [
     ]
   },
   {
-    "id": "fd73d852881b3fc6",
-    "title": "微星率先完成长鑫DDR5内存AMD平台适配突破8000",
-    "summary": "微星宣布其研发团队已完成长鑫存储DDR5内存颗粒在AMD平台上的深度适配与调校，运行频率提升至8000-8200 MT/s，并同步开放测试版BIOS。",
-    "body": "微星官方表示，其团队基于最新AGESA微代码对长鑫DDR5内存颗粒在AMD平台上进行专项优化，实测在双内存插槽主板上，搭配长鑫16Gbit颗粒可稳定达成DDR5-8000并通过MemTest完整烧机测试，24Gbit颗粒更可达DDR5-8200。在主流四内存插槽主板上，频率上限也提升至DDR5-7200。本次验证均采用金百达、雷克沙等市售标准内存，用户无需特挑体质即可获益。微星已通过“玩家版BIOS”向用户开放该优化，有望成为首家公开完成此项验证的主板品牌。",
-    "category": "半导体与先进制造",
-    "tags": [
-      "百度",
-      "低空经济",
-      "无人机",
-      "投融资"
-    ],
-    "source": "36氪",
-    "time": "刚刚",
-    "ts": "2026-07-07T04:23:06.272676+00:00",
-    "url": "https://36kr.com/newsflashes/3885055580794886?f=rss",
-    "image": "",
-    "stocks": [
-      {
-        "name": "百度",
-        "ticker": "BIDU",
-        "reason": "百度旗下基金直接入股无界智航，加码低空经济/智能航空赛道",
-        "confidence": "high"
-      }
-    ]
-  },
-  {
     "id": "cd7c60c10f8c68fc",
     "title": "智谱澄清撤回A股辅导备案传闻：报道失实，涉嫌恶意炒作",
     "summary": "智谱在港交所公告称，有关公司已撤回A股IPO辅导备案的报道失实，A股发行方案已获股东会通过且辅导工作已完成，公司将适时披露后续进展。",
@@ -9345,6 +9319,32 @@ const newsData = [
     "url": "https://www.ithome.com/0/972/981.htm",
     "image": "https://img.ithome.com/newsuploadfiles/2026/7/3b8d6404-c83c-4899-8f63-a4dc2ed11f56.png",
     "stocks": []
+  },
+  {
+    "id": "e6c2c8814d39b055",
+    "title": "蚂蚁开源多智能体协作基础设施Avernet V0.1",
+    "summary": "蚂蚁 inclusionAI 正式开源多智能体协作基础设施 Avernet V0.1，聚焦 Agent 注册、发现、邀请等协作层问题，支持异构 Agent 生态的互联互通。",
+    "body": "蚂蚁 inclusionAI 发布并开源多智能体协作基础设施 Avernet V0.1。该项目不替代 Agent 自身推理能力，而是通过群组、会话和共享上下文构建多方共识，支持自由聊天、领导-跟随等协作模式，并利用协作反馈形成观察、评估、复用、优化的自动进化闭环。其支持 OpenClaw、自定义 Agent、第三方 Agent 引擎及现有 bot 平台等异构生态，提供 Docker 与本地两种快速部署路径。这一基础设施有助于降低多 Agent 系统构建门槛，推动 AI 智能体生态的互联互通与规模化落地。",
+    "category": "人工智能",
+    "tags": [
+      "多智能体",
+      "Agent",
+      "开源",
+      "蚂蚁集团"
+    ],
+    "source": "AIHOT精选",
+    "time": "1天前",
+    "ts": "2026-07-06T03:52:54+00:00",
+    "url": "https://github.com/inclusionAI/Avernet",
+    "image": "",
+    "stocks": [
+      {
+        "name": "阿里巴巴",
+        "ticker": "9988.HK",
+        "reason": "蚂蚁集团为阿里巴巴关联公司，Avernet 开源有助于强化蚂蚁 AI 生态与行业影响力，间接利好阿里巴巴。",
+        "confidence": "medium"
+      }
+    ]
   },
   {
     "id": "5740f1e7d6f68cfa",
