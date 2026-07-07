@@ -1,5 +1,43 @@
 const newsData = [
   {
+    "id": "6c0cd917700bd293",
+    "title": "太空辐射与微重力或加速衰老 研究有望催生抗衰老疗法",
+    "summary": "中佛罗里达大学研究团队发现，太空辐射与微重力会在宇航员肝脏中诱发类似加速衰老的分子变化。该研究不仅提示长期航天任务的健康风险，也为地球上抗衰老及年龄相关疾病治疗提供了潜在新靶点。",
+    "body": "据《MedicalXpress》报道，中佛罗里达大学（UCF）的Michal Masternak及其团队在国际期刊《GeroScience》发表研究，揭示了宇航员在暴露于太空辐射和微重力环境时，肝脏发生的分子变化。这些变化与加速衰老高度相似，为理解长期太空驻留对人体健康的潜在危害提供了新的生物学线索。\n\n研究团队指出，相关分子机制的阐明不仅有助于制定更有效的航天员健康防护措施，也可能为地面上衰老相关疾病的药物开发和干预策略提供新靶点。该成果体现了空间生命科学研究在促进人类健康方面的潜在价值。\n\n尽管如此，研究尚处于基础阶段，距离转化为临床疗法仍需大量后续验证工作。",
+    "category": "生物医药",
+    "tags": [
+      "太空医学",
+      "抗衰老",
+      "航天健康",
+      "生物医学"
+    ],
+    "source": "MedicalXpress",
+    "time": "2分钟前",
+    "ts": "2026-07-07T15:40:11-04:00",
+    "url": "https://medicalxpress.com/news/2026-07-linking-microgravity-space-aging-yield.html",
+    "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/human-on-space-station.jpg",
+    "stocks": []
+  },
+  {
+    "id": "998d33f2436fa21d",
+    "title": "运动或有助于缓解发育障碍儿童疲劳",
+    "summary": "弗吉尼亚理工一项新研究表明，体育活动较多的发育障碍儿童，其疲劳程度往往更低。这一发现为改善患儿日常参与度和生活质量提供了新思路。",
+    "body": "疲劳是发育障碍儿童面临的日常挑战之一，会影响其在学校、游戏及其他活动中的参与度。弗吉尼亚理工Fralin生物医学研究所的研究人员开展了一项新研究，家长们报告说，体育活动越多的孩子，疲劳感往往越轻。研究者认为，运动可能是缓解这一群体疲劳症状、提升其生活质量的可行干预手段，未来有望为家庭照护与临床康复方案提供参考。",
+    "category": "生物医药",
+    "tags": [
+      "儿童健康",
+      "发育障碍",
+      "运动医学",
+      "临床研究"
+    ],
+    "source": "MedicalXpress",
+    "time": "2分钟前",
+    "ts": "2026-07-07T15:40:09-04:00",
+    "url": "https://medicalxpress.com/news/2026-07-physical-ease-fatigue-children-developmental.html",
+    "image": "https://scx1.b-cdn.net/csz/news/tmb/2020/2-physicalacti.jpg",
+    "stocks": []
+  },
+  {
     "id": "3a5bf3a3618d91a8",
     "title": "Discord承认AI审核漏洞误封8000余名用户",
     "summary": "Discord承认其AI内容审核系统存在漏洞，过去两个月误将电子表格、棋盘、游戏纹理及白/灰透明背景等无害图片判定为有害内容，导致超8000名用户被错误封禁。",
@@ -137822,12 +137860,6 @@ const newsData = [
   }
 ];
 const newsDigest = {
-  "text": "科技头条：AI模型竞争白热化（Meta、微软、Figma），谷歌Pixel新品发布，北约峰会聚焦重新武装。",
-  "highlights": [
-    "b3ffd50db77ce3cc",
-    "87248c3e75db1b14",
-    "d745d6cafed31ff8",
-    "0230b62d6fa65937",
-    "2cb5c862d10699bf"
-  ]
+  "text": "",
+  "highlights": []
 };
