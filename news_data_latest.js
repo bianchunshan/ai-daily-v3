@@ -1,5 +1,81 @@
 const newsData = [
   {
+    "id": "2f6112cc748a97a9",
+    "title": "可穿戴超声贴片提升REM睡眠，无需药物手术",
+    "summary": "德州大学奥斯汀分校领衔团队开发出一种名为NEUSLeeP的无创可穿戴贴片，可在真实场景中提升快速眼动（REM）睡眠，无需手术或药物。该装置利用温和超声波与电极刺激大脑深部区域，并实时监测脑活动。",
+    "body": "NEUSLeeP是一款柔软、可穿戴的设备，通过低强度超声波和电极对大脑深部区域进行神经调控，同时实时记录脑电活动。研究人员已在真实环境下完成试验，证明其能够增加REM睡眠时间，为睡眠障碍干预提供非药物、非手术的新选择。\n\n这项技术将可穿戴硬件与神经调控相结合，突破了传统深脑刺激需植入电极的局限，未来有望应用于失眠、抑郁症、创伤后应激障碍等与REM睡眠异常相关的疾病治疗。若后续实现临床转化，可能推动数字医疗和睡眠医学设备的进一步发展。",
+    "category": "生物医药",
+    "tags": [
+      "睡眠障碍",
+      "可穿戴设备",
+      "神经调控",
+      "数字医疗"
+    ],
+    "source": "MedicalXpress",
+    "time": "5分钟前",
+    "ts": "2026-07-07T15:00:10-04:00",
+    "url": "https://medicalxpress.com/news/2026-07-ultrasound-patch-boosts-rem-rest.html",
+    "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/get-better-sleep-with.jpg",
+    "stocks": []
+  },
+  {
+    "id": "2cb5c862d10699bf",
+    "title": "北约峰会聚焦欧洲重新武装 特朗普阴影笼罩",
+    "summary": "在北约关键峰会上，欧洲重新武装与防务自主成为核心议题，美国总统特朗普的强硬言论则给团结表象投下阴影。",
+    "body": "据BBC报道，北约当前正面临如何在欧洲大陆重建军备、提升防务能力的重大挑战。美国总统唐纳德·特朗普的刺激性言辞在峰会上屡屡出现，使本希望展现团结的会议氛围受到冲击。\n\n北约成员国围绕增加军费、强化欧洲安全架构展开讨论，但跨大西洋关系的不确定性令盟友间分歧凸显。分析人士认为，这场会议不仅关乎军事同盟的未来，也可能影响全球安全格局与防务产业链走向。",
+    "category": "地缘科技",
+    "tags": [
+      "北约",
+      "欧洲防务",
+      "特朗普",
+      "地缘政治"
+    ],
+    "source": "BBC World",
+    "time": "8分钟前",
+    "ts": "2026-07-07T18:56:19+00:00",
+    "url": "https://www.bbc.co.uk/news/articles/ckg06d3dgnlo?at_medium=RSS&at_campaign=rss",
+    "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8fce/live/b4660930-7a34-11f1-ab76-d75965dea4d1.jpg",
+    "stocks": []
+  },
+  {
+    "id": "698101310c3c3629",
+    "title": "FCC拟放宽规定，使ISP更易隐瞒垃圾费用",
+    "summary": "美国联邦通信委员会（FCC）计划削弱针对互联网服务提供商（ISP）的垃圾费用披露规则，宽带服务商可能更轻易地隐藏附加费用。",
+    "body": "据外媒报道，FCC正准备弱化ISP垃圾费用报告规则，这将使互联网服务提供商在账单中更难被察觉的附加费用披露要求降低。此举涉及宽带、电视等电信服务的定价透明度，直接影响消费者知情权。\n\n从政策层面看，放宽披露义务可能减轻ISP合规负担，但也可能引发消费者权益组织和监管人士对隐藏收费、账单不透明等问题的批评。该动向反映美国在电信监管与消费者保护之间的政策取舍，后续规则修订细节值得关注。",
+    "category": "地缘科技",
+    "tags": [
+      "电信监管",
+      "ISP",
+      "垃圾费用",
+      "FCC"
+    ],
+    "source": "Engadget",
+    "time": "12分钟前",
+    "ts": "2026-07-07T18:52:46+00:00",
+    "url": "https://www.engadget.com/2209914/the-fcc-wants-to-make-easier-for-isps-to-hide-junk-fees/",
+    "image": "https://www.engadget.com/img/gallery/the-fcc-wants-to-make-easier-for-isps-to-hide-junk-fees/l-intro-1783450287.jpg",
+    "stocks": [
+      {
+        "name": "康卡斯特",
+        "ticker": "CMCSA",
+        "reason": "作为美国最大ISP/有线电视运营商之一，费用披露要求放松可降低合规与定价压力",
+        "confidence": "medium"
+      },
+      {
+        "name": "特许通讯",
+        "ticker": "CHTR",
+        "reason": "大型宽带服务商，若垃圾费用披露规则放宽，有助于维持现有附加费收入",
+        "confidence": "medium"
+      },
+      {
+        "name": "AT&T",
+        "ticker": "T",
+        "reason": "拥有大规模宽带与电视业务，减少费用披露义务可缓解消费者退费或监管压力",
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
     "id": "59a11aacab546d39",
     "title": "Spirit为国防航天提供美国先进半导体托管通道",
     "summary": "Spirit Electronics宣布推出一项托管式接入服务，为航空航天与国防客户提供通往美国本土先进半导体制造的安全路径。",
@@ -96,6 +172,25 @@ const newsData = [
     "time": "3分钟前",
     "ts": "2026-07-07T18:37:01+00:00",
     "url": "https://techcrunch.com/2026/07/07/figma-acquires-team-behind-a-vibe-coding-app/",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "269964bab90b1afa",
+    "title": "AI 与密码学交汇：Cloudflare CIRCL 新发现",
+    "summary": "Hacker News 上出现题为《AI Meets Cryptography 1: What AI Found in Cloudflare's Circl》的文章，关注人工智能在 Cloudflare 开源密码学库 CIRCL 中的应用或发现，涉及 AI 辅助密码学代码分析与网络安全研究。",
+    "body": "该报道源自 Hacker News，标题为《AI Meets Cryptography 1: What AI Found in Cloudflare's Circl》，指向一篇探讨人工智能如何作用于 Cloudflare 开源可互操作可复用密码学库（CIRCL）的文章。文章可能介绍 AI 在审查、分析或优化密码学实现过程中所揭示的现象、潜在问题或改进方向。\n\n这一方向将机器学习/大模型能力与密码学代码安全相结合，有望提升加密库审计效率，发现传统人工审计难以觉察的漏洞或性能缺陷，对云安全、TLS 及后量子密码等基础设施的安全保障具有一定参考价值。\n\n由于原文仅提供标题与链接，未展示具体发现细节，结论应基于后续全文内容进一步判断。",
+    "category": "网络安全",
+    "tags": [
+      "人工智能",
+      "网络安全",
+      "密码学",
+      "Cloudflare"
+    ],
+    "source": "Hacker News",
+    "time": "28分钟前",
+    "ts": "2026-07-07T18:36:35+00:00",
+    "url": "https://blog.zksecurity.xyz/posts/circl-bugs/",
     "image": "",
     "stocks": []
   },
