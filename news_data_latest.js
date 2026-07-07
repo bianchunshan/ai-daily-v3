@@ -1,5 +1,43 @@
 const newsData = [
   {
+    "id": "8093f9036affa02b",
+    "title": "近两成新手妈妈患焦虑或抑郁，致幻剂疗法曙光初现",
+    "summary": "约五分之一女性在孕期或产后一年会出现抑郁和焦虑症状。一种新型致幻剂疗法有望为难治性产后心理问题提供新的治疗选择。",
+    "body": "产后抑郁和焦虑是常见的围产期心理健康问题。若不及时干预，患病母亲不仅面临更高的分娩并发症、整体健康下降和母婴 bonding 受损风险，还可能显著增加自杀风险。近年来，致幻剂辅助心理治疗在难治性抑郁症等领域受到关注，研究人员正探索其在产后心理健康中的应用潜力。若相关疗法未来获批，将为新手妈妈群体提供新的治疗路径，但其安全性、哺乳期影响及长期疗效仍需更多临床研究验证。",
+    "category": "生物医药",
+    "tags": [
+      "产后抑郁",
+      "致幻剂",
+      "心理健康",
+      "围产期护理"
+    ],
+    "source": "MedicalXpress",
+    "time": "1分钟前",
+    "ts": "2026-07-07T17:20:03-04:00",
+    "url": "https://medicalxpress.com/news/2026-07-moms-anxiety-depression-psychedelic-treatment.html",
+    "image": "https://scx1.b-cdn.net/csz/news/tmb/2023/postpartum.jpg",
+    "stocks": []
+  },
+  {
+    "id": "1b099a8170684fc7",
+    "title": "研究揭示罕见白血病对tagraxofusp耐药基因机制",
+    "summary": "MD安德森癌症中心研究人员发现，部分母细胞性浆细胞样树突状细胞肿瘤（BPDCN）患者对FDA批准的tagraxofusp治疗产生耐药性的基因线索，为理解治疗失败原因提供了新方向。",
+    "body": "德克萨斯大学MD安德森癌症中心的研究团队发现，部分患有母细胞性浆细胞样树突状细胞肿瘤（BPDCN）的患者在长期使用tagraxofusp后会出现耐药。tagraxofusp是首个获美国食品药品监督管理局（FDA）批准用于治疗这种罕见白血病的药物。\n\n研究人员从基因层面揭示了导致治疗抵抗的分子线索，这有助于解释为什么部分患者在接受该疗法后病情仍会进展。相关发现为临床监测耐药风险、优化用药策略提供了理论依据。\n\n该研究成果有望推动针对BPDCN的后续精准治疗与新药开发，帮助改善罕见白血病患者的预后和治疗选择。",
+    "category": "生物医药",
+    "tags": [
+      "罕见白血病",
+      "肿瘤耐药",
+      "基因研究",
+      "肿瘤药物"
+    ],
+    "source": "MedicalXpress",
+    "time": "1分钟前",
+    "ts": "2026-07-07T17:20:01-04:00",
+    "url": "https://medicalxpress.com/news/2026-07-gene-clues-reveal-rare-leukemia.html",
+    "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/scientists-uncover-why.jpg",
+    "stocks": []
+  },
+  {
     "id": "f3c423a22d33e570",
     "title": "起亚电动厢式车PV7实车曝光，体量更庞大",
     "summary": "起亚全新纯电动厢式车PV7实车首次亮相，视觉上比图片更显巨大，作为PV5的更大版本有望 soon 在全球上市。",
@@ -77,6 +115,25 @@ const newsData = [
     ],
     "source": "Al Jazeera",
     "time": "25分钟前",
+    "ts": "2026-07-07T20:50:34+00:00",
+    "url": "https://www.aljazeera.com/economy/2026/7/7/nasdaq-vs-dow-how-are-the-key-indices-different-as-spacex-joins-one?traffic_source=rss",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "29eebe0772d5dc31",
+    "title": "SpaceX纳入纳斯达克100，打破传统上市三个月规则",
+    "summary": "太空探索公司SpaceX在IPO后被纳入纳斯达克100指数，并绕过了该指数通常要求新股上市满三个月才能入指的传统规则。这一动作使以科技股为主的纳斯达克100指数成份股结构发生变化。",
+    "body": "据外媒报道，SpaceX在首次公开募股（IPO）后直接进入纳斯达克100指数，而未遵循该指数对新上市公司通常需交易满三个月的准入惯例。这意味着SpaceX将与苹果、微软、英伟达等科技巨头并列，成为追踪该指数的投资组合中的新成员。\n\n纳斯达克100指数由在纳斯达克交易所上市的100家最大非金融公司组成，偏重科技、互联网和生物科技类企业；而道琼斯工业平均指数仅包含30只成分股，采用价格加权，覆盖行业更为传统和多元。SpaceX的加入进一步强化了纳斯达克100在航空航天与高科技领域的代表性，同时也可能影响相关指数基金的持仓配置。",
+    "category": "商业航天",
+    "tags": [
+      "SpaceX",
+      "纳斯达克100",
+      "股指",
+      "IPO"
+    ],
+    "source": "Al Jazeera",
+    "time": "30分钟前",
     "ts": "2026-07-07T20:50:34+00:00",
     "url": "https://www.aljazeera.com/economy/2026/7/7/nasdaq-vs-dow-how-are-the-key-indices-different-as-spacex-joins-one?traffic_source=rss",
     "image": "",
