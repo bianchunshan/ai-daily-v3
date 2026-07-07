@@ -1,5 +1,177 @@
 const newsData = [
   {
+    "id": "15b418ebbd37b790",
+    "title": "Rivian拟增发7500万股募资15亿美元推进R2车型",
+    "summary": "美国电动汽车制造商Rivian宣布承销公开发行7500万股普通股，预计募资约15亿美元，以支持其R2车型推进计划。此次增发紧随其二季度交付超预期、上调全年指引并引发股价大涨之后。",
+    "body": "Rivian近日宣布启动7500万股普通股的承销公开发行，按近期股价计算，募资规模约为15亿美元。此次资本募集距离该公司公布超预期的二季度交付数据、上调全年指引并推动股价大涨仅数日。\n\n公司表示，募集资金将主要用于推进R2车型项目。R2是Rivian面向更广阔大众市场的重要战略车型，被视为扩大产品阵容、提升规模效应和实现盈利的关键一步。此次资本注入有助于为其研发、产线建设和量产爬坡提供资金支持。\n\n不过，大规模新股发行也意味着现有股东权益被稀释，可能在短期内对股价形成压力。市场需权衡融资带来的长期成长空间与即期摊薄效应。",
+    "category": "未来能源",
+    "tags": [
+      "电动汽车",
+      "Rivian",
+      "增发",
+      "R2车型"
+    ],
+    "source": "Electrek",
+    "time": "刚刚",
+    "ts": "2026-07-07T13:06:33+00:00",
+    "url": "https://electrek.co/2026/07/07/rivian-75-million-share-offering-r2/",
+    "image": "https://electrek.co/wp-content/uploads/sites/3/2026/03/Rivian-R2-Pricing-White-Hero.jpg?quality=82&#038;strip=all&#038;w=1400",
+    "stocks": [
+      {
+        "name": "Rivian",
+        "ticker": "RIVN",
+        "reason": "公司直接发起增发募资推进R2车型，利好其长期产品扩张与资金储备",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "ccab3377ce6c2b23",
+    "title": "Google Search Console 新增跨平台流量追踪功能",
+    "summary": "Google 在 Search Console 推出“platform properties”功能，帮助创作者和网站主追踪用户通过搜索找到其 Instagram、YouTube 等社交资料的关键词与流量来源。",
+    "body": "Google 宣布将在 Search Console 中上线名为“platform properties”的新功能，使内容创作者和网站拥有者能够更清楚地了解用户如何通过 Google 搜索发现其社交媒体主页及 YouTube 内容。据介绍，该工具可追踪带来流量的搜索词，并展示不同平台属性（如 Instagram、YouTube）的搜索表现。\n\n此前，创作者往往依赖各平台独立的数据工具，难以全面了解搜索端的获客路径。新功能将搜索流量数据与多平台资产打通，有助于创作者优化内容策略、提升曝光效率。同时，这也可能增强 Google 搜索生态对内容生产者和品牌方的吸引力。",
+    "category": "人工智能",
+    "tags": [
+      "Google",
+      "搜索产品",
+      "创作者工具",
+      "流量分析"
+    ],
+    "source": "The Verge",
+    "time": "6分钟前",
+    "ts": "2026-07-07T09:01:18-04:00",
+    "url": "https://www.theverge.com/tech/961955/google-search-console-reach-platform-properties",
+    "image": "",
+    "stocks": [
+      {
+        "name": "Alphabet",
+        "ticker": "GOOGL",
+        "reason": "Search Console 功能升级有助于巩固 Google 搜索生态，对 Alphabet 核心业务形成正面支撑。",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "2827485b0d92b0b4",
+    "title": "微型器官有望改变乳腺癌治疗困境",
+    "summary": "文章以乳腺癌患者确诊后面对化疗效果不确定的焦虑切入，提出“微型器官”技术或可帮助医生在治疗前预判药物反应，减少反复试药带来的时间损耗。",
+    "body": "新闻标题提出“这些微型器官能否拯救数百万生命”的问题。正文描述了女性初诊乳腺癌后常面临的恐惧：化疗是否有效？治疗是否会陷入不断尝试不同药物组合、等待影像复查的循环，而癌症在此期间持续进展。报道暗示，借助微型器官技术，或许能够在患者体内用药前测试药物反应，从而避免盲目的“经验性试药”。若该技术成熟，将有助于提升乳腺癌等癌症的个体化治疗效率，改善患者预后。",
+    "category": "生物医药",
+    "tags": [
+      "微型器官",
+      "乳腺癌",
+      "精准医疗",
+      "药物筛选"
+    ],
+    "source": "MedicalXpress",
+    "time": "7分钟前",
+    "ts": "2026-07-07T09:00:06-04:00",
+    "url": "https://medicalxpress.com/news/2026-07-tiny-millions.html",
+    "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/could-these-tiny-organ.jpg",
+    "stocks": []
+  },
+  {
+    "id": "64fa4b6d642cfd5f",
+    "title": "AI揭示埃博拉患者预后差异新机制",
+    "summary": "英国利物浦大学研究人员主导两项新研究，利用人工智能技术分析埃博拉病毒病患者的临床数据，探索影响并预测患者结局的关键因素。",
+    "body": "刚果（金）目前正面临严重的埃博拉疫情，该疾病以高热、呕吐、腹泻、严重脱水和出血为主要表现，患者临床状况常迅速恶化。利物浦大学研究团队主导了两项关于埃博拉病毒病（EVD）的大型新研究，旨在识别影响并预测患者结局的关键因素。\n\n研究团队借助人工智能技术对疾病数据进行分析，试图揭示不同患者预后差异背后的原因。这一方法有望为临床决策提供新依据，并加深对埃博拉致病机制的理解。",
+    "category": "生物医药",
+    "tags": [
+      "人工智能",
+      "数字医疗",
+      "埃博拉",
+      "生命科学"
+    ],
+    "source": "MedicalXpress",
+    "time": "7分钟前",
+    "ts": "2026-07-07T09:00:04-04:00",
+    "url": "https://medicalxpress.com/news/2026-07-ai-insights-ebola-outcomes-differ.html",
+    "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/using-ai-to-provide-ne.jpg",
+    "stocks": []
+  },
+  {
+    "id": "ccd31360ecf45ad0",
+    "title": "Solos新款智能眼镜为摄像头配隐私盖",
+    "summary": "Solos推出新款智能眼镜，用户可为摄像头加装可拆卸遮挡盖，以提升隐私保护；不过这一设计也可能在便利性与拍摄功能之间带来取舍。",
+    "body": "据外媒Wired报道，Solos新款智能眼镜在摄像头位置加入了可拆卸的隐私遮挡盖，用户在不需要拍摄或面临隐私敏感场景时，可以物理遮盖摄像头。这一设计回应了公众对可穿戴摄像头设备的隐私担忧，也可能降低社交场合中因“随时被拍”引发的抵触情绪。不过，遮挡盖也是一把双刃剑：在需要使用眼镜拍照、录像或调用视觉AI功能时，用户必须主动取下盖子，可能影响交互的即时性和便利性。",
+    "category": "消费电子",
+    "tags": [
+      "智能眼镜",
+      "可穿戴设备",
+      "隐私保护"
+    ],
+    "source": "Wired",
+    "time": "7分钟前",
+    "ts": "2026-07-07T13:00:00+00:00",
+    "url": "https://www.wired.com/story/these-new-smart-glasses-from-solos-come-with-a-privacy-shield-for-the-cameras/",
+    "image": "https://media.wired.com/photos/6a4bd7c758fe114a7a5cba2a/master/pass/Solos-Smart-Glasses-Gear-10.jpg",
+    "stocks": [
+      {
+        "name": "Kopin",
+        "ticker": "KOPN",
+        "reason": "Solos智能眼镜品牌隶属于Kopin，新品隐私盖设计有望提升其可穿戴产品关注度与销量预期",
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
+    "id": "6cd1ca346c11fab6",
+    "title": "中国科学家提出核爆防御小行星撞击地球新方案",
+    "summary": "中国研究人员在《Space: Science & Technology》期刊发表论文，提出\"预挖掘引爆\"方案，认为在预警时间充足的情况下，该方法或可偏转直径超过100米、即将撞击地球的小行星。",
+    "body": "针对大型小行星威胁地球这一假想场景，中国科学家团队开展了一项同行评审研究，并在《Space: Science & Technology》期刊发表成果。研究指出，传统动能撞击或长期推力偏转方法能量有限，难以在短时间窗口内实现有效偏转；当来袭天体直径超过约100米且撞击迫在眉睫时，直接炸毁或引导其变轨可能不再可行。为此，研究人员提出\"预挖掘引爆\"策略，即通过核爆等方式预先在小行星表面或浅层开挖，再进行引爆，以期更高效地改变其轨道或结构。该研究属于行星防御领域的理论探索，若未来技术成熟，将为人类应对潜在近地天体威胁提供新的工程思路，也可能推动深空探测、空间态势感知及相关防御技术的发展。",
+    "category": "商业航天",
+    "tags": [
+      "小行星防御",
+      "深空探测",
+      "空间安全",
+      "行星防御"
+    ],
+    "source": "Space.com",
+    "time": "7分钟前",
+    "ts": "2026-07-07T13:00:00+00:00",
+    "url": "https://www.space.com/space-exploration/asteroid-comet-missions/chinese-scientists-find-the-best-way-to-nuke-an-asteroid-on-its-way-to-impact-earth",
+    "image": "https://cdn.mos.cms.futurecdn.net/VWEMPYGUcRzb6ti9WB7AnH-1280-80.jpg",
+    "stocks": []
+  },
+  {
+    "id": "b046723f4b5c6378",
+    "title": "Voltpost与InCharge合作在美扩展路灯充电桩",
+    "summary": "美国充电桩企业Voltpost与充电服务运营商InCharge Energy达成合作，计划借助路灯杆和电线杆在纽约、康涅狄格及加州等地部署更多电动汽车充电桩，以低成本方式扩展城市公共充电网络。",
+    "body": "Voltpost宣布与电动汽车充电服务公司InCharge Energy达成合作，将在美国更多城市推广其基于路灯杆和电线杆的充电桩，首批部署覆盖纽约、康涅狄格和加州。该方案无需新建专用桩体，可直接利用现有市政基础设施，有助于降低选址与建设成本。\n\n这一合作旨在缓解美国城市中公共充电桩不足的问题，为没有私人车位的居民提供街边充电便利，同时支持电动汽车普及与城市电网资源的综合利用。目前尚未披露具体投资规模与时间表。",
+    "category": "未来能源",
+    "tags": [
+      "充电桩",
+      "智慧城市",
+      "电动汽车",
+      "基础设施"
+    ],
+    "source": "Electrek",
+    "time": "7分钟前",
+    "ts": "2026-07-07T13:00:00+00:00",
+    "url": "https://electrek.co/2026/07/07/us-cities-voltpost-lamppost-ev-chargers/",
+    "image": "https://electrek.co/wp-content/uploads/sites/3/2026/07/Voltpost-July-2026.jpg?quality=82&#038;strip=all&#038;w=1600",
+    "stocks": []
+  },
+  {
+    "id": "9e35c21feaec682d",
+    "title": "iFixit发布家用维修工具套装Megalodon",
+    "summary": "iFixit推出售价34.95美元的Megalodon Driver Kit，主打家电维修、家具组装等家庭DIY场景，与其以往专注电子设备拆修的定位略有不同。",
+    "body": "iFixit以详尽的电子产品拆解和维修工具闻名。该公司近日发布Megalodon Driver Kit，定价34.95美元，定位为紧凑型家用维修工具套装，可用于修理家电、组装平板包装家具等日常DIY任务。\n\n此次产品线拓展显示iFixit正从专业电子拆修向更广泛的家庭维修场景延伸，或有助于推动维修权利（Right to Repair）理念在消费电子之外的普及。",
+    "category": "消费电子",
+    "tags": [
+      "iFixit",
+      "维修工具",
+      "消费电子",
+      "DIY"
+    ],
+    "source": "The Verge",
+    "time": "8分钟前",
+    "ts": "2026-07-07T08:58:50-04:00",
+    "url": "https://www.theverge.com/tech/962055/ifixit-megalodon-tool-kit-household-appliance-repairs",
+    "image": "",
+    "stocks": []
+  },
+  {
     "id": "f4b0aec9bef16513",
     "title": "SpaceX Colossus数据中心遭关停令，450亿美元协议或受影响",
     "summary": "一项诉讼请求法院下令SpaceX关闭为其Colossus 2数据中心供电的燃气轮机，理由是其在未取得所需许可的情况下运营，这可能危及SpaceX与Anthropic签订的450亿美元合同中的部分内容。",
@@ -7903,6 +8075,25 @@ const newsData = [
     "ts": "2026-07-06T13:20:05-04:00",
     "url": "https://medicalxpress.com/news/2026-07-trimester-pregnancy-vital-human-brain.html",
     "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/pregnancy-4.jpg",
+    "stocks": []
+  },
+  {
+    "id": "290217328a868a08",
+    "title": "Solos发布无摄像头AI智能眼镜AirGo A6",
+    "summary": "Solos推出新款AirGo A6智能眼镜，取消摄像头以实现更轻薄设计，重量降至约19克，并搭载语音交互AI助手。",
+    "body": "据The Verge报道，Solos发布了AirGo智能眼镜的新版本AirGo A6。该款眼镜去除了摄像头，采用更轻薄时尚的外观设计，整机重量从去年AirGo A5的36至40克大幅降至约19克。A6搭载基于语音交互的AI助手，用户可通过语音指令获取信息并完成操作，而非依赖摄像头进行视觉输入。\n\n这一设计选择反映了当前AI眼镜市场的一条差异化路线：在隐私争议与外观设计之间寻求平衡，通过语音优先的交互方式降低设备重量与功耗，同时避免摄像头带来的隐私顾虑。随着多家科技公司竞相进入智能眼镜领域，轻量化、长续航和隐私友好型设计有望成为消费级AI眼镜的重要竞争方向。",
+    "category": "消费电子",
+    "tags": [
+      "智能眼镜",
+      "可穿戴设备",
+      "AI硬件",
+      "消费电子"
+    ],
+    "source": "The Verge",
+    "time": "19小时前",
+    "ts": "2026-07-06T13:18:51-04:00",
+    "url": "https://www.theverge.com/tech/961711/solos-airgo-a6-smart-glasses-ai-assistant-privacy",
+    "image": "",
     "stocks": []
   },
   {
