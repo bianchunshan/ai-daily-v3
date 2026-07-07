@@ -1,5 +1,57 @@
 const newsData = [
   {
+    "id": "8aa26a391f4ac0a5",
+    "title": "华为余承东展示享界G9实车，车顶可升降成帐篷",
+    "summary": "华为余承东发布鸿蒙智行享界G9实车预告图，新车采用可升降车顶设计，搭载华为自研电机、800V高压增程及多激光雷达，将于第三季度发布。",
+    "body": "7月8日凌晨，华为常务董事、终端BG董事长余承东在微博晒出鸿蒙智行享界G9的最新实车预告图。该车最大亮点是配备可升降式车顶，顶篷与天窗展开后可形成“帐篷”。据现有信息，享界G9定位全尺寸SUV，全系搭载华为全新自研电机、标配四驱、800V高压增程系统，CLTC综合续航超1300公里，并全系标配华为896线激光雷达及三固态激光雷达，支持全场景辅助驾驶。\n\n内饰方面，新车采用全新三联屏设计，配备鸿蒙智行专属HarmonyOS车机系统及中控实体按键。按计划，享界G9将于今年第三季度发布，并将首发华为全新通信黑科技。该车进一步强化了华为在智能汽车领域的技术标签，或为高端新能源SUV市场带来新变量。",
+    "category": "机器人",
+    "tags": [
+      "华为汽车",
+      "享界G9",
+      "智能汽车",
+      "自动驾驶"
+    ],
+    "source": "IT之家",
+    "time": "2分钟前",
+    "ts": "2026-07-07T23:22:57+00:00",
+    "url": "https://www.ithome.com/0/973/822.htm",
+    "image": "https://img.ithome.com/newsuploadfiles/2026/7/a53434fd-4e79-478e-a021-29fb14ae82ba.png?x-bce-process=image/format,f_auto",
+    "stocks": [
+      {
+        "name": "北汽蓝谷",
+        "ticker": "600733.SH",
+        "reason": "享界品牌由华为与北汽联合打造，G9新车上市有望带动北汽蓝谷销量与品牌价值提升",
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
+    "id": "30b38a7cee12fc19",
+    "title": "谷歌官宣8月12日发布Pixel 11系列手机",
+    "summary": "谷歌宣布将于美国东部时间8月12日在纽约举办Made By Google发布会，正式发布Pixel 11系列智能手机，并曝光了全系配色、存储规格及欧版售价。",
+    "body": "曝光的欧版售价显示，Pixel 11标准版256GB起售价999欧元，Pro Fold 1TB版本最高达2389欧元。此次发布会是谷歌年度旗舰硬件的重要节点，或将进一步强化其在高端安卓手机及AI原生硬件生态上的布局。",
+    "category": "消费电子",
+    "tags": [
+      "Pixel 11",
+      "谷歌",
+      "智能手机",
+      "消费电子"
+    ],
+    "source": "IT之家",
+    "time": "2分钟前",
+    "ts": "2026-07-07T23:22:52+00:00",
+    "url": "https://www.ithome.com/0/973/821.htm",
+    "image": "https://img.ithome.com/newsuploadfiles/2026/7/cdc408bc-38a2-4ed5-950c-ddb691eb9802.png",
+    "stocks": [
+      {
+        "name": "Alphabet（谷歌）",
+        "ticker": "GOOGL",
+        "reason": "Pixel 11系列由谷歌发布，直接关联其硬件销售与安卓生态布局。",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
     "id": "55575d426dc546e1",
     "title": "Fanatec与日产合作推出模拟赛车方向盘",
     "summary": "模拟赛车硬件制造商Fanatec宣布与日产汽车达成授权合作，双方将共同开发官方授权的模拟赛车方向盘产品，进一步丰富模拟赛车玩家的硬件选择。",
@@ -36,32 +88,6 @@ const newsData = [
     "url": "https://36kr.com/newsflashes/3886181462339841?f=rss",
     "image": "",
     "stocks": []
-  },
-  {
-    "id": "9042a1121f03fdb6",
-    "title": "Meta发布首个自研AI图像生成模型Muse Image",
-    "summary": "Meta于7月7日发布由其超级智能实验室自研的首个AI图像生成模型Muse Image，并已通过Meta AI应用免费上线Instagram和WhatsApp。该模型支持对话式生成、文字渲染、背景擦除、二维码生成及图像编辑等功能。",
-    "body": "Meta于当地时间7月7日宣布推出全新AI图像生成模型Muse Image。该模型由Meta超级智能实验室研发，是该实验室推出的首个图像生成模型，目前已通过Meta AI应用免费向公众开放，并同步登陆Instagram和WhatsApp。\n\nMuse Image支持用户用自然语言描述需求以生成高质量图像，具备清晰渲染文字、擦除背景人物、生成可用二维码、修复老照片、虚拟发型试戴、黏土动画风格转换等能力。创作时它会与Muse Spark协同进行多步骤规划，并可引用Instagram公开照片与Facebook Marketplace商品信息进行再创作。此外，它还为Instagram Stories提供超过30种AI特效，并支持在图像上圈画、批注等交互式编辑。\n\n未来，Muse Image将扩展至Facebook、Messenger及更多界面，广告主也将通过Advantage+ creative调用该模型；Muse Video视频生成模型亦在开发中。此举标志着Meta正加速将生成式AI能力融入其核心社交与广告生态，以增强用户粘性与商业化变现空间。",
-    "category": "人工智能",
-    "tags": [
-      "Meta",
-      "AI图像生成",
-      "Muse Image",
-      "社交媒体"
-    ],
-    "source": "IT之家",
-    "time": "4分钟前",
-    "ts": "2026-07-07T23:17:26+00:00",
-    "url": "https://www.ithome.com/0/973/820.htm",
-    "image": "https://img.ithome.com/newsuploadfiles/2026/7/c5fefcbd-4eaa-4265-bdfd-309eb570928e.png?x-bce-process=image/format,f_auto",
-    "stocks": [
-      {
-        "name": "Meta Platforms",
-        "ticker": "META",
-        "reason": "Muse Image由Meta自研并直接整合进Instagram、WhatsApp及广告平台，有望提升用户活跃度与广告创意效率。",
-        "confidence": "high"
-      }
-    ]
   },
   {
     "id": "74ef1245be7ce251",
@@ -101,38 +127,19 @@ const newsData = [
     "stocks": []
   },
   {
-    "id": "828a5913c1c18919",
-    "title": "4D打印复合材料造出更轻更快风机叶片",
-    "summary": "加拿大康考迪亚大学开发出“复合材料4D打印”新工艺，利用扁平碳纤维复合面板制成更轻、旋转更快的风力涡轮机叶片，有望降低垂直风机的重量、成本和生产难度。",
-    "body": "加拿大康考迪亚大学科学家提出“复合材料4D打印”新工艺，以扁平碳纤维复合面板为基础，制造出比传统叶片更轻且旋转更快的风力涡轮机叶片。该技术可让垂直轴风力涡轮机进一步减重、降本并更易生产。\n\n这一方法将增材制造与复合材料设计相结合，为风机叶片的轻量化与规模化制造提供了新路径。相关成果已发表于《聚合物复合材料》期刊，若后续实现工程化应用，有望提升风能利用效率并降低度电成本。",
-    "category": "未来能源",
-    "tags": [
-      "风力发电",
-      "4D打印",
-      "碳纤维复合材料",
-      "新能源"
-    ],
-    "source": "36氪",
-    "time": "刚刚",
-    "ts": "2026-07-07T23:21:08.738745+00:00",
-    "url": "https://36kr.com/newsflashes/3886181462339841?f=rss",
-    "image": "",
-    "stocks": []
-  },
-  {
     "id": "9042a1121f03fdb6",
-    "title": "Meta发布自研AI图像生成模型Muse Image",
-    "summary": "Meta于7月7日发布由超级智能实验室自研的首个AI图像生成模型Muse Image，用户可通过自然语言生成高质量图像，并已免费接入Instagram和WhatsApp。",
-    "body": "Meta当地时间7月7日宣布推出全新AI图像生成模型Muse Image。该模型来自Meta旗下专注人工智能的Meta超级智能实验室，是该实验室推出的首个图像生成模型，现已通过Meta AI应用免费提供，并同步登陆Instagram和WhatsApp。用户可用对话式语言描述需求，实现生成历史地标合影、擦除背景人物、制作可扫码二维码、清晰渲染文字、修复老照片、预览发型与黏土动画风格、用真实商品重新设计房间等操作。\n创作过程中，Muse Image会与Muse Spark配合进行多步骤幕后规划，包括布局安排、查找实时网页信息及融合多个视觉参考；用户还可在Meta AI应用中@提及Instagram账户以引用公开照片，点击标记图标即可在图像上圈画、草绘或批注编辑，AI会记住完整对话语境便于持续调整。除图像生成外，该模型还为Instagram Stories提供超过30种AI特效。\n目前，WhatsApp中通过Meta AI直接生成图像的功能已在部分国家地区上线，日常创作免费，超出额度后需订阅Meta付费方案。未来，Muse Image将拓展至Facebook、Messenger以及Instagram和WhatsApp的更多界面，广告主将在接下来几周通过Advantage+ creative调用该模型；Meta同时透露视频生成模型Muse Video正在开发中。",
+    "title": "Meta发布首个自研AI图像生成模型Muse Image",
+    "summary": "Meta于7月7日发布由其超级智能实验室自研的首个AI图像生成模型Muse Image，并已通过Meta AI应用免费上线Instagram和WhatsApp。该模型支持对话式生成、文字渲染、背景擦除、二维码生成及图像编辑等功能。",
+    "body": "Meta于当地时间7月7日宣布推出全新AI图像生成模型Muse Image。该模型由Meta超级智能实验室研发，是该实验室推出的首个图像生成模型，目前已通过Meta AI应用免费向公众开放，并同步登陆Instagram和WhatsApp。\n\nMuse Image支持用户用自然语言描述需求以生成高质量图像，具备清晰渲染文字、擦除背景人物、生成可用二维码、修复老照片、虚拟发型试戴、黏土动画风格转换等能力。创作时它会与Muse Spark协同进行多步骤规划，并可引用Instagram公开照片与Facebook Marketplace商品信息进行再创作。此外，它还为Instagram Stories提供超过30种AI特效，并支持在图像上圈画、批注等交互式编辑。\n\n未来，Muse Image将扩展至Facebook、Messenger及更多界面，广告主也将通过Advantage+ creative调用该模型；Muse Video视频生成模型亦在开发中。此举标志着Meta正加速将生成式AI能力融入其核心社交与广告生态，以增强用户粘性与商业化变现空间。",
     "category": "人工智能",
     "tags": [
       "Meta",
       "AI图像生成",
-      "社交应用",
-      "多模态"
+      "Muse Image",
+      "社交媒体"
     ],
     "source": "IT之家",
-    "time": "3分钟前",
+    "time": "4分钟前",
     "ts": "2026-07-07T23:17:26+00:00",
     "url": "https://www.ithome.com/0/973/820.htm",
     "image": "https://img.ithome.com/newsuploadfiles/2026/7/c5fefcbd-4eaa-4265-bdfd-309eb570928e.png?x-bce-process=image/format,f_auto",
@@ -140,7 +147,7 @@ const newsData = [
       {
         "name": "Meta Platforms",
         "ticker": "META",
-        "reason": "Muse Image为Meta自研并整合Instagram、WhatsApp及广告创意工具，有望增强社交生态黏性与广告变现空间",
+        "reason": "Muse Image由Meta自研并直接整合进Instagram、WhatsApp及广告平台，有望提升用户活跃度与广告创意效率。",
         "confidence": "high"
       }
     ]
