@@ -1,5 +1,69 @@
 const newsData = [
   {
+    "id": "52de110612193a71",
+    "title": "新型抗体偶联药物可清除多数B细胞白血病残留癌细胞",
+    "summary": "美国MD安德森癌症中心研究人员使用辉瑞的抗体药物偶联物奥加伊妥珠单抗，在多数B细胞急性淋巴细胞白血病患者中清除了可测量的残留病灶，有望改善长期生存。",
+    "body": "德克萨斯大学MD安德森癌症中心的研究团队报告称，使用抗体药物偶联物（ADC）奥加伊妥珠单抗（inotuzumab ozogamicin）治疗，能够在大多数B细胞急性淋巴细胞白血病（B-cell ALL）患者中根除可测量残留病（MRD）。清除MRD被认为是改善患者长期生存结局的关键步骤。\n\n奥加伊妥珠单抗由辉瑞开发，已获批用于治疗复发或难治性B细胞前体ALL。此次研究显示其在清除残留病灶方面具有显著潜力，可能为后续强化治疗或移植创造更好条件，也为ADC在血液肿瘤中的应用提供了新证据。\n\n该结果对白血病精准治疗具有积极意义，但仍需更大规模临床试验验证其长期疗效和安全性。",
+    "category": "生物医药",
+    "tags": [
+      "抗体药物偶联物",
+      "白血病",
+      "辉瑞",
+      "癌症治疗"
+    ],
+    "source": "MedicalXpress",
+    "time": "3分钟前",
+    "ts": "2026-07-07T16:20:03-04:00",
+    "url": "https://medicalxpress.com/news/2026-07-antibody-drug-conjugate-residual-cancer.html",
+    "image": "https://scx1.b-cdn.net/csz/news/tmb/2024/leukemia.jpg",
+    "stocks": [
+      {
+        "name": "辉瑞",
+        "ticker": "PFE",
+        "reason": "奥加伊妥珠单抗（inotuzumab ozogamicin/Besponsa）为辉瑞开发的抗体药物偶联物，研究成果有望拓展其临床应用。",
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
+    "id": "dc46c50452ff171f",
+    "title": "放射疗法可重编程罕见皮肤癌免疫反应",
+    "summary": "西北大学医学院一项发表于《美国皮肤病学会杂志》的研究发现，放射治疗能够改变皮肤T细胞淋巴瘤（CTCL）肿瘤内部的免疫微环境，提示未来可探索放疗与免疫治疗联合策略。",
+    "body": "该研究聚焦于一种罕见的皮肤癌——皮肤T细胞淋巴瘤（CTCL），揭示了放疗不仅影响肿瘤细胞，还能重塑肿瘤内的免疫反应格局。通过分析放疗后肿瘤微环境的变化，研究人员发现免疫细胞的组成和功能状态发生显著改变。\\n\\n这一发现为理解CTCL的治疗机制提供了新视角，也可能指导临床将放疗与免疫疗法相结合，以提升疗效并改善患者预后。不过，相关机制仍待进一步验证，距离临床应用尚有研究转化空间。",
+    "category": "生物医药",
+    "tags": [
+      "肿瘤免疫",
+      "放射治疗",
+      "皮肤T细胞淋巴瘤",
+      " Northwestern Medicine"
+    ],
+    "source": "MedicalXpress",
+    "time": "3分钟前",
+    "ts": "2026-07-07T16:20:01-04:00",
+    "url": "https://medicalxpress.com/news/2026-07-radiotherapy-reprograms-immune-response-rare.html",
+    "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/radiotherapy-reprogram.jpg",
+    "stocks": []
+  },
+  {
+    "id": "699c98ee0a6603cb",
+    "title": "加拿大一省起诉OpenAI，称其未报告ChatGPT涉枪暴力提示",
+    "summary": "加拿大某省政府起诉OpenAI，指控其忽视就ChatGPT上与大规模枪击嫌疑人相关的暴力提示向当局发出警告的请求。",
+    "body": "据外媒报道，加拿大一个省份已对OpenAI提起诉讼，指控OpenAI在获悉其聊天机器人ChatGPT上出现与大规模枪击嫌疑人相关的暴力提示后，未按要求向执法机构发出警告。诉状称，OpenAI无视了外界要求其 alerting authorities 的呼吁。此案再次凸显生成式AI平台在内容安全、用户风险监测以及与监管机构协作方面面临的法律与舆论压力。",
+    "category": "人工智能",
+    "tags": [
+      "OpenAI",
+      "ChatGPT",
+      "AI监管",
+      "内容安全"
+    ],
+    "source": "Al Jazeera",
+    "time": "8分钟前",
+    "ts": "2026-07-07T20:14:53+00:00",
+    "url": "https://www.aljazeera.com/news/2026/7/7/canadian-province-sues-openai-over-alleged-chatgpt-linked-shooting-warnings?traffic_source=rss",
+    "image": "",
+    "stocks": []
+  },
+  {
     "id": "f6e145185112c153",
     "title": "开源AI崛起尚未冲击Anthropic",
     "summary": "开源模型的成功并未以牺牲前沿实验室为代价，二者似乎正分别占据同一技术生命周期的不同阶段。",
@@ -138045,12 +138109,6 @@ const newsData = [
   }
 ];
 const newsDigest = {
-  "text": "今日科技前沿聚焦：Meta发布Muse媒体生成模型并接入社交应用，微软加速AI降本并倚重自研模型，比亚迪电动GT实车首次曝光，太空辐射与微重力研究催生抗衰老新思路，先进成像揭示大鼠膝关节神经三维结构。",
-  "highlights": [
-    "6c66b920b7bd3c05",
-    "f9e4ca71e2bb74ac",
-    "7e9d6a97d874b548",
-    "6c0cd917700bd293",
-    "2fb589d6eddd0b17"
-  ]
+  "text": "",
+  "highlights": []
 };
