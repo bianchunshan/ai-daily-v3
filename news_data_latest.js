@@ -1,5 +1,76 @@
 const newsData = [
   {
+    "id": "4e45a05669dad753",
+    "title": "微软修复Win11文件夹异常占用数GB存储问题",
+    "summary": "微软正在修复一个导致Windows 11某文件夹占用数GB存储空间的Bug，相关补丁已包含在可选更新KB5095093中，用于改善CapabilityAccessManager.db-wal文件的磁盘空间使用。",
+    "body": "据Windows Latest报道，微软在Windows 11的可选六月2026更新（KB5095093）中修复了一个存储空间占用异常的问题。该补丁说明称“改善了CapabilityAccessManager.db-wal文件的磁盘空间使用状况”。\n\nCapabilityAccessManager.db-wal文件会安装在Windows 11电脑上，此前因异常膨胀可能占用数GB存储空间，影响用户可用容量。此次修复属于系统维护更新，有助于提升用户体验、减少存储焦虑，但预计不会直接带来显著的商业收入变化。",
+    "category": "消费电子",
+    "tags": [
+      "微软",
+      "Windows 11",
+      "系统更新",
+      "软件修复"
+    ],
+    "source": "The Verge",
+    "time": "5分钟前",
+    "ts": "2026-07-07T09:52:58-04:00",
+    "url": "https://www.theverge.com/tech/962084/microsoft-storage-hogging-windows-11-folder",
+    "image": "",
+    "stocks": [
+      {
+        "name": "微软",
+        "ticker": "MSFT",
+        "reason": "作为Windows 11开发商，修复系统Bug有助于维持用户基数与产品口碑",
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
+    "id": "ecf181484fdb9b8d",
+    "title": "英伟达发布610.74驱动，支持多款3A大作新内容",
+    "summary": "英伟达推出GeForce Game Ready 610.74显卡驱动，为《毁灭战士：黑暗时代｜启示录》和《刺客信条：黑旗 记忆重置》提供首发支持；两款新作均支持DLSS多帧生成、超分辨率及光线追踪等RTX特性。",
+    "body": "IT之家消息，NVIDIA（英伟达）今日发布最新版GeForce Game Ready显卡驱动程序610.74，为《毁灭战士：黑暗时代｜启示录》和《刺客信条：黑旗 记忆重置》提供首日优化支持。《毁灭战士》新战役扩展包新增多个关卡，原生支持DLSS多帧生成、超分辨率、路径追踪，并在GeForce RTX GPU上通过光线重建增强路径追踪效果。《刺客信条：黑旗 记忆重置》则以Anvil引擎从零重构2013年原版游戏，画面与玩法内容全面升级，并支持DLSS多帧生成、超分辨率、光线追踪反射与光照。",
+    "category": "消费电子",
+    "tags": [
+      "英伟达",
+      "显卡驱动",
+      "DLSS",
+      "游戏"
+    ],
+    "source": "IT之家",
+    "time": "5分钟前",
+    "ts": "2026-07-07T13:52:23+00:00",
+    "url": "https://www.ithome.com/0/973/788.htm",
+    "image": "https://img.ithome.com/newsuploadfiles/2026/7/a3ea6e32-8abf-4a37-b4f7-00606063ecc3.jpg",
+    "stocks": [
+      {
+        "name": "英伟达",
+        "ticker": "NVDA",
+        "reason": "新驱动首发支持多款热门3A大作并强化RTX/DLSS特性，有助于提升GeForce GPU用户体验与硬件吸引力",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "90e311a945f33038",
+    "title": "KDE Plasma 6.6.6 发布，6.6 系列迎来最终维护更新",
+    "summary": "KDE Plasma 6.6.6 桌面环境正式发布，这是 Plasma 6.6 系列的最后一个维护版本，主要修复 KWin、Discover、Plasma Workspace 等组件中的多项问题，未新增功能。",
+    "body": "KDE Plasma 6.6.6 桌面环境已正式发布。据 Linuxiac 报道，该版本是 Plasma 6.6 系列的最后一次维护更新，此后该系列将不再获得维护支持。本次更新未引入任何新功能，而是聚焦于修复现有问题，覆盖窗口管理、应用商店、通知系统、网络管理等多个模块。\n\n具体来看，KWin 修复了笔记本屏幕唤醒异常、DRM 后端回退机制以及自然滚动行为等问题；Discover 修复了评论重复显示、辅助功能和窗口高度异常等缺陷；Plasma Workspace 改进了通知系统、设备通知器、任务管理器过滤、深色模式壁纸检测和时钟渲染；NetworkManager 优化了无网络设备时的连接详情显示并新增 OvsBridge 支持；xdg-desktop-portal-kde 则修复了剪贴板锁死、应用选择器混淆等问题。\n\n此次更新标志着 KDE Plasma 6.6 系列维护周期的结束，用户后续可期待向 Plasma 6.7 等更高版本迁移。作为 Linux 桌面环境的重要开源项目，KDE 的持续迭代对桌面 Linux 生态的稳定性和用户体验具有积极意义。",
+    "category": "消费电子",
+    "tags": [
+      "开源软件",
+      "桌面环境",
+      "Linux",
+      "KDE"
+    ],
+    "source": "IT之家",
+    "time": "7分钟前",
+    "ts": "2026-07-07T13:50:30+00:00",
+    "url": "https://www.ithome.com/0/973/787.htm",
+    "image": "https://img.ithome.com/newsuploadfiles/2026/7/7e6af6b7-0b7f-413e-8e59-e9b33f02aeee.png?x-bce-process=image/format,f_auto",
+    "stocks": []
+  },
+  {
     "id": "51ec9a90e9282d8c",
     "title": "华为首曝问界M9 Ultimate内饰，赛力斯高端车型再升级",
     "summary": "华为通过官方微博首次露出鸿蒙智行全新一代问界M9 Ultimate领世加长版的实车内饰，二排旋转零重力座椅、前排Ultimate专属标识等豪华配置成为亮点，新车预计8月后开启首批交付。",
@@ -135145,6 +135216,12 @@ const newsData = [
   }
 ];
 const newsDigest = {
-  "text": "",
-  "highlights": []
+  "text": "今日科技前沿聚焦：亚马逊拟发债超250亿美元加码AI基础设施；微软、英伟达分别推送Win11与显卡驱动更新；生物医药领域在脂肪肝与实体瘤治疗上取得新进展。",
+  "highlights": [
+    "1dc8cf5a1b25d38c",
+    "4e45a05669dad753",
+    "ecf181484fdb9b8d",
+    "e4b121923f650b56",
+    "af3d71fd3ccbd478"
+  ]
 };
