@@ -1,37 +1,101 @@
 const newsData = [
   {
+    "id": "4ba76911488eafad",
+    "title": "星形胶质细胞通过稳定神经环路助记忆维持数周",
+    "summary": "一项神经科学研究发现，星形胶质细胞可通过稳定神经环路帮助大脑将记忆保留数周，揭示了记忆持久储存的新机制。",
+    "body": "长期以来，科学家主要关注记忆如何在脑中形成，但对某些记忆为何能长期保留、另一些却迅速消失了解甚少。最新研究指出，星形胶质细胞在维持记忆稳定性方面发挥关键作用，它们通过稳定相关神经环路，使记忆能够在数周内保持可提取状态。\n\n该发现为理解记忆巩固与遗忘机制提供了新的细胞层面解释，也可能为未来针对记忆障碍、神经退行性疾病的干预策略带来启发。不过，研究目前仍处于基础科学阶段，距离临床应用尚需进一步验证。",
+    "category": "脑机接口",
+    "tags": [
+      "神经科学",
+      "记忆机制",
+      "星形胶质细胞",
+      "神经环路"
+    ],
+    "source": "MedicalXpress",
+    "time": "1分钟前",
+    "ts": "2026-07-07T12:00:02-04:00",
+    "url": "https://medicalxpress.com/news/2026-07-astrocytes-memories-weeks-stabilizing-neural.html",
+    "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/scientists-discover-ho-20.jpg",
+    "stocks": []
+  },
+  {
+    "id": "8848ed5dedafffad",
+    "title": "曼彻斯特团队发现肺癌新药物组合治疗难治KRAS突变",
+    "summary": "英国曼彻斯特科学家领衔的研究发现了一种新的药物组合，有望改善由罕见KRAS突变驱动的非小细胞肺癌患者预后，为这一“难以成药”的癌症亚型带来新希望。该研究已发表于《Cancer Discovery》。",
+    "body": "这项突破性研究聚焦于非小细胞肺癌（NSCLC），该类型肺癌约占全球癌症死亡的五分之一，而KRAS基因突变是其最常见诱因之一。研究团队识别出一种新的药物组合，可针对携带罕见KRAS突变的NSCLC患者产生更好疗效，挑战了过去被认为“难以成药”的治疗困境。\n\n若后续临床试验证实其安全性和有效性，该组合疗法有望为全球数千名难治性肺癌患者提供新的治疗选择，并推动肺癌精准医疗进一步发展。",
+    "category": "生物医药",
+    "tags": [
+      "肺癌",
+      "KRAS突变",
+      "靶向治疗",
+      "肿瘤学"
+    ],
+    "source": "MedicalXpress",
+    "time": "1分钟前",
+    "ts": "2026-07-07T12:00:01-04:00",
+    "url": "https://medicalxpress.com/news/2026-07-medication-combination-undruggable-lung-cancer.html",
+    "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/pippette.jpg",
+    "stocks": []
+  },
+  {
     "id": "beb3a3e73a94fe6a",
-    "title": "雷蛇灵刃18申请Ubuntu认证，Linux版雷云暂无计划",
-    "summary": "雷蛇正为顶级游戏本灵刃18申请Ubuntu Linux认证，并表态未来继续支持Linux；不过官方暂无推出Linux版雷云计划，玩家仍需依赖第三方工具。",
-    "body": "据Phoronix报道，雷蛇正在为新款灵刃18笔记本（型号RZ09-0582）申请Ubuntu Linux认证。该产品搭载英特尔酷睿Ultra 9 290HX Plus处理器与英伟达RTX 5090显卡，定位高端旗舰市场。雷蛇表示，未来继续支持Linux对其非常重要，目前认证仍在进行中。\n\n早在2017年，雷蛇CEO陈民亮就曾表态希望让灵刃笔记本在Linux平台运行得更好，甚至要打造“全球最好的Linux笔记本”。但此后相关进展长期沉寂，外界一度认为雷蛇已放弃该计划。此次重启Ubuntu认证，意味着雷蛇对Linux生态的重视重新升温，也可能吸引开发者与高端玩家群体。\n\n不过，雷蛇目前暂无推出Linux版雷云（Razer Synapse）的计划，用户仍无法通过官方工具管理笔记本与外设。对此，雷蛇推荐用户搭配使用社区项目OpenRazer和Polychromatic，以获得非官方的Linux使用体验。",
+    "title": "雷蛇灵刃18申请Ubuntu认证",
+    "summary": "雷蛇正为新款灵刃18游戏本申请Ubuntu Linux认证，时隔多年重启Linux支持计划，但官方暂无Linux版雷云软件规划。",
+    "body": "据Phoronix报道，雷蛇正在为搭载酷睿Ultra 9 290HX Plus处理器和RTX 5090显卡的灵刃18笔记本（RZ09-0582）申请Ubuntu Linux认证。雷蛇CEO陈民亮早在2017年就曾表达打造“全球最好Linux笔记本”的愿景，但此后长期沉寂，直至近期才重启相关计划。\n\n雷蛇表示未来继续支持Linux非常重要，不过目前暂无推出Linux版雷云管理软件的计划，用户可借助第三方开源项目OpenRazer和Polychromatic获得非官方体验。此举有助于雷蛇拓展开发者及Linux游戏玩家市场，但软件生态仍待完善。",
     "category": "消费电子",
     "tags": [
       "雷蛇",
-      "Linux",
       "游戏本",
+      "Linux",
       "Ubuntu"
     ],
     "source": "IT之家",
-    "time": "刚刚",
+    "time": "7分钟前",
     "ts": "2026-07-07T15:54:02+00:00",
     "url": "https://www.ithome.com/0/973/812.htm",
     "image": "https://img.ithome.com/newsuploadfiles/2026/7/ceb8afd3-52c3-4f16-ab37-299f0846d6ea.jpg?x-bce-process=image/format,f_auto",
+    "stocks": [
+      {
+        "name": "雷蛇",
+        "ticker": "1337.HK",
+        "reason": "公司核心游戏本产品申请Ubuntu认证，有望拓展Linux玩家及开发者客群",
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
+    "id": "ce352603d0c99710",
+    "title": "Better Auth 加入 Vercel",
+    "summary": "开源身份认证库 Better Auth 宣布加入 Vercel，或将强化 Vercel 面向开发者的认证与全栈服务能力。",
+    "body": "据 Hacker News 消息，开源身份认证库 Better Auth 正在加入云计算与前端部署平台 Vercel。Better Auth 主要面向 TypeScript 生态提供身份认证方案，此次加入意味着其技术有望与 Vercel 的 Serverless 平台及开发者工具进一步整合。\n\n对开发者而言，此举可能降低在 Vercel 上构建全栈应用时的认证集成成本，提升开发效率与安全性。同时，这也反映出云原生与开发者工具领域仍在持续整合，平台厂商正通过补齐身份认证等关键能力来增强生态粘性。\n\n由于 Vercel 目前为非上市公司，该事件暂无直接对应的公开股票标的。",
+    "category": "网络安全",
+    "tags": [
+      "身份认证",
+      "开发者工具",
+      "云原生",
+      "Vercel"
+    ],
+    "source": "Hacker News",
+    "time": "9分钟前",
+    "ts": "2026-07-07T15:52:22+00:00",
+    "url": "https://better-auth.com/blog/better-auth-joins-vercel",
+    "image": "",
     "stocks": []
   },
   {
     "id": "da0c68cb58a97e97",
     "title": "小鹏MONA L03首搭驾驶员失能辅助系统",
-    "summary": "小鹏汽车宣布MONA L03首搭驾驶员失能辅助系统，可在高速辅助驾驶时自动靠边停车并呼叫救援，后续还将OTA升级支持普通道路场景。",
-    "body": "据IT之家消息，小鹏汽车官方宣布MONA L03首搭驾驶员失能辅助系统。在高速公路辅助驾驶过程中，若驾驶员失去驾驶能力，车辆可自动靠边停车并呼叫救援，官方同时发布了实测视频。小鹏汽车副总裁透露，该功能未来将通过OTA升级扩展至普通道路场景，实现驾驶员出现意外时自动靠边停车、报警及全链路自主救援。\n\nMONA L03定位“年轻人的第一台智能时尚SUV”，预售价14.38万元起，将于7月16日正式上市。新车提供纯电与增程双动力，搭载1500TOPS算力的图灵芯片及第二代VLA智驾系统。\n\n此次驾驶员失能辅助系统的引入，将进一步提升小鹏汽车在智能驾驶安全领域的产品竞争力，也可能成为其差异化卖点之一。",
+    "summary": "小鹏汽车官宣MONA L03首搭驾驶员失能辅助系统，可在高速辅助驾驶时自动靠边停车并呼叫救援，未来还将通过OTA扩展至普通道路场景。",
+    "body": "7月7日，小鹏汽车宣布MONA L03首搭驾驶员失能辅助系统。官方实测视频显示，当车辆处于高速辅助驾驶状态时，若驾驶员失去驾驶能力，车辆能够自动安全靠边停车，并发起救援呼叫。小鹏汽车副总裁透露，该功能后续将通过OTA升级，覆盖普通道路场景，实现驾驶员出现意外时的靠边停车、报警及全链路自主救援。\n\n此前，小鹏在7月2日的MONA L03中国首秀活动上公布新车预售价为14.38万元起，并将于7月16日正式上市。该车定位年轻人的智能时尚SUV，提供纯电与增程双动力，搭载1500 TOPS算力的图灵芯片及第二代VLA智驾系统。驾驶员失能辅助系统的引入，进一步强化了其智能驾驶安全标签，有望在竞争激烈的新能源SUV市场中形成差异化卖点。",
     "category": "机器人",
     "tags": [
       "小鹏汽车",
-      "自动驾驶",
       "智能驾驶",
+      "新能源汽车",
       "驾驶员失能辅助"
     ],
     "source": "IT之家",
-    "time": "4分钟前",
+    "time": "10分钟前",
     "ts": "2026-07-07T15:50:56+00:00",
     "url": "https://www.ithome.com/0/973/811.htm",
     "image": "https://img.ithome.com/newsuploadfiles/2026/7/0942a020-c460-4383-82ff-c88e5daec0d7.png?x-bce-process=image/format,f_auto",
@@ -39,7 +103,13 @@ const newsData = [
       {
         "name": "小鹏汽车",
         "ticker": "XPEV",
-        "reason": "MONA L03为小鹏新车型，首搭失能辅助系统并即将上市，有望提升产品竞争力和销量预期。",
+        "reason": "MONA L03为其新车型，首搭驾驶员失能辅助系统并即将上市，有望提升产品竞争力与销量",
+        "confidence": "high"
+      },
+      {
+        "name": "小鹏汽车-W",
+        "ticker": "9868.HK",
+        "reason": "港股主体直接受益于新车型智能化卖点及上市预期",
         "confidence": "high"
       }
     ]
@@ -80,6 +150,32 @@ const newsData = [
     "url": "https://electrek.co/2026/07/07/ford-recalling-over-42000-mustang-mach-e-evs/",
     "image": "https://electrek.co/wp-content/uploads/sites/3/2025/06/Fords-EV-sales-May-2025.jpeg?quality=82&#038;strip=all&#038;w=1400",
     "stocks": []
+  },
+  {
+    "id": "19e699f3402c118f",
+    "title": "微软裁撤id Software idTech引擎团队",
+    "summary": "微软裁撤旗下id Software负责idTech游戏引擎的核心团队，引发外界对其游戏引擎技术传承及工作室整合策略的关注。",
+    "body": "据报道，微软已解雇id Software旗下负责idTech游戏引擎开发的核心团队。idTech引擎历史悠久，曾支撑《毁灭战士》《雷神之锤》等经典游戏系列，是游戏行业重要的底层技术资产之一。此次裁撤意味着微软可能调整其第一方游戏引擎战略，将资源进一步向其他技术路线或项目整合倾斜。此举也反映出微软在完成对动视暴雪收购后，仍在持续优化工作室结构与成本布局，对游戏开发者社区和玩家均可能带来中长期影响。",
+    "category": "消费电子",
+    "tags": [
+      "微软",
+      "游戏引擎",
+      "id Software",
+      "裁员"
+    ],
+    "source": "Hacker News",
+    "time": "28分钟前",
+    "ts": "2026-07-07T15:33:20+00:00",
+    "url": "https://gamefromscratch.com/microsoft-fire-idtech-team-at-id-software/",
+    "image": "",
+    "stocks": [
+      {
+        "name": "微软",
+        "ticker": "MSFT",
+        "reason": "微软为id Software母公司，裁撤引擎团队有助于优化成本结构，但对第一方技术布局的长期影响尚待观察",
+        "confidence": "medium"
+      }
+    ]
   },
   {
     "id": "513dfddd709693dc",
