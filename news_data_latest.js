@@ -1,5 +1,60 @@
 const newsData = [
   {
+    "id": "59a11aacab546d39",
+    "title": "Spirit为国防航天提供美国先进半导体托管通道",
+    "summary": "Spirit Electronics宣布推出一项托管式接入服务，为航空航天与国防客户提供通往美国本土先进半导体制造的安全路径。",
+    "body": "美国电子元器件与供应链服务商Spirit Electronics发布声明，推出面向航空航天及国防客户的“托管接入”新服务，帮助其安全获取美国本土的先进半导体制造能力。该服务旨在为政企及防务项目提供受控、可追溯的晶圆制造通道，降低供应链风险。",
+    "category": "半导体与先进制造",
+    "tags": [
+      "半导体制造",
+      "国防航天",
+      "供应链安全"
+    ],
+    "source": "SpaceNews",
+    "time": "2分钟前",
+    "ts": "2026-07-07T18:46:40+00:00",
+    "url": "https://spacenews.com/spirit-electronics-announces-managed-access-to-u-s-based-advanced-semiconductor-manufacturing-for-aerospace-and-defense-programs/",
+    "image": "https://i0.wp.com/spacenews.com/wp-content/uploads/2026/07/Spirit-Electronics-Logo-1x1-Black-Background.jpg?fit=1024%2C1024&amp;ssl=1",
+    "stocks": []
+  },
+  {
+    "id": "d0387502a96cbf4e",
+    "title": "抑制应激蛋白可阻断童年创伤后果",
+    "summary": "慕尼黑马克斯·普朗克精神病学研究所与瑞典卡罗林斯卡研究所联合主导的一项新研究发现，抑制应激蛋白FKBP51或可阻止童年创伤引发的精神后果。",
+    "body": "该研究由Mathias Schmidt与Juan Pablo Lopez共同主导，聚焦于FKBP5基因及其编码蛋白FKBP51。该蛋白是机体应激激素系统的重要调控因子，并与精神疾病易感性密切相关。\n\n研究人员发现，抑制FKBP51能够阻断童年创伤带来的长期负面后果。这一结果为揭示早期生活压力如何通过分子机制影响心理健康提供了新线索，也可能为未来开发相关的干预策略奠定理论基础。",
+    "category": "生物医药",
+    "tags": [
+      "应激蛋白",
+      "精神健康",
+      "童年创伤",
+      "FKBP51"
+    ],
+    "source": "MedicalXpress",
+    "time": "9分钟前",
+    "ts": "2026-07-07T14:40:08-04:00",
+    "url": "https://medicalxpress.com/news/2026-07-inhibiting-stress-protein-consequences-childhood.html",
+    "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/inhibiting-a-stress-pr.jpg",
+    "stocks": []
+  },
+  {
+    "id": "c67ef196b634bcb0",
+    "title": "老年男性需重估长期前列腺用药？",
+    "summary": "约三分之一男性一生中会出现中重度下尿路症状，包括尿频、排尿困难、夜尿和尿流细弱等，这些症状虽常见，但对老年男性生活质量影响显著。",
+    "body": "医学网站MedicalXpress报道，男性下尿路症状（LUTS）在人群中相当普遍，约三分之一男性一生中会经历中重度症状，表现为尿频、排尿启动困难、夜尿增多及尿流无力等。由于这些症状在老年男性中可能严重影响日常生活与睡眠质量，长期服药控制前列腺症状的患者可能需要与医生重新评估治疗方案的必要性与安全性。该议题提示老年慢病管理应兼顾疗效与潜在的药物副作用风险。",
+    "category": "生物医药",
+    "tags": [
+      "前列腺健康",
+      "下尿路症状",
+      "老年医学"
+    ],
+    "source": "MedicalXpress",
+    "time": "9分钟前",
+    "ts": "2026-07-07T14:40:06-04:00",
+    "url": "https://medicalxpress.com/news/2026-07-older-men-reassess-term-prostate.html",
+    "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/older-man-taking-a-pil.jpg",
+    "stocks": []
+  },
+  {
     "id": "b8e7dca487c588b8",
     "title": "谷歌定于8月12日举行Pixel发布会",
     "summary": "谷歌将于今年8月12日举办Pixel新品发布会，预计将推出新一代Pixel智能手机等硬件产品。此次活动是谷歌展示其移动设备与AI融合能力的重要节点。",
@@ -63,6 +118,25 @@ const newsData = [
     "stocks": []
   },
   {
+    "id": "93844a305390f1b6",
+    "title": "Kokoro发布本地CPU友好型高质量语音合成",
+    "summary": "Hacker News上的一篇介绍称，Kokoro TTS模型可在本地CPU上运行，无需GPU即可生成高质量语音，有望降低语音合成部署门槛。",
+    "body": "近日，Hacker News上出现关于Kokoro文本转语音（TTS）模型的讨论。该方案强调“本地、对CPU友好且高质量”，意味着用户无需依赖云端或高性能GPU，即可在个人电脑或边缘设备上完成语音合成任务。相比传统依赖GPU的TTS服务，Kokoro的目标是在资源受限环境中提供接近商业质量的合成语音。\n\n如果其性能与易用性得到验证，可能推动智能助手、有声读物、无障碍辅助等场景的本地化部署，并减少算力成本与隐私风险。",
+    "category": "人工智能",
+    "tags": [
+      "语音合成",
+      "端侧AI",
+      "CPU推理",
+      "TTS模型"
+    ],
+    "source": "Hacker News",
+    "time": "25分钟前",
+    "ts": "2026-07-07T18:24:10+00:00",
+    "url": "https://ariya.io/2026/03/local-cpu-friendly-high-quality-tts-text-to-speech-with-kokoro/",
+    "image": "",
+    "stocks": []
+  },
+  {
     "id": "035f3f331e838480",
     "title": "运动后低血压：从偶然发现到深入研究",
     "summary": "1981年西奈山医学院研究员William Fitzgerald慢跑后发现血压降低，这一现象后被命名为运动后低血压（PEH），并引发了长期的科学研究。康涅狄格大学学者Linda Pescatello是该领域的重要研究者之一。",
@@ -78,6 +152,24 @@ const newsData = [
     "ts": "2026-07-07T14:20:06-04:00",
     "url": "https://medicalxpress.com/news/2026-07-story-hypotension.html",
     "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/jog.jpg",
+    "stocks": []
+  },
+  {
+    "id": "62af5bb8497f6c6b",
+    "title": "Docx-CLI亮相：AI Agent读写Word文档效率翻倍",
+    "summary": "开发者在Hacker News发布Docx-CLI工具，使AI Agent读取、编辑Word文档所需的时间和Token消耗均减少约一半，可降低文档自动化处理成本。",
+    "body": "Hacker News上出现一款名为Docx-CLI的新工具，专为AI Agent设计，用于读取和编辑Word文档。据介绍，该工具可让Agent在处理docx文件时，时间和Token消耗均减少约一半。这一项目瞄准AI与办公文档自动化的结合点，有望降低企业用AI处理合同、报告等长文档的边际成本。不过，目前该项目尚处早期展示阶段，实际效果与商业化路径仍需进一步观察。",
+    "category": "人工智能",
+    "tags": [
+      "AI Agent",
+      "办公自动化",
+      "开发者工具"
+    ],
+    "source": "Hacker News",
+    "time": "30分钟前",
+    "ts": "2026-07-07T18:19:00+00:00",
+    "url": "https://github.com/kklimuk/docx-cli",
+    "image": "",
     "stocks": []
   },
   {
