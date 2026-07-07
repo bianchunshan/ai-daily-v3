@@ -1,5 +1,100 @@
 const newsData = [
   {
+    "id": "070e9ea001263adb",
+    "title": "全球35岁以上女性不孕率上升",
+    "summary": "《柳叶刀》新分析显示，2023年全球35至49岁女性中约有5360万人受不孕困扰，预计到2036年这一数字可能增至约7960万，辅助生殖技术需求随之上升。",
+    "body": "一项发表于《柳叶刀·妇产科学与女性健康》的新分析指出，全球35至49岁女性的不孕率正在上升，对相关生育医疗服务的需求也在增加。2023年，该年龄段约有5360万女性受到不孕影响；研究作者预计，到2036年，这一数字可能达到约7960万。\n\n针对这些女性的医疗服务通常包括生育能力检测和辅助生殖技术，例如体外受精（IVF）。随着患者基数扩大，辅助生殖、生育力评估及相关妇产科服务的需求可能持续增长。\n\n该趋势反映出高龄生育与生殖健康议题在全球公共卫生领域的重要性日益凸显，或推动各国加大对生育医疗资源配置、辅助生殖技术可及性以及相关研究的关注与投入。",
+    "category": "生物医药",
+    "tags": [
+      "不孕率",
+      "辅助生殖",
+      "生育健康",
+      "生物医药"
+    ],
+    "source": "MedicalXpress",
+    "time": "8分钟前",
+    "ts": "2026-07-07T10:40:08-04:00",
+    "url": "https://medicalxpress.com/news/2026-07-infertility-women.html",
+    "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/rates-of-infertility-a.jpg",
+    "stocks": []
+  },
+  {
+    "id": "831d1f685626fcce",
+    "title": "研究显示部分避孕药与脑膜瘤风险升高相关",
+    "summary": "最新研究发现，含有某些高剂量孕激素的避孕方式可能与成人最常见的原发性脑肿瘤——脑膜瘤风险增加有关，但不同避孕方法的风险并不等同。",
+    "body": "脑膜瘤是成人中最常见的脑肿瘤，占所有原发性中枢神经系统肿瘤的38%至42%。世界卫生组织2021年的数据显示，全球19亿育龄女性中约有8.74亿人使用现代避孕方法，其中不少含有高剂量合成孕激素。\n\n孕激素是孕酮的人工合成版本，在月经周期和妊娠中起关键作用。研究人员正关注某些高剂量孕激素是否与脑膜瘤发生风险存在关联，提示临床在选择避孕方案时需综合评估潜在风险。\n\n该研究的意义在于强调并非所有避孕方式风险相同，未来或推动更安全、差异化的避孕产品研发与用药指导。",
+    "category": "生物医药",
+    "tags": [
+      "避孕药",
+      "脑膜瘤",
+      "女性健康",
+      "生物医药"
+    ],
+    "source": "MedicalXpress",
+    "time": "8分钟前",
+    "ts": "2026-07-07T10:40:01-04:00",
+    "url": "https://medicalxpress.com/news/2026-07-birth-equal-linked-higher-brain.html",
+    "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/not-all-birth-controls.jpg",
+    "stocks": []
+  },
+  {
+    "id": "b2cbccfdc3fe05b7",
+    "title": "日本KDDI邮件平台泄露超1200万邮箱及700万密码",
+    "summary": "日本电信运营商KDDI披露，其面向ISP运营商的电子邮件平台今年5至6月遭未授权访问，导致超过1233万用户的电子邮件地址和近762万用户的密码泄露。事件源于第三方软件被黑客攻击，相关漏洞已修复。",
+    "body": "KDDI为日本多家小型ISP提供电子邮件服务底层系统，因此此次事件影响波及大量间接客户。据披露，恶意行为从今年5月16日持续至6月17日，攻击针对的是邮件平台引入的第三方软件，目前漏洞已得到修复。KDDI表示将利用AI等技术对问题软件进行详尽分析，全面排查潜在风险，并计划与ISP客户共同推进向更高安全性通信标准的过渡。此次大规模数据泄露再次凸显电信及互联网基础设施供应链安全的重要性。",
+    "category": "网络安全",
+    "tags": [
+      "数据泄露",
+      "网络安全",
+      "KDDI",
+      "ISP"
+    ],
+    "source": "IT之家",
+    "time": "9分钟前",
+    "ts": "2026-07-07T14:39:00+00:00",
+    "url": "https://www.ithome.com/0/973/799.htm",
+    "image": "https://img.ithome.com/newsuploadfiles/2026/7/79ca7941-b50a-461e-a5ae-ef89bab882fe.jpg?x-bce-process=image/format,f_auto",
+    "stocks": []
+  },
+  {
+    "id": "5ee32cea8dbbfc41",
+    "title": "索尼停售PS实体光盘引众怒，请愿签名逼近20万",
+    "summary": "索尼宣布2028年起不再为新游戏生产实体光盘后，Change.org上的反对请愿迅速增至约17.2万份签名。请愿方强调实体版所有权与二手市场的重要性，反对\"只有数字版\"的选择。",
+    "body": "据Tom's Hardware报道，索尼宣布计划于2028年1月起停止为新款PlayStation游戏生产光盘后，Change.org上呼吁保留实体媒体的请愿签名在六天内从约1.2万激增至17.2万以上。该请愿由加拿大零售商PNP Games首席执行官Jade Pearce发起，认为下载码是可撤销的许可而非个人财产，并援引索尼此前从用户账户中移除已购电影的案例，警告二手游戏交易和相关就业岗位将受冲击。\n\nNiko Partners分析师Daniel Ahmad估计，即便2025年数字版已占全价游戏销量约80%，索尼当年仍售出逾7000万张实体光盘。位于奥地利Thalgau的索尼DADC工厂目前日产约60万张光盘，其中约一半为PlayStation游戏，并已开始将部分员工和设备转向光学微透镜生产。截至7月7日，索尼官方社交账号自7月1日以来保持沉默，尚未对此事公开回应。",
+    "category": "消费电子",
+    "tags": [
+      "PlayStation",
+      "索尼",
+      "实体光盘",
+      "数字发行"
+    ],
+    "source": "Tom's Hardware",
+    "time": "9分钟前",
+    "ts": "2026-07-07T14:38:31+00:00",
+    "url": "https://www.tomshardware.com/video-games/playstation/playstation-disc-petition-approaches-200000-signatures",
+    "image": "https://cdn.mos.cms.futurecdn.net/XjcgsYTLxWGb9B88CKrTVc-1280-80.jpg",
+    "stocks": []
+  },
+  {
+    "id": "0ec3bbb581b792bb",
+    "title": "AI法律初创Norm完成1.2亿美元C轮融资，估值破10亿美元",
+    "summary": "人工智能法律科技公司Norm获Khosla Ventures领投的1.2亿美元C轮融资，投后估值达12亿美元，跻身独角兽行列。",
+    "body": "据TechCrunch报道，人工智能法律科技初创公司Norm已完成1.2亿美元C轮融资，本轮由Khosla Ventures领投，公司估值随之达到12亿美元，正式迈入独角兽阵营。Norm聚焦AI在法律领域的应用，表明生成式AI正加速渗透专业服务行业。本轮融资也反映出资本市场对AI法律助手、合同审查及法务自动化工具的持续看好。",
+    "category": "人工智能",
+    "tags": [
+      "法律科技",
+      "生成式AI",
+      "独角兽融资",
+      "法务自动化"
+    ],
+    "source": "TechCrunch",
+    "time": "12分钟前",
+    "ts": "2026-07-07T14:35:42+00:00",
+    "url": "https://techcrunch.com/2026/07/07/ai-law-startup-norm-raises-120m-hits-unicorn-valuation/",
+    "image": "",
+    "stocks": []
+  },
+  {
     "id": "6babc178e1a73ea9",
     "title": "Claude Code新增模型与努力级别双设置",
     "summary": "Anthropic旗下Claude Code新增模型与努力级别两种设置，用户可依据任务复杂度和出错原因灵活调配AI能力范围与执行深度。",
