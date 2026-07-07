@@ -1,5 +1,68 @@
 const newsData = [
   {
+    "id": "80b4d283973e834e",
+    "title": "工业富联选举郑弘孟为新任董事长",
+    "summary": "工业富联公告，董事会会议选举郑弘孟为公司第四届董事会董事长，并聘任其为总经理，同时任命了多位高管。",
+    "body": "工业富联发布公告，经董事会会议审议，同意选举郑弘孟为公司第四届董事会董事长，并聘任其担任公司总经理。此外，张瑞雄、白家南、吴振廷获聘副总经理，沈道邦任财务总监，刘宗长任董事会秘书，揭晓小任证券事务代表。此次管理层调整属于公司治理层面的正常人事安排，涉及公司核心管理岗位的交接与分工。作为富士康工业互联网板块的上市主体，工业富联的管理层变动将受到投资者关注。",
+    "category": "消费电子",
+    "tags": [
+      "工业富联",
+      "公司治理",
+      "高管任命",
+      "董事长"
+    ],
+    "source": "36氪",
+    "time": "刚刚",
+    "ts": "2026-07-07T11:17:55.422056+00:00",
+    "url": "https://36kr.com/newsflashes/3885479205318920?f=rss",
+    "image": "",
+    "stocks": [
+      {
+        "name": "工业富联",
+        "ticker": "601138.SH",
+        "reason": "公司自身董事长及总经理人事变动，直接影响公司治理结构与战略执行",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "f924058e2812a4ea",
+    "title": "AACR发布2026癌症差异进展报告",
+    "summary": "美国癌症研究协会（AACR）于2026年6月24日发布《2026癌症差异进展报告》，聚焦癌症在不同人群中的发病率和死亡率不平等问题。",
+    "body": "美国癌症研究协会（AACR）于2026年6月24日正式发布《AACR癌症差异进展报告2026》。该报告系统梳理了癌症在不同种族、族裔、社会经济地位及地理位置人群中发病率和死亡率的差异现状，为理解癌症负担分布提供了重要参考。\n\n此类报告的发布有助于揭示癌症防治中的结构性不平等，推动政策制定者、医疗机构和科研人员关注弱势群体的癌症筛查、治疗与护理资源分配，从而促进癌症健康公平。报告本身虽非直接医疗干预，但对公共卫生政策调整和癌症研究方向具有指导意义。",
+    "category": "生物医药",
+    "tags": [
+      "癌症研究",
+      "医疗公平",
+      "公共卫生"
+    ],
+    "source": "MedicalXpress",
+    "time": "7分钟前",
+    "ts": "2026-07-07T07:09:54-04:00",
+    "url": "https://medicalxpress.com/news/2026-07-national-cancer-disparities.html",
+    "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/keck-school-of-medicin.jpg",
+    "stocks": []
+  },
+  {
+    "id": "c42da82869098a1d",
+    "title": "V社为Steam Machine发布官方Windows驱动",
+    "summary": "V社今日为Steam Machine主机发布官方Windows驱动，支持在单Windows 10/11系统下运行，但计划保留SteamOS双系统的用户暂不建议安装。",
+    "body": "据IT之家7月7日消息，Valve（V社）已为Steam Machine主机上线官方Windows驱动程序，允许用户在该设备上安装并运行微软Windows 10 64位或Windows 11系统。目前提供的驱动涵盖显卡、Wi-Fi、蓝牙及SD卡读卡器等硬件，但显卡驱动并非AMD Adrenalin肾上腺素版本。\n\nVideoCardz报道称，当前官方驱动主要面向单一Windows系统场景优化，若用户计划保留Windows与SteamOS双系统配置，现阶段安装可能会影响双系统引导或稳定性。因此，V社建议双系统用户等待官方双系统方案发布后再进行安装。",
+    "category": "消费电子",
+    "tags": [
+      "Steam Machine",
+      "Windows驱动",
+      "Valve",
+      "游戏主机"
+    ],
+    "source": "IT之家",
+    "time": "7分钟前",
+    "ts": "2026-07-07T11:09:49+00:00",
+    "url": "https://www.ithome.com/0/973/751.htm",
+    "image": "https://img.ithome.com/newsuploadfiles/2026/7/a25621bf-d55e-46ab-a200-795d236ad77a.jpg?x-bce-process=image/format,f_auto",
+    "stocks": []
+  },
+  {
     "id": "89d362b51eeeea17",
     "title": "立讯精密H股发行价定为63.28港元/股",
     "summary": "立讯精密公告本次H股发行最终价格为每股63.28港元，预计2026年7月9日在香港联交所主板挂牌上市。",
