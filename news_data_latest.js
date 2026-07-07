@@ -1,5 +1,50 @@
 const newsData = [
   {
+    "id": "beb3a3e73a94fe6a",
+    "title": "雷蛇灵刃18申请Ubuntu认证，Linux版雷云暂无计划",
+    "summary": "雷蛇正为顶级游戏本灵刃18申请Ubuntu Linux认证，并表态未来继续支持Linux；不过官方暂无推出Linux版雷云计划，玩家仍需依赖第三方工具。",
+    "body": "据Phoronix报道，雷蛇正在为新款灵刃18笔记本（型号RZ09-0582）申请Ubuntu Linux认证。该产品搭载英特尔酷睿Ultra 9 290HX Plus处理器与英伟达RTX 5090显卡，定位高端旗舰市场。雷蛇表示，未来继续支持Linux对其非常重要，目前认证仍在进行中。\n\n早在2017年，雷蛇CEO陈民亮就曾表态希望让灵刃笔记本在Linux平台运行得更好，甚至要打造“全球最好的Linux笔记本”。但此后相关进展长期沉寂，外界一度认为雷蛇已放弃该计划。此次重启Ubuntu认证，意味着雷蛇对Linux生态的重视重新升温，也可能吸引开发者与高端玩家群体。\n\n不过，雷蛇目前暂无推出Linux版雷云（Razer Synapse）的计划，用户仍无法通过官方工具管理笔记本与外设。对此，雷蛇推荐用户搭配使用社区项目OpenRazer和Polychromatic，以获得非官方的Linux使用体验。",
+    "category": "消费电子",
+    "tags": [
+      "雷蛇",
+      "Linux",
+      "游戏本",
+      "Ubuntu"
+    ],
+    "source": "IT之家",
+    "time": "刚刚",
+    "ts": "2026-07-07T15:54:02+00:00",
+    "url": "https://www.ithome.com/0/973/812.htm",
+    "image": "https://img.ithome.com/newsuploadfiles/2026/7/ceb8afd3-52c3-4f16-ab37-299f0846d6ea.jpg?x-bce-process=image/format,f_auto",
+    "stocks": []
+  },
+  {
+    "id": "da0c68cb58a97e97",
+    "title": "小鹏MONA L03首搭驾驶员失能辅助系统",
+    "summary": "小鹏汽车宣布MONA L03首搭驾驶员失能辅助系统，可在高速辅助驾驶时自动靠边停车并呼叫救援，后续还将OTA升级支持普通道路场景。",
+    "body": "据IT之家消息，小鹏汽车官方宣布MONA L03首搭驾驶员失能辅助系统。在高速公路辅助驾驶过程中，若驾驶员失去驾驶能力，车辆可自动靠边停车并呼叫救援，官方同时发布了实测视频。小鹏汽车副总裁透露，该功能未来将通过OTA升级扩展至普通道路场景，实现驾驶员出现意外时自动靠边停车、报警及全链路自主救援。\n\nMONA L03定位“年轻人的第一台智能时尚SUV”，预售价14.38万元起，将于7月16日正式上市。新车提供纯电与增程双动力，搭载1500TOPS算力的图灵芯片及第二代VLA智驾系统。\n\n此次驾驶员失能辅助系统的引入，将进一步提升小鹏汽车在智能驾驶安全领域的产品竞争力，也可能成为其差异化卖点之一。",
+    "category": "机器人",
+    "tags": [
+      "小鹏汽车",
+      "自动驾驶",
+      "智能驾驶",
+      "驾驶员失能辅助"
+    ],
+    "source": "IT之家",
+    "time": "4分钟前",
+    "ts": "2026-07-07T15:50:56+00:00",
+    "url": "https://www.ithome.com/0/973/811.htm",
+    "image": "https://img.ithome.com/newsuploadfiles/2026/7/0942a020-c460-4383-82ff-c88e5daec0d7.png?x-bce-process=image/format,f_auto",
+    "stocks": [
+      {
+        "name": "小鹏汽车",
+        "ticker": "XPEV",
+        "reason": "MONA L03为小鹏新车型，首搭失能辅助系统并即将上市，有望提升产品竞争力和销量预期。",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
     "id": "a7b8db7c67d8ee3b",
     "title": "研究发现婴儿3个月大脑已能对音乐产生反应",
     "summary": "一项研究表明，婴儿大脑在3个月大时已能识别音乐，到1岁时会开始随音乐自发运动，而与音乐节拍同步的能力则发育得更晚。",
@@ -136138,12 +136183,6 @@ const newsData = [
   }
 ];
 const newsDigest = {
-  "text": "今日科技前沿聚焦：福特大规模召回Mustang Mach-E、SpaceX再发共享火箭、华为手表升级鸿蒙7腕上控家、欧盟Chat Control首轮通过、港理工发布糖尿病管理AI Agent。",
-  "highlights": [
-    "e90223db54003150",
-    "513dfddd709693dc",
-    "0983c92314c36907",
-    "d9feb923244e744a",
-    "9c13e981307062ae"
-  ]
+  "text": "",
+  "highlights": []
 };
