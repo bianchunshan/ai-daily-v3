@@ -1,18 +1,44 @@
 const newsData = [
   {
+    "id": "b8e7dca487c588b8",
+    "title": "谷歌定于8月12日举行Pixel发布会",
+    "summary": "谷歌将于今年8月12日举办Pixel新品发布会，预计将推出新一代Pixel智能手机等硬件产品。此次活动是谷歌展示其移动设备与AI融合能力的重要节点。",
+    "body": "据TechCrunch报道，谷歌已确定于8月12日举行Pixel新品发布会，届时将亮相多款Pixel新设备。作为谷歌旗下的智能手机产品线，Pixel系列通常搭载最新的Android系统与谷歌自研芯片，并深度整合Gemini等AI功能。\n\n此次发布会预计将推出新一代Pixel手机，进一步巩固谷歌在移动硬件与AI应用协同方面的布局。通过Pixel设备，谷歌不仅可以直接面向消费者展示其AI技术，还能为Android生态树立软硬件一体化的标杆。这一事件也反映出消费电子市场与人工智能功能融合的持续趋势。",
+    "category": "消费电子",
+    "tags": [
+      "谷歌",
+      "Pixel",
+      "智能手机",
+      "新品发布"
+    ],
+    "source": "TechCrunch",
+    "time": "1分钟前",
+    "ts": "2026-07-07T18:38:29+00:00",
+    "url": "https://techcrunch.com/2026/07/07/googles-pixel-event-is-set-for-august-12/",
+    "image": "",
+    "stocks": [
+      {
+        "name": "谷歌-A",
+        "ticker": "GOOGL",
+        "reason": "Pixel发布会将发布新一代Pixel手机，直接利好其消费电子硬件业务",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
     "id": "d745d6cafed31ff8",
-    "title": "Figma收购vibe coding应用团队，加码AI代理",
-    "summary": "设计协作平台Figma已收购一家Y Combinator支持的vibe coding应用团队，该团队后续还开发了AI Agent创建产品，显示Figma正加快布局AI编程与智能体生态。",
-    "body": "据TechCrunch报道，Figma收购了打造vibe coding应用的团队。该团队来自一家获得Y Combinator支持的初创公司，最初推出vibe coding平台，随后又开发了用于创建AI Agent的产品。目前交易的具体金额和条款尚未披露。\n\n通过引入该团队，Figma有望在AI辅助设计与开发、智能体构建等方向增强能力，进一步拓展其在创意与生产力工具市场的边界。这也反映出AI编程与Agent平台正成为生产力软件领域的重要竞逐焦点。",
+    "title": "Figma收购AI编程应用团队，拓展智能体产品",
+    "summary": "设计协作平台 Figma 已收购一家 Y Combinator 孵化的 vibe coding 应用团队，该团队后续还推出了智能体创建产品。此举显示 Figma 正加速向 AI 辅助编程与智能体应用领域延伸。",
+    "body": "据外媒 TechCrunch 报道，设计协作平台 Figma 收购了某 Y Combinator 孵化公司背后的团队，该公司最初打造了一款 vibe coding 平台，随后又推出了智能体创建产品。收购完成后，相关团队的 vibe coding 与智能体开发经验将纳入 Figma，帮助其在 AI 驱动的创作工具领域进一步布局。\n\n目前交易的具体金额与整合细节尚未披露。Figma 本身尚未上市，此次收购属于其向 AI 应用层扩张的又一动作，也反映出“氛围编程”（vibe coding）与 AI 智能体正成为科技大厂和创业公司竞相布局的热点方向。",
     "category": "人工智能",
     "tags": [
       "Figma",
       "vibe coding",
-      "AI Agent",
-      "收购"
+      "智能体",
+      "YC"
     ],
     "source": "TechCrunch",
-    "time": "1分钟前",
+    "time": "3分钟前",
     "ts": "2026-07-07T18:37:01+00:00",
     "url": "https://techcrunch.com/2026/07/07/figma-acquires-team-behind-a-vibe-coding-app/",
     "image": "",
