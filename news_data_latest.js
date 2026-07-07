@@ -1,5 +1,56 @@
 const newsData = [
   {
+    "id": "b8ee25d2f931dc06",
+    "title": "Meta发布Muse图像模型，可将他人合成进AI照片",
+    "summary": "Meta旗下Superintelligence Labs推出Muse图像生成模型，已接入Meta AI应用、Instagram和WhatsApp的图像生成功能，并计划扩展至Facebook与Messenger。",
+    "body": "Meta宣布由其Superintelligence Labs打造的首款AI图像生成模型Muse Image正式上线。该模型目前已驱动Meta AI应用、Instagram和WhatsApp中的图像生成工具，未来还将登陆Facebook与Messenger。据介绍，用户可在创作AI照片时拉入其他Instagram用户，进一步模糊了社交内容与AI生成内容的边界。\n\n此举标志着Meta在“Muse”AI产品线上的持续扩张，也反映出其将生成式AI深度嵌入社交平台的战略。模型覆盖多个核心社交应用，有望提升用户活跃度与内容创作量，同时也可能引发关于肖像权、隐私与内容真实性的新争议。",
+    "category": "人工智能",
+    "tags": [
+      "生成式AI",
+      "社交媒体",
+      "Meta"
+    ],
+    "source": "The Verge",
+    "time": "1分钟前",
+    "ts": "2026-07-07T16:31:58-04:00",
+    "url": "https://www.theverge.com/tech/962485/meta-muse-image-ai-model-instagram",
+    "image": "",
+    "stocks": [
+      {
+        "name": "Meta Platforms",
+        "ticker": "META",
+        "reason": "Muse Image由Meta自研并部署在其核心社交应用中，直接利好其AI产品与平台生态。",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "6cb5d474dd59021a",
+    "title": "ABB推出搭载vSLAM导航的Flexley Stack F712自主叉车",
+    "summary": "ABB机器人发布Flexley Stack F712自主叉车，采用视觉SLAM导航技术，无需额外基础设施即可在仓储和产线环境中自主运行，进一步完善其自主移动机器人产品组合。",
+    "body": "ABB Robotics近日发布Flexley Stack F712自主叉车，瞄准汽车制造业等行业的高强度物料搬运、产线末端存储及仓储作业需求。该自主移动机器人（AMR）采用vSLAM（视觉同步定位与地图构建）导航技术，无需依赖预先安装的反射器或磁条等基础设施即可在动态环境中定位与避障。据ABB介绍，这款新机器人可与其现有机器人产品协同工作，提升物流效率、灵活性与可扩展性，并符合相关安全标准。ABB机器人业务总裁Marc Segura表示，Flexley Stack F712集成了先进视觉、移动能力与智能算法，是公司迈向“自主多功能机器人（AVR）”的重要一步，标志着工业机器人在非结构化环境中自主作业能力的提升。",
+    "category": "机器人",
+    "tags": [
+      "自主移动机器人",
+      "仓储自动化",
+      "叉车",
+      "vSLAM"
+    ],
+    "source": "The Robot Report",
+    "time": "8分钟前",
+    "ts": "2026-07-07T20:24:24+00:00",
+    "url": "https://www.therobotreport.com/abb-robotics-includes-vslam-navigation-f712-autonomous-forklift/",
+    "image": "https://www.therobotreport.com/wp-content/uploads/2026/07/F712-Visual-SLAM-_-AMR-Studio-featured.jpg",
+    "stocks": [
+      {
+        "name": "ABB",
+        "ticker": "ABB",
+        "reason": "公司直接发布Flexley Stack F712自主叉车，拓展AMR产品矩阵并强化其在工业自动化领域的布局。",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
     "id": "52de110612193a71",
     "title": "新型ADC药物可清除多数B细胞白血病残留癌细胞",
     "summary": "美国MD安德森癌症中心研究显示，抗体偶联药物奥加伊妥珠单抗可清除多数B细胞急性淋巴细胞白血病患者体内的可测量残留病灶，有望改善长期生存。",
