@@ -1,18 +1,18 @@
 const newsData = [
   {
     "id": "2dcd2eee5769d720",
-    "title": "微软自研MAI模型接手Office，降低对OpenAI和Anthropic依赖",
-    "summary": "微软开始在Excel、Outlook等Office应用中以自研MAI模型替代OpenAI与Anthropic的模型，以削减AI成本并增强技术自主性。",
-    "body": "据彭博社报道，微软已在Excel、Outlook等软件产品中使用内部自研的MAI模型处理每周数万条AI提示，逐步替代此前更依赖的OpenAI和Anthropic模型。此举显示微软正加速开发具备竞争力且成本更低的AI模型。微软AI模型主管穆斯塔法·苏莱曼此前表示，公司希望增加MAI模型使用，减少对Anthropic的支出，未来也不希望被迫接受领先AI实验室的高价。\n\n微软目前依靠与OpenAI的长期合作，以折扣价获取最新技术为其Copilot等工作助手提供算力支持。随着MAI模型在Office、GitHub Copilot及未来Teams转录等场景落地，微软有望降低外部模型依赖、改善AI业务利润率，并强化从基础模型到应用层的垂直整合能力。",
+    "title": "微软自研MAI模型接手Office应用降本",
+    "summary": "微软开始在Excel、Outlook等Office产品中采用自研MAI模型处理部分AI提示，以替代OpenAI和Anthropic的模型并降低AI成本。这一转变显示微软在打造低成本、具备竞争力的自研AI模型上取得进展。",
+    "body": "据彭博社报道，微软已在Excel、Outlook等办公软件中开始使用内部自研的MAI模型，逐步替代原本依赖的OpenAI和Anthropic模型，以降低高昂的AI推理成本。知情人士称，目前这些应用中每周已有数万条AI提示由MAI模型完成，但整体占比仍然较小。\n\n微软AI模型主管穆斯塔法·苏莱曼此前表示，公司希望增加MAI模型的使用，减少对Anthropic的支出，并避免未来被迫接受领先AI实验室的高价技术。除了Office，MAI模型也可用于GitHub Copilot，微软自研的转录模型还将在未来几个月内应用于Teams等产品。",
     "category": "人工智能",
     "tags": [
-      "大模型",
       "微软",
-      "办公软件",
-      "AI成本"
+      "自研大模型",
+      "AI应用",
+      "办公软件"
     ],
     "source": "IT之家",
-    "time": "刚刚",
+    "time": "2分钟前",
     "ts": "2026-07-07T22:47:35+00:00",
     "url": "https://www.ithome.com/0/973/815.htm",
     "image": "https://img.ithome.com/newsuploadfiles/2026/7/8a37b9de-9771-492e-b828-7810f0c285b2.png?x-bce-process=image/format,f_auto",
@@ -20,24 +20,24 @@ const newsData = [
       {
         "name": "微软",
         "ticker": "MSFT",
-        "reason": "微软以自研MAI模型替代外部模型，有望降低Office和Copilot的AI成本、提升利润率并增强生态自主性。",
+        "reason": "自研MAI模型替代OpenAI/Anthropic可降低AI推理成本，提升Copilot及Office业务盈利能力。",
         "confidence": "high"
       }
     ]
   },
   {
     "id": "41e95fc0166fd3e8",
-    "title": "Orbit Fab任命新CEO并融资推进卫星在轨加注",
-    "summary": "美国卫星在轨加注服务商Orbit Fab任命新任首席执行官，并完成新一轮融资，以支持其从技术开发向运营服务转型。",
-    "body": "据SpaceNews报道，商业航天公司Orbit Fab宣布任命新任首席执行官，并完成新一轮融资。该公司专注于为在轨卫星提供燃料补给服务，希望借此从技术开发阶段迈入实际运营阶段。卫星在轨加注被视为延长航天器寿命、降低太空碎片风险的关键空间基础设施服务之一。Orbit Fab此次人事与资金动向，显示出其商业模式正加速落地，或将推动相关市场空间经济的发展。",
+    "title": "Orbit Fab 任命新 CEO 并融资，推进卫星在轨加注业务",
+    "summary": "卫星在轨加注公司 Orbit Fab 宣布任命新任首席执行官并完成新一轮融资，计划从技术开发阶段转向商业运营。",
+    "body": "据外媒报道，卫星在轨加注服务商 Orbit Fab 近期任命了新的首席执行官，并完成了一轮融资，以支持其业务从技术研发向商业运营转型。在轨加注被视为延长卫星寿命、提升空间资产利用效率的重要基础设施，有助于降低航天任务成本。不过，该公司目前仍为私营企业，融资和人事变动对公开市场的直接影响有限。",
     "category": "商业航天",
     "tags": [
-      "卫星在轨加注",
       "商业航天",
-      "太空基础设施"
+      "卫星在轨服务",
+      "空间基础设施"
     ],
     "source": "SpaceNews",
-    "time": "2分钟前",
+    "time": "4分钟前",
     "ts": "2026-07-07T22:45:09+00:00",
     "url": "https://spacenews.com/orbit-fab-hires-new-ceo-and-raises-funding-to-support-satellite-refueling-business/",
     "image": "https://i0.wp.com/spacenews.com/wp-content/uploads/2023/04/orbittfab-shuttle.jpg?fit=1024%2C697&amp;ssl=1",
@@ -45,29 +45,22 @@ const newsData = [
   },
   {
     "id": "330c7fb0368f61ff",
-    "title": "兰博基尼推出Vision Pro官方应用，支持1:1实车展示",
-    "summary": "兰博基尼面向苹果Vision Pro头显发布官方应用，首发上线四款车型，用户可按1:1真实尺寸在空间环境中查看车辆外观、内饰与工程结构。",
-    "body": "据IT之家报道，兰博基尼近日发布官方应用，进一步推进数字化创新。该应用面向苹果Vision Pro头显，首发提供Temerario、Revuelto、Urus SE与Urus SE Performante四款车型，其中Urus SE Performante将在古德伍德速度节实车首秀前，先以数字形式亮相。\n\n应用提供“共享空间”与“完全沉浸式体验”两种模式。前者允许用户将高保真数字跑车以1:1真实尺寸投放到现实环境中，自由缩放查看；后者则在全数字化场景中展示车辆，不受物理空间限制。用户可通过眼神与手势交互，查看座椅缝线、座舱部件、碳纤维结构、空气动力学流线以及混动动力系统。",
+    "title": "兰博基尼推出Vision Pro应用：支持1:1实车展示",
+    "summary": "兰博基尼发布官方Apple Vision Pro应用，首发四款车型。用户可在真实环境中按1:1比例查看车辆细节，并提供完全沉浸式体验模式。",
+    "body": "7月7日，兰博基尼宣布面向苹果Vision Pro头显推出官方应用程序，首发上线Temerario、Revuelto、Urus SE及Urus SE Performante四款车型。该应用提供共享空间与完全沉浸式两种空间计算体验，用户可按1:1真实尺寸将数字跑车置于现实环境中，或通过手势与视线交互，查看外观、内饰、空气动力学及混动动力系统细节。\n\n应用内容围绕动力总成与空间框架、空气动力学、Centro Stile设计中心以及兰博基尼声浪四大技术支柱搭建，支持以3D流线显示下压力与冷却气流路径，并展示原始3D草图与品牌设计元素。Urus SE Performante将于本周在古德伍德速度节实车首秀，用户可提前通过Vision Pro预览。这一应用展示了空间计算在高端汽车展示与营销中的潜力，也丰富了Vision Pro的垂直行业内容生态。",
     "category": "消费电子",
     "tags": [
       "Vision Pro",
       "空间计算",
-      "汽车数字化",
+      "汽车科技",
       "XR"
     ],
     "source": "IT之家",
-    "time": "5分钟前",
+    "time": "7分钟前",
     "ts": "2026-07-07T22:42:51+00:00",
     "url": "https://www.ithome.com/0/973/814.htm",
     "image": "https://img.ithome.com/newsuploadfiles/2026/7/c699f87f-3d2c-44e6-bac5-a3b6f3bbffea.jpg",
-    "stocks": [
-      {
-        "name": "苹果公司",
-        "ticker": "AAPL",
-        "reason": "作为Vision Pro平台方，兰博基尼等高端品牌入驻丰富了空间计算内容生态，有助于提升头显应用场景关注度。",
-        "confidence": "medium"
-      }
-    ]
+    "stocks": []
   },
   {
     "id": "91058eac5c3514ba",
