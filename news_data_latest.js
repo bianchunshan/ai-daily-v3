@@ -1,5 +1,56 @@
 const newsData = [
   {
+    "id": "23c22a3292358720",
+    "title": "福特3万美元电动皮卡曝光，尺寸直逼全尺寸SUV",
+    "summary": "福特一款定价约3万美元的中型电动皮卡近日被拍到与Expedition全尺寸SUV同框路试，照片显示该车体型庞大，甚至让旁边的全尺寸SUV显得较小，揭示其真实尺寸远超预期。",
+    "body": "近日，福特一款计划售价约3万美元的中型电动皮卡在公共道路上被拍到与福特Expedition全尺寸三排SUV并行行驶。照片显示，这款电动皮卡尺寸相当可观，甚至让旁边的全尺寸SUV显得较小，打破了外界对其“中型”定位的固有印象。\n\n这款平价电动皮卡是福特电动化战略的重要产品，目标以更低价格进入电动皮卡市场，与现有F-150 Lightning形成互补。若其最终尺寸和价格属实，有望凭借较高的性价比和空间表现，吸引更广泛的北美家庭及皮卡用户，提升福特在电动车市场的竞争力。",
+    "category": "未来能源",
+    "tags": [
+      "电动汽车",
+      "电动皮卡",
+      "福特"
+    ],
+    "source": "Electrek",
+    "time": "4分钟前",
+    "ts": "2026-07-07T16:14:09+00:00",
+    "url": "https://electrek.co/2026/07/07/fords-30000-ev-pickup-makes-full-size-suv-look-massive/",
+    "image": "https://electrek.co/wp-content/uploads/sites/3/2026/06/Ford-30000-EV-pickup-spotted-testing.jpeg?quality=82&#038;strip=all&#038;w=1400",
+    "stocks": [
+      {
+        "name": "福特汽车",
+        "ticker": "F",
+        "reason": "福特是这款平价电动皮卡的直接制造商，新产品有望拓展其电动车客户群",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "b131253c5b1f6d9c",
+    "title": "Lexar母公司江波龙预计上半年净利暴增超600倍",
+    "summary": "受益于全球AI基础设施建设对存储芯片的强劲需求，江波龙预计2026年上半年净利润将达13.6亿至16.2亿美元，同比暴增逾600倍。公司已与全球存储晶圆供应商签署长期协议以锁定产能。",
+    "body": "江波龙电子（Longsys，Lexar母公司）预计2026年上半年实现净利润13.6亿至16.2亿美元（约合人民币92亿至110亿元），而去年同期仅约220万美元，同比增幅高达61,818%至73,636%。同期营收预计为32.4亿至36.8亿美元（220亿至250亿元人民币），较去年同期的约15亿美元增长一倍以上。公司表示，业绩暴增主要受全球AI基建拉动存储与内存芯片需求、晶圆产能紧张的推动。\n为应对持续紧俏的供应局面，江波龙称已与全球存储晶圆供应商签订长期协议及谅解备忘录，以保障供应稳定。这一业绩预期也反映出中国存储产业链在AI需求扩张中的受益趋势，以及本土厂商在替代主流供应商方面的潜在空间。不过，公司未披露具体签约供应商名单。",
+    "category": "AI 基础设施",
+    "tags": [
+      "江波龙",
+      "存储芯片",
+      "AI基础设施",
+      "Lexar"
+    ],
+    "source": "Tom's Hardware",
+    "time": "5分钟前",
+    "ts": "2026-07-07T16:13:09+00:00",
+    "url": "https://www.tomshardware.com/tech-industry/chinese-memory-and-storage-firm-expected-to-post-more-than-60-000-percent-jump-in-profits-due-to-exploding-demand-lexar-owner-longsys-forecasts-nearly-usd1-5-billion-profit-for-1h26-compared-to-usd2-1-million-last-year",
+    "image": "https://cdn.mos.cms.futurecdn.net/sU4Bt8gYKvkvKgDDNUz9HE-1280-80.jpg",
+    "stocks": [
+      {
+        "name": "江波龙",
+        "ticker": "301308.SZ",
+        "reason": "Lexar母公司直接受益于AI基建带来的存储芯片需求爆发，业绩预增显著",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
     "id": "4ba76911488eafad",
     "title": "星形胶质细胞通过稳定神经回路保存记忆数周",
     "summary": "研究发现星形胶质细胞可通过稳定神经回路帮助记忆保存数周，为揭示记忆持久性的神经机制提供了新线索。",
