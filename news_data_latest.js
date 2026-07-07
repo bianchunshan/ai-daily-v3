@@ -1,5 +1,199 @@
 const newsData = [
   {
+    "id": "abd13b7ce26ae126",
+    "title": "华为Pura 90 Pro系列升级鸿蒙6.1.0.130，新增前置自动水印",
+    "summary": "华为Pura 90 Pro系列手机已开启HarmonyOS 6.1.0.130 SP16版本升级，系统包约5.31GB。新版本主要为前置相机加入自动时间地点水印，并在图库中增强了AI沾色、一句话修图、魔法移图贴纸等影像与编辑能力。",
+    "body": "据IT之家7月7日消息，华为Pura 90 Pro系列手机已分批获得鸿蒙HarmonyOS 6.1.0.130 SP16升级推送，系统包大小约5.31GB。此次更新在相机方面新增前置相机自动添加水印功能，自拍时可自动生成时间、地点等水印；图库方面升级了AI沾色、一句话图片处理、魔法移图贴纸等功能，支持通过自然语言指令完成图片编辑、一键成片和图片清理。",
+    "category": "消费电子",
+    "tags": [
+      "华为",
+      "鸿蒙系统",
+      "智能手机",
+      "AI影像"
+    ],
+    "source": "IT之家",
+    "time": "4分钟前",
+    "ts": "2026-07-07T12:03:04+00:00",
+    "url": "https://www.ithome.com/0/973/762.htm",
+    "image": "https://img.ithome.com/newsuploadfiles/2026/5/d04891ff-4410-434b-9062-90345b3088b5.jpg?x-bce-process=image/format,f_auto/auto-orient,o_1",
+    "stocks": []
+  },
+  {
+    "id": "dd750a20aa3c66b5",
+    "title": "NASA发布韦伯望远镜半人马座A星系迄今最清晰图像",
+    "summary": "美国国家航空航天局（NASA）发布詹姆斯·韦伯太空望远镜拍摄的半人马座A星系迄今最清晰图像，以纪念该望远镜升空四周年。这一观测为研究该星系的超大质量黑洞及恒星形成提供了新线索。",
+    "body": "美国国家航空航天局（NASA）近日发布由詹姆斯·韦伯太空望远镜（JWST）拍摄的半人马座A星系（Centaurus A）图像，这是人类迄今对该星系获得的最清晰、最细致的观测结果。图像展现了星系中心尘埃带、喷流及恒星形成区域等细节。\n\n韦伯望远镜于2021年底发射，已在红外波段取得多项突破。此次发布的半人马座A图像正值其运行四周年，展示了其强大的深空观测能力，有助于天文学家研究该星系的超大质量黑洞活动与恒星演化过程。\n\n该成果主要为基础天文学观测进展，未直接涉及相关上市公司的业务订单或商业合作，更多体现空间科学与探测能力的进步。",
+    "category": "商业航天",
+    "tags": [
+      "NASA",
+      "詹姆斯·韦伯望远镜",
+      "深空探测",
+      "星系观测"
+    ],
+    "source": "Engadget",
+    "time": "5分钟前",
+    "ts": "2026-07-07T12:01:43+00:00",
+    "url": "https://www.engadget.com/2209381/nasa-james-webb-fourth-anniversary-detailed-image-centaurus-a/",
+    "image": "https://www.engadget.com/img/gallery/nasa-celebrates-james-webbs-fourth-anniversary-with-the-most-detailed-image-of-centaurus-a-yet/l-intro-1783425515.jpg",
+    "stocks": []
+  },
+  {
+    "id": "69a431359b663452",
+    "title": "Simera将为加那利群岛遥感星座供应多光谱成像仪",
+    "summary": "比利时遥感企业Simera Sense赢得合同，将为西班牙加那利群岛的小型星座提供多光谱成像仪，用于监测野火、火山活动等区域优先事项。",
+    "body": "近日，比利时遥感企业Simera Sense宣布获得一份合同，为加那利群岛规划中的小型星座提供多光谱成像仪。该星座主要服务于野火监测、火山活动跟踪以及其它区域优先需求。\n\n加那利群岛位于西班牙西北海岸外，自然灾害频发，提升对地观测能力有助于提高应急响应和环境管理效率。此次合作也体现了欧洲中小型航天企业在地球观测载荷市场的竞争力。",
+    "category": "商业航天",
+    "tags": [
+      "卫星遥感",
+      "多光谱成像",
+      "地球观测",
+      "商业航天"
+    ],
+    "source": "SpaceNews",
+    "time": "6分钟前",
+    "ts": "2026-07-07T12:01:41+00:00",
+    "url": "https://spacenews.com/simera-sense-to-provide-imagers-for-canary-islands-constellation/",
+    "image": "https://i0.wp.com/spacenews.com/wp-content/uploads/2026/07/Canary-Islands.png?fit=1024%2C768&amp;ssl=1",
+    "stocks": []
+  },
+  {
+    "id": "5b9f720a826f443f",
+    "title": "静脉注射维生素C或可降低重伤患者死亡风险",
+    "summary": "一项新的证据综述显示，严重创伤患者接受静脉注射维生素C治疗，可能降低死亡风险并促进康复。",
+    "body": "据MedicalXpress报道，一项新的证据综述指出，医生为严重受伤的患者静脉输注大剂量维生素C，可能有助于降低其死亡风险并加速康复。该结论基于对现有研究的系统评估，提示维生素C在创伤救治中具有潜在应用价值。\n\n研究人员强调，维生素C具有抗氧化和抗炎作用，可能改善重症创伤患者的生理状态。不过，目前仍需更多高质量的随机对照试验来验证其疗效、最佳剂量和适用人群。",
+    "category": "生物医药",
+    "tags": [
+      "维生素C",
+      "创伤治疗",
+      "临床研究"
+    ],
+    "source": "MedicalXpress",
+    "time": "7分钟前",
+    "ts": "2026-07-07T08:00:08-04:00",
+    "url": "https://medicalxpress.com/news/2026-07-iv-vitamin-boost-recuperation-trauma.html",
+    "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/iv-vitamin-c-might-boo.jpg",
+    "stocks": []
+  },
+  {
+    "id": "af8b400989c6455b",
+    "title": "肠道菌群可提前数年预测2型糖尿病风险",
+    "summary": "瑞典查尔姆斯理工大学主导的大型研究发现，肠道特定菌群及代谢波动可在2型糖尿病发病数年前被检测到，相关成果发表于《Cell Reports Medicine》。",
+    "body": "这项研究通过对人群肠道微生物组的长期追踪，识别出与未来2型糖尿病发病相关的特定细菌种类和代谢变化。结果表明，人体微生态信号在疾病临床显现之前就已经出现，可为早期预警提供新的生物标志物。该发现有望推动基于微生物组的糖尿病筛查、预防干预以及个性化健康管理的发展。",
+    "category": "生物医药",
+    "tags": [
+      "肠道菌群",
+      "2型糖尿病",
+      "数字医疗",
+      "生命科学"
+    ],
+    "source": "MedicalXpress",
+    "time": "7分钟前",
+    "ts": "2026-07-07T08:00:05-04:00",
+    "url": "https://medicalxpress.com/news/2026-07-gut-microbiota-diabetes-years.html",
+    "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/gut-microbiota-can-pre.jpg",
+    "stocks": []
+  },
+  {
+    "id": "4093f7458e119a6d",
+    "title": "Savi推出反AI诈骗应用，防逼真绑架勒索骗局",
+    "summary": "Savi发布了一款帮助消费者识别并防范AI生成逼真诈骗（如伪造绑架勒索电话）的应用，并完成700万美元种子轮融资。",
+    "body": "据外媒报道，初创公司Savi推出了一款面向消费者的应用，旨在识别和抵御日益逼真的AI诈骗手段，例如利用AI合成声音伪装成绑匪索要赎金的情况。该公司刚刚完成700万美元种子轮融资，并计划于本周二正式上线iPhone和Android版本。\n\n随着生成式AI技术降低深度伪造和语音克隆的制作门槛，针对普通消费者的AI诈骗案件正快速增长。Savi这类工具的出现，标志着AI安全正从企业级防护向消费端延伸，未来或成为智能手机的标配安全应用之一。",
+    "category": "人工智能",
+    "tags": [
+      "AI反诈",
+      "深度伪造",
+      "网络安全",
+      "AI应用"
+    ],
+    "source": "TechCrunch",
+    "time": "7分钟前",
+    "ts": "2026-07-07T12:00:00+00:00",
+    "url": "https://techcrunch.com/2026/07/07/savis-app-aims-to-protect-consumers-from-realistic-ai-scams-like-kidnappers-demanding-ransom/",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "d6315c1d0ee7fbd0",
+    "title": "SpaceX发射全球首颗商用核动力卫星",
+    "summary": "美国佛罗里达州公司City Labs研制的BOHR立方星搭乘SpaceX猎鹰9号火箭进入轨道，将首次在太空验证其氚基核电池技术。该任务被视为商业航天领域核动力在轨应用的重要里程碑。",
+    "body": "7月7日，SpaceX的Transporter-17拼单任务从加州范登堡太空军基地发射升空，一枚猎鹰9号火箭将包括BOHR在内的81个载荷送入各自轨道。BOHR是由City Labs公司建造的新型立方星演示任务，旨在首次在太空测试其专有的NanoTritiumβ衰变核微电源。\n\n该技术利用氚放射性衰变释放的β粒子，通过半导体直接转换为电能，原理类似NASA旅行者号探测器使用的放射性同位素热电发电机，但面向小型商业航天器。City Labs表示，此次任务将为不依赖太阳能的连续航天器供电技术进行可行性验证。\n\n若演示成功，这类核电池有望延长小型卫星寿命、支持深空探测以及在阴影区长期运行，拓展商业航天任务的能源选择。不过City Labs与SpaceX均为非上市公司，目前未涉及明确的公开利好标的。",
+    "category": "商业航天",
+    "tags": [
+      "商业航天",
+      "核动力卫星",
+      "核电池"
+    ],
+    "source": "Space.com",
+    "time": "7分钟前",
+    "ts": "2026-07-07T12:00:00+00:00",
+    "url": "https://www.space.com/space-exploration/launches-spacecraft/spacex-just-launched-the-1st-ever-nuclear-powered-commercial-satellite",
+    "image": "https://cdn.mos.cms.futurecdn.net/mdeHisEKWAxDhVWUyC6HrB-1280-80.jpg",
+    "stocks": []
+  },
+  {
+    "id": "517d172588f1c47d",
+    "title": "马歇尔发布Acton IV与Stanmore IV复古音箱",
+    "summary": "马歇尔推出新一代复古风格音箱Acton IV和Stanmore IV，并新增可自定义按钮功能，进一步丰富用户操控体验。",
+    "body": "马歇尔（Marshall）发布了旗下新一代Acton IV与Stanmore IV音箱，延续品牌标志性的复古设计，并首次配备可自定义按钮，用户可根据使用习惯设置快捷功能。新品在保持经典外观的同时，对交互体验进行了升级，预计将巩固其在高端家用音箱市场的定位。此次更新反映了传统音频厂商在产品差异化与用户体验上的持续投入。",
+    "category": "消费电子",
+    "tags": [
+      "音箱",
+      "消费电子",
+      "Marshall",
+      "智能家居"
+    ],
+    "source": "Engadget",
+    "time": "7分钟前",
+    "ts": "2026-07-07T12:00:00+00:00",
+    "url": "https://www.engadget.com/2209353/marshall-acton-iv-stanmore-iv-speakers/",
+    "image": "https://www.engadget.com/img/gallery/marshalls-acton-iv-and-stanmore-iv-speakers-come-with-customizable-m-buttons/l-intro-1783418572.jpg",
+    "stocks": []
+  },
+  {
+    "id": "4c7d99d8e3598466",
+    "title": "海盗船推出2800X RS-R ARGB紧凑机箱",
+    "summary": "海盗船发布全新2800X RS-R ARGB Micro-ATX机箱，售价89.99美元，在缩小体积的同时保留对大显卡与360mm冷排的兼容空间，面向预算型玩家。",
+    "body": "海盗船（Corsair）近日推出2800X RS-R ARGB机箱，这是自2024年初2500X/2500D以来该品牌首款Micro-ATX机箱。该产品可视为中型塔式3500X的缩小版，高度降低约两英寸、占地面积更小，但仍可安装大型显卡与360mm水冷排，并标配三把RS 120-R ARGB PWM风扇。机箱采用环绕式全景玻璃设计，支持Mini-ITX与Micro-ATX主板，顶部设有磁吸防尘网与前置I/O面板。\n\n其89.99美元的定价明确面向预算有限、同时希望缩小主机体积的DIY玩家。该产品进一步完善了海盗船在主流消费级机箱市场的布局，顺应了PC DIY领域对紧凑、高性价比机箱的持续需求，但单一机箱产品对公司整体业绩的拉动相对有限。",
+    "category": "消费电子",
+    "tags": [
+      "PC机箱",
+      "海盗船",
+      "DIY硬件",
+      "消费电子"
+    ],
+    "source": "Tom's Hardware",
+    "time": "7分钟前",
+    "ts": "2026-07-07T12:00:00+00:00",
+    "url": "https://www.tomshardware.com/pc-components/pc-cases/corsair-2800x-rs-r-argb-micro-atx-pc-case-hands-on",
+    "image": "https://cdn.mos.cms.futurecdn.net/UHKfHaiVzNq9ZcaYJHg6BT-1280-80.jpg",
+    "stocks": [
+      {
+        "name": "海盗船",
+        "ticker": "CRSR",
+        "reason": "公司推出新款2800X RS-R ARGB机箱，直接利好其消费电子硬件业务",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "3497d3e4dbc38bc6",
+    "title": "AI编程工具引发“开发者疲劳症”，业界热议缓解之道",
+    "summary": "随着AI编程工具快速渗透开发者日常工作，许多程序员在效率飙升的同时出现身心俱疲、焦虑加剧等“AI疲劳症”现象，业界人士纷纷在线探讨成因与缓解方法。",
+    "body": "Midjourney创始人大卫·霍尔茨在X平台发文称，身边朋友使用最新编程模型后效率极高，却也身心俱疲，并向网友征集缓解疲惫的实用办法。前Meta工程师胡书明、Anthropic的Claude Code负责人凯瑟琳·吴以及多位从业者随后留言，指出“氛围编程”难以进入心流、多智能体并行削弱沉浸感，并建议专注单一任务、暂时远离AI或回归线下生活来调节状态。\n\n此前，程序员悉丹特·卡雷曾在2月发文揭示这一现象，多名从业者向Business Insider表示，AI技术迭代过快带来追赶压力和职场无力感，导致熬夜、加班和效率停滞。业内普遍认为，AI时代对开发者的生产力期待急剧拉升，若缺乏合理的工作节奏与工具使用边界，相关疲劳问题可能先恶化后缓解。\n\n这一现象反映出AI编程工具在重塑软件开发生产力的同时，也对从业者的注意力管理、心理健康和工作方式提出了新挑战。如何在效率与人性化体验之间取得平衡，将成为AI应用落地与开发者工具演进中不可回避的议题。",
+    "category": "人工智能",
+    "tags": [
+      "AI编程工具",
+      "开发者疲劳",
+      "AI应用"
+    ],
+    "source": "IT之家",
+    "time": "8分钟前",
+    "ts": "2026-07-07T11:59:47+00:00",
+    "url": "https://www.ithome.com/0/973/761.htm",
+    "image": "https://img.ithome.com/newsuploadfiles/2026/7/43e8cbae-bb26-4614-9d8a-f95941e23193.png?x-bce-process=image/format,f_auto",
+    "stocks": []
+  },
+  {
     "id": "2e432312ee6a7f65",
     "title": "西非最大锂矿加工厂投产，九岭锂业与天华新能各持股50%",
     "summary": "西非规模最大的锂矿加工厂已在尼日利亚纳萨拉瓦州正式投产，运营主体为中资企业钻石能源集团，其由九岭锂业与天华新能各持股50%。该厂日处理锂原矿6000吨，年产能约折合碳酸锂当量3万吨。",
@@ -24,6 +218,25 @@ const newsData = [
         "confidence": "high"
       }
     ]
+  },
+  {
+    "id": "926e1d2c0ea40537",
+    "title": "路透社：DeepSeek正自研AI芯片",
+    "summary": "据路透社报道，中国AI公司DeepSeek正在研发自有AI芯片，试图延续其低成本优势并减少对外部算力供应商的依赖。",
+    "body": "路透社报道称，以低成本训练AI模型而受到关注的中国公司DeepSeek正在开发自有人工智能芯片。此举若成功，可能进一步压低AI推理与训练成本，并增强其在硬件层面的自主性。\n\n目前公开信息有限，尚不清楚DeepSeek将采用何种架构、制程及代工伙伴。自研芯片意味着其将从算法优化延伸至芯片设计，试图在算力成本与供应安全上取得更多主动权。\n\n这一消息凸显了中国AI企业在核心算力领域寻求自主可控的趋势。若研发顺利，或将改变当前高端AI加速器高度集中于少数厂商的市场格局，并对全球AI产业链带来深远影响。",
+    "category": "半导体与先进制造",
+    "tags": [
+      "DeepSeek",
+      "AI芯片",
+      "半导体",
+      "国产替代"
+    ],
+    "source": "Engadget",
+    "time": "10分钟前",
+    "ts": "2026-07-07T11:57:33+00:00",
+    "url": "https://www.engadget.com/2209378/deepseek-reportedly-developing-ai-chips/",
+    "image": "https://www.engadget.com/img/gallery/reuters-deepseek-is-developing-its-own-ai-chips/l-intro-1783425179.jpg",
+    "stocks": []
   },
   {
     "id": "533f1ea7367e4aa8",
@@ -105,6 +318,25 @@ const newsData = [
     "ts": "2026-07-07T11:43:25+00:00",
     "url": "https://www.ithome.com/0/973/757.htm",
     "image": "https://img.ithome.com/newsuploadfiles/2026/7/df8ffc91-952f-4910-ac2a-f3f8d9f2ca26.png?x-bce-process=image/format,f_auto",
+    "stocks": []
+  },
+  {
+    "id": "35dad27f7c6aa4f0",
+    "title": "前华为天才少年公开吐槽DeepSeek招聘不专业",
+    "summary": "前“华为天才少年”李博杰在社交媒体上发文，称面试DeepSeek过程中遭遇流程拖沓、面试官迟到及被质疑作弊等问题，已终止面试流程并公开“避雷”。",
+    "body": "近日，前华为首批“天才少年”、AI基础设施专家李博杰在朋友圈连发两条消息，公开吐槽DeepSeek招聘流程。据其描述，笔试通过后近半个月未安排面试，经反复催促才排上；正式面试时面试官迟到且态度轻佻；代码面试中因频繁看向左侧被怀疑“抄代码”，尽管解释自己使用双屏，对方仍表示若不能澄清疑虑将终止面试。李博杰随后决定主动终止面试，并表示“严重被冒犯”。\n\n李博杰是中科大计算机科学博士，曾在华为负责AI infra项目，后创办大模型公司Pine AI并任首席科学家。他此前曾拿到OpenAI、DeepSeek、Kimi和字节等多家offer。此番公开吐槽引发广泛关注，截至目前DeepSeek方面尚未对此事作出回应。\n\n该事件发生于DeepSeek大规模扩张之际。完成首轮融资后，DeepSeek正全面推进数据中心、Agent等业务，并开启大规模社招，计划将各部门规模扩大至少一倍。但公司招聘门槛极高，简历筛选对学历要求严格，此次争议也反映出其在快速扩张中面试资源和流程管理可能面临压力。",
+    "category": "人工智能",
+    "tags": [
+      "DeepSeek",
+      "人工智能",
+      "招聘",
+      "人才竞争"
+    ],
+    "source": "量子位",
+    "time": "24分钟前",
+    "ts": "2026-07-07T11:43:08+00:00",
+    "url": "https://www.qbitai.com/2026/07/445608.html",
+    "image": "",
     "stocks": []
   },
   {
@@ -7940,6 +8172,25 @@ const newsData = [
         "confidence": "high"
       }
     ]
+  },
+  {
+    "id": "6d997e115daad380",
+    "title": "Marshall 升级两款无线音箱：低音更强、更易维修",
+    "summary": "音频品牌 Marshall 发布 Acton IV 与 Stanmore IV 两款蓝牙音箱新品，升级高音单元、低音倒相孔与内部结构以提升声场表现，并更加注重可维修性设计。",
+    "body": "据 The Verge 报道，Marshall 今日推出 Acton IV 和 Stanmore IV 两款无线蓝牙音箱，取代已上市约四年的前代产品。新品在扬声器高音单元、低音倒相孔和内部布局上进行了升级，使声音能够更充分地填满室内空间。同时，Marshall 强调此次更新注重可维修性，像旋钮、支脚和前面板等零部件均支持更换或维修。这一方向既回应了消费者对产品耐用性的关注，也顺应了消费电子领域日益增长的可持续与维修友好趋势。",
+    "category": "消费电子",
+    "tags": [
+      "消费电子",
+      "蓝牙音箱",
+      "Marshall",
+      "可维修性设计"
+    ],
+    "source": "The Verge",
+    "time": "20小时前",
+    "ts": "2026-07-06T11:26:00-04:00",
+    "url": "https://www.theverge.com/tech/961601/marshall-acton-stanmore-iv-bluetooth-wireless-speakers-repair",
+    "image": "",
+    "stocks": []
   },
   {
     "id": "1451b69380658d8c",
