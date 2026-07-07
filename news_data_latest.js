@@ -1,5 +1,42 @@
 const newsData = [
   {
+    "id": "1ab3cdcc5ce1ee91",
+    "title": "久坐超30分钟或增加癌症死亡风险",
+    "summary": "新研究表明，单次久坐超过30分钟与癌症死亡风险上升相关，而穿插轻度活动打断久坐或可降低该风险。媒体报道未完整呈现研究细节，相关结论仍需审慎解读。",
+    "body": "一项新研究发现，单次久坐超过30分钟与更高的癌症死亡风险相关，而通过轻度活动打断长时间久坐似乎有助于降低这一风险。该结论提示减少连续久坐时间、增加日常轻度身体活动可能具有重要的公共卫生意义。不过，媒体报道并未完整呈现研究方法、因果推断及具体机制，相关剂量效应和实际干预效果仍有待进一步研究解答。",
+    "category": "生物医药",
+    "tags": [
+      "癌症研究",
+      "公共健康",
+      "生活方式"
+    ],
+    "source": "MedicalXpress",
+    "time": "5分钟前",
+    "ts": "2026-07-07T16:40:05-04:00",
+    "url": "https://medicalxpress.com/news/2026-07-linked-higher-death-cancer.html",
+    "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/sitting-at-desk-1.jpg",
+    "stocks": []
+  },
+  {
+    "id": "58446f47d043d227",
+    "title": "肠道系膜免疫细胞如何对抗沙门氏菌",
+    "summary": "芝加哥伊利诺伊大学研究人员揭示肠道系膜中的免疫细胞对抗沙门氏菌的机制，有助于解释为何部分感染仅局限于肠道，而另一些会发展为全身性致命感染。",
+    "body": "沙门氏菌常被视为食物中毒的典型代表，存在于生肉、禽类、宠物及未经巴氏杀菌的乳制品中，严重时可引发类似伤寒的全身感染。芝加哥伊利诺伊大学（UIC）研究员Kiwook Kim致力于解答一个关键问题：为何部分沙门氏菌感染仅停留在肠道，引发呕吐、腹泻等非致命症状，而另一些则会演变为危及生命的全身性感染。\n\n最新研究聚焦肠道系膜（连接肠道与腹壁的组织）中的免疫细胞，揭示其在抵御沙门氏菌过程中发挥的作用。这一发现深化了人们对肠道局部免疫与系统性感染之间差异的理解。\n\n相关成果有助于未来开发更具针对性的感染性疾病防治策略，为抗生素耐药背景下的新型疗法研究提供理论基础。",
+    "category": "生物医药",
+    "tags": [
+      "免疫学",
+      "沙门氏菌",
+      "肠道免疫",
+      "基础研究"
+    ],
+    "source": "MedicalXpress",
+    "time": "5分钟前",
+    "ts": "2026-07-07T16:40:01-04:00",
+    "url": "https://medicalxpress.com/news/2026-07-immune-cells-gut-mesentery-salmonella.html",
+    "image": "https://scx1.b-cdn.net/csz/news/tmb/2016/salmonella.jpg",
+    "stocks": []
+  },
+  {
     "id": "b8ee25d2f931dc06",
     "title": "Meta发布Muse图像模型，可将他人合成进AI照片",
     "summary": "Meta旗下Superintelligence Labs推出Muse图像生成模型，已接入Meta AI应用、Instagram和WhatsApp的图像生成功能，并计划扩展至Facebook与Messenger。",
