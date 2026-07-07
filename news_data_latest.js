@@ -1,18 +1,50 @@
 const newsData = [
   {
+    "id": "7e9d6a97d874b548",
+    "title": "比亚迪电动GT实车首次曝光",
+    "summary": "比亚迪旗下电动GT车型在发布一年后首次被拍到公开路试，新车定位纯电双门跑车，引发市场对其高端电动化产品线的关注。",
+    "body": "据 Electrek 报道，比亚迪电动GT车型在首次发布一年后，于近日被拍到实车公开亮相。该车型此前以“宋L GT”概念车形式亮相，定位为纯电动双门GT跑车，被视为比亚迪在高端运动化电动车领域的最新尝试。\n\n此次实车曝光意味着该车型可能已进入量产前的路试阶段，距离正式上市更进一步。作为全球最大的新能源汽车制造商之一，比亚迪持续拓展产品矩阵，意在覆盖更细分的消费市场，并强化其在高性能电动车领域的品牌影响力。\n\n若该车型顺利推向市场，有望进一步拉升比亚迪在高端新能源市场的份额，并带动电池、电驱等核心技术的品牌溢出效应。",
+    "category": "未来能源",
+    "tags": [
+      "比亚迪",
+      "电动跑车",
+      "新能源汽车",
+      "电动汽车"
+    ],
+    "source": "Electrek",
+    "time": "刚刚",
+    "ts": "2026-07-07T19:51:53+00:00",
+    "url": "https://electrek.co/2026/07/07/byds-electric-gt-resurfaces-after-first-public-sighting/",
+    "image": "https://electrek.co/wp-content/uploads/sites/3/2026/07/BYD-Song-L-EV-GT-spotted.jpeg?quality=82&#038;strip=all&#038;w=1400",
+    "stocks": [
+      {
+        "name": "比亚迪股份",
+        "ticker": "1211.HK",
+        "reason": "比亚迪是电动GT车型的直接制造商，新车型上市有望带动销量与高端品牌形象提升。",
+        "confidence": "high"
+      },
+      {
+        "name": "比亚迪",
+        "ticker": "002594.SZ",
+        "reason": "A股主体直接受益于新车型放量及电动车业务增长。",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
     "id": "dbd268b005db47ce",
-    "title": "ChargePoint在美东南新增超200个公共充电桩端口",
-    "summary": "ChargePoint与充电运营商Optimus Energy Solutions扩大合作，计划在美国东南部部署超过200个新的公共电动汽车充电端口，进一步拓展其充电网络覆盖。",
-    "body": "ChargePoint宣布扩大与充电桩运营商Optimus Energy Solutions的合作关系，将在美国东南部安装超过200个新的公共电动汽车充电端口。此举将进一步完善ChargePoint的公共充电网络布局，提升该区域电动汽车用户的补能便利性。\n\n新端口面向公众开放，有助于缓解当地充电桩供给压力，支持电动汽车渗透率提升。对ChargePoint而言，这是扩大市场份额、增强网络密度的直接举措，也反映出美国充电基础设施持续扩张的行业趋势。",
+    "title": "ChargePoint在美国东南部新增逾200个公共充电桩",
+    "summary": "ChargePoint与充电运营商Optimus Energy Solutions扩大合作，计划在美国东南部部署200多个新的公共电动汽车充电桩，进一步完善其充电网络布局。",
+    "body": "ChargePoint宣布扩大与充电运营商Optimus Energy Solutions的合作关系，将在美国东南部部署超过200个新的公共电动汽车充电桩。这批新站点将接入ChargePoint的充电网络，有助于缓解该区域公共充电设施不足的问题，提升电动车主的使用便利性。\n\n此次扩建标志着ChargePoint持续加码北美充电基础设施投资，强化其在公共充电市场的网络密度和服务能力。随着美国电动汽车保有量持续增长，充电基础设施的扩张对相关运营商的长期收入和市场地位具有积极意义。",
     "category": "未来能源",
     "tags": [
       "充电桩",
       "电动汽车",
-      "ChargePoint",
-      "清洁能源"
+      "基础设施",
+      "ChargePoint"
     ],
     "source": "Electrek",
-    "time": "1分钟前",
+    "time": "5分钟前",
     "ts": "2026-07-07T19:46:36+00:00",
     "url": "https://electrek.co/2026/07/07/chargepoint-adds-200-new-ev-charging-ports-in-the-southeast/",
     "image": "https://electrek.co/wp-content/uploads/sites/3/2026/07/ChargePoint_Optimus.jpg?quality=82&#038;strip=all&#038;w=1200",
@@ -20,7 +52,7 @@ const newsData = [
       {
         "name": "ChargePoint Holdings",
         "ticker": "CHPT",
-        "reason": "公司直接扩展公共充电网络，新增200多个端口，利好其充电服务业务与营收增长",
+        "reason": "公司直接参与扩建计划，新增逾200个公共充电桩将扩大其在美国东南部的充电网络覆盖与运营规模",
         "confidence": "high"
       }
     ]
