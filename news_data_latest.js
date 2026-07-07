@@ -1,5 +1,42 @@
 const newsData = [
   {
+    "id": "1e081e0ac27674c1",
+    "title": "Liquid AI开源Antidoom修复推理模型死循环",
+    "summary": "Liquid AI开源了基于最终Token偏好优化（FTPO）的Antidoom方法，可定位推理模型死循环的起始token并训练其选择连贯替代路径，在LFM2.5-2.6B和Qwen3.5-4B上把循环率降至约1%，相关代码与数据集已完全开源。",
+    "body": "推理模型在解决复杂数学和编程任务时，容易出现“doom loop”死循环现象，即模型反复生成相似token而陷入无效循环。Liquid AI此次开源的Antidoom方法基于Final Token Preference Optimization（FTPO），专门定位循环开始的第一个token，并通过偏好优化训练模型在该关键位置选择更连贯的替代输出，同时尽量保持整体输出分布不变。\n\n实验结果显示，在Liquid AI自研的LFM2.5-2.6B模型上，硬数学与编程任务中的循环率从10.2%降至1.4%；在Qwen3.5-4B上，循环率从22.9%降至1%。整个修复流程可在数小时内完成，适合快速迭代。\n\nAntidoom的代码与数据集（LiquidAI/antidoom-mix-v1.0）已全面开源。该方法为提升推理模型的可靠性与实用性提供了一条轻量且可复现的训练路径，有助于降低大模型在深度思考任务中的失效风险。",
+    "category": "人工智能",
+    "tags": [
+      "推理模型",
+      "AI训练",
+      "开源",
+      "Liquid AI"
+    ],
+    "source": "AIHOT精选",
+    "time": "4分钟前",
+    "ts": "2026-07-07T16:50:50+00:00",
+    "url": "https://www.marktechpost.com/2026/07/07/liquid-ai-antidoom-doom-loops-ftpo",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "152863b85fd54232",
+    "title": "2026年迄今最严重网络入侵与数据泄露事件盘点",
+    "summary": "TechCrunch盘点了2026年以来影响重大的安全事件，包括美国DOGE大规模数据泄露、关键能源与供水系统遭黑，以及FBI监控系统被入侵。事件凸显了关键基础设施与政府系统的网络安全脆弱性。",
+    "body": "据TechCrunch报道，2026年至今已发生多起重大网络安全事件。其中，涉及DOGE（政府效率部）的大规模数据泄露、关键能源和供水系统被黑客攻击，以及FBI监控系统遭入侵，均造成广泛影响。这些事件涵盖政府数据、关键基础设施和执法监控等不同领域。\n\n这些安全事件表明，即便在高度敏感的政府和关键基础设施环境中，网络防护仍存在明显漏洞。攻击者不仅能够窃取并泄露数据，还能对部分系统形成勒索态势，进一步加剧公共安全与国家安全风险。行业层面或将推动网络安全投入和监管审查的加强。",
+    "category": "网络安全",
+    "tags": [
+      "数据泄露",
+      "关键基础设施",
+      "网络攻击"
+    ],
+    "source": "TechCrunch",
+    "time": "10分钟前",
+    "ts": "2026-07-07T16:45:00+00:00",
+    "url": "https://techcrunch.com/2026/07/07/the-worst-hacks-and-breaches-of-2026-so-far/",
+    "image": "",
+    "stocks": []
+  },
+  {
     "id": "a0aeece5bc763424",
     "title": "挪威试点海洛因辅助治疗阿片类药物成瘾",
     "summary": "挪威奥斯陆和卑尔根的两家诊所为少数阿片类药物成瘾患者提供海洛因辅助治疗，患者在医护人员严密监督下每日两次接受药用级海洛因，旨在改善其健康状况与生活质量。",
@@ -15,6 +52,25 @@ const newsData = [
     "ts": "2026-07-07T12:40:01-04:00",
     "url": "https://medicalxpress.com/news/2026-07-heroin-treatment-patients-health-quality.html",
     "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/heroin-assisted-treatm.jpg",
+    "stocks": []
+  },
+  {
+    "id": "99e49f0d6e7a057b",
+    "title": "美国5月贸易逆差升至776亿美元，AI与半导体进口大增",
+    "summary": "美国5月贸易逆差升至776亿美元，进口增速明显超过出口。人工智能投资热潮带动半导体需求，叠加药品进口增加，是推动逆差扩大的主要因素。",
+    "body": "美国5月贸易逆差扩大至776亿美元，进口持续超过出口。 according to the report, 这一失衡主要受人工智能相关投资拉动半导体进口，以及药品进口增加的推动。\n\n人工智能热潮推高了数据中心、算力设备等对高端芯片的需求，使半导体成为美国进口的重要品类。同时，药品进口也在扩大，进一步加剧了整体贸易逆差。\n\n这一数据反映出美国在前沿科技领域的强劲内需，也凸显其半导体供应链对外部制造能力的依赖，对相关产业链和宏观政策均具参考意义。",
+    "category": "半导体与先进制造",
+    "tags": [
+      "贸易逆差",
+      "半导体",
+      "人工智能",
+      "美国经济"
+    ],
+    "source": "Al Jazeera",
+    "time": "16分钟前",
+    "ts": "2026-07-07T16:38:28+00:00",
+    "url": "https://www.aljazeera.com/economy/2026/7/7/us-trade-deficit-surges-amid-artificial-intelligence-spending-boom?traffic_source=rss",
+    "image": "",
     "stocks": []
   },
   {
@@ -3933,6 +3989,32 @@ const newsData = [
     "url": "https://www.pcmag.com/news/a-hackers-arrest-reveals-microsoft-can-track-users-via-a-windows-device",
     "image": "",
     "stocks": []
+  },
+  {
+    "id": "f7eb2a868aacbc6f",
+    "title": "Gemini API托管代理新增后台执行与远程MCP能力",
+    "summary": "Google为Gemini API的Managed Agents新增后台执行、远程MCP服务器集成、自定义函数调用及凭证刷新功能，旨在帮助开发者构建更可靠的生产级AI智能体。",
+    "body": "近日，Google宣布为其Gemini API的Managed Agents引入多项新能力，包括后台执行、远程MCP服务器集成、自定义函数调用与凭证刷新。开发者可通过传入background: true参数实现异步任务执行，并立即获取任务ID以轮询状态或流式跟踪进度。Managed Agents还能直接连接远程MCP服务器，无需额外自定义中间件，并支持与Google搜索、代码执行等内置沙箱工具混合调用。这些更新降低了AI智能体工程化落地的复杂度，有望提升企业级应用场景的开发效率与可靠性。",
+    "category": "人工智能",
+    "tags": [
+      "Gemini",
+      "AI Agent",
+      "Google",
+      "MCP"
+    ],
+    "source": "AIHOT精选",
+    "time": "8小时前",
+    "ts": "2026-07-07T08:54:00+00:00",
+    "url": "https://blog.google/innovation-and-ai/technology/developers-tools/expanding-managed-agents-gemini-api",
+    "image": "",
+    "stocks": [
+      {
+        "name": "谷歌-A",
+        "ticker": "GOOGL",
+        "reason": "新闻直接涉及Google Gemini API产品能力升级，有望增强其AI平台对企业开发者的吸引力。",
+        "confidence": "high"
+      }
+    ]
   },
   {
     "id": "79e3bc87fc9ba917",
