@@ -1,18 +1,36 @@
 const newsData = [
   {
+    "id": "d745d6cafed31ff8",
+    "title": "Figma收购vibe coding应用团队，加码AI代理",
+    "summary": "设计协作平台Figma已收购一家Y Combinator支持的vibe coding应用团队，该团队后续还开发了AI Agent创建产品，显示Figma正加快布局AI编程与智能体生态。",
+    "body": "据TechCrunch报道，Figma收购了打造vibe coding应用的团队。该团队来自一家获得Y Combinator支持的初创公司，最初推出vibe coding平台，随后又开发了用于创建AI Agent的产品。目前交易的具体金额和条款尚未披露。\n\n通过引入该团队，Figma有望在AI辅助设计与开发、智能体构建等方向增强能力，进一步拓展其在创意与生产力工具市场的边界。这也反映出AI编程与Agent平台正成为生产力软件领域的重要竞逐焦点。",
+    "category": "人工智能",
+    "tags": [
+      "Figma",
+      "vibe coding",
+      "AI Agent",
+      "收购"
+    ],
+    "source": "TechCrunch",
+    "time": "1分钟前",
+    "ts": "2026-07-07T18:37:01+00:00",
+    "url": "https://techcrunch.com/2026/07/07/figma-acquires-team-behind-a-vibe-coding-app/",
+    "image": "",
+    "stocks": []
+  },
+  {
     "id": "c952b2091a7fbe26",
-    "title": "电子产品CE标志含义解读",
-    "summary": "CE标志是电子等设备进入欧洲经济区销售前常见的合规标识，代表制造商声明该产品符合欧盟相关健康、安全与环保指令的基本要求。",
-    "body": "CE标志（Conformité Européenne）常见于手机、充电器、家电等电子产品标签上，是制造商或其授权代表对产品符合欧盟指令要求作出的自我声明。带有该标志的商品可在欧洲经济区（EEA）自由流通，意味着其在电气安全、电磁兼容、有害物质限制等方面已达到欧盟设定的基本标准。\n\n对消费者而言，CE标志并非质量认证，而是产品满足欧盟市场准入条件的合规信号。购买带有CE标识的电子产品，可在一定程度上降低因不符合安全规范而带来的使用风险。\n\n该标识的适用范围和判定规则，也影响着消费电子品牌的产品设计、检测认证流程及出口策略。",
+    "title": "电子产品上的CE标志含义解析",
+    "summary": "Engadget介绍了电子产品标签上CE标志的含义，说明它代表产品符合欧盟在安全、健康与环保方面的相关要求。",
+    "body": "CE标志是欧盟市场准入的合格标识，常见于手机、充电器、耳机等消费电子产品。它表明制造商声明其产品符合欧盟指令在安全、电磁兼容、环保等方面的要求，但并非官方质量认证。了解CE标志有助于消费者识别产品的合规来源与市场定位。",
     "category": "消费电子",
     "tags": [
-      "CE认证",
       "消费电子",
-      "产品安全",
-      "欧盟标准"
+      "欧盟认证",
+      "产品合规"
     ],
     "source": "Engadget",
-    "time": "2分钟前",
+    "time": "8分钟前",
     "ts": "2026-07-07T18:30:00+00:00",
     "url": "https://www.engadget.com/2209022/what-ce-marking-means-on-electronics/",
     "image": "https://www.engadget.com/img/gallery/heres-what-the-ce-mark-means-on-your-electronics/l-intro-1783367635.jpg",
