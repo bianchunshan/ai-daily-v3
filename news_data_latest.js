@@ -1,5 +1,114 @@
 const newsData = [
   {
+    "id": "279f25f2e2ce6551",
+    "title": "Anthropic签190亿美元数据中心20年租约",
+    "summary": "人工智能初创企业Anthropic与数字基础设施公司TeraWulf签署为期20年的数据中心租赁协议，全周期价值约190亿美元，凸显AI算力基础设施需求持续扩张。",
+    "body": "美国数字基础设施企业TeraWulf于当地时间7月6日宣布，已与AI公司Anthropic签订一项为期20年的数据中心租赁长约，预计该交易将在全周期内为TeraWulf带来约190亿美元收入。根据协议，TeraWulf将在肯塔基州Hawesville的Justified Data站点为Anthropic建设专属AI数据中心园区，关键IT负载容量约401MW，计划分阶段开发，预计2027年下半年初步投用、2028年初达到最大装机容量。\n\n此次交易是AI模型公司锁定长期算力与电力资源的又一标志性动作，反映出大模型训练与推理对大规模、稳定数据中心资源的强劲需求。同日，TeraWulf还宣布向合作伙伴Fluidstack出售其在得克萨斯州Abernathy合资项目中的全部50.1%股权；该合资项目成立于2025年，计划建设168MW关键IT负载的AI数据中心园区。",
+    "category": "AI 基础设施",
+    "tags": [
+      "人工智能",
+      "数据中心",
+      "算力租赁",
+      "AI 基础设施"
+    ],
+    "source": "IT之家",
+    "time": "刚刚",
+    "ts": "2026-07-07T01:15:11+00:00",
+    "url": "https://www.ithome.com/0/973/347.htm",
+    "image": "https://img.ithome.com/newsuploadfiles/2026/7/c16a82ab-cbe5-4e3e-9ad7-d7607de8b46c.png?x-bce-process=image/format,f_auto",
+    "stocks": [
+      {
+        "name": "TeraWulf",
+        "ticker": "WULF",
+        "reason": "作为出租方与Anthropic签署20年数据中心长约，直接获得约190亿美元全周期收入",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "8dd0fcf994ed1762",
+    "title": "比亚迪BMS AFE芯片出货破亿颗",
+    "summary": "比亚迪半导体宣布其车规级BMS AFE芯片累计出货量突破1亿颗，为国内首款量产装车的该类芯片，目前已应用于第二代刀片电池与闪充技术。",
+    "body": "7月7日，比亚迪半导体通过官方渠道宣布，其BMS AFE（电池管理模拟前端）芯片出货量突破1亿颗。2021年推出的BF8915A-1是国内首款量产装车的车规级BMS AFE芯片，此后BF891X系列在国产车规级BMS AFE芯片的出货量与装车量上均取得第一，现已成为第二代刀片电池与闪充技术的“精准感知中枢”。",
+    "category": "半导体与先进制造",
+    "tags": [
+      "比亚迪",
+      "车规级芯片",
+      "BMS AFE",
+      "电池管理"
+    ],
+    "source": "IT之家",
+    "time": "1分钟前",
+    "ts": "2026-07-07T01:14:02+00:00",
+    "url": "https://www.ithome.com/0/973/345.htm",
+    "image": "https://img.ithome.com/newsuploadfiles/2026/7/4bc751a7-e01c-46e6-945d-6a65cd8051a4.jpg?x-bce-process=image/format,f_auto",
+    "stocks": [
+      {
+        "name": "比亚迪",
+        "ticker": "002594.SZ",
+        "reason": "其半导体子公司BMS AFE芯片出货破亿，强化新能源汽车电池管理供应链自主与产品竞争力",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "d87c8cbdf989c740",
+    "title": "苹果 iOS 27 提示：AI 生图等任务将把数据发送至谷歌云",
+    "summary": "报道称，iOS 27 Beta 3 及部分 iOS 26.x 用户在 iWork 等应用中使用图形生成等功能时，系统会弹窗提示相关数据将发送至 Google Cloud。苹果此前已披露，其云端模型 AFM Cloud Pro 的基础设施将采用 Google 云服务器与 NVIDIA GPU，并在 Private Cloud Compute 认证下运行。",
+    "body": "据 IT之家援引 9to5Mac 报道，在 iOS 27 最新 Beta 3 开发者预览版以及部分 iOS 26.x 系统上，用户在 Pages、Numbers、Keynote 等 iWork 生产力套件，以及更新 Apple 创作坊后使用图形生成等 AI 功能时，可能会遇到弹窗通知，被告知相关数据会发送至 Google Cloud。\n\n苹果官方此前介绍，Apple Foundation Models 体系包括端侧模型 AFM Core、AFM Core Advanced，以及云端模型 AFM Cloud、AFM Cloud Image 和 AFM Cloud Pro。其中，AFM Cloud Pro 主要面向智能体工具和最重负载任务，其基础设施将使用 Google 云服务器与 NVIDIA 图形处理器资源。\n\n这一提示意味着苹果的高负载生成式 AI 能力正越来越依赖外部云与 GPU 基础设施，同时也通过 Private Cloud Compute 认证强调隐私保护。该合作动向对云服务商、AI 算力芯片供应商以及苹果自身的 AI 服务落地进度均具有重要参考意义。",
+    "category": "AI 基础设施",
+    "tags": [
+      "苹果AI",
+      "谷歌云",
+      "NVIDIA",
+      "隐私计算"
+    ],
+    "source": "IT之家",
+    "time": "4分钟前",
+    "ts": "2026-07-07T01:11:11+00:00",
+    "url": "https://www.ithome.com/0/973/344.htm",
+    "image": "https://img.ithome.com/newsuploadfiles/2026/7/bc29ee10-e9cc-4b66-911d-b1209a9b223c.jpg",
+    "stocks": [
+      {
+        "name": "苹果公司",
+        "ticker": "AAPL",
+        "reason": "iOS/iWork AI 功能调用云端模型，苹果 AI 服务落地进度受关注",
+        "confidence": "medium"
+      },
+      {
+        "name": "Alphabet（谷歌）",
+        "ticker": "GOOGL",
+        "reason": "苹果云端 AI 任务明确采用 Google Cloud 服务器，有望带来云业务增量",
+        "confidence": "high"
+      },
+      {
+        "name": "英伟达",
+        "ticker": "NVDA",
+        "reason": "苹果 AFM Cloud Pro 基础设施将使用 NVIDIA GPU，利好云端 AI 算力需求",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "85e3ccaac4d2cf0b",
+    "title": "前华为天才少年吐槽DeepSeek面试拖沓涉抄袭质疑",
+    "summary": "前华为“天才少年”李博杰在社交平台发文，指责DeepSeek面试流程拖沓、面试官态度轻佻，并在代码面试中被质疑抄袭，他已决定终止面试并公开曝光此事。",
+    "body": "7月6日，前华为首批“天才少年”计划入选者、中科大计算机科学博士李博杰在社交平台公开吐槽DeepSeek面试流程。他表示，笔试通过后近半个月未安排面试，经反复催促才推进；前两轮均为代码面试，二面时面试官迟到，且对其介绍的研究问题态度轻佻，不断追问工程挑战。\n\n在代码面试环节，李博杰称因使用双屏幕，被面试官指责“瞟左边屏幕抄代码”，并被要求自证清白，否则面试无法继续。他解释后仍不被采信，感到“被严重冒犯”，当场决定终止面试，并在社交网络曝光此事，称该体验与其想象中的DeepSeek“完全不同”。",
+    "category": "人工智能",
+    "tags": [
+      "DeepSeek",
+      "人才招聘",
+      "面试争议",
+      "华为"
+    ],
+    "source": "IT之家",
+    "time": "6分钟前",
+    "ts": "2026-07-07T01:08:54+00:00",
+    "url": "https://www.ithome.com/0/973/343.htm",
+    "image": "https://img.ithome.com/newsuploadfiles/2026/7/a3a7d6f5-3b6a-40f1-9e43-8889dcc68c32.jpg",
+    "stocks": []
+  },
+  {
     "id": "134b8229002c7fdc",
     "title": "LG新能源预计二季度营业利润骤降77%",
     "summary": "韩国电池制造商LG新能源（LGES）预计第二季度营业利润将同比下降77%至1130亿韩元，远低于市场预期，主要因电动汽车需求疲软拖累电池销售。",
@@ -272,6 +381,25 @@ const newsData = [
         "confidence": "high"
       }
     ]
+  },
+  {
+    "id": "15bc307f93dd8628",
+    "title": "户外求生应用Strata：用对话降低野外死亡风险",
+    "summary": "一款名为Strata的应用通过对话交互为户外用户提供安全指导，帮助降低野外遇险与死亡风险。该产品属于AI在消费级安全场景中的创新应用。",
+    "body": "据外媒报道，一款名为Strata的应用致力于通过对话方式帮助户外活动者规避生命危险。该应用可能在用户遭遇恶劣天气、迷路、受伤等野外风险时，提供实时的语音或文字建议与心理疏导。此类产品体现了自然语言处理与AI助手技术向个人应急救援场景的延伸，有望提升户外探险者的安全保障水平。目前公开信息有限，具体技术架构、商业模式及合作方尚未披露。",
+    "category": "人工智能",
+    "tags": [
+      "AI应用",
+      "户外安全",
+      "移动应用",
+      "应急救援"
+    ],
+    "source": "Hacker News",
+    "time": "42分钟前",
+    "ts": "2026-07-07T00:32:59+00:00",
+    "url": "https://strata.highloop.co/",
+    "image": "",
+    "stocks": []
   },
   {
     "id": "685abf160013e0fc",
