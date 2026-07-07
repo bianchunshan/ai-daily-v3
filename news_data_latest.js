@@ -1,18 +1,17 @@
 const newsData = [
   {
     "id": "713e443a33cb4929",
-    "title": "Meta发布Muse图像模型：可用Instagram账号作提示",
-    "summary": "Meta推出全新Muse图像生成模型，用户可直接用Instagram账号作为提示生成图片，并已应用于Stories特效和WhatsApp图像生成。",
-    "body": "Meta发布了一款名为Muse Image的新型AI图像生成模型。该模型支持将Instagram账号作为提示输入，并已被用于驱动Stories中的特效以及WhatsApp中的图像生成功能。\n\n此举意味着Meta正将生成式AI能力更深入地嵌入其核心社交与通讯产品，降低用户创作门槛，同时丰富平台的互动体验和潜在商业化场景。",
+    "title": "Meta发布Muse Image模型，可用Instagram账号作提示",
+    "summary": "Meta推出名为Muse Image的新型AI图像生成模型，用户可直接用Instagram账号作为生成提示，并已在Stories特效和WhatsApp图像生成中应用。",
+    "body": "据Engadget报道，Meta发布了名为Muse Image的新型AI图像生成模型。该模型的一大特点是支持以Instagram账号作为提示词，基于账号内容风格生成图像。同时，Muse Image已被用于驱动Instagram Stories特效以及WhatsApp中的图像生成功能。\n\n此举显示出Meta正在加速将生成式AI能力融入其庞大的社交应用生态，以提升用户内容创作与互动体验。通过打通账号内容与AI生成，Meta有望增强旗下平台的用户粘性和创作者工具吸引力。",
     "category": "人工智能",
     "tags": [
-      "Meta",
       "生成式AI",
-      "图像生成",
-      "社交应用"
+      "图像生成模型",
+      "社交媒体"
     ],
     "source": "Engadget",
-    "time": "7分钟前",
+    "time": "9分钟前",
     "ts": "2026-07-07T20:49:10+00:00",
     "url": "https://www.engadget.com/2210087/meta-s-new-muse-image-model-accepts-instagram-accounts-as-a-prompt/",
     "image": "https://www.engadget.com/img/gallery/metas-new-muse-image-model-accepts-instagram-accounts-as-a-prompt/l-intro-1783457258.jpg",
@@ -20,7 +19,7 @@ const newsData = [
       {
         "name": "Meta Platforms",
         "ticker": "META",
-        "reason": "Muse图像模型将直接增强Instagram和WhatsApp的AI功能，有望提升用户粘性与广告场景。",
+        "reason": "Muse Image模型由Meta推出并集成于Instagram与WhatsApp，直接利好其主营业态与AI应用生态。",
         "confidence": "high"
       }
     ]
@@ -115,18 +114,18 @@ const newsData = [
   },
   {
     "id": "817f6d9af0b12560",
-    "title": "Krea 2 上线身份保留功能并开放配套模型",
-    "summary": "AI 图像与视频创作平台 Krea 2 已发布身份保留功能，相关模型及 ComfyUI 节点也同步上线，可帮助用户在生成内容中保持角色形象一致。",
-    "body": "Krea 2 此次推出的身份保留功能旨在解决 AI 生成图像与视频中角色一致性不足的问题，使用户能够在不同场景和提示词下保持特定人物或对象的视觉身份。该功能的相关模型以及 ComfyUI 节点已同步上线，方便创作者在工作流中直接调用和集成。业内人士认为，这一更新有望提升 Krea 在 AI 创意工具市场的竞争力，并推动角色驱动型内容创作、短视频和虚拟人应用的发展。",
+    "title": "Krea 2上线身份保留功能",
+    "summary": "AI创意平台Krea 2正式发布身份保留功能，同步推出配套模型与ComfyUI节点，可帮助用户在连续生成图像或视频时保持人物角色形象一致。",
+    "body": "Krea 2于近日上线身份保留（Identity Preservation）功能，并同步发布了配套模型以及ComfyUI节点。该功能旨在解决AI图像和视频生成中角色一致性差的痛点，使用户在多次创作过程中维持特定人物的外貌、风格与身份特征，适用于广告、影视预演、虚拟IP等场景。作为AI图像生成领域的新进展，身份保留能力的提升有望增强创意工作流的连贯性和可控性，推动AI视觉内容在商业化应用中的落地。",
     "category": "人工智能",
     "tags": [
-      "AI 视频生成",
-      "AI 图像生成",
+      "AI图像生成",
       "Krea",
-      "ComfyUI"
+      "ComfyUI",
+      "身份一致性"
     ],
     "source": "AIHOT精选",
-    "time": "34分钟前",
+    "time": "35分钟前",
     "ts": "2026-07-07T20:22:46+00:00",
     "url": "https://x.com/krea_ai/status/2074589965653303321",
     "image": "",
