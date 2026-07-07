@@ -1,5 +1,100 @@
 const newsData = [
   {
+    "id": "3d4c1a01fdd53257",
+    "title": "Claude Cowork 扩展至网页与移动端",
+    "summary": "Anthropic 宣布其 AI 助手 Claude Cowork 已向 Max 订阅用户开放网页版和移动版，打破此前仅限笔记本端的限制。",
+    "body": "Anthropic 旗下 AI 生产力工具 Claude Cowork 已正式登陆网页端与移动端，面向 Max 订阅用户推出。此前，Cowork 主要运行在用户的笔记本电脑上，使用场景受限于桌面设备。通过此次更新，用户可以在桌面端发起任务，随后在手机端查看进度，即使笔记本处于关闭状态，也能在稍后获取已完成的结果。\n\n这一扩展被视为 Anthropic 推动 AI Agent 多终端协同、提升用户使用粘性的最新举措，也反映出 AI 助手正从单一设备向跨屏工作流演进，有助于拓宽其在移动办公和远程协作场景中的应用。",
+    "category": "人工智能",
+    "tags": [
+      "Anthropic",
+      "Claude Cowork",
+      "AI Agent",
+      "多终端"
+    ],
+    "source": "TechCrunch",
+    "time": "刚刚",
+    "ts": "2026-07-07T16:27:18+00:00",
+    "url": "https://techcrunch.com/2026/07/07/the-coding-agent-wars-are-spilling-into-the-rest-of-the-office-claude-cowork/",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "2f1bfe8fd76eff16",
+    "title": "Claude Cowork最大用途为业务流程与运营",
+    "summary": "根据Claude博客基于2026年5月120万次匿名会话的分析，Claude Cowork在业务流程与运营场景使用最多，占比33.4%；内容创作与文案次之，软件开发仅占8.7%。",
+    "body": "Claude博客发布的匿名会话数据显示，在2026年5月11日至31日的120万次样本中，Claude Cowork的首要用途为业务流程与运营，占比达33.4%，典型任务包括整理报告、核对表格等；内容创作与文案位居第二，占比16.4%，常用于起草稿件、制作幻灯片；软件开发仅占8.7%。\n\n用户更多将其用于跨团队衔接性事务，例如律师处理文档格式、招聘经理汇总面试反馈等。Claude Cowork目前已面向所有Claude用户开放。这一分布反映出当前AI助手在企业日常办公与协作流程中的渗透速度，远超纯代码生成场景。",
+    "category": "人工智能",
+    "tags": [
+      "Claude Cowork",
+      "AI办公",
+      "人机协作",
+      "AI应用"
+    ],
+    "source": "AIHOT精选",
+    "time": "3分钟前",
+    "ts": "2026-07-07T16:24:13.051000+00:00",
+    "url": "https://claude.com/blog/how-people-are-using-claude-cowork",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "0004568882bffd29",
+    "title": "Claude Cowork开放移动端与网页端",
+    "summary": "Anthropic宣布Claude Cowork正式向移动端和网页端开放，实现会话与文件跨设备同步，Beta版将先向Max订阅用户推出。",
+    "body": "Claude Cowork正在从桌面端扩展至移动端与网页端，支持会话、文件和任务状态跨设备同步。用户可在桌面端启动复杂任务，通过手机查看进度或接收决策推送，关闭电脑后Claude仍可在后台继续运行，并支持定时任务。\n\nCowork可跨文件、日历、邮件、即时通讯等工具完成复杂任务，Anthropic称其超过90%的使用场景并非软件开发，而是业务运营、内容创作等日常知识工作。网页端和桌面端已将聊天功能与Cowork合并，方便无法安装桌面应用的用户使用。\n",
+    "category": "人工智能",
+    "tags": [
+      "AI Agent",
+      "Claude",
+      "生产力工具",
+      "跨端同步"
+    ],
+    "source": "AIHOT精选",
+    "time": "3分钟前",
+    "ts": "2026-07-07T16:24:13.051000+00:00",
+    "url": "https://claude.com/blog/cowork-web-mobile",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "1fc3f196071aa8cf",
+    "title": "智能培训设备助力高质量诊断普及",
+    "summary": "自动化与人工智能不仅可能替代岗位，也可用于培训医护人员。新型诊断培训设备有望缓解全球医疗人才短缺，提升高性能检测服务的可及性。",
+    "body": "随着自动化与人工智能的发展，外界普遍担忧技术会取代人工岗位，但智能工具同样可以作为培训手段，帮助医疗工作者提升技能，而非单纯替代人力。\n\n与此同时，无论是发展中国家还是发达国家，训练有素的医务人员长期短缺，限制了高质量医疗服务的覆盖范围。为应对这一瓶颈，新一代培训设备专注于高性能诊断检测技能的培养，使更多从业者能够掌握复杂检测技术。\n\n业内人士认为，这类设备若得到推广，将有助于扩大优质诊断资源的可及性，缓解医疗系统的人力压力，并对全球公共卫生体系产生积极影响。",
+    "category": "生物医药",
+    "tags": [
+      "医疗器械",
+      "诊断检测",
+      "医疗培训",
+      "人工智能+医疗"
+    ],
+    "source": "MedicalXpress",
+    "time": "7分钟前",
+    "ts": "2026-07-07T12:20:07-04:00",
+    "url": "https://medicalxpress.com/news/2026-07-device-access-high-diagnostic.html",
+    "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/training-device-expand.jpg",
+    "stocks": []
+  },
+  {
+    "id": "f0b5e63cd76f9410",
+    "title": "GLP-1“神秘顾客”研究揭示线上处方监管漏洞",
+    "summary": "一项发表于《美国医学会杂志》（JAMA）的“神秘顾客”研究显示，消费者通过线上渠道获取GLP-1类药物处方时，所获得的医疗审核与用药监管明显不足。",
+    "body": "GLP-1类药物因减重和糖尿病治疗需求而备受关注，越来越多的消费者选择通过线上平台快速获取处方。然而，最新研究指出，这种便捷的在线处方流程可能伴随令人意外的医疗监督缺失。\n\n该研究以“神秘顾客”方式评估线上GLP-1处方服务，发现患者在获取处方过程中可能缺乏充分的医学评估、用药指导和后续随访，存在潜在用药安全隐患。\n\n随着GLP-1药物市场需求持续增长，研究结果提醒监管机构与数字医疗平台需加强线上处方审核标准，完善远程医疗质量管理，以保障患者用药安全并促进行业规范发展。",
+    "category": "生物医药",
+    "tags": [
+      "GLP-1",
+      "数字医疗",
+      "线上处方",
+      "远程医疗"
+    ],
+    "source": "MedicalXpress",
+    "time": "7分钟前",
+    "ts": "2026-07-07T12:20:01-04:00",
+    "url": "https://medicalxpress.com/news/2026-07-glp-secret-shopper-gaps-online.html",
+    "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/glp-1-secret-shopper-s.jpg",
+    "stocks": []
+  },
+  {
     "id": "23c22a3292358720",
     "title": "福特3万美元电动皮卡曝光，尺寸直逼全尺寸SUV",
     "summary": "福特一款定价约3万美元的中型电动皮卡近日被拍到与Expedition全尺寸SUV同框路试，照片显示该车体型庞大，甚至让旁边的全尺寸SUV显得较小，揭示其真实尺寸远超预期。",
@@ -7451,6 +7546,25 @@ const newsData = [
         "confidence": "medium"
       }
     ]
+  },
+  {
+    "id": "aa15bf8e86c1b020",
+    "title": "LLM图像细节降低未必省钱，反损准确率",
+    "summary": "OpenRouter在5个模型、1730道视觉推理题上测试发现，将图像细节级别降至“low”会损失准确率，且在gpt-5.5上费用反而上升；真正可靠的降本手段是调节推理努力（reasoning effort）。",
+    "body": "据OpenRouter公告，其针对多模态大语言模型的视觉推理能力进行了规模测试，覆盖5个模型、共1730道题目。结果显示，把输入图像的细节级别设为“low”虽然减少了单张图像的token量，但并未带来稳定的成本下降，在gpt-5.5上费用甚至有所增加，同时模型准确率出现下滑。\n\n这一发现提示开发者和企业，在部署多模态AI应用时，不能简单通过压缩图像细节来降低成本。相比之下，调整模型的推理努力程度（reasoning effort）是更可控、更可靠的降本路径。该结论对视觉问答、文档理解、工业质检等依赖图像输入的AI产品具有参考价值。",
+    "category": "人工智能",
+    "tags": [
+      "多模态大模型",
+      "视觉推理",
+      "成本优化",
+      "OpenRouter"
+    ],
+    "source": "AIHOT精选",
+    "time": "16小时前",
+    "ts": "2026-07-07T00:00:00+00:00",
+    "url": "https://openrouter.ai/blog/insights/image-detail-low-cost",
+    "image": "",
+    "stocks": []
   },
   {
     "id": "1fb59e790347edc6",
