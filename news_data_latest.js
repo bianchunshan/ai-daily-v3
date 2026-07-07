@@ -1,18 +1,17 @@
 const newsData = [
   {
     "id": "4ba76911488eafad",
-    "title": "星形胶质细胞通过稳定神经环路助记忆维持数周",
-    "summary": "一项神经科学研究发现，星形胶质细胞可通过稳定神经环路帮助大脑将记忆保留数周，揭示了记忆持久储存的新机制。",
-    "body": "长期以来，科学家主要关注记忆如何在脑中形成，但对某些记忆为何能长期保留、另一些却迅速消失了解甚少。最新研究指出，星形胶质细胞在维持记忆稳定性方面发挥关键作用，它们通过稳定相关神经环路，使记忆能够在数周内保持可提取状态。\n\n该发现为理解记忆巩固与遗忘机制提供了新的细胞层面解释，也可能为未来针对记忆障碍、神经退行性疾病的干预策略带来启发。不过，研究目前仍处于基础科学阶段，距离临床应用尚需进一步验证。",
+    "title": "星形胶质细胞通过稳定神经回路保存记忆数周",
+    "summary": "研究发现星形胶质细胞可通过稳定神经回路帮助记忆保存数周，为揭示记忆持久性的神经机制提供了新线索。",
+    "body": "科学家长期关注记忆如何在大脑中形成，但对某些记忆为何能长期保留、另一些却迅速消退的机制了解有限。最新研究显示，星形胶质细胞（大脑中一类重要的支持细胞）通过稳定神经回路，在帮助记忆保存数周的过程中发挥关键作用。该发现不仅加深了对记忆持久性机制的理解，也可能为神经退行性疾病及记忆障碍的治疗研究提供新的方向。",
     "category": "脑机接口",
     "tags": [
       "神经科学",
       "记忆机制",
-      "星形胶质细胞",
-      "神经环路"
+      "星形胶质细胞"
     ],
     "source": "MedicalXpress",
-    "time": "1分钟前",
+    "time": "5分钟前",
     "ts": "2026-07-07T12:00:02-04:00",
     "url": "https://medicalxpress.com/news/2026-07-astrocytes-memories-weeks-stabilizing-neural.html",
     "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/scientists-discover-ho-20.jpg",
@@ -20,21 +19,40 @@ const newsData = [
   },
   {
     "id": "8848ed5dedafffad",
-    "title": "曼彻斯特团队发现肺癌新药物组合治疗难治KRAS突变",
-    "summary": "英国曼彻斯特科学家领衔的研究发现了一种新的药物组合，有望改善由罕见KRAS突变驱动的非小细胞肺癌患者预后，为这一“难以成药”的癌症亚型带来新希望。该研究已发表于《Cancer Discovery》。",
-    "body": "这项突破性研究聚焦于非小细胞肺癌（NSCLC），该类型肺癌约占全球癌症死亡的五分之一，而KRAS基因突变是其最常见诱因之一。研究团队识别出一种新的药物组合，可针对携带罕见KRAS突变的NSCLC患者产生更好疗效，挑战了过去被认为“难以成药”的治疗困境。\n\n若后续临床试验证实其安全性和有效性，该组合疗法有望为全球数千名难治性肺癌患者提供新的治疗选择，并推动肺癌精准医疗进一步发展。",
+    "title": "新药物组合有望攻克“不可成药”肺癌",
+    "summary": "曼彻斯特科学家领衔的研究在《Cancer Discovery》发表，发现一种针对罕见KRAS突变型非小细胞肺癌的新药组合，有望改善这类难治肺癌患者的预后。",
+    "body": "据英国曼彻斯特科学家领衔、发表于《Cancer Discovery》的研究，研究团队发现了一种新的药物组合，可用于治疗由罕见KRAS突变驱动的非小细胞肺癌（NSCLC）。非小细胞肺癌约占全球癌症相关死亡的20%，而KRAS基因突变是该类肺癌最常见的原因之一，长期以来被视为“不可成药”的靶点。\n\n研究人员表示，这一新组合疗法为难治性肺癌亚型患者带来了新的希望，可能改善成千上万患者的治疗效果。不过，目前仍为早期研究阶段，后续需进一步开展临床试验以验证其安全性和有效性。",
     "category": "生物医药",
     "tags": [
-      "肺癌",
+      "非小细胞肺癌",
       "KRAS突变",
-      "靶向治疗",
-      "肿瘤学"
+      "癌症治疗",
+      "药物研发"
     ],
     "source": "MedicalXpress",
-    "time": "1分钟前",
+    "time": "5分钟前",
     "ts": "2026-07-07T12:00:01-04:00",
     "url": "https://medicalxpress.com/news/2026-07-medication-combination-undruggable-lung-cancer.html",
     "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/pippette.jpg",
+    "stocks": []
+  },
+  {
+    "id": "e90c7aec57f5549d",
+    "title": "中国天问二号传回首张地球准卫星照片",
+    "summary": "中国小行星采样任务天问二号飞抵地球\"准卫星\"Kamo'oalewa附近，传回首张该天体照片。探测器将在未来近一年内利用11台科学仪器对其进行研究，随后尝试采样返回地球。",
+    "body": "中国首次小行星采样任务天问二号探测器已飞抵地球\"准卫星\"Kamo'oalewa附近，并于7月2日传回该天体的首张照片。该探测器于2025年发射，飞行约10亿公里后抵达距小行星约20公里的位置。照片显示，Kamo'oalewa是一颗直径约16至20米的不规则岩石天体。\n\n天问二号将在此后的近一年时间内，利用搭载的11台科学仪器对小行星进行全方位探测，之后尝试从其表面采集样品并返回地球。科学家推测，这颗准卫星可能是在100万至1000万年前，一次巨大撞击将月球碎片抛入太空后形成的。准卫星是一类绕太阳运行但轨道使其长期靠近地球的小天体，其轨道通常比真正的月球更不稳定。\n\n此次探测任务的进展标志着中国在深空探测与小行星采样领域迈出重要一步，有助于人类进一步理解近地天体的起源、演化及潜在威胁，同时为未来行星防御与深空资源探测积累关键技术与数据。",
+    "category": "商业航天",
+    "tags": [
+      "深空探测",
+      "小行星采样",
+      "天问二号",
+      "准卫星"
+    ],
+    "source": "Space.com",
+    "time": "5分钟前",
+    "ts": "2026-07-07T16:00:00+00:00",
+    "url": "https://www.space.com/space-exploration/asteroid-comet-missions/china-releases-1st-photo-of-earths-elusive-quasi-moon-kamooalewa",
+    "image": "https://cdn.mos.cms.futurecdn.net/NGxCvNz8JNSptYjvWRq4pD-1280-80.jpg",
     "stocks": []
   },
   {
@@ -77,6 +95,25 @@ const newsData = [
     ],
     "source": "Hacker News",
     "time": "9分钟前",
+    "ts": "2026-07-07T15:52:22+00:00",
+    "url": "https://better-auth.com/blog/better-auth-joins-vercel",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "ce352603d0c99710",
+    "title": "开源认证库 Better Auth 加入 Vercel",
+    "summary": "开源身份认证库 Better Auth 团队宣布加入云原生平台 Vercel，预计将增强 Vercel 在开发者认证与全栈工具方面的能力。",
+    "body": "Better Auth 是一款面向 JavaScript/TypeScript 生态的开源身份认证库。近日，该团队宣布加入云原生部署平台 Vercel。这意味着 Vercel 可能将更完整的身份认证能力整合进其 Next.js 与云基础设施产品，进一步降低开发者构建全栈应用的门槛。对开源社区而言，也显示出 Vercel 持续投资开发者工具与平台安全的意图。",
+    "category": "网络安全",
+    "tags": [
+      "身份认证",
+      "开源软件",
+      "Vercel",
+      "开发者工具"
+    ],
+    "source": "Hacker News",
+    "time": "12分钟前",
     "ts": "2026-07-07T15:52:22+00:00",
     "url": "https://better-auth.com/blog/better-auth-joins-vercel",
     "image": "",
@@ -136279,6 +136316,11 @@ const newsData = [
   }
 ];
 const newsDigest = {
-  "text": "",
-  "highlights": []
+  "text": "今日脑机接口揭示记忆保存新机制，“不可成药”肺癌迎新疗法；天问二号传回首张地球准卫星照片，Discord误封事件引发AI安全关注。",
+  "highlights": [
+    "4ba76911488eafad",
+    "8848ed5dedafffad",
+    "e90c7aec57f5549d",
+    "b38a9261226ec8a2"
+  ]
 };
