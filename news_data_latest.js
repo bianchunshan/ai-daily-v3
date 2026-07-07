@@ -198,18 +198,18 @@ const newsData = [
   },
   {
     "id": "6c66b920b7bd3c05",
-    "title": "Meta发布首个媒体生成模型Muse Image与Muse Video",
-    "summary": "Meta Superintelligence Labs推出首个媒体生成模型Muse Image和Muse Video，支持高质量图像与视频生成及音频原生输出，并接入Instagram、WhatsApp等应用生态。",
-    "body": "Meta Superintelligence Labs正式发布其首个媒体生成模型Muse Image与Muse Video。Muse Image被定位为先进的图像生成模型，支持精确指令遵循、精准编辑、多参考构图，并能利用Instagram的社交上下文数据；同时该模型具备智能体工具使用能力，并集成Muse Spark。用户目前可通过Meta AI应用、网页端、Instagram Stories及WhatsApp试用，但初期仅在部分国家上线。\n\nMuse Video基于与Muse Image相同的预训练基础构建，强调高视觉保真度，并原生支持音频生成。此次发布显示出Meta在生成式AI多媒体内容创作方向上的重要布局，有望强化其社交平台的创作者生态与广告业务潜力。",
+    "title": "Meta发布Muse图像与视频生成模型",
+    "summary": "Meta Superintelligence Labs推出首个媒体生成模型Muse Image和Muse Video，具备高精度指令遵循、图像编辑和多参考构图能力，并集成智能体工具与社交上下文。",
+    "body": "Meta Superintelligence Labs正式发布其首批媒体生成模型Muse Image与Muse Video。Muse Image被官方称为目前最先进的图像生成模型，能够精确遵循用户指令、实现精准编辑、支持多参考构图，并能利用Instagram的社交上下文生成内容。此外，该模型还具备智能体工具使用能力，并集成Muse Spark，用户可通过Meta AI应用、网页、Instagram Stories和WhatsApp试用，但初期仅开放部分国家。\n\nMuse Video则基于与Muse Image相同的预训练基础，在保持高视觉保真度的同时原生支持音频生成。这一发布标志着Meta在生成式AI和多模态内容创作领域迈出重要一步，有望强化其社交与广告生态中的AI内容生产能力。",
     "category": "人工智能",
     "tags": [
-      "生成式AI",
       "多模态模型",
+      "生成式AI",
       "Meta",
       "AI应用"
     ],
     "source": "AIHOT精选",
-    "time": "39分钟前",
+    "time": "44分钟前",
     "ts": "2026-07-07T19:33:53+00:00",
     "url": "https://x.com/AIatMeta/status/2074577662840832382",
     "image": "",
@@ -217,7 +217,7 @@ const newsData = [
       {
         "name": "Meta Platforms",
         "ticker": "META",
-        "reason": "作为Muse系列模型发布主体，直接受益于其AI媒体生成能力提升及社交产品矩阵整合。",
+        "reason": "Muse系列模型由Meta Superintelligence Labs推出，将直接融入Meta AI、Instagram和WhatsApp等核心产品，增强其AI内容生态竞争力。",
         "confidence": "high"
       }
     ]
