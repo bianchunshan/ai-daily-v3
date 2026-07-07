@@ -19,6 +19,32 @@ const newsData = [
     "stocks": []
   },
   {
+    "id": "f711d2f365065ec7",
+    "title": "Meta默认允许他人用Instagram公开照片生成AI图像",
+    "summary": "Meta在推出Muse图像模型之际宣布，公开账号的Instagram用户照片可被用于AI生成图像，除非主动选择退出。该默认设置引发隐私与创作者权益争议。",
+    "body": "Meta正在推广其Muse图像生成模型，并调整Instagram内容使用政策：公开账号用户的照片将被默认允许用于生成式AI图像，用户需主动选择退出才能禁止相关内容被AI使用。这一机制意味着，除非用户改变默认设置，否则其公开图片可能被纳入AI训练或生成结果中。该举措显示出Meta加速生成式AI产品落地的意图，但也引发外界对个人隐私、版权归属以及平台内容治理的担忧，可能面临监管与用户反弹风险。",
+    "category": "人工智能",
+    "tags": [
+      "Meta",
+      "Instagram",
+      "AI图像生成",
+      "隐私"
+    ],
+    "source": "Wired",
+    "time": "10分钟前",
+    "ts": "2026-07-07T21:59:29+00:00",
+    "url": "https://www.wired.com/story/meta-now-lets-anyone-use-your-instagram-photos-in-ai-images-unless-you-opt-out/",
+    "image": "https://media.wired.com/photos/6a4d6e8fe06236b4d104fe30/master/pass/Meta-Lets-Anyone-Use-Your-Instagram-Photos-in-AI-Images-Gear-2268477073.jpg",
+    "stocks": [
+      {
+        "name": "Meta Platforms",
+        "ticker": "META",
+        "reason": "Muse图像模型落地并利用Instagram公开内容扩展生成式AI生态，直接利好其AI产品布局。",
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
     "id": "194a90b934065998",
     "title": "研究验证基因评分工具可诊断肺纤维化并预测预后",
     "summary": "一项由梅奥诊所和布莱根妇女医院共同主导、覆盖超57万人的国际研究验证了一种基因评分工具，可帮助医生诊断特发性肺纤维化并识别高风险患者。",
