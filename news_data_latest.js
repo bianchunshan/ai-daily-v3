@@ -1,48 +1,22 @@
 const newsData = [
   {
     "id": "924ed557eae033e3",
-    "title": "Evercade动视版Super Pocket掌机发布，69.99欧元",
-    "summary": "Evercade在海外市场推出动视版Super Pocket复古掌机，预装34款雅达利2600时代的动视经典游戏，定价69.99欧元。新机配备2.8英寸IPS彩屏、3000mAh电池，续航约3-4.5小时。",
-    "body": "IT之家消息，英国复古游戏硬件厂商Evercade于海外市场发布动视版Super Pocket掌机，主打雅达利2600时代的怀旧游戏体验。该机内置34款动视经典作品，包括《丛林冒险》《河道突袭》《英雄》《耐力赛车》《警探追贼》等，所有游戏均存储于机身内部空间，同时仍支持通过Evercade卡带扩展游戏库。硬件方面，掌机采用2.8英寸IPS彩色屏幕，分辨率为320×240，配备USB-C充电接口与3.5mm耳机接口，内置3000mAh电池，官方宣称续航可达3-4.5小时。该掌机将于9月28日正式上市，定价69.99欧元（约合544元人民币）。",
+    "title": "Evercade 推出动视版复古掌机，预装 34 款雅达利游戏",
+    "summary": "Evercade 在海外发布动视版 Super Pocket 掌机，主打复古体验，内置 34 款雅达利 2600 时代动视经典游戏，定价 69.99 欧元。该产品面向怀旧玩家，进一步丰富了小众复古掌机市场。",
+    "body": "IT之家消息，Evercade 近日在海外市场推出动视版 Super Pocket 掌机，主打雅达利 2600 时代的复古游戏体验。新机预装 34 款动视经典作品，包括《丛林冒险》《英雄》《河道突袭》《耐力赛车》和《警探追贼》等，所有游戏均内置在机身存储中，同时支持 Evercade 卡带扩展游戏库。硬件方面，该掌机配备 2.8 英寸 IPS 彩色屏幕，分辨率为 320×240，带有 USB-C 充电接口与 3.5mm 耳机接口，内置 3000mAh 电池，官方称续航可达 3-4.5 小时。产品预计 9 月 28 日上市，售价 69.99 欧元，约合人民币 544 元。作为一款低价复古设备，它的推出反映出怀旧游戏硬件仍有稳定需求，但整体影响局限于小众消费电子市场。",
     "category": "消费电子",
     "tags": [
-      "复古掌机",
-      "动视",
-      "雅达利2600",
-      "游戏硬件"
+      "掌机",
+      "复古游戏",
+      "消费电子",
+      "雅达利"
     ],
     "source": "IT之家",
-    "time": "2分钟前",
+    "time": "9分钟前",
     "ts": "2026-07-07T15:10:29+00:00",
     "url": "https://www.ithome.com/0/973/805.htm",
     "image": "https://img.ithome.com/newsuploadfiles/2026/7/4b56f2b5-03da-48f4-9787-2b6ff3c2c813.jpg?x-bce-process=image/format,f_auto",
     "stocks": []
-  },
-  {
-    "id": "7c14302ae0f72642",
-    "title": "腾讯混元Hy3大模型上线SiliconFlow",
-    "summary": "腾讯混元Hy3模型已在SiliconFlow平台上线，前两周免费、支持T+0调用。该模型为2950亿参数MoE架构，上下文窗口达262K，主打长时任务中的意图一致与智能体稳定执行。",
-    "body": "腾讯混元官方宣布，其Hy3模型已在SiliconFlow上线。该模型采用2950亿参数MoE架构，单次激活参数210亿，上下文窗口达262K。据介绍，Hy3经过50多个真实业务场景迭代优化，可将幻觉与知识错误减少一半，在长时任务中保持用户意图一致，提升工具调用成功率并避免无限循环。\n\n此次Hy3通过SiliconFlow平台开放调用，前两周免费且支持T+0，意味着腾讯在大模型商业化与生态接入上再进一步。更强的长上下文与智能体执行能力，有望推动其AI应用在企业服务、智能体等场景的落地，并加剧国内大模型竞争。",
-    "category": "人工智能",
-    "tags": [
-      "腾讯混元",
-      "MoE模型",
-      "大模型",
-      "SiliconFlow"
-    ],
-    "source": "AIHOT精选",
-    "time": "9分钟前",
-    "ts": "2026-07-07T15:03:18+00:00",
-    "url": "https://x.com/TencentHunyuan/status/2074509570932924687",
-    "image": "",
-    "stocks": [
-      {
-        "name": "腾讯控股",
-        "ticker": "0700.HK",
-        "reason": "自研混元Hy3大模型迭代上线并通过第三方平台开放调用，增强其AI模型能力与生态商业化潜力",
-        "confidence": "high"
-      }
-    ]
   },
   {
     "id": "b38a9261226ec8a2",
@@ -458,13 +432,13 @@ const newsData = [
   },
   {
     "id": "a90a86befc129be3",
-    "title": "Shellular：可在手机上运行Claude Code等AI编程助手",
-    "summary": "开发者工具Shellular支持在手机端调用Claude Code、Codex和Pi等AI编程助手，尝试把AI Agent的使用场景拓展到移动端。",
-    "body": "近日，Hacker News上出现一款名为Shellular的“Show HN”项目，它允许用户直接在手机上运行Claude Code、OpenAI Codex以及Inflection Pi等AI编程助手。该产品通过手机终端提供命令行或对话式交互，让开发者无需依赖桌面环境即可调用AI Agent完成代码任务。\\n\\n这一工具的核心价值在于降低AI编程助手的使用门槛，并将Agent能力从PC端延伸至移动场景，迎合了开发者随时随地进行代码生成、调试与自动化的需求。不过，作为早期个人项目，其实际性能、安全性和商业化前景仍有待观察。\\n\\n若此类移动端AI编程工具成熟，可能推动AI Agent在开发者群体中的进一步普及，并对移动办公、远程运维等场景产生影响。",
+    "title": "Shellular 让用户在手机上运行 Claude Code 等 AI 编程 Agent",
+    "summary": "一款名为 Shellular 的新应用允许用户通过手机直接运行 Claude Code、OpenAI Codex 和 Inflection Pi 等 AI 编程 Agent，将代码辅助能力扩展到移动场景。",
+    "body": "Hacker News 上出现了一款名为 Shellular 的工具，它主打在手机上运行 Claude Code、Codex、Pi 等 AI 编程 Agent。这意味着开发者无需依赖桌面环境，也能通过移动设备调用大模型进行代码生成、调试或问答。此类应用进一步降低了 AI 编程工具的使用门槛，并拓展了 Agent 的工作场景。不过，手机端运行这些 Agent 的实际体验、安全性和功能完整性仍有待观察，目前尚处于早期展示阶段。",
     "category": "人工智能",
     "tags": [
-      "AI编程助手",
-      "移动端",
+      "AI 编程",
+      "移动应用",
       "AI Agent"
     ],
     "source": "Hacker News",
@@ -1207,6 +1181,25 @@ const newsData = [
         "confidence": "high"
       }
     ]
+  },
+  {
+    "id": "2b994fad5e233d9c",
+    "title": "PostgreSQL在23种EC2实例上的性能与成本对比工具",
+    "summary": "开发者Andrei针对PostgreSQL在23种AWS EC2实例及不同磁盘配置下进行了基准测试，并推出了一款开源选型工具，可按照RPS和磁盘容量帮助用户找到成本最优的实例。",
+    "body": "Hacker News 用户 Andrei 发布了一款 PostgreSQL 选型工具，对 23 种 AWS EC2 实例及不同磁盘进行了性能与成本测试，测试负载为混合 90/10 读/写。用户只需输入所需的 RPS（每秒请求数）和磁盘容量，工具即可推荐最划算的实例配置。\n\n该工具的数据和测试方法已开源，支持社区扩展更多配置与工作负载。当前版本仅覆盖部分场景，但作者表示欢迎更多贡献者补充数据，以完善选型参考。\n\n这一工具有助于中小企业和开发者避免“过度工程”式的后端架构，降低云数据库成本，对云基础设施选型和成本优化具有一定参考价值。",
+    "category": "AI 基础设施",
+    "tags": [
+      "PostgreSQL",
+      "AWS EC2",
+      "云数据库",
+      "性能测试"
+    ],
+    "source": "Hacker News",
+    "time": "2小时前",
+    "ts": "2026-07-07T12:40:28+00:00",
+    "url": "https://postgres.saneengineer.com",
+    "image": "",
+    "stocks": []
   },
   {
     "id": "adee134810a2c0d1",
