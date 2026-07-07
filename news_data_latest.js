@@ -1,5 +1,24 @@
 const newsData = [
   {
+    "id": "919bdd124514872b",
+    "title": "OpenAI首席未来学家Joshua Achiam将离职",
+    "summary": "OpenAI首席未来学家Joshua Achiam即将离职，他已在OpenAI工作近九年，主要从事AI安全研究。",
+    "body": "据Wired报道，OpenAI首席未来学家Joshua Achiam将离开公司。Achiam在OpenAI任职近九年，专注于AI安全研究，并曾在马斯克诉奥尔特曼案中出庭作证。\n\n他的离职是OpenAI近期高管与核心研究人员流动的又一案例。外界可能据此进一步关注OpenAI的AI安全战略及内部治理稳定性，但其对产品路线图的直接影响仍有待观察。",
+    "category": "人工智能",
+    "tags": [
+      "OpenAI",
+      "人工智能",
+      "AI安全",
+      "高管变动"
+    ],
+    "source": "Wired",
+    "time": "3分钟前",
+    "ts": "2026-07-07T21:30:00+00:00",
+    "url": "https://www.wired.com/story/openai-chief-futurist-joshua-achiam-is-leaving-the-company/",
+    "image": "https://media.wired.com/photos/6a431773890f52402e5ab8b7/master/pass/Joshua-Achiam-Leaving-OpenAI-Business-2274413917.jpg",
+    "stocks": []
+  },
+  {
     "id": "8093f9036affa02b",
     "title": "近两成新手妈妈患焦虑或抑郁，致幻剂疗法显现潜力",
     "summary": "约五分之一女性在孕期或产后一年内会出现抑郁和焦虑症状，若不及时治疗将对母婴健康造成多重风险；一种新型致幻剂疗法正在研发中，有望为这一群体带来新选择。",
@@ -115,25 +134,6 @@ const newsData = [
     ],
     "source": "Al Jazeera",
     "time": "25分钟前",
-    "ts": "2026-07-07T20:50:34+00:00",
-    "url": "https://www.aljazeera.com/economy/2026/7/7/nasdaq-vs-dow-how-are-the-key-indices-different-as-spacex-joins-one?traffic_source=rss",
-    "image": "",
-    "stocks": []
-  },
-  {
-    "id": "29eebe0772d5dc31",
-    "title": "SpaceX纳入纳斯达克100，打破传统上市三个月规则",
-    "summary": "太空探索公司SpaceX在IPO后被纳入纳斯达克100指数，并绕过了该指数通常要求新股上市满三个月才能入指的传统规则。这一动作使以科技股为主的纳斯达克100指数成份股结构发生变化。",
-    "body": "据外媒报道，SpaceX在首次公开募股（IPO）后直接进入纳斯达克100指数，而未遵循该指数对新上市公司通常需交易满三个月的准入惯例。这意味着SpaceX将与苹果、微软、英伟达等科技巨头并列，成为追踪该指数的投资组合中的新成员。\n\n纳斯达克100指数由在纳斯达克交易所上市的100家最大非金融公司组成，偏重科技、互联网和生物科技类企业；而道琼斯工业平均指数仅包含30只成分股，采用价格加权，覆盖行业更为传统和多元。SpaceX的加入进一步强化了纳斯达克100在航空航天与高科技领域的代表性，同时也可能影响相关指数基金的持仓配置。",
-    "category": "商业航天",
-    "tags": [
-      "SpaceX",
-      "纳斯达克100",
-      "股指",
-      "IPO"
-    ],
-    "source": "Al Jazeera",
-    "time": "30分钟前",
     "ts": "2026-07-07T20:50:34+00:00",
     "url": "https://www.aljazeera.com/economy/2026/7/7/nasdaq-vs-dow-how-are-the-key-indices-different-as-spacex-joins-one?traffic_source=rss",
     "image": "",
