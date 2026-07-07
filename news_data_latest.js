@@ -1,5 +1,158 @@
 const newsData = [
   {
+    "id": "9108138f4e848379",
+    "title": "联动科技上半年净利预增超七成",
+    "summary": "联动科技预计2026年上半年归母净利润2100万元至2900万元，同比增长73.39%至139.44%，反映半导体测试设备主业景气度回升。",
+    "body": "联动科技披露2026年半年度业绩预告，预计上半年实现归属于上市公司股东的净利润2100万元—2900万元，较上年同期增长73.39%—139.44%。公司主营半导体自动化测试系统、激光打标设备等，业绩高增显示下游封测及半导体制造需求回暖。作为国产半导体设备厂商，联动科技盈利能力改善亦体现半导体产业链国产化进程中的设备替代逻辑，后续仍需关注订单持续性及行业周期波动。",
+    "category": "半导体与先进制造",
+    "tags": [
+      "半导体设备",
+      "业绩预告",
+      "国产替代"
+    ],
+    "source": "36氪",
+    "time": "刚刚",
+    "ts": "2026-07-07T11:48:59.127731+00:00",
+    "url": "https://36kr.com/newsflashes/3885512250241289?f=rss",
+    "image": "",
+    "stocks": [
+      {
+        "name": "联动科技",
+        "ticker": "301369.SZ",
+        "reason": "公司主营半导体测试设备，业绩预告净利润大幅增长直接反映主业景气度",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "ab5f1becc04daada",
+    "title": "黑客利用AI打造模块化恶意框架Avalon",
+    "summary": "安全公司Blackpoint披露，黑客利用生成式AI打造出名为Avalon的模块化恶意框架，可按需加载不同攻击组件，对企业网络安全防御构成新挑战。",
+    "body": "近日，安全公司Blackpoint发文称，市面上出现一款名为Avalon的模块化恶意框架，其代码存在明显的AI生成痕迹。该框架整合了多种攻击能力，黑客可根据具体需求加载不同功能模块，较过去单一的AI生成恶意软件更具灵活性。\n\nBlackpoint分析发现，黑客通常通过钓鱼手法入侵受害者设备，随后利用Avalon窃取设备凭证、破坏备份资料，并加载CrownX勒索软件模块对文件实施加密。研究人员指出，从代码质量及整体设计来看，设计该框架的黑客本身编程能力有限，却能借助生成式AI将多个复杂攻击组件整合为完整框架，反映出AI正显著降低恶意工具开发门槛，给企业网络安全防护带来新的压力。",
+    "category": "网络安全",
+    "tags": [
+      "网络安全",
+      "AI安全",
+      "恶意软件",
+      "勒索软件"
+    ],
+    "source": "IT之家",
+    "time": "5分钟前",
+    "ts": "2026-07-07T11:43:25+00:00",
+    "url": "https://www.ithome.com/0/973/757.htm",
+    "image": "https://img.ithome.com/newsuploadfiles/2026/7/df8ffc91-952f-4910-ac2a-f3f8d9f2ca26.png?x-bce-process=image/format,f_auto",
+    "stocks": []
+  },
+  {
+    "id": "1aad05770cedadbe",
+    "title": "iPod之父法德尔：AI助手竞争核心是设备生态，苹果占优",
+    "summary": "iPod之父托尼·法德尔撰文指出，AI助手赛道的竞争关键在于设备生态整合，苹果凭借iPhone、Apple Watch、Mac等互联互通的“设备联邦”占据天然优势；他也警示AI助手可能带来成瘾与失控风险。",
+    "body": "有“iPod之父”之称的托尼·法德尔在专栏文章中提出，AI助手行业将重演iPhone的成功逻辑：不仅要看懂技术变革，更要预判产品对人类行为的改变。他认为，真正持久的创新在于把稀缺、复杂或昂贵的功能普及给大众，而AI助手的竞争核心将是“设备联邦”——手机、手表、电脑、智能眼镜等设备的数据整合，才能形成完整立体的用户画像，让AI助手深度理解用户。法德尔特别指出，苹果在这一领域具备得天独厚的优势，因为其生态能打通用户的位置、健康、日程与社交信息，成为最可信赖AI助手的底层根基。同时，他也呼吁行业正视AI助手可能带来的成瘾、隐私与失控等伦理问题。",
+    "category": "人工智能",
+    "tags": [
+      "AI助手",
+      "苹果生态",
+      "消费电子",
+      "人工智能"
+    ],
+    "source": "IT之家",
+    "time": "6分钟前",
+    "ts": "2026-07-07T11:41:53+00:00",
+    "url": "https://www.ithome.com/0/973/756.htm",
+    "image": "https://img.ithome.com/newsuploadfiles/2026/7/c17cf65f-64a5-42cc-a68b-9642216a5627.png?x-bce-process=image/format,f_auto",
+    "stocks": [
+      {
+        "name": "苹果公司",
+        "ticker": "AAPL",
+        "reason": "苹果拥有iPhone、Apple Watch、Mac等互联互通的设备生态，为AI助手提供数据整合的天然优势。",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "54a8a6558d6ccd21",
+    "title": "央视曝光二维码黑灰产业：公共用品扫码跳转涉黄网站",
+    "summary": "央视报道称，多地公共用品及儿童产品上的二维码因原域名到期被非法抢注，扫描后跳转涉黄或电诈网站，暴露出“数字烂尾”带来的安全隐患。",
+    "body": "据央视报道，今年多地网友反映，在苏州上方山森林公园接驳车、北京街边公共设施以及儿童识字卡、玩具包装盒、小学美术练习本等物品上扫描二维码后，页面被跳转至涉黄或电诈网站。网络专家指出，二维码本身不具备安全防护功能，真正出问题的是其背后指向的域名。常见原因是原注册个人或机构停止续费，域名被回收后又被非法网站恶意抢注，导致原本正常的二维码成为作恶入口。专家建议，单位和企业应对二维码和域名进行全生命周期管理，服务停止后及时回收，避免“数字烂尾”留下安全漏洞；公众在日常生活中也应对来源不明的二维码保持警惕。",
+    "category": "网络安全",
+    "tags": [
+      "二维码安全",
+      "域名安全",
+      "网络安全",
+      "电信诈骗"
+    ],
+    "source": "IT之家",
+    "time": "8分钟前",
+    "ts": "2026-07-07T11:40:12+00:00",
+    "url": "https://www.ithome.com/0/973/755.htm",
+    "image": "https://img.ithome.com/newsuploadfiles/2026/7/c0fb6970-8624-4951-a073-d945a6427ecc.jpg",
+    "stocks": []
+  },
+  {
+    "id": "034c8c26f8950ff2",
+    "title": "放射配体疗法显著延长转移性GEP-NET无进展生存期",
+    "summary": "COMPETE III期临床试验显示，靶向放射性治疗药物[177Lu]Lu-edotreotide较依维莫司显著延长转移性胃肠胰神经内分泌肿瘤患者的无进展生存期。",
+    "body": "COMPETE III期临床试验结果表明，靶向放射配体疗法药物[177Lu]Lu-edotreotide在转移性胃肠胰神经内分泌肿瘤（GEP-NETs）患者中，较靶向药物依维莫司显著延长了无进展生存期。这一结果为该类罕见肿瘤患者提供了潜在的新治疗选择。\n\n放射配体疗法通过将放射性核素精准递送至肿瘤细胞发挥作用，近年来在神经内分泌肿瘤领域受到广泛关注。此次阳性数据进一步验证了该治疗策略的临床价值，可能推动相关疗法的监管审批与临床应用。",
+    "category": "生物医药",
+    "tags": [
+      "放射配体疗法",
+      "神经内分泌肿瘤",
+      "177Lu-edotreotide",
+      "III期临床"
+    ],
+    "source": "MedicalXpress",
+    "time": "8分钟前",
+    "ts": "2026-07-07T07:40:11-04:00",
+    "url": "https://medicalxpress.com/news/2026-07-radioligand-therapy-significantly-prolongs-free.html",
+    "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/radioligand-therapy-si.jpg",
+    "stocks": []
+  },
+  {
+    "id": "0229542224d57649",
+    "title": "FDA批准首个甲状腺眼病治疗药物Lumvoa",
+    "summary": "美国食品药品监督管理局（FDA）已批准Viridian Therapeutics的Lumvoa（veligrotug-vvze）用于治疗甲状腺眼病（TED），这是该疾病领域首个获批疗法。",
+    "body": "美国食品药品监督管理局宣布批准Lumvoa（veligrotug-vvze）上市，用于治疗甲状腺眼病（TED）。该药由Viridian Therapeutics开发，是TED首个获得FDA批准的疗法，具有填补治疗空白的意义。\n\n甲状腺眼病是一种自身免疫性疾病，可导致眼球突出、复视及疼痛等眼部问题，此前缺乏针对病因的获批治疗选择。Lumvoa的获批不仅为TED患者提供了新的治疗手段，也意味着Viridian Therapeutics的商业化管线取得关键突破。",
+    "category": "生物医药",
+    "tags": [
+      "FDA批准",
+      "甲状腺眼病",
+      "创新药",
+      "Viridian Therapeutics"
+    ],
+    "source": "MedicalXpress",
+    "time": "8分钟前",
+    "ts": "2026-07-07T07:40:02-04:00",
+    "url": "https://medicalxpress.com/news/2026-07-fda-treatment-thyroid-eye-disease.html",
+    "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/fda-approves-first-tre-2.jpg",
+    "stocks": [
+      {
+        "name": "Viridian Therapeutics",
+        "ticker": "VRDN",
+        "reason": "其开发的Lumvoa获FDA批准为首个甲状腺眼病治疗药物，直接受益商业化前景。",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "c6748bff8882d67b",
+    "title": "绿联10口PoE+千兆交换机创历史低价",
+    "summary": "绿联一款10口PoE+千兆交换机在亚马逊降至37.97美元的历史最低价，可为摄像头、WiFi扩展器等智能家居设备同时供电与传输数据。",
+    "body": "据Tom's Hardware报道，绿联（Ugreen）一款10口PoE+千兆交换机当前在亚马逊售价仅为37.97美元，创下该型号历史最低价。该交换机支持IEEE 802.3at PoE+标准，单口最高输出功率30W，整机总功率60W，可为8个PoE+端口设备同时供电并传输千兆网络数据。\n\n产品具备自动识别PoE设备、过载保护及扩展供电模式等功能，最远支持约250米距离部署，适用于家庭网络摄像头、WiFi扩展器等智能家居场景。此次降价使该产品在消费级网络设备市场中具备更强的价格竞争力，也为普通家庭搭建POE供电网络提供了更低成本的入门选择。",
+    "category": "消费电子",
+    "tags": [
+      "网络交换机",
+      "PoE供电",
+      "智能家居",
+      "绿联"
+    ],
+    "source": "Tom's Hardware",
+    "time": "8分钟前",
+    "ts": "2026-07-07T11:39:52+00:00",
+    "url": "https://www.tomshardware.com/networking/network-switches/record-low-price-on-this-10-port-poe-switch-with-gigabit-speeds-and-up-to-60w-of-power-save-24-percent-usd38-for-ugreen-switch-that-unlocks-an-extra-eight-power-delivery-ports-for-cameras-and-wi-fi-extenders",
+    "image": "https://cdn.mos.cms.futurecdn.net/QuRbV3MAA5Ncx9nTexm2kN-1280-80.png",
+    "stocks": []
+  },
+  {
     "id": "6a432c502b175dbd",
     "title": "复旦微电上半年净利预增超三倍",
     "summary": "复旦微电发布业绩预告，预计2026年上半年归母净利润约8亿元至10亿元，同比增长313.19%至416.49%，营业收入亦实现约两成增长。",
