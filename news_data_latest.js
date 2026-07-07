@@ -1,18 +1,145 @@
 const newsData = [
   {
+    "id": "cb3ca9eca9cbb61c",
+    "title": "iRobot推出首款非机器人地板清洁机",
+    "summary": "iRobot发布其首款非机器人地板清洁设备Roomba Electro Plus，售价399美元，集吸尘、拖地、消毒于一体；同时更新五款Roomba扫地机器人，吸力更强、机身更小巧。",
+    "body": "美国机器人公司iRobot宣布推出首款非机器人地板清洁机Roomba Electro Plus，售价399美元，具备吸尘、拖地、消毒等五项功能，但需用户手动操作。这标志着iRobot在产品线上首次突破扫地机器人范畴，向更广泛的家居清洁市场延伸。与此同时，公司更新了Roomba机器人吸尘器产品线，发布五款新机型，吸力提升、体积更小，意在继续巩固其在智能清洁机器人领域的份额。新品能否有效提振iRobot营收仍取决于市场接受度，但产品矩阵扩张和快速迭代显示出公司在智能家居清洁领域的持续投入。",
+    "category": "机器人",
+    "tags": [
+      "智能家居",
+      "扫地机器人",
+      "清洁电器",
+      "iRobot"
+    ],
+    "source": "The Verge",
+    "time": "1分钟前",
+    "ts": "2026-07-07T10:03:08-04:00",
+    "url": "https://www.theverge.com/tech/962034/irobot-roomba-electro-plus-smaller-cheaper-robot-vacuums",
+    "image": "",
+    "stocks": [
+      {
+        "name": "iRobot",
+        "ticker": "IRBT",
+        "reason": "公司推出非机器人清洁新品并迭代核心扫地机器人产品线，直接关联其营收与市场份额。",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "33dbea17a278b22c",
+    "title": "谷歌投资Proxima Fusion，助推欧洲首座商用核聚变电站",
+    "summary": "德国聚变企业Proxima Fusion完成4.11亿欧元融资，谷歌作为战略投资方参与，该公司目标打造欧洲首座商用核聚变电站，并计划于21世纪30年代后半段实现商业化。",
+    "body": "德国聚变能源初创企业Proxima Fusion近日宣布完成一轮4.11亿欧元融资，谷歌与莱茵集团等作为战略投资方参投，公司估值达到27亿美元。Proxima采用仿星器技术路线，计划2030年代初建成聚变示范装置，并在2030年代后半段建成首座商用聚变电站；本轮资金将用于扩产高温超导线缆与超导磁体，并建立仿星器所需的工程与制造体系。\n\n这笔融资使Proxima成为欧洲融资额最高的聚变初创公司，也反映出谷歌等科技巨头对核聚变作为零碳、稳定基荷能源的长期看好。核聚变商业化仍面临重大技术与工程挑战，但若成功，将对全球能源结构及科技巨头的清洁电力供应产生深远影响。",
+    "category": "未来能源",
+    "tags": [
+      "核聚变",
+      "清洁能源",
+      "谷歌",
+      "能源投资"
+    ],
+    "source": "IT之家",
+    "time": "1分钟前",
+    "ts": "2026-07-07T14:02:38+00:00",
+    "url": "https://www.ithome.com/0/973/791.htm",
+    "image": "https://img.ithome.com/newsuploadfiles/2026/7/8f41434d-fd44-4203-a8e9-9fee1c6a6deb.jpg?x-bce-process=image/format,f_auto",
+    "stocks": [
+      {
+        "name": "Alphabet（谷歌）",
+        "ticker": "GOOGL",
+        "reason": "作为战略投资方参与Proxima Fusion融资，长期布局零碳基荷能源，有望服务数据中心等清洁电力需求。",
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
+    "id": "b1c8c09fdd7a9955",
+    "title": "闪极发布怪能充45W移动电源：带屏自带线249元起",
+    "summary": "闪极在京东上架新款怪能充45W带屏自带线移动电源，采用2C+1A接口与10000mAh电芯，首发价249元，并推出搭配毛绒玩偶的版本。",
+    "body": "闪极近日在电商平台京东上架了一款名为“怪能充”的45W移动电源。该产品内置10000mAh电芯，机身底部配备60厘米45W USB-C伸缩线缆，顶部另设1个45W USB-C接口和1个22.5W USB-A接口，支持多设备同时充电。机身正面搭载1.14英寸彩色屏幕，可显示电量、功率等信息，提供象牙白与深空灰两种配色，尺寸为89×52.5×38.3mm，重量约235g。\n\n该产品定价299元，首发价249元；官方还设计了“闪闪怪”毛绒玩偶配件，可将电源塞入玩偶中携带，搭配玩偶首发价为329元。作为一款主打便携与个性化设计的消费级配件，该产品的上市体现了移动电源市场在快充、可视化交互与IP周边融合方向的持续创新。",
+    "category": "消费电子",
+    "tags": [
+      "移动电源",
+      "消费电子",
+      "快充",
+      "数码配件"
+    ],
+    "source": "IT之家",
+    "time": "2分钟前",
+    "ts": "2026-07-07T14:02:14+00:00",
+    "url": "https://www.ithome.com/0/973/790.htm",
+    "image": "https://img14.360buyimg.com/pop/jfs/t1/458693/35/5286/98865/6a312dd9F8fe025da/00835dc5dca85526.png",
+    "stocks": []
+  },
+  {
+    "id": "e8b17a3bfa6f7831",
+    "title": "澳洲超四分之三老年人患多重慢病，可分为三类",
+    "summary": "悉尼大学一项全国性研究分析逾440万名65岁以上澳大利亚人健康记录，发现超过四分之三同时患多种慢性病，且这些疾病主要聚类为三种模式而非随机发生。",
+    "body": "悉尼大学研究团队基于澳大利亚超过440万名65岁以上老年人的健康记录开展全国性分析，发现多重慢病在该群体中极为普遍，患病率超过四分之三。进一步分析显示，这些慢性病并非随机组合，而是呈现三种明显聚类模式。这一发现有助于公共卫生系统识别高危人群并制定针对性预防与干预策略，也可能为老年医学、慢病管理和数字健康监测等领域提供新的研究方向。",
+    "category": "生物医药",
+    "tags": [
+      "慢病管理",
+      "老年医学",
+      "公共卫生",
+      "数字医疗"
+    ],
+    "source": "MedicalXpress",
+    "time": "4分钟前",
+    "ts": "2026-07-07T10:00:04-04:00",
+    "url": "https://medicalxpress.com/news/2026-07-multimorbidity-highly-prevalent-older-australians.html",
+    "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/multimorbidity-highly.jpg",
+    "stocks": []
+  },
+  {
+    "id": "7f6e7f7e9fab7f26",
+    "title": "刚果Bundibugyo病毒疫情引发全球防疫准备思考",
+    "summary": "刚果民主共和国暴发的罕见Bundibugyo病毒疫情，再次凸显全球在应对未知但可能致命的传染病方面准备不足。波士顿大学专家在《新英格兰医学杂志》发文呼吁加强公共卫生规划。",
+    "body": "据波士顿大学教授Nancy Sullivan发表于《新英格兰医学杂志》的评论文章，刚果民主共和国正在暴发的罕见Bundibugyo病毒疫情与埃博拉病毒类似，提醒我们不仅要关注已知烈性病原体，也要防范较少为人知但同样致命的传染病威胁。文章强调，当前的防疫体系在监测、疫苗和诊疗储备方面仍存在明显短板。这一讨论对全球公共卫生治理、疫苗研发优先级以及疫情应急响应机制具有重要警示意义，也可能推动相关生物医药与公共卫生基础设施投入。",
+    "category": "生物医药",
+    "tags": [
+      "公共卫生",
+      "病毒疫情",
+      "疫苗研发"
+    ],
+    "source": "MedicalXpress",
+    "time": "4分钟前",
+    "ts": "2026-07-07T10:00:02-04:00",
+    "url": "https://medicalxpress.com/news/2026-07-rare-ebola-virus.html",
+    "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/a-rare-ebola-like-viru.jpg",
+    "stocks": []
+  },
+  {
+    "id": "19e3e5476af6759a",
+    "title": "NASA宇航员太空行走间隙展示肌肉",
+    "summary": "NASA宇航员克里斯·威廉姆斯在国际空间站外进行太空行走时，面对镜头摆出健美姿势。此次历时7小时20分的出舱活动旨在更换空间站Canadarm2机械臂出现故障的腕关节。",
+    "body": "2026年6月30日，NASA宇航员克里斯·威廉姆斯与杰西卡·梅尔一同离开国际空间站，进行了长达7小时20分钟的太空行走。期间威廉姆斯面带笑容，在地球背景下双臂弯曲展示肌肉，梅尔为其拍下这张照片。\n\n此次太空行走的主要任务是更换已运行超过25年的Canadarm2机械臂上出现故障的腕关节。完成更换后，旧腕关节将被送回地球维修，以备未来作为备份使用。\n\n这一任务再次凸显了空间站长期运行中的设备维护需求，也体现了载人航天活动中的人性化瞬间，对公众关注航天事业具有一定传播价值。",
+    "category": "商业航天",
+    "tags": [
+      "NASA",
+      "国际空间站",
+      "太空行走",
+      "Canadarm2"
+    ],
+    "source": "Space.com",
+    "time": "4分钟前",
+    "ts": "2026-07-07T14:00:00+00:00",
+    "url": "https://www.space.com/space-exploration/human-spaceflight/astronaut-flexes-his-muscles-mid-spacewalk-space-photo-of-the-day-for-july-7-2026",
+    "image": "https://cdn.mos.cms.futurecdn.net/TwgtrhSXZthqX2ZcZSjCUn-1280-80.png",
+    "stocks": []
+  },
+  {
     "id": "4e45a05669dad753",
-    "title": "微软修复Win11文件夹异常占用数GB存储问题",
-    "summary": "微软正在修复一个导致Windows 11某文件夹占用数GB存储空间的Bug，相关补丁已包含在可选更新KB5095093中，用于改善CapabilityAccessManager.db-wal文件的磁盘空间使用。",
-    "body": "据Windows Latest报道，微软在Windows 11的可选六月2026更新（KB5095093）中修复了一个存储空间占用异常的问题。该补丁说明称“改善了CapabilityAccessManager.db-wal文件的磁盘空间使用状况”。\n\nCapabilityAccessManager.db-wal文件会安装在Windows 11电脑上，此前因异常膨胀可能占用数GB存储空间，影响用户可用容量。此次修复属于系统维护更新，有助于提升用户体验、减少存储焦虑，但预计不会直接带来显著的商业收入变化。",
+    "title": "微软修复Windows 11文件夹异常占用存储空间问题",
+    "summary": "微软在Windows 11可选更新中修复了一个导致特定文件夹占用数GB存储空间的漏洞，可改善相关用户的磁盘空间使用体验。",
+    "body": "据Windows Latest发现，微软已在Windows 11可选六月更新（KB5095093）中纳入补丁，用于“改善CapabilityAccessManager.db-wal文件的磁盘空间占用”。此前，该文件在某些Windows 11电脑上会持续膨胀，导致数GB存储空间被无故占用，引发用户反馈。\n\n此次修复属于常规系统维护更新，主要面向遇到存储异常的用户，用户需手动安装可选更新。虽然问题影响范围有限，但及时修补有助于提升Windows 11的稳定性和用户满意度。",
     "category": "消费电子",
     "tags": [
       "微软",
       "Windows 11",
-      "系统更新",
-      "软件修复"
+      "操作系统",
+      "软件更新"
     ],
     "source": "The Verge",
-    "time": "5分钟前",
+    "time": "11分钟前",
     "ts": "2026-07-07T09:52:58-04:00",
     "url": "https://www.theverge.com/tech/962084/microsoft-storage-hogging-windows-11-folder",
     "image": "",
@@ -20,25 +147,25 @@ const newsData = [
       {
         "name": "微软",
         "ticker": "MSFT",
-        "reason": "作为Windows 11开发商，修复系统Bug有助于维持用户基数与产品口碑",
+        "reason": "作为Windows 11开发商，修复存储占用问题有助于改善用户体验，但属常规补丁，业务影响有限。",
         "confidence": "medium"
       }
     ]
   },
   {
     "id": "ecf181484fdb9b8d",
-    "title": "英伟达发布610.74驱动，支持多款3A大作新内容",
-    "summary": "英伟达推出GeForce Game Ready 610.74显卡驱动，为《毁灭战士：黑暗时代｜启示录》和《刺客信条：黑旗 记忆重置》提供首发支持；两款新作均支持DLSS多帧生成、超分辨率及光线追踪等RTX特性。",
-    "body": "IT之家消息，NVIDIA（英伟达）今日发布最新版GeForce Game Ready显卡驱动程序610.74，为《毁灭战士：黑暗时代｜启示录》和《刺客信条：黑旗 记忆重置》提供首日优化支持。《毁灭战士》新战役扩展包新增多个关卡，原生支持DLSS多帧生成、超分辨率、路径追踪，并在GeForce RTX GPU上通过光线重建增强路径追踪效果。《刺客信条：黑旗 记忆重置》则以Anvil引擎从零重构2013年原版游戏，画面与玩法内容全面升级，并支持DLSS多帧生成、超分辨率、光线追踪反射与光照。",
+    "title": "英伟达发布新驱动支持多款游戏DLSS与光追",
+    "summary": "英伟达推出 GeForce Game Ready 610.74 驱动，为《毁灭战士：黑暗时代 | 启示录》和《刺客信条：黑旗 记忆重置》提供首日支持，强化 RTX 显卡在光线追踪与 DLSS 多帧生成上的体验。",
+    "body": "据 IT之家 7 月 7 日消息，NVIDIA 今日发布最新版 GeForce Game Ready 显卡驱动程序 610.74，重点为两款新作提供首日优化支持。其中，《毁灭战士：黑暗时代 | 启示录》作为该系列的全新战役扩展包，新增多个关卡，并原生支持 DLSS 多帧生成、超分辨率、路径追踪，以及通过光线重建增强 GeForce RTX GPU 的路径追踪效果。另一款《刺客信条：黑旗 记忆重置》则使用 Anvil 引擎从零重构 2013 年原版，画面与玩法内容全面升级，并支持 DLSS 多帧生成、超分辨率、光线追踪反射与光线追踪光照。此举进一步巩固了英伟达 RTX 生态在高画质 3A 游戏中的技术优势，有望带动相关显卡需求。",
     "category": "消费电子",
     "tags": [
       "英伟达",
-      "显卡驱动",
+      "游戏显卡",
       "DLSS",
-      "游戏"
+      "光线追踪"
     ],
     "source": "IT之家",
-    "time": "5分钟前",
+    "time": "11分钟前",
     "ts": "2026-07-07T13:52:23+00:00",
     "url": "https://www.ithome.com/0/973/788.htm",
     "image": "https://img.ithome.com/newsuploadfiles/2026/7/a3ea6e32-8abf-4a37-b4f7-00606063ecc3.jpg",
@@ -46,29 +173,10 @@ const newsData = [
       {
         "name": "英伟达",
         "ticker": "NVDA",
-        "reason": "新驱动首发支持多款热门3A大作并强化RTX/DLSS特性，有助于提升GeForce GPU用户体验与硬件吸引力",
+        "reason": "新驱动强化 RTX 显卡对热门 3A 游戏的光追与 DLSS 支持，直接利好其游戏 GPU 销售与生态粘性。",
         "confidence": "high"
       }
     ]
-  },
-  {
-    "id": "90e311a945f33038",
-    "title": "KDE Plasma 6.6.6 发布，6.6 系列迎来最终维护更新",
-    "summary": "KDE Plasma 6.6.6 桌面环境正式发布，这是 Plasma 6.6 系列的最后一个维护版本，主要修复 KWin、Discover、Plasma Workspace 等组件中的多项问题，未新增功能。",
-    "body": "KDE Plasma 6.6.6 桌面环境已正式发布。据 Linuxiac 报道，该版本是 Plasma 6.6 系列的最后一次维护更新，此后该系列将不再获得维护支持。本次更新未引入任何新功能，而是聚焦于修复现有问题，覆盖窗口管理、应用商店、通知系统、网络管理等多个模块。\n\n具体来看，KWin 修复了笔记本屏幕唤醒异常、DRM 后端回退机制以及自然滚动行为等问题；Discover 修复了评论重复显示、辅助功能和窗口高度异常等缺陷；Plasma Workspace 改进了通知系统、设备通知器、任务管理器过滤、深色模式壁纸检测和时钟渲染；NetworkManager 优化了无网络设备时的连接详情显示并新增 OvsBridge 支持；xdg-desktop-portal-kde 则修复了剪贴板锁死、应用选择器混淆等问题。\n\n此次更新标志着 KDE Plasma 6.6 系列维护周期的结束，用户后续可期待向 Plasma 6.7 等更高版本迁移。作为 Linux 桌面环境的重要开源项目，KDE 的持续迭代对桌面 Linux 生态的稳定性和用户体验具有积极意义。",
-    "category": "消费电子",
-    "tags": [
-      "开源软件",
-      "桌面环境",
-      "Linux",
-      "KDE"
-    ],
-    "source": "IT之家",
-    "time": "7分钟前",
-    "ts": "2026-07-07T13:50:30+00:00",
-    "url": "https://www.ithome.com/0/973/787.htm",
-    "image": "https://img.ithome.com/newsuploadfiles/2026/7/7e6af6b7-0b7f-413e-8e59-e9b33f02aeee.png?x-bce-process=image/format,f_auto",
-    "stocks": []
   },
   {
     "id": "51ec9a90e9282d8c",
