@@ -1,5 +1,80 @@
 const newsData = [
   {
+    "id": "f3c423a22d33e570",
+    "title": "起亚全新电动厢式车PV7实车曝光尺寸更大",
+    "summary": "起亚首款电动厢式车PV7即将上市，作为PV5的更大版本引发关注，实车视频显示其体量感十足。",
+    "body": "起亚正在加速电动商用车布局，其首款电动厢式车PV7预计不久后上市，定位高于已亮相的PV5。近日，Electrek发布的实拍视频显示，PV7实车看起来比图片更具体量感，进一步凸显其商用空间优势。作为起亚电动化战略的重要一环，PV7有望在全球电动商用车市场与福特、奔驰等品牌形成竞争，助力起亚拓展B端及物流领域业务。",
+    "category": "未来能源",
+    "tags": [
+      "电动厢式车",
+      "起亚",
+      "商用车",
+      "电动化"
+    ],
+    "source": "Electrek",
+    "time": "3分钟前",
+    "ts": "2026-07-07T21:06:24+00:00",
+    "url": "https://electrek.co/2026/07/07/kias-next-electric-van-looks-even-bigger-in-person-video/",
+    "image": "https://electrek.co/wp-content/uploads/sites/3/2026/06/Kia-PV7-EV-van-first-look.jpeg?quality=82&#038;strip=all&#038;w=1400",
+    "stocks": []
+  },
+  {
+    "id": "f1830ca866b78e2b",
+    "title": "五智能体AI系统利用真实病历加速临床试验设计",
+    "summary": "美国威尔康奈尔医学院研究人员开发出一种名为EmulatRx的多智能体AI系统，能够协作利用真实世界患者数据模拟和优化临床试验设计，有望加快新药研发进程。",
+    "body": "据发表在《Nature Communications》上的研究，威尔康奈尔医学院团队开发的EmulatRx系统由五个AI智能体组成，模拟医疗专家团队协作，对真实世界患者记录进行分析，从而辅助临床试验的设计与改进。临床试验是药物上市前最关键的环节之一，传统流程耗时长、成本高，而该系统通过智能体之间的角色分工与数据驱动的模拟，有望提升试验设计的效率和科学性。\n\n研究团队指出，EmulatRx可在随机对照试验的方案制定、患者分层和结果预测等环节提供支持，减少试错成本。若该技术进一步验证并落地，将对制药行业和数字医疗产生深远影响，加速创新疗法从实验室走向临床。",
+    "category": "人工智能",
+    "tags": [
+      "多智能体AI",
+      "临床试验",
+      "数字医疗",
+      "药物研发"
+    ],
+    "source": "MedicalXpress",
+    "time": "9分钟前",
+    "ts": "2026-07-07T17:00:05-04:00",
+    "url": "https://medicalxpress.com/news/2026-07-agent-ai-team-clinical-trial.html",
+    "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/ai-research-team-could.jpg",
+    "stocks": []
+  },
+  {
+    "id": "e378a1ce38e62e10",
+    "title": "最大规模研究揭示哪些癌症拥有自身微生物组",
+    "summary": "一项迄今最大规模的癌症微生物组研究发现，部分肿瘤内存在细菌、病毒和真菌群落，挑战了癌症仅为人类细胞疾病的传统认知。",
+    "body": "长期以来，癌症被视为纯粹的人类疾病，是失控的人体细胞疯狂增殖的结果。但越来越多的研究表明，某些肿瘤并非“独居”——细菌、病毒和真菌群落可能生活在癌细胞之间，甚至存在于癌细胞内部。\n\n这项迄今规模最大的相关研究系统梳理了不同癌症类型与微生物组的关联，进一步证实肿瘤微环境中存在复杂的微生物生态。该发现可能促使科学家重新思考癌症的成因、进展机制及其与宿主的相互作用。",
+    "category": "生物医药",
+    "tags": [
+      "癌症微生物组",
+      "肿瘤微生物",
+      "生物医药"
+    ],
+    "source": "MedicalXpress",
+    "time": "9分钟前",
+    "ts": "2026-07-07T17:00:01-04:00",
+    "url": "https://medicalxpress.com/news/2026-07-largest-reveals-cancers-microbiomes.html",
+    "image": "https://scx1.b-cdn.net/csz/news/tmb/2025/cancer-1.jpg",
+    "stocks": []
+  },
+  {
+    "id": "7a662cac92248bf3",
+    "title": "韦伯太空望远镜四周年发布星系碰撞新图",
+    "summary": "NASA发布詹姆斯·韦伯太空望远镜运行四周年纪念图像，清晰呈现约1100万光年外半人马座A星系的碰撞遗迹与活跃星系核。",
+    "body": "2026年7月是NASA詹姆斯·韦伯太空望远镜（JWST）首批图像向公众发布四周年。为纪念这一里程碑，NASA公布了半人马座A（Centaurus A）的高清红外图像。该星系约在20亿年前由两个星系碰撞合并形成，大量气体与尘埃不仅催生了剧烈恒星形成，也为中心超大质量黑洞提供了充足物质，形成明亮的活跃星系核并喷射高速等离子体喷流。JWST凭借极高的红外灵敏度，首次以前所未有的细节揭示该星系内部结构与能量机制，为天文学家研究星系合并、黑洞吸积和恒星诞生提供了宝贵数据。这一成果再次彰显空间红外天文观测在深空探测和基础天文学研究中的持续价值。",
+    "category": "商业航天",
+    "tags": [
+      "詹姆斯·韦伯太空望远镜",
+      "深空探测",
+      "星系碰撞",
+      "NASA"
+    ],
+    "source": "Space.com",
+    "time": "9分钟前",
+    "ts": "2026-07-07T21:00:00+00:00",
+    "url": "https://www.space.com/astronomy/james-webb-space-telescope/james-webb-space-telescope-celebrates-its-4th-birthday-with-stunning-image-of-a-galaxy-crash-site",
+    "image": "https://cdn.mos.cms.futurecdn.net/i9xQzqnXJtk7WJw5Wfy4vf-1280-80.png",
+    "stocks": []
+  },
+  {
     "id": "713e443a33cb4929",
     "title": "Meta发布Muse Image模型，可用Instagram账号作提示",
     "summary": "Meta推出名为Muse Image的新型AI图像生成模型，用户可直接用Instagram账号作为生成提示，并已在Stories特效和WhatsApp图像生成中应用。",
