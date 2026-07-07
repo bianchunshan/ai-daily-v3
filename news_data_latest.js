@@ -1,5 +1,86 @@
 const newsData = [
   {
+    "id": "57e856ad87d0a471",
+    "title": "华硕a豆蓝牙音箱SP103上架：239元",
+    "summary": "华硕在京东上架a豆蓝牙音箱SP103，搭载蓝牙6.0、内置2600mAh电池并支持AUX有线音频，售价239元。该产品提供多配色与10小时续航，进一步丰富华硕消费音频产品线。",
+    "body": "IT之家7月7日消息，华硕现已在京东上架a豆蓝牙音箱SP103。该机提供瑰蜜粉金、鼠尾草青、鸢尾花紫三种配色，整体重量约575g，正面采用高密度织物网布，背面配有立体防滑脚架，主打便携与家用桌面场景。\n\n规格方面，SP103扬声器输出功率为10W，搭载蓝牙6.0技术，支持TWS智慧互联与AUX有线音频输入，内置2600mAh电池，官方标称续航可达10小时。\n\n该音箱定价239元，是华硕a豆（adol）品牌在消费音频领域的又一布局，有助于完善其入门级智能硬件生态，并借助京东渠道扩大市场覆盖。",
+    "category": "消费电子",
+    "tags": [
+      "消费电子",
+      "蓝牙音箱",
+      "华硕",
+      "智能家居"
+    ],
+    "source": "IT之家",
+    "time": "1分钟前",
+    "ts": "2026-07-07T10:34:20+00:00",
+    "url": "https://www.ithome.com/0/973/739.htm",
+    "image": "https://img14.360buyimg.com/pop/jfs/t1/468016/13/17205/73931/6a4b47d1F8db3210d/00833203207cf21c.jpg",
+    "stocks": [
+      {
+        "name": "华硕",
+        "ticker": "2357.TW",
+        "reason": "该款a豆蓝牙音箱为华硕自有消费品牌新品，直接贡献其消费电子业务收入。",
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
+    "id": "80273e1dc4e1cfb6",
+    "title": "Nothing 4B手机放弃美国市场",
+    "summary": "英国手机品牌Nothing推出入门级新机Phone 4B，沿用此前低价机型策略，不进入美国市场销售。",
+    "body": "英国手机品牌Nothing调整其最便宜手机的产品命名，将去年的Phone 3A Lite更新为Phone 4B，并融合4A与4A Pro的设计元素。与Nothing此前多款低价手机一样，这款新机仍不会在美国市场发售。\n\n公司此前以“A”系列标识中低端机型，此次引入“B”系列，意在更清晰地区分入门级产品线。美国消费者依旧无法直接购买到Nothing的低价机型，这可能影响其在全球最大智能手机市场的份额扩张与品牌渗透。",
+    "category": "消费电子",
+    "tags": [
+      "Nothing",
+      "智能手机",
+      "消费电子"
+    ],
+    "source": "The Verge",
+    "time": "1分钟前",
+    "ts": "2026-07-07T06:34:01-04:00",
+    "url": "https://www.theverge.com/tech/962020/nothing-phone-4b-price-release-date-specs",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "3550a0d3862120b5",
+    "title": "Nothing发布Ear (3a)主动降噪耳机，售价低于100美元",
+    "summary": "英国消费电子品牌Nothing推出新款Ear (3a)真无线耳机，搭载主动降噪功能，定价低于100美元，瞄准中端无线音频市场。",
+    "body": "Nothing正式发布Ear (3a)真无线耳机，搭载主动降噪（ANC）功能，售价低于100美元。这一价格定位使该产品进入中端降噪耳机市场，有望以更低门槛吸引追求降噪体验的消费者。\n\n对Nothing而言，推出不足百美元的ANC耳机有助于丰富其音频产品线，扩大潜在用户群体，并提升在中端TWS耳机市场的竞争力。同时，该产品也可能加剧同价位段降噪耳机的市场竞争。",
+    "category": "消费电子",
+    "tags": [
+      "TWS耳机",
+      "主动降噪",
+      "Nothing"
+    ],
+    "source": "Engadget",
+    "time": "5分钟前",
+    "ts": "2026-07-07T10:30:00+00:00",
+    "url": "https://www.engadget.com/2202348/nothing-announces-ear-3a-sub-dollar100-anc-earbuds/",
+    "image": "https://www.engadget.com/img/gallery/nothing-announces-ear-3a-sub-100-anc-earbuds/l-intro-1782482143.jpg",
+    "stocks": []
+  },
+  {
+    "id": "96b4c52c120cee27",
+    "title": "Nothing发布Ear 3A耳机：可录制通话与音频",
+    "summary": "Nothing推出售价99美元的无线耳机Ear 3A，支持通话录音与正在播放的音频录制，定位平价市场。",
+    "body": "Nothing日前发布了新款无线耳机Ear 3A，售价99美元，即日起在官方线上商店开售。该产品并未归入主打性价比的子品牌CMF，而是直接以Nothing品牌推出，价格与初代Ear (a)持平。Ear 3A的一大亮点是支持录制通话内容以及用户正在收听的音频，为百元级耳机增加了以往多见于高端或专业设备的功能。\n\n在当前消费电子普遍涨价的背景下，Nothing以不变价格推出功能升级的新耳机，意在巩固其在平价无线耳机市场的竞争力。不过，通话与音频录制功能也可能引发用户对隐私和数据安全的关注，具体使用体验和市场反馈仍有待观察。",
+    "category": "消费电子",
+    "tags": [
+      "消费电子",
+      "无线耳机",
+      "Nothing",
+      "通话录音"
+    ],
+    "source": "The Verge",
+    "time": "6分钟前",
+    "ts": "2026-07-07T06:29:27-04:00",
+    "url": "https://www.theverge.com/tech/961845/nothing-ear-3a-wireless-earbuds-call-recording-price-availability",
+    "image": "",
+    "stocks": []
+  },
+  {
     "id": "58bcc23d5b088333",
     "title": "高德开放平台新版本世界地图正式上线",
     "summary": "阿里巴巴旗下高德开放平台近日上线新版本世界地图，面向海外物流、即时配送、本地生活、旅游OTA等场景开放驾车、骑行、步行、摩托车等多类型导航服务，并全面升级底层POI、门址、路网及路径规划算法。",
@@ -96,70 +177,6 @@ const newsData = [
     ]
   },
   {
-    "id": "cf308d2f8967ff06",
-    "title": "黑客用8192颗RISC-V微控制器自制“显卡” 功耗超2000瓦",
-    "summary": "硬件黑客Matthias Balwierz用8192颗RISC-V微控制器在家中自制出一台“显卡”，整机功耗高达2161瓦，需借助3D打印机完成编程。",
-    "body": "据Tom's Hardware报道，知名硬件黑客Matthias Balwierz（网名Bitluni）近日完成了一项大胆尝试：利用8192颗RISC-V微控制器（MCU）在家中自制了一台“显卡”。他本计划打造某种显示器，但受成本和难度限制，最终选择将RGB LED直接焊接到每颗MCU芯片上，使这台设备兼具GPU与显示功能。项目采用16×32像素的圆形电路板布局，形似经典Cray-1超级计算机。\n\n该装置目前分辨率为320×200，整机功耗高达2161瓦，在3.3伏电压下电流约655安培。Balwierz还计划将规模扩展至64000颗芯片。虽然这一DIY作品在性能上无法与商业GPU竞争，但它展示了RISC-V开源架构在硬件极客项目中的灵活性与可玩性，也反映出当前GPU价格高企背景下，开源硬件社区的创新探索。",
-    "category": "半导体与先进制造",
-    "tags": [
-      "RISC-V",
-      "GPU",
-      "微控制器",
-      "开源硬件"
-    ],
-    "source": "Tom's Hardware",
-    "time": "7分钟前",
-    "ts": "2026-07-07T10:20:00+00:00",
-    "url": "https://www.tomshardware.com/maker-stem/modder-creates-8-192-core-gpu-at-home-out-of-risc-v-microcontrollers-full-graphics-card-will-draw-over-2-000-watts-of-power-requires-a-3d-printer-to-program",
-    "image": "https://cdn.mos.cms.futurecdn.net/e4hjpmTtr7XMNRRsZBBYBm-1280-80.png",
-    "stocks": []
-  },
-  {
-    "id": "07ba570e007acb89",
-    "title": "联想海外发布新Legion Pro 5游戏本锐龙版",
-    "summary": "联想在海外市场推出全新Legion Pro 5 16AFR10锐龙版游戏本，最高可选英伟达RTX 5070 12GB移动版显卡，配备16英寸240Hz OLED屏幕。",
-    "body": "7月7日消息，联想在海外市场发布全新Legion Pro 5 16AFR10锐龙版游戏本。该机搭载AMD锐龙9 9955HX处理器，拥有16个Zen 5核心，TDP可达55W；最高可选配32GB内存与英伟达RTX 5070 12GB移动版显卡，显存较原有8GB版本增加50%。显示方面，该笔记本采用16英寸OLED面板，分辨率为2560×1600，最高刷新率240Hz，SDR峰值亮度500nits，HDR峰值亮度可达1100nits。接口包括USB-A 5Gbps、USB-C 10Gbps、HDMI、RJ-45等，内置80Wh电池。目前该产品尚未在联想官网上架，但已出现在官方PSREF数据库，预计将于晚些时候发售。",
-    "category": "消费电子",
-    "tags": [
-      "联想",
-      "游戏本",
-      "OLED",
-      "RTX 5070"
-    ],
-    "source": "IT之家",
-    "time": "9分钟前",
-    "ts": "2026-07-07T10:17:54+00:00",
-    "url": "https://www.ithome.com/0/973/705.htm",
-    "image": "https://img.ithome.com/newsuploadfiles/2026/7/7ba48548-83cc-4be3-985d-664fba291197.jpg?x-bce-process=image/format,f_auto",
-    "stocks": [
-      {
-        "name": "联想集团",
-        "ticker": "0992.HK",
-        "reason": "新品为联想旗下Legion系列高端游戏本，有望带动其高端PC销售",
-        "confidence": "medium"
-      }
-    ]
-  },
-  {
-    "id": "2d602876fd97f285",
-    "title": "星际原点连获两轮数千万元融资，布局太空算力卫星",
-    "summary": "太空算力卫星系统解决方案商星际原点近期完成种子轮与天使轮融资，累计数千万元，核心团队来自北斗三号及哈工大，计划将GPU算力搬上低轨卫星，在太空部署数据中心。",
-    "body": "36氪消息，星际原点航天科技（上海）有限公司近期连续完成种子轮、天使轮两轮融资，累计规模数千万元。种子轮由九合创投投资，天使轮由九合创投、梅花创投和上海科创集团策源基金联合领投，上海天使会以联合投资形式参与，一苇资本担任独家财务顾问。\n\n公司成立于2025年，聚焦太空算力卫星。核心团队由中科院北斗三号核心骨干与哈工大专家联合组建，拥有北斗三号中高轨卫星10余颗、低轨互联网卫星30余颗的国家级工程研制经验。创始人孙小雷拥有超15年航天工程经验，曾在科研院所及头部商业航天公司担任卫星总体主任设计师和总师。\n\n星际原点旗舰产品“璇玑1号”为500公斤级低轨卫星，功率7千至10千瓦，可搭载9到16台算力载荷，计划将地面数据中心的GPU算力板卡搬上卫星，实现大语言模型在轨部署与地面终端调用。目前整星方案设计已初步完成，并在低成本大型柔性太阳翼、流体回路主动热控等关键技术上取得进展，旨在把太空数据中心成本降下来。",
-    "category": "商业航天",
-    "tags": [
-      "太空算力",
-      "商业航天",
-      "卫星互联网",
-      "数据中心"
-    ],
-    "source": "36氪",
-    "time": "刚刚",
-    "ts": "2026-07-07T10:14:24.519570+00:00",
-    "url": "https://36kr.com/p/3885413484163074?f=rss",
-    "image": "",
-    "stocks": []
-  },
-  {
     "id": "1fa3b25701142857",
     "title": "极兔速递接入支付宝AI生态",
     "summary": "7月7日，支付宝AI开放平台正式上线并开启邀测，极兔速递宣布已正式接入该AI生态。这一合作有望为快递物流场景引入更多AI能力，提升服务效率与用户体验。",
@@ -205,19 +222,38 @@ const newsData = [
     "stocks": []
   },
   {
+    "id": "cf308d2f8967ff06",
+    "title": "黑客用8192颗RISC-V微控制器自制“显卡” 功耗超2000瓦",
+    "summary": "硬件黑客Matthias Balwierz用8192颗RISC-V微控制器在家中自制出一台“显卡”，整机功耗高达2161瓦，需借助3D打印机完成编程。",
+    "body": "据Tom's Hardware报道，知名硬件黑客Matthias Balwierz（网名Bitluni）近日完成了一项大胆尝试：利用8192颗RISC-V微控制器（MCU）在家中自制了一台“显卡”。他本计划打造某种显示器，但受成本和难度限制，最终选择将RGB LED直接焊接到每颗MCU芯片上，使这台设备兼具GPU与显示功能。项目采用16×32像素的圆形电路板布局，形似经典Cray-1超级计算机。\n\n该装置目前分辨率为320×200，整机功耗高达2161瓦，在3.3伏电压下电流约655安培。Balwierz还计划将规模扩展至64000颗芯片。虽然这一DIY作品在性能上无法与商业GPU竞争，但它展示了RISC-V开源架构在硬件极客项目中的灵活性与可玩性，也反映出当前GPU价格高企背景下，开源硬件社区的创新探索。",
+    "category": "半导体与先进制造",
+    "tags": [
+      "RISC-V",
+      "GPU",
+      "微控制器",
+      "开源硬件"
+    ],
+    "source": "Tom's Hardware",
+    "time": "7分钟前",
+    "ts": "2026-07-07T10:20:00+00:00",
+    "url": "https://www.tomshardware.com/maker-stem/modder-creates-8-192-core-gpu-at-home-out-of-risc-v-microcontrollers-full-graphics-card-will-draw-over-2-000-watts-of-power-requires-a-3d-printer-to-program",
+    "image": "https://cdn.mos.cms.futurecdn.net/e4hjpmTtr7XMNRRsZBBYBm-1280-80.png",
+    "stocks": []
+  },
+  {
     "id": "07ba570e007acb89",
-    "title": "联想海外发布Legion Pro 5锐龙版游戏本",
-    "summary": "联想在海外市场推出全新Legion Pro 5 16AFR10锐龙版游戏本，最高可选英伟达RTX 5070 12GB显卡和16英寸240Hz OLED屏幕，搭载AMD锐龙9 9955HX处理器，预计将于晚些时候正式发售。",
-    "body": "联想近日在海外市场发布了全新Legion Pro 5 16AFR10锐龙版游戏本。这款新品搭载AMD锐龙9 9955HX处理器，拥有16个Zen 5核心，TDP可达55W；显卡方面最高可选英伟达RTX 5070 12GB移动版，相比原有的8GB版本显存容量提升50%；内存最高可选32GB，并配备16英寸OLED屏幕，分辨率为2560×1600，刷新率最高240Hz，SDR峰值亮度500nits，HDR峰值亮度可达1100nits。\n\n接口配置方面，该机型提供USB-A 5Gbps、USB-C 10Gbps、HDMI及RJ-45等接口，内置80Wh电池。目前该产品尚未在联想官网上架，但已出现在官方PSREF数据库中，预计将于晚些时候发售。作为联想拯救者系列的高端新品，其发布有助于进一步巩固联想在游戏笔记本市场的产品竞争力。",
+    "title": "联想海外发布新Legion Pro 5游戏本锐龙版",
+    "summary": "联想在海外市场推出全新Legion Pro 5 16AFR10锐龙版游戏本，最高可选英伟达RTX 5070 12GB移动版显卡，配备16英寸240Hz OLED屏幕。",
+    "body": "7月7日消息，联想在海外市场发布全新Legion Pro 5 16AFR10锐龙版游戏本。该机搭载AMD锐龙9 9955HX处理器，拥有16个Zen 5核心，TDP可达55W；最高可选配32GB内存与英伟达RTX 5070 12GB移动版显卡，显存较原有8GB版本增加50%。显示方面，该笔记本采用16英寸OLED面板，分辨率为2560×1600，最高刷新率240Hz，SDR峰值亮度500nits，HDR峰值亮度可达1100nits。接口包括USB-A 5Gbps、USB-C 10Gbps、HDMI、RJ-45等，内置80Wh电池。目前该产品尚未在联想官网上架，但已出现在官方PSREF数据库，预计将于晚些时候发售。",
     "category": "消费电子",
     "tags": [
-      "游戏本",
       "联想",
-      "RTX 5070",
-      "OLED屏幕"
+      "游戏本",
+      "OLED",
+      "RTX 5070"
     ],
     "source": "IT之家",
-    "time": "3分钟前",
+    "time": "9分钟前",
     "ts": "2026-07-07T10:17:54+00:00",
     "url": "https://www.ithome.com/0/973/705.htm",
     "image": "https://img.ithome.com/newsuploadfiles/2026/7/7ba48548-83cc-4be3-985d-664fba291197.jpg?x-bce-process=image/format,f_auto",
@@ -225,7 +261,7 @@ const newsData = [
       {
         "name": "联想集团",
         "ticker": "0992.HK",
-        "reason": "发布全新Legion Pro 5锐龙版游戏本，强化高端游戏本产品线",
+        "reason": "新品为联想旗下Legion系列高端游戏本，有望带动其高端PC销售",
         "confidence": "medium"
       }
     ]
