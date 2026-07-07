@@ -1,5 +1,24 @@
 const newsData = [
   {
+    "id": "c952b2091a7fbe26",
+    "title": "电子产品CE标志含义解读",
+    "summary": "CE标志是电子等设备进入欧洲经济区销售前常见的合规标识，代表制造商声明该产品符合欧盟相关健康、安全与环保指令的基本要求。",
+    "body": "CE标志（Conformité Européenne）常见于手机、充电器、家电等电子产品标签上，是制造商或其授权代表对产品符合欧盟指令要求作出的自我声明。带有该标志的商品可在欧洲经济区（EEA）自由流通，意味着其在电气安全、电磁兼容、有害物质限制等方面已达到欧盟设定的基本标准。\n\n对消费者而言，CE标志并非质量认证，而是产品满足欧盟市场准入条件的合规信号。购买带有CE标识的电子产品，可在一定程度上降低因不符合安全规范而带来的使用风险。\n\n该标识的适用范围和判定规则，也影响着消费电子品牌的产品设计、检测认证流程及出口策略。",
+    "category": "消费电子",
+    "tags": [
+      "CE认证",
+      "消费电子",
+      "产品安全",
+      "欧盟标准"
+    ],
+    "source": "Engadget",
+    "time": "2分钟前",
+    "ts": "2026-07-07T18:30:00+00:00",
+    "url": "https://www.engadget.com/2209022/what-ce-marking-means-on-electronics/",
+    "image": "https://www.engadget.com/img/gallery/heres-what-the-ce-mark-means-on-your-electronics/l-intro-1783367635.jpg",
+    "stocks": []
+  },
+  {
     "id": "035f3f331e838480",
     "title": "运动后低血压：从偶然发现到深入研究",
     "summary": "1981年西奈山医学院研究员William Fitzgerald慢跑后发现血压降低，这一现象后被命名为运动后低血压（PEH），并引发了长期的科学研究。康涅狄格大学学者Linda Pescatello是该领域的重要研究者之一。",
