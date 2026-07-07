@@ -1,26 +1,77 @@
 const newsData = [
   {
-    "id": "ceb6c94c77e9e271",
-    "title": "谷歌将于8月12日发布Pixel 11系列",
-    "summary": "谷歌宣布将于美国东部时间8月12日晚在纽约举行“Made by Google”发布会，届时有望正式推出Pixel 11系列手机及配件。",
-    "body": "据外媒报道，谷歌已向媒体发出邀请函，确认将于8月12日美国东部时间18:00在纽约举办硬件发布会，主题为“Made by Google”。此次活动时间安排在晚上，与以往早间发布会有所不同，邀请函中的动画也对新品进行了预热。市场普遍预计谷歌将在会上发布Pixel 11系列智能手机，并可能同步推出Pixel Watch、Pixel Buds等生态配件。\n\nPixel系列是谷歌软硬件一体化战略的重要载体，新一代产品预计将搭载升级版Tensor芯片与Android系统新特性，并进一步深化AI影像、端侧智能助手等功能。此次发布会的时间点和产品节奏，也将影响下半年高端安卓手机市场的竞争格局，以及谷歌在移动AI生态中的话语权。",
+    "id": "4b562b9fb8a74a1c",
+    "title": "Rivian R2新车被加价2万美元转售",
+    "summary": "科罗拉多州一名卖家在Cars.com上以7.99万美元挂牌一辆全新2027款Rivian R2 Performance，比官方指导价高出约2万美元，距Rivian开始向首批客户交付R2仅数周。",
+    "body": "据外媒报道，美国科罗拉多州利特尔顿的一位私人卖家在Cars.com平台上挂出一辆全新的2027款Rivian R2 Performance，标价7.99万美元，较Rivian官方售价高出约2万美元。该挂牌信息发布于7月1日，距离Rivian开始向首批客户交付R2仅过去数周时间。此类加价转售现象通常被视为新车市场需求旺盛、交付初期供应紧张的信号。不过，单个二手挂牌行为尚不足以全面反映Rivian R2的真实市场热度，仍需结合后续交付量和订单转化情况综合判断。",
+    "category": "未来能源",
+    "tags": [
+      "电动汽车",
+      "Rivian",
+      "新能源汽车"
+    ],
+    "source": "Electrek",
+    "time": "1分钟前",
+    "ts": "2026-07-07T17:28:37+00:00",
+    "url": "https://electrek.co/2026/07/07/rivian-r2-flip-80000-over-sticker/",
+    "image": "https://electrek.co/wp-content/uploads/sites/3/2026/07/Rivian-R2-used-flip-80k.jpg?quality=82&#038;strip=all&#038;w=1594",
+    "stocks": [
+      {
+        "name": "Rivian Automotive",
+        "ticker": "RIVN",
+        "reason": "R2交付初期出现加价转售，反映市场对新车的关注度与需求热度",
+        "confidence": "low"
+      }
+    ]
+  },
+  {
+    "id": "84cf711f484ed4a3",
+    "title": "Netflix联手《综艺》《滚石》推出2-20分钟短视频内容",
+    "summary": "流媒体平台Netflix宣布与《综艺》《滚石》等数字出版商合作，在其平台上线时长2至20分钟的短视频内容，进一步拓展内容形态。",
+    "body": "据外媒报道，流媒体巨头Netflix正通过与数字出版商达成新合作，试水更短的视频内容。该公司已与《综艺》（Variety）和《滚石》（Rolling Stone）等达成合作，在其平台引入时长2至20分钟的视频节目。这标志着Netflix在原有长视频、剧集和电影之外，进一步丰富内容矩阵，尝试覆盖偏好短视频的用户群体。分析人士认为，这一布局有望扩大Netflix的用户触达、提升平台粘性，并可能为其含广告订阅套餐创造新的变现机会。",
     "category": "消费电子",
     "tags": [
+      "Netflix",
+      "短视频",
+      "流媒体",
+      "内容合作"
+    ],
+    "source": "TechCrunch",
+    "time": "5分钟前",
+    "ts": "2026-07-07T17:24:35+00:00",
+    "url": "https://techcrunch.com/2026/07/07/netflix-dabbles-in-shorter-video-content-with-its-new-set-of-publisher-deals-with-variety-others/",
+    "image": "",
+    "stocks": [
+      {
+        "name": "奈飞",
+        "ticker": "NFLX",
+        "reason": "公司直接推出短视频内容合作，有望扩大用户群并丰富内容矩阵",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "ceb6c94c77e9e271",
+    "title": "谷歌宣布8月12日纽约发布Pixel 11",
+    "summary": "谷歌向The Verge发出邀请函，宣布将于8月12日晚间在纽约举办“Made by Google”发布会，推出Pixel 11系列硬件。此次活动时间定于美国东部时间晚6点，较以往偏晚。",
+    "body": "据谷歌发送给The Verge的邀请函，谷歌将于今年8月12日在纽约举行“Made by Google”新品发布会，主角为Pixel硬件，预计包括Pixel 11系列智能手机。此次活动 unusually 安排在晚间6点（美国东部时间）开场，邀请函中的简短动画也在暗示新品信息。Pixel系列作为谷歌自有硬件生态的核心，其年度更新通常伴随Android新功能、影像能力和AI特性的升级，因而受到消费电子市场关注。",
+    "category": "消费电子",
+    "tags": [
+      "谷歌",
+      "Pixel 11",
       "智能手机",
-      "Pixel",
-      "谷歌硬件",
-      "AI影像"
+      "硬件发布"
     ],
     "source": "The Verge",
-    "time": "5分钟前",
+    "time": "7分钟前",
     "ts": "2026-07-07T13:22:48-04:00",
     "url": "https://www.theverge.com/tech/962313/made-by-google-pixel-11-launch-event",
     "image": "",
     "stocks": [
       {
-        "name": "Alphabet（谷歌）",
+        "name": "Alphabet",
         "ticker": "GOOGL",
-        "reason": "Pixel 11发布直接关联谷歌硬件业务与移动AI生态，影响其消费电子收入与生态布局。",
+        "reason": "作为Pixel品牌的母公司，新品发布有望直接带动硬件销量与安卓生态关注度。",
         "confidence": "high"
       }
     ]
@@ -28,17 +79,17 @@ const newsData = [
   {
     "id": "314b390268d3eaa3",
     "title": "神经阻滞可显著减少心脏术后阿片类药物使用",
-    "summary": "一项由圣迈克尔医院主导的临床试验发现，神经阻滞麻醉技术能显著降低心脏手术后的阿片类药物用量，可能改变开胸术后镇痛方式。",
-    "body": "圣迈克尔医院研究人员主导的临床试验显示，神经阻滞——一种使身体特定部位失去知觉的麻醉技术——在心脏手术后显著减少了阿片类药物的使用。研究团队表示，这一发现有望重塑开胸手术后这类成瘾性药物的使用方式。\n\n阿片类药物广泛用于术后镇痛，但长期使用存在成瘾风险。该试验为采用局部神经阻滞减少全身性镇痛药需求提供了有力证据，可能推动心脏术后镇痛策略的优化，降低患者对阿片类药物的依赖。",
+    "summary": "圣迈克尔医院主导的一项临床试验发现，神经阻滞麻醉技术可显著降低心脏手术后的阿片类药物用量，这一发现或将改变开胸术后镇痛用药方式。",
+    "body": "圣迈克尔医院研究人员主导的一项临床试验显示，作为一种麻醉技术，神经阻滞通过使身体特定部位失去知觉，能够显著减少心脏手术后的阿片类药物使用。\n\n研究人员指出，这一发现可能改变开胸手术后潜在成瘾性镇痛药物的使用方式，为术后疼痛管理提供一种更安全、有效的替代方案。\n\n该研究成果发表在医学新闻平台MedicalXpress上，进一步支持了神经阻滞在心脏外科围术期镇痛中的临床价值。",
     "category": "生物医药",
     "tags": [
       "神经阻滞",
       "阿片类药物",
-      "心脏手术",
+      "心脏外科",
       "术后镇痛"
     ],
     "source": "MedicalXpress",
-    "time": "8分钟前",
+    "time": "10分钟前",
     "ts": "2026-07-07T13:20:10-04:00",
     "url": "https://medicalxpress.com/news/2026-07-clinical-trial-strong-evidence-nerve.html",
     "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/surgery-5.jpg",
@@ -46,18 +97,18 @@ const newsData = [
   },
   {
     "id": "f22af06dc5aaebec",
-    "title": "研究发现父母大屠杀创伤或增加子女精神分裂症风险",
-    "summary": "一项发表于《美国精神病学杂志》的研究显示，父母在童年时期经历纳粹初期迫害的后代，数十年后患精神分裂症的风险显著升高。",
-    "body": "该研究探讨了父母在大屠杀期间遭受的创伤是否会对子女的精神健康产生跨代影响。结果发现，若父母在5岁以上时经历过纳粹初期迫害，其子女出生数十年后患精神分裂症的风险明显上升。研究者将这一现象称为“受孕前回声”，认为它揭示了童年特定阶段对创伤的敏感窗口，提示重大历史暴行的阴影可能悄然延续至下一代。该发现为理解创伤的代际传递机制及精神疾病的早期预防提供了新视角。",
+    "title": "新研究：父母大屠杀创伤或增加子女精神分裂症风险",
+    "summary": "一项发表于《美国精神病学杂志》的研究显示，童年时期经历纳粹最初迫害的大屠杀幸存者，其多年后出生的子女患精神分裂症的风险更高。",
+    "body": "研究强调了识别创伤易感窗口的重要性，并提示历史暴行的阴影可能以潜移默化的方式影响后代心理健康。该发现可能为精神分裂症等精神疾病的早期干预和风险评估提供新的公共卫生视角。",
     "category": "生物医药",
     "tags": [
-      "精神卫生",
-      "创伤代际传递",
+      "精神健康",
       "精神分裂症",
-      "表观遗传"
+      "代际创伤",
+      "医学研究"
     ],
     "source": "MedicalXpress",
-    "time": "8分钟前",
+    "time": "10分钟前",
     "ts": "2026-07-07T13:20:03-04:00",
     "url": "https://medicalxpress.com/news/2026-07-parental-holocaust-trauma-linked-higher.html",
     "image": "https://scx1.b-cdn.net/csz/news/tmb/2025/holocaust.jpg",
@@ -1165,6 +1216,25 @@ const newsData = [
     "time": "12分钟前",
     "ts": "2026-07-07T14:35:42+00:00",
     "url": "https://techcrunch.com/2026/07/07/ai-law-startup-norm-raises-120m-hits-unicorn-valuation/",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "c503256b26dd2ca3",
+    "title": "欧盟Chat Control 1.0与2.0法案解读",
+    "summary": "文章对欧盟“Chat Control”提案的两个版本进行说明，该法案旨在通过扫描私人通信打击儿童性虐待内容，但引发加密隐私与大规模监控争议。",
+    "body": "Chat Control是欧盟委员会提出的一项立法提案，要求数字平台检测并报告私人通信中的儿童性虐待材料（CSAM）。Chat Control 1.0指最初版本，因要求全面扫描加密消息而遭到隐私倡导者和科技界的强烈反对。Chat Control 2.0则是后续调整版本，试图在打击犯罪与保护端到端加密之间寻求平衡，但仍存在被滥用于大规模监控的风险。该法案的走向将对全球加密通信、隐私保护和平台监管产生重要示范效应。",
+    "category": "网络安全",
+    "tags": [
+      "网络安全",
+      "隐私保护",
+      "加密通信",
+      "欧盟监管"
+    ],
+    "source": "Hacker News",
+    "time": "3小时前",
+    "ts": "2026-07-07T14:23:15+00:00",
+    "url": "https://fightchatcontrol.eu/chat-control-overview",
     "image": "",
     "stocks": []
   },
