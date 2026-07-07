@@ -1,5 +1,50 @@
 const newsData = [
   {
+    "id": "a39e7fb2b31cfd18",
+    "title": "AI引导肠癌筛查可提高检测率并降低死亡率",
+    "summary": "一项新研究显示，基于机器学习的AI系统识别出逾期未进行结直肠癌筛查的患者，有助于提高筛查率并显著降低死亡率。该研究发表于《Manufacturing & Service Operations Management》期刊。",
+    "body": "研究人员开发了一种机器学习程序，用于识别未按时进行结直肠癌筛查的患者，并通过AI引导的外展干预提升其筛查参与度。结果显示，该系统不仅提高了筛查率，还与死亡率的显著下降相关。结直肠癌是全球常见的恶性肿瘤之一，早期筛查对于提高治愈率至关重要，而AI技术的应用有望帮助医疗机构更高效地识别高风险人群、优化医疗资源分配。",
+    "category": "人工智能",
+    "tags": [
+      "人工智能",
+      "数字医疗",
+      "癌症筛查",
+      "机器学习"
+    ],
+    "source": "MedicalXpress",
+    "time": "刚刚",
+    "ts": "2026-07-07T13:40:06-04:00",
+    "url": "https://medicalxpress.com/news/2026-07-ai-outreach-cancer-screenings-mortality.html",
+    "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/patient-visit.jpg",
+    "stocks": []
+  },
+  {
+    "id": "23f42c96d5c54821",
+    "title": "谷歌宣布8月12日举行下一场Pixel发布会",
+    "summary": "谷歌宣布下一场Pixel发布会将于美国东部时间8月12日18点举行，预计将推出新一代Pixel智能手机及相关硬件产品。",
+    "body": "据报道，谷歌下一场Pixel发布会定于美国东部时间8月12日18点（北京时间8月13日早间）举行。作为谷歌一年一度的硬件发布活动，Pixel发布会通常会推出新款Pixel智能手机，并可能同步展示Android生态的新功能和相关AI能力。目前具体产品阵容和规格尚未正式公布，但该活动已受到消费电子市场及安卓生态用户的关注。",
+    "category": "消费电子",
+    "tags": [
+      "谷歌",
+      "Pixel",
+      "新品发布",
+      "智能手机"
+    ],
+    "source": "Engadget",
+    "time": "8分钟前",
+    "ts": "2026-07-07T17:32:15+00:00",
+    "url": "https://www.engadget.com/2209791/googles-next-pixel-event-is-on-august-12/",
+    "image": "https://www.engadget.com/img/gallery/googles-next-pixel-event-is-on-august-12/l-intro-1783445437.jpg",
+    "stocks": [
+      {
+        "name": "Alphabet（谷歌）",
+        "ticker": "GOOGL",
+        "reason": "Pixel为谷歌自有消费电子硬件产品线，发布会将推动新品关注度和潜在销量。",
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
     "id": "4b562b9fb8a74a1c",
     "title": "Rivian R2新车被加价2万美元转售",
     "summary": "科罗拉多州一名卖家在Cars.com上以7.99万美元挂牌一辆全新2027款Rivian R2 Performance，比官方指导价高出约2万美元，距Rivian开始向首批客户交付R2仅数周。",
@@ -49,6 +94,25 @@ const newsData = [
         "confidence": "high"
       }
     ]
+  },
+  {
+    "id": "43f608e672e33f2a",
+    "title": "美国制裁卢旺达企业：冲突矿产助长刚果东部战乱",
+    "summary": "美国以资助武装团体为由，对多家涉嫌通过非法矿产贸易获利的卢旺达企业实施制裁，旨在切断刚果民主共和国东部冲突矿产的融资链。",
+    "body": "美国宣布制裁一批卢旺达企业，指控其通过非法矿产交易为刚果民主共和国东部的武装组织提供资金。这些矿产主要包括锡、钽、钨、金等被广泛用于电子制造的“冲突矿产”。\n\n制裁意在打击 illicit minerals trade，削弱武装团体的经济来源，从而缓解当地长期战乱。此事也凸显全球关键矿产供应链在地缘政治与安全层面的脆弱性。\n\n分析人士认为，加强对卢旺达及相关贸易网络的监管，可能迫使国际矿产企业提升供应链溯源与透明度，但制裁效果仍取决于后续执法及国际合作。",
+    "category": "地缘科技",
+    "tags": [
+      "冲突矿产",
+      "美国制裁",
+      "卢旺达",
+      "刚果（金）"
+    ],
+    "source": "Al Jazeera",
+    "time": "17分钟前",
+    "ts": "2026-07-07T17:23:21+00:00",
+    "url": "https://www.aljazeera.com/video/newsfeed/2026/7/7/how-conflict-minerals-fuel-war-in-eastern-dr-congo-amid-us-sanctions?traffic_source=rss",
+    "image": "",
+    "stocks": []
   },
   {
     "id": "ceb6c94c77e9e271",
