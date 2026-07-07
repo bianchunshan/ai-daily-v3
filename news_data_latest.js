@@ -1,5 +1,69 @@
 const newsData = [
   {
+    "id": "588e9dbffd3a3bab",
+    "title": "Unix版权诉讼再起：IBM再遭Xinuos起诉",
+    "summary": "围绕2003年遗留代码的Unix版权侵权诉讼再度开庭。Xinuos（原SCO）指控IBM在AIX、z/OS及Linux中非法使用其拥有的Unix源代码。",
+    "body": "2021年Xinuos对IBM提起的版权诉讼仍在继续，双方于2024年6月22日再度出庭。Xinuos声称IBM在AIX、z/OS及Linux等产品中使用了双方1998至2001年合作开发Itanium版Unix时产生的SCO源代码，构成侵权并造成重大损失。此案可追溯至SCO时代，双方围绕Unix名称归属、IBM向Linux贡献的代码以及FreeBSD等议题已缠讼多年。该诉讼再次凸显企业级操作系统源代码归属与知识产权争议对科技行业的长期影响。",
+    "category": "网络安全",
+    "tags": [
+      "Unix",
+      "IBM",
+      "软件版权",
+      "诉讼"
+    ],
+    "source": "Tom's Hardware",
+    "time": "2分钟前",
+    "ts": "2026-07-07T10:45:00+00:00",
+    "url": "https://www.tomshardware.com/software/linux/unix-copyright-code-infringement-lawsuit-is-back-from-the-dead-ibm-still-under-fire-from-xinuos-about-2003-era-bytes",
+    "image": "https://cdn.mos.cms.futurecdn.net/U8WKeeZdxNUNhWEnavBWiK-1280-80.jpg",
+    "stocks": []
+  },
+  {
+    "id": "51216c5ee49993f5",
+    "title": "安克发布SoundCore 2蓝牙音箱，首发价329元",
+    "summary": "安克创新旗下SoundCore品牌在京东上架SoundCore 2无线蓝牙音箱，首发价329元，主打BassUp低频增强与24小时续航。",
+    "body": "安克创新近日在京东上架SoundCore 2无线蓝牙音箱，定价399元，首发价329元。该产品提供浅蓝色、黑色、白色三种配色，具备IPX7防水认证，整体尺寸为171x45x54mm，官方称其适合单手持握。\n\n该音箱搭载12W扬声器，采用BassUp技术强化低频表现，配备蓝牙6.0与5200mAh电池，官方标称至高可提供24小时续航。参数配置瞄准便携音频市场，强调户外场景与长续航体验。\n\n此次新品发布是安克在消费电子音频产品线的常规迭代，有助于巩固其在便携蓝牙音箱市场的竞争力，并可能带动相关品类的销售增长。",
+    "category": "消费电子",
+    "tags": [
+      "蓝牙音箱",
+      "安克创新",
+      "消费电子",
+      "音频设备"
+    ],
+    "source": "IT之家",
+    "time": "3分钟前",
+    "ts": "2026-07-07T10:44:19+00:00",
+    "url": "https://www.ithome.com/0/973/743.htm",
+    "image": "https://img14.360buyimg.com/pop/jfs/t1/461333/13/217/201362/6a320917F76b58a81/00835a05a015bf15.jpg",
+    "stocks": [
+      {
+        "name": "安克创新",
+        "ticker": "300866.SZ",
+        "reason": "公司推出SoundCore 2新品，直接利好其消费电子音频业务",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "6e1ba91dc26a2037",
+    "title": "Nothing Ear (3a) 耳机发布：支持通话录音与主动降噪",
+    "summary": "Nothing 发布 Ear (3a) 无线耳机，配备 12mm 动圈单元、三档主动降噪、蓝牙 6.0 与 LDAC，并支持通话录音和 AI 总结功能，售价 99 欧元。",
+    "body": "7 月 7 日，Nothing 发布定位介于 Ear (a) 与 Ear (3) 之间的新款真无线耳机 Nothing Ear (3a)，提供黑、白、黄、粉四种配色，售价 99 欧元。新品搭载 12mm 动圈单元，较 Ear (a) 增大 1mm，并优化 100Hz 以下低频表现；同时配备全新三档主动降噪系统，支持蓝牙 6.0、LDAC 编解码与最高 24bit/96kHz 的 Hi-Res Audio 播放。\n\n功能上，Ear (3a) 引入音频快照与通话录音，内置 32MB 存储，可录制本机侧通话、音乐及手机内音频，单次最长 60 秒，并支持预录制 15-30 秒内容；录音结束可自动转文字并由 AI 总结。耳机单次续航约 10 小时（关闭降噪），搭配充电盒可达 42 小时。这一更新强化了 Nothing 在音频与 AI 功能结合上的产品差异化。",
+    "category": "消费电子",
+    "tags": [
+      "无线耳机",
+      "主动降噪",
+      "AI 录音",
+      "TWS"
+    ],
+    "source": "IT之家",
+    "time": "10分钟前",
+    "ts": "2026-07-07T10:37:34+00:00",
+    "url": "https://www.ithome.com/0/973/740.htm",
+    "image": "https://img.ithome.com/newsuploadfiles/2026/7/de87b7c8-fce4-430a-a354-feb559a8e592.jpg?x-bce-process=image/format,f_auto",
+    "stocks": []
+  },
+  {
     "id": "57e856ad87d0a471",
     "title": "华硕a豆蓝牙音箱SP103上架：239元",
     "summary": "华硕在京东上架a豆蓝牙音箱SP103，搭载蓝牙6.0、内置2600mAh电池并支持AUX有线音频，售价239元。该产品提供多配色与10小时续航，进一步丰富华硕消费音频产品线。",
