@@ -37,16 +37,54 @@ const newsData = [
     "stocks": []
   },
   {
+    "id": "ff2a5b51bd2fd40f",
+    "title": "Anthropic将Claude Cowork Agent搬上手机",
+    "summary": "Anthropic让Claude Cowork Agent在手机端运行，即使用户合上笔记本，任务仍可在后台继续执行，进一步推动智能手机控制AI Agent的趋势。",
+    "body": "据Wired报道，Anthropic正将其Claude Cowork Agent从电脑扩展至智能手机。用户关闭笔记本后，Agent仍能在云端继续处理任务，并通过手机进行查看与管理。\n\n这一举措反映了AI行业正加速向“随时随地可控的智能体”演进：手机作为最普及的终端，有望成为AI Agent的主要交互与控制入口。对厂商而言，这意味着Agent需要在后台持久运行、跨设备同步，并保证任务执行的可靠性。\n\n如果智能手机 controlled agents 成为主流，AI应用的使用频次和场景将显著扩大，同时也对移动端的隐私、安全和云端算力提出更高要求。",
+    "category": "人工智能",
+    "tags": [
+      "AI Agent",
+      "Anthropic",
+      "智能手机",
+      "AI应用"
+    ],
+    "source": "Wired",
+    "time": "5分钟前",
+    "ts": "2026-07-07T16:00:00+00:00",
+    "url": "https://www.wired.com/story/shut-those-laptops-anthropic-puts-its-claude-cowork-agent-on-your-phone/",
+    "image": "https://media.wired.com/photos/6a4c0a029897ae33b7e202dc/master/pass/Cowork-Web-Mobile-Press-No-Logo-1920x1080.png",
+    "stocks": []
+  },
+  {
+    "id": "5a19554931075451",
+    "title": "Anthropic推出手机端Claude Cowork AI工具",
+    "summary": "Anthropic为旗下Claude推出手机端Cowork AI工具，Max订阅用户可率先体验，这意味着用户能通过手机直接调度Claude处理任务。",
+    "body": "Anthropic近日宣布，其Claude的Cowork功能已可在手机上使用，Max订阅用户将获得抢先体验权限。该工具允许用户指派和引导Claude完成各类工作流，此次扩展到移动端意味着用户可随时随地管理和追踪AI的执行进度。\n\n将AI代理能力从桌面端延伸至手机端，是Anthropic提升产品粘性与用户覆盖的重要一步，也反映出AI助手正从被动问答向主动协作演进。",
+    "category": "人工智能",
+    "tags": [
+      "Claude",
+      "Anthropic",
+      "AI应用",
+      "AI Agent"
+    ],
+    "source": "Engadget",
+    "time": "5分钟前",
+    "ts": "2026-07-07T16:00:00+00:00",
+    "url": "https://www.engadget.com/2209495/now-you-can-direct-anthropic-claude-cowork-ai-from-your-phone/",
+    "image": "https://www.engadget.com/img/gallery/now-you-can-direct-anthropics-claude-cowork-ai-from-your-phone/l-intro-1783433017.jpg",
+    "stocks": []
+  },
+  {
     "id": "e90c7aec57f5549d",
-    "title": "中国天问二号传回首张地球准卫星照片",
-    "summary": "中国小行星采样任务天问二号飞抵地球\"准卫星\"Kamo'oalewa附近，传回首张该天体照片。探测器将在未来近一年内利用11台科学仪器对其进行研究，随后尝试采样返回地球。",
-    "body": "中国首次小行星采样任务天问二号探测器已飞抵地球\"准卫星\"Kamo'oalewa附近，并于7月2日传回该天体的首张照片。该探测器于2025年发射，飞行约10亿公里后抵达距小行星约20公里的位置。照片显示，Kamo'oalewa是一颗直径约16至20米的不规则岩石天体。\n\n天问二号将在此后的近一年时间内，利用搭载的11台科学仪器对小行星进行全方位探测，之后尝试从其表面采集样品并返回地球。科学家推测，这颗准卫星可能是在100万至1000万年前，一次巨大撞击将月球碎片抛入太空后形成的。准卫星是一类绕太阳运行但轨道使其长期靠近地球的小天体，其轨道通常比真正的月球更不稳定。\n\n此次探测任务的进展标志着中国在深空探测与小行星采样领域迈出重要一步，有助于人类进一步理解近地天体的起源、演化及潜在威胁，同时为未来行星防御与深空资源探测积累关键技术与数据。",
+    "title": "中国公布首个地球准卫星Kamo'oalewa图像",
+    "summary": "中国天问二号探测器在飞行约10亿公里后，首次拍摄到地球准卫星Kamo'oalewa的近距离照片，任务后续将对其进行约一年科学探测并尝试采样返回。",
+    "body": "中国国家航天局的天问二号探测器于2025年发射，经过约10亿公里飞行，抵达距小行星2016 HO3（Kamo'oalewa）约20公里的位置，并传回首张近距离图像。新华社公布的照片显示，这颗直径约16至20米的不规则岩石呈不对称形态。\n\nKamo'oalewa属于“准卫星”，绕太阳运行的轨道使其长期靠近地球。科学家推测它可能是100万至1000万年前月球受巨大撞击后溅射出的碎片。探测器将利用11台科学仪器对其展开近一年研究，随后尝试表面采样并将样品送回地球。\n\n此次成像标志着中国首次小行星采样任务取得重要进展，有助于揭示近地小行星起源、月球撞击历史以及太阳系演化等科学问题。",
     "category": "商业航天",
     "tags": [
       "深空探测",
-      "小行星采样",
       "天问二号",
-      "准卫星"
+      "小行星采样",
+      "中国航天"
     ],
     "source": "Space.com",
     "time": "5分钟前",
