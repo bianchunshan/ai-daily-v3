@@ -1,5 +1,23 @@
 const newsData = [
   {
+    "id": "a7b8db7c67d8ee3b",
+    "title": "研究发现婴儿3个月大脑已能对音乐产生反应",
+    "summary": "一项研究表明，婴儿大脑在3个月大时已能识别音乐，到1岁时会开始随音乐自发运动，而与音乐节拍同步的能力则发育得更晚。",
+    "body": "一项新的研究显示，人类婴儿对音乐的反应能力出现得非常早：3个月大时，其大脑已能识别音乐；而跟随音乐的自发运动则在1岁左右开始出现。研究者指出，婴儿随音乐节奏做出协调动作的能力要在此之后才会逐步发展。该发现为了解人类音乐感知与运动协调的神经发育机制提供了新线索，虽然属于基础神经科学研究，但对儿童早期发展、音乐认知及相关神经科技应用具有参考意义。",
+    "category": "脑机接口",
+    "tags": [
+      "神经科学",
+      "婴儿发育",
+      "音乐认知"
+    ],
+    "source": "MedicalXpress",
+    "time": "6分钟前",
+    "ts": "2026-07-07T11:40:04-04:00",
+    "url": "https://medicalxpress.com/news/2026-07-babies-brains-music-months-age.html",
+    "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/babies-brains-respond.jpg",
+    "stocks": []
+  },
+  {
     "id": "e90223db54003150",
     "title": "福特召回逾4.2万辆Mustang Mach-E电动车",
     "summary": "福特因差速器存在断裂隐患，正在召回近4.3万辆Mustang Mach-E纯电SUV，问题可能导致车辆失去驱动力。",
@@ -211,6 +229,24 @@ const newsData = [
     "time": "5分钟前",
     "ts": "2026-07-07T11:02:30-04:00",
     "url": "https://www.theverge.com/games/962156/discord-accidental-bans-grid-images",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "f0115a73cf58d86e",
+    "title": "系统之系统优化气候变化决策选择",
+    "summary": "一项研究提出基于系统之系统的方法框架，用于筛选最优气候变化决策。该工作旨在整合多领域模型与目标，为气候减缓与适应策略提供更科学的优化支持。",
+    "body": "该材料来自 Hacker News 转发的一篇学术文章，标题为《A System of Systems for the Selection of Optimal Climate Change Decisions》。从标题判断，研究聚焦于如何运用“系统之系统”（System of Systems）工程思想，对应对气候变化的各种决策方案进行优化选择。这种方法通常需要协调能源、交通、农业、城市等多个子系统，并在经济、环境、社会等多重目标之间权衡取舍。\n\n若该方法有效，将有助于政策制定者和研究机构更系统地评估不同减排与适应路径的综合效益，提升气候决策的科学性与可操作性。其意义在于把分散的气候模型与决策工具整合为统一框架，为复杂气候治理问题提供更结构化的分析手段。",
+    "category": "未来能源",
+    "tags": [
+      "气候变化",
+      "系统优化",
+      "决策科学"
+    ],
+    "source": "Hacker News",
+    "time": "45分钟前",
+    "ts": "2026-07-07T15:00:25+00:00",
+    "url": "https://ieeexplore.ieee.org/document/11357917",
     "image": "",
     "stocks": []
   },
@@ -136102,12 +136138,12 @@ const newsData = [
   }
 ];
 const newsDigest = {
-  "text": "今日前沿聚焦未来能源安全、商业航天共享发射风险、AI医疗与机器人产业化提速，以及半导体架构新动向，科技监管议题同样引发关注。",
+  "text": "今日科技前沿聚焦：福特大规模召回Mustang Mach-E、SpaceX再发共享火箭、华为手表升级鸿蒙7腕上控家、欧盟Chat Control首轮通过、港理工发布糖尿病管理AI Agent。",
   "highlights": [
     "e90223db54003150",
     "513dfddd709693dc",
-    "9c13e981307062ae",
-    "5515e058f763bc78",
-    "e06eaffa395e45d8"
+    "0983c92314c36907",
+    "d9feb923244e744a",
+    "9c13e981307062ae"
   ]
 };
