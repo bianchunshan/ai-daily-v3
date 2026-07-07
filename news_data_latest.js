@@ -1,5 +1,23 @@
 const newsData = [
   {
+    "id": "6babc178e1a73ea9",
+    "title": "Claude Code新增模型与努力级别双设置",
+    "summary": "Anthropic旗下Claude Code新增模型与努力级别两种设置，用户可依据任务复杂度和出错原因灵活调配AI能力范围与执行深度。",
+    "body": "Claude Code新增了模型（model）和努力级别（effort）两项设置。模型选择决定AI的能力边界，更大模型如Claude Fable 5在基准测试中表现优于Claude Sonnet；努力级别不仅影响思考时间，还控制着读取文件数量、验证步骤以及多步骤任务的推进深度。\n\n在较高努力级别下，Claude会主动读取文件、运行测试并进行复核；在较低努力下，则更依赖用户主动提供上下文。该机制让用户能更精准地控制AI编程助手的行为模式。\n\n若Claude在已掌握上下文的情况下仍出错，建议切换至更强大的模型；若错误源于跳读文件或未运行测试，则应提高努力级别。这一调整反映出AI编程工具正朝着更精细化、可控化方向演进。",
+    "category": "人工智能",
+    "tags": [
+      "Claude",
+      "AI编程",
+      "智能体"
+    ],
+    "source": "AIHOT精选",
+    "time": "12分钟前",
+    "ts": "2026-07-07T14:21:59.722000+00:00",
+    "url": "https://claude.com/blog/claude-model-and-effort-level-in-claude-code",
+    "image": "",
+    "stocks": []
+  },
+  {
     "id": "cb3ca9eca9cbb61c",
     "title": "iRobot首推非机器人洗地机，同步更新五款Roomba",
     "summary": "iRobot发布了首款非机器人地板清洁机Roomba Electro Plus，同时推出吸力更强、体积更小的五款Roomba扫地机器人新品，进一步丰富家庭清洁产品矩阵。",
@@ -24,6 +42,25 @@ const newsData = [
         "confidence": "medium"
       }
     ]
+  },
+  {
+    "id": "7592bb376a1a5d93",
+    "title": "Ethan Mollick：前沿开放权重模型供给难以为继",
+    "summary": "沃顿商学院教授Ethan Mollick在社交平台表示，他不认为前沿开放权重模型的供给会无限期持续，甚至难以维持更长时间。这一判断若成真，将对依赖开放权重的大模型生态与研究产生深远影响。",
+    "body": "Ethan Mollick指出，一个关键原因使得前沿开放权重模型的持续供给面临不确定性，他不预期这类模型的“流动”会无限期延续，甚至不会持续太久。开放权重模型通常允许研究者、开发者和企业下载并在本地部署、微调与创新，是开源生态与AI应用多样化的重要基础。若前沿开放权重模型的供给减少，可能加剧AI能力向少数闭源厂商集中，影响学术研究的透明度、初创企业的创新路径以及下游行业的模型可及性与成本结构。",
+    "category": "人工智能",
+    "tags": [
+      "开放权重模型",
+      "大模型生态",
+      "AI开源",
+      "模型供给"
+    ],
+    "source": "AIHOT精选",
+    "time": "19分钟前",
+    "ts": "2026-07-07T14:14:57+00:00",
+    "url": "https://x.com/emollick/status/2074497401578996154",
+    "image": "",
+    "stocks": []
   },
   {
     "id": "cf92d43013581f02",
@@ -347,6 +384,32 @@ const newsData = [
         "ticker": "9618.HK",
         "reason": "作为自营销售渠道，iPhone大促可拉动平台GMV与消费电子品类收入",
         "confidence": "medium"
+      }
+    ]
+  },
+  {
+    "id": "0483f68cc86e63e9",
+    "title": "安克Soundcore睡眠耳机近半价促销",
+    "summary": "安克旗下Soundcore Sleep A20睡眠降噪耳机在Best Buy和Target降至99.99美元，较原价优惠约80美元，创下历史最低价。",
+    "body": "安克创新旗下音频品牌Soundcore推出的Sleep A20睡眠降噪耳机近日在美国零售商Best Buy和Target迎来大幅降价，售价降至99.99美元，比原价优惠约80美元，创下该产品历史最低价。\n这款耳机专为睡眠场景设计，采用被动降噪和物理遮噪结构，帮助用户隔绝环境噪音、提升入睡与睡眠质量，属于可穿戴健康助眠类消费电子产品。\n此次促销反映了安克在细分穿戴音频市场的布局，也显示出消费电子品牌正加速挖掘睡眠健康场景的产品机会。",
+    "category": "消费电子",
+    "tags": [
+      "可穿戴设备",
+      "睡眠科技",
+      "TWS耳机",
+      "安克创新"
+    ],
+    "source": "The Verge",
+    "time": "1小时前",
+    "ts": "2026-07-07T09:27:55-04:00",
+    "url": "https://www.theverge.com/gadgets/961962/anker-soundcore-sleep-a20-jbl-go-5-deal-sale",
+    "image": "",
+    "stocks": [
+      {
+        "name": "安克创新",
+        "ticker": "300866.SZ",
+        "reason": "新闻主角为该公司旗下Soundcore品牌睡眠耳机促销，直接利好其消费电子业务",
+        "confidence": "high"
       }
     ]
   },
@@ -135438,12 +135501,6 @@ const newsData = [
   }
 ];
 const newsDigest = {
-  "text": "亚马逊拟发债超250亿美元加码AI基建，谷歌参投德国核聚变公司，苹果Epic诉讼寻求暂停审理，iRobot首款非机器人洗地机面世，CAR-T联合放射药物有望攻克实体瘤。",
-  "highlights": [
-    "1dc8cf5a1b25d38c",
-    "33dbea17a278b22c",
-    "02c67cf99569fa0e",
-    "cb3ca9eca9cbb61c",
-    "af3d71fd3ccbd478"
-  ]
+  "text": "",
+  "highlights": []
 };
