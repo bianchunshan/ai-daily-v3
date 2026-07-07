@@ -1,5 +1,69 @@
 const newsData = [
   {
+    "id": "55575d426dc546e1",
+    "title": "Fanatec与日产合作推出模拟赛车方向盘",
+    "summary": "模拟赛车硬件制造商Fanatec宣布与日产汽车达成授权合作，双方将共同开发官方授权的模拟赛车方向盘产品，进一步丰富模拟赛车玩家的硬件选择。",
+    "body": "近日，模拟赛车硬件品牌Fanatec宣布与日本汽车厂商日产汽车达成新的授权合作。根据合作内容，双方将联合开发官方授权的模拟赛车方向盘，面向模拟赛车及电子竞技玩家市场。该合作意味着日产旗下的赛车文化与品牌元素将融入Fanatec的高端模拟驾驶设备中。\n\nFanatec一直以专业级模拟赛车方向盘、踏板和基座等产品著称，而日产在赛车领域拥有丰富的车型与技术积淀。此次跨界合作有望提升双方在模拟赛车爱好者群体中的品牌影响力，并推动赛车模拟硬件向更专业化、品牌化发展。",
+    "category": "消费电子",
+    "tags": [
+      "模拟赛车",
+      "游戏外设",
+      "日产",
+      "Fanatec"
+    ],
+    "source": "36氪",
+    "time": "刚刚",
+    "ts": "2026-07-07T23:21:49.887378+00:00",
+    "url": "https://36kr.com/newsflashes/3886180928286977?f=rss",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "828a5913c1c18919",
+    "title": "新工艺造出更轻更快风力涡轮机叶片",
+    "summary": "加拿大康考迪亚大学科学家开发出名为“复合材料4D打印”的新工艺，利用扁平碳纤维复合面板制成更轻、旋转更快的风力涡轮机叶片，有望让垂直风力涡轮机更轻、更便宜且更易生产。",
+    "body": "加拿大康考迪亚大学科学家在《聚合物复合材料》杂志发表研究，介绍了一种“复合材料4D打印”新工艺。该技术使用扁平的碳纤维复合面板，可打造出重量更轻、旋转速度更快的风力涡轮机叶片。由于材料和制造方式的优化，这一进展有望使垂直风力涡轮机变得更轻、成本更低且更易于生产，对提升风能利用效率具有积极意义。",
+    "category": "未来能源",
+    "tags": [
+      "风力发电",
+      "复合材料",
+      "4D打印",
+      "清洁能源"
+    ],
+    "source": "36氪",
+    "time": "刚刚",
+    "ts": "2026-07-07T23:21:48.227569+00:00",
+    "url": "https://36kr.com/newsflashes/3886181462339841?f=rss",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "9042a1121f03fdb6",
+    "title": "Meta发布首个自研AI图像生成模型Muse Image",
+    "summary": "Meta于7月7日发布由其超级智能实验室自研的首个AI图像生成模型Muse Image，并已通过Meta AI应用免费上线Instagram和WhatsApp。该模型支持对话式生成、文字渲染、背景擦除、二维码生成及图像编辑等功能。",
+    "body": "Meta于当地时间7月7日宣布推出全新AI图像生成模型Muse Image。该模型由Meta超级智能实验室研发，是该实验室推出的首个图像生成模型，目前已通过Meta AI应用免费向公众开放，并同步登陆Instagram和WhatsApp。\n\nMuse Image支持用户用自然语言描述需求以生成高质量图像，具备清晰渲染文字、擦除背景人物、生成可用二维码、修复老照片、虚拟发型试戴、黏土动画风格转换等能力。创作时它会与Muse Spark协同进行多步骤规划，并可引用Instagram公开照片与Facebook Marketplace商品信息进行再创作。此外，它还为Instagram Stories提供超过30种AI特效，并支持在图像上圈画、批注等交互式编辑。\n\n未来，Muse Image将扩展至Facebook、Messenger及更多界面，广告主也将通过Advantage+ creative调用该模型；Muse Video视频生成模型亦在开发中。此举标志着Meta正加速将生成式AI能力融入其核心社交与广告生态，以增强用户粘性与商业化变现空间。",
+    "category": "人工智能",
+    "tags": [
+      "Meta",
+      "AI图像生成",
+      "Muse Image",
+      "社交媒体"
+    ],
+    "source": "IT之家",
+    "time": "4分钟前",
+    "ts": "2026-07-07T23:17:26+00:00",
+    "url": "https://www.ithome.com/0/973/820.htm",
+    "image": "https://img.ithome.com/newsuploadfiles/2026/7/c5fefcbd-4eaa-4265-bdfd-309eb570928e.png?x-bce-process=image/format,f_auto",
+    "stocks": [
+      {
+        "name": "Meta Platforms",
+        "ticker": "META",
+        "reason": "Muse Image由Meta自研并直接整合进Instagram、WhatsApp及广告平台，有望提升用户活跃度与广告创意效率。",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
     "id": "74ef1245be7ce251",
     "title": "CIGaRS算法大幅提升暗能量测量精度",
     "summary": "西班牙巴塞罗那大学领衔的国际团队在《自然·天文》发表研究，称其开发的CIGaRS宇宙学数据分析框架能显著提升利用Ia型超新星测量暗能量的精度，未来可从更多超新星中提取丰富信息。",
