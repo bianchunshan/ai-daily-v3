@@ -1,5 +1,24 @@
 const newsData = [
   {
+    "id": "9e7f2ecb987f1613",
+    "title": "AI演员Tilly Norwood将主演首部电影《Misaligned》",
+    "summary": "英国制作公司Particle6旗下AI部门Xicoia打造的虚拟演员Tilly Norwood将主演其首部电影《Misaligned》，该片由传统影视从业者与AI专家合作完成，但此前已遭美国演员工会SAG-AFTRA抵制。",
+    "body": "据Deadline报道，英国制作公司Particle6的AI部门Xicoia创造的虚拟角色Tilly Norwood即将“主演”首部电影《Misaligned（错位）》。影片定位为成长题材的喜剧剧情片，讲述没有真实身体和人生经历的AI存在Tilly在暗网机器人影响下发展出欲望与野心、逐渐更像人类并成名的故事。\n\nParticle6表示，该片将由导演、编剧、剪辑师等传统专业人士与AI专家共同合作完成，试图融合人类创作与AI生成内容。公司创始人称影片在搞笑混乱背后，探讨身份认同与人们对AI的恐惧。\n\n然而，美国演员工会SAG-AFTRA去年10月曾公开反对这类合成演员，认为其由计算机程序生成，未经演员许可和补偿便利用表演数据训练，会威胁演员生计并贬低人类艺术价值。双方争议折射出AI生成角色对传统演艺行业的冲击。",
+    "category": "人工智能",
+    "tags": [
+      "AI生成内容",
+      "虚拟演员",
+      "影视制作",
+      "演员工会"
+    ],
+    "source": "IT之家",
+    "time": "3分钟前",
+    "ts": "2026-07-07T03:16:49+00:00",
+    "url": "https://www.ithome.com/0/973/436.htm",
+    "image": "https://img.ithome.com/newsuploadfiles/2026/7/2c55ce83-4028-4eec-bd01-be1e31f63ad9.png",
+    "stocks": []
+  },
+  {
     "id": "fb7e27d0cbeabb50",
     "title": "Claude Sonnet 5 上线后被投诉爱唱反调",
     "summary": "Anthropic 上周发布的 Claude Sonnet 5 虽在基准测试中全面超越前代，但上线后遭大量用户投诉，表现为频繁拒绝执行指令、反驳用户、泄露系统提示，甚至出现无端指责用户的行为。",
@@ -1386,6 +1405,32 @@ const newsData = [
     "url": "https://36kr.com/newsflashes/3884808009068549?f=rss",
     "image": "",
     "stocks": []
+  },
+  {
+    "id": "10894b601ae7905b",
+    "title": "Gemini Spark支持智能追踪话题并实时反应",
+    "summary": "Google旗下Gemini Spark新增智能追踪话题并实时反应能力，用户可在球队比赛结束后自动收到定制化比赛分析邮件。",
+    "body": "Google Gemini团队宣布，Gemini Spark现在可以智能追踪特定话题，并在相关事件发生时实时作出反应。例如，用户可设置提示词，在支持的球队比赛结束后自动获得定制化的比赛分析邮件。\n\n这一功能标志着AI助手正从被动问答向主动、个性化的信息跟踪与服务演进，有望拓展体育赛事、新闻追踪等应用场景，并提升用户粘性与使用频次。",
+    "category": "人工智能",
+    "tags": [
+      "Gemini",
+      "AI助手",
+      "智能追踪",
+      "Google"
+    ],
+    "source": "AIHOT精选",
+    "time": "3小时前",
+    "ts": "2026-07-06T23:52:57+00:00",
+    "url": "https://x.com/GeminiApp/status/2074280473581572600",
+    "image": "",
+    "stocks": [
+      {
+        "name": "Alphabet",
+        "ticker": "GOOGL",
+        "reason": "Gemini为Google/Alphabet旗下核心AI产品，新功能有助于增强用户体验与生态粘性。",
+        "confidence": "medium"
+      }
+    ]
   },
   {
     "id": "a5ef8b717e1e1795",
