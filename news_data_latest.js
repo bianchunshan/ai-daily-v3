@@ -1,18 +1,81 @@
 const newsData = [
   {
+    "id": "194a90b934065998",
+    "title": "研究验证基因评分工具诊断肺纤维化并预测预后",
+    "summary": "国际研究团队验证了一种基因评分工具，有望帮助医生诊断特发性肺纤维化，并识别死亡或需要肺移植的高危患者。该研究纳入超过57万人，由梅奥诊所和布莱根妇女医院共同领导。",
+    "body": "研究人员完成了一项国际性大规模研究，验证了一种基因评分工具在诊断特发性肺纤维化（IPF）和预测患者严重结局方面的潜力。通过分析超过57万人的数据，该工具可帮助医生更准确地识别病情可能快速恶化、甚至需要肺移植或面临死亡风险的患者。\n\n该研究由梅奥诊所与布莱根妇女医院共同主导，强调了遗传因素在肺纤维化发生发展中的作用。这一成果未来可能推动肺纤维化的早期筛查、精准分层和个体化治疗，改善患者预后。",
+    "category": "生物医药",
+    "tags": [
+      "肺纤维化",
+      "基因评分",
+      "精准医疗",
+      "特发性肺纤维化"
+    ],
+    "source": "MedicalXpress",
+    "time": "1分钟前",
+    "ts": "2026-07-07T17:40:08-04:00",
+    "url": "https://medicalxpress.com/news/2026-07-genetic-path-pulmonary-fibrosis-outcomes.html",
+    "image": "https://scx1.b-cdn.net/csz/news/tmb/2017/idiopathicpu.jpg",
+    "stocks": []
+  },
+  {
+    "id": "985a27ee7f92a32c",
+    "title": "研究发现电场可逐次组织记忆任务中的神经活动",
+    "summary": "一项新研究表明，大脑局部电场对神经元的影响（即“电突触耦合”）可解释同一记忆任务中神经活动的持续波动。",
+    "body": "人在执行相同记忆任务时，神经元的电活动每次都会出现波动，即便最终结果一致。一项新研究指出，这种持续波动很大程度上可由局部电场对神经元的影响来解释，该现象被称为“电突触耦合”（ephaptic coupling）。这一发现有助于理解大脑如何在重复任务中组织和协调神经活动，或为神经科学与脑机接口研究提供新的理论视角。",
+    "category": "脑机接口",
+    "tags": [
+      "神经科学",
+      "记忆研究",
+      "电突触耦合",
+      "脑电活动"
+    ],
+    "source": "MedicalXpress",
+    "time": "1分钟前",
+    "ts": "2026-07-07T17:40:02-04:00",
+    "url": "https://medicalxpress.com/news/2026-07-electric-fields-neural-trial-memory.html",
+    "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/electric-fields-help-g.jpg",
+    "stocks": []
+  },
+  {
+    "id": "7c8f954d80a6bcf1",
+    "title": "海韵电源计算器曝光英伟达RTX 50 Super显卡功耗",
+    "summary": "据Tom's Hardware报道，海韵（Seasonic）的电源功率计算器中出现英伟达尚未发布的RTX 5080 Super、RTX 5070 Ti Super与RTX 5070 Super，其整板功耗（TGP）较现有型号高出10%至17%。",
+    "body": "近日，电源厂商海韵在其PSU功率计算器中列出了英伟达尚未官宣的RTX 50 Super系列显卡，涉及RTX 5070 Super、RTX 5070 Ti Super与RTX 5080 Super，并给出了对应的TGP数据。数据显示，这三款新卡的整板功耗分别比原版提升10%、17%与15%，功耗增幅暗示其核心性能可能进一步增强。\n\n需要指出的是，英伟达官方尚未确认上述规格，且近期主要展会也未释放出明确的中期Super Refresh信号，因此这些数字仅供参考。不过，作为消费级GPU产品线的重要线索，此次曝光仍让市场对RTX 50系列的中期更新保持关注。\n\n若RTX 50 Super系列最终落地，将有助于填补现有产品线性能区间、刺激玩家换机需求，并可能对英伟达游戏与消费级图形业务形成正面催化。",
+    "category": "消费电子",
+    "tags": [
+      "英伟达",
+      "RTX 50 Super",
+      "显卡",
+      "功耗"
+    ],
+    "source": "Tom's Hardware",
+    "time": "7分钟前",
+    "ts": "2026-07-07T21:34:05+00:00",
+    "url": "https://www.tomshardware.com/pc-components/gpus/unannounced-nvidia-rtx-50-super-gpus-appear-in-seasonic-psu-calculator-unreleased-graphics-cards-shown-with-10-17-percent-higher-tgp-over-original-models",
+    "image": "https://cdn.mos.cms.futurecdn.net/CBBS7c4u3Y3LJcY55ryv2W-1280-80.jpg",
+    "stocks": [
+      {
+        "name": "英伟达",
+        "ticker": "NVDA",
+        "reason": "传闻中端/高端RTX 50 Super更新，功耗提升或代表性能升级，利好消费级GPU销售与市场预期",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
     "id": "919bdd124514872b",
-    "title": "OpenAI首席未来学家Joshua Achiam将离职",
-    "summary": "OpenAI首席未来学家Joshua Achiam即将离职，他已在OpenAI工作近九年，主要从事AI安全研究。",
-    "body": "据Wired报道，OpenAI首席未来学家Joshua Achiam将离开公司。Achiam在OpenAI任职近九年，专注于AI安全研究，并曾在马斯克诉奥尔特曼案中出庭作证。\n\n他的离职是OpenAI近期高管与核心研究人员流动的又一案例。外界可能据此进一步关注OpenAI的AI安全战略及内部治理稳定性，但其对产品路线图的直接影响仍有待观察。",
+    "title": "OpenAI首席未来学家Joshua Achiam离职",
+    "summary": "OpenAI首席未来学家Joshua Achiam即将离职，他已在OpenAI工作近九年，专注于AI安全研究，并曾在马斯克诉奥尔特曼案中出庭作证。",
+    "body": "据Wired报道，OpenAI首席未来学家Joshua Achiam将离开公司。Achiam在OpenAI任职近九年，主要研究人工智能安全，是该公司在该领域的重要成员之一。此前，他还在马斯克与奥尔特曼的法律纠纷审判中出庭作证，给人留下深刻印象。\n\n作为OpenAI内部长期负责AI安全与前瞻研究的核心人物，Achiam的离职可能对公司未来在AI安全治理和长期战略研究方面的人才布局产生影响。高管与顶尖研究人员的流动，也再次引发外界对OpenAI内部稳定性的关注。",
     "category": "人工智能",
     "tags": [
       "OpenAI",
-      "人工智能",
       "AI安全",
-      "高管变动"
+      "人才变动"
     ],
     "source": "Wired",
-    "time": "3分钟前",
+    "time": "11分钟前",
     "ts": "2026-07-07T21:30:00+00:00",
     "url": "https://www.wired.com/story/openai-chief-futurist-joshua-achiam-is-leaving-the-company/",
     "image": "https://media.wired.com/photos/6a431773890f52402e5ab8b7/master/pass/Joshua-Achiam-Leaving-OpenAI-Business-2274413917.jpg",
@@ -665,6 +728,25 @@ const newsData = [
         "confidence": "high"
       }
     ]
+  },
+  {
+    "id": "a9723771177ea764",
+    "title": "IEEE表彰机器人先驱福田敏男",
+    "summary": "国际电气电子工程师学会（IEEE）表彰机器人学家福田敏男，肯定其在生物医学机器人、微纳机器人及AI驱动自动化等领域的开创性贡献。",
+    "body": "福田敏男是机器人领域最多产的学者之一，发表2000余篇论文并著有多部专著。他的研究涵盖生物医学机器人系统、工业机器人、微纳机器人、机电一体化及AI驱动的自动化，并联合创办了IEEE/RSJ智能机器人与系统国际会议（IROS），该会议近40年后仍具影响力。\n\n他曾任IEEE 2020年度主席，是首位担任该职务的亚裔人士，并曾任日本“Moonshot”计划项目总监。此次获IEEE表彰，进一步凸显其在机器人学术、工程教育与全球科技治理方面的深远影响。",
+    "category": "机器人",
+    "tags": [
+      "机器人",
+      "具身智能",
+      "自动化",
+      "IEEE"
+    ],
+    "source": "IEEE Spectrum",
+    "time": "2小时前",
+    "ts": "2026-07-07T19:02:42+00:00",
+    "url": "https://spectrum.ieee.org/ieee-honors-toshio-fukuda",
+    "image": "https://spectrum.ieee.org/media-library/three-men-in-suits-onstage-smiling-as-one-presents-an-award-medal-in-a-box.jpg?id=67107362&width=980",
+    "stocks": []
   },
   {
     "id": "2f6112cc748a97a9",
