@@ -1,17 +1,18 @@
 const newsData = [
   {
     "id": "3a5bf3a3618d91a8",
-    "title": "Discord承认AI审核系统误封8000余名用户",
-    "summary": "Discord确认其AI内容审核系统存在漏洞，过去两个月将超过8000名用户的无害图片误判为有害内容并实施封禁。该事件暴露出AI审核在误判控制和透明度方面仍存风险。",
-    "body": "Discord承认，自5月以来，其AI自动审核系统因漏洞将电子表格、棋盘、游戏纹理乃至白灰色透明背景等无害图片错误标记为有害内容，导致超过8000名用户被误封。这一问题持续了约两个月，反映出基于机器学习的平台内容治理在边界识别和误判纠正上仍面临挑战。随着社交与内容平台 increasingly 依赖AI进行大规模审核，此次事件或将引发对算法透明度、申诉机制及监管责任的进一步关注。",
+    "title": "Discord承认AI审核漏洞误封8000余名用户",
+    "summary": "Discord承认其AI内容审核系统存在漏洞，过去两个月误将电子表格、棋盘、游戏纹理及白/灰透明背景等无害图片判定为有害内容，导致超8000名用户被错误封禁。",
+    "body": "据TechCrunch报道，Discord确认其AI内容审核系统的一个漏洞自5月起影响用户账号，至今已有超过8000名用户因无害图片被错误标记为有害内容而遭到封禁。这些被误判的图片包括电子表格、棋盘、游戏纹理以及白色或灰色透明背景等明显无害的内容。\n\nDiscord表示已识别出问题并着手恢复受影响的账号。此次事件暴露出生成式AI与自动化审核工具在内容识别上的误判风险，也引发了业界对平台依赖AI进行大规模内容治理时透明度与申诉机制的关注。对于依赖用户社区和创作者生态的社交平台而言，AI审核的可靠性将直接影响用户信任与监管合规。",
     "category": "人工智能",
     "tags": [
-      "内容审核",
-      "社交平台",
-      "算法误判"
+      "Discord",
+      "AI审核",
+      "内容安全",
+      "社交平台"
     ],
     "source": "TechCrunch",
-    "time": "刚刚",
+    "time": "6分钟前",
     "ts": "2026-07-07T19:28:38+00:00",
     "url": "https://techcrunch.com/2026/07/07/discord-admits-ai-moderation-bug-wrongfully-banned-users-over-harmless-images/",
     "image": "",
@@ -19,56 +20,37 @@ const newsData = [
   },
   {
     "id": "57580855c7f850fc",
-    "title": "MIT研究：小鼠脑干神经元将胡须触碰映射为距离",
-    "summary": "麻省理工学院团队在小鼠研究中发现，脑干神经元能够利用胡须的触觉信号估算物体与面部的距离，揭示了动物在黑暗环境中导航的神经机制。",
-    "body": "麻省理工学院大脑与认知科学教授、麦戈文脑研究所研究员Fan Wang团队开展的小鼠研究表明，小鼠仅通过胡须触碰墙壁和障碍物便能在黑暗中高效导航，其关键在于脑干神经元将触觉信号转化为对物体距离的空间判断。研究人员发现，这些神经元接收来自面部的初级触觉输入，并将其整合为与物体相对距离相关的表征，而不仅仅是简单的接触位置或力度信息。该发现有助于理解大脑如何从触觉线索构建空间地图，对未来神经假肢、触觉传感器及导航算法研究具有启发意义。",
+    "title": "MIT研究揭示小鼠脑干将胡须触觉映射为物体距离",
+    "summary": "麻省理工学院团队发现，小鼠脑干神经元能把胡须触碰信号转化为对物体距离的估计，揭示了哺乳动物黑暗导航的神经机制。",
+    "body": "麻省理工学院脑与认知科学教授、McGovern脑研究所研究员王帆（Fan Wang）团队在小鼠实验中发现，脑干中的神经元会整合胡须接触物体时产生的触觉信号，并据此计算出物体与面部的距离。这一机制解释了小鼠为何能在黑暗中仅靠胡须轻触墙壁和障碍物高效穿行。",
     "category": "脑机接口",
     "tags": [
       "神经科学",
-      "脑干神经元",
       "触觉感知",
+      "脑干神经元",
       "空间导航"
     ],
     "source": "MedicalXpress",
-    "time": "9分钟前",
+    "time": "14分钟前",
     "ts": "2026-07-07T15:20:10-04:00",
     "url": "https://medicalxpress.com/news/2026-07-brainstem-neurons-whisker-distance-reveals.html",
     "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/brainstem-neurons-map.jpg",
     "stocks": []
   },
   {
-    "id": "1754763ccc3d6c33",
-    "title": "Medicare减肥药覆盖计划或带来骨骼健康风险",
-    "summary": "美国Medicare新推出的GLP-1 Bridge计划旨在扩大GLP-1类减肥药物的可及性，以应对肥胖危机，但可能伴随骨密度下降等骨骼健康隐患。",
-    "body": "美国Medicare新近推出的GLP-1 Bridge计划，为更多患者提供可负担的GLP-1类减肥药物，以应对日益严峻的肥胖问题。然而，该计划在帮助减重的同时，可能带来骨骼健康方面的副作用，引发医学界对骨密度下降等风险的担忧。\n\n专家指出，体重快速下降与部分GLP-1药物作用机制可能对骨代谢产生影响，长期服用者需关注骨密度监测与骨折风险。该计划覆盖范围的扩大，或将使更多老年人群暴露于相关骨骼健康风险中，未来可能需要配套骨健康管理与监测措施。",
-    "category": "生物医药",
-    "tags": [
-      "GLP-1",
-      "Medicare",
-      "肥胖症",
-      "骨骼健康"
-    ],
-    "source": "MedicalXpress",
-    "time": "9分钟前",
-    "ts": "2026-07-07T15:20:08-04:00",
-    "url": "https://medicalxpress.com/news/2026-07-medicare-glp-bridge-bone-problems.html",
-    "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/glp-1-medications.jpg",
-    "stocks": []
-  },
-  {
     "id": "b3ffd50db77ce3cc",
-    "title": "Meta发布Muse Image：MSL首个图像生成模型",
-    "summary": "Meta推出其MSL首个图像生成模型Muse Image，已登陆WhatsApp与Instagram，并计划扩展至Messenger和Facebook。该模型具备高级推理能力，可理解复杂提示、融合多张照片生成高质量图像，并与Muse Spark智能体协作。",
-    "body": "Meta在Meta AI应用中正式上线Muse Image，这是其MSL系列首个图像生成模型。该模型目前已接入WhatsApp和Instagram，后续还将扩展至Messenger和Facebook等核心社交平台。据介绍，Muse Image可利用高级推理理解复杂提示，支持将多张照片无缝融合、在提示中引用图片、直接编辑以及使用预设风格生成高质量图像。\n\n结合相关推文，Muse Image还具备智能体特性：与Muse Spark配合工作时，可先对用户提示进行推理、搜索网络并规划，再生成图像，目标是首次尝试即可获得用户期望结果。此举显示Meta正加速将生成式AI与多模态能力深度整合进其社交应用生态，进一步提升用户粘性与AI产品化水平。",
+    "title": "Meta推出Muse Image图像生成模型并接入社交应用",
+    "summary": "Meta在Meta AI应用及WhatsApp、Instagram上线首个MSL图像生成模型Muse Image，并计划扩展至Messenger和Facebook。",
+    "body": "Meta正式发布MSL首个图像生成模型Muse Image，并已在Meta AI应用、WhatsApp和Instagram上线，后续还将扩展至Messenger和Facebook。该模型具备高级推理能力，能够理解复杂提示，将多张照片无缝融合生成高质量图像，并支持预设风格、引用图片及直接编辑功能。\n\n据相关推文介绍，Muse Image还展现出智能体特性：与Muse Spark配合后，可先对用户提示进行推理、搜索网络并规划，再生成图像，目标是“一次生成即符合用户预期”。\n\n此次发布意味着Meta进一步将生成式AI能力深度整合进其庞大的社交应用生态，有望提升用户活跃度和AI服务粘性，同时加剧与OpenAI、Midjourney等图像生成产品的竞争。",
     "category": "人工智能",
     "tags": [
       "图像生成",
+      "多模态AI",
       "Meta",
-      "AI应用",
-      "多模态模型"
+      "社交应用"
     ],
     "source": "AIHOT精选",
-    "time": "18分钟前",
+    "time": "23分钟前",
     "ts": "2026-07-07T19:11:10+00:00",
     "url": "https://x.com/testingcatalog/status/2074571946642059555",
     "image": "",
@@ -76,7 +58,7 @@ const newsData = [
       {
         "name": "Meta Platforms",
         "ticker": "META",
-        "reason": "Muse Image为Meta自有图像生成模型，直接利好其AI应用生态与社交平台粘性",
+        "reason": "Muse Image为Meta自研推出的图像生成模型，落地其社交与AI应用生态，直接利好公司AI产品矩阵。",
         "confidence": "high"
       }
     ]
@@ -84,26 +66,26 @@ const newsData = [
   {
     "id": "0230b62d6fa65937",
     "title": "谷歌Pixel 11发布会定档8月12日，或涨价",
-    "summary": "谷歌宣布将于8月12日在纽约举办Made By Google发布会，预计推出Pixel 11系列。新机可能配备背部“Pixel Glow”状态灯，并取消128GB基础存储，起售价或上涨。",
-    "body": "谷歌已向媒体发出邀请函，宣布下一届Made By Google发布会将于8月12日在纽约举行。虽然官方未明确命名，但预热图中的手机外形与近年Pixel系列高度相似，外界普遍预期Pixel 11系列将正式亮相。传闻称，Pixel 11 Pro与Pro Fold机型将略微减薄，并引入名为“Pixel Glow”的背面LED通知/状态灯，这是该机最显著的设计变化之一。\n\n配置方面，最新消息指出谷歌将不再为Pixel 11提供128GB基础存储，标准版和Pro版起步容量将提升至256GB。这一调整可能部分源于当前AI驱动下的零部件供应紧张，导致成本上升，从而带动终端售价上涨。对于旗舰机型而言，更大的基础存储也符合用户换机周期延长、本地数据需求增加的趋势。\n\n若传闻属实，Pixel 11系列的定价策略与硬件升级将直接影响谷歌在高端智能手机市场的竞争力，并可能反映AI算力与存储芯片供应链对整个消费电子行业的持续影响。",
+    "summary": "谷歌宣布将于8月12日在纽约举办Made By Google发布会，预计推出Pixel 11系列新机。受AI驱动元器件短缺影响，新机可能涨价，并配备“Pixel Glow”状态灯和256GB起步存储。",
+    "body": "谷歌已正式宣布下一次Made By Google发布会将于8月12日在纽约举行，邀请函图像显示新机外观与去年Pixel高度相似。传闻称Pixel 11系列将延续Pro和Pro Fold等机型，机身可能更轻薄，背部或将加入名为“Pixel Glow”的通知状态灯。\n\n配置方面，报道称谷歌将取消128GB基础存储版本，Pixel 11和Pixel 11 Pro有望以256GB起步。此外，受AI驱动元器件短缺影响，新机售价可能上涨。作为谷歌旗舰手机，Pixel 11的定价与供应链策略将直接影响其在高端智能手机市场的竞争力。",
     "category": "消费电子",
     "tags": [
-      "谷歌手机",
+      "谷歌",
       "Pixel 11",
       "智能手机",
       "消费电子"
     ],
     "source": "Ars Technica",
-    "time": "21分钟前",
+    "time": "26分钟前",
     "ts": "2026-07-07T19:08:34+00:00",
     "url": "https://arstechnica.com/gadgets/2026/07/googles-pixel-11-launch-event-is-set-for-august-12-with-possible-price-increases/",
     "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/07/Pixel-11-event-1152x648.jpg",
     "stocks": [
       {
-        "name": "Alphabet",
+        "name": "Alphabet（谷歌）",
         "ticker": "GOOGL",
-        "reason": "作为Pixel系列的制造商，新机发布及定价调整将直接影响其硬件业务收入与高端市场份额。",
-        "confidence": "medium"
+        "reason": "Pixel 11发布会直接利好谷歌硬件与AI生态",
+        "confidence": "high"
       }
     ]
   },
@@ -203,18 +185,18 @@ const newsData = [
   },
   {
     "id": "2f0420ed4a81d4ff",
-    "title": "GitHub被指或要求登录才能访问部分内容",
-    "summary": "有开发者在Hacker News发文称，GitHub部分功能（如stargazers信息）已对未登录用户返回404，质疑平台是否正效仿LinkedIn走向强制登录模式。",
-    "body": "近日，一名开发者在Hacker News发帖询问，GitHub是否正准备将部分内容置于登录墙之后。该用户表示，在检查其开源项目时，发现stargazers信息页面偶尔会对未登录用户返回404错误，因此猜测GitHub可能正在效仿LinkedIn，仅向注册用户开放访问权限。该帖引发社区讨论，但目前GitHub尚未就此作出官方回应。\n\n若开源代码仓库的访问权限收窄，可能影响开发者生态与开源社区的信息流通，也会改变公众对GitHub作为开放平台属性的认知。",
+    "title": "开发者质疑GitHub拟限制未登录用户访问",
+    "summary": "有开发者在Hacker News反映，GitHub部分页面（如stargazers信息）对未登录用户返回404，担心其可能效仿LinkedIn要求注册登录才能访问，影响开源项目公开性。",
+    "body": "近日，一名开发者在Hacker News发帖称，在检查开源项目可访问性时发现，GitHub上部分功能页面（如stargazers信息）对未登录用户返回404错误。该开发者猜测GitHub可能正准备效仿LinkedIn，逐步将内容访问限制为仅注册用户可见。这一讨论引发了社区对开源代码库公开性、平台治理及未登录用户体验的关注。若GitHub未来加大登录门槛，可能影响开源项目的传播、搜索引擎可索引性以及开发者生态的开放性。",
     "category": "网络安全",
     "tags": [
       "GitHub",
       "开源软件",
-      "登录墙",
-      "微软"
+      "平台治理",
+      "登录墙"
     ],
     "source": "Hacker News",
-    "time": "48分钟前",
+    "time": "54分钟前",
     "ts": "2026-07-07T18:40:40+00:00",
     "url": "https://news.ycombinator.com/item?id=48821803",
     "image": "",
@@ -349,18 +331,18 @@ const newsData = [
   },
   {
     "id": "ba65f95afd0a7521",
-    "title": "解密 View State 消息及其安全影响",
-    "summary": "一篇来自 Hacker News 的技术文章讨论了如何解密 View State 消息，这一话题与 Web 应用安全和加密机制分析相关，可能为攻防研究提供参考。",
-    "body": "View State 是部分 Web 框架用于在客户端保存页面状态的数据结构，其加密与完整性机制直接关系到应用安全。该文章聚焦于如何对 View State 消息进行解密，属于网络安全攻防与加密分析领域的技术探讨。虽然原文未披露具体漏洞或受影响产品，但此类研究有助于开发者评估状态管理机制，提升 Web 应用的安全防护水平。",
+    "title": "解密视图状态消息引发关注",
+    "summary": "Hacker News分享题为《Decrypting View State Messages》的技术文章，聚焦Web应用中视图状态消息的解密与分析，涉及应用安全和逆向研究领域。",
+    "body": "Hacker News平台出现一篇题为“Decrypting View State Messages”的技术文章，目前获得4个点赞、暂无评论。该主题围绕Web应用中的视图状态（View State）机制展开，探讨如何对相关加密或编码消息进行解密与分析。\n\n视图状态是部分Web框架用于在客户端与服务端之间保持页面状态的一种机制，若实现或配置不当，可能带来信息泄露或安全风险。此类技术讨论通常与Web应用安全测试、漏洞研究和渗透测试相关，可为开发人员与安全研究人员提供参考。",
     "category": "网络安全",
     "tags": [
       "网络安全",
       "Web安全",
-      "加密分析",
-      "攻防研究"
+      "逆向分析",
+      "加密技术"
     ],
     "source": "Hacker News",
-    "time": "57分钟前",
+    "time": "1小时前",
     "ts": "2026-07-07T18:32:26+00:00",
     "url": "https://zeroed.tech/blog/decrypting-viewstate-messages/",
     "image": "",
@@ -438,6 +420,32 @@ const newsData = [
     "url": "https://github.com/kklimuk/docx-cli",
     "image": "",
     "stocks": []
+  },
+  {
+    "id": "d57a4f6e1e1e5ba8",
+    "title": "任天堂Switch欧洲将停售，旧机生命周期进入尾声",
+    "summary": "受欧盟新法规要求消费电子设备电池须易于更换影响，任天堂宣布明年2月起在欧洲停售初代Switch。分析指出，尽管该主机已上市九年，但其销售仍具韧性，生命周期可能延续至下个十年初。",
+    "body": "任天堂周一宣布，因应欧盟即将实施的新电池法规，将于明年2月停止在欧洲销售初代Nintendo Switch。该法规要求多数消费电子产品配备可轻松更换的电池，任天堂选择为Switch 2进行合规设计，而非对多款旧机型进行改造，因此决定在该区域停售旧主机。这一变动不会影响欧洲以外市场的Switch供应。\n\nArs Technica对任天堂财报数据的分析显示，即便是最畅销的任天堂主机，硬件销量通常也会在上市约九年后趋于零。不过，Switch的市场表现相对坚挺，其商业生命可能延续到上市第二个十年的前半段。随着公司和市场注意力逐渐转向Switch 2，初代Switch的未来销售策略将成为观察重点。",
+    "category": "消费电子",
+    "tags": [
+      "任天堂",
+      "Switch",
+      "消费电子",
+      "欧盟电池法规"
+    ],
+    "source": "Ars Technica",
+    "time": "1小时前",
+    "ts": "2026-07-07T18:16:29+00:00",
+    "url": "https://arstechnica.com/gaming/2026/07/the-nintendo-switchs-days-are-numbered-but-what-is-that-number/",
+    "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/04/nintendo-switch-1152x648-1776887603.jpg",
+    "stocks": [
+      {
+        "name": "任天堂",
+        "ticker": "NTDOY",
+        "reason": "欧洲停售初代Switch可能小幅影响旧机销量，但公司可规避改造成本并集中资源推广Switch 2。",
+        "confidence": "high"
+      }
+    ]
   },
   {
     "id": "584f39fb3c897822",
@@ -8826,12 +8834,12 @@ const newsData = [
   {
     "id": "b29a21395768cd97",
     "title": "Hugging Face Storage接入SkyPilot，实现零出站费跨云存储",
-    "summary": "Hugging Face Storage成为SkyPilot一级后端，用户可通过hf://协议挂载存储桶或模型、数据集与Space仓库，结合SkyPilot跨20余家云及本地集群调度GPU任务。Hugging Face不收取出站与CDN费用，跨云读取数据无额外成本，存储单价低于AWS S3叠加出站费。",
-    "body": "Hugging Face Storage已作为一级后端集成至SkyPilot。开发者使用现有HFTOKEN，通过hf:// URL即可将Hugging Face Bucket（读写）或模型、数据集、Space仓库（只读）挂载到SkyPilot任务中，支持MOUNT（FUSE懒加载）与COPY两种模式。SkyPilot可将任务调度到20多家公有云、Kubernetes、Slurm及本地集群的任意可用GPU上。\n\n此次集成的核心优势在于成本与灵活性。Hugging Face不收取出站流量及CDN费用，意味着用户在不同云之间读取数据时无需承担额外的跨云 egress 成本；其存储定价为每月12至18美元/TB，低于AWS S3标准存储叠加出站费后的综合成本。此外，基于Xet技术的Bucket支持增量检查点与模型变体，仅存储和传输变化部分，进一步降低大模型训练与微调的存储开销。",
+    "summary": "Hugging Face Storage正式成为SkyPilot一级后端，用户可通过hf://协议挂载Hugging Face仓库或Bucket到任务中，并享受零出站费、跨云读取的低成本存储方案。",
+    "body": "Hugging Face Storage现已深度集成SkyPilot，作为其一级后端提供支持。开发者只需使用现有的HFTOKEN，即可通过hf:// URL将Hugging Face Bucket（读写）或模型、数据集、Space仓库（只读）挂载到SkyPilot任务中，支持MOUNT（FUSE懒加载）或COPY两种模式。SkyPilot则负责将任务调度到20多家云服务商、Kubernetes、Slurm及本地集群的可用GPU上。\n\n此次集成的一大亮点是成本优势：Hugging Face不收取出站及CDN费用，因此跨云读取数据无需额外成本，其存储定价为每月12-18美元/TB，低于AWS S3及其出站费用。此外，Bucket基于Xet技术构建，增量检查点和模型变体仅存储和传输变更部分，进一步提升效率。",
     "category": "AI 基础设施",
     "tags": [
-      "跨云存储",
-      "AI训练",
+      "云存储",
+      "跨云调度",
       "Hugging Face",
       "SkyPilot"
     ],
