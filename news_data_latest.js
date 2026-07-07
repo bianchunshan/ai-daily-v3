@@ -1,67 +1,21 @@
 const newsData = [
   {
     "id": "194a90b934065998",
-    "title": "研究验证基因评分工具诊断肺纤维化并预测预后",
-    "summary": "国际研究团队验证了一种基因评分工具，有望帮助医生诊断特发性肺纤维化，并识别死亡或需要肺移植的高危患者。该研究纳入超过57万人，由梅奥诊所和布莱根妇女医院共同领导。",
-    "body": "研究人员完成了一项国际性大规模研究，验证了一种基因评分工具在诊断特发性肺纤维化（IPF）和预测患者严重结局方面的潜力。通过分析超过57万人的数据，该工具可帮助医生更准确地识别病情可能快速恶化、甚至需要肺移植或面临死亡风险的患者。\n\n该研究由梅奥诊所与布莱根妇女医院共同主导，强调了遗传因素在肺纤维化发生发展中的作用。这一成果未来可能推动肺纤维化的早期筛查、精准分层和个体化治疗，改善患者预后。",
+    "title": "研究验证基因评分工具可诊断肺纤维化并预测预后",
+    "summary": "一项由梅奥诊所和布莱根妇女医院共同主导、覆盖超57万人的国际研究验证了一种基因评分工具，可帮助医生诊断特发性肺纤维化并识别高风险患者。",
+    "body": "研究人员开发并验证了一种基因风险评分工具，用于辅助诊断特发性肺纤维化（idiopathic pulmonary fibrosis, IPF）。该工具基于大规模人群的遗传数据分析，可帮助医生判断哪些患者更可能出现严重后果，包括死亡或需要肺移植。研究由梅奥诊所与布莱根妇女医院联合主导，共纳入超过57万名参与者，为IPF的早期识别和个体化风险评估提供了潜在的遗传学路径。若该工具未来能在临床上得到验证和推广，可能改善这种预后较差的间质性肺疾病的诊疗决策。",
     "category": "生物医药",
     "tags": [
       "肺纤维化",
       "基因评分",
-      "精准医疗",
-      "特发性肺纤维化"
+      "精准医疗"
     ],
     "source": "MedicalXpress",
-    "time": "1分钟前",
+    "time": "19分钟前",
     "ts": "2026-07-07T17:40:08-04:00",
     "url": "https://medicalxpress.com/news/2026-07-genetic-path-pulmonary-fibrosis-outcomes.html",
     "image": "https://scx1.b-cdn.net/csz/news/tmb/2017/idiopathicpu.jpg",
     "stocks": []
-  },
-  {
-    "id": "985a27ee7f92a32c",
-    "title": "研究发现电场可逐次组织记忆任务中的神经活动",
-    "summary": "一项新研究表明，大脑局部电场对神经元的影响（即“电突触耦合”）可解释同一记忆任务中神经活动的持续波动。",
-    "body": "人在执行相同记忆任务时，神经元的电活动每次都会出现波动，即便最终结果一致。一项新研究指出，这种持续波动很大程度上可由局部电场对神经元的影响来解释，该现象被称为“电突触耦合”（ephaptic coupling）。这一发现有助于理解大脑如何在重复任务中组织和协调神经活动，或为神经科学与脑机接口研究提供新的理论视角。",
-    "category": "脑机接口",
-    "tags": [
-      "神经科学",
-      "记忆研究",
-      "电突触耦合",
-      "脑电活动"
-    ],
-    "source": "MedicalXpress",
-    "time": "1分钟前",
-    "ts": "2026-07-07T17:40:02-04:00",
-    "url": "https://medicalxpress.com/news/2026-07-electric-fields-neural-trial-memory.html",
-    "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/electric-fields-help-g.jpg",
-    "stocks": []
-  },
-  {
-    "id": "7c8f954d80a6bcf1",
-    "title": "海韵电源计算器曝光英伟达RTX 50 Super显卡功耗",
-    "summary": "据Tom's Hardware报道，海韵（Seasonic）的电源功率计算器中出现英伟达尚未发布的RTX 5080 Super、RTX 5070 Ti Super与RTX 5070 Super，其整板功耗（TGP）较现有型号高出10%至17%。",
-    "body": "近日，电源厂商海韵在其PSU功率计算器中列出了英伟达尚未官宣的RTX 50 Super系列显卡，涉及RTX 5070 Super、RTX 5070 Ti Super与RTX 5080 Super，并给出了对应的TGP数据。数据显示，这三款新卡的整板功耗分别比原版提升10%、17%与15%，功耗增幅暗示其核心性能可能进一步增强。\n\n需要指出的是，英伟达官方尚未确认上述规格，且近期主要展会也未释放出明确的中期Super Refresh信号，因此这些数字仅供参考。不过，作为消费级GPU产品线的重要线索，此次曝光仍让市场对RTX 50系列的中期更新保持关注。\n\n若RTX 50 Super系列最终落地，将有助于填补现有产品线性能区间、刺激玩家换机需求，并可能对英伟达游戏与消费级图形业务形成正面催化。",
-    "category": "消费电子",
-    "tags": [
-      "英伟达",
-      "RTX 50 Super",
-      "显卡",
-      "功耗"
-    ],
-    "source": "Tom's Hardware",
-    "time": "7分钟前",
-    "ts": "2026-07-07T21:34:05+00:00",
-    "url": "https://www.tomshardware.com/pc-components/gpus/unannounced-nvidia-rtx-50-super-gpus-appear-in-seasonic-psu-calculator-unreleased-graphics-cards-shown-with-10-17-percent-higher-tgp-over-original-models",
-    "image": "https://cdn.mos.cms.futurecdn.net/CBBS7c4u3Y3LJcY55ryv2W-1280-80.jpg",
-    "stocks": [
-      {
-        "name": "英伟达",
-        "ticker": "NVDA",
-        "reason": "传闻中端/高端RTX 50 Super更新，功耗提升或代表性能升级，利好消费级GPU销售与市场预期",
-        "confidence": "high"
-      }
-    ]
   },
   {
     "id": "919bdd124514872b",
@@ -144,6 +98,25 @@ const newsData = [
         "confidence": "medium"
       }
     ]
+  },
+  {
+    "id": "d820f0177b39b108",
+    "title": "数据中心用电激增威胁特朗普“美国制造”计划",
+    "summary": "美国中西部“锈带”制造商的电费因数据中心能源需求攀升而大幅上涨，钢铁、制砖等企业利润空间受压，可能削弱特朗普重振本土制造业的“美国制造”计划。",
+    "body": "随着人工智能数据中心耗电激增，美国最大电网运营商PJM Interconnection所覆盖的13个州电力容量日趋紧张，工业用户被迫承担更高的月度容量电费。例如俄亥俄州拥有141年历史的Belden Brick砖厂，每月电费已从1600美元飙升至12000美元。\n\n美国钢铁制造商协会警告，PJM覆盖的“锈带”地区钢企每年因此多支付数千万美元电费，而电力成本占炼钢总成本的20%至40%。这直接挤压了本土制造业的利润空间，并与特朗普政府同时支持科技巨头扩张AI数据中心的政策目标形成张力。\n",
+    "category": "AI 基础设施",
+    "tags": [
+      "数据中心",
+      "电力成本",
+      "美国制造业",
+      "PJM电网"
+    ],
+    "source": "Ars Technica",
+    "time": "56分钟前",
+    "ts": "2026-07-07T21:03:07+00:00",
+    "url": "https://arstechnica.com/tech-policy/2026/07/us-manufacturers-energy-costs-soar-because-of-ai-data-center-demand/",
+    "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/07/Electric-Arc-Furnace-1152x648.jpg",
+    "stocks": []
   },
   {
     "id": "e378a1ce38e62e10",
@@ -265,6 +238,25 @@ const newsData = [
     "stocks": []
   },
   {
+    "id": "117a304f8e4c27bd",
+    "title": "美研究：部分地区三成献血者携带蜱叮咬红肉过敏抗体",
+    "summary": "美国CDC研究显示，部分地区高达30%的献血者携带α-半乳糖IgE抗体，远高于实际确诊人数；这意味着潜在红肉过敏风险人群可能远超此前估计，但发病机制与精准诊断仍有许多未知。",
+    "body": "《发病率和死亡率周报》发表的一项研究对美国多地献血样本进行检测，发现某些地区多达30%的献血者体内存在针对α-半乳糖的IgE抗体。这种双糖分子存在于牛、猪等非灵长类哺乳动物细胞上，也会通过孤星蜱等蜱虫唾液进入人体；部分被蜱叮咬者会产生相应抗体，进而在食用红肉、乳制品或明胶时触发过敏反应。\n\n美国疾控中心此前估计全国仅约0.14%的人口（最高约45万人）患有α-半乳糖综合征。新数据表明，实际携带相关抗体并可能面临风险的人数远高于确诊患者，提示这一罕见疾病的公共卫生影响可能被低估。\n\n不过研究者强调，当前对为何仅部分人出现临床症状、以及如何精准诊断仍知之甚少。该发现主要凸显了加强蜱传疾病监测和过敏机制研究的必要性，属于公共卫生与基础医学领域进展，短期内与上市公司无明确直接利好关联。",
+    "category": "生物医药",
+    "tags": [
+      "蜱传疾病",
+      "红肉过敏",
+      "公共卫生",
+      "生物医学"
+    ],
+    "source": "Ars Technica",
+    "time": "1小时前",
+    "ts": "2026-07-07T20:32:39+00:00",
+    "url": "https://arstechnica.com/health/2026/07/surprisingly-large-number-of-people-may-have-marker-for-tick-linked-meat-allergy/",
+    "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/07/GettyImages-2267590795-1152x648.jpg",
+    "stocks": []
+  },
+  {
     "id": "b8ee25d2f931dc06",
     "title": "Meta发布Muse图像模型，可将他人合成进AI照片",
     "summary": "Meta旗下Superintelligence Labs推出Muse图像生成模型，已接入Meta AI应用、Instagram和WhatsApp的图像生成功能，并计划扩展至Facebook与Messenger。",
@@ -378,6 +370,38 @@ const newsData = [
     "url": "https://medicalxpress.com/news/2026-07-radiotherapy-reprograms-immune-response-rare.html",
     "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/radiotherapy-reprogram.jpg",
     "stocks": []
+  },
+  {
+    "id": "babcb47e76205a92",
+    "title": "美国最高法院允许得州执行应用商店年龄验证法",
+    "summary": "美国最高法院拒绝介入相关上诉，得州可继续执行要求应用商店实施年龄验证的法律，诉讼仍在进行。科技巨头批评该法构成“审查制度”，并可能违反宪法第一修正案。",
+    "body": "美国最高法院近日决定不介入针对得州应用商店法案的诉讼挑战，允许该州在案件审理期间继续执行年龄验证相关规定。此前，联邦地区法官罗伯特·皮特曼于2025年12月发布初步禁令，认为该法可能违反第一修正案，并阻止其在原定2026年1月1日生效。然而，美国第五巡回上诉法院在6月4日搁置了该禁令，认为“没有合法理由阻止整部法案的执行”。\n\n代表大型科技公司的游说团体及学生权益倡导组织随后向最高法院申请恢复禁令，但未能成功。这一进展意味着得州《应用商店问责法》将暂时生效，应用商店运营商可能面临更严格的年龄验证与内容管理合规要求。\n\n该案反映出美国各州在数字平台治理上的监管趋严，也可能对应用商店商业模式、内容分发政策及跨州法律冲突产生深远影响。",
+    "category": "地缘科技",
+    "tags": [
+      "应用商店",
+      "年龄验证",
+      "科技监管",
+      "美国最高法院"
+    ],
+    "source": "Ars Technica",
+    "time": "1小时前",
+    "ts": "2026-07-07T20:18:24+00:00",
+    "url": "https://arstechnica.com/tech-policy/2026/07/supreme-court-lets-texas-enforce-age-verification-law-on-app-stores/",
+    "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/07/texas-flag-1152x648.jpg",
+    "stocks": [
+      {
+        "name": "苹果公司",
+        "ticker": "AAPL",
+        "reason": "作为iOS App Store运营方，得州新法直接增加其年龄验证与合规运营负担。",
+        "confidence": "high"
+      },
+      {
+        "name": "Alphabet",
+        "ticker": "GOOGL",
+        "reason": "作为Google Play应用商店运营方，该法对其内容审核、用户验证及平台政策构成直接影响。",
+        "confidence": "high"
+      }
+    ]
   },
   {
     "id": "699c98ee0a6603cb",
