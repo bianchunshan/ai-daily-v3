@@ -1,5 +1,81 @@
 const newsData = [
   {
+    "id": "b38a9261226ec8a2",
+    "title": "Discord安全系统漏洞致超8000用户被误封",
+    "summary": "游戏社交平台Discord承认，其安全系统的一个漏洞自今年5月以来错误封禁了超过8000个账户，用户因发布棋盘格、游戏纹理等“良性”图片而受影响。",
+    "body": "游戏社交平台Discord近日披露，其内容安全系统存在一个漏洞，自今年5月以来已导致超过8000个账户被误封。大量用户反馈，他们仅因发布包含网格、棋盘、游戏纹理以及《我的世界》物品栏等“良性”图片，就被平台自动判定违规并封禁。\n\nDiscord首席技术官Stanislav Vishnevskiy表示，公司正在修复该问题并恢复受影响账户。此次“过封”事件引发了外界对AI驱动内容审核系统可靠性的广泛质疑。\n\n随着各大互联网平台日益依赖自动化工具识别违规内容，Discord的案例凸显出算法误判可能带来的用户信任危机。这也可能促使业界和监管机构重新审视AI安全产品的准确性、透明度及申诉机制。",
+    "category": "人工智能",
+    "tags": [
+      "Discord",
+      "内容审核",
+      "AI安全",
+      "算法误判"
+    ],
+    "source": "The Verge",
+    "time": "5分钟前",
+    "ts": "2026-07-07T11:02:30-04:00",
+    "url": "https://www.theverge.com/games/962156/discord-accidental-bans-grid-images",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "78a8f7c147743b76",
+    "title": "新型红外皮肤传感器居家监测皮肤深层含水量",
+    "summary": "研究人员开发出一种红外皮肤传感器，可穿透皮肤深层追踪水合状态，且不受温度波动影响，有望帮助特应性皮炎患者在家中评估保湿效果。",
+    "body": "特应性皮炎（一种湿疹）的诊断与管理长期受皮肤温度波动、居家保湿剂效果不明确以及现有检测难以到达病变深层等因素困扰。传统测量手段多停留在皮肤表层，难以反映深层真实水合情况。\n\n新研发的红外皮肤传感器能够穿透皮肤深层，实时追踪水合水平，并对温度变化具有较好的鲁棒性，使患者在家中即可获得更客观的皮损信息。\n\n该技术为慢性皮肤病的居家监测和个性化护理提供了新工具，有望提升特应性皮炎等疾病的诊疗效率与患者依从性。",
+    "category": "生物医药",
+    "tags": [
+      "医疗器械",
+      "皮肤传感器",
+      "数字医疗",
+      "可穿戴"
+    ],
+    "source": "MedicalXpress",
+    "time": "8分钟前",
+    "ts": "2026-07-07T11:00:03-04:00",
+    "url": "https://medicalxpress.com/news/2026-07-infrared-skin-sensor-tracks-deeper.html",
+    "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/at-home-skin-care-impr.jpg",
+    "stocks": []
+  },
+  {
+    "id": "9c13e981307062ae",
+    "title": "香港理工大学推出首个精准糖尿病管理AI Agent",
+    "summary": "香港理工大学团队开发香港首个面向亚洲人群的精准糖尿病管理AI Agent“PIPE-AI”，可预测2型糖尿病患者未来10年并发症恶化风险，助力早期干预。",
+    "body": "香港理工大学研究团队研发出香港首个“精准糖尿病管理AI Agent——PIPE-AI”，并配套相关疾病风险预测模型。该系统专为亚洲人群设计，利用人工智能和大规模本地电子健康数据，更准确预测2型糖尿病患者未来10年内并发症恶化的风险，例如慢性肾病。研究成果已在《npj Digital Medicine》发表。\n\n这一AI Agent可帮助医护人员和患者及早识别高风险人群并实施干预，有望改善糖尿病管理和慢病预后。其基于本地人群数据训练，也凸显了区域化医疗AI模型在精准医疗中的潜力。",
+    "category": "人工智能",
+    "tags": [
+      "人工智能",
+      "糖尿病",
+      "精准医疗",
+      "数字医疗"
+    ],
+    "source": "MedicalXpress",
+    "time": "8分钟前",
+    "ts": "2026-07-07T11:00:01-04:00",
+    "url": "https://medicalxpress.com/news/2026-07-ai-agent-precision-diabetes.html",
+    "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/first-ai-agent-and-ris.jpg",
+    "stocks": []
+  },
+  {
+    "id": "6dd12a1c017faf62",
+    "title": "前NASA局长质疑阿尔忒弥斯登月器方案",
+    "summary": "前NASA局长吉姆·布里登斯廷质疑美国宇航局阿尔忒弥斯载人登月计划的着陆器架构过于复杂，认为其远不如阿波罗时代简洁高效，可能给任务进度带来风险。",
+    "body": "据美国航天资讯网站Space.com报道，曾在特朗普第一任期内担任NASA局长的吉姆·布里登斯廷在播客中表达了对阿尔忒弥斯登月计划的担忧。他指出，当前NASA选定的SpaceX星舰与蓝色起源“蓝月”两款载人登月器研发进度均落后于猎户座飞船，整体架构“异常复杂”。\n\n布里登斯廷将阿尔忒弥斯方案与阿波罗计划作对比，认为后者尽可能简化设计，因此能在肯尼迪总统提出目标后八年内实现登月。NASA目前计划由SpaceX或蓝色_origin其中一家的着陆器执行2028年的阿尔忒弥斯4号首次载人登月任务。此番质疑凸显了深空探测项目在进度、成本与工程复杂度上面临的严峻挑战。",
+    "category": "商业航天",
+    "tags": [
+      "阿尔忒弥斯计划",
+      "载人登月",
+      "NASA",
+      "深空探测"
+    ],
+    "source": "Space.com",
+    "time": "8分钟前",
+    "ts": "2026-07-07T15:00:00+00:00",
+    "url": "https://www.space.com/space-exploration/artemis/thats-going-to-come-back-and-bite-us-former-nasa-chief-questions-artemis-moon-lander-plans",
+    "image": "https://cdn.mos.cms.futurecdn.net/bruTov8DLw7mGZqFKDKSG8-1280-80.jpg",
+    "stocks": []
+  },
+  {
     "id": "5515e058f763bc78",
     "title": "前特斯拉Optimus科学家欧洲推出人形机器人公司",
     "summary": "曾在特斯拉Optimus人形机器人项目任职的科学家Rémi Cadène，在巴黎创立初创公司UMA，并发布名为Northstar的轻量化人形机器人。该公司称已与50家潜在客户展开洽谈。",
