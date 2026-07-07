@@ -1,5 +1,87 @@
 const newsData = [
   {
+    "id": "f3f2e7463ce5819b",
+    "title": "研究发现与强迫症因果相关的脑回路",
+    "summary": "一项神经精神疾病研究识别出与强迫症（OCD）存在因果关联的脑回路，或将为理解及干预该疾病提供新靶点。该研究聚焦于反复洗手、检查门锁等强迫行为背后的神经机制。",
+    "body": "强迫症是一种可严重致残的神经精神疾病，患者常反复洗手、淋浴，或不断检查煤气、门锁等，严重者甚至会因此无法离家、工作或维系社交关系。研究人员通过因果分析找到了与强迫症症状相关的特定脑回路，为揭示该疾病的神经基础迈出了关键一步。这一发现有望帮助开发更具针对性的神经调控或干预手段，改善患者生活质量。",
+    "category": "脑机接口",
+    "tags": [
+      "强迫症",
+      "脑回路",
+      "神经科学",
+      "精神疾病"
+    ],
+    "source": "MedicalXpress",
+    "time": "5分钟前",
+    "ts": "2026-07-07T13:00:11-04:00",
+    "url": "https://medicalxpress.com/news/2026-07-brain-circuits-causally-ocd.html",
+    "image": "https://scx1.b-cdn.net/csz/news/tmb/2021/brain-circuit.jpg",
+    "stocks": []
+  },
+  {
+    "id": "81fe9d6947f61df6",
+    "title": "肠道关键蛋白调控免疫保护与耐受平衡",
+    "summary": "康奈尔医学院主导的研究发现，肠道免疫细胞产生的一种蛋白质能够同时协调对病原体的免疫保护和对肠道菌群的免疫耐受，或为炎症性肠病带来更精准疗法。",
+    "body": "由威尔·康奈尔医学院研究人员主导的一项研究发现，肠道免疫细胞分泌的一种蛋白质同时调控着两个看似矛盾的免疫功能：一方面抵御病原体入侵，另一方面维持对肠道共生菌群的耐受。这一机制揭示了肠道免疫系统复杂的生物学基础。\n\n研究人员指出，该蛋白是协调肠道免疫反应与耐受的关键因子，其功能失衡可能与炎症性肠病（IBD）等肠道疾病的发生发展相关。这一发现为开发更具针对性的IBD治疗手段提供了新的潜在靶点和研究方向。\n\n目前该研究仍处于基础科学阶段，尚未进入临床试验或药物开发阶段，但其对理解肠道免疫稳态及相关疾病机制具有重要意义。",
+    "category": "生物医药",
+    "tags": [
+      "肠道免疫",
+      "炎症性肠病",
+      "免疫治疗",
+      "生物医学"
+    ],
+    "source": "MedicalXpress",
+    "time": "5分钟前",
+    "ts": "2026-07-07T13:00:05-04:00",
+    "url": "https://medicalxpress.com/news/2026-07-key-gut-protein-immune-tolerance.html",
+    "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/key-gut-protein-balanc.jpg",
+    "stocks": []
+  },
+  {
+    "id": "7b5c1e41af4b3bef",
+    "title": "评论：公私合作可将火星变为经济新边疆",
+    "summary": "Space.com刊发的评论文章指出，私营部门与NASA等航天机构合作，是将火星从探索目标转化为可持续经济前沿的关键；这一前景取决于当下的公共领导、商业参与与国际协作选择。",
+    "body": "文章认为，尽管完全由私营资金主导的人类火星任务在复杂性和成本上尚不现实，但商业部门与NASA等航天机构的合作，对于实现人类在火星的持续存在至关重要。国家航天机构的作用不仅限于资助任务，还涵盖维护研究生态、测试设施、安全标准、行星科学项目和国际伙伴关系，这些都是商业产业发展的基础。\n\n作者强调，没有任何单一机构能够独自完成从探索到定居所需的全部技术、供应链、运输系统、生命支持工具、数字平台和表面基础设施开发。因此，商业参与并非“锦上添花”，而是将火星从理想目的地转变为可实现、具备经济基础的边疆的核心引擎。商业企业可带来更多突破常规的创意思维与执行能力，与政府机构的专长形成互补。\n\n文章指出，火星能否真正成为人类的新前沿，取决于我们今天在公共领导、商业 engagement 和国际合作方面所作的选择。这一公私合作模式不仅影响深空探测的未来，也将重塑全球航天经济的格局与竞争态势。",
+    "category": "商业航天",
+    "tags": [
+      "火星探索",
+      "公私合作",
+      "深空探测",
+      "NASA"
+    ],
+    "source": "Space.com",
+    "time": "5分钟前",
+    "ts": "2026-07-07T17:00:00+00:00",
+    "url": "https://www.space.com/space-exploration/how-public-private-partnerships-can-turn-mars-into-an-economic-frontier-op-ed",
+    "image": "https://cdn.mos.cms.futurecdn.net/mgPn3qGqcXRjJYygnng76g-1280-80.jpg",
+    "stocks": []
+  },
+  {
+    "id": "80a3b667c12c6861",
+    "title": "特斯拉在德国工厂发起电池初创企业挑战赛",
+    "summary": "特斯拉推出“Cell Giga Challenge”，邀请初创企业在柏林-勃兰登堡超级工厂的量产线上试点技术，以加速4680电池扩产。",
+    "body": "特斯拉宣布在其德国柏林-勃兰登堡超级工厂启动“Cell Giga Challenge”计划，向外部初创企业开放现有电池电芯生产线，供其试点新技术。该计划正值特斯拉推进4680电池在格伦海德工厂量产，目标年产能达18 GWh，有望成为欧洲规模最大的电芯生产基地之一。\n\n通过引入初创企业的创新方案，特斯拉希望加速电池制造工艺的规模化，并降低生产成本。这一举措也可能吸引更多欧洲电池技术初创公司，与特斯拉形成产业链协同，同时巩固其在欧洲本土电池供应链中的竞争地位。",
+    "category": "未来能源",
+    "tags": [
+      "特斯拉",
+      "4680电池",
+      "电池制造"
+    ],
+    "source": "Electrek",
+    "time": "6分钟前",
+    "ts": "2026-07-07T16:58:57+00:00",
+    "url": "https://electrek.co/2026/07/07/tesla-giga-berlin-cell-giga-challenge/",
+    "image": "https://electrek.co/wp-content/uploads/sites/3/2021/10/Tesla-4680-Battery-cell.jpg?quality=82&#038;strip=all&#038;w=1600",
+    "stocks": [
+      {
+        "name": "特斯拉",
+        "ticker": "TSLA",
+        "reason": "挑战赛旨在加速柏林工厂4680电池规模化量产，利好其电池自给与电动车成本下降。",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
     "id": "1e081e0ac27674c1",
     "title": "Liquid AI开源Antidoom修复推理模型死循环",
     "summary": "Liquid AI开源了基于最终Token偏好优化（FTPO）的Antidoom方法，可定位推理模型死循环的起始token并训练其选择连贯替代路径，在LFM2.5-2.6B和Qwen3.5-4B上把循环率降至约1%，相关代码与数据集已完全开源。",
@@ -74,6 +156,25 @@ const newsData = [
     "stocks": []
   },
   {
+    "id": "53fb582053e65a50",
+    "title": "研究提出末 token 偏好优化缓解模型退化循环",
+    "summary": "一项新研究提出“末 token 偏好优化”（FTPO）方法，旨在通过改进偏好对齐减少语言模型在自回归生成或训练迭代中可能出现的“厄运循环”现象。",
+    "body": "这篇题为《Reducing Doom Loops with Final Token Preference Optimization》的论文聚焦于大型语言模型在偏好对齐阶段的稳定性问题，提出了一种名为 Final Token Preference Optimization（FTPO）的新方法。研究者认为，现有偏好优化（如 RLHF、DPO 等）在处理序列末端的 token 时可能放大错误信号，导致模型在反复训练或采样中陷入性能下降的“厄运循环”。FTPO 通过针对最后一个 token 进行偏好优化，试图更精准地传递人类偏好信号，从而提升对齐效果并抑制模型退化。该方法若被验证有效，可为更安全、更稳定的生成式 AI 系统训练提供新的算法工具。",
+    "category": "人工智能",
+    "tags": [
+      "大模型对齐",
+      "偏好优化",
+      "生成式AI",
+      "算法研究"
+    ],
+    "source": "Hacker News",
+    "time": "33分钟前",
+    "ts": "2026-07-07T16:31:19+00:00",
+    "url": "https://www.liquid.ai/blog/antidoom",
+    "image": "",
+    "stocks": []
+  },
+  {
     "id": "3d4c1a01fdd53257",
     "title": "Claude Cowork 扩展至网页与移动端",
     "summary": "Anthropic 宣布其 AI 助手 Claude Cowork 已向 Max 订阅用户开放网页版和移动版，打破此前仅限笔记本端的限制。",
@@ -127,6 +228,24 @@ const newsData = [
     "time": "3分钟前",
     "ts": "2026-07-07T16:24:13.051000+00:00",
     "url": "https://claude.com/blog/cowork-web-mobile",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "c1bbb7d03c4b43c2",
+    "title": "AI可视化仪表盘被指多属“称量烟雾”",
+    "summary": "一篇登上Hacker News的文章以“称量烟雾”为喻，质疑当前面向AI系统的可视化仪表盘大多缺乏实际价值。",
+    "body": "据外媒Hacker News收录的一篇题为《Weighing smoke: why AI visibility dashboards are mostly useless》的文章，作者以“称量烟雾”作比，批评当前许多面向AI系统的可视化仪表盘（AI visibility dashboards）看似提供了监控与洞察，实则难以捕捉模型行为、推理过程与风险的本质。\n\n文章认为，这些仪表盘往往将复杂、动态甚至不可见的AI内部状态简化为表面指标，导致开发者和运维人员获得的是“烟雾”般的伪可视化，对真正理解AI系统帮助有限。该观点引发对AI可观测性工具有效性的反思。\n\n由于原文仅提供标题与Hacker News元数据，具体论证细节尚不明确。若这一批评成立，可能促使业界重新审视AI监控与可观测性方案的设计目标，从“好看的数据面板”转向更能揭示模型实际行为的深度分析工具。",
+    "category": "AI 基础设施",
+    "tags": [
+      "AI可观测性",
+      "AI监控",
+      "Hacker News"
+    ],
+    "source": "Hacker News",
+    "time": "45分钟前",
+    "ts": "2026-07-07T16:20:12+00:00",
+    "url": "https://betterthangood.xyz/blog/weighing-smoke/",
     "image": "",
     "stocks": []
   },
