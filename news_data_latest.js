@@ -1,5 +1,76 @@
 const newsData = [
   {
+    "id": "cf83693552bdc973",
+    "title": "谷歌NotebookLM短视频概览功能正式上线",
+    "summary": "谷歌旗下AI笔记应用NotebookLM的“短视频概览”功能已在移动端和网页端向所有英语用户推出，进一步丰富AI内容生成体验。",
+    "body": "谷歌旗下AI笔记与研究助手NotebookLM宣布，其“短视频概览”功能已正式在移动端和网页端向所有英语用户全面上线。该功能可将用户上传的文档、笔记等素材自动生成为短视频形式的摘要，降低信息消化门槛。\n\n作为谷歌在AI生产力工具领域的重要布局，NotebookLM此次更新标志着AI内容呈现方式从文本、音频向视频化延伸，可能提升用户活跃度与产品差异化竞争力。目前该功能率先覆盖英语用户，未来或将扩展至更多语言与平台。",
+    "category": "人工智能",
+    "tags": [
+      "NotebookLM",
+      "谷歌",
+      "AI应用",
+      "短视频"
+    ],
+    "source": "AIHOT精选",
+    "time": "4分钟前",
+    "ts": "2026-07-07T17:48:50+00:00",
+    "url": "https://x.com/NotebookLM/status/2074551227594264799",
+    "image": "",
+    "stocks": [
+      {
+        "name": "谷歌-A",
+        "ticker": "GOOGL",
+        "reason": "NotebookLM是谷歌旗下AI笔记应用，新功能上线有望增强用户粘性与AI产品生态",
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
+    "id": "6430cc7f42fab53c",
+    "title": "Anthropic推出Claude Cowork移动端与网页版",
+    "summary": "Anthropic宣布其Claude Cowork AI平台将首次登陆移动设备和网页端，下周二起向Claude Max订阅用户率先开放，其他套餐用户将在未来数周内陆续获得访问权限。",
+    "body": "人工智能公司Anthropic宣布，其Claude Cowork平台将从周二起首次上线移动端和网页端。此前，该AI工作平台仅可通过macOS和Windows桌面应用访问。此次扩展将率先面向Claude Max订阅用户推出，其他套餐用户将在未来数周内陆续可用。这一举措意味着Anthropic正降低其AI办公平台的使用门槛，扩大用户覆盖范围，并进一步巩固其在AI应用市场的竞争力。",
+    "category": "人工智能",
+    "tags": [
+      "Claude",
+      "Anthropic",
+      "AI办公",
+      "人工智能应用"
+    ],
+    "source": "The Verge",
+    "time": "6分钟前",
+    "ts": "2026-07-07T13:47:03-04:00",
+    "url": "https://www.theverge.com/ai-artificial-intelligence/961978/anthropic-claude-cowork-mobile-web",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "e09159529531ee5e",
+    "title": "iRobot 推出非机器人地板清洁机",
+    "summary": "iRobot 发布新款地板清洁设备，但该产品并非机器人，而是一款非自动化的清洁工具，显示其产品策略出现新变化。",
+    "body": "以扫地机器人闻名的 iRobot 近日推出了一款全新的地板清洁机。据报道，这款新产品并非机器人，而需要用户手动操作，与该公司一贯的机器人自动化定位明显不同。\n\n目前公开信息有限，具体功能、定价和市场定位尚不明确。这一举动可能意味着 iRobot 希望在机器人吸尘器之外，拓展更广阔的家庭清洁市场，并应对日益激烈的行业竞争。",
+    "category": "消费电子",
+    "tags": [
+      "智能家居",
+      "消费电子",
+      "清洁电器",
+      "新品发布"
+    ],
+    "source": "Engadget",
+    "time": "8分钟前",
+    "ts": "2026-07-07T17:45:00+00:00",
+    "url": "https://www.engadget.com/2209802/irobot-made-a-non-robot-floor-cleaner/",
+    "image": "https://www.engadget.com/img/gallery/irobot-made-a-non-robot-floor-cleaner/l-intro-1783445680.jpg",
+    "stocks": [
+      {
+        "name": "iRobot",
+        "ticker": "IRBT",
+        "reason": "公司直接推出新款地板清洁产品，可能对其家用清洁业务产生影响。",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
     "id": "a39e7fb2b31cfd18",
     "title": "AI引导肠癌筛查可提高检测率并降低死亡率",
     "summary": "一项新研究显示，基于机器学习的AI系统识别出逾期未进行结直肠癌筛查的患者，有助于提高筛查率并显著降低死亡率。该研究发表于《Manufacturing & Service Operations Management》期刊。",
@@ -784,6 +855,25 @@ const newsData = [
     "stocks": []
   },
   {
+    "id": "9b01ae33f9bb05e4",
+    "title": "开发者自述：为何再造一款 Postgres 连接池工具",
+    "summary": "一篇技术文章解释了作者开发又一款 PostgreSQL 连接池器的动机，讨论了在高并发数据库访问场景下现有方案可能存在的改进空间。",
+    "body": "该文章由开发者撰写，阐述了其决定从零构建又一款 PostgreSQL 连接池器的原因。连接池器通过复用数据库连接来降低 Postgres 服务器的连接开销，是支撑高并发应用和微服务架构的常见中间件组件。作者认为，尽管市场上已有多种开源方案，但在特定性能、可观测性或部署模式需求下，仍有必要推出更贴合现代云原生数据库访问场景的替代工具。",
+    "category": "AI 基础设施",
+    "tags": [
+      "PostgreSQL",
+      "数据库",
+      "连接池",
+      "开源软件"
+    ],
+    "source": "Hacker News",
+    "time": "2小时前",
+    "ts": "2026-07-07T15:36:49+00:00",
+    "url": "https://pgdog.dev/blog/why-yet-another-connection-pooler",
+    "image": "",
+    "stocks": []
+  },
+  {
     "id": "e90223db54003150",
     "title": "福特召回逾4.2万辆Mustang Mach-E电动车",
     "summary": "福特因差速器存在断裂隐患，正在召回近4.3万辆Mustang Mach-E纯电SUV，问题可能导致车辆失去驱动力。",
@@ -883,6 +973,25 @@ const newsData = [
     "ts": "2026-07-07T15:29:36+00:00",
     "url": "https://www.ithome.com/0/973/808.htm",
     "image": "https://img.ithome.com/newsuploadfiles/2026/7/ea4e539c-b945-4cad-b5e7-685c34009df7.jpg?x-bce-process=image/format,f_auto",
+    "stocks": []
+  },
+  {
+    "id": "0f76b48133c5ec14",
+    "title": "Claude Code 被曝秘密追踪器，Anthropic 删码",
+    "summary": "据外媒在 Hacker News 上披露，Anthropic 的 AI 编程助手 Claude Code 被发现内置秘密追踪代码，Anthropic 随后直接删除了相关代码。此事引发了对 AI 编程工具隐私与透明度的关注。",
+    "body": "据报道，Anthropic 旗下 AI 编程助手 Claude Code 被曝藏有秘密追踪器，开发方 Anthropic 在事件曝光后直接删除了涉事代码。目前公开信息未披露该追踪器的具体功能、收集范围及存在时长。\n\n这一事件再次将 AI 编程工具的隐私合规、代码透明度与用户信任问题推至风口浪尖。对于企业级开发者而言，AI 辅助工具中潜藏的追踪机制可能带来数据安全与合规风险，也促使行业审视相关产品设计与信息披露。",
+    "category": "网络安全",
+    "tags": [
+      "Claude Code",
+      "Anthropic",
+      "隐私安全",
+      "AI编程"
+    ],
+    "source": "Hacker News",
+    "time": "2小时前",
+    "ts": "2026-07-07T15:21:23+00:00",
+    "url": "https://voi.id/en/technology/583552",
+    "image": "",
     "stocks": []
   },
   {
@@ -137013,6 +137122,12 @@ const newsData = [
   }
 ];
 const newsDigest = {
-  "text": "",
-  "highlights": []
+  "text": "今日科技要闻聚焦三大方向：谷歌、Anthropic密集发布AI新功能，AI医疗筛查传来肠癌早筛突破；消费电子领域谷歌官宣8月12日Pixel发布会；未来能源与商业航天亦有新动态。",
+  "highlights": [
+    "cf83693552bdc973",
+    "6430cc7f42fab53c",
+    "a39e7fb2b31cfd18",
+    "23f42c96d5c54821",
+    "1e081e0ac27674c1"
+  ]
 };
