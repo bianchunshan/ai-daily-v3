@@ -1,5 +1,31 @@
 const newsData = [
   {
+    "id": "dbd268b005db47ce",
+    "title": "ChargePoint在美东南新增超200个公共充电桩端口",
+    "summary": "ChargePoint与充电运营商Optimus Energy Solutions扩大合作，计划在美国东南部部署超过200个新的公共电动汽车充电端口，进一步拓展其充电网络覆盖。",
+    "body": "ChargePoint宣布扩大与充电桩运营商Optimus Energy Solutions的合作关系，将在美国东南部安装超过200个新的公共电动汽车充电端口。此举将进一步完善ChargePoint的公共充电网络布局，提升该区域电动汽车用户的补能便利性。\n\n新端口面向公众开放，有助于缓解当地充电桩供给压力，支持电动汽车渗透率提升。对ChargePoint而言，这是扩大市场份额、增强网络密度的直接举措，也反映出美国充电基础设施持续扩张的行业趋势。",
+    "category": "未来能源",
+    "tags": [
+      "充电桩",
+      "电动汽车",
+      "ChargePoint",
+      "清洁能源"
+    ],
+    "source": "Electrek",
+    "time": "1分钟前",
+    "ts": "2026-07-07T19:46:36+00:00",
+    "url": "https://electrek.co/2026/07/07/chargepoint-adds-200-new-ev-charging-ports-in-the-southeast/",
+    "image": "https://electrek.co/wp-content/uploads/sites/3/2026/07/ChargePoint_Optimus.jpg?quality=82&#038;strip=all&#038;w=1200",
+    "stocks": [
+      {
+        "name": "ChargePoint Holdings",
+        "ticker": "CHPT",
+        "reason": "公司直接扩展公共充电网络，新增200多个端口，利好其充电服务业务与营收增长",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
     "id": "6c0cd917700bd293",
     "title": "太空辐射与微重力或加速衰老 研究有望催生抗衰老疗法",
     "summary": "中佛罗里达大学研究团队发现，太空辐射与微重力会在宇航员肝脏中诱发类似加速衰老的分子变化。该研究不仅提示长期航天任务的健康风险，也为地球上抗衰老及年龄相关疾病治疗提供了潜在新靶点。",
