@@ -1,5 +1,106 @@
 const newsData = [
   {
+    "id": "f6e145185112c153",
+    "title": "开源AI崛起尚未冲击Anthropic",
+    "summary": "开源模型的成功并未以牺牲前沿实验室为代价，二者似乎正分别占据同一技术生命周期的不同阶段。",
+    "body": "TechCrunch文章指出，开源人工智能模型的兴起目前并未对Anthropic等前沿AI实验室造成明显冲击。分析认为，开源模型与闭源前沿模型并非零和竞争，而是分别捕获了技术演化的不同阶段：前沿实验室负责探索能力边界，开源生态则推动模型普及与落地应用。这一格局意味着两类路线可能在较长时间内并存，共同推动大模型生态扩张。",
+    "category": "人工智能",
+    "tags": [
+      "开源模型",
+      "Anthropic",
+      "大模型竞争"
+    ],
+    "source": "TechCrunch",
+    "time": "1分钟前",
+    "ts": "2026-07-07T20:04:32+00:00",
+    "url": "https://techcrunch.com/2026/07/07/why-the-rise-of-open-source-ai-isnt-hurting-anthropic-yet/",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "2fb589d6eddd0b17",
+    "title": "先进成像揭示大鼠膝关节三维神经结构，有望助力下颌关节疾病研究",
+    "summary": "研究人员利用先进成像技术重建了大鼠膝关节内部的三维神经结构，这一方法或将为颞下颌关节紊乱病的机制研究与诊疗提供新线索。",
+    "body": "颞下颌关节紊乱病是一类包含30多种病症的疾病群，常引发颌面部疼痛与功能障碍，其神经支配及发病机制仍有待深入研究。\n\n研究团队借助先进成像手段，对一小块大鼠膝关节组织进行高分辨率三维重建，首次清晰呈现了关节内部神经的空间分布与精细结构。\n\n尽管样本取自膝关节，但相关成像技术和神经解剖学发现有望迁移至颞下颌关节研究，为理解颌关节疾病的神经基础、优化诊断与治疗策略提供参考。",
+    "category": "生物医药",
+    "tags": [
+      "医学影像",
+      "神经科学",
+      "颞下颌关节",
+      "生物医学"
+    ],
+    "source": "MedicalXpress",
+    "time": "5分钟前",
+    "ts": "2026-07-07T16:00:06-04:00",
+    "url": "https://medicalxpress.com/news/2026-07-advanced-imaging-uncovers-3d-nerve.html",
+    "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/this-imaging-technique.jpg",
+    "stocks": []
+  },
+  {
+    "id": "e744a6e10dbcc05f",
+    "title": "美国丁丙诺啡治疗采纳率地域差异显著",
+    "summary": "罗格斯健康发表于《Health Affairs》的研究显示，近年来美国阿片类药物使用障碍的主要药物丁丙诺啡使用量显著增加，但全国范围内的增长趋势极不均衡。",
+    "body": "一项由罗格斯健康开展、发表于《Health Affairs》的研究指出，近年来美国用于治疗阿片类药物使用障碍的一线药物丁丙诺啡（buprenorphine）的使用量大幅增加。然而，研究人员同时注意到，该药物在全美各地区的采纳率增长趋势存在显著差异。\n\n这种地域上的高度不均衡可能意味着部分患者在获取循证治疗方面仍面临障碍，也可能影响公共卫生资源的配置效率。研究结果有助于识别治疗覆盖不足的州或社区，为制定更有针对性的药物使用障碍干预政策提供依据。",
+    "category": "生物医药",
+    "tags": [
+      "丁丙诺啡",
+      "阿片类药物使用障碍",
+      "公共卫生",
+      "医疗不平等"
+    ],
+    "source": "MedicalXpress",
+    "time": "5分钟前",
+    "ts": "2026-07-07T16:00:04-04:00",
+    "url": "https://medicalxpress.com/news/2026-07-uptake-buprenorphine-treatment-opioid-disorder.html",
+    "image": "https://scx1.b-cdn.net/csz/news/tmb/2018/2-vaccine.jpg",
+    "stocks": []
+  },
+  {
+    "id": "4cecf6b70204af09",
+    "title": "新观测显示银河系可能比此前认为更大",
+    "summary": "天文学家利用钱德拉和XMM-牛顿望远镜数据重新测量银河系旋臂，发现其延伸范围可能超出此前结论，或需修正银河系质量等基本参数。",
+    "body": "研究团队借助NASA钱德拉X射线天文台和欧洲航天局XMM-牛顿天文台的观测数据，通过观测伽马射线暴周围尘埃散射的X射线“回声”，精确测定了银河系旋臂的距离。结果显示，银河系的旋臂向外延伸的范围比此前认为得更远。\n\n论文合著者指出，这些距离修正虽然幅度不大，却对理解银河系至关重要；若旋臂范围改变，天文学家可能需要重新估算银河系质量等基本参数。该发现有助于更新我们对宇宙家园结构的认知。",
+    "category": "商业航天",
+    "tags": [
+      "银河系",
+      "深空探测",
+      "X射线天文",
+      "天体测量"
+    ],
+    "source": "Space.com",
+    "time": "5分钟前",
+    "ts": "2026-07-07T20:00:00+00:00",
+    "url": "https://www.space.com/science/astrophysics/our-milky-way-galaxy-might-be-larger-than-we-thought",
+    "image": "https://cdn.mos.cms.futurecdn.net/327QoxvpeMBxA65ZEPXnv-1280-80.png",
+    "stocks": []
+  },
+  {
+    "id": "f9e4ca71e2bb74ac",
+    "title": "微软加入AI降本潮，更多倚重自研模型",
+    "summary": "微软成为最新一家缩减AI开支的硅谷巨头，计划通过更多依赖自研模型来降低人工智能相关成本。",
+    "body": "据 TechCrunch 报道，微软正加入硅谷科技巨头的 AI 降本行列，通过更多依赖自研模型来削减人工智能相关支出。这一做法反映出企业在 AI 投入上正从大规模扩张转向更注重成本效率与内部能力建设。\n若微软持续提高自研模型使用比例，短期内有望降低对外部模型和算力资源的采购成本，改善利润率；同时也可能加速其 AI 产品体系的自主可控，并对相关产业链的采购节奏带来一定影响。",
+    "category": "人工智能",
+    "tags": [
+      "微软",
+      "AI模型",
+      "降本",
+      "硅谷"
+    ],
+    "source": "TechCrunch",
+    "time": "7分钟前",
+    "ts": "2026-07-07T19:58:20+00:00",
+    "url": "https://techcrunch.com/2026/07/07/microsoft-joins-ai-cost-cutting-trend-by-relying-more-on-its-own-models/",
+    "image": "",
+    "stocks": [
+      {
+        "name": "微软",
+        "ticker": "MSFT",
+        "reason": "通过加大自研模型依赖削减AI支出，有望改善利润率和成本结构",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
     "id": "7e9d6a97d874b548",
     "title": "比亚迪电动GT实车首次曝光",
     "summary": "比亚迪旗下电动GT车型在发布一年后首次被拍到公开路试，新车定位纯电双门跑车，引发市场对其高端电动化产品线的关注。",
