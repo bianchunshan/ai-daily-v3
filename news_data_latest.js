@@ -1,5 +1,143 @@
 const newsData = [
   {
+    "id": "16ea11d18572f24d",
+    "title": "冥王星与土卫六发现神秘吸光化合物",
+    "summary": "科学家在冥王星和土星卫星土卫六（Titan）表面发现某种未知物质，其吸收光线的特征无法被现有光谱数据库中的任何已知化合物解释。",
+    "body": "据英国《连线》（Wired）报道，研究人员在分析冥王星与土卫六的观测数据时发现，这两个天体表面存在某种能够以异常方式吸收光线的物质。其光谱特征与现有光谱库中的已知物质均不匹配，暗示太阳系内可能存在尚未被识别的化合物或特殊的地质、大气化学过程。\n\n这一发现为行星科学和深空探测提供了新的研究线索。若后续探测任务能进一步确认该物质的成分，将有助于理解冰质天体与拥有浓厚大气层卫星之间的化学演化差异，并可能推动光谱仪器与空间探测技术的发展。",
+    "category": "商业航天",
+    "tags": [
+      "深空探测",
+      "光谱学",
+      "行星科学",
+      "冥王星"
+    ],
+    "source": "Wired",
+    "time": "5分钟前",
+    "ts": "2026-07-07T18:03:40+00:00",
+    "url": "https://www.wired.com/story/mysterious-compound-detected-on-pluto-and-titan/",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "82f20b9e94d4b109",
+    "title": "研究发现甲状腺激素T3或可防儿童脑瘤复发",
+    "summary": "美国Fox Chase癌症中心研究发现，在标准化疗中加入已获FDA批准的甲状腺激素T3（三碘甲状腺原氨酸），或可显著改善儿童髓母细胞瘤的治疗效果，降低肿瘤复发风险。",
+    "body": "髓母细胞瘤是儿童最常见的恶性脑肿瘤，治疗后复发仍是主要挑战。Fox Chase癌症中心的研究人员在《Molecular Therapy Oncology》发表的研究显示，将常用于甲状腺功能减退症的甲状腺激素T3加入标准化疗方案，可能阻止肿瘤在治疗后再度生长。\n\nT3是一种已获FDA批准的常见激素，安全性资料较为充分。该研究提示，重新定位这一老药有望为儿童脑瘤患者提供一种低成本、可及性强的辅助治疗选择。\n\n若后续临床试验验证有效，这一发现可能改变髓母细胞瘤的维持治疗策略，减少复发并改善患儿长期预后。",
+    "category": "生物医药",
+    "tags": [
+      "生物医药",
+      "儿童肿瘤",
+      "甲状腺激素",
+      "药物重定位"
+    ],
+    "source": "MedicalXpress",
+    "time": "9分钟前",
+    "ts": "2026-07-07T14:00:11-04:00",
+    "url": "https://medicalxpress.com/news/2026-07-common-thyroid-hormone-brain-tumor.html",
+    "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/healthy-child-at-hospi.jpg",
+    "stocks": []
+  },
+  {
+    "id": "addd2aadfcf2a73e",
+    "title": "无色类胡萝卜素有望成为美容健康高价值功能成分",
+    "summary": "无色类胡萝卜素是番茄红素、β-胡萝卜素等有色类胡萝卜素的前体，广泛存在于果蔬中。但由于其几何异构体分离纯化困难，相关单体特性与生物活性长期缺乏系统研究，限制了其作为美容健康功能成分的产业化开发。",
+    "body": "无色类胡萝卜素是自然界中广泛存在的生物活性物质，其中八氢番茄红素（phytoene）和六氢番茄红素（phytofluene）是常见有色类胡萝卜素的重要生物合成前体。然而，这些化合物的几何异构体结构复杂、分离纯化难度大，科学界长期难以获得足量高纯度单体用于深入研究。\n\n近期，随着相关技术进展，研究人员正逐步揭示不同异构体在化学特性与生物活性上的差异。这些无色类胡萝卜素被认为在美容与健康领域具有多功能应用潜力，可作为高价值功能成分用于护肤品、营养补充剂等方向，有望推动相关生物活性成分的研发与产业化进程。",
+    "category": "生物医药",
+    "tags": [
+      "类胡萝卜素",
+      "功能成分",
+      "营养健康",
+      "生物技术"
+    ],
+    "source": "MedicalXpress",
+    "time": "9分钟前",
+    "ts": "2026-07-07T14:00:07-04:00",
+    "url": "https://medicalxpress.com/news/2026-07-rare-colorless-carotenoids-emerge-multifunctional.html",
+    "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/rare-colorless-caroten.jpg",
+    "stocks": []
+  },
+  {
+    "id": "97ef96e2c22adaae",
+    "title": "Discord安全系统漏洞致大量账号被误封",
+    "summary": "Discord安全系统自5月起存在漏洞，已导致约8200个账号被错误封禁。该事件暴露出平台内容审核与风控机制存在缺陷。",
+    "body": "据报道，Discord的安全系统出现一个程序漏洞，自5月以来错误地封禁了约8200个用户账号。这一故障影响了平台的内容审核与账号管理，给受影响用户带来了困扰。\n\nDiscord方面表示正在修复该漏洞并恢复被误封账号。该事件凸显了大型社交平台在自动化风控与安全系统可靠性方面面临的持续挑战，也可能促使平台加强审核机制透明度与用户申诉渠道建设。",
+    "category": "网络安全",
+    "tags": [
+      "Discord",
+      "账号封禁",
+      "平台安全",
+      "内容审核"
+    ],
+    "source": "Engadget",
+    "time": "9分钟前",
+    "ts": "2026-07-07T18:00:00+00:00",
+    "url": "https://www.engadget.com/2209819/a-bug-in-discords-safety-systems-incorrectly-banned-accounts-since-may/",
+    "image": "https://www.engadget.com/img/gallery/a-bug-in-discords-safety-systems-incorrectly-banned-accounts-since-may/l-intro-1783446617.jpg",
+    "stocks": []
+  },
+  {
+    "id": "a5865b0d78090af8",
+    "title": "加拿大宇航员汉森完成绕月任务后卸任现役",
+    "summary": "加拿大航天局宇航员杰里米·汉森在今年4月完成NASA阿耳忒弥斯2号绕月飞行后，将于9月卸任现役宇航员职务，转任预备役以推动加拿大空间事业发展。",
+    "body": "加拿大航天局宇航员、加拿大皇家空军上校杰里米·汉森将于今年9月卸任现役宇航员职务，转任预备役，以支持加拿大国内的空间项目。汉森曾于今年4月参与NASA阿耳忒弥斯2号任务，成为首位绕月飞行的非美国宇航员。他在声明中强调，加拿大在空间领域的创新与探索对国家经济和技术突破至关重要。\n\n近期加拿大对空间主权的关注持续升温。今年3月，加拿大国防部宣布向新斯科舍省在建的Maritime Launch Services航天发射场提供2亿加元（约1.4亿美元）的十年期资助，并追加资金用于推动国产火箭入轨。汉森上个月还曾前往该发射场观看亚轨道发射。分析认为，汉森的转任可能意味着他将更多参与加拿大本土航天能力建设与国际空间外交事务。",
+    "category": "商业航天",
+    "tags": [
+      "商业航天",
+      "阿耳忒弥斯计划",
+      "加拿大航天局"
+    ],
+    "source": "Space.com",
+    "time": "9分钟前",
+    "ts": "2026-07-07T18:00:00+00:00",
+    "url": "https://www.space.com/space-exploration/artemis/artemis-2s-jeremy-hansen-stepping-down-from-active-astronaut-duty-after-epic-moon-mission",
+    "image": "https://cdn.mos.cms.futurecdn.net/XX6vVfa8sKLrHPSFCwf7Me-1280-80.png",
+    "stocks": []
+  },
+  {
+    "id": "f7dd6506838a9212",
+    "title": "微型电动车Topolino在美开售 不足1.4万美元",
+    "summary": "Fiat旗下的微型纯电动车Topolino已在美国上市，售价低于1.4万美元，最高续航约46英里，定位为可合法上路的短途代步工具。",
+    "body": "据外媒报道，Fiat Topolino这款尺寸接近高尔夫球车的微型电动车已在美国开售，售价不到1.4万美元。该车属于可合法上路的纯电动汽车，官方标称续航里程最高可达46英里，主要面向城市短途通勤和低速代步场景。\n\nTopolino由Stellantis集团旗下Fiat品牌推出，其低价、小体积和低能耗特点意在降低电动车入门门槛，并迎合美国部分城市对微型代步工具的需求。不过，由于其续航较短、车速有限，更可能作为社区内通勤或家庭第二辆车，而非长途出行主力。",
+    "category": "未来能源",
+    "tags": [
+      "微型电动车",
+      "电动汽车",
+      "美国市场"
+    ],
+    "source": "Electrek",
+    "time": "16分钟前",
+    "ts": "2026-07-07T17:52:59+00:00",
+    "url": "https://electrek.co/2026/07/07/tiny-ev-on-sale-less-than-14000/",
+    "image": "https://electrek.co/wp-content/uploads/sites/3/2026/07/Topolino-14000-EV-US.jpeg?quality=82&#038;strip=all&#038;w=1400",
+    "stocks": [
+      {
+        "name": "Stellantis集团",
+        "ticker": "STLA",
+        "reason": "Topolino为其旗下Fiat品牌推出的微型电动车，在美低价开售有助于扩大城市短途纯电市场份额",
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
+    "id": "1fa530c59594f168",
+    "title": "阿丽亚娜航天拟2029年起提供GEO拼车发射服务",
+    "summary": "阿丽亚娜航天与法国在轨服务公司Infinite Orbits签署谅解备忘录，计划从2029年起探索多条直达地球同步轨道的拼车发射服务合作。此举有望降低GEO卫星发射成本并提升发射灵活性。",
+    "body": "据SpaceNews报道，欧洲发射服务提供商阿丽亚娜航天（Arianespace）已与法国在轨服务企业Infinite Orbits签署谅解备忘录，双方将探讨从2029年起开展多条直达地球同步轨道（GEO）的拼车发射服务。该合作旨在利用阿丽亚娜航天的运载能力，为中小型GEO卫星提供更灵活、经济的发射入轨方案。\n\nGEO拼车发射模式可让多颗卫星共享一次火箭任务，直接送入最终轨道，减少卫星自身推进剂消耗并缩短入轨时间。若项目落地，将有助于缓解GEO卫星运营商对专用发射高成本的顾虑，同时为阿丽亚娜航天拓展商业发射市场份额。\n\n这一动向也反映出全球商业航天市场对差异化发射服务的持续探索，拼车模式或将成为未来中地球轨道和地球同步轨道任务的重要补充。",
+    "category": "商业航天",
+    "tags": [
+      "商业航天",
+      "卫星发射",
+      "拼车发射",
+      "地球同步轨道"
+    ],
+    "source": "SpaceNews",
+    "time": "16分钟前",
+    "ts": "2026-07-07T17:52:30+00:00",
+    "url": "https://spacenews.com/arianespace-opens-door-to-geo-rideshare-opportunities-from-2029/",
+    "image": "https://i0.wp.com/spacenews.com/wp-content/uploads/2026/07/Signing-of-MoU_InfiniteOrbits_ArianeSpace-scaled.webp?fit=768%2C1024&amp;ssl=1",
+    "stocks": []
+  },
+  {
     "id": "cf83693552bdc973",
     "title": "谷歌NotebookLM短视频概览功能正式上线",
     "summary": "谷歌旗下AI笔记应用NotebookLM的“短视频概览”功能已在移动端和网页端向所有英语用户推出，进一步丰富AI内容生成体验。",
@@ -137122,12 +137260,6 @@ const newsData = [
   }
 ];
 const newsDigest = {
-  "text": "今日科技要闻聚焦三大方向：谷歌、Anthropic密集发布AI新功能，AI医疗筛查传来肠癌早筛突破；消费电子领域谷歌官宣8月12日Pixel发布会；未来能源与商业航天亦有新动态。",
-  "highlights": [
-    "cf83693552bdc973",
-    "6430cc7f42fab53c",
-    "a39e7fb2b31cfd18",
-    "23f42c96d5c54821",
-    "1e081e0ac27674c1"
-  ]
+  "text": "",
+  "highlights": []
 };
