@@ -1,5 +1,43 @@
 const newsData = [
   {
+    "id": "e90223db54003150",
+    "title": "福特召回逾4.2万辆Mustang Mach-E电动车",
+    "summary": "福特因差速器存在断裂隐患，正在召回近4.3万辆Mustang Mach-E纯电SUV，问题可能导致车辆失去驱动力。",
+    "body": "据外媒报道，福特汽车正召回约4.2万至4.3万辆Mustang Mach-E纯电动车型。此次召回原因是差速器单元存在缺陷，可能在行驶中发生断裂，进而导致车辆失去驱动力。该召回涉及已交付的量产车辆，属于典型的质量安全问题。对福特而言，此次召回可能增加售后维修成本并影响品牌口碑，也再次凸显电动汽车规模化生产中关键机械部件可靠性仍需重视。",
+    "category": "未来能源",
+    "tags": [
+      "福特",
+      "电动车召回",
+      "Mustang Mach-E",
+      "差速器"
+    ],
+    "source": "Electrek",
+    "time": "4分钟前",
+    "ts": "2026-07-07T15:34:22+00:00",
+    "url": "https://electrek.co/2026/07/07/ford-recalling-over-42000-mustang-mach-e-evs/",
+    "image": "https://electrek.co/wp-content/uploads/sites/3/2025/06/Fords-EV-sales-May-2025.jpeg?quality=82&#038;strip=all&#038;w=1400",
+    "stocks": []
+  },
+  {
+    "id": "513dfddd709693dc",
+    "title": "SpaceX发射Transporter-17，共享发射前景引担忧",
+    "summary": "SpaceX于7月7日执行Transporter-17拼车任务，将多颗小型卫星送入轨道；与此同时，竞争对手对SpaceX rideshare计划未来表达强烈担忧，认为市场已陷入恐慌。",
+    "body": "美国东部时间7月7日，SpaceX成功发射Transporter-17任务，继续为其“拼车”式小型卫星 rideshare 发射服务增加新纪录。该任务将来自多家商业与政府客户的卫星送入太空，是Transporter系列密集发射节奏中的最新一次。\n\n然而，SpaceX在小型卫星发射市场的强势地位正引发同行焦虑。据SpaceNews报道，有竞争对手高管形容业内对SpaceX rideshare项目未来的担忧已接近“恐慌”，担心低成本、高频次的发射模式会挤压其他发射服务商的生存空间。\n\n这一动态反映出商业航天发射市场格局分化加剧。SpaceX通过可复用火箭持续压降发射成本，而中小运载企业则面临订单与定价双重压力，行业整合与差异化竞争或将加速。",
+    "category": "商业航天",
+    "tags": [
+      "商业航天",
+      "SpaceX",
+      "卫星发射",
+      "拼车发射"
+    ],
+    "source": "SpaceNews",
+    "time": "6分钟前",
+    "ts": "2026-07-07T15:31:35+00:00",
+    "url": "https://spacenews.com/spacex-launches-transporter-17-amid-concerns-about-rideshare-programs-future/",
+    "image": "https://i0.wp.com/spacenews.com/wp-content/uploads/2026/07/f9-t17.jpeg?fit=1024%2C575&amp;ssl=1",
+    "stocks": []
+  },
+  {
     "id": "8924e8a0c9274f7c",
     "title": "安卓状态栏图标含义一览",
     "summary": "Android手机状态栏集合了网络、电量、通知、蓝牙等多种系统状态图标，帮助用户快速了解设备运行情况。不同厂商的定制系统可能在图标样式上略有差异。",
@@ -1021,6 +1059,25 @@ const newsData = [
         "confidence": "high"
       }
     ]
+  },
+  {
+    "id": "02eb085d9e38deca",
+    "title": "新病毒目录揭示最具大流行威胁的病原体",
+    "summary": "爱丁堡大学团队发布了一份人类RNA病毒目录，用于识别哪些病原体最可能引发下一场大流行，并帮助公共卫生机构提前评估风险。",
+    "body": "科学家每年通常会发现两到三种前所未见的人类病毒，其中多数不会引起重视，但1983年发现的HIV-1和2020年发现的SARS-CoV-2分别预示了艾滋病和COVID大流行。为预判下一次公共卫生危机，爱丁堡大学研究团队基于病毒历史经验编制了一份针对人类RNA病毒的目录。已知RNA病毒有数千种、甚至可能数百万种，但其中仅有239种会感染人类。\n\n该目录结合病毒引发的疾病类型、严重程度以及是否具备人际传播能力，帮助研究人员锁定最危险的病原体。由于大流行通常由能在人与人之间传播的RNA病毒引发，这一工具有助于公共卫生机构提前识别具有大流行潜力的新病毒，并为监测和防控提供参考。",
+    "category": "生物医药",
+    "tags": [
+      "病毒研究",
+      "公共卫生",
+      "大流行预警",
+      "RNA病毒"
+    ],
+    "source": "Ars Technica",
+    "time": "2小时前",
+    "ts": "2026-07-07T13:15:49+00:00",
+    "url": "https://arstechnica.com/health/2026/07/new-virus-catalog-reveals-which-pathogens-pose-the-greatest-threat/",
+    "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/07/GettyImages-1230363263-1152x648.jpg",
+    "stocks": []
   },
   {
     "id": "7d1536491fc026d7",
@@ -136045,6 +136102,12 @@ const newsData = [
   }
 ];
 const newsDigest = {
-  "text": "",
-  "highlights": []
+  "text": "今日前沿聚焦未来能源安全、商业航天共享发射风险、AI医疗与机器人产业化提速，以及半导体架构新动向，科技监管议题同样引发关注。",
+  "highlights": [
+    "e90223db54003150",
+    "513dfddd709693dc",
+    "9c13e981307062ae",
+    "5515e058f763bc78",
+    "e06eaffa395e45d8"
+  ]
 };
