@@ -1,5 +1,50 @@
 const newsData = [
   {
+    "id": "924ed557eae033e3",
+    "title": "Evercade动视版Super Pocket掌机发布，69.99欧元",
+    "summary": "Evercade在海外市场推出动视版Super Pocket复古掌机，预装34款雅达利2600时代的动视经典游戏，定价69.99欧元。新机配备2.8英寸IPS彩屏、3000mAh电池，续航约3-4.5小时。",
+    "body": "IT之家消息，英国复古游戏硬件厂商Evercade于海外市场发布动视版Super Pocket掌机，主打雅达利2600时代的怀旧游戏体验。该机内置34款动视经典作品，包括《丛林冒险》《河道突袭》《英雄》《耐力赛车》《警探追贼》等，所有游戏均存储于机身内部空间，同时仍支持通过Evercade卡带扩展游戏库。硬件方面，掌机采用2.8英寸IPS彩色屏幕，分辨率为320×240，配备USB-C充电接口与3.5mm耳机接口，内置3000mAh电池，官方宣称续航可达3-4.5小时。该掌机将于9月28日正式上市，定价69.99欧元（约合544元人民币）。",
+    "category": "消费电子",
+    "tags": [
+      "复古掌机",
+      "动视",
+      "雅达利2600",
+      "游戏硬件"
+    ],
+    "source": "IT之家",
+    "time": "2分钟前",
+    "ts": "2026-07-07T15:10:29+00:00",
+    "url": "https://www.ithome.com/0/973/805.htm",
+    "image": "https://img.ithome.com/newsuploadfiles/2026/7/4b56f2b5-03da-48f4-9787-2b6ff3c2c813.jpg?x-bce-process=image/format,f_auto",
+    "stocks": []
+  },
+  {
+    "id": "7c14302ae0f72642",
+    "title": "腾讯混元Hy3大模型上线SiliconFlow",
+    "summary": "腾讯混元Hy3模型已在SiliconFlow平台上线，前两周免费、支持T+0调用。该模型为2950亿参数MoE架构，上下文窗口达262K，主打长时任务中的意图一致与智能体稳定执行。",
+    "body": "腾讯混元官方宣布，其Hy3模型已在SiliconFlow上线。该模型采用2950亿参数MoE架构，单次激活参数210亿，上下文窗口达262K。据介绍，Hy3经过50多个真实业务场景迭代优化，可将幻觉与知识错误减少一半，在长时任务中保持用户意图一致，提升工具调用成功率并避免无限循环。\n\n此次Hy3通过SiliconFlow平台开放调用，前两周免费且支持T+0，意味着腾讯在大模型商业化与生态接入上再进一步。更强的长上下文与智能体执行能力，有望推动其AI应用在企业服务、智能体等场景的落地，并加剧国内大模型竞争。",
+    "category": "人工智能",
+    "tags": [
+      "腾讯混元",
+      "MoE模型",
+      "大模型",
+      "SiliconFlow"
+    ],
+    "source": "AIHOT精选",
+    "time": "9分钟前",
+    "ts": "2026-07-07T15:03:18+00:00",
+    "url": "https://x.com/TencentHunyuan/status/2074509570932924687",
+    "image": "",
+    "stocks": [
+      {
+        "name": "腾讯控股",
+        "ticker": "0700.HK",
+        "reason": "自研混元Hy3大模型迭代上线并通过第三方平台开放调用，增强其AI模型能力与生态商业化潜力",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
     "id": "b38a9261226ec8a2",
     "title": "Discord安全系统漏洞致超8000用户被误封",
     "summary": "游戏社交平台Discord承认，其安全系统的一个漏洞自今年5月以来错误封禁了超过8000个账户，用户因发布棋盘格、游戏纹理等“良性”图片而受影响。",
@@ -118,6 +163,25 @@ const newsData = [
         "confidence": "medium"
       }
     ]
+  },
+  {
+    "id": "3f8f4470a516531c",
+    "title": "HITL与DialAgent提升AI Agent循环可靠性",
+    "summary": "AI研究者Elvis Saravia介绍通过human-in-the-loop机制，让Claude和Codex等Agent在关键决策时通过电话、短信或iMessage向人类确认，从而提升agentic loops的可靠性。",
+    "body": "AI研究者Elvis Saravia分享了借助human-in-the-loop（HITL）提升agentic loops可靠性的方法。他让所有的Claude和Codex Agent会话都通过DialAgent MCP服务器运行，该服务器为Agent分配专属号码，并将语音、短信和iMessage作为原生工具集成到Agent工作流中。\n\n当Agent在循环处理PR或新功能等任务遇到关键决策点时，会通过简短电话将决策升级给人类确认。这一机制尤其适合用户在路上或离开电脑的场景，也可粘贴指令让Agent主动拨打电话测试。DialAgent目前提供5美元免费额度。该方法代表了在完全自主Agent与人类监督之间取得平衡的一种实践路径。",
+    "category": "人工智能",
+    "tags": [
+      "AI Agent",
+      "人机协同",
+      "MCP服务器",
+      "自动化决策"
+    ],
+    "source": "AIHOT精选",
+    "time": "22分钟前",
+    "ts": "2026-07-07T14:49:47+00:00",
+    "url": "https://x.com/omarsar0/status/2074506169352180108",
+    "image": "",
+    "stocks": []
   },
   {
     "id": "e06eaffa395e45d8",
@@ -390,6 +454,24 @@ const newsData = [
     "ts": "2026-07-07T14:09:57+00:00",
     "url": "https://www.ithome.com/0/973/792.htm",
     "image": "https://img.ithome.com/newsuploadfiles/2026/7/94319dac-b7e0-40bc-9278-c27ebcee16e0.jpg?x-bce-process=image/format,f_auto",
+    "stocks": []
+  },
+  {
+    "id": "a90a86befc129be3",
+    "title": "Shellular：可在手机上运行Claude Code等AI编程助手",
+    "summary": "开发者工具Shellular支持在手机端调用Claude Code、Codex和Pi等AI编程助手，尝试把AI Agent的使用场景拓展到移动端。",
+    "body": "近日，Hacker News上出现一款名为Shellular的“Show HN”项目，它允许用户直接在手机上运行Claude Code、OpenAI Codex以及Inflection Pi等AI编程助手。该产品通过手机终端提供命令行或对话式交互，让开发者无需依赖桌面环境即可调用AI Agent完成代码任务。\\n\\n这一工具的核心价值在于降低AI编程助手的使用门槛，并将Agent能力从PC端延伸至移动场景，迎合了开发者随时随地进行代码生成、调试与自动化的需求。不过，作为早期个人项目，其实际性能、安全性和商业化前景仍有待观察。\\n\\n若此类移动端AI编程工具成熟，可能推动AI Agent在开发者群体中的进一步普及，并对移动办公、远程运维等场景产生影响。",
+    "category": "人工智能",
+    "tags": [
+      "AI编程助手",
+      "移动端",
+      "AI Agent"
+    ],
+    "source": "Hacker News",
+    "time": "1小时前",
+    "ts": "2026-07-07T14:08:58+00:00",
+    "url": "https://shellular.dev/",
+    "image": "",
     "stocks": []
   },
   {
@@ -6893,6 +6975,76 @@ const newsData = [
         "name": "亚马逊",
         "ticker": "AMZN",
         "reason": "AWS为亚马逊旗下云业务，新学习计划徽章有望增强云生态人才储备与用户粘性。",
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
+    "id": "1fb59e790347edc6",
+    "title": "苹果研究：单个神经元即可绕过LLM安全对齐",
+    "summary": "苹果机器学习团队发现，大型语言模型的安全对齐可由少数“拒绝神经元”与“概念神经元”因果控制，抑制或放大单个神经元便能绕过安全机制。该研究揭示了当前AI对齐策略在神经元层面的脆弱性。",
+    "body": "苹果研究人员在七种参数量从17亿到700亿不等的模型中发现，安全对齐并非由大量神经元分布式实现，而是由两类特定神经元因果调控：拒绝神经元控制有害知识是否被表达，概念神经元则编码有害知识本身。\n实验显示，仅需抑制单个拒绝神经元，模型就会回应有害请求；而放大单个概念神经元，也可从无害提示中诱导出有害内容。整个过程无需额外训练或复杂的提示工程。\n该研究表明，大语言模型的安全护栏可能在神经元层面被精准破解，对AI安全研究、模型可解释性以及未来对齐方法的设计具有重要警示意义。",
+    "category": "人工智能",
+    "tags": [
+      "人工智能",
+      "AI安全",
+      "大语言模型",
+      "神经可解释性"
+    ],
+    "source": "AIHOT精选",
+    "time": "15小时前",
+    "ts": "2026-07-07T00:00:00+00:00",
+    "url": "https://machinelearning.apple.com/research/single-neuron-safety-alignment",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "0207e53bb487a5bc",
+    "title": "苹果推出Weblica训练框架提升视觉网页智能体",
+    "summary": "苹果研究团队发布Weblica框架，为视觉网页智能体构建可复现、可扩展的强化学习训练环境，其8B参数模型在多个网页导航基准上表现出色。",
+    "body": "Weblica通过HTTP级缓存保存网页的稳定视觉状态并保留交互行为，同时结合大语言模型基于真实网站与核心导航技能合成训练环境。该框架将强化学习训练扩展到数千个多样化的环境与任务，解决了视觉网页智能体训练可复现性和规模化不足的问题。实验显示，最佳模型Weblica-8B在多个网页导航基准上超越了同等规模的开源模型，推理步骤更少，测试时计算扩展性良好，性能可与API模型相媲美，有望推动端侧AI和多模态智能体的发展。",
+    "category": "人工智能",
+    "tags": [
+      "智能体",
+      "网页导航",
+      "多模态AI",
+      "苹果"
+    ],
+    "source": "AIHOT精选",
+    "time": "15小时前",
+    "ts": "2026-07-07T00:00:00+00:00",
+    "url": "https://machinelearning.apple.com/research/weblica-visual-web-agents",
+    "image": "",
+    "stocks": [
+      {
+        "name": "苹果公司",
+        "ticker": "AAPL",
+        "reason": "Weblica由苹果研究团队提出，有助于增强其在端侧AI与视觉网页智能体的技术布局。",
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
+    "id": "2182d4f4bb346ad3",
+    "title": "苹果提出DynaMiCS：带性能约束的动态混合微调",
+    "summary": "苹果机器学习团队提出DynaMiCS优化器，将多领域微调建模为带性能约束的优化问题，能在提升目标领域性能的同时把约束领域损失控制在参考水平以下，且计算成本低于固定混合基线。",
+    "body": "DynaMiCS是一种动态混合优化器。它通过短领域特定探测运行估计跨领域效应斜率矩阵，再基于概率单纯形优化计算混合权重，从而在提升目标领域性能的同时，将约束领域损失维持在参考水平以下。相比固定混合基线，DynaMiCS在目标领域提升和约束满足方面表现更强，且无需参考模型、逐样本评分或手动调节混合权重。\n\n该方法由Apple Machine Learning Research发布，属于大语言模型微调与优化方向的研究进展。若后续落地，有望降低多任务/多领域模型训练的计算开销，并改善模型在不同场景下的综合表现。",
+    "category": "人工智能",
+    "tags": [
+      "大语言模型",
+      "模型微调",
+      "苹果"
+    ],
+    "source": "AIHOT精选",
+    "time": "15小时前",
+    "ts": "2026-07-07T00:00:00+00:00",
+    "url": "https://machinelearning.apple.com/research/dynamics-fine-tuning-llms",
+    "image": "",
+    "stocks": [
+      {
+        "name": "苹果公司",
+        "ticker": "AAPL",
+        "reason": "DynaMiCS由苹果机器学习团队提出，若应用可提升其大模型多领域微调效率与AI产品能力。",
         "confidence": "medium"
       }
     ]
