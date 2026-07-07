@@ -1,5 +1,75 @@
 const newsData = [
   {
+    "id": "5515e058f763bc78",
+    "title": "前特斯拉Optimus科学家欧洲推出人形机器人公司",
+    "summary": "曾在特斯拉Optimus人形机器人项目任职的科学家Rémi Cadène，在巴黎创立初创公司UMA，并发布名为Northstar的轻量化人形机器人。该公司称已与50家潜在客户展开洽谈。",
+    "body": "据Electrek报道，曾参与特斯拉Optimus人形机器人研发的科学家Rémi Cadène，如今创立了一家位于巴黎的初创公司UMA，并推出了名为Northstar的轻量化人形机器人。Cadène担任UMA联合创始人兼CEO，他表示公司已在与50家潜在客户进行沟通，试图进入快速升温的人形机器人市场。\n\n这一消息意味着欧洲正涌现出可与硅谷巨头直接竞争的人形机器人新势力，同时也反映出全球具身智能赛道的竞争日益激烈。不过，UMA目前仍处于初创阶段，其产品商业化进度和市场表现尚待观察。",
+    "category": "机器人",
+    "tags": [
+      "人形机器人",
+      "具身智能",
+      "欧洲科技"
+    ],
+    "source": "Electrek",
+    "time": "1分钟前",
+    "ts": "2026-07-07T14:56:32+00:00",
+    "url": "https://electrek.co/2026/07/07/tesla-optimus-scientist-uma-humanoid-robot/",
+    "image": "https://electrek.co/wp-content/uploads/sites/3/2026/07/UMA-Northstar-prototype.jpeg?quality=82&#038;strip=all&#038;w=1600",
+    "stocks": []
+  },
+  {
+    "id": "ccd80564180efcc9",
+    "title": "谷歌Pixel 11全系256GB起步，起售价999欧元曝光",
+    "summary": "消息人士曝光谷歌Pixel 11系列欧版售价，全系取消128GB版本、256GB起步，顶配Pro Fold 1TB版达2389欧元，预计8月11日发布并预售。",
+    "body": "据IT之家报道，爆料人billbil-kun在Dealabs平台披露了谷歌Pixel 11系列手机的欧版定价。Pixel 11标准版256GB售价999欧元，512GB为1129欧元；Pixel 11 Pro和Pro XL提供256GB、512GB与1TB版本，售价分别为1199欧元起和1399欧元起；折叠屏Pixel 11 Pro Fold 256GB起售价为1999欧元，1TB顶配达2389欧元。此次全系取消128GB版本、以256GB起步，意味着存储配置升级与起售价同步提高，有望带动Pixel产品平均售价与硬件收入。消息称该系列将于8月11日发布并开启预售，8月20日正式上市。",
+    "category": "消费电子",
+    "tags": [
+      "智能手机",
+      "谷歌",
+      "Pixel",
+      "消费电子"
+    ],
+    "source": "IT之家",
+    "time": "5分钟前",
+    "ts": "2026-07-07T14:53:30+00:00",
+    "url": "https://www.ithome.com/0/973/802.htm",
+    "image": "https://img.ithome.com/newsuploadfiles/2026/7/6904c2dd-34a8-4a4c-a245-1999558e4def.jpg?x-bce-process=image/format,f_auto",
+    "stocks": [
+      {
+        "name": "谷歌-A",
+        "ticker": "GOOGL",
+        "reason": "Pixel 11系列为谷歌硬件业务核心产品，存储规格与定价提升有望拉动ASP及硬件收入。",
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
+    "id": "e06eaffa395e45d8",
+    "title": "英特尔Nova Lake CPU或将回归AVX-512指令集",
+    "summary": "最新Linux内核补丁显示，英特尔下一代Nova Lake处理器的性能核与能效核均将原生支持512位AVX-512指令执行，结束了自Alder Lake以来缺失该功能的局面。",
+    "body": "据报道，英特尔计划在代号为Nova Lake的下一代CPU中重新引入AVX-512支持。新提交的Linux内核RAID优化路径补丁显示，P核与E核都将具备原生的512位执行能力，这意味着过去因E核不支持512位指令而导致的调度崩溃问题有望得到解决。\n\n自12代Alder Lake采用混合架构后，由于能效核不支持AVX-512，英特尔在后续产品中取消了该支持。此前英特尔通过AVX10方案推动P核支持512位、E核仅支持256位的融合路径，但新补丁暗示Nova Lake可能让两类核心都直接支持完整512位流水线。\n",
+    "category": "半导体与先进制造",
+    "tags": [
+      "英特尔",
+      "CPU",
+      "AVX-512",
+      "Nova Lake"
+    ],
+    "source": "Tom's Hardware",
+    "time": "10分钟前",
+    "ts": "2026-07-07T14:47:47+00:00",
+    "url": "https://www.tomshardware.com/pc-components/cpus/avx-512-support-is-reportedly-returning-with-intels-next-gen-nova-lake-cpus-latest-linux-kernel-patches-reveal-p-cores-and-e-cores-will-gain-native-512-bit-execution",
+    "image": "https://cdn.mos.cms.futurecdn.net/6dhScSyVh9hBM75rUoJ4qN-1280-80.jpg",
+    "stocks": [
+      {
+        "name": "英特尔",
+        "ticker": "INTC",
+        "reason": "Nova Lake CPU若恢复AVX-512，可增强其在数据中心、AI推理与高性能计算市场的指令集竞争力。",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
     "id": "070e9ea001263adb",
     "title": "全球35岁以上女性不孕率上升",
     "summary": "《柳叶刀》新分析显示，2023年全球35至49岁女性中约有5360万人受不孕困扰，预计到2036年这一数字可能增至约7960万，辅助生殖技术需求随之上升。",
@@ -109,6 +179,25 @@ const newsData = [
     "time": "12分钟前",
     "ts": "2026-07-07T14:21:59.722000+00:00",
     "url": "https://claude.com/blog/claude-model-and-effort-level-in-claude-code",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "74b421994e4aeb30",
+    "title": "钠离子“盐电池”或将重塑电动车与电网储能",
+    "summary": "钠离子电池以储量丰富的钠为原料，被视为降低储能成本、减少对锂依赖的潜在路线，可能在电动车与电网储能领域带来变革。",
+    "body": "报道指出，钠离子“盐电池”有望在电动汽车和电网储能中发挥颠覆性作用。与锂离子电池相比，钠资源分布广泛、成本低廉，且安全性更高，使其成为大规模储能的候选技术之一。\n\n在电动车领域，钠离子电池可降低整车电池成本，缓解锂价波动带来的供应链压力；在电网侧，则能支撑可再生能源并网与调峰需求，提升电力系统灵活性。\n\n尽管能量密度和循环寿命仍是产业化需要攻克的课题，但该技术路线被普遍认为对全球能源转型与关键矿产安全具有重要战略意义。",
+    "category": "未来能源",
+    "tags": [
+      "钠离子电池",
+      "储能",
+      "新能源车",
+      "电池技术"
+    ],
+    "source": "Hacker News",
+    "time": "38分钟前",
+    "ts": "2026-07-07T14:19:34+00:00",
+    "url": "https://www.newscientist.com/article/2532997-salt-batteries-are-about-to-shake-up-evs-and-grid-storage/",
     "image": "",
     "stocks": []
   },
