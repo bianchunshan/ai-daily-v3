@@ -1,5 +1,24 @@
 const newsData = [
   {
+    "id": "46a17b9dae752e8c",
+    "title": "美国今年能否通过NASA授权法案？",
+    "summary": "美国国会拨款人士再度乐观预期，今年有望恢复拨款“常规秩序”，并推动NASA授权法案取得进展。",
+    "body": "文章以体育迷“今年会不一样”的心态作比喻，指出美国国会拨款委员会人士年年期盼恢复拨款“常规秩序”，但NASA授权法案的立法进程仍充满不确定性。NASA授权法案旨在为美国航天机构制定政策方向、项目授权与预算框架，若能在本届国会推进，将有助于明确美国载人航天、深空探测及科学任务的长期战略重点。不过，鉴于往年授权法案屡被拖延，本届国会能否最终达成妥协仍待观察。",
+    "category": "商业航天",
+    "tags": [
+      "NASA",
+      "航天政策",
+      "美国国会",
+      "授权法案"
+    ],
+    "source": "SpaceNews",
+    "time": "1分钟前",
+    "ts": "2026-07-08T18:06:39+00:00",
+    "url": "https://spacenews.com/is-this-the-year-for-a-nasa-authorization-bill/",
+    "image": "https://i0.wp.com/spacenews.com/wp-content/uploads/2026/02/housesci-20260204.jpeg?fit=1024%2C683&amp;ssl=1",
+    "stocks": []
+  },
+  {
     "id": "a4a2eece6c6cfcfe",
     "title": "噬菌体靶向消除致病大肠杆菌缓解克罗恩肠炎",
     "summary": "加拿大麦克马斯特大学团队利用噬菌体开发了一种针对炎症性肠病的靶向疗法，可在不破坏整体肠道菌群的前提下抑制克罗恩病相关的肠道炎症。",
@@ -35,6 +54,25 @@ const newsData = [
     "ts": "2026-07-08T14:00:07-04:00",
     "url": "https://medicalxpress.com/news/2026-07-genetic-insights-fluid-brain-condition.html",
     "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/newborn-2.jpg",
+    "stocks": []
+  },
+  {
+    "id": "f767af2fc0040193",
+    "title": "遮蔽阳光或降低超强厄尔尼诺风险",
+    "summary": "随着对超强厄尔尼诺的担忧加剧，一项新研究提出，通过太阳辐射地球工程“调暗太阳”，或可削弱极端厄尔尼诺事件的影响与风险。",
+    "body": "据英国《连线》报道，科学家在模拟研究中发现，太阳辐射地球工程——例如向平流层释放反射性气溶胶以减少到达地面的阳光——可能降低极端厄尔尼诺事件的强度或发生风险。这种方法试图通过人为削弱太阳辐射来抵消部分温室气体升温效应，从而缓解相关气候灾害。\n\n尽管该方案为应对气候变化和极端天气提供了新思路，但研究者也强调，地球工程仍存在重大不确定性、区域影响差异以及伦理与治理争议，目前仍处于理论研究阶段，不能替代减排等根本措施。",
+    "category": "未来能源",
+    "tags": [
+      "太阳地球工程",
+      "气候干预",
+      "厄尔尼诺",
+      "太阳辐射管理"
+    ],
+    "source": "Wired",
+    "time": "7分钟前",
+    "ts": "2026-07-08T18:00:00+00:00",
+    "url": "https://www.wired.com/story/dimming-the-sun-would-lower-risks-of-el-nino/",
+    "image": "https://media.wired.com/photos/6a4cd2c0b0c984e61e0cd621/master/pass/GettyImages-2284375074.jpg",
     "stocks": []
   },
   {
