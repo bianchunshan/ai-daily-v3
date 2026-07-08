@@ -96,6 +96,25 @@ const newsData = [
     "stocks": []
   },
   {
+    "id": "7e03ba0f4bc34d24",
+    "title": "蚯蚓与微生物治理粪污，地球工程面临现实挑战",
+    "summary": "美国加州奶农采用蚯蚓与微生物组成的“蠕虫过滤”系统处理粪污废水，有望减少甲烷、氧化亚氮和水污染；与此同时，太阳地球工程正从计算机模拟走向实际工程挑战。",
+    "body": "第三代加州奶农 Anthony Agueda 正在使用由蚯蚓和微生物组成的“蠕虫过滤”系统净化粪污废水。该系统可能大幅减少甲烷、氧化亚氮及水污染，正成为农民、企业和科学家应对畜牧业环境压力的多种方法之一。\n\n另一方面，太阳地球工程——即人为干预气候系统以抵消全球变暖——正超越计算机模拟，进入研究飞机、材料和其他系统所涉实际工程挑战的阶段。\n\n这两项技术反映出农业污染治理与气候干预技术正从概念走向实践，尽管太阳地球工程仍面临巨大争议和现实考验。",
+    "category": "未来能源",
+    "tags": [
+      "可持续农业",
+      "污染治理",
+      "地球工程",
+      "气候技术"
+    ],
+    "source": "MIT Tech Review",
+    "time": "26分钟前",
+    "ts": "2026-07-08T12:10:00+00:00",
+    "url": "https://www.technologyreview.com/2026/07/08/1140216/the-download-worms-manure-pollution-geoengineering-reality-check/",
+    "image": "https://wp.technologyreview.com/wp-content/uploads/2025/02/uber-driver-with-passenger-thumb.jpg?w=3000",
+    "stocks": []
+  },
+  {
     "id": "3615d9eeb3d095e8",
     "title": "研究生开源管理多Skill相互调用方法",
     "summary": "在校研究生Kunkun开源了一套管理大量相互调用Skill的方法，通过HTML后台标签筛选、Mermaid流程图定位与\"ask me\"技能辅助决策，提升复杂AI工程场景下的人机对齐与可控性。",
