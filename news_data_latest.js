@@ -1,5 +1,31 @@
 const newsData = [
   {
+    "id": "b48e997df5c13f1f",
+    "title": "华硕发布ProArt 40Gbps移动硬盘盒：内置风扇569元",
+    "summary": "华硕推出ProArt创梦PA40SU移动高速硬盘盒，支持USB4 40Gbps传输与NVMe/SATA双协议，内嵌智能风扇主动散热，售价569元，7月10日开售。",
+    "body": "7月8日，华硕发布ProArt创梦系列40Gbps移动高速硬盘盒PA40SU，京东售价569元，7月10日开售。该产品支持USB4协议，传输速率达40Gbps，兼容NVMe/SATA双协议及2280/2230尺寸M.2 SSD，可在Windows、MacOS与Linux系统下使用。\n硬盘盒采用高效散热结构并内嵌智能风扇，支持四段式风扇控制，可在满载下保持稳定运行；机身厚度仅13.5 mm，采用免工具快拆设计，便于安装与更换硬盘。产品还配备ProArt SSD Dashboard管理软件，可实时监控SSD健康状态，面向户外创作与移动办公等场景。",
+    "category": "消费电子",
+    "tags": [
+      "华硕",
+      "移动存储",
+      "USB4",
+      "ProArt"
+    ],
+    "source": "IT之家",
+    "time": "4分钟前",
+    "ts": "2026-07-08T04:38:52+00:00",
+    "url": "https://www.ithome.com/0/973/979.htm",
+    "image": "https://img14.360buyimg.com/pop/jfs/t1/464914/34/15933/122528/6a44de38Fb8df1468/0083320320908add.jpg",
+    "stocks": [
+      {
+        "name": "华硕",
+        "ticker": "2357.TW",
+        "reason": "华硕为该硬盘盒制造商，新品有助于巩固其在专业创作存储配件市场的布局",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
     "id": "c794b09a365cc020",
     "title": "腾讯再挖OpenAI前研究员，加速视觉语言模型研发",
     "summary": "OpenAI前研究员田永龙近期加入腾讯大语言模型部，将参与视觉语言模型（VLM）研发。这是腾讯继姚顺雨之后又一位来自OpenAI的核心人才，意在强化多模态大模型能力。",
