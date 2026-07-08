@@ -1,5 +1,24 @@
 const newsData = [
   {
+    "id": "161d7af5887ac417",
+    "title": "AI辅助CRISPR发现银屑病新靶点：催产素受体",
+    "summary": "Biohub研究人员首次对人类成人原代皮肤细胞开展全基因组CRISPR筛选，并借助AI模型挖掘银屑病治疗中可能被忽视的药物靶点，最终发现催产素受体或成为意想不到的候选靶点，有望为炎症性皮肤病治疗开辟新方向。",
+    "body": "据MedicalXpress报道，Biohub研究团队开展了首次针对人类成人原代皮肤细胞的全基因组CRISPR研究，随后利用AI模型对筛选结果进行深度挖掘，寻找银屑病治疗中可能被忽视的药物靶点。研究人员意外发现催产素受体——催产素是一种参与分娩、并与社会 bonding 相关的激素，有时被称为“爱情荷尔蒙”——可能成为治疗银屑病的潜在靶点。该研究展示了人工智能与基因编辑技术结合在药物靶点发现中的潜力，为银屑病等炎症性皮肤病的机制研究与新药开发提供了新线索，但距离临床应用仍需进一步验证。",
+    "category": "生物医药",
+    "tags": [
+      "AI制药",
+      "CRISPR",
+      "银屑病",
+      "药物靶点"
+    ],
+    "source": "MedicalXpress",
+    "time": "5分钟前",
+    "ts": "2026-07-08T17:40:01-04:00",
+    "url": "https://medicalxpress.com/news/2026-07-ai-crispr-uncovers-oxytocin-receptor.html",
+    "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/surprising-drug-target.jpg",
+    "stocks": []
+  },
+  {
     "id": "78858ab234413ce4",
     "title": "ispace将借助SpaceX星舰向月球运送更大载荷",
     "summary": "日本月球探测公司ispace计划购买SpaceX未来星舰月球着陆器任务的空间，以向月球运送更大载荷。这一合作有望降低登月成本并提升任务能力。",
