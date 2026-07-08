@@ -1,5 +1,42 @@
 const newsData = [
   {
+    "id": "14f2e9481d852287",
+    "title": "探营Lectron中国充电桩工厂：供货福特奔驰通用",
+    "summary": "Electrek记者参观了Lectron位于中国的工厂，该公司生产大量J1772/CCS与NACS转换适配器，并推出第二代家用二级充电桩NEXUS，已成为福特、通用、奔驰等车企的供应商。",
+    "body": "据外媒Electrek报道，记者近日参观了美国电动车充电配件企业Lectron位于中国的工厂。Lectron主要生产J1772/CCS与NACS标准之间的转换适配器，并发布了第二代家用二级充电桩NEXUS。\n\n文章指出，Lectron的产品被众多电动车车主使用，同时也成为福特、通用、梅赛德斯-奔驰等车企的供应来源。这反映出中国在全球电动车充电供应链和制造环节中的重要地位。\n\n尽管Lectron目前仍聚焦充电配件与家用桩市场，但其产能扩张和客户结构表明，第三方充电设备制造商正在借助标准化转换需求，深度嵌入主流电动车生态。",
+    "category": "未来能源",
+    "tags": [
+      "电动汽车充电",
+      "充电桩",
+      "新能源汽车供应链",
+      "中国工厂"
+    ],
+    "source": "Electrek",
+    "time": "4分钟前",
+    "ts": "2026-07-08T19:33:27+00:00",
+    "url": "https://electrek.co/2026/07/08/i-toured-lectron-factory-in-china-heres-what-i-learned/",
+    "image": "https://electrek.co/wp-content/uploads/sites/3/2026/07/Lectron-tour.jpg?quality=82&#038;strip=all&#038;w=1600",
+    "stocks": []
+  },
+  {
+    "id": "67b034bb6c58fda7",
+    "title": "马斯克称Grok 4.5为“Opus级”模型",
+    "summary": "据消息，马斯克旗下科技公司发布了新一代大模型Grok 4.5，马斯克将其称为“Opus级模型”，并强调该模型将更便宜、更高效。",
+    "body": "据TechCrunch报道，马斯克旗下科技公司（SpaceXAI）于周三发布了Grok的最新版本Grok 4.5。马斯克称该模型为“Opus级模型”，并宣称其在性能上可与其他顶尖大模型媲美，同时价格更低、效率更高。\n\n如果该版本确实在性能和成本上取得突破，可能加剧高端大模型市场的竞争，并推动AI推理服务价格进一步下降。不过，目前尚未披露具体的技术指标、定价和开放范围等细节。",
+    "category": "人工智能",
+    "tags": [
+      "Grok",
+      "大语言模型",
+      "马斯克"
+    ],
+    "source": "TechCrunch",
+    "time": "7分钟前",
+    "ts": "2026-07-08T19:30:16+00:00",
+    "url": "https://techcrunch.com/2026/07/08/spacexai-releases-grok-4-5-which-elon-describes-as-an-opus-class-model/",
+    "image": "",
+    "stocks": []
+  },
+  {
     "id": "6b182a01890e3b55",
     "title": "Sunrun拟付费让家庭住宅变身分布式AI数据中心",
     "summary": "Sunrun计划将数千户太阳能住宅改造成分布式AI数据中心，并向房主支付费用以支持AI算力需求。该模式将家庭储能与AI基础设施结合，可能成为缓解数据中心电力压力的新路径。",
