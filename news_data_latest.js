@@ -1,5 +1,62 @@
 const newsData = [
   {
+    "id": "20680b12b8d27da5",
+    "title": "AI制药公司德睿智药完成5200万美元B轮融资",
+    "summary": "AI新药研发企业德睿智药宣布累计完成5200万美元B轮融资，资金将主要用于升级自研全链路AI制药引擎MAP，并推进口服GLP-1RA小分子MDR-001的Ⅲ期临床及商业化。",
+    "body": "据36氪报道，专注于AI驱动新药研发的科技公司“德睿智药”宣布分阶段完成累计5200万美元B轮融资，由多家投资机构与产业基金共同投资，凯乘资本担任本轮融资独家财务顾问。\n\n本轮融资所得资金将核心投入公司自研全链路AI制药引擎MAP（Molecule Arts Platform）的深度技术迭代，持续完善其多智能体（Multi-Agent）协同体系与临床数据闭环（Clinical Data-in-the-Loop），以提升AI制药平台的研发效率与成功率。\n\n同时，资金还将用于推进自研口服GLP-1RA小分子MDR-001的Ⅲ期临床开发至商业化，并加速拓展差异化创新药管线。此次融资有助于强化德睿智药在AI制药领域的技术储备与产品转化能力。",
+    "category": "生物医药",
+    "tags": [
+      "AI制药",
+      "新药研发",
+      "GLP-1",
+      "融资"
+    ],
+    "source": "36氪",
+    "time": "刚刚",
+    "ts": "2026-07-08T02:40:42.927841+00:00",
+    "url": "https://36kr.com/newsflashes/3886387918483460?f=rss",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "be9bfdf8f37640cd",
+    "title": "Win11接入LG显示器被曝自动弹出McAfee广告",
+    "summary": "多名网友反馈，LG显示器首次接入Windows 11电脑后，系统会自动加载LG Monitor App Installer并推送McAfee广告，引发用户对预装软件与广告推送的关注。",
+    "body": "据报道，科技媒体Tom's Hardware披露，多位Reddit用户反映将新买的LG显示器通过DisplayPort连接至Windows 11电脑后，在未手动安装任何应用的情况下，系统会跳出名为“LG Monitor App Installer”的弹窗，展示McAfee广告内容。该应用据称通过微软应用商店自动安装。\n\n此事反映出PC外设生态中软件预装与广告推送现象的争议，可能影响用户对品牌与系统体验的评价。相关用户可通过本地组策略启用“阻止与元数据相关联的应用程序自动下载”来阻止该应用自动安装。",
+    "category": "消费电子",
+    "tags": [
+      "Windows 11",
+      "LG显示器",
+      "软件预装",
+      "广告推送"
+    ],
+    "source": "IT之家",
+    "time": "1分钟前",
+    "ts": "2026-07-08T02:38:51+00:00",
+    "url": "https://www.ithome.com/0/973/885.htm",
+    "image": "https://img.ithome.com/newsuploadfiles/2026/7/a75bf37c-d102-4f02-a161-9142b58dae52.jpg",
+    "stocks": []
+  },
+  {
+    "id": "a952d64e9f2a042d",
+    "title": "前华为天才少年李博杰与投资人互怼，DeepSeek面试风波升级",
+    "summary": "前华为\"天才少年\"李博杰公开吐槽DeepSeek面试流程拖沓、被指抄袭，投资人杜均随即反指其在Metagent创业中存在拿钱失联、缺乏契约精神等问题，双方各执一词。",
+    "body": "7月6日，前华为\"天才少年\"计划入选者、中科大博士李博杰在社交平台发文，称参与DeepSeek面试时遭遇流程拖沓、面试官态度轻佻，还被无端指控抄袭，相关言论迅速引发关注。\n\n7月7日，火币网联合创始人、ABCDE Capital创始合伙人杜均在X平台公开回应，直指李博杰是\"合作过最没有契约精神的创始人\"。杜均披露，2024年ABCDE Capital向李博杰创办的Metagent项目支付首笔50万美元投资款，但李博杰被指在资金到账后拒绝履行协议义务，未向投资人同步业务进展和财务状况，甚至失联。\n\n李博杰当晚回应称，150万美元投资中仅50万美元到账，其余资金未到位，但股权结构表仍按150万美元计算。他解释求职DeepSeek是出于个人研究方向选择，希望进入基座模型企业探索大模型技术上限，并非创业失败。目前双方说法存在明显分歧，事件仍在发酵中。",
+    "category": "人工智能",
+    "tags": [
+      "DeepSeek",
+      "人工智能",
+      "投资纠纷",
+      "李博杰"
+    ],
+    "source": "IT之家",
+    "time": "6分钟前",
+    "ts": "2026-07-08T02:33:54+00:00",
+    "url": "https://www.ithome.com/0/973/883.htm",
+    "image": "https://img.ithome.com/newsuploadfiles/2026/7/72e18d17-6c6d-4632-a769-a5184c32701a.jpg",
+    "stocks": []
+  },
+  {
     "id": "110da41d4ff6dbbc",
     "title": "人工智能助推德国初创企业数量创新高",
     "summary": "德国创业协会与Startupdetector调研显示，2026年上半年德国新增3053家初创企业，创历史同期新高，其中逾三分之一具备人工智能业务背景。",
@@ -60,6 +117,32 @@ const newsData = [
     "url": "https://www.ithome.com/0/973/879.htm",
     "image": "https://img.ithome.com/newsuploadfiles/2026/7/a0d1a7bd-f00e-429c-9cf4-1b5e375b2556.jpg?x-bce-process=image/format,f_auto",
     "stocks": []
+  },
+  {
+    "id": "92b8056c50d6d84e",
+    "title": "Google Gemini被指重创Perplexity AI",
+    "summary": "Hacker News上的一则帖子以“Google Gemini Killed Perplexity AI”为题，暗示Google Gemini已在竞争中压倒AI搜索应用Perplexity。目前材料仅包含标题，缺乏具体细节，但反映出大模型与AI搜索赛道竞争日趋激烈。",
+    "body": "据外媒聚合网站Hacker News的一则帖子标题，Google Gemini被认为已经“击败”或严重冲击了AI搜索初创公司Perplexity AI。该帖子仅提供标题与链接，未给出正文内容，因此无法判断具体所指的市场、产品功能还是用户规模变化。\n\nPerplexity AI以对话式AI搜索著称，而Google Gemini是Alphabet推出的多模态大模型及AI助手，二者在问答、搜索及信息检索场景存在直接竞争。如果该帖观点成立，意味着Google在AI搜索赛道上正借助Gemini巩固其传统搜索优势，并对垂直AI搜索产品形成压力。\n\n不过，由于原文材料极为有限，且Hacker News帖子的点赞和评论数很低，上述结论更偏向个人观点，尚待更多数据和正式报道验证。",
+    "category": "人工智能",
+    "tags": [
+      "Google Gemini",
+      "Perplexity AI",
+      "AI搜索",
+      "大模型竞争"
+    ],
+    "source": "Hacker News",
+    "time": "16分钟前",
+    "ts": "2026-07-08T02:23:52+00:00",
+    "url": "https://fatjoe.com/blog/perplexity-ai-stats/",
+    "image": "",
+    "stocks": [
+      {
+        "name": "Alphabet",
+        "ticker": "GOOGL",
+        "reason": "Gemini为Alphabet核心AI产品，若其在AI搜索/问答领域相对Perplexity取得竞争优势，将有助于巩固搜索业务并带动AI收入增长",
+        "confidence": "medium"
+      }
+    ]
   },
   {
     "id": "383d81571218b1ef",
