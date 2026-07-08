@@ -1,5 +1,126 @@
 const newsData = [
   {
+    "id": "31078543829b0e49",
+    "title": "人脑智能奥秘或藏于单个神经元计算力",
+    "summary": "长期以来，人类智力被认为主要源于大脑中近千亿神经元的规模与连接。一项发表在《美国国家科学院院刊》的新研究指出，单个脑细胞的非凡计算能力可能也是关键。",
+    "body": "长期以来，科学界普遍认为人类大脑之所以能够支撑语言、想象力、数学和发明，关键在于其规模：大脑拥有近1000亿个神经元，以及这些神经元之间错综复杂的连接网络。\n\n然而，一项发表于《美国国家科学院院刊》（PNAS）的新研究提出，人类智能的秘密或许还存在于更微观的层面，即单个脑细胞本身具备的强大计算能力。这表明单个神经元的信息处理复杂度可能远超以往认知。\n\n如果这一结论得到进一步验证，将可能重塑人们对大脑工作原理和认知能力的理解，并为类脑计算、神经科技乃至人工智能研究提供新的启示。",
+    "category": "脑机接口",
+    "tags": [
+      "神经科学",
+      "类脑计算",
+      "认知科学",
+      "人脑智能"
+    ],
+    "source": "MedicalXpress",
+    "time": "7分钟前",
+    "ts": "2026-07-08T10:09:29-04:00",
+    "url": "https://medicalxpress.com/news/2026-07-secret-human-intelligence-power-brain.html",
+    "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/the-secret-of-human-in.jpg",
+    "stocks": []
+  },
+  {
+    "id": "49a977e5f5a038b0",
+    "title": "大疆发布首款无人机降落伞AP100，定价7488元",
+    "summary": "大疆推出行业应用首款无人机降落伞DJI AP100，专为Matrice 400无人机设计，支持自动与手动双模式开伞，具备独立飞行控制系统与双链路冗余，可满足欧盟及英国部分安全运行要求。",
+    "body": "大疆发布DJI AP100无人机降落伞，这是其行业应用首款降落伞产品，专为Matrice 400无人机设计，官方定价7488元。该产品重量约935克，具备IP55防护等级，可在-20°C至50°C温度范围内工作，支持自动与手动触发，标称能在600毫秒内完成旋翼停转与开伞，并将落地速度控制在5米/秒以内。安全冗余方面，AP100内置独立飞行控制系统与IMU传感器，与无人机主控形成双链路冗余，即使主控异常仍可独立完成开伞，同时搭载智能检测算法降低误触发风险。该产品与Matrice 400搭配可满足欧盟航空安全局C5/C6类及英国民用航空局UK5/UK6类安全运行要求，适用于城市人群上空及超视距飞行场景，有助于提升大疆行业级无人机在强监管市场的合规能力。",
+    "category": "机器人",
+    "tags": [
+      "无人机",
+      "低空经济",
+      "大疆",
+      "安全冗余"
+    ],
+    "source": "IT之家",
+    "time": "9分钟前",
+    "ts": "2026-07-08T14:08:11+00:00",
+    "url": "https://www.ithome.com/0/974/259.htm",
+    "image": "https://img.ithome.com/newsuploadfiles/2026/7/020dc62b-e67a-472c-bf99-33f981fe782e.png?x-bce-process=image/format,f_auto",
+    "stocks": []
+  },
+  {
+    "id": "e3f53f12c00f03c4",
+    "title": "Venus Aerospace完成9000万美元B轮融资",
+    "summary": "美国航天初创公司Venus Aerospace宣布完成9000万美元B轮融资，资金将用于开发新型火箭发动机。",
+    "body": "据报道，Venus Aerospace完成9000万美元B轮融资，募集资金将用于研制一种新型火箭发动机。原文未披露本轮投资方、估值及具体技术路线，但高额融资表明市场对创新推进系统的兴趣强烈。\n\n如果Venus Aerospace的新型火箭发动机取得突破，有望降低发射成本、提升运载效率或支持更高速飞行，对商业航天运载工具与空间应用产业链形成积极影响。",
+    "category": "商业航天",
+    "tags": [
+      "商业航天",
+      "火箭发动机",
+      "融资",
+      "Venus Aerospace"
+    ],
+    "source": "TechCrunch",
+    "time": "9分钟前",
+    "ts": "2026-07-08T14:07:49+00:00",
+    "url": "https://techcrunch.com/2026/07/08/venus-aerospace-raises-90m-series-b-to-build-a-new-kind-of-rocket-engine/",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "abd3c9a5286b11f9",
+    "title": "Blue Origin据悉融资100亿美元，估值1300亿美元",
+    "summary": "据《纽约时报》报道，贝佐斯旗下太空公司Blue Origin正筹集100亿美元，投前估值约1300亿美元，由Coatue及贝佐斯等投资。",
+    "body": "Blue Origin正进行一轮约100亿美元的融资，投前估值达1300亿美元。本轮由Coatue Asset Management、创始人杰夫·贝佐斯及其他知名投资者参与。该交易将使这家私营航天公司跻身全球估值最高的商业航天企业之列。资金预计将继续支持其\"新格伦\"重型火箭、月球着陆器及轨道空间站等项目的研发与产能扩张。",
+    "category": "商业航天",
+    "tags": [
+      "商业航天",
+      "Blue Origin",
+      "火箭发射",
+      "新格伦"
+    ],
+    "source": "TechCrunch",
+    "time": "12分钟前",
+    "ts": "2026-07-08T14:04:53+00:00",
+    "url": "https://techcrunch.com/2026/07/08/blue-origin-reportedly-raising-10b-at-130b-valuation/",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "a6679e40684055c8",
+    "title": "NASA罗曼空间望远镜发射前准备",
+    "summary": "NASA的南希·格雷斯·罗曼空间望远镜已运抵佛罗里达州肯尼迪航天中心，并进入洁净室进行发射前准备，预计8月30日发射。",
+    "body": "NASA的旗舰任务“南希·格雷斯·罗曼空间望远镜”（Nancy Grace Roman Space Telescope）已从戈达德航天中心运抵肯尼迪航天中心，并进入有效载荷危险维修设施洁净室。工程人员正在利用起重设备将望远镜吊装到专用支架上，以完成燃料加注、测试等发射前准备工作。该望远镜以NASA首位天文学首席科学家命名，视野远超哈勃望远镜，旨在以前所未有的方式探测宇宙、研究暗能量与系外行星。若一切顺利，它将在约一个半月后升空，开启天文学观测新阶段。",
+    "category": "商业航天",
+    "tags": [
+      "空间望远镜",
+      "NASA",
+      "深空探测",
+      "航天发射"
+    ],
+    "source": "Space.com",
+    "time": "17分钟前",
+    "ts": "2026-07-08T14:00:00+00:00",
+    "url": "https://www.space.com/space-exploration/launches-spacecraft/nasas-roman-space-telescope-prepares-for-launch-space-photo-of-the-day-for-july-8-2026",
+    "image": "https://cdn.mos.cms.futurecdn.net/T59x5zQ685BbqEkGmqdZ7K-1280-80.png",
+    "stocks": []
+  },
+  {
+    "id": "8e3b8a3454608d38",
+    "title": "俄勒冈批准电力公司涨数据中心电费30%",
+    "summary": "俄勒冈州公用事业委员会批准波特兰通用电气对大型电力用户上调费率约29.7%，主要影响数据中心等高耗能产业，同时居民电价下调1.3%。",
+    "body": "据俄勒冈公共广播报道，俄勒冈州公用事业委员会（PUC）一致批准波特兰通用电气（PGE）上调大型电力用户费率，涨幅达29.7%。该费率等级依据州内《POWER法案》设立，适用于用电规模超过20兆瓦的开发项目，覆盖大型数据中心和加密货币矿场等。官方表示，此举旨在让数据中心造成电网成本更准确地反映在其电价中，避免普通居民和小企业承担额外负担。该政策短期内将抬高数据中心运营成本，但有助于引导高耗能项目更负责任地使用电力，并对州内电网投资与电力供需平衡产生长期影响。",
+    "category": "AI 基础设施",
+    "tags": [
+      "数据中心",
+      "电力",
+      "能源政策",
+      "俄勒冈"
+    ],
+    "source": "Tom's Hardware",
+    "time": "20分钟前",
+    "ts": "2026-07-08T13:56:27+00:00",
+    "url": "https://www.tomshardware.com/tech-industry/data-centers/power-company-hikes-data-center-bills-by-30-percent-cuts-residential-electricity-costs-by-1-3-percent-oregon-approves-change-through-power-act-pushes-developments-using-more-than-20-megawatts-of-power-to-pay-their-fair-share",
+    "image": "https://cdn.mos.cms.futurecdn.net/KHUetaXQbsmm6z9m5g5Pne-1280-80.jpg",
+    "stocks": [
+      {
+        "name": "波特兰通用电气",
+        "ticker": "POR",
+        "reason": "大型数据中心用电费率上调将直接提升公司对大客户的收入",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
     "id": "c029285e00315f8e",
     "title": "苹果承诺向博通采购300亿美元美国产芯片",
     "summary": "苹果公司宣布将在其美国制造投资计划框架下，向博通采购价值300亿美元的美国产芯片。该长期协议将强化苹果本土供应链，并为博通带来可观订单。",
@@ -146245,6 +146366,12 @@ const newsData = [
   }
 ];
 const newsDigest = {
-  "text": "",
-  "highlights": []
+  "text": "Blue Origin百亿融资估值创新高，苹果与博通签下300亿美元美国芯片大单，字节跳动发布Seedream 5.0 Pro，俄勒冈上调数据中心电费，大疆推出首款无人机降落伞。",
+  "highlights": [
+    "abd3c9a5286b11f9",
+    "c029285e00315f8e",
+    "ca06565313dce5a3",
+    "8e3b8a3454608d38",
+    "49a977e5f5a038b0"
+  ]
 };
