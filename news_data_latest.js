@@ -1,5 +1,24 @@
 const newsData = [
   {
+    "id": "eea898ee652dfeab",
+    "title": "X将私信通知用户其互动帖子被社区笔记纠正",
+    "summary": "X计划当用户点赞、回复或转发的帖子被社区笔记纠正时，通过私信通知用户，以加强平台事实核查的及时性。",
+    "body": "马斯克宣布，X平台将推出新功能：当用户曾经点赞、回复或转发的帖子被社区笔记（Community Notes）纠正时，系统将通过私信主动通知用户。这一更新旨在回应对X众包事实核查系统往往滞后于虚假信息传播、无法及时遏制谣言扩散的批评。通过直接触达已参与互动的用户，X希望提升纠错信息的覆盖面和干预效果，进一步改善平台内容生态与信息可信度。",
+    "category": "人工智能",
+    "tags": [
+      "社交媒体",
+      "内容审核",
+      "事实核查",
+      "马斯克"
+    ],
+    "source": "TechCrunch",
+    "time": "1分钟前",
+    "ts": "2026-07-08T18:46:20+00:00",
+    "url": "https://techcrunch.com/2026/07/08/elon-musk-says-x-will-send-dms-when-posts-youve-engaged-with-are-corrected/",
+    "image": "",
+    "stocks": []
+  },
+  {
     "id": "274a64928ece0cd7",
     "title": "福特承认3万美元电动皮卡实为“小型”车",
     "summary": "福特汽车首次将其明年上市的中型电动皮卡称为基于UEV平台打造的“经济实惠小型电动皮卡”，车身尺寸低于此前预期。",
@@ -90,6 +109,25 @@ const newsData = [
     ]
   },
   {
+    "id": "e958543bdb833d34",
+    "title": "Roku流媒体电视最受欢迎但短板明显",
+    "summary": "Roku在流媒体电视市场占据领先地位，但Engadget指出其流媒体设备在多个关键类别已落后于竞争对手。",
+    "body": "Roku是全球最受欢迎的流媒体电视品牌，但据Engadget报道，其流媒体设备在多个重要品类中正被竞争对手赶超。报道称，尽管Roku市场份额领先，但在硬件性能、软件生态和内容体验等方面存在不足。这一差距可能影响Roku的用户留存与长期竞争力，也反映出流媒体设备市场竞争日趋激烈。",
+    "category": "消费电子",
+    "tags": [
+      "流媒体",
+      "Roku",
+      "消费电子",
+      "智能电视"
+    ],
+    "source": "Engadget",
+    "time": "17分钟前",
+    "ts": "2026-07-08T18:30:00+00:00",
+    "url": "https://www.engadget.com/2209478/roku-most-popular-streaming-tv-study/",
+    "image": "https://www.engadget.com/img/gallery/roku-is-the-most-popular-streaming-tv-but-lacking-more-than-you-think/l-intro-1783431631.jpg",
+    "stocks": []
+  },
+  {
     "id": "4bcee2f421f143f9",
     "title": "亲代血细胞或可缓冲衰老影响",
     "summary": "随着年龄增长，造血干细胞的衰老迹象可能导致白血病、血栓等疾病，最新研究揭示了亲代血细胞在其中的缓冲作用。",
@@ -106,6 +144,32 @@ const newsData = [
     "url": "https://medicalxpress.com/news/2026-07-parent-blood-cells-buffer-effects.html",
     "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/parent-blood-cells-act.jpg",
     "stocks": []
+  },
+  {
+    "id": "500d1a89b3700ffd",
+    "title": "OpenAI发布GPT-Live语音模型，支持同时听与说",
+    "summary": "OpenAI推出全双工语音模型GPT-Live，支持同时听和说、用户打断及自然填充词，并在后台调用GPT-5.5处理复杂任务。该模型覆盖iOS、Android和网页端，付费与免费用户均可使用，在多项基准测试中显著优于旧版高级语音模式。",
+    "body": "OpenAI发布GPT-Live语音模型，采用全双工架构，能够同时听与说，允许用户打断并生成“mhmm”等填充词，使对话更自然。模型分为GPT-Live-1和GPT-Live-1 mini两个版本，前者面向Go、Plus、Pro付费用户，后者面向免费用户，支持iOS、Android和网页端。\n\n复杂任务如网页搜索和推理会被委托给后台GPT-5.5，用户可选择Instant、Medium、High三个推理级别。在用户偏好测试中，GPT-Live-1和mini分别获得75.7%和69.2%；在GPQA科学推理高推理级别中得分84.2%，在BrowseComp智能体搜索基准中得分75.2%。此外，新版本新增视觉卡片、九种语音，并加入危机热线、年龄适配和家长控制等安全措施。\n\n这一发布标志着OpenAI在语音优先交互和智能体能力上的进一步升级，有望推动更自然的人机对话，并加剧语音AI与智能助手领域的竞争。",
+    "category": "人工智能",
+    "tags": [
+      "OpenAI",
+      "语音模型",
+      "人工智能",
+      "GPT-Live"
+    ],
+    "source": "AIHOT精选",
+    "time": "28分钟前",
+    "ts": "2026-07-08T18:18:55+00:00",
+    "url": "https://the-decoder.com/chatgpt-can-now-listen-and-talk-at-the-same-time-making-ai-conversations-seem-more-human",
+    "image": "",
+    "stocks": [
+      {
+        "name": "微软",
+        "ticker": "MSFT",
+        "reason": "作为OpenAI主要投资方和云服务合作伙伴，OpenAI模型能力提升有望强化其Copilot生态与Azure服务竞争力。",
+        "confidence": "medium"
+      }
+    ]
   },
   {
     "id": "46a17b9dae752e8c",
