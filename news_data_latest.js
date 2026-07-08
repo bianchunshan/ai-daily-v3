@@ -1,5 +1,145 @@
 const newsData = [
   {
+    "id": "f2c992c3f47f6bcc",
+    "title": "三星7月抢在iPhone前发布新款折叠屏手机",
+    "summary": "三星电子宣布将于7月22日在伦敦举办Galaxy Unpacked发布会，预计推出设计更短更宽的Galaxy Z Fold 8等三款折叠屏手机，以及智能手表和可夹式无线耳机等可穿戴设备，意在抢先苹果折叠式iPhone上市。",
+    "body": "三星电子公司将于7月22日在伦敦举行下一场Galaxy Unpacked发布会。据其向媒体发出的邀请函，届时预计发布一款设计更短、更宽的Galaxy Z Fold 8，外观与苹果计划推出的折叠式iPhone相似。发布会上还将推出包括三款折叠屏手机在内的一系列新品，以及智能手表和可夹式无线耳机等可穿戴设备。这一动作显示出三星希望在折叠屏手机赛道继续保持先发优势，并对苹果形成一定的市场压力。",
+    "category": "消费电子",
+    "tags": [
+      "折叠屏手机",
+      "三星",
+      "消费电子",
+      "可穿戴设备"
+    ],
+    "source": "36氪",
+    "time": "刚刚",
+    "ts": "2026-07-08T01:04:09.158654+00:00",
+    "url": "https://36kr.com/newsflashes/3886288118345989?f=rss",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "0237cddbc00dff86",
+    "title": "深圳光模块独角兽新菲光目标三年产值400亿元",
+    "summary": "深圳光模块企业新菲光工厂处于满产状态，已获北美大客户供货资格，计划扩产并目标三年内实现年产值400亿元。",
+    "body": "据界面新闻从深圳光明新菲光工厂获悉，该公司光模块工厂当前处于满产状态。其中，光明工厂800G产品月产能约10万只，1.6T产品约4万只；北美工厂1.6T产品月产能约1万只。公司已获得北美客户供货资格，正急于扩大产能、承接订单，并计划在现有厂区新增产线。\n\n新菲光将目标设定为三年左右达到年产值400亿元。这一扩张计划反映出高速光模块在AI算力需求驱动下的持续紧缺，也显示中国光模块厂商正在加速切入海外大客户，提升在全球AI基础设施供应链中的份额。",
+    "category": "AI 基础设施",
+    "tags": [
+      "光模块",
+      "AI算力",
+      "高速光通信",
+      "新菲光"
+    ],
+    "source": "36氪",
+    "time": "刚刚",
+    "ts": "2026-07-08T01:03:59.641748+00:00",
+    "url": "https://36kr.com/newsflashes/3886294647025922?f=rss",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "e7c167eb1f4cb098",
+    "title": "玩家请愿保留PlayStation实体光盘，索尼保持沉默",
+    "summary": "要求索尼继续为PlayStation发行实体游戏的“不要扼杀光盘”请愿已在Change.org获得超16.5万个签名，但索尼尚未正面回应玩家与实体零售商的反对。",
+    "body": "据外媒VGC报道，索尼于7月1日宣布，自2028年1月起所有新PlayStation游戏将停止生产实体光盘，改为数字版或以仅含下载码的盒装形式销售。此举引发玩家与实体游戏零售商强烈反弹，加拿大小型零售商PNP Games在Change.org发起“不要扼杀光盘”请愿，目前签名数已达165640个。请愿书强调实体光盘赋予玩家真正所有权、可转售与收藏，而纯数字许可面临被撤销风险，并警告全面数字化将冲击零售、分销、制造及二手市场的大量就业岗位。\n\n尽管舆论持续发酵，索尼至今未作公开回应，PlayStation官方X账号也在公告后罕见断更多日。索尼仅向开发商和发行商说明，2028年1月前发售的旧游戏仍可制作实体光盘，新游戏则不再提供。这一事件凸显出游戏行业数字化进程中，消费者所有权、产业链利益与平台策略之间的冲突正在加剧。",
+    "category": "消费电子",
+    "tags": [
+      "索尼",
+      "PlayStation",
+      "实体光盘",
+      "数字游戏"
+    ],
+    "source": "IT之家",
+    "time": "3分钟前",
+    "ts": "2026-07-08T01:00:19+00:00",
+    "url": "https://www.ithome.com/0/973/848.htm",
+    "image": "https://img.ithome.com/newsuploadfiles/2026/7/0370de29-9911-4140-8084-867aca4745cc.png",
+    "stocks": []
+  },
+  {
+    "id": "d2d3557cf4745837",
+    "title": "SpaceXAI与Cursor合作AI模型最快今日亮相",
+    "summary": "据外媒报道，SpaceXAI与Cursor联合开发的首款AI模型有望最快于当地时间今日发布，部分性能据称可与Anthropic Claude Opus 4.8或OpenAI GPT-5.5媲美。双方虽尚未完成600亿美元收购交易，但开发人员已在技术层面展开合作。",
+    "body": "IT之家7月8日援引The Information消息称，SpaceXAI首款与Cursor联合开发的人工智能模型可能最快在当地时间今日面世。该模型据称在某些方面已达到Anthropic Claude Opus 4.8或OpenAI GPT-5.5的水平，显示出较强的代码与推理能力。\n\n尽管SpaceX收购Cursor的600亿美元交易尚未正式落地，但双方开发团队已开始技术合作。马斯克上月末曾表示，基于1.5T V9基座模型、并用Cursor数据补充训练的Grok 4.5已在其旗下企业进行测试。Cursor首席执行官迈克尔·特鲁埃尔也透露，公司正基于SpaceXAI Colossus数据中心从零训练一款可直接与Anthropic和OpenAI竞争的人工智能模型。\n\n若该模型如期发布，意味着马斯克的AI团队与知名AI编程工具Cursor在模型层面的协同进一步公开化，可能加剧顶级大模型在代码、推理与企业服务领域的竞争。",
+    "category": "人工智能",
+    "tags": [
+      "AI模型",
+      "SpaceXAI",
+      "Cursor",
+      "Grok"
+    ],
+    "source": "IT之家",
+    "time": "3分钟前",
+    "ts": "2026-07-08T01:00:05+00:00",
+    "url": "https://www.ithome.com/0/973/847.htm",
+    "image": "https://img.ithome.com/newsuploadfiles/2026/7/290569f6-1c85-40be-a237-bec8cd69ecd1.jpg",
+    "stocks": []
+  },
+  {
+    "id": "6eb985f0f8f5f7d1",
+    "title": "血液生物标志物实现肺癌早期检测与预后预测",
+    "summary": "研究团队发现一种新型血液生物标志物，可用于早期肺癌检测并预测患者预后，为肺癌早筛和精准治疗提供潜在工具。",
+    "body": "研究团队发表在《细胞外囊泡杂志》（Journal of Extracellular Vesicles）上的成果显示，一种新型血液生物标志物能够识别早期肺癌并预测患者预后。该发现有望提升肺癌早期筛查的便捷性与可及性。\n\n肺癌早期症状隐匿，多数患者确诊时已属中晚期，预后较差。血液检测作为一种微创、易推广的筛查方式，若后续经大规模临床验证并转化应用，或将改变肺癌诊疗路径，推动精准医疗发展。",
+    "category": "生物医药",
+    "tags": [
+      "肺癌早筛",
+      "液体活检",
+      "生物标志物",
+      "精准医疗"
+    ],
+    "source": "MedicalXpress",
+    "time": "3分钟前",
+    "ts": "2026-07-07T21:00:04-04:00",
+    "url": "https://medicalxpress.com/news/2026-07-blood-based-biomarker-enables-early.html",
+    "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/novel-blood-based-biom.jpg",
+    "stocks": []
+  },
+  {
+    "id": "f35fc491f9663232",
+    "title": "D-Orbit与ArkEdge Space签署发射服务合同",
+    "summary": "意大利太空物流公司D-Orbit将为日本初创企业ArkEdge Space提供多次搭载其ION卫星运载器的发射服务。",
+    "body": "据SpaceNews报道，意大利太空物流专业公司D-Orbit与日本初创企业ArkEdge Space宣布签署发射服务合同，D-Orbit将利用其ION卫星运载器为ArkEdge Space提供一系列搭载发射服务。ION卫星运载器可在轨部署卫星，并提供太空运输与在轨服务，适用于小卫星及星座任务。此次合作有助于D-Orbit拓展亚洲客户资源，也为ArkEdge Space的卫星任务提供了灵活的入轨方案，反映商业航天发射服务与在轨物流需求持续增长。",
+    "category": "商业航天",
+    "tags": [
+      "商业航天",
+      "卫星发射",
+      "太空物流",
+      "D-Orbit"
+    ],
+    "source": "SpaceNews",
+    "time": "3分钟前",
+    "ts": "2026-07-08T01:00:00+00:00",
+    "url": "https://spacenews.com/d-orbit-signs-launch-services-contract-with-arkedge-space/",
+    "image": "https://i0.wp.com/spacenews.com/wp-content/uploads/2026/07/rsz_render_of_gea_-_d-orbits_in-orbit_servicing_vehicle-1.jpg?fit=879%2C494&amp;ssl=1",
+    "stocks": []
+  },
+  {
+    "id": "d148f6f3e7c7104d",
+    "title": "微软Xbox CEO坦承业务“不健康”：启动史上最大重组裁员",
+    "summary": "Xbox CEO阿莎·夏尔玛在内部备忘录中承认业务运营利润率远低于同行，宣布将裁员约3200人、管理层级从14层压缩至5层以内，目标在2027财年恢复增长。",
+    "body": "当地时间7月6日，微软旗下Xbox业务宣布启动史上最大规模重组，计划在2027财年前累计裁减约3200个岗位，约占Xbox员工总数的20%；其中1600人当天离职，其余将在未来12个月内完成。这也是微软同一天宣布全公司裁员约4800人、占全球员工约2.1%的一部分。CEO阿莎·夏尔玛坦承Xbox业务“并不健康”，其运营利润率只有同行的三分之一甚至十分之一，第九世代主机面临装机基础更小、成本结构更高的问题，而Game Pass订阅、多平台发行等内容押注增速未达预期，通常每投入1美元即亏损64美分。\n\n作为重组内容，多家第一方工作室将离开Xbox体系：Compulsion Games与Double Fine Productions将恢复独立并由创始团队持有IP；Ninja Theory、Undead Labs将转入新所有者并继续合作现有项目；Arkane Studios正与工会磋商出售或分拆。组织架构上，Xbox将大幅扁平化，未来管理层级不超过5层、尽量压缩至3层，并新设首席运营官统筹内容、硬件、平台和服务的端到端损益，同时将供应商支出削减50%。夏尔玛表示不会取消已公开的第一方项目，并预计Xbox将在2027年恢复增长。",
+    "category": "消费电子",
+    "tags": [
+      "微软",
+      "Xbox",
+      "游戏主机",
+      "裁员重组"
+    ],
+    "source": "IT之家",
+    "time": "7分钟前",
+    "ts": "2026-07-08T00:56:52+00:00",
+    "url": "https://www.ithome.com/0/973/846.htm",
+    "image": "https://img.ithome.com/newsuploadfiles/2026/7/a3265aed-4a81-437f-9611-b46c54641ba2.png?x-bce-process=image/format,f_auto",
+    "stocks": [
+      {
+        "name": "微软",
+        "ticker": "MSFT",
+        "reason": "Xbox是微软游戏业务核心单元，此次大规模重组与降本目标将直接影响微软整体利润率与2027年增长预期。",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
     "id": "34fb50daa62daa96",
     "title": "快造科技完成10亿元融资，消费级3D打印创纪录",
     "summary": "消费级3D打印企业快造科技（Snapmaker）近期完成10亿元新一轮融资，为近两年一级市场消费级3D打印最大单笔融资。其旗舰产品U1凭借多色多材技术实现营收同比增长10倍。",
