@@ -1,5 +1,60 @@
 const newsData = [
   {
+    "id": "652b20c03a37c83c",
+    "title": "马斯克称X将对收到社区注释的帖子发送私信提醒",
+    "summary": "马斯克表示，X平台将对收到社区注释（Community Notes）的帖子向发帖人发送私信，以使群众纠错的提示更难被忽视。",
+    "body": "据Engadget报道，马斯克称X平台将推出新功能：当用户发布的帖子被添加社区注释后，系统会通过私信（DM）通知发帖人。社区注释是X的众包事实核查机制，允许用户为可能误导性的内容添加补充说明。\n\nX希望通过私信提醒提高社区注释的可见度，让发帖人更难忽略这些纠错信息，从而可能改善平台内容生态并减少错误信息传播。目前尚不清楚该功能是否会同时通知所有相关用户或仅针对原发帖人。",
+    "category": "网络安全",
+    "tags": [
+      "社交媒体",
+      "Community Notes",
+      "内容审核",
+      "X平台"
+    ],
+    "source": "Engadget",
+    "time": "4分钟前",
+    "ts": "2026-07-08T21:50:36+00:00",
+    "url": "https://www.engadget.com/2211065/elon-musk-says-x-will-dm-you-about-posts-that-receive-a-community-note/",
+    "image": "https://www.engadget.com/img/gallery/elon-musk-says-x-will-dm-you-about-posts-that-receive-a-community-note/l-intro-1783547354.jpg",
+    "stocks": []
+  },
+  {
+    "id": "9e38833435f45584",
+    "title": "美国联邦政府要求自动驾驶企业不得干扰急救现场",
+    "summary": "美国国家公路交通安全管理局（NHTSA）要求自动驾驶汽车公司在紧急现场不得妨碍急救人员，并强调这类场景不应被视为“边缘案例”。",
+    "body": "据 TechCrunch 报道，美国国家公路交通安全管理局（NHTSA）已明确要求自动驾驶汽车公司停止干扰急救人员作业。NHTSA 指出，涉及警车、救护车、消防等应急车辆的现场并非低概率“边缘案例”，而是自动驾驶系统必须妥善应对的典型道路场景。这一表态意味着监管机构正对自动驾驶车辆在复杂公共环境中的行为提出更严格的安全与合规要求。",
+    "category": "机器人",
+    "tags": [
+      "自动驾驶",
+      "监管政策",
+      "交通安全"
+    ],
+    "source": "TechCrunch",
+    "time": "5分钟前",
+    "ts": "2026-07-08T21:49:33+00:00",
+    "url": "https://techcrunch.com/2026/07/08/feds-demand-autonomous-vehicle-companies-stop-interfering-with-first-responders/",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "89886d706e78a453",
+    "title": "布朗大学AI作弊丑闻引发热议",
+    "summary": "布朗大学一名经济学教授披露其课程中大量学生使用生成式AI作弊，再次引发对AI侵蚀真实学习与学术诚信的担忧。普林斯顿一项调查也显示近三成学生承认曾借助AI作弊。",
+    "body": "据外媒报道，布朗大学近期爆发一起AI作弊丑闻。该校经济学教授Roberto Serrano发现，其课程中有大量学生在考试和作业中使用生成式AI工具作弊，他拒绝对此不了了之，并将事件公开化。Serrano教授认为，这种依赖AI的行为是在逃避真正的学习，甚至可能导向“一个失败的社会”。\n\n近期一项针对普林斯顿大学学生的调查显示，约29.9%的学生承认至少在一场考试或一份作业中借助AI作弊。布朗大学的案例则进一步揭示了AI作弊在具体课程中的规模，以及它可能如何替代学生实际掌握知识的过程。\n\n这一事件在美国高校引发广泛关注。常春藤盟校学生被认为具备学习能力，但高压与竞争环境使AI成为便捷捷径。舆论担忧，若广泛使用生成式AI代写和应试，将削弱高等教育的核心价值与学术诚信。",
+    "category": "人工智能",
+    "tags": [
+      "生成式AI",
+      "学术诚信",
+      "高校教育"
+    ],
+    "source": "Ars Technica",
+    "time": "11分钟前",
+    "ts": "2026-07-08T21:42:44+00:00",
+    "url": "https://arstechnica.com/ai/2026/07/we-cannot-choose-to-become-idiots-the-ai-cheating-scandal-roiling-brown-university/",
+    "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/07/GettyImages-2261090247-1152x648.jpg",
+    "stocks": []
+  },
+  {
     "id": "161d7af5887ac417",
     "title": "AI辅助CRISPR发现银屑病新靶点：催产素受体",
     "summary": "Biohub研究人员首次对人类成人原代皮肤细胞开展全基因组CRISPR筛选，并借助AI模型挖掘银屑病治疗中可能被忽视的药物靶点，最终发现催产素受体或成为意想不到的候选靶点，有望为炎症性皮肤病治疗开辟新方向。",
@@ -625,6 +680,25 @@ const newsData = [
         "confidence": "medium"
       }
     ]
+  },
+  {
+    "id": "aa194fac93d601c8",
+    "title": "Linux曝KVM虚拟机逃逸漏洞，谷歌悬赏25万美元",
+    "summary": "Linux内核KVM组件出现编号CVE-2026-53359的高危漏洞，访客虚拟机可逃逸至宿主机并获取root权限，影响英特尔和AMD平台，已潜伏16年。",
+    "body": "近日，Linux内核的KVM虚拟化组件被披露存在高危漏洞CVE-2026-53359。该漏洞允许不受信任的访客虚拟机突破隔离，获取宿主机的root权限，从而威胁云计算平台的多租户安全。其影响覆盖运行英特尔和AMD处理器的KVM环境，且已在Linux内核中潜伏16年。\n\n这是本周Linux开源系统中出现的两个严重漏洞之一。谷歌为该漏洞支付了25万美元的漏洞赏金。由于KVM被广泛用于公有云和私有云的虚拟机隔离，此类“逃逸”漏洞可能导致同一物理主机上不同用户实例之间的横向移动风险上升，对云服务商和企业数据中心均构成现实威胁。",
+    "category": "网络安全",
+    "tags": [
+      "Linux",
+      "KVM",
+      "虚拟机逃逸",
+      "漏洞赏金"
+    ],
+    "source": "Ars Technica",
+    "time": "2小时前",
+    "ts": "2026-07-08T19:01:19+00:00",
+    "url": "https://arstechnica.com/security/2026/07/high-severity-guest-vm-escape-is-1-of-2-linux-vulnerabilities-to-surface-this-week/",
+    "image": "https://cdn.arstechnica.net/wp-content/uploads/2023/07/exploit-vulnerability-security.jpg",
+    "stocks": []
   },
   {
     "id": "684ea7c20512f816",
