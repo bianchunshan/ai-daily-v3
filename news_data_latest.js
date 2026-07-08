@@ -19,6 +19,25 @@ const newsData = [
     "stocks": []
   },
   {
+    "id": "6258cf13f3d5f19b",
+    "title": "Hacker News 热议 Grok 4.5",
+    "summary": "Hacker News 上一则关于 Grok 4.5 的帖子获得 32 个点赞和 14 条评论，反映出技术社区对 xAI 新一代大模型的关注。",
+    "body": "Hacker News 上出现一条以“Grok 4.5”为标题的帖子，获得 32 分并引发 14 条评论。由于 Grok 是 xAI 开发的大模型系列，该帖子的热度体现了技术社区对 xAI 新模型版本的关注与期待。\n材料未披露 Grok 4.5 的具体参数、能力或发布计划，讨论可能围绕大模型迭代、性能预期及其在聊天机器人与 AI 应用市场的定位展开。这一动态也反映出开源/闭源大模型竞争持续受到开发者密切关注。\n总体而言，Grok 4.5 的提及再次凸显前沿大模型产品迭代对 AI 社区的重要性，但尚需更多官方信息以判断其技术突破与商业影响。",
+    "category": "人工智能",
+    "tags": [
+      "Grok",
+      "xAI",
+      "大模型",
+      "人工智能"
+    ],
+    "source": "Hacker News",
+    "time": "17分钟前",
+    "ts": "2026-07-08T18:00:32+00:00",
+    "url": "https://x.ai/news/grok-4-5",
+    "image": "",
+    "stocks": []
+  },
+  {
     "id": "a4a2eece6c6cfcfe",
     "title": "噬菌体靶向消除致病大肠杆菌缓解克罗恩肠炎",
     "summary": "加拿大麦克马斯特大学团队利用噬菌体开发了一种针对炎症性肠病的靶向疗法，可在不破坏整体肠道菌群的前提下抑制克罗恩病相关的肠道炎症。",
@@ -138,6 +157,32 @@ const newsData = [
     "url": "https://techcrunch.com/video/why-this-ceo-thinks-video-games-make-better-training-data-than-the-internet/",
     "image": "",
     "stocks": []
+  },
+  {
+    "id": "25475716ab2512a7",
+    "title": "微软发布Flint：面向AI智能体的可视化语言",
+    "summary": "微软开源可视化中间语言Flint，让AI智能体通过高层语义规范生成高质量图表，并配套MCP服务器以便集成到现有Agent应用。",
+    "body": "微软近日在Hacker News发布并开源了Flint，一种面向AI智能体的可视化中间语言。当前可视化语言过于底层，导致智能体在简单规范下生成图表质量低，而在复杂规范下又容易出错。Flint通过基于语义类型的高层规范，将视觉布局与低层细节交给编译器/优化引擎处理，从而解决这一“最后一公里”的人机交互难题。\n\nFlint已应用于微软的数据可视化项目Data Formulator，并提供了MCP服务器，开发者可以直接将其接入各类Agent应用。作为开源工具，Flint旨在降低AI Agent构建数据可视化能力的门槛，同时提升输出结果的可理解性和可调整性。",
+    "category": "人工智能",
+    "tags": [
+      "微软",
+      "数据可视化",
+      "AI Agent",
+      "开源"
+    ],
+    "source": "Hacker News",
+    "time": "31分钟前",
+    "ts": "2026-07-08T17:46:12+00:00",
+    "url": "https://microsoft.github.io/flint-chart/#/",
+    "image": "",
+    "stocks": [
+      {
+        "name": "微软",
+        "ticker": "MSFT",
+        "reason": "微软发布并开源Flint，强化其AI Agent工具链与数据可视化生态",
+        "confidence": "medium"
+      }
+    ]
   },
   {
     "id": "f616696610d31d48",
