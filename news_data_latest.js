@@ -1,5 +1,67 @@
 const newsData = [
   {
+    "id": "110da41d4ff6dbbc",
+    "title": "人工智能助推德国初创企业数量创新高",
+    "summary": "德国创业协会与Startupdetector调研显示，2026年上半年德国新增3053家初创企业，创历史同期新高，其中逾三分之一具备人工智能业务背景。",
+    "body": "据德国创业协会与数据分析机构Startupdetector最新发布的调研，2026年上半年德国共有3053家初创企业成立，较2025年下半年增长52%，刷新历史同期纪录。其中，1038家初创企业拥有明确的人工智能业务背景，占新增企业总数的三分之一以上。\n\n报告指出，人工智能显著降低了创业门槛，使创业者能够以更少资金、更快速度、更低难度启动业务。在行业分布上，软件行业仍然是最强劲领域，新增初创企业达844家。这一趋势反映出人工智能技术正加速向产业应用渗透，并推动欧洲创业生态的规模扩张。",
+    "category": "人工智能",
+    "tags": [
+      "德国初创企业",
+      "人工智能创业",
+      "AI应用"
+    ],
+    "source": "36氪",
+    "time": "刚刚",
+    "ts": "2026-07-08T02:30:31.050002+00:00",
+    "url": "https://36kr.com/newsflashes/3886371841388551?f=rss",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "c4de4c110589116a",
+    "title": "极摩客发布 EVO-X1Pro 迷你主机，搭载 AMD 锐龙 AI 9 HX 470",
+    "summary": "极摩客在电商平台上架 EVO-X1Pro 迷你主机，换装 AMD 锐龙 AI 9 HX 470 处理器，板载 64GB 内存、1TB SSD，预装本地 AI 大模型，首发到手价 9999 元。",
+    "body": "7月8日，极摩客（GMKtec）在电商平台上架 EVO-X1Pro 迷你主机。该机型沿用 EVO-X1 模具，升级搭载 AMD 锐龙 AI 9 HX 470 处理器，板载 64GB LPDDR5-6400 内存，标配 1TB SSD 并预留第二 M.2 PCIe Gen4 盘位，配备 Wi-Fi 7 无线网卡、双 2.5GbE 有线网口、OCuLink 和 USB4 接口，支持三屏 8K 输出。该机重 590g，采用金属机身与双风扇加均热板散热方案，预装本地 AI 大模型。\n\n该产品将于 7 月 14 日 10:00 开售，首发到手价 9999 元。此次发布反映了 AI PC 概念的持续下沉，迷你主机厂商正将本地大模型与高性能 NPU 作为核心卖点。",
+    "category": "消费电子",
+    "tags": [
+      "迷你主机",
+      "AI PC",
+      "AMD"
+    ],
+    "source": "IT之家",
+    "time": "1分钟前",
+    "ts": "2026-07-08T02:28:59+00:00",
+    "url": "https://www.ithome.com/0/973/880.htm",
+    "image": "https://img.ithome.com/newsuploadfiles/2026/7/cafbdb0f-d366-432c-bc0d-6c89f793f187.jpg?x-bce-process=image/format,f_auto",
+    "stocks": [
+      {
+        "name": "美国超微公司",
+        "ticker": "AMD",
+        "reason": "EVO-X1Pro 搭载 AMD 锐龙 AI 9 HX 470 处理器，是 AMD 在 AI PC 市场的具体设计落地。",
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
+    "id": "80f751214fd8f649",
+    "title": "Valve发布Steam Machine红线死机五步恢复指南",
+    "summary": "Valve官方公布了Steam Machine“红线死机”故障的5步恢复流程，涵盖断电放电、CMOS重置等操作。目前社区中相关故障反馈较为罕见。",
+    "body": "IT之家援引Tom's Hardware报道称，Valve针对Steam Machine出现的“红线死机”问题，发布了官方恢复指引，帮助用户在不拆机的情况下尝试修复主机。该流程共5步，首先需拔掉电源并按压电源键释放残余电量，随后重新连接电源并长按电源键6秒进入恢复模式，再根据指示灯颜色选择“CMOS重置”，完成后RGB灯条将变为蓝色并重新训练内存启动。\n\n这整套指引属于软件/固件层面的自助恢复方案，意在降低用户因偶发故障返修的成本，也体现了Valve对自家硬件售后体验的关注。不过，据Reddit和X平台反馈，目前公开报道的“红线死机”案例仅约2起，影响范围似乎非常有限。",
+    "category": "消费电子",
+    "tags": [
+      "Steam Machine",
+      "游戏主机",
+      "售后维修",
+      "Valve"
+    ],
+    "source": "IT之家",
+    "time": "3分钟前",
+    "ts": "2026-07-08T02:26:43+00:00",
+    "url": "https://www.ithome.com/0/973/879.htm",
+    "image": "https://img.ithome.com/newsuploadfiles/2026/7/a0d1a7bd-f00e-429c-9cf4-1b5e375b2556.jpg?x-bce-process=image/format,f_auto",
+    "stocks": []
+  },
+  {
     "id": "383d81571218b1ef",
     "title": "高端机床企业上海星合完成数亿元融资",
     "summary": "高端机床企业“上海星合”近日完成数亿元融资，由五粮液基金领投、麦格米特跟投，资金将重点投向高端磨齿机、磨床、铣床研发及海外市场拓展。",
@@ -26,25 +88,7 @@ const newsData = [
     ]
   },
   {
-    "id": "008bb6f72a273437",
-    "title": "Skyroot即将进行首次轨道发射尝试",
-    "summary": "印度商业航天初创公司Skyroot Aerospace最早将于7月12日尝试首次轨道发射，并计划迅速提升至每月一次发射频率。",
-    "body": "印度火箭初创企业Skyroot Aerospace正为其首次轨道发射任务做准备，发射窗口最早定于7月12日。若任务成功，该公司将标志着印度私营航天力量进入轨道发射领域，打破传统上由国家机构主导的格局。\n\nSkyroot还计划快速扩展发射节奏，力争在短期内实现每月一次发射。这一节奏将显著提升其商业竞争力，并为全球小卫星市场提供更频繁、低成本的入轨选择，同时推动印度本土航天产业链的成熟。",
-    "category": "商业航天",
-    "tags": [
-      "商业航天",
-      "火箭发射",
-      "印度航天"
-    ],
-    "source": "SpaceNews",
-    "time": "10分钟前",
-    "ts": "2026-07-08T02:10:30+00:00",
-    "url": "https://spacenews.com/skyroot-prepares-for-first-orbital-launch-attempt/",
-    "image": "https://i0.wp.com/spacenews.com/wp-content/uploads/2026/05/vikram1-flagoff.jpeg?fit=1024%2C768&amp;ssl=1",
-    "stocks": []
-  },
-  {
-    "id": "11f684fd8a9dbafe",
+    "id": "76f2460a3d91465f",
     "title": "国际能源署预计今年全球天然气消费量下降0.5%",
     "summary": "国际能源署7日表示，受中东局势减少供应、气价走高抑制需求影响，今年全球天然气消费量预计同比下降0.5%，约合200亿立方米。",
     "body": "国际能源署当地时间7日发布预测称，受中东局势紧张导致天然气供应减少、天然气价格持续高企抑制需求的双重影响，2024年全球天然气消费量预计下降0.5%，减少约200亿立方米。该预测反映出地缘政治风险与能源价格波动正对全球能源消费产生显著影响，天然气市场在供应趋紧与需求疲软之间面临再平衡压力。若高气价持续，可能进一步影响工业、发电等下游用气成本，并间接推动全球能源结构的调整与转型。",
@@ -77,9 +121,9 @@ const newsData = [
   },
   {
     "id": "008bb6f72a273437",
-    "title": "印度Skyroot拟7月12日首次入轨发射",
-    "summary": "印度商业航天初创公司Skyroot Aerospace最早将于7月12日尝试首次轨道发射，并计划快速提升至每月发射一次。",
-    "body": "据SpaceNews报道，印度发射初创企业Skyroot Aerospace正为其首次轨道发射任务做准备，发射窗口最早定于7月12日。若此次任务成功，该公司计划迅速扩大发射节奏，目标是实现每月一次发射。这标志着印度商业航天发射能力迈出关键一步，也可能加剧全球小型火箭发射市场的竞争。",
+    "title": "Skyroot即将进行首次轨道发射尝试",
+    "summary": "印度商业航天初创公司Skyroot Aerospace最早将于7月12日尝试首次轨道发射，并计划迅速提升至每月一次发射频率。",
+    "body": "印度火箭初创企业Skyroot Aerospace正为其首次轨道发射任务做准备，发射窗口最早定于7月12日。若任务成功，该公司将标志着印度私营航天力量进入轨道发射领域，打破传统上由国家机构主导的格局。\n\nSkyroot还计划快速扩展发射节奏，力争在短期内实现每月一次发射。这一节奏将显著提升其商业竞争力，并为全球小卫星市场提供更频繁、低成本的入轨选择，同时推动印度本土航天产业链的成熟。",
     "category": "商业航天",
     "tags": [
       "商业航天",
@@ -87,7 +131,7 @@ const newsData = [
       "印度航天"
     ],
     "source": "SpaceNews",
-    "time": "3分钟前",
+    "time": "10分钟前",
     "ts": "2026-07-08T02:10:30+00:00",
     "url": "https://spacenews.com/skyroot-prepares-for-first-orbital-launch-attempt/",
     "image": "https://i0.wp.com/spacenews.com/wp-content/uploads/2026/05/vikram1-flagoff.jpeg?fit=1024%2C768&amp;ssl=1",
