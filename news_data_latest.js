@@ -1,5 +1,43 @@
 const newsData = [
   {
+    "id": "33a234b5ce7ab184",
+    "title": "旅欧90后女生从跨境电商转向AI大模型出海",
+    "summary": "90后创业者李露薇旅欧十年，先做户外家具跨境电商实现3500万欧元营收，后加入字节跳动开拓AI大模型全球伙伴与生态业务。她的经历折射出中国出海主流产品正从商品贸易向AI能力升级。",
+    "body": "这一案例反映出，从上世纪日本制造的家电、汽车到文化娱乐，一国出海的核心产品会随产业能力不断变迁；当下中国出海者的重点也开始从跨境电商向AI大模型、技术生态输出延伸。",
+    "category": "人工智能",
+    "tags": [
+      "AI大模型",
+      "跨境电商",
+      "出海",
+      "字节跳动"
+    ],
+    "source": "36氪",
+    "time": "刚刚",
+    "ts": "2026-07-08T09:35:47.320857+00:00",
+    "url": "https://36kr.com/p/3886574096265481?f=rss",
+    "image": "https://img.36krcdn.com/hsossms/20260708/v2_db2c5fd3e93b4794a07b09046432dbc7@6244039_oswg186031oswg1080oswg812_img_000?x-oss-process=image/format,jpg/interlace,1",
+    "stocks": []
+  },
+  {
+    "id": "48aac09f8ba3b4a5",
+    "title": "Perplexity自研AI编程工具曝光，工程师已投入使用",
+    "summary": "据报道，AI搜索初创公司Perplexity已开发内部代号为“Teammate”的AI编程工具，自今年5月起向工程师开放使用，未来可能正式对外发布，与Cursor、Anthropic及OpenAI展开竞争。",
+    "body": "知情人士透露，总部位于旧金山的Perplexity正在研发一款名为“队友（Teammate）”的内部AI编程工具，公司工程师自5月起已投入使用。该工具旨在统筹软件项目全流程，包括负责项目、排查故障和监控线上服务，且支持多模型兼容，不绑定特定大模型。\n\nPerplexity此前主打AI搜索业务，对标谷歌。若Teammate正式对外推出，该公司将直接进入AI编程赛道，与Cursor、Anthropic及OpenAI等已推出热门编程产品的企业形成竞争。CTO丹尼斯·亚拉茨也积极推动用AI辅助开发，认为通过质量校验的AI代码不存在“劣质”问题。",
+    "category": "人工智能",
+    "tags": [
+      "AI编程",
+      "Perplexity",
+      "大模型应用",
+      "AI搜索"
+    ],
+    "source": "IT之家",
+    "time": "1分钟前",
+    "ts": "2026-07-08T09:34:20+00:00",
+    "url": "https://www.ithome.com/0/974/161.htm",
+    "image": "https://img.ithome.com/newsuploadfiles/2026/7/0f34ed25-71c6-4ee1-8f45-ebf535bfc477.jpg?x-bce-process=image/format,f_auto",
+    "stocks": []
+  },
+  {
     "id": "e0012ebc5cabdfa9",
     "title": "前DeepMind高管警告AI军备竞赛或酿灾难",
     "summary": "前DeepMind全球政策负责人Verity Harding在接受《连线》采访时表示，美国政府对人工智能的民族主义态度表明，最坏情况正在成形。",
@@ -1157,6 +1195,24 @@ const newsData = [
     "time": "刚刚",
     "ts": "2026-07-08T07:25:30.359472+00:00",
     "url": "https://36kr.com/newsflashes/3886665005166600?f=rss",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "525287f46f21eaed",
+    "title": "摩根士丹利：SpaceX航天业务每股估值8美元",
+    "summary": "摩根士丹利对SpaceX的航天业务给出每股8美元的估值判断。这一定价引发市场对商业航天企业价值的关注。",
+    "body": "据外媒报道，摩根士丹利发布观点认为，SpaceX旗下航天业务（space bit）的价值约为每股8美元。SpaceX目前尚未上市，该估值主要反映其火箭发射、卫星网络等太空基础设施业务的评估。这一说法为市场提供了观察全球商业航天龙头价值拆分的新视角。由于SpaceX仍是非上市公司，普通投资者无法直接通过二级市场交易其股票，但其估值动向仍可能影响航天产业链上下游公司的市场预期。",
+    "category": "商业航天",
+    "tags": [
+      "SpaceX",
+      "商业航天",
+      "航天估值"
+    ],
+    "source": "Hacker News",
+    "time": "2小时前",
+    "ts": "2026-07-08T07:18:26+00:00",
+    "url": "https://www.ft.com/content/09a62ed4-16af-433c-adb7-c877d1975388",
     "image": "",
     "stocks": []
   },
