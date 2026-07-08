@@ -1,5 +1,31 @@
 const newsData = [
   {
+    "id": "c41fa214e1d8a90d",
+    "title": "微软Xbox重组，黑曜石转开发《辐射》新作",
+    "summary": "微软Xbox业务大幅重组，旗下黑曜石娱乐调整开发计划，搁置多个项目并转而开发新的《辐射》系列游戏。",
+    "body": "微软正对其Xbox业务进行大规模“重置”，涉及裁员约3200人、关闭部分工作室，并将投资集中于高优先级项目。作为调整的一部分，微软旗下黑曜石娱乐（Obsidian Entertainment）取消了多个项目，并开始开发新的《辐射》系列作品。黑曜石曾制作《辐射：新维加斯》《Grounded》《天外世界》等游戏。该转向显示出微软更希望依托成熟知名IP，以提升游戏业务投入产出。",
+    "category": "消费电子",
+    "tags": [
+      "游戏产业",
+      "Xbox",
+      "微软",
+      "辐射"
+    ],
+    "source": "The Verge",
+    "time": "刚刚",
+    "ts": "2026-07-08T14:50:27-04:00",
+    "url": "https://www.theverge.com/games/963024/microsoft-xbox-reset-obsidian-fallout-layoffs",
+    "image": "",
+    "stocks": [
+      {
+        "name": "微软",
+        "ticker": "MSFT",
+        "reason": "Xbox业务重组涉及旗下黑曜石工作室转向开发《辐射》新IP，为微软游戏业务直接相关动态",
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
     "id": "eea898ee652dfeab",
     "title": "X将私信通知用户其互动帖子被社区笔记纠正",
     "summary": "X计划当用户点赞、回复或转发的帖子被社区笔记纠正时，通过私信通知用户，以加强平台事实核查的及时性。",
@@ -148351,6 +148377,12 @@ const newsData = [
   }
 ];
 const newsDigest = {
-  "text": "",
-  "highlights": []
+  "text": "今日科技前沿：AI语音交互再进一步，OpenAI与Google均推新功能；远程操控人形机器人首次完成活体手术；分子成像揭示早期阿尔茨海默蛋白聚集；微软Xbox重组黑曜石转投《辐射》新作；福特低价电动皮卡披露“小型”身份。",
+  "highlights": [
+    "500d1a89b3700ffd",
+    "127f2e6c57960980",
+    "ee3f5656828f4e43",
+    "957276712ed9f0eb",
+    "c41fa214e1d8a90d"
+  ]
 };
