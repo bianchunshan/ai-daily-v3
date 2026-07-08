@@ -1,5 +1,50 @@
 const newsData = [
   {
+    "id": "beb009d08cdded48",
+    "title": "特斯拉Cybercab升级FSD硬件 内存突破32GB",
+    "summary": "据爆料，特斯拉专为Cybercab无人驾驶出租车配备了性能更强的FSD计算机，运行内存超过32GB，算力冗余将支撑未来更大规模的自动驾驶神经网络模型运行。",
+    "body": "消息称，特斯拉正为专属无人驾驶出租车Cybercab搭载性能更强的自动驾驶计算机，其FSD计算机性能将优于当前Model 3、Model Y全系家用车配备的HW4/AI4版本。该车型已于今年4月在得州超级工厂启动量产，新硬件的核心改动集中在车载运行内存上。据悉，Cybercab计算单元内存容量已突破现行32GB上限，有望达到64GB，可运行规模更大的FSD神经网络模型，缓解现有家用车硬件面临的算力瓶颈。\n\n这一消息让外界得以窥见Cybercab底层核心硬件的真实配置。目前尚不确定其搭载的是尚未正式装车的AI4+芯片预量产版本，还是两套AI4主板的集成方案，存在极小概率为预计2027年大规模投产的早期版AI5芯片。无论具体方案如何，提前装配更强算力硬件，将有助于特斯拉无人驾驶车队在未来数年保持算力冗余。\n\nCybercab定位为SAE L4级无人驾驶出租车，已取消方向盘、踏板等传统操控部件，以释放座舱空间、降低整车重量与运营成本。特斯拉上周已在奥斯汀公共道路开展无方向盘Cybercab上路测试，并计划将其作为Robotaxi车队的主力车型。",
+    "category": "机器人",
+    "tags": [
+      "自动驾驶",
+      "特斯拉",
+      "Robotaxi",
+      "FSD"
+    ],
+    "source": "IT之家",
+    "time": "2分钟前",
+    "ts": "2026-07-08T06:43:21+00:00",
+    "url": "https://www.ithome.com/0/974/037.htm",
+    "image": "https://img.ithome.com/newsuploadfiles/2026/7/ce708c1e-7aac-4ebf-b606-8c4f41ea8db6.png?x-bce-process=image/format,f_auto",
+    "stocks": [
+      {
+        "name": "特斯拉",
+        "ticker": "TSLA",
+        "reason": "Cybercab是特斯拉Robotaxi战略核心车型，更强FSD硬件直接提升其自动驾驶能力与商业化前景",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "3800d1f95c71355f",
+    "title": "美企加速采用DeepSeek等中国模型，OpenRouter调用占比峰值46%",
+    "summary": "全球最大AI聚合平台OpenRouter的数据显示，自2月8日以来，美国企业每周调用DeepSeek、智谱GLM等中国模型的比例持续超过30%，峰值达46%，反映出成本压力正推动企业转向性价比更高的中国模型。",
+    "body": "据CNBC援引OpenRouter数据报道，自2月8日以来，美国公司对中国AI模型的周调用占比从2025年上半年的低点4.5%持续攀升，最高达到46%，远高于过去12个月11%的平均水平。这一趋势与AI支出失控密切相关，越来越多企业从鼓励使用AI转向严控成本，将任务路由至“足够好且最便宜”的模型。\n\n成本差异是主要驱动力。OpenRouter数据显示，相较Anthropic和OpenAI的顶尖模型，中国开源及开放权重模型的价格可低60%至90%。例如，AI初创公司Lindy在6月将100%流量从Anthropic的Claude切换至DeepSeek，预计数月内节省数百万美元。性能差距也在缩小：Brookings专家估计中美顶尖模型差距约为6至9个月，智谱GLM 5.2在一项Agent基准上已接近Anthropic Opus 4.8，成本仅约五分之一。",
+    "category": "人工智能",
+    "tags": [
+      "大模型",
+      "企业应用",
+      "DeepSeek",
+      "智谱AI"
+    ],
+    "source": "IT之家",
+    "time": "3分钟前",
+    "ts": "2026-07-08T06:42:20+00:00",
+    "url": "https://www.ithome.com/0/974/036.htm",
+    "image": "https://img.ithome.com/newsuploadfiles/2026/7/defce733-6deb-4db8-ab50-22b75e7ff464.jpg?x-bce-process=image/format,f_auto",
+    "stocks": []
+  },
+  {
     "id": "5b38170f8c1f4dfc",
     "title": "马斯克确认Grok 4.5模型将于明日向公众开放",
     "summary": "埃隆·马斯克确认，SpaceXAI将于“明天”向公众开放Grok 4.5模型。该模型据称对标Anthropic Opus级别，并在速度和Token效率上更具优势。",
