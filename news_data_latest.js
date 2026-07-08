@@ -1,5 +1,62 @@
 const newsData = [
   {
+    "id": "684ea7c20512f816",
+    "title": "MD安德森新平台快速分离最强抗癌免疫细胞",
+    "summary": "美国得克萨斯大学MD安德森癌症中心开发出一种新平台，能够快速发现并分离罕见、具有肿瘤反应性的免疫细胞，有望加速个性化免疫疗法的研发。",
+    "body": "美国得克萨斯大学MD安德森癌症中心的研究人员开发了一种新平台，可在无需预先知道免疫细胞识别哪些肿瘤靶点的情况下，快速发现并分离罕见、具有强效识别和攻击癌细胞能力的肿瘤反应性免疫细胞。这一方法解决了免疫疗法开发中的关键瓶颈，有望加快个性化治疗方案的构建。专家指出，如果后续临床验证顺利，该技术或将提升基于患者自身免疫细胞的癌症治疗效率，为实体瘤等难治癌症提供新思路。",
+    "category": "生物医药",
+    "tags": [
+      "免疫疗法",
+      "肿瘤免疫",
+      "细胞治疗",
+      "癌症研究"
+    ],
+    "source": "MedicalXpress",
+    "time": "5分钟前",
+    "ts": "2026-07-08T15:00:01-04:00",
+    "url": "https://medicalxpress.com/news/2026-07-method-isolate-strongest-cancer-immune.html",
+    "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/scientists-develop-new-5.jpg",
+    "stocks": []
+  },
+  {
+    "id": "742df5353d9362ae",
+    "title": "Valve Steam Machine评测：定价偏高，错失先机",
+    "summary": "Engadget对Valve的Steam Machine进行评测，认为其售价与产品价值不匹配，并指出该设备若在数年前推出可能更具竞争力。",
+    "body": "Engadget发布了一篇关于Valve Steam Machine的硬件评测。评测指出，该设备的定价与其提供的价值不相匹配，难以成为值得推荐的购买选择。\n\nSteam Machine是Valve尝试将PC游戏体验引入客厅主机市场的产品。评测认为，从产品定位和发布时机来看，这款设备似乎错过了最佳市场窗口；如果早几年推出，可能会更具吸引力和竞争力。\n\n该评测总体上对Steam Machine的性价比持保留态度，反映出当时Steam硬件战略在市场落地方面面临的挑战。",
+    "category": "消费电子",
+    "tags": [
+      "Steam Machine",
+      "Valve",
+      "游戏主机",
+      "硬件评测"
+    ],
+    "source": "Engadget",
+    "time": "5分钟前",
+    "ts": "2026-07-08T19:00:00+00:00",
+    "url": "https://www.engadget.com/2210832/valve-steam-machine-review/",
+    "image": "https://www.engadget.com/img/gallery/valve-steam-machine-review-this-wouldve-been-perfect-five-years-ago/l-intro-1783535904.jpg",
+    "stocks": []
+  },
+  {
+    "id": "4f57a0e2f94fba77",
+    "title": "特朗普赠予阿尔忒弥斯宇航员国会旗 嘱其插于月球",
+    "summary": "美国总统特朗普在华盛顿独立日庆典上将一面美国国会大厦旗帜交给NASA阿尔忒弥斯II任务宇航员，嘱其在下次登月时将其插在月球表面。",
+    "body": "当地时间7月4日晚，特朗普在华盛顿国家广场发表“美国250”庆典主题演讲，其间向在场多位美国英雄致敬，包括退役军人、历史人物后裔以及于今年4月完成绕月飞行的NASA阿尔忒弥斯II任务乘组。阿波罗17号宇航员杰克·施密特也一同登台。\n\n在台上陈列的多面历史旗帜前，包括1903年莱特兄弟首飞时携带的旗帜，特朗普将一面来自国会大厦的旗帜交给阿尔忒弥斯II机组，作为他们未来月球任务中插在月球表面的象征物。他表示，美国人在发明飞机后仅66年就将国旗插上月球，而三个月前美国宇航员已再次抵达月球背面，创下离地球最远飞行纪录。",
+    "category": "商业航天",
+    "tags": [
+      "阿尔忒弥斯计划",
+      "载人登月",
+      "NASA",
+      "特朗普"
+    ],
+    "source": "Space.com",
+    "time": "5分钟前",
+    "ts": "2026-07-08T19:00:00+00:00",
+    "url": "https://www.space.com/space-exploration/artemis/trump-gifts-artemis-astronauts-a-flag-from-the-us-capitol-to-plant-on-the-moon",
+    "image": "https://cdn.mos.cms.futurecdn.net/3rTdDLbDc8MTbkCkBCjTY6-1280-80.jpg",
+    "stocks": []
+  },
+  {
     "id": "c41fa214e1d8a90d",
     "title": "微软Xbox重组，黑曜石转开发《辐射》新作",
     "summary": "微软Xbox业务大幅重组，旗下黑曜石娱乐调整开发计划，搁置多个项目并转而开发新的《辐射》系列游戏。",
@@ -148377,12 +148434,6 @@ const newsData = [
   }
 ];
 const newsDigest = {
-  "text": "今日科技前沿：AI语音交互再进一步，OpenAI与Google均推新功能；远程操控人形机器人首次完成活体手术；分子成像揭示早期阿尔茨海默蛋白聚集；微软Xbox重组黑曜石转投《辐射》新作；福特低价电动皮卡披露“小型”身份。",
-  "highlights": [
-    "500d1a89b3700ffd",
-    "127f2e6c57960980",
-    "ee3f5656828f4e43",
-    "957276712ed9f0eb",
-    "c41fa214e1d8a90d"
-  ]
+  "text": "",
+  "highlights": []
 };
