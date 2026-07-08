@@ -1,5 +1,120 @@
 const newsData = [
   {
+    "id": "eeca40a78628112e",
+    "title": "微信鸿蒙版灰度测试自定义铃声与Live图功能",
+    "summary": "据博主爆料，微信鸿蒙版App正在灰度测试消息提示音与来电铃声自定义设置，并已逐步开放个人资料来电铃声入口；同时聊天Live图功能也进入灰度测试。这些更新补齐了鸿蒙版微信的关键体验特性。",
+    "body": "IT之家7月8日消息，据博主@伤心萨摩耶Ciuciu分享，微信鸿蒙版App正灰度推送铃声自定义设置功能。用户在“设置-消息通知”中可设置提示音与来电铃声，并支持“朋友呼叫我时也能听到我的来电铃声”；个人资料页也新增了来电铃声入口，正在逐步开放。另一博主@熠熠玩数码反馈，微信鸿蒙版已开始灰度测试聊天Live图相关功能。\n\n作为鸿蒙生态最核心的超级应用之一，微信在通话、动态图片等高频场景的功能补齐，有助于提升鸿蒙版微信的完整度与用户体验，也能进一步增强鸿蒙系统的用户粘性和生态吸引力。",
+    "category": "消费电子",
+    "tags": [
+      "微信",
+      "鸿蒙系统",
+      "腾讯",
+      "消费电子"
+    ],
+    "source": "IT之家",
+    "time": "3分钟前",
+    "ts": "2026-07-08T11:22:19+00:00",
+    "url": "https://www.ithome.com/0/974/221.htm",
+    "image": "https://img.ithome.com/newsuploadfiles/2026/7/bde94582-611b-4bf1-825a-abaeb771da35.jpg",
+    "stocks": [
+      {
+        "name": "腾讯控股",
+        "ticker": "0700.HK",
+        "reason": "微信为腾讯核心产品，鸿蒙版功能完善有助于提升用户活跃度与生态黏性",
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
+    "id": "649f409ef6f5c997",
+    "title": "Valve提供Steam硬件Windows驱动但不予支持",
+    "summary": "Valve上线Steam硬件Windows资源页面，为Steam Deck和Steam Machine等设备提供Windows驱动，但明确表示不为“Steam硬件上的Windows”提供技术支持。",
+    "body": "游戏公司Valve近日在Steam平台上线“Steam硬件—Windows资源”页面，为Steam Deck LCD、Steam Deck OLED以及Steam Machine等设备提供APU、显卡、SD卡读卡器、Wi-Fi、蓝牙和音频等Windows驱动。这意味着希望将设备自带SteamOS替换为Windows 11的用户无需再四处寻找驱动程序，安装过程将更加便捷。\n\n不过Valve在页面中强调，这些资源按原样提供，公司“无法为‘Steam硬件上的Windows’提供支持”。若用户遇到问题并希望恢复默认的SteamOS，可遵循官方恢复指南。分析认为，Valve保持这一不支持Windows的立场，部分原因是不愿补贴那些用户自行改装后、未必能通过Steam游戏商店回本的硬件销售。",
+    "category": "消费电子",
+    "tags": [
+      "游戏硬件",
+      "Steam Deck",
+      "Windows驱动",
+      "Valve"
+    ],
+    "source": "Tom's Hardware",
+    "time": "5分钟前",
+    "ts": "2026-07-08T11:20:00+00:00",
+    "url": "https://www.tomshardware.com/video-games/console-gaming/valve-releases-drivers-notes-to-make-windows-work-on-steam-hardware-but-refuses-to-support-it-tells-users-it-doesnt-offer-support-for-windows-on-steam-hardware-gaming-company-provides-resources-as-is",
+    "image": "https://cdn.mos.cms.futurecdn.net/8zczHMEfFXh79zeDCKwVsi-1280-80.png",
+    "stocks": []
+  },
+  {
+    "id": "86297e10f188d746",
+    "title": "谷歌Pixel Watch 5规格曝光：419欧元起售",
+    "summary": "博主曝光了谷歌Pixel Watch 5的部分规格与售价，系列提供41/45mm两种尺寸，蓝牙版419欧元起，预计搭载高通骁龙Wear Elite处理器，并支持UWB、NFC和GPS。",
+    "body": "据IT之家7月8日消息，博主billbil-kun曝光了谷歌Pixel Watch 5智能手表的部分信息。该系列将提供41mm和45mm两种规格，并有银、黑、绿三种配色可选；41mm蓝牙版定价419欧元，LTE版519欧元；45mm蓝牙版449欧元，LTE版549欧元。新品预计支持超宽带（UWB）、近场通信（NFC）和GPS，有望搭载高通骁龙Wear Elite处理器，并将于8月20日起开始发货。\n\n目前关于Pixel Watch 5的完整规格仍较为有限。作为参考，上一代Pixel Watch 4首次采用“Actua 360”圆顶屏幕、支持卫星SOS紧急呼叫，并集成Gemini AI助手。若Pixel Watch 5延续软硬件升级路线，将进一步强化谷歌在高端可穿戴市场的竞争力。",
+    "category": "消费电子",
+    "tags": [
+      "智能手表",
+      "可穿戴",
+      "谷歌",
+      "Pixel"
+    ],
+    "source": "IT之家",
+    "time": "7分钟前",
+    "ts": "2026-07-08T11:18:58+00:00",
+    "url": "https://www.ithome.com/0/974/220.htm",
+    "image": "https://img.ithome.com/newsuploadfiles/2025/8/0023ac33-d330-44ba-b48d-187f0d78a35c.jpg",
+    "stocks": [
+      {
+        "name": "Alphabet（谷歌）",
+        "ticker": "GOOGL",
+        "reason": "Pixel Watch 5为谷歌旗下智能硬件新品，有望带动可穿戴业务",
+        "confidence": "medium"
+      },
+      {
+        "name": "高通",
+        "ticker": "QCOM",
+        "reason": "新品预计搭载高通骁龙Wear Elite处理器，利好其可穿戴芯片业务",
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
+    "id": "2c743361f0d055fb",
+    "title": "八位堂Pro 2无线手柄降至历史新低",
+    "summary": "八位堂Pro 2无线游戏手柄在亚马逊Prime专享活动中降至37.19美元，较原价59.99美元降价38%并附赠收纳盒。该手柄搭载霍尔效应摇杆，支持Switch 2、Steam Deck及PC等多平台。",
+    "body": "据Tom's Hardware报道，外设厂商八位堂（8Bitdo）旗下热门产品Pro 2无线手柄目前在亚马逊创下历史最低价，Prime会员仅需37.19美元即可入手，较59.99美元的原价优惠38%，并附赠便携收纳盒。虽然八位堂已推出新款Pro 3手柄，但Pro 2仍具备霍尔效应摇杆、20小时蓝牙续航、6轴体感及四设备模式切换等功能，升级固件后还可兼容任天堂Switch 2，同时适用于Steam Deck和PC平台。此次降价反映出游戏外设市场竞争激烈，第三方配件厂商通过性价比策略吸引主机及PC玩家。",
+    "category": "消费电子",
+    "tags": [
+      "游戏手柄",
+      "八位堂",
+      "亚马逊Prime",
+      "游戏外设"
+    ],
+    "source": "Tom's Hardware",
+    "time": "7分钟前",
+    "ts": "2026-07-08T11:18:06+00:00",
+    "url": "https://www.tomshardware.com/peripherals/controllers-gamepads/8bitdos-wireless-pro-2-gaming-controller-falls-to-all-time-low-price-hall-effect-gamepad-is-38-percent-off-just-usd37-19",
+    "image": "https://cdn.mos.cms.futurecdn.net/iex32HtPczn6p8mZLHbim3-1280-80.jpg",
+    "stocks": []
+  },
+  {
+    "id": "318b5d17957ed47a",
+    "title": "苹果据报测试受美国制裁中企CXMT的DRAM芯片",
+    "summary": "据外媒报道，苹果公司正测试采用中国存储厂商长鑫存储（CXMT）生产的DRAM芯片。由于CXMT据称与中国人民解放军有关联并受到美方制裁，此事可能引发供应链安全与出口管制方面的争议。",
+    "body": "据Engadget报道，苹果公司正在测试搭载中国制造的DRAM存储芯片的设备，供应商为长鑫存储（CXMT）。长鑫存储是中国本土重要的DRAM制造商，但据称与中国人民解放军存在关联，并已被美国列入限制名单。若苹果最终采用CXMT芯片，将意味着其供应链进一步向中国本土半导体厂商延伸，同时也可能面临美国监管与地缘风险。",
+    "category": "半导体与先进制造",
+    "tags": [
+      "长鑫存储",
+      "DRAM",
+      "苹果供应链",
+      "出口管制"
+    ],
+    "source": "Engadget",
+    "time": "8分钟前",
+    "ts": "2026-07-08T11:17:43+00:00",
+    "url": "https://www.engadget.com/2210342/apple-reportedly-testing-chinese-dram-cxmt/",
+    "image": "https://www.engadget.com/img/gallery/apple-reportedly-starts-testing-memory-chips-from-us-blacklisted-company/l-intro-1783509177.jpg",
+    "stocks": []
+  },
+  {
     "id": "05db6b4a9d5df3d0",
     "title": "REDMI Note 17 定档7月14日发布，产品经理暗示或涨价",
     "summary": "REDMI Note 17系列将于7月14日发布，产品经理在微博回应涨价问题时称“做好心理准备”，引发市场对新品定价的关注。",
@@ -24,6 +139,24 @@ const newsData = [
         "confidence": "medium"
       }
     ]
+  },
+  {
+    "id": "cdf95f1d3722092b",
+    "title": "美政府拟限制企业使用中国AI模型",
+    "summary": "据CNBC报道，美国政府对美国企业越来越多采用中国AI模型以降低成本的趋势感到不满，正寻求加以限制。这一动向若落地，可能进一步加剧中美在人工智能领域的科技博弈。",
+    "body": "报道称，出于成本考虑，美国企业正越来越多地使用中国制造的AI模型，这一现象已引起美国政府的警觉。华盛顿方面希望采取措施，限制企业在关键业务场景中采用中国AI技术。目前尚不清楚具体限制形式与覆盖范围，但若相关监管落地，可能促使美国企业重新评估其AI供应商选择，转向本土或其他非中国模型提供商。这也表明人工智能已成为中美地缘科技竞争的新焦点，未来围绕AI的出口管制、数据安全与供应链信任议题可能持续升温。",
+    "category": "地缘科技",
+    "tags": [
+      "人工智能",
+      "出口管制",
+      "地缘科技"
+    ],
+    "source": "Engadget",
+    "time": "14分钟前",
+    "ts": "2026-07-08T11:11:31+00:00",
+    "url": "https://www.engadget.com/2210340/us-reportedly-wants-to-restrict-corporate-use-chinese-ai/",
+    "image": "https://www.engadget.com/img/gallery/cnbc-the-us-wants-to-restrict-corporate-use-of-chinese-ai/l-intro-1783509013.jpg",
+    "stocks": []
   },
   {
     "id": "9d3fce9b07306279",
@@ -95,6 +228,24 @@ const newsData = [
         "confidence": "high"
       }
     ]
+  },
+  {
+    "id": "d09adfee9674b28e",
+    "title": "欧洲多家机构禁止工作中使用私人通讯应用",
+    "summary": "据外媒整理，欧洲多家组织已禁止员工在工作场景中使用个人即时通讯应用，反映出对数据合规和信息泄露风险的重视。",
+    "body": "报道称，一份清单汇总了欧洲范围内已在工作场合禁用个人即时通讯应用的机构。此举主要出于对数据隐私、信息安全及合规要求的考量，防止工作敏感信息通过非受控渠道传播。",
+    "category": "网络安全",
+    "tags": [
+      "网络安全",
+      "企业通信",
+      "数据合规"
+    ],
+    "source": "Hacker News",
+    "time": "22分钟前",
+    "ts": "2026-07-08T11:03:34+00:00",
+    "url": "https://www.birdy.chat/blog/the-growing-list-of-european-organisations-that-ban-personal-messaging-apps-at-work",
+    "image": "",
+    "stocks": []
   },
   {
     "id": "b3b0c8621e3af66b",
