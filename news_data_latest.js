@@ -1,5 +1,24 @@
 const newsData = [
   {
+    "id": "6e35f6d2f02b49a8",
+    "title": "酷态科10号电能基站万象屏套装降至218元新低",
+    "summary": "酷态科10号电能基站「万象屏套装」叠加官方直降、平台补贴、淘金币抵扣及88VIP消费券后，到手价约218元，创下官方渠道新低。该产品集成AC+USB八口输出，支持米家智能互联与OTA升级。",
+    "body": "据报道，酷态科10号电能基站「万象屏套装」于今年6月发售，屏幕套装版原价329元、首发价299元。如今在天猫平台通过官方直降、百亿补贴、淘金币抵扣及88VIP消费券等多重优惠后，实际到手价约218元，非88VIP用户也可在淘金币页面直接以相近价格下单。\n\n该充电站采用AC+USB八口集成设计，AC端最高支持2500W输出，USB端最高120W输出，兼容自研OPC放心充2.0与ADC 2.0多品牌协议，并支持小米120W澎湃秒充。产品还配备2.8英寸多功能万象屏，支持米家Wi-Fi/蓝牙双模连接、远程控制与OTA云端升级，体现智能家居生态整合趋势。",
+    "category": "消费电子",
+    "tags": [
+      "充电器",
+      "智能家居",
+      "米家",
+      "消费促销"
+    ],
+    "source": "IT之家",
+    "time": "8分钟前",
+    "ts": "2026-07-08T09:17:27+00:00",
+    "url": "https://www.ithome.com/0/974/153.htm",
+    "image": "https://img.ithome.com/newsuploadfiles/2026/7/5173cd4a-6c4d-444f-9ebf-6c7fc2d11f45.jpg?x-bce-process=image/format,f_auto",
+    "stocks": []
+  },
+  {
     "id": "a822662ddf934245",
     "title": "中科新松完成数亿元A+轮融资",
     "summary": "协作机器人企业“中科新松”宣布完成数亿元A+轮股权融资，由洪泰基金、鼎晖百孚联合领投，多家知名机构跟投，老股东东珺资本继续加注。",
@@ -302,6 +321,24 @@ const newsData = [
     "ts": "2026-07-08T08:50:03+00:00",
     "url": "https://www.ithome.com/0/974/129.htm",
     "image": "https://img14.360buyimg.com/pop/jfs/t1/473772/7/11516/48752/6a4dfdcaFa5cc6a4b/00833203208c4588.jpg",
+    "stocks": []
+  },
+  {
+    "id": "4de975998c717ae9",
+    "title": "解码优衣库T恤上的混淆bash脚本",
+    "summary": "技术人员对优衣库一件T恤上印刷的混淆bash脚本进行了解码与分析，引发网络安全社区关注。",
+    "body": "近日，网络安全爱好者关注到一件优衣库T恤上印有经过混淆处理的bash脚本代码，并尝试对其进行解码分析。这一案例将编程文化与日常服饰结合，引发了技术社区的讨论。从安全研究角度看，对混淆脚本的分析通常涉及代码反混淆、命令行为识别等技能，具有典型的网络安全趣味研究价值，同时也提醒人们对来源不明的脚本保持警惕。",
+    "category": "网络安全",
+    "tags": [
+      "网络安全",
+      "脚本分析",
+      "优衣库"
+    ],
+    "source": "Hacker News",
+    "time": "39分钟前",
+    "ts": "2026-07-08T08:46:06+00:00",
+    "url": "https://tris.sherliker.net/blog/obfuscated-self-evaluating-bash-script-by-cdn-akamai-being-supplied-to-consumers-via-retail-stores/",
+    "image": "",
     "stocks": []
   },
   {
