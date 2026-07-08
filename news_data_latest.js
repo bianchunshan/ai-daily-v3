@@ -1,5 +1,23 @@
 const newsData = [
   {
+    "id": "a3d6739d76d0a1e6",
+    "title": "我造了一个会自我改进的AI，你也可以",
+    "summary": "《连线》文章介绍了利用AI构建AI的实验，显示人工智能的开发能力正从少数前沿实验室向更广泛的开发者扩散。",
+    "body": "据《连线》报道，实验者通过AI辅助开发AI，成功构建出能够自我改进的人工智能系统。这一实践表明，最前沿的AI能力未必只掌握在少数头部实验室手中，普通开发者也能借助现有工具参与其中。这种趋势可能加速AI创新生态的多元化，同时对AI安全与治理提出新的要求。",
+    "category": "人工智能",
+    "tags": [
+      "人工智能",
+      "AI开发",
+      "自我改进AI"
+    ],
+    "source": "Wired",
+    "time": "8分钟前",
+    "ts": "2026-07-08T20:09:21+00:00",
+    "url": "https://www.wired.com/story/frontier-labs-arent-the-only-ones-pursuing-self-improving-ai/",
+    "image": "https://media.wired.com/photos/6a4d3e5ad99ed47ae9e00cc8/master/pass/AI-Lab-I-Made-A-Self-Improving-AI-Business.jpg",
+    "stocks": []
+  },
+  {
     "id": "e7c5b53ac930941f",
     "title": "Manna无人机配送公司计划大举扩张美国业务",
     "summary": "爱尔兰无人机配送初创公司Manna计划在俄克拉荷马州塔尔萨设立美国运营与制造基地，预计未来将创造约1000个就业岗位。",
@@ -715,6 +733,25 @@ const newsData = [
         "confidence": "medium"
       }
     ]
+  },
+  {
+    "id": "a1277dffba129f0f",
+    "title": "开源LLM网关Foreman支持成本感知路由",
+    "summary": "Hacker News上出现名为Foreman的自托管大语言模型网关，可依据成本智能选择并路由到不同模型。",
+    "body": "开发者近日在Hacker News展示开源项目Foreman，它提供自托管的LLM网关，能够按成本将请求路由到合适的模型。该工具面向希望降低API支出、统一管理多模型调用的开发者与企业。随着大模型服务生态日益碎片化，此类网关有助于简化集成流程并优化推理成本。",
+    "category": "AI 基础设施",
+    "tags": [
+      "大模型",
+      "AI网关",
+      "开源项目",
+      "成本优化"
+    ],
+    "source": "Hacker News",
+    "time": "2小时前",
+    "ts": "2026-07-08T17:56:53+00:00",
+    "url": "https://github.com/Northwood-Systems/foreman",
+    "image": "",
+    "stocks": []
   },
   {
     "id": "a5342c550d44bcb7",
@@ -2749,6 +2786,25 @@ const newsData = [
     "ts": "2026-07-08T13:02:20+00:00",
     "url": "https://www.tomshardware.com/pc-components/air-cooling/cooler-master-v4-and-v8-3dhp-review",
     "image": "https://cdn.mos.cms.futurecdn.net/4MAA2mhqTj75H4MhJaauXm-1280-80.jpg",
+    "stocks": []
+  },
+  {
+    "id": "eaad4cbcfa7f5327",
+    "title": "OpenAI 审计发现 SWE-Bench Pro 三成任务有缺陷",
+    "summary": "OpenAI 对编码评测基准 SWE-Bench Pro 进行审计，发现约 30% 的评测任务存在测试过严、提示不足或覆盖不全等缺陷。该机构呼吁模型开发者审慎解读评测结果，并强调 AI 智能体在规模化数据质量检查中越来越实用。",
+    "body": "OpenAI 对编码能力评测基准 SWE-Bench Pro 展开详细审计，发现 731 个公开子任务中约有 30% 存在质量缺陷。这些缺陷包括测试标准过于严格、提示词描述不足、测试覆盖不全面以及误导性提示等问题。尽管前沿模型在该基准上的通过率在过去八个月内从 23.3% 跃升至 80.3%，但数据质量问题可能影响对模型真实能力的评估。",
+    "category": "人工智能",
+    "tags": [
+      "AI 评测",
+      "OpenAI",
+      "代码生成",
+      "基准测试"
+    ],
+    "source": "AIHOT精选",
+    "time": "7小时前",
+    "ts": "2026-07-08T13:00:00+00:00",
+    "url": "https://openai.com/index/separating-signal-from-noise-coding-evaluations",
+    "image": "",
     "stocks": []
   },
   {
