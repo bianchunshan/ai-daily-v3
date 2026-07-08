@@ -1,5 +1,50 @@
 const newsData = [
   {
+    "id": "9228acf452ac398c",
+    "title": "亚马逊秘密推进Alexa“智能体”项目，成本高昂引担忧",
+    "summary": "据报道，亚马逊内部文件显示，公司正秘密推进名为“Moonraker”的Alexa AI项目，意图将Alexa语音助手发展为AI智能体。该项目研发与运行成本高昂，已在公司内部引发担忧。",
+    "body": "据7月8日报道，亚马逊内部规划文件显示，公司正在秘密推进一项名为“Moonraker”的全新Alexa AI项目。该项目旨在将Alexa语音助手推向AI智能体赛道，使其能够自主完成更复杂的任务，体现出亚马逊在AI智能体竞赛中的积极布局。\n\n然而，该项目极其高昂的研发与运行成本已在公司内部引发广泛担忧。这种成本压力与商业化前景的不确定性，可能会对项目的推进节奏和最终落地产生影响。\n\n亚马逊此举反映出科技巨头正加速将语音助手等传统AI产品升级为具备自主行动能力的AI智能体，但如何在技术创新与成本控制之间取得平衡，将成为关键挑战。",
+    "category": "人工智能",
+    "tags": [
+      "AI智能体",
+      "语音助手",
+      "亚马逊",
+      "Alexa"
+    ],
+    "source": "36氪",
+    "time": "刚刚",
+    "ts": "2026-07-08T12:56:30.416815+00:00",
+    "url": "https://36kr.com/newsflashes/3886982568032776?f=rss",
+    "image": "",
+    "stocks": [
+      {
+        "name": "亚马逊",
+        "ticker": "AMZN",
+        "reason": "新闻主角为亚马逊的Alexa AI项目，直接关联公司AI战略与产品演进。",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "ae209ade1520f02b",
+    "title": "三星 Galaxy Z Flip8 渲染图流出，三款配色亮相",
+    "summary": "外媒曝光三星 Galaxy Z Flip8 官方渲染图，该机延续纵向折叠设计，外观与上代相近，提供奶油、石墨、粉色三款配色；传闻将搭载 Exynos 2600 或骁龙 8 Elite Gen 5 处理器，并定档 7 月 22 日正式发布。",
+    "body": "据 AndroidHeadlines 泄露的官方渲染图，三星 Galaxy Z Flip8 外观已完整亮相，共展示 Cream（奶油色）、Graphite（石墨色）和 Pink（粉色）三款配色，另有传闻称后续可能推出薄荷绿版本。新机依旧采用纵向折叠方案，主屏居中打孔，边框纤薄且略高于屏幕，电源键与音量键位于机身右侧；背面外屏覆盖上半部分，双摄仍横向排列并嵌入外屏内部，整体设计与 Galaxy Z Flip7 差别不大。\n\n配置方面，爆料显示 Galaxy Z Flip8 将因市场差异提供 Exynos 2600 与骁龙 8 Elite Gen 5 for Galaxy 两种处理器版本，配备 12GB LPDDR5X 内存及 UFS 4.0/4.1 闪存，内置约 4300mAh 电池并支持 25W 快充，影像系统或为 5000 万像素主摄加 1200 万像素超广角。屏幕预计采用 6.9 英寸 Foldable Dynamic LTPO AMOLED 2X 主屏，外屏可能升级至 4.1 英寸 Super AMOLED，均支持 120Hz 刷新率。\n\n三星已宣布第二场 Galaxy Unpacked 发布会将于 7 月 22 日举行，Galaxy Z Flip8 届时将与 Galaxy Z Fold8、Z Fold8 Ultra、Galaxy Watch 9 及 Watch Ultra 2 同台亮相。作为折叠屏手机市场的标杆产品之一，该机的迭代节奏与配置选择将继续影响今年下半年高端折叠屏市场的竞争格局。",
+    "category": "消费电子",
+    "tags": [
+      "折叠屏",
+      "智能手机",
+      "三星",
+      "新品发布"
+    ],
+    "source": "IT之家",
+    "time": "4分钟前",
+    "ts": "2026-07-08T12:52:09+00:00",
+    "url": "https://www.ithome.com/0/974/241.htm",
+    "image": "https://img.ithome.com/newsuploadfiles/2026/7/b8c40c42-70c3-4f90-94b4-376453d50a11.png?x-bce-process=image/format,f_auto",
+    "stocks": []
+  },
+  {
     "id": "41af60d2f6b4137d",
     "title": "三星终止开发苹果平价版Vision Pro面板",
     "summary": "据韩媒报道，三星显示已决定逐步终止开发苹果平价版Vision Pro头显的玻璃基板Micro-OLED面板，最迟今年9月全面结束项目。",
