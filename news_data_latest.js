@@ -1,5 +1,24 @@
 const newsData = [
   {
+    "id": "5457feff361360cb",
+    "title": "科学家揭示真菌“致盲”免疫系统机制",
+    "summary": "谢菲尔德大学研究人员发现，一种真菌可破坏中性粒细胞的关键防御机制，这可能为抗击超级真菌提供新方向。",
+    "body": "英国谢菲尔德大学的研究团队发现，一种对免疫力低下人群致命的真菌能够破坏中性粒细胞——人体抵御感染的前线白细胞——所使用的一项关键防御机制，从而逃脱免疫攻击。\n\n该研究揭示了真菌如何“致盲”免疫系统的具体路径，有助于理解其致病机制。由于耐药真菌感染日益成为全球公共卫生威胁，这一发现为开发新型抗真菌药物和疗法提供了新的潜在靶点。",
+    "category": "生物医药",
+    "tags": [
+      "真菌感染",
+      "免疫机制",
+      "抗真菌",
+      "超级真菌"
+    ],
+    "source": "MedicalXpress",
+    "time": "7分钟前",
+    "ts": "2026-07-08T12:40:01-04:00",
+    "url": "https://medicalxpress.com/news/2026-07-scientists-uncover-fungi-immune-superbugs.html",
+    "image": "https://scx1.b-cdn.net/csz/news/tmb/2015/candidaalbic.jpg",
+    "stocks": []
+  },
+  {
     "id": "eb7ab28532092428",
     "title": "亚马逊据称正研发更强Agent版Alexa助手",
     "summary": "据报道，亚马逊正推进代号为“Moonraker”的项目，旨在让Alexa能够更高效地处理多步骤任务，提升其作为AI代理的能力。",
@@ -124,6 +143,25 @@ const newsData = [
     "ts": "2026-07-08T12:20:04-04:00",
     "url": "https://medicalxpress.com/news/2026-07-weight-loss-cardiovascular-health-medication.html",
     "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/group-workout-class.jpg",
+    "stocks": []
+  },
+  {
+    "id": "1c2e0b9ec7777b21",
+    "title": "SWE-1.7模型智能水平被指接近GPT-5.5与Opus",
+    "summary": "Hacker News上出现一条消息称，SWE-1.7在智能表现上已接近GPT-5.5和Opus，但原文未提供文章链接，具体细节尚待核实。",
+    "body": "据Hacker News标题信息，名为SWE-1.7的模型在智能水平上已接近GPT-5.5和Opus。该帖子未附带文章链接，目前无法确认模型发布方、技术架构、训练数据或评测基准等关键细节。\n\n如果该说法属实，意味着面向软件工程或代码任务的大模型能力正在快速提升，可能加剧AI辅助编程和自动化软件工程Agent领域的竞争。OpenAI、Anthropic等头部模型厂商及其上下游生态或将面临新的竞争压力。\n\n由于缺少原始资料，该消息仍属于未经核实的行业传闻。投资者和从业者应等待官方信息披露与第三方评测结果，避免依据单一标题做出判断。",
+    "category": "人工智能",
+    "tags": [
+      "大模型",
+      "代码生成",
+      "AI Agent",
+      "软件工程"
+    ],
+    "source": "Hacker News",
+    "time": "27分钟前",
+    "ts": "2026-07-08T16:19:36+00:00",
+    "url": "https://cognition.com/blog/swe-1-7",
+    "image": "",
     "stocks": []
   },
   {
