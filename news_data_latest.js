@@ -1,5 +1,31 @@
 const newsData = [
   {
+    "id": "127f2e6c57960980",
+    "title": "Google Photos 新增 AI 视频重混功能",
+    "summary": "Google Photos 推出名为“Video Remix”的 AI 视频编辑工具，可智能补光、替换背景并为视频添加艺术风格，进一步提升移动端 AI 创作体验。",
+    "body": "据报道，Google Photos 新增一项名为“Video Remix”的 AI 工具，可对视频进行智能重混处理。该功能能够实现电影级补光以提亮昏暗片段、将普通背景替换为趣味场景，以及为画面添加艺术风格等效果。这标志着谷歌正把生成式 AI 能力从图片扩展到视频，强化其照片应用在消费级 AI 创作市场的竞争力。\n\n随着短视频内容需求持续增长，AI 视频编辑被视为吸引用户、提升产品黏性的关键功能。Google Photos 借此升级可巩固其在云端相册与 AI 编辑领域的领先地位，同时也有望为谷歌带来更多订阅与广告场景。",
+    "category": "人工智能",
+    "tags": [
+      "AI 应用",
+      "视频编辑",
+      "Google Photos",
+      "生成式 AI"
+    ],
+    "source": "TechCrunch",
+    "time": "7分钟前",
+    "ts": "2026-07-08T18:30:08+00:00",
+    "url": "https://techcrunch.com/2026/07/08/google-photos-adds-a-new-ai-video-remix-tool/",
+    "image": "",
+    "stocks": [
+      {
+        "name": "Alphabet（谷歌）",
+        "ticker": "GOOGL",
+        "reason": "Google Photos 属于谷歌生态，AI 视频编辑功能增强消费端 AI 应用吸引力，利好 Alphabet。",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
     "id": "4bcee2f421f143f9",
     "title": "亲代血细胞或可缓冲衰老影响",
     "summary": "随着年龄增长，造血干细胞的衰老迹象可能导致白血病、血栓等疾病，最新研究揭示了亲代血细胞在其中的缓冲作用。",
@@ -34,6 +60,25 @@ const newsData = [
     "ts": "2026-07-08T18:06:39+00:00",
     "url": "https://spacenews.com/is-this-the-year-for-a-nasa-authorization-bill/",
     "image": "https://i0.wp.com/spacenews.com/wp-content/uploads/2026/02/housesci-20260204.jpeg?fit=1024%2C683&amp;ssl=1",
+    "stocks": []
+  },
+  {
+    "id": "9dd9233fe9a6f9d8",
+    "title": "研究发现TikTok用户对推荐内容控制力有限",
+    "summary": "西北大学研究显示，TikTok的推荐算法对负面反馈仅产生短暂效果，用户难以真正掌控其“为你推荐”页面。",
+    "body": "西北大学计算机科学家对TikTok“为你推荐”页面（FYP）的算法进行了审计研究。他们发现，虽然用户点击“不感兴趣”或忽略某些视频会产生短期影响，但算法会逐渐恢复原有推荐，除非用户持续反复提供相同的负面反馈。\n\n该研究揭示了依赖隐式信号（如观看时长）的推荐系统对负面反馈响应不足的问题。研究提醒用户需要主动、持续地管理自己的内容偏好，也引发了对平台算法透明度和用户控制权的关注。",
+    "category": "人工智能",
+    "tags": [
+      "TikTok",
+      "推荐算法",
+      "算法审计",
+      "用户控制"
+    ],
+    "source": "Ars Technica",
+    "time": "37分钟前",
+    "ts": "2026-07-08T18:00:49+00:00",
+    "url": "https://arstechnica.com/science/2026/07/how-much-control-do-tiktok-users-really-have-over-fyps/",
+    "image": "https://cdn.arstechnica.net/wp-content/uploads/2023/04/getty-tiktok-1152x648.jpg",
     "stocks": []
   },
   {
@@ -222,6 +267,44 @@ const newsData = [
     "stocks": []
   },
   {
+    "id": "cced7cd3dd4451c1",
+    "title": "美军拟采购低成本猎杀无人机替代昂贵死神无人机",
+    "summary": "美军在伊朗相关任务中损失了价值逾10亿美元的MQ-9 Reaper无人机，国防部创新单位因此寻求大量低成本可消耗无人机，以数量优势压倒敌方防空体系。",
+    "body": "据美国国防部创新单位（DIU）发布的行业征集，美军在伊朗上空执行侦察与攻击任务时损失了数十架单价超过3000万美元的MQ-9“死神”无人机，累计价值超过10亿美元。面对对手利用低成本防空武器构建多层防御，国防部认为继续依赖高价值无人机和有人战机“不可持续”。因此，美军希望采购大量成本更低的“猎杀”无人机，即便在战斗中遭受大量损失，也能通过数量优势压制敌方防空系统。乌克兰军队对俄罗斯后方目标发动的大规模远程和中程无人机袭击已展示这一战术效果：每天用数百枚相对廉价的无人机和导弹打击前线后方目标，使俄罗斯防空系统不堪重负。",
+    "category": "机器人",
+    "tags": [
+      "军用无人机",
+      "国防科技",
+      "无人机蜂群",
+      "低成本消耗型武器"
+    ],
+    "source": "Ars Technica",
+    "time": "52分钟前",
+    "ts": "2026-07-08T17:44:54+00:00",
+    "url": "https://arstechnica.com/gadgets/2026/07/us-seeks-cheaper-hunter-killer-drones-after-iran-destroys-1b-worth-of-reapers/",
+    "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/07/Reaper-drone-1152x648.jpg",
+    "stocks": [
+      {
+        "name": "Kratos防务与安全解决方案",
+        "ticker": "KTOS",
+        "reason": "美国无人机与低成本可消耗系统供应商，可能直接受益于美军对低价猎杀无人机的采购需求",
+        "confidence": "medium"
+      },
+      {
+        "name": "AeroVironment",
+        "ticker": "AVAV",
+        "reason": "美国军用小型无人机与无人系统主要供应商，契合低成本无人作战平台趋势",
+        "confidence": "medium"
+      },
+      {
+        "name": "波音",
+        "ticker": "BA",
+        "reason": "美国大型防务承包商，具备开发军用无人机与忠诚僚机平台能力，有望参与竞标",
+        "confidence": "low"
+      }
+    ]
+  },
+  {
     "id": "f616696610d31d48",
     "title": "小米正式推出增程SUV品牌“Sky Nomad”",
     "summary": "小米官方确认其全新增程电动汽车（EREV）项目命名为Sky Nomad，首款车型为全尺寸SUV，综合续航有望超过1500公里。这标志着小米将直接挑战理想汽车和华为支持的问界在中国增程家庭SUV市场的主导地位。",
@@ -398,6 +481,25 @@ const newsData = [
     "ts": "2026-07-08T17:30:49+00:00",
     "url": "https://x.com/sama/status/2074909079450050629",
     "image": "",
+    "stocks": []
+  },
+  {
+    "id": "5a24d11c9983e00b",
+    "title": "迈阿密公司首颗商业核动力卫星升空",
+    "summary": "美国佛罗里达州公司City Labs研发的BOHR核动力卫星搭乘SpaceX拼车任务发射入轨，标志着商业核动力航天器迈出关键一步。",
+    "body": "当地时间周二，总部位于迈阿密的City Labs公司发射了名为BOHR（Betavoltaic Orbital High-Reliability）的卫星。该卫星采用基于放射性同位素衰变的贝塔伏特电池供电，由SpaceX猎鹰9号火箭送入约350至400英里高的轨道。这是首次将商业核动力卫星送入太空。\n\n尽管该卫星距离真正的核反应堆尚有差距，但被视为未来核动力航天器、月球基地及深空探测任务的重要技术验证。BOHR任务将帮助验证核微功率技术在太空环境中的可靠性，为后续航天器动力与推进系统发展积累经验。",
+    "category": "商业航天",
+    "tags": [
+      "核动力卫星",
+      "商业航天",
+      "核电池",
+      "SpaceX"
+    ],
+    "source": "Ars Technica",
+    "time": "1小时前",
+    "ts": "2026-07-08T17:26:44+00:00",
+    "url": "https://arstechnica.com/space/2026/07/miami-based-city-labs-achieves-a-first-for-commercial-nuclear-power-in-space/",
+    "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/07/BOHR_Assembly_Finished-539x648.jpg",
     "stocks": []
   },
   {
@@ -685,6 +787,25 @@ const newsData = [
     "ts": "2026-07-08T12:40:01-04:00",
     "url": "https://medicalxpress.com/news/2026-07-scientists-uncover-fungi-immune-superbugs.html",
     "image": "https://scx1.b-cdn.net/csz/news/tmb/2015/candidaalbic.jpg",
+    "stocks": []
+  },
+  {
+    "id": "c2892650169149c9",
+    "title": "谷歌更新Android Bench基准，Gemini仍落后",
+    "summary": "谷歌宣布更新Android Bench大模型基准，新增多款主流模型并优化框架；其Gemini在该榜单上的表现仍落后于竞品。",
+    "body": "谷歌今年3月推出的Android Bench专注于评估大语言模型在Android应用开发中的能力，如今迎来重大更新：新增Claude Fable 5、Sonnet 5、Opus 4.8、GLM 5.2、Kimi K2.7 Code、MiniMax M3、Qwen 3.7 Plus及Qwen 3.7 Max等八款模型，并采用更易于使用的新框架，同时加入了成本与效率指标以及开放权重模型。该基准涵盖100项Android开发任务，旨在帮助开发者区分不同AI编码助手的能力。谷歌还邀请开发者自行测试并提交反馈，以影响Android Bench的未来方向。值得注意的是，尽管Gemini是谷歌自家的旗舰模型，在此次更新后的Android Bench中仍落后于竞争对手，显示出AI代码生成领域竞争依旧激烈。",
+    "category": "人工智能",
+    "tags": [
+      "大模型",
+      "代码生成",
+      "Android开发",
+      "基准测试"
+    ],
+    "source": "Ars Technica",
+    "time": "1小时前",
+    "ts": "2026-07-08T16:39:48+00:00",
+    "url": "https://arstechnica.com/google/2026/07/google-revamps-android-ai-dev-benchmark-adds-fable-5-and-other-agents/",
+    "image": "https://cdn.arstechnica.net/wp-content/uploads/2025/07/Android-statue-1152x648.jpg",
     "stocks": []
   },
   {
