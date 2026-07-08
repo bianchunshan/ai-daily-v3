@@ -1,5 +1,128 @@
 const newsData = [
   {
+    "id": "0dd38ec68c46697d",
+    "title": "奔驰纯电GLC SUV上市：29.99万元起，续航680km",
+    "summary": "全新奔驰纯电GLC SUV正式上市，售价29.99万元起，搭载宁德时代三元锂电池，CLTC续航最高703km，10%至80%快充仅需22分钟。",
+    "body": "7月8日，全新奔驰纯电GLC SUV正式上市，推出晖银版、鎏金版、星铂版三款车型，全国统一预售价29.99万元至38.88万元不等。新车采用全新设计语言，配备发光格栅与星徽元素大灯，车内为联屏设计，可选6座布局，并提供“小奔”虚拟助手、Burmester 19扬声器、手机无线充电等配置。\n\n该车基于800V电气架构打造，搭载宁德时代三元锂电池，CLTC纯电续航680km，长续航版可达703km，10%至80%充电仅需22分钟。新车入市将进一步加剧国内高端纯电SUV市场竞争，也体现800V超快充与长续航电池技术向主流豪华市场的渗透。",
+    "category": "未来能源",
+    "tags": [
+      "新能源汽车",
+      "奔驰",
+      "宁德时代",
+      "800V快充"
+    ],
+    "source": "IT之家",
+    "time": "2分钟前",
+    "ts": "2026-07-08T13:03:49+00:00",
+    "url": "https://www.ithome.com/0/974/244.htm",
+    "image": "https://img.ithome.com/newsuploadfiles/2026/7/97436079-d4ea-4d6e-8ea9-3f3e61de7e4e.jpg?x-bce-process=image/format,f_auto",
+    "stocks": [
+      {
+        "name": "宁德时代",
+        "ticker": "300750.SZ",
+        "reason": "为全新奔驰纯电GLC SUV供应三元锂电池，配套量提升直接受益",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "5bd20571cd5a924e",
+    "title": "酷冷至尊发布3DHP风冷散热器，外媒称其工程成就突出",
+    "summary": "酷冷至尊（Cooler Master）推出 V4 Alpha 与 V8 Ace 3DHP 风冷散热器，采用三叉形 3DHP 热管技术，外媒评测认为其散热设计和性能表现均属上乘。",
+    "body": "酷冷至尊新推出的 V4 Alpha 3DHP 和 V8 Ace 3DHP 风冷散热器，核心亮点在于 3DHP（3D 热管）技术。与传统“U”形铜热管不同，3DHP 热管呈三叉形，可更有效地分散热量。外媒评测认为，这是一项真正的散热技术进步。\nV8 Ace 3DHP 还配备了两款采用液晶聚合物扇叶的高性能风扇，并提供六年质保；V4 Alpha 3DHP 质保五年。两款产品的建议零售价分别为 119.99 美元和 49.99 美元，兼容 AMD AM5/AM4 及英特尔 LGA 1700/1851/1200/115x 等主流平台。评测以 AMD Ryzen 9 9950X3D 为负载进行散热与噪音测试，评估其是否值得进入最佳 CPU 散热器推荐名单。",
+    "category": "消费电子",
+    "tags": [
+      "散热器",
+      "CPU散热",
+      "PC硬件",
+      "消费电子"
+    ],
+    "source": "Tom's Hardware",
+    "time": "3分钟前",
+    "ts": "2026-07-08T13:02:20+00:00",
+    "url": "https://www.tomshardware.com/pc-components/air-cooling/cooler-master-v4-and-v8-3dhp-review",
+    "image": "https://cdn.mos.cms.futurecdn.net/4MAA2mhqTj75H4MhJaauXm-1280-80.jpg",
+    "stocks": []
+  },
+  {
+    "id": "b542ff19aaac953a",
+    "title": "Fi Ultra 宠物追踪器接入 T-Mobile 星链卫星服务",
+    "summary": "Fi 推出新款宠物追踪器 Fi Ultra，通过与 T-Mobile 的 Starlink 卫星直连服务合作，在乡村及偏远地区也能实现宠物定位覆盖。",
+    "body": "Fi 发布新一代宠物追踪器 Fi Ultra，其核心卖点是借助 T-Mobile 与 Starlink 合作的卫星直连服务，在缺乏蜂窝网络信号的乡村、山区或野外场景下，依然能够为宠物提供定位追踪。相比传统依赖地面基站的产品，这一方案可显著扩大可用覆盖范围。\n\n该设备属于消费级宠物可穿戴硬件，主要面向狗等宠物。T-Mobile 的卫星服务通过 Starlink 卫星星座为兼容设备提供数据连接，此次与 Fi 的合作意味着该卫星服务正延伸至宠物追踪等物联网消费场景，有望增强相关服务的应用价值。",
+    "category": "消费电子",
+    "tags": [
+      "宠物追踪器",
+      "卫星连接",
+      "T-Mobile",
+      "Starlink"
+    ],
+    "source": "Engadget",
+    "time": "6分钟前",
+    "ts": "2026-07-08T13:00:00+00:00",
+    "url": "https://www.engadget.com/2210360/fi-ultra-pet-tracker-t-mobile-starlink/",
+    "image": "https://www.engadget.com/img/gallery/fi-ultra-pet-tracker-uses-t-mobiles-starlink-satellite-service-for-coverage/l-intro-1783511600.jpg",
+    "stocks": [
+      {
+        "name": "T-Mobile US",
+        "ticker": "TMUS",
+        "reason": "其基于 Starlink 的卫星直连服务被 Fi Ultra 宠物追踪器采用，拓展了物联网消费场景。",
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
+    "id": "70ba4e24107041fd",
+    "title": "Fi推出星链直连宠物追踪器",
+    "summary": "宠物科技公司Fi发布一款狗狗追踪器，可借助T-Mobile基于星链的T-Satellite服务在美国全国保持连接，包括地面蜂窝网络覆盖不到的区域。",
+    "body": "7月8日，宠物科技公司Fi发布了一款狗狗追踪器，该设备接入T-Mobile基于星链（Starlink）的T-Satellite卫星直连服务，即使在美国地面蜂窝网络覆盖范围之外，也能保持持续在线。此次合作将星链直连手机能力从短信、应急通信进一步扩展到消费级宠物物联网设备，显示出卫星直连技术在大众消费领域的商业化潜力。对养宠用户而言，这意味着即使身处偏远无信号地区，也能实时追踪宠物位置。",
+    "category": "商业航天",
+    "tags": [
+      "卫星直连",
+      "物联网",
+      "宠物科技",
+      "T-Mobile"
+    ],
+    "source": "SpaceNews",
+    "time": "6分钟前",
+    "ts": "2026-07-08T13:00:00+00:00",
+    "url": "https://spacenews.com/fi-expands-starlink-direct-to-device-capability-into-dog-tracking/",
+    "image": "https://i0.wp.com/spacenews.com/wp-content/uploads/2026/07/Fi-Ultra-scaled.jpg?fit=1024%2C593&amp;ssl=1",
+    "stocks": [
+      {
+        "name": "T-Mobile",
+        "ticker": "TMUS",
+        "reason": "其基于星链的T-Satellite服务为Fi新款追踪器提供全美卫星连接能力",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "9e9592be8ef44391",
+    "title": "AST SpaceMobile再射三颗BlueBird低轨卫星",
+    "summary": "AST SpaceMobile近日向低地球轨道再部署三颗BlueBird卫星，以推进其在今年年底前建成45至60颗卫星的空间蜂窝宽带网络。",
+    "body": "据外媒报道，文章标题指出卫星行业最昂贵的成本问题或许并不在轨道本身，而AST SpaceMobile的动向则体现了当前低轨通信卫星星座的快速扩张。该公司近期成功部署三颗BlueBird卫星，正按规划推进45至60颗卫星规模的空间蜂窝宽带网络建设。\n\n如果该星座按计划成型，可能为全球移动宽带覆盖提供新的基础设施选择，并进一步加剧低轨卫星通信赛道的竞争。不过，该网络的最终服务能力、商业模式和成本结构仍需后续发射与运营验证。",
+    "category": "商业航天",
+    "tags": [
+      "低轨卫星",
+      "AST SpaceMobile",
+      "空间通信",
+      "卫星互联网"
+    ],
+    "source": "SpaceNews",
+    "time": "6分钟前",
+    "ts": "2026-07-08T13:00:00+00:00",
+    "url": "https://spacenews.com/the-satellite-industrys-most-expensive-problem-isnt-in-orbit/",
+    "image": "https://i0.wp.com/spacenews.com/wp-content/uploads/2025/12/LMV3-B62.jpg?fit=1024%2C573&amp;ssl=1",
+    "stocks": [
+      {
+        "name": "AST SpaceMobile",
+        "ticker": "ASTS",
+        "reason": "公司被直接报道，且正在推进BlueBird低轨卫星星座部署，以建设空间蜂窝宽带网络。",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
     "id": "8afc9097f365a81b",
     "title": "Fi Ultra 推出首款 Starlink 直连宠物追踪器",
     "summary": "Fi Ultra 是全球首款可购买的 Starlink 直连宠物追踪器，当宠物进入蜂窝信号盲区时，可自动切换至 T-Mobile 的 T-Satellite 直连蜂窝服务，借助 SpaceX 低轨卫星在美国境内持续定位。",
@@ -145831,12 +145954,6 @@ const newsData = [
   }
 ];
 const newsDigest = {
-  "text": "今日科技前沿：亚马逊秘密推进Alexa智能体、蓝色起源百亿美元融资、比亚迪第1700万辆新能源车下线，以及特斯拉Cybercab无障碍设计和腾讯招揽OpenAI前研究员，看点密集。",
-  "highlights": [
-    "9228acf452ac398c",
-    "3092749b9ea82d94",
-    "21539c036e4a1124",
-    "6915065775eab0a5",
-    "88f51677da117e39"
-  ]
+  "text": "",
+  "highlights": []
 };
