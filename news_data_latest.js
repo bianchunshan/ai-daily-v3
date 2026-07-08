@@ -1,5 +1,43 @@
 const newsData = [
   {
+    "id": "25e631b07eeb5706",
+    "title": "2026年最佳便携式电站推荐：9款经容量与尺寸实测",
+    "summary": "美国科技媒体《连线》发布2026年最佳便携式电站评测榜单，基于容量、尺寸和输出功率等维度推荐了9款移动电源，适用于离网露营、户外作业及家庭停电应急。",
+    "body": "《连线》杂志对市售便携式电站进行了容量与尺寸实测，并发布“2026年最佳便携式电站”榜单。这类大功率移动电源可在离网场景、户外活动和突发停电时为电器设备持续供电，是露营、远程工作和家庭应急备电的常用装备。评测从电池容量、体积重量、输出功率、接口配置和使用便捷性等维度综合筛选，推荐了9款不同定位的产品。随着户外活动与家庭应急备电需求增长，便携式储能产品持续受到消费级市场关注。",
+    "category": "消费电子",
+    "tags": [
+      "便携式电源",
+      "储能",
+      "消费电子",
+      "产品评测"
+    ],
+    "source": "Wired",
+    "time": "5分钟前",
+    "ts": "2026-07-08T11:30:00+00:00",
+    "url": "https://www.wired.com/gallery/best-portable-power-stations/",
+    "image": "https://media.wired.com/photos/6a4d496469eabca8afcd518a/master/pass/The-Best-Portable-Power-Stations.jpg",
+    "stocks": []
+  },
+  {
+    "id": "a01a77e3d3be174f",
+    "title": "苹果在欧洲输掉App Store“守门人”地位诉讼",
+    "summary": "苹果公司针对欧盟《数字市场法》要求其开放平台的诉讼被欧洲法院驳回，其App Store“守门人”地位及封闭生态将面临更严监管。",
+    "body": "欧洲法院近日裁定，苹果挑战欧盟将其App Store认定为“守门人”并强制开放平台的法律诉讼失败。根据欧盟《数字市场法》，苹果须允许第三方应用商店、支付渠道等接入其iOS生态，不能再以封闭策略垄断应用分发。\n\n这一裁决对苹果在欧盟的运营模式及“苹果税”收入构成直接冲击，并可能引发其他监管机构效仿。第三方开发者、替代支付服务商和竞争对手有望获得更公平的竞争环境，数字平台反垄断监管进一步收紧。",
+    "category": "地缘科技",
+    "tags": [
+      "苹果",
+      "欧盟数字市场法",
+      "平台监管",
+      "反垄断"
+    ],
+    "source": "Engadget",
+    "time": "13分钟前",
+    "ts": "2026-07-08T11:22:46+00:00",
+    "url": "https://www.engadget.com/2210344/apple-loses-eu-court-fight-over-app-store-gatekeeper-status/",
+    "image": "https://www.engadget.com/img/gallery/apple-loses-legal-fight-over-its-app-store-gatekeeper-status-in-europe/l-intro-1783509531.jpg",
+    "stocks": []
+  },
+  {
     "id": "eeca40a78628112e",
     "title": "微信鸿蒙版灰度测试自定义铃声与Live图功能",
     "summary": "据博主爆料，微信鸿蒙版App正在灰度测试消息提示音与来电铃声自定义设置，并已逐步开放个人资料来电铃声入口；同时聊天Live图功能也进入灰度测试。这些更新补齐了鸿蒙版微信的关键体验特性。",
