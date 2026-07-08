@@ -1,5 +1,68 @@
 const newsData = [
   {
+    "id": "4754dd47fee7d4cb",
+    "title": "研究：早发性痴呆确诊前15年工作效率已下降",
+    "summary": "发表于《Neurology》的研究显示，早发性痴呆患者在确诊前最长达15年工作效率已下降，且不同类型痴呆的低效年限存在差异。",
+    "body": "一项发表于《Neurology》的研究发现，被诊断为早发性痴呆的人群，其工作生产力在确诊前最长达15年已出现下降。研究人员还指出，生产力下降的具体年限因痴呆类型不同而有所差异。该研究提示，认知功能衰退可能在工作场景中留下长期、可追踪的早期信号，有望为痴呆的早期识别和职业健康干预提供新线索。",
+    "category": "生物医药",
+    "tags": [
+      "早发性痴呆",
+      "神经病学",
+      "职业健康",
+      "认知衰退"
+    ],
+    "source": "MedicalXpress",
+    "time": "1分钟前",
+    "ts": "2026-07-08T16:00:05-04:00",
+    "url": "https://medicalxpress.com/news/2026-07-decline-productivity-years-early-onset.html",
+    "image": "https://scx1.b-cdn.net/csz/news/tmb/2019/hardwork.jpg",
+    "stocks": []
+  },
+  {
+    "id": "e6798e9ed0de24ba",
+    "title": "研究显示伊维菌素并非抗癌“神药”",
+    "summary": "医学专家指出，尽管伊维菌素作为动物驱虫药已被研究多年，但目前没有证据表明它对人体癌症安全有效，社交媒体上相关说法缺乏科学依据。",
+    "body": "据外媒报道，部分网络意见领袖正传播“伊维菌素可治疗癌症”的说法，但现有医学研究并不支持这一观点。伊维菌素是一种主要用于动物驱虫的药物，曾因新冠疫情期间被误传为“特效药”而引发争议。医学网站MedicalXpress指出，目前尚无临床证据表明其对人类癌症具备安全性或疗效。\n\n专家提醒，将未经证实的药物用于治疗严重疾病可能延误规范治疗，并带来健康风险。该现象也反映出医疗虚假信息在社交媒体上的快速传播问题，公众应依赖权威医学机构和同行评审研究获取信息。",
+    "category": "生物医药",
+    "tags": [
+      "伊维菌素",
+      "癌症治疗",
+      "医疗辟谣"
+    ],
+    "source": "MedicalXpress",
+    "time": "1分钟前",
+    "ts": "2026-07-08T16:00:04-04:00",
+    "url": "https://medicalxpress.com/news/2026-07-ivermectin-isnt-cancer-miracle-drug.html",
+    "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/ivermectin.jpg",
+    "stocks": []
+  },
+  {
+    "id": "27003f84941b5c22",
+    "title": "三星预约新款Galaxy折叠屏手机可获30美元积分",
+    "summary": "三星为尚未正式发布的新款Galaxy Z Fold折叠屏手机推出预约优惠，参与预购的用户可获得30美元积分；下一届Galaxy Unpacked发布会定于2026年7月22日举行。",
+    "body": "据外媒报道，尽管三星尚未正式官宣新款Galaxy Z Fold系列折叠屏手机，但已开放新品预约，预约用户在正式预购时有望获得30美元积分优惠。\n\n三星计划于2026年7月22日举办Galaxy Unpacked发布活动，活动口号为“A new shape unfolds”，预计届时将推出新一代折叠屏机型。\n\n这一预约优惠有助于提前锁定潜在消费者，提升新品发布前的市场关注度，也可能在短期内为三星智能手机业务带来销售拉动。",
+    "category": "消费电子",
+    "tags": [
+      "三星",
+      "折叠屏手机",
+      "Galaxy Z Fold",
+      "消费电子"
+    ],
+    "source": "The Verge",
+    "time": "15分钟前",
+    "ts": "2026-07-08T15:45:38-04:00",
+    "url": "https://www.theverge.com/gadgets/962999/samsung-unpacked-z-fold-flip-wide-reserve-credit-preorder",
+    "image": "",
+    "stocks": [
+      {
+        "name": "三星电子",
+        "ticker": "005930.KS",
+        "reason": "新闻直接涉及三星新款折叠屏手机的预约促销，可能影响其手机销量与品牌关注度",
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
     "id": "0c986688a993d757",
     "title": "美国CDC公共卫生数据缺口形成危险盲区",
     "summary": "美国CDC在孕产妇健康、流感发病率和慢性病监测等关键公共卫生数据上存在明显缺口，导致疾病预防与资源分配决策出现危险盲区。",
