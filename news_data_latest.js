@@ -1,5 +1,31 @@
 const newsData = [
   {
+    "id": "78858ab234413ce4",
+    "title": "ispace将借助SpaceX星舰向月球运送更大载荷",
+    "summary": "日本月球探测公司ispace计划购买SpaceX未来星舰月球着陆器任务的空间，以向月球运送更大载荷。这一合作有望降低登月成本并提升任务能力。",
+    "body": "日本月球探测企业ispace宣布，将搭乘SpaceX未来星舰月球着陆器任务，向月球运送比现有能力更大的载荷。该公司此举旨在利用星舰的超大运载能力，满足客户对月球表面运输大型设备与科学仪器的需求。\n\n通过与SpaceX合作，ispace可扩展其月球运输服务范围，并进一步巩固其在商业月球探测领域的地位。这一安排也反映出商业月球物流市场对大运力、低成本发射方案的持续需求。",
+    "category": "商业航天",
+    "tags": [
+      "商业航天",
+      "月球探测",
+      "SpaceX",
+      "ispace"
+    ],
+    "source": "SpaceNews",
+    "time": "10分钟前",
+    "ts": "2026-07-08T21:28:16+00:00",
+    "url": "https://spacenews.com/ispace-to-send-larger-payloads-to-the-moon-on-spacexs-starship/",
+    "image": "https://i0.wp.com/spacenews.com/wp-content/uploads/2026/07/ispace-mobilecargo.jpeg?fit=1024%2C724&amp;ssl=1",
+    "stocks": [
+      {
+        "name": "ispace",
+        "ticker": "9348.T",
+        "reason": "公司直接购买SpaceX星舰载荷空间以拓展月球运输业务，订单增长利好其商业月球探测服务",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
     "id": "a73da0b41be751cd",
     "title": "染色质枢纽决定T细胞能否对抗慢性感染",
     "summary": "科学家发现染色质三维结构中的“枢纽”区域，决定T细胞在慢性或病毒感染中保持战斗力还是走向衰竭。该研究为理解免疫耗竭分子机制和未来治疗策略提供了新方向。",
@@ -149098,12 +149124,6 @@ const newsData = [
   }
 ];
 const newsDigest = {
-  "text": "今日科技前沿：OpenAI发布全双工语音模型GPT Live 1，谷歌深度伪造检测系统识破政治假图，自改进AI项目引发热议，维修权运动取得重大胜利，NASA推进火星直升机硬件研制。",
-  "highlights": [
-    "e9969496b52188a9",
-    "8dd183ee360986d7",
-    "6237b17a56aaef84",
-    "a3d6739d76d0a1e6",
-    "be81daa562bc8753"
-  ]
+  "text": "",
+  "highlights": []
 };
