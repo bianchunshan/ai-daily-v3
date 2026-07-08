@@ -1,5 +1,41 @@
 const newsData = [
   {
+    "id": "9e82b137618a2d08",
+    "title": "研究发现细胞“绷带”可修复每月脱落的子宫内膜",
+    "summary": "一项新研究发现，子宫内膜脱落后，特定细胞会形成类似“绷带”的结构帮助组织重建，为理解月经周期机制提供了新线索。",
+    "body": "女性进入青春期后，若未受孕，子宫内膜约每月脱落一次，随后子宫重新构建内膜以准备下一次妊娠。虽然这一月经周期的现象广为人知，但其具体修复机制此前并不清楚。最新研究发现，细胞会像“绷带”一样覆盖创面，参与子宫内壁的重建。该发现有助于揭示子宫内膜再生原理，并可能为相关妇科疾病的治疗提供新方向。",
+    "category": "生物医药",
+    "tags": [
+      "生物医学",
+      "生殖健康",
+      "组织修复"
+    ],
+    "source": "MedicalXpress",
+    "time": "7分钟前",
+    "ts": "2026-07-08T18:20:06-04:00",
+    "url": "https://medicalxpress.com/news/2026-07-cellular-bandages-rebuild-uterine-lining.html",
+    "image": "https://scx1.b-cdn.net/csz/news/tmb/2018/uterus.jpg",
+    "stocks": []
+  },
+  {
+    "id": "b6e02e60b63ccbba",
+    "title": "痴呆照护睡眠问题更多与情绪健康相关",
+    "summary": "乔治梅森大学研究发现，对于痴呆症患者及其配偶照护者，情绪健康对睡眠质量的影响可能比跌倒恐惧更大。该研究发表在《应用老年学杂志》。",
+    "body": "乔治梅森大学一项新研究表明，在痴呆症照护夫妇中，情绪健康可能是预测患者及其配偶照护者睡眠质量的更强因素，而传统的跌倒恐惧影响相对较弱。该研究由痴呆症研究者 Kyeung Mi Oh 主导，首次聚焦于一方患有疑似痴呆症、另一方担任照护者的夫妻组合中，跌倒恐惧与睡眠质量的交互作用。\n\n研究论文已发表于《应用老年学杂志》（Journal of Applied Gerontology）。这一发现提示，改善痴呆照护中的情绪健康干预可能比单纯降低跌倒恐惧更能改善睡眠，为家庭照护支持策略提供了新的研究方向。",
+    "category": "生物医药",
+    "tags": [
+      "痴呆症",
+      "睡眠健康",
+      "情绪健康"
+    ],
+    "source": "MedicalXpress",
+    "time": "7分钟前",
+    "ts": "2026-07-08T18:20:03-04:00",
+    "url": "https://medicalxpress.com/news/2026-07-problems-dementia-linked-emotional-falling.html",
+    "image": "https://scx1.b-cdn.net/csz/news/tmb/2025/older-couple-at-home.jpg",
+    "stocks": []
+  },
+  {
     "id": "d058d27b95ae28f6",
     "title": "便携式PS-OCT扫描仪可无创评估供体肝脏",
     "summary": "美国研究团队开发出一种便携式偏振敏感光学相干断层扫描（PS-OCT）扫描仪，可在肝移植前无需活检即可评估供体肝脏健康状况，有望提升移植决策效率与器官利用率。",
