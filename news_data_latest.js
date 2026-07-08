@@ -1,5 +1,56 @@
 const newsData = [
   {
+    "id": "4aa2e8401986520f",
+    "title": "比亚迪首款皮卡英国上市，约6.3万美元",
+    "summary": "比亚迪首款皮卡车型Shark正式在英国及欧洲市场销售，售价约6.3万美元，纯电续航约56英里，搭载超级混动插电动力系统。",
+    "body": "比亚迪近日在英国及欧洲市场推出其首款皮卡车型Shark，起售价约6.3万美元（约4.9万英镑）。该车采用比亚迪超级混动（Super Hybrid）插电动力系统，官方宣称其性能远超传统柴油皮卡。Shark提供约56英里（约90公里）的纯电动续航里程，有助于比亚迪进一步拓展欧洲新能源商用车市场并提升海外品牌形象。",
+    "category": "未来能源",
+    "tags": [
+      "比亚迪",
+      "电动皮卡",
+      "新能源汽车",
+      "欧洲市场"
+    ],
+    "source": "Electrek",
+    "time": "5分钟前",
+    "ts": "2026-07-08T14:51:36+00:00",
+    "url": "https://electrek.co/2026/07/08/byds-pickup-priced-from-63000-in-uk-with-56-miles-ev-range/",
+    "image": "https://electrek.co/wp-content/uploads/sites/3/2026/07/BYD-Shark-pickup-Europe.jpeg?quality=82&#038;strip=all&#038;w=1400",
+    "stocks": [
+      {
+        "name": "比亚迪",
+        "ticker": "002594.SZ",
+        "reason": "公司首款皮卡在英国及欧洲上市，拓展海外新能源商用车市场",
+        "confidence": "high"
+      },
+      {
+        "name": "比亚迪股份",
+        "ticker": "1211.HK",
+        "reason": "母公司旗下皮卡车型登陆欧洲市场，利好海外业务增长",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "5d315c4fae582f5c",
+    "title": "2026年Q1消费级Wi-Fi路由器出货量再降6%",
+    "summary": "Counterpoint报告显示，2026年第一季度全球消费级Wi-Fi路由器出货量同比下降6%，较2021年峰值累计下滑约34%，但Mesh系统和游戏路由器仍保持增长。",
+    "body": "根据Counterpoint发布的最新报告，全球消费级Wi-Fi路由器市场持续疲软，2026年第一季度出货量同比下降6%，与2021年疫情期间的消费硬件采购高峰相比累计下降约34%。市场放缓的主要原因是2021至2022年间已经完成升级的用户对Wi-Fi 7等新技术的换机动力不足。尽管部分厂商表现分化，华硕和谷歌出货量分别增长3.8%和1.2%，但小米、网件和TP-Link均出现不同程度的下滑。不过，细分市场中Mesh Wi-Fi系统和游戏路由器依然受到消费者欢迎，成为当前低迷市场中的亮点。",
+    "category": "消费电子",
+    "tags": [
+      "Wi-Fi路由器",
+      "消费电子",
+      "市场报告",
+      "智能家居"
+    ],
+    "source": "Tom's Hardware",
+    "time": "7分钟前",
+    "ts": "2026-07-08T14:49:27+00:00",
+    "url": "https://www.tomshardware.com/networking/routers/global-consumer-wi-fi-router-shipments-fell-6-percent-in-q1-2026-mesh-systems-and-gaming-routers-still-prove-popular",
+    "image": "https://cdn.mos.cms.futurecdn.net/YKHhzPkuNsrXp4NgpLrTLi-1280-80.jpg",
+    "stocks": []
+  },
+  {
     "id": "d505720327c77030",
     "title": "SiPearl Rhea CPU回片点亮，欧洲首款自主HPC处理器迈向2026量产",
     "summary": "SiPearl为欧洲开发的Rhea1处理器已从晶圆厂回片并开始bring-up，计划于2026年底至2027年初商用，目标是为欧洲提供首款主权HPC CPU。",
@@ -146686,6 +146737,12 @@ const newsData = [
   }
 ];
 const newsDigest = {
-  "text": "",
-  "highlights": []
+  "text": "苹果深化博通本土芯片合作，SiPearl欧洲自主HPC处理器回片点亮，商业航天大额融资频现，Waymo拉斯维加斯开启全无人Robotaxi，大疆发布无人机降落伞。",
+  "highlights": [
+    "c029285e00315f8e",
+    "d505720327c77030",
+    "abd3c9a5286b11f9",
+    "62aed2de0faebdc1",
+    "49a977e5f5a038b0"
+  ]
 };
