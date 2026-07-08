@@ -1,5 +1,50 @@
 const newsData = [
   {
+    "id": "41af60d2f6b4137d",
+    "title": "三星终止开发苹果平价版Vision Pro面板",
+    "summary": "据韩媒报道，三星显示已决定逐步终止开发苹果平价版Vision Pro头显的玻璃基板Micro-OLED面板，最迟今年9月全面结束项目。",
+    "body": "IT之家援引The Elec报道称，三星显示已决定逐步终止开发苹果平价版Vision Pro头显所用显示面板，最迟于今年9月全面结束开发工作。该面板代号为“G-VR”，采用玻璃基板Micro-OLED技术，像素密度约1600-1700 PPI，原本是Vision Pro所采用的硅基OLEDoS面板的低成本替代方案。\n\n随着苹果将研发重心从头显转向智能眼镜，彭博社记者马克·古尔曼此前已披露苹果暂停并取消低价版Vision Pro项目，转而开发预计2027年上市的Apple Glass。三星显示虽放弃为苹果定制的G-VR面板，但表示将继续研发用于自家混合现实设备的OLEDoS面板。",
+    "category": "消费电子",
+    "tags": [
+      "苹果",
+      "Vision Pro",
+      "智能眼镜",
+      "显示面板"
+    ],
+    "source": "IT之家",
+    "time": "7分钟前",
+    "ts": "2026-07-08T12:39:19+00:00",
+    "url": "https://www.ithome.com/0/974/236.htm",
+    "image": "https://img.ithome.com/newsuploadfiles/2026/7/8c758df2-c0ef-4984-98e6-0b805f8c788d.jpg",
+    "stocks": []
+  },
+  {
+    "id": "42af983a3d710665",
+    "title": "Cloudflare与OpenAI合作试点提升AI搜索效率",
+    "summary": "Cloudflare与OpenAI启动研究试点，借助Cloudflare全球网络洞察数据提升AI搜索引擎发现、索引网页内容的效率，改善回答准确性与时效性。",
+    "body": "互联网基础服务企业Cloudflare宣布与OpenAI共同启动一项研究试点项目，探索利用Cloudflare全球网络数据（如内容时效性、流量质量、实际页面变动）帮助AI搜索引擎更高效地在开放网络上发现并索引相关内容。据悉，Cloudflare全球网络承载超过20%的互联网流量，具备实时洞悉内容变动与流量特征的独特视角；OpenAI则为合作提供前沿模型、大规模搜索与问答系统以及真实用户查询数据。双方将联合研究基于信号驱动的抓取和索引技术，以期提升AI回答的准确度与时效性。",
+    "category": "AI 基础设施",
+    "tags": [
+      "Cloudflare",
+      "OpenAI",
+      "AI搜索",
+      "网络基础设施"
+    ],
+    "source": "IT之家",
+    "time": "7分钟前",
+    "ts": "2026-07-08T12:39:11+00:00",
+    "url": "https://www.ithome.com/0/974/235.htm",
+    "image": "",
+    "stocks": [
+      {
+        "name": "Cloudflare",
+        "ticker": "NET",
+        "reason": "作为项目核心方，其全球网络洞察数据将用于优化AI搜索的抓取与索引，强化在AI基础设施中的价值。",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
     "id": "21539c036e4a1124",
     "title": "比亚迪第1700万辆新能源车下线，海豹08旗舰登场",
     "summary": "比亚迪宣布第1700万辆新能源汽车正式下线，旗舰新车海豹08上市，标配闪充与第二代刀片电池，显示公司销量和技术持续突破。",
