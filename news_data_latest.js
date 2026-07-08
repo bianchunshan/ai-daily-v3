@@ -376,6 +376,24 @@ const newsData = [
     ]
   },
   {
+    "id": "a5e39d6d9e95704f",
+    "title": "北约盟国宣布370亿英镑新导弹项目",
+    "summary": "北约成员国宣布投资约370亿英镑开发新型导弹项目，英国首相斯塔默将在安卡拉召集约十国领导人讨论该计划。",
+    "body": "北约盟国宣布一项总额约370亿英镑的新型导弹项目，英国首相基尔·斯塔默将在土耳其安卡拉召集约12国领导人商讨相关事宜。该项目旨在加强联盟威慑与防御能力，反映出欧洲及北约成员国在导弹能力现代化和联合国防研发方面的持续投入。该计划可能对欧洲防务工业及导弹供应链产生重要影响，并牵动区域安全格局。",
+    "category": "地缘科技",
+    "tags": [
+      "北约",
+      "导弹",
+      "国防科技"
+    ],
+    "source": "BBC World",
+    "time": "1小时前",
+    "ts": "2026-07-08T03:12:00+00:00",
+    "url": "https://www.bbc.co.uk/news/articles/ckg4e3lwzqzo?at_medium=RSS&at_campaign=rss",
+    "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4b9c/live/d6af33b0-7a73-11f1-b49c-fd67f645cd09.jpg",
+    "stocks": []
+  },
+  {
     "id": "4d420a4922cea111",
     "title": "Seedance 2.0领衔，AI视频生成进入成熟竞速期",
     "summary": "36氪实测认为，AI视频生成赛道已进入全面成熟阶段，字节跳动的Seedance 2.0、快手的可灵3.0等主流工具在画质、物理还原和叙事能力上实现显著突破，创作门槛大幅降低。",
