@@ -1,5 +1,50 @@
 const newsData = [
   {
+    "id": "88f51677da117e39",
+    "title": "OpenAI前研究员田永龙加入腾讯参与VLM研发",
+    "summary": "OpenAI前研究员田永龙已加入腾讯大语言模型部，将参与视觉语言模型（VLM）研发。此举有望增强腾讯在AI多模态领域的人才与技术实力。",
+    "body": "据财联社报道，OpenAI前研究员Yonglong Tian（田永龙）已于近期加入腾讯大语言模型部，后续将参与VLM（视觉语言模型）相关研发。VLM是融合视觉理解与语言处理的多模态模型，是通用人工智能落地的关键技术方向之一。此次人才引入，意味着腾讯在底层模型能力上继续加码，尤其有望提升其多模态大模型和产品落地的竞争力。",
+    "category": "人工智能",
+    "tags": [
+      "多模态模型",
+      "VLM",
+      "大模型",
+      "腾讯"
+    ],
+    "source": "36氪",
+    "time": "刚刚",
+    "ts": "2026-07-08T11:55:12.544302+00:00",
+    "url": "https://36kr.com/newsflashes/3886933459909380?f=rss",
+    "image": "",
+    "stocks": [
+      {
+        "name": "腾讯控股",
+        "ticker": "0700.HK",
+        "reason": "核心研发人才加入将直接增强腾讯视觉语言模型（VLM）研发能力，利好AI多模态业务",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "07968a233dcea4dc",
+    "title": "NASA新视野号探测器在冥王星外60亿英里处苏醒",
+    "summary": "NASA“新视野”号探测器在冥王星外约60亿英里处结束近一年休眠，状态良好，开始回传数据，并向地面报告系统运行情况。",
+    "body": "NASA“新视野”号探测器在距离地球约59亿英里的深空结束长达321天的休眠，状态报告显示其所有系统运行正常。由于距离极其遥远，其无线电信号传回地球需约9小时。苏醒后，该探测器将开始回传休眠期间收集的科学数据，并持续报告其在寒冷黑暗深空中的系统状态。\n\n“新视野”号是人类首个、也是迄今唯一飞掠冥王星系统的探测器，2015年完成了对冥王星及其卫星的近距离探测。此次在深空成功唤醒并保持良好的健康状态，展示了NASA在极端远距离航天器操作与深空通信方面的工程能力，也为后续柯伊伯带等外太阳系探测任务积累了宝贵经验。",
+    "category": "商业航天",
+    "tags": [
+      "深空探测",
+      "NASA",
+      "航天器",
+      "冥王星"
+    ],
+    "source": "Space.com",
+    "time": "9分钟前",
+    "ts": "2026-07-08T11:45:53+00:00",
+    "url": "https://www.space.com/space-exploration/launches-spacecraft/nasas-new-horizon-probe-just-woke-up-from-hibernation-6-billion-miles-away-beyond-pluto-whats-it-doing-out-there",
+    "image": "https://cdn.mos.cms.futurecdn.net/dK7wMqPYgkWacs55jdRo2Z-1280-80.jpg",
+    "stocks": []
+  },
+  {
     "id": "6c209e4d44cfbdd7",
     "title": "沐曦股份MXC600大规模出货，部分订单已排至明年",
     "summary": "国产GPU厂商沐曦股份透露，其新一代人工智能训练推理旗舰芯片MXC600已实现大规模出货，部分产品订单已排至明年甚至之后。该芯片采用自研GPU架构，从设计到制造、封装及软件栈全面实现国产供应链。",
@@ -17,6 +62,38 @@ const newsData = [
     "url": "https://www.ithome.com/0/974/225.htm",
     "image": "https://img.ithome.com/newsuploadfiles/2026/7/5f3ff3a5-f622-4faa-872c-43a486e6a4e0.png?x-bce-process=image/format,f_auto",
     "stocks": []
+  },
+  {
+    "id": "87af2b58278ea79e",
+    "title": "苹果将加大向博通采购，在美国增产数十亿颗芯片",
+    "summary": "苹果公司计划增加对博通的支出，以在美国生产更多本土芯片，进一步巩固其国内半导体供应链。",
+    "body": "据外媒报道，苹果将提高与博通之间的合作采购规模，用于在美国制造更多芯片。该合作预计将带来数十亿颗芯片的增量，有助于降低对海外产能的依赖，并顺应美国本土制造的政策趋势。对博通而言，来自苹果的大额订单有望直接提振业绩；对苹果而言，稳定的关键芯片供应也将增强其产品链韧性。",
+    "category": "半导体与先进制造",
+    "tags": [
+      "苹果",
+      "博通",
+      "美国芯片",
+      "半导体供应链"
+    ],
+    "source": "Hacker News",
+    "time": "24分钟前",
+    "ts": "2026-07-08T11:30:56+00:00",
+    "url": "https://www.apple.com/newsroom/2026/07/apple-to-increase-spend-with-broadcom-to-produce-billions-more-us-chips/",
+    "image": "",
+    "stocks": [
+      {
+        "name": "苹果",
+        "ticker": "AAPL",
+        "reason": "增加本土芯片采购有助于巩固关键供应链，利好产品交付与长期竞争力。",
+        "confidence": "high"
+      },
+      {
+        "name": "博通",
+        "ticker": "AVGO",
+        "reason": "承接苹果更多芯片订单，营收有望直接获得增长动力。",
+        "confidence": "high"
+      }
+    ]
   },
   {
     "id": "25e631b07eeb5706",
@@ -145319,6 +145396,12 @@ const newsData = [
   }
 ];
 const newsDigest = {
-  "text": "",
-  "highlights": []
+  "text": "OpenAI前研究者加盟腾讯推动VLM，NASA新视野号在冥王星外深空苏醒，沐曦MXC600大规模出货，苹果加码博通采购并据称测试中企DRAM，英伟达披露下一代Rigel Arm核心，美拟限制中国AI模型。",
+  "highlights": [
+    "88f51677da117e39",
+    "07968a233dcea4dc",
+    "6c209e4d44cfbdd7",
+    "87af2b58278ea79e",
+    "6bf7c7c3e3b62c69"
+  ]
 };
