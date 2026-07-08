@@ -1,5 +1,133 @@
 const newsData = [
   {
+    "id": "742d9036f423108a",
+    "title": "MasTec 16.5亿美元收购Superior，加码AI数据中心基建",
+    "summary": "美国基础设施工程与建设公司MasTec宣布将以约16.5亿美元收购电气承包商Superior Group，交易以现金加股票方式推进，预计7月中下旬完成。通过此次收购，MasTec将业务从“围栏外”的发电、输变电等延伸至“围栏内”的电气系统、集成建筑系统，以抓住数据中心、电力和关键任务基础设施的建设机遇。",
+    "body": "美国基础设施工程与建设公司MasTec近日宣布，将以约16.5亿美元收购电气承包商Superior Group，交易采用现金加股票方式，预计于今年7月中下旬完成。MasTec首席执行官Jose Mas表示，Superior的并入将拓展公司能力，使其能够抓住当前市场上最具吸引力的基础设施机遇，包括数据中心、电力和关键任务基础设施的持续建设。\n\n此前，MasTec主要服务于发电、天然气、输变电等“围栏外”基础设施。收购完成后，公司将把业务范围延伸至电气系统、集成建筑系统等“围栏内”领域。这一布局有助于MasTec把握AI数据中心建设的增长需求，提升其在相关基础设施市场的综合服务能力。\n\n该交易反映了AI基础设施需求持续火热，传统工程与建筑公司正通过并购强化数据中心、电力等关键基础设施的交付能力。",
+    "category": "AI 基础设施",
+    "tags": [
+      "AI数据中心",
+      "电力基础设施",
+      "工程建设",
+      "并购"
+    ],
+    "source": "36氪",
+    "time": "刚刚",
+    "ts": "2026-07-08T23:09:04.470301+00:00",
+    "url": "https://36kr.com/newsflashes/3887596641352456?f=rss",
+    "image": "",
+    "stocks": [
+      {
+        "name": "MasTec",
+        "ticker": "MTZ",
+        "reason": "作为收购方，将借Superior的电气承包能力切入AI数据中心、电力等关键任务基础设施领域，直接受益业务拓展",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "69d646e64b0f15ca",
+    "title": "SK海力士美国IPO获逾七倍超额认购",
+    "summary": "知情人士称，SK海力士美国IPO获得逾七倍超额认购，本次发行1.779亿份美国存托凭证（ADR）计划于周四定价，吸引全球多头基金、科技主题基金、主权财富基金及亚洲市场投资者参与认购。",
+    "body": "据知情人士透露，韩国存储芯片制造商SK海力士在美国上市发行获得逾七倍超额认购，公司计划于周四完成定价。本次IPO拟发行1.779亿份美国存托凭证（ADR），认购方涵盖全球多头基金、专注科技领域的基金、主权财富基金以及专注亚洲市场的全球投资者。作为HBM等高带宽存储产品的重要供应商，SK海力士受益于AI算力需求增长，其美国IPO获得超额认购，反映出国际投资者对其存储芯片业务前景的看好。",
+    "category": "半导体与先进制造",
+    "tags": [
+      "SK海力士",
+      "IPO",
+      "存储芯片",
+      "HBM"
+    ],
+    "source": "36氪",
+    "time": "刚刚",
+    "ts": "2026-07-08T23:09:03.190738+00:00",
+    "url": "https://36kr.com/newsflashes/3887591779744258?f=rss",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "65ce9a3828958102",
+    "title": "OpenAI发布新一代语音模型，ChatGPT可实时打断对话",
+    "summary": "OpenAI推出GPT-Live-1系列全双工语音模型，支持边说边听与实时打断，显著升级ChatGPT语音交互体验。",
+    "body": "OpenAI正式发布GPT-Live-1和GPT-Live-1 mini新一代语音模型，采用“全双工”架构，使ChatGPT能够同时收听和说话，并允许用户在AI回应过程中随时打断。这一改进让AI与人的语音交互更接近自然对话，有望提升用户粘性并拓展语音助手、实时翻译、客服等应用场景。\n作为OpenAI核心合作伙伴与投资方，微软Azure为OpenAI模型提供算力与分发支持，ChatGPT语音能力升级或将带动Azure OpenAI服务及云端AI需求增长。",
+    "category": "人工智能",
+    "tags": [
+      "语音模型",
+      "ChatGPT",
+      "OpenAI",
+      "人工智能"
+    ],
+    "source": "36氪",
+    "time": "刚刚",
+    "ts": "2026-07-08T23:09:03.068322+00:00",
+    "url": "https://36kr.com/newsflashes/3887597243218435?f=rss",
+    "image": "",
+    "stocks": [
+      {
+        "name": "微软",
+        "ticker": "MSFT",
+        "reason": "OpenAI主要合作伙伴与投资方，ChatGPT语音升级有望带动Azure OpenAI服务需求",
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
+    "id": "dc4ec1941f4e5d72",
+    "title": "研究：致营养不良肠道菌或可代际传递",
+    "summary": "美国圣路易斯华盛顿大学医学院的研究显示，与营养不良和发育迟缓相关的肠道疾病可能通过小肠微生物组在代际间传递。研究人员在动物模型中鉴定出驱动疾病炎症信号、破坏肠道屏障并损害营养吸收的特定细菌。",
+    "body": "该研究由美国圣路易斯华盛顿大学医学院主导，研究团队将从发育迟缓儿童体内分离培养的细菌植入小鼠模型，以模拟相关肠道疾病。结果发现，特定细菌会触发特征性的炎症化学信号，损伤小肠内壁，导致营养吸收障碍，从而揭示微生物组在疾病代际传播中的潜在作用。\n\n这一成果为理解儿童发育迟缓的生物学机制提供了新线索，并提示调控肠道菌群可能成为干预营养不良及其长期健康影响的新策略。若后续在人体中得到验证，有望推动微生物组靶向疗法与儿童营养健康研究的发展。",
+    "category": "生物医药",
+    "tags": [
+      "肠道菌群",
+      "营养不良",
+      "发育迟缓",
+      "微生物组"
+    ],
+    "source": "MedicalXpress",
+    "time": "8分钟前",
+    "ts": "2026-07-08T19:00:01-04:00",
+    "url": "https://medicalxpress.com/news/2026-07-gut-bacteria-linked-malnutrition-younger.html",
+    "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/gut-bacteria-linked-to-2.jpg",
+    "stocks": []
+  },
+  {
+    "id": "a4817bd7c54f3efe",
+    "title": "SpaceX猎鹰9号将创第36次复用纪录",
+    "summary": "SpaceX计划于7月9日清晨发射一枚已完成35次任务的猎鹰9号火箭，执行其第36次复飞，并部署29颗星链卫星。",
+    "body": "SpaceX猎鹰9号火箭定于美国东部时间7月9日5时25分从佛罗里达州卡纳维拉尔角太空军基地发射，将29颗星链宽带卫星送入近地轨道。公众可在发射前约10分钟通过SpaceX直播观看发射过程。\n\n执行本次任务的一级助推器编号1067，此前已完成35次轨道飞行任务，创下SpaceX火箭重复使用次数的新纪录。若一切顺利，发射后约8.5分钟该助推器将降落在大西洋上的“缺乏庄重号”无人回收船；二级火箭则将在升空约63.5分钟后将卫星部署入轨。\n\n这将是2026年SpaceX第80次猎鹰9号发射任务，其中约80%用于建设星链星座。高频次发射与助推器复用持续降低入轨成本，进一步巩固了SpaceX在商业航天发射市场的领先地位。",
+    "category": "商业航天",
+    "tags": [
+      "SpaceX",
+      "猎鹰9号",
+      "火箭回收",
+      "星链"
+    ],
+    "source": "Space.com",
+    "time": "8分钟前",
+    "ts": "2026-07-08T23:00:00+00:00",
+    "url": "https://www.space.com/space-exploration/launches-spacecraft/spacex-falcon-9-rocket-launch-36th-time-new-record",
+    "image": "https://cdn.mos.cms.futurecdn.net/rVooGDNPZBkQnguxYauARQ-1280-80.jpg",
+    "stocks": []
+  },
+  {
+    "id": "2a1d68d5f56b1be8",
+    "title": "奥迪下一代内饰回归实体按键旋钮，淡化大屏",
+    "summary": "奥迪技术负责人宣布，下一代座舱将不再把巨型屏幕作为视觉中心，重新强调实体按键、旋钮与高级材料，以更克制的方式融合数字技术。",
+    "body": "奥迪技术负责人鲁文·莫尔透露，未来奥迪将导入名为“Radical Next”的内饰设计理念，减少座舱对巨型屏幕的依赖，重新引入实体按键、旋钮和高级材料，让技术以更低调的方式融入驾驶环境。他表示，欧洲、北美和澳大利亚等市场的用户仍重视可凭手感操作、不必移开视线的实体控制件，这些元素也是奥迪品牌 DNA 的一部分。\n\n过去几年，奥迪曾是屏幕化座舱的积极推动者，并取消了成熟的 MMI 旋钮控制器。如今这一转变被视为对汽车行业“大屏化”趋势的一次反思，既回应了用户对驾驶安全与触觉反馈的需求，也可能对汽车人机交互设计、车载显示供应链及智能座舱方案产生影响。\n\n不过，全新 Q7 和 Q9 等车型在未来数年仍会延续现有仪表台设计，因此新内饰风格的全面落地尚需时间。",
+    "category": "消费电子",
+    "tags": [
+      "智能汽车",
+      "人机交互",
+      "汽车内饰",
+      "奥迪"
+    ],
+    "source": "IT之家",
+    "time": "9分钟前",
+    "ts": "2026-07-08T22:59:20+00:00",
+    "url": "https://www.ithome.com/0/974/280.htm",
+    "image": "https://img.ithome.com/newsuploadfiles/2026/7/5a99ffae-6315-44b4-8438-ef3f0b601a92.png?x-bce-process=image/format,f_auto",
+    "stocks": []
+  },
+  {
     "id": "64bb7e35a726e5f2",
     "title": "iOS 27代码曝光：iPhone未来可解锁小米SU7/YU7",
     "summary": "开发者挖掘iOS 27 Beta 3代码发现，苹果已加入小米汽车相关标识，暗示iPhone 17等用户未来可通过Apple车钥匙解锁、启动小米SU7和YU7。",
@@ -28,6 +156,32 @@ const newsData = [
         "ticker": "1810.HK",
         "reason": "小米SU7/YU7将接入Apple车钥匙，扩大高端智能手机用户触达面。",
         "confidence": "medium"
+      }
+    ]
+  },
+  {
+    "id": "85480204ad13e808",
+    "title": "英伟达与Hugging Face将机器人模型引入LeRobot",
+    "summary": "英伟达与Hugging Face达成合作，将Isaac GR00T 1.7开源视觉-语言-动作模型及Isaac Teleop框架引入LeRobot开源机器人库。该合作旨在降低机器人开发门槛，加速开放机器人社区创新。",
+    "body": "英伟达与Hugging Face宣布合作，将英伟达Isaac GR00T 1.7开源视觉-语言-动作模型及Isaac Teleop框架引入Hugging Face的LeRobot开源机器人库。LeRobot专注于机器人数据集、模型、策略和工作流的训练、运行与共享，该整合为开发者提供了更标准化、端到端的机器人开发路径。\n\n双方表示，未来还计划将英伟达Cosmos 3物理AI前沿模型引入该平台。通过开源共享模型、数据与工具，合作有望降低物理AI开发中高昂且碎片化资源带来的门槛，推动开放机器人社区的创新与协作。",
+    "category": "机器人",
+    "tags": [
+      "人形机器人",
+      "开源机器人",
+      "具身智能",
+      "英伟达"
+    ],
+    "source": "The Robot Report",
+    "time": "18分钟前",
+    "ts": "2026-07-08T22:49:50+00:00",
+    "url": "https://www.therobotreport.com/nvidia-hugging-face-bring-new-models-frameworks-lerobot/",
+    "image": "https://www.therobotreport.com/wp-content/uploads/2026/07/huggingface-nvidia-featured.jpg",
+    "stocks": [
+      {
+        "name": "英伟达",
+        "ticker": "NVDA",
+        "reason": "公司直接将Isaac GR00T 1.7和Isaac Teleop框架引入LeRobot，并计划引入Cosmos 3，利好其在机器人AI平台生态布局",
+        "confidence": "high"
       }
     ]
   },
