@@ -1,5 +1,24 @@
 const newsData = [
   {
+    "id": "56ffd2bfae62a76f",
+    "title": "JEDEC发布SPHBM4标准，降低AI内存成本",
+    "summary": "JEDEC发布SPHBM4规范（JESD330-4），采用512位窄接口和标准有机基板封装，可省去昂贵中介层与先进封装，从而压低HBM4内存成本。",
+    "body": "JEDEC近日发布SPHBM4（Standard Package High Bandwidth Memory，JESD330-4）规范。该标准将HBM4 DRAM芯片与标准封装结合，使用512位“窄”接口，并替换传统HBM4基板为SPHBM4 PHY/缓冲芯片，使内存堆叠可直接安装于普通有机基板，无需昂贵中介层和台积电CoWoS等产能受限的先进封装技术。\n\n相比HBM3、HBM4的1024位或2048位超宽接口，新接口可显著节省处理器内部硅片面积，并通过提高传输速率等方式抵消带宽收窄的影响。不过，SPHBM4仍使用大容量HBM4 DRAM，因此无法缓解当前DRAM供应紧张的局面。\n\n该标准有望降低AI处理器所搭载高带宽内存的整体成本，推动HBM在更多AI基础设施和数据中心场景中得到应用。",
+    "category": "半导体与先进制造",
+    "tags": [
+      "HBM4",
+      "先进封装",
+      "AI内存",
+      "存储芯片"
+    ],
+    "source": "Tom's Hardware",
+    "time": "5分钟前",
+    "ts": "2026-07-08T15:03:33+00:00",
+    "url": "https://www.tomshardware.com/pc-components/dram/jedec-releases-new-sphbm4-standard-to-slash-ai-memory-costs-narrow-512-bit-interface-enables-dropping-expensive-interposers-for-organic-substrates",
+    "image": "https://cdn.mos.cms.futurecdn.net/vnqdtRupVqWHAik43ZWctH-1280-80.jpg",
+    "stocks": []
+  },
+  {
     "id": "a3a76f9196465d6c",
     "title": "吉利银河A7 EM创吉尼斯续航纪录：零补能行驶2608公里",
     "summary": "吉利汽车宣布银河A7 EM以2608.360公里的成绩，获得驾驶插混量产轿车零补能行驶最远距离的吉尼斯世界纪录。该车型此前已上市，主打超低馈电油耗与长续航。",
