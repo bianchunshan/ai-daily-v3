@@ -1,5 +1,75 @@
 const newsData = [
   {
+    "id": "eb7ab28532092428",
+    "title": "亚马逊据称正研发更强Agent版Alexa助手",
+    "summary": "据报道，亚马逊正推进代号为“Moonraker”的项目，旨在让Alexa能够更高效地处理多步骤任务，提升其作为AI代理的能力。",
+    "body": "据外媒报道，亚马逊正在开发一个代号为“Moonraker”的项目，目标是为Alexa助手赋予更强大的AI代理（agentic）能力，使其能够更高效地完成多步骤复杂任务。该项目若落地，将显著增强Alexa在智能家居、个人助理等场景中的实用性，并可能提升亚马逊在AI助手竞赛中的竞争力。目前尚不清楚该项目的具体发布时间表。",
+    "category": "人工智能",
+    "tags": [
+      "亚马逊",
+      "Alexa",
+      "AI代理"
+    ],
+    "source": "Engadget",
+    "time": "3分钟前",
+    "ts": "2026-07-08T16:33:31+00:00",
+    "url": "https://www.engadget.com/2210614/amazon-is-reportedly-working-on-a-more-powerful-agentic-alexa-assistant/",
+    "image": "https://www.engadget.com/img/gallery/amazon-is-reportedly-working-on-a-more-powerful-agentic-alexa-assistant/l-intro-1783528237.jpg",
+    "stocks": [
+      {
+        "name": "亚马逊",
+        "ticker": "AMZN",
+        "reason": "Alexa为亚马逊旗下核心AI语音助手，agentic能力升级直接利好其AI业务与生态竞争力。",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "da62ab39f1051714",
+    "title": "Rapidus押注单一北海道晶圆厂，2027年冲刺2nm量产",
+    "summary": "Rapidus计划2027年在北海道千岁市的IIM-1晶圆厂实现2nm量产，目前已完成原型验证并与60余家企业洽谈，但尚未签署大规模订单，单一工厂布局使其面临客户与进度风险。",
+    "body": "Rapidus的成败不仅关乎日本先进制程自主战略，也将影响全球2nm代工格局。如果2027年量产目标顺利达成，日本有望重新跻身尖端半导体制造行列；反之，单一工厂模式可能放大资金、技术和客户方面的风险。",
+    "category": "半导体与先进制造",
+    "tags": [
+      "Rapidus",
+      "2nm制程",
+      "EUV光刻",
+      "半导体制造"
+    ],
+    "source": "Tom's Hardware",
+    "time": "8分钟前",
+    "ts": "2026-07-08T16:29:26+00:00",
+    "url": "https://www.tomshardware.com/tech-industry/semiconductors/rapidus-fab-roadmap-examined",
+    "image": "https://cdn.mos.cms.futurecdn.net/xP8jJdjYzY5MsDdvR7cV6h-1280-80.jpg",
+    "stocks": [
+      {
+        "name": "阿斯麦",
+        "ticker": "ASML",
+        "reason": "ASML已向Rapidus交付日本首台量产级EUV光刻机，若Rapidus按计划扩产将带来新增设备需求。",
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
+    "id": "bd2837755c07e04e",
+    "title": "OpenAI高管谈AI平台化变革",
+    "summary": "MIT Technology Review举办EmTech AI 2026活动，OpenAI ChatGPT工程负责人Sulman Choudhry分享AI平台如何改变生活与工作方式。",
+    "body": "MIT Technology Review主办的EmTech AI 2026以“AI平台的崛起”为主题，聚焦人工智能从工具向平台形态演进的趋势。OpenAI ChatGPT工程负责人Sulman Choudhry在活动中分享了其工作如何重塑人们的日常生活。该活动还探讨了脑机接口、AI编程工具等前沿议题，反映出生成式AI正加速渗透医疗、软件开发等多个产业领域。",
+    "category": "人工智能",
+    "tags": [
+      "生成式AI",
+      "OpenAI",
+      "ChatGPT",
+      "AI平台"
+    ],
+    "source": "MIT Tech Review",
+    "time": "11分钟前",
+    "ts": "2026-07-08T16:26:10+00:00",
+    "url": "https://www.technologyreview.com/2026/07/08/1140223/emtech-ai-2026-the-rise-of-the-ai-platform/",
+    "image": "",
+    "stocks": []
+  },
+  {
     "id": "2f30f5e21698d29f",
     "title": "Prime Intellect获1.3亿美元A轮融资，估值10亿美元",
     "summary": "AI初创公司Prime Intellect完成1.3亿美元A轮融资，由Radical Ventures领投，估值达10亿美元，资金将用于帮助企业构建自有AI Agent。",
