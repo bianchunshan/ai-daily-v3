@@ -1,5 +1,178 @@
 const newsData = [
   {
+    "id": "21cf56c3669972a1",
+    "title": "Cloudflare与OpenAI试点用全球网络数据优化AI搜索",
+    "summary": "7月8日，Cloudflare与OpenAI宣布启动研究试点项目，拟利用Cloudflare全球网络的实时网站洞察数据，帮助AI搜索引擎更高效地发现和索引开放网络内容，从而提升AI搜索回答的准确性与时效性。",
+    "body": "7月8日，云服务提供商Cloudflare与OpenAI宣布启动一项研究试点项目，探索如何利用Cloudflare覆盖全球的网络数据，帮助AI搜索引擎更高效地在开放网络上发现并索引相关内容。该项目旨在提升AI回答的准确性与时效性。\n据介绍，试点项目将利用Cloudflare的实时网络信号，包括内容更新鲜度、流量质量以及页面实际变动等数据，改进AI系统对网页的索引和抓取效率。这些数据来自Cloudflare庞大的全球网络基础设施。\n此次合作反映了AI搜索基础设施正在从单纯依赖传统爬虫向结合实时网络信号演进，有望优化AI搜索引擎的内容发现机制，对网络基础设施与AI应用的融合具有示范意义。",
+    "category": "人工智能",
+    "tags": [
+      "AI搜索",
+      "Cloudflare",
+      "OpenAI",
+      "网络基础设施"
+    ],
+    "source": "36氪",
+    "time": "刚刚",
+    "ts": "2026-07-08T12:07:54.205494+00:00",
+    "url": "https://36kr.com/newsflashes/3886946347694593?f=rss",
+    "image": "",
+    "stocks": [
+      {
+        "name": "Cloudflare",
+        "ticker": "NET",
+        "reason": "Cloudflare直接参与试点，利用其全球网络数据优化AI搜索索引，有望拓展AI基础设施服务价值",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "1e8b42e94eb50186",
+    "title": "蓝色起源估值1300亿美元融资100亿美元",
+    "summary": "杰夫·贝佐斯创办的蓝色起源以约1300亿美元估值完成100亿美元融资，其中贝佐斯个人追加投资20亿美元，刷新商业航天领域私募融资规模纪录。",
+    "body": "据财联社报道，商业航天公司蓝色起源（Blue Origin）正以约1300亿美元的估值融资100亿美元，公司创始人杰夫·贝佐斯将在此轮融资中注资20亿美元。若消息属实，这将成为商业航天领域规模最大的私募融资之一，显示资本对可重复使用火箭、轨道运载及太空基础设施的长期看好。\n\n蓝色起源由亚马逊创始人贝佐斯于2000年创立，核心项目包括可重复使用亚轨道火箭“新谢泼德”（New Shepard）、轨道级火箭“新格伦”（New Glenn）以及月球着陆器“蓝月”（Blue Moon）。本轮融资或将主要用于加速“新格伦”量产、扩建发射设施及推进与NASA的载人登月合同。其最大竞争对手SpaceX同样未上市，全球商业航天竞赛正进入“资本+产能”双密集阶段。",
+    "category": "商业航天",
+    "tags": [
+      "蓝色起源",
+      "商业航天",
+      "贝佐斯",
+      "太空经济"
+    ],
+    "source": "36氪",
+    "time": "刚刚",
+    "ts": "2026-07-08T12:07:49.277693+00:00",
+    "url": "https://36kr.com/newsflashes/3886944497154824?f=rss",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "e4a05407ae738498",
+    "title": "铂科新材向港交所提交上市申请",
+    "summary": "深圳市铂科新材料股份有限公司已向港交所提交上市申请，独家保荐人为中信证券。此举若成行，将拓宽公司境外融资渠道并提升国际化资本运作能力。",
+    "body": "据港交所文件，深圳市铂科新材料股份有限公司已正式提交在港交所上市的申请，中信证券担任其独家保荐人。铂科新材是国内金属软磁粉芯及电感元件的主要供应商，产品广泛应用于新能源、光伏、数据中心、新能源汽车等领域。若公司成功发行H股，有望进一步优化资本结构，增强全球品牌影响力和供应链协同能力。",
+    "category": "新材料",
+    "tags": [
+      "铂科新材",
+      "港股上市",
+      "金属软磁材料",
+      "中信证券"
+    ],
+    "source": "36氪",
+    "time": "刚刚",
+    "ts": "2026-07-08T12:07:48.718587+00:00",
+    "url": "https://36kr.com/newsflashes/3886941013293828?f=rss",
+    "image": "",
+    "stocks": [
+      {
+        "name": "铂科新材",
+        "ticker": "300811.SZ",
+        "reason": "公司本身为本次港股上市申请主体，若成功发行H股将拓宽融资渠道、提升国际化布局能力",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "6915065775eab0a5",
+    "title": "特斯拉Cybercab亮相美国盲人联合会，展示无障碍设计",
+    "summary": "特斯拉在美国全国盲人联合会年会上展示Cybercab，面向视障人士配备盲文按键、导盲犬空间及语音引导，推动无障碍自动驾驶出行。",
+    "body": "当地时间7月3日，特斯拉在美国全国盲人联合会（NFB）年度大会上展示其Cybercab自动驾驶出租车。现场重点呈现了面向盲人和视障人士的人性化设计，包括车门开启装置、紧急按钮等实体按键的盲文标识，可容纳导盲犬、白手杖及其他辅助设备的车内空间，以及适合轮椅使用者上下车的座椅高度。活动现场，多名视障参会者携导盲犬体验了这款无方向盘的自动驾驶车辆。\n\n特斯拉强调，Cybercab依托FSD技术，取消对人类驾驶员的依赖，用户可通过手机App呼叫并借助语音引导完成点对点接送。对于美国约220万视障人士而言，该方案有望降低其对外部接送服务或公共交通的依赖，提升出行自主性、社会参与度及生活质量，也体现特斯拉在Robotaxi无障碍与包容性设计方面的产品理念。",
+    "category": "机器人",
+    "tags": [
+      "特斯拉",
+      "自动驾驶",
+      "Robotaxi",
+      "无障碍出行"
+    ],
+    "source": "IT之家",
+    "time": "6分钟前",
+    "ts": "2026-07-08T12:01:22+00:00",
+    "url": "https://www.ithome.com/0/974/228.htm",
+    "image": "https://img.ithome.com/newsuploadfiles/2026/7/95bd01f4-298a-4af8-bf32-61357f2ef3e0.jpg?x-bce-process=image/format,f_auto",
+    "stocks": [
+      {
+        "name": "特斯拉",
+        "ticker": "TSLA",
+        "reason": "新闻直接围绕其Cybercab Robotaxi产品展示无障碍设计与FSD技术，利好其自动驾驶出行服务布局。",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "eaa1fd039633da19",
+    "title": "最佳MagSafe移动电源推荐与避坑指南",
+    "summary": "本文为iPhone和支持Qi2标准的安卓手机用户挑选了数款优秀的MagSafe/磁吸移动电源，同时指出部分产品不值得购买。",
+    "body": "随着iPhone与支持Qi2标准的安卓手机普及，磁吸式移动电源成为外出补能的热门配件。Wired 对市面上的MagSafe/Qi2便携充电宝进行了评测，推荐了几款在充电效率、磁吸稳固性、容量与便携性方面表现突出的产品，同时提醒消费者避开存在设计缺陷或兼容性差的型号。该评测为个人硬件消费决策提供了参考，对移动电源与无线充电产业链的产品迭代和竞争格局也具有一定影响。",
+    "category": "消费电子",
+    "tags": [
+      "消费电子",
+      "MagSafe",
+      "移动电源",
+      "无线充电"
+    ],
+    "source": "Wired",
+    "time": "6分钟前",
+    "ts": "2026-07-08T12:01:00+00:00",
+    "url": "https://www.wired.com/gallery/best-magsafe-power-banks/",
+    "image": "https://media.wired.com/photos/692118a07d4b03d83b72c715/master/pass/Best%20MagSafe%20Power%20Banks%20SOURCE%20Simon%20Hill.jpg",
+    "stocks": []
+  },
+  {
+    "id": "fcbb5886d3a92ee8",
+    "title": "前OpenAI高管Kevin Weil加入Stoke Space董事会",
+    "summary": "前OpenAI首席产品官Kevin Weil已加入美国可复用火箭初创公司Stoke Space董事会，反映出可复用火箭技术正受到硅谷高度关注。",
+    "body": "据外媒报道，OpenAI前首席产品官Kevin Weil已加入商业航天初创公司Stoke Space的董事会。Stoke Space专注于开发完全可复用火箭，目标大幅降低航天发射成本。Weil此前曾在OpenAI、Twitter和Meta等平台担任产品负责人，其加盟被视为硅谷对商业航天与可复用火箭前景持续看好。这一动向也凸显了人工智能与航天产业在人才和资源上的跨界联系。",
+    "category": "商业航天",
+    "tags": [
+      "商业航天",
+      "可复用火箭",
+      "OpenAI",
+      "Stoke Space"
+    ],
+    "source": "TechCrunch",
+    "time": "7分钟前",
+    "ts": "2026-07-08T12:00:00+00:00",
+    "url": "https://techcrunch.com/2026/07/08/former-openai-exec-kevin-weil-is-now-on-the-board-of-stoke-space/",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "faf03143f1a51bf3",
+    "title": "DuckDuckGo浏览器默认拦截视频广告",
+    "summary": "DuckDuckGo浏览器已默认开启视频广告拦截功能，包括YouTube等平台的视频广告，进一步强化隐私保护体验。",
+    "body": "隐私搜索引擎DuckDuckGo宣布，其浏览器现已默认拦截视频广告，覆盖YouTube等主流视频平台的片前与片中广告。该功能通过阻止广告相关脚本与跟踪器实现，无需用户手动安装额外插件。\n\n这一升级强化了DuckDuckGo作为隐私浏览工具的定位，可能吸引对广告追踪敏感的用户。同时，广告拦截能力的扩展也可能加剧浏览器与依赖广告收入的视频平台之间的博弈，引发对内容创作者变现与平台商业模式的讨论。",
+    "category": "网络安全",
+    "tags": [
+      "DuckDuckGo",
+      "广告拦截",
+      "隐私浏览器",
+      "YouTube"
+    ],
+    "source": "Engadget",
+    "time": "7分钟前",
+    "ts": "2026-07-08T12:00:00+00:00",
+    "url": "https://www.engadget.com/2209932/duckduckgo-browser-can-now-block-video-ads-including-youtubes/",
+    "image": "https://www.engadget.com/img/gallery/duckduckgo-can-now-block-video-ads-including-youtubes/l-intro-1783451214.jpg",
+    "stocks": []
+  },
+  {
+    "id": "ba95885061523571",
+    "title": "Venus Aerospace 融资9100万美元推进旋转爆震火箭发动机",
+    "summary": "美国商业航天公司 Venus Aerospace 完成9100万美元融资，将用于旋转爆震火箭发动机的研发与量产。该技术有望提升火箭推进效率，支撑高超声速飞行与太空运输系统。",
+    "body": "商业航天企业 Venus Aerospace 近日宣布完成9100万美元融资，资金将主要用于公司旋转爆震火箭发动机（RDRE）的开发和规模化生产。旋转爆震发动机通过持续爆震波实现燃烧，理论上比传统火箭发动机具有更高的热效率和比冲，是近年来高超声速推进和空间发射领域的重要技术方向之一。\n\n本轮融资表明资本市场对先进火箭动力技术的持续兴趣。若旋转爆震发动机能够完成工程化验证并进入量产，将可能降低发射成本、提升飞行器性能，对商业航天运载工具、高超声速平台以及国防航天应用均具有潜在意义。不过，该技术仍面临材料、热管理和稳定性等工程挑战，距离实际飞行应用尚需进一步测试。",
+    "category": "商业航天",
+    "tags": [
+      "火箭发动机",
+      "旋转爆震发动机",
+      "商业航天",
+      "高超声速"
+    ],
+    "source": "SpaceNews",
+    "time": "7分钟前",
+    "ts": "2026-07-08T12:00:00+00:00",
+    "url": "https://spacenews.com/venus-aerospace-raises-91-million-to-scale-rocket-engine-technology/",
+    "image": "https://i0.wp.com/spacenews.com/wp-content/uploads/2026/07/VenusAero_RDRE_Rocket_02.jpg?fit=1024%2C576&amp;ssl=1",
+    "stocks": []
+  },
+  {
     "id": "88f51677da117e39",
     "title": "OpenAI前研究员田永龙加入腾讯参与VLM研发",
     "summary": "OpenAI前研究员田永龙已加入腾讯大语言模型部，将参与视觉语言模型（VLM）研发。此举有望增强腾讯在AI多模态领域的人才与技术实力。",
@@ -5625,6 +5798,25 @@ const newsData = [
     "time": "43分钟前",
     "ts": "2026-07-08T00:12:06+00:00",
     "url": "https://mp.weixin.qq.com/s/VDlBdkspV0SQNFJYLxOogQ",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "efcc6ba104f4c705",
+    "title": "Valve Steam Machine 评测：适配客厅、书桌与多种生活场景",
+    "summary": "The Verge 编辑深度体验 Valve 的 Steam Machine 游戏主机后认为，这款设备在客厅电视与桌面环境之间找到了独特定位，但其使用体验仍存妥协，仅获 6 分评价。",
+    "body": "Valve 推出的 Steam Machine 是一款试图融合游戏主机与 PC 体验的新型硬件。The Verge 编辑在数周体验后表示，该产品能够同时适配电视、书桌等场景，在客厅娱乐与桌面游戏之间提供灵活切换的使用方式。尽管作者已拥有 PS5 和 Xbox Series X，Steam Machine 仍凭借差异化的形态和使用场景吸引了他的注意。不过，评测也认为该设备在体验上存在不足，最终给出了 6 分的评价，反映出其作为新品类硬件在成熟度与实用性上的折中。对于 Valve 而言，Steam Machine 是其拓展游戏硬件生态的又一次尝试，能否真正改变玩家习惯仍有待市场检验。",
+    "category": "消费电子",
+    "tags": [
+      "游戏主机",
+      "消费电子",
+      "Steam",
+      "Valve"
+    ],
+    "source": "The Verge",
+    "time": "11小时前",
+    "ts": "2026-07-07T20:09:57-04:00",
+    "url": "https://www.theverge.com/games/962561/valve-steam-machine-tv-desk-life",
     "image": "",
     "stocks": []
   },
@@ -145396,12 +145588,6 @@ const newsData = [
   }
 ];
 const newsDigest = {
-  "text": "OpenAI前研究者加盟腾讯推动VLM，NASA新视野号在冥王星外深空苏醒，沐曦MXC600大规模出货，苹果加码博通采购并据称测试中企DRAM，英伟达披露下一代Rigel Arm核心，美拟限制中国AI模型。",
-  "highlights": [
-    "88f51677da117e39",
-    "07968a233dcea4dc",
-    "6c209e4d44cfbdd7",
-    "87af2b58278ea79e",
-    "6bf7c7c3e3b62c69"
-  ]
+  "text": "",
+  "highlights": []
 };
