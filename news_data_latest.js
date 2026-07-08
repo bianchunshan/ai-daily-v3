@@ -1,5 +1,95 @@
 const newsData = [
   {
+    "id": "62aed2de0faebdc1",
+    "title": "Waymo在拉斯维加斯启动全无人Robotaxi运营",
+    "summary": "Waymo已在拉斯维加斯正式提供全无人驾驶载客服务，并计划将业务扩展至丹佛、圣迭戈和坦帕四个新城市，以加速实现2026年底每周100万单付费出行的目标。",
+    "body": "谷歌母公司Alphabet旗下自动驾驶企业Waymo宣布，其拉斯维加斯的车队已实现完全无人驾驶，乘客将乘坐没有安全员的车辆出行。这标志着Waymo在美国西部以外的首个全无人驾驶市场正式投入运营。\n\n公司同时透露，丹佛、圣迭戈和坦帕将成为下一批进入完全无人驾驶阶段的城市。至此，Waymo的无人驾驶服务版图将新增四个市场，并进一步推动其2026年底前达成每周100万次付费出行的目标。\n\n作为目前全球最大的商用Robotaxi运营商之一，Waymo加速城市扩张有助于积累更多真实道路数据、验证商业模式，并可能加剧全球自动驾驶出租车赛道的竞争。",
+    "category": "机器人",
+    "tags": [
+      "自动驾驶",
+      "Robotaxi",
+      "Waymo",
+      "Alphabet"
+    ],
+    "source": "Electrek",
+    "time": "刚刚",
+    "ts": "2026-07-08T14:26:49+00:00",
+    "url": "https://electrek.co/2026/07/08/waymo-driverless-las-vegas-four-new-cities/",
+    "image": "https://electrek.co/wp-content/uploads/sites/3/2026/05/Waymo-new-Ojai-electric-robotaxis.jpeg?quality=82&#038;strip=all&#038;w=1600",
+    "stocks": [
+      {
+        "name": "Alphabet",
+        "ticker": "GOOGL",
+        "reason": "Waymo为其子公司，无人驾驶业务扩张直接利好长期估值与商业化前景",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "4e41757717afbb1e",
+    "title": "苹果宣布 macOS 28 不再支持旧加密文件系统",
+    "summary": "苹果宣布自 macOS 28 起将不再支持“Mac OS 扩展（日志式，加密）”格式，并建议用户提前将相关外置磁盘转换为 APFS（加密）或 ExFAT 等格式。",
+    "body": "IT之家 7 月 8 日消息，苹果宣布，自 macOS 28 开始将不再支持“Mac OS 扩展（日志式，加密）”文件系统格式。该格式是旧版 macOS 的安全文件系统，目前已被更现代、更安全的 APFS（加密）格式取代。从 macOS 26 起，用户插入采用该格式的磁盘时，系统会弹出提醒，提示该磁盘无法在未来的 macOS 28 中继续使用。\n苹果建议用户通过“磁盘工具”将相关外置磁盘提前转换为“Mac OS 扩展（日志式）”或 ExFAT 等格式。APFS 是苹果于 2017 年推出、用以替代已有 30 多年历史的 HFS+ 的新一代文件系统，具备原生加密、快照、克隆文件等特性，并在 macOS Catalina 中成为启动宗卷唯一选择。此次调整被视为苹果进一步淘汰旧文件系统、推动生态全面向 APFS 统一的重要步骤。",
+    "category": "消费电子",
+    "tags": [
+      "苹果",
+      "macOS",
+      "文件系统",
+      "APFS"
+    ],
+    "source": "IT之家",
+    "time": "5分钟前",
+    "ts": "2026-07-08T14:22:17+00:00",
+    "url": "https://www.ithome.com/0/974/263.htm",
+    "image": "https://img.ithome.com/newsuploadfiles/2026/7/8cd0ead1-b8e8-4034-8f09-2febe02c52ff.jpg",
+    "stocks": [
+      {
+        "name": "苹果",
+        "ticker": "AAPL",
+        "reason": "macOS 文件系统政策调整直接涉及苹果，推动生态统一与 APFS 标准化。",
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
+    "id": "e14af168d5bde786",
+    "title": "研究发现慢性炎症抑制大脑再生机制",
+    "summary": "伦敦国王学院发表于《自然·通讯》的研究揭示了长期炎症如何通过影响神经干细胞微环境而降低大脑再生能力，或为阿尔茨海默病、衰老等认知衰退机制提供新线索。",
+    "body": "伦敦国王学院的一项研究发表于《自然·通讯》，揭示了慢性炎症与大脑再生能力下降之间的分子机制。长期炎症可能通过损害神经发生所需的微环境、减缓新神经元生成，从而在阿尔茨海默病、衰老、抑郁症以及病毒感染后持续神经系统症状等疾病中促进认知衰退。\n\n该发现为理解认知功能障碍的生物学基础提供了新线索，并提示调控炎症反应可能成为改善神经再生、延缓认知衰退的潜在干预方向。不过，研究目前主要处于机制探索阶段，距离临床应用仍需进一步验证。",
+    "category": "生物医药",
+    "tags": [
+      "慢性炎症",
+      "神经再生",
+      "认知衰退",
+      "阿尔茨海默病"
+    ],
+    "source": "MedicalXpress",
+    "time": "7分钟前",
+    "ts": "2026-07-08T10:20:07-04:00",
+    "url": "https://medicalxpress.com/news/2026-07-mechanism-linking-chronic-inflammation-brain.html",
+    "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/mechanism-linking-infl-2.jpg",
+    "stocks": []
+  },
+  {
+    "id": "2ad06d68898600b0",
+    "title": "单次睡眠呼吸暂停检测或误诊，研究建议多夜监测",
+    "summary": "弗林德斯大学发表于《npj Digital Medicine》的研究显示，单次夜间睡眠测试可能因夜间差异导致阻塞性睡眠呼吸暂停（OSA）漏诊或误诊，连续多夜监测或可提高诊断准确性。",
+    "body": "澳大利亚弗林德斯大学的一项新研究指出，仅依靠一晚的睡眠测试来诊断阻塞性睡眠呼吸暂停（OSA）可能并不可靠，因为夜间之间的生理差异会让部分患者被错误分类或漏诊。该研究发表在《npj Digital Medicine》上，强调分析多个夜晚的睡眠数据可能提供更准确、更稳定的OSA诊断依据。\n\n长期以来，临床诊断通常依赖一次夜间睡眠研究（如多导睡眠图或家庭睡眠测试）。这项研究挑战了这一传统做法，提示医生和患者在做诊断或治疗决策时，应考虑到睡眠模式的自然波动。研究的意义在于推动更精准、更个体化的睡眠呼吸暂停评估，也可能影响相关睡眠监测设备与数字医疗方案的设计方向。",
+    "category": "生物医药",
+    "tags": [
+      "睡眠呼吸暂停",
+      "数字医疗",
+      "诊断设备",
+      "医学研究"
+    ],
+    "source": "MedicalXpress",
+    "time": "7分钟前",
+    "ts": "2026-07-08T10:20:05-04:00",
+    "url": "https://medicalxpress.com/news/2026-07-night-apnea-misclassify-patients.html",
+    "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/sleep-study.jpg",
+    "stocks": []
+  },
+  {
     "id": "31078543829b0e49",
     "title": "人脑智能奥秘或藏于单个神经元计算力",
     "summary": "长期以来，人类智力被认为主要源于大脑中近千亿神经元的规模与连接。一项发表在《美国国家科学院院刊》的新研究指出，单个脑细胞的非凡计算能力可能也是关键。",
@@ -296,6 +386,32 @@ const newsData = [
     "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/a-team-of-engineers-called-slopfix-charges-10000-a-week-to-delete-ai-generated-code-using-ai-agents",
     "image": "https://cdn.mos.cms.futurecdn.net/Kc5XZJfVxj3uECzne3uBJ3-1280-80.jpg",
     "stocks": []
+  },
+  {
+    "id": "995cba7d0f0e8392",
+    "title": "Cloudflare Meerkat：全球分布式共识技术",
+    "summary": "Cloudflare 的 Meerkat 项目涉及全球分布式共识，属于其边缘网络与云基础设施布局的延伸。",
+    "body": "Hacker News 上出现关于 Cloudflare Meerkat 的讨论，该项目关键词为“Globally distributed consensus”，显示 Cloudflare 正在探索或推出面向全球分布环境的共识机制。由于原文仅提供标题与基本元数据，具体技术细节尚未披露。分布式共识是云基础设施、边缘网络与高可用系统的核心组件，Meerkat 可能与 Cloudflare 的全球边缘网络、低时延服务或去中心化协调场景相关。",
+    "category": "AI 基础设施",
+    "tags": [
+      "Cloudflare",
+      "分布式共识",
+      "云基础设施",
+      "边缘网络"
+    ],
+    "source": "Hacker News",
+    "time": "1小时前",
+    "ts": "2026-07-08T13:18:03+00:00",
+    "url": "https://blog.cloudflare.com/meerkat-introduction/",
+    "image": "",
+    "stocks": [
+      {
+        "name": "Cloudflare",
+        "ticker": "NET",
+        "reason": "Meerkat 项目与其全球边缘网络和云基础设施直接相关，有望强化其分布式服务能力。",
+        "confidence": "high"
+      }
+    ]
   },
   {
     "id": "96cbdfcf02090382",
@@ -146366,12 +146482,6 @@ const newsData = [
   }
 ];
 const newsDigest = {
-  "text": "Blue Origin百亿融资估值创新高，苹果与博通签下300亿美元美国芯片大单，字节跳动发布Seedream 5.0 Pro，俄勒冈上调数据中心电费，大疆推出首款无人机降落伞。",
-  "highlights": [
-    "abd3c9a5286b11f9",
-    "c029285e00315f8e",
-    "ca06565313dce5a3",
-    "8e3b8a3454608d38",
-    "49a977e5f5a038b0"
-  ]
+  "text": "",
+  "highlights": []
 };
