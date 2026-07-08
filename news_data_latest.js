@@ -1,5 +1,88 @@
 const newsData = [
   {
+    "id": "963a6870c5aab5ca",
+    "title": "OpenAI升级ChatGPT语音模式，对话更自然",
+    "summary": "OpenAI发布新模型GPT-Live-1，优化ChatGPT语音对话体验，减少打断并能在用户停顿后继续等待发言。",
+    "body": "OpenAI正在重构ChatGPT的语音模式，推出名为GPT-Live-1的新模型，旨在让对话更像“与真人交谈”。据The Verge报道，该模型会减少插话，并在用户中途停顿时继续等待，而非急于抢答。\n\nOpenAI研究负责人Kundan Kumar在新闻发布会上介绍了GPT-Live-1，强调其在自然度、节奏和倾听能力上的改进。该升级属于OpenAI对ChatGPT多模态交互能力持续迭代的一部分，有望提升语音助手和对话式AI产品的用户体验。",
+    "category": "人工智能",
+    "tags": [
+      "OpenAI",
+      "ChatGPT",
+      "语音对话",
+      "多模态AI"
+    ],
+    "source": "The Verge",
+    "time": "1分钟前",
+    "ts": "2026-07-08T13:02:30-04:00",
+    "url": "https://www.theverge.com/ai-artificial-intelligence/962856/chatgpt-upgraded-voice-mode-gpt-live",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "d3e920f9119c2d4c",
+    "title": "心肌梗死损伤或波及心室远端，有助更早发现心脏恶化",
+    "summary": "一项心脏影像与临床心脏病学研究表明，心肌梗死造成的损伤不仅局限于梗死区域，还可能功能性地延伸至心室远端区域。识别这种功能障碍有助于更早、更个体化地干预心脏恶化。",
+    "body": "来自西班牙 INCLIVA 健康研究所、瓦伦西亚临床大学医院、瓦伦西亚大学、瓦伦西亚理工大学、Ascires Biomédico 集团心脏影像部及 Ascires-UPV 联合研究单元的研究团队发表了一项关于心脏成像的重要研究。\n\n该研究发现，心肌梗死带来的损伤并非仅局限于直接受影响的区域，还可能功能性地延伸至心室的远端区域。这意味着传统上仅关注局部梗死灶的评估方式可能不足以全面反映患者的心脏状态。\n\n研究人员指出，识别这种远端功能障碍具有重要的临床意义：一方面可以改善患者的预后评估，另一方面能够在症状或更明显的心功能变化出现之前，提前发现心脏恶化迹象，从而实施更早、更个性化的治疗策略。该成果为心血管疾病的早期监测和精准干预提供了新的研究方向。",
+    "category": "生物医药",
+    "tags": [
+      "心肌梗死",
+      "心脏影像",
+      "临床心脏病学",
+      "预后评估"
+    ],
+    "source": "MedicalXpress",
+    "time": "3分钟前",
+    "ts": "2026-07-08T13:00:02-04:00",
+    "url": "https://medicalxpress.com/news/2026-07-myocardial-infarction-remote-regions-ventricle.html",
+    "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/myocardial-infarction.jpg",
+    "stocks": []
+  },
+  {
+    "id": "651507dbcd47d615",
+    "title": "Google为AI订阅用户推出Video Remix视频重制功能",
+    "summary": "Google宣布将为其AI订阅用户上线“Video Remix”功能，用户可借助Gemini Omni模型对Google Photos中存储的视频进行重新创作与风格化改造。",
+    "body": "Google为AI订阅用户推出名为“Video Remix”的新功能，依托Gemini Omni模型，允许用户对Google Photos中保存的视频进行创意重制与风格化再生成。该功能进一步将生成式AI能力注入Google Photos相册生态，有望提升付费订阅服务的吸引力与用户体验。\n\n此举反映出Google正加速把Gemini多模态大模型能力落地到消费级应用，通过相册等高频场景扩大AI订阅业务的覆盖范围，并强化其在AI应用层的竞争壁垒。目前该功能面向AI订阅用户开放，标志着Google Photos从存储工具向智能化创作平台演进。",
+    "category": "人工智能",
+    "tags": [
+      "Google",
+      "Gemini",
+      "视频生成",
+      "Google Photos"
+    ],
+    "source": "Engadget",
+    "time": "3分钟前",
+    "ts": "2026-07-08T17:00:00+00:00",
+    "url": "https://www.engadget.com/2210417/google-announces-new-video-remix-feature-for-ai-subscribers/",
+    "image": "https://www.engadget.com/img/gallery/google-announces-new-video-remix-feature-its-for-ai-subscribers/l-intro-1783516961.jpg",
+    "stocks": [
+      {
+        "name": "Alphabet",
+        "ticker": "GOOGL",
+        "reason": "新功能将增强Google Photos及AI订阅服务的用户粘性与付费转化",
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
+    "id": "e63b6e2be782e76c",
+    "title": "ChatGPT语音模式新增语速调节功能",
+    "summary": "OpenAI为ChatGPT推出的新语音模式可实时回应用户，并在用户要求时降低语速。该功能有望提升对话自然度和可理解性。",
+    "body": "据报道，OpenAI为ChatGPT开发的新语音模式能够在用户讲话时进行回应，并支持根据用户指令放慢语速。该功能有助于让用户更清晰地理解AI的回答，特别适用于需要详细解释或语言学习的场景。这一更新体现了OpenAI在优化人机语音交互体验方面的持续投入，可能进一步提升ChatGPT作为AI助手的产品竞争力。",
+    "category": "人工智能",
+    "tags": [
+      "ChatGPT",
+      "语音交互",
+      "OpenAI",
+      "AI应用"
+    ],
+    "source": "Engadget",
+    "time": "3分钟前",
+    "ts": "2026-07-08T17:00:00+00:00",
+    "url": "https://www.engadget.com/2210651/chatgpt-new-voice-mode-will-slow-down-if-you-tell-it-to/",
+    "image": "https://www.engadget.com/img/gallery/chatgpts-new-voice-mode-will-slow-down-if-you-tell-it-to/l-intro-1783529796.jpg",
+    "stocks": []
+  },
+  {
     "id": "f5cde186e3d89aed",
     "title": "眼泪可揭示大脑健康：低成本传感器检测多巴胺",
     "summary": "美国化学学会期刊《ACS Omega》报道，研究团队开发了一种低成本电化学传感器，可从人工泪液中检测多巴胺浓度，未来有望用于帕金森病等神经系统疾病的监测。",
