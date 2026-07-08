@@ -1,5 +1,43 @@
 const newsData = [
   {
+    "id": "90df51f82e81d20f",
+    "title": "饮酒在阿尔茨海默病淀粉样蛋白和tau蛋白模型中引发相反脑回路变化",
+    "summary": "德州农工大学健康科学中心研究发现，酒精对阿尔茨海默病中淀粉样蛋白和tau蛋白两种病理过程的影响方向相反，揭示二者关系比以往认为的更为复杂。",
+    "body": "饮酒一直与认知能力下降和痴呆风险上升相关。但德州农工大学Naresh K. Vashisht医学院的最新研究提示，酒精与阿尔茨海默病的关系可能比之前认为的更复杂：在动物模型中，酒精并非以相同方式影响所有阿尔茨海默病相关脑变化，而是对淀粉样蛋白相关病理和tau蛋白相关病理产生了不同的相互作用。\n\n这项研究强调，阿尔茨海默病的不同病理通路可能对酒精暴露产生差异化反应，未来需要针对特定病理机制分别评估饮酒风险与干预策略。",
+    "category": "生物医药",
+    "tags": [
+      "阿尔茨海默病",
+      "神经科学",
+      "酒精",
+      "病理机制"
+    ],
+    "source": "MedicalXpress",
+    "time": "1分钟前",
+    "ts": "2026-07-08T19:20:05-04:00",
+    "url": "https://medicalxpress.com/news/2026-07-alcohol-brain-circuit-amyloid-tau.html",
+    "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/when-alcohol-meets-alz.jpg",
+    "stocks": []
+  },
+  {
+    "id": "fb1fc0825bdecab3",
+    "title": "研究发现主动脉夹层幸存者居家中等强度运动安全",
+    "summary": "由休斯顿UTHealth主导的多中心临床试验显示，主动脉夹层幸存者在家中进行中等强度运动不会增加主动脉事件复发风险，研究结果已发表于《Circulation: Population Health and Outcomes》。",
+    "body": "一项由休斯顿UTHealth领导的多中心临床试验发现，主动脉夹层幸存者可以安全地在家中进行中等强度运动，且不会提高主动脉事件复发的风险。该研究成果已发表于《Circulation: Population Health and Outcomes》。\n\n此前，心血管重大疾病患者往往对运动康复持谨慎态度。该研究为临床制定更积极的康复方案提供了新的循证依据，有望改善患者的长期生活质量、功能状态并减少并发症。\n\n这一结论还可能推动心脏康复模式的转变，使患者能够在家庭环境中更灵活、持续地进行康复训练，降低医疗系统负担。",
+    "category": "生物医药",
+    "tags": [
+      "主动脉夹层",
+      "心血管康复",
+      "临床试验",
+      "运动医学"
+    ],
+    "source": "MedicalXpress",
+    "time": "1分钟前",
+    "ts": "2026-07-08T19:20:01-04:00",
+    "url": "https://medicalxpress.com/news/2026-07-moderate-home-based-safe-aortic.html",
+    "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/yoga.jpg",
+    "stocks": []
+  },
+  {
     "id": "d6152a64255e5f1c",
     "title": "空客6月交付89架飞机，上半年累计达351架",
     "summary": "空中客车公布数据显示，6月向49家客户交付89架客机，当月获71架订单；截至今年6月底已累计交付351架客机。",
