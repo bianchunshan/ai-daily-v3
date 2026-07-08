@@ -1,5 +1,31 @@
 const newsData = [
   {
+    "id": "216a1a40bdfe444d",
+    "title": "大众波兰工厂用绵羊替代割草机维护光伏场",
+    "summary": "大众汽车在波兰工厂的光伏农场引入100只绵羊除草，替代传统割草机，兼具生态维护与可持续能源运营意义。",
+    "body": "大众汽车在其波兰工厂占地广阔的光伏农场中，用100只绵羊取代割草机来管理太阳能板下方的草地。这一做法不仅减少了机械维护，还体现企业在可再生能源与生态保护方面的探索。对大型制造基地而言，此类“光伏+农牧”模式或为降低运维成本、减少碳排放提供参考，也反映了传统车企在能源转型中的可持续运营尝试。",
+    "category": "未来能源",
+    "tags": [
+      "太阳能",
+      "可再生能源",
+      "大众汽车",
+      "绿色制造"
+    ],
+    "source": "Electrek",
+    "time": "5分钟前",
+    "ts": "2026-07-08T21:12:34+00:00",
+    "url": "https://electrek.co/2026/07/08/volkswagen-put-100-sheep-to-work-under-31000-solar-panels/",
+    "image": "https://electrek.co/wp-content/uploads/sites/3/2026/07/Volkswagen_PV_QuantaEnergy_fot.-Rafal_Pijanski-7.jpg?quality=82&#038;strip=all&#038;w=1600",
+    "stocks": [
+      {
+        "name": "大众汽车",
+        "ticker": "VOW.DE",
+        "reason": "该光伏农场直接服务于大众波兰工厂，绵羊除草属于其可持续能源与降本运维举措，但财务影响有限。",
+        "confidence": "low"
+      }
+    ]
+  },
+  {
     "id": "9ace5e09b17aa2e3",
     "title": "小鼠研究显示痴呆蛋白病变相互加剧",
     "summary": "在阿尔茨海默病和帕金森病小鼠模型中，β淀粉样蛋白斑块形成后，tau蛋白和α-突触核蛋白的病理水平升高，提示不同致病蛋白可能相互作用并推动神经退行性变。",
