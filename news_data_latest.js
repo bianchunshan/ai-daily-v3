@@ -1,5 +1,49 @@
 const newsData = [
   {
+    "id": "715573abc5ddfd97",
+    "title": "内存短缺致全球PC出货量两年来首降",
+    "summary": "受内存供应短缺影响，全球PC出货量两年来首次出现下滑，但制造商因产品均价提升仍实现收入增长。",
+    "body": "据报道，全球PC市场结束了连续两年的增长态势，出货量出现下滑。此次回落主要归因于内存供应短缺，限制了PC整机的生产和交付能力。与此同时，由于内存等核心零部件涨价推高了整机售价，PC制造商的平均销售价格（ASP）上升，因此整体营收仍保持增长。这一现象反映出上游半导体供应链的瓶颈正对下游消费电子市场产生直接影响，也可能促使厂商在库存管理和定价策略上进一步调整。",
+    "category": "消费电子",
+    "tags": [
+      "PC市场",
+      "内存短缺",
+      "半导体",
+      "出货量"
+    ],
+    "source": "Engadget",
+    "time": "5分钟前",
+    "ts": "2026-07-08T19:01:59+00:00",
+    "url": "https://www.engadget.com/2210856/pc-shipments-just-fell-for-the-first-time-in-two-years-thanks-to-the-memory-shortage/",
+    "image": "https://www.engadget.com/img/gallery/pc-shipments-just-fell-for-the-first-time-in-two-years-thanks-to-the-memory-shortage/l-intro-1783537188.jpg",
+    "stocks": [
+      {
+        "name": "美光科技",
+        "ticker": "MU",
+        "reason": "作为全球主要内存供应商，内存短缺和价格上涨有助于提升其存储业务营收与毛利率。",
+        "confidence": "medium"
+      },
+      {
+        "name": "惠普",
+        "ticker": "HPQ",
+        "reason": "全球PC出货龙头之一，产品均价上涨使其在出货量下滑时仍可能保持收入增长。",
+        "confidence": "medium"
+      },
+      {
+        "name": "戴尔科技",
+        "ticker": "DELL",
+        "reason": "PC业务占比较高，平均售价提升有望抵消销量下滑对营收的影响。",
+        "confidence": "medium"
+      },
+      {
+        "name": "联想集团",
+        "ticker": "0992.HK",
+        "reason": "全球最大PC厂商之一，高端产品占比提升及价格上涨可支撑整体收入水平。",
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
     "id": "684ea7c20512f816",
     "title": "MD安德森新平台快速分离最强抗癌免疫细胞",
     "summary": "美国得克萨斯大学MD安德森癌症中心开发出一种新平台，能够快速发现并分离罕见、具有肿瘤反应性的免疫细胞，有望加速个性化免疫疗法的研发。",
