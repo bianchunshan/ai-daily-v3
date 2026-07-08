@@ -1,5 +1,62 @@
 const newsData = [
   {
+    "id": "3849230c847cedb5",
+    "title": "研究发现青年期蔬菜摄入或降低未来慢病风险",
+    "summary": "伊迪丝科文大学基于Raine研究数据指出，20多岁时摄入的蔬菜种类可能影响未来健康，且男女性对特定蔬菜预防心脏病和2型糖尿病的作用可能存在差异。",
+    "body": "一项来自伊迪丝科文大学（ECU）的研究利用西澳大利亚Raine研究的数据，指出20多岁时摄入的蔬菜种类可能影响未来数十年的健康结局。研究发现，年轻男性和女性对某些蔬菜的代谢反应可能不同，特定种类的蔬菜对预防心脏病和2型糖尿病的保护作用存在性别差异。\n\n该研究属于营养流行病学领域，强调早期饮食干预的重要性。尽管结果尚需进一步机制验证，但它提示，针对不同性别制定膳食建议可能更有助于降低慢性病风险。",
+    "category": "生物医药",
+    "tags": [
+      "营养流行病学",
+      "心血管健康",
+      "慢性病预防",
+      "生命科学"
+    ],
+    "source": "MedicalXpress",
+    "time": "6分钟前",
+    "ts": "2026-07-08T11:20:21-04:00",
+    "url": "https://medicalxpress.com/news/2026-07-beans-blokes-broccoli-women-veggies.html",
+    "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/beans-and-broccoli.jpg",
+    "stocks": []
+  },
+  {
+    "id": "3dcc0710d0bf4b69",
+    "title": "新“人类保真度”标准或重塑植入式脑设备评估",
+    "summary": "一项拟议的“人类保真度”标准可能改变植入式脑设备的评价方式，为脑深部刺激和脑机接口等设备提供可衡量的效果参考，解决当前缺乏统一评估框架的问题。",
+    "body": "美国已在植入式脑设备及其交付系统上投入巨资，这些设备包括脑深部刺激装置和新一代脑机接口，可用于治疗难治性精神神经疾病或帮助瘫痪、失明等功能丧失患者。然而，目前仍缺乏一种共享、可量化的方法来判断这些设备是否真正满足患者及医疗系统的需求与期望。\n\n为此，研究人员提出“人类保真度”这一全新评估标准，旨在为植入式脑设备的研发和临床应用建立更明确的衡量依据。该标准若被广泛采纳，可能重塑设备审批、医生决策与患者体验的评价体系，推动行业从单纯技术性能向实际人体适配与系统效果转变。",
+    "category": "脑机接口",
+    "tags": [
+      "脑机接口",
+      "神经科技",
+      "医疗器械",
+      "行业标准"
+    ],
+    "source": "MedicalXpress",
+    "time": "6分钟前",
+    "ts": "2026-07-08T11:20:20-04:00",
+    "url": "https://medicalxpress.com/news/2026-07-human-fidelity-standard-reshape-implantable.html",
+    "image": "https://scx1.b-cdn.net/csz/news/tmb/2024/psychiatric-disorders.jpg",
+    "stocks": []
+  },
+  {
+    "id": "6e5b4e1c9d585cfd",
+    "title": "CERT披露腾达路由器无密码后门，厂商未提供补丁",
+    "summary": "美国CERT/CC披露腾达多款路由器固件存在未记录认证后门，攻击者无需密码即可获取管理权限，目前尚无安全补丁。",
+    "body": "美国卡内基梅隆大学软件工程研究所的CERT协调中心（CERT/CC）于7月6日披露，中国深圳网络设备品牌腾达（Tenda）的多款路由器固件存在编号为CVE-2026-11405的未记录认证后门。该漏洞位于设备内置Web服务器中，可绕过正常登录流程，使攻击者在无需有效管理员凭据的情况下获得网络管理界面的完全控制权。受影响型号包括FH1201、W15E、AC10、AC5和AC6等系列的部分固件版本。尽管CERT/CC已联系厂商，但腾达至今未回应，且尚无补丁发布。此事暴露了面向全球大量消费者和市场的预算型网络设备在安全响应与漏洞修复方面的隐患，也再度引发对物联网供应链安全的关注。",
+    "category": "网络安全",
+    "tags": [
+      "网络安全",
+      "漏洞披露",
+      "物联网安全",
+      "路由器"
+    ],
+    "source": "Tom's Hardware",
+    "time": "10分钟前",
+    "ts": "2026-07-08T15:16:25+00:00",
+    "url": "https://www.tomshardware.com/tech-industry/cyber-security/hidden-backdoor-found-in-tenda-routers-goes-unpatched-despite-warnings-from-cybersecurity-researchers-affected-firmware-allows-admin-access-without-a-password",
+    "image": "https://cdn.mos.cms.futurecdn.net/uX8ghCJT8DyjkPQPLQVehC-1280-80.jpg",
+    "stocks": []
+  },
+  {
     "id": "35c436a1fa4f6b28",
     "title": "新研究：地球或有望避免被红巨星太阳吞噬",
     "summary": "一项最新研究表明，约50亿年后太阳膨胀成红巨星时，其将地球向内拉拽的引力潮汐作用可能弱于此前预期，从而增加地球逃过被吞噬命运的可能性。但太阳晚年质量损失速度仍是关键未知数，地球最终命运尚难确定。",
@@ -64,6 +121,25 @@ const newsData = [
     "stocks": []
   },
   {
+    "id": "e758be6eba3c0880",
+    "title": "Replit推出社区档案与力量排名",
+    "summary": "Replit上线社区档案与专业用户「力量排名」功能，为AI原生开发者提供项目展示与智能体活跃度数据。",
+    "body": "在线编程平台Replit本周发布社区档案与「力量排名」新功能。用户可认领个人档案，展示最佳项目，并通过智能体使用、检查点活跃度等图表直观呈现工作成果。专业用户还可获得力量排名，进一步量化其平台贡献与影响力。\n\n该功能被视为面向「vibe coder」（氛围编程者）群体的社交化工作证明，有助于强化开发者社区粘性、促进项目分享与人才发现。虽然Replit本身未上市，但其产品方向反映出AI编程与智能体生态正加速向社区化、数据化展示演进。",
+    "category": "人工智能",
+    "tags": [
+      "Replit",
+      "AI编程",
+      "智能体",
+      "开发者社区"
+    ],
+    "source": "AIHOT精选",
+    "time": "26分钟前",
+    "ts": "2026-07-08T15:00:47+00:00",
+    "url": "https://x.com/Replit/status/2074871322220339515",
+    "image": "",
+    "stocks": []
+  },
+  {
     "id": "a3a76f9196465d6c",
     "title": "吉利银河A7 EM创吉尼斯续航纪录：零补能行驶2608公里",
     "summary": "吉利汽车宣布银河A7 EM以2608.360公里的成绩，获得驾驶插混量产轿车零补能行驶最远距离的吉尼斯世界纪录。该车型此前已上市，主打超低馈电油耗与长续航。",
@@ -125,6 +201,25 @@ const newsData = [
     "ts": "2026-07-08T11:00:03-04:00",
     "url": "https://medicalxpress.com/news/2026-07-longstanding-mystery-deadliest-breast-cancer.html",
     "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/scientists-untangle-ch.jpg",
+    "stocks": []
+  },
+  {
+    "id": "e1f9407176137c77",
+    "title": "OpenRouter聊天室推出一键零数据保留",
+    "summary": "AI模型聚合平台OpenRouter在聊天室上线一键零数据保留（ZDR）功能，用户可在不保留对话数据的前提下横向对比多个大模型。",
+    "body": "OpenRouter是一款聚合多家大模型并提供统一接口的AI平台。此次其在聊天室场景中新增一键ZDR（零数据保留）功能，用户开启后可在完全隐私保护的状态下对不同模型进行横向对比，平台不会保留对话数据。该功能回应了企业与个人用户对数据隐私、合规审查的关切，有望降低用户在模型选型时的隐私顾虑。目前OpenRouter本身未上市，材料中未涉及其他直接受益的上市公司。",
+    "category": "人工智能",
+    "tags": [
+      "OpenRouter",
+      "零数据保留",
+      "AI隐私",
+      "模型对比"
+    ],
+    "source": "AIHOT精选",
+    "time": "29分钟前",
+    "ts": "2026-07-08T14:57:23+00:00",
+    "url": "https://x.com/OpenRouter/status/2074870468394250461",
+    "image": "",
     "stocks": []
   },
   {
