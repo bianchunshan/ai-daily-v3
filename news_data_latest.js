@@ -1,5 +1,24 @@
 const newsData = [
   {
+    "id": "8afc9097f365a81b",
+    "title": "Fi Ultra 推出首款 Starlink 直连宠物追踪器",
+    "summary": "Fi Ultra 是全球首款可购买的 Starlink 直连宠物追踪器，当宠物进入蜂窝信号盲区时，可自动切换至 T-Mobile 的 T-Satellite 直连蜂窝服务，借助 SpaceX 低轨卫星在美国境内持续定位。",
+    "body": "宠物科技公司 Fi 发布 Fi Ultra，宣称是首款面向消费者销售的 Starlink 直连宠物追踪器。它在 GPS 和 LTE 定位基础上，增加了蜂窝信号死区的自动切换能力：当进入无蜂窝网络覆盖区域时，设备会切换到 T-Mobile 的 T-Satellite 品牌直连蜂窝服务，利用 SpaceX 的 Starlink 低轨卫星星座为宠物提供全美范围内的定位追踪。\n\n这一产品将卫星直连通信从应急通信、户外探险等小众场景，扩展到日常宠物可穿戴设备，意味着卫星物联网开始触达消费级市场。对宠物主人而言，它可降低在偏远地区丢失宠物后无法定位的风险；对行业而言，它可能成为卫星通信在消费硬件领域落地的早期案例。",
+    "category": "消费电子",
+    "tags": [
+      "宠物可穿戴",
+      "卫星通信",
+      "消费电子",
+      "Starlink"
+    ],
+    "source": "The Verge",
+    "time": "1分钟前",
+    "ts": "2026-07-08T08:59:06-04:00",
+    "url": "https://www.theverge.com/tech/962224/fi-ultra-dog-tracker-starlink-t-satellite-specs-price-release-date",
+    "image": "",
+    "stocks": []
+  },
+  {
     "id": "9228acf452ac398c",
     "title": "亚马逊秘密推进Alexa“智能体”项目，成本高昂引担忧",
     "summary": "据报道，亚马逊内部文件显示，公司正秘密推进名为“Moonraker”的Alexa AI项目，意图将Alexa语音助手发展为AI智能体。该项目研发与运行成本高昂，已在公司内部引发担忧。",
@@ -145812,6 +145831,12 @@ const newsData = [
   }
 ];
 const newsDigest = {
-  "text": "",
-  "highlights": []
+  "text": "今日科技前沿：亚马逊秘密推进Alexa智能体、蓝色起源百亿美元融资、比亚迪第1700万辆新能源车下线，以及特斯拉Cybercab无障碍设计和腾讯招揽OpenAI前研究员，看点密集。",
+  "highlights": [
+    "9228acf452ac398c",
+    "3092749b9ea82d94",
+    "21539c036e4a1124",
+    "6915065775eab0a5",
+    "88f51677da117e39"
+  ]
 };
