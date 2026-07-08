@@ -1,5 +1,37 @@
 const newsData = [
   {
+    "id": "64bb7e35a726e5f2",
+    "title": "iOS 27代码曝光：iPhone未来可解锁小米SU7/YU7",
+    "summary": "开发者挖掘iOS 27 Beta 3代码发现，苹果已加入小米汽车相关标识，暗示iPhone 17等用户未来可通过Apple车钥匙解锁、启动小米SU7和YU7。",
+    "body": "科技媒体MacRumors报道称，在iOS 27 Beta 3开发者预览版代码中发现了分别对应Lucid与小米汽车的LCID、XIA1标识符，意味着苹果正在为这两家车企添加Apple车钥匙支持。Apple车钥匙是苹果钱包应用与NFC近场通信体系中的数字车钥匙功能，用户可借助iPhone或Apple Watch完成锁车、解锁及启动车辆等操作。\n\n此前在2025年WWDC大会上，包括Lucid在内的13家车企已宣布支持Apple车钥匙，但苹果当时未给出明确上线时间表。此次代码曝光首次显示小米汽车进入支持序列，未来iPhone 17等用户有望直接用Apple车钥匙解锁并启动小米SU7轿车与YU7 SUV。这一进展不仅丰富了苹果生态在汽车互联领域的落地场景，也可能提升小米汽车对苹果用户的吸引力。",
+    "category": "消费电子",
+    "tags": [
+      "苹果车钥匙",
+      "小米汽车",
+      "iOS 27",
+      "数字车钥匙"
+    ],
+    "source": "IT之家",
+    "time": "5分钟前",
+    "ts": "2026-07-08T22:52:45+00:00",
+    "url": "https://www.ithome.com/0/974/279.htm",
+    "image": "https://img.ithome.com/newsuploadfiles/2026/7/ac5ddd43-4329-4779-968c-8e27104addc1.png?x-bce-process=image/format,f_auto",
+    "stocks": [
+      {
+        "name": "苹果公司",
+        "ticker": "AAPL",
+        "reason": "Apple车钥匙生态扩展，增强iPhone与Apple Watch在汽车场景的粘性。",
+        "confidence": "medium"
+      },
+      {
+        "name": "小米集团",
+        "ticker": "1810.HK",
+        "reason": "小米SU7/YU7将接入Apple车钥匙，扩大高端智能手机用户触达面。",
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
     "id": "ed91bafce61924b1",
     "title": "OpenAI 发布 GPT-Live 语音模型：可边听边说",
     "summary": "OpenAI 发布新一代全双工语音模型 GPT-Live-1 与 mini，可同步聆听与说话，并调用 GPT-5.5 系列后台处理复杂任务，即日起向全球 ChatGPT 用户开放。",
