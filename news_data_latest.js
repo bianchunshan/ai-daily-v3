@@ -1,5 +1,69 @@
 const newsData = [
   {
+    "id": "274a64928ece0cd7",
+    "title": "福特承认3万美元电动皮卡实为“小型”车",
+    "summary": "福特汽车首次将其明年上市的中型电动皮卡称为基于UEV平台打造的“经济实惠小型电动皮卡”，车身尺寸低于此前预期。",
+    "body": "福特汽车计划于明年推出一款售价约3万美元的中型电动皮卡。但近期福特首次在官方表述中将其定位为一款基于UEV平台打造的“全新、经济型小型电动皮卡”，显示该车尺寸将小于外界此前预期。\n\n这一产品定位调整意味着福特可能希望通过更小的车身和更低的成本切入电动皮卡市场，以提升价格竞争力。不过，这也改变了市场对其产品尺寸与定位的预期，后续销量表现取决于消费者对小型电动皮卡的接受度。",
+    "category": "未来能源",
+    "tags": [
+      "福特",
+      "电动皮卡",
+      "电动车",
+      "UEV平台"
+    ],
+    "source": "Electrek",
+    "time": "1分钟前",
+    "ts": "2026-07-08T18:41:40+00:00",
+    "url": "https://electrek.co/2026/07/08/ford-admits-30k-midsize-ev-pickup-is-small/",
+    "image": "https://electrek.co/wp-content/uploads/sites/3/2026/06/Ford-30000-EV-pickup-prototype-2.jpg?quality=82&#038;strip=all&#038;w=1412",
+    "stocks": [
+      {
+        "name": "福特汽车",
+        "ticker": "F",
+        "reason": "该新闻直接涉及福特全新电动皮卡的产品定位与平台战略，影响其电动车业务前景。",
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
+    "id": "ee3f5656828f4e43",
+    "title": "远程操控人形机器人首次完成活体手术",
+    "summary": "加州大学圣迭戈分校的研究团队首次利用两台远程操控的人形机器人，在预临床试验中完成活体手术，成果发表于《自然》杂志。",
+    "body": "加州大学圣迭戈分校的工程师与外科医生团队合作，首次在预临床试验中使用两台远程操控的人形机器人完成两例活体手术。这一突破结合了机器人远程操控与人形机械设计，有望为远程医疗和精准外科提供新的技术路径。相关研究已发表在7月8日的《自然》期刊上。",
+    "category": "机器人",
+    "tags": [
+      "手术机器人",
+      "人形机器人",
+      "远程医疗",
+      "医疗机器人"
+    ],
+    "source": "MedicalXpress",
+    "time": "3分钟前",
+    "ts": "2026-07-08T14:40:04-04:00",
+    "url": "https://medicalxpress.com/news/2026-07-surgeons-teleoperated-humanoid-robots-surgery.html",
+    "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/surgeons-use-teleopera.jpg",
+    "stocks": []
+  },
+  {
+    "id": "957276712ed9f0eb",
+    "title": "分子成像技术揭示早期阿尔茨海默病蛋白聚集",
+    "summary": "以色列巴伊兰大学开发的分子成像技术可识别现有检测手段遗漏的阿尔茨海默病早期蛋白聚集，有望实现更早诊断和更精准治疗。",
+    "body": "巴伊兰大学 Shai Rahimipour 教授团队开发出一种分子成像技术，可帮助科学家发现阿尔茨海默病最早、最难以捕捉的致病蛋白聚集。这些蛋白聚集体往往被现有检测手段忽略，可能解释了疾病早期诊断困难的原因。\n\n该技术通过分子层面的可视化，揭示与阿尔茨海默相关的关键病理变化，为更早识别疾病风险、监测病程进展以及开发精准治疗提供了新工具。研究人员表示，这一突破有望推动早期诊断与靶向治疗的临床应用。",
+    "category": "生物医药",
+    "tags": [
+      "阿尔茨海默病",
+      "分子成像",
+      "早期诊断",
+      "神经退行性疾病"
+    ],
+    "source": "MedicalXpress",
+    "time": "3分钟前",
+    "ts": "2026-07-08T14:40:03-04:00",
+    "url": "https://medicalxpress.com/news/2026-07-elusive-alzheimer-protein-aggregates-current.html",
+    "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/bar-ilan-university-te.jpg",
+    "stocks": []
+  },
+  {
     "id": "127f2e6c57960980",
     "title": "Google Photos 新增 AI 视频重混功能",
     "summary": "Google Photos 推出名为“Video Remix”的 AI 视频编辑工具，可智能补光、替换背景并为视频添加艺术风格，进一步提升移动端 AI 创作体验。",
