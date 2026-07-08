@@ -1,5 +1,24 @@
 const newsData = [
   {
+    "id": "5b38170f8c1f4dfc",
+    "title": "马斯克确认Grok 4.5模型将于明日向公众开放",
+    "summary": "埃隆·马斯克确认，SpaceXAI将于“明天”向公众开放Grok 4.5模型。该模型据称对标Anthropic Opus级别，并在速度和Token效率上更具优势。",
+    "body": "据IT之家7月8日消息，SpaceX创始人兼首席执行官埃隆·马斯克刚刚确认，SpaceXAI将于“明天”向公众开放Grok 4.5模型。由于马斯克发布动态的具体时区未明确，尚不确定“明天”是指当地时间7月8日还是7月9日。\n\n马斯克称，Grok 4.5对标Anthropic Opus级别，同时具备更快的推理速度、更高的Token效率以及更低的成本。根据其此前透露的信息，Grok 4.5基于1.5万亿参数规模的V9基础模型，并在补充训练中加入了来自Cursor的数据。\n\n这一动向意味着马斯克旗下AI团队正加速推进大模型产品的大众化落地，可能在高端大模型市场引发新的性能与成本竞争。",
+    "category": "人工智能",
+    "tags": [
+      "大模型",
+      "Grok",
+      "马斯克",
+      "生成式AI"
+    ],
+    "source": "IT之家",
+    "time": "刚刚",
+    "ts": "2026-07-08T06:41:32+00:00",
+    "url": "https://www.ithome.com/0/974/035.htm",
+    "image": "https://img.ithome.com/newsuploadfiles/2026/7/bddfda8a-3157-4455-b994-235f7e5ffb0f.jpg?x-bce-process=image/format,f_auto",
+    "stocks": []
+  },
+  {
     "id": "01c0a4fe8dcc89ad",
     "title": "零跑B01/B10开启盲订：800V、AR-HUD、激光雷达",
     "summary": "零跑汽车宣布新款B01与B10车型正式开启盲订，用户支付99元意向金可享专属权益。两车均搭载AR-HUD、大尺寸中控屏等智能配置，B10还提供前排双零重力座椅。",
