@@ -1,5 +1,68 @@
 const newsData = [
   {
+    "id": "4ceac6a4144aa62c",
+    "title": "Momenta港交所挂牌，市值突破700亿港元",
+    "summary": "7月8日，自动驾驶及物理AI公司Momenta正式在港交所上市，股票代码6880.HK，开盘涨超6%，总市值突破700亿港元，成为“物理AI第一股”。",
+    "body": "7月8日，Momenta在港交所主板挂牌交易，股票代码为6880.HK，发行价定为295.6港元/股。若超额配股权全额行使，此次全球发售约2293万股，募资总额约68亿港元。上市首日开盘股价涨超6%，总市值突破700亿港元。\n\nMomenta定位为“物理AI”公司，核心技术覆盖自动驾驶算法与量产解决方案。上市前一天，公司宣布其量产业务搭载规模已突破100万台，显示出商业化落地加速。\n\n此次IPO不仅提升了Momenta的资本实力与品牌能见度，也反映出资本市场对自动驾驶及物理AI赛道长期价值的认可，或将带动相关产业链关注度提升。",
+    "category": "机器人",
+    "tags": [
+      "Momenta",
+      "港股IPO",
+      "自动驾驶",
+      "物理AI"
+    ],
+    "source": "36氪",
+    "time": "刚刚",
+    "ts": "2026-07-08T01:49:15.960049+00:00",
+    "url": "https://36kr.com/newsflashes/3886332173561862?f=rss",
+    "image": "",
+    "stocks": [
+      {
+        "name": "Momenta",
+        "ticker": "6880.HK",
+        "reason": "公司直接在港交所上市，总市值突破700亿港元，是新闻核心标的",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "22c8fee974e5d926",
+    "title": "Valve发布Proton 11稳定版：提升Steam Deck兼容性",
+    "summary": "Valve正式发布Proton 11.0-1稳定版，这是Proton 11系列首个正式版本，显著提升Steam Deck及Linux桌面系统运行Windows游戏的兼容性与稳定性。",
+    "body": "Valve于7月8日发布Proton 11.0-1稳定版，这是Proton 11系列的首个正式版本，也是Steam Play采用的Windows游戏兼容层的重要更新。Proton基于Wine项目开发，为Linux桌面、Steam Deck及新版Steam Machine提供运行Windows游戏的环境。经过多轮Beta测试后，该版本从测试通道正式转入稳定通道。\n\n新版本最直观的变化是游戏兼容性大幅提升。13款此前依赖Steam测试版才能运行的Windows游戏，如《生化危机》《恐龙危机》《合金装备：生存》《战锤：末世鼠疫2》等，现可在Proton稳定版中直接游玩；另有5款游戏首次获得Proton原生支持。同时，更新修复了EA桌面客户端更新导致的多款EA游戏无法运行、Steam界面呼出异常、R星启动器弹窗渲染等问题，并优化了《绝地潜兵2》《微软模拟飞行》《无人深空》《死亡搁浅2》《赛博朋克2077》《巫师3》等热门作品的运行体验。\n\n底层方面，Proton 11.0-1重新同步至Wine 11.0，并升级了Xalia、FEX、VKD3D、DXVK、DXVK-NVAPI、Wine Mono等组件，新增SteamWorks SDK 1.64支持，进一步改善DirectX图形转换、控制器兼容性与整体稳定性。此次更新意味着Linux桌面、Steam Deck及Steam Machine用户可通过Steam正式获得更完善的游戏兼容体验。",
+    "category": "消费电子",
+    "tags": [
+      "游戏兼容层",
+      "Steam Deck",
+      "Linux游戏",
+      "Valve"
+    ],
+    "source": "IT之家",
+    "time": "1分钟前",
+    "ts": "2026-07-08T01:47:22+00:00",
+    "url": "https://www.ithome.com/0/973/865.htm",
+    "image": "https://img.ithome.com/newsuploadfiles/2026/7/8ac30d3a-68d4-43fa-862d-0dd699656c38.png?x-bce-process=image/format,f_auto",
+    "stocks": []
+  },
+  {
+    "id": "82b04fba34822971",
+    "title": "全人源蛋白新药可抑制转移性前列腺癌",
+    "summary": "瑞典于默奥大学及国际合作团队开发出一种完全由人体蛋白质构成的新药，研究显示其可抑制晚期前列腺癌的肿瘤生长及转移。",
+    "body": "据发表于《Signal Transduction and Targeted Therapy》的研究，瑞典于默奥大学（Umeå University）与国际合作者共同研发出一种完全由人体蛋白质构成的新型抗癌药物。该药物在实验中显示出抑制肿瘤生长及阻止侵袭性前列腺癌转移的潜力。\n\n由于药物完全源自人体蛋白质，理论上具有较低的免疫原性，这可能使其在晚期转移性前列腺癌患者中具备更好的安全性与耐受性。研究为开发针对晚期前列腺癌的双效治疗策略提供了新的候选方案，但仍需进一步临床验证。",
+    "category": "生物医药",
+    "tags": [
+      "前列腺癌",
+      "抗癌药物",
+      "蛋白质药物"
+    ],
+    "source": "MedicalXpress",
+    "time": "8分钟前",
+    "ts": "2026-07-07T21:40:04-04:00",
+    "url": "https://medicalxpress.com/news/2026-07-drug-metastatic-prostate-cancer-human.html",
+    "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/study-paves-the-way-fo-1.jpg",
+    "stocks": []
+  },
+  {
     "id": "e285b2725fec8635",
     "title": "新菲光800G光模块满产扩产，目标三年产值400亿",
     "summary": "由欧菲光创始人蔡荣军发起设立的新菲光800G光模块月产能已达10万只，并计划扩产以承接北美头部客户订单，目标三年左右年产值突破400亿元。",
