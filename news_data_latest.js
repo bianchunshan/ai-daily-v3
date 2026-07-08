@@ -1,5 +1,42 @@
 const newsData = [
   {
+    "id": "ed91bafce61924b1",
+    "title": "OpenAI 发布 GPT-Live 语音模型：可边听边说",
+    "summary": "OpenAI 发布新一代全双工语音模型 GPT-Live-1 与 mini，可同步聆听与说话，并调用 GPT-5.5 系列后台处理复杂任务，即日起向全球 ChatGPT 用户开放。",
+    "body": "7 月 9 日，OpenAI 发布 GPT-Live 系列模型，定位新一代全双工语音模型。该模型不再依赖单轮结束后再响应，可在同一时间持续处理输入和输出，每秒多次判断是否说话、倾听、暂停、打断或调用工具，使 AI 对话更接近真人聊天体验。\n\n目前该系列开放 GPT-Live-1 与 GPT-Live-1 mini 两个版本，向全球 ChatGPT 用户开放，其中 GPT-Live-1 面向 Go、Plus 和 Pro 订阅用户，mini 版向免费用户提供。面对复杂任务时，模型会在前台维持语音对话流，同时将网页搜索、深度推理等任务委托给 GPT-5.5 系列模型在后台执行。OpenAI 的内部评测显示，在 5-10 分钟配对对话中，GPT-Live 在整体偏好、轮次衔接、打断情况和流畅自然度等指标上优于此前的 Advanced Voice Mode。\n\nOpenAI 披露，每周已有超过 1.5 亿人通过 Voice 和 Dictation 等功能与 ChatGPT 语音交互。新模型还支持在语音对话中展示天气、股票、体育等可视化卡片，并继续支持搜索、记忆、图片和文件上传。安全方面，该模型在自伤、精神病性症状、情感依赖、暴力及性内容等领域接受了音频原生评测、合成音频评测和红队测试，官方称表现与 Advanced Voice Mode 相当或更优。",
+    "category": "人工智能",
+    "tags": [
+      "语音模型",
+      "OpenAI",
+      "ChatGPT",
+      "全双工"
+    ],
+    "source": "IT之家",
+    "time": "7分钟前",
+    "ts": "2026-07-08T22:41:35+00:00",
+    "url": "https://www.ithome.com/0/974/277.htm",
+    "image": "https://img.ithome.com/newsuploadfiles/2026/7/f6b3eda4-fb2b-44a3-a365-21c9d90bf56b.jpg?x-bce-process=image/format,f_auto",
+    "stocks": []
+  },
+  {
+    "id": "78b06f5931023f27",
+    "title": "AI编码平台Lovable拟融资3亿美元，估值或翻倍至132亿美元",
+    "summary": "据报道，AI编码初创公司Lovable正商谈新一轮约3亿美元融资，由Menlo Ventures领投，投后估值有望从约66亿美元升至132亿美元。",
+    "body": "据TechCrunch援引Sifted消息，AI软件工程平台Lovable正在洽谈新一轮融资，规模约为3亿美元，预计由Menlo Ventures领投。若交易完成，公司估值将从约66亿美元翻倍至约132亿美元。此轮融资将进一步巩固其在AI辅助编程/应用生成领域的市场地位。Lovable的高估值反映出资本市场对AI原生开发工具和智能体应用的高度关注，也可能加剧AI编码赛道的竞争。",
+    "category": "人工智能",
+    "tags": [
+      "AI编程",
+      "初创融资",
+      "智能体应用"
+    ],
+    "source": "TechCrunch",
+    "time": "6分钟前",
+    "ts": "2026-07-08T22:41:33+00:00",
+    "url": "https://techcrunch.com/2026/07/08/lovable-reportedly-in-talks-to-double-its-valuation-to-13-2b/",
+    "image": "",
+    "stocks": []
+  },
+  {
     "id": "4861f2c0035e8141",
     "title": "Meta被曝研发全天候智能眼镜",
     "summary": "据英国《金融时报》报道，Meta正在开发原型“超感知”智能眼镜，可持续录音并每隔几秒拍照，用户随后可向Meta AI询问所捕捉的音频和图像内容。",
