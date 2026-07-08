@@ -1,5 +1,56 @@
 const newsData = [
   {
+    "id": "c029285e00315f8e",
+    "title": "苹果承诺向博通采购300亿美元美国产芯片",
+    "summary": "苹果公司宣布将在其美国制造投资计划框架下，向博通采购价值300亿美元的美国产芯片。该长期协议将强化苹果本土供应链，并为博通带来可观订单。",
+    "body": "苹果宣布将在其美国制造投资计划下，向博通采购总额约300亿美元的美国制造芯片。这一采购规模进一步扩大了苹果对本土半导体供应链的投入，显示其持续将关键芯片生产本地化的战略取向。博通作为苹果重要的芯片供应商，有望借此巩固在无线、网络及定制芯片领域的核心地位。与此同时，该计划也与美国推动先进制造业回流、强化本土科技产业链的政策方向相契合。",
+    "category": "半导体与先进制造",
+    "tags": [
+      "苹果",
+      "博通",
+      "半导体",
+      "美国制造"
+    ],
+    "source": "Engadget",
+    "time": "5分钟前",
+    "ts": "2026-07-08T13:51:08+00:00",
+    "url": "https://www.engadget.com/2210449/apple-pledges-to-buy-30-billion-of-broadcom-us-made-chips/",
+    "image": "https://www.engadget.com/img/gallery/apple-pledges-to-buy-30-billion-of-broadcoms-us-made-chips/l-intro-1783518419.jpg",
+    "stocks": [
+      {
+        "name": "苹果公司",
+        "ticker": "AAPL",
+        "reason": "推进美国本土芯片采购与制造投资计划，降低供应链地缘风险。",
+        "confidence": "high"
+      },
+      {
+        "name": "博通",
+        "ticker": "AVGO",
+        "reason": "获得苹果300亿美元美国产芯片长期大单，利好其核心芯片业务。",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "b86f8b2f0a593379",
+    "title": "HMD Skyline 2 手机海报曝光：蓝黄黑三色可选",
+    "summary": "HMD Skyline 2 手机海报曝光，新机延续初代 Skyline 设计语言，预计提供蓝、黄、黑三种配色，并搭载高通骁龙 7s Gen 4 处理器与 144Hz OLED 屏幕。",
+    "body": "据 IT 之家 7 月 8 日消息，消息源 smashx_60 曝光了 HMD Skyline 2 手机海报，显示该机延续初代 Skyline 的外观设计，目前已知可选蓝、黄、黑三种配色。\n\n配置方面，爆料显示该机正面配备 6.55 英寸 FHD+ 144Hz OLED 面板，峰值亮度 1200 尼特；前置 50MP 自拍镜头，后置 108MP 主摄 + 50MP 长焦 + 50MP 超广角组合；搭载高通骁龙 7s Gen 4 处理器，提供 8/12GB RAM 与 256GB 存储空间；内置 5000mAh 电池，支持 40W 有线充电及 15W Qi2 无线充电。\n\n此外，该机还具备 IP54 防尘防水、第二代快拆设计、双扬声器，底部采用 USB-C 3.2 接口，侧面设有相机按键。作为 HMD 旗下定位中端市场的机型，Skyline 2 的曝光进一步丰富了其在智能手机领域的产品布局。",
+    "category": "消费电子",
+    "tags": [
+      "HMD",
+      "智能手机",
+      "Skyline 2",
+      "消费电子"
+    ],
+    "source": "IT之家",
+    "time": "8分钟前",
+    "ts": "2026-07-08T13:47:42+00:00",
+    "url": "https://www.ithome.com/0/974/256.htm",
+    "image": "https://img.ithome.com/newsuploadfiles/2026/7/9d423346-b336-4a14-abc1-7523e7db8e2f.jpg?x-bce-process=image/format,f_auto",
+    "stocks": []
+  },
+  {
     "id": "2208301515c7ee68",
     "title": "健康研究代表性缺失的伦理与公平问题",
     "summary": "健康研究中的群体代表性不仅影响科学发现，也直接关系到医疗规划、政策制定和资源配置的公平性。忽视特定人群或将加剧健康不平等。",
@@ -179,6 +230,25 @@ const newsData = [
     "time": "16分钟前",
     "ts": "2026-07-08T13:10:13+00:00",
     "url": "https://www.bbc.com/news/technology-64939558",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "d6e7d2a61bb1ba2c",
+    "title": "具身智能新基准RoboDojo发布：最强模型得分仅12.8",
+    "summary": "清华等机构团队发布统一仿真+真实机器人评测基准RoboDojo，覆盖五大核心能力。结果显示当前最强通用机器人策略真实任务成功率仅12.8%，远低于人类专家的100%，暴露出具身智能离可靠通用操作仍有显著差距。",
+    "body": "RoboDojo由RoboTwin团队联合学术机构推出，包含42个仿真任务和18个真实机器人任务，覆盖泛化、记忆、精细操作、长程执行和开放语义理解五大能力，并评测了30个主流机器人策略。该基准还对真实机器人部署进行标准化，统一硬件、光照、复位与评分流程，使真机评测可复现、可比较。榜单显示，仿真环境下最强策略平均成功率仅8.80%，真实世界最好模型为12.8%，而人类专家分别可达76.03%和100%。这表明当前机器人基础模型虽能在demo中完成部分动作，但在复杂、长程、真实物理场景中仍难以稳定完成任务。",
+    "category": "机器人",
+    "tags": [
+      "具身智能",
+      "机器人",
+      "基准测试",
+      "RoboDojo"
+    ],
+    "source": "量子位",
+    "time": "48分钟前",
+    "ts": "2026-07-08T13:07:30+00:00",
+    "url": "https://www.qbitai.com/2026/07/446363.html",
     "image": "",
     "stocks": []
   },
@@ -146175,12 +146245,6 @@ const newsData = [
   }
 ];
 const newsDigest = {
-  "text": "今日科技前沿聚焦：字节发布多模态创作模型，奔驰纯电GLC SUV上市，亚马逊与Cloudflare/OpenAI推进AI智能体与搜索效率，蓝色起源拟百亿美元融资。",
-  "highlights": [
-    "ca06565313dce5a3",
-    "0dd38ec68c46697d",
-    "9228acf452ac398c",
-    "b133ea6defad6522",
-    "42af983a3d710665"
-  ]
+  "text": "",
+  "highlights": []
 };
