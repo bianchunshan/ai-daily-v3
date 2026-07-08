@@ -7855,6 +7855,25 @@ const newsData = [
     "stocks": []
   },
   {
+    "id": "f2a3364a10eb9acc",
+    "title": "Hugging Face 新后端实现原生 vLLM 速度",
+    "summary": "Hugging Face 发布 transformers vLLM 后端，在 Qwen3 系列模型的单 GPU、张量并行与 MoE 并行测试中达到或超越手写原生 vLLM 的吞吐量，模型作者无需迁移代码即可调用超快推理。",
+    "body": "Hugging Face 宣布其 transformers vLLM 后端已能提供与手写原生 vLLM 实现相当、甚至更快的推理速度。通过在 Qwen3-4B（单 GPU）、Qwen3-32B（张量并行）以及 Qwen3-235B-A22B-FP8 MoE（数据+专家并行）三种典型配置下测试，其吞吐量均达到或超过原生实现。模型作者无需将模型代码移植到原生 vLLM，只需在 transformers 中启用对应后端即可获得加速。\n\n该技术主要依赖 torch.fx 对计算图进行静态分析，并借助 AST 代码重写实现动态层融合，从而支持张量并行、流水线并行与专家并行，同时兼容 torch.compile。用户只需添加 `--model-impl transformers` 参数即可切换。目前线性注意力模型尚未支持，但团队表示将很快补齐。\n\n这一进展意味着 Hugging Face 生态的大模型推理门槛进一步降低，开发者可以在保持 transformers 接口兼容性的同时获得接近手写内核的性能，有望加速各类开源模型在生产环境中的部署与推理优化。",
+    "category": "人工智能",
+    "tags": [
+      "Hugging Face",
+      "vLLM",
+      "transformers",
+      "大模型推理"
+    ],
+    "source": "AIHOT精选",
+    "time": "16小时前",
+    "ts": "2026-07-08T00:00:00+00:00",
+    "url": "https://huggingface.co/blog/native-speed-vllm-transformers-backend",
+    "image": "",
+    "stocks": []
+  },
+  {
     "id": "ead2a81f57f5e538",
     "title": "必应开放谷歌苹果账号登录，不再强绑微软账户",
     "summary": "微软Bing已支持用户直接使用Google或Apple账户登录，无需再创建或绑定微软账户。此举旨在降低使用门槛、提升登录便捷性，并推动Microsoft Rewards及Copilot的用户增长。",
