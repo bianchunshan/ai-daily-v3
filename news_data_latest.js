@@ -1,5 +1,43 @@
 const newsData = [
   {
+    "id": "e72d740ee8f81cb7",
+    "title": "色情创作者版权投诉意外清除被黑政府网站诈骗链接",
+    "summary": "诈骗者入侵政府网站发布虚假“泄露”OnlyFans内容广告，成人创作者的大量版权投诉反而触发下架机制，使相关恶意页面被移除，避免用户误入陷阱。",
+    "body": "据报道，攻击者利用政府网站漏洞上传推广所谓“泄露版”OnlyFans成人内容的广告，借此传播恶意链接或实施诈骗。由于大量成人内容创作者针对这些内容提起版权侵权投诉，相关托管服务与搜索引擎的移除机制被触发，导致被篡改的政府网页被下线。这一事件凸显了政府网站安全与内容管理漏洞，也反映出版权投诉机制在网络安全防护中的意外作用。",
+    "category": "网络安全",
+    "tags": [
+      "网络安全",
+      "政府网站",
+      "网络诈骗",
+      "版权投诉"
+    ],
+    "source": "Wired",
+    "time": "4分钟前",
+    "ts": "2026-07-08T10:30:00+00:00",
+    "url": "https://www.wired.com/story/onlyfans-creators-dmca-hacked-government-websites/",
+    "image": "https://media.wired.com/photos/6a4d733cae988deadc1e5529/master/pass/v4-.gif",
+    "stocks": []
+  },
+  {
+    "id": "d49ec9f98fc609a3",
+    "title": "微软遥测助FBI追捕黑客，引发隐私争议",
+    "summary": "FBI通过法院传票获取微软Windows遥测日志，锁定并引渡了19岁爱沙尼亚黑客Peter Stokes，事件再次引发对Windows默认收集GDID及浏览记录的隐私争议。",
+    "body": "据外媒报道，涉嫌参与网络犯罪团伙Scattered Spider的19岁爱沙尼亚人Peter Stokes被捕并被引渡至美国，其落网的关键证据之一来自微软Windows内置遥测数据。FBI向微软发出传票后，微软提供了包含其全球设备标识符（GDID）及所访问网站列表的遥测日志，从而将设备与嫌疑人关联。这一案件凸显了Windows遥测在数字取证中的价值，同时也引发公众对其在家庭版和专业版中默认开启、且缺乏简单关闭选项的隐私担忧。",
+    "category": "网络安全",
+    "tags": [
+      "网络安全",
+      "隐私保护",
+      "Windows",
+      "网络犯罪"
+    ],
+    "source": "Tom's Hardware",
+    "time": "4分钟前",
+    "ts": "2026-07-08T10:30:00+00:00",
+    "url": "https://www.tomshardware.com/tech-industry/cyber-security/arrest-and-extradition-of-scattered-spider-hacker-shines-light-on-how-windows-telemetry-gdids-can-identify-users-microsoft-device-identifier-is-just-one-digital-fingerprint-in-a-software-world-rife-with-them",
+    "image": "https://cdn.mos.cms.futurecdn.net/wqqUyuiXEd3qQNnhnBSYcQ-1280-80.jpg",
+    "stocks": []
+  },
+  {
     "id": "6d4af673829d3b84",
     "title": "腾讯健康与辉瑞中国达成AI医疗战略合作",
     "summary": "辉瑞中国与腾讯健康宣布达成战略合作，双方将结合腾讯在人工智能、云计算和数字生态链接方面的技术能力，以及辉瑞在医疗创新与疾病管理领域的医学经验，探索AI在患者服务、专业学术支持和医疗生态建设等场景的应用。",
