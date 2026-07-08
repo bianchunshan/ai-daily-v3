@@ -1,5 +1,24 @@
 const newsData = [
   {
+    "id": "d8f6be2d3043239b",
+    "title": "LineageOS 推网页刷机工具，安卓 17 版本启动开发",
+    "summary": "LineageOS 团队发布夏季更新，推出浏览器刷机工具与全新更新器应用，并宣布基于 Android 17 的 LineageOS 24 已启动开发，进一步扩大设备支持范围。",
+    "body": "LineageOS 在官网公布最新开发进展，其中最受关注的是网页刷机工具上线。用户可直接在项目下载页面通过浏览器安装系统，该工具支持 Fastboot、ADB 以及三星 Odin 协议，不过团队强调它并不能完全取代传统安装流程，用户仍需参考对应设备的 wiki 说明。与此同时，LineageOS 重做了 Updater 应用，采用 Material 3 Expressive 设计语言，并在安装前显示更新包包含的 Android 安全公告级别；A/B OTA 更新包默认使用流式安装，可减少存储占用并加快安装速度。\n\n在安全更新策略上，LineageOS 已适配 Android 16 的新补丁发布模式，将大部分安全修复纳入季度版本，当前版本仍会测试并合并每月补丁，部分旧分支也会尽量回移植修复。团队还确认随着 Android 17 发布，LineageOS 24 的开发工作已正式启动，但未公布具体时间表。此外，默认图库应用新增 Motion Photos 支持、视频断点续播与双击快进功能，Seedvault、Etar 日历和 Twelve 音乐播放器也获得更新，设备支持列表新增三星、摩托罗拉、索尼、小米等品牌的多款机型。\n\n这些改进意味着 LineageOS 正在降低安装门槛、提升日常更新体验，并借助更广泛的品牌机型支持延续旧设备生命周期，对安卓开源生态与发烧友社区具有积极意义。",
+    "category": "消费电子",
+    "tags": [
+      "LineageOS",
+      "安卓刷机",
+      "开源ROM",
+      "Android 17"
+    ],
+    "source": "IT之家",
+    "time": "3分钟前",
+    "ts": "2026-07-08T05:31:33+00:00",
+    "url": "https://www.ithome.com/0/973/986.htm",
+    "image": "https://img.ithome.com/newsuploadfiles/2026/7/2dff043e-3584-4d56-ade9-9de1fb984493.png?x-bce-process=image/format,f_auto",
+    "stocks": []
+  },
+  {
     "id": "ec1649a8e394b2cd",
     "title": "韩国上半年生物制药出口创历史同期新高",
     "summary": "韩国政府数据显示，今年上半年该国生物制药产品出口额预计达45亿美元，同比增长15.3%，创历史同期新高，占全部药品出口的86.5%。",
