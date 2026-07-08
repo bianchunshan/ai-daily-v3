@@ -1,5 +1,23 @@
 const newsData = [
   {
+    "id": "e0012ebc5cabdfa9",
+    "title": "前DeepMind高管警告AI军备竞赛或酿灾难",
+    "summary": "前DeepMind全球政策负责人Verity Harding在接受《连线》采访时表示，美国政府对人工智能的民族主义态度表明，最坏情况正在成形。",
+    "body": "据英国《连线》报道，谷歌DeepMind前全球政策负责人Verity Harding警告称，美国政府对人工智能的民族主义立场，正是AI发展正滑向灾难性情景的证据。她将当前大国之间的AI竞争与历史军备竞赛相提并论，认为单边主义和过度安全化的叙事可能加剧全球分裂与技术风险。\n\nHarding呼吁国际社会在AI治理上加强合作，避免将人工智能完全置于国家安全与民族竞争的框架下。这一观点再次凸显了前沿AI技术快速发展与全球治理机制滞后之间的张力，也可能促使政策制定者和企业重新评估AI竞赛的速度与方向。",
+    "category": "人工智能",
+    "tags": [
+      "AI安全",
+      "人工智能治理",
+      "地缘政治"
+    ],
+    "source": "Wired",
+    "time": "2分钟前",
+    "ts": "2026-07-08T09:30:00+00:00",
+    "url": "https://www.wired.com/story/verity-harding-ai-arms-race-dangers-anthology/",
+    "image": "https://media.wired.com/photos/6a4be55744dc79c43267387c/master/pass/DeepMind-Alum-QandA-Verity-Harding-Business.jpg",
+    "stocks": []
+  },
+  {
     "id": "6e35f6d2f02b49a8",
     "title": "酷态科10号电能基站万象屏套装降至218元新低",
     "summary": "酷态科10号电能基站「万象屏套装」叠加官方直降、平台补贴、淘金币抵扣及88VIP消费券后，到手价约218元，创下官方渠道新低。该产品集成AC+USB八口输出，支持米家智能互联与OTA升级。",
