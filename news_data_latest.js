@@ -1,5 +1,76 @@
 const newsData = [
   {
+    "id": "f616696610d31d48",
+    "title": "小米正式推出增程SUV品牌“Sky Nomad”",
+    "summary": "小米官方确认其全新增程电动汽车（EREV）项目命名为Sky Nomad，首款车型为全尺寸SUV，综合续航有望超过1500公里。这标志着小米将直接挑战理想汽车和华为支持的问界在中国增程家庭SUV市场的主导地位。",
+    "body": "小米官方正式确认旗下全新增程电动汽车（EREV）项目命名为“Sky Nomad”，结束了数月的市场传闻。该品牌首款车型定位为全尺寸SUV，预计综合续航里程将超过1500公里（约932英里），瞄准中国热门的家庭SUV市场。这一举措意味着小米汽车业务从纯电动进一步扩展至增程技术路线，以覆盖更多对长途续航有需求的用户群体。同时，小米将与理想汽车、华为旗下问界等品牌形成正面竞争，这些品牌目前在中国增程家庭SUV细分市场占据主导地位。",
+    "category": "未来能源",
+    "tags": [
+      "小米汽车",
+      "增程电动车",
+      "Sky Nomad",
+      "SUV"
+    ],
+    "source": "Electrek",
+    "time": "2分钟前",
+    "ts": "2026-07-08T17:44:46+00:00",
+    "url": "https://electrek.co/2026/07/08/xiaomi-sky-nomad-erev-brand-official/",
+    "image": "https://electrek.co/wp-content/uploads/sites/3/2026/06/Xiaomi-electric-suv.jpeg?quality=82&#038;strip=all&#038;w=1600",
+    "stocks": [
+      {
+        "name": "小米集团",
+        "ticker": "1810.HK",
+        "reason": "小米推出Sky Nomad增程SUV品牌，拓展汽车产品矩阵，增强在高端家用SUV市场的竞争力",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "a4053e7f84e40755",
+    "title": "UCSF研究：生酮饮食有望改善精神病性障碍",
+    "summary": "加州大学旧金山分校团队在《Schizophrenia Bulletin》发表首个随机对照试验，显示生酮饮食对精神分裂症谱系或双相I型障碍患者在代谢、精神症状和认知方面均有改善。",
+    "body": "该研究纳入精神分裂症谱系或双相I型障碍患者，在为期一个月的开臂随机对照试验中，生酮饮食组相比常规饮食出现更快速的代谢指标改善。随后约四个月的可选单臂延伸期内，继续坚持生酮饮食的患者在代谢、精神症状及认知评估中均出现有意义提升。研究提示，饮食干预可能成为精神疾病的辅助疗法，但尚需更大规模、长期对照试验验证其安全性与疗效。",
+    "category": "生物医药",
+    "tags": [
+      "生酮饮食",
+      "精神分裂症",
+      "双相障碍",
+      "临床试验"
+    ],
+    "source": "MedicalXpress",
+    "time": "7分钟前",
+    "ts": "2026-07-08T13:40:05-04:00",
+    "url": "https://medicalxpress.com/news/2026-07-randomized-trial-ketogenic-diet-psychotic.html",
+    "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/keto-diet-1.jpg",
+    "stocks": []
+  },
+  {
+    "id": "2b39a9099fa6fd0e",
+    "title": "GPT-Live语音AI接入ChatGPT，OpenAI推出自然对话功能",
+    "summary": "OpenAI推出GPT-Live智能语音AI，已向ChatGPT推送，可提供自然对话式交互体验，同时API和Codex版本正在开发中。",
+    "body": "据OpenAI联合创始人Greg Brockman透露，GPT-Live智能语音AI已登陆ChatGPT。该技术旨在提供接近自然对话的语音交互体验，测试团队认为当前功能仍只是其潜力的初步展现。除面向ChatGPT用户推出外，GPT-Live的API和Codex版本也在开发中，未来有望拓展至开发者和编程场景。这一进展标志着OpenAI在语音交互和多模态应用上的持续布局，可能进一步降低人机交互门槛，推动AI助手在消费级和企业级场景的渗透。",
+    "category": "人工智能",
+    "tags": [
+      "OpenAI",
+      "ChatGPT",
+      "语音AI",
+      "多模态"
+    ],
+    "source": "AIHOT精选",
+    "time": "11分钟前",
+    "ts": "2026-07-08T17:35:55+00:00",
+    "url": "https://x.com/gdb/status/2074910365377568948",
+    "image": "",
+    "stocks": [
+      {
+        "name": "微软",
+        "ticker": "MSFT",
+        "reason": "微软是OpenAI主要投资方和战略合作伙伴，ChatGPT新功能有望强化其Copilot及云业务生态",
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
     "id": "86af6249d5dc9ced",
     "title": "MG 07电动轿跑将搭载半固态电池在中国上市",
     "summary": "上汽旗下MG品牌全新电动轿跑MG 07即将在中国市场开售，搭载半固态电池，续航约610公里，售价约2.2万美元，并配备“女王”化妆台等高端配置。",
@@ -253,6 +324,25 @@ const newsData = [
     "ts": "2026-07-08T17:00:00+00:00",
     "url": "https://www.engadget.com/2210651/chatgpt-new-voice-mode-will-slow-down-if-you-tell-it-to/",
     "image": "https://www.engadget.com/img/gallery/chatgpts-new-voice-mode-will-slow-down-if-you-tell-it-to/l-intro-1783529796.jpg",
+    "stocks": []
+  },
+  {
+    "id": "06cdfc15d3ad3f3e",
+    "title": "欧盟重启私人消息扫描规则只差一步",
+    "summary": "欧盟正推进一项立法提案，拟恢复对端到端加密私人消息的内容扫描，以打击儿童性虐待材料传播。该提案距离最终通过仅剩关键一步，引发隐私与安全领域的广泛争议。",
+    "body": "欧洲议会相关委员会已推进此项立法草案，允许服务提供商在端到端加密通信中部署自动化扫描技术，以检测儿童性虐待材料（CSAM）。批评者担忧，这种扫描机制可能削弱加密保护、扩大监控范围，并构成对私人通信隐私的系统性威胁。\n\n若该规则正式落地，欧盟境内的主流加密通讯平台与社交媒体运营商或将被迫调整其产品架构与合规策略，相关隐私安全标准也可能产生外溢效应，影响全球科技行业的合规实践。",
+    "category": "网络安全",
+    "tags": [
+      "网络安全",
+      "隐私保护",
+      "加密通信",
+      "欧盟监管"
+    ],
+    "source": "Hacker News",
+    "time": "54分钟前",
+    "ts": "2026-07-08T16:53:06+00:00",
+    "url": "https://cyberinsider.com/eu-now-one-step-away-from-reviving-private-message-scanning-rules/",
+    "image": "",
     "stocks": []
   },
   {
