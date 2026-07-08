@@ -1,5 +1,24 @@
 const newsData = [
   {
+    "id": "1c2bf56d436992a0",
+    "title": "Fi Ultra成首款Starlink卫星狗用追踪器",
+    "summary": "Fi发布Fi Ultra狗用追踪器，号称首款集成T-Satellite与Starlink的消费级可穿戴设备，可在传统网络覆盖不足地区提供卫星级定位。",
+    "body": "智能宠物科技公司Fi发布Fi Ultra Dog Tracker，内置T-Satellite与Starlink卫星连接、GPS及LTE，旨在让宠物在几乎任何地点都能被追踪。此前市面上的宠物追踪器在LTE或GPS信号弱的偏远区域效用有限，卫星级定位对喜欢户外活动的犬主和探险犬类是一层额外安全保障。Fi Ultra的推出标志着卫星通信正加速向消费级可穿戴设备渗透，也拓宽了宠物智能硬件和物联网的应用场景。",
+    "category": "消费电子",
+    "tags": [
+      "智能宠物",
+      "可穿戴设备",
+      "卫星通信",
+      "Starlink"
+    ],
+    "source": "Tom's Hardware",
+    "time": "4分钟前",
+    "ts": "2026-07-08T13:11:25+00:00",
+    "url": "https://www.tomshardware.com/peripherals/wearable-tech/fi-ultra-becomes-first-dog-tracker-powered-by-starlink-satellites-the-fi-ultra-dog-tracker-makes-fido-trackable-via-satellite-onboard-gps-and-lte-connectivity",
+    "image": "https://cdn.mos.cms.futurecdn.net/YBZ4NMTFyoZRkzfJpUSTjm-1280-80.jpg",
+    "stocks": []
+  },
+  {
     "id": "0dd38ec68c46697d",
     "title": "奔驰纯电GLC SUV上市：29.99万元起，续航680km",
     "summary": "全新奔驰纯电GLC SUV正式上市，售价29.99万元起，搭载宁德时代三元锂电池，CLTC续航最高703km，10%至80%快充仅需22分钟。",
