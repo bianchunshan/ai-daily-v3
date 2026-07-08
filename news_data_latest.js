@@ -1,5 +1,57 @@
 const newsData = [
   {
+    "id": "05db6b4a9d5df3d0",
+    "title": "REDMI Note 17 定档7月14日发布，产品经理暗示或涨价",
+    "summary": "REDMI Note 17系列将于7月14日发布，产品经理在微博回应涨价问题时称“做好心理准备”，引发市场对新品定价的关注。",
+    "body": "7月8日，REDMI红米手机官微宣布“国民小金刚”Note 17系列定档7月14日19时发布，号称“升配不升档”，主打超长续航、更持久耐用。小米REDMI产品经理@笋寸也在微博预热新机，称其ID和CMF“堪称Note史上最佳”。\n\n针对网友询问REDMI Note 17系列是否会涨价，她回应称“做好心理准备”，这一表态被市场解读为新品价格可能上调。目前官方尚未公布具体售价，但涨价预期已引发消费者与投资者关注。\n\n爆料显示，该系列主打9K级大容量单电芯电池、1.5K大直屏、大音量双扬声器、满级防水防摔，并采用骁龙6系低功耗芯片；REDMI官方今日还放出了Note 17 Pro“晴空蓝”新配色的外观图，宣称灵感源自清晨天空。",
+    "category": "消费电子",
+    "tags": [
+      "小米",
+      "REDMI",
+      "智能手机",
+      "中端手机"
+    ],
+    "source": "IT之家",
+    "time": "1分钟前",
+    "ts": "2026-07-08T11:14:02+00:00",
+    "url": "https://www.ithome.com/0/974/219.htm",
+    "image": "https://img.ithome.com/newsuploadfiles/2026/7/de847fea-4f77-4517-82b6-97284bb54f2e.jpg?x-bce-process=image/format,f_auto",
+    "stocks": [
+      {
+        "name": "小米集团-W",
+        "ticker": "1810.HK",
+        "reason": "REDMI Note 17系列为小米旗下中端走量机型，新品发布及定价策略将直接影响其手机业务销量与营收表现。",
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
+    "id": "9d3fce9b07306279",
+    "title": "特斯拉Cybercab采用RIM新工艺，喷漆缩至数分钟",
+    "summary": "特斯拉确认Cybercab将采用反应注射成型（RIM）工艺，把颜色直接融入车身面板，使喷漆周期从数小时缩短至数分钟，并可减少相关制造及供应链环节碳排放35%、消除挥发性有机化合物排放。",
+    "body": "特斯拉在X平台确认，其自动驾驶出租车Cybercab将采用反应注射成型（RIM）工艺，将颜料作为聚合物混合物的一部分注入模具，使车身面板脱模时即拥有最终颜色，无需传统多道喷涂。透明保护层可在模具内完成或通过更快速的后处理完成，从而将每块面板的喷漆流程从数小时压缩到数分钟。\n\n这一工艺可使相关零部件制造及供应链环节的碳排放减少约35%，并彻底消除传统喷漆产生的挥发性有机化合物（VOC）排放。取消独立的喷漆车间还有助于降低建厂成本、压缩产线占地面积并简化制造流程，与马斯克长期以来追求的“无喷漆车间”制造理念一致。\n\n此前Cybertruck采用不锈钢外壳正是为了跳过喷漆环节。Cybercab则代表特斯拉将RIM这一成熟工艺首次应用于车身外覆盖件，是其Robotaxi量产降本路径中的关键制造创新，可能对后续车型制造工艺产生示范效应。",
+    "category": "机器人",
+    "tags": [
+      "特斯拉",
+      "Cybercab",
+      "汽车制造",
+      "自动驾驶"
+    ],
+    "source": "IT之家",
+    "time": "7分钟前",
+    "ts": "2026-07-08T11:08:28+00:00",
+    "url": "https://www.ithome.com/0/974/215.htm",
+    "image": "https://img.ithome.com/newsuploadfiles/2026/7/ab5a8276-a47f-4170-a1f3-d0c42b318029.jpg",
+    "stocks": [
+      {
+        "name": "特斯拉",
+        "ticker": "TSLA",
+        "reason": "Cybercab直接应用RIM新工艺，可显著降低制造成本、环保投入并加速Robotaxi量产落地，直接利好特斯拉。",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
     "id": "3c53140113919b78",
     "title": "智谱AI配售发行1980万股H股",
     "summary": "据财联社报道，智谱已通过配售方式发行1980万股H股。这是人工智能企业智谱AI在资本市场的一次股权融资动作。",
@@ -41,6 +93,32 @@ const newsData = [
         "ticker": "000725.SZ",
         "reason": "公司公告半年度净利润大幅增长，直接受益LCD业绩改善与柔性AMOLED出货增长。",
         "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "b3b0c8621e3af66b",
+    "title": "LG Micro RGB Evo电视评测：画质出色但价格不菲",
+    "summary": "《Wired》评测认为，LG Micro RGB Evo电视色彩鲜艳、亮度出众，但售价较高，是否比低价竞品更值得购买仍难下定论。",
+    "body": "《Wired》对LG新款Micro RGB Evo电视进行了评测，认为其显示效果明亮、色彩表现突出，能带来视觉冲击力较强的观看体验。不过，这款电视定价不菲，评测者表示在面对更便宜的竞争对手时，难以判断它是否值得消费者额外支出。对于追求高端画质的用户而言，它或是一个可选方案，但对预算敏感型消费者的吸引力可能有限。",
+    "category": "消费电子",
+    "tags": [
+      "电视",
+      "消费电子",
+      "LG",
+      "Micro RGB"
+    ],
+    "source": "Wired",
+    "time": "14分钟前",
+    "ts": "2026-07-08T11:01:00+00:00",
+    "url": "https://www.wired.com/review/lg-micro-rgb-evo/",
+    "image": "https://media.wired.com/photos/6a4d484870c8efed0e484179/master/pass/Review--LG-Micro-RGB-Evo.jpg",
+    "stocks": [
+      {
+        "name": "LG电子",
+        "ticker": "066570.KS",
+        "reason": "评测产品为LG电子推出的高端Micro RGB Evo电视，市场反响可能影响其消费电子业务表现",
+        "confidence": "low"
       }
     ]
   },
