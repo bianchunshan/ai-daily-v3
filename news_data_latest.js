@@ -1,5 +1,62 @@
 const newsData = [
   {
+    "id": "2f30f5e21698d29f",
+    "title": "Prime Intellect获1.3亿美元A轮融资，估值10亿美元",
+    "summary": "AI初创公司Prime Intellect完成1.3亿美元A轮融资，由Radical Ventures领投，估值达10亿美元，资金将用于帮助企业构建自有AI Agent。",
+    "body": "成立仅两年的AI初创公司Prime Intellect宣布完成1.3亿美元A轮融资，本轮由Radical Ventures领投，公司估值达到10亿美元。Prime Intellect致力于为企业提供构建自主AI Agent的工具与基础设施，本轮融资将支持其技术研发与市场拓展。\n\n此次融资反映了资本市场对AI Agent企业级应用的高度关注，也显示出企业客户在自动化流程和智能代理方面的需求持续增长。随着生成式AI向企业场景渗透，帮助企业拥有并部署专属AI Agent的解决方案正成为新的竞争热点。",
+    "category": "人工智能",
+    "tags": [
+      "AI Agent",
+      "企业级AI",
+      "融资",
+      "Radical Ventures"
+    ],
+    "source": "TechCrunch",
+    "time": "4分钟前",
+    "ts": "2026-07-08T16:22:38+00:00",
+    "url": "https://techcrunch.com/2026/07/08/prime-intellect-raises-130m-series-a-to-help-enterprises-build-their-own-ai-agents/",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "3cf998c127ae901a",
+    "title": "新综合数据平台有望革新阿尔茨海默病研究与治疗",
+    "summary": "随着全球人口老龄化加剧且缺乏预防性疗法，阿尔茨海默病正成为重大公共卫生挑战。一款新的综合数据平台有望整合疾病相关信息，帮助研究人员克服发病机制复杂、个体差异大等难题，从而推动诊疗进展。",
+    "body": "阿尔茨海默病及相关痴呆症在全球人口老龄化背景下，将带来更严峻的公共卫生压力。目前尚无有效的预防性治疗手段，且该疾病在症状出现前可能存在长达数年的脑内变化，导致机制研究极为困难。同时，不同患者在病因和病程进展上存在显著差异，进一步增加了研究复杂度。\n\n在此背景下，一个新型综合数据平台被认为有望改变阿尔茨海默病的研究与治疗方式。通过整合多维数据，该平台可能帮助科研人员更全面地理解疾病发展规律，加速早期识别与个性化干预策略的探索。其意义在于弥合数据分散与个体差异带来的研究鸿沟，为未来的治疗突破提供支撑。",
+    "category": "生物医药",
+    "tags": [
+      "阿尔茨海默病",
+      "数据平台",
+      "数字医疗",
+      "生物医药"
+    ],
+    "source": "MedicalXpress",
+    "time": "7分钟前",
+    "ts": "2026-07-08T12:20:08-04:00",
+    "url": "https://medicalxpress.com/news/2026-07-comprehensive-platform-alzheimer-treatment.html",
+    "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/new-comprehensive-data.jpg",
+    "stocks": []
+  },
+  {
+    "id": "6b7a3c33eb06ec7f",
+    "title": "哥本哈根研究：减重后运动对心血管优于减肥药",
+    "summary": "丹麦哥本哈根大学一项新研究表明，严重肥胖者在减重后坚持运动，其血管健康状况和炎症水平优于单纯依赖减肥药物的人群。",
+    "body": "这项来自丹麦哥本哈根大学的研究指出，在成功减重后，定期进行体育锻炼的严重肥胖者，其血管健康更佳，体内炎症水平也更低。相比之下，单纯依靠减重药物而未坚持运动的人群，心血管相关指标改善有限。研究提示，药物治疗应结合运动干预，以更有效降低心血管疾病风险并改善长期代谢健康。",
+    "category": "生物医药",
+    "tags": [
+      "生物医药",
+      "肥胖症",
+      "心血管健康",
+      "减肥药物"
+    ],
+    "source": "MedicalXpress",
+    "time": "7分钟前",
+    "ts": "2026-07-08T12:20:04-04:00",
+    "url": "https://medicalxpress.com/news/2026-07-weight-loss-cardiovascular-health-medication.html",
+    "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/group-workout-class.jpg",
+    "stocks": []
+  },
+  {
     "id": "6555bc3f0602a3e0",
     "title": "美国保险巨头遭网络攻击，数百万驾照号码泄露",
     "summary": "美国一家保险巨头遭遇网络攻击，导致数百万驾照号码泄露。这是2026年迄今已知最大规模的驾照号码泄露事件，凸显了网络安全风险的严峻性。",
@@ -155,6 +212,25 @@ const newsData = [
     "ts": "2026-07-08T15:41:06+00:00",
     "url": "https://techcrunch.com/2026/07/08/these-ai-startups-are-growing-revenue-at-faster-and-faster-rates/",
     "image": "",
+    "stocks": []
+  },
+  {
+    "id": "159372b4669578d3",
+    "title": "Waymo 无人出租制止乘客玩具枪射击行为",
+    "summary": "美国加州两名青少年在乘坐 Waymo 无人出租车时用玩具枪向车外射击并饮酒，车辆自动停下并报警，警方将两人拘留。此事显示自动驾驶出租车可主动监管乘客行为。",
+    "body": "美国加州圣马特奥警方通报，两名青少年在乘坐 Waymo 无人出租车时，使用 Orbeez 玩具珠弹枪向车外射击，并在车内饮酒。车辆系统识别异常后自动停下，并拨打 911 报警，警方随后到场将两人带走。警方表示，这是 Waymo 无人出租车再次向执法部门举报车内违规行为；此前洛杉矶也有乘客因车内饮酒被车辆系统举报。\n\n这一事件表明，在无人值守的自动驾驶场景中，车辆可通过车载监控和远程运营主动干预安全与秩序问题。同时，也可能引发公众对自动驾驶出租车隐私、责任划分和运营边界的进一步讨论。",
+    "category": "机器人",
+    "tags": [
+      "自动驾驶",
+      "无人出租车",
+      "Waymo",
+      "公共安全"
+    ],
+    "source": "Ars Technica",
+    "time": "46分钟前",
+    "ts": "2026-07-08T15:40:44+00:00",
+    "url": "https://arstechnica.com/cars/2026/07/two-teens-learn-the-hard-way-not-to-do-toy-gun-drivebys-from-a-waymo/",
+    "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/07/waymo-orbeez-1152x648.jpg",
     "stocks": []
   },
   {
