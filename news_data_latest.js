@@ -1,5 +1,50 @@
 const newsData = [
   {
+    "id": "6555bc3f0602a3e0",
+    "title": "美国保险巨头遭网络攻击，数百万驾照号码泄露",
+    "summary": "美国一家保险巨头遭遇网络攻击，导致数百万驾照号码泄露。这是2026年迄今已知最大规模的驾照号码泄露事件，凸显了网络安全风险的严峻性。",
+    "body": "TechCrunch报道，美国一家大型保险公司遭受网络攻击，数百万个驾照号码被泄露。该事件成为2026年以来已知的最大规模驾照号码泄露案。此类数据可用于身份欺诈、金融诈骗等犯罪活动，对受害者构成长期风险。事件再次暴露了保险、金融等数据密集型行业面临的网络安全威胁，也提醒企业需加强数据保护、访问控制和事件响应能力，相关监管机构可能进一步加大对关键基础设施和个人隐私保护的审查。",
+    "category": "网络安全",
+    "tags": [
+      "网络安全",
+      "数据泄露",
+      "身份盗用",
+      "网络攻击"
+    ],
+    "source": "TechCrunch",
+    "time": "2分钟前",
+    "ts": "2026-07-08T16:14:49+00:00",
+    "url": "https://techcrunch.com/2026/07/08/another-massive-data-breach-exposed-millions-of-drivers-license-numbers/",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "30b6cdb57f073f67",
+    "title": "三星多款新机官方渲染图泄露",
+    "summary": "三星Galaxy Z Flip 8、Z Fold 8、Watch 9及Watch 2 Ultra的官方渲染图在Unpacked发布会前提前泄露，展示了新品外观设计。",
+    "body": "据外媒报道，距离三星下一次Galaxy Unpacked发布会还有数周时间，Galaxy Z Flip 8、Z Fold 8、Galaxy Watch 9及Galaxy Watch 2 Ultra等多款新设备的官方渲染图已提前泄露。这些渲染图揭示了新一代折叠屏手机和智能手表的外观设计，引发市场关注。此次泄露正值全球消费电子市场竞争加剧之际，三星新款可折叠设备和可穿戴产品的亮相或将影响其下半年的产品节奏和市场表现。",
+    "category": "消费电子",
+    "tags": [
+      "三星",
+      "折叠屏手机",
+      "智能手表",
+      "产品泄露"
+    ],
+    "source": "Engadget",
+    "time": "4分钟前",
+    "ts": "2026-07-08T16:12:59+00:00",
+    "url": "https://www.engadget.com/2210595/samsuing-z-flip-8-watch-9-watch-2-ultra-z-fold-8-render-leak/",
+    "image": "https://www.engadget.com/img/gallery/official-renders-for-samsungs-galaxy-z-flip-8-watch-9-watch-2-ultra-and-z-fold-8-leak/l-intro-1783527075.jpg",
+    "stocks": [
+      {
+        "name": "三星电子",
+        "ticker": "005930.KS",
+        "reason": "泄露涉及其新一代旗舰折叠屏手机和智能手表，新品发布有望带动硬件销量与品牌关注",
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
     "id": "80c4087ec42fb2e4",
     "title": "澳大利亚癌症临床试验性别差异报告比例下降，患者风险上升",
     "summary": "研究显示，澳大利亚癌症临床试验中按性别分别报告结果的比例不足2%，且呈下降趋势。女性癌症患者更可能遭遇严重副作用，但缺乏分性别数据使医生难以判断治疗方案的安全性与有效性是否男女同等。",
