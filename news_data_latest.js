@@ -1,5 +1,31 @@
 const newsData = [
   {
+    "id": "d505720327c77030",
+    "title": "SiPearl Rhea CPU回片点亮，欧洲首款自主HPC处理器迈向2026量产",
+    "summary": "SiPearl为欧洲开发的Rhea1处理器已从晶圆厂回片并开始bring-up，计划于2026年底至2027年初商用，目标是为欧洲提供首款主权HPC CPU。",
+    "body": "SiPearl的Rhea1处理器历时五年开发，近日从晶圆厂拿回样片并进入点亮（bring-up）阶段。该芯片集成80个Arm Neoverse V1核心，每个核心配备1 MB L2缓存，并搭载80 MB系统级缓存、104条PCIe 5.0通道以及四个HBM2E接口，可提供64 GB高带宽内存，面向超算等高性能计算场景。SiPearl副总裁Craig Prunty表示，Rhea1预计2026年底可供货，2027年初正式推向市场，虽然未必是性能最强的HPC CPU，但已吸引一些预期之外的潜在客户关注。该芯片若顺利量产，将有助于降低欧洲在高性能计算核心硬件上对外部供应商的依赖，提升欧洲超算与AI基础设施的自主可控水平。",
+    "category": "半导体与先进制造",
+    "tags": [
+      "SiPearl",
+      "Rhea1",
+      "HPC",
+      "Arm"
+    ],
+    "source": "Tom's Hardware",
+    "time": "2分钟前",
+    "ts": "2026-07-08T14:44:59+00:00",
+    "url": "https://www.tomshardware.com/pc-components/cpus/sipearls-long-awaited-rhea-cpu-finally-gets-in-the-lab-opening-the-door-for-europes-first-sovereign-hpc-cpu-availability-of-rhea1-is-scheduled-for-end-of-2026-sipearl-vp-says-following-long-development-process",
+    "image": "https://cdn.mos.cms.futurecdn.net/VGJhvQT8RdNLDCTZLToTUK-1280-80.jpg",
+    "stocks": [
+      {
+        "name": "Arm Holdings",
+        "ticker": "ARM",
+        "reason": "Rhea1采用Arm Neoverse V1架构，若该欧洲HPC CPU成功量产，将为Arm高端服务器IP带来新增应用与授权需求。",
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
     "id": "34c2e0a61af80ef2",
     "title": "谷歌 Pixel 全线产品今年可能涨价",
     "summary": "据报道，谷歌即将推出的 Pixel 智能手表等新品起售价可能高于去年，其中 41mm Pixel Watch 5 基础款或涨至 399 美元，LTE 版可能达 499 美元。",
