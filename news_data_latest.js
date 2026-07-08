@@ -1,5 +1,24 @@
 const newsData = [
   {
+    "id": "3dda4eff71bca1be",
+    "title": "羊膜腔灌注术帮助肾衰竭胎儿产后存活",
+    "summary": "研究人员利用子宫内液体灌注，为肾功能不足、无法产生足够羊水的胎儿提供支持，使其在出生后获得生存机会。",
+    "body": "对于早期诊断出胎儿肾功能严重不全、无法生成维持生命的羊水的孕妇，以往胎儿出生后几乎无法存活。新报道显示，通过向子宫内注入液体进行羊膜腔灌注，可弥补羊水不足，改善胎儿肺部发育和生长环境，从而提高其产后存活率。这一进展为先天性肾衰竭等疾病的产前干预提供了新思路，具有潜在的临床转化价值。",
+    "category": "生物医药",
+    "tags": [
+      "胎儿医学",
+      "产前干预",
+      "肾脏疾病",
+      "羊水灌注"
+    ],
+    "source": "MedicalXpress",
+    "time": "刚刚",
+    "ts": "2026-07-08T19:40:04-04:00",
+    "url": "https://medicalxpress.com/news/2026-07-womb-fluid-infusions-fetuses-kidney.html",
+    "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/fetus.jpg",
+    "stocks": []
+  },
+  {
     "id": "7566d65a0399c3c7",
     "title": "IDC：2026Q2全球PC出货量下滑，苹果Mac逆势增长10.1%",
     "summary": "IDC报告显示，2026年第二季度全球PC出货量同比下降4.9%至6820万台，结束此前连续9季增长；苹果Mac出货量同比增长10.1%，在前五大厂商中表现最佳。",
@@ -149878,6 +149897,12 @@ const newsData = [
   }
 ];
 const newsDigest = {
-  "text": "",
-  "highlights": []
+  "text": "今日科技前沿聚焦：OpenAI、智谱等AI巨头在模型与资本层面动作频频，Meta、MasTec加码AI基础设施，苹果Mac在PC市场逆势增长，半导体与航天领域亦有重要进展。",
+  "highlights": [
+    "65ce9a3828958102",
+    "48391f9bd826efd4",
+    "98ae23b565b4d1fa",
+    "742d9036f423108a",
+    "7566d65a0399c3c7"
+  ]
 };
