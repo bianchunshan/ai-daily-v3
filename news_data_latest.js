@@ -1,5 +1,75 @@
 const newsData = [
   {
+    "id": "97f94c8f854e56aa",
+    "title": "亚马逊推进Alexa AI智能体项目，内部担忧成本高昂",
+    "summary": "据报道，亚马逊正研发代号“Moonraker”的Alexa新计划，旨在让语音助手处理多步骤复杂任务。但内部文件显示该项目研发和运行成本极高，预计2026年GPU算力开销超过1亿美元，引发公司内部担忧。",
+    "body": "据《商业内幕》报道，亚马逊正在推进一项名为“Moonraker”的Alexa新计划，目标是让用户通过单次语音交互完成多步骤、跨应用的复杂任务，例如同时叫车和发短信，将Alexa从单一指令响应工具升级为AI智能体。今年初，亚马逊推出了基于生成式AI重建的Alexa+，Moonraker被视为其进一步演进方向，计划采用Anthropic Sonnet模型提供高级推理和视觉响应能力，并准备部署数百块英伟达GPU。\n\n然而，该项目的高昂成本在内部引发广泛担忧。内部文件显示，Moonraker在最新一轮Alexa+升级中迅速成为成本最高的项目之一，预计2026年仅GPU算力开销就将超过1亿美元，推迟或缩减规模被视为缓解成本压力的可行方案。部分高管认为，团队在为驱动Alexa的AI模型上支出过高，运行成本日益成为焦点。\n\n如果项目落地，可能显著增强Alexa在生成式AI和智能体赛道的竞争力，但也考验亚马逊的投入产出平衡与规模化能力，对AI芯片和云服务供应链亦有影响。",
+    "category": "人工智能",
+    "tags": [
+      "亚马逊",
+      "Alexa",
+      "AI智能体",
+      "生成式AI"
+    ],
+    "source": "IT之家",
+    "time": "6分钟前",
+    "ts": "2026-07-08T13:19:34+00:00",
+    "url": "https://www.ithome.com/0/974/247.htm",
+    "image": "https://img.ithome.com/newsuploadfiles/2026/7/2293095e-4664-4e19-a5fb-713856d2d651.jpg?x-bce-process=image/format,f_auto",
+    "stocks": [
+      {
+        "name": "亚马逊",
+        "ticker": "AMZN",
+        "reason": "Moonraker项目直接强化其语音助手与AI智能体布局，有望提升智能助手竞争力与潜在服务收入。",
+        "confidence": "high"
+      },
+      {
+        "name": "英伟达",
+        "ticker": "NVDA",
+        "reason": "亚马逊准备部署数百块英伟达GPU支持Moonraker，直接拉动GPU需求。",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "52dc1b46aec3cadf",
+    "title": "Slopfix收费每周1万美元用AI删除AI代码冗余",
+    "summary": "初创团队Slopfix推出固定价格服务，利用AI编码代理重构并精简AI生成的代码库，承诺一周内将代码量最多削减65%，同时保持功能不变。",
+    "body": "据外媒报道，名为“Slopfix”的软件团队推出了一项固定收费服务：每周收费1万美元，专门为客户清理AI生成的“代码膨胀”。该团队会先免费分析客户代码仓库，若认为无法显著瘦身则放弃接单；接单后会先撰写详细的功能清单，再依托AI编码代理找出并合并冗余代码，例如将10万行项目压缩至3.5万行，同时保持原有功能。完成后，客户将获得精简代码、回归检查清单及防止未来膨胀的规范文件与CI检查规则，并享有两周质保。\n\nSlopfix创始人表示，团队按实际缩减比例收费，目标是“靠删代码赚钱”。这一服务虽然讽刺地用AI来解决AI生成的代码质量问题，但也反映了生成式AI在提升编码效率的同时，带来了代码冗余、可维护性下降等副作用。业内人士关注，这可能会催生新的AI辅助代码治理与重构细分市场。",
+    "category": "人工智能",
+    "tags": [
+      "AI代码",
+      "代码清理",
+      "AI Agent",
+      "软件工程"
+    ],
+    "source": "Tom's Hardware",
+    "time": "6分钟前",
+    "ts": "2026-07-08T13:19:17+00:00",
+    "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/a-team-of-engineers-called-slopfix-charges-10000-a-week-to-delete-ai-generated-code-using-ai-agents",
+    "image": "https://cdn.mos.cms.futurecdn.net/Kc5XZJfVxj3uECzne3uBJ3-1280-80.jpg",
+    "stocks": []
+  },
+  {
+    "id": "96cbdfcf02090382",
+    "title": "索尼放弃实体光盘遭4亿欧元集体诉讼",
+    "summary": "索尼计划2028年前停止为第一方游戏发行实体光盘，引发荷兰消费者组织发起超4亿欧元集体诉讼，指控其将垄断数字游戏定价并削弱玩家权益。",
+    "body": "索尼此前宣布将在2028年前停止为第一方游戏推出实体光盘版本，引发玩家与开发者广泛反对。随后，荷兰消费者组织Stichting Massaschade & Consument发起集体诉讼，要求索尼赔偿超过4亿欧元。该组织认为，实体光盘消失后，PlayStation Store将成为购买第一方游戏的唯一渠道，索尼将掌握游戏定价与销售许可的绝对话语权，二手市场也将受到冲击。\n\n该组织指出，数字游戏本质上只是使用许可，而非可自由交易的实体商品；若缺乏竞争渠道，约170万名荷兰玩家将难以获得公平价格。此次诉讼凸显了游戏行业从实体向数字转型中，消费者所有权、市场竞争与平台垄断之间的紧张关系。索尼此前在美国加州已因数字游戏市场垄断指控达成800万美元和解，显示出相关监管与法律风险正在上升。",
+    "category": "消费电子",
+    "tags": [
+      "索尼",
+      "游戏光盘",
+      "集体诉讼",
+      "数字游戏"
+    ],
+    "source": "IT之家",
+    "time": "8分钟前",
+    "ts": "2026-07-08T13:17:47+00:00",
+    "url": "https://www.ithome.com/0/974/246.htm",
+    "image": "https://img.ithome.com/newsuploadfiles/2026/7/157b0170-1178-41fb-b197-d5d997cc1020.png?x-bce-process=image/format,f_auto",
+    "stocks": []
+  },
+  {
     "id": "1c2bf56d436992a0",
     "title": "Fi Ultra成首款Starlink卫星狗用追踪器",
     "summary": "Fi发布Fi Ultra狗用追踪器，号称首款集成T-Satellite与Starlink的消费级可穿戴设备，可在传统网络覆盖不足地区提供卫星级定位。",
@@ -16,6 +86,25 @@ const newsData = [
     "ts": "2026-07-08T13:11:25+00:00",
     "url": "https://www.tomshardware.com/peripherals/wearable-tech/fi-ultra-becomes-first-dog-tracker-powered-by-starlink-satellites-the-fi-ultra-dog-tracker-makes-fido-trackable-via-satellite-onboard-gps-and-lte-connectivity",
     "image": "https://cdn.mos.cms.futurecdn.net/YBZ4NMTFyoZRkzfJpUSTjm-1280-80.jpg",
+    "stocks": []
+  },
+  {
+    "id": "f1731775659fc4aa",
+    "title": "微型数据中心余热为公共泳池供暖",
+    "summary": "一座微型数据中心将运行产生的余热用于公共游泳池供暖，展示了数据中心余热回收与社区能源综合利用的潜力。",
+    "body": "据报道，一座微型数据中心正利用其服务器运行过程中产生的余热，为附近的公共游泳池提供供暖。这种方案将传统上需要额外能耗散热的计算设施与需要稳定热源的建筑结合，实现了能源的梯级利用与减碳。\n\n该案例为数据中心绿色化与低碳化提供了新思路。随着人工智能和云计算对算力需求持续增长，数据中心能耗问题日益突出，余热回收有望成为降低运营成本和碳排放的重要方向，并在社区、体育场馆等场景中推广。",
+    "category": "AI 基础设施",
+    "tags": [
+      "数据中心",
+      "余热回收",
+      "绿色计算",
+      "能源利用"
+    ],
+    "source": "Hacker News",
+    "time": "16分钟前",
+    "ts": "2026-07-08T13:10:13+00:00",
+    "url": "https://www.bbc.com/news/technology-64939558",
+    "image": "",
     "stocks": []
   },
   {
@@ -203,6 +292,25 @@ const newsData = [
     "ts": "2026-07-08T12:52:09+00:00",
     "url": "https://www.ithome.com/0/974/241.htm",
     "image": "https://img.ithome.com/newsuploadfiles/2026/7/b8c40c42-70c3-4f90-94b4-376453d50a11.png?x-bce-process=image/format,f_auto",
+    "stocks": []
+  },
+  {
+    "id": "b133ea6defad6522",
+    "title": "贝佐斯蓝色起源拟首轮私募融资百亿美元",
+    "summary": "据报道，杰夫·贝佐斯创办的火箭公司蓝色起源正进行首次私募融资，计划融资100亿美元，投后估值约1300亿美元，Coatue Management将领投40亿美元。",
+    "body": "据《纽约时报》DealBook报道，杰夫·贝佐斯创办的火箭公司蓝色起源（Blue Origin）正进行首次私募融资，计划筹集约100亿美元资金，使公司估值达到约1300亿美元。其中，资产管理公司Coatue Management预计出资40亿美元领投，另外40亿美元将来自大型机构投资者，贝佐斯本人再追加20亿美元。\n\n蓝色起源成立于2000年，致力于打造重型运载火箭、月球着陆器以及两组大规模卫星星座，目标业务涵盖火箭发射、卫星通信和太空数据中心等领域，与SpaceX展开直接竞争。\n\n此次融资若顺利完成，将成为蓝色起源成立二十余年来首次引入外部私人资本，也意味着太空竞赛的“双寡头”格局可能获得更多资本加持，进而影响全球商业航天发射服务、卫星互联网及空间基础设施的供给格局。",
+    "category": "商业航天",
+    "tags": [
+      "商业航天",
+      "蓝色起源",
+      "私募融资",
+      "太空经济"
+    ],
+    "source": "Ars Technica",
+    "time": "38分钟前",
+    "ts": "2026-07-08T12:47:35+00:00",
+    "url": "https://arstechnica.com/space/2026/07/blue-origin-for-the-first-time-is-expected-to-raise-private-capital/",
+    "image": "https://cdn.arstechnica.net/wp-content/uploads/2021/02/GettyImages-520716332-1152x648.jpg",
     "stocks": []
   },
   {
@@ -9405,6 +9513,25 @@ const newsData = [
     "ts": "2026-07-07T12:00:01-04:00",
     "url": "https://medicalxpress.com/news/2026-07-medication-combination-undruggable-lung-cancer.html",
     "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/pippette.jpg",
+    "stocks": []
+  },
+  {
+    "id": "979a5b91bb32f9dc",
+    "title": "字节发布多模态图像模型Seedream 5.0 Pro",
+    "summary": "字节Seed团队发布多模态图像创作模型Seedream 5.0 Pro，在图文匹配、结构合理性、文字渲染与画面美感等方面升级，并已在豆包、即梦、火山方舟等平台上线。",
+    "body": "据字节Seed官方消息，多模态图像创作模型Seedream 5.0 Pro正式发布。该模型在图文匹配、结构合理性、文字渲染与画面美感等维度全面升级，具备复杂信息可视化、交互式精准编辑、真实影像与人像质感以及原生多语种输入与生成四大核心能力。其中，交互式精准编辑支持点选、圈选、草图渲染、色彩与材质替换、图层分离及多图融合，可实现像素级编辑；原生多语种能力支持十余种语言及本地化视觉特征。目前，Seedream 5.0 Pro已陆续在豆包、即梦、火山方舟等平台上线。",
+    "category": "人工智能",
+    "tags": [
+      "多模态模型",
+      "图像生成",
+      "字节Seed",
+      "AIGC"
+    ],
+    "source": "AIHOT精选",
+    "time": "21小时前",
+    "ts": "2026-07-07T16:00:00+00:00",
+    "url": "https://seed.bytedance.com/zh/blog/%E4%B8%8D%E6%AD%A2-%E7%94%9F%E6%88%90-%E6%9B%B4%E6%87%82-%E8%AE%BE%E8%AE%A1-seedream-5-0-pro-%E5%8F%91%E5%B8%83",
+    "image": "",
     "stocks": []
   },
   {
