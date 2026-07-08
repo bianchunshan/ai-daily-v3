@@ -1,5 +1,24 @@
 const newsData = [
   {
+    "id": "3615d9eeb3d095e8",
+    "title": "研究生Kunkun开源AI Skill相互调用管理方法",
+    "summary": "在校研究生Kunkun在GitHub开源了一套管理大量互相调用Skill的方法，通过标签筛选、流程图可视化和上下文决策，提升AI Agent在复杂工程场景中的人机对齐与可控性。",
+    "body": "在校研究生Kunkun近日在GitHub开源了一套用于管理大量互相调用Skill的方法，核心方案包含三方面。首先，他搭建了一个HTML后台，支持按运行模式（手动/自动）、链路位置和专业领域三类标签对Skill进行筛选与管理。其次，他将连环调用的Skill绘制成Mermaid流程图，能够根据debug、新功能、合PR、改设计等不同阶段快速定位对应的技能组。最后，他仿照Matt的\"ask Matt\"技能开发了\"ask me\"技能，将调用决策浓缩成上下文后喂给模型。\n\n该方法的关键在于避免将所有调用完全交给模型自行判断，而是通过工程化的筛选、可视化与上下文引导，在复杂场景下保持人机对齐与可控性。对于当前AI Agent生态中Skill数量快速增长的现状，这套方案提供了一种可落地的组织与调用思路，有助于降低多Skill系统的调试与维护成本，对AI应用开发具有一定的参考价值。",
+    "category": "人工智能",
+    "tags": [
+      "开源",
+      "AI Agent",
+      "Skill管理",
+      "人机对齐"
+    ],
+    "source": "AIHOT精选",
+    "time": "8分钟前",
+    "ts": "2026-07-08T12:08:18+00:00",
+    "url": "https://x.com/berryxia/status/2074827915779580055",
+    "image": "",
+    "stocks": []
+  },
+  {
     "id": "21cf56c3669972a1",
     "title": "Cloudflare与OpenAI试点用全球网络数据优化AI搜索",
     "summary": "7月8日，Cloudflare与OpenAI宣布启动研究试点项目，拟利用Cloudflare全球网络的实时网站洞察数据，帮助AI搜索引擎更高效地发现和索引开放网络内容，从而提升AI搜索回答的准确性与时效性。",
