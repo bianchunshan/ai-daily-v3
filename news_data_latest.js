@@ -255,6 +255,24 @@ const newsData = [
     "stocks": []
   },
   {
+    "id": "3059aad8b9261d4a",
+    "title": "OpenMandriva 发布声明：发行版遭蓄意破坏企图",
+    "summary": "开源 Linux 发行版 OpenMandriva 发布声明，称其发行版遭受蓄意破坏企图，事件凸显开源软件供应链安全风险。",
+    "body": "OpenMandriva 社区日前就一起针对其 Linux 发行版的蓄意破坏企图发布声明。作为历史悠久的开源发行版之一，OpenMandriva 的声明表明其项目基础设施或软件分发过程可能遭到可疑干扰，具体细节尚待披露。\n\n该事件再次将开源软件供应链安全置于聚光灯下。一旦上游代码仓库、构建系统或分发渠道被植入恶意改动，可能影响大量依赖该发行版的用户与下游系统，造成广泛的安全隐患。\n\n目前公开信息有限，社区尚未披露具体攻击手法、影响范围及后续修复措施。业界关注开源项目如何强化签名验证、访问控制与构建审计，以防范类似供应链攻击。",
+    "category": "网络安全",
+    "tags": [
+      "开源软件",
+      "供应链安全",
+      "Linux 发行版"
+    ],
+    "source": "Hacker News",
+    "time": "56分钟前",
+    "ts": "2026-07-08T18:21:53+00:00",
+    "url": "https://forum.openmandriva.org/t/statement-regarding-attempted-distribution-sabotage/8997",
+    "image": "",
+    "stocks": []
+  },
+  {
     "id": "4bcee2f421f143f9",
     "title": "亲代血细胞或可缓冲衰老影响",
     "summary": "随着年龄增长，造血干细胞的衰老迹象可能导致白血病、血栓等疾病，最新研究揭示了亲代血细胞在其中的缓冲作用。",
