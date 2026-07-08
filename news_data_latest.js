@@ -1,5 +1,24 @@
 const newsData = [
   {
+    "id": "18981b2fa6917558",
+    "title": "腾达推出3000M WiFi 6路由放大器A33 V2.0",
+    "summary": "腾达在京东上架新款3000M WiFi路由放大器A33 V2.0，支持Wi-Fi 6和Mesh组网，首发价169元，适用于90-100平方米户型。",
+    "body": "IT之家7月8日消息，腾达现已在京东上架3000M WiFi路由放大器A33 V2.0。该产品支持Wi-Fi 6网络，内置双核1.2GHz处理器，配备2颗外置FEM和1个千兆网口，并支持Mesh组网、信号扩大、AP有线中继等多种工作模式。该机型定价209元，首发价169元，主要面向中小户型家庭用于扩展无线网络覆盖。",
+    "category": "消费电子",
+    "tags": [
+      "WiFi 6",
+      "Mesh组网",
+      "智能家居",
+      "腾达"
+    ],
+    "source": "IT之家",
+    "time": "3分钟前",
+    "ts": "2026-07-08T14:37:14+00:00",
+    "url": "https://www.ithome.com/0/974/266.htm",
+    "image": "https://img.ithome.com/newsuploadfiles/2026/7/fe0c2c15-ec60-49f4-ba4d-d73f39fd6c74.jpg?x-bce-process=image/format,f_auto",
+    "stocks": []
+  },
+  {
     "id": "62aed2de0faebdc1",
     "title": "Waymo在拉斯维加斯启动全无人Robotaxi运营",
     "summary": "Waymo已在拉斯维加斯正式提供全无人驾驶载客服务，并计划将业务扩展至丹佛、圣迭戈和坦帕四个新城市，以加速实现2026年底每周100万单付费出行的目标。",
@@ -106,6 +125,24 @@ const newsData = [
     "ts": "2026-07-08T10:09:29-04:00",
     "url": "https://medicalxpress.com/news/2026-07-secret-human-intelligence-power-brain.html",
     "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/the-secret-of-human-in.jpg",
+    "stocks": []
+  },
+  {
+    "id": "9f661bf376d1efc8",
+    "title": "Mistral发布Robostral Navigate机器人导航模型",
+    "summary": "人工智能公司Mistral推出名为Robostral Navigate的先进机器人导航模型，旨在提升机器人在复杂环境中的自主导航能力。",
+    "body": "据报道，Mistral发布了Robostral Navigate，该模型被定位为最先进的机器人导航模型之一，专注于增强机器人在复杂环境中的路径规划与定位能力。这一动向显示Mistral正将其大模型技术延伸至具身智能与机器人领域，可能会推动机器人自主移动能力的进一步发展。由于目前公开信息有限，模型的具体架构、性能指标及应用落地情况仍有待后续披露。",
+    "category": "机器人",
+    "tags": [
+      "具身智能",
+      "机器人导航",
+      "人工智能模型"
+    ],
+    "source": "Hacker News",
+    "time": "30分钟前",
+    "ts": "2026-07-08T14:09:17+00:00",
+    "url": "https://mistral.ai/news/robostral-navigate/",
+    "image": "",
     "stocks": []
   },
   {
@@ -361,6 +398,25 @@ const newsData = [
         "confidence": "medium"
       }
     ]
+  },
+  {
+    "id": "7f4c5f9ef711c7a0",
+    "title": "OpenBSD曝出本地提权漏洞可升至root",
+    "summary": "OpenBSD被发现存在释放后使用（use-after-free）漏洞，本地攻击者可能利用该漏洞将权限提升至root，影响系统安全。",
+    "body": "据安全社区披露，OpenBSD操作系统中存在一个释放后使用（use-after-free）漏洞，可被本地攻击者利用实现权限升级，最终获得root权限。释放后使用类漏洞通常源于内存管理不当，攻击者可能在目标对象被释放后重新访问其内存，进而执行任意代码或破坏系统完整性。此次漏洞影响OpenBSD这类以安全著称的类Unix操作系统，再次说明即使是强调安全的系统也可能存在内存安全缺陷。",
+    "category": "网络安全",
+    "tags": [
+      "OpenBSD",
+      "权限提升",
+      "安全漏洞",
+      "操作系统"
+    ],
+    "source": "Hacker News",
+    "time": "1小时前",
+    "ts": "2026-07-08T13:24:52+00:00",
+    "url": "https://nvd.nist.gov/vuln/detail/cve-2026-57589",
+    "image": "",
+    "stocks": []
   },
   {
     "id": "97f94c8f854e56aa",
