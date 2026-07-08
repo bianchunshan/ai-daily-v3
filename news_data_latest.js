@@ -1,5 +1,43 @@
 const newsData = [
   {
+    "id": "bd30fc0c77767d27",
+    "title": "研究团队发现细胞核内促癌代谢新通路",
+    "summary": "美国罗斯威尔公园综合癌症中心团队在《Nature Communications》发文，揭示细胞核内一条新代谢通路可通过基因激活促进癌症进展，阻断该通路可显著削弱肿瘤细胞的增殖与转移能力。",
+    "body": "美国罗斯威尔公园综合癌症中心的研究人员在《Nature Communications》发表的一项研究中发现，细胞核内存在一条此前未被充分认识的代谢通路。该通路通过调控基因激活，为癌症进展提供关键支持。实验显示，阻断这一通路后，肿瘤细胞的增殖和扩散能力受到显著抑制。研究团队指出，这一发现为理解癌症代谢与基因调控的关联提供了新视角，并可能为未来开发针对性抗癌策略带来新靶点。",
+    "category": "生物医药",
+    "tags": [
+      "癌症代谢",
+      "基因调控",
+      "肿瘤研究",
+      "基础医学"
+    ],
+    "source": "MedicalXpress",
+    "time": "5分钟前",
+    "ts": "2026-07-08T16:40:04-04:00",
+    "url": "https://medicalxpress.com/news/2026-07-team-metabolic-pathway-cell-nucleus.html",
+    "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/team-discovers-metabol.jpg",
+    "stocks": []
+  },
+  {
+    "id": "3ece5725dab295e2",
+    "title": "氟西汀与认知行为疗法有助缓解青少年焦虑症",
+    "summary": "一项发表于《美国精神病学杂志》的研究显示，氟西汀、认知行为疗法及其联合治疗对青少年焦虑障碍具有相似的症状缓解效果。",
+    "body": "该研究于6月24日在线发表于《美国精神病学杂志》。研究人员发现，对于患有焦虑障碍的青少年，单独使用氟西汀、单独进行认知行为疗法（CBT），以及两者联合治疗均能带来相似的症状改善。这一结论为临床医生和家庭在选择青少年焦虑障碍治疗方案时提供了更多循证依据，有助于在药物干预与心理治疗之间做出更适合个体情况的决策。",
+    "category": "生物医药",
+    "tags": [
+      "焦虑症",
+      "氟西汀",
+      "认知行为疗法",
+      "青少年精神健康"
+    ],
+    "source": "MedicalXpress",
+    "time": "5分钟前",
+    "ts": "2026-07-08T16:40:01-04:00",
+    "url": "https://medicalxpress.com/news/2026-07-fluoxetine-cognitive-behavioral-therapy-combination.html",
+    "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/fluoxetine-cbt-and-com.jpg",
+    "stocks": []
+  },
+  {
     "id": "8dd183ee360986d7",
     "title": "谷歌深度伪造检测系统识破麦康奈尔虚假住院照",
     "summary": "近日，一张显示美国参议员麦康奈尔病重住院的AI伪造照片在社交媒体流传，谷歌的深度伪造检测系统参与了识别并辟谣。",
@@ -2608,6 +2646,32 @@ const newsData = [
     "url": "https://www.ithome.com/0/974/249.htm",
     "image": "https://img.ithome.com/newsuploadfiles/2026/7/a7cbc9d0-693a-46be-a010-30c50ab5bf47.png?x-bce-process=image/format,f_auto",
     "stocks": []
+  },
+  {
+    "id": "41b85c9cdb7a0122",
+    "title": "OpenAI发布国家安全原则与政企合作方针",
+    "summary": "OpenAI公布政府与国家安全合作伙伴关系方针，明确在网络安全、生物安全等公共事务中部署前沿AI，同时禁止大规模监控和自主武器。",
+    "body": "OpenAI近日发布国家安全原则，阐明在政府及国家安全领域部署前沿AI系统的方针。原则强调在保护公民、防御关键基础设施、提供公共服务及应对新兴威胁（网络防御和生物安全）中发挥AI优势，同时确保民主问责、人类判断和法治。过去一个月，OpenAI通过Daybreak网络防御计划与澳大利亚、加拿大、日本、韩国、法国、德国、波兰、荷兰及欧盟ENISA等机构建立网络安全信任访问合作，并与英国政府开展网络安全测试评估。上月，OpenAI向部分美国政府及盟友合作伙伴开放GPT-Rosalind模型用于公共卫生和生物防御。该原则适用于现有及未来合作，明确禁止大规模国内监控、自主武器系统及高风险自动化决策。OpenAI还支持立法对高风险军事用途建立保障措施。",
+    "category": "人工智能",
+    "tags": [
+      "OpenAI",
+      "AI治理",
+      "国家安全",
+      "网络安全"
+    ],
+    "source": "AIHOT精选",
+    "time": "7小时前",
+    "ts": "2026-07-08T13:30:00+00:00",
+    "url": "https://openai.com/index/government-national-security-partnerships",
+    "image": "",
+    "stocks": [
+      {
+        "name": "微软",
+        "ticker": "MSFT",
+        "reason": "作为OpenAI战略合作伙伴及主要云服务提供商，有望间接受益于政府AI安全项目需求的增长。",
+        "confidence": "medium"
+      }
+    ]
   },
   {
     "id": "7d9395b5769ad721",
@@ -148876,6 +148940,12 @@ const newsData = [
   }
 ];
 const newsDigest = {
-  "text": "",
-  "highlights": []
+  "text": "今日前沿聚焦：AI自我迭代、机器人‘ChatGPT时刻’、癌症机制与治疗、分布式AI数据中心及NASA火星直升机等方向均有重要进展。",
+  "highlights": [
+    "a3d6739d76d0a1e6",
+    "123ee15fa287f5fd",
+    "bd30fc0c77767d27",
+    "6b182a01890e3b55",
+    "be81daa562bc8753"
+  ]
 };
