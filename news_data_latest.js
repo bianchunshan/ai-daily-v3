@@ -1,5 +1,31 @@
 const newsData = [
   {
+    "id": "ebfcba1c3c275f8e",
+    "title": "谷歌8月12日举办发布会，Pixel 11系列将亮相",
+    "summary": "谷歌宣布将于8月12日在纽约举行“Made By Google”发布会，正式发布Pixel 11系列手机，新机将取消128GB版本，全系256GB起步，高端型号可选1TB。",
+    "body": "谷歌宣布将于美国东部时间8月12日18点在纽约举办Made By Google发布会，届时将正式发布Pixel 11系列手机。据悉，Pixel 11系列将彻底取消128GB版本，全系机型升级至256GB起步，Pro、Pro XL和Pro Fold机型还将额外提供1TB版本。\n\n作为谷歌下半年最重要的硬件发布活动之一，此次Pixel 11系列在存储配置上的全面提升，显示出谷歌对高端智能手机市场的进一步加码。新机的推出有望增强Pixel系列在高端市场的竞争力，并带动谷歌硬件与服务业务的增长。",
+    "category": "消费电子",
+    "tags": [
+      "智能手机",
+      "谷歌",
+      "Pixel",
+      "发布会"
+    ],
+    "source": "36氪",
+    "time": "刚刚",
+    "ts": "2026-07-08T04:24:49.288595+00:00",
+    "url": "https://36kr.com/newsflashes/3886489544257545?f=rss",
+    "image": "",
+    "stocks": [
+      {
+        "name": "谷歌-A",
+        "ticker": "GOOGL",
+        "reason": "Pixel 11发布及存储升级有望带动母公司Alphabet的硬件销售和生态收入",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
     "id": "722bd629f2d0eb0a",
     "title": "蚂蚁开源具身基座模型LingBot-VLA 2.0",
     "summary": "蚂蚁灵波科技宣布升级并开源新一代具身基座模型LingBot-VLA 2.0，新模型预训练融入6万小时真实物理数据，覆盖17个主流机器人品牌20种构型，在构型泛化、自由度支持和落地效率上显著提升。",
