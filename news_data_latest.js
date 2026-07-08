@@ -1,5 +1,31 @@
 const newsData = [
   {
+    "id": "86af6249d5dc9ced",
+    "title": "MG 07电动轿跑将搭载半固态电池在中国上市",
+    "summary": "上汽旗下MG品牌全新电动轿跑MG 07即将在中国市场开售，搭载半固态电池，续航约610公里，售价约2.2万美元，并配备“女王”化妆台等高端配置。",
+    "body": "据外媒Electrek报道，MG 07电动轿跑即将在中国上市。该车搭载半固态动力电池，续航里程接近400英里（约610公里），起售价约2.2万美元，同时还提供业内首个“女王”化妆 station 等豪华配置。\n\n半固态电池被视为下一代动力电池的重要方向，能量密度和安全性较传统液态电池更具优势。MG 07将该技术应用于20万元级以内的电动轿跑，显示中国车企在电池成本控制和性能提升上的竞争加剧。\n\n若该车型顺利放量，或推动半固态电池在乘用车市场的规模化应用，并强化MG品牌在电动化领域的形象。",
+    "category": "未来能源",
+    "tags": [
+      "电动汽车",
+      "固态电池",
+      "上汽集团",
+      "MG"
+    ],
+    "source": "Electrek",
+    "time": "5分钟前",
+    "ts": "2026-07-08T17:32:21+00:00",
+    "url": "https://electrek.co/2026/07/08/22000-ev-semi-solid-state-battery-makeup-station/",
+    "image": "https://electrek.co/wp-content/uploads/sites/3/2026/07/MG-07-semi-solid-state-battery.jpeg?quality=82&#038;strip=all&#038;w=1400",
+    "stocks": [
+      {
+        "name": "上汽集团",
+        "ticker": "600104.SH",
+        "reason": "上汽集团拥有MG品牌，MG 07搭载半固态电池上市，有望强化其电动车产品竞争力与销量",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
     "id": "e32866db601962d2",
     "title": "长期空气污染与帕金森病风险增加相关",
     "summary": "剑桥大学研究人员的最新证据综述发现，长期接触某些类型空气污染物与帕金森病发病风险上升存在关联。",
@@ -62,6 +88,25 @@ const newsData = [
         "confidence": "medium"
       }
     ]
+  },
+  {
+    "id": "2196b908122cc565",
+    "title": "用户分享ChatGPT Voice口述写作新体验",
+    "summary": "开发者Jason Liu在X上分享使用ChatGPT Voice进行口述写作的体验，称其语音交互流畅、插话克制，还可用于头脑风暴与跨语言交流，是迈向AGI的重要一步。",
+    "body": "Jason Liu每天回家路上通过ChatGPT Voice与模型对话，要求模型在他口述文章时除非有值得追问之处否则不打断。他连续讲述20分钟，模型仅插话五六次，且会在用户继续说话时礼貌停止回应。结束后，用户还可追问模型刚才想提的点。\n\n除口述写作外，他还测试了用该功能与不同语言的人交谈、头脑风暴和学习新概念。\n\n他认为，这种流畅自然的语音交互是实现AGI造福人类的重要一步，展示了AI语音助手在创作、沟通和学习等场景中的潜力。",
+    "category": "人工智能",
+    "tags": [
+      "ChatGPT",
+      "语音交互",
+      "AI应用",
+      "AGI"
+    ],
+    "source": "AIHOT精选",
+    "time": "21分钟前",
+    "ts": "2026-07-08T17:15:45+00:00",
+    "url": "https://x.com/jxnlco/status/2074905289237942512",
+    "image": "",
+    "stocks": []
   },
   {
     "id": "eefeec456affe4eb",
@@ -144,6 +189,25 @@ const newsData = [
     "ts": "2026-07-08T13:00:02-04:00",
     "url": "https://medicalxpress.com/news/2026-07-myocardial-infarction-remote-regions-ventricle.html",
     "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/myocardial-infarction.jpg",
+    "stocks": []
+  },
+  {
+    "id": "efaf55cef858cf0e",
+    "title": "OpenAI发布新语音模型，支持边说边听",
+    "summary": "OpenAI推出了一款新的语音模型，其语音模式能够同时说话和收听，从而实现更自然的实时对话。这一能力被认为是实时翻译等应用场景的关键。",
+    "body": "OpenAI发布了一款新的语音模型，其语音模式可以在对话过程中同时说话和收听，突破了传统语音助手轮流说话和收听的限制，使实时交流更加自然流畅。\n\n这一同步听说能力对于实时翻译等场景尤为重要，因为系统能够在输出翻译语音的同时继续接收用户的声音输入。OpenAI表示，该技术有望显著提升语音交互体验，并为翻译、客户服务等应用带来更高效的人机沟通方式。",
+    "category": "人工智能",
+    "tags": [
+      "OpenAI",
+      "语音模型",
+      "实时翻译",
+      "人机交互"
+    ],
+    "source": "TechCrunch",
+    "time": "37分钟前",
+    "ts": "2026-07-08T17:00:00+00:00",
+    "url": "https://techcrunch.com/2026/07/08/openai-releases-new-voice-models-for-more-natural-live-conversations/",
+    "image": "",
     "stocks": []
   },
   {
@@ -10178,6 +10242,25 @@ const newsData = [
     "ts": "2026-07-07T18:11:41+00:00",
     "url": "https://spacenews.com/apolink-makes-contact-with-first-relay-satellite/",
     "image": "https://i0.wp.com/spacenews.com/wp-content/uploads/2026/07/DSC04781-1-scaled.jpg?fit=1024%2C683&amp;ssl=1",
+    "stocks": []
+  },
+  {
+    "id": "99dfc37d5860e8af",
+    "title": "SwitchBot Bot Rechargeable：可远程开关的智能家居机器人",
+    "summary": "SwitchBot 推出可充电的智能开关机器人，能远程按压墙壁开关，外媒评测认为其在夜间开灯、驱赶蟑螂等场景颇为实用。",
+    "body": "The Verge 评测了 SwitchBot Bot Rechargeable，这款小型机器人可粘贴固定在墙壁开关旁，通过远程控制按压开关，让用户在进入黑暗房间前就能提前开灯，也便于配合灯光驱赶蟑螂等。\n\n新款采用可充电电池，相较旧款纽扣电池设计更易维护。作为一种低成本的智能家居改造方案，它让普通开关无需改造即可实现远程控制，从而降低了家庭自动化门槛。\n\n不过，这类开关机器人的实际体验仍取决于机械按压的稳定性与续航表现。它在本质上属于智能家居的入门级硬件，能否普及还要看与主流平台兼容性和长期可靠性。",
+    "category": "消费电子",
+    "tags": [
+      "智能家居",
+      "消费电子",
+      "机器人",
+      "开关自动化"
+    ],
+    "source": "The Verge",
+    "time": "23小时前",
+    "ts": "2026-07-07T14:07:04-04:00",
+    "url": "https://www.theverge.com/gadgets/962163/switchbot-bot-rechargeable-hands-on-review",
+    "image": "",
     "stocks": []
   },
   {
