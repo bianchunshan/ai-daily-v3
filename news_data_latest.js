@@ -1616,6 +1616,25 @@ const newsData = [
     "stocks": []
   },
   {
+    "id": "fa548bf21c005f1b",
+    "title": "Git 哈希链存在可塑性漏洞风险",
+    "summary": "Hacker News 上的一篇文章指出，Git 的哈希链可能存在可塑性攻击风险，或威胁代码仓库完整性与软件供应链安全。",
+    "body": "近日，Hacker News 一篇题为《Git Hash Chain Malleability》的文章引发关注，文章讨论了 Git 版本控制系统中哈希链的可塑性问题，即攻击者可能在不被立即察觉的情况下篡改提交历史或对象关系。\n\n由于 Git 广泛用于全球软件开发与 DevOps 流程，若哈希链可被操纵，可能导致代码仓库完整性受损，进而对软件供应链安全构成潜在威胁。\n\n该话题提醒开发者和企业需关注版本控制系统的安全机制与完整性校验，但文章未披露具体漏洞编号或影响范围，实际风险有待进一步验证。",
+    "category": "网络安全",
+    "tags": [
+      "Git",
+      "软件供应链安全",
+      "版本控制",
+      "网络安全"
+    ],
+    "source": "Hacker News",
+    "time": "2小时前",
+    "ts": "2026-07-07T23:21:03+00:00",
+    "url": "https://arxiv.org/abs/2607.02820",
+    "image": "",
+    "stocks": []
+  },
+  {
     "id": "9042a1121f03fdb6",
     "title": "Meta发布首个自研AI图像生成模型Muse Image",
     "summary": "Meta于7月7日发布由其超级智能实验室自研的首个AI图像生成模型Muse Image，并已通过Meta AI应用免费上线Instagram和WhatsApp。该模型支持对话式生成、文字渲染、背景擦除、二维码生成及图像编辑等功能。",
