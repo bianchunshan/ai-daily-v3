@@ -1,5 +1,69 @@
 const newsData = [
   {
+    "id": "6b182a01890e3b55",
+    "title": "Sunrun拟付费让家庭住宅变身分布式AI数据中心",
+    "summary": "Sunrun计划将数千户太阳能住宅改造成分布式AI数据中心，并向房主支付费用以支持AI算力需求。该模式将家庭储能与AI基础设施结合，可能成为缓解数据中心电力压力的新路径。",
+    "body": "美国住宅太阳能和储能公司Sunrun正提出一项新计划，拟将数千户安装太阳能和储能系统的家庭住宅整合为一个大型分布式AI数据中心网络，并向参与房主支付费用。此举旨在利用家庭分布式电力资源，为快速增长的AI算力需求提供能源支持。若落地，该模式可能将家庭储能资产转化为AI基础设施的一部分，同时为缓解传统数据中心电力供应紧张提供新思路。",
+    "category": "AI 基础设施",
+    "tags": [
+      "分布式数据中心",
+      "家庭储能",
+      "太阳能",
+      "AI电力"
+    ],
+    "source": "Electrek",
+    "time": "刚刚",
+    "ts": "2026-07-08T19:27:36+00:00",
+    "url": "https://electrek.co/2026/07/08/sunrun-wants-to-pay-you-to-turn-your-home-into-an-ai-data-center/",
+    "image": "https://electrek.co/wp-content/uploads/sites/3/2026/07/sunrun-distributed-compute1.jpg?quality=82&#038;strip=all&#038;w=1600",
+    "stocks": [
+      {
+        "name": "Sunrun",
+        "ticker": "RUN",
+        "reason": "美国住宅太阳能与储能龙头，计划将家庭能源资产变现为AI数据中心电力与算力基础设施服务。",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "14142d77d7ed8900",
+    "title": "肺移植显著延长晚期肺癌患者生存期",
+    "summary": "美国西北大学医学院发表于《美国医学会杂志》（JAMA）的一项里程碑式研究表明，对于特定晚期肺癌患者，肺移植可显著延长其生存时间。",
+    "body": "美国西北大学医学院（Northwestern Medicine）近期在《美国医学会杂志》（JAMA）发表了一项里程碑式研究，结果显示肺移植能够显著延长部分晚期肺癌患者的生存期。该研究为传统治疗手段有限的终末期肺癌患者提供了一种潜在的新治疗路径，尽管肺移植仍受供体稀缺、手术风险及术后免疫管理等因素限制。\n\n这一发现可能在肿瘤学与移植医学的交叉领域产生重要影响，为未来相关临床指南、患者筛选标准以及疗法开发提供依据。不过，该手术能否广泛推广，还需更多长期数据和伦理评估支持。",
+    "category": "生物医药",
+    "tags": [
+      "肺癌",
+      "肺移植",
+      "器官移植",
+      "肿瘤治疗"
+    ],
+    "source": "MedicalXpress",
+    "time": "7分钟前",
+    "ts": "2026-07-08T15:20:03-04:00",
+    "url": "https://medicalxpress.com/news/2026-07-lung-transplant-survival-patients-terminal.html",
+    "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/lung-transplant-dramat.jpg",
+    "stocks": []
+  },
+  {
+    "id": "123ee15fa287f5fd",
+    "title": "初创公司押注游戏数据驱动机器人ChatGPT时刻",
+    "summary": "初创企业General Intuition认为机器人领域即将迎来\"ChatGPT时刻\"。该公司计划用数百万小时电子游戏数据训练物理AI基础模型，以减少对真实世界数据的依赖，加速智能机器人开发。",
+    "body": "通用直觉（General Intuition）认为，机器人行业正接近类似ChatGPT的突破性节点。该公司尝试利用海量电子游戏数据来训练物理AI基础模型，目标是让机器人开发无需采集大量真实世界数据，从而降低成本并加快迭代。\n\n如果该方法可行，或将改变机器人训练范式，推动具身智能更快实现泛化。不过目前该技术尚处早期，材料未披露具体合作伙伴、融资规模或落地时间。",
+    "category": "机器人",
+    "tags": [
+      "具身智能",
+      "物理AI",
+      "机器人",
+      "游戏数据"
+    ],
+    "source": "TechCrunch",
+    "time": "8分钟前",
+    "ts": "2026-07-08T19:19:15+00:00",
+    "url": "https://techcrunch.com/2026/07/08/this-startup-thinks-robotics-is-about-to-have-its-chatgpt-moment/",
+    "image": "",
+    "stocks": []
+  },
+  {
     "id": "715573abc5ddfd97",
     "title": "内存短缺致全球PC出货量两年来首降",
     "summary": "受内存供应短缺影响，全球PC出货量两年来首次出现下滑，但制造商因产品均价提升仍实现收入增长。",
