@@ -1,5 +1,62 @@
 const newsData = [
   {
+    "id": "80c4087ec42fb2e4",
+    "title": "澳大利亚癌症临床试验性别差异报告比例下降，患者风险上升",
+    "summary": "研究显示，澳大利亚癌症临床试验中按性别分别报告结果的比例不足2%，且呈下降趋势。女性癌症患者更可能遭遇严重副作用，但缺乏分性别数据使医生难以判断治疗方案的安全性与有效性是否男女同等。",
+    "body": "一项针对澳大利亚癌症临床试验的分析发现，仅有不到2%的试验按男性和女性分别报告疗效与安全性结果，且该比例还在下降。由于女性癌症患者可能面临不同的治愈率、生活质量以及更严重的免疫治疗、化疗副作用，缺乏分性别数据将使临床医生无法判断某种治疗是否在男女患者中同样安全有效。专家提醒，这一报告差距可能加剧癌症治疗中的性别健康不平等，亟需在试验设计、数据披露和监管要求方面加以改进。",
+    "category": "生物医药",
+    "tags": [
+      "癌症临床试验",
+      "性别差异",
+      "肿瘤治疗",
+      "药物安全性"
+    ],
+    "source": "MedicalXpress",
+    "time": "7分钟前",
+    "ts": "2026-07-08T12:00:09-04:00",
+    "url": "https://medicalxpress.com/news/2026-07-australian-cancer-trials-worse-sex.html",
+    "image": "https://scx1.b-cdn.net/csz/news/tmb/2024/gender-2.jpg",
+    "stocks": []
+  },
+  {
+    "id": "532ab8f5aa7bc345",
+    "title": "老年女性肠道菌群多样性降低与虚弱相关",
+    "summary": "哥德堡大学发表于《自然·通讯》的研究显示，老年女性的虚弱程度与肠道菌群多样性下降及功能受损存在明确关联，这一结果在中国老年队列中亦得到验证。",
+    "body": "哥德堡大学研究人员基于2,081名75至80岁瑞典女性的数据，发现虚弱程度较高的个体肠道细菌多样性更低、功能更差，且虚弱与患病和死亡风险增加相关。研究团队进一步在一个包含1,448名中国老年人的独立队列中验证了上述关联。该研究提示，肠道微生物组的组成与功能可能在老年虚弱的发生发展中扮演重要角色，为未来针对衰老相关健康的干预提供了潜在方向。",
+    "category": "生物医药",
+    "tags": [
+      "肠道菌群",
+      "老年医学",
+      "虚弱",
+      "生物医药"
+    ],
+    "source": "MedicalXpress",
+    "time": "7分钟前",
+    "ts": "2026-07-08T12:00:07-04:00",
+    "url": "https://medicalxpress.com/news/2026-07-diversity-poorer-function-gut-bacteria.html",
+    "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/gut-bacteria-linked-to-1.jpg",
+    "stocks": []
+  },
+  {
+    "id": "2a99c0b26537f7e4",
+    "title": "Vantor发布地球3D卫星影像，可近实时更新",
+    "summary": "美国地球观测公司Vantor发布首批太空3D影像，其10颗卫星可提供12英寸分辨率图像，并能24小时内更新，用于追踪自然灾害、武装冲突及基础设施变化。",
+    "body": "美国地球观测公司Vantor于7月1日发布了首批从太空拍摄的地球3D影像。该公司运营10颗卫星，标准分辨率可达12英寸（30厘米），通过融合多角度卫星图像生成三维视图，并能在24小时或更短时间内更新。这批影像涵盖巴黎地标、中国榆林造船基地及美国胡佛水坝水位变化等目标，细节惊人。Vantor表示，这些3D地图可作为空间智能的基础，帮助用户近实时地监测地表快速变化，包括自然灾害和武装冲突的即时影响。",
+    "category": "商业航天",
+    "tags": [
+      "卫星遥感",
+      "地球观测",
+      "3D成像",
+      "空间智能"
+    ],
+    "source": "Space.com",
+    "time": "7分钟前",
+    "ts": "2026-07-08T16:00:00+00:00",
+    "url": "https://www.space.com/space-exploration/satellites/this-is-the-future-of-spatial-intelligence-vantor-unveils-stunning-3d-satellite-views-of-earth-photos",
+    "image": "https://cdn.mos.cms.futurecdn.net/NTGV4bqJnhfojcxmiXWRY-1280-80.jpg",
+    "stocks": []
+  },
+  {
     "id": "d4ac26e3d0a63614",
     "title": "中国指Claude Code含后门，可偷传用户敏感信息",
     "summary": "中国监管部门称Anthropic旗下AI编程工具Claude Code存在安全后门，可能未经用户同意向远程服务器发送位置、身份等敏感信息，并建议用户卸载或更新。此事涉及AI应用的数据安全与跨境监管风险。",
@@ -16,6 +73,25 @@ const newsData = [
     "ts": "2026-07-08T15:54:14+00:00",
     "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/china-alleges-that-claude-code-contains-backdoors-calls-mechanism-a-serious-threat-govt-claims-claude-sends-sensitive-information-to-remote-servers-without-consent",
     "image": "https://cdn.mos.cms.futurecdn.net/ScT7C9WsuqruarWf3kSRRG-1280-80.jpg",
+    "stocks": []
+  },
+  {
+    "id": "f5f0df2f0f5a40d1",
+    "title": "OpenRouter将自动升级至Grok 4.5",
+    "summary": "OpenRouter宣布其模型路由端点~x-ai/grok-latest将在Grok 4.5上线后自动切换至新版本，开发者无需修改代码。",
+    "body": "路由平台OpenRouter在其官方X账号表示，一旦马斯克旗下xAI（或SpaceXAI）发布的Grok 4.5正式上线，其~x-ai/grok-latest端点将自动从当前的Grok 4.3升级至Grok 4.5。开发者只需继续使用该端点，无需更改代码或配置即可获得最新模型能力。这一机制降低了模型版本迭代对应用开发和维护的影响，也反映出第三方模型聚合平台在快速跟进大模型厂商更新方面的竞争。",
+    "category": "人工智能",
+    "tags": [
+      "OpenRouter",
+      "Grok",
+      "xAI",
+      "大模型"
+    ],
+    "source": "AIHOT精选",
+    "time": "24分钟前",
+    "ts": "2026-07-08T15:42:40+00:00",
+    "url": "https://x.com/OpenRouter/status/2074881863030812832",
+    "image": "",
     "stocks": []
   },
   {
