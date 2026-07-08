@@ -1,5 +1,31 @@
 const newsData = [
   {
+    "id": "e1d73b36c4e8cd7d",
+    "title": "菲亚特Topolino成美国最便宜新车，比乒乓球桌还小",
+    "summary": "菲亚特Topolino作为美国市场售价最低的全新电动车亮相，车身尺寸不足乒乓球桌大小，最高时速仅约30公里，体现了极致低价电动车在空间、性能与配置上的取舍。",
+    "body": "据The Verge报道，菲亚特旗下微型电动车Topolino即将进入美国市场，成为当地最便宜的新电动车。其车身尺寸甚至比乒乓球桌更小，最高时速仅19英里（约30公里），续航里程和配置也相应压缩，堪称当前追求“不破产”的低价电动车之极致代表。该车主打城市短途通勤和微型代步场景，以极低的购置门槛推动电动化出行普及，但低速、微型车身也意味着适用范围有限，难以满足传统家用车的综合需求。",
+    "category": "未来能源",
+    "tags": [
+      "电动车",
+      "微型出行",
+      "菲亚特",
+      "Stellantis"
+    ],
+    "source": "The Verge",
+    "time": "刚刚",
+    "ts": "2026-07-08T13:57:53-04:00",
+    "url": "https://www.theverge.com/transportation/962753/fiat-topolino-ev-us-price-specs-micromobiilty",
+    "image": "",
+    "stocks": [
+      {
+        "name": "Stellantis",
+        "ticker": "STLA",
+        "reason": "菲亚特Topolino为Stellantis旗下菲亚特品牌推出的微型电动车，直接关联该品牌低价电动车业务。",
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
     "id": "a5342c550d44bcb7",
     "title": "CEO称游戏数据比互联网更适合训练AI",
     "summary": "该CEO认为，大语言模型虽擅长文本，却缺乏对物理时空的理解，而电子游戏数据能弥补这一关键短板，或成为通往通用人工智能（AGI）的重要训练来源。",
@@ -47,17 +73,17 @@ const newsData = [
   {
     "id": "38d1b1934c4c95cb",
     "title": "OpenAI发布GPT-Live-1全双工语音模型",
-    "summary": "OpenAI正式发布GPT-Live-1全双工语音模型，标准版与mini版已在ChatGPT逐步推送，API即将上线。该模型支持同时听与说，并在多项语音与推理基准上超越Advanced Voice Mode。",
-    "body": "OpenAI发布GPT-Live-1全双工语音模型，包含标准版和mini版，已面向ChatGPT用户逐步推送，API也即将上线。该模型具备“边说边听”能力，能在倾听时发出“mhmm”等简短回应，思考时保持静默，处理复杂任务时会调用最新前沿模型作为幕后支撑。\n\n与Advanced Voice Mode相比，GPT-Live-1在GPQA科学推理、BrowseComp智能体搜索以及τ3-Voice Telecom多轮客服三项基准上均显著领先。这意味着语音交互的自然度和任务处理能力进一步提升，可能推动AI语音助手、智能客服等应用场景加速落地。",
+    "summary": "OpenAI正式推出GPT-Live-1全双工语音模型，包含标准版与mini版，已在ChatGPT逐步推送，API也即将上线，可在对话中同时聆听与说话并调用前沿模型处理复杂任务。",
+    "body": "OpenAI正式发布GPT-Live-1全双工语音模型，标准版和mini版已面向ChatGPT用户逐步推送，API也将在不久后上线。该模型具备全双工能力，能够同时听和说，支持\"mhmm\"等实时回应，并在思考时保持安静；遇到复杂任务时，它会幕后调用最新的前沿模型进行处理。与现有的Advanced Voice Mode相比，GPT-Live-1在GPQA科学推理、BrowseComp智能体搜索以及τ3-Voice Telecom多轮客服三项基准测试中均取得显著领先。这一进展有望进一步提升AI语音交互的自然度和实用性，推动实时对话式AI应用与智能客服、语音助手等场景的发展。",
     "category": "人工智能",
     "tags": [
       "OpenAI",
       "语音模型",
-      "ChatGPT",
-      "多模态"
+      "全双工",
+      "ChatGPT"
     ],
     "source": "AIHOT精选",
-    "time": "16分钟前",
+    "time": "17分钟前",
     "ts": "2026-07-08T17:40:50+00:00",
     "url": "https://x.com/testingcatalog/status/2074911600008466474",
     "image": "",
@@ -136,17 +162,18 @@ const newsData = [
   },
   {
     "id": "e57b456ec9fbd701",
-    "title": "OpenAI发布全双工语音模型GPT-Live",
-    "summary": "OpenAI推出新一代全双工语音模型GPT-Live，包含标准版和mini版，可边说边听，将面向ChatGPT用户逐步推送并即将开放API。",
-    "body": "OpenAI发布GPT-Live全双工语音模型，包含GPT-Live-1和GPT-Live-1 mini两个版本。该模型支持全双工对话，可同时听和说，在对话中自然回应，也能在用户思考时保持安静。当遇到需要联网搜索、深度推理或复杂任务时，它会在后台调用最新前沿模型处理，再将结果返回对话。OpenAI称即日起向所有ChatGPT用户逐步推送，API支持也即将上线，有望提升语音交互体验。",
+    "title": "OpenAI发布GPT-Live全双工语音模型",
+    "summary": "OpenAI发布新一代全双工语音模型GPT-Live，包含标准版与mini版，可同步听、说并在用户思考时保持静默，支持联网搜索与深度推理等任务。",
+    "body": "OpenAI推出名为GPT-Live的新一代全双工语音模型，提供GPT-Live-1和GPT-Live-1 mini两个版本。该模型能够同时听和说，在对话中发出“嗯”“对”等简短回应，并在用户思考时保持安静，从而更接近自然人机交互体验。\n\n据介绍，GPT-Live是OpenAI当前最智能的语音模型，当遇到需要联网搜索、深度推理或复杂任务时，会由后台的前沿模型处理后再返回对话结果。该功能即日起将逐步推送给所有ChatGPT用户，API支持也即将上线，有望进一步拓展语音交互在智能助手和客户服务中的应用场景。",
     "category": "人工智能",
     "tags": [
       "OpenAI",
       "语音模型",
+      "多模态AI",
       "大模型"
     ],
     "source": "AIHOT精选",
-    "time": "26分钟前",
+    "time": "27分钟前",
     "ts": "2026-07-08T17:31:05+00:00",
     "url": "https://x.com/testingcatalog/status/2074909146156081417",
     "image": "",
@@ -154,25 +181,25 @@ const newsData = [
       {
         "name": "微软",
         "ticker": "MSFT",
-        "reason": "OpenAI主要合作伙伴并深度整合其AI模型，产品商业化可能带动Azure/OpenAI业务",
+        "reason": "微软是OpenAI的重要合作伙伴和投资者，Azure与Copilot等产品深度整合OpenAI模型，语音AI能力提升有望带动其云服务及订阅业务增长。",
         "confidence": "medium"
       }
     ]
   },
   {
     "id": "aeeb5799be8cf882",
-    "title": "ChatGPT上线GPT-live新一代语音",
-    "summary": "OpenAI今日在ChatGPT推出名为GPT-live的新一代语音功能，官方称交互体验更自然真实。该产品可能改变用户与AI的交互习惯。",
-    "body": "据OpenAI首席执行官Sam Altman在社交平台发布的信息，名为GPT-live的下一代语音功能今日在ChatGPT中推出。Altman表示，该功能给人“神奇且真实”的体验，甚至让他这种过去更偏好打字与AI交互的用户也考虑改用语音。\n\nGPT-live的上线标志着OpenAI在ChatGPT自然语音交互能力上的进一步升级，有望提升AI助手在对话流畅度、情感表达和用户沉浸感方面的表现。若体验获得广泛认可，或将加速语音成为主流人机交互界面之一。",
+    "title": "ChatGPT上线GPT-live新一代语音功能",
+    "summary": "OpenAI首席执行官Sam Altman宣布，GPT-live新一代语音功能已于当日在ChatGPT中推出，该体验被形容为\"神奇又真实\"，有望改变用户与AI的交互方式。",
+    "body": "OpenAI首席执行官Sam Altman在社交媒体宣布，GPT-live（下一代语音）功能已于当日在ChatGPT中推出。他表示，这一新体验\"感觉神奇又真实\"，甚至改变了自己原本偏好文字输入而非语音对话的习惯。\n\n此次更新意味着ChatGPT的语音交互能力进一步升级，有望推动AI助手从文本对话向更自然、流畅的人机语音交互演进，提升用户体验并可能扩大应用场景。",
     "category": "人工智能",
     "tags": [
-      "OpenAI",
-      "ChatGPT",
       "语音交互",
-      "AI助手"
+      "ChatGPT",
+      "OpenAI",
+      "人机交互"
     ],
     "source": "AIHOT精选",
-    "time": "26分钟前",
+    "time": "27分钟前",
     "ts": "2026-07-08T17:30:49+00:00",
     "url": "https://x.com/sama/status/2074909079450050629",
     "image": "",
