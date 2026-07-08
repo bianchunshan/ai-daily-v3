@@ -45,6 +45,25 @@ const newsData = [
     ]
   },
   {
+    "id": "38d1b1934c4c95cb",
+    "title": "OpenAI发布GPT-Live-1全双工语音模型",
+    "summary": "OpenAI正式发布GPT-Live-1全双工语音模型，标准版与mini版已在ChatGPT逐步推送，API即将上线。该模型支持同时听与说，并在多项语音与推理基准上超越Advanced Voice Mode。",
+    "body": "OpenAI发布GPT-Live-1全双工语音模型，包含标准版和mini版，已面向ChatGPT用户逐步推送，API也即将上线。该模型具备“边说边听”能力，能在倾听时发出“mhmm”等简短回应，思考时保持静默，处理复杂任务时会调用最新前沿模型作为幕后支撑。\n\n与Advanced Voice Mode相比，GPT-Live-1在GPQA科学推理、BrowseComp智能体搜索以及τ3-Voice Telecom多轮客服三项基准上均显著领先。这意味着语音交互的自然度和任务处理能力进一步提升，可能推动AI语音助手、智能客服等应用场景加速落地。",
+    "category": "人工智能",
+    "tags": [
+      "OpenAI",
+      "语音模型",
+      "ChatGPT",
+      "多模态"
+    ],
+    "source": "AIHOT精选",
+    "time": "16分钟前",
+    "ts": "2026-07-08T17:40:50+00:00",
+    "url": "https://x.com/testingcatalog/status/2074911600008466474",
+    "image": "",
+    "stocks": []
+  },
+  {
     "id": "a4053e7f84e40755",
     "title": "UCSF研究：生酮饮食有望改善精神病性障碍",
     "summary": "加州大学旧金山分校团队在《Schizophrenia Bulletin》发表首个随机对照试验，显示生酮饮食对精神分裂症谱系或双相I型障碍患者在代谢、精神症状和认知方面均有改善。",
@@ -114,6 +133,50 @@ const newsData = [
         "confidence": "high"
       }
     ]
+  },
+  {
+    "id": "e57b456ec9fbd701",
+    "title": "OpenAI发布全双工语音模型GPT-Live",
+    "summary": "OpenAI推出新一代全双工语音模型GPT-Live，包含标准版和mini版，可边说边听，将面向ChatGPT用户逐步推送并即将开放API。",
+    "body": "OpenAI发布GPT-Live全双工语音模型，包含GPT-Live-1和GPT-Live-1 mini两个版本。该模型支持全双工对话，可同时听和说，在对话中自然回应，也能在用户思考时保持安静。当遇到需要联网搜索、深度推理或复杂任务时，它会在后台调用最新前沿模型处理，再将结果返回对话。OpenAI称即日起向所有ChatGPT用户逐步推送，API支持也即将上线，有望提升语音交互体验。",
+    "category": "人工智能",
+    "tags": [
+      "OpenAI",
+      "语音模型",
+      "大模型"
+    ],
+    "source": "AIHOT精选",
+    "time": "26分钟前",
+    "ts": "2026-07-08T17:31:05+00:00",
+    "url": "https://x.com/testingcatalog/status/2074909146156081417",
+    "image": "",
+    "stocks": [
+      {
+        "name": "微软",
+        "ticker": "MSFT",
+        "reason": "OpenAI主要合作伙伴并深度整合其AI模型，产品商业化可能带动Azure/OpenAI业务",
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
+    "id": "aeeb5799be8cf882",
+    "title": "ChatGPT上线GPT-live新一代语音",
+    "summary": "OpenAI今日在ChatGPT推出名为GPT-live的新一代语音功能，官方称交互体验更自然真实。该产品可能改变用户与AI的交互习惯。",
+    "body": "据OpenAI首席执行官Sam Altman在社交平台发布的信息，名为GPT-live的下一代语音功能今日在ChatGPT中推出。Altman表示，该功能给人“神奇且真实”的体验，甚至让他这种过去更偏好打字与AI交互的用户也考虑改用语音。\n\nGPT-live的上线标志着OpenAI在ChatGPT自然语音交互能力上的进一步升级，有望提升AI助手在对话流畅度、情感表达和用户沉浸感方面的表现。若体验获得广泛认可，或将加速语音成为主流人机交互界面之一。",
+    "category": "人工智能",
+    "tags": [
+      "OpenAI",
+      "ChatGPT",
+      "语音交互",
+      "AI助手"
+    ],
+    "source": "AIHOT精选",
+    "time": "26分钟前",
+    "ts": "2026-07-08T17:30:49+00:00",
+    "url": "https://x.com/sama/status/2074909079450050629",
+    "image": "",
+    "stocks": []
   },
   {
     "id": "e32866db601962d2",
