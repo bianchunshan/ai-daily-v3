@@ -1,5 +1,80 @@
 const newsData = [
   {
+    "id": "2208301515c7ee68",
+    "title": "健康研究代表性缺失的伦理与公平问题",
+    "summary": "健康研究中的群体代表性不仅影响科学发现，也直接关系到医疗规划、政策制定和资源配置的公平性。忽视特定人群或将加剧健康不平等。",
+    "body": "健康研究中的代表性问题正引发越来越多的伦理关注。当某些种族、性别、年龄或社会经济群体在临床试验和流行病学研究中被系统性忽视时，其疾病特征、药物反应和医疗需求难以被准确把握。\n\n这种代表性缺失会进一步影响医疗系统规划、公共卫生政策制定和医疗资源分配。研究样本的偏差可能导致部分人群被误诊、治疗方案不适用，或无法获得与自身健康状况相匹配的干预措施，从而加剧健康不平等。因此，提升健康研究的包容性与公平性具有重要的科学价值和社会意义。",
+    "category": "生物医药",
+    "tags": [
+      "健康研究",
+      "医学伦理",
+      "医疗公平"
+    ],
+    "source": "MedicalXpress",
+    "time": "6分钟前",
+    "ts": "2026-07-08T09:40:09-04:00",
+    "url": "https://medicalxpress.com/news/2026-07-ethics-left-health.html",
+    "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/diverse-audience.jpg",
+    "stocks": []
+  },
+  {
+    "id": "a7a6fd70a34d8f1b",
+    "title": "肠道细菌通过维生素A调控T细胞免疫",
+    "summary": "德州大学西南医学中心科学家发现，肠道细菌通过引导维生素A在细胞网络中移动来调控免疫系统发育。该临床前研究提示营养通路可能成为免疫相关疾病的治疗靶点。",
+    "body": "德克萨斯大学西南医学中心（UT Southwestern Medical Center）研究人员在《Cell Host & Microbe》发表研究成果，显示肠道细菌可引导维生素A穿过此前未被识别的细胞网络，从而调控机体免疫系统发育。\n\n这些临床前发现可能重塑研究人员对免疫发育紊乱相关疾病的认知，并突出营养通路作为治疗干预的潜在靶点。\n\n该研究揭示了微生物群与宿主营养代谢之间的紧密联系，为自身免疫、肠道炎症等疾病的机制研究和新型疗法开发提供了新方向。",
+    "category": "生物医药",
+    "tags": [
+      "肠道菌群",
+      "免疫调节",
+      "维生素A",
+      "T细胞"
+    ],
+    "source": "MedicalXpress",
+    "time": "6分钟前",
+    "ts": "2026-07-08T09:40:07-04:00",
+    "url": "https://medicalxpress.com/news/2026-07-gut-bacteria-boost-immune-vitamin.html",
+    "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/gut-bacteria-boost-imm.jpg",
+    "stocks": []
+  },
+  {
+    "id": "ca06565313dce5a3",
+    "title": "字节跳动发布多模态图像创作模型Seedream 5.0 Pro",
+    "summary": "字节跳动正式发布多模态图像创作模型Seedream 5.0 Pro，在图文匹配、文字渲染、画面美感等基础能力上全面提升，支持复杂信息可视化与交互式精准编辑。该模型已上线火山方舟，并将陆续接入豆包与即梦。",
+    "body": "7月8日，字节跳动宣布正式发布多模态图像创作模型Seedream 5.0 Pro。相比前代版本，新模型在图文匹配、结构合理性、文字渲染与画面美感等基础能力上全面升级，具备复杂信息可视化、交互式精准编辑、真实影像与人像质感、原生多语种输入与生成等核心能力。\n\n其中，复杂信息可视化能力可将数据、概念与密集文字转化为专业排版，适用于高信息密度内容生产；交互式精准编辑则基于空间位置与区域语义理解，支持点选、圈选、草图渲染、色彩与材质替换、图层分离及多图融合等操作。该模型还支持十余种世界常用语言直接输入与高质量渲染。\n\n目前，Seedream 5.0 Pro已上线火山方舟体验中心，后续将陆续在豆包、即梦等产品中接入，有望进一步推动字节跳动在AI图像生成与内容创作领域的应用落地。",
+    "category": "人工智能",
+    "tags": [
+      "多模态模型",
+      "图像生成",
+      "字节跳动",
+      "AI应用"
+    ],
+    "source": "IT之家",
+    "time": "12分钟前",
+    "ts": "2026-07-08T13:33:51+00:00",
+    "url": "https://www.ithome.com/0/974/249.htm",
+    "image": "https://img.ithome.com/newsuploadfiles/2026/7/a7cbc9d0-693a-46be-a010-30c50ab5bf47.png?x-bce-process=image/format,f_auto",
+    "stocks": []
+  },
+  {
+    "id": "7d9395b5769ad721",
+    "title": "Roku 夜间观影隐藏功能获推荐",
+    "summary": "Engadget 指出 Roku 上有一项适合夜间追剧用户使用的功能，同时 Fire Stick 和 Google TV 用户也可开启类似选项，以提升深夜观看体验。",
+    "body": "据报道，Engadget 推荐 Roku 用户启用一项专为夜间观影设计的功能，以改善深夜煲剧体验。该建议也适用于使用 Fire Stick 和 Google TV 的观众。这类功能通常旨在降低夜间视听内容对休息环境或他人的影响。虽然文章未披露具体功能名称，但它反映出流媒体设备厂商正通过细节优化提升用户粘性，进一步加剧客厅娱乐场景的竞争。",
+    "category": "消费电子",
+    "tags": [
+      "流媒体设备",
+      "Roku",
+      "智能电视",
+      "消费电子"
+    ],
+    "source": "Engadget",
+    "time": "16分钟前",
+    "ts": "2026-07-08T13:30:00+00:00",
+    "url": "https://www.engadget.com/2209408/best-roku-feature-for-night-owls/",
+    "image": "https://www.engadget.com/img/gallery/the-best-roku-feature-for-night-owls-you-probably-arent-using/l-intro-1783428228.jpg",
+    "stocks": []
+  },
+  {
     "id": "97f94c8f854e56aa",
     "title": "亚马逊推进Alexa AI智能体项目，内部担忧成本高昂",
     "summary": "据报道，亚马逊正研发代号“Moonraker”的Alexa新计划，旨在让语音助手处理多步骤复杂任务。但内部文件显示该项目研发和运行成本极高，预计2026年GPU算力开销超过1亿美元，引发公司内部担忧。",
@@ -146100,6 +146175,12 @@ const newsData = [
   }
 ];
 const newsDigest = {
-  "text": "",
-  "highlights": []
+  "text": "今日科技前沿聚焦：字节发布多模态创作模型，奔驰纯电GLC SUV上市，亚马逊与Cloudflare/OpenAI推进AI智能体与搜索效率，蓝色起源拟百亿美元融资。",
+  "highlights": [
+    "ca06565313dce5a3",
+    "0dd38ec68c46697d",
+    "9228acf452ac398c",
+    "b133ea6defad6522",
+    "42af983a3d710665"
+  ]
 };
