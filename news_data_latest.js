@@ -1,5 +1,50 @@
 const newsData = [
   {
+    "id": "eefeec456affe4eb",
+    "title": "Waymo扩大完全无人驾驶至四城",
+    "summary": "谷歌旗下自动驾驶公司Waymo宣布将在圣地亚哥、拉斯维加斯、坦帕和丹佛四城取消人类安全员，开展全无人驾驶运营，商业化进程进一步提速。",
+    "body": "Waymo正加速其自动驾驶出租车的规模化部署。公司宣布，将很快在圣地亚哥、拉斯维加斯、坦帕和丹佛四个城市取消车内人类安全员，转向完全无人驾驶运营。此前，Waymo已在旧金山、洛杉矶、凤凰城和奥斯汀等地向公众提供无人驾驶服务。\n\n这一扩张凸显了Waymo在Robotaxi市场的领先地位，也表明其自动驾驶系统在更多复杂城市环境中获得了监管与技术的双重认可。随着完全无人驾驶服务范围的扩大，Robotaxi行业有望加速从试点走向规模化商业落地。",
+    "category": "机器人",
+    "tags": [
+      "自动驾驶",
+      "Robotaxi",
+      "Waymo",
+      "智能出行"
+    ],
+    "source": "Engadget",
+    "time": "4分钟前",
+    "ts": "2026-07-08T17:13:26+00:00",
+    "url": "https://www.engadget.com/2210677/waymo-will-soon-go-fully-autonomous-in-four-more-cities/",
+    "image": "https://www.engadget.com/img/gallery/waymo-will-soon-go-fully-autonomous-in-four-more-cities/l-intro-1783529672.jpg",
+    "stocks": [
+      {
+        "name": "Alphabet",
+        "ticker": "GOOGL",
+        "reason": "Waymo是Alphabet旗下自动驾驶子公司，扩大全无人驾驶运营将提升其商业化前景与估值。",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "795a702a8d902330",
+    "title": "AirFly Pro无线适配器促销：40美元可用耳机连航娱",
+    "summary": "Twelve South 上一代 AirFly Pro 无线音频适配器目前在亚马逊降至 39.99 美元，可让用户在航班上将无线耳机接入机载娱乐系统。",
+    "body": "据 The Verge 报道，Twelve South 的上一代 AirFly Pro 无线适配器正在亚马逊以 39.99 美元的价格促销，比原价低 15 美元。这款小配件通过 3.5 毫米音频接口将无线耳机与飞机、健身房器械等无蓝牙设备连接，提升长途飞行体验。这类旅行数码配件持续细分消费电子市场，也反映出用户对无线耳机兼容传统音频接口设备的持续需求。",
+    "category": "消费电子",
+    "tags": [
+      "消费电子",
+      "无线耳机",
+      "旅行配件",
+      "数码配件"
+    ],
+    "source": "The Verge",
+    "time": "8分钟前",
+    "ts": "2026-07-08T13:09:28-04:00",
+    "url": "https://www.theverge.com/gadgets/962910/twelve-south-airfly-pro-summer-travel-gadgets-deal-sale",
+    "image": "",
+    "stocks": []
+  },
+  {
     "id": "963a6870c5aab5ca",
     "title": "OpenAI升级ChatGPT语音模式，对话更自然",
     "summary": "OpenAI发布新模型GPT-Live-1，优化ChatGPT语音对话体验，减少打断并能在用户停顿后继续等待发言。",
