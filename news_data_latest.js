@@ -1,35 +1,53 @@
 const newsData = [
   {
     "id": "4ceac6a4144aa62c",
-    "title": "Momenta港交所挂牌，市值突破700亿港元",
-    "summary": "7月8日，自动驾驶及物理AI公司Momenta正式在港交所上市，股票代码6880.HK，开盘涨超6%，总市值突破700亿港元，成为“物理AI第一股”。",
-    "body": "7月8日，Momenta在港交所主板挂牌交易，股票代码为6880.HK，发行价定为295.6港元/股。若超额配股权全额行使，此次全球发售约2293万股，募资总额约68亿港元。上市首日开盘股价涨超6%，总市值突破700亿港元。\n\nMomenta定位为“物理AI”公司，核心技术覆盖自动驾驶算法与量产解决方案。上市前一天，公司宣布其量产业务搭载规模已突破100万台，显示出商业化落地加速。\n\n此次IPO不仅提升了Momenta的资本实力与品牌能见度，也反映出资本市场对自动驾驶及物理AI赛道长期价值的认可，或将带动相关产业链关注度提升。",
+    "title": "Momenta港股上市，总市值突破700亿港元",
+    "summary": "物理AI公司Momenta于7月8日在港交所挂牌，股票代码6880.HK，开盘涨超6%，总市值突破700亿港元；其量产业务搭载规模已突破100万台。",
+    "body": "7月8日，自动驾驶及物理AI公司Momenta正式在港交所上市，代码6880.HK，成为市场所称的“物理AI第一股”。该股开盘涨超6%，总市值突破700亿港元。按此前配售结果，Momenta上市定价为295.6港元/股，若“绿鞋”全额行使，全球发售约2293万股，募资总额约68亿港元。\n\n上市前一天，Momenta宣布其量产业务搭载规模已突破100万台，显示其智能驾驶方案量产落地加速。此次港股上市将为其技术研发、规模化量产及海外市场拓展提供资金支持，也可能提振自动驾驶产业链关注度。",
     "category": "机器人",
     "tags": [
-      "Momenta",
-      "港股IPO",
       "自动驾驶",
-      "物理AI"
+      "港股上市",
+      "物理AI",
+      "智能出行"
     ],
     "source": "36氪",
     "time": "刚刚",
-    "ts": "2026-07-08T01:49:15.960049+00:00",
+    "ts": "2026-07-08T01:50:56.923546+00:00",
     "url": "https://36kr.com/newsflashes/3886332173561862?f=rss",
     "image": "",
     "stocks": [
       {
-        "name": "Momenta",
+        "name": "Momenta（初速度）",
         "ticker": "6880.HK",
-        "reason": "公司直接在港交所上市，总市值突破700亿港元，是新闻核心标的",
+        "reason": "公司自身港股上市，募资约68亿港元，量产业务搭载规模突破100万台，直接受益。",
         "confidence": "high"
       }
     ]
   },
   {
+    "id": "01fbb68903d2d8d0",
+    "title": "Keychron 发布 K4/K10 Ultra 8K 机械键盘",
+    "summary": "Keychron（渴创）为 K Ultra 8K 系列新增带数字区的 K4 与 K10 两款机械键盘，支持三模连接与 8kHz 回报率，内置 4000mAh 电池可提供 600 小时续航。",
+    "body": "IT之家 7 月 8 日消息，Keychron 昨日宣布推出 K4 / K10 Ultra 8K 机械键盘，分别采用 96% 和 100% 配列，均配备独立数字键区。两款新品定价均为 114.99 美元，约合人民币 782 元。\n\n配置方面，K4 / K10 Ultra 8K 支持三模连接，回报率可达 8kHz；内置 4000mAh 电池，在 8kHz 模式下续航可达 600 小时。键盘外壳采用 ABS 工程塑料，内部为 6 层阻尼填充结构，搭配钢制定位板；PCB 支持热插拔并集成 RGB 背光。\n\n两款产品均搭载 Keychron Apex 系列机械轴体，拥有透光 PC 上盖与 POM 轴芯，可选红轴、茶轴与香蕉轴版本；键帽为 OSA 高度 PBT 材质双色注塑工艺。该新品进一步丰富了 Keychron 的高端机械键盘产品线，面向对输入延迟和续航有较高要求的办公与游戏用户。",
+    "category": "消费电子",
+    "tags": [
+      "机械键盘",
+      "外设",
+      "消费电子"
+    ],
+    "source": "IT之家",
+    "time": "1分钟前",
+    "ts": "2026-07-08T01:49:30+00:00",
+    "url": "https://www.ithome.com/0/973/866.htm",
+    "image": "https://img.ithome.com/newsuploadfiles/2026/7/5856b9a0-deed-4507-b7d4-31ffc176c453.jpg?x-bce-process=image/format,f_auto",
+    "stocks": []
+  },
+  {
     "id": "22c8fee974e5d926",
-    "title": "Valve发布Proton 11稳定版：提升Steam Deck兼容性",
-    "summary": "Valve正式发布Proton 11.0-1稳定版，这是Proton 11系列首个正式版本，显著提升Steam Deck及Linux桌面系统运行Windows游戏的兼容性与稳定性。",
-    "body": "Valve于7月8日发布Proton 11.0-1稳定版，这是Proton 11系列的首个正式版本，也是Steam Play采用的Windows游戏兼容层的重要更新。Proton基于Wine项目开发，为Linux桌面、Steam Deck及新版Steam Machine提供运行Windows游戏的环境。经过多轮Beta测试后，该版本从测试通道正式转入稳定通道。\n\n新版本最直观的变化是游戏兼容性大幅提升。13款此前依赖Steam测试版才能运行的Windows游戏，如《生化危机》《恐龙危机》《合金装备：生存》《战锤：末世鼠疫2》等，现可在Proton稳定版中直接游玩；另有5款游戏首次获得Proton原生支持。同时，更新修复了EA桌面客户端更新导致的多款EA游戏无法运行、Steam界面呼出异常、R星启动器弹窗渲染等问题，并优化了《绝地潜兵2》《微软模拟飞行》《无人深空》《死亡搁浅2》《赛博朋克2077》《巫师3》等热门作品的运行体验。\n\n底层方面，Proton 11.0-1重新同步至Wine 11.0，并升级了Xalia、FEX、VKD3D、DXVK、DXVK-NVAPI、Wine Mono等组件，新增SteamWorks SDK 1.64支持，进一步改善DirectX图形转换、控制器兼容性与整体稳定性。此次更新意味着Linux桌面、Steam Deck及Steam Machine用户可通过Steam正式获得更完善的游戏兼容体验。",
+    "title": "Valve发布Proton 11稳定版：Steam Deck兼容性大幅提升",
+    "summary": "Valve正式发布Proton 11.0-1稳定版，这是Proton 11系列首个正式版本，显著扩展了Steam Deck与Linux系统对Windows游戏的兼容支持，并修复了多款热门游戏的运行问题。",
+    "body": "Valve正式发布Proton 11.0-1稳定版，这是Proton 11系列的首个正式版本，也是Steam Play所采用的Windows游戏兼容层的重要更新。该版本基于Wine 11.0开发，为Linux桌面系统、Steam Deck以及新版Steam Machine提供运行Windows游戏的环境，经过数轮Beta测试后转为稳定发布。\n\n此次更新的核心变化是游戏兼容性的大幅提升。13款此前依赖Steam测试版才能运行的Windows游戏现可直接在Proton稳定版中游玩，另有5款游戏首次获得原生支持。同时，官方修复了EA桌面客户端更新导致的多款游戏无法运行、Steam界面无法呼出、R星启动器弹窗渲染异常、《绝地潜兵2》战斗崩溃、《微软模拟飞行》VR手柄追踪及《无人深空》VR兼容性等问题。\n\n底层方面，Proton 11.0-1完成了对Wine 11.0的重新同步，并更新了Xalia、FEX、VKD3D、DXVK、DXVK-NVAPI、Wine Mono等组件，新增对SteamWorks SDK 1.64的支持，还改进了HID控制器热插拔、Gamescope兼容性与VR控制器追踪。该版本将进一步巩固Linux游戏生态，提升Steam Deck用户的游戏体验。",
     "category": "消费电子",
     "tags": [
       "游戏兼容层",
@@ -38,25 +56,52 @@ const newsData = [
       "Valve"
     ],
     "source": "IT之家",
-    "time": "1分钟前",
+    "time": "3分钟前",
     "ts": "2026-07-08T01:47:22+00:00",
     "url": "https://www.ithome.com/0/973/865.htm",
     "image": "https://img.ithome.com/newsuploadfiles/2026/7/8ac30d3a-68d4-43fa-862d-0dd699656c38.png?x-bce-process=image/format,f_auto",
     "stocks": []
   },
   {
+    "id": "eab88fd643ca710a",
+    "title": "deepin 25.2.0发布：Treeland优化并支持图片内容搜索",
+    "summary": "deepin 25.2.0版本镜像正式发布，重点优化新一代Treeland窗口管理器的稳定性与适配性，新增图片内容搜索和文档正文检索，并修复大量桌面、内核与安全相关问题。",
+    "body": "deepin 25.2.0版本于7月8日正式发布，核心升级集中在新一代窗口管理器“Treeland”。该版本累计修复20余项稳定性问题，改善了登录注销、多任务视图、焦点切换、多屏设置等场景，并完成与DDE核心能力的关键适配，动态壁纸、定时待机、Wine兼容（企业微信已基本可用）等功能已能满足日常使用。",
+    "category": "消费电子",
+    "tags": [
+      "deepin",
+      "操作系统",
+      "Linux",
+      "桌面环境"
+    ],
+    "source": "IT之家",
+    "time": "4分钟前",
+    "ts": "2026-07-08T01:46:25+00:00",
+    "url": "https://www.ithome.com/0/973/858.htm",
+    "image": "https://img.ithome.com/newsuploadfiles/2026/7/a26363dc-fb89-4afe-9fb8-a3e3f761c575.png?x-bce-process=image/format,f_auto",
+    "stocks": [
+      {
+        "name": "诚迈科技",
+        "ticker": "300598.SZ",
+        "reason": "参股统信软件/深度科技，deepin产品迭代与体验提升有望带动其操作系统相关业务。",
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
     "id": "82b04fba34822971",
-    "title": "全人源蛋白新药可抑制转移性前列腺癌",
-    "summary": "瑞典于默奥大学及国际合作团队开发出一种完全由人体蛋白质构成的新药，研究显示其可抑制晚期前列腺癌的肿瘤生长及转移。",
-    "body": "据发表于《Signal Transduction and Targeted Therapy》的研究，瑞典于默奥大学（Umeå University）与国际合作者共同研发出一种完全由人体蛋白质构成的新型抗癌药物。该药物在实验中显示出抑制肿瘤生长及阻止侵袭性前列腺癌转移的潜力。\n\n由于药物完全源自人体蛋白质，理论上具有较低的免疫原性，这可能使其在晚期转移性前列腺癌患者中具备更好的安全性与耐受性。研究为开发针对晚期前列腺癌的双效治疗策略提供了新的候选方案，但仍需进一步临床验证。",
+    "title": "全新人源蛋白药物可抑制转移性前列腺癌",
+    "summary": "瑞典于默奥大学研究团队开发出一种完全由人体蛋白质构成的新药，临床前研究显示其可同时抑制侵袭性前列腺癌的肿瘤生长与转移。相关成果已发表于《Signal Transduction and Targeted Therapy》期刊。",
+    "body": "据外媒报道，瑞典于默奥大学（Umeå University）联合国际研究机构开展的一项研究表明，一种完全由人体蛋白质组成的新型抗癌药物有望抑制侵袭性前列腺癌的肿瘤生长及其转移扩散。该研究已发表在《Signal Transduction and Targeted Therapy》期刊上。前列腺癌是男性常见恶性肿瘤，发生转移后治疗选择有限、预后较差。若该药物后续开发顺利，或将为转移性前列腺癌患者提供一种全新的治疗策略。由于该成果尚处于研究阶段，未披露具体商业合作方与临床时间表。",
     "category": "生物医药",
     "tags": [
       "前列腺癌",
-      "抗癌药物",
-      "蛋白质药物"
+      "创新药",
+      "蛋白质药物",
+      "肿瘤治疗"
     ],
     "source": "MedicalXpress",
-    "time": "8分钟前",
+    "time": "10分钟前",
     "ts": "2026-07-07T21:40:04-04:00",
     "url": "https://medicalxpress.com/news/2026-07-drug-metastatic-prostate-cancer-human.html",
     "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/study-paves-the-way-fo-1.jpg",
