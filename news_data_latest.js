@@ -1,5 +1,24 @@
 const newsData = [
   {
+    "id": "3acce04850bdf9a0",
+    "title": "Runway Dev 发布页面未提供产品详情",
+    "summary": "Runway 官网以 Cookie 设置页面代替 Runway Dev 产品介绍，目前未公布其功能、参数及可用性等具体信息。",
+    "body": "Runway 官网近日上线了 Runway Dev 的发布入口，但页面目前仅显示 Cookie 设置选项，并未提供产品介绍、功能说明或技术参数。\n\n这意味着 Runway Dev 的具体能力、适用对象及上线时间等关键信息尚未对外披露。外界暂时无法判断该产品与现有视频/图像生成工具的差异，也难以评估其商业化进展。",
+    "category": "人工智能",
+    "tags": [
+      "Runway",
+      "AI视频生成",
+      "产品发布",
+      "生成式AI"
+    ],
+    "source": "AIHOT精选",
+    "time": "1分钟前",
+    "ts": "2026-07-08T15:35:51.878000+00:00",
+    "url": "https://runwayml.com/news/introducing-runway-dev",
+    "image": "",
+    "stocks": []
+  },
+  {
     "id": "3849230c847cedb5",
     "title": "研究发现青年期蔬菜摄入或降低未来慢病风险",
     "summary": "伊迪丝科文大学基于Raine研究数据指出，20多岁时摄入的蔬菜种类可能影响未来健康，且男女性对特定蔬菜预防心脏病和2型糖尿病的作用可能存在差异。",
@@ -118,6 +137,25 @@ const newsData = [
     "ts": "2026-07-08T15:03:33+00:00",
     "url": "https://www.tomshardware.com/pc-components/dram/jedec-releases-new-sphbm4-standard-to-slash-ai-memory-costs-narrow-512-bit-interface-enables-dropping-expensive-interposers-for-organic-substrates",
     "image": "https://cdn.mos.cms.futurecdn.net/vnqdtRupVqWHAik43ZWctH-1280-80.jpg",
+    "stocks": []
+  },
+  {
+    "id": "935f2bef67fb2f75",
+    "title": "ENCY与史陶比尔合作简化机器人编程",
+    "summary": "ENCY Software与Stäubli Robotics达成全球合作协议，将其ENCY Robot软件与史陶比尔工业机器人整合，使复杂CAD/CAM轨迹的机器人编程更直观、快速和可预测。",
+    "body": "ENCY Software Ltd.近日宣布与Stäubli International AG旗下的Stäubli Robotics达成全球合作，将其ENCY Robot软件与史陶比尔工业机器人打通。用户可借助“Machine Maker”应用构建机器人工作单元的数字孪生，实现离线编程、过程仿真、碰撞与奇异点检测，从而减少机器人编程停机时间。\n\n此次合作面向铣削、磨削、切割、去毛刺、抛光和激光加工等复杂工艺，将传统与AI驱动的CAD/CAM设计制造流程，与离线及实时机器人编程、NC代码验证和云端协作统一起来。史陶比尔提供硬件基础，ENCY负责把数字准备路径转化为真实机器人运动，旨在降低先进机器人编程的复杂度，提升制造业自动化部署效率。",
+    "category": "机器人",
+    "tags": [
+      "机器人编程",
+      "工业自动化",
+      "数字孪生",
+      "CAD/CAM"
+    ],
+    "source": "The Robot Report",
+    "time": "34分钟前",
+    "ts": "2026-07-08T15:02:53+00:00",
+    "url": "https://www.therobotreport.com/ency-software-staubli-robotics-partner-simplify-robot-programming/",
+    "image": "https://www.therobotreport.com/wp-content/uploads/2026/07/Build-Your-Robotic-Cell-Digital-Twin.jpg",
     "stocks": []
   },
   {
