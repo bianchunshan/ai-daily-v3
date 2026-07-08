@@ -1,5 +1,42 @@
 const newsData = [
   {
+    "id": "967680726baf5e95",
+    "title": "AI初创公司收入增速持续加快",
+    "summary": "报道称，部分人工智能初创公司的营收增长正在不断提速，显示出AI应用和市场需求的快速扩张。",
+    "body": "这篇来自TechCrunch的报道指出，当前有许多收入快速增长的AI初创公司，其中一些企业的增速还在进一步加快。这一现象反映出人工智能应用在企业和消费市场的渗透正在加速。\n\n尽管报道未透露具体公司名称或财务数据，但“越增长越快”的趋势暗示AI赛道仍处高速扩张期，对相关技术创新和资本投入具有持续吸引力。整体而言，AI初创企业收入加速增长被视为人工智能产业景气度上升的一个信号。",
+    "category": "人工智能",
+    "tags": [
+      "AI初创",
+      "收入增长",
+      "人工智能"
+    ],
+    "source": "TechCrunch",
+    "time": "刚刚",
+    "ts": "2026-07-08T15:41:06+00:00",
+    "url": "https://techcrunch.com/2026/07/08/these-ai-startups-are-growing-revenue-at-faster-and-faster-rates/",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "bd265960f4524a18",
+    "title": "健康应用与信息流改变美国人就医行为",
+    "summary": "耶鲁大学医学院两项新研究显示，可穿戴设备与健康类社交媒体内容正影响美国成年人的就医决策和医患互动。",
+    "body": "耶鲁大学医学院研究人员近期在《JAMA Network Open》和《JAMA》发表两项研究，揭示美国成年人如何与可穿戴设备及社交媒体上的健康内容互动。调查显示，健康应用和信息流正在重塑患者就医前的准备、对症状的认知以及与医生的沟通方式。这一趋势反映了数字医疗正在从辅助工具向影响临床决策入口演变，对医疗信息传播、患者教育和远程健康管理具有深远影响。",
+    "category": "生物医药",
+    "tags": [
+      "数字医疗",
+      "可穿戴设备",
+      "社交媒体",
+      "医患关系"
+    ],
+    "source": "MedicalXpress",
+    "time": "1分钟前",
+    "ts": "2026-07-08T11:40:06-04:00",
+    "url": "https://medicalxpress.com/news/2026-07-health-apps-reshape-doctor-surveys.html",
+    "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/using-smart-watch.jpg",
+    "stocks": []
+  },
+  {
     "id": "3acce04850bdf9a0",
     "title": "Runway Dev 发布页面未提供产品详情",
     "summary": "Runway 官网以 Cookie 设置页面代替 Runway Dev 产品介绍，目前未公布其功能、参数及可用性等具体信息。",
@@ -15,6 +52,25 @@ const newsData = [
     "time": "1分钟前",
     "ts": "2026-07-08T15:35:51.878000+00:00",
     "url": "https://runwayml.com/news/introducing-runway-dev",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "2e703b0096419a43",
+    "title": "Kastor：面向AI Agent的Terraform式配置工具",
+    "summary": "Hacker News上出现了一款名为Kastor的新工具，允许开发者以Terraform风格的声明式规范来定义和编排AI Agent，尝试将基础设施即代码理念引入智能体开发。",
+    "body": "近日，Hacker News上一则“Show HN: Kastor”的帖子展示了一款新工具，试图把Terraform的声明式配置方式引入AI Agent领域。用户可以通过类似基础设施即代码（IaC）的规范来定义和编排AI Agent，有望提升配置的可复现性与可管理性。\n\n目前该帖子互动数据较少，仅获得3个赞且无评论，说明Kastor仍处于早期展示阶段。若该工具能够进一步成熟，可能为AI Agent的部署与生命周期管理提供一种更工程化的方案，但其具体技术实现、商业模式与生态支持仍有待观察。",
+    "category": "人工智能",
+    "tags": [
+      "AI Agent",
+      "开发工具",
+      "基础设施即代码",
+      "人工智能"
+    ],
+    "source": "Hacker News",
+    "time": "16分钟前",
+    "ts": "2026-07-08T15:25:09+00:00",
+    "url": "https://github.com/weirdGuy/kastor",
     "image": "",
     "stocks": []
   },
@@ -57,21 +113,20 @@ const newsData = [
     "stocks": []
   },
   {
-    "id": "48078664b29fa8a4",
-    "title": "泽连斯基呼吁北约盟友联合研制导弹",
-    "summary": "乌克兰总统泽连斯基在北约峰会上呼吁欧洲盟友加强导弹制造能力，以应对俄罗斯持续袭击。",
-    "body": "据半岛电视台报道，乌克兰总统泽连斯基在北约峰会上敦促欧洲盟友共同研制导弹。当前俄罗斯仍在持续对乌克兰发动攻击，乌克兰方面希望借助北约框架提升自身及欧洲的防务能力。\n\n这一表态凸显出俄乌冲突背景下，欧洲防务自主和导弹等先进武器装备能力建设正受到更多关注。若欧洲国家加大相关投入，可能推动欧洲国防工业和军工技术研发需求上升。",
-    "category": "地缘科技",
+    "id": "e476f428003a2413",
+    "title": "Chatto 项目宣布开源",
+    "summary": "名为 Chatto 的项目已宣布转为开源，开发者可自由获取其代码并参与社区贡献。",
+    "body": "来自 Hacker News 的信息显示，Chatto 项目现已宣布转为开源。开源意味着该项目的源代码将对公众开放，开发者可基于其代码进行学习、使用或二次开发。这一举措通常有助于扩大项目的用户基础与开发者社区，并推动相关功能的持续改进与生态共建。",
+    "category": "人工智能",
     "tags": [
-      "北约",
-      "防务科技",
-      "俄乌冲突",
-      "导弹"
+      "开源",
+      "Chatto",
+      "开发者生态"
     ],
-    "source": "Al Jazeera",
+    "source": "Hacker News",
     "time": "21分钟前",
-    "ts": "2026-07-08T15:18:30+00:00",
-    "url": "https://www.aljazeera.com/video/newsfeed/2026/7/8/zelenskyy-seeks-nato-support-as-russia-continues-attacks?traffic_source=rss",
+    "ts": "2026-07-08T15:19:50+00:00",
+    "url": "https://www.hmans.dev/blog/chatto-is-open-source",
     "image": "",
     "stocks": []
   },
