@@ -1,5 +1,24 @@
 const newsData = [
   {
+    "id": "d4ac26e3d0a63614",
+    "title": "中国指Claude Code含后门，可偷传用户敏感信息",
+    "summary": "中国监管部门称Anthropic旗下AI编程工具Claude Code存在安全后门，可能未经用户同意向远程服务器发送位置、身份等敏感信息，并建议用户卸载或更新。此事涉及AI应用的数据安全与跨境监管风险。",
+    "body": "中国国家漏洞库（NVDB）发布声明，称Anthropic的AI编程工具Claude Code存在\"安全后门漏洞\"，相关版本会在用户不知情的情况下，通过内置监控机制将用户位置、身份、时区、域名等敏感信息发送至远程服务器。监管部门建议用户卸载该工具或升级至最新版本。\n\n据悉，这一披露源于开发者Troye Sivan发现Claude Code针对中国用户隐蔽传输信息。Anthropic工程师Thariq Shihipar随后在X上证实，这是公司6月推出的一项实验，旨在防止未授权转售商的账户滥用，并防范模型蒸馏。但中方仍将其定性为\"严重威胁\"。\n\n值得注意的是，Claude Code目前并未获准在中国境内公开使用，Anthropic也因国家安全风险限制了其工具在该地区的使用。此次事件凸显了AI应用在跨境数据流动、用户隐私保护及地缘政治背景下的合规风险，也可能对相关AI企业的国际市场拓展构成压力。",
+    "category": "网络安全",
+    "tags": [
+      "AI安全",
+      "Claude Code",
+      "数据隐私",
+      "跨境监管"
+    ],
+    "source": "Tom's Hardware",
+    "time": "3分钟前",
+    "ts": "2026-07-08T15:54:14+00:00",
+    "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/china-alleges-that-claude-code-contains-backdoors-calls-mechanism-a-serious-threat-govt-claims-claude-sends-sensitive-information-to-remote-servers-without-consent",
+    "image": "https://cdn.mos.cms.futurecdn.net/ScT7C9WsuqruarWf3kSRRG-1280-80.jpg",
+    "stocks": []
+  },
+  {
     "id": "967680726baf5e95",
     "title": "AI初创公司收入增速持续加快",
     "summary": "报道称，部分人工智能初创公司的营收增长正在不断提速，显示出AI应用和市场需求的快速扩张。",
