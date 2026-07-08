@@ -1,5 +1,80 @@
 const newsData = [
   {
+    "id": "9ace5e09b17aa2e3",
+    "title": "小鼠研究显示痴呆蛋白病变相互加剧",
+    "summary": "在阿尔茨海默病和帕金森病小鼠模型中，β淀粉样蛋白斑块形成后，tau蛋白和α-突触核蛋白的病理水平升高，提示不同致病蛋白可能相互作用并推动神经退行性变。",
+    "body": "美国希望之城旗下TGen的研究人员利用一种独特的小鼠模型，组合了β淀粉样蛋白、α-突触核蛋白和tau等与痴呆相关的蛋白。他们发现，在淀粉样斑块形成之后，tau蛋白和α-突触核蛋白的病理水平明显上升。这一结果表明，衰老大脑中并存的多种蛋白病变可能并非独立发展，而是相互促进。\n\n该研究为理解阿尔茨海默病、帕金森病等神经退行性疾病的发病机制提供了新线索。如果不同致病蛋白之间存在协同作用，未来疗法可能需要同时针对多种蛋白通路，而非单一靶点。",
+    "category": "生物医药",
+    "tags": [
+      "阿尔茨海默病",
+      "帕金森病",
+      "神经退行性疾病",
+      "病理研究"
+    ],
+    "source": "MedicalXpress",
+    "time": "8分钟前",
+    "ts": "2026-07-08T17:00:09-04:00",
+    "url": "https://medicalxpress.com/news/2026-07-amyloid-plaques-tau-alpha-synuclein.html",
+    "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/how-do-different-demen.jpg",
+    "stocks": []
+  },
+  {
+    "id": "bdf72624c92f1985",
+    "title": "美国慢性肾病结构转变：糖尿病相关肾病上升",
+    "summary": "过去十年美国成人慢性肾病患病率停滞在约15%，但疾病谱正在变化，糖尿病相关慢性肾病占比上升，公共卫生负担持续。",
+    "body": "慢性肾病在美国成年人中常见且隐匿，约七分之一成人患病，多数患者并不自知。该病显著增加心脏病发作、中风、肾衰竭和早亡风险。2013年至2023年间，美国成人慢性肾病总体患病率维持在15%左右，但疾病构成发生变化，与糖尿病相关的慢性肾病呈上升趋势。这一转变反映出糖尿病在美国人群中的流行及其对肾脏健康的长期影响，提示公共卫生政策和临床管理需加强对糖尿病肾病风险的筛查与干预。",
+    "category": "生物医药",
+    "tags": [
+      "慢性肾病",
+      "糖尿病肾病",
+      "公共卫生"
+    ],
+    "source": "MedicalXpress",
+    "time": "8分钟前",
+    "ts": "2026-07-08T17:00:07-04:00",
+    "url": "https://medicalxpress.com/news/2026-07-kidney-disease-profile-shifts-diabetes.html",
+    "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/kidney-disease-1.jpg",
+    "stocks": []
+  },
+  {
+    "id": "2b81acd4663bad8e",
+    "title": "早期心脏外科接诊可缩短重症先心病新生儿住院时间",
+    "summary": "美国一项发表于《儿科学杂志》的研究显示，患有严重先天性心脏病且需紧急干预的新生儿，若出生即在有心脏外科资质的医院或尽早转入，住院时间显著短于延迟转运者。",
+    "body": "先天性心脏病是美国最常见的出生缺陷。对于病情最严重、出生后需要立即接受挽救性干预的新生儿，转运至心脏外科中心的时机与其住院时长密切相关。研究发现，与出生即在有心脏外科中心医院的患儿相比，后期才转院者住院时间更长。这表明，产前规划、高危孕产妇在具备心脏外科能力中心分娩，以及新生儿快速转诊，可能改善治疗效果并降低医疗负担。",
+    "category": "生物医药",
+    "tags": [
+      "先天性心脏病",
+      "新生儿医疗",
+      "心脏外科",
+      "临床研究"
+    ],
+    "source": "MedicalXpress",
+    "time": "8分钟前",
+    "ts": "2026-07-08T17:00:03-04:00",
+    "url": "https://medicalxpress.com/news/2026-07-early-access-cardiac-surgical-hospital.html",
+    "image": "https://scx1.b-cdn.net/csz/news/tmb/2023/newborn-1.jpg",
+    "stocks": []
+  },
+  {
+    "id": "143b9a72f8cad7b5",
+    "title": "双星“共舞”死亡催生罕见超新星",
+    "summary": "新研究表明，大质量双星系统可能共同走向死亡，其爆炸冲击波与预先存在的尘埃气体茧相互作用，或为“交互超新星”的形成之谜提供关键线索。",
+    "body": "比太阳质量大得多的恒星走到生命尽头时，核心坍缩会引发剧烈爆炸，形成超新星，并留下中子星或黑洞等致密残骸。然而，一类被称为“交互超新星”的爆发周围却包裹着预先存在的尘埃气体茧，其来源长期困扰天文学家。\n\n研究人员指出，宇宙中多数恒星并非像太阳那样孤立存在，而是以双星系统的形式在引力束缚下共同演化。新研究认为，当双星系统中质量较大的恒星先一步膨胀，其外层物质可能被伴星剥离并抛射，形成环绕系统的物质茧；随后另一颗恒星死亡爆炸时，冲击波便与这一尘埃茧相撞，产生交互超新星的特征信号。\n\n该发现不仅有助于解释交互超新星周围气体尘埃壳的起源，也可能深化人们对大质量双星共同演化、晚期恒星物质损失以及宇宙重元素合成机制的理解。",
+    "category": "商业航天",
+    "tags": [
+      "超新星",
+      "双星系统",
+      "天体物理",
+      "恒星演化"
+    ],
+    "source": "Space.com",
+    "time": "8分钟前",
+    "ts": "2026-07-08T21:00:00+00:00",
+    "url": "https://www.space.com/astronomy/stars/dance-of-death-between-binary-stars-leads-to-an-unusual-supernova",
+    "image": "https://cdn.mos.cms.futurecdn.net/CVdMXHfhkfUD6hi6Ps8pme-1280-80.png",
+    "stocks": []
+  },
+  {
     "id": "bd30fc0c77767d27",
     "title": "研究团队发现细胞核内促癌代谢新通路",
     "summary": "美国罗斯威尔公园综合癌症中心团队在《Nature Communications》发文，揭示细胞核内一条新代谢通路可通过基因激活促进癌症进展，阻断该通路可显著削弱肿瘤细胞的增殖与转移能力。",
@@ -155,6 +230,25 @@ const newsData = [
     "ts": "2026-07-08T20:09:21+00:00",
     "url": "https://www.wired.com/story/frontier-labs-arent-the-only-ones-pursuing-self-improving-ai/",
     "image": "https://media.wired.com/photos/6a4d3e5ad99ed47ae9e00cc8/master/pass/AI-Lab-I-Made-A-Self-Improving-AI-Business.jpg",
+    "stocks": []
+  },
+  {
+    "id": "38498fdf15b8580d",
+    "title": "LLM+AST代码可视化工具Onboard-CLI亮相",
+    "summary": "Hacker News上出现一款名为Onboard-CLI的开发者工具，结合大语言模型与抽象语法树技术，可自动分析并可视化代码库结构。",
+    "body": "Hacker News上展示的Onboard-CLI是一款面向软件开发者的命令行工具。该工具利用大语言模型（LLM）和抽象语法树（AST）技术，帮助开发者分析并可视化代码库结构，以降低理解大型项目代码的门槛。\n\n这类工具属于AI辅助编程的细分领域，通过将生成式AI与代码静态分析相结合，提升代码导航和理解效率。目前该项目仍处于早期展示阶段，尚未披露商业模式或商业化路径。",
+    "category": "人工智能",
+    "tags": [
+      "AI开发工具",
+      "代码可视化",
+      "LLM",
+      "AST"
+    ],
+    "source": "Hacker News",
+    "time": "59分钟前",
+    "ts": "2026-07-08T20:09:03+00:00",
+    "url": "https://github.com/animesh-94/Onboard-CLI",
+    "image": "",
     "stocks": []
   },
   {
