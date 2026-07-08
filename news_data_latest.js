@@ -1,5 +1,57 @@
 const newsData = [
   {
+    "id": "175c42b67d7208bd",
+    "title": "英伟达发布30B参数统一音频-文本模型Audex",
+    "summary": "英伟达6月发表论文，推出总参数300亿、激活参数30亿的Audex统一音频-文本大语言模型，可在保留核心文本能力的同时理解和生成音频与语音，并缓解了多模态扩展后文本能力下滑的问题。",
+    "body": "英伟达于今年6月发表论文，发布Audex（Nemotron-Labs-Audex-30B-A3B）统一音频-文本大语言模型。该模型总参数量300亿、激活参数30亿，基于Nemotron-Cascade-2-30B-A3B文本模型骨干，采用52层混合Mamba-Transformer架构，并引入128个可路由专家。其设计目标是避免多模态扩展后文本能力出现下滑。\n\nAudex将音频输入编码后映射到文本嵌入空间，并把量化后的音频输出标记与文本标记统一处理。音频部分使用AF-Whisper编码器处理16kHz输入，配合两层MLP适配器映射特征，输出词表从131072个Token扩展至205312个Tokens；语音输出采用X-Codec2编解码器，非语音音频采用X-Codec编解码器。\n\n文本评测显示，Audex在MMLU-Redux与IMO AnswerBench上得分高于骨干模型，仅在MMLU-Pro与GPQA-Diamond上小幅下降。该模型体现了英伟达在统一多模态大模型领域的技术布局，有望丰富其AI软件生态并拓展芯片应用新场景。",
+    "category": "人工智能",
+    "tags": [
+      "英伟达",
+      "多模态模型",
+      "音频-文本",
+      "大语言模型"
+    ],
+    "source": "IT之家",
+    "time": "1分钟前",
+    "ts": "2026-07-08T05:53:03+00:00",
+    "url": "https://www.ithome.com/0/973/992.htm",
+    "image": "https://img.ithome.com/newsuploadfiles/2026/7/1a4f35a0-85cb-4c76-a1be-d779f91550a1.jpg?x-bce-process=image/format,f_auto",
+    "stocks": [
+      {
+        "name": "英伟达",
+        "ticker": "NVDA",
+        "reason": "公司发布自研统一音频-文本大模型，强化AI软件生态与模型能力，利好其AI芯片及平台需求。",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "3d31a20bcf7d48ea",
+    "title": "Kensington发布人体工学薄膜键盘KB620",
+    "summary": "Kensington推出Pro Fit Ergo KB620薄膜键盘，采用98%配列立体弧形设计与记忆海绵腕托，提供单模/双模版本及键鼠套装，售价49.99美元起。新品旨在降低用户从标准键盘切换的学习成本，提升长时间输入舒适度。",
+    "body": "IT之家消息，Kensington于美国加州当地时间7月7日发布Pro Fit Ergo KB620薄膜键盘。该键盘采用略微弯曲的立体弧形人体工学造型，集成记忆海绵腕托，并保留20个可自定义按键，可在提升舒适度的同时减少用户适应时间。\n\nKB620提供有线单模和USB-C+蓝牙双模两种版本：单模售价49.99美元；双模版本支持同时连接两台设备，内置可充电电池续航约3个月，售价59.99美元。此外，Kensington还提供捆绑鼠标的KM620套装。\n\n此次发布丰富了办公外设市场的人体工学产品线，面向长时间文字输入和注重健康的用户群体，有望强化Kensington在商用外设领域的品牌认知。",
+    "category": "消费电子",
+    "tags": [
+      "人体工学键盘",
+      "办公外设",
+      "消费电子",
+      "Kensington"
+    ],
+    "source": "IT之家",
+    "time": "6分钟前",
+    "ts": "2026-07-08T05:48:17+00:00",
+    "url": "https://www.ithome.com/0/973/990.htm",
+    "image": "https://img.ithome.com/newsuploadfiles/2026/7/97f932c4-8d11-434a-9154-3e468de52ada.jpg?x-bce-process=image/format,f_auto",
+    "stocks": [
+      {
+        "name": "ACCO Brands",
+        "ticker": "ACCO",
+        "reason": "Kensington为ACCO Brands旗下品牌，新品发布有望带动其商用外设业务销售。",
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
     "id": "b5e757bf7da05fb9",
     "title": "腾讯DNF手游鸿蒙版定档7月15日上线",
     "summary": "腾讯《地下城与勇士：起源》鸿蒙版本将于2026年7月15日随新版本上线，原安卓/iOS账号可无损迁移至鸿蒙设备，并支持跨平台同玩。",
@@ -105,6 +157,25 @@ const newsData = [
     "time": "刚刚",
     "ts": "2026-07-08T04:52:01.533637+00:00",
     "url": "https://36kr.com/newsflashes/3886512622039296?f=rss",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "60619872fec40e83",
+    "title": "DeepSeek秘密研发推理芯片以降低对英伟达依赖",
+    "summary": "路透社报道称，中国AI公司DeepSeek正在秘密自研面向推理场景的AI芯片，项目约一年前启动，并已接触芯片设计公司、晶圆代工厂和存储器供应商。",
+    "body": "为支撑造芯计划，DeepSeek在2026年6月完成约510亿元人民币的首轮外部融资，资金将用于扩建以国产芯片为主的算力中心、自研AI芯片和扩充人才团队。公司还发布了IDC设计规划工程师招聘，涉及兆瓦级到吉瓦级数据中心建设，地点包括内蒙古乌兰察布。这标志着DeepSeek正从算法公司向软硬一体的AI基础设施玩家转变。",
+    "category": "半导体与先进制造",
+    "tags": [
+      "DeepSeek",
+      "AI芯片",
+      "推理芯片",
+      "国产算力"
+    ],
+    "source": "量子位",
+    "time": "1小时前",
+    "ts": "2026-07-08T04:47:04+00:00",
+    "url": "https://www.qbitai.com/2026/07/445883.html",
     "image": "",
     "stocks": []
   },
