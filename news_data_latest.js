@@ -1,5 +1,68 @@
 const newsData = [
   {
+    "id": "a822662ddf934245",
+    "title": "中科新松完成数亿元A+轮融资",
+    "summary": "协作机器人企业“中科新松”宣布完成数亿元A+轮股权融资，由洪泰基金、鼎晖百孚联合领投，多家知名机构跟投，老股东东珺资本继续加注。",
+    "body": "36氪报道，“中科新松”已正式完成A+轮数亿元股权融资。本轮融资由洪泰基金、鼎晖百孚联合领投，诚通基金、大众聚鼎、广州素元等知名资本跟投，老股东东珺资本亦追加投资。融资资金预计将用于公司技术研发、产能扩张和市场拓展，进一步巩固其在协作机器人领域的竞争力。作为新松机器人体系的重要成员，中科新松获得资本持续加注，反映出市场对国产高端机器人及智能制造赛道的长期看好。",
+    "category": "机器人",
+    "tags": [
+      "机器人",
+      "协作机器人",
+      "融资"
+    ],
+    "source": "36氪",
+    "time": "刚刚",
+    "ts": "2026-07-08T09:15:47.435982+00:00",
+    "url": "https://36kr.com/newsflashes/3886770814972161?f=rss",
+    "image": "",
+    "stocks": [
+      {
+        "name": "机器人",
+        "ticker": "300024.SZ",
+        "reason": "中科新松是新松机器人旗下核心子公司，融资有助于加速协作机器人业务发展并提升母公司权益价值。",
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
+    "id": "906ea78287661e80",
+    "title": "博帝发布Viper Steel 5 Infinite DDR5内存",
+    "summary": "Patriot（博帝）正式推出Viper Steel 5 Infinite DDR5系列内存模组，RGB版搭载独家无限镜面导光技术，提供多种容量与至高8000MT/s超频设定。",
+    "body": "Patriot（博帝）近日发布Viper Steel 5 Infinite DDR5系列内存模组，包含RGB灯效版与无灯效版。RGB版本采用独家“无限镜面”RGB导光技术，可在标准内存插槽的有限空间内呈现深邃的3D隧道光效，并保证灯光均匀、无光斑。\n\n据官方介绍，传统无限镜效果通常依赖较深的物理空间，而博帝研发团队通过创新的实心光学结构克服了这一限制。新品延续Viper Steel系列枪灰色马甲、利落折角、导光孔隙与钻切徽饰等设计语言，并配备高品质IC颗粒、解锁PMIC及多层PCB。\n\n规格方面，该系列提供16GB、24GB、32GB、48GB单条容量的双支套条，支持1.1V 5600MT/s基础JEDEC频率，并可选最高8000MT/s的超频配置，面向追求灯效与性能的高端玩家和装机市场。",
+    "category": "消费电子",
+    "tags": [
+      "DDR5内存",
+      "RGB内存",
+      "电竞硬件",
+      "Patriot"
+    ],
+    "source": "IT之家",
+    "time": "3分钟前",
+    "ts": "2026-07-08T09:12:20+00:00",
+    "url": "https://www.ithome.com/0/974/151.htm",
+    "image": "https://img.ithome.com/newsuploadfiles/2026/7/76602f79-bfe9-47ac-b619-a8d3f59d65ab.jpg?x-bce-process=image/format,f_auto",
+    "stocks": []
+  },
+  {
+    "id": "080b11c68d0021bb",
+    "title": "华为横阔折叠机获鸿蒙升级，图库新增AI修图",
+    "summary": "华为Pura X Max横向阔折叠手机推送HarmonyOS 6.1.0.130 SP16版本升级，新增前置相机自动水印、图库一句话图片处理及智慧多窗分屏替换等功能。",
+    "body": "据IT之家7月8日消息，华为Pura X Max横向阔折叠手机已开始推送鸿蒙HarmonyOS 6.1.0.130 SP16版本升级，系统包大小约4.63GB。此次更新在相机方面新增前置拍照自动添加时间、地点水印功能；图库引入AI沾色剪影效果，并支持通过一句话指令完成图片编辑、一键成片和图片清理；智慧多窗则新增分屏窗口替换功能，系统扩展特性也得到同步更新。\n\n新版本的AI修图与语音指令能力体现了华为在终端侧AI应用上的持续投入，有助于提升折叠屏手机的用户体验与差异化竞争力。华为通常采用分批推送策略，未收到更新的用户仍需等待。",
+    "category": "消费电子",
+    "tags": [
+      "华为",
+      "折叠屏",
+      "鸿蒙系统",
+      "AI修图"
+    ],
+    "source": "IT之家",
+    "time": "5分钟前",
+    "ts": "2026-07-08T09:09:57+00:00",
+    "url": "https://www.ithome.com/0/974/149.htm",
+    "image": "https://img.ithome.com/newsuploadfiles/2026/5/e0c44c31-b808-47ee-8dd5-528d1937400f.jpg?x-bce-process=image/auto-orient,o_1",
+    "stocks": []
+  },
+  {
     "id": "fbbc9ccb38548999",
     "title": "红日药业终止抗丙肝一类化药新药研发项目",
     "summary": "红日药业公告终止抗丙肝一类化药新药研发项目，称该项目化合物开发风险高、缺乏临床意义，目前处于IND申报前阶段，终止不会对公司经营及财务产生重大不利影响。",
@@ -760,6 +823,38 @@ const newsData = [
     "url": "https://www.ithome.com/0/974/075.htm",
     "image": "https://img.ithome.com/newsuploadfiles/2026/7/102f27ee-fcfb-46a9-98f2-cdffba21c1ca.jpg?x-bce-process=image/format,f_auto",
     "stocks": []
+  },
+  {
+    "id": "64bd9c287223a571",
+    "title": "阿里获ACL最佳资源论文奖，提出Agent评测新范式",
+    "summary": "阿里研究团队的Deep Research Agent成果在ACL 2026获评最佳资源论文奖，并发布专家级Agent评测基准HSCodeComp，揭示当前Agent在复杂规则推理中的结构性瓶颈。",
+    "body": "在ACL 2026上，阿里研究团队凭借面向Deep Research Agent的研究成果获得最佳资源论文奖（Best Resource Paper）。该会议今年共收到12148篇投稿，主会录用率仅19%，最佳资源论文仅4篇。该论文以10位海关编码（HS Code）为切入点，提出真实场景专家级Agent评测基准HSCodeComp，要求Agent像资深关务专家一样将商品属性与严格关税归类规则对齐。\n\n研究团队对14个主流大模型和9个先进Agent框架进行评测，发现表现最佳的Agent准确率仅约45%，远低于人类专家的95%，且单纯增加推理时间难以显著缩小差距。研究指出，过长推理链导致路径偏离、领域知识不足引发规则误用、推理幻觉造成无事实依据判断，是Agent系统的主要缺陷。\n\n目前，HSCodeComp数据集与评测代码已在Hugging Face和GitHub开源。阿里还基于Qwen基座模型设计了相应Agent框架，在该基准上以65.0%的准确率位居AI系统首位。业内人士认为，该基准为Agent在法律合规、医疗诊断、税务审计等高价值垂直领域的可靠应用提供了评测标杆，也有助于提升阿里在大模型与Agent生态中的技术影响力。",
+    "category": "人工智能",
+    "tags": [
+      "Agent",
+      "大模型评测",
+      "阿里巴巴",
+      "ACL"
+    ],
+    "source": "量子位",
+    "time": "1小时前",
+    "ts": "2026-07-08T07:51:26+00:00",
+    "url": "https://www.qbitai.com/2026/07/446069.html",
+    "image": "",
+    "stocks": [
+      {
+        "name": "阿里巴巴",
+        "ticker": "BABA",
+        "reason": "阿里研究团队获ACL最佳资源论文奖，推出基于Qwen的Agent评测基准并开源，强化其大模型与Agent技术领导力。",
+        "confidence": "high"
+      },
+      {
+        "name": "阿里巴巴-W",
+        "ticker": "9988.HK",
+        "reason": "获奖成果依托阿里云与通义千问生态，有助于推动企业级Agent与跨境贸易数字关务等场景落地。",
+        "confidence": "high"
+      }
+    ]
   },
   {
     "id": "91571071995eae51",
