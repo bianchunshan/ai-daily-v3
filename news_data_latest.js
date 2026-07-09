@@ -1,5 +1,37 @@
 const newsData = [
   {
+    "id": "0a826cd4824a9375",
+    "title": "苹果A20 Pro芯片被曝沿用LPDDR5X，升级6通道96-bit位宽",
+    "summary": "消息称苹果iPhone 18 Pro系列搭载的A20 Pro芯片将不会升级LPDDR6内存，而是沿用LPDDR5X架构并提升至6通道96-bit位宽，以增强本地AI处理能力。",
+    "body": "据科技媒体Wccftech报道，苹果计划在iPhone 18 Pro和iPhone 18 Pro Max上搭载的A20 Pro芯片将不会采用LPDDR6内存标准，而是继续沿用LPDDR5X内存架构。不过，其内存位宽将从A19 Pro的4通道64-bit升级至6通道96-bit，每个通道仍保持16-bit位宽。\n\n更大的内存位宽可提升内存带宽，减少本地AI处理时的数据等待时间，对端侧AI推理、多任务处理和影像计算等高性能移动场景具有积极意义。该消息也反映出苹果在移动设备内存方案上更倾向于在成熟标准基础上提升性能，而非激进采用下一代标准。",
+    "category": "消费电子",
+    "tags": [
+      "苹果",
+      "iPhone",
+      "芯片",
+      "内存"
+    ],
+    "source": "IT之家",
+    "time": "8分钟前",
+    "ts": "2026-07-09T02:01:14+00:00",
+    "url": "https://www.ithome.com/0/974/336.htm",
+    "image": "https://img.ithome.com/newsuploadfiles/2026/7/21994b79-03e5-4a49-9e54-5a93bb5cf9b8.jpg",
+    "stocks": [
+      {
+        "name": "苹果",
+        "ticker": "AAPL",
+        "reason": "A20 Pro芯片将搭载于iPhone 18 Pro系列，直接利好其产品性能与竞争力",
+        "confidence": "high"
+      },
+      {
+        "name": "台积电",
+        "ticker": "TSM",
+        "reason": "作为苹果A系列芯片的主要代工方，先进制程订单受益",
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
     "id": "02882874539e4ce1",
     "title": "阶跃星辰AI智能体手机将由华勤技术代工",
     "summary": "据知情人士透露，阶跃星辰将推出AI智能体手机，由A股上市公司华勤技术负责代工生产，双方为深度绑定合作关系，并非简单的贴牌代工模式。",
