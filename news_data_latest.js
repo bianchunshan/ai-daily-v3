@@ -1,5 +1,24 @@
 const newsData = [
   {
+    "id": "da5c9a6dd85eb685",
+    "title": "肝脏靶向基因疗法治疗甲基丙二酸血症显临床前疗效",
+    "summary": "Genespire与SR-TIGET合作发表临床前数据，显示肝脏定向免疫屏蔽慢病毒基因疗法有望治疗严重遗传性代谢病甲基丙二酸血症。",
+    "body": "意大利基因疗法公司Genespire与圣拉斐尔Telethon基因治疗研究所（SR-TIGET）联合公布了其肝脏靶向免疫屏蔽慢病毒基因疗法治疗甲基丙二酸血症（MMA）的临床前研究数据。结果表明，该疗法在动物模型中展现出潜在疗效，为这一罕见严重遗传性代谢病提供了新的治疗思路。\n\n甲基丙二酸血症是一种由基因缺陷导致有机酸代谢紊乱的疾病，可引发严重的代谢危象和多器官损伤。此次研究采用肝脏定向递送策略，旨在通过一次性干预恢复肝脏中缺失的酶功能，从而从根源上改善患者代谢异常。\n\n目前该研究仍处于临床前阶段，后续若进入临床并验证安全有效，有望填补甲基丙二酸血症等罕见遗传病的治疗空白，并推动肝脏靶向基因疗法在代谢病领域的应用。",
+    "category": "生物医药",
+    "tags": [
+      "基因疗法",
+      "罕见病",
+      "甲基丙二酸血症",
+      "生物医药"
+    ],
+    "source": "MedicalXpress",
+    "time": "9分钟前",
+    "ts": "2026-07-08T21:40:01-04:00",
+    "url": "https://medicalxpress.com/news/2026-07-liver-gene-therapy-preclinical-efficacy.html",
+    "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/liver-directed-gene-th.jpg",
+    "stocks": []
+  },
+  {
     "id": "17a11fc36453d60e",
     "title": "微软修复Outlook经典版Alt+I调用Copilot崩溃问题",
     "summary": "微软确认经典版Outlook在使用Alt+I快捷键调用Copilot AI功能时存在崩溃Bug，并已在收到反馈后迅速修复。该问题主要影响Windows Server 2019 RDS环境，Word和Excel中的Copilot功能不受影响。",
