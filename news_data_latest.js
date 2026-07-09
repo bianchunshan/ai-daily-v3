@@ -1,5 +1,50 @@
 const newsData = [
   {
+    "id": "c7ad5aef5c8d3efa",
+    "title": "苹果停止为 iPhone 5c 等旧设备签署旧版 iOS 验证",
+    "summary": "消息称苹果已于7月8日停止为 iPhone 5c、iPhone 5 及多款 iPad 签署部分旧版 iOS 固件与升级路径，受影响设备将无法降级或重新安装这些系统版本。",
+    "body": "据消息源 Aaron Perris 在 X 平台爆料，苹果于昨日（7月8日）停止为多款旧 iPhone 和 iPad 签署部分旧系统安装包与升级路径。具体来看，GSM 与 CDMA 版 iPhone 5c 不再验证 iOS 10.3.3 与 iOS 10.3.4 的 IPSW 安装；iPhone 5 最高支持 iOS 10.3.3，也可能受到影响。iPad 方面，iPad mini Wi-Fi + Cellular 的 iOS 8.4.1 OTA 以及 iOS 9.3.5、iOS 9.3.6 IPSW 安装已被停止签署；CDMA 版 iPad 2 Wi-Fi + 3G 的部分旧版 OTA 与 IPSW 签署也已关闭。",
+    "category": "消费电子",
+    "tags": [
+      "苹果",
+      "iOS",
+      "iPhone 5c",
+      "系统验证"
+    ],
+    "source": "IT之家",
+    "time": "6分钟前",
+    "ts": "2026-07-09T00:22:46+00:00",
+    "url": "https://www.ithome.com/0/974/297.htm",
+    "image": "https://img.ithome.com/newsuploadfiles/2026/7/935f27dd-d635-4878-a10f-bf728b22f169.png?x-bce-process=image/format,f_auto",
+    "stocks": [
+      {
+        "name": "苹果公司",
+        "ticker": "AAPL",
+        "reason": "苹果停止旧版 iOS 验证，可能加速旧设备淘汰并推动用户升级至新款 iPhone/iPad。",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "611d8dfa53d2e11a",
+    "title": "研究显示虚拟行为分析服务可改善自闭症儿童适应功能",
+    "summary": "一项由AnswersNow与克莱姆森大学行为分析中心合作发表于JMIR Pediatrics and Parenting的研究显示，由持证行为分析师（BCBA）提供的全虚拟应用行为分析（ABA）服务对自闭症家庭可行且受欢迎，76%的参与者在适应功能方面取得可衡量进步。",
+    "body": "该研究纳入504名自闭症谱系障碍家庭，由持证行为分析师通过完全虚拟的方式提供聚焦式应用行为分析支持。结果表明，这种线上模式不仅被家庭广泛接受，还能够在适应性技能发展方面产生可测量的积极效果。",
+    "category": "生物医药",
+    "tags": [
+      "数字医疗",
+      "远程医疗",
+      "自闭症",
+      "应用行为分析"
+    ],
+    "source": "MedicalXpress",
+    "time": "8分钟前",
+    "ts": "2026-07-08T20:20:01-04:00",
+    "url": "https://medicalxpress.com/news/2026-07-families-positive-outcomes-fully-virtual.html",
+    "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/virtual-health.jpg",
+    "stocks": []
+  },
+  {
     "id": "9752e723d80f5c96",
     "title": "Apple TV免费4K升级首次覆盖电视剧集",
     "summary": "苹果将Apple TV免费4K升级政策从电影延伸至电视剧与节目，首批约50部作品已自动完成高清到4K升级，用户无需额外付费。",
