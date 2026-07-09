@@ -1,5 +1,37 @@
 const newsData = [
   {
+    "id": "c37a45b2a368ed51",
+    "title": "英伟达Rosa CPU或采用台积电A16工艺",
+    "summary": "消息称英伟达下一代Rosa CPU有望采用台积电2nm乃至A16制程，并引入背面供电技术，预计2028年随数据中心平台推出。",
+    "body": "据工商时报报道，英伟达面向“Feynman”世代的下一代Rosa CPU有望采用台积电2nm工艺，并进一步导入带Super Power Rail背面供电技术的A16制程。该技术将供电网络移至晶圆背面，可提升供电效率、降低IR drop并释放正面布线空间，最高可将芯片密度提升1.1倍。Rosa CPU计划于2028年随Rosa Feynman数据中心平台推出，2030年拓展至消费级PC平台。架构方面，Rosa CPU将采用英伟达自研Rigel核心，基于Arm v9.2指令集，相较Vera CPU的Olympus核心，目标在相同裸片面积下实现更高单核性能。报道还指出，背面供电技术将使2nm节点的CMP制程步骤较常规2nm再增加15%至20%。",
+    "category": "半导体与先进制造",
+    "tags": [
+      "英伟达",
+      "台积电",
+      "先进制程",
+      "背面供电"
+    ],
+    "source": "IT之家",
+    "time": "刚刚",
+    "ts": "2026-07-09T05:02:46+00:00",
+    "url": "https://www.ithome.com/0/974/478.htm",
+    "image": "https://img.ithome.com/newsuploadfiles/2026/7/8c8964d0-2c57-4448-916c-43a40781efb9.png",
+    "stocks": [
+      {
+        "name": "英伟达",
+        "ticker": "NVDA",
+        "reason": "Rosa CPU为其下一代数据中心/AI CPU产品，工艺升级强化产品竞争力",
+        "confidence": "high"
+      },
+      {
+        "name": "台积电",
+        "ticker": "TSM",
+        "reason": "将负责Rosa CPU的先进制程代工，A16工艺导入带来增量需求",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
     "id": "b8bddb9083de9ead",
     "title": "普洛斯与乌兰察布共建GW级绿电智算基地",
     "summary": "普洛斯与乌兰察布市政府签署战略合作协议，双方将共同打造GW级超大规模绿电智算产业基地，推进源网荷储一体化。",
