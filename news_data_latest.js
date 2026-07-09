@@ -1,5 +1,31 @@
 const newsData = [
   {
+    "id": "09049f9b352888a7",
+    "title": "Cloudflare推出零门槛静态网站部署工具Drop",
+    "summary": "Cloudflare上线Cloudflare Drop工具，用户无需注册即可拖拽上传静态网站文件，快速生成临时预览链接，降低了边缘网络部署门槛。",
+    "body": "7月8日，Cloudflare上线名为Cloudflare Drop的零门槛静态网站临时部署工具。用户只需将包含HTML、CSS、JavaScript等静态资源的文件夹或ZIP压缩包拖拽至浏览器，即可在几秒内在Cloudflare全球网络上获得临时在线预览链接。该工具无需注册账号即可使用，每个临时网站有效期1小时，可用于测试或分享。\n\n用户点击“Claim”按钮登录后，可将临时站点认领为永久站点，并自定义域名、启用性能监控、允许AI智能体以Markdown访问内容等。Cloudflare Drop与Dashboard中的“Direct Upload”功能不同，后者需登录且不支持ZIP文件。该工具进一步降低了静态网站在边缘网络上的部署门槛，便利开发者快速原型验证和临时分享。",
+    "category": "AI 基础设施",
+    "tags": [
+      "Cloudflare",
+      "静态网站托管",
+      "边缘网络",
+      "开发者工具"
+    ],
+    "source": "IT之家",
+    "time": "1分钟前",
+    "ts": "2026-07-09T01:17:38+00:00",
+    "url": "https://www.ithome.com/0/974/316.htm",
+    "image": "https://img.ithome.com/newsuploadfiles/2026/7/01e12cc7-7390-463c-b62a-77707482bb44.png?x-bce-process=image/format,f_auto",
+    "stocks": [
+      {
+        "name": "Cloudflare",
+        "ticker": "NET",
+        "reason": "推出Drop工具可降低边缘网络部署门槛，吸引开发者并扩大静态托管与CDN服务使用量。",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
     "id": "e65861c012633184",
     "title": "阶跃星辰将发布首款AI智能体手机",
     "summary": "国产大模型厂商阶跃星辰即将推出AI终端品牌、智能体系统及首款AI智能体手机，抢先于OpenAI等全球玩家落地端侧AI Agent硬件。",
@@ -217,6 +243,25 @@ const newsData = [
         "confidence": "high"
       }
     ]
+  },
+  {
+    "id": "ac93312a090ce5d6",
+    "title": "三星发布98英寸教育交互屏，集成AI课堂测验等工具",
+    "summary": "三星在ISTELive 2026大会上首次展示98英寸教育交互式显示屏，并升级账户管理方案，扩展圈选搜索、实时转录、AI摘要和AI测验等功能，面向教育场景提升教学与评估效率。",
+    "body": "三星在佛罗里达州奥兰多举行的ISTELive 2026大会上发布最新教育方案，并首次展示98英寸交互式显示屏。该屏幕运行安卓16系统，搭载Samsung AI Assistant，支持Circle to Search（圈选搜索）、Live Transcript（实时转录）、AI Summary（AI摘要）和AI Quiz（AI测验）等工具，可用于查找教学内容、生成课程摘要、制作形成性评估并辅助多语言学习者。此外，三星更新了AMS（账户管理解决方案），教师可通过二维码或NFC身份卡登录兼容交互式显示屏，并在校园内任意兼容设备上调用个人应用、文件与设置。公司还展示了即将推出的WAF-S、WAFX-PS与WAHX-M型号。",
+    "category": "人工智能",
+    "tags": [
+      "三星",
+      "教育硬件",
+      "AI课堂",
+      "交互显示屏"
+    ],
+    "source": "IT之家",
+    "time": "39分钟前",
+    "ts": "2026-07-09T00:39:10+00:00",
+    "url": "https://www.ithome.com/0/974/303.htm",
+    "image": "https://img.ithome.com/newsuploadfiles/2026/7/60fb6732-b8f3-4870-91e4-2e4896b8401d.jpg",
+    "stocks": []
   },
   {
     "id": "81694b4130997373",
