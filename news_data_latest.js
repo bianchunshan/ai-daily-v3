@@ -1,5 +1,31 @@
 const newsData = [
   {
+    "id": "0f0bd1c9ed3b47c7",
+    "title": "苹果 Apple Pencil 新专利获批：可预见笔触姿态支持旋转",
+    "summary": "苹果公司一项 Apple Pencil 新专利获批，可在用户落笔前根据手写笔姿态实时预览笔触形状，并支持旋转交互。",
+    "body": "据报道，苹果获批一项 Apple Pencil 技术专利，能根据手写笔与屏幕的角度、距离、旋转等姿态，在落笔前实时预览笔触的形状、方向、宽度等效果。该专利提出“标记前的预览”概念，特别引入旋转动作，可让非圆形画笔工具在落笔前显示笔尖朝向，并新增“虚拟阴影”效果以模拟真实光影变化。业内人士认为，这项技术有望提升数字绘画和手写输入的自然度与专业创作效率。",
+    "category": "消费电子",
+    "tags": [
+      "Apple Pencil",
+      "苹果专利",
+      "手写笔",
+      "数字绘画"
+    ],
+    "source": "IT之家",
+    "time": "3分钟前",
+    "ts": "2026-07-09T05:56:02+00:00",
+    "url": "https://www.ithome.com/0/974/488.htm",
+    "image": "https://img.ithome.com/newsuploadfiles/2026/7/14df262d-e3eb-4eb8-bf1b-6a31258f26a8.jpg?x-bce-process=image/watermark,text_QUnnlJ_miJA,type_RlpMYW5UaW5nSGVpU0JHQg==,size_28,color_ffffffdd,skw_1,skc_00000051,g_7,blr_50,bls_50,x_11,y_11/format,f_auto",
+    "stocks": [
+      {
+        "name": "苹果公司",
+        "ticker": "AAPL",
+        "reason": "新专利直接强化 Apple Pencil 与 iPad 交互体验，利好其平板及配件生态。",
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
     "id": "c6ecc536b534106f",
     "title": "英伟达将与Hugging Face合作开发机器人开源模型",
     "summary": "英伟达宣布与Hugging Face合作，联合开发面向机器人的开源基础模型，将GPU生态与CUDA堆栈结合Hugging Face的模型库和开发者社区，降低机器人AI训练与部署门槛。",
