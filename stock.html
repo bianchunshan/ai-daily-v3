@@ -4,8 +4,9 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
   <meta name="theme-color" content="#e60012">
+  <meta name="description" content="前沿科技日报 · 关联标的实时行情">
   <title>实时行情 · 前沿科技日报</title>
-  <link rel="stylesheet" href="assets/theme.css?v=20260623b">
+  <link rel="stylesheet" href="assets/theme.css?v=20260709b">
   <script>
     (function () {
       try {
@@ -36,6 +37,10 @@
     .note { font-size: 12px; color: var(--text-3); line-height: 1.6; margin: 6px 16px 4px; }
     .rel-news { margin: 4px 12px; }
     .rel-news a { display: block; font-size: 14px; color: var(--text-2); padding: 10px 4px; border-top: 1px solid var(--border); line-height: 1.5; }
+    .mkt-tabs { display: flex; gap: 8px; padding: 8px 12px 0; overflow-x: auto; }
+    .mkt-tab { font-size: 13px; padding: 6px 12px; border-radius: 16px; background: var(--surface-2); color: var(--text-2); cursor: pointer; white-space: nowrap; border: none; }
+    .mkt-tab.active { background: var(--brand-soft); color: var(--brand-ink); font-weight: 700; }
+    .load-more-q { margin: 8px 12px 16px; padding: 12px; text-align: center; background: var(--surface); color: var(--brand-ink); font-size: 14px; font-weight: 600; border-radius: var(--radius); box-shadow: var(--shadow); cursor: pointer; border: none; width: calc(100% - 24px); }
   </style>
 </head>
 <body>
@@ -50,13 +55,11 @@
     <a class="tabbar-btn" href="index.html"><span class="ti">📰</span><span>首页</span></a>
     <a class="tabbar-btn active" href="stock.html"><span class="ti">📈</span><span>行情</span></a>
     <a class="tabbar-btn" href="index.html?chat=1"><span class="ti">💬</span><span>问AI</span></a>
-    <div class="tabbar-btn" id="themeBtn"><span class="ti">🌓</span><span>主题</span></div>
   </nav>
 
-  <script src="assets/app.js?v=20260627a"></script>
+  <script src="assets/app.js?v=20260709b"></script>
   <script>
     var A = window.AID;
-    document.getElementById('themeBtn').onclick = function () { A.toggleTheme(); };
 
     function chgCls(v) { return v >= 0 ? 'up' : 'down'; }
     function chgStr(v) { return (v >= 0 ? '+' : '') + v.toFixed(2) + '%'; }
@@ -82,10 +85,13 @@
     }
 
     function listRows(quotes) {
-      var h = '<div class="q-card" style="padding:0">';
-      quotes.forEach(function (q) {
+      var sorted = quotes.slice().sort(function (a, b) {
+        return Math.abs(b.changePercent) - Math.abs(a.changePercent);
+      });
+      var h = '<div class="q-card" style="padding:0" id="quoteList">';
+      sorted.forEach(function (q) {
         var c = chgCls(q.changePercent);
-        h += '<div class="q-row" onclick="location.href=\'stock.html?symbol=' + encodeURIComponent(q.symbol) + '\'">' +
+        h += '<div class="q-row" data-mkt="' + q.market + '" onclick="location.href=\'stock.html?symbol=' + encodeURIComponent(q.symbol) + '\'">' +
           '<div class="l"><div class="nm">' + A.esc(q.name) + '</div><div class="sy">' + A.esc(q.symbol) + ' · ' + q.market + '</div></div>' +
           '<div class="r"><div class="p">' + A.esc(priceStr(q)) + '</div><div class="c ' + c + '">' + chgStr(q.changePercent) + '</div></div>' +
           '</div>';
@@ -94,43 +100,78 @@
     }
 
     function noteHTML(d) {
-      return '<div class="note">' + (d.error ? '⚠️ 行情服务暂不可用(' + A.esc(d.error) + ')<br>' : '') +
+      return '<div class="note">' + (d.error ? '行情服务暂不可用(' + A.esc(d.error) + ')<br>' : '') +
         A.esc(d.note || 'A股/港股盘中接近实时,美股约延迟15分钟 · 来源:新浪财经') + '</div>';
     }
 
     function relatedNews(symbol, news) {
       var hit = (news || []).filter(function (n) {
-        return (n.stocks || []).some(function (s) { return s.ticker === symbol; });
+        return A.strongStocks(n).some(function (s) { return s.ticker === symbol; });
       });
       if (!hit.length) return '';
       var h = '<div class="section-title"><span class="bar"></span>相关资讯</div><div class="rel-news">';
-      hit.forEach(function (n) { h += '<a href="detail.html?id=' + n.id + '">' + A.esc(n.title) + '</a>'; });
+      hit.slice(0, 12).forEach(function (n) { h += '<a href="detail.html?id=' + encodeURIComponent(n.id) + '">' + A.esc(n.title) + '</a>'; });
       return h + '</div>';
+    }
+
+    function filterMarket(mkt) {
+      document.querySelectorAll('.mkt-tab').forEach(function (t) {
+        t.classList.toggle('active', t.getAttribute('data-mkt') === mkt);
+      });
+      document.querySelectorAll('#quoteList .q-row').forEach(function (row) {
+        row.style.display = (mkt === 'ALL' || row.getAttribute('data-mkt') === mkt) ? '' : 'none';
+      });
     }
 
     (function () {
       var main = document.getElementById('main');
       var symbol = A.getParam('symbol');
+      var BATCH = 30;
+      var allSyms = [];
+      var loadedQuotes = [];
+      var newsCache = [];
+      var cursor = 0;
+
+      async function loadMoreQuotes() {
+        var chunk = allSyms.slice(cursor, cursor + BATCH);
+        if (!chunk.length) return;
+        cursor += chunk.length;
+        var d = await getQuotes(chunk);
+        loadedQuotes = loadedQuotes.concat(d.quotes || []);
+        var tabs = '<div class="mkt-tabs">' +
+          '<button class="mkt-tab active" data-mkt="ALL" onclick="filterMarket(\'ALL\')">全部</button>' +
+          '<button class="mkt-tab" data-mkt="US" onclick="filterMarket(\'US\')">美股</button>' +
+          '<button class="mkt-tab" data-mkt="HK" onclick="filterMarket(\'HK\')">港股</button>' +
+          '<button class="mkt-tab" data-mkt="CN" onclick="filterMarket(\'CN\')">A股</button></div>';
+        var more = cursor < allSyms.length
+          ? '<button class="load-more-q" id="moreQuotes">加载更多标的(' + (allSyms.length - cursor) + ')</button>'
+          : '';
+        main.innerHTML = '<div class="section-title"><span class="bar"></span>资讯关联标的 · 按涨跌幅排序</div>' +
+          tabs +
+          (loadedQuotes.length ? listRows(loadedQuotes) : '<div class="empty">行情加载失败</div>') +
+          more + noteHTML(d);
+        var btn = document.getElementById('moreQuotes');
+        if (btn) btn.onclick = loadMoreQuotes;
+        window.filterMarket = filterMarket;
+      }
 
       A.loadNews([], async function (news) {
+        newsCache = news || [];
         if (symbol) {
           var d = await getQuotes([symbol]);
           var q = (d.quotes || [])[0];
           main.innerHTML = (q ? heroCard(q) : '<div class="empty">未找到 ' + A.esc(symbol) + ' 的行情</div>') +
-            noteHTML(d) + relatedNews(symbol, news);
+            noteHTML(d) + relatedNews(symbol, newsCache);
         } else {
-          // 行情 tab:汇总今日资讯里的全部利好标的
-          var syms = [];
-          (news || []).forEach(function (n) {
-            (n.stocks || []).forEach(function (s) { if (s.ticker && syms.indexOf(s.ticker) < 0) syms.push(s.ticker); });
+          var seen = {};
+          allSyms = [];
+          newsCache.forEach(function (n) {
+            A.strongStocks(n).forEach(function (s) {
+              if (s.ticker && !seen[s.ticker]) { seen[s.ticker] = 1; allSyms.push(s.ticker); }
+            });
           });
-          if (!syms.length) { main.innerHTML = '<div class="empty">今日资讯暂无关联标的</div>'; return; }
-          var limit = 60;
-          var d = await getQuotes(syms.slice(0, limit));
-          var truncated = syms.length > limit ? '<div class="note">已展示前 ' + limit + ' 个标的,其余 ' + (syms.length - limit) + ' 个可从对应新闻详情进入。</div>' : '';
-          main.innerHTML = '<div class="section-title"><span class="bar"></span>今日资讯关联标的</div>' +
-            (d.quotes && d.quotes.length ? listRows(d.quotes) : '<div class="empty">行情加载失败</div>') +
-            truncated + noteHTML(d);
+          if (!allSyms.length) { main.innerHTML = '<div class="empty">资讯暂无关联标的</div>'; return; }
+          await loadMoreQuotes();
         }
       });
     })();

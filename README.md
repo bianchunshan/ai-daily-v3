@@ -16,9 +16,9 @@ fetch_rss.py 抓多路中外科技 RSS/AIHOT 源
       · 非科技/科学/前沿产业/地缘科技相关内容直接跳过
       · 单次最多富化 50 条(CAP);累计并入历史、带 ts 时间戳按时间倒序;每个板块各留最新 KEEP=2000 条(到顶才淘汰该板块最旧)
       · 生成今日综述 newsDigest
-      · 写 news_data_latest.js
+      · 写全量 news_data_latest.js + 前端轻量 news_data_list.js + news_bodies.json + news_chat_index.json
   → 抓到 <10 条则放弃(防覆盖)
-  → 有新数据才 git push + vercel --prod 部署
+  → 有新数据才 git push(前端从 GitHub raw 读最新数据;站点壳由 deploy-site 低频部署)
 ```
 
 无新条目的批次:不改文件、不部署。
@@ -27,27 +27,31 @@ fetch_rss.py 抓多路中外科技 RSS/AIHOT 源
 
 | 文件 | 作用 |
 |---|---|
-| `index.html` | 首页:今日综述卡 + 头条 + 24h热榜 + 分类信息流 |
-| `detail.html` | 详情页:AI 中文正文 + 关联标的 |
-| `stock.html` | 行情页:点标的看实时行情;无参时汇总当日全部标的 |
+| `index.html` | 首页:今日综述卡 + 头条 + 推荐指数 + 分类信息流 + 内联搜索 |
+| `detail.html` | 详情页:按需加载正文 + 关联标的 + 问AI |
+| `stock.html` | 行情页:分批加载、按涨跌幅排序、市场筛选 |
 | `assets/theme.css` | 设计系统(含暗色模式) |
-| `assets/app.js` | 前端共享逻辑(分类封面、加载数据、标的标签等) |
+| `assets/app.js` | 前端共享逻辑(封面、加载列表/正文、标的标签、问AI面板) |
 | `fetch_rss.py` | RSS 抓取(纯标准库) |
-| `enrich_news.py` | 抓取→去重→Kimi 富化→写数据(管线主程序) |
+| `enrich_news.py` | 抓取→去重→Kimi 富化→写拆分数据(管线主程序) |
 | `api/quote.js` | Vercel serverless:代理新浪财经取实时行情 |
-| `api/chat.js` | Vercel serverless:AI 对话(服务端召回站内资讯,可切 Qwen/Kimi) |
-| `news_data_latest.js` | 前端读取的数据(`const newsData` + `const newsDigest`),由管线生成 |
-| `seen_urls.json` | 去重用的已见 URL 清单(最多 5000),由管线维护 |
-| `recover_history.py` | 一次性工具:从 git 历史恢复旧的已富化新闻 |
-| `fetch_currents_news.py` | 旧 Currents 抓取,已弃用(保留备份) |
+| `api/chat.js` | Vercel serverless:AI 对话(读轻量索引召回,按需网页检索) |
+| `news_data_list.js` | **前端主数据**(无正文,近 14 天/最多 800 条);线上从 GitHub raw 拉取 |
+| `news_bodies.json` | 详情页按需加载的正文映射 `{id: body}` |
+| `news_chat_index.json` | 问AI 服务端召回索引 |
+| `news_data_latest.js` | 全量归档(管线累计 + 兜底) |
+| `seen_urls.json` | 去重用的已见 URL 清单(最多 5000) |
+| `vercel.json` | 静态资源缓存策略 |
 
 ## 怎么改
 
 - **加/删数据源**:`fetch_rss.py` 的 `FEEDS` 列表(每项 `(来源名, RSS地址, 默认分类)`)和 `fetch_aihot_items()`。每源取多少条改 `PER_FEED` / `AIHOT_TAKE`。
-- **单次富化上限 / 每板块累计上限**:`enrich_news.py` 顶部 `CAP`(默认 50)、`KEEP`(默认 2000,**按板块**);也可用环境变量 `AID_CAP` / `AID_KEEP` 覆盖(如一次性补量:`AID_CAP=200 python3 enrich_news.py`)。
+- **单次富化上限 / 每板块累计上限**:`enrich_news.py` 顶部 `CAP`(默认 50)、`KEEP`(默认 2000,**按板块**);也可用环境变量 `AID_CAP` / `AID_KEEP` 覆盖。
+- **前端列表窗口**:`AID_FRONTEND_DAYS`(默认 14)、`AID_FRONTEND_MAX`(默认 800)、`AID_CHAT_INDEX_MAX`(默认 1500)。
 - **更新频率**:`.github/workflows/update-news.yml` 的 `cron`。
 - **新闻富化模型**:`enrich_news.py` 默认 `ENRICH_PROVIDER=kimi`,使用 `KIMI_KEY` / `KIMI_MODEL=kimi-for-coding`;如需回退可设 `ENRICH_PROVIDER=qwen`。
 - **问 AI 模型**:`api/chat.js` 生产默认 Kimi;Vercel 设 `CHAT_PROVIDER=qwen` 可回退 Qwen。
+- **问 AI 口令**(可选):Vercel 设 `CHAT_TOKEN=你的口令`,前端可在控制台执行 `localStorage.setItem('chat_token','你的口令')`。
 - **分类与封面配色**:`assets/app.js` 的 `CATS`;`enrich_news.py` 的 `CATEGORIES`(两处分类要一致)。
 
 ## 分类体系
@@ -63,22 +67,23 @@ fetch_rss.py 抓多路中外科技 RSS/AIHOT 源
 `stock.html?symbol=NVDA` → 调 `/api/quote?symbol=NVDA,0700.HK,600519.SH`(支持批量)。
 - 数据源:新浪财经 `hq.sinajs.cn`(免费、无 key),serverless 内 GBK 解码、分 US/HK/CN 解析。
 - 代码格式:美股直接代码(NVDA);港股 `0700.HK`;A股 `600519.SH` / `000001.SZ`。
-- **时效**:A股/港股盘中接近实时,美股约延迟 15 分钟。新浪为非官方接口,若失效需换源(腾讯 `qt.gtimg.cn` / Yahoo,或接已登录的 Longbridge CLI)。
-- 红涨绿跌(中国习惯)。
+- **时效**:A股/港股盘中接近实时,美股约延迟 15 分钟。新浪为非官方接口,若失效需换源。
+- 红涨绿跌(中国习惯)。列表默认隐藏 `confidence: low` 的弱关联标的。
 
 ## AI 对话(问AI)
 
-底栏「问AI」打开对话面板 → 前端只 POST `{ question }` 给 `/api/chat` → 服务端从 `news_data_latest.js` 召回相关资讯,必要时做网页检索,再交给模型回答。
-- 默认:`CHAT_PROVIDER=kimi`,走 Kimi Coding Plan,使用 `KIMI_KEY`,模型 `KIMI_MODEL` 默认 `kimi-for-coding`。
-- Qwen 回退:`CHAT_PROVIDER=qwen`,使用 `QWEN_KEY`,模型 `QWEN_MODEL` 默认 `qwen3.7-max`。
-- 如使用普通 Moonshot OpenAI-compatible API,设 `KIMI_API_STYLE=openai`、`MOONSHOT_API_KEY`;API base 默认 `https://api.moonshot.ai/v1`,中国区可设 `KIMI_BASE_URL=https://api.moonshot.cn/v1`。
-- ⚠️ 该端点公开无鉴权,已有限流,但仍会消耗模型 token。若被刷需加口令或登录态。
+底栏「问AI」或详情「基于这篇提问」→ 前端 POST `{ question, focusId? }` 给 `/api/chat` → 服务端从 `news_chat_index.json` 召回,必要时做网页检索,再交给模型回答。
+- 默认:`CHAT_PROVIDER=kimi`,走 Kimi Coding Plan。
+- Qwen 回退:`CHAT_PROVIDER=qwen` + `QWEN_KEY`。
+- 可选鉴权:`CHAT_TOKEN`;请求头需带 `x-chat-token`。
+- ⚠️ 未设 `CHAT_TOKEN` 时端点公开,已有限流,仍会消耗模型 token。
 
 ## 部署 / Secrets
 
-- GitHub→Vercel 自动部署未接通,改由 Action 内 `vercel --prod` 部署。
-- 仓库 Secrets(GitHub Actions 用):`KIMI_KEY`、`QWEN_KEY`、`VERCEL_TOKEN`、`VERCEL_ORG_ID`、`VERCEL_PROJECT_ID`。
-- Vercel 环境变量(serverless 函数用):`CHAT_PROVIDER=kimi`、`KIMI_KEY`;若回退 Qwen,加 `CHAT_PROVIDER=qwen`、`QWEN_KEY`;若切普通 Moonshot API,加 `CHAT_PROVIDER=kimi`、`KIMI_API_STYLE=openai`、`MOONSHOT_API_KEY`。
+- 新闻数据:Action 推到 GitHub 后,前端/问AI 从 `raw.githubusercontent.com` 拉 `news_data_list.js` / `news_bodies.json` / `news_chat_index.json`。
+- 站点壳:`.github/workflows/deploy-site.yml` 低频/手动 `vercel --prod`(main 的 git 自动部署已关)。
+- 仓库 Secrets:`KIMI_KEY`、`QWEN_KEY`、`VERCEL_TOKEN`、`VERCEL_ORG_ID`、`VERCEL_PROJECT_ID`。
+- Vercel 环境变量:`CHAT_PROVIDER=kimi`、`KIMI_KEY`;可选 `CHAT_TOKEN`。
 - 本地手动部署:`npx vercel deploy --prod --token <VERCEL_TOKEN>`。
 
 ## 成本
@@ -88,7 +93,7 @@ fetch_rss.py 抓多路中外科技 RSS/AIHOT 源
 
 ## 已知限制
 
-- 强制每条出利好标的 → 个别关联偏弱(reason 里会点明强弱)。
+- 强制每条出利好标的 → 个别关联偏弱(前端默认隐藏 low,详情可展开)。
 - 新浪行情非官方接口,稳定性不保证。
-- `/api/chat` 公开无鉴权,有被刷烧 token 的风险(见上)。
-- 部分小众分类(机器人/量子科技等)条目偏少,靠累计逐步填充。
+- `/api/chat` 建议配置 `CHAT_TOKEN` 防刷。
+- 部分小众分类条目偏少,靠累计逐步填充。

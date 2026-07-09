@@ -21,10 +21,14 @@ from fetch_rss import fetch_all  # RSS 抓取(免费、无配额,英文国际源
 
 KEEP = int(os.environ.get('AID_KEEP', 2000))  # 每个板块的累计上限(到顶才淘汰该板块最旧;可环境变量覆盖)
 CAP = int(os.environ.get('AID_CAP', 50))       # 单次最多富化多少条新条目(封顶模型成本;可覆盖)
+FRONTEND_DAYS = int(os.environ.get('AID_FRONTEND_DAYS', 14))  # 前端列表保留最近 N 天
+FRONTEND_MAX = int(os.environ.get('AID_FRONTEND_MAX', 800))   # 前端列表条数上限
+CHAT_INDEX_MAX = int(os.environ.get('AID_CHAT_INDEX_MAX', 1500))  # 问AI 召回索引条数
 MIN_SOURCE_CHARS = 80                          # 原始材料太少时先补抓,仍不足则不入库
 MIN_SUMMARY_CHARS = 20
 MIN_BODY_CHARS = 50
 CJK_RE = re.compile(r'[\u4e00-\u9fff]')
+LIST_KEYS = ('id', 'title', 'summary', 'category', 'tags', 'source', 'time', 'ts', 'url', 'image', 'stocks')
 
 
 def now_iso():
@@ -318,13 +322,11 @@ def make_digest(items):
 
 
 def _extract_array(txt, varname):
-    """从 const <varname> = [...] 里提取数组文本(括号配对,容忍字符串内的括号)。"""
-    start = txt.find('const ' + varname)
-    if start < 0:
+    """从 var/const/let <varname> = [...] 里提取数组文本(括号配对,容忍字符串内的括号)。"""
+    m = re.search(r'(?:var|const|let)\s+' + re.escape(varname) + r'\s*=\s*\[', txt)
+    if not m:
         return None
-    i = txt.find('[', start)
-    if i < 0:
-        return None
+    i = m.end() - 1  # 指向 '['
     depth, in_str, esc, q = 0, False, False, ''
     for j in range(i, len(txt)):
         c = txt[j]
@@ -376,14 +378,78 @@ def write_seen(seen):
     json.dump(seen[-SEEN_MAX:], open(SEEN_FILE, 'w', encoding='utf-8'), ensure_ascii=False)
 
 
+def _parse_ts(t):
+    try:
+        d = datetime.fromisoformat(str(t).replace('Z', '+00:00'))
+        if d.tzinfo is None:
+            d = d.replace(tzinfo=timezone.utc)
+        return d
+    except Exception:
+        return None
+
+
+def _frontend_slice(items):
+    """前端只拿最近 N 天 / 最多 M 条的轻量列表,正文另存。"""
+    cut = datetime.now(timezone.utc).timestamp() - FRONTEND_DAYS * 86400
+    front = []
+    for n in items:
+        d = _parse_ts(n.get('ts'))
+        if d and d.timestamp() < cut:
+            continue
+        front.append(n)
+        if len(front) >= FRONTEND_MAX:
+            break
+    if len(front) < 50:
+        front = items[:FRONTEND_MAX]
+    return front
+
+
 def write_data(items, digest):
+    # 全量归档(管线/chat 兜底用),紧凑写入;用 var 便于前端回退二次加载
     with open('news_data_latest.js', 'w', encoding='utf-8') as f:
-        f.write('const newsData = ')
-        json.dump(items, f, ensure_ascii=False, indent=2)
+        f.write('var newsData = ')
+        json.dump(items, f, ensure_ascii=False, separators=(',', ':'))
+        f.write(';\nvar newsDigest = ')
+        json.dump(digest, f, ensure_ascii=False, separators=(',', ':'))
         f.write(';\n')
-        f.write('const newsDigest = ')
-        json.dump(digest, f, ensure_ascii=False, indent=2)
+
+    front = _frontend_slice(items)
+    lite = []
+    bodies = {}
+    for n in front:
+        item = {k: n[k] for k in LIST_KEYS if k in n and n.get(k) is not None}
+        lite.append(item)
+        if n.get('body'):
+            bodies[str(n['id'])] = n['body']
+
+    with open('news_data_list.js', 'w', encoding='utf-8') as f:
+        f.write('var newsData = ')
+        json.dump(lite, f, ensure_ascii=False, separators=(',', ':'))
+        f.write(';\nvar newsDigest = ')
+        json.dump(digest, f, ensure_ascii=False, separators=(',', ':'))
         f.write(';\n')
+
+    with open('news_bodies.json', 'w', encoding='utf-8') as f:
+        json.dump(bodies, f, ensure_ascii=False, separators=(',', ':'))
+
+    chat_idx = []
+    for n in items[:CHAT_INDEX_MAX]:
+        chat_idx.append({
+            'id': n.get('id'),
+            'title': str(n.get('title') or '')[:80],
+            'summary': str(n.get('summary') or '')[:180],
+            'category': n.get('category') or '',
+            'source': str(n.get('source') or '')[:60],
+            'url': str(n.get('url') or '')[:240],
+            'tags': (n.get('tags') or [])[:6],
+            'stocks': [
+                {'name': s.get('name'), 'ticker': s.get('ticker')}
+                for s in (n.get('stocks') or [])[:3]
+            ],
+            'ts': n.get('ts') or '',
+        })
+    with open('news_chat_index.json', 'w', encoding='utf-8') as f:
+        json.dump(chat_idx, f, ensure_ascii=False, separators=(',', ':'))
 
 
 def main():
@@ -438,7 +504,7 @@ def main():
     # 记录本次处理过的 URL,避免它们滚出窗口后被重复富化
     write_seen(seen_list + [canonical_url(n['url']) for n in new])
 
-    print(f"\n✅ 已写入:新增 {len(enriched_new)} 条,合计 {len(merged)} 条,已见 URL {len(seen_list)+len(new)} 个")
+    print(f"\n✅ 已写入:新增 {len(enriched_new)} 条,全量 {len(merged)} 条,前端列表已拆分,已见 URL {len(seen_list)+len(new)} 个")
 
 
 if __name__ == '__main__':

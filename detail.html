@@ -4,8 +4,11 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
   <meta name="theme-color" content="#e60012">
+  <meta name="description" content="前沿科技日报 · 资讯详情">
+  <meta property="og:title" content="资讯详情 · 前沿科技日报">
+  <meta property="og:type" content="article">
   <title>资讯详情 · 前沿科技日报</title>
-  <link rel="stylesheet" href="assets/theme.css?v=20260623b">
+  <link rel="stylesheet" href="assets/theme.css?v=20260709b">
   <script>
     (function () {
       try {
@@ -20,45 +23,55 @@
   <header class="detail-head">
     <div class="back" onclick="history.length > 1 ? history.back() : location.href='index.html'">←</div>
     <div class="ht">资讯详情</div>
+    <button class="icon-btn head-ask" id="askBtn" aria-label="问AI">💬</button>
   </header>
 
   <article class="article" id="article">
     <div class="empty">加载中…</div>
   </article>
 
-  <script src="assets/app.js?v=20260706a"></script>
+  <nav class="tabbar">
+    <a class="tabbar-btn" href="index.html"><span class="ti">📰</span><span>首页</span></a>
+    <a class="tabbar-btn" href="stock.html"><span class="ti">📈</span><span>行情</span></a>
+    <div class="tabbar-btn" id="chatBtn"><span class="ti">💬</span><span>问AI</span></div>
+  </nav>
+
+  <script src="assets/app.js?v=20260709b"></script>
   <script>
     var FALLBACK_NEWS = [
       { id: 1, title: "出口管制重塑全球芯片供应链", summary: "关键技术和先进制程设备成为地缘科技竞争焦点，企业供应链布局面临调整。", category: "地缘科技", tags: ["出口管制"], source: "示例资讯", time: "2小时前", url: "#", stocks: [] }
     ];
     var A = window.AID;
+    var CURRENT = null;
 
-    function render(list) {
-      var id = A.getParam('id');
+    function renderArticle(news, bodyText) {
       var el = document.getElementById('article');
-      var news = null;
-      for (var i = 0; i < list.length; i++) { if (String(list[i].id) === String(id)) { news = list[i]; break; } }
-      if (!news) { el.innerHTML = '<div class="empty">未找到这条新闻<br><br><a class="srclink" href="index.html" style="color:var(--brand-ink)">← 返回首页</a></div>'; return; }
-
       document.title = news.title + ' · 前沿科技日报';
+      try {
+        var og = document.querySelector('meta[property="og:title"]');
+        if (og) og.setAttribute('content', news.title);
+      } catch (e) {}
 
       var html = A.coverHTML(news, { label: true });
       html += '<h1>' + A.esc(news.title) + '</h1>';
       html += '<div class="article-meta"><span class="chip">' + A.esc(news.category) + '</span>' +
         (news.source ? '<span>' + A.esc(news.source) + '</span>' : '') +
         ((A.relTime(news.ts) || news.time) ? '<span class="dot"></span><span>' + A.esc(A.relTime(news.ts) || news.time) + '</span>' : '') +
-        '<span class="dot"></span><span>热度指数 ' + A.heat(news) + '</span></div>';
+        '<span class="dot"></span><span>推荐指数 ' + A.heat(news) + '</span></div>';
 
       var fallbackBody = news.summary || '这条资讯的正文暂未整理完成,可先查看原文报道。';
-      var paras = (news.body && news.body.trim()) ? news.body.split(/\n+/) : [fallbackBody];
+      var rawBody = (bodyText && String(bodyText).trim()) || (news.body && news.body.trim()) || '';
+      var paras = rawBody ? rawBody.split(/\n+/) : [fallbackBody];
       var body = '<div class="article-body">';
       paras.forEach(function (p) { if (p.trim()) body += '<p>' + A.esc(p.trim()) + '</p>'; });
       body += '</div>';
       html += body;
 
-      if (news.stocks && news.stocks.length) {
-        html += '<div class="stockbox"><h3>📈 关联标的 · AI 推断</h3>';
-        news.stocks.forEach(function (s) {
+      var stocks = A.strongStocks(news);
+      var weak = (news.stocks || []).filter(function (s) { return s && s.name && s.confidence === 'low'; });
+      if (stocks.length) {
+        html += '<div class="stockbox"><h3>关联标的 · AI 推断</h3>';
+        stocks.forEach(function (s) {
           var href = s.ticker ? 'stock.html?symbol=' + encodeURIComponent(s.ticker) : 'stock.html';
           var conf = s.confidence ? ' · ' + A.esc(s.confidence) : '';
           var t = s.ticker ? ' <span class="stock-pill rel">' + A.esc(s.ticker) + conf + '</span>' : '';
@@ -68,18 +81,57 @@
         });
         html += '</div>';
       }
+      if (weak.length) {
+        html += '<details class="weak-stocks"><summary>弱关联标的 ' + weak.length + ' 个</summary><div class="stockbox" style="margin-top:8px">';
+        weak.forEach(function (s) {
+          var href = s.ticker ? 'stock.html?symbol=' + encodeURIComponent(s.ticker) : 'stock.html';
+          html += '<a class="row" href="' + href + '"><div><span class="nm">' + A.esc(s.name) + '</span>' +
+            (s.ticker ? ' <span class="stock-pill rel">' + A.esc(s.ticker) + '</span>' : '') +
+            (s.reason ? '<div style="font-size:12.5px;color:var(--text-3);margin-top:4px;line-height:1.5">' + A.esc(s.reason) + '</div>' : '') +
+            '</div></a>';
+        });
+        html += '</div></details>';
+      }
 
       var sourceUrl = A.safeUrl(news.url);
       if (sourceUrl && sourceUrl !== '#') {
         html += '<div class="srclink"><a href="' + A.esc(sourceUrl) + '" target="_blank" rel="noopener noreferrer">查看原文报道 →</a></div>';
       }
+      html += '<button type="button" class="ask-cta" id="askCta">基于这篇提问</button>';
 
       el.innerHTML = html;
       var cov = el.querySelector('.cover');
       if (cov) { cov.style.height = '190px'; cov.style.borderRadius = '14px'; cov.style.marginBottom = '18px'; }
+      var cta = document.getElementById('askCta');
+      if (cta) cta.onclick = function () { A.openChat({ focus: news }); };
     }
 
-    A.loadNews(FALLBACK_NEWS, render);
+    function openAsk() {
+      if (CURRENT) A.openChat({ focus: CURRENT });
+      else A.openChat();
+    }
+
+    A.bindChatControls();
+    document.getElementById('chatBtn').onclick = openAsk;
+    document.getElementById('askBtn').onclick = openAsk;
+
+    A.loadNews(FALLBACK_NEWS, function (list) {
+      var id = A.getParam('id');
+      var el = document.getElementById('article');
+      A.findNewsById(list, id, function (news) {
+        if (!news) {
+          el.innerHTML = '<div class="empty">未找到这条新闻<br><br><a class="srclink" href="index.html" style="color:var(--brand-ink)">← 返回首页</a></div>';
+          return;
+        }
+        CURRENT = news;
+        renderArticle(news, news.body || '');
+        if (!news.body) {
+          A.loadBody(news.id).then(function (body) {
+            if (body) renderArticle(news, body);
+          });
+        }
+      });
+    });
   </script>
 </body>
 </html>

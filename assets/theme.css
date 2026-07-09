@@ -77,6 +77,27 @@ img { display: block; }
 }
 .icon-btn:active { background: var(--border); }
 
+.search-bar {
+  max-width: var(--maxw); margin: 0 auto;
+  display: flex; align-items: center; gap: 8px;
+  padding: 0 16px 10px;
+}
+.search-bar[hidden] { display: none !important; }
+.search-bar input {
+  flex: 1; min-width: 0; height: 38px; border-radius: 19px;
+  border: 1px solid var(--border); background: var(--surface-2); color: var(--text);
+  padding: 0 14px; font-size: 14px; outline: none;
+}
+.search-bar input:focus { border-color: var(--brand); }
+.search-bar button {
+  width: 32px; height: 32px; border: none; border-radius: 50%;
+  background: transparent; color: var(--text-3); font-size: 20px; cursor: pointer;
+}
+mark {
+  background: rgba(230, 0, 18, 0.16); color: inherit; border-radius: 2px; padding: 0 1px;
+}
+html[data-theme="dark"] mark { background: rgba(255, 77, 94, 0.28); }
+
 /* ---------- 分类标签 ---------- */
 .tabs {
   max-width: var(--maxw); margin: 0 auto;
@@ -245,8 +266,16 @@ img { display: block; }
   padding-top: calc(12px + env(safe-area-inset-top));
 }
 .detail-head .back { font-size: 22px; cursor: pointer; color: var(--text); }
-.detail-head .ht { font-size: 16px; font-weight: 700; }
-.article { max-width: var(--maxw); margin: 0 auto; padding: 16px; }
+.detail-head .ht { font-size: 16px; font-weight: 700; flex: 1; }
+.detail-head .head-ask { margin-left: auto; }
+.ask-cta {
+  display: block; width: 100%; margin-top: 22px; padding: 13px;
+  border: none; border-radius: var(--radius); cursor: pointer;
+  background: var(--brand); color: #fff; font-size: 15px; font-weight: 700;
+}
+.weak-stocks { margin-top: 14px; color: var(--text-3); font-size: 13px; }
+.weak-stocks summary { cursor: pointer; padding: 6px 2px; }
+.article { max-width: var(--maxw); margin: 0 auto; padding: 16px 16px 24px; }
 .article .cover { height: 190px; border-radius: var(--radius); margin-bottom: 18px; }
 .article h1 { font-size: 23px; font-weight: 800; line-height: 1.45; color: var(--text); }
 .article-meta { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; font-size: 13px; color: var(--text-3); margin: 14px 0 18px; padding-bottom: 16px; border-bottom: 1px solid var(--border); }

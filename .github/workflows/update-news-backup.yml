@@ -42,11 +42,11 @@ jobs:
       - name: 校验数据非空（防止把线上覆盖成空白）
         id: guard
         run: |
-          COUNT=$(grep -c '"id"' news_data_latest.js || echo 0)
-          echo "本次抓到 $COUNT 条新闻"
+          COUNT=$(grep -c '"id"' news_data_list.js || echo 0)
+          echo "本次抓到 $COUNT 条新闻(前端列表)"
           if [ "$COUNT" -lt 10 ]; then
             echo "::warning::抓取结果少于 10 条，放弃本次更新，保留旧数据"
-            git checkout -- news_data_latest.js
+            git checkout -- news_data_latest.js news_data_list.js news_bodies.json news_chat_index.json 2>/dev/null || true
             echo "ok=false" >> "$GITHUB_OUTPUT"
           else
             echo "ok=true" >> "$GITHUB_OUTPUT"
@@ -58,11 +58,11 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          if git diff --quiet -- news_data_latest.js seen_urls.json; then
+          if git diff --quiet -- news_data_latest.js news_data_list.js news_bodies.json news_chat_index.json seen_urls.json; then
             echo "数据无变化，跳过提交"
             echo "changed=false" >> "$GITHUB_OUTPUT"
           else
-            git add news_data_latest.js seen_urls.json
+            git add news_data_latest.js news_data_list.js news_bodies.json news_chat_index.json seen_urls.json
             git commit -m "chore: 自动更新新闻（AI 中文富化）"
             pushed=0
             for i in 1 2 3 4 5; do
@@ -74,3 +74,4 @@ jobs:
             if [ "$pushed" != "1" ]; then echo "::error::push 多次失败"; exit 1; fi
             echo "changed=true" >> "$GITHUB_OUTPUT"
           fi
+

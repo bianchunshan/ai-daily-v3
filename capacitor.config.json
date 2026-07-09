@@ -1,0 +1,12 @@
+{
+  "appId": "com.chunshan.aidaily",
+  "appName": "前沿科技日报",
+  "webDir": "www",
+  "server": {
+    "url": "https://ai-daily-v3.vercel.app",
+    "cleartext": false
+  },
+  "android": {
+    "allowMixedContent": false
+  }
+}
