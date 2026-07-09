@@ -1,5 +1,56 @@
 const newsData = [
   {
+    "id": "bf6c25f00b7d728d",
+    "title": "小鹏Robotaxi启动员工内测，何小鹏称迈向机器人汽车关键一步",
+    "summary": "小鹏集团召开Robotaxi业务首次全员会，并宣布正式启动员工内测。何小鹏表示，Robotaxi是小鹏从新能源汽车迈向“机器人汽车”的重要一步，也是其物理AI版图的关键布局。",
+    "body": "记者9日获悉，小鹏集团召开Robotaxi业务首次全员会，并宣布正式启动员工内测。何小鹏表示，未来十年，所有具身智能载体本质都会成为机器人，Robotaxi是小鹏从新能源汽车迈向“机器人汽车”的重要一步，是成为小鹏物理AI版图的关键一子。\n\n基于AI时代软硬件融合的发展趋势，小鹏未来将聚焦整车平台、自动驾驶软件及AI能力，打造服务全球合作伙伴的Robotaxi软硬件服务商，通过输出整套解决方案，推动Robotaxi全球化落地。这一布局标志着小鹏在自动驾驶商业化领域迈出重要一步。",
+    "category": "机器人",
+    "tags": [
+      "Robotaxi",
+      "自动驾驶",
+      "小鹏汽车",
+      "具身智能"
+    ],
+    "source": "36氪",
+    "time": "刚刚",
+    "ts": "2026-07-09T03:59:57.130114+00:00",
+    "url": "https://36kr.com/newsflashes/3887879142963973?f=rss",
+    "image": "",
+    "stocks": [
+      {
+        "name": "小鹏汽车",
+        "ticker": "XPEV",
+        "reason": "Robotaxi内测启动及全球化解决方案布局直接利好公司自动驾驶商业化与长期估值",
+        "confidence": "high"
+      },
+      {
+        "name": "小鹏汽车-W",
+        "ticker": "9868.HK",
+        "reason": "Robotaxi内测启动及全球化解决方案布局直接利好公司自动驾驶商业化与长期估值",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "daa269abc5f4e8af",
+    "title": "DuckDuckGo浏览器默认拦截视频广告，支持YouTube",
+    "summary": "DuckDuckGo浏览器宣布默认开启视频广告拦截，可屏蔽多数YouTube广告，功能基于uBlock Origin开源过滤列表，并计划补充自有规则。",
+    "body": "DuckDuckGo浏览器发布新功能，用户在其浏览器内观看视频时可自动拦截大多数视频广告，尤其是YouTube广告。该功能基于uBlock Origin开源社区过滤列表，DuckDuckGo还将加入自有规则以提升兼容性。该功能目前已在多数iPhone、Windows和Mac平台默认开启，Android版本将在晚些时候默认启用，用户也可在设置中手动开关。不过，开启广告屏蔽后视频缓冲时间可能变长，并可能出现异常情况。此举进一步强化了DuckDuckGo以隐私为核心的差异化定位，也可能加剧浏览器与依赖广告收入的视频平台之间的博弈。",
+    "category": "网络安全",
+    "tags": [
+      "隐私浏览",
+      "广告拦截",
+      "浏览器",
+      "YouTube"
+    ],
+    "source": "IT之家",
+    "time": "3分钟前",
+    "ts": "2026-07-09T03:56:01+00:00",
+    "url": "https://www.ithome.com/0/974/448.htm",
+    "image": "https://img.ithome.com/newsuploadfiles/2026/7/5a49578e-7904-41cd-97c4-395d8305ad68.png?x-bce-process=image/format,f_auto",
+    "stocks": []
+  },
+  {
     "id": "40a83098a27f0991",
     "title": "昇视唯盛完成数亿元B轮融资，发力焊接具身智能",
     "summary": "工业具身智能机器人企业昇视唯盛宣布完成数亿元B轮融资，资金将用于焊接具身智能大脑与运动控制系统迭代及产能扩张。",
