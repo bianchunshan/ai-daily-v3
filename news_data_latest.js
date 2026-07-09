@@ -1,5 +1,31 @@
 const newsData = [
   {
+    "id": "5722ad9042db1311",
+    "title": "苹果获批Apple Watch水下扬声器专利",
+    "summary": "苹果最新获批一项Apple Watch专利，创新性地让屏幕作为声学振膜在水下发出声波，可用于潜水提醒与紧急求救等场景。",
+    "body": "据Patently Apple报道，苹果公司新获批一项Apple Watch水下扬声器专利，旨在解决传统扬声器在水下难以振动传声、触觉反馈在穿戴潜水服或手套时易被忽略的问题。该专利通过引入Actuator执行器，使屏幕像刚性声学振膜一样快速往复运动，从而在水中产生人类可听范围（约50Hz至15000Hz）的声波，甚至可发出非听觉频率用于设备检测或类声呐功能。专利还描述了可变形密封圈设计，在保持水密性的同时允许屏幕振动，并能根据水下压力动态调整驱动力，以兼顾深水输出与浅水功耗。该技术若落地，有望提升Apple Watch在潜水等水上运动中的安全提醒能力。",
+    "category": "消费电子",
+    "tags": [
+      "Apple Watch",
+      "可穿戴设备",
+      "声学技术",
+      "苹果"
+    ],
+    "source": "IT之家",
+    "time": "5分钟前",
+    "ts": "2026-07-09T05:34:34+00:00",
+    "url": "https://www.ithome.com/0/974/486.htm",
+    "image": "https://img.ithome.com/newsuploadfiles/2026/7/261a2cdb-0f62-454f-9704-12820f7a7311.jpg?x-bce-process=image/format,f_auto",
+    "stocks": [
+      {
+        "name": "苹果",
+        "ticker": "AAPL",
+        "reason": "该专利直接服务于Apple Watch产品线，强化其可穿戴设备在水下运动场景中的安全通讯能力。",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
     "id": "4207d21b333ee70a",
     "title": "AI投资扩张推动晶圆代工涨价潮",
     "summary": "受AI芯片需求激增影响，台积电与三星相继上调先进制程晶圆供货价格，晶圆代工市场正从价格竞争转向卖方市场，定价核心从制程成熟度转向供需与投资成本。",
