@@ -1,5 +1,37 @@
 const newsData = [
   {
+    "id": "9bb8d623ba0192de",
+    "title": "中芯国际涨超10%创新高，A+H市值破8500亿元",
+    "summary": "午后中芯国际股价大涨超10%创历史新高，A+H总市值突破8500亿元；半导体板块整体走强，晶圆代工行业新一轮涨价预期是重要推手。",
+    "body": "7月9日午后，晶圆代工龙头中芯国际股价持续走高，涨幅扩大至10%，创出历史新高。另一家晶圆代工厂华虹宏力盘中亦一度涨超10%并续创新高。半导体板块整体走强，芯智控股、兆易创新、澜起科技等个股显著上涨。按最新汇率，中芯国际A股市值超7531亿元，H股市值超9792亿港元，合计约8506亿元人民币。",
+    "category": "半导体与先进制造",
+    "tags": [
+      "中芯国际",
+      "晶圆代工",
+      "半导体涨价",
+      "国产替代"
+    ],
+    "source": "IT之家",
+    "time": "4分钟前",
+    "ts": "2026-07-09T06:05:53+00:00",
+    "url": "https://www.ithome.com/0/974/489.htm",
+    "image": "https://img.ithome.com/newsuploadfiles/2026/7/9e112a0e-6420-4aee-b07d-42c21c93073d.jpg",
+    "stocks": [
+      {
+        "name": "中芯国际",
+        "ticker": "688981.SH",
+        "reason": "国内最大晶圆代工厂，直接受益于涨价预期与国产替代逻辑",
+        "confidence": "high"
+      },
+      {
+        "name": "中芯国际",
+        "ticker": "00981.HK",
+        "reason": "H股核心晶圆代工资产，同步受益于板块景气与估值提升",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
     "id": "0f0bd1c9ed3b47c7",
     "title": "苹果 Apple Pencil 新专利获批：可预见笔触姿态支持旋转",
     "summary": "苹果公司一项 Apple Pencil 新专利获批，可在用户落笔前根据手写笔姿态实时预览笔触形状，并支持旋转交互。",
@@ -186,6 +218,25 @@ const newsData = [
         "confidence": "high"
       }
     ]
+  },
+  {
+    "id": "eb6f90cf44873e10",
+    "title": "RISC-V SoC设计新书引关注",
+    "summary": "Hacker News上出现一本关于RISC-V系统级芯片设计的新书推荐，聚焦开源指令集架构的SoC工程实践。",
+    "body": "近日，Hacker News上分享了一本名为《RISC-V System-on-Chip Design》的书籍，内容围绕RISC-V开源指令集架构进行系统级芯片设计。该书面向芯片设计工程师与学习者，涵盖从处理器核到完整SoC的工程方法。RISC-V作为开放、可扩展的指令集，正受到学术界和产业界越来越多的关注，此类教材有助于降低芯片设计入门门槛并推动开源硬件生态发展。",
+    "category": "半导体与先进制造",
+    "tags": [
+      "RISC-V",
+      "芯片设计",
+      "开源指令集",
+      "SoC"
+    ],
+    "source": "Hacker News",
+    "time": "41分钟前",
+    "ts": "2026-07-09T05:28:42+00:00",
+    "url": "https://www.amazon.com/RISC-V-Microprocessor-System-Chip-Design/dp/0323994989",
+    "image": "",
+    "stocks": []
   },
   {
     "id": "a7d134f574e21f62",
