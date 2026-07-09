@@ -1,5 +1,24 @@
 const newsData = [
   {
+    "id": "933d8f62f19befa4",
+    "title": "新加坡新航天机构与日本合作推动本国航天产业",
+    "summary": "新加坡新成立的航天机构与日本宇宙航空研究开发机构签署合作协议，旨在培育本国航天产业并提升技术能力。",
+    "body": "新加坡新成立的航天机构与日本宇宙航空研究开发机构（JAXA）签署合作协议，作为推动本国航天产业发展的举措之一。双方合作有望促进技术交流、人才培养和项目开发，为新加坡航天生态系统注入动力。此举反映出新加坡正加速布局商业航天，力争在卫星服务、空间应用和相关产业链中占据一席之地。",
+    "category": "商业航天",
+    "tags": [
+      "商业航天",
+      "国际合作",
+      "航天产业",
+      "新加坡"
+    ],
+    "source": "SpaceNews",
+    "time": "7分钟前",
+    "ts": "2026-07-09T03:31:50+00:00",
+    "url": "https://spacenews.com/new-singapore-space-agency-seeks-to-build-up-the-countrys-space-industry/",
+    "image": "https://i0.wp.com/spacenews.com/wp-content/uploads/2026/07/nsas-jaxa-scaled.jpeg?fit=1024%2C709&amp;ssl=1",
+    "stocks": []
+  },
+  {
     "id": "59a852e1797c5182",
     "title": "沐曦股份涨超19%突破1000元，国产GPU受关注",
     "summary": "36氪消息，沐曦股份股价涨超19%，股价站上1000元关口，反映市场对国产GPU芯片企业的关注度提升。",
