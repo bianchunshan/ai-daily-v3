@@ -1,5 +1,43 @@
 const newsData = [
   {
+    "id": "b8bddb9083de9ead",
+    "title": "普洛斯与乌兰察布共建GW级绿电智算基地",
+    "summary": "普洛斯与乌兰察布市政府签署战略合作协议，双方将共同打造GW级超大规模绿电智算产业基地，推进源网荷储一体化。",
+    "body": "7月8日，普洛斯与乌兰察布市人民政府签署战略合作协议。双方计划在乌兰察布建设GW级超大规模绿电智算产业基地，采用“源网荷储一体化”模式，将新能源发电、算力负荷与储能系统协同配置，以绿电支撑智算中心运行。\n\n该基地落地有助于提升区域绿色算力供给能力，为人工智能、大模型等应用提供低碳基础设施，同时通过绿电直供降低数据中心能耗与碳排放，对“东数西算”及低碳智算产业具有示范意义。",
+    "category": "AI 基础设施",
+    "tags": [
+      "智算中心",
+      "源网荷储",
+      "绿色算力",
+      "数据中心"
+    ],
+    "source": "36氪",
+    "time": "刚刚",
+    "ts": "2026-07-09T05:00:23.990324+00:00",
+    "url": "https://36kr.com/newsflashes/3887928494209537?f=rss",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "208f6339cde266be",
+    "title": "毕马威调查：AI按量计费吓退高管，近三成不懂经济账",
+    "summary": "毕马威对全球20个国家或地区2145名高管的调查显示，近三分之一受访者坦言不懂AI经济账，29%不清楚AI成本上涨来源。按量计费模式普及使企业面临成本预测与管控难题，已影响AI在实际工作场景中的部署。",
+    "body": "毕马威一项覆盖20个国家或地区2145名高级管理人员的调查显示，随着大语言模型使用成本上升，科技行业正从低价补贴阶段转向防守，AI服务日益从固定价格合同转向按使用量计费。然而，许多组织尚未建立有效预测、监控和管理AI支出的能力，导致企业高管对AI成本结构感到困惑。\n\n调查结果显示，29%的受访者不知道AI成本不断上涨的来源，另有近三分之一高管承认不懂AI的经济账，这已直接影响企业在工作场景中部署AI。报告指出，当AI不再像包月服务一样随意使用后，计费表一动，问题便暴露出来。\n\n这一现象也反映出，相当多企业领导者仍将AI视为即插即用的降本工具，却未真正理解如何高效应用。业内人士认为，AI成本管控与价值衡量能力将成为企业规模化应用AI的关键瓶颈。",
+    "category": "人工智能",
+    "tags": [
+      "AI成本",
+      "企业数字化",
+      "毕马威",
+      "大语言模型"
+    ],
+    "source": "IT之家",
+    "time": "1分钟前",
+    "ts": "2026-07-09T04:58:13+00:00",
+    "url": "https://www.ithome.com/0/974/477.htm",
+    "image": "https://img.ithome.com/newsuploadfiles/2025/5/064cca50-2baa-40ab-bbcb-39b4e830a8a2.jpg?x-bce-process=image/watermark,text_QUnnlJ_miJA,type_RlpMYW5UaW5nSGVpU0JHQg==,size_28,color_ffffffdd,skw_1,skc_00000051,g_7,blr_50,bls_50,x_11,y_11/format,f_auto",
+    "stocks": []
+  },
+  {
     "id": "9a70027aa79e7e0a",
     "title": "华为Pura 80系列官方翻新版上架，4299元起售",
     "summary": "华为官方商城近日上架Pura 80 Pro、Pro+、Ultra三款官方翻新版手机，售价4299元起，较首发价降低2200至3700元不等。这些翻新机源自7天无理由退货及15天换货产品，经官方翻新流程处理，外观和性能接近新机，并享一年质保。",
@@ -111,6 +149,25 @@ const newsData = [
     "ts": "2026-07-09T04:26:27+00:00",
     "url": "https://www.ithome.com/0/974/468.htm",
     "image": "https://img.ithome.com/newsuploadfiles/2026/7/8d851879-8b53-464c-9d13-16ea2e2cee74.jpg?x-bce-process=image/format,f_auto",
+    "stocks": []
+  },
+  {
+    "id": "e9f08411c4506fdc",
+    "title": "iPhone 18 Pro Max硬件成本大涨近300美元",
+    "summary": "Counterpoint Research报告显示，iPhone 18 Pro Max硬件成本因2nm A20 Pro芯片与存储涨价将比前代增加近300美元，毛利率可能承压。",
+    "body": "Counterpoint Research于7月8日发布物料清单（BoM）成本对比报告称，预计今年9月发布的iPhone 18 Pro Max（12GB+1TB版本）硬件成本将比iPhone 17 Pro Max上涨近300美元。即使苹果将平均零售价上调约200美元，其毛利率仍预计略低于2025年的iPhone 17 Pro Max。\n\n从成本构成看，内存芯片价格上涨是最大推手。受AI服务器高带宽内存需求激增挤压消费电子存储产能，12GB LPDDR5X内存成本显著上涨，256GB NAND闪存成本涨幅达80%至90%，存储在旗舰手机BoM中占比已升至20%以上。第二大因素是台积电2nm工艺的A20 Pro芯片，单片晶圆报价近3万美元且初期良率爬坡推高成本，单颗芯片成本约280美元，较前代A19 Pro的约150美元几乎翻倍。\n\n面对成本压力，苹果可能采取分容量差异化定价，守住基础款价格锚点，将成本增量转移至512GB、1TB等高容量版本。这反映出先进制程与AI需求外溢正加剧消费电子供应链成本波动，也可能影响高端手机市场定价策略。",
+    "category": "消费电子",
+    "tags": [
+      "iPhone 18",
+      "BoM成本",
+      "2nm芯片",
+      "存储芯片"
+    ],
+    "source": "IT之家",
+    "time": "37分钟前",
+    "ts": "2026-07-09T04:22:10+00:00",
+    "url": "https://www.ithome.com/0/974/466.htm",
+    "image": "https://img.ithome.com/newsuploadfiles/2026/7/9c352bef-7624-4a00-be24-0ea5dee059a4.png?x-bce-process=image/format,f_auto",
     "stocks": []
   },
   {
@@ -396,6 +453,24 @@ const newsData = [
     "time": "刚刚",
     "ts": "2026-07-09T03:30:13.921128+00:00",
     "url": "https://36kr.com/newsflashes/3887852772407808?f=rss",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "ab089a912d848ee4",
+    "title": "AI基础设施建设放缓的背后原因",
+    "summary": "文章标题指向人工智能基础设施扩张步伐正在放缓，可能探讨供应链、电力、资金或建设周期等制约因素。",
+    "body": "该材料仅提供文章标题《What's slowing down the AI buildout》，显示其关注的是人工智能基础设施大规模建设进程放缓的现象。结合行业背景，AI buildout通常涉及数据中心、算力集群、能源供应、GPU交付、融资与审批等多个环节，任何一环出现瓶颈都可能拖慢整体部署节奏。目前尚无法从给定材料中确认具体论述细节，但该话题对评估AI算力供需、云计算资本开支及产业链节奏具有参考意义。",
+    "category": "AI 基础设施",
+    "tags": [
+      "AI基础设施",
+      "算力",
+      "数据中心"
+    ],
+    "source": "Hacker News",
+    "time": "1小时前",
+    "ts": "2026-07-09T03:26:02+00:00",
+    "url": "https://www.worksinprogress.news/p/ai-is-bottlenecked-by-the-grid",
     "image": "",
     "stocks": []
   },
