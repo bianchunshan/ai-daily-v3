@@ -2077,6 +2077,25 @@ const newsData = [
     "stocks": []
   },
   {
+    "id": "22f9db750baedca7",
+    "title": "Databricks 用数百万行代码测试编程 Agent",
+    "summary": "Databricks 在其拥有数百万行代码的代码库上对编程智能体（coding agents）进行了基准测试，以评估 AI 编程工具在超大规模企业级代码库中的实际表现。",
+    "body": "据报道，Databricks 针对自身规模达数百万行的代码库，对多款编程智能体（coding agents）进行了基准测试。此举旨在衡量 AI 代理在理解、修改和维护大型企业级代码库方面的能力与可靠性。由于 Databricks 拥有海量且复杂的生产代码，这类实测对验证 AI 编程工具在真实工业场景中的落地价值具有参考意义，也可能为后续企业采用智能体辅助软件开发提供评估依据。",
+    "category": "人工智能",
+    "tags": [
+      "编程智能体",
+      "代码生成",
+      "企业软件",
+      "AI 应用"
+    ],
+    "source": "Hacker News",
+    "time": "5小时前",
+    "ts": "2026-07-08T21:30:09+00:00",
+    "url": "https://www.databricks.com/blog/benchmarking-coding-agents-databricks-multi-million-line-codebase",
+    "image": "",
+    "stocks": []
+  },
+  {
     "id": "04b72861b9d208c6",
     "title": "科学家破解细菌合成抗癌药物的自然密码",
     "summary": "研究人员破解了细菌天然合成多种强效抗癌药物的机制，这一发现有望加速基于自然产物的新型癌症治疗药物研发，并推动现有药物的改进。",
