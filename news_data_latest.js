@@ -1,5 +1,50 @@
 const newsData = [
   {
+    "id": "17a11fc36453d60e",
+    "title": "微软修复Outlook经典版Alt+I调用Copilot崩溃问题",
+    "summary": "微软确认经典版Outlook在使用Alt+I快捷键调用Copilot AI功能时存在崩溃Bug，并已在收到反馈后迅速修复。该问题主要影响Windows Server 2019 RDS环境，Word和Excel中的Copilot功能不受影响。",
+    "body": "据IT之家7月9日报道，科技媒体Neowin消息称，微软经典版Outlook存在一项Bug：用户在Windows Server 2019 RDS环境中按下Alt+I快捷键调用“Draft with Copilot”，或点击邮件正文中的Copilot铅笔图标后，界面会显示“Writing your email”进度条，随后卡死并崩溃。部分用户反馈崩溃后并非每次都完全中断会话，有时Outlook会自动重新打开。\n\n微软确认，该问题仅限于经典版Outlook，Word和Excel中的Copilot功能均可正常使用。在收到用户反馈后，微软已迅速修复该Bug，并同时修正了高对比度模式下“Help me write”按钮显示异常的问题，以确保用户正常访问Copilot邮件起草工具。\n\n这一修复属于Copilot在Office产品中的稳定性优化，显示出微软对AI办公功能用户体验的持续迭代，但影响范围较为局限。",
+    "category": "人工智能",
+    "tags": [
+      "微软",
+      "Outlook",
+      "Copilot",
+      "AI办公"
+    ],
+    "source": "IT之家",
+    "time": "2分钟前",
+    "ts": "2026-07-09T01:26:46+00:00",
+    "url": "https://www.ithome.com/0/974/321.htm",
+    "image": "",
+    "stocks": []
+  },
+  {
+    "id": "3a45f29f59a652d9",
+    "title": "Meta首座加拿大1GW数据中心动工，投资130亿加元",
+    "summary": "Meta宣布在加拿大艾伯塔省建设首座数据中心，设计容量1GW、投资约130亿加元，作为其全球AI基础设施网络的重要节点。",
+    "body": "当地时间7月8日，Meta宣布将在加拿大艾伯塔省Sturgeon建设其首座加拿大境内的数据中心，这也是Meta全球数据中心网络的第33个站点。该数据中心设计容量为1GW，总投资约130亿加元（约合人民币625亿元），定位为人工智能基础设施。项目预计可创造超过300个长期运营岗位，施工高峰期约提供3000个建筑工作岗位。\n\nSturgeon数据中心将采用100%清洁能源供电，并配备节水型闭环液冷干式冷却系统，以降低能耗和水资源使用。Meta承诺承担数据中心全部能源使用成本，支持当地电网新建与升级，并投入约6000万加元用于基础设施改善。该项目进一步强化了Meta在北美市场的AI算力布局，也为当地能源、建筑及产业链带来就业和投资拉动。",
+    "category": "AI 基础设施",
+    "tags": [
+      "Meta",
+      "数据中心",
+      "AI基础设施",
+      "加拿大"
+    ],
+    "source": "IT之家",
+    "time": "9分钟前",
+    "ts": "2026-07-09T01:19:46+00:00",
+    "url": "https://www.ithome.com/0/974/318.htm",
+    "image": "https://img.ithome.com/newsuploadfiles/2026/7/74a100a9-bb70-4a4c-bd1e-d21d5ac8df0d.jpg",
+    "stocks": [
+      {
+        "name": "Meta Platforms",
+        "ticker": "META",
+        "reason": "项目建设将直接扩大Meta AI算力与数据中心基础设施，支撑其AI模型训练与推理需求增长。",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
     "id": "09049f9b352888a7",
     "title": "Cloudflare推出零门槛静态网站部署工具Drop",
     "summary": "Cloudflare上线Cloudflare Drop工具，用户无需注册即可拖拽上传静态网站文件，快速生成临时预览链接，降低了边缘网络部署门槛。",
