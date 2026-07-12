@@ -42,11 +42,11 @@ jobs:
       - name: 校验数据非空（防止把线上覆盖成空白）
         id: guard
         run: |
-          COUNT=$(grep -c '"id"' news_data_list.js || echo 0)
+          COUNT=$(python3 -c "import json; s=open('news_data_list.js', encoding='utf-8').read(); print(len(json.loads(s.partition('var newsData = ')[2].partition(';\\nvar newsDigest = ')[0])))" 2>/dev/null || echo 0)
           echo "本次抓到 $COUNT 条新闻(前端列表)"
           if [ "$COUNT" -lt 10 ]; then
             echo "::warning::抓取结果少于 10 条，放弃本次更新，保留旧数据"
-            git checkout -- news_data_latest.js news_data_list.js news_bodies.json news_chat_index.json 2>/dev/null || true
+            git checkout -- news_data_latest.js news_data_list.js news_bodies.json news_chat_index.json seen_urls.json 2>/dev/null || true
             echo "ok=false" >> "$GITHUB_OUTPUT"
           else
             echo "ok=true" >> "$GITHUB_OUTPUT"
@@ -74,4 +74,3 @@ jobs:
             if [ "$pushed" != "1" ]; then echo "::error::push 多次失败"; exit 1; fi
             echo "changed=true" >> "$GITHUB_OUTPUT"
           fi
-
