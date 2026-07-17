@@ -49,7 +49,12 @@ def ensure_repo():
         ["/usr/bin/git", "status", "--porcelain"], cwd=REPO_DIR, text=True
     ).strip()
     if status:
-        raise RuntimeError(f"runner repository has unfinished changes: {status[:300]}")
+        paths = {line[3:] for line in status.splitlines() if len(line) > 3}
+        unknown = paths.difference(DATA_FILES)
+        if unknown:
+            raise RuntimeError(f"runner repository has unknown changes: {sorted(unknown)}")
+        log("discarding_incomplete_data_files", files=sorted(paths))
+        run(["/usr/bin/git", "restore", "--", *paths], cwd=REPO_DIR)
     run(["/usr/bin/git", "fetch", "origin", "main", "--quiet"], cwd=REPO_DIR)
     run(["/usr/bin/git", "merge", "--ff-only", "origin/main"], cwd=REPO_DIR)
     # Retry a commit left ahead of origin by a previous transient push failure.
@@ -122,6 +127,7 @@ def main():
                     "ENRICH_PROVIDER": "grok",
                     "GROK_URL": f"http://127.0.0.1:{PROXY_PORT}/v1/chat/completions",
                     "GROK_MODEL": "grok-4.5",
+                    "PYTHONUNBUFFERED": "1",
                 })
                 log("enrichment_started", provider="grok", model="grok-4.5")
                 run([sys.executable, "enrich_news.py"], cwd=REPO_DIR, env=env)

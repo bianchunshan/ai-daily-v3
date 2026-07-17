@@ -515,7 +515,9 @@ def main():
     with ThreadPoolExecutor(max_workers=6) as ex:   # 并发调用,避免顺序累加拖很久
         enriched_new = [n for n in ex.map(enrich_one, new) if n]
     if not enriched_new:
-        print("本次没有通过富化质量门禁的新条目,数据文件保持不变")
+        # 避免无关或不合格条目在每次轮询中反复消耗模型。
+        write_seen(seen_list + [canonical_url(n['url']) for n in new])
+        print("本次没有通过富化质量门禁的新条目,已记录为处理过")
         return
 
     # 累计:新条目并入历史,按真实时间倒序(最新在上)
