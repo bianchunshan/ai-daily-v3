@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
-AI 富化管线:抓取英文新闻 -> 用 Kimi/Qwen 翻译/改写/分类/关联 -> 写中文 news_data_latest.js
-- 默认模型:kimi-for-coding(Kimi Coding Plan Anthropic 兼容端点),key 取环境变量 KIMI_KEY
+AI 富化管线:抓取英文新闻 -> 用 Grok/Kimi/Qwen 翻译/改写/分类/关联 -> 写中文 news_data_latest.js
+- 支持本机 Hermes xAI OAuth 代理的 OpenAI 兼容端点
 - 仅用标准库,无需 pip 依赖(与 GitHub Action 保持一致)
 - 原则:股票只输出 名称+代码+关联理由,绝不编造价格/涨跌
 """
@@ -54,6 +54,9 @@ KIMI_KEY = os.environ.get('KIMI_KEY') or os.environ.get('MOONSHOT_API_KEY', '')
 KIMI_CODING_BASE_URL = os.environ.get('KIMI_CODING_BASE_URL', 'https://api.kimi.com/coding').rstrip('/')
 KIMI_URL = os.environ.get('KIMI_URL', f"{KIMI_CODING_BASE_URL}/v1/messages")
 KIMI_MODEL = os.environ.get('KIMI_MODEL', 'kimi-for-coding')
+GROK_URL = os.environ.get('GROK_URL', 'http://127.0.0.1:18645/v1/chat/completions')
+GROK_KEY = os.environ.get('GROK_KEY', 'local-hermes-proxy')
+GROK_MODEL = os.environ.get('GROK_MODEL', 'grok-4.5')
 
 CATEGORIES = ['人工智能', 'AI 基础设施', '半导体与先进制造', '机器人', '商业航天',
               '生物医药', '量子科技', '未来能源', '新材料', '脑机接口', '网络安全',
@@ -196,8 +199,46 @@ def call_anthropic_compat(url, key, model, auth_mode, prompt, max_tokens=1500, s
     raise last
 
 
+def call_openai_compat(url, key, model, prompt, max_tokens=1500, system=None, retries=2):
+    """调用 OpenAI 兼容 chat/completions 接口,返回纯文本。"""
+    messages = []
+    if system:
+        messages.append({"role": "system", "content": system})
+    messages.append({"role": "user", "content": prompt})
+    body = {
+        "model": model,
+        "messages": messages,
+        "max_tokens": max_tokens,
+        "temperature": 0,
+    }
+    data = json.dumps(body).encode('utf-8')
+    last = None
+    for i in range(retries):
+        try:
+            req = urllib.request.Request(
+                url,
+                data=data,
+                headers={
+                    "authorization": f"Bearer {key}",
+                    "content-type": "application/json",
+                },
+            )
+            with urllib.request.urlopen(req, timeout=90) as r:
+                d = json.loads(r.read().decode('utf-8'))
+            return d['choices'][0]['message']['content']
+        except Exception as e:
+            last = e
+            if i < retries - 1:
+                time.sleep(2 * (i + 1))
+    raise last
+
+
 def call_model(prompt, max_tokens=1500, system=None, retries=2):
-    """默认 Kimi 富化;设置 ENRICH_PROVIDER=qwen 可退回 Qwen。"""
+    """按 ENRICH_PROVIDER 选择 Grok、Qwen 或 Kimi。"""
+    if ENRICH_PROVIDER in ('grok', 'xai'):
+        return call_openai_compat(
+            GROK_URL, GROK_KEY, GROK_MODEL,
+            prompt, max_tokens=max_tokens, system=system, retries=retries)
     if ENRICH_PROVIDER in ('qwen', 'qwen3'):
         return call_anthropic_compat(
             QWEN_URL, QWEN_KEY, QWEN_MODEL,
