@@ -9,6 +9,7 @@ import socket
 import subprocess
 import sys
 import time
+import urllib.request
 
 
 REPO_URL = "https://github.com/bianchunshan/ai-daily-v3.git"
@@ -19,6 +20,11 @@ PROXY_LOG = Path.home() / "Library" / "Logs" / "ai-daily-grok-proxy.log"
 HERMES = Path.home() / ".local" / "bin" / "hermes"
 PROFILE = "sexreba"
 PROXY_PORT = 18645
+# 本机模型 API(ai.mlx.auth-proxy)。token 不写死在仓库里,运行时从家目录读。
+LOCAL_API_BASE = os.environ.get("LOCAL_API_BASE", "http://127.0.0.1:8801")
+LOCAL_MODEL = os.environ.get("LOCAL_MODEL", "qwen")
+TOKENS_PATH = Path.home() / ".mlx-api" / "tokens.json"
+LOCAL_TOKEN_LABEL = "github-actions-ai-daily"
 DATA_FILES = [
     "news_data_latest.js",
     "news_data_list.js",
@@ -59,6 +65,27 @@ def ensure_repo():
     run(["/usr/bin/git", "merge", "--ff-only", "origin/main"], cwd=REPO_DIR)
     # Retry a commit left ahead of origin by a previous transient push failure.
     run(["/usr/bin/git", "push", "origin", "main", "--quiet"], cwd=REPO_DIR)
+
+
+def read_local_key():
+    """本机 API 的 token。缺失时返回空串,让 enrich_news.py 用 401 显式失败。"""
+    try:
+        entries = json.loads(TOKENS_PATH.read_text(encoding="utf-8"))
+        for entry in entries:
+            if entry.get("label") == LOCAL_TOKEN_LABEL:
+                return entry.get("token", "")
+    except Exception as exc:
+        log("local_key_unreadable", error=str(exc))
+    return ""
+
+
+def local_api_ready():
+    """模型服务没起来就整轮跳过,不要跑一半失败后留下半成品数据。"""
+    try:
+        with urllib.request.urlopen(f"{LOCAL_API_BASE}/health", timeout=5) as resp:
+            return resp.status == 200
+    except Exception:
+        return False
 
 
 def wait_for_port(port, timeout=20):
@@ -111,33 +138,22 @@ def main():
             return 0
 
         ensure_repo()
-        PROXY_LOG.parent.mkdir(parents=True, exist_ok=True)
-        with PROXY_LOG.open("a", encoding="utf-8") as proxy_log:
-            proxy = subprocess.Popen(
-                [str(HERMES), "-p", PROFILE, "proxy", "start", "--provider", "xai",
-                 "--host", "127.0.0.1", "--port", str(PROXY_PORT)],
-                stdout=proxy_log,
-                stderr=subprocess.STDOUT,
-                text=True,
-            )
-            try:
-                wait_for_port(PROXY_PORT)
-                env = os.environ.copy()
-                env.update({
-                    "ENRICH_PROVIDER": "grok",
-                    "GROK_URL": f"http://127.0.0.1:{PROXY_PORT}/v1/chat/completions",
-                    "GROK_MODEL": "grok-4.5",
-                    "PYTHONUNBUFFERED": "1",
-                })
-                log("enrichment_started", provider="grok", model="grok-4.5")
-                run([sys.executable, "enrich_news.py"], cwd=REPO_DIR, env=env)
-                push_changes()
-            finally:
-                proxy.terminate()
-                try:
-                    proxy.wait(timeout=5)
-                except subprocess.TimeoutExpired:
-                    proxy.kill()
+        # 2026-07-26 起改用本机 Qwen3.6-35B-A3B(LaunchAgent ai.mlx.server,常驻),
+        # 不再按轮拉起 Hermes 的 xai proxy——本机服务一直在,少一个进程生命周期要管。
+        if not local_api_ready():
+            log("local_api_unavailable", url=LOCAL_API_BASE)
+            return 1
+        env = os.environ.copy()
+        env.update({
+            "ENRICH_PROVIDER": "local",
+            "LOCAL_URL": f"{LOCAL_API_BASE}/v1/chat/completions",
+            "LOCAL_KEY": read_local_key(),
+            "LOCAL_MODEL": LOCAL_MODEL,
+            "PYTHONUNBUFFERED": "1",
+        })
+        log("enrichment_started", provider="local", model=LOCAL_MODEL)
+        run([sys.executable, "enrich_news.py"], cwd=REPO_DIR, env=env)
+        push_changes()
         return 0
 
 

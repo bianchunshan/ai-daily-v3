@@ -57,6 +57,14 @@ KIMI_MODEL = os.environ.get('KIMI_MODEL', 'kimi-for-coding')
 GROK_URL = os.environ.get('GROK_URL', 'http://127.0.0.1:18645/v1/chat/completions')
 GROK_KEY = os.environ.get('GROK_KEY', 'local-hermes-proxy')
 GROK_MODEL = os.environ.get('GROK_MODEL', 'grok-4.5')
+# 本机 Qwen3.6-35B-A3B(LaunchAgent 链路:ai.mlx.auth-proxy -> qwen36.proxy -> ai.mlx.server)。
+# 它是 thinking 模型:思考过程同样计入 max_tokens,单条实测要 2600+ token;
+# 6 路并发时单条墙钟 150-210 秒(要排 mlx_lm.server 的解码队列),所以预算比云端大得多。
+LOCAL_URL = os.environ.get('LOCAL_URL', 'http://127.0.0.1:8801/v1/chat/completions')
+LOCAL_KEY = os.environ.get('LOCAL_KEY', '')
+LOCAL_MODEL = os.environ.get('LOCAL_MODEL', 'qwen')
+LOCAL_MAX_TOKENS = int(os.environ.get('LOCAL_MAX_TOKENS', '5000'))
+LOCAL_TIMEOUT = int(os.environ.get('LOCAL_TIMEOUT', '420'))
 
 CATEGORIES = ['人工智能', 'AI 基础设施', '半导体与先进制造', '机器人', '商业航天',
               '生物医药', '量子科技', '未来能源', '新材料', '脑机接口', '网络安全',
@@ -158,6 +166,25 @@ def has_enough_source(n):
     return len(material) >= MIN_SOURCE_CHARS
 
 
+# 与 api/quote.js 的 toSina() 支持范围保持一致:港股 .HK、A股 .SH/.SS/.SZ 或裸 6 位、美股纯字母。
+# 模型常吐出真实但行情源不支持的代码(台股 .TW、韩股 .KS、日股 .T、北交所 .BJ),写进去前端查不到
+# 只会静默失败;.DE/.PA/.SW 等欧股还会被 quote.js 的宽松正则误判成美股,转成 gb_xxx 去查同样查不到。
+TICKER_PATTERNS = (
+    re.compile(r'^\d{1,5}\.HK$'),            # 港股 0700.HK
+    re.compile(r'^\d{6}\.(SH|SS|SZ)$'),      # A股 600519.SH / 000001.SZ
+    re.compile(r'^\d{6}$'),                  # A股裸代码 600519
+    re.compile(r'^[A-Z]{1,5}(\.[A-Z])?$'),   # 美股 NVDA / BRK.B
+)
+
+
+def normalize_ticker(raw):
+    """规范化并校验股票代码。行情源查不到的一律返回 '',调用方保留公司名即可。"""
+    tk = str(raw or '').strip().upper()
+    if not tk:
+        return ''
+    return tk if any(p.match(tk) for p in TICKER_PATTERNS) else ''
+
+
 def is_usable_chinese_item(item):
     title = str(item.get('title', '')).strip()
     summary = str(item.get('summary', '')).strip()
@@ -199,7 +226,7 @@ def call_anthropic_compat(url, key, model, auth_mode, prompt, max_tokens=1500, s
     raise last
 
 
-def call_openai_compat(url, key, model, prompt, max_tokens=1500, system=None, retries=2):
+def call_openai_compat(url, key, model, prompt, max_tokens=1500, system=None, retries=2, timeout=90):
     """调用 OpenAI 兼容 chat/completions 接口,返回纯文本。"""
     messages = []
     if system:
@@ -223,9 +250,17 @@ def call_openai_compat(url, key, model, prompt, max_tokens=1500, system=None, re
                     "content-type": "application/json",
                 },
             )
-            with urllib.request.urlopen(req, timeout=90) as r:
+            with urllib.request.urlopen(req, timeout=timeout) as r:
                 d = json.loads(r.read().decode('utf-8'))
-            return d['choices'][0]['message']['content']
+            msg = d['choices'][0]['message']
+            text = msg.get('content')
+            if not text:
+                # 思考型模型(本机 Qwen3.6 等)如果思考没收敛就撞上 max_tokens,
+                # 返回的 message 里连 content 键都没有。这里显式失败以触发重试,
+                # 不能当成空串返回,否则会静默产出不合格条目。
+                raise RuntimeError(
+                    f"模型未返回 content(finish_reason={d['choices'][0].get('finish_reason')})")
+            return text
         except Exception as e:
             last = e
             if i < retries - 1:
@@ -234,7 +269,12 @@ def call_openai_compat(url, key, model, prompt, max_tokens=1500, system=None, re
 
 
 def call_model(prompt, max_tokens=1500, system=None, retries=2):
-    """按 ENRICH_PROVIDER 选择 Grok、Qwen 或 Kimi。"""
+    """按 ENRICH_PROVIDER 选择本机 Qwen、Grok、Qwen 云端或 Kimi。"""
+    if ENRICH_PROVIDER in ('local', 'mlx'):
+        return call_openai_compat(
+            LOCAL_URL, LOCAL_KEY, LOCAL_MODEL,
+            prompt, max_tokens=max(max_tokens, LOCAL_MAX_TOKENS), system=system,
+            retries=retries, timeout=LOCAL_TIMEOUT)
     if ENRICH_PROVIDER in ('grok', 'xai'):
         return call_openai_compat(
             GROK_URL, GROK_KEY, GROK_MODEL,
@@ -297,7 +337,8 @@ def enrich_one(n):
 关于 stocks(重要):
 - 只有新闻和上市公司/标的存在明确业务关联时才填写;关联弱或只是泛泛行业影响时返回空数组 []。
 - confidence 表示关联置信度;low 只用于详情页参考,不要硬凑利好。
-- ticker 用真实准确代码,格式:美股直接用代码(如 NVDA、AAPL);港股用 代码.HK(如 0700.HK);A股用 代码.SH 或 代码.SZ(如 600519.SH、000001.SZ)。该代码会被系统用来查实时行情,务必准确。
+- ticker 只支持三个市场,格式:美股直接用代码(如 NVDA、AAPL);港股用 代码.HK(如 0700.HK);A股用 代码.SH 或 代码.SZ(如 600519.SH、000001.SZ)。该代码会被系统用来查实时行情,务必准确。
+- 台股、韩股、日股、欧股、北交所等其他市场的代码(如 2330.TW、005930.KS、9984.T、SIE.DE、872190.BJ)一律不支持,系统查不到行情。这类公司若有美股 ADR 就填 ADR 代码(例如台积电填 TSM、阿斯麦填 ASML、索尼填 SONY);没有 ADR 就把 ticker 留空字符串,只保留公司名。
 - 绝不编造价格、涨跌幅等任何行情数字(行情由系统实时获取)。
 
 标题:{n.get('title','')}
@@ -315,7 +356,10 @@ def enrich_one(n):
         stocks = []
         for s in (out.get('stocks') or [])[:4]:
             if isinstance(s, dict) and s.get('name'):
-                stocks.append({'name': s.get('name', ''), 'ticker': s.get('ticker', ''),
+                tk = normalize_ticker(s.get('ticker'))
+                if s.get('ticker') and not tk:
+                    print(f"  ⚠️ 行情源不支持的代码,已剔除:{s.get('ticker')}（{s.get('name')}）")
+                stocks.append({'name': s.get('name', ''), 'ticker': tk,
                                'reason': s.get('reason', ''), 'confidence': s.get('confidence', '')})
         item = {
             'id': n.get('id'),
@@ -446,6 +490,11 @@ def _frontend_slice(items):
 
 
 def write_data(items, digest):
+    # 历史条目不经过 enrich_one,这里统一再洗一次代码,保证落盘数据全部能查到行情
+    for n in items:
+        for s in (n.get('stocks') or []):
+            s['ticker'] = normalize_ticker(s.get('ticker'))
+
     # 全量归档(管线/chat 兜底用),紧凑写入;用 var 便于前端回退二次加载
     with open('news_data_latest.js', 'w', encoding='utf-8') as f:
         f.write('var newsData = ')
