@@ -21,8 +21,15 @@ HERMES = Path.home() / ".local" / "bin" / "hermes"
 PROFILE = "sexreba"
 PROXY_PORT = 18645
 # 本机模型 API(ai.mlx.auth-proxy)。token 不写死在仓库里,运行时从家目录读。
-LOCAL_API_BASE = os.environ.get("LOCAL_API_BASE", "http://127.0.0.1:8801")
-LOCAL_MODEL = os.environ.get("LOCAL_MODEL", "qwen")
+# 批量岗位专用实例 ai.mlx.gemma(8803),与建联/对外 API 用的 Qwen(8799)分开,
+# 免得富化的并发把建联的实时请求堵在队列后面。直连 mlx_lm.server,同机不需要鉴权层。
+LOCAL_API_BASE = os.environ.get("LOCAL_API_BASE", "http://127.0.0.1:8803")
+LOCAL_MODEL = os.environ.get(
+    "LOCAL_MODEL",
+    "/Users/steve/.lmstudio/models/lmstudio-community/gemma-4-26B-A4B-it-MLX-8bit",
+)
+# 提交信息里只写短名,别把整条模型路径塞进 git log
+LOCAL_MODEL_LABEL = os.environ.get("LOCAL_MODEL_LABEL", "gemma-4-26b")
 TOKENS_PATH = Path.home() / ".mlx-api" / "tokens.json"
 LOCAL_TOKEN_LABEL = "github-actions-ai-daily"
 DATA_FILES = [
@@ -82,7 +89,8 @@ def read_local_key():
 def local_api_ready():
     """模型服务没起来就整轮跳过,不要跑一半失败后留下半成品数据。"""
     try:
-        with urllib.request.urlopen(f"{LOCAL_API_BASE}/health", timeout=5) as resp:
+        # 直连 mlx_lm.server 时没有 /health,用 /v1/models 当探活端点
+        with urllib.request.urlopen(f"{LOCAL_API_BASE}/v1/models", timeout=5) as resp:
             return resp.status == 200
     except Exception:
         return False
@@ -119,7 +127,7 @@ def push_changes():
     run(
         ["/usr/bin/git", "-c", "user.name=ai-daily-grok[bot]",
          "-c", "user.email=ai-daily-grok@users.noreply.github.com",
-         "commit", "-m", f"chore: 本机 {LOCAL_MODEL} 自动更新新闻"],
+         "commit", "-m", f"chore: 本机 {LOCAL_MODEL_LABEL} 自动更新新闻"],
         cwd=REPO_DIR,
     )
     run(["/usr/bin/git", "push", "origin", "main"], cwd=REPO_DIR)
@@ -138,7 +146,7 @@ def main():
             return 0
 
         ensure_repo()
-        # 2026-07-26 起改用本机 Qwen3.6-35B-A3B(LaunchAgent ai.mlx.server,常驻),
+        # 2026-07-27 起改用本机常驻模型(LaunchAgent ai.mlx.gemma),
         # 不再按轮拉起 Hermes 的 xai proxy——本机服务一直在,少一个进程生命周期要管。
         if not local_api_ready():
             log("local_api_unavailable", url=LOCAL_API_BASE)
@@ -151,7 +159,7 @@ def main():
             "LOCAL_MODEL": LOCAL_MODEL,
             "PYTHONUNBUFFERED": "1",
         })
-        log("enrichment_started", provider="local", model=LOCAL_MODEL)
+        log("enrichment_started", provider="local", model=LOCAL_MODEL_LABEL)
         run([sys.executable, "enrich_news.py"], cwd=REPO_DIR, env=env)
         push_changes()
         return 0
