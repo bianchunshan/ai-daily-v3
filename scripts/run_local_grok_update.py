@@ -119,7 +119,7 @@ def push_changes():
     run(
         ["/usr/bin/git", "-c", "user.name=ai-daily-grok[bot]",
          "-c", "user.email=ai-daily-grok@users.noreply.github.com",
-         "commit", "-m", "chore: 本机 Grok 自动更新新闻"],
+         "commit", "-m", f"chore: 本机 {LOCAL_MODEL} 自动更新新闻"],
         cwd=REPO_DIR,
     )
     run(["/usr/bin/git", "push", "origin", "main"], cwd=REPO_DIR)
