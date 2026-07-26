@@ -65,6 +65,12 @@ LOCAL_KEY = os.environ.get('LOCAL_KEY', '')
 LOCAL_MODEL = os.environ.get('LOCAL_MODEL', 'qwen')
 LOCAL_MAX_TOKENS = int(os.environ.get('LOCAL_MAX_TOKENS', '5000'))
 LOCAL_TIMEOUT = int(os.environ.get('LOCAL_TIMEOUT', '420'))
+# 关掉 thinking。开着时它先思考五千多字才出正文,单条 36 秒;关掉后 5 秒左右,
+# 3 条对照实测 110.6s -> 13.8s,而分类/标签/标的完全一致、正文反而更完整。
+# 富化是结构化改写任务,骨架由 prompt 的 JSON schema 定死,不吃模型自己的思考链。
+LOCAL_EXTRA_BODY = json.loads(
+    os.environ.get('LOCAL_EXTRA_BODY', '{"chat_template_kwargs":{"enable_thinking":false}}')
+)
 
 CATEGORIES = ['人工智能', 'AI 基础设施', '半导体与先进制造', '机器人', '商业航天',
               '生物医药', '量子科技', '未来能源', '新材料', '脑机接口', '网络安全',
@@ -226,7 +232,8 @@ def call_anthropic_compat(url, key, model, auth_mode, prompt, max_tokens=1500, s
     raise last
 
 
-def call_openai_compat(url, key, model, prompt, max_tokens=1500, system=None, retries=2, timeout=90):
+def call_openai_compat(url, key, model, prompt, max_tokens=1500, system=None, retries=2,
+                       timeout=90, extra_body=None):
     """调用 OpenAI 兼容 chat/completions 接口,返回纯文本。"""
     messages = []
     if system:
@@ -238,6 +245,7 @@ def call_openai_compat(url, key, model, prompt, max_tokens=1500, system=None, re
         "max_tokens": max_tokens,
         "temperature": 0,
     }
+    body.update(extra_body or {})
     data = json.dumps(body).encode('utf-8')
     last = None
     for i in range(retries):
@@ -274,7 +282,7 @@ def call_model(prompt, max_tokens=1500, system=None, retries=2):
         return call_openai_compat(
             LOCAL_URL, LOCAL_KEY, LOCAL_MODEL,
             prompt, max_tokens=max(max_tokens, LOCAL_MAX_TOKENS), system=system,
-            retries=retries, timeout=LOCAL_TIMEOUT)
+            retries=retries, timeout=LOCAL_TIMEOUT, extra_body=LOCAL_EXTRA_BODY)
     if ENRICH_PROVIDER in ('grok', 'xai'):
         return call_openai_compat(
             GROK_URL, GROK_KEY, GROK_MODEL,
