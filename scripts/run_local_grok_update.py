@@ -49,8 +49,8 @@ def log(message, **fields):
     print(json.dumps(row, ensure_ascii=False), flush=True)
 
 
-def run(args, **kwargs):
-    return subprocess.run(args, check=True, text=True, **kwargs)
+def run(args, timeout=None, **kwargs):
+    return subprocess.run(args, check=True, text=True, timeout=timeout, **kwargs)
 
 
 def ensure_repo():
@@ -67,10 +67,17 @@ def ensure_repo():
             raise RuntimeError(f"runner repository has unknown changes: {sorted(unknown)}")
         log("discarding_incomplete_data_files", files=sorted(paths))
         run(["/usr/bin/git", "restore", "--", *paths], cwd=REPO_DIR)
-    run(["/usr/bin/git", "fetch", "origin", "main", "--quiet"], cwd=REPO_DIR)
-    run(["/usr/bin/git", "merge", "--ff-only", "origin/main"], cwd=REPO_DIR)
+    # GitHub 网络异常不应阻塞本机抓取；本地提交保留，下一轮再同步。
+    try:
+        run(["/usr/bin/git", "fetch", "origin", "main", "--quiet"], cwd=REPO_DIR, timeout=30)
+        run(["/usr/bin/git", "merge", "--ff-only", "origin/main"], cwd=REPO_DIR, timeout=15)
+    except (subprocess.TimeoutExpired, subprocess.CalledProcessError) as exc:
+        log("git_sync_failed", error=str(exc)[:300])
     # Retry a commit left ahead of origin by a previous transient push failure.
-    run(["/usr/bin/git", "push", "origin", "main", "--quiet"], cwd=REPO_DIR)
+    try:
+        run(["/usr/bin/git", "push", "origin", "main", "--quiet"], cwd=REPO_DIR, timeout=30)
+    except (subprocess.TimeoutExpired, subprocess.CalledProcessError) as exc:
+        log("pending_push_failed", error=str(exc)[:300])
 
 
 def read_local_key():
@@ -129,7 +136,11 @@ def push_changes():
          "commit", "-m", f"chore: 本机 {LOCAL_MODEL_LABEL} 自动更新新闻"],
         cwd=REPO_DIR,
     )
-    run(["/usr/bin/git", "push", "origin", "main"], cwd=REPO_DIR)
+    try:
+        run(["/usr/bin/git", "push", "origin", "main"], cwd=REPO_DIR, timeout=45)
+    except (subprocess.TimeoutExpired, subprocess.CalledProcessError) as exc:
+        log("data_committed_push_failed", error=str(exc)[:300])
+        return
     head = subprocess.check_output(
         ["/usr/bin/git", "rev-parse", "--short", "HEAD"], cwd=REPO_DIR, text=True
     ).strip()
