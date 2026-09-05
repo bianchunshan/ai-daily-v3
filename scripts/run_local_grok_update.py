@@ -55,6 +55,19 @@ def run(args, timeout=None, **kwargs):
     return subprocess.run(args, check=True, text=True, timeout=timeout, **kwargs)
 
 
+def push_remote():
+    for attempt in range(3):
+        try:
+            run(["/usr/bin/git", "push", "origin", "main", "--quiet"], cwd=REPO_DIR, timeout=25)
+            return True
+        except (subprocess.TimeoutExpired, subprocess.CalledProcessError) as exc:
+            log("git_push_retry", attempt=attempt + 1, error=str(exc)[:300])
+            if attempt < 2:
+                time.sleep(2 ** (attempt + 1))
+    log("data_pending_publish", action="retry_next_scheduled_run")
+    return False
+
+
 def ensure_repo():
     RUNNER_ROOT.mkdir(parents=True, exist_ok=True)
     if not (REPO_DIR / ".git").is_dir():
@@ -76,10 +89,7 @@ def ensure_repo():
     except (subprocess.TimeoutExpired, subprocess.CalledProcessError) as exc:
         log("git_sync_failed", error=str(exc)[:300])
     # Retry a commit left ahead of origin by a previous transient push failure.
-    try:
-        run(["/usr/bin/git", "push", "origin", "main", "--quiet"], cwd=REPO_DIR, timeout=30)
-    except (subprocess.TimeoutExpired, subprocess.CalledProcessError) as exc:
-        log("pending_push_failed", error=str(exc)[:300])
+    push_remote()
 
 
 def read_local_key():
@@ -126,7 +136,7 @@ def push_changes():
         ["/usr/bin/git", "status", "--porcelain", "--", *DATA_FILES], cwd=REPO_DIR, text=True)
     if not changes.strip():
         log("no_data_changes")
-        return
+        return True
     count = frontend_count()
     if count < 10:
         raise RuntimeError(f"frontend validation failed: only {count} items")
@@ -137,15 +147,13 @@ def push_changes():
          "commit", "-m", f"chore: 本机 {LOCAL_MODEL_LABEL} 自动更新新闻"],
         cwd=REPO_DIR,
     )
-    try:
-        run(["/usr/bin/git", "push", "origin", "main"], cwd=REPO_DIR, timeout=45)
-    except (subprocess.TimeoutExpired, subprocess.CalledProcessError) as exc:
-        log("data_committed_push_failed", error=str(exc)[:300])
-        return
+    if not push_remote():
+        return False
     head = subprocess.check_output(
         ["/usr/bin/git", "rev-parse", "--short", "HEAD"], cwd=REPO_DIR, text=True
     ).strip()
     log("data_pushed", head=head, frontend_count=count)
+    return True
 
 
 def main():
@@ -183,8 +191,7 @@ def main():
             write_status(error='update_failed')
             push_changes()
             return 1
-        push_changes()
-        return 0
+        return 0 if push_changes() else 1
 
 
 if __name__ == "__main__":

@@ -35,7 +35,7 @@ fs.mkdirSync(out, { recursive: true });
       .locator("#searchInput")
       .fill("英伟达NVIDIA App将支持Resizable BAR");
     await page.waitForTimeout(500);
-    await page.waitForLoadState("networkidle");
+    await page.waitForFunction(() => document.getElementById("feed").textContent.includes("Resizable BAR"), {}, { timeout: 30000 });
     assert((await page.locator("#feed").innerText()).includes("Resizable BAR"));
     results.checks.push("full archive title searchable");
     await page.locator("#searchClear").click();
