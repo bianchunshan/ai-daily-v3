@@ -4,13 +4,20 @@
   "private": true,
   "description": "Android wrapper for AI Daily",
   "scripts": {
+    "build": "node scripts/build-assets.cjs",
+    "dev": "node scripts/dev-server.cjs",
+    "test": "node --test tests/*.test.cjs",
     "android:sync": "cap sync android",
     "android:open": "cap open android",
     "android:debug": "cd android && ./gradlew assembleDebug"
   },
   "dependencies": {
     "@capacitor/android": "^7.4.3",
-    "@capacitor/core": "^7.4.3"
+    "@capacitor/core": "^7.4.3",
+    "dompurify": "3.4.14",
+    "fast-xml-parser": "5.11.1",
+    "lucide-static": "1.41.0",
+    "marked": "18.0.11"
   },
   "devDependencies": {
     "@capacitor/cli": "^7.4.3"

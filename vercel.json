@@ -1,5 +1,7 @@
 {
   "$schema": "https://openapi.vercel.sh/vercel.json",
+  "buildCommand": "npm run build",
+  "functions": { "api/*.js": { "includeFiles": "data/**", "maxDuration": 60 } },
   "git": {
     "deploymentEnabled": {
       "main": false
@@ -9,37 +11,55 @@
     {
       "source": "/news_data_list.js",
       "headers": [
-        { "key": "Cache-Control", "value": "public, max-age=120, s-maxage=300, stale-while-revalidate=600" }
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=120, s-maxage=300, stale-while-revalidate=600"
+        }
       ]
     },
     {
       "source": "/news_bodies.json",
       "headers": [
-        { "key": "Cache-Control", "value": "public, max-age=120, s-maxage=300, stale-while-revalidate=600" }
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=120, s-maxage=300, stale-while-revalidate=600"
+        }
       ]
     },
     {
       "source": "/news_chat_index.json",
       "headers": [
-        { "key": "Cache-Control", "value": "public, max-age=60, s-maxage=180, stale-while-revalidate=300" }
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=60, s-maxage=180, stale-while-revalidate=300"
+        }
       ]
     },
     {
       "source": "/news_data_latest.js",
       "headers": [
-        { "key": "Cache-Control", "value": "public, max-age=60, s-maxage=120, stale-while-revalidate=300" }
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=60, s-maxage=120, stale-while-revalidate=300"
+        }
       ]
     },
     {
       "source": "/assets/(.*)",
       "headers": [
-        { "key": "Cache-Control", "value": "public, max-age=86400, stale-while-revalidate=604800" }
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=86400, stale-while-revalidate=604800"
+        }
       ]
     },
     {
       "source": "/(.*)\\.html",
       "headers": [
-        { "key": "Cache-Control", "value": "public, max-age=60, s-maxage=120, stale-while-revalidate=300" }
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=60, s-maxage=120, stale-while-revalidate=300"
+        }
       ]
     }
   ]

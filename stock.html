@@ -1,180 +1,418 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="zh-CN">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
-  <meta name="theme-color" content="#e60012">
-  <meta name="description" content="前沿科技日报 · 关联标的实时行情">
-  <title>实时行情 · 前沿科技日报</title>
-  <link rel="stylesheet" href="assets/theme.css?v=20260709b">
-  <script>
-    (function () {
-      try {
-        var s = localStorage.getItem('theme');
-        var d = s ? s === 'dark' : matchMedia('(prefers-color-scheme: dark)').matches;
-        document.documentElement.setAttribute('data-theme', d ? 'dark' : 'light');
-      } catch (e) {}
-    })();
-  </script>
-  <style>
-    .q-card { background: var(--surface); border-radius: var(--radius); box-shadow: var(--shadow); padding: 16px; margin: 12px; }
-    .q-hero { padding: 22px 18px; }
-    .q-name { font-size: 18px; font-weight: 700; color: var(--text); }
-    .q-sym { font-size: 12px; color: var(--text-3); margin-left: 6px; font-weight: 500; }
-    .q-mkt { font-size: 11px; color: var(--text-3); border: 1px solid var(--border); border-radius: 4px; padding: 1px 6px; margin-left: 8px; }
-    .q-price { font-size: 34px; font-weight: 800; margin: 10px 0 2px; letter-spacing: -.5px; }
-    .q-chg { font-size: 15px; font-weight: 700; }
-    .q-time { font-size: 12px; color: var(--text-3); margin-top: 8px; }
-    .up { color: var(--up); }
-    .down { color: var(--down); }
-    .q-row { display: flex; align-items: center; justify-content: space-between; padding: 13px 16px; border-top: 1px solid var(--border); cursor: pointer; }
-    .q-row:first-child { border-top: none; }
-    .q-row .l .nm { font-size: 15px; font-weight: 600; color: var(--text); }
-    .q-row .l .sy { font-size: 12px; color: var(--text-3); }
-    .q-row .r { text-align: right; }
-    .q-row .r .p { font-size: 15px; font-weight: 700; color: var(--text); }
-    .q-row .r .c { font-size: 12px; font-weight: 700; }
-    .note { font-size: 12px; color: var(--text-3); line-height: 1.6; margin: 6px 16px 4px; }
-    .rel-news { margin: 4px 12px; }
-    .rel-news a { display: block; font-size: 14px; color: var(--text-2); padding: 10px 4px; border-top: 1px solid var(--border); line-height: 1.5; }
-    .mkt-tabs { display: flex; gap: 8px; padding: 8px 12px 0; overflow-x: auto; }
-    .mkt-tab { font-size: 13px; padding: 6px 12px; border-radius: 16px; background: var(--surface-2); color: var(--text-2); cursor: pointer; white-space: nowrap; border: none; }
-    .mkt-tab.active { background: var(--brand-soft); color: var(--brand-ink); font-weight: 700; }
-    .load-more-q { margin: 8px 12px 16px; padding: 12px; text-align: center; background: var(--surface); color: var(--brand-ink); font-size: 14px; font-weight: 600; border-radius: var(--radius); box-shadow: var(--shadow); cursor: pointer; border: none; width: calc(100% - 24px); }
-  </style>
-</head>
-<body>
-  <header class="detail-head">
-    <div class="back" onclick="history.length > 1 ? history.back() : location.href='index.html'">←</div>
-    <div class="ht">实时行情</div>
-  </header>
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, viewport-fit=cover"
+    />
+    <meta name="theme-color" content="#e60012" />
+    <meta name="description" content="前沿科技日报 · 关联标的实时行情" />
+    <title>实时行情 · 前沿科技日报</title>
+    <link rel="stylesheet" href="assets/theme.css?v=20260905c" />
+    <script>
+      (function () {
+        try {
+          var s = localStorage.getItem("theme");
+          var d = s
+            ? s === "dark"
+            : matchMedia("(prefers-color-scheme: dark)").matches;
+          document.documentElement.setAttribute(
+            "data-theme",
+            d ? "dark" : "light",
+          );
+        } catch (e) {}
+      })();
+    </script>
+    <style>
+      .q-card {
+        background: var(--surface);
+        border-radius: var(--radius);
+        box-shadow: var(--shadow);
+        padding: 16px;
+        margin: 12px;
+      }
+      .q-hero {
+        padding: 22px 18px;
+      }
+      .q-name {
+        font-size: 18px;
+        font-weight: 700;
+        color: var(--text);
+      }
+      .q-sym {
+        font-size: 12px;
+        color: var(--text-3);
+        margin-left: 6px;
+        font-weight: 500;
+      }
+      .q-mkt {
+        font-size: 11px;
+        color: var(--text-3);
+        border: 1px solid var(--border);
+        border-radius: 4px;
+        padding: 1px 6px;
+        margin-left: 8px;
+      }
+      .q-price {
+        font-size: 34px;
+        font-weight: 800;
+        margin: 10px 0 2px;
+        letter-spacing: -0.5px;
+      }
+      .q-chg {
+        font-size: 15px;
+        font-weight: 700;
+      }
+      .q-time {
+        font-size: 12px;
+        color: var(--text-3);
+        margin-top: 8px;
+      }
+      .up {
+        color: var(--up);
+      }
+      .down {
+        color: var(--down);
+      }
+      .q-row {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 13px 16px;
+        border-top: 1px solid var(--border);
+        cursor: pointer;
+      }
+      .q-row:first-child {
+        border-top: none;
+      }
+      .q-row .l .nm {
+        font-size: 15px;
+        font-weight: 600;
+        color: var(--text);
+      }
+      .q-row .l .sy {
+        font-size: 12px;
+        color: var(--text-3);
+      }
+      .q-row .r {
+        text-align: right;
+      }
+      .q-row .r .p {
+        font-size: 15px;
+        font-weight: 700;
+        color: var(--text);
+      }
+      .q-row .r .c {
+        font-size: 12px;
+        font-weight: 700;
+      }
+      .note {
+        font-size: 12px;
+        color: var(--text-3);
+        line-height: 1.6;
+        margin: 6px 16px 4px;
+      }
+      .rel-news {
+        margin: 4px 12px;
+      }
+      .rel-news a {
+        display: block;
+        font-size: 14px;
+        color: var(--text-2);
+        padding: 10px 4px;
+        border-top: 1px solid var(--border);
+        line-height: 1.5;
+      }
+      .mkt-tabs {
+        display: flex;
+        gap: 8px;
+        padding: 8px 12px 0;
+        overflow-x: auto;
+      }
+      .mkt-tab {
+        font-size: 13px;
+        padding: 6px 12px;
+        border-radius: 16px;
+        background: var(--surface-2);
+        color: var(--text-2);
+        cursor: pointer;
+        white-space: nowrap;
+        border: none;
+      }
+      .mkt-tab.active {
+        background: var(--brand-soft);
+        color: var(--brand-ink);
+        font-weight: 700;
+      }
+      .load-more-q {
+        margin: 8px 12px 16px;
+        padding: 12px;
+        text-align: center;
+        background: var(--surface);
+        color: var(--brand-ink);
+        font-size: 14px;
+        font-weight: 600;
+        border-radius: var(--radius);
+        box-shadow: var(--shadow);
+        cursor: pointer;
+        border: none;
+        width: calc(100% - 24px);
+      }
+    </style>
+  </head>
+  <body>
+    <header class="detail-head">
+      <button
+        class="icon-btn"
+        aria-label="返回"
+        onclick="
+          history.length > 1 ? history.back() : (location.href = 'index.html')
+        "
+      >
+        <span
+          class="ui-icon"
+          style="--icon: url(/assets/icons/arrow-left.svg)"
+        ></span>
+      </button>
+      <div class="ht">实时行情</div>
+    </header>
 
-  <main class="wrap" id="main"><div class="empty">加载中…</div></main>
+    <main class="wrap" id="main"><div class="empty">加载中…</div></main>
 
-  <nav class="tabbar">
-    <a class="tabbar-btn" href="index.html"><span class="ti">📰</span><span>首页</span></a>
-    <a class="tabbar-btn active" href="stock.html"><span class="ti">📈</span><span>行情</span></a>
-    <a class="tabbar-btn" href="index.html?chat=1"><span class="ti">💬</span><span>问AI</span></a>
-  </nav>
+    <nav class="tabbar">
+      <a class="tabbar-btn" href="index.html"
+        ><span
+          class="ui-icon"
+          style="--icon: url(/assets/icons/newspaper.svg)"
+        ></span
+        ><span>首页</span></a
+      >
+      <a class="tabbar-btn active" href="stock.html"
+        ><span
+          class="ui-icon"
+          style="--icon: url(/assets/icons/chart-no-axes-combined.svg)"
+        ></span
+        ><span>行情</span></a
+      >
+      <a class="tabbar-btn" href="index.html?chat=1"
+        ><span
+          class="ui-icon"
+          style="--icon: url(/assets/icons/message-circle.svg)"
+        ></span
+        ><span>问AI</span></a
+      >
+    </nav>
 
-  <script src="assets/app.js?v=20260709b"></script>
-  <script>
-    var A = window.AID;
+    <script src="assets/app.js?v=20260905c"></script>
+    <script>
+      var A = window.AID;
+      var selectedMarket = "ALL";
 
-    function chgCls(v) { return v >= 0 ? 'up' : 'down'; }
-    function chgStr(v) { return (v >= 0 ? '+' : '') + v.toFixed(2) + '%'; }
-    function priceStr(q) { return q.currency + q.price; }
-
-    async function getQuotes(symbols) {
-      if (!symbols.length) return { quotes: [], note: '' };
-      try {
-        var r = await fetch('/api/quote?symbol=' + encodeURIComponent(symbols.join(',')));
-        if (!r.ok) return { quotes: [], note: '', error: 'HTTP ' + r.status };
-        return await r.json();
-      } catch (e) { return { quotes: [], note: '', error: String(e) }; }
-    }
-
-    function heroCard(q) {
-      var c = chgCls(q.changePercent);
-      return '<div class="q-card q-hero">' +
-        '<div><span class="q-name">' + A.esc(q.name) + '</span><span class="q-sym">' + A.esc(q.symbol) + '</span>' +
-        '<span class="q-mkt">' + q.market + '</span></div>' +
-        '<div class="q-price ' + c + '">' + A.esc(priceStr(q)) + '</div>' +
-        '<div class="q-chg ' + c + '">' + chgStr(q.changePercent) + '</div>' +
-        '<div class="q-time">' + A.esc(q.time || '') + '</div></div>';
-    }
-
-    function listRows(quotes) {
-      var sorted = quotes.slice().sort(function (a, b) {
-        return Math.abs(b.changePercent) - Math.abs(a.changePercent);
-      });
-      var h = '<div class="q-card" style="padding:0" id="quoteList">';
-      sorted.forEach(function (q) {
-        var c = chgCls(q.changePercent);
-        h += '<div class="q-row" data-mkt="' + q.market + '" onclick="location.href=\'stock.html?symbol=' + encodeURIComponent(q.symbol) + '\'">' +
-          '<div class="l"><div class="nm">' + A.esc(q.name) + '</div><div class="sy">' + A.esc(q.symbol) + ' · ' + q.market + '</div></div>' +
-          '<div class="r"><div class="p">' + A.esc(priceStr(q)) + '</div><div class="c ' + c + '">' + chgStr(q.changePercent) + '</div></div>' +
-          '</div>';
-      });
-      return h + '</div>';
-    }
-
-    function noteHTML(d) {
-      return '<div class="note">' + (d.error ? '行情服务暂不可用(' + A.esc(d.error) + ')<br>' : '') +
-        A.esc(d.note || 'A股/港股盘中接近实时,美股约延迟15分钟 · 来源:新浪财经') + '</div>';
-    }
-
-    function relatedNews(symbol, news) {
-      var hit = (news || []).filter(function (n) {
-        return A.strongStocks(n).some(function (s) { return s.ticker === symbol; });
-      });
-      if (!hit.length) return '';
-      var h = '<div class="section-title"><span class="bar"></span>相关资讯</div><div class="rel-news">';
-      hit.slice(0, 12).forEach(function (n) { h += '<a href="detail.html?id=' + encodeURIComponent(n.id) + '">' + A.esc(n.title) + '</a>'; });
-      return h + '</div>';
-    }
-
-    function filterMarket(mkt) {
-      document.querySelectorAll('.mkt-tab').forEach(function (t) {
-        t.classList.toggle('active', t.getAttribute('data-mkt') === mkt);
-      });
-      document.querySelectorAll('#quoteList .q-row').forEach(function (row) {
-        row.style.display = (mkt === 'ALL' || row.getAttribute('data-mkt') === mkt) ? '' : 'none';
-      });
-    }
-
-    (function () {
-      var main = document.getElementById('main');
-      var symbol = A.getParam('symbol');
-      var BATCH = 30;
-      var allSyms = [];
-      var loadedQuotes = [];
-      var newsCache = [];
-      var cursor = 0;
-
-      async function loadMoreQuotes() {
-        var chunk = allSyms.slice(cursor, cursor + BATCH);
-        if (!chunk.length) return;
-        cursor += chunk.length;
-        var d = await getQuotes(chunk);
-        loadedQuotes = loadedQuotes.concat(d.quotes || []);
-        var tabs = '<div class="mkt-tabs">' +
-          '<button class="mkt-tab active" data-mkt="ALL" onclick="filterMarket(\'ALL\')">全部</button>' +
-          '<button class="mkt-tab" data-mkt="US" onclick="filterMarket(\'US\')">美股</button>' +
-          '<button class="mkt-tab" data-mkt="HK" onclick="filterMarket(\'HK\')">港股</button>' +
-          '<button class="mkt-tab" data-mkt="CN" onclick="filterMarket(\'CN\')">A股</button></div>';
-        var more = cursor < allSyms.length
-          ? '<button class="load-more-q" id="moreQuotes">加载更多标的(' + (allSyms.length - cursor) + ')</button>'
-          : '';
-        main.innerHTML = '<div class="section-title"><span class="bar"></span>资讯关联标的 · 按涨跌幅排序</div>' +
-          tabs +
-          (loadedQuotes.length ? listRows(loadedQuotes) : '<div class="empty">行情加载失败</div>') +
-          more + noteHTML(d);
-        var btn = document.getElementById('moreQuotes');
-        if (btn) btn.onclick = loadMoreQuotes;
-        window.filterMarket = filterMarket;
+      function chgCls(v) {
+        return v >= 0 ? "up" : "down";
+      }
+      function chgStr(v) {
+        return (v >= 0 ? "+" : "") + v.toFixed(2) + "%";
+      }
+      function priceStr(q) {
+        return q.currency + q.price;
       }
 
-      A.loadNews([], async function (news) {
-        newsCache = news || [];
-        if (symbol) {
-          var d = await getQuotes([symbol]);
-          var q = (d.quotes || [])[0];
-          main.innerHTML = (q ? heroCard(q) : '<div class="empty">未找到 ' + A.esc(symbol) + ' 的行情</div>') +
-            noteHTML(d) + relatedNews(symbol, newsCache);
-        } else {
-          var seen = {};
-          allSyms = [];
-          newsCache.forEach(function (n) {
-            A.strongStocks(n).forEach(function (s) {
-              if (s.ticker && !seen[s.ticker]) { seen[s.ticker] = 1; allSyms.push(s.ticker); }
-            });
-          });
-          if (!allSyms.length) { main.innerHTML = '<div class="empty">资讯暂无关联标的</div>'; return; }
-          await loadMoreQuotes();
+      async function getQuotes(symbols) {
+        if (!symbols.length) return { quotes: [], note: "" };
+        try {
+          var r = await fetch(
+            "/api/quote?symbol=" + encodeURIComponent(symbols.join(",")),
+          );
+          if (!r.ok) return { quotes: [], note: "", error: "HTTP " + r.status };
+          return await r.json();
+        } catch (e) {
+          return { quotes: [], note: "", error: String(e) };
         }
-      });
-    })();
-  </script>
-</body>
+      }
+
+      function heroCard(q) {
+        var c = chgCls(q.changePercent);
+        return (
+          '<div class="q-card q-hero">' +
+          '<div><span class="q-name">' +
+          A.esc(q.name) +
+          '</span><span class="q-sym">' +
+          A.esc(q.symbol) +
+          "</span>" +
+          '<span class="q-mkt">' +
+          q.market +
+          "</span></div>" +
+          '<div class="q-price ' +
+          c +
+          '">' +
+          A.esc(priceStr(q)) +
+          "</div>" +
+          '<div class="q-chg ' +
+          c +
+          '">' +
+          chgStr(q.changePercent) +
+          "</div>" +
+          '<div class="q-time">' +
+          A.esc(q.time || "") +
+          "</div></div>"
+        );
+      }
+
+      function listRows(quotes) {
+        var sorted = quotes.slice().sort(function (a, b) {
+          return Math.abs(b.changePercent) - Math.abs(a.changePercent);
+        });
+        var h = '<div class="q-card" style="padding:0" id="quoteList">';
+        sorted.forEach(function (q) {
+          var c = chgCls(q.changePercent);
+          h +=
+            '<div class="q-row" data-mkt="' +
+            q.market +
+            '" onclick="location.href=\'stock.html?symbol=' +
+            encodeURIComponent(q.symbol) +
+            "'\">" +
+            '<div class="l"><div class="nm">' +
+            A.esc(q.name) +
+            '</div><div class="sy">' +
+            A.esc(q.symbol) +
+            " · " +
+            q.market +
+            "</div></div>" +
+            '<div class="r"><div class="p">' +
+            A.esc(priceStr(q)) +
+            '</div><div class="c ' +
+            c +
+            '">' +
+            chgStr(q.changePercent) +
+            "</div></div>" +
+            "</div>";
+        });
+        return h + "</div>";
+      }
+
+      function noteHTML(d) {
+        return (
+          '<div class="note">' +
+          (d.error ? "行情服务暂不可用(" + A.esc(d.error) + ")<br>" : "") +
+          A.esc(
+            d.note || "A股/港股盘中接近实时,美股约延迟15分钟 · 来源:新浪财经",
+          ) +
+          "</div>"
+        );
+      }
+
+      function relatedNews(symbol, news) {
+        var hit = (news || []).filter(function (n) {
+          return A.strongStocks(n).some(function (s) {
+            return s.ticker === symbol;
+          });
+        });
+        if (!hit.length) return "";
+        var h =
+          '<div class="section-title"><span class="bar"></span>相关资讯</div><div class="rel-news">';
+        hit.slice(0, 12).forEach(function (n) {
+          h +=
+            '<a href="detail.html?id=' +
+            encodeURIComponent(n.id) +
+            '">' +
+            A.esc(n.title) +
+            "</a>";
+        });
+        return h + "</div>";
+      }
+
+      function filterMarket(mkt) {
+        selectedMarket = mkt;
+        document.querySelectorAll(".mkt-tab").forEach(function (t) {
+          t.classList.toggle("active", t.getAttribute("data-mkt") === mkt);
+        });
+        document.querySelectorAll("#quoteList .q-row").forEach(function (row) {
+          row.style.display =
+            mkt === "ALL" || row.getAttribute("data-mkt") === mkt ? "" : "none";
+        });
+      }
+
+      (function () {
+        var main = document.getElementById("main");
+        var symbol = A.getParam("symbol");
+        var BATCH = 30;
+        var allSyms = [];
+        var loadedQuotes = [];
+        var newsCache = [];
+        var cursor = 0;
+        var loadingQuotes = false;
+
+        async function loadMoreQuotes() {
+          if (loadingQuotes) return;
+          var chunk = allSyms.slice(cursor, cursor + BATCH);
+          if (!chunk.length) return;
+          loadingQuotes = true;
+          var previousButton = document.getElementById("moreQuotes");
+          if (previousButton) {
+            previousButton.disabled = true;
+            previousButton.textContent = "加载中…";
+          }
+          var d = await getQuotes(chunk);
+          loadingQuotes = false;
+          if (!d.error) cursor += chunk.length;
+          loadedQuotes = loadedQuotes.concat(d.quotes || []);
+          var tabs =
+            '<div class="mkt-tabs">' +
+            '<button class="mkt-tab active" data-mkt="ALL" onclick="filterMarket(\'ALL\')">全部</button>' +
+            '<button class="mkt-tab" data-mkt="US" onclick="filterMarket(\'US\')">美股</button>' +
+            '<button class="mkt-tab" data-mkt="HK" onclick="filterMarket(\'HK\')">港股</button>' +
+            '<button class="mkt-tab" data-mkt="CN" onclick="filterMarket(\'CN\')">A股</button></div>';
+          var more =
+            cursor < allSyms.length
+              ? '<button class="load-more-q" id="moreQuotes">加载更多标的(' +
+                (allSyms.length - cursor) +
+                ")</button>"
+              : "";
+          main.innerHTML =
+            '<div class="section-title"><span class="bar"></span>资讯关联标的 · 按涨跌幅排序</div>' +
+            tabs +
+            (loadedQuotes.length
+              ? listRows(loadedQuotes)
+              : '<div class="empty">行情加载失败</div>') +
+            more +
+            noteHTML(d);
+          var btn = document.getElementById("moreQuotes");
+          if (btn) btn.onclick = loadMoreQuotes;
+          window.filterMarket = filterMarket;
+          filterMarket(selectedMarket);
+        }
+
+        A.loadNews([], async function (news) {
+          newsCache = news || [];
+          if (symbol) {
+            var d = await getQuotes([symbol]);
+            var q = (d.quotes || [])[0];
+            main.innerHTML =
+              (q
+                ? heroCard(q)
+                : '<div class="empty">未找到 ' +
+                  A.esc(symbol) +
+                  " 的行情</div>") +
+              noteHTML(d) +
+              relatedNews(symbol, newsCache);
+          } else {
+            try {
+              allSyms = (await A.request({ symbols: 1 })).symbols;
+            } catch (e) {
+              main.innerHTML =
+                '<div class="empty">标的暂时无法加载，请刷新重试。</div>';
+              return;
+            }
+            if (!allSyms.length) {
+              main.innerHTML = '<div class="empty">资讯暂无关联标的</div>';
+              return;
+            }
+            await loadMoreQuotes();
+          }
+        });
+      })();
+    </script>
+  </body>
 </html>

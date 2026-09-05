@@ -17,7 +17,8 @@ from urllib.parse import urlsplit, urlunsplit, parse_qsl, urlencode
 from datetime import datetime, timezone
 from concurrent.futures import ThreadPoolExecutor
 
-from fetch_rss import fetch_all  # RSS 抓取(免费、无配额,英文国际源)
+from fetch_rss import fetch_all, LAST_SOURCE_STATUS
+from news_export import export_news, write_json, read_json, write_status
 
 KEEP = int(os.environ.get('AID_KEEP', 2000))  # 每个板块的累计上限(到顶才淘汰该板块最旧;可环境变量覆盖)
 CAP = int(os.environ.get('AID_CAP', 50))       # 单次最多富化多少条新条目(封顶模型成本;可覆盖)
@@ -28,6 +29,8 @@ MIN_SOURCE_CHARS = 80                          # 原始材料太少时先补抓,
 MIN_SUMMARY_CHARS = 20
 MIN_BODY_CHARS = 50
 CJK_RE = re.compile(r'[\u4e00-\u9fff]')
+RETRY_FILE = 'retry_queue.json'
+MAX_ATTEMPTS = 5
 LIST_KEYS = ('id', 'title', 'summary', 'category', 'tags', 'source', 'time', 'ts', 'url', 'image', 'stocks')
 
 
@@ -158,7 +161,7 @@ def fetch_article_text(url):
     if not url:
         return ''
     try:
-        reader_url = 'https://r.jina.ai/http://' + str(url)
+        reader_url = 'https://r.jina.ai/' + str(url)
         req = urllib.request.Request(reader_url, headers={"User-Agent": "Mozilla/5.0"})
         with urllib.request.urlopen(req, timeout=18) as r:
             return compact_text(r.read(120000).decode('utf-8', 'replace'), 3200)
@@ -196,6 +199,8 @@ def is_usable_chinese_item(item):
     summary = str(item.get('summary', '')).strip()
     body = str(item.get('body', '')).strip()
     if not title or not summary or not body:
+        return False
+    if len(CJK_RE.findall(title)) < 2:
         return False
     if len(summary) < MIN_SUMMARY_CHARS or len(body) < MIN_BODY_CHARS:
         return False
@@ -327,7 +332,7 @@ def enrich_one(n):
     material = source_material(n)
     if len(material) < MIN_SOURCE_CHARS:
         print(f"  ⚠️ 原始材料不足,跳过「{n.get('title','')[:40]}」")
-        return None
+        raise ValueError('insufficient source material')
 
     prompt = f"""请把下面这条新闻材料整理成规范中文(若原文是英文则翻译),只输出如下 JSON:
 {{
@@ -385,11 +390,33 @@ def enrich_one(n):
         }
         if not is_usable_chinese_item(item):
             print(f"  ⚠️ 富化结果不合格,跳过「{n.get('title','')[:40]}」")
-            return None
+            raise ValueError('Chinese content quality check failed')
         return item
     except Exception as e:
         print(f"  ⚠️ 富化失败,跳过「{n.get('title','')[:30]}」: {e}")
-        return None
+        raise
+
+
+def process_one(n):
+    try:
+        item = enrich_one(n)
+        return {'status': 'success' if item else 'excluded', 'item': item}
+    except Exception as exc:
+        return {'status': 'retry', 'error': type(exc).__name__}
+
+
+def update_retry(queue, raw, outcome):
+    url = canonical_url(raw['url'])
+    if outcome['status'] != 'retry':
+        queue.pop(url, None)
+        return
+    attempts = queue.get(url, {}).get('attempts', 0) + 1
+    queue[url] = {
+        'item': {k: raw.get(k, '') for k in ('title', 'summary', 'content', 'url', 'source', 'image', '_ts', 'category', 'time')},
+        'attempts': attempts, 'error': outcome['error'],
+        'nextAttemptAt': time.time() + min(21600, 600 * 2 ** (attempts - 1)),
+        'exhausted': attempts >= MAX_ATTEMPTS,
+    }
 
 
 def make_digest(items):
@@ -468,7 +495,7 @@ def read_seen(existing):
 
 
 def write_seen(seen):
-    json.dump(seen[-SEEN_MAX:], open(SEEN_FILE, 'w', encoding='utf-8'), ensure_ascii=False)
+    write_json(SEEN_FILE, list(dict.fromkeys(seen))[-SEEN_MAX:])
 
 
 def _parse_ts(t):
@@ -548,33 +575,62 @@ def write_data(items, digest):
         })
     with open('news_chat_index.json', 'w', encoding='utf-8') as f:
         json.dump(chat_idx, f, ensure_ascii=False, separators=(',', ':'))
+    export_news(items, lite, digest)
 
 
 def main():
     loaded_existing = read_existing()
-    existing = [n for n in loaded_existing if is_usable_chinese_item(n)]
-    if len(existing) != len(loaded_existing):
-        print(f"清理历史低质量条目:{len(loaded_existing) - len(existing)} 条")
+    # Keep existing articles available while their translations are repaired.
+    existing = loaded_existing
+    queue = read_json(RETRY_FILE, {})
+    for n in existing:
+        if not is_usable_chinese_item(n) and canonical_url(n.get('url')) not in queue:
+            queue[canonical_url(n['url'])] = {
+                'item': {**n, 'content': n.get('body', ''), '_ts': n.get('ts', '')},
+                'attempts': 0, 'nextAttemptAt': 0, 'exhausted': False,
+            }
     seen_list = read_seen(existing)
     seen = set(seen_list)
     seen.update(canonical_url(n.get('url')) for n in existing if n.get('url'))
     print(f"已有 {len(existing)} 条,已见 URL {len(seen)} 个,开始抓取 RSS...")
 
     raw = fetch_all()
-    new = [n for n in raw if n.get('url') and canonical_url(n['url']) not in seen]
+    due = [entry['item'] for entry in queue.values()
+           if not entry.get('exhausted') and entry.get('nextAttemptAt', 0) <= time.time()]
+    new = due + [n for n in raw if n.get('url') and canonical_url(n['url']) not in seen
+                 and canonical_url(n['url']) not in queue]
+    new = list({canonical_url(n['url']): n for n in new}.values())
     print(f"\n去重后新条目:{len(new)} 条")
     if not new:
+        write_json(RETRY_FILE, queue)
+        write_status(total=len(existing), latest=existing[0].get('ts') if existing else None,
+                     pending=sum(not e.get('exhausted') for e in queue.values()),
+                     exhausted=sum(bool(e.get('exhausted')) for e in queue.values()), sources=LAST_SOURCE_STATUS)
         print("无新条目,数据文件保持不变(不会触发提交/部署)")
         return
 
     new = new[:CAP]
     print(f"开始 {ENRICH_PROVIDER} 富化 {len(new)} 条新条目(并发,单次封顶 {CAP})...")
     with ThreadPoolExecutor(max_workers=6) as ex:   # 并发调用,避免顺序累加拖很久
-        enriched_new = [n for n in ex.map(enrich_one, new) if n]
+        outcomes = list(ex.map(process_one, new))
+    enriched_new = [out['item'] for out in outcomes if out['status'] == 'success']
+    processed = []
+    for raw_item, outcome in zip(new, outcomes):
+        update_retry(queue, raw_item, outcome)
+        if outcome['status'] != 'retry':
+            processed.append(canonical_url(raw_item['url']))
+    write_json(RETRY_FILE, queue)
+    repaired = {canonical_url(n['url']) for n in enriched_new}
+    added = sum(canonical_url(n['url']) not in seen for n in enriched_new)
+    if repaired:
+        existing = [n for n in existing if canonical_url(n.get('url')) not in repaired]
     if not enriched_new:
         # 避免无关或不合格条目在每次轮询中反复消耗模型。
-        write_seen(seen_list + [canonical_url(n['url']) for n in new])
-        print("本次没有通过富化质量门禁的新条目,已记录为处理过")
+        write_seen(seen_list + processed)
+        write_status(total=len(existing), latest=existing[0].get('ts') if existing else None,
+                     pending=sum(not e.get('exhausted') for e in queue.values()),
+                     exhausted=sum(bool(e.get('exhausted')) for e in queue.values()), sources=LAST_SOURCE_STATUS)
+        print("本次无新增;暂时失败的条目保留在重试队列")
         return
 
     # 累计:新条目并入历史,按真实时间倒序(最新在上)
@@ -602,7 +658,10 @@ def main():
     write_data(merged, digest)
 
     # 记录本次处理过的 URL,避免它们滚出窗口后被重复富化
-    write_seen(seen_list + [canonical_url(n['url']) for n in new])
+    write_seen(seen_list + processed)
+    write_status(added=added, total=len(merged), latest=merged[0].get('ts') if merged else None,
+                 pending=sum(not e.get('exhausted') for e in queue.values()),
+                 exhausted=sum(bool(e.get('exhausted')) for e in queue.values()), sources=LAST_SOURCE_STATUS)
 
     print(f"\n✅ 已写入:新增 {len(enriched_new)} 条,全量 {len(merged)} 条,前端列表已拆分,已见 URL {len(seen_list)+len(new)} 个")
 

@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Run the AI Daily enrichment locally through the sexreba Hermes Grok proxy."""
+"""Run and publish AI Daily through the local Qwen service."""
 
 import fcntl
 import json
@@ -37,6 +37,8 @@ DATA_FILES = [
     "news_bodies.json",
     "news_chat_index.json",
     "seen_urls.json",
+    "retry_queue.json",
+    "data",
 ]
 
 
@@ -59,14 +61,14 @@ def ensure_repo():
         run(["/usr/bin/git", "clone", REPO_URL, str(REPO_DIR)])
     status = subprocess.check_output(
         ["/usr/bin/git", "status", "--porcelain"], cwd=REPO_DIR, text=True
-    ).strip()
+    )
     if status:
         paths = {line[3:] for line in status.splitlines() if len(line) > 3}
-        unknown = paths.difference(DATA_FILES)
+        unknown = {p for p in paths if p not in DATA_FILES and not p.startswith('data/')}
         if unknown:
             raise RuntimeError(f"runner repository has unknown changes: {sorted(unknown)}")
-        log("discarding_incomplete_data_files", files=sorted(paths))
-        run(["/usr/bin/git", "restore", "--", *paths], cwd=REPO_DIR)
+        log("recovering_pending_data_files", files=sorted(paths))
+        push_changes()
     # GitHub 网络异常不应阻塞本机抓取；本地提交保留，下一轮再同步。
     try:
         run(["/usr/bin/git", "fetch", "origin", "main", "--quiet"], cwd=REPO_DIR, timeout=30)
@@ -120,10 +122,9 @@ def frontend_count():
 
 
 def push_changes():
-    diff = subprocess.run(
-        ["/usr/bin/git", "diff", "--quiet", "--", *DATA_FILES], cwd=REPO_DIR
-    )
-    if diff.returncode == 0:
+    changes = subprocess.check_output(
+        ["/usr/bin/git", "status", "--porcelain", "--", *DATA_FILES], cwd=REPO_DIR, text=True)
+    if not changes.strip():
         log("no_data_changes")
         return
     count = frontend_count()
@@ -156,10 +157,15 @@ def main():
             return 0
 
         ensure_repo()
+        sys.path.insert(0, str(REPO_DIR))
+        from news_export import write_status
         # 使用本机常驻模型(LaunchAgent ai.local-mlx.qwen36.server),
         # 不再按轮拉起 Hermes 的 xai proxy——本机服务一直在,少一个进程生命周期要管。
         if not local_api_ready():
             log("local_api_unavailable", url=LOCAL_API_BASE)
+            os.chdir(REPO_DIR)
+            write_status(error='model_unavailable')
+            push_changes()
             return 1
         env = os.environ.copy()
         env.update({
@@ -170,7 +176,13 @@ def main():
             "PYTHONUNBUFFERED": "1",
         })
         log("enrichment_started", provider="local", model=LOCAL_MODEL_LABEL)
-        run([sys.executable, "enrich_news.py"], cwd=REPO_DIR, env=env)
+        try:
+            run([sys.executable, "enrich_news.py"], cwd=REPO_DIR, env=env, timeout=540)
+        except (subprocess.TimeoutExpired, subprocess.CalledProcessError):
+            os.chdir(REPO_DIR)
+            write_status(error='update_failed')
+            push_changes()
+            return 1
         push_changes()
         return 0
 

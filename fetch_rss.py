@@ -46,6 +46,7 @@ PER_FEED = 15        # 每个源最多取多少条
 AIHOT_TAKE = 30      # AIHOT 精选条目取数
 UA = "Mozilla/5.0 (compatible; ai-daily-bot/1.0; +https://ai-daily-v3.vercel.app)"
 TAG_RE = re.compile(r"<[^>]+>")
+LAST_SOURCE_STATUS = []
 
 
 def clean_text(s, limit=240):
@@ -134,7 +135,11 @@ def find_image(e, *html_texts):
 def fetch_feed(source, url, default_cat):
     req = urllib.request.Request(url, headers={"User-Agent": UA, "Accept": "application/rss+xml, application/atom+xml, */*"})
     with urllib.request.urlopen(req, timeout=30) as r:
-        root = ET.fromstring(r.read())
+        xml = r.read().decode('utf-8', 'replace')
+        # Some feeds contain bare ampersands or XML 1.0 control characters.
+        xml = re.sub(r'[\x00-\x08\x0b\x0c\x0e-\x1f]', '', xml)
+        xml = re.sub(r'&(?!amp;|lt;|gt;|quot;|apos;|#\d+;|#x[\da-fA-F]+;)', '&amp;', xml)
+        root = ET.fromstring(xml)
 
     items = []
     # RSS 2.0: channel/item ; Atom: entry
@@ -210,13 +215,16 @@ def fetch_aihot_items(take=AIHOT_TAKE):
 
 
 def fetch_all():
+    LAST_SOURCE_STATUS.clear()
     per_feed = []
     try:
         got = fetch_aihot_items()
         got.sort(key=lambda x: x.get("_ts", ""), reverse=True)
         print(f"  ✅ AIHOT精选: {len(got)} 条")
         per_feed.append(got)
+        LAST_SOURCE_STATUS.append({'source': 'AIHOT精选', 'ok': True, 'count': len(got)})
     except Exception as e:
+        LAST_SOURCE_STATUS.append({'source': 'AIHOT精选', 'ok': False, 'error': type(e).__name__})
         print(f"  ⚠️ AIHOT精选 抓取失败: {e}")
 
     for source, url, cat in FEEDS:
@@ -225,7 +233,9 @@ def fetch_all():
             got.sort(key=lambda x: x.get("_ts", ""), reverse=True)  # 各源内部按新→旧
             print(f"  ✅ {source}: {len(got)} 条")
             per_feed.append(got)
+            LAST_SOURCE_STATUS.append({'source': source, 'ok': True, 'count': len(got)})
         except Exception as e:
+            LAST_SOURCE_STATUS.append({'source': source, 'ok': False, 'error': type(e).__name__})
             print(f"  ⚠️ {source} 抓取失败: {e}")
     # 各源轮流取(round-robin),避免高频源刷屏,首页来源更均衡
     all_items = []

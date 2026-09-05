@@ -1,282 +1,154 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="zh-CN">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
-  <meta name="theme-color" content="#e60012">
-  <meta name="description" content="AI 驱动的中文科技日报：人工智能、半导体、商业航天、机器人等前沿资讯，附关联标的与实时行情。">
-  <meta property="og:title" content="前沿科技日报">
-  <meta property="og:description" content="AI 驱动的中文科技日报，约每 10 分钟更新。">
-  <meta property="og:type" content="website">
-  <meta property="og:url" content="https://ai-daily-v3.vercel.app/">
-  <meta name="twitter:card" content="summary">
-  <title>前沿科技日报</title>
-  <link rel="stylesheet" href="assets/theme.css?v=20260709b">
-  <script>
-    (function () {
-      try {
-        var s = localStorage.getItem('theme');
-        var d = s ? s === 'dark' : matchMedia('(prefers-color-scheme: dark)').matches;
-        document.documentElement.setAttribute('data-theme', d ? 'dark' : 'light');
-      } catch (e) {}
-    })();
-  </script>
-</head>
-<body>
-  <header class="topbar">
-    <div class="topbar-main">
-      <div class="logo"><span class="mark">前沿</span><span class="name">科技日报</span></div>
-      <div class="topbar-actions">
-        <button class="icon-btn" id="searchBtn" aria-label="搜索">🔍</button>
-        <button class="icon-btn" id="themeBtn" aria-label="切换主题">🌓</button>
-      </div>
-    </div>
-    <div class="search-bar" id="searchBar" hidden>
-      <input id="searchInput" type="search" placeholder="搜索标题、摘要、标的…" autocomplete="off" enterkeyhint="search">
-      <button type="button" id="searchClear" aria-label="关闭搜索">×</button>
-    </div>
-    <nav class="tabs" id="tabs"></nav>
-  </header>
-
-  <main class="wrap" id="main">
-    <div class="skeleton" id="skeleton">
-      <div class="hero" style="cursor:default"><div class="cover sk" style="height:200px;border-radius:0"></div></div>
-      <div class="feed">
-        <div class="item" style="cursor:default">
-          <div class="item-body"><div class="sk sk-line" style="width:90%"></div><div class="sk sk-line" style="width:70%"></div><div class="sk sk-line" style="width:40%;margin-top:14px"></div></div>
-          <div class="cover sk" style="width:112px;height:84px"></div>
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, viewport-fit=cover"
+    />
+    <meta name="theme-color" content="#e60012" />
+    <meta
+      name="description"
+      content="前沿科技日报：人工智能、半导体、机器人与科学进展，中文摘要、原文来源和 AI 问答。"
+    />
+    <meta property="og:title" content="前沿科技日报" />
+    <meta property="og:type" content="website" />
+    <title>前沿科技日报</title>
+    <link rel="stylesheet" href="/assets/theme.css?v=20260905c" />
+    <script src="/assets/vendor/marked.js" defer></script>
+    <script src="/assets/vendor/purify.js" defer></script>
+    <script src="/assets/app.js?v=20260905c" defer></script>
+    <script src="/assets/home.js?v=20260905c" defer></script>
+  </head>
+  <body>
+    <header class="topbar">
+      <div class="topbar-main">
+        <a class="logo" href="/"
+          ><span class="mark">前沿</span><span>科技日报</span></a
+        >
+        <div class="topbar-actions">
+          <button
+            class="icon-btn"
+            id="searchBtn"
+            title="搜索"
+            aria-label="搜索"
+          >
+            <span
+              class="ui-icon"
+              style="--icon: url(/assets/icons/search.svg)"
+            ></span></button
+          ><button
+            class="icon-btn"
+            id="themeBtn"
+            title="切换主题"
+            aria-label="切换主题"
+          >
+            <span
+              class="ui-icon"
+              style="--icon: url(/assets/icons/sun-moon.svg)"
+            ></span>
+          </button>
         </div>
-        <div class="item" style="cursor:default">
-          <div class="item-body"><div class="sk sk-line" style="width:85%"></div><div class="sk sk-line" style="width:60%"></div><div class="sk sk-line" style="width:40%;margin-top:14px"></div></div>
-          <div class="cover sk" style="width:112px;height:84px"></div>
-        </div>
       </div>
-    </div>
-    <div id="view"></div>
-  </main>
-
-  <nav class="tabbar">
-    <a class="tabbar-btn active" href="index.html"><span class="ti">📰</span><span>首页</span></a>
-    <a class="tabbar-btn" href="stock.html"><span class="ti">📈</span><span>行情</span></a>
-    <div class="tabbar-btn" id="chatBtn"><span class="ti">💬</span><span>问AI</span></div>
-  </nav>
-
-  <script src="assets/app.js?v=20260709b"></script>
-  <script>
-    var FALLBACK_NEWS = [
-      { id: 1, title: "出口管制重塑全球芯片供应链", summary: "关键技术和先进制程设备成为地缘科技竞争焦点，企业供应链布局面临调整。", category: "地缘科技", tags: ["出口管制"], source: "示例资讯", time: "2小时前", url: "#", stocks: [] },
-      { id: 2, title: "英伟达GTC大会聚焦Rubin架构 AI算力再跃升", summary: "英伟达展示最新AI芯片与基础设施技术突破，市场期待新一代架构发布。", category: "AI 基础设施", tags: ["AI芯片"], source: "示例资讯", time: "4小时前", url: "#", stocks: [{ name: "英伟达", change: "+2.1%", trend: "up" }] },
-      { id: 3, title: "SpaceX星舰第四次试飞成功 助推器软着陆", summary: "星舰完成第四次轨道试飞，助推器成功在墨西哥湾软着陆。", category: "商业航天", tags: ["SpaceX"], source: "澎湃新闻", time: "6小时前", url: "#", stocks: [] }
-    ];
-
-    var A = window.AID;
-    var ALL = [], CURRENT = '推荐', DIGEST = null;
-    var FEED = [], SHOWN = 0, PAGE = 40;
-    var SEARCH_Q = '';
-
-    function newsTime(n) { return A.relTime(n.ts) || n.time || ''; }
-    function goCall(id) { return 'go(' + JSON.stringify(String(id)).replace(/"/g, '&quot;') + ')'; }
-
-    function highlight(text, q) {
-      var s = A.esc(text || '');
-      if (!q) return s;
-      var needle = A.esc(q);
-      if (!needle) return s;
-      try {
-        return s.replace(new RegExp('(' + needle.replace(/[.*+?^${}()|[\]\\]/g, '\\$&') + ')', 'ig'), '<mark>$1</mark>');
-      } catch (e) { return s; }
-    }
-
-    function metaRow(n) {
-      var h = '<span class="chip">' + A.esc(n.category) + '</span>';
-      if (n.source) h += '<span>' + A.esc(n.source) + '</span>';
-      var t = newsTime(n);
-      if (t) h += '<span class="dot"></span><span>' + A.esc(t) + '</span>';
-      var strongStock = A.strongStocks(n)[0];
-      if (strongStock) h += A.stockTag(strongStock);
-      return h;
-    }
-
-    function heroHTML(n) {
-      return '<div class="hero" onclick="' + goCall(n.id) + '">' +
-        A.coverHTML(n, { label: false }) +
-        '<div class="hero-scrim"></div>' +
-        '<div class="hero-text">' +
-          '<span class="hero-badge">头条 · ' + A.esc(n.category) + '</span>' +
-          '<div class="hero-title">' + A.esc(n.title) + '</div>' +
-          '<div class="hero-meta">' + A.esc(n.source || '') + (newsTime(n) ? ' · ' + A.esc(newsTime(n)) : '') + '</div>' +
-        '</div></div>';
-    }
-
-    function itemHTML(n, q) {
-      return '<div class="item" onclick="' + goCall(n.id) + '">' +
-        '<div class="item-body">' +
-          '<div class="item-title">' + highlight(n.title, q) + '</div>' +
-          (n.summary ? '<div class="item-summary">' + highlight(n.summary, q) + '</div>' : '') +
-          '<div class="item-meta">' + metaRow(n) + '</div>' +
-        '</div>' +
-        A.coverHTML(n) +
-      '</div>';
-    }
-
-    function hotHTML(list) {
-      var top = list.slice().sort(function (a, b) { return A.heat(b) - A.heat(a); }).slice(0, 6);
-      var h = '<div class="hot"><div class="hot-head">推荐指数</div>';
-      top.forEach(function (n, i) {
-        h += '<div class="hot-row" onclick="' + goCall(n.id) + '">' +
-          '<span class="hot-rank">' + (i + 1) + '</span>' +
-          '<span class="hot-title">' + A.esc(n.title) + '</span>' +
-          '<span class="hot-heat">' + A.heat(n) + '</span></div>';
-      });
-      return h + '</div>';
-    }
-
-    function digestHTML() {
-      if (!DIGEST || !DIGEST.text) return '';
-      var h = '<div class="digest"><div class="digest-head">今日综述 · AI 生成</div>' +
-        '<div class="digest-text">' + A.esc(DIGEST.text) + '</div>';
-      var hls = (DIGEST.highlights || []).map(function (id) {
-        return ALL.filter(function (x) { return x.id === id; })[0];
-      }).filter(Boolean);
-      if (hls.length) {
-        h += '<div class="digest-hl">';
-        hls.forEach(function (n, i) {
-          h += '<a href="javascript:void(0)" onclick="' + goCall(n.id) + '">' +
-            '<span class="n">' + (i + 1) + '</span><span class="t">' + A.esc(n.title) + '</span></a>';
-        });
-        h += '</div>';
-      }
-      return h + '</div>';
-    }
-
-    function renderFeed() {
-      document.getElementById('feed').innerHTML = FEED.slice(0, SHOWN).map(function (n) {
-        return itemHTML(n, SEARCH_Q);
-      }).join('');
-      var more = document.getElementById('more');
-      more.innerHTML = SHOWN < FEED.length
-        ? '<div class="more-btn" onclick="loadMore()">加载更多(剩 ' + (FEED.length - SHOWN) + ' 条)</div>'
-        : (FEED.length > PAGE ? '<div class="more-end">— 到底了,共 ' + FEED.length + ' 条 —</div>' : '');
-    }
-    window.loadMore = function () { SHOWN += PAGE; renderFeed(); };
-
-    function searchHits(q) {
-      var needle = q.toLowerCase();
-      return ALL.filter(function (n) {
-        var stocks = (n.stocks || []).map(function (s) { return (s.name || '') + ' ' + (s.ticker || '') + ' ' + (s.reason || ''); }).join(' ');
-        var tags = (n.tags || []).join(' ');
-        var hay = [n.title, n.summary, n.category, n.source, tags, stocks].join(' ').toLowerCase();
-        return hay.indexOf(needle) >= 0;
-      });
-    }
-
-    function renderSearch(q) {
-      SEARCH_Q = q;
-      var hits = searchHits(q);
-      FEED = hits;
-      SHOWN = PAGE;
-      document.getElementById('view').innerHTML =
-        '<div class="section-title"><span class="bar"></span>“' + A.esc(q) + '” · ' + hits.length + ' 条</div>' +
-        (hits.length ? '<div class="feed" id="feed"></div><div id="more"></div>' : '<div class="empty">没有匹配的新闻</div>');
-      if (hits.length) renderFeed();
-    }
-
-    function render() {
-      SEARCH_Q = '';
-      var list = CURRENT === '推荐' ? ALL : ALL.filter(function (n) { return n.category === CURRENT; });
-      var view = document.getElementById('view');
-      if (!list.length) { view.innerHTML = '<div class="empty">该分类暂无内容</div>'; return; }
-
-      var html = '';
-      if (CURRENT === '推荐') {
-        html += digestHTML();
-        html += heroHTML(list[0]);
-        html += hotHTML(list);
-        html += '<div class="section-title"><span class="bar"></span>最新资讯</div>';
-        FEED = list.slice(1);
-      } else {
-        html += '<div class="section-title"><span class="bar"></span>' + A.esc(CURRENT) + ' · ' + list.length + ' 条</div>';
-        FEED = list;
-      }
-      html += '<div class="feed" id="feed"></div><div id="more"></div>';
-      view.innerHTML = html;
-      SHOWN = PAGE;
-      renderFeed();
-      window.scrollTo(0, 0);
-    }
-
-    function buildTabs() {
-      var cats = ['推荐'];
-      ALL.forEach(function (n) { if (cats.indexOf(n.category) < 0) cats.push(n.category); });
-      var order = A.catOrder || [];
-      cats = cats.slice(0, 1).concat(cats.slice(1).sort(function (a, b) {
-        var ia = order.indexOf(a);
-        var ib = order.indexOf(b);
-        if (ia < 0) ia = 999;
-        if (ib < 0) ib = 999;
-        return ia - ib || a.localeCompare(b, 'zh-Hans-CN');
-      }));
-      var el = document.getElementById('tabs');
-      el.innerHTML = cats.map(function (c) {
-        return '<div class="tab' + (c === CURRENT ? ' active' : '') + '" data-cat="' + A.esc(c) + '">' + A.esc(c) + '</div>';
-      }).join('');
-      el.querySelectorAll('.tab').forEach(function (t) {
-        t.onclick = function () {
-          CURRENT = t.getAttribute('data-cat');
-          el.querySelectorAll('.tab').forEach(function (x) { x.classList.remove('active'); });
-          t.classList.add('active');
-          closeSearch(true);
-          render();
-        };
-      });
-    }
-
-    window.go = function (id) { location.href = 'detail.html?id=' + encodeURIComponent(id); };
-
-    document.getElementById('themeBtn').onclick = function () { A.toggleTheme(); };
-
-    A.bindChatControls();
-    document.getElementById('chatBtn').onclick = function () { A.openChat(); };
-
-    var searchBar = document.getElementById('searchBar');
-    var searchInput = document.getElementById('searchInput');
-    var searchTimer = null;
-
-    function openSearch() {
-      searchBar.hidden = false;
-      searchInput.focus();
-    }
-    function closeSearch(keepView) {
-      searchBar.hidden = true;
-      searchInput.value = '';
-      SEARCH_Q = '';
-      if (!keepView) render();
-    }
-    document.getElementById('searchBtn').onclick = function () {
-      if (searchBar.hidden) openSearch();
-      else closeSearch();
-    };
-    document.getElementById('searchClear').onclick = function () { closeSearch(); };
-    searchInput.addEventListener('input', function () {
-      clearTimeout(searchTimer);
-      searchTimer = setTimeout(function () {
-        var q = searchInput.value.trim();
-        if (!q) { SEARCH_Q = ''; render(); return; }
-        renderSearch(q);
-      }, 180);
-    });
-    searchInput.addEventListener('keydown', function (e) {
-      if (e.key === 'Escape') closeSearch();
-    });
-
-    A.loadNews(FALLBACK_NEWS, function (data, digest) {
-      ALL = data;
-      DIGEST = digest;
-      document.getElementById('skeleton').style.display = 'none';
-      buildTabs();
-      render();
-      if (A.getParam('chat') === '1') A.openChat();
-    });
-  </script>
-</body>
+      <nav class="tabs" id="tabs" aria-label="资讯分类"></nav>
+    </header>
+    <main class="wrap home-wrap">
+      <div class="update-bar">
+        <button
+          id="updateStatus"
+          aria-expanded="false"
+          aria-controls="updateInfo"
+        >
+          正在读取更新状态</button
+        ><button
+          class="icon-btn"
+          id="refreshBtn"
+          title="刷新资讯"
+          aria-label="刷新资讯"
+        >
+          <span
+            class="ui-icon"
+            style="--icon: url(/assets/icons/refresh-cw.svg)"
+          ></span>
+        </button>
+      </div>
+      <div id="updateInfo" class="update-info" hidden></div>
+      <button id="newNews" class="new-news" hidden></button>
+      <section class="search-area" id="searchBar" hidden>
+        <label class="search-field"
+          ><span
+            class="ui-icon"
+            style="--icon: url(/assets/icons/search.svg)"
+          ></span
+          ><input
+            type="search"
+            id="searchInput"
+            placeholder="搜索全部历史资讯"
+            aria-label="搜索全部历史资讯" /><button
+            class="icon-btn"
+            id="searchClear"
+            title="关闭搜索"
+            aria-label="关闭搜索"
+          >
+            <span
+              class="ui-icon"
+              style="--icon: url(/assets/icons/x.svg)"
+            ></span></button
+        ></label>
+        <div class="filters">
+          <label
+            >来源<select id="sourceFilter">
+              <option value="">全部来源</option>
+            </select></label
+          ><label>起始日期<input type="date" id="fromFilter" /></label
+          ><label>截止日期<input type="date" id="toFilter" /></label>
+        </div>
+      </section>
+      <div class="home-columns">
+        <section class="news-column">
+          <div id="digest"></div>
+          <div class="section-title">
+            <h1 id="feedTitle">最新资讯</h1>
+            <span id="resultCount"></span>
+          </div>
+          <div id="feed" class="feed"><div class="empty">加载中…</div></div>
+          <button id="more" class="more-btn" hidden>加载更多</button>
+        </section>
+        <aside class="side-column">
+          <h2>今日重点</h2>
+          <div id="highlights"></div>
+          <p class="aside-note">依据今日综述选取</p>
+          <h2>更新记录</h2>
+          <div id="updateDetails"></div>
+        </aside>
+      </div>
+    </main>
+    <nav class="tabbar">
+      <a class="tabbar-btn active" href="/"
+        ><span
+          class="ui-icon"
+          style="--icon: url(/assets/icons/newspaper.svg)"
+        ></span
+        ><span>资讯</span></a
+      ><a class="tabbar-btn" href="stock.html"
+        ><span
+          class="ui-icon"
+          style="--icon: url(/assets/icons/chart-no-axes-combined.svg)"
+        ></span
+        ><span>行情</span></a
+      ><button class="tabbar-btn" id="savedBtn">
+        <span
+          class="ui-icon"
+          style="--icon: url(/assets/icons/bookmark.svg)"
+        ></span
+        ><span>收藏</span></button
+      ><button class="tabbar-btn" id="chatBtn">
+        <span
+          class="ui-icon"
+          style="--icon: url(/assets/icons/message-circle.svg)"
+        ></span
+        ><span>问 AI</span>
+      </button>
+    </nav>
+  </body>
 </html>

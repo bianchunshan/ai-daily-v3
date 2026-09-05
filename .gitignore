@@ -1,6 +1,10 @@
 .vercel
 e.log
 node_modules/
+__pycache__/
+*.pyc
+.env*
+.test-output/
 android/.gradle/
 android/app/build/
 dist-apk/
