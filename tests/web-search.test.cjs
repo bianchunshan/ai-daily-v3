@@ -26,3 +26,18 @@ test('Unrelated fallback RSS results are not exposed as evidence', async t => {
   assert.deepEqual(await webSearch('英伟达最新进展'), []);
   assert.equal(calls, 2);
 });
+
+test('Kimi search uses the official service and returns dated evidence', async t => {
+  const oldKey = process.env.KIMI_KEY;
+  process.env.KIMI_KEY = 'test-kimi-key';
+  t.after(() => { if (oldKey === undefined) delete process.env.KIMI_KEY; else process.env.KIMI_KEY = oldKey; });
+  t.mock.method(global, 'fetch', async (url, options) => {
+    assert.equal(url, 'https://api.kimi.com/coding/v1/search');
+    assert.equal(options.headers.Authorization, 'Bearer test-kimi-key');
+    assert.equal(JSON.parse(options.body).text_query, 'WebGLRenderer docs');
+    return new Response(JSON.stringify({ search_results: [{ title: 'WebGLRenderer', url: 'https://threejs.org/docs/pages/WebGLRenderer.html', snippet: 'Official renderer API', site_name: 'Three.js', date: '2026-09-05' }] }));
+  });
+  const results = await webSearch('WebGLRenderer docs');
+  assert.equal(results[0].source, 'Three.js');
+  assert.equal(results[0].date, '2026-09-05');
+});

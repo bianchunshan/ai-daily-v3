@@ -55,6 +55,17 @@ def run(args, timeout=None, **kwargs):
     return subprocess.run(args, check=True, text=True, timeout=timeout, **kwargs)
 
 
+def sync_remote():
+    run(["/usr/bin/git", "fetch", "origin", "main", "--quiet"], cwd=REPO_DIR, timeout=30)
+    try:
+        run(["/usr/bin/git", "merge", "--no-edit", "origin/main"], cwd=REPO_DIR, timeout=15)
+    except subprocess.CalledProcessError:
+        merge = subprocess.run(["/usr/bin/git", "rev-parse", "-q", "--verify", "MERGE_HEAD"], cwd=REPO_DIR, capture_output=True)
+        if merge.returncode == 0:
+            run(["/usr/bin/git", "merge", "--abort"], cwd=REPO_DIR, timeout=15)
+        raise
+
+
 def push_remote():
     for attempt in range(3):
         try:
@@ -63,6 +74,10 @@ def push_remote():
         except (subprocess.TimeoutExpired, subprocess.CalledProcessError) as exc:
             log("git_push_retry", attempt=attempt + 1, error=str(exc)[:300])
             if attempt < 2:
+                try:
+                    sync_remote()
+                except (subprocess.TimeoutExpired, subprocess.CalledProcessError) as sync_error:
+                    log("git_sync_failed", error=str(sync_error)[:300])
                 time.sleep(2 ** (attempt + 1))
     log("data_pending_publish", action="retry_next_scheduled_run")
     return False
@@ -84,8 +99,7 @@ def ensure_repo():
         push_changes()
     # GitHub 网络异常不应阻塞本机抓取；本地提交保留，下一轮再同步。
     try:
-        run(["/usr/bin/git", "fetch", "origin", "main", "--quiet"], cwd=REPO_DIR, timeout=30)
-        run(["/usr/bin/git", "merge", "--ff-only", "origin/main"], cwd=REPO_DIR, timeout=15)
+        sync_remote()
     except (subprocess.TimeoutExpired, subprocess.CalledProcessError) as exc:
         log("git_sync_failed", error=str(exc)[:300])
     # Retry a commit left ahead of origin by a previous transient push failure.
