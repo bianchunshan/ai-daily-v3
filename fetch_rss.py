@@ -49,6 +49,10 @@ TAG_RE = re.compile(r"<[^>]+>")
 LAST_SOURCE_STATUS = []
 
 
+class FeedReturnedHTML(ValueError):
+    """The source returned a web page instead of its advertised feed."""
+
+
 def clean_text(s, limit=240):
     if not s:
         return ""
@@ -136,10 +140,14 @@ def fetch_feed(source, url, default_cat):
     req = urllib.request.Request(url, headers={"User-Agent": UA, "Accept": "application/rss+xml, application/atom+xml, */*"})
     with urllib.request.urlopen(req, timeout=30) as r:
         xml = r.read().decode('utf-8', 'replace')
+        if re.match(r'\s*(?:<!doctype\s+html\b|<html\b)', xml, re.I):
+            raise FeedReturnedHTML('来源返回网页或验证页,不是 RSS')
         # Some feeds contain bare ampersands or XML 1.0 control characters.
         xml = re.sub(r'[\x00-\x08\x0b\x0c\x0e-\x1f]', '', xml)
         xml = re.sub(r'&(?!amp;|lt;|gt;|quot;|apos;|#\d+;|#x[\da-fA-F]+;)', '&amp;', xml)
         root = ET.fromstring(xml)
+        if strip_ns(root.tag).lower() == 'html':
+            raise FeedReturnedHTML('来源返回网页或验证页,不是 RSS')
 
     items = []
     # RSS 2.0: channel/item ; Atom: entry

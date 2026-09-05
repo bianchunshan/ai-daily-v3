@@ -21,6 +21,7 @@ fs.mkdirSync(out, { recursive: true });
     );
     await page.goto(base);
     await page.locator(".item-title").first().waitFor();
+    await page.waitForLoadState("networkidle");
     await page.screenshot({ path: path.join(out, "desktop.png") });
     assert.equal(await page.locator(".item").count(), 40);
     results.checks.push("40 items on initial page");
@@ -39,6 +40,7 @@ fs.mkdirSync(out, { recursive: true });
     results.checks.push("full archive title searchable");
     await page.locator("#searchClear").click();
     await page.locator(".item-title").first().waitFor();
+    await page.waitForLoadState("networkidle");
     for (const width of [390, 320]) {
       await page.setViewportSize({ width, height: width === 320 ? 568 : 844 });
       const dim = await page.evaluate(() => ({
@@ -100,7 +102,7 @@ fs.mkdirSync(out, { recursive: true });
     await page.locator("#chatInput").fill("它和上一代有什么变化？");
     await page.locator("#chatSend").click();
     await page.waitForFunction(
-      () => !document.getElementById("chatSend").hidden,
+      () => !document.getElementById("chatSend").hidden && document.getElementById("chatMsgs").textContent.includes("追问请求已验证"),
     );
     assert.equal(requestBodies[1].history.length, 2);
     results.checks.push("live AI success and follow-up carries history");

@@ -32,3 +32,16 @@ for (const name of [
     path.join(root, "node_modules/lucide-static/icons", name + ".svg"),
     path.join(root, "assets/icons", name + ".svg"),
   );
+
+const output = path.join(root, "public");
+for (const name of ["marked", "dompurify", "lucide-static"]) {
+  fs.copyFileSync(
+    path.join(root, "node_modules", name, "LICENSE"),
+    path.join(vendor, name + ".LICENSE"),
+  );
+}
+fs.mkdirSync(output, { recursive: true });
+for (const name of ["index.html", "detail.html", "stock.html"]) {
+  fs.copyFileSync(path.join(root, name), path.join(output, name));
+}
+fs.cpSync(path.join(root, "assets"), path.join(output, "assets"), { recursive: true });

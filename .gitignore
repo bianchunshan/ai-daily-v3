@@ -5,6 +5,7 @@ __pycache__/
 *.pyc
 .env*
 .test-output/
+public/
 android/.gradle/
 android/app/build/
 dist-apk/
