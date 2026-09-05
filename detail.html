@@ -6,13 +6,15 @@
       name="viewport"
       content="width=device-width, initial-scale=1.0, viewport-fit=cover"
     />
-    <meta name="theme-color" content="#e60012" />
-    <meta name="description" content="前沿科技日报 · 资讯详情" />
-    <meta property="og:title" content="资讯详情 · 前沿科技日报" />
+    <meta name="theme-color" content="#087f82" />
+    <meta name="description" content="前序 · 资讯详情" />
+    <meta property="og:title" content="资讯详情 · 前序" />
     <meta property="og:type" content="article" />
-    <title>资讯详情 · 前沿科技日报</title>
-    <link rel="icon" type="image/svg+xml" href="/assets/icons/newspaper.svg" />
-    <link rel="stylesheet" href="assets/theme.css?v=20260905c" />
+    <meta property="og:site_name" content="前序" />
+    <title>资讯详情 · 前序</title>
+    <link rel="icon" type="image/png" href="/assets/brand/qianxu-symbol-v1.png" />
+    <link rel="apple-touch-icon" href="/assets/brand/qianxu-symbol-v1.png" />
+    <link rel="stylesheet" href="assets/theme.css?v=20260905-brand1" />
     <script>
       (function () {
         try {
@@ -42,7 +44,7 @@
           style="--icon: url(/assets/icons/arrow-left.svg)"
         ></span>
       </button>
-      <div class="ht">资讯详情</div>
+      <div class="ht page-identity"><a class="page-brand" href="/" aria-label="前序首页"><img src="/assets/brand/qianxu-symbol-v1.png" width="30" height="30" alt="" /><span>前序</span></a><span class="page-kind">资讯详情</span></div>
       <button class="icon-btn head-ask" id="askBtn" aria-label="问AI">
         <span
           class="ui-icon"
@@ -102,7 +104,7 @@
 
       function renderArticle(news, bodyText) {
         var el = document.getElementById("article");
-        document.title = news.title + " · 前沿科技日报";
+        document.title = news.title + " · 前序";
         try {
           var og = document.querySelector('meta[property="og:title"]');
           if (og) og.setAttribute("content", news.title);

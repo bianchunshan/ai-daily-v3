@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>前序 · 品牌标识</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; letter-spacing: 0; }
+    body { background: #fff; color: #1d2d2f; font-family: "PingFang SC", "Microsoft YaHei", sans-serif; }
+    .sheet { width: 1200px; max-width: 100%; margin: auto; }
+    .identity { min-height: 560px; padding: 42px 64px 48px; display: flex; flex-direction: column; }
+    .eyebrow { display: flex; justify-content: space-between; font-size: 12px; color: #627777; }
+    .eyebrow b { font-weight: 500; }
+    .lockup { display: flex; gap: 22px; align-items: center; justify-content: center; flex: 1; padding: 48px 0 22px; }
+    .lockup img { width: 160px; height: 160px; object-fit: contain; }
+    .name { font-size: 100px; line-height: 1.1; font-weight: 650; }
+    .roman { font: 18px/1.5 "SFMono-Regular", Consolas, monospace; color: #637877; margin-top: 12px; }
+    .tagline { text-align: center; font-size: 22px; line-height: 1.6; color: #54716f; margin-top: 12px; }
+    .palette { display: flex; gap: 28px; justify-content: center; margin-top: 50px; color: #738581; font: 10px/1.5 "SFMono-Regular", Consolas, monospace; }
+    .palette span { display: flex; gap: 8px; align-items: center; }
+    .palette i { width: 9px; height: 9px; display: block; background: var(--c); }
+    .applications { display: grid; grid-template-columns: 1fr 1fr; border-top: 1px solid #e5ebea; }
+    .sample { height: 212px; padding: 28px 42px; display: flex; flex-direction: column; justify-content: space-between; background: #f5f7f7; }
+    .sample.dark { background: #172729; color: #f1f7f6; }
+    .label { color: #7d9390; font-size: 11px; }
+    .small-logo { display: flex; align-items: center; gap: 10px; padding-bottom: 16px; }
+    .small-logo img { width: 48px; height: 48px; object-fit: contain; }
+    .small-logo strong { font-size: 28px; font-weight: 650; }
+    .small-logo .latin { display: block; color: #76908c; font: 10px/1.6 "SFMono-Regular", Consolas, monospace; }
+    .tiny { margin-left: auto; display: flex; align-items: center; gap: 20px; }
+    .tiny img:first-child { width: 24px; height: 24px; }
+    .tiny img:last-child { width: 16px; height: 16px; }
+    @media(max-width:600px) { .identity { padding: 30px 24px; min-height: 480px; } .lockup { gap: 12px; } .lockup img { width: 100px; height: 100px; } .name { font-size: 64px; } .roman { font-size: 12px; } .applications { grid-template-columns: 1fr; } .sample { height: 175px; padding: 24px; } }
+  </style>
+</head>
+<body>
+  <main class="sheet">
+    <section class="identity">
+      <div class="eyebrow"><b>前序 / QIANXU</b><span>BRAND IDENTITY · 2026</span></div>
+      <div class="lockup"><img src="../assets/brand/qianxu-symbol-v1.png" alt="前序标识" width="160" height="160" /><div><h1 class="name">前序</h1><p class="roman">QIANXU</p></div></div>
+      <p class="tagline">科技的下一页</p>
+      <div class="palette"><span><i style="--c:#087f82"></i>#087F82</span><span><i style="--c:#f06450"></i>#F06450</span><span><i style="--c:#1d2d2f"></i>#1D2D2F</span></div>
+    </section>
+    <section class="applications">
+      <div class="sample"><p class="label">浅色 / LIGHT</p><div class="small-logo"><img src="../assets/brand/qianxu-symbol-v1.png" alt="" /><div><strong>前序</strong><span class="latin">QIANXU</span></div><div class="tiny"><img src="../assets/brand/qianxu-symbol-v1.png" alt="24像素图标" /><img src="../assets/brand/qianxu-symbol-v1.png" alt="16像素图标" /></div></div></div>
+      <div class="sample dark"><p class="label">深色 / DARK</p><div class="small-logo"><img src="../assets/brand/qianxu-symbol-v1.png" alt="" /><div><strong>前序</strong><span class="latin">QIANXU</span></div><div class="tiny"><img src="../assets/brand/qianxu-symbol-v1.png" alt="24像素图标" /><img src="../assets/brand/qianxu-symbol-v1.png" alt="16像素图标" /></div></div></div>
+    </section>
+  </main>
+</body>
+</html>

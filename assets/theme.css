@@ -1,11 +1,11 @@
 :root {
-  --brand: #e60012;
-  --brand-ink: #ca0010;
-  --brand-soft: #fff0f1;
-  --bg: #f5f6f8;
+  --brand: #087f82;
+  --brand-ink: #076569;
+  --brand-soft: #e8f5f3;
+  --bg: #f5f7f7;
   --surface: #fff;
   --surface-2: #eef1f4;
-  --text: #202428;
+  --text: #1d2d2f;
   --text-2: #505a63;
   --text-3: #697681;
   --border: #dfe4e8;
@@ -15,12 +15,12 @@
   --radius-sm: 6px;
   --shadow: none;
   --maxw: 1120px;
-  --accent: #167d82;
+  --accent: #aa4938;
 }
 html[data-theme="dark"] {
-  --brand: #ff5264;
-  --brand-ink: #ff7f8c;
-  --brand-soft: #382026;
+  --brand: #5dd0ca;
+  --brand-ink: #7bdcd7;
+  --brand-soft: #173636;
   --bg: #141719;
   --surface: #1e2326;
   --surface-2: #292f33;
@@ -30,7 +30,7 @@ html[data-theme="dark"] {
   --border: #384249;
   --up: #ff7684;
   --down: #53c994;
-  --accent: #68cbc6;
+  --accent: #ffab96;
 }
 * {
   box-sizing: border-box;
@@ -137,17 +137,41 @@ a:hover {
 }
 .logo {
   display: flex;
-  gap: 8px;
+  gap: 9px;
   align-items: center;
-  font-size: 20px;
-  font-weight: 750;
+  flex-shrink: 0;
 }
-.mark {
-  background: var(--brand);
-  color: #fff;
-  padding: 3px 6px;
-  font-size: 14px;
-  border-radius: 4px;
+.brand-symbol {
+  display: block;
+  width: 44px;
+  height: 44px;
+  object-fit: contain;
+}
+.brand-type {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+.brand-name {
+  font-family: "PingFang SC", "Microsoft YaHei", sans-serif;
+  font-size: 25px;
+  font-weight: 650;
+  line-height: 1;
+  color: var(--text);
+}
+.brand-roman {
+  font-family: "SFMono-Regular", Consolas, monospace;
+  font-size: 9px;
+  line-height: 1;
+  color: var(--text-3);
+}
+.brand-category {
+  margin-left: 12px;
+  padding-left: 17px;
+  border-left: 1px solid var(--border);
+  color: var(--text-3);
+  font-size: 12px;
+  font-weight: 400;
 }
 .topbar-actions {
   display: flex;
@@ -525,6 +549,29 @@ a:hover {
   font-size: 16px;
   font-weight: 600;
 }
+.page-identity, .page-brand {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  min-width: 0;
+}
+.page-brand {
+  font-size: 19px;
+  font-weight: 650;
+  flex-shrink: 0;
+}
+.page-brand img {
+  display: block;
+  object-fit: contain;
+}
+.page-kind {
+  color: var(--text-3);
+  font-size: 12px;
+  font-weight: 400;
+  border-left: 1px solid var(--border);
+  margin-left: 5px;
+  padding-left: 12px;
+}
 .article {
   max-width: 760px;
   margin: auto;
@@ -785,8 +832,8 @@ a:hover {
   .update-bar {
     font-size: 11px;
   }
-  .logo {
-    font-size: 19px;
+  .brand-category {
+    display: none;
   }
 }
 @media (max-width: 360px) {

@@ -12,6 +12,7 @@ const types = {
   ".css": "text/css; charset=utf-8",
   ".json": "application/json",
   ".svg": "image/svg+xml",
+  ".png": "image/png",
 };
 const server = http.createServer(async (req, res) => {
   const url = new URL(req.url, "http://localhost");
@@ -56,7 +57,7 @@ const server = http.createServer(async (req, res) => {
     if (
       !file.startsWith(root + path.sep) ||
       name.startsWith(".") ||
-      ![".html", ".css", ".js", ".svg", ".json"].includes(path.extname(file))
+      ![".html", ".css", ".js", ".svg", ".json", ".png"].includes(path.extname(file))
     )
       return res.status(404).end();
     res.setHeader("Content-Type", types[path.extname(file)]);
