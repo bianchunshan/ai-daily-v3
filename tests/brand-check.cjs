@@ -22,6 +22,16 @@ fs.mkdirSync(out, { recursive: true });
     await page.screenshot({ path: path.join(out, 'desktop-light.png') });
     await page.locator('#themeBtn').click();
     await page.screenshot({ path: path.join(out, 'desktop-dark.png') });
+    await page.locator('#chatBtn').click();
+    const contrast = await page.locator('#chatSend').evaluate(el => {
+      const luminance = color => color.match(/[\d.]+/g).slice(0, 3).map(Number).map(v => v / 255).map(v => v <= 0.04045 ? v / 12.92 : ((v + 0.055) / 1.055) ** 2.4).reduce((sum, v, i) => sum + v * [0.2126, 0.7152, 0.0722][i], 0);
+      const style = getComputedStyle(el);
+      const a = luminance(style.color), b = luminance(style.backgroundColor);
+      return (Math.max(a, b) + 0.05) / (Math.min(a, b) + 0.05);
+    });
+    assert(contrast >= 4.5);
+    result.checks.push('dark send button contrast ' + contrast.toFixed(2));
+    await page.locator('#chatClose').click();
     await page.locator('#themeBtn').click();
     for (const width of [390, 320]) {
       await page.setViewportSize({ width, height: width === 320 ? 568 : 844 });

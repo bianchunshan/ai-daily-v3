@@ -2,6 +2,7 @@
   --brand: #087f82;
   --brand-ink: #076569;
   --brand-soft: #e8f5f3;
+  --on-brand: #fff;
   --bg: #f5f7f7;
   --surface: #fff;
   --surface-2: #eef1f4;
@@ -21,6 +22,7 @@ html[data-theme="dark"] {
   --brand: #5dd0ca;
   --brand-ink: #7bdcd7;
   --brand-soft: #173636;
+  --on-brand: #103c3d;
   --bg: #141719;
   --surface: #1e2326;
   --surface-2: #292f33;
@@ -631,7 +633,7 @@ a:hover {
   display: block;
   padding: 13px 18px;
   background: var(--brand);
-  color: #fff;
+  color: var(--on-brand);
   border-radius: 6px;
   width: 100%;
   font-size: 15px;
@@ -777,7 +779,7 @@ a:hover {
 }
 .chat-input .send {
   background: var(--brand);
-  color: white;
+  color: var(--on-brand);
 }
 .chat-input button {
   width: 42px;
