@@ -2,10 +2,15 @@ import io
 import unittest
 from unittest.mock import patch
 
-from fetch_rss import FeedReturnedHTML, fetch_feed
+from fetch_rss import ArticleParagraph, FeedReturnedHTML, fetch_feed
 
 
 class FeedTests(unittest.TestCase):
+    def test_article_body_ignores_navigation_comments_and_scripts(self):
+        parser = ArticleParagraph()
+        parser.feed('<nav>Navigation</nav><div id="paragraph"><p>News</p><div>More</div><script>noise()</script></div><div>Comments</div>')
+        self.assertEqual(' '.join(parser.parts), 'News More')
+
     def test_html_challenge_is_not_treated_as_empty_feed(self):
         with patch('urllib.request.urlopen', return_value=io.BytesIO(b'<!doctype html><html>Verify</html>')):
             with self.assertRaises(FeedReturnedHTML):

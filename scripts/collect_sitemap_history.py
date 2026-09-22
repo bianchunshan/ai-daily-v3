@@ -77,7 +77,7 @@ def months(start, end):
         year, month = (year + 1, 1) if month == 12 else (year, month + 1)
 
 
-def extend(path):
+def extend(path, selected=None):
     manifest = read_json(path, {})
     start, end = aware(manifest['start']), aware(manifest['end'])
     existing = {canonical_url(n['url']): n for n in manifest['items']}
@@ -85,21 +85,35 @@ def extend(path):
         ('The Verge', '消费电子', lambda y, m: f'https://www.theverge.com/sitemaps/entries/{y}/{m}'),
         ("Tom's Hardware", '半导体与先进制造', lambda y, m: f'https://www.tomshardware.com/sitemap-{y}-{m:02d}.xml'),
         ('Space.com', '商业航天', lambda y, m: f'https://www.space.com/sitemap-{y}-{m:02d}.xml'),
+        ('Engadget', '消费电子', None),
     ]
     for source, category, sitemap in sources:
+        if selected and source not in selected:
+            continue
         report = next(r for r in manifest['sources'] if r['source'] == source)
         urls = set()
         errors = []
-        for year, month in months(start, end):
+        maps = [sitemap(year, month) for year, month in months(start, end)] if sitemap else []
+        if source == 'Engadget':
             try:
-                root = ET.fromstring(request(sitemap(year, month)))
+                root = ET.fromstring(request('https://www.engadget.com/sitemap_index.xml'))
+                for entry in root:
+                    fields = {n.tag.split('}')[-1]: n.text for n in entry}
+                    modified = aware(fields.get('lastmod', ''))
+                    if '/post-sitemap' in fields.get('loc', '') and (not modified or modified >= start):
+                        maps.append(fields['loc'])
+            except Exception as exc:
+                errors.append({'url': 'https://www.engadget.com/sitemap_index.xml', 'error': type(exc).__name__})
+        for map_url in maps:
+            try:
+                root = ET.fromstring(request(map_url))
                 for entry in root:
                     fields = {n.tag.split('}')[-1]: n.text for n in entry}
                     modified = aware(fields.get('lastmod', ''))
                     if fields.get('loc') and (not modified or modified >= start):
                         urls.add(fields['loc'])
             except Exception as exc:
-                errors.append({'url': sitemap(year, month), 'error': type(exc).__name__})
+                errors.append({'url': map_url, 'error': type(exc).__name__})
         todo = sorted(url for url in urls if canonical_url(url) not in existing)
         print(json.dumps({'source': source, 'articlePagesToCheck': len(todo)}, ensure_ascii=False), flush=True)
 
@@ -136,4 +150,6 @@ def extend(path):
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
     parser.add_argument('manifest')
-    extend(parser.parse_args().manifest)
+    parser.add_argument('--sources', help='Comma-separated source names to extend')
+    args = parser.parse_args()
+    extend(args.manifest, args.sources.split(',') if args.sources else None)

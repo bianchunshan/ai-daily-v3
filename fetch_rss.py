@@ -11,6 +11,7 @@ import urllib.request
 import xml.etree.ElementTree as ET
 from datetime import datetime, timezone
 from email.utils import parsedate_to_datetime
+from html.parser import HTMLParser
 
 # RSS 源(source 名 + 默认分类兜底,真正分类由模型判定)。国际源需翻译,中文源直接用。
 FEEDS = [
@@ -51,6 +52,38 @@ LAST_SOURCE_STATUS = []
 
 class FeedReturnedHTML(ValueError):
     """The source returned a web page instead of its advertised feed."""
+
+
+class ArticleParagraph(HTMLParser):
+    """IT Home's public article body, excluding navigation and comments."""
+    def __init__(self):
+        super().__init__()
+        self.depth, self.ignored, self.parts = 0, 0, []
+
+    def handle_starttag(self, tag, attrs):
+        if tag == 'div':
+            if self.depth or dict(attrs).get('id') == 'paragraph':
+                self.depth += 1
+        if self.depth and tag in ('script', 'style'):
+            self.ignored += 1
+
+    def handle_endtag(self, tag):
+        if tag == 'div' and self.depth:
+            self.depth -= 1
+        if tag in ('script', 'style') and self.ignored:
+            self.ignored -= 1
+
+    def handle_data(self, data):
+        if self.depth and not self.ignored:
+            self.parts.append(data)
+
+
+def fetch_ithome_text(url):
+    req = urllib.request.Request(url, headers={'User-Agent': UA})
+    with urllib.request.urlopen(req, timeout=15) as response:
+        parser = ArticleParagraph()
+        parser.feed(response.read(2_000_000).decode('utf-8', 'replace'))
+    return clean_text(' '.join(parser.parts), 3200)
 
 
 def clean_text(s, limit=240):
@@ -105,6 +138,8 @@ def parse_date(text):
     except Exception:
         pass
     try:
+        # Python 3.9 accepts microseconds, while some publishers emit 7-digit fractions.
+        text = re.sub(r'(\.\d{6})\d+(?=Z|[+-]\d{2}:\d{2}|$)', r'\1', text)
         return datetime.fromisoformat(text.replace("Z", "+00:00"))  # ISO (Atom)
     except Exception:
         return None

@@ -17,7 +17,7 @@ from urllib.parse import urlsplit, urlunsplit, parse_qsl, urlencode
 from datetime import datetime, timezone
 from concurrent.futures import ThreadPoolExecutor
 
-from fetch_rss import fetch_all, LAST_SOURCE_STATUS
+from fetch_rss import fetch_all, LAST_SOURCE_STATUS, fetch_ithome_text
 from news_export import export_news, write_json, read_json, write_status
 import backfill_queue as backfill
 
@@ -161,6 +161,13 @@ def fetch_article_text(url):
     """RSS 材料不足时,用 Jina Reader 拉取可读正文。失败返回空。"""
     if not url:
         return ''
+    if urlsplit(str(url)).hostname == 'www.ithome.com':
+        try:
+            text = fetch_ithome_text(url)
+            if len(text) >= MIN_SOURCE_CHARS:
+                return text
+        except Exception:
+            pass
     try:
         reader_url = 'https://r.jina.ai/' + str(url)
         req = urllib.request.Request(reader_url, headers={"User-Agent": "Mozilla/5.0"})
@@ -597,6 +604,7 @@ def main():
     for url in list(history.get('items', {})):
         if url in seen or url in queue:
             history['items'].pop(url)
+            history.setdefault('handled', []).append(url)
             history['alreadyKnown'] = history.get('alreadyKnown', 0) + 1
     print(f"已有 {len(existing)} 条,已见 URL {len(seen)} 个,开始抓取 RSS...")
 
