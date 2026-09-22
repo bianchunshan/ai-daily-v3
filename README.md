@@ -21,6 +21,7 @@ AI 驱动的中文科技日报。约每 10 分钟抓取中外科技 RSS/AIHOT �
 再用 `scripts/enqueue_news_history.py <manifest.json>` 在抓取锁空闲时导入队列。
 `backfill_queue.json` 跟随数据提交,定时任务每轮为历史候选保留 25 个名额
 (`AID_BACKFILL_CAP` 可覆盖),其余继续抓最新资讯;无新资讯时可用满单轮上限。
+历史队列按北京时间的日期轮流处理,避免高频来源让其他日期长时间空缺。
 源材料必须含真实发布时间,已有链接不重复导入,临时失败交给现有重试队列。
 `data/status.json.backfill` 记录进度;来源报告标记无法完整遍历的归档,不能把候选数当作入库数。
 

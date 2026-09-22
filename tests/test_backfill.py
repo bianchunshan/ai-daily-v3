@@ -80,6 +80,13 @@ class BackfillTests(unittest.TestCase):
         b.enqueue(manifest, state, set(), canonical_url)
         self.assertEqual(next(iter(state['items'])), early['url'])
 
+    def test_backfill_cycles_through_dates(self):
+        one, two, three = item(1), item(2), item(3)
+        one['_ts'], two['_ts'], three['_ts'] = '2026-09-12T01:00:00+08:00', '2026-09-12T02:00:00+08:00', '2026-09-13T01:00:00+08:00'
+        state = {'items': {}}
+        b.enqueue({'start': 'a', 'end': 'b', 'sources': [], 'items': [one, two, three]}, state, set(), canonical_url)
+        self.assertEqual(list(state['items']), [one['url'], three['url'], two['url']])
+
     def test_range_uses_beijing_midnight_and_rejects_unknown_dates(self):
         start, end = aware('2026-09-12T00:00:00+08:00'), aware('2026-09-23T00:00:00+08:00')
         self.assertTrue(within({'_ts': '2026-09-11T16:00:00Z'}, start, end))
