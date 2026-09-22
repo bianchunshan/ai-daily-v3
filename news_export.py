@@ -53,7 +53,7 @@ def export_news(items, front, digest):
     return version
 
 
-def write_status(*, added=0, total=None, latest=None, pending=0, exhausted=0, sources=None, error=None):
+def write_status(*, added=0, total=None, latest=None, pending=0, exhausted=0, sources=None, error=None, backfill=None):
     previous = read_json(DATA_DIR / 'status.json', {})
     timestamp = now()
     if sources and not any(source.get('ok') for source in sources):
@@ -71,5 +71,7 @@ def write_status(*, added=0, total=None, latest=None, pending=0, exhausted=0, so
         status['lastIngestedAt'] = timestamp
     if sources is not None:
         status['sources'] = sources
+    if backfill is not None:
+        status['backfill'] = backfill
     write_json(DATA_DIR / 'status.json', status)
     return status

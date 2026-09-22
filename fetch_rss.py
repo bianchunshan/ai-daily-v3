@@ -136,7 +136,7 @@ def find_image(e, *html_texts):
     return ''
 
 
-def fetch_feed(source, url, default_cat):
+def fetch_feed(source, url, default_cat, limit=PER_FEED):
     req = urllib.request.Request(url, headers={"User-Agent": UA, "Accept": "application/rss+xml, application/atom+xml, */*"})
     with urllib.request.urlopen(req, timeout=30) as r:
         xml = r.read().decode('utf-8', 'replace')
@@ -153,7 +153,7 @@ def fetch_feed(source, url, default_cat):
     # RSS 2.0: channel/item ; Atom: entry
     nodes = root.iter()
     entries = [n for n in root.iter() if strip_ns(n.tag) in ("item", "entry")]
-    for e in entries[:PER_FEED]:
+    for e in entries[:limit]:
         d = {strip_ns(c.tag): c for c in e}
         title = clean_text(d["title"].text if "title" in d else "", 200)
         # 链接:RSS <link>文本;Atom <link href=...>

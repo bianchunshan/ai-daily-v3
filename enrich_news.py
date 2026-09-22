@@ -19,6 +19,7 @@ from concurrent.futures import ThreadPoolExecutor
 
 from fetch_rss import fetch_all, LAST_SOURCE_STATUS
 from news_export import export_news, write_json, read_json, write_status
+import backfill_queue as backfill
 
 KEEP = int(os.environ.get('AID_KEEP', 2000))  # 每个板块的累计上限(到顶才淘汰该板块最旧;可环境变量覆盖)
 CAP = int(os.environ.get('AID_CAP', 50))       # 单次最多富化多少条新条目(封顶模型成本;可覆盖)
@@ -592,6 +593,11 @@ def main():
     seen_list = read_seen(existing)
     seen = set(seen_list)
     seen.update(canonical_url(n.get('url')) for n in existing if n.get('url'))
+    history = backfill.load()
+    for url in list(history.get('items', {})):
+        if url in seen or url in queue:
+            history['items'].pop(url)
+            history['alreadyKnown'] = history.get('alreadyKnown', 0) + 1
     print(f"已有 {len(existing)} 条,已见 URL {len(seen)} 个,开始抓取 RSS...")
 
     raw = fetch_all()
@@ -601,11 +607,17 @@ def main():
                  and canonical_url(n['url']) not in queue]
     new = list({canonical_url(n['url']): n for n in new}.values())
     print(f"\n去重后新条目:{len(new)} 条")
+    if history.get('items'):
+        print(f"历史补抓待处理:{len(history['items'])} 条")
+    new = backfill.select_batch(new, history.get('items', {}), CAP, canonical_url,
+                                int(os.environ.get('AID_BACKFILL_CAP', '25')))
     if not new:
         write_json(RETRY_FILE, queue)
+        backfill.save(history)
         write_status(total=len(existing), latest=existing[0].get('ts') if existing else None,
                      pending=sum(not e.get('exhausted') for e in queue.values()),
-                     exhausted=sum(bool(e.get('exhausted')) for e in queue.values()), sources=LAST_SOURCE_STATUS)
+                     exhausted=sum(bool(e.get('exhausted')) for e in queue.values()), sources=LAST_SOURCE_STATUS,
+                     backfill=backfill.progress(history))
         print("无新条目,数据文件保持不变(不会触发提交/部署)")
         return
 
@@ -617,6 +629,7 @@ def main():
     processed = []
     for raw_item, outcome in zip(new, outcomes):
         update_retry(queue, raw_item, outcome)
+        backfill.record(history, raw_item, outcome, canonical_url)
         if outcome['status'] != 'retry':
             processed.append(canonical_url(raw_item['url']))
     write_json(RETRY_FILE, queue)
@@ -627,9 +640,11 @@ def main():
     if not enriched_new:
         # 避免无关或不合格条目在每次轮询中反复消耗模型。
         write_seen(seen_list + processed)
+        backfill.save(history)
         write_status(total=len(existing), latest=existing[0].get('ts') if existing else None,
                      pending=sum(not e.get('exhausted') for e in queue.values()),
-                     exhausted=sum(bool(e.get('exhausted')) for e in queue.values()), sources=LAST_SOURCE_STATUS)
+                     exhausted=sum(bool(e.get('exhausted')) for e in queue.values()), sources=LAST_SOURCE_STATUS,
+                     backfill=backfill.progress(history))
         print("本次无新增;暂时失败的条目保留在重试队列")
         return
 
@@ -659,9 +674,11 @@ def main():
 
     # 记录本次处理过的 URL,避免它们滚出窗口后被重复富化
     write_seen(seen_list + processed)
+    backfill.save(history)
     write_status(added=added, total=len(merged), latest=merged[0].get('ts') if merged else None,
                  pending=sum(not e.get('exhausted') for e in queue.values()),
-                 exhausted=sum(bool(e.get('exhausted')) for e in queue.values()), sources=LAST_SOURCE_STATUS)
+                 exhausted=sum(bool(e.get('exhausted')) for e in queue.values()), sources=LAST_SOURCE_STATUS,
+                 backfill=backfill.progress(history))
 
     print(f"\n✅ 已写入:新增 {len(enriched_new)} 条,全量 {len(merged)} 条,前端列表已拆分,已见 URL {len(seen_list)+len(new)} 个")
 

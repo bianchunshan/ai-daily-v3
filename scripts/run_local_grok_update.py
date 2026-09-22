@@ -43,6 +43,7 @@ DATA_FILES = [
     "news_chat_index.json",
     "seen_urls.json",
     "retry_queue.json",
+    "backfill_queue.json",
     "data",
 ]
 
