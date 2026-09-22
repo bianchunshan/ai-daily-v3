@@ -1,5 +1,7 @@
 """Backfill accounting; the regular runner owns all writes under its existing lock."""
-from datetime import datetime
+from collections import defaultdict
+from datetime import datetime, timedelta, timezone
+from itertools import zip_longest
 from news_export import read_json, write_json
 
 FILE = 'backfill_queue.json'
@@ -52,7 +54,12 @@ def enqueue(manifest, state, known, canonical):
         if key not in known and key not in state['items']:
             state['items'][key] = item
             added += 1
-    state['items'] = dict(sorted(state['items'].items(), key=lambda pair: datetime.fromisoformat(pair[1]['_ts'])))
+    # Cycle through dates so large source archives cannot leave entire gap days empty.
+    days = defaultdict(list)
+    for pair in sorted(state['items'].items(), key=lambda pair: datetime.fromisoformat(pair[1]['_ts'])):
+        day = datetime.fromisoformat(pair[1]['_ts']).astimezone(timezone(timedelta(hours=8))).date()
+        days[day].append(pair)
+    state['items'] = dict(pair for row in zip_longest(*days.values()) for pair in row if pair)
     reports = {r['source']: r for r in state.get('sources', [])}
     reports.update({r['source']: r for r in manifest['sources']})
     state.update(start=manifest['start'], end=manifest['end'], sources=list(reports.values()))
