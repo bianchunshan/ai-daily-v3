@@ -4,6 +4,18 @@ AI 驱动的中文科技日报。约每 10 分钟抓取中外科技 RSS/AIHOT �
 
 线上:https://ai-daily-v3.vercel.app
 
+## 当前本机运行方式
+
+生产抓取由本机 `com.steve.ai-daily-trigger` 定时任务每 10 分钟触发,入口为
+`scripts/run_local_grok_update.py`。富化使用本地 `Qwen3.6-35B-A3B-8bit`
+(`http://127.0.0.1:8799`),不调用 Kimi;下文 Kimi/Action 描述是备用运行方式。
+数据入库后推送 GitHub,无需重新部署网页即可更新资讯。
+
+模型接口不可用时,运行器会检查 `ai.local-mlx.qwen36.server`,恢复缺失或停止的服务,
+最多等待 90 秒。不会重启正在运行的模型,不会启用被明确禁用的服务,
+也不会修改自定义 `LOCAL_API_BASE` / `LOCAL_MODEL`。设置 `AID_MODEL_AUTOSTART=0`
+可关闭自动恢复。机器需开机、保持用户登录且可联网。
+
 ## 它自动做什么
 
 GitHub Action(`.github/workflows/update-news.yml`,`cron: 7,17,27,37,47,57 * * * *`)：

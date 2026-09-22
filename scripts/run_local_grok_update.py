@@ -5,6 +5,8 @@ import fcntl
 import json
 import os
 from pathlib import Path
+import plistlib
+import re
 import socket
 import subprocess
 import sys
@@ -23,9 +25,12 @@ PROXY_PORT = 18645
 # 本机模型 API(ai.mlx.auth-proxy)。token 不写死在仓库里,运行时从家目录读。
 # 使用本机常驻的 Qwen3.6-35B-A3B 推理服务,直连 mlx_lm.server,不经过外部模型。
 LOCAL_API_BASE = os.environ.get("LOCAL_API_BASE", "http://127.0.0.1:8799")
+MANAGED_MODEL = str(Path.home() / '.lmstudio/models/mlx-community/Qwen3.6-35B-A3B-8bit')
+MODEL_SERVICE = 'ai.local-mlx.qwen36.server'
+MODEL_PLIST = Path.home() / 'Library/LaunchAgents' / (MODEL_SERVICE + '.plist')
 LOCAL_MODEL = os.environ.get(
     "LOCAL_MODEL",
-    "/Users/steve/.lmstudio/models/mlx-community/Qwen3.6-35B-A3B-8bit",
+    MANAGED_MODEL,
 )
 # 提交信息里只写短名,别把整条模型路径塞进 git log
 LOCAL_MODEL_LABEL = os.environ.get("LOCAL_MODEL_LABEL", "qwen3.6-35b")
@@ -119,13 +124,57 @@ def read_local_key():
 
 
 def local_api_ready():
-    """模型服务没起来就整轮跳过,不要跑一半失败后留下半成品数据。"""
+    """Check the configured local endpoint without invoking generation."""
     try:
         # 直连 mlx_lm.server 时没有 /health,用 /v1/models 当探活端点
         with urllib.request.urlopen(f"{LOCAL_API_BASE}/v1/models", timeout=5) as resp:
             return resp.status == 200
     except Exception:
         return False
+
+
+def ensure_local_api(timeout=90):
+    if local_api_ready():
+        return True
+    # Only recover our known local service; do not change custom endpoints or overrides.
+    if (LOCAL_API_BASE.rstrip('/') != 'http://127.0.0.1:8799'
+            or LOCAL_MODEL != MANAGED_MODEL
+            or os.environ.get('AID_MODEL_AUTOSTART', '1') != '1'):
+        return False
+    try:
+        with MODEL_PLIST.open('rb') as handle:
+            config = plistlib.load(handle)
+        if config.get('Label') != MODEL_SERVICE or config.get('Disabled'):
+            return False
+        domain = f'gui/{os.getuid()}'
+        disabled = run(['/bin/launchctl', 'print-disabled', domain], capture_output=True, timeout=5)
+        if re.search(r'"' + re.escape(MODEL_SERVICE) + r'"\s*=>\s*(?:disabled|true)', disabled.stdout):
+            log('model_recovery_skipped', reason='service_explicitly_disabled')
+            return False
+        state = subprocess.run(['/bin/launchctl', 'print', domain + '/' + MODEL_SERVICE],
+                               capture_output=True, text=True, timeout=5)
+        if state.returncode != 0:
+            run(['/bin/launchctl', 'bootstrap', domain, str(MODEL_PLIST)], capture_output=True, timeout=10)
+            action = 'bootstrap'
+        elif re.search(r'\bstate\s*=\s*running\b', state.stdout):
+            action = 'wait_for_startup'
+        else:
+            # Without -k, kickstart never kills an existing model process.
+            run(['/bin/launchctl', 'kickstart', domain + '/' + MODEL_SERVICE], capture_output=True, timeout=10)
+            action = 'kickstart'
+        log('model_recovery_started', service=MODEL_SERVICE, action=action)
+        deadline = time.monotonic() + timeout
+        while time.monotonic() < deadline:
+            if local_api_ready():
+                log('model_recovered', service=MODEL_SERVICE)
+                return True
+            time.sleep(2)
+    except (OSError, ValueError, plistlib.InvalidFileException,
+            subprocess.SubprocessError) as exc:
+        log('model_recovery_failed', error=type(exc).__name__)
+        return False
+    log('model_recovery_failed', error='startup_timeout')
+    return False
 
 
 def wait_for_port(port, timeout=20):
@@ -183,7 +232,7 @@ def main():
         from news_export import write_status
         # 使用本机常驻模型(LaunchAgent ai.local-mlx.qwen36.server),
         # 不再按轮拉起 Hermes 的 xai proxy——本机服务一直在,少一个进程生命周期要管。
-        if not local_api_ready():
+        if not ensure_local_api():
             log("local_api_unavailable", url=LOCAL_API_BASE)
             os.chdir(REPO_DIR)
             write_status(error='model_unavailable')
