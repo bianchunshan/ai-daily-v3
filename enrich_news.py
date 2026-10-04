@@ -21,7 +21,6 @@ from fetch_rss import fetch_all, LAST_SOURCE_STATUS, fetch_ithome_text
 from news_export import export_news, write_json, read_json, write_status
 import backfill_queue as backfill
 
-KEEP = int(os.environ.get('AID_KEEP', 2000))  # 每个板块的累计上限(到顶才淘汰该板块最旧;可环境变量覆盖)
 CAP = int(os.environ.get('AID_CAP', 50))       # 单次最多富化多少条新条目(封顶模型成本;可覆盖)
 FRONTEND_DAYS = int(os.environ.get('AID_FRONTEND_DAYS', 14))  # 前端列表保留最近 N 天
 FRONTEND_MAX = int(os.environ.get('AID_FRONTEND_MAX', 800))   # 前端列表条数上限
@@ -477,15 +476,29 @@ def _extract_array(txt, varname):
 
 
 def read_existing():
-    """读取已有 news_data_latest.js 的 newsData,用于去重与保留最近条目。"""
+    """读取完整归档;损坏时停止更新,不能把已有历史当成空库覆盖。"""
     if not os.path.exists('news_data_latest.js'):
         return []
-    try:
-        arr = _extract_array(open('news_data_latest.js', encoding='utf-8').read(), 'newsData')
-        return json.loads(arr) if arr else []
-    except Exception as e:
-        print('读取旧数据失败,当作空:', e)
-        return []
+    with open('news_data_latest.js', encoding='utf-8') as handle:
+        arr = _extract_array(handle.read(), 'newsData')
+    if arr is None:
+        raise ValueError('archive newsData is missing')
+    return json.loads(arr)
+
+
+def merge_articles(items):
+    """保留所有归档,仅按来源 URL 去重;调用方将优先版本放在前面。"""
+    merged, seen = [], set()
+    for item in items:
+        key = canonical_url(item.get('url')) or item.get('id') or item.get('title', '')
+        if key in seen:
+            continue
+        seen.add(key)
+        entry = dict(item)
+        entry['id'] = entry.get('id') or stable_id(entry)
+        entry.pop('_ts', None)
+        merged.append(entry)
+    return sorted(merged, key=ts_key, reverse=True)
 
 
 SEEN_FILE = 'seen_urls.json'
@@ -656,25 +669,8 @@ def main():
         print("本次无新增;暂时失败的条目保留在重试队列")
         return
 
-    # 累计:新条目并入历史,按真实时间倒序(最新在上)
-    combined = enriched_new + existing
-    combined.sort(key=ts_key, reverse=True)
-    # 每个板块各留最新 KEEP 条(到顶才淘汰该板块最旧的),其余板块互不影响;同时按规范 URL 去重。
-    per_cat = {}
-    seen_merged = set()
-    merged = []
-    for n in combined:
-        key = canonical_url(n.get('url')) or n.get('title', '')
-        if key in seen_merged:
-            continue
-        seen_merged.add(key)
-        c = n.get('category', '其他')
-        per_cat[c] = per_cat.get(c, 0) + 1
-        if per_cat[c] <= KEEP:
-            merged.append(n)
-    for n in merged:   # merged 仍是全局时间倒序;id 必须稳定,不能随排序漂移
-        n['id'] = stable_id(n)
-        n.pop('_ts', None)
+    # 只对首页信息流限量,完整归档和分享链接不随时间淘汰。
+    merged = merge_articles(enriched_new + existing)
 
     print("生成今日综述...")
     digest = make_digest(merged)
