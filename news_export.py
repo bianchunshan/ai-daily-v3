@@ -58,10 +58,11 @@ def write_status(*, added=0, total=None, latest=None, pending=0, exhausted=0, so
     timestamp = now()
     if sources and not any(source.get('ok') for source in sources):
         error = error or 'all_sources_failed'
+    partial = pending or exhausted or any(not source.get('ok') for source in (sources or []))
     status = {
         **previous, 'checkedAt': timestamp, 'added': added,
         'pendingRetries': pending, 'exhaustedRetries': exhausted,
-        'state': 'error' if error else 'ok', 'error': error,
+        'state': 'error' if error else ('partial' if partial else 'ok'), 'error': error,
     }
     if total is not None:
         status['total'] = total

@@ -303,6 +303,7 @@ a:hover {
 }
 .section-title {
   display: flex;
+  flex-wrap: wrap;
   align-items: baseline;
   gap: 10px;
   padding: 18px 0 12px;
@@ -321,6 +322,32 @@ a:hover {
 }
 .section-title .bar {
   display: none;
+}
+.view-switch {
+  display: flex;
+  gap: 0;
+  padding: 12px 0;
+}
+.view-switch button {
+  min-height: 36px;
+  min-width: 72px;
+  padding: 6px 12px;
+  border: 1px solid var(--border);
+  background: var(--surface);
+  color: var(--text-2);
+  font-size: 13px;
+}
+.view-switch button:first-child { border-radius: 4px 0 0 4px; }
+.view-switch button:last-child { border-radius: 0 4px 4px 0; border-left: 0; }
+.view-switch button[aria-pressed="true"] {
+  background: var(--brand-soft);
+  color: var(--brand-ink);
+  font-weight: 600;
+}
+#updateStatus.warning,
+.update-info .warning,
+#updateDetails .warning {
+  color: var(--accent);
 }
 .item {
   display: flex;
@@ -850,7 +877,8 @@ a:hover {
     gap: 6px;
   }
   .filters label {
-    flex: 1 1 140px;
+    flex: 1 1 100%;
+    justify-content: space-between;
   }
   .filters input,
   .filters select {

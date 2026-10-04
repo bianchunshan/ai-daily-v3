@@ -45,11 +45,22 @@
     return isNaN(+d)
       ? ""
       : d.toLocaleString("zh-CN", {
+          timeZone: "Asia/Shanghai",
           month: "2-digit",
           day: "2-digit",
           hour: "2-digit",
           minute: "2-digit",
         });
+  }
+  function updateHealth(s, now) {
+    var checked = Date.parse(s.checkedAt);
+    if (!Number.isFinite(checked) || (now == null ? Date.now() : now) - checked >= 25 * 60000)
+      return { state: "stalled", label: "更新停滞" };
+    if (s.state === "error" || s.error) return { state: "error", label: "更新异常" };
+    if (s.stale || s.state === "partial" || s.pendingRetries > 0 || s.exhaustedRetries > 0 ||
+        (s.sources || []).some(function (source) { return !source.ok; }))
+      return { state: "partial", label: "部分异常" };
+    return { state: "ok", label: "检查正常" };
   }
   function relTime(ts) {
     if (!ts) return "";
@@ -449,6 +460,7 @@
     icon: icon,
     relTime: relTime,
     dateLabel: dateLabel,
+    updateHealth: updateHealth,
     catOrder: cats,
     initTheme: initTheme,
     toggleTheme: toggleTheme,

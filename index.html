@@ -17,11 +17,11 @@
     <title>前序 · 前沿科技情报</title>
     <link rel="icon" type="image/png" href="/assets/brand/qianxu-symbol-v1.png" />
     <link rel="apple-touch-icon" href="/assets/brand/qianxu-symbol-v1.png" />
-    <link rel="stylesheet" href="/assets/theme.css?v=20260905-brand2" />
+    <link rel="stylesheet" href="/assets/theme.css?v=20261004" />
     <script src="/assets/vendor/marked.js" defer></script>
     <script src="/assets/vendor/purify.js" defer></script>
-    <script src="/assets/app.js?v=20260905c" defer></script>
-    <script src="/assets/home.js?v=20260905c" defer></script>
+    <script src="/assets/app.js?v=20261004" defer></script>
+    <script src="/assets/home.js?v=20261004" defer></script>
   </head>
   <body>
     <header class="topbar">
@@ -105,8 +105,8 @@
             >来源<select id="sourceFilter">
               <option value="">全部来源</option>
             </select></label
-          ><label>起始日期<input type="date" id="fromFilter" /></label
-          ><label>截止日期<input type="date" id="toFilter" /></label>
+          ><label>起始日期（北京时间）<input type="date" id="fromFilter" /></label
+          ><label>截止日期（北京时间）<input type="date" id="toFilter" /></label>
         </div>
       </section>
       <div class="home-columns">
@@ -115,6 +115,10 @@
           <div class="section-title">
             <h1 id="feedTitle">最新资讯</h1>
             <span id="resultCount"></span>
+          </div>
+          <div class="view-switch" id="scopeFilter" role="group" aria-label="资讯范围">
+            <button type="button" data-archive="0" aria-pressed="true">近期</button>
+            <button type="button" data-archive="1" aria-pressed="false">全部历史</button>
           </div>
           <div id="feed" class="feed"><div class="empty">加载中…</div></div>
           <button id="more" class="more-btn" hidden>加载更多</button>

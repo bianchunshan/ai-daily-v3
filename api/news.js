@@ -44,7 +44,8 @@ module.exports = async function (req, res) {
     const offset = Math.max(0, Math.min(100000, parseInt(q.offset, 10) || 0));
     const limit = Math.max(1, Math.min(60, parseInt(q.limit, 10) || 40));
     let items;
-    if (q.q || q.archive === "1" || q.from || q.to || q.source) {
+    const archived = Boolean(q.q || q.archive === "1" || q.from || q.to || q.source);
+    if (archived) {
       items = await store.search(String(q.q || "").slice(0, 200), q);
     } else {
       items = feed.data.items.filter(
@@ -55,6 +56,8 @@ module.exports = async function (req, res) {
       items: items.slice(offset, offset + limit),
       total: items.length,
       archiveTotal: feed.data.total,
+      categoryTotal: q.category ? (feed.data.categories[q.category] || 0) : feed.data.total,
+      scope: archived ? "archive" : "recent",
       nextOffset: offset + limit < items.length ? offset + limit : null,
       digest: feed.data.digest,
       categories: feed.data.categories,
@@ -63,6 +66,7 @@ module.exports = async function (req, res) {
       status: { ...status.data, stale: status.stale || feed.stale },
     });
   } catch (error) {
+    if (error instanceof RangeError) return res.status(400).json({ error: error.message });
     return res.status(503).json({ error: "资讯暂时无法加载，请稍后重试。" });
   }
 };

@@ -35,7 +35,7 @@ fetch_rss.py 抓多路中外科技 RSS/AIHOT 源
       · 按 URL 对 seen_urls.json 去重,只处理没见过的新条目
       · 每条调 Kimi(kimi-for-coding)→ 中文标题/摘要/正文 + 分类 + 标签 + 关联标的
       · 非科技/科学/前沿产业/地缘科技相关内容直接跳过
-      · 单次最多富化 50 条(CAP);累计并入历史、带 ts 时间戳按时间倒序;每个板块各留最新 KEEP=2000 条(到顶才淘汰该板块最旧)
+      · 单次最多富化 50 条(CAP);完整归档按时间倒序保留,不按分类条数淘汰;仅首页轻量列表限量
       · 生成今日综述 newsDigest
       · 写全量 news_data_latest.js + 前端轻量 news_data_list.js + news_bodies.json + news_chat_index.json
   → 抓到 <10 条则放弃(防覆盖)
@@ -67,8 +67,12 @@ fetch_rss.py 抓多路中外科技 RSS/AIHOT 源
 ## 怎么改
 
 - **加/删数据源**:`fetch_rss.py` 的 `FEEDS` 列表(每项 `(来源名, RSS地址, 默认分类)`)和 `fetch_aihot_items()`。每源取多少条改 `PER_FEED` / `AIHOT_TAKE`。
-- **单次富化上限 / 每板块累计上限**:`enrich_news.py` 顶部 `CAP`(默认 50)、`KEEP`(默认 2000,**按板块**);也可用环境变量 `AID_CAP` / `AID_KEEP` 覆盖。
+- **单次富化上限**:`enrich_news.py` 顶部 `CAP`(默认 50),可用 `AID_CAP` 覆盖。完整归档不淘汰旧文章,旧的 `AID_KEEP` 设置不再生效。
 - **前端列表窗口**:`AID_FRONTEND_DAYS`(默认 14)、`AID_FRONTEND_MAX`(默认 800)、`AID_CHAT_INDEX_MAX`(默认 1500)。
+- **历史浏览**:首页和分类可切换“近期 / 全部历史”;关键词、来源和日期筛选查询完整归档。日期输入和展示统一为北京时间,截止日期包含当天。
+- **阅读状态**:筛选条件保存在 URL,列表分页和滚动位置保存在当前浏览器历史条目,进入详情后返回可继续阅读。
+- **历史恢复**:`python3 scripts/restore_news_archive.py --ref <已审核的历史提交>` 默认只预览缺失条数;加 `--apply` 才恢复。与定时抓取共用锁,保留当前内容和历史 ID,不调用模型。恢复后需提交并发布数据。
+- **更新健康状态**:来源失败、待重试或重试耗尽显示“部分异常”;管线错误显示“更新异常”;超过 25 分钟未检查显示“更新停滞”。
 - **更新频率**:`.github/workflows/update-news.yml` 的 `cron`。
 - **新闻富化模型**:`enrich_news.py` 默认 `ENRICH_PROVIDER=kimi`,使用 `KIMI_KEY` / `KIMI_MODEL=kimi-for-coding`;如需回退可设 `ENRICH_PROVIDER=qwen`。
 - **问 AI 模型**:`api/chat.js` 生产默认 Kimi;Vercel 设 `CHAT_PROVIDER=qwen` 可回退 Qwen。
